@@ -4,6 +4,8 @@ Explicit, machine-checkable bounds on open optimization constants. Each result c
 and at least one independently written checker. Each result lives in its own repository, linked below, so the
 links already in pull requests, issues and emails keep working. New results will be added here as folders.
 
+Start with the [short retro](RETRO.md): what we did, what broke, what I would do differently and where I think this is going.
+
 | Problem | Bound | Previous best | Status | Repository |
 | --- | --- | --- | --- | --- |
 | **C<sub>42</sub>**: Turán's pure power-sum constant ([Tao table 42a](https://teorth.github.io/optimizationproblems/constants/42a.html)) | C<sub>42</sub> ≤ **0.6888863712** | 0.6906538* on the table (Griego); 0.688970 proposed by Kerrigan Plata | Passed on the table by 0.6873358063* (Koshta). Preprint [hexagon:2610.00485](https://hexagonmath.org/2610.00485); unrefereed; [Tao-table PR #251](https://github.com/teorth/optimizationproblems/pull/251) **merged 2026-10-26 (UTC)**; exact interval and Arb checks pass; no optimality claimed | [c42-certificate](https://github.com/rpinho/c42-certificate) |

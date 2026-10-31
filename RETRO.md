@@ -5,6 +5,28 @@ Tao's [optimization-constants table](https://teorth.github.io/optimizationproble
 [problem 100](https://github.com/openai/math/blob/main/lean/docs/100.md) of OpenAI's math release. Each has an exact
 certificate and checkers. The work was done with AI models under my direction. None of it is refereed.
 
+## Update, October 30
+
+We went back to the table and filed three new bounds. All three are open pull requests, unrefereed, with the asterisk.
+
+- **C86 ≤ 1.80697883** ([#298](https://github.com/teorth/optimizationproblems/pull/298)). Ours had been passed. Smith's
+  criterion does not need the auxiliary polynomials to have real roots, so we allowed nonreal ones. The two doing most
+  of the work come from Flammang (2009) and McKee (2011).
+- **C44 ≤ 4.1225323803** ([#294](https://github.com/teorth/optimizationproblems/pull/294)), down from our 4.3576549226.
+  It changes two steps in Wellens's recurrence and keeps Épi's certificates.
+- **C68 ≥ 0.44667** ([#299](https://github.com/teorth/optimizationproblems/pull/299)). It sits directly on David
+  Niedbala Giraudin's 0.446 ([#274](https://github.com/teorth/optimizationproblems/pull/274)), which is still open and
+  should be credited first.
+
+I also filed [#300](https://github.com/teorth/optimizationproblems/pull/300), which records two C10a bounds by other
+people. Those are not mine.
+
+Notes for all three are submitted to Hexagon and are not public yet.
+
+None of this changes what is below. Each one still extends someone else's work, and C42 is still passed. No second
+party has checked any of them, so the asterisks stay. For the new C44, a different AI agent wrote a third checker from
+the proof text alone. That is better than what I describe below, but it is not a person.
+
 ## What we did
 
 I came in through [openai/math](https://github.com/openai/math) in early October, and the crowd around its
