@@ -1,0 +1,11 @@
+PASS: exact integer Gram matrices and nauty flag orbit tables.
+augmentation 2 2
+augmentation 3 4
+augmentation 4 11
+augmentation 5 34
+augmentation 6 156
+augmentation 7 1044
+augmentation 8 12346
+PASS: graph file equals complete vertex-augmentation enumeration.
+PASS: all coefficient inequalities by Python arbitrary-precision integers.
+bound 21083/1000000000 minimum slack 56963049278016000000000/47040000000000000000000000000000 graph index 198

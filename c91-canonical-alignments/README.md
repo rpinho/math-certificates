@@ -1,4 +1,4 @@
-# C91 >= 0.256801: canonical alignments with typical-set counting
+# C91 >= 0.259407: canonical alignments with frontier competitors
 
 Unrefereed. This certifies a lower bound on the average edit distance constant, the limit of E[ed(X,Y)]/n for two uniform random binary strings of length n, proposed as constant 91a in [PR #273](https://github.com/teorth/optimizationproblems/pull/273). No human expert has reviewed it line by line.
 
@@ -6,27 +6,27 @@ The best public lower bound I found was Leandre Jack's 0.216276, in that PR. Mon
 
 ## The idea
 
-Jack counts canonical optimal alignments by a first moment over five local rules. This adds three things: forbidding every noncanonical labeled word up to length 12, tracking long competing alignments of unbounded length, and counting only typical input strings through tilts on low-order spin correlations.
+Jack counts canonical optimal alignments by a first moment over five local rules. This adds three things: forbidding every noncanonical labeled word up to length 12, a dynamic program for long competing alignments with their own gaps, and counting only typical input strings through tilts on low-order spin correlations.
 
-The certificate is a positive vector on an automaton with 7,206,135 states. `AV < V` is checked in exact integers, and the final exponent in Arb. The threshold is 0.2568017632.
+The certificate is a positive vector on an automaton, with 29,006,665 rows. `AV < V` is checked in exact integers, and the final exponent in Arb. Round 2, at 0.256801, is kept in `round2/`.
 
 ## What's here
 
 - `PROOF.md`: the reduction and the certificate schema.
-- `candidate.json.gz`: the certificate. SHA-256 `472cb2e9a0bc3b377f0ea0bf4a8d052c93fa4be4a3c81d81566be92655165c67`.
-- `independent_verify.py`: imports no search code.
-- `verification.log`, `rational_exponent.json`: receipts.
-- `review/`: two AI reviews.
+- `candidate.json.gz`: the certificate.
+- `verify_frontier.py`, `verify_frontier.cpp`: the verifier. It imports no search code.
+- `verification.log`, `rational_exponent.json`, `summary.json`: receipts.
+- `review/`: AI reviews of rounds 2 and 3.
 
 ## Reproduce
 
-Needs python-flint. About 5 minutes.
+Needs python-flint and a C++17 compiler. About 8 minutes.
 
-    python -u independent_verify.py candidate.json.gz
+    python -u verify_frontier.py candidate.json.gz
 
 ## What this doesn't show
 
-Two separate AI reviews found no gap. One rebuilt and checked the whole unmerged certificate from the proof alone. The other tested the tracker exhaustively on all pairs up to length 8. Neither is a second party.
+Separate AI reviews found no gap. For this round, one checked all 29,006,665 rows from the proof alone and confirmed that all 4,190,209 short input pairs keep their canonical optima. For round 2, a hostile referee found no false step. None of them is a second party.
 
 No priority or optimality is claimed.
 

@@ -1,211 +1,232 @@
-# Typicality and unbounded one-gap tests for C91
+# Conservative frontier competitors for binary edit distance
 
-Candidate and unrefereed. This extends the earlier sweep1 job's
-canonical-alignment argument; it does not claim external review or priority.
+Candidate and unrefereed. The numerical claim is only the rational bound in the
+frozen artifact after its independent exact/Arb checker passes. This refines
+Jack's canonical-alignment first moment and the inherited c91r2 pattern and
+typicality method. It remains a first-moment argument; the new structural input
+is a finite dynamic program containing competing paths with their own gaps.
 
-The alphabet of columns, in order, is 00,11,01,10,D0,D1,I0,I1.
-Choose the unique alignment minimizing (edit cost, gap count, operation word),
-with diagonal < D < I. Every segment of it has the same canonical property:
-replacing a segment with a better alignment improves the corresponding global
-key. Equal consumption and gap count imply equal column count, making the
-lexicographic replacement argument valid. We retain the five run rules and
-forbidden noncanonical segments described in the inherited proof. Each listed
-forbidden word is checked independently; completeness of that list is not
-necessary. Completeness of the accepted automaton is necessary.
+## Canonical paths and inherited restrictions
 
-For completeness, the retained run rules and their common-canonical-choice
-justifications are:
+Columns, numbered 0 through 7, are 00,11,01,10,D0,D1,I0,I1. A diagonal consumes
+both coordinates and costs its mismatch; a gap consumes one and costs one.
+Choose the alignment minimizing (cost, number of gaps, operation word), with
+operation order diagonal < D < I. Every prefix and contiguous segment is
+canonical for its consumed substrings. A cheaper replacement improves cost;
+an equally cheap replacement with fewer gaps improves the second key. At equal
+cost and gaps the column counts also agree, since columns=(symbols+gaps)/2,
+so an earlier operation word remains earlier after splicing.
 
-1. Adjacent opposite gaps are forbidden: one diagonal costs at most one
-   instead of two.
-2. A substitution cannot follow a gap: move the diagonal earlier, giving
-   smaller cost or equal cost/gaps and an earlier diagonal.
-3. A match ending a gap run has a symbol absent from that run: otherwise
-   match at its earlier occurrence and move the displaced symbols into gaps,
-   preserving cost/gaps and improving the operation word.
-4. D-match-I and I-match-D are forbidden: two diagonals cost at most two,
-   and at equal cost have fewer gaps.
-5. After a substitution (a,b), a D run contains no b and an I run contains
-   no a: matching at that symbol removes the substitution cost.
+Retain the following rules from Jack and c91r2, all for this same canonical
+choice:
 
-The deterministic memory stores the last diagonal or gap direction; the set
-of letters in the current gap run; the banned letter if that run follows a
-substitution; and the preceding run direction for one step after its ending
-match. Opposite adjacent gaps are rejected. A diagonal after a run must be
-a match whose letter is absent from the stored set, and it remembers the old
-direction for one step. The next gap cannot have the opposite direction;
-a second diagonal clears that memory. Within a run, update the letter set
-and avoid any substitution ban. Initial memories are empty. Terminal runs
-may contain both letters and never need to exit to a match.
+1. Opposite adjacent gaps are forbidden: one diagonal is cheaper.
+2. A substitution cannot follow a gap: moving the diagonal earlier is cheaper
+   or ties cost/gaps with an earlier operation word.
+3. The match ending a gap run has a symbol absent from that run: otherwise
+   match its earlier occurrence and move the displaced symbols into gaps.
+4. D-match-I and I-match-D are forbidden: two diagonals cost at most two and
+   have fewer gaps at equality.
+5. After substitution (a,b), a D run contains no b, and an I run contains no a:
+   matching at that symbol removes the substitution cost.
 
-## 1. Arbitrarily long one-gap tests
+The run memory records the literal last diagonal or last gap direction; the
+set of letters in a current run; its forbidden substitution letter; and the
+previous gap direction for one step after the run-ending match. Initially
+memories are empty. Terminal runs may contain both symbols and need not exit.
 
-Consider a segment starting with D(a0), followed by k >= 1 diagonals
-(a1,b0),...,(ak,b[k-1]). Compare it with the alignment whose k diagonals are
-(a0,b0),...,(a[k-1],b[k-1]), followed by D(ak). Define
+The artifact lists labeled forbidden words, each checked to be noncanonical
+by a forward dynamic program storing the entire canonical key. Exhaustiveness
+or minimality of this bank is not required: omitting a forbidden word enlarges
+the language. Its matcher stores the longest suffix that is a proper prefix
+of a listed word, rejects every listed forbidden suffix, and combines this
+with the run memory. All states accept. Original states are numbered breadth
+first from the empty state, with columns visited in order 0..7.
 
-    S = sum(i=0..k-1) [a_i != b_i]
-        - sum(i=1..k) [a_i != b_(i-1)].
+Before adding the new frontier, this deterministic labeled graph is minimized
+while preserving the literal run memory. Start with one color, repeatedly
+color each state by (run memory, ordered eight destination colors, including
+missing edges), and number colors by first appearance in the original BFS.
+Stop when the color count stabilizes. Equal final colors have identical
+accepted labeled continuations and run memory. No words are lost. The start
+class is zero. The checker independently reconstructs and minimizes this graph.
 
-Both paths have one gap. If S <= 0, the alternative is cheaper or has the
-same cost/gap count and an earlier diagonal, so the original is noncanonical.
-If the segment next takes I(bk), the gap-free comparison has cost difference
+## Frontier invariant
 
-    S + [ak != bk] - 2.
+Let an actual alignment prefix consume X[0:i],Y[0:j], with actual cost C and
+gap count J. Fix width W and score cap B. At each vertical frontier vertex
+(i-r,j) and horizontal vertex (i,j-r), 1<=r<=W, retain either nothing or an
+integer score c with this invariant:
 
-If this is <= 0, it is cheaper or has equal cost and fewer gaps, so again
-the original is noncanonical. Interchange X and Y for the analogous I test.
+* there is a genuine full-prefix alternative ending at that vertex;
+* its cost minus C equals c;
+* its gap count minus J is at most -r;
+* its operation word has an earlier first differing operation than the actual
+  prefix, already determined within both words.
 
-A deterministic tracker stores direction, the most recent symbol in that
-direction, and S. Each new gap starts the tracker at S=0; a diagonal updates
-S by its shifted mismatch minus its actual mismatch and updates the symbol.
-Reject a diagonal if S <= 0. At an opposite gap reject if the second
-displayed difference is <= 0, and otherwise start a new tracker at that gap.
-A same-direction gap also starts a new tracker. If S exceeds a fixed cap B,
-drop the tracker until the next gap. Dropping it forgets possible
-noncanonicality and therefore only enlarges the accepted language. Every
-rejection has an explicit better alignment of a contiguous segment, regardless
-of the length of its diagonal run. Hence all canonical global alignments survive.
+Only the cost is retained; any extra gap savings are deliberately forgotten.
+At each vertex keep the lowest eligible cost score. It still has a witness.
+The endpoint, r=0, has no retained active witness on an accepted prefix.
 
-### General bounded-lag competitor (the width-two extension)
+A gap immediately seeds a pending alternative at the vertex before it. That
+alternative must emit a diagonal as its first operation, so its first difference
+is diagonal versus the actual gap. A suffix of q consecutive D gaps gives a
+pending origin at (i-q,j), with cost and gap differences both -q; an I run is
+symmetric. All pending origins within width are determined by the current
+run length capped at W. Pending alternatives cannot take gaps before their
+first diagonal. Once active, alternatives can use their own arbitrary gaps
+subject to the conservative frontier restriction below.
 
-For every candidate segment starting with a D, retain a pure-diagonal
-alternative followed by r residual D columns, where r is the difference
-between its consumed X and Y lengths. Its diagonal part pairs the first
-min(length X,length Y) symbols of the two segment substrings. The r residual
-symbols are exactly the last r X symbols. Store S = alternative cost minus
-actual segment cost. The initial D has r=1,S=0. While r>0:
+A frontier witness lagging by r can append the remaining r gaps to reach the
+actual endpoint. Its cost difference becomes c+r and its gap difference is
+at most zero. Thus c+r<=0 proves a strictly smaller canonical key and safely
+rejects the actual prefix. This includes tied cost/gaps because the alternative
+already has an earlier first diagonal. Every selected canonical global path
+therefore survives every rejection.
 
-* A D appends an X symbol, r increases by one, and S stays fixed.
-* A diagonal (a,b) pairs b with the oldest of the r buffered X symbols in
-  the alternative. Thus S increases by [buffer_oldest != b]-[a != b],
-  while the buffer drops its oldest symbol and appends a.
-* An I(b) replaces a residual D by a diagonal. Thus S increases by
-  [buffer_oldest != b]-2 and r decreases by one.
+## Exact transition definition
 
-After a diagonal or opposite gap, reject if S<=0. The alternate segment is
-then cheaper, or has equal cost and no more gaps. If it has fewer gaps it
-improves the second key; if gap counts agree, it begins with a diagonal
-instead of D and improves the third key. At these rejection points at least
-one Y symbol has been consumed, so that first diagonal exists. If r becomes
-zero without rejection, drop that competitor. Drop competitors when r>W or
-S>B as well. Start a new competitor at every D, and run the symmetric
-construction starting at every I.
+Let V[r],H[r] be vertical/horizontal scores; missing entries and V[0],H[0]
+are infinity. Negative-coordinate vertices are absent. Last W input symbols,
+plus short-prefix lengths, suffice. Actual cost is subtracted once per whole
+column. The following defines the conservative frontier language exactly.
 
-All competitors with the same current direction and r have the same residual
-buffer, namely the last r input symbols. Their future S increments therefore
-agree. Keeping only the smallest S is sufficient to represent every retained
-candidate relevant to a rejection. After merging, dropping a tracker at the
-caps can only forget candidate improvements. There are W scores per direction,
-each absent or in {0,...,B}. Histories retain four bits, sufficient for W<=4
-and the typicality features. This is finite memory and applies to arbitrarily
-long segments, including segments with multiple interspersed gaps. It is not
-a length-W window restriction.
+For an actual diagonal consuming (a,b), let X_ext[k],Y_ext[k] be the kth bit
+back after appending the new bit: index zero is the new bit, index one the
+previous last bit. For 0<=r<=W, collect active vertical candidates
 
-## 2. Typical input correlation constraints
+    V[q] + (q-r) + [X_ext[k] != b] - [a != b],
+    r <= q <= W, r <= k <= q.
 
-For a binary string U, define F_j(U) as the sum of +1 for equal and -1 for
-unequal symbols at lag j, for j=1,2,3. Define F_4(U) as the sum over consecutive
-four-symbol blocks of (-1)^(sum of the four bits). Each has mean zero on
-independent uniform bits. For every fixed j, F_j(U)/n -> 0 in probability.
-One elementary proof partitions terms into finitely many residue classes with
-disjoint supports and applies the weak law to each class. Equivalently, the
-variance is O(n), since only O(n) pairs of terms have overlapping support.
+These append exactly one diagonal and q-r D gaps, placing the diagonal at
+any position. Collect the symmetric horizontal candidates from H[q], pairing
+a with Y_ext[k]. If the previous actual run is D, every q with
+1<=q<=min(W,run length) and q>=r additionally gives the pending candidate
 
-Write H_j=F_j(X)+F_j(Y). For each fixed epsilon>0, the event T_n that
-|H_j| <= epsilon*n for all used j has probability tending to one. It is
-enough to use j=1,2; the four-feature variant additionally uses lag 3 and the
-four-spin statistic. These statistics depend only on the consumed strings,
-not on the alignment. Initial short prefixes contribute no terms. On each
-column an input history of at most four bits determines the integer increment
-h_j in {-2,-1,0,1,2}. Gaps update only the history of the consumed coordinate.
+    -r + [X_ext[q] != b] - [a != b].
 
-Give a column consuming ell symbols and with edit cost c the rational weight
+Here the diagonal must be first, pairing the oldest symbol. An I run supplies
+the symmetric horizontal pending candidate. Take minima at each vertex;
+merge the two endpoint minima. Active gap differences remain at most
+-q+(q-r)=-r. Pending differences equal -r. Every cost is an actual witness cost.
 
-    2^(-ell) x^ell t^c product_j z_j^(h_j),
+For an actual D(a), take
 
-where x>1, 0<t<1, and each z_j>0. If a positive vector V satisfies AV<V,
-the sum G over all accepted paths is finite. Indeed set
-theta=max_i (AV)_i/V_i<1 and kappa=max_i 1/V_i. Then
-A^k 1 <= kappa*theta^k V, so G <= kappa*V_start/(1-theta).
-Every pair of length-n strings with ed<=a*n
-has an accepted canonical alignment. On T_n its correlation factor is at least
+    V_new[r] = V[r-1] - 1                       (1<=r<=W),
+    H_new[r] = min over finite H[q] of:
+        H[q] + q-r                             (r<=q<=W),
+        H[q] + q-r-2 + [a != Y_old[q-1]]        (r+1<=q<=W).
 
-    exp(-epsilon*n*sum_j |log z_j|).
+The first horizontal option appends D followed by q-r I gaps. The second
+appends a diagonal followed by q-r-1 I gaps. Their gap-count differences after
+subtracting the actual gap are at most -r and -r-2 respectively. Set
+V_new[0]=H_new[0]. An actual I uses the symmetric rule. The search implements
+this update by a backwards recurrence; the independent checker enumerates
+source positions using these formulas. Pending origins on an opposite run
+cannot occur at an allowed gap step because adjacent opposite gaps are forbidden.
 
-Consequently
+Reject if any new c+r<=0. Then drop every retained score c>B. All remaining
+finite scores satisfy -r<c<=B; dropping scores only forgets witnesses. Update
+input histories and the capped actual run length. Initial active frontiers
+are entirely absent. The automaton is finite, but alternative witnesses can
+persist for unboundedly many columns and contain multiple gaps. It is not a
+length-W or length-L segment test. The parameters do not claim to include every
+alternative of a geometric band.
 
-    P(ed<=a*n and T_n)
-      <= G exp(n*(-2 log x - a log t + epsilon*sum_j |log z_j|)).
+The induction above proves the invariant for every retained score. Merging
+requires no assumption about a common origin: future appended symbols and
+cost increments depend on the current frontier vertex, and every retained
+origin has already established an earlier first difference. The conservative
+bound on gaps applies separately to each witness.
 
-If 2 log x + a log t > 0, choose a fixed sufficiently small epsilon>0 so
-the exponent is negative. Adding P(not T_n)=o(1) proves P(ed<=a*n)->0.
-It follows that liminf E[ed]/n >= a. Subadditivity supplies the known limit.
-This is a typical-set refinement of the first moment; it is not an
-unjustified assertion that all strings have exactly uniform block frequencies.
+## Typical input strings and the first moment
 
-## 3. Exact verification obligations
+For a binary string U, F_j(U), j=1,2,3, is the sum of spin products at lag j.
+F_4(U) is the sum of products on every SLIDING consecutive four-symbol window.
+Each has mean zero on uniform independent bits and variance at most |U|:
+distinct terms are distinct Walsh monomials and are orthogonal, even when their
+supports overlap. With H_j=F_j(X)+F_j(Y), define the typical event
+|H_j|<=n^(3/4) for all four j. Chebyshev and a union bound give exception
+probability at most 8/sqrt(n). In particular this exception is o(1), and no
+exponential estimate is asserted for it.
 
-The frozen artifact must specify rational x,t,z_j,a, a positive integer
-vector, the list of noncanonical forbidden words, B, and the history rule.
-An independently written verifier must check every listed word by an exact
-canonical DP; reconstruct every reachable allowed transition of the pattern,
-run-rule, tracker, and input-history product; ensure complete state coverage;
-check every row of AV<V using rational/integer arithmetic; and check
-2 log x+a log t>0 with rigorous Arb balls. Search eigenvalues, search
-minimization, and floating optimization are not proof evidence.
+Last max(W,4) bits of each input, with initial short lengths distinguished,
+determine feature increments h_j in {-2,-1,0,1,2}. A gap emits only its consumed
+coordinate's increment. Summing them on any path gives exactly H_j, regardless
+of gap positions. Every complete new sliding window is emitted once.
 
-All states are accepting, including the empty path and terminal gaps. Input
-lengths need not agree during counting; the probability argument uses just
-the subset consuming n symbols in each coordinate. No boundary transitions
-or first/last input correlation terms are omitted.
+For rational x>1, 0<t<1, z_j>0, weight a column consuming ell symbols and edit
+cost c by
 
-## 4. Frozen schema and reconstruction
+    2^(-ell) x^ell t^c product_j z_j^(h_j).
 
-Schema `c91-typical-strip-v1` is a gzip JSON object. `L,W,B,K` specify the
-maximum listed pattern length, competitor width, score dropout cap, and number
-of typical statistics (2 or 4). `x,t,bound` and each element of `z` are
-positive numerator/denominator pairs. `forbidden_patterns` consists of
-`[length,base8_word]` pairs; base-8 digits are the eight labeled columns above,
-oldest first. Leading zero columns are retained by length. `vector` contains
-positive integers, with an arbitrary common denominator omitted. The status
-is explicitly candidate and unrefereed.
+Let A be the complete transition matrix on the reachable product of the
+minimized inherited graph, histories, capped run length, and frontier scores.
+All states accept, including the empty state and terminal gaps. If a positive
+vector v has Av<v, theta=max_i(Av)_i/v_i<1. Taking kappa with 1<=kappa*v gives
+A^k*1<=kappa*theta^k*v, so the total all-path sum G is finite.
 
-First reconstruct the pattern/run-rule automaton. The pattern state is the
-longest suffix which is a proper prefix of any listed word; reject appends
-having any forbidden suffix. Combine it with the run memory above. Number
-reachable states breadth first, starting with empty prefix and empty run
-memory, and visiting outgoing column labels in order 0 through 7. This defines
-the original-state IDs. `original_states` is an asserted count, independently
-recomputed and checked.
+Every pair of length-n inputs with ed<=an has its selected canonical path in
+this language. On the typical event its tilt factor is at least
+exp(-n^(3/4)*sum_j |log z_j|). Consequently
 
-Next combine the original states with the two last-four-bit histories and
-the W competitor scores in each direction. Histories initially are empty;
-all scores are absent. Apply exactly the tracker update in section 1, including
-the specified dropout. Number this product by the same breadth-first rule.
-Its vector entries are in this order. The verifier discovers and checks all
-states and transitions itself and requires the final count to equal the vector
-length. The certificate contains no editable edge list whose omissions could
-escape the reconstruction.
+    P(ed<=an and typical)
+      <= G exp(-n*(2 log x+a log t)+n^(3/4)*sum_j |log z_j|).
 
-For x=p/q, t=r/s, z_j=u_j/v_j, choose the integer common denominator
+If delta=2 log x+a log t>0 this tends to zero; adding the o(1) exception shows
+P(ed<=an)->0. Nonnegativity implies liminf E[ed]/n>=a. Concatenation makes
+expected distances subadditive, so Fekete supplies the limit C91 and C91>=a.
+Unequal endpoints merely contribute extra positive terms to G. No boundary,
+first-history or terminal-run factors are discarded.
 
-    D = 4 q^2 s product_j (u_j^2 v_j^2).
+## Frozen schema and independent exact verification
 
-For an allowed edge with increments h_j, its integer coefficient is
+Schema `c91-conservative-frontier-v1` specifies L,W,B,K=4, the forbidden words,
+expected original/minimized/product/weighted-class state counts, rational
+x,t,z,a, and a positive potential. Forbidden words are [length,base8_word],
+oldest digit first, retaining leading zeros by their length.
 
-    match:        p^2 s product_j u_j^(2+h_j) v_j^(2-h_j)
-    substitution: p^2 r product_j u_j^(2+h_j) v_j^(2-h_j)
-    gap:          2pqr  product_j u_j^(2+h_j) v_j^(2-h_j).
+The product is numbered BFS from its empty state, visiting columns 0..7.
+Weighted colors start at zero. Repeatedly form the sorted multiset of eight
+(weight monomial, destination color) pairs, including missing-edge sentinels,
+and assign colors by first appearance in full BFS order until the count
+stabilizes. This defines the coordinates of the compressed potential. Search
+uses hash refinement; the independently written checker sorts state signatures.
+It reconstructs every full reachable row and checks that row using its own
+computed colors. Thus neither a search graph nor a search partition is trusted.
+Weighted coloring is a compression of the potential; the full rows still pass.
 
-All exponents are nonnegative because each column changes each statistic by
-at most two. The verifier requires the sum of these coefficients times the
-destination vector entries to be strictly less than D times the source entry,
-for every reachable state. Python integers give exact arithmetic. A separate
-256-bit Arb test checks the exponent. An additional rational-only logarithm
-series check is supplied as a cross-check.
+The potential is either a list of positive integers, or base64 of little-endian
+IEEE binary32 bit patterns. In the latter case the checker rejects nonpositive,
+nonfinite and subnormal values and interprets each bit pattern EXACTLY as
+m_i*2^(e_i). With e_min=min e_i, it uses the positive integer
+v_i=m_i*2^(e_i-e_min). No floating arithmetic enters an inequality. Encoding
+search approximations as dyadic rationals does not certify them; the following
+strict integer checks do.
 
-The candidate's mathematical reduction, tracker proof, and typical-set
-argument remain unrefereed. The independently written implementation is by
-the same AI agent; the separate review of the inherited certificate did not
-review these new contributions.
+For x=p/q, t=r/s, z_j=u_j/v_j, choose
+
+    D = 4 q^2 s product_j u_j^2 v_j^2.
+
+An allowed edge with feature vector h has integer coefficient
+
+    match:         p^2 s product_j u_j^(2+h_j) v_j^(2-h_j),
+    substitution:  p^2 r product_j u_j^(2+h_j) v_j^(2-h_j),
+    gap:           2pqr  product_j u_j^(2+h_j) v_j^(2-h_j).
+
+For EVERY full reachable source state, the checker requires the sum of these
+coefficients times its destination potentials to be strictly less than D times
+its source potential. It checks positive entries, exact counts and complete
+reachability, and independently verifies every forbidden word. Exact unsigned
+base-2^32 arithmetic uses at most 1536 bits with overflow rejection; this covers
+all allowed 64-bit parameters and potentials (at most 1283 bits per row).
+A separate Python test compares its multiplication, addition, subtraction and
+comparison against Python integers on 10,000 cases through 1344 bits. The
+wrapper independently checks delta>0 and the threshold with 256-bit Arb balls.
+
+The frozen artifact, rather than mutable search files, is the proof object.
+The checker imports no generator, optimizer, inherited verifier, edge list or
+partition. Implementation independence means separately written code by the
+same AI agent; this round's new argument has not received independent external
+review or human refereeing. The completed review_c91r2 PASS covers the inherited
+bound, not this extension.

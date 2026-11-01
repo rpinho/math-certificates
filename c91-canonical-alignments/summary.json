@@ -1,0 +1,56 @@
+{
+  "status": "candidate; unrefereed; independent exact/Arb replay PASS",
+  "artifact_sha256": "93a526ddfd3f8842822e696c1a08e89a71a0fe7019729936c0bb7bd78fde382f",
+  "artifact_bytes": 21004483,
+  "bound": "259407/1000000",
+  "decimal_bound": 0.259407,
+  "baseline": "256801/1000000",
+  "exact_improvement": "1303/500000",
+  "decimal_improvement": 0.002606,
+  "bar_pass": true,
+  "L": 12,
+  "W": 4,
+  "B": 1,
+  "K": 4,
+  "forbidden_patterns": 1282850,
+  "original_states": 1299053,
+  "base_states": 370749,
+  "product_states": 29006665,
+  "quotient_states": 4404657,
+  "parameters": {
+    "x": [
+      1143069119,
+      1000000000
+    ],
+    "t": [
+      356670822,
+      1000000000
+    ],
+    "z": [
+      [
+        1041421066,
+        1000000000
+      ],
+      [
+        1016222687,
+        1000000000
+      ],
+      [
+        1004130270,
+        1000000000
+      ],
+      [
+        1002178291,
+        1000000000
+      ]
+    ],
+    "bound": [
+      259407,
+      1000000
+    ]
+  },
+  "Arb_exponent": "[1.403540746203104219622477920715270690030017728630666653306064395175869e-7 +/- 5.14e-77]",
+  "Arb_threshold": "[0.2594071361415831440108122655808710242327487589725500230651850329559529694081 +/- 6.21e-77]",
+  "cpp_sha256": "0f887240c8c65ab6591a9ca238ae54f35ef8944136403b76a6552e3b294b36f0",
+  "python_sha256": "278e344987d302b321f1fa3f6bfa3fda1dc4e644174e7f64ecfab64268315632"
+}
