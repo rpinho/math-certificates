@@ -1,8 +1,8 @@
 # Math certificates
 
 Explicit, machine-checkable bounds on open optimization constants. Each result comes with an exact certificate
-and at least one independently written checker. Each result lives in its own repository, linked below, so the
-links already in pull requests, issues and emails keep working. New results will be added here as folders.
+and at least one independently written checker. Each constant has its own folder here. The older repositories are archived, so links
+already in pull requests, issues and emails keep working.
 
 Start with the [short retro](RETRO.md): what we did, what broke, what I would do differently and where I think this is going.
 
