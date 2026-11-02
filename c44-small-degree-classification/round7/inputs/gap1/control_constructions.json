@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "ordinary_addresses": [
+    {
+      "degree": 1,
+      "variables": 1,
+      "CHS_variables": 1
+    },
+    {
+      "degree": 2,
+      "variables": 3,
+      "CHS_variables": 4
+    },
+    {
+      "degree": 3,
+      "variables": 6,
+      "CHS_variables": 10
+    },
+    {
+      "degree": 4,
+      "variables": 11,
+      "CHS_variables": 22
+    },
+    {
+      "degree": 5,
+      "variables": 20,
+      "CHS_variables": 46
+    },
+    {
+      "degree": 6,
+      "variables": 37,
+      "CHS_variables": 94
+    }
+  ],
+  "PR284_ternary_family": [
+    {
+      "degree": 2,
+      "variables": 5,
+      "zero_count": 8,
+      "completion_degree": 5,
+      "completion_variables": 6,
+      "source_sha256": "13691d36694b3bc1fcc2ed8ba62d785f97c3bb0900c0e9f5f2d91f0a7444385d"
+    },
+    {
+      "degree": 3,
+      "variables": 8,
+      "zero_count": 32,
+      "completion_degree": 7,
+      "completion_variables": 9,
+      "source_sha256": "af475381723e51c82340c9d618f99cf9769af2d0c0062e1ae4cb3eaa91fb2e53"
+    },
+    {
+      "degree": 4,
+      "variables": 11,
+      "zero_count": 128,
+      "completion_degree": 9,
+      "completion_variables": 12,
+      "source_sha256": "4d303d60ce61ddea5435648bec1cf7410c8bea7992127c906727c7f9122277ad"
+    }
+  ]
+}

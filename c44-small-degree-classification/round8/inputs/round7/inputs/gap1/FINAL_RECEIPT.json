@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-01T21:24:52.246207+00:00",
+  "manifest_sha256": "f123eb5ff3e2c0b63a93f65415cab0db17067d598d26c12594afc0a306d2ddea",
+  "static_files": 34,
+  "R4": 22,
+  "R5_upper": 53,
+  "C44_upper": "3.1498761303",
+  "verification": "independent character sums, structure arithmetic, polynomial convolution, rational columns",
+  "external_completeness": "Rasoolzadeh published cubic classification",
+  "status_qualification": "candidate, unrefereed; written proof is not mechanized"
+}

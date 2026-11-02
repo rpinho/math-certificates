@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "horizon": 96,
+  "R4": 22,
+  "R5_upper": 53,
+  "C44_upper": "124779448974759300361320478779/39614081257132168796771975168",
+  "gain_over_c44r5": "9/512",
+  "catalogue": {
+    "status": "PASS",
+    "classes": 761,
+    "equality_lines": [
+      700,
+      716,
+      757
+    ],
+    "method": "direct integer character sums",
+    "R_histogram": {
+      "0": 1,
+      "1": 1,
+      "2": 2,
+      "3": 10,
+      "4": 44,
+      "5": 198,
+      "6": 322,
+      "7": 142,
+      "8": 34,
+      "9": 6,
+      "10": 1
+    },
+    "verifier_pid": 2743
+  },
+  "control_checks": [
+    {
+      "type": "point_pair_pair",
+      "active": 4,
+      "kernel_dimension": 3,
+      "energy_cap": "1/2",
+      "count_budget": "22"
+    },
+    {
+      "type": "pair_triple",
+      "active": 4,
+      "kernel_dimension": 3,
+      "energy_cap": "3/4",
+      "count_budget": "23"
+    },
+    {
+      "type": "three_pairs",
+      "active": 8,
+      "kernel_dimension": 3,
+      "energy_cap": "1/2",
+      "count_budget": "23"
+    }
+  ],
+  "witness": {
+    "variables": 22,
+    "degree": 4,
+    "Boolean_convolution": "PASS"
+  }
+}

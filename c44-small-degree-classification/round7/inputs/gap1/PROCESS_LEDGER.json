@@ -1,0 +1,132 @@
+{
+  "supervisor_pid": 2722,
+  "utc_start": "2026-11-01T21:24:44.900745+00:00",
+  "max_concurrent_direct_workers": 1,
+  "memory_limit_bytes": 42949672960,
+  "nice": 10,
+  "processes": [
+    {
+      "pid": 2723,
+      "command": [
+        "g++",
+        "-O3",
+        "-std=c++17",
+        "verify_catalogue.cpp",
+        "-o",
+        "verify_catalogue"
+      ],
+      "log": "replay_00.log",
+      "utc_start": "2026-11-01T21:24:44.901252+00:00",
+      "exit_code": 0,
+      "seconds": 0.3672326930100098
+    },
+    {
+      "pid": 2728,
+      "command": [
+        "g++",
+        "-O3",
+        "-std=c++17",
+        "control_pair_lemma.cpp",
+        "-o",
+        "control_pair_lemma"
+      ],
+      "log": "replay_01.log",
+      "utc_start": "2026-11-01T21:24:45.268858+00:00",
+      "exit_code": 0,
+      "seconds": 0.26414456497877836
+    },
+    {
+      "pid": 2733,
+      "command": [
+        "python3",
+        "explore_catalogue.py"
+      ],
+      "log": "replay_02.log",
+      "utc_start": "2026-11-01T21:24:45.533405+00:00",
+      "exit_code": 0,
+      "seconds": 0.7145754779921845
+    },
+    {
+      "pid": 2734,
+      "command": [
+        "python3",
+        "baseline/c44r5/control_witnesses.py"
+      ],
+      "log": "replay_03.log",
+      "utc_start": "2026-11-01T21:24:46.248251+00:00",
+      "exit_code": 0,
+      "seconds": 2.067802873905748
+    },
+    {
+      "pid": 2735,
+      "command": [
+        "./control_pair_lemma"
+      ],
+      "log": "replay_04.log",
+      "utc_start": "2026-11-01T21:24:48.316501+00:00",
+      "exit_code": 0,
+      "seconds": 0.003564200014807284
+    },
+    {
+      "pid": 2736,
+      "command": [
+        "python3",
+        "control_constructions.py"
+      ],
+      "log": "replay_05.log",
+      "utc_start": "2026-11-01T21:24:48.320119+00:00",
+      "exit_code": 0,
+      "seconds": 0.16380874207243323
+    },
+    {
+      "pid": 2737,
+      "command": [
+        "python3",
+        "control_rejections.py"
+      ],
+      "log": "replay_06.log",
+      "utc_start": "2026-11-01T21:24:48.484211+00:00",
+      "exit_code": 0,
+      "seconds": 0.06377508107107133
+    },
+    {
+      "pid": 2739,
+      "command": [
+        "python3",
+        "derive_bound.py",
+        "--check"
+      ],
+      "log": "replay_07.log",
+      "utc_start": "2026-11-01T21:24:48.548180+00:00",
+      "exit_code": 0,
+      "seconds": 0.764558133087121
+    },
+    {
+      "pid": 2740,
+      "command": [
+        "python3",
+        "verify_packet.py",
+        "72"
+      ],
+      "log": "replay_08.log",
+      "utc_start": "2026-11-01T21:24:49.313176+00:00",
+      "exit_code": 0,
+      "seconds": 1.065103919012472
+    },
+    {
+      "pid": 2742,
+      "command": [
+        "python3",
+        "verify_packet.py",
+        "96"
+      ],
+      "log": "replay_09.log",
+      "utc_start": "2026-11-01T21:24:50.378641+00:00",
+      "exit_code": 0,
+      "seconds": 1.8659621509723365
+    }
+  ],
+  "utc_end": "2026-11-01T21:24:52.246207+00:00",
+  "max_child_RSS_KiB": 92184,
+  "status": "PASS"
+}

@@ -1,0 +1,309 @@
+{
+  "open_pr_count": 33,
+  "open_prs": [
+    {
+      "number": 292,
+      "title": "1c, 86a: independent replays of the Koshta certificates (asterisks kept pending a second party)",
+      "head": "c45dde8c3434459cdec1b9ed65b8915a4eb7e1bd"
+    },
+    {
+      "number": 291,
+      "title": "C_21: record six 2026 upper-bound claims (Raymond, Hakimoglu-Brown, Planat); three use OpenAI's 7/8 theorem as on page 65a",
+      "head": "58e65d36b6327af6698729f534bf290cc50f7099"
+    },
+    {
+      "number": 290,
+      "title": "C45: improved upper bound 0.489481743486002 (29-prime base, 54 primes)",
+      "head": "67f0abd6021a99abc1448ae4205ec0c1e63e244f"
+    },
+    {
+      "number": 288,
+      "title": "C1c: exact extremal constant D0 = 1/(2(1+theta0)) via the \u00b1\u03c0 phase lock and the intrinsic-fracture factor",
+      "head": "90edb8dea2459faf26ffca1a5b26732328194f9e"
+    },
+    {
+      "number": 287,
+      "title": "C_19: record sharp upper bound (3+sqrt(10))/(6*sqrt(2*pi)) \u2248 0.4097321837*",
+      "head": "4623e03bc01435a45895301fc3311349a43343d1"
+    },
+    {
+      "number": 286,
+      "title": "C_1d: 400-cell upper bound 1.4591562211596491",
+      "head": "174680e7017d952b768b9f7f01c95620377df9d8"
+    },
+    {
+      "number": 285,
+      "title": "44a: Wellens is Discrete Analysis 2022:20",
+      "head": "19f33dca5508a8d000707ed3c7f1f8c6ce7997ee"
+    },
+    {
+      "number": 284,
+      "title": "26a: explicit family beating the address function at every fixed degree (comment only, no bound change)",
+      "head": "e5d6606508de7be68e23ca2025c8abde3e4e855d"
+    },
+    {
+      "number": 283,
+      "title": "37a: no Boolean function of degree 4 has sensitivity 10 (comment only, no bound change)",
+      "head": "275ab5e8e1ddc8913a8ee38c10d7dc0a70c57a3e"
+    },
+    {
+      "number": 282,
+      "title": "C_3b: restricted sumset is over (a,b) in G",
+      "head": "33352e46d4d53f905bfa7652d481403f23c0f566"
+    },
+    {
+      "number": 281,
+      "title": "C45: improved upper bound 0.489596115074071 (21-prime base)",
+      "head": "0479fb821b56a1a3f3eaa04b756df1da409e0d27"
+    },
+    {
+      "number": 280,
+      "title": "C82: improved upper bound 0.2534350402 (17 new numerator factors)",
+      "head": "03d29477c3048aa6f579f61378f8f8009ef53397"
+    },
+    {
+      "number": 279,
+      "title": "Add C_89c: Ramsey multiplicity constant of K_6, with a certified upper bound 0.7422548616\u00b72^-14 (was 0.7445\u00b72^-14)",
+      "head": "0c26ba04a254965b09411bbeadbb68ff4a9dd41a"
+    },
+    {
+      "number": 278,
+      "title": "Add C\u2081a/C\u2081b verification scripts and squeeze figures (Appendices E\u2013F, V5)",
+      "head": "e0695fe9dea4d96cb3c379918c563504d73735ed"
+    },
+    {
+      "number": 277,
+      "title": "Add C_89b: Ramsey multiplicity constant of K_5, with a certified upper bound 0.0016870052 (was 0.001708)",
+      "head": "658cd6ab0a6cd0393145d0a2c8ba4d55c5102f3d"
+    },
+    {
+      "number": 276,
+      "title": "C_89: README cell to the best recorded bound; rows in claim order",
+      "head": "e21d5a273714081bf76624ba0d287258e285bb35"
+    },
+    {
+      "number": 275,
+      "title": "84b: the chain's ceiling rounded up (0.0007150508), not truncated",
+      "head": "995ee5544c5cd499f0c01f2bb761654646c1fbf4"
+    },
+    {
+      "number": 274,
+      "title": "C68: improved lower bound 0.446 (flux and half-diameter lemmas)",
+      "head": "808bea00c1b1ee8f20949f3b936eae15be031ff3"
+    },
+    {
+      "number": 273,
+      "title": "C_91: new constant, the average edit distance between two random binary strings",
+      "head": "9cb4226bec4b1d76301a5192833980abc927b07f"
+    },
+    {
+      "number": 272,
+      "title": "C_31b: new page for the Chv\u00e1tal\u2013Sankoff constant with a four-letter alphabet",
+      "head": "9197233f81d14145bc1ab0a2c24ac418bf7103a8"
+    },
+    {
+      "number": 271,
+      "title": "1d: improved upper bound from an exact step-function certificate",
+      "head": "49e637d118189c94780b9d6c81a1fc233a2f8839"
+    },
+    {
+      "number": 270,
+      "title": "Improved bounds for C16, C1a, C1c, C86, C89 (exact certificates)",
+      "head": "f2049aeb9f3b8928d93a7625735d00e3126ab896"
+    },
+    {
+      "number": 269,
+      "title": "1d: improved upper bound 1.455682936505816* (10240-cell step function)",
+      "head": "1b091ddb563f6e23d8a95e5a0c1c879a9c21bb71"
+    },
+    {
+      "number": 249,
+      "title": "C31: the h = 9 and h = 10 Lueker bounds of #231 independently replayed; asterisks removed",
+      "head": "74214d043e345f2499015ee21ae27cd3db3d6d65"
+    },
+    {
+      "number": 242,
+      "title": "C82, C86: R. Pinho's certificates and the \u00c9pi construction independently replayed; asterisks removed",
+      "head": "174b0b3faf7bc9bf4faa2c1430537bccaab4ef53"
+    },
+    {
+      "number": 235,
+      "title": "Remove the asterisks from C49: the five lower bounds independently replayed",
+      "head": "41f219d8b1af043aaa08f90f7fd208b1381beafd"
+    },
+    {
+      "number": 223,
+      "title": "Record superseding bounds for 17 constants (1a, 7a, 10b, 13a, 13b, 17, 30, 35, 38, 57a, 57b, 62b, 63, 64, 68, 84a, 86)",
+      "head": "1b75b9b01a01640091c1be3e612b2924ba2d88e5"
+    },
+    {
+      "number": 209,
+      "title": "36a: upper bound 0.636108 from three-point bounds (Cohn-de Laat-Salmon 2022)",
+      "head": "47e76bed41368e5766715fec484534fc1dc5303e"
+    },
+    {
+      "number": 203,
+      "title": "C_19: record Rodziewicz's 0.45 bound (verification dated 6 Aug 2026)",
+      "head": "b1f22a6e5cb009d8ffc076ca31b712e600fd29d7"
+    },
+    {
+      "number": 196,
+      "title": "optimizationproblems 10b updated, Complex Grothendieck constant",
+      "head": "67388599aa017c1335bf2e2d9510fd910c6c437d"
+    },
+    {
+      "number": 195,
+      "title": "C_60: record the lower bounds 1/5 (Marshall) and 1/4 (Lean-formalized)",
+      "head": "733961f22977988490324707287b9af00cdcb4c8"
+    },
+    {
+      "number": 184,
+      "title": "Improve C42 and C51 bounds with verification certificates",
+      "head": "f7003e2e1893a522593fc8072ad072672168cff3"
+    },
+    {
+      "number": 148,
+      "title": "Improve C_3a lower bound to 1.21418 via two-temperature cyclic compression",
+      "head": "a601328cf4e3359ca564c4dd9ea0820151b6a252"
+    }
+  ],
+  "c44_prs": [
+    {
+      "number": 285,
+      "title": "44a: Wellens is Discrete Analysis 2022:20",
+      "files": [
+        {
+          "sha": "3fb85b27f089d60a2651a66fe401f9f26c1a764d",
+          "filename": "constants/44a.md",
+          "status": "modified",
+          "additions": 1,
+          "deletions": 1,
+          "changes": 2,
+          "blob_url": "https://github.com/teorth/optimizationproblems/blob/19f33dca5508a8d000707ed3c7f1f8c6ce7997ee/constants%2F44a.md",
+          "raw_url": "https://github.com/teorth/optimizationproblems/raw/19f33dca5508a8d000707ed3c7f1f8c6ce7997ee/constants%2F44a.md",
+          "contents_url": "https://api.github.com/repos/teorth/optimizationproblems/contents/constants%2F44a.md?ref=19f33dca5508a8d000707ed3c7f1f8c6ce7997ee",
+          "patch": "@@ -52,7 +52,7 @@ The finiteness of $C_{44}$ (i.e. existence of a universal constant $C$) follows\n - **[TK2000]** Tarannikov, Y. and Kirienko, D. *Spectral analysis of high order correlation immune functions.* IACR ePrint 2000/050. https://eprint.iacr.org/2000/050\n - **[CHS2020]** Chiarelli, J.; Hatami, P.; Saks, M. *An Asymptotically Tight Bound on the Number of Relevant Variables in a Bounded Degree Boolean Function.* Combinatorica 40 (2020), 237\u2013244. Preprint: https://arxiv.org/abs/1801.08564\n - **[Wel2019]** Wellens, J. *A tighter bound on the number of relevant variables in a bounded degree Boolean function.* Preprint: https://arxiv.org/abs/1903.08214\n-- **[Wel2022]** Wellens, J. *Relationships between the number of inputs and other complexity measures of Boolean functions.* Discrete Analysis 2022:19. Preprint: https://arxiv.org/abs/2005.00566\n+- **[Wel2022]** Wellens, J. *Relationships between the number of inputs and other complexity measures of Boolean functions.* Discrete Analysis 2022:20. Preprint: https://arxiv.org/abs/2005.00566\n - **[KV2024]** Krotov, D. S. and Valyuzhenich, A. *On degree-3 and $(n-4)$-correlation-immune perfect colorings of $n$-cubes.* Discrete Mathematics 347 (2024), 114138. Preprint: https://arxiv.org/abs/2311.05566\n \n - **[Epi2026]** BakeLab, *\u00c9pi-results: Wellens' Boolean-function bound*, reviewed 11 September 2026. [Exact certificate and result](https://github.com/BakeLab/Epi-results/tree/97fa6a420f417458e11723c8bceb70f1529e447a/mathematics/wellens); Huang et al., *\u00c9pi: Towards a Persistent, Self-Improving Agent for Autonomous Research*, Appendix A.1, https://arxiv.org/abs/2610.24944."
+        }
+      ],
+      "url": "https://github.com/teorth/optimizationproblems/pull/285"
+    }
+  ],
+  "summaries": [
+    {
+      "url": "https://api.github.com/repos/BakeLab/Epi-results/git/trees/HEAD?recursive=1",
+      "tree_sha": "97fa6a420f417458e11723c8bceb70f1529e447a",
+      "truncated": false,
+      "hits": [
+        "mathematics/wellens",
+        "mathematics/wellens/README.md",
+        "mathematics/wellens/certificate.json",
+        "mathematics/wellens/result.json"
+      ]
+    },
+    {
+      "url": "https://api.github.com/repos/google-deepmind/alphaevolve_results/git/trees/HEAD?recursive=1",
+      "tree_sha": "4226acbf237ff9ad10ba7673a2af127a2d8a5971",
+      "truncated": false,
+      "hits": []
+    },
+    {
+      "url": "https://api.github.com/repos/google-deepmind/alphaevolve_repository_of_problems/git/trees/HEAD?recursive=1",
+      "tree_sha": "8f447457957deac61e28bf1676746f0753b3b2f8",
+      "truncated": false,
+      "hits": []
+    },
+    {
+      "url": "https://api.github.com/repos/openai/math/git/trees/HEAD?recursive=1",
+      "tree_sha": "4eaee87548250b2682affda7d05d947c05554bae",
+      "truncated": true,
+      "hits": [
+        "lean/OAI/AlgebraicGeometry/HilbertScheme/Presentations/EventualIrrelevantTorsion.lean",
+        "lean/OAI/AlgebraicGeometry/HilbertScheme/Presentations/TensorIrrelevantTorsion.lean",
+        "lean/OAI/Analysis/MutuallyUnbiased/MixedSources/Arithmetic44.lean"
+      ]
+    },
+    {
+      "url": "https://api.github.com/repos/togethercomputer/EinsteinArena-new-SOTA/git/trees/HEAD?recursive=1",
+      "tree_sha": "c388c6f7408c886311940896713339a1a70c2394",
+      "truncated": false,
+      "hits": []
+    },
+    {
+      "url": "https://api.github.com/repos/plasma-ai/erdos/git/trees/HEAD?recursive=1",
+      "tree_sha": "17c86a0d4ebe1487a087ceb8c14952a10ec2f2bd",
+      "truncated": false,
+      "hits": []
+    },
+    {
+      "url": "https://api.github.com/repos/kisonecat/openai-math/git/trees/HEAD?recursive=1",
+      "tree_sha": "77bce8d6471b3ede2fb7364539bb7bee37f6452b",
+      "truncated": false,
+      "hits": []
+    },
+    {
+      "url": "https://api.github.com/repos/vidigoat/optimization-records/git/trees/HEAD?recursive=1",
+      "tree_sha": "32898ac1dc0d75bf7f6d8a4e0a779eea629467a4",
+      "truncated": false,
+      "hits": []
+    },
+    {
+      "url": "https://api.github.com/repos/rpinho/math-certificates/git/trees/HEAD?recursive=1",
+      "tree_sha": "2980b8e4bf87bb9ffff22db7a3a5541e97415f02",
+      "truncated": false,
+      "hits": []
+    },
+    {
+      "url": "https://api.github.com/search/repositories?q=wellens%20boolean&sort=updated&per_page=20",
+      "total_count": 0,
+      "repos": []
+    },
+    {
+      "url": "https://api.github.com/search/repositories?q=%224.3576549226%22&sort=updated&per_page=20",
+      "total_count": 1,
+      "repos": [
+        "rpinho/c44-certificate"
+      ]
+    },
+    {
+      "url": "https://api.github.com/search/repositories?q=%22relevant%20variables%22%20boolean%202026&sort=updated&per_page=20",
+      "total_count": 0,
+      "repos": []
+    },
+    {
+      "url": "https://api.github.com/search/repositories?q=optimization%20constants%202026&sort=updated&per_page=20",
+      "total_count": 3,
+      "repos": [
+        "mwakidenis/Interactive-Portfolio-2026",
+        "b5izzle/MACH.V5",
+        "SazidRahman226/IUT_Cafeteria_Crisis"
+      ]
+    },
+    {
+      "url": "https://api.github.com/search/repositories?q=awesome%20ai%20math&sort=updated&per_page=20",
+      "total_count": 25,
+      "repos": [
+        "jobertmallari19-ui/NBA",
+        "Storyrain-2012/QMC-2",
+        "seewoo5/awesome-ai-for-math",
+        "GruheshKurra/awesome-ai-roadmaps",
+        "dxww123/awesome-math-agent",
+        "chaoshengdong/awesome-mathematical-programming-in-ml-ai",
+        "jatinsihag2345/awesome-ai-evaluations",
+        "IsaacBell/awesome-tech-niches",
+        "logisky/logisheets-mcp",
+        "daligao/awesome-gaokao",
+        "DiligentPanda/awesome-courses",
+        "Starscream-11813/awesome-AI4Math",
+        "bonninr/awesome-ai-solved-math",
+        "benthecoder/yt-channels-DS-AI-ML-CS",
+        "nicolehao34/Awesome-applied-math-AI-papers",
+        "Xinze-Li-Moqian/awesome-ai4math",
+        "ba2621/awesome-verified-math-data",
+        "amao0o0/awesome-AI-Math-Datasets",
+        "stabgan/awesome-loss-functions",
+        "mianwebgroup/awesome-online-calculators"
+      ]
+    }
+  ],
+  "errors": []
+}

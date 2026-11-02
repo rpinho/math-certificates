@@ -1,0 +1,763 @@
+{
+  "label": "final",
+  "utc": "2026-11-01T22:50:23.759941+00:00",
+  "repos": [
+    {
+      "repo": "teorth/optimizationproblems",
+      "returncode": 0,
+      "error": "",
+      "HEAD": "87b4ebbd426ff8db597a2004cc45da17903bdcf2\tHEAD"
+    },
+    {
+      "repo": "BakeLab/Epi-results",
+      "returncode": 0,
+      "error": "",
+      "HEAD": "97fa6a420f417458e11723c8bceb70f1529e447a\tHEAD"
+    },
+    {
+      "repo": "google-deepmind/alphaevolve_results",
+      "returncode": 0,
+      "error": "",
+      "HEAD": "4226acbf237ff9ad10ba7673a2af127a2d8a5971\tHEAD"
+    },
+    {
+      "repo": "google-deepmind/alphaevolve_repository_of_problems",
+      "returncode": 0,
+      "error": "",
+      "HEAD": "8f447457957deac61e28bf1676746f0753b3b2f8\tHEAD"
+    },
+    {
+      "repo": "openai/math",
+      "returncode": 0,
+      "error": "",
+      "HEAD": "4eaee87548250b2682affda7d05d947c05554bae\tHEAD"
+    },
+    {
+      "repo": "togethercomputer/EinsteinArena-new-SOTA",
+      "returncode": 0,
+      "error": "",
+      "HEAD": "c388c6f7408c886311940896713339a1a70c2394\tHEAD"
+    },
+    {
+      "repo": "plasma-ai/erdos",
+      "returncode": 0,
+      "error": "",
+      "HEAD": "17c86a0d4ebe1487a087ceb8c14952a10ec2f2bd\tHEAD"
+    },
+    {
+      "repo": "kisonecat/openai-math",
+      "returncode": 0,
+      "error": "",
+      "HEAD": "77bce8d6471b3ede2fb7364539bb7bee37f6452b\tHEAD"
+    },
+    {
+      "repo": "vidigoat/optimization-records",
+      "returncode": 0,
+      "error": "",
+      "HEAD": "32898ac1dc0d75bf7f6d8a4e0a779eea629467a4\tHEAD"
+    },
+    {
+      "repo": "rpinho/c44-certificate",
+      "returncode": 0,
+      "error": "",
+      "HEAD": "e44b9b0cc91c656a680854ce341927c5a7b337c4\tHEAD"
+    },
+    {
+      "repo": "queelius/boolean-degree-sensitivity",
+      "returncode": 0,
+      "error": "",
+      "HEAD": "6114c124b343f8468aa4e94236bf5c97cb3ee29a\tHEAD"
+    }
+  ],
+  "html_pr_numbers": [
+    148,
+    184,
+    195,
+    196,
+    203,
+    209,
+    223,
+    235,
+    242,
+    249,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    290,
+    291,
+    292,
+    294,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    305,
+    306,
+    307
+  ],
+  "inherited_open_prs": [
+    292,
+    291,
+    290,
+    288,
+    287,
+    286,
+    285,
+    284,
+    283,
+    282,
+    281,
+    280,
+    279,
+    278,
+    277,
+    276,
+    275,
+    274,
+    273,
+    272,
+    271,
+    270,
+    269,
+    249,
+    242,
+    235,
+    223,
+    209,
+    203,
+    196,
+    195,
+    184,
+    148
+  ],
+  "new_prs": [
+    294,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    305,
+    306,
+    307
+  ],
+  "c44_diffs": [
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/285.diff",
+      "sha256": "ccbf4b2fa57f9670a21f3635a1b85108b98768f78bac6309c9fdf80681a82649",
+      "paths": [
+        "constants/44a.md"
+      ]
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/294.diff",
+      "sha256": "73e3cf3ec8daa7d6b3df2428e7497a229aed13e9ec065a2a867f6912e115dd23",
+      "paths": [
+        "README.md",
+        "constants/44a.md"
+      ]
+    }
+  ],
+  "inherited_head_comparisons": [
+    {
+      "number": 292,
+      "old": "c45dde8c3434459cdec1b9ed65b8915a4eb7e1bd",
+      "now": "c45dde8c3434459cdec1b9ed65b8915a4eb7e1bd"
+    },
+    {
+      "number": 291,
+      "old": "58e65d36b6327af6698729f534bf290cc50f7099",
+      "now": "58e65d36b6327af6698729f534bf290cc50f7099"
+    },
+    {
+      "number": 290,
+      "old": "67f0abd6021a99abc1448ae4205ec0c1e63e244f",
+      "now": "67f0abd6021a99abc1448ae4205ec0c1e63e244f"
+    },
+    {
+      "number": 288,
+      "old": "90edb8dea2459faf26ffca1a5b26732328194f9e",
+      "now": "90edb8dea2459faf26ffca1a5b26732328194f9e"
+    },
+    {
+      "number": 287,
+      "old": "4623e03bc01435a45895301fc3311349a43343d1",
+      "now": "4623e03bc01435a45895301fc3311349a43343d1"
+    },
+    {
+      "number": 286,
+      "old": "174680e7017d952b768b9f7f01c95620377df9d8",
+      "now": "174680e7017d952b768b9f7f01c95620377df9d8"
+    },
+    {
+      "number": 285,
+      "old": "19f33dca5508a8d000707ed3c7f1f8c6ce7997ee",
+      "now": "19f33dca5508a8d000707ed3c7f1f8c6ce7997ee"
+    },
+    {
+      "number": 284,
+      "old": "e5d6606508de7be68e23ca2025c8abde3e4e855d",
+      "now": "e5d6606508de7be68e23ca2025c8abde3e4e855d"
+    },
+    {
+      "number": 283,
+      "old": "275ab5e8e1ddc8913a8ee38c10d7dc0a70c57a3e",
+      "now": "275ab5e8e1ddc8913a8ee38c10d7dc0a70c57a3e"
+    },
+    {
+      "number": 282,
+      "old": "33352e46d4d53f905bfa7652d481403f23c0f566",
+      "now": "33352e46d4d53f905bfa7652d481403f23c0f566"
+    },
+    {
+      "number": 281,
+      "old": "0479fb821b56a1a3f3eaa04b756df1da409e0d27",
+      "now": "0479fb821b56a1a3f3eaa04b756df1da409e0d27"
+    },
+    {
+      "number": 280,
+      "old": "03d29477c3048aa6f579f61378f8f8009ef53397",
+      "now": "03d29477c3048aa6f579f61378f8f8009ef53397"
+    },
+    {
+      "number": 279,
+      "old": "0c26ba04a254965b09411bbeadbb68ff4a9dd41a",
+      "now": "0c26ba04a254965b09411bbeadbb68ff4a9dd41a"
+    },
+    {
+      "number": 278,
+      "old": "e0695fe9dea4d96cb3c379918c563504d73735ed",
+      "now": "e0695fe9dea4d96cb3c379918c563504d73735ed"
+    },
+    {
+      "number": 277,
+      "old": "658cd6ab0a6cd0393145d0a2c8ba4d55c5102f3d",
+      "now": "658cd6ab0a6cd0393145d0a2c8ba4d55c5102f3d"
+    },
+    {
+      "number": 276,
+      "old": "e21d5a273714081bf76624ba0d287258e285bb35",
+      "now": "e21d5a273714081bf76624ba0d287258e285bb35"
+    },
+    {
+      "number": 275,
+      "old": "995ee5544c5cd499f0c01f2bb761654646c1fbf4",
+      "now": "995ee5544c5cd499f0c01f2bb761654646c1fbf4"
+    },
+    {
+      "number": 274,
+      "old": "808bea00c1b1ee8f20949f3b936eae15be031ff3",
+      "now": "808bea00c1b1ee8f20949f3b936eae15be031ff3"
+    },
+    {
+      "number": 273,
+      "old": "9cb4226bec4b1d76301a5192833980abc927b07f",
+      "now": "9cb4226bec4b1d76301a5192833980abc927b07f"
+    },
+    {
+      "number": 272,
+      "old": "9197233f81d14145bc1ab0a2c24ac418bf7103a8",
+      "now": "9197233f81d14145bc1ab0a2c24ac418bf7103a8"
+    },
+    {
+      "number": 271,
+      "old": "49e637d118189c94780b9d6c81a1fc233a2f8839",
+      "now": "49e637d118189c94780b9d6c81a1fc233a2f8839"
+    },
+    {
+      "number": 270,
+      "old": "f2049aeb9f3b8928d93a7625735d00e3126ab896",
+      "now": "f2049aeb9f3b8928d93a7625735d00e3126ab896"
+    },
+    {
+      "number": 269,
+      "old": "1b091ddb563f6e23d8a95e5a0c1c879a9c21bb71",
+      "now": "1b091ddb563f6e23d8a95e5a0c1c879a9c21bb71"
+    },
+    {
+      "number": 249,
+      "old": "74214d043e345f2499015ee21ae27cd3db3d6d65",
+      "now": "74214d043e345f2499015ee21ae27cd3db3d6d65"
+    },
+    {
+      "number": 242,
+      "old": "174b0b3faf7bc9bf4faa2c1430537bccaab4ef53",
+      "now": "174b0b3faf7bc9bf4faa2c1430537bccaab4ef53"
+    },
+    {
+      "number": 235,
+      "old": "41f219d8b1af043aaa08f90f7fd208b1381beafd",
+      "now": "41f219d8b1af043aaa08f90f7fd208b1381beafd"
+    },
+    {
+      "number": 223,
+      "old": "1b75b9b01a01640091c1be3e612b2924ba2d88e5",
+      "now": "1b75b9b01a01640091c1be3e612b2924ba2d88e5"
+    },
+    {
+      "number": 209,
+      "old": "47e76bed41368e5766715fec484534fc1dc5303e",
+      "now": "47e76bed41368e5766715fec484534fc1dc5303e"
+    },
+    {
+      "number": 203,
+      "old": "b1f22a6e5cb009d8ffc076ca31b712e600fd29d7",
+      "now": "b1f22a6e5cb009d8ffc076ca31b712e600fd29d7"
+    },
+    {
+      "number": 196,
+      "old": "67388599aa017c1335bf2e2d9510fd910c6c437d",
+      "now": "67388599aa017c1335bf2e2d9510fd910c6c437d"
+    },
+    {
+      "number": 195,
+      "old": "733961f22977988490324707287b9af00cdcb4c8",
+      "now": "733961f22977988490324707287b9af00cdcb4c8"
+    },
+    {
+      "number": 184,
+      "old": "f7003e2e1893a522593fc8072ad072672168cff3",
+      "now": "f7003e2e1893a522593fc8072ad072672168cff3"
+    },
+    {
+      "number": 148,
+      "old": "a601328cf4e3359ca564c4dd9ea0820151b6a252",
+      "now": "a601328cf4e3359ca564c4dd9ea0820151b6a252"
+    }
+  ],
+  "visible_pr_heads": {
+    "148": "a601328cf4e3359ca564c4dd9ea0820151b6a252",
+    "184": "f7003e2e1893a522593fc8072ad072672168cff3",
+    "195": "733961f22977988490324707287b9af00cdcb4c8",
+    "196": "67388599aa017c1335bf2e2d9510fd910c6c437d",
+    "203": "b1f22a6e5cb009d8ffc076ca31b712e600fd29d7",
+    "209": "47e76bed41368e5766715fec484534fc1dc5303e",
+    "223": "1b75b9b01a01640091c1be3e612b2924ba2d88e5",
+    "235": "41f219d8b1af043aaa08f90f7fd208b1381beafd",
+    "242": "174b0b3faf7bc9bf4faa2c1430537bccaab4ef53",
+    "249": "74214d043e345f2499015ee21ae27cd3db3d6d65",
+    "269": "1b091ddb563f6e23d8a95e5a0c1c879a9c21bb71",
+    "270": "f2049aeb9f3b8928d93a7625735d00e3126ab896",
+    "271": "49e637d118189c94780b9d6c81a1fc233a2f8839",
+    "272": "9197233f81d14145bc1ab0a2c24ac418bf7103a8",
+    "273": "9cb4226bec4b1d76301a5192833980abc927b07f",
+    "274": "808bea00c1b1ee8f20949f3b936eae15be031ff3",
+    "275": "995ee5544c5cd499f0c01f2bb761654646c1fbf4",
+    "276": "e21d5a273714081bf76624ba0d287258e285bb35",
+    "277": "658cd6ab0a6cd0393145d0a2c8ba4d55c5102f3d",
+    "278": "e0695fe9dea4d96cb3c379918c563504d73735ed",
+    "279": "0c26ba04a254965b09411bbeadbb68ff4a9dd41a",
+    "280": "03d29477c3048aa6f579f61378f8f8009ef53397",
+    "281": "0479fb821b56a1a3f3eaa04b756df1da409e0d27",
+    "282": "33352e46d4d53f905bfa7652d481403f23c0f566",
+    "283": "275ab5e8e1ddc8913a8ee38c10d7dc0a70c57a3e",
+    "284": "e5d6606508de7be68e23ca2025c8abde3e4e855d",
+    "285": "19f33dca5508a8d000707ed3c7f1f8c6ce7997ee",
+    "286": "174680e7017d952b768b9f7f01c95620377df9d8",
+    "287": "4623e03bc01435a45895301fc3311349a43343d1",
+    "288": "90edb8dea2459faf26ffca1a5b26732328194f9e",
+    "290": "67f0abd6021a99abc1448ae4205ec0c1e63e244f",
+    "291": "58e65d36b6327af6698729f534bf290cc50f7099",
+    "292": "c45dde8c3434459cdec1b9ed65b8915a4eb7e1bd",
+    "294": "549e8b496217d9fa01286cad7f0f98e64cc24c87",
+    "296": "b87c0523a2dafd5544a15f436a101b9962715da4",
+    "297": "e09aa67a3f8b6a07da46bd564c30fb02d2153749",
+    "298": "80ce213b0a3ba1de7bf0d1c8ceeeca4843bdd96c",
+    "299": "c8ad7142b72d14a831a20ac22c7fee81fc1a897a",
+    "300": "3b3d7e594e87b1863fd5b3949edbe2964a91f403",
+    "301": "53da48fdbff594a136bd0f7ae96966e27f48fe2c",
+    "302": "c87cab53edc1468cf3688c6b9320480584e31ee1",
+    "303": "77b8484c31b6340624624af5806df9860360aebb",
+    "305": "ef16504d71baee700e57acd986ffe1815eee9c05",
+    "306": "04a216df742d4f32849125a81b9fc92ff4458849",
+    "307": "95ba120b1df41c006b1651e2d088577acd5503cf"
+  },
+  "c44_mentions_in_added_lines": [
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/294.diff",
+      "lines": [
+        "+| [44](https://teorth.github.io/optimizationproblems/constants/44a.html) | Maximal number of relevant variables in Boolean functions of degree $d$ | 1.5 | 2.1974348818* |",
+        "+- [44](https://teorth.github.io/optimizationproblems/constants/44a.html) **improved upper bound (unrefereed):** $C\\_{44} < 2.1974348818$* by [Ricardo Pinho](https://github.com/rpinho/c44-certificate/tree/e44b9b0cc91c656a680854ce341927c5a7b337c4/reed-muller-caps), 1 Nov 2026. Local-weight caps from control sets of a Boolean derivative and Reed-Muller weights, in Wellens's recurrence.",
+        "+- **[P2026b]** Ricardo Pinho, *Control sets and Reed-Muller weights in the relevant-variable recurrence*, 1 November 2026, unrefereed. [Written proof, certificates and checkers](https://github.com/rpinho/c44-certificate/tree/e44b9b0cc91c656a680854ce341927c5a7b337c4/reed-muller-caps). AI-assisted analysis."
+      ]
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/297.diff",
+      "lines": [
+        "+| $0.302825279490988$* | <a href=\"#T2026\">[T2026]</a> | $f(z,w)=A+B\\Delta(I-D\\Delta)^{-1}C$ with $\\Delta=\\mathrm{diag}(z,w)$, the transfer function of an exactly unitary $3\\times 3$ colligation with blocks $A,B,C,D$ and Gaussian-rational entries over a common 149-digit denominator, so $f$ is a Schur function on the bidisc. Exact integer computation of the 1681 coefficients with $0\\le j,k\\le N=40$ gives a finite majorant $\\sum\\_{j,k\\le 40}\\lvert f\\_{jk}\\rvert r^{j+k}\\ge 1+2.2\\cdot 10^{-42}$ at $r=3028252794909880/10^{16}$. Improves P2026 by about $1.0\\cdot 10^{-12}$. [Certificate and stdlib-Python exact checker, pinned commit](https://github.com/gomyway/c59-bohr-bidisc-certificate/tree/a014dc9455815c2875507017ebcd303b8da27b63); `c59_cert.json` SHA-256: `6d2e39e8741fb5e73593d4db007c68831243d32fe4ae298bc4fe750033ebedab`; `t7428_c59.py` SHA-256: `f78b73aad627ec446af3af00252631c00f482b9eb827109d99a783dc0cac7db4`. <a href=\"#T2026-ub-K2-0-302825279490988\">[T2026-ub-K2-0-302825279490988]</a> |"
+      ]
+    }
+  ],
+  "errors": [],
+  "receipts": [
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pulls",
+      "sha256": "77e65b4b9f2dd3c55031e19894adbbdbd0aa8a5b8d2a861b8b7d6e5227bed91f",
+      "bytes": 310190
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pulls?page=2",
+      "sha256": "5ae4a1309d5a12ee513ecb55bafc8707552a4160f3397ebfbff526accaa39b11",
+      "bytes": 292726
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/issues",
+      "sha256": "59afab398664c246dbeef1542e0c1495790619ffc96bfa43097d1bdc83e58e29",
+      "bytes": 230644
+    },
+    {
+      "url": "https://raw.githubusercontent.com/teorth/optimizationproblems/main/constants/44a.md",
+      "sha256": "2d950609d2f612b59d22f7ceb2916b071809b726eb8325f85a8a2b769f756b92",
+      "bytes": 4859
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/292.diff",
+      "sha256": "78b53135b7532a293055b33840783a4e8089c16143156dcc1cac282f2a0aa141",
+      "bytes": 15686
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/291.diff",
+      "sha256": "13a1f11e610dfcaff00403201bb18ff7ab81c4ce7da0a2c242c705019cb4caa2",
+      "bytes": 16835
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/290.diff",
+      "sha256": "e1e3de5bfcac1de371eb47d6ed3404806385fc3dd4e88838da5704dabf4ccd7b",
+      "bytes": 6975
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/288.diff",
+      "sha256": "202971ec3353855327c0be55876b815e8ef7c466cd2ce7725b01863a405d8f7a",
+      "bytes": 56240
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/287.diff",
+      "sha256": "9b6dd239d7a21d83344c544af05b703aaebc3b3f6aa7cfaf569cc42da17cfe60",
+      "bytes": 8316
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/286.diff",
+      "sha256": "9be0611932b589137512eaf5c31c1806f63d6b4f32a14adbf283b265835f4141",
+      "bytes": 14612
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/285.diff",
+      "sha256": "ccbf4b2fa57f9670a21f3635a1b85108b98768f78bac6309c9fdf80681a82649",
+      "bytes": 1777
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/284.diff",
+      "sha256": "4dcaf3e06a5b933e95618e509bf83ee6aed51222f3b9f498d36baf3ff134621a",
+      "bytes": 3031
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/283.diff",
+      "sha256": "8247e771020f3ba57892234899abb131ba380017f8c75219886b679d9c5601ad",
+      "bytes": 3532
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/282.diff",
+      "sha256": "ad767799d9405b59ca142a727c0211ca5f8244969ab2df632d5a628f716f4631",
+      "bytes": 535
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/281.diff",
+      "sha256": "43a9f67e7978e918865f0c86b72052aefc8e2aada48fb51d667a0f097773cfb0",
+      "bytes": 6515
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/280.diff",
+      "sha256": "752838c63a8b5bc0a1bdab5bb25d4ef26982455198730d4bdb93772e9060c4b7",
+      "bytes": 6777
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/279.diff",
+      "sha256": "2ac87b6daff4739058b99d6b168e967faf894f0efd619a5fd656588313dd11e2",
+      "bytes": 12857
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/278.diff",
+      "sha256": "d1c77fdd4a1c053a232bf9fb574b5e85f0329ca353c685910d75f1b3e5156487",
+      "bytes": 24184
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/277.diff",
+      "sha256": "5ef315be1dcf21b827b964fd7151093211dab6c342e26a5b3ddf02693fc0af4f",
+      "bytes": 7161
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/276.diff",
+      "sha256": "56dac65f581cad9920dfe79057fccd0465b517ccef0d0c9e7af7b2457d855f2b",
+      "bytes": 4465
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/275.diff",
+      "sha256": "57a6474c07265e47d032fe9281e9da3428a9b8834d9450aaf1fd3638bea2d55f",
+      "bytes": 2264
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/274.diff",
+      "sha256": "c5f799f42643c22e7f5ba61343ba2b4c423d7888309373e1bbc248d88d17123c",
+      "bytes": 8678
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/273.diff",
+      "sha256": "fb89b6eb3b8a5f4f133042250935dad227c693dc9793ae9bbc42f871d7f8e6c1",
+      "bytes": 7009
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/272.diff",
+      "sha256": "3fd04da1c1810efed623cc5b0c357dab9ce75cddea3719c0dde97eeef993507b",
+      "bytes": 8387
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/271.diff",
+      "sha256": "ef1873f0b74bf26eda463e66f226d166ff8569dbc9a1b5d2045017a3a7be30ee",
+      "bytes": 9804
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/270.diff",
+      "sha256": "3391a736443466fc82b02c5df5eade39259a41112afea2b79eb321f45f333856",
+      "bytes": 34553
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/269.diff",
+      "sha256": "64ccb706c5f7a92bdf78a5d7547e25326f339aaf3780c563710bf27006b8c716",
+      "bytes": 10853
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/249.diff",
+      "sha256": "79a04a98a4c92ef9d40c80dbb4e1081bc8a1fa294bc56602f37e5254d6c86a72",
+      "bytes": 8180
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/242.diff",
+      "sha256": "f7d813d0097d58afba6e19db25d6789d747d519ecf232b59349e726c6364636b",
+      "bytes": 19101
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/235.diff",
+      "sha256": "ef14536bb7c336a77f277da3383ea0d3312a84106aa58bd715698bbb5867025a",
+      "bytes": 13841
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/223.diff",
+      "sha256": "1a43592cf90e482e158215dbe7b17dda4502a27d922257ddee80bcde332a88e1",
+      "bytes": 47002
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/209.diff",
+      "sha256": "1f9ce791b6704375c6da5390146746d5328e373bd103e7e91b14119c9e5d56e2",
+      "bytes": 5093
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/203.diff",
+      "sha256": "15e37cb931374e5f8830e44f7b3e2edf1fa5b3c916d332d7de381a9647820cf2",
+      "bytes": 6932
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/196.diff",
+      "sha256": "ac8645d0249f52313937a1ec4397b5a6eea07583b8e181115dd445b39155f595",
+      "bytes": 9494
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/195.diff",
+      "sha256": "cf5556820703bbfd186dc8529a2a9eab051a2d4f56b9024abae45a040a4c695e",
+      "bytes": 7496
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/184.diff",
+      "sha256": "5a3fe1ef924c99d3814bafeee3057f4bb8c7f08665d0820a1fd4d98cd59b243a",
+      "bytes": 14109
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/148.diff",
+      "sha256": "1c58021b6cddebc788e0f7e94b90764dad27a46c209eb99f3918a77ba2b612f4",
+      "bytes": 13874
+    },
+    {
+      "url": "https://raw.githubusercontent.com/BakeLab/Epi-results/main/README.md",
+      "sha256": "c40cb95444e4893fb75c46ba6f1f76763d25b3b9434011457ba4a905a84c72e6",
+      "bytes": 6888
+    },
+    {
+      "url": "https://raw.githubusercontent.com/google-deepmind/alphaevolve_results/main/README.md",
+      "sha256": "6705252d42fb27af57cbe604421f7d0cca70058bc71067f9b0aed4c097800f5a",
+      "bytes": 2904
+    },
+    {
+      "url": "https://raw.githubusercontent.com/google-deepmind/alphaevolve_repository_of_problems/main/README.md",
+      "sha256": "28344ad075733037cc4b515c58d12bc88afc1d1cd6cfa6aedc749bf7f499f076",
+      "bytes": 4327
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openai/math/main/README.md",
+      "sha256": "6cb7f0e387b67c051227c6ba27aca87ee82d9dd2530b6452b86b8681a2e2743a",
+      "bytes": 4417
+    },
+    {
+      "url": "https://raw.githubusercontent.com/togethercomputer/EinsteinArena-new-SOTA/main/README.md",
+      "sha256": "07f97c0058df21f6a6c5913f5f6d54d97f45222a5a4314187be32de951ad110e",
+      "bytes": 3141
+    },
+    {
+      "url": "https://raw.githubusercontent.com/plasma-ai/erdos/main/README.md",
+      "sha256": "efab4090a6aa739fdd68fd6720f72e57014cc1a447bd6a3008392aa2915c243a",
+      "bytes": 7881
+    },
+    {
+      "url": "https://raw.githubusercontent.com/kisonecat/openai-math/main/README.md",
+      "sha256": "fa56f3cef7fa08e3109a1d8c0a083c5e960865c20efa6fbcd1b8f072ce075666",
+      "bytes": 2528
+    },
+    {
+      "url": "https://raw.githubusercontent.com/vidigoat/optimization-records/main/README.md",
+      "sha256": "cdb521276d3800b31f76bd935fac30dd11681f5f1376b28c1da48968dc2e3a32",
+      "bytes": 5176
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rpinho/c44-certificate/main/README.md",
+      "sha256": "df8ecadfcc40b90506ac95b903d58aa6dded79c08493a75b339efe48049d766a",
+      "bytes": 5617
+    },
+    {
+      "url": "https://raw.githubusercontent.com/queelius/boolean-degree-sensitivity/main/README.md",
+      "sha256": "5212957824fa696f06d4ad26fd7484daf7dadf0d7056e7e07f5019185cf13b64",
+      "bytes": 10861
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openai/math/main/CONTENTS.md",
+      "sha256": "080badcb677fb80be0e695c21a8ec88bcb3a46dd3e3078ca10061e6b289be175",
+      "bytes": 640943
+    },
+    {
+      "url": "https://raw.githubusercontent.com/seewoo5/awesome-ai-for-math/main/README.md",
+      "sha256": "6ceba34810dbdb0478210bcd659a2d05831cb389f619f9ed9b00a7bc6b24271c",
+      "bytes": 47356
+    },
+    {
+      "url": "https://raw.githubusercontent.com/BakeLab/Epi-results/main/mathematics/wellens/README.md",
+      "sha256": "ad6e3c7865089bc631bb01dcce0922a17a17314ec305df88e00dad8718212623",
+      "bytes": 611
+    },
+    {
+      "url": "https://github.com/search?type=repositories&s=updated&o=desc&q=wellens%20boolean",
+      "sha256": "e30006ba91d240dc54d8f29c5e8b565f140f335384addca666cafaee1f230ec0",
+      "bytes": 139848
+    },
+    {
+      "url": "https://github.com/search?type=repositories&s=updated&o=desc&q=%223.9819073803%22",
+      "sha256": "c9259781aa32b8ef77256c673ea0594d0f073e4dffae58990eb08c457028ad5f",
+      "bytes": 139896
+    },
+    {
+      "url": "https://github.com/search?type=repositories&s=updated&o=desc&q=%223.1674542553%22",
+      "sha256": "89f0dd11b0391e6cccbca9ad4509feb00345a3ed1c7001220156712c32f5f772",
+      "bytes": 139895
+    },
+    {
+      "url": "https://github.com/search?type=repositories&s=updated&o=desc&q=%224.1225323803%22",
+      "sha256": "e6393ae6a807b1c72d14939ff6b440f4802682a41e35ff441dc907cc4d1e7593",
+      "bytes": 139896
+    },
+    {
+      "url": "https://github.com/search?type=repositories&s=updated&o=desc&q=%22relevant%20variables%22%20boolean%202026",
+      "sha256": "37e5f48e469932518b0e91c9974d5cb91098b2beabd347b3f0e064b042b14276",
+      "bytes": 140320
+    },
+    {
+      "url": "https://github.com/search?type=repositories&s=updated&o=desc&q=Reed%20Muller%20relevant%20variables",
+      "sha256": "f06f5c3c2afc6b688b7b20567632a93f7af073156aa19274106d7f95aae89b88",
+      "bytes": 140173
+    },
+    {
+      "url": "https://github.com/search?type=repositories&s=updated&o=desc&q=awesome%20ai%20math",
+      "sha256": "5ddb084f1cef6bf3fdc48a08bccd2c5056f52624a6fd6ac2ecf79d181ea7ef83",
+      "bytes": 234448
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/294.diff",
+      "sha256": "73e3cf3ec8daa7d6b3df2428e7497a229aed13e9ec065a2a867f6912e115dd23",
+      "bytes": 5756
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/296.diff",
+      "sha256": "5f02bd77617d6cecacae41241599619078f2a22bccb78523b222e02e5f01d73e",
+      "bytes": 6574
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/297.diff",
+      "sha256": "146f42edcd656b314cf6cda4d90f6d3ad2f475522f84109045946d65a05a7561",
+      "bytes": 7984
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/298.diff",
+      "sha256": "d6cb2ed44d4b998e0a60df524794fb994e8e4855d6dd2e3efe4c1300f48da7fb",
+      "bytes": 9574
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/299.diff",
+      "sha256": "047277fd214451dc43329b1fb8cfa45f2641c154c3c38e91e92152e5a2117f3d",
+      "bytes": 6565
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/300.diff",
+      "sha256": "072583b1c1620531c530401bc8818ccbfd7ceb6bcfeb265c063f93f3c572032b",
+      "bytes": 6708
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/301.diff",
+      "sha256": "1994585d00854963d44973ed7aaa852b054ea4f9671c844942173938c9c78df3",
+      "bytes": 6385
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/302.diff",
+      "sha256": "3d4e48a0a2c908475e65ab83022dac94bb7f7f7da171f0e68ea967de5c68c491",
+      "bytes": 11418
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/303.diff",
+      "sha256": "6e0a988057dae5ad822933dd816f105f61420ae4f2d51d720a324faf567b9a93",
+      "bytes": 11815
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/305.diff",
+      "sha256": "9ec5af5acc5ce492517510729d3afede37b84c49192859e5e914068ee4b8c3ec",
+      "bytes": 13570
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/306.diff",
+      "sha256": "d55d7f901a6a7133f0380be4c22728ab2a4c1fae2b01b3c4ae436ec0a766153d",
+      "bytes": 8345
+    },
+    {
+      "url": "https://github.com/teorth/optimizationproblems/pull/307.diff",
+      "sha256": "a6a8588862f2235a9583ac4a652101e5d3461ed9c02c538f1b4fc941fcc3f378",
+      "bytes": 9572
+    }
+  ]
+}

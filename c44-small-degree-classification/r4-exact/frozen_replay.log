@@ -1,0 +1,11 @@
+{"command": ["g++", "-O3", "-std=c++17", "verify_catalogue.cpp", "-o", "verify_catalogue"], "pid": 2723, "exit_code": 0, "seconds": 0.3672326930100098}
+{"command": ["g++", "-O3", "-std=c++17", "control_pair_lemma.cpp", "-o", "control_pair_lemma"], "pid": 2728, "exit_code": 0, "seconds": 0.26414456497877836}
+{"command": ["python3", "explore_catalogue.py"], "pid": 2733, "exit_code": 0, "seconds": 0.7145754779921845}
+{"command": ["python3", "baseline/c44r5/control_witnesses.py"], "pid": 2734, "exit_code": 0, "seconds": 2.067802873905748}
+{"command": ["./control_pair_lemma"], "pid": 2735, "exit_code": 0, "seconds": 0.003564200014807284}
+{"command": ["python3", "control_constructions.py"], "pid": 2736, "exit_code": 0, "seconds": 0.16380874207243323}
+{"command": ["python3", "control_rejections.py"], "pid": 2737, "exit_code": 0, "seconds": 0.06377508107107133}
+{"command": ["python3", "derive_bound.py", "--check"], "pid": 2739, "exit_code": 0, "seconds": 0.764558133087121}
+{"command": ["python3", "verify_packet.py", "72"], "pid": 2740, "exit_code": 0, "seconds": 1.065103919012472}
+{"command": ["python3", "verify_packet.py", "96"], "pid": 2742, "exit_code": 0, "seconds": 1.8659621509723365}
+ALL CHECKS PASS

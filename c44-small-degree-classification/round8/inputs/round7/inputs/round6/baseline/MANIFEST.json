@@ -1,0 +1,27 @@
+{
+  "schema": "c44-frozen-manifest-v1",
+  "utc": "2026-11-01T20:57:40.214735+00:00",
+  "sha256": {
+    "PROOF.md": "d93fb4b331f6d9a096fda60da9af1e0007e25d62ce21e7161af5a3da5e59e1a8",
+    "candidate.json": "c2131f807643954c585c07b85c9999bde9d33220474e676130f9c5130facc664",
+    "cap_certificate.json": "ba780ccb7bcf0ca9a068982f0882a4b1f93cc849e0c86e65709811d60641f8cb",
+    "spectral_certificate_round3.json": "1020ed20d078ec1fece41c643007426bc452fc3aeafc81761901b32ded4495ed",
+    "epi_certificate.json": "ce66f1097a7284e9845113fa1dc39267932cc934fd23d9019ff13d3dcb39cf49",
+    "verify_exact.py": "757d44c378ec356e9984d56502d5174cca3f800058c83d31b93a80594d9cfeda",
+    "verify_rows.py": "57c005aa3ee2357471afe7146adf1f9a4869352e78e194dd254d167802582bd1",
+    "make_structure_templates.py": "ff8707d076da0e422e603190b68e8c30ebab22a5b866e5940924a025d91a51dd",
+    "control_gap.cpp": "58e28958b709f23be0a0ed40fda77e4f3f5ed8717a7859e82a32d8659aaf4a3d",
+    "control_witnesses.py": "9cdaef0b91f28c4d9250f8f32bf60fb8df123ceb9972e201aa3021ae549f86ee",
+    "control_rejections.py": "736758cbb55cc52c9f7816d9230f84b10cc53557c51583435400b4f53c855ee0",
+    "make_receipt.py": "b2d15c2e2d0e801c38d6c5968cdd3a1636728ba6f1efede9444adc889301131c",
+    "jobs/reproduce.sh": "150e784e29f18bb24252c716995d0785284b71546fb88afcc6df6ead3e323019",
+    "jobs/run_checks.py": "c074a3e9e1f4fd14234364a53b53f3aea49e7e2bcc3dc304dad4bfceb80a252d",
+    "baseline/PROOF.md": "da4e3cfbf9ae66411737c12a8087c8d8286fbea9f705cb209fa58c86b9ac49aa",
+    "baseline/baseline/PROOF.md": "59214a415c489874ec3da59e759bdc8e3b351a69172d6fe156a549ba18d5284c",
+    "STRUCTURE_LADDER.md": "b75b2ee80d8594ce4809cc1cf638b0089fa95e512116a9637666fe21d463bfd0",
+    "structure_cases.json": "a44d439c41c840f85b47b2c01b8c4af98fbda35ab48e9b47250ee8e1cb53e6df",
+    "verify_structure_cases.py": "cbaf9498346fe57ac5a17aaef1bc655efde5cd8ba4c62a29b1f8a989b105eda7"
+  },
+  "status": "candidate, unrefereed",
+  "claim": "3.1674542553"
+}

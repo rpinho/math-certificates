@@ -1,0 +1,145 @@
+{
+  "runner_pid": 9022,
+  "nice": 10,
+  "memory_limit_bytes": 42949672960,
+  "concurrent_workers": 1,
+  "threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "started_utc": "2026-11-01T20:57:40.251781+00:00",
+  "steps": [
+    {
+      "label": "rows",
+      "pid": 9024,
+      "command": [
+        "python3",
+        "verify_rows.py",
+        "candidate.json"
+      ],
+      "started_utc": "2026-11-01T20:57:40.252517+00:00",
+      "returncode": 0,
+      "elapsed_seconds": 0.7160144519293681,
+      "cumulative_max_child_RSS_KiB": 15364
+    },
+    {
+      "label": "independent72",
+      "pid": 9025,
+      "command": [
+        "python3",
+        "verify_exact.py",
+        "candidate.json",
+        "72"
+      ],
+      "started_utc": "2026-11-01T20:57:40.970151+00:00",
+      "returncode": 0,
+      "elapsed_seconds": 0.9176092729903758,
+      "cumulative_max_child_RSS_KiB": 16908
+    },
+    {
+      "label": "independent96",
+      "pid": 9026,
+      "command": [
+        "python3",
+        "verify_exact.py",
+        "candidate.json",
+        "96"
+      ],
+      "started_utc": "2026-11-01T20:57:41.888459+00:00",
+      "returncode": 0,
+      "elapsed_seconds": 2.1206060219556093,
+      "cumulative_max_child_RSS_KiB": 16908
+    },
+    {
+      "label": "structure_cases",
+      "pid": 9027,
+      "command": [
+        "python3",
+        "verify_structure_cases.py"
+      ],
+      "started_utc": "2026-11-01T20:57:44.009815+00:00",
+      "returncode": 0,
+      "elapsed_seconds": 0.033401336055248976,
+      "cumulative_max_child_RSS_KiB": 16908
+    },
+    {
+      "label": "templates",
+      "pid": 9028,
+      "command": [
+        "python3",
+        "make_structure_templates.py"
+      ],
+      "started_utc": "2026-11-01T20:57:44.043250+00:00",
+      "returncode": 0,
+      "elapsed_seconds": 0.03302721492946148,
+      "cumulative_max_child_RSS_KiB": 16908
+    },
+    {
+      "label": "compile",
+      "pid": 9029,
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-O3",
+        "control_gap.cpp",
+        "-o",
+        "control_gap"
+      ],
+      "started_utc": "2026-11-01T20:57:44.077223+00:00",
+      "returncode": 0,
+      "elapsed_seconds": 0.6667324419831857,
+      "cumulative_max_child_RSS_KiB": 113748
+    },
+    {
+      "label": "gap",
+      "pid": 9034,
+      "command": [
+        "./control_gap"
+      ],
+      "started_utc": "2026-11-01T20:57:44.744704+00:00",
+      "returncode": 0,
+      "elapsed_seconds": 5.829260439961217,
+      "cumulative_max_child_RSS_KiB": 113748
+    },
+    {
+      "label": "witnesses",
+      "pid": 9035,
+      "command": [
+        "python3",
+        "control_witnesses.py"
+      ],
+      "started_utc": "2026-11-01T20:57:50.575743+00:00",
+      "returncode": 0,
+      "elapsed_seconds": 2.972812971100211,
+      "cumulative_max_child_RSS_KiB": 113748
+    },
+    {
+      "label": "rejections",
+      "pid": 9047,
+      "command": [
+        "python3",
+        "control_rejections.py"
+      ],
+      "started_utc": "2026-11-01T20:57:53.550482+00:00",
+      "returncode": 0,
+      "elapsed_seconds": 3.0421296670101583,
+      "cumulative_max_child_RSS_KiB": 113748
+    },
+    {
+      "label": "receipt",
+      "pid": 9112,
+      "command": [
+        "python3",
+        "make_receipt.py"
+      ],
+      "started_utc": "2026-11-01T20:57:56.594498+00:00",
+      "returncode": 0,
+      "elapsed_seconds": 0.0656747919274494,
+      "cumulative_max_child_RSS_KiB": 113748
+    }
+  ],
+  "completed_utc": "2026-11-01T20:57:56.659610+00:00",
+  "status": "PASS"
+}
