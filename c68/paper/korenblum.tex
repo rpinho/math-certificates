@@ -1,0 +1,294 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs}
+\usepackage[hidelinks]{hyperref}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newcommand{\D}{\mathbb D}
+\newcommand{\ph}{\mathsf p}
+\title{A covering-strip and moment certificate for Korenblum's constant}
+\author{Ricardo Pinho\\\small ORCID: \href{https://orcid.org/0009-0006-2744-2599}{0009-0006-2744-2599}}
+\date{Unrefereed preprint, 19 October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We give an explicit certificate for $c_2\ge54/125=0.432$, where $c_2$ is
+Korenblum's constant for the Bergman space. This is an unrefereed preprint. The construction combines an
+elementary two-zero Schwarz estimate on the covering strip of an annulus,
+the classical hyperbolic Jung inequality, and Wikstr\"om's moment-duality
+criterion. A rational twelve-atom measure with a Lebesgue tail satisfies the
+required inequalities for every moment index. Two independently implemented
+exact checkers, one using Arb and one using only integer interval arithmetic,
+verify the quantitative hypotheses. The best public certified lower bound
+located in the accompanying priority audit is Wikstr\"om's $0.4263$.
+Neither optimality nor a new version of Jung's theorem is claimed.
+\end{abstract}
+
+\section{Statement and analytic reduction}
+Korenblum introduced the maximum principle in~\cite{Korenblum};
+Hayman~\cite{Hayman} proved that a positive admissible radius exists.
+We give a lower bound, not a determination of the optimal constant.
+
+Normalize Bergman area by $dA=dx\,dy/\pi$, so
+$\|\sum a_kz^k\|_2^2=\sum |a_k|^2/(k+1)$. Korenblum's constant $c_2$ is
+the supremum of those $c\in(0,1)$ for which $|f|\le|g|$ on
+$c<|z|<1$ implies $\|f\|_2\le\|g\|_2$, for all $f,g\in A^2(\D)$.
+
+\begin{theorem}\label{thm:main}
+Korenblum's constant satisfies $c_2\ge54/125$.
+\end{theorem}
+
+We retain the moment framework of Wikstr\"om~\cite{Wikstrom}, but use a
+separately derived coefficient estimate. Put $w=-\log c$,
+\[
+ X=\sinh^2\frac{\pi^2}{2w},\qquad
+ K(t)=\frac{X}{X+\sin^2\!\left(\frac{\pi\log t}{2w}\right)},\qquad
+ G(t)=\frac12\left(1+\sqrt{\frac{3+K(t)^2}{3(1-K(t)^2)}}\right)
+ \quad(c^2<t<1).
+\]
+Write $\beta(t)=1-1/G(t)$, with $\beta(c^2)=\beta(1)=1$ by limits.
+The $K$ here is a covering-strip bound; it is not the annular product
+appearing in Wang's estimate as quoted in~\cite{Wikstrom}.
+
+\begin{lemma}\label{lem:diam}
+If $\omega:A(c,1)\to\D$ is holomorphic, then its image of $|z|=r$
+has pseudohyperbolic diameter at most $K(r^2)$.
+\end{lemma}
+\begin{proof}
+Lift to $h(\zeta)=\omega(e^\zeta)$ in $\log c<\operatorname{Re}\zeta<0$.
+The map $\exp(i\pi(\zeta-\log c)/w)$ maps this strip biholomorphically
+onto the upper half-plane. After a rotation of the annulus, choose lifts
+$a=\log r$ and $a+i\theta$, $0\le\theta\le2\pi$, of the two points.
+Postcompose $h$ with a disk automorphism making its value at $a$ zero.
+Periodicity gives another zero at $a+2\pi i$. Dividing successively by
+the two Blaschke factors and using Schwarz's lemma bounds the value at the
+other point by the product of its pseudohyperbolic distances to these zeros.
+
+Set $A=\pi^2/w$, $\phi=\pi\log(r/c)/w$ and $v=\pi\theta/w$.
+The distances in question are $\ph(v)$ and $\ph(2A-v)$, where
+\[
+ \ph(v)=\frac{\sinh(v/2)}{\sqrt{\sinh^2(v/2)+\sin^2\phi}}.
+\]
+For $u=v/2>0$, the derivative of $\log\ph(2u)$ is
+\[
+ \frac{\sin^2\phi\,\coth u}{\sinh^2u+\sin^2\phi}.
+\]
+This is positive and decreasing, because its positive numerator decreases
+and its positive denominator increases. Thus $\log\ph$ is concave, and
+$\ph(v)\ph(2A-v)\le\ph(A)^2=K(r^2)$. Endpoints follow by continuity.
+\end{proof}
+
+\begin{lemma}\label{lem:coeff}
+Suppose $f=\sum a_kz^k$, $g=\sum b_kz^k$ are holomorphic in $\D$ and
+$|f|\le|g|$ on $A(c,1)$. For $c<r<1$, let
+\[
+ Y(r^2)=\sum_{\substack{k\ge1\\|a_k|<|b_k|}}
+ (|b_k|^2-|a_k|^2)r^{2k},\qquad
+ M_h(r)^2=\frac1{2\pi}\int_0^{2\pi}|h(re^{i\theta})|^2\,d\theta.
+\]
+Then $Y(r^2)\le G(r^2)(M_g(r)^2-M_f(r)^2)$.
+\end{lemma}
+\begin{proof}
+The quotient $f/g$ has removable singularities in the annulus. The constant
+and boundary cases are immediate, so assume it maps into $\D$.
+Equip $\D$ with hyperbolic distance twice the inverse hyperbolic tangent of
+the pseudohyperbolic distance. By Lemma~\ref{lem:diam}, the compact image of
+the circle has hyperbolic diameter at most $D=2\operatorname{artanh}K(r^2)$.
+The classical hyperbolic Jung inequality~\cite{BMRS} places it in a disk of
+hyperbolic radius $R_h$ with
+\[
+ \sinh R_h\le\frac2{\sqrt3}\sinh(D/2).
+\]
+For completeness, consider a smallest enclosing hyperbolic disk. At its
+center the directions to its boundary contacts cannot lie in an open
+semicircle, since a small motion would shrink the radius. Two opposite
+contacts, or three contacts whose directions contain zero in their convex
+hull, give a pair separated by an angle at least $2\pi/3$. The hyperbolic
+cosine rule gives $\cosh D\ge1+\tfrac32\sinh^2R_h$, proving the inequality.
+
+The enclosing disk has pseudohyperbolic center $\alpha\in\D$ and radius
+$\rho=\tanh(R_h/2)$, and hence
+\[
+ \frac1{1-\rho^2}=\frac{1+\cosh R_h}{2}\le G(r^2).
+\]
+Set $F=f-\alpha g$ and $H=g-\overline\alpha f$. On the circle,
+$|F|\le\rho|H|$, and coefficientwise
+\[
+ |H_k|^2-|F_k|^2=(1-|\alpha|^2)(|b_k|^2-|a_k|^2).
+\]
+Dropping the negative $|F_k|^2$ contributions in the indices defining $Y$
+and adding nonnegative $|H_k|^2$ terms gives
+\[
+ Y(r^2)\le\frac{M_H(r)^2}{1-|\alpha|^2}
+ \le\frac{M_g(r)^2-M_f(r)^2}{1-\rho^2}
+ \le G(r^2)(M_g(r)^2-M_f(r)^2).
+\]
+The center can be complex and may depend on $r$.
+\end{proof}
+
+The following is Wikstr\"om's moment-duality argument~\cite[Lemma 3.1]{Wikstrom},
+with the coefficient estimate just proved substituted for its analytic input.
+\begin{lemma}\label{lem:mom}
+If a probability measure $\mu$ on $[c^2,1]$, with no atom at $1$, satisfies
+\[
+ \int t^k\,d\mu(t)\ge\frac1{k+1}\quad(k\ge0),\qquad
+ \int\beta(t)t^k\,d\mu(t)\le\frac1{k+1}\quad(k\ge1),
+\]
+then $c$ is admissible in the definition of $c_2$.
+\end{lemma}
+\begin{proof}
+Write $x_k=(|a_k|^2-|b_k|^2)_+$, $y_k=(|b_k|^2-|a_k|^2)_+$,
+$X(t)=\sum_{k\ge0}x_kt^k$ and $Y(t)=\sum_{k\ge1}y_kt^k$.
+Lemma~\ref{lem:coeff} rearranges to $X(t)\le y_0+\beta(t)Y(t)$.
+Integrate and apply the two moment inequalities. Nonnegative-series monotone
+convergence gives
+$\sum x_k/(k+1)\le y_0+\sum_{k\ge1}y_k/(k+1)$, which is the norm comparison.
+Limits give the endpoint convention at $c^2$.
+\end{proof}
+
+\section{The rational certificate}
+Take $c=54/125$, $R=999/1000$ and
+\[
+ d\mu(t)=\sum_{j=1}^{12}w_j\,d\delta_{t_j}(t)+\mathbf1_{[R,1]}(t)\,dt.
+\]
+The entries below are exact terminating decimals, not rounded displays.
+They have $t_1=c^2$, $t_{12}=R$, positive weights summing exactly to $R$,
+and no atom at $1$.
+\begin{center}\small
+\begin{tabular}{rll}\toprule
+$j$ & $t_j$ & $w_j$\\\midrule
+1 & 0.186624 & 0.401004850339305473 \\
+2 & 0.587760864611916678 & 0.334589004564615711 \\
+3 & 0.8229718555012977 & 0.152356299682819746 \\
+4 & 0.924010443899645262 & 0.062924486526793319 \\
+5 & 0.965990583618882126 & 0.026544759438047238 \\
+6 & 0.984044289625064295 & 0.011714716766935399 \\
+7 & 0.992173624211215355 & 0.00540693721877966 \\
+8 & 0.995987383331351062 & 0.002581897617100729 \\
+9 & 0.997819789755709063 & 0.001239794794409609 \\
+10 & 0.998676970469441039 & 0.000541241719003444 \\
+11 & 0.998976894402894056 & 0.000064073011221399 \\
+12 & 0.999 & 0.000031938320968273 \\
+\bottomrule\end{tabular}
+\end{center}
+
+Let $g(t)=1/G(t)$. A simple global linear lower bound on the Lebesgue tail
+suffices. Define $\Delta=1-R$, $U=-\pi\log R/(2w)$ and
+\[
+ a=\frac{(\pi/(2w))^2(1-U^2/6)^2}{X},\qquad
+ \ell=\frac{2563746486913}{10^{14}}.
+\]
+Both checkers prove $U^2<6$ and
+\begin{equation}\label{eq:ell}
+ 0<\ell<\frac{2\sqrt{6a}}
+ {\sqrt{3a\Delta^2(2+a\Delta^2)}+
+  \sqrt{4+6a\Delta^2+3a^2\Delta^4}}.
+\end{equation}
+Indeed the latter right side is greater than $0.0256374648691356266$.
+For $t\in[R,1]$, put $\delta=1-t$ and
+$y=\sin^2(\pi\log t/(2w))/X$. Since $-\log t\ge\delta$ and
+$\sin v\ge v-v^3/6$, one has $y\ge a\delta^2$. Direct algebra gives
+\[
+ g(t)=\frac{2\sqrt{3y(2+y)}}{\sqrt{3y(2+y)}+\sqrt{4+6y+3y^2}}.
+\]
+This expression increases with $y$. Substitute $a\delta^2$ for $y$,
+bound its numerator below by $2\sqrt{6a}\delta$ and its denominator above
+by the denominator in~\eqref{eq:ell}. Thus $g(t)\ge\ell(1-t)$ on $[R,1]$.
+In particular,
+\[
+ \int_R^1g(t)t^k\,dt\ge\ell\left(
+ \frac{1-R^{k+1}}{k+1}-\frac{1-R^{k+2}}{k+2}\right).
+\]
+
+The two desired moment inequalities reduce respectively to
+\begin{align*}
+ A_k&=\sum_jw_jt_j^k-\frac{R^{k+1}}{k+1}\ge0,\\
+ B_k&=\int_R^1g(t)t^k\,dt+\frac{R^{k+1}}{k+1}
+       -\sum_jw_j\beta(t_j)t_j^k\ge0.
+\end{align*}
+Here $A_0=0$ by exact mass balance. Both checkers verify $A_k>0$ through
+$k=31278$. For all $k\ge31279$, the last atom alone suffices, since
+$w_{12}(k+1)\ge R$.
+
+Both checkers verify $B_k>0$ for $1\le k\le23999$ using the displayed
+linear integral lower bound and upper enclosures of the atomic $\beta$.
+For the rest, set $t_0=0.9998$, $t_1=0.9999$. The exact comparison
+\[
+ \ell(1-t_1)(t_1-t_0)t_0^{24000}>\sum_jw_jt_j^{24000}
+\]
+has a certified gap greater than $2.1063\cdot10^{-12}$. Since every
+$t_j\le R<t_0$, it persists at every larger exponent. As $\beta\le1$,
+it proves the second infinite tail. The verified finite relative margins,
+normalized by $R^{k+1}/(k+1)$, exceed $2.0961\cdot10^{-6}$ for $A_k$
+and $2.2847\cdot10^{-7}$ for $B_k$. Lemma~\ref{lem:mom} proves
+Theorem~\ref{thm:main}.
+
+\section{Independent checks, provenance and limitations}
+The supplied \texttt{certificate-jung.json} is exact rational input.
+\texttt{verify\_jung\_arb.py} uses Arb at 75 decimal digits.
+\texttt{verify\_jung\_rational.py} uses only standard-library integers,
+fractions and integer square roots, rounding every operation outwards on a
+$2^{200}$ denominator. It implements Machin's formula for $\pi$, the positive
+atanh series for $-\log t$, sine with a Lagrange remainder, and exponential
+with a geometric remainder after argument reduction. Neither checker imports
+the search or the other checker. Seventeen independent arithmetic enclosure
+controls against 100-digit Arb pass. Both reject mass-preserving bad moments,
+an unsafe linear envelope, a false tail cutoff, a wrong analytic model and
+execution with assertions disabled.
+
+The frozen certificate SHA-256 is
+\begin{center}\ttfamily\footnotesize
+80a056f2cec4cfd933944fa51100bc5a1a9657f1a1de509e3a51401ff282002b.
+\end{center}
+Its numerical hypotheses, rather than the analytic proof itself, are checked
+by the programs. No proof-assistant formalization is claimed. The complete
+proof of the substituted analytic estimate is given above for mathematical
+review. A separate retained sixteen-atom certificate gives $0.42638465$ using
+Wang's original estimate~\cite{Wang2008,Wang} and Wikstr\"om's original moment lemma unchanged.
+The exact $0.4263$ public baseline was reproduced before optimization, including
+its original published software~\cite{Zenodo}.
+
+Credit goes to Wang and Schuster for the annular-pseudodistance approach,
+to the classical Schwarz and hyperbolic Jung inequalities, and to Wikstr\"om
+for moment duality, the atomic-plus-Lebesgue construction and its LP/refinement
+strategy. The computations widen the atomic support and tail cutoff, then
+replace the analytic estimate by the covering-strip/enclosing-disk argument.
+Larger unsuccessful numerical trials do not prove a barrier. No optimality
+of the measure, analytic estimate or constant is asserted. The analytic proof
+and its computational hypotheses remain subject to independent review.
+
+\paragraph{AI use and author review.}
+Analysis and proof drafting by AI agents under my direction; I reviewed the
+results at summary level. AI agents also prepared the certificate, checking
+software, and publication materials. This disclosure does not claim a
+line-by-line human verification of the proof or software.
+
+\paragraph{Availability.}
+The certificates, checkers, verification receipts, and source are available at
+\url{https://github.com/rpinho/korenblum-c68-certificate} under the MIT license.
+
+\begin{thebibliography}{99}
+\bibitem{Korenblum} B. Korenblum, \emph{A maximum principle for the Bergman
+space}, Publ. Mat. \textbf{35} (1991), no. 2, 479--486.
+\bibitem{Hayman} W. K. Hayman, \emph{On a conjecture of Korenblum},
+Analysis (Munich) \textbf{19} (1999), no. 2, 195--205.
+\bibitem{Wikstrom} F. Wikstr\"om, \emph{Moment duality and an improved lower
+bound for Korenblum's constant}, arXiv:2607.17748 (2026),
+\url{https://arxiv.org/abs/2607.17748}.
+\bibitem{Zenodo} F. Wikstr\"om, \emph{Rigorous certificates for a lower bound on
+Korenblum's constant}, Zenodo, doi:10.5281/zenodo.21446369.
+\bibitem{Wang2008} C. Wang, \emph{Domination in the Bergman space and
+Korenblum's constant}, Integral Equations Operator Theory \textbf{61}
+(2008), 423--432, doi:10.1007/s00020-008-1587-4.
+\bibitem{Wang} C. Wang, \emph{A lower bound on Korenblum's constant},
+Proc. Amer. Math. Soc. \textbf{153} (2025), 1209--1214,
+doi:10.1090/proc/17112.
+\bibitem{Schuster} A. Schuster, \emph{The maximum principle for the Bergman
+space and the M\"obius pseudodistance for the annulus}, Proc. Amer. Math.
+Soc. \textbf{134} (2006), 3525--3530; arXiv:math/0407416.
+\bibitem{BMRS} S. Baguley, Y. Maus, J. Ruff and G. Skretas,
+\emph{Hyperbolic random graphs: clique number and degeneracy with implications
+for colouring}, STACS 2025, LIPIcs \textbf{327}, article 13, Theorem 17
+(hyperbolic Jung, citing Dekster), doi:10.4230/LIPIcs.STACS.2025.13.
+\end{thebibliography}
+\end{document}

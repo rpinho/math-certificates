@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "./sources/hjm_repo/RealGrothendieck-main/verify.py", line 170, in <module>
+    main()
+  File "./sources/hjm_repo/RealGrothendieck-main/verify.py", line 111, in main
+    manifest=check_manifest()
+             ^^^^^^^^^^^^^^^^
+  File "./sources/hjm_repo/RealGrothendieck-main/data_link.py", line 48, in check_manifest
+    require(hashlib.sha256(path.read_bytes()).hexdigest()==digest,
+  File "./sources/hjm_repo/RealGrothendieck-main/data_link.py", line 24, in require
+    raise ValueError(message)
+ValueError: File hash mismatch: lower/README.md

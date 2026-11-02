@@ -1,0 +1,26 @@
+{
+  "status": "PASS exact cap arithmetic; universal lemmas in PROOF.md",
+  "caps": [
+    {
+      "degree": 4,
+      "R": 25,
+      "cap": "25/16",
+      "no_minimum_integer_gap": 4,
+      "minimum_potential_gap": "3/32"
+    },
+    {
+      "degree": 5,
+      "R": 71,
+      "cap": "71/32",
+      "no_minimum_integer_gap": 16,
+      "minimum_potential_gap": "39/256"
+    },
+    {
+      "degree": 6,
+      "R": 180,
+      "cap": "45/16",
+      "no_minimum_integer_gap": 10,
+      "minimum_potential_gap": "15/64"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS candidate, unrefereed",
+  "utc": "2026-11-01T20:57:56.622345+00:00",
+  "bound96": "125475790246857326765951236155/39614081257132168796771975168",
+  "bound72": "7478939905575354700941/2361183241434822606848",
+  "gain": "417/512",
+  "B8": 33,
+  "static_files_checked": 19,
+  "manifest_sha256": "3fc9e6d4732b7734d948cd76bb2d0d68c649528c8d82747325a3bfa201e5d960",
+  "receipt_hashes": {
+    "verification_rows.json": "e45a12cd94b9d0e214e919d90a1228706e437d4f029086db64c5debf9522b5a5",
+    "verification_independent_H96.json": "12502dac1487bcfbe706ff4c4fe8533871519015815546a4cb0e9ab9c8f462dc",
+    "verification_independent_H72.json": "879edbd82ba124f8eb80f8c5e60d8d6dffe7c0b3169e8ed826ca9443cd1572e5",
+    "control_gap.json": "073d8f5476f1512c85e4032d61e53fad9d36a09c3e7aba199434e1e5f3c0026b",
+    "control_witnesses.json": "fc19a4c7a1dc1f2582b9f489222c2981d8704cc9d2a0c21edfc385786ebf585c",
+    "control_rejections.json": "fd2888e8dd60debe2e5674198b50d95b77a521c69274ce93f0ada584fda6ace4",
+    "verification_structure_cases.json": "c3d1f231232804fc27876273378e93e3ea39dc08f58138a448e27eb249a56313"
+  }
+}

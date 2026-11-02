@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "certificate_sha256": "b755137b78c0d7e092774fa9df1a26c050e273ca9696fb49e4c4ee0ec901ea67",
+  "results": [
+    {
+      "control": "mass-preserving-bad-moments",
+      "checker": "verify_envelope_arb.py",
+      "pid": 23571,
+      "rejected": true,
+      "returncode": 1,
+      "expected_diagnostic": "('A', 2",
+      "seconds": 9.46046912483871
+    },
+    {
+      "control": "mass-preserving-bad-moments",
+      "checker": "verify_envelope_rational.py",
+      "pid": 23598,
+      "rejected": true,
+      "returncode": 1,
+      "expected_diagnostic": "('A', 2",
+      "seconds": 30.355754875112325
+    },
+    {
+      "control": "false-infinite-tail",
+      "checker": "verify_envelope_arb.py",
+      "pid": 23692,
+      "rejected": true,
+      "returncode": 1,
+      "expected_diagnostic": "second tail",
+      "seconds": 10.719854375347495
+    },
+    {
+      "control": "false-infinite-tail",
+      "checker": "verify_envelope_rational.py",
+      "pid": 23732,
+      "rejected": true,
+      "returncode": 1,
+      "expected_diagnostic": "second tail",
+      "seconds": 31.65179991722107
+    },
+    {
+      "control": "false-polynomial-lower-bound",
+      "checker": "verify_envelope_arb.py",
+      "pid": 23840,
+      "rejected": true,
+      "returncode": 1,
+      "expected_diagnostic": "Bernstein",
+      "seconds": 8.099990000016987
+    },
+    {
+      "control": "false-polynomial-lower-bound",
+      "checker": "verify_envelope_rational.py",
+      "pid": 23873,
+      "rejected": true,
+      "returncode": 1,
+      "expected_diagnostic": "Mobius positivity",
+      "seconds": 31.082186958752573
+    },
+    {
+      "control": "optimized-Python-disabled-assertions",
+      "checker": "verify_envelope_arb.py",
+      "rejected": true
+    },
+    {
+      "control": "optimized-Python-disabled-assertions",
+      "checker": "verify_envelope_rational.py",
+      "rejected": true
+    }
+  ]
+}

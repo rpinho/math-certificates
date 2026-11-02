@@ -1,0 +1,116 @@
+{
+  "status": "PASS frozen exact certificate and two independent full verifiers",
+  "qualification": "candidate, unrefereed; written universal proof, no formalization or independent human review",
+  "utc": "2026-11-01T20:14:21.976697+00:00",
+  "claim": "C44 < 3.9819073803",
+  "row_bound": "157739602520732550180509661243/39614081257132168796771975168",
+  "row_decimal": "3.981907380278645604364490105637827330171324002522007098545109293752375378971919417381",
+  "column_bound": "9402012975259575456909/2361183241434822606848",
+  "exact_gain_over_c44r3": "9/64",
+  "gain_decimal": "0.140625",
+  "caps": {
+    "3": "5/4",
+    "4": "25/16",
+    "5": "71/32",
+    "6": "45/16",
+    "7": "447/128"
+  },
+  "block_bounds_changed": false,
+  "B8": 33,
+  "cap_checks": {
+    "status": "PASS exact cap arithmetic; universal lemmas in PROOF.md",
+    "caps": [
+      {
+        "degree": 4,
+        "R": 25,
+        "cap": "25/16",
+        "no_minimum_integer_gap": 4,
+        "minimum_potential_gap": "3/32"
+      },
+      {
+        "degree": 5,
+        "R": 71,
+        "cap": "71/32",
+        "no_minimum_integer_gap": 16,
+        "minimum_potential_gap": "39/256"
+      },
+      {
+        "degree": 6,
+        "R": 180,
+        "cap": "45/16",
+        "no_minimum_integer_gap": 10,
+        "minimum_potential_gap": "15/64"
+      }
+    ]
+  },
+  "common_degree72_finite": "1175251621907446906759/295147905179352825856",
+  "static_manifest_sha256": "af954e3e8296abecbdd15a33d570799d1ee78ec9ec85a93e2e57d0764e276617",
+  "static_files_checked": 18,
+  "structure_controls": {
+    "status": "PASS finite exact controls, not formal verification",
+    "truth_tables": [
+      {
+        "n": 1,
+        "nonconstant_tables": 2,
+        "minimum_derivatives": 2,
+        "parity_checks": 0
+      },
+      {
+        "n": 2,
+        "nonconstant_tables": 14,
+        "minimum_derivatives": 20,
+        "parity_checks": 20
+      },
+      {
+        "n": 3,
+        "nonconstant_tables": 254,
+        "minimum_derivatives": 342,
+        "parity_checks": 714
+      },
+      {
+        "n": 4,
+        "nonconstant_tables": 65534,
+        "minimum_derivatives": 23112,
+        "parity_checks": 261112
+      }
+    ],
+    "symbolic_witnesses": [
+      {
+        "CHS_degree": 2,
+        "relevant_variables": 4,
+        "Fourier_terms": 4,
+        "minimum_derivatives": 4
+      },
+      {
+        "CHS_degree": 3,
+        "relevant_variables": 10,
+        "Fourier_terms": 16,
+        "minimum_derivatives": 8
+      },
+      {
+        "CHS_degree": 4,
+        "relevant_variables": 22,
+        "Fourier_terms": 64,
+        "minimum_derivatives": 16
+      },
+      {
+        "CHS_degree": 5,
+        "relevant_variables": 46,
+        "Fourier_terms": 256,
+        "minimum_derivatives": 32
+      },
+      {
+        "CHS_degree": 6,
+        "relevant_variables": 94,
+        "Fourier_terms": 1024,
+        "minimum_derivatives": 64
+      },
+      {
+        "corrected_CHS_duplication": "PASS",
+        "old_D": "5/8",
+        "new_D": "11/16"
+      }
+    ]
+  },
+  "rejection_controls": 17
+}

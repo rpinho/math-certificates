@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "rejections": 14,
+  "original_review_harness_unmodified": true,
+  "checks": [
+    {
+      "target": "c44",
+      "mutation": "overclaim",
+      "checker": 1,
+      "rejected": true,
+      "reason": "upper bound overclaim"
+    },
+    {
+      "target": "c44",
+      "mutation": "overclaim",
+      "checker": 2,
+      "rejected": true,
+      "reason": "bound overclaim"
+    },
+    {
+      "target": "c44",
+      "mutation": "unsupported low cap",
+      "checker": 1,
+      "rejected": true,
+      "reason": "unsupported analytic premise"
+    },
+    {
+      "target": "c44",
+      "mutation": "unsupported low cap",
+      "checker": 2,
+      "rejected": true,
+      "reason": "unsupported lemma"
+    },
+    {
+      "target": "c44",
+      "mutation": "altered external theorem",
+      "checker": 1,
+      "rejected": true,
+      "reason": "unsupported analytic premise"
+    },
+    {
+      "target": "c44",
+      "mutation": "altered external theorem",
+      "checker": 2,
+      "rejected": true,
+      "reason": "unsupported lemma"
+    },
+    {
+      "target": "c44",
+      "mutation": "wrong lemma",
+      "checker": 1,
+      "rejected": true,
+      "reason": "schema/lemma"
+    },
+    {
+      "target": "c44",
+      "mutation": "wrong lemma",
+      "checker": 2,
+      "rejected": true,
+      "reason": "unsupported lemma"
+    },
+    {
+      "target": "c44",
+      "mutation": "wrong source digest",
+      "checker": 1,
+      "rejected": true,
+      "reason": "source hash"
+    },
+    {
+      "target": "c44",
+      "mutation": "wrong source digest",
+      "checker": 2,
+      "rejected": true,
+      "reason": "artifact changed"
+    },
+    {
+      "target": "c44",
+      "mutation": "corrupt dual with refreshed digest",
+      "checker": 1,
+      "rejected": true,
+      "reason": "dual moment"
+    },
+    {
+      "target": "c44",
+      "mutation": "corrupt dual with refreshed digest",
+      "checker": 2,
+      "rejected": true,
+      "reason": "interpolation annihilator"
+    },
+    {
+      "target": "c44",
+      "mutation": "altered nodes with refreshed digest",
+      "checker": 1,
+      "rejected": true,
+      "reason": "dual moment"
+    },
+    {
+      "target": "c44",
+      "mutation": "altered nodes with refreshed digest",
+      "checker": 2,
+      "rejected": true,
+      "reason": "interpolation annihilator"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "certificate_sha256": "80a056f2cec4cfd933944fa51100bc5a1a9657f1a1de509e3a51401ff282002b",
+  "results": [
+    {
+      "control": "mass-preserving-bad-moments",
+      "checker": "verify_jung_arb.py",
+      "rejected": true,
+      "expected_diagnostic": "first moment",
+      "seconds": 0.06836408376693726
+    },
+    {
+      "control": "mass-preserving-bad-moments",
+      "checker": "verify_jung_rational.py",
+      "rejected": true,
+      "expected_diagnostic": "first moment",
+      "seconds": 0.03562512528151274
+    },
+    {
+      "control": "unsafe-linear-envelope",
+      "checker": "verify_jung_arb.py",
+      "rejected": true,
+      "expected_diagnostic": "linear envelope",
+      "seconds": 0.05691812513396144
+    },
+    {
+      "control": "unsafe-linear-envelope",
+      "checker": "verify_jung_rational.py",
+      "rejected": true,
+      "expected_diagnostic": "linear envelope",
+      "seconds": 0.03001866629347205
+    },
+    {
+      "control": "false-infinite-tail",
+      "checker": "verify_jung_arb.py",
+      "rejected": true,
+      "expected_diagnostic": "second infinite tail",
+      "seconds": 0.05347591685131192
+    },
+    {
+      "control": "false-infinite-tail",
+      "checker": "verify_jung_rational.py",
+      "rejected": true,
+      "expected_diagnostic": "second infinite tail",
+      "seconds": 0.03756412537768483
+    },
+    {
+      "control": "wrong-analytic-model",
+      "checker": "verify_jung_arb.py",
+      "rejected": true,
+      "expected_diagnostic": "AssertionError",
+      "seconds": 0.05526037514209747
+    },
+    {
+      "control": "wrong-analytic-model",
+      "checker": "verify_jung_rational.py",
+      "rejected": true,
+      "expected_diagnostic": "AssertionError",
+      "seconds": 0.023868625052273273
+    },
+    {
+      "control": "optimized-Python-disabled-assertions",
+      "checker": "verify_jung_arb.py",
+      "rejected": true
+    },
+    {
+      "control": "optimized-Python-disabled-assertions",
+      "checker": "verify_jung_rational.py",
+      "rejected": true
+    }
+  ]
+}

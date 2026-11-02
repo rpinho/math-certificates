@@ -1,0 +1,7 @@
+{
+ "claim_rejected": "integral (12/25)sin^2(theta)|V(e^(i theta))|^2 >= (7/100)(|V0|^2+|V1|^2+|V2|^2)",
+ "m1": "0", "m2": "1", "kappa": "3/25",
+ "V_coefficients": ["1","0","3/2","0","9/8","0","3/4","0","3/8"],
+ "radius": "1/2",
+ "interpretation": "For a strict interior radius use U(z)=V(2z), so U(rz)=V(z)."
+}

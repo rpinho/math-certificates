@@ -1,0 +1,307 @@
+% Unrefereed preprint for public release.
+% Copyright 2026 Ricardo Pinho. CC BY 4.0.
+\documentclass[11pt]{amsart}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,booktabs}
+\usepackage[expansion=false]{microtype}
+\setlength{\emergencystretch}{2em}
+\usepackage[hyphens]{url}
+\usepackage[hidelinks]{hyperref}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newcommand{\D}{\mathcal D}
+\title[A local-degree cap]{A degree-three local-weight cap and an improved relevant-variable bound}
+\author{Ricardo Pinho}
+\address{Independent researcher}
+\thanks{ORCID: \href{https://orcid.org/0009-0006-2744-2599}{0009-0006-2744-2599}. Licensed under CC BY 4.0.}
+\date{23 October 2026; unrefereed preprint}
+\keywords{Boolean functions, relevant variables, polynomial degree, exact arithmetic}
+\begin{document}
+\begin{abstract}
+We prove that the local-degree potential of a Boolean function of degree
+at most three is at most $5/4$, using the published fact that such a
+function has at most ten relevant variables. Inserting this cap into
+Wellens's degree--block-sensitivity recurrence, with the existing exact
+certificates released by \texorpdfstring{\'Epi}{Epi}, gives
+$C_{44}\le4.3576549226$.
+The reproduced preceding recurrence gives approximately $4.365467422574458$;
+our exact degree-three cap lowers it by $1/128$.
+Two separately written exact-arithmetic programs check the finite
+certificates, recurrence, infinite tail and finite cases of the added lemma.
+The universal argument is written below; the published degree-three
+classification is cited, not re-enumerated. This preprint is not peer
+reviewed and not verified in a proof assistant; no optimality is claimed.
+\end{abstract}
+\maketitle
+
+\section{The constant and the preceding bound}
+For a Boolean function $f$, let $r(f)$ be its number of relevant variables
+and $d=\deg f$ the degree of its multilinear polynomial. We use the sign
+cube and sign-valued output when convenient; invertible affine changes of
+input and output preserve degree and local degrees. The constant is
+\[
+ C_{44}=\sup_{d\ge1}\ \sup_{\deg f\le d}\frac{r(f)}{2^d}.
+\]
+Write $d_i(f)$ for the largest degree of a monomial involving a relevant
+coordinate $i$, and
+\[
+ \D(f)=\sum_{i\text{ relevant}}2^{-d_i(f)}.
+\]
+Since $d_i(f)\le d$, $r(f)/2^d\le\D(f)$.
+
+\begin{theorem}\label{main}
+For every Boolean function $f$ of positive degree $d$,
+\[
+ r(f)\le \frac{21788274613}{5000000000}\,2^d
+       =4.3576549226\,2^d.
+\]
+Consequently $C_{44}\le4.3576549226$.
+\end{theorem}
+
+The merged table records $4.394$ from Wellens~\cite{wellens,table}.
+The stronger public bound located in the present audit is \'Epi's
+$4.3654674227$~\cite{epi,epipaper}. Its degree-48 certificates and
+horizon-96 recurrence reproduce exactly at
+\[
+ \frac{172933981203227910490173314851}
+      {39614081257132168796771975168}
+ =4.365467422574458\ldots.
+\]
+That extra decimal precision is not a new improvement. We keep these
+released polynomial certificates and change one analytic cap in the
+recurrence. The difference between the two exact horizon-96 bounds is
+$1/128$, a gain in the actual preceding method rather than a rounding gain.
+
+\section{A sharp degree-three potential cap}
+We recall two ingredients. First, the influence argument gives
+\begin{equation}\label{influence}
+ \D(f)\le \tfrac12 I(f)\le \tfrac12\deg f.
+\end{equation}
+Indeed, a nonzero derivative of local degree $d_i-1$ is nonzero on at least
+a $2^{-(d_i-1)}$ fraction of the cube; summing gives the first inequality.
+The Fourier expression for total influence gives the second.
+
+Second, for every set $H$ of coordinates, the restriction inequality is
+\begin{equation}\label{restrict}
+ \D(f)\le\sum_{i\in H\text{ relevant}}2^{-d_i(f)}
+             +\mathbb E_{\alpha\in\{-1,1\}^H}\D(f_\alpha).
+\end{equation}
+For one restricted coordinate, any other coordinate surviving in both
+branches has local degree no greater than its original local degree. If
+it survives in only one branch, its original local degree is exactly one
+higher than in that branch. Thus its original weight is at most the
+average restricted weight in either case. Sum over the unrestricted
+coordinates and iterate to get~\eqref{restrict}. These are the usual
+local-weight facts of Chiarelli--Hatami--Saks and Wellens~\cite{chs,wellens}.
+
+We use the established theorem $R_3=10$: a Boolean function of degree at
+most three depends on at most ten variables. This comes from
+Tarannikov--Kirienko's resilient-function result and its degree translation;
+Krotov--Valyuzhenich explicitly state this consequence in Section 3 and
+step (i) of their classification~\cite{tk,kv}. Their account also cites
+Zverev's computer-free argument. We rely on this published theorem;
+our programs do not independently re-enumerate all cubic Boolean functions.
+
+\begin{lemma}\label{cap}
+If $\deg f\le3$, then $\D(f)\le5/4$. The constant $5/4$ is attained.
+\end{lemma}
+\begin{proof}
+Degrees at most two satisfy $\D(f)\le1$ by~\eqref{influence}, so assume
+$\deg f=3$. A relevant coordinate of local degree one would give
+$f=x_i a+g$, with $a$ a nonzero constant. Both $g+a$ and $g-a$ must take
+values in $\{-1,1\}$, forcing $a=\pm1$ and $g=0$. Such a function is a
+dictator, contrary to degree three. Hence all relevant local degrees are
+at least two.
+
+If they are all three, the published ten-variable theorem immediately gives
+$\D(f)=r(f)/8\le10/8=5/4$. Otherwise fix a coordinate $i$ of local degree
+two. Write
+\[
+ f(x)=x_i A(y)+B(y),\qquad
+ A(y)=\frac{f(1,y)-f(-1,y)}2.
+\]
+The nonzero polynomial $A$ is affine and takes values only in $\{-1,0,1\}$.
+Every nonzero linear coefficient $b_j$ has $|b_j|\ge1/2$, since changing
+that input changes $A$ by $2b_j$, a nonzero integer. Its total range has
+width $2\sum_j|b_j|\le2$. Thus $A$ depends on a set $H$ of at most two
+coordinates. Let $s=|H|$ and $p=\Pr(A\ne0)$ over those controls.
+
+Whenever $A=\pm1$, Booleanity forces $B=0$, so the corresponding restricted
+function is $\pm x_i$, with potential $1/2$. Whenever $A=0$, the restricted
+function is independent of $i$ and has degree at most two. To see the degree
+claim, a cubic monomial disjoint from $H$ would have the same coefficient
+in every restriction to $H$: a term containing that monomial and an additional
+control would have degree at least four. But one of the nonempty active
+branches is a dictator, which forces each such cubic coefficient to vanish.
+All restrictions therefore have degree at most two. Their potentials are
+at most one by~\eqref{influence}.
+
+Each coordinate in $H$ has original local degree at least two. Applying
+\eqref{restrict} gives
+\[
+ \D(f)\le\frac{s}{4}+\frac p2+(1-p).
+\]
+The possible nonzero affine ternary forms are, up to signs, coordinate
+permutations and omission of unused controls: $1$, $x_j$,
+$(1+x_j)/2$, and $(x_j+x_k)/2$.
+For $(s,p)=(0,1),(1,1),(1,1/2),(2,1/2)$, respectively, the last bound is
+$1/2,3/4,1,5/4$. This proves the inequality.
+
+For sharpness define
+\[
+ Q(s,t,u,v)=\tfrac12\bigl((s+t)u+(s-t)v\bigr),
+\]
+and, on disjoint blocks $x,y$ of four variables each, set
+\[
+ F(s,t,x,y)=\tfrac12\bigl((s+t)Q(x)+(s-t)Q(y)\bigr).
+\]
+For sign inputs exactly one summand is active in each expression, so $F$
+is Boolean. Its sixteen nonzero monomials are cubic, and each of its ten
+variables appears in one. Hence $\D(F)=10/8=5/4$. Both checkers independently
+verify this small witness.
+\end{proof}
+
+\section{The exact finite recurrence and tail}
+Let $\mathcal B_d$ be an upper bound for the block sensitivity of degree-$d$
+Boolean functions. Wellens's restriction of a degree-$d$ monomial costs
+$d2^{-d}$ in potential and lowers block sensitivity by at least one.
+With $U(0,d)=0$, a valid recursion is
+\begin{equation}\label{dp}
+ U(b,d)=\min\!\left\{c_d,\ d2^{-d}+
+                  \max_{1\le k\le d}U(b-1,k)\right\}
+ \quad(1\le b\le\mathcal B_d),
+\end{equation}
+where $U(b,d)=U(\mathcal B_d,d)$ for $b>\mathcal B_d$ and
+\[
+ c_d=d/2\quad(d\ne3),\qquad c_3=5/4.
+\]
+Induction on $b$ proves that $U(b,d)$ bounds the potential of every
+function with degree exactly $d$ and block sensitivity at most $b$.
+Constants contribute zero. This is Wellens's recurrence with
+Lemma~\ref{cap} replacing the degree-three influence cap $3/2$.
+
+For $d=1,\ldots,48$ we retain \'Epi's released nodes
+$1=x_0<x_1<\cdots<x_d$ and rational weights $w_i$.
+The exact conditions checked are
+\[
+ \sum_{i=0}^d w_i x_i^j=0\ (j=1,\ldots,d),\qquad
+ w_0>0,\qquad w_0+\sum_{i\ge1:w_i<0}w_i>0.
+\]
+If a degree-$d$ Boolean function had block sensitivity at least $x_d$,
+Wellens's symmetrization criterion would give a polynomial $p$ with
+$p(0)=0$, $p(1)=1$ and $0\le p(k)\le1$ for $1\le k\le x_d$.
+The displayed identities would imply both $\sum_iw_i p(x_i)=0$ and
+$\sum_iw_i p(x_i)>0$, a contradiction. Thus
+$\mathcal B_d=x_d-1$ is valid. We intersect these bounds with Wellens's
+universal inequality
+\[
+ 3b(b-1)\le2(d^4-d^2),
+\]
+using the largest integer satisfying it at each higher degree as well.
+No floating linear-program status enters this certificate.
+
+Wellens's Corollary 3.10, equations (3.14)--(3.15), supplies the infinite
+extension: for every horizon $H$,
+\begin{equation}\label{tail}
+ \D(f)\le U(\mathcal B_H,H)
+       +\frac{(H+1)^3}{2^{H+1}}
+       +\sum_{k=H+2}^\infty\frac{2k^2-k}{2^k}.
+\end{equation}
+The tail in~\eqref{tail} is exactly
+\[
+ T_H=\frac{(H+1)^3+2H^2+11H+19}{2^{H+1}}.
+\]
+Our row-wise dyadic-integer computation at $H=96$ gives
+\[
+ U(\mathcal B_{96},96)+T_{96}
+ =\frac{172624496193406565421448533795}
+       {39614081257132168796771975168}
+ <\frac{21788274613}{5000000000}.
+\]
+Together with $r(f)2^{-d}\le\D(f)$, this proves Theorem~\ref{main}.
+
+\section{Reproducible verification and scope}
+The original \'Epi artifact \texttt{sources/wellens-certificate.json} has
+SHA-256
+\begin{center}\small
+\texttt{ce66f1097a7284e9845113fa1dc39267932cc934fd23d9019ff13d3dcb39cf49}.
+\end{center}
+The new small input is \texttt{certificates/c44\_candidate.json}.
+The first checker tests all power-moment identities and uses a row-wise
+integer recurrence at horizon 96. The second verifies the different
+Lagrange-residue identities
+$w_i x_i\prod_{j\ne i}(x_i-x_j)=\text{constant}$, then computes by columns
+using rational fractions and the independent horizon 72. It sums the tail
+from separate geometric-series moment formulas. Both prove the same
+printed upper bound. Their finite derivative-case tests enumerate
+coefficient patterns and affine ternary truth tables, respectively;
+the ten-variable sharpness witness is checked by an integer Walsh transform
+and by direct evaluation of its cubic polynomial.
+
+Run
+\begin{verbatim}
+python verify_c44_exact.py certificates/c44_candidate.json
+python independent/verify_c44_fraction.py \
+       certificates/c44_candidate.json
+python rejection_controls.py
+\end{verbatim}
+Controls reject a smaller unsupported cap, an excessive upper-bound
+claim, an altered external theorem, changed source digest, and corrupted
+weights or nodes even when the attacker also refreshes the digest.
+These programs were written separately, with no imports from search or
+from one another, by the same AI agent. They are algorithmic cross-checks;
+there has been no independent human review. They do not formalize the
+published ten-variable theorem, Wellens's universal recurrence argument,
+or the full prose proof of Lemma~\ref{cap}.
+
+Endpoint-refined LP searches through degree 40 and integer slice-count
+relaxations through degree 10 did not yield a stronger block-sensitivity
+cap. Those are bounded negative experiments, not proofs of optimality.
+Their failure prompted the local-weight lemma; the existing polynomial
+certificates themselves were not improved.
+
+\section*{Provenance and limitations}
+The bounded live-source audit and final refresh are in
+\texttt{PRIOR\_ART.md} and \texttt{FINAL\_LIVE\_CHECK.md}.
+We build on the local potential of Chiarelli--Hatami--Saks, the recurrence,
+symmetrization and tail of Wellens, \'Epi's exact degree certificates, and
+the published ten-variable theorem. The contribution is the sharpened
+weighted degree-three cap and its effect on that recurrence.
+No stronger C44 bound was located in the sources checked; exhaustive
+priority is not asserted. This AI-prepared preprint is not peer reviewed
+and not verified in a proof assistant. No optimality is claimed.
+
+Analysis and proof drafting by AI agents under my direction; I reviewed
+the results at summary level. AI agents also prepared the certificate,
+checkers and publication materials. This does not claim a line-by-line
+human verification.
+
+\begin{thebibliography}{9}
+\bibitem{table} T. Tao and contributors, \emph{Optimization Constants in
+Mathematics}, entry 44a,
+\url{https://teorth.github.io/optimizationproblems/constants/44a.html}.
+\bibitem{chs} J. Chiarelli, P. Hatami and M. Saks,
+An asymptotically tight bound on the number of relevant variables in a
+bounded degree Boolean function, \emph{Combinatorica} \textbf{40} (2020),
+237--244; \url{https://arxiv.org/abs/1801.08564}.
+\bibitem{wellens} J. Wellens, Relationships between the number of inputs
+and other complexity measures of Boolean functions,
+\emph{Discrete Analysis} 2022:19;
+\url{https://arxiv.org/html/2005.00566v2}.
+\bibitem{epi} BakeLab, \emph{\'Epi-results: Wellens' Boolean-function bound},
+public exact certificate, reviewed 11 September 2026,
+\url{https://github.com/BakeLab/Epi-results/tree/97fa6a420f417458e11723c8bceb70f1529e447a/mathematics/wellens}.
+\bibitem{epipaper} Y. Huang et al., \emph{\'Epi: Towards a Persistent,
+Self-Improving Agent for Autonomous Research}, 2026, Appendix A.1,
+\url{https://arxiv.org/abs/2610.24944}.
+\bibitem{tk} Yu. Tarannikov and D. Kirienko, \emph{Spectral analysis of
+high order correlation immune functions}, IACR ePrint 2000/050,
+\url{https://eprint.iacr.org/2000/050}.
+\bibitem{kv} D. S. Krotov and A. Valyuzhenich,
+On degree-3 and $(n-4)$-correlation-immune perfect colorings of $n$-cubes,
+\emph{Discrete Mathematics} \textbf{347} (2024), 114138;
+\url{https://arxiv.org/html/2311.05566v2}.
+\end{thebibliography}
+\end{document}

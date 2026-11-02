@@ -1,0 +1,62 @@
+[
+  {
+    "control": "unsupported model",
+    "status": "REJECTED",
+    "reason": ""
+  },
+  {
+    "control": "unsupported constant",
+    "status": "REJECTED",
+    "reason": ""
+  },
+  {
+    "control": "negative weight",
+    "status": "REJECTED",
+    "reason": ""
+  },
+  {
+    "control": "mass mismatch",
+    "status": "REJECTED",
+    "reason": ""
+  },
+  {
+    "control": "mismatched lengths",
+    "status": "REJECTED",
+    "reason": ""
+  },
+  {
+    "control": "wrong first node",
+    "status": "REJECTED",
+    "reason": ""
+  },
+  {
+    "control": "wrong tail coverage",
+    "status": "REJECTED",
+    "reason": ""
+  },
+  {
+    "control": "invalid tail interval",
+    "status": "REJECTED",
+    "reason": ""
+  },
+  {
+    "control": "scalar wrong root",
+    "status": "REJECTED",
+    "reason": ""
+  },
+  {
+    "control": "scalar false S leaf",
+    "status": "REJECTED",
+    "reason": "('constant S', '[-0.095000000000000000000000000000000000000000000000 +/- 1.51e-49]')"
+  },
+  {
+    "control": "scalar false small leaf",
+    "status": "REJECTED",
+    "reason": ""
+  },
+  {
+    "control": "scalar endpoint split",
+    "status": "REJECTED",
+    "reason": ""
+  }
+]

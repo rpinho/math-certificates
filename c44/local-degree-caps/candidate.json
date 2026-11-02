@@ -1,0 +1,19 @@
+{
+  "schema": "c44-minimum-influence-bound-v1",
+  "caps": {
+    "3": "5/4",
+    "4": "25/16",
+    "5": "71/32",
+    "6": "45/16",
+    "7": "447/128"
+  },
+  "external_R3": 10,
+  "external_bs_theorem": "3b(b-1)<=2(d^4-d^2)",
+  "horizon": 96,
+  "epi_source": "baseline/baseline/sources/epi_certificate.json",
+  "spectral_source": "spectral_certificate_round3.json",
+  "spectral_sha256": "1020ed20d078ec1fece41c643007426bc452fc3aeafc81761901b32ded4495ed",
+  "claim": "3.9819073803",
+  "cap_source": "cap_certificate.json",
+  "cap_sha256": "e38613d38d8ef82156cbe36060679911d82b6f1e046ccd0432e0a191dc232512"
+}

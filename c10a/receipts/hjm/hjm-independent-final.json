@@ -1,0 +1,227 @@
+{
+  "status": "PASS_FRESH_LOWER_EXACT_ASSEMBLY",
+  "scope": "Independent rational aggregation; numerical premises from authors fresh lower replay",
+  "rows": 35,
+  "matrix_checks": 1820,
+  "statistics": {
+    "rectangles": 980,
+    "empty_rectangles": 4,
+    "flow_rectangles": 431,
+    "branch_rectangles": 72,
+    "integer_flows": 1450,
+    "binary_nodes": 1019,
+    "binary_leaves": 546
+  },
+  "norm_target": "999999998227/1773000000000",
+  "maximum_payoff_upper": "208626716570894129491268317276540351562425557278942055836316193682719703603769027248591302306708770069396192385028316997831469497487809/369895456786878733392593193994320581811670001453060379636398328016322921455550829845532592245601070727529758720000000000000000000000000",
+  "maximum_payoff_decimal": 0.564015352832781,
+  "strict_norm_slack": "31961206532991270941461994089504395455205045022451370407057947405710347533865898732437741903927004401246826059083587200508994901627/72869404987015110478340859216881154616898990286252894788370470619215615526743513479569920672383410933323362467840000000000000000000000000",
+  "strict_norm_slack_decimal": 4.3860940731829174e-07,
+  "minimum_printed_endpoint_slack": "28709019100905872173361814736743761124008964446441490987010474672065367908790222407443665994025377594011165015442794956500941/2622558788618970219753485745419732925044740310302198091622064145635729513119855383604826079021311591458185989324800000000000000000000000000",
+  "KG_lower": "1773000000000/999999998227",
+  "KG_lower_decimal": 1.773000003143529,
+  "negative_controls_report_sha256": "bd7c7fe697c3bbc1e50ba67c73acd56b8b6b5787dac6dbb373a1e447233d0234",
+  "negative_controls": {
+    "status": "ALL_NEGATIVE_CONTROLS_REJECTED",
+    "rejected_count": 32,
+    "tests": [
+      {
+        "test": "unfinished_status",
+        "rejected": true,
+        "reason": "Incomplete rectangle proof"
+      },
+      {
+        "test": "nonempty_pending_set",
+        "rejected": true,
+        "reason": "Pending rectangles remain"
+      },
+      {
+        "test": "changed_integer_target",
+        "rejected": true,
+        "reason": "Rectangle target mismatch"
+      },
+      {
+        "test": "unjustified_symmetry_prefix",
+        "rejected": true,
+        "reason": "Invalid external reflection prefix"
+      },
+      {
+        "test": "changed_coordinate_entry",
+        "rejected": true,
+        "reason": "Coordinate vectors changed"
+      },
+      {
+        "test": "changed_coordinate_normalizer",
+        "rejected": true,
+        "reason": "Coordinate normalizers changed"
+      },
+      {
+        "test": "duplicate_root_node",
+        "rejected": true,
+        "reason": "Duplicate or negative node id"
+      },
+      {
+        "test": "missing_proof_node",
+        "rejected": true,
+        "reason": "Missing/repeated rectangle node"
+      },
+      {
+        "test": "rectangle_root_endpoint_gap",
+        "rejected": true,
+        "reason": "Rectangle gap or endpoint mismatch"
+      },
+      {
+        "test": "duplicate_rectangle_children",
+        "rejected": true,
+        "reason": "Invalid rectangle children"
+      },
+      {
+        "test": "closed_child_coverage_gap",
+        "rejected": true,
+        "reason": "Rectangle gap or endpoint mismatch"
+      },
+      {
+        "test": "negative_cap_price",
+        "rejected": true,
+        "reason": "Invalid/nonpositive cap price"
+      },
+      {
+        "test": "understated_flow_bound",
+        "rejected": true,
+        "reason": "Rectangle flow arithmetic mismatch"
+      },
+      {
+        "test": "understated_cap_rounding_error",
+        "rejected": true,
+        "reason": "Cap rounding error mismatch"
+      },
+      {
+        "test": "unsupported_exclusion_of_feasible_rectangle",
+        "rejected": true,
+        "reason": "Zero facet"
+      },
+      {
+        "test": "unresolved_point_mislabeled_as_completion",
+        "rejected": true,
+        "reason": "Unaccepted rectangle leaf"
+      },
+      {
+        "test": "understated_global_integer_bound",
+        "rejected": true,
+        "reason": "Rectangle assembly mismatch"
+      },
+      {
+        "test": "binary_missing_child",
+        "rejected": true,
+        "reason": "Missing/repeated binary node"
+      },
+      {
+        "test": "binary_active_frontier",
+        "rejected": true,
+        "reason": "Active binary nodes remain"
+      },
+      {
+        "test": "binary_unjustified_reflection_prefix",
+        "rejected": true,
+        "reason": "Unjustified binary symmetry prefix"
+      },
+      {
+        "test": "binary_wrong_persistent_sign",
+        "rejected": true,
+        "reason": "Unjustified persistent assignments"
+      },
+      {
+        "test": "binary_missing_persistent_assignment",
+        "rejected": true,
+        "reason": "Unjustified persistent assignments"
+      },
+      {
+        "test": "binary_understated_flow",
+        "rejected": true,
+        "reason": "Binary flow arithmetic mismatch"
+      },
+      {
+        "test": "omitted_tail_error",
+        "rejected": true,
+        "reason": "Tail error is insufficient"
+      },
+      {
+        "test": "omitted_interpolation_and_tail_error",
+        "rejected": true,
+        "reason": "Interpolation error is insufficient"
+      },
+      {
+        "test": "omitted_fixed_point_input_error",
+        "rejected": true,
+        "reason": "Fixed-point input error is insufficient"
+      },
+      {
+        "test": "wrong_frozen_source_hash",
+        "rejected": true,
+        "reason": "Analytic source linkage mismatch"
+      },
+      {
+        "test": "asymmetric_integer_graph",
+        "rejected": true,
+        "reason": "asymmetric graph"
+      },
+      {
+        "test": "integer_overflow_budget",
+        "rejected": true,
+        "reason": "graph integer overflow budget"
+      },
+      {
+        "test": "zero_scalar_coordinate",
+        "rejected": true,
+        "reason": "cap coordinate"
+      },
+      {
+        "test": "reversed_cap_interval",
+        "rejected": true,
+        "reason": "cap parameters"
+      },
+      {
+        "test": "actual_non_fibre_repair_1e_minus_12",
+        "rejected": true,
+        "reason": "Directed LDL rejects row0 M2 transverse3"
+      }
+    ]
+  },
+  "fresh_fibre_hashes": {
+    "hjm-lower-results/fibres/row0.json": "0bf7a9aeeede020065eda16c948c5083d05245a9e20813489c2fbd6df0cbebcf",
+    "hjm-lower-results/fibres/row1.json": "dcd4d29b5e26cfb0a99e458cd2f3f3353a49084dcd6d059a0df07e2a41cbf577",
+    "hjm-lower-results/fibres/row2.json": "d2dcbe7235710ee70f729895875f4c9572a9ae49e90e1671c8e34660b58ba304",
+    "hjm-lower-results/fibres/row3.json": "d3856900b872b865ffa9747330446ff87965f0766256e63452d34fdaf4f24784",
+    "hjm-lower-results/fibres/row4.json": "b3d5260969ad144d8a9a1a8a1dec2542c3f3c214988b9104b968b9e8c29d7fb7",
+    "hjm-lower-results/fibres/row5.json": "131b16fd9375f976dffa019150bac69d50607dfac6fa0f5020368be9ed81ba91",
+    "hjm-lower-results/fibres/row6.json": "9be0acb0b19965acd7fdbd9e58c2b49fe92ddb793e8fdc132d2fa6f00848d5fd",
+    "hjm-lower-results/fibres/row7.json": "4a3fa45de7a9feb2c238cbfd8aebfdfcf4e680e6c2a0490d6773214f4cf90c7c",
+    "hjm-lower-results/fibres/row8.json": "42dcfe3e1f25ec0306e4d74b7989f249701f81a51f3b962a7c5cae184f16d45d",
+    "hjm-lower-results/fibres/row9.json": "813811782c0aee4a506efe36bcaf20e9ce9bcdcb1f1d022b481d6c6fd0ff13c8",
+    "hjm-lower-results/fibres/row10.json": "8432e6afb104f4c88a236b2c07466140140aa4abaed68edfe0b061ab78589420",
+    "hjm-lower-results/fibres/row11.json": "b15a9835d33c6e959f74eb23fade4737ed0f4fb0ddb6011c206b241e5b2ca3dc",
+    "hjm-lower-results/fibres/row12.json": "c60dbd6275e84f92406db99519399de50d737bbf2f53a84c01de4f750f24c184",
+    "hjm-lower-results/fibres/row13.json": "4307b8a2f16fc519919b9a05594d1d6426e291c9fca3d0e81489be39719f5abd",
+    "hjm-lower-results/fibres/row14.json": "230ab80fee7605a487b71947e13753441621ae846239fe179457ded79cb0714d",
+    "hjm-lower-results/fibres/row15.json": "84377268dcf1bb1972903114b9971361794b4eb301d704a7c604c64e8c6e3548",
+    "hjm-lower-results/fibres/row16.json": "75115b7caa66953785a14aa826ac60478b09d235d286f69799ff6886e76855ed",
+    "hjm-lower-results/fibres/row17.json": "c5559f8167f70f90417656a352420bacd6e8fee104e7806db9a53dcbb44d2a34",
+    "hjm-lower-results/fibres/row18.json": "655837ba1976b37a1819a2a68828f785ffc49b550d1f6d94207a3c4a948bd6f4",
+    "hjm-lower-results/fibres/row19.json": "79789546c6ca27105d35383628ec2094e735a0c0cc9371c36615c98f9af0b2be",
+    "hjm-lower-results/fibres/row20.json": "7e4241f7bf7ecf4fe6d05b2fb2275e077c3da1e89e809bac3b231e36eb772856",
+    "hjm-lower-results/fibres/row21.json": "1f0b1ebd8ed5ea5b7bd2084b5d87a8e0d02efe009cc04ce8c3af78f3cb8e4886",
+    "hjm-lower-results/fibres/row22.json": "1fabc37effff237dd96480128a613d5a8a5b4964a47d76f9ef2a5704247b0ad3",
+    "hjm-lower-results/fibres/row23.json": "b80e2d36fceb0752a3b81baad0c53fc9082c324796126f28b421f1577483981f",
+    "hjm-lower-results/fibres/row24.json": "f58a05e6d5937a4ea4a09568125c7d39da84bab6b589747f0853d63f84a845f8",
+    "hjm-lower-results/fibres/row25.json": "bbdbf785a942d2036cc2daf53fc9ef64d5db0af08d1fc05116ebe7d99d6feb6d",
+    "hjm-lower-results/fibres/row26.json": "d80100c0dbfa1cfc0f67bf7ced3ecb0c5806fc2ad3b9abce3e9aeaf9b1d7a927",
+    "hjm-lower-results/fibres/row27.json": "bd6903931b2fee32d405cab917f9e0500ff1edab09be8ab5409fc8580dd8621f",
+    "hjm-lower-results/fibres/row28.json": "0e5d13143afa347cdf058e2e1ebd2a98af9f2c63319336fd34693df4575754fe",
+    "hjm-lower-results/fibres/row29.json": "ffc84237c5793400a4b0042fa0a51dbf35217cf08180f91010f0a44f2139baa9",
+    "hjm-lower-results/fibres/row30.json": "27ab17645ed8e329708f17492328d83138c24309ce63205aac5b50cb903d6902",
+    "hjm-lower-results/fibres/row31.json": "4735ab31dbcb162021e1a500f2a661af6f8180fb661bff545a64cad78c650c22",
+    "hjm-lower-results/fibres/row32.json": "7303742fb6a9a44fe487a5d624df8c715bbf5588660eb1a43edac93cb05d7496",
+    "hjm-lower-results/fibres/row33.json": "5e7a927475140df6f8fe019e4fcfa712e5894d981859df835e6ddaf0bb9e105c",
+    "hjm-lower-results/fibres/row34.json": "02ce6e4bfbee193afd6bbae2a50b50535ee93bbd9374a83a4e15834c7220f8de"
+  }
+}

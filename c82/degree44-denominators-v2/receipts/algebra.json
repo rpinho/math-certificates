@@ -1,0 +1,2579 @@
+{
+  "sha256": "adfca0754f4d8b3a64398df22a506932743de7b0e49df542961530cb26c67ac2",
+  "passed": true,
+  "D": 1000000000064,
+  "degreeA": "950334855625099975/1048576",
+  "slack": "98241144442008889/1048576",
+  "degreeA_over_D": "950334855625099975/1048576000067108864",
+  "common_exponent_denominator": 1048576,
+  "degreeW": 2097152000134217728,
+  "degreeU": 1900669711250199950,
+  "coprimality_pairs": 423,
+  "records": [
+    {
+      "role": "denominator",
+      "index": 0,
+      "name": "P9",
+      "degree": 16,
+      "lead": 1,
+      "multiplicity": 7557887482
+    },
+    {
+      "role": "denominator",
+      "index": 1,
+      "name": "MD29",
+      "degree": 44,
+      "lead": 1,
+      "multiplicity": 2018897716
+    },
+    {
+      "role": "denominator",
+      "index": 2,
+      "name": "MD36",
+      "degree": 44,
+      "lead": 1,
+      "multiplicity": 2589976283
+    },
+    {
+      "role": "denominator",
+      "index": 3,
+      "name": "MD38",
+      "degree": 44,
+      "lead": 1,
+      "multiplicity": 593998251
+    },
+    {
+      "role": "denominator",
+      "index": 4,
+      "name": "MD39",
+      "degree": 44,
+      "lead": 1,
+      "multiplicity": 1584255934
+    },
+    {
+      "role": "denominator",
+      "index": 5,
+      "name": "MD40",
+      "degree": 44,
+      "lead": 1,
+      "multiplicity": 6635786348
+    },
+    {
+      "role": "denominator",
+      "index": 6,
+      "name": "MD42",
+      "degree": 44,
+      "lead": 1,
+      "multiplicity": 650993530
+    },
+    {
+      "role": "denominator",
+      "index": 7,
+      "name": "MD44",
+      "degree": 44,
+      "lead": 1,
+      "multiplicity": 4136585637
+    },
+    {
+      "role": "denominator",
+      "index": 8,
+      "name": "MD45",
+      "degree": 44,
+      "lead": 1,
+      "multiplicity": 1768456309
+    },
+    {
+      "role": "numerator",
+      "index": 0,
+      "name": "P1",
+      "degree": 1,
+      "lead": 1,
+      "exponent": "3889465944145165/32768"
+    },
+    {
+      "role": "numerator",
+      "index": 1,
+      "name": "P2",
+      "degree": 1,
+      "lead": 1,
+      "exponent": "8082337087928087/65536"
+    },
+    {
+      "role": "numerator",
+      "index": 2,
+      "name": "P3",
+      "degree": 3,
+      "lead": 1,
+      "exponent": "178803466505847/131072"
+    },
+    {
+      "role": "numerator",
+      "index": 3,
+      "name": "P4",
+      "degree": 4,
+      "lead": 1,
+      "exponent": "5385345463200705/262144"
+    },
+    {
+      "role": "numerator",
+      "index": 4,
+      "name": "P6",
+      "degree": 8,
+      "lead": 1,
+      "exponent": "690772979577471/32768"
+    },
+    {
+      "role": "numerator",
+      "index": 5,
+      "name": "MS94",
+      "degree": 20,
+      "lead": 1,
+      "exponent": "104477434265643/262144"
+    },
+    {
+      "role": "numerator",
+      "index": 6,
+      "name": "MS190",
+      "degree": 24,
+      "lead": 1,
+      "exponent": "491352244721757/524288"
+    },
+    {
+      "role": "numerator",
+      "index": 7,
+      "name": "MS192",
+      "degree": 24,
+      "lead": 1,
+      "exponent": "1319370097283769/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 8,
+      "name": "MS199",
+      "degree": 26,
+      "lead": 1,
+      "exponent": "15314460657749/524288"
+    },
+    {
+      "role": "numerator",
+      "index": 9,
+      "name": "MS208",
+      "degree": 16,
+      "lead": 1,
+      "exponent": "47092521598619/262144"
+    },
+    {
+      "role": "numerator",
+      "index": 10,
+      "name": "MS283",
+      "degree": 24,
+      "lead": 1,
+      "exponent": "171264859771287/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 11,
+      "name": "MS287",
+      "degree": 39,
+      "lead": 1,
+      "exponent": "229141383077863/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 12,
+      "name": "MS313",
+      "degree": 23,
+      "lead": 1,
+      "exponent": "101346687309451/524288"
+    },
+    {
+      "role": "numerator",
+      "index": 13,
+      "name": "MS347",
+      "degree": 26,
+      "lead": 1,
+      "exponent": "742153555170185/524288"
+    },
+    {
+      "role": "numerator",
+      "index": 14,
+      "name": "MS360",
+      "degree": 20,
+      "lead": 1,
+      "exponent": "22330709071743/262144"
+    },
+    {
+      "role": "numerator",
+      "index": 15,
+      "name": "MS374",
+      "degree": 36,
+      "lead": 1,
+      "exponent": "770304809136097/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 16,
+      "name": "MS384",
+      "degree": 32,
+      "lead": 1,
+      "exponent": "160889745333163/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 17,
+      "name": "MS393",
+      "degree": 88,
+      "lead": 2,
+      "exponent": "2091462076555/131072"
+    },
+    {
+      "role": "numerator",
+      "index": 18,
+      "name": "MS400",
+      "degree": 34,
+      "lead": 2,
+      "exponent": "870793565833911/524288"
+    },
+    {
+      "role": "numerator",
+      "index": 19,
+      "name": "MS401",
+      "degree": 55,
+      "lead": 1,
+      "exponent": "5898473188895/262144"
+    },
+    {
+      "role": "numerator",
+      "index": 20,
+      "name": "MS406",
+      "degree": 41,
+      "lead": 1,
+      "exponent": "49982654706221/524288"
+    },
+    {
+      "role": "numerator",
+      "index": 21,
+      "name": "MS419",
+      "degree": 73,
+      "lead": 1,
+      "exponent": "31320669989217/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 22,
+      "name": "MS426",
+      "degree": 32,
+      "lead": 2,
+      "exponent": "3730832547197/262144"
+    },
+    {
+      "role": "numerator",
+      "index": 23,
+      "name": "MS435",
+      "degree": 28,
+      "lead": 1,
+      "exponent": "113172005431949/131072"
+    },
+    {
+      "role": "numerator",
+      "index": 24,
+      "name": "MS444",
+      "degree": 22,
+      "lead": 1,
+      "exponent": "268276792996483/524288"
+    },
+    {
+      "role": "numerator",
+      "index": 25,
+      "name": "MS456",
+      "degree": 22,
+      "lead": 1,
+      "exponent": "8671227403137/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 26,
+      "name": "MS458",
+      "degree": 30,
+      "lead": 1,
+      "exponent": "29595107405147/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 27,
+      "name": "MS459",
+      "degree": 26,
+      "lead": 2,
+      "exponent": "139587623592679/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 28,
+      "name": "MS462",
+      "degree": 36,
+      "lead": 1,
+      "exponent": "221599705310239/262144"
+    },
+    {
+      "role": "numerator",
+      "index": 29,
+      "name": "MS471",
+      "degree": 24,
+      "lead": 1,
+      "exponent": "329805397465231/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 30,
+      "name": "MS478",
+      "degree": 54,
+      "lead": 2,
+      "exponent": "409945138905659/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 31,
+      "name": "MS483",
+      "degree": 27,
+      "lead": 1,
+      "exponent": "585523769075879/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 32,
+      "name": "MS485",
+      "degree": 25,
+      "lead": 1,
+      "exponent": "6892115563391/65536"
+    },
+    {
+      "role": "numerator",
+      "index": 33,
+      "name": "MS488",
+      "degree": 36,
+      "lead": 1,
+      "exponent": "69126037354787/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 34,
+      "name": "MS489",
+      "degree": 26,
+      "lead": 1,
+      "exponent": "184187231643583/524288"
+    },
+    {
+      "role": "numerator",
+      "index": 35,
+      "name": "MS490",
+      "degree": 77,
+      "lead": 1,
+      "exponent": "12814264831071/262144"
+    },
+    {
+      "role": "numerator",
+      "index": 36,
+      "name": "MS493",
+      "degree": 78,
+      "lead": 1,
+      "exponent": "22314182874717/524288"
+    },
+    {
+      "role": "numerator",
+      "index": 37,
+      "name": "MS494",
+      "degree": 44,
+      "lead": 1,
+      "exponent": "80364173102871/524288"
+    },
+    {
+      "role": "numerator",
+      "index": 38,
+      "name": "MS496",
+      "degree": 66,
+      "lead": 2,
+      "exponent": "7599026460757/65536"
+    },
+    {
+      "role": "numerator",
+      "index": 39,
+      "name": "MS497",
+      "degree": 80,
+      "lead": 1,
+      "exponent": "11113962815573/262144"
+    },
+    {
+      "role": "numerator",
+      "index": 40,
+      "name": "MS499",
+      "degree": 28,
+      "lead": 1,
+      "exponent": "433347907204625/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 41,
+      "name": "MS500",
+      "degree": 86,
+      "lead": 2,
+      "exponent": "47919937423325/524288"
+    },
+    {
+      "role": "numerator",
+      "index": 42,
+      "name": "MS501",
+      "degree": 83,
+      "lead": 4,
+      "exponent": "25761095808477/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 43,
+      "name": "MS502",
+      "degree": 74,
+      "lead": 4,
+      "exponent": "48682687593039/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 44,
+      "name": "MS503",
+      "degree": 24,
+      "lead": 1,
+      "exponent": "235137064245689/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 45,
+      "name": "MS506",
+      "degree": 81,
+      "lead": 1,
+      "exponent": "4069408717455/1048576"
+    },
+    {
+      "role": "numerator",
+      "index": 46,
+      "name": "MS507",
+      "degree": 64,
+      "lead": 1,
+      "exponent": "9179969370079/65536"
+    }
+  ],
+  "modular_witnesses": [
+    {
+      "numerator": "P1",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "P1",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "P1",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "P1",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "P1",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "P1",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "P1",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "P1",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "P1",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "P2",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "P2",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "P2",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "P2",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "P2",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "P2",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "P2",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "P2",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "P2",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "P3",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "P3",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "P3",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "P3",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "P3",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "P3",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "P3",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "P3",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "P3",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "P4",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "P4",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "P4",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "P4",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "P4",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "P4",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "P4",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "P4",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "P4",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "P6",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "P6",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "P6",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "P6",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "P6",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "P6",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "P6",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "P6",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "P6",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS94",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS94",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS94",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS94",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS94",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS94",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS94",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS94",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS94",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS190",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS190",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS190",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS190",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS190",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS190",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS190",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS190",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS190",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS192",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS192",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS192",
+      "denominator": "MD36",
+      "prime": 3
+    },
+    {
+      "numerator": "MS192",
+      "denominator": "MD38",
+      "prime": 3
+    },
+    {
+      "numerator": "MS192",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS192",
+      "denominator": "MD40",
+      "prime": 3
+    },
+    {
+      "numerator": "MS192",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS192",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS192",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS199",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS199",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS199",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS199",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS199",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS199",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS199",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS199",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS199",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS208",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS208",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS208",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS208",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS208",
+      "denominator": "MD39",
+      "prime": 3
+    },
+    {
+      "numerator": "MS208",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS208",
+      "denominator": "MD42",
+      "prime": 3
+    },
+    {
+      "numerator": "MS208",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS208",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS283",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS283",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS283",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS283",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS283",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS283",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS283",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS283",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS283",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS287",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS287",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS287",
+      "denominator": "MD36",
+      "prime": 3
+    },
+    {
+      "numerator": "MS287",
+      "denominator": "MD38",
+      "prime": 3
+    },
+    {
+      "numerator": "MS287",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS287",
+      "denominator": "MD40",
+      "prime": 3
+    },
+    {
+      "numerator": "MS287",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS287",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS287",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS313",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS313",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS313",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS313",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS313",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS313",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS313",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS313",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS313",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS347",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS347",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS347",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS347",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS347",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS347",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS347",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS347",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS347",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS360",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS360",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS360",
+      "denominator": "MD36",
+      "prime": 3
+    },
+    {
+      "numerator": "MS360",
+      "denominator": "MD38",
+      "prime": 3
+    },
+    {
+      "numerator": "MS360",
+      "denominator": "MD39",
+      "prime": 3
+    },
+    {
+      "numerator": "MS360",
+      "denominator": "MD40",
+      "prime": 3
+    },
+    {
+      "numerator": "MS360",
+      "denominator": "MD42",
+      "prime": 3
+    },
+    {
+      "numerator": "MS360",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS360",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS374",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS374",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS374",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS374",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS374",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS374",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS374",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS374",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS374",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS384",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS384",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS384",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS384",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS384",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS384",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS384",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS384",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS384",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS393",
+      "denominator": "P9",
+      "prime": 3
+    },
+    {
+      "numerator": "MS393",
+      "denominator": "MD29",
+      "prime": 3
+    },
+    {
+      "numerator": "MS393",
+      "denominator": "MD36",
+      "prime": 3
+    },
+    {
+      "numerator": "MS393",
+      "denominator": "MD38",
+      "prime": 3
+    },
+    {
+      "numerator": "MS393",
+      "denominator": "MD39",
+      "prime": 3
+    },
+    {
+      "numerator": "MS393",
+      "denominator": "MD40",
+      "prime": 3
+    },
+    {
+      "numerator": "MS393",
+      "denominator": "MD42",
+      "prime": 3
+    },
+    {
+      "numerator": "MS393",
+      "denominator": "MD44",
+      "prime": 3
+    },
+    {
+      "numerator": "MS393",
+      "denominator": "MD45",
+      "prime": 3
+    },
+    {
+      "numerator": "MS400",
+      "denominator": "P9",
+      "prime": 3
+    },
+    {
+      "numerator": "MS400",
+      "denominator": "MD29",
+      "prime": 3
+    },
+    {
+      "numerator": "MS400",
+      "denominator": "MD36",
+      "prime": 3
+    },
+    {
+      "numerator": "MS400",
+      "denominator": "MD38",
+      "prime": 3
+    },
+    {
+      "numerator": "MS400",
+      "denominator": "MD39",
+      "prime": 3
+    },
+    {
+      "numerator": "MS400",
+      "denominator": "MD40",
+      "prime": 3
+    },
+    {
+      "numerator": "MS400",
+      "denominator": "MD42",
+      "prime": 3
+    },
+    {
+      "numerator": "MS400",
+      "denominator": "MD44",
+      "prime": 5
+    },
+    {
+      "numerator": "MS400",
+      "denominator": "MD45",
+      "prime": 3
+    },
+    {
+      "numerator": "MS401",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS401",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS401",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS401",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS401",
+      "denominator": "MD39",
+      "prime": 3
+    },
+    {
+      "numerator": "MS401",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS401",
+      "denominator": "MD42",
+      "prime": 3
+    },
+    {
+      "numerator": "MS401",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS401",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS406",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS406",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS406",
+      "denominator": "MD36",
+      "prime": 3
+    },
+    {
+      "numerator": "MS406",
+      "denominator": "MD38",
+      "prime": 3
+    },
+    {
+      "numerator": "MS406",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS406",
+      "denominator": "MD40",
+      "prime": 3
+    },
+    {
+      "numerator": "MS406",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS406",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS406",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS419",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS419",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS419",
+      "denominator": "MD36",
+      "prime": 3
+    },
+    {
+      "numerator": "MS419",
+      "denominator": "MD38",
+      "prime": 3
+    },
+    {
+      "numerator": "MS419",
+      "denominator": "MD39",
+      "prime": 3
+    },
+    {
+      "numerator": "MS419",
+      "denominator": "MD40",
+      "prime": 3
+    },
+    {
+      "numerator": "MS419",
+      "denominator": "MD42",
+      "prime": 3
+    },
+    {
+      "numerator": "MS419",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS419",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS426",
+      "denominator": "P9",
+      "prime": 5
+    },
+    {
+      "numerator": "MS426",
+      "denominator": "MD29",
+      "prime": 3
+    },
+    {
+      "numerator": "MS426",
+      "denominator": "MD36",
+      "prime": 3
+    },
+    {
+      "numerator": "MS426",
+      "denominator": "MD38",
+      "prime": 3
+    },
+    {
+      "numerator": "MS426",
+      "denominator": "MD39",
+      "prime": 3
+    },
+    {
+      "numerator": "MS426",
+      "denominator": "MD40",
+      "prime": 3
+    },
+    {
+      "numerator": "MS426",
+      "denominator": "MD42",
+      "prime": 3
+    },
+    {
+      "numerator": "MS426",
+      "denominator": "MD44",
+      "prime": 3
+    },
+    {
+      "numerator": "MS426",
+      "denominator": "MD45",
+      "prime": 3
+    },
+    {
+      "numerator": "MS435",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS435",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS435",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS435",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS435",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS435",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS435",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS435",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS435",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS444",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS444",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS444",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS444",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS444",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS444",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS444",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS444",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS444",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS456",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS456",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS456",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS456",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS456",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS456",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS456",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS456",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS456",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS458",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS458",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS458",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS458",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS458",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS458",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS458",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS458",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS458",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS459",
+      "denominator": "P9",
+      "prime": 3
+    },
+    {
+      "numerator": "MS459",
+      "denominator": "MD29",
+      "prime": 3
+    },
+    {
+      "numerator": "MS459",
+      "denominator": "MD36",
+      "prime": 3
+    },
+    {
+      "numerator": "MS459",
+      "denominator": "MD38",
+      "prime": 3
+    },
+    {
+      "numerator": "MS459",
+      "denominator": "MD39",
+      "prime": 3
+    },
+    {
+      "numerator": "MS459",
+      "denominator": "MD40",
+      "prime": 3
+    },
+    {
+      "numerator": "MS459",
+      "denominator": "MD42",
+      "prime": 3
+    },
+    {
+      "numerator": "MS459",
+      "denominator": "MD44",
+      "prime": 3
+    },
+    {
+      "numerator": "MS459",
+      "denominator": "MD45",
+      "prime": 3
+    },
+    {
+      "numerator": "MS462",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS462",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS462",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS462",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS462",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS462",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS462",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS462",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS462",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS471",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS471",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS471",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS471",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS471",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS471",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS471",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS471",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS471",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS478",
+      "denominator": "P9",
+      "prime": 3
+    },
+    {
+      "numerator": "MS478",
+      "denominator": "MD29",
+      "prime": 3
+    },
+    {
+      "numerator": "MS478",
+      "denominator": "MD36",
+      "prime": 3
+    },
+    {
+      "numerator": "MS478",
+      "denominator": "MD38",
+      "prime": 3
+    },
+    {
+      "numerator": "MS478",
+      "denominator": "MD39",
+      "prime": 3
+    },
+    {
+      "numerator": "MS478",
+      "denominator": "MD40",
+      "prime": 3
+    },
+    {
+      "numerator": "MS478",
+      "denominator": "MD42",
+      "prime": 3
+    },
+    {
+      "numerator": "MS478",
+      "denominator": "MD44",
+      "prime": 3
+    },
+    {
+      "numerator": "MS478",
+      "denominator": "MD45",
+      "prime": 3
+    },
+    {
+      "numerator": "MS483",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS483",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS483",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS483",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS483",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS483",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS483",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS483",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS483",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS485",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS485",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS485",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS485",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS485",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS485",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS485",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS485",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS485",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS488",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS488",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS488",
+      "denominator": "MD36",
+      "prime": 3
+    },
+    {
+      "numerator": "MS488",
+      "denominator": "MD38",
+      "prime": 3
+    },
+    {
+      "numerator": "MS488",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS488",
+      "denominator": "MD40",
+      "prime": 3
+    },
+    {
+      "numerator": "MS488",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS488",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS488",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS489",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS489",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS489",
+      "denominator": "MD36",
+      "prime": 3
+    },
+    {
+      "numerator": "MS489",
+      "denominator": "MD38",
+      "prime": 3
+    },
+    {
+      "numerator": "MS489",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS489",
+      "denominator": "MD40",
+      "prime": 3
+    },
+    {
+      "numerator": "MS489",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS489",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS489",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS490",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS490",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS490",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS490",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS490",
+      "denominator": "MD39",
+      "prime": 3
+    },
+    {
+      "numerator": "MS490",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS490",
+      "denominator": "MD42",
+      "prime": 3
+    },
+    {
+      "numerator": "MS490",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS490",
+      "denominator": "MD45",
+      "prime": 3
+    },
+    {
+      "numerator": "MS493",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS493",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS493",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS493",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS493",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS493",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS493",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS493",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS493",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS494",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS494",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS494",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS494",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS494",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS494",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS494",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS494",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS494",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS496",
+      "denominator": "P9",
+      "prime": 3
+    },
+    {
+      "numerator": "MS496",
+      "denominator": "MD29",
+      "prime": 3
+    },
+    {
+      "numerator": "MS496",
+      "denominator": "MD36",
+      "prime": 3
+    },
+    {
+      "numerator": "MS496",
+      "denominator": "MD38",
+      "prime": 3
+    },
+    {
+      "numerator": "MS496",
+      "denominator": "MD39",
+      "prime": 3
+    },
+    {
+      "numerator": "MS496",
+      "denominator": "MD40",
+      "prime": 3
+    },
+    {
+      "numerator": "MS496",
+      "denominator": "MD42",
+      "prime": 3
+    },
+    {
+      "numerator": "MS496",
+      "denominator": "MD44",
+      "prime": 3
+    },
+    {
+      "numerator": "MS496",
+      "denominator": "MD45",
+      "prime": 5
+    },
+    {
+      "numerator": "MS497",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS497",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS497",
+      "denominator": "MD36",
+      "prime": 3
+    },
+    {
+      "numerator": "MS497",
+      "denominator": "MD38",
+      "prime": 3
+    },
+    {
+      "numerator": "MS497",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS497",
+      "denominator": "MD40",
+      "prime": 5
+    },
+    {
+      "numerator": "MS497",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS497",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS497",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS499",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS499",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS499",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS499",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS499",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS499",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS499",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS499",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS499",
+      "denominator": "MD45",
+      "prime": 5
+    },
+    {
+      "numerator": "MS500",
+      "denominator": "P9",
+      "prime": 3
+    },
+    {
+      "numerator": "MS500",
+      "denominator": "MD29",
+      "prime": 3
+    },
+    {
+      "numerator": "MS500",
+      "denominator": "MD36",
+      "prime": 3
+    },
+    {
+      "numerator": "MS500",
+      "denominator": "MD38",
+      "prime": 3
+    },
+    {
+      "numerator": "MS500",
+      "denominator": "MD39",
+      "prime": 3
+    },
+    {
+      "numerator": "MS500",
+      "denominator": "MD40",
+      "prime": 3
+    },
+    {
+      "numerator": "MS500",
+      "denominator": "MD42",
+      "prime": 5
+    },
+    {
+      "numerator": "MS500",
+      "denominator": "MD44",
+      "prime": 5
+    },
+    {
+      "numerator": "MS500",
+      "denominator": "MD45",
+      "prime": 3
+    },
+    {
+      "numerator": "MS501",
+      "denominator": "P9",
+      "prime": 3
+    },
+    {
+      "numerator": "MS501",
+      "denominator": "MD29",
+      "prime": 3
+    },
+    {
+      "numerator": "MS501",
+      "denominator": "MD36",
+      "prime": 3
+    },
+    {
+      "numerator": "MS501",
+      "denominator": "MD38",
+      "prime": 3
+    },
+    {
+      "numerator": "MS501",
+      "denominator": "MD39",
+      "prime": 3
+    },
+    {
+      "numerator": "MS501",
+      "denominator": "MD40",
+      "prime": 3
+    },
+    {
+      "numerator": "MS501",
+      "denominator": "MD42",
+      "prime": 3
+    },
+    {
+      "numerator": "MS501",
+      "denominator": "MD44",
+      "prime": 3
+    },
+    {
+      "numerator": "MS501",
+      "denominator": "MD45",
+      "prime": 3
+    },
+    {
+      "numerator": "MS502",
+      "denominator": "P9",
+      "prime": 3
+    },
+    {
+      "numerator": "MS502",
+      "denominator": "MD29",
+      "prime": 3
+    },
+    {
+      "numerator": "MS502",
+      "denominator": "MD36",
+      "prime": 3
+    },
+    {
+      "numerator": "MS502",
+      "denominator": "MD38",
+      "prime": 3
+    },
+    {
+      "numerator": "MS502",
+      "denominator": "MD39",
+      "prime": 3
+    },
+    {
+      "numerator": "MS502",
+      "denominator": "MD40",
+      "prime": 3
+    },
+    {
+      "numerator": "MS502",
+      "denominator": "MD42",
+      "prime": 3
+    },
+    {
+      "numerator": "MS502",
+      "denominator": "MD44",
+      "prime": 3
+    },
+    {
+      "numerator": "MS502",
+      "denominator": "MD45",
+      "prime": 3
+    },
+    {
+      "numerator": "MS503",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS503",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS503",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS503",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS503",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS503",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS503",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS503",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS503",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS506",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS506",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS506",
+      "denominator": "MD36",
+      "prime": 3
+    },
+    {
+      "numerator": "MS506",
+      "denominator": "MD38",
+      "prime": 3
+    },
+    {
+      "numerator": "MS506",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS506",
+      "denominator": "MD40",
+      "prime": 3
+    },
+    {
+      "numerator": "MS506",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS506",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS506",
+      "denominator": "MD45",
+      "prime": 2
+    },
+    {
+      "numerator": "MS507",
+      "denominator": "P9",
+      "prime": 2
+    },
+    {
+      "numerator": "MS507",
+      "denominator": "MD29",
+      "prime": 2
+    },
+    {
+      "numerator": "MS507",
+      "denominator": "MD36",
+      "prime": 2
+    },
+    {
+      "numerator": "MS507",
+      "denominator": "MD38",
+      "prime": 2
+    },
+    {
+      "numerator": "MS507",
+      "denominator": "MD39",
+      "prime": 2
+    },
+    {
+      "numerator": "MS507",
+      "denominator": "MD40",
+      "prime": 2
+    },
+    {
+      "numerator": "MS507",
+      "denominator": "MD42",
+      "prime": 2
+    },
+    {
+      "numerator": "MS507",
+      "denominator": "MD44",
+      "prime": 2
+    },
+    {
+      "numerator": "MS507",
+      "denominator": "MD45",
+      "prime": 2
+    }
+  ]
+}

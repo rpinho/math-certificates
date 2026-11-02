@@ -1,0 +1,17 @@
+PID 92173
+{
+  "status": "PASS",
+  "checker": "Lagrange residues + Fraction column DP",
+  "independent_horizon": 72,
+  "bound": "10289221775138769568521/2361183241434822606848",
+  "display": 4.357654922574458,
+  "claim": "21788274613/5000000000",
+  "margin": "588959485038590527/23058430092136939520000000000",
+  "tail": "100049/2361183241434822606848",
+  "finite_lemma_checks": {
+    "ternary_affine_tables": 18,
+    "largest_budget": "5/4",
+    "sharp_cubic_terms": 16
+  },
+  "external_input": "published R_3<=10, cited rather than re-enumerated"
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "c44-minimum-influence-caps-v1",
+  "proof": "PROOF.md",
+  "external_weight_equivalence": "CHS2020 Corollary 2.2: max D at degree<=d = R_d/2^d",
+  "certificates": [
+    {"degree": 4, "M": 8, "lower_cap": "5/4", "no_minimum_R": 25, "minimum_potential": "49/32", "minimum_R": 24, "R": 25, "cap": "25/16"},
+    {"degree": 5, "M": 16, "lower_cap": "31/16", "no_minimum_R": 71, "minimum_potential": "537/256", "minimum_R": 67, "R": 71, "cap": "71/32"},
+    {"degree": 6, "M": 32, "lower_cap": "5/2", "no_minimum_R": 180, "minimum_potential": "83/32", "minimum_R": 166, "R": 180, "cap": "45/16"}
+  ]
+}

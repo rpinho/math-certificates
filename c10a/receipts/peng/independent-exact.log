@@ -1,0 +1,16 @@
+{
+  "status": "PASS_ENDPOINT_ARITHMETIC_ONLY",
+  "scope": "Exact conditional inference from supplied endpoint enclosures; source replay separate",
+  "bound": "44496791/25000000",
+  "bound_decimal": "1.77987164",
+  "head_decimal": 0.8826334911000137,
+  "gamma_decimal": 0.8825334911000137,
+  "paper_margin": "17031633/2500000000000000",
+  "paper_margin_decimal": 6.8126532e-09,
+  "full_endpoint_margin_decimal": 1.0728420156005096e-08,
+  "norm_ceiling_decimal": 491529.21533203125,
+  "q4_decimal": 241600966454.44162,
+  "tail_squared_margin": "150131951650291275887/1638400000000",
+  "certificate_sha256": "516cbce960f3349a589dcf3a6334e854d57f56832586075357863587f1e3a8e8",
+  "circle_sha256": "bb6a7e7fb67fab1020b4d6dc0ac937f97f6040fca7a240d8cdff84cf93c78b71"
+}

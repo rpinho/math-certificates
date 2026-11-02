@@ -1,0 +1,66 @@
+{
+  "status": "PASS finite exact controls, not formal verification",
+  "truth_tables": [
+    {
+      "n": 1,
+      "nonconstant_tables": 2,
+      "minimum_derivatives": 2,
+      "parity_checks": 0
+    },
+    {
+      "n": 2,
+      "nonconstant_tables": 14,
+      "minimum_derivatives": 20,
+      "parity_checks": 20
+    },
+    {
+      "n": 3,
+      "nonconstant_tables": 254,
+      "minimum_derivatives": 342,
+      "parity_checks": 714
+    },
+    {
+      "n": 4,
+      "nonconstant_tables": 65534,
+      "minimum_derivatives": 23112,
+      "parity_checks": 261112
+    }
+  ],
+  "symbolic_witnesses": [
+    {
+      "CHS_degree": 2,
+      "relevant_variables": 4,
+      "Fourier_terms": 4,
+      "minimum_derivatives": 4
+    },
+    {
+      "CHS_degree": 3,
+      "relevant_variables": 10,
+      "Fourier_terms": 16,
+      "minimum_derivatives": 8
+    },
+    {
+      "CHS_degree": 4,
+      "relevant_variables": 22,
+      "Fourier_terms": 64,
+      "minimum_derivatives": 16
+    },
+    {
+      "CHS_degree": 5,
+      "relevant_variables": 46,
+      "Fourier_terms": 256,
+      "minimum_derivatives": 32
+    },
+    {
+      "CHS_degree": 6,
+      "relevant_variables": 94,
+      "Fourier_terms": 1024,
+      "minimum_derivatives": 64
+    },
+    {
+      "corrected_CHS_duplication": "PASS",
+      "old_D": "5/8",
+      "new_D": "11/16"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checker": "Arb, two covering zeros + hyperbolic Jung",
+  "certificate_sha256": "80a056f2cec4cfd933944fa51100bc5a1a9657f1a1de509e3a51401ff282002b",
+  "c": "54/125",
+  "atoms": 12,
+  "linear_envelope_slope_lower": "[0.0256374648691356266472641515565675293943669748303725812206750738790908391449 +/- 3.37e-77]",
+  "first_finite_through": 31278,
+  "first_tail_from": 31279,
+  "second_finite_through": 23999,
+  "second_tail_from": 24000,
+  "first_min_relative_lower": "[2.09610516465975708454434737117532559338946904892804548231886295380903000636e-6 +/- 2.50e-81]",
+  "first_min_k": 5714,
+  "second_min_relative_lower": "[2.28478308751660658922303898562976392396870632127762400600041267818797451194e-7 +/- 3.73e-82]",
+  "second_min_k": 8502,
+  "second_tail_gap_lower": "[2.10631406320043518387735336356245822717139595408217872007100481795381405896e-12 +/- 4.90e-87]",
+  "seconds": 0.19879587460309267
+}

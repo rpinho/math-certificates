@@ -1,0 +1,11 @@
+{
+  "schema": "c44-low-degree-cap-v1",
+  "source_certificate": "sources/wellens-certificate.json",
+  "source_sha256": "ce66f1097a7284e9845113fa1dc39267932cc934fd23d9019ff13d3dcb39cf49",
+  "degree_cutoff": 48,
+  "horizon": 96,
+  "degree_three_cap": "5/4",
+  "lemma": "degree-three-local-potential-v1",
+  "external_theorem_R3": 10,
+  "claim": "4.3576549226"
+}

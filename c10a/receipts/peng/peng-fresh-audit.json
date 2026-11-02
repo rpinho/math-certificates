@@ -1,0 +1,19 @@
+{
+  "status": "PASS_FRESH_SOURCE_IDENTITY_AND_COVERAGE",
+  "checked_utc": "2026-10-30T20:24:27.952883+00:00",
+  "published_source_files": 20,
+  "pinned_dependencies": 12,
+  "primitive_nodes": 768,
+  "triangular_products": 295296,
+  "ordered_terms": 589824,
+  "local_transforms": 25,
+  "scalar_integrals": 981,
+  "mixed_energies": 126,
+  "circle_panels": 2048,
+  "stages": 12,
+  "receipt_kind": "continuation",
+  "auditor_sha256": "f785447a20575e7bd5893b3c8a86ad080c36eb9573039d3616f9515e37298ae4",
+  "certificate_sha256": "5e0cfe1b618d56da28e4ca740ae43464d19f3dc8540941437a925bb57f852281",
+  "circle_sha256": "1a8618a11a939fe7e81af6e9b07fa0ce1419f80501db6c3e0003610398f1d3d2",
+  "scope": "Independent hashes, bindings and coverage; mathematical integrators remain authors code"
+}

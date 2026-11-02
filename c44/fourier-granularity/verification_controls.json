@@ -1,0 +1,46 @@
+{
+  "status": "PASS exhaustive finite controls and five rejection controls",
+  "exhaustive": [
+    {
+      "variables": 1,
+      "nonconstant_sign_functions_checked": 2
+    },
+    {
+      "variables": 2,
+      "nonconstant_sign_functions_checked": 14
+    },
+    {
+      "variables": 3,
+      "nonconstant_sign_functions_checked": 254
+    },
+    {
+      "variables": 4,
+      "nonconstant_sign_functions_checked": 65534
+    }
+  ],
+  "small_dual": {
+    "degree": 4,
+    "excluded_blocks": 10,
+    "B": 9,
+    "exact_L1_lower": "83/8",
+    "allowed_functional_upper": "73/8",
+    "margin": "5/4",
+    "dual_coefficients": [
+      "6",
+      "1",
+      "-1",
+      "-1",
+      "1"
+    ],
+    "parseval_levels": [
+      0
+    ]
+  },
+  "rejected": [
+    "zero_dual",
+    "wrong_block_claim",
+    "out_of_range_slice",
+    "unsupported_degree",
+    "excessive_norm"
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "rejections": 18,
+  "full_original_harness_rejections": 32,
+  "checks": [
+    {
+      "target": "c70",
+      "mutation": "overclaim",
+      "checker": 1,
+      "rejected": true,
+      "reason": "claimed lower bound not certified"
+    },
+    {
+      "target": "c70",
+      "mutation": "overclaim",
+      "checker": 2,
+      "rejected": true,
+      "reason": "rational lower comparison fails"
+    },
+    {
+      "target": "c70",
+      "mutation": "limit overclaim",
+      "checker": 1,
+      "rejected": true,
+      "reason": "limit claim not certified"
+    },
+    {
+      "target": "c70",
+      "mutation": "limit overclaim",
+      "checker": 2,
+      "rejected": true,
+      "reason": "limit claim fails"
+    },
+    {
+      "target": "c70",
+      "mutation": "odd dimension",
+      "checker": 1,
+      "rejected": true,
+      "reason": "even integer dimensions required"
+    },
+    {
+      "target": "c70",
+      "mutation": "odd dimension",
+      "checker": 2,
+      "rejected": true,
+      "reason": "dimensions"
+    },
+    {
+      "target": "c70",
+      "mutation": "odd retained dimension",
+      "checker": 1,
+      "rejected": true,
+      "reason": "even integer dimensions required"
+    },
+    {
+      "target": "c70",
+      "mutation": "odd retained dimension",
+      "checker": 2,
+      "rejected": true,
+      "reason": "dimensions"
+    },
+    {
+      "target": "c70",
+      "mutation": "invalid scale",
+      "checker": 1,
+      "rejected": true,
+      "reason": "normalized side mismatch"
+    },
+    {
+      "target": "c70",
+      "mutation": "invalid scale",
+      "checker": 2,
+      "rejected": true,
+      "reason": "scale certificate"
+    },
+    {
+      "target": "c70",
+      "mutation": "out of range dimension",
+      "checker": 1,
+      "rejected": true,
+      "reason": "even integer dimensions required"
+    },
+    {
+      "target": "c70",
+      "mutation": "out of range dimension",
+      "checker": 2,
+      "rejected": true,
+      "reason": "dimensions"
+    },
+    {
+      "target": "c70",
+      "mutation": "noninteger dimension",
+      "checker": 1,
+      "rejected": true,
+      "reason": "even integer dimensions required"
+    },
+    {
+      "target": "c70",
+      "mutation": "noninteger dimension",
+      "checker": 2,
+      "rejected": true,
+      "reason": "dimensions"
+    },
+    {
+      "target": "c70",
+      "mutation": "wrong schema",
+      "checker": 1,
+      "rejected": true,
+      "reason": "schema"
+    },
+    {
+      "target": "c70",
+      "mutation": "wrong schema",
+      "checker": 2,
+      "rejected": true,
+      "reason": "schema"
+    },
+    {
+      "target": "c70",
+      "mutation": "valid but insufficient half-dimensional term",
+      "checker": 1,
+      "rejected": true,
+      "reason": "claimed lower bound not certified"
+    },
+    {
+      "target": "c70",
+      "mutation": "valid but insufficient half-dimensional term",
+      "checker": 2,
+      "rejected": true,
+      "reason": "rational lower comparison fails"
+    }
+  ]
+}

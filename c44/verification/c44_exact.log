@@ -1,0 +1,27 @@
+PID 92169
+{
+  "status": "PASS",
+  "checker": "Q moments + dyadic row DP",
+  "bound": "172624496193406565421448533795/39614081257132168796771975168",
+  "display": 4.357654922574458,
+  "claim": "21788274613/5000000000",
+  "margin": "9881116158388503765235957/386856262276681335905976320000000000",
+  "tail": "233045/39614081257132168796771975168",
+  "cap_checks": {
+    "affine_patterns": 12,
+    "max_local_case": "5/4",
+    "sharpness_local_degrees": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "external_input": "published R_3<=10; not reclassified here"
+}

@@ -1,0 +1,65 @@
+{
+  "status": "PASS twelve specification/source rejection controls",
+  "results": [
+    {
+      "case": "unsupported_quartic_cap",
+      "checker": "verify_bound",
+      "rejected": true
+    },
+    {
+      "case": "unsupported_quartic_cap",
+      "checker": "verify_column",
+      "rejected": true
+    },
+    {
+      "case": "changed_external_R3",
+      "checker": "verify_bound",
+      "rejected": true
+    },
+    {
+      "case": "changed_external_R3",
+      "checker": "verify_column",
+      "rejected": true
+    },
+    {
+      "case": "changed_external_bs_theorem",
+      "checker": "verify_bound",
+      "rejected": true
+    },
+    {
+      "case": "changed_external_bs_theorem",
+      "checker": "verify_column",
+      "rejected": true
+    },
+    {
+      "case": "incorrect_spectral_hash",
+      "checker": "verify_bound",
+      "rejected": true
+    },
+    {
+      "case": "incorrect_spectral_hash",
+      "checker": "verify_column",
+      "rejected": true
+    },
+    {
+      "case": "excessive_final_claim",
+      "checker": "verify_bound",
+      "rejected": true
+    },
+    {
+      "case": "excessive_final_claim",
+      "checker": "verify_column",
+      "rejected": true
+    },
+    {
+      "case": "corrupt_dual_refreshed_hash",
+      "checker": "verify_bound",
+      "rejected": true
+    },
+    {
+      "case": "corrupt_dual_refreshed_hash",
+      "checker": "verify_column",
+      "rejected": true
+    }
+  ]
+}

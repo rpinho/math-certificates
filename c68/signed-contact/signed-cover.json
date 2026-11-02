@@ -1,0 +1,1711 @@
+{
+ "model": "signed_contact_v4",
+ "zeta": "19/200",
+ "root": [
+  "0",
+  "31/100",
+  "0",
+  "31/100",
+  "77/100",
+  "1"
+ ],
+ "tree": {
+  "axis": 0,
+  "mid": "31/200",
+  "left": {
+   "axis": 1,
+   "mid": "31/200",
+   "left": {
+    "axis": 0,
+    "mid": "31/400",
+    "left": {
+     "axis": 1,
+     "mid": "31/400",
+     "left": {
+      "axis": 2,
+      "mid": "177/200",
+      "left": {
+       "kind": "grid",
+       "n": 4096
+      },
+      "right": {
+       "axis": 0,
+       "mid": "31/800",
+       "left": {
+        "axis": 1,
+        "mid": "31/800",
+        "left": {
+         "axis": 2,
+         "mid": "377/400",
+         "left": {
+          "kind": "grid",
+          "n": 4096
+         },
+         "right": {
+          "axis": 0,
+          "mid": "31/1600",
+          "left": {
+           "axis": 1,
+           "mid": "31/1600",
+           "left": {
+            "axis": 2,
+            "mid": "777/800",
+            "left": {
+             "kind": "grid",
+             "n": 4096
+            },
+            "right": {
+             "axis": 0,
+             "mid": "31/3200",
+             "left": {
+              "axis": 1,
+              "mid": "31/3200",
+              "left": {
+               "axis": 2,
+               "mid": "1577/1600",
+               "left": {
+                "kind": "grid",
+                "n": 4096
+               },
+               "right": {
+                "axis": 0,
+                "mid": "31/6400",
+                "left": {
+                 "axis": 1,
+                 "mid": "31/6400",
+                 "left": {
+                  "axis": 2,
+                  "mid": "3177/3200",
+                  "left": {
+                   "kind": "grid",
+                   "n": 4096
+                  },
+                  "right": {
+                   "axis": 0,
+                   "mid": "31/12800",
+                   "left": {
+                    "axis": 1,
+                    "mid": "31/12800",
+                    "left": {
+                     "axis": 2,
+                     "mid": "6377/6400",
+                     "left": {
+                      "kind": "grid",
+                      "n": 4096
+                     },
+                     "right": {
+                      "axis": 0,
+                      "mid": "31/25600",
+                      "left": {
+                       "axis": 1,
+                       "mid": "31/25600",
+                       "left": {
+                        "axis": 2,
+                        "mid": "12777/12800",
+                        "left": {
+                         "kind": "grid",
+                         "n": 4096
+                        },
+                        "right": {
+                         "axis": 0,
+                         "mid": "31/51200",
+                         "left": {
+                          "axis": 1,
+                          "mid": "31/51200",
+                          "left": {
+                           "axis": 2,
+                           "mid": "25577/25600",
+                           "left": {
+                            "kind": "grid",
+                            "n": 4096
+                           },
+                           "right": {
+                            "axis": 0,
+                            "mid": "31/102400",
+                            "left": {
+                             "axis": 1,
+                             "mid": "31/102400",
+                             "left": {
+                              "axis": 2,
+                              "mid": "51177/51200",
+                              "left": {
+                               "kind": "grid",
+                               "n": 4096
+                              },
+                              "right": {
+                               "axis": 0,
+                               "mid": "31/204800",
+                               "left": {
+                                "axis": 1,
+                                "mid": "31/204800",
+                                "left": {
+                                 "axis": 2,
+                                 "mid": "102377/102400",
+                                 "left": {
+                                  "kind": "grid",
+                                  "n": 4096
+                                 },
+                                 "right": {
+                                  "axis": 0,
+                                  "mid": "31/409600",
+                                  "left": {
+                                   "axis": 1,
+                                   "mid": "31/409600",
+                                   "left": {
+                                    "axis": 2,
+                                    "mid": "204777/204800",
+                                    "left": {
+                                     "kind": "grid",
+                                     "n": 4096
+                                    },
+                                    "right": {
+                                     "axis": 0,
+                                     "mid": "31/819200",
+                                     "left": {
+                                      "kind": "small"
+                                     },
+                                     "right": {
+                                      "kind": "grid",
+                                      "n": 4096
+                                     }
+                                    }
+                                   },
+                                   "right": {
+                                    "kind": "grid",
+                                    "n": 4096
+                                   }
+                                  },
+                                  "right": {
+                                   "kind": "grid",
+                                   "n": 4096
+                                  }
+                                 }
+                                },
+                                "right": {
+                                 "kind": "grid",
+                                 "n": 4096
+                                }
+                               },
+                               "right": {
+                                "kind": "grid",
+                                "n": 4096
+                               }
+                              }
+                             },
+                             "right": {
+                              "kind": "grid",
+                              "n": 4096
+                             }
+                            },
+                            "right": {
+                             "kind": "grid",
+                             "n": 4096
+                            }
+                           }
+                          },
+                          "right": {
+                           "kind": "grid",
+                           "n": 4096
+                          }
+                         },
+                         "right": {
+                          "kind": "grid",
+                          "n": 4096
+                         }
+                        }
+                       },
+                       "right": {
+                        "kind": "grid",
+                        "n": 4096
+                       }
+                      },
+                      "right": {
+                       "kind": "grid",
+                       "n": 4096
+                      }
+                     }
+                    },
+                    "right": {
+                     "kind": "grid",
+                     "n": 4096
+                    }
+                   },
+                   "right": {
+                    "axis": 1,
+                    "mid": "31/12800",
+                    "left": {
+                     "axis": 2,
+                     "mid": "6377/6400",
+                     "left": {
+                      "kind": "grid",
+                      "n": 4096
+                     },
+                     "right": {
+                      "axis": 0,
+                      "mid": "93/25600",
+                      "left": {
+                       "kind": "grid",
+                       "n": 4096
+                      },
+                      "right": {
+                       "kind": "grid",
+                       "n": 4096
+                      }
+                     }
+                    },
+                    "right": {
+                     "kind": "grid",
+                     "n": 4096
+                    }
+                   }
+                  }
+                 },
+                 "right": {
+                  "axis": 2,
+                  "mid": "3177/3200",
+                  "left": {
+                   "kind": "grid",
+                   "n": 4096
+                  },
+                  "right": {
+                   "axis": 0,
+                   "mid": "31/12800",
+                   "left": {
+                    "kind": "grid",
+                    "n": 4096
+                   },
+                   "right": {
+                    "kind": "grid",
+                    "n": 4096
+                   }
+                  }
+                 }
+                },
+                "right": {
+                 "axis": 1,
+                 "mid": "31/6400",
+                 "left": {
+                  "axis": 2,
+                  "mid": "3177/3200",
+                  "left": {
+                   "kind": "grid",
+                   "n": 4096
+                  },
+                  "right": {
+                   "axis": 0,
+                   "mid": "93/12800",
+                   "left": {
+                    "axis": 1,
+                    "mid": "31/12800",
+                    "left": {
+                     "kind": "grid",
+                     "n": 4096
+                    },
+                    "right": {
+                     "kind": "grid",
+                     "n": 4096
+                    }
+                   },
+                   "right": {
+                    "kind": "grid",
+                    "n": 4096
+                   }
+                  }
+                 },
+                 "right": {
+                  "axis": 2,
+                  "mid": "3177/3200",
+                  "left": {
+                   "kind": "grid",
+                   "n": 4096
+                  },
+                  "right": {
+                   "axis": 0,
+                   "mid": "93/12800",
+                   "left": {
+                    "kind": "grid",
+                    "n": 4096
+                   },
+                   "right": {
+                    "kind": "grid",
+                    "n": 4096
+                   }
+                  }
+                 }
+                }
+               }
+              },
+              "right": {
+               "axis": 2,
+               "mid": "1577/1600",
+               "left": {
+                "kind": "grid",
+                "n": 4096
+               },
+               "right": {
+                "axis": 0,
+                "mid": "31/6400",
+                "left": {
+                 "kind": "grid",
+                 "n": 4096
+                },
+                "right": {
+                 "kind": "grid",
+                 "n": 4096
+                }
+               }
+              }
+             },
+             "right": {
+              "axis": 1,
+              "mid": "31/3200",
+              "left": {
+               "axis": 2,
+               "mid": "1577/1600",
+               "left": {
+                "kind": "grid",
+                "n": 4096
+               },
+               "right": {
+                "axis": 0,
+                "mid": "93/6400",
+                "left": {
+                 "axis": 1,
+                 "mid": "31/6400",
+                 "left": {
+                  "axis": 2,
+                  "mid": "3177/3200",
+                  "left": {
+                   "kind": "grid",
+                   "n": 4096
+                  },
+                  "right": {
+                   "axis": 0,
+                   "mid": "31/2560",
+                   "left": {
+                    "kind": "grid",
+                    "n": 4096
+                   },
+                   "right": {
+                    "kind": "grid",
+                    "n": 4096
+                   }
+                  }
+                 },
+                 "right": {
+                  "axis": 2,
+                  "mid": "3177/3200",
+                  "left": {
+                   "kind": "grid",
+                   "n": 4096
+                  },
+                  "right": {
+                   "axis": 0,
+                   "mid": "31/2560",
+                   "left": {
+                    "kind": "grid",
+                    "n": 4096
+                   },
+                   "right": {
+                    "kind": "grid",
+                    "n": 4096
+                   }
+                  }
+                 }
+                },
+                "right": {
+                 "axis": 1,
+                 "mid": "31/6400",
+                 "left": {
+                  "axis": 2,
+                  "mid": "3177/3200",
+                  "left": {
+                   "kind": "grid",
+                   "n": 4096
+                  },
+                  "right": {
+                   "axis": 0,
+                   "mid": "217/12800",
+                   "left": {
+                    "kind": "grid",
+                    "n": 4096
+                   },
+                   "right": {
+                    "kind": "grid",
+                    "n": 4096
+                   }
+                  }
+                 },
+                 "right": {
+                  "axis": 2,
+                  "mid": "3177/3200",
+                  "left": {
+                   "kind": "grid",
+                   "n": 4096
+                  },
+                  "right": {
+                   "axis": 0,
+                   "mid": "217/12800",
+                   "left": {
+                    "kind": "grid",
+                    "n": 4096
+                   },
+                   "right": {
+                    "kind": "grid",
+                    "n": 4096
+                   }
+                  }
+                 }
+                }
+               }
+              },
+              "right": {
+               "axis": 2,
+               "mid": "1577/1600",
+               "left": {
+                "kind": "grid",
+                "n": 4096
+               },
+               "right": {
+                "axis": 0,
+                "mid": "93/6400",
+                "left": {
+                 "axis": 1,
+                 "mid": "93/6400",
+                 "left": {
+                  "kind": "grid",
+                  "n": 4096
+                 },
+                 "right": {
+                  "kind": "grid",
+                  "n": 4096
+                 }
+                },
+                "right": {
+                 "axis": 1,
+                 "mid": "93/6400",
+                 "left": {
+                  "kind": "grid",
+                  "n": 4096
+                 },
+                 "right": {
+                  "kind": "grid",
+                  "n": 4096
+                 }
+                }
+               }
+              }
+             }
+            }
+           },
+           "right": {
+            "axis": 2,
+            "mid": "777/800",
+            "left": {
+             "kind": "grid",
+             "n": 4096
+            },
+            "right": {
+             "axis": 0,
+             "mid": "31/3200",
+             "left": {
+              "axis": 1,
+              "mid": "93/3200",
+              "left": {
+               "axis": 2,
+               "mid": "1577/1600",
+               "left": {
+                "kind": "grid",
+                "n": 4096
+               },
+               "right": {
+                "axis": 0,
+                "mid": "31/6400",
+                "left": {
+                 "kind": "grid",
+                 "n": 4096
+                },
+                "right": {
+                 "kind": "grid",
+                 "n": 4096
+                }
+               }
+              },
+              "right": {
+               "kind": "grid",
+               "n": 4096
+              }
+             },
+             "right": {
+              "axis": 1,
+              "mid": "93/3200",
+              "left": {
+               "axis": 2,
+               "mid": "1577/1600",
+               "left": {
+                "kind": "grid",
+                "n": 4096
+               },
+               "right": {
+                "axis": 0,
+                "mid": "93/6400",
+                "left": {
+                 "kind": "grid",
+                 "n": 4096
+                },
+                "right": {
+                 "kind": "grid",
+                 "n": 4096
+                }
+               }
+              },
+              "right": {
+               "kind": "grid",
+               "n": 4096
+              }
+             }
+            }
+           }
+          },
+          "right": {
+           "axis": 1,
+           "mid": "31/1600",
+           "left": {
+            "axis": 2,
+            "mid": "777/800",
+            "left": {
+             "kind": "grid",
+             "n": 4096
+            },
+            "right": {
+             "axis": 0,
+             "mid": "93/3200",
+             "left": {
+              "axis": 1,
+              "mid": "31/3200",
+              "left": {
+               "axis": 2,
+               "mid": "1577/1600",
+               "left": {
+                "kind": "grid",
+                "n": 4096
+               },
+               "right": {
+                "axis": 0,
+                "mid": "31/1280",
+                "left": {
+                 "axis": 1,
+                 "mid": "31/6400",
+                 "left": {
+                  "axis": 2,
+                  "mid": "3177/3200",
+                  "left": {
+                   "kind": "grid",
+                   "n": 4096
+                  },
+                  "right": {
+                   "axis": 0,
+                   "mid": "279/12800",
+                   "left": {
+                    "kind": "grid",
+                    "n": 4096
+                   },
+                   "right": {
+                    "kind": "grid",
+                    "n": 4096
+                   }
+                  }
+                 },
+                 "right": {
+                  "axis": 2,
+                  "mid": "3177/3200",
+                  "left": {
+                   "kind": "grid",
+                   "n": 4096
+                  },
+                  "right": {
+                   "axis": 0,
+                   "mid": "279/12800",
+                   "left": {
+                    "kind": "grid",
+                    "n": 4096
+                   },
+                   "right": {
+                    "kind": "grid",
+                    "n": 4096
+                   }
+                  }
+                 }
+                },
+                "right": {
+                 "axis": 1,
+                 "mid": "31/6400",
+                 "left": {
+                  "axis": 2,
+                  "mid": "3177/3200",
+                  "left": {
+                   "kind": "grid",
+                   "n": 4096
+                  },
+                  "right": {
+                   "axis": 0,
+                   "mid": "341/12800",
+                   "left": {
+                    "kind": "grid",
+                    "n": 4096
+                   },
+                   "right": {
+                    "kind": "grid",
+                    "n": 4096
+                   }
+                  }
+                 },
+                 "right": {
+                  "axis": 2,
+                  "mid": "3177/3200",
+                  "left": {
+                   "kind": "grid",
+                   "n": 4096
+                  },
+                  "right": {
+                   "axis": 0,
+                   "mid": "341/12800",
+                   "left": {
+                    "kind": "grid",
+                    "n": 4096
+                   },
+                   "right": {
+                    "kind": "grid",
+                    "n": 4096
+                   }
+                  }
+                 }
+                }
+               }
+              },
+              "right": {
+               "axis": 2,
+               "mid": "1577/1600",
+               "left": {
+                "kind": "grid",
+                "n": 4096
+               },
+               "right": {
+                "axis": 0,
+                "mid": "31/1280",
+                "left": {
+                 "axis": 1,
+                 "mid": "93/6400",
+                 "left": {
+                  "kind": "grid",
+                  "n": 4096
+                 },
+                 "right": {
+                  "kind": "grid",
+                  "n": 4096
+                 }
+                },
+                "right": {
+                 "axis": 1,
+                 "mid": "93/6400",
+                 "left": {
+                  "kind": "grid",
+                  "n": 4096
+                 },
+                 "right": {
+                  "kind": "grid",
+                  "n": 4096
+                 }
+                }
+               }
+              }
+             },
+             "right": {
+              "axis": 1,
+              "mid": "31/3200",
+              "left": {
+               "axis": 2,
+               "mid": "1577/1600",
+               "left": {
+                "kind": "grid",
+                "n": 4096
+               },
+               "right": {
+                "axis": 0,
+                "mid": "217/6400",
+                "left": {
+                 "axis": 1,
+                 "mid": "31/6400",
+                 "left": {
+                  "kind": "grid",
+                  "n": 4096
+                 },
+                 "right": {
+                  "kind": "grid",
+                  "n": 4096
+                 }
+                },
+                "right": {
+                 "axis": 1,
+                 "mid": "31/6400",
+                 "left": {
+                  "kind": "grid",
+                  "n": 4096
+                 },
+                 "right": {
+                  "kind": "grid",
+                  "n": 4096
+                 }
+                }
+               }
+              },
+              "right": {
+               "axis": 2,
+               "mid": "1577/1600",
+               "left": {
+                "kind": "grid",
+                "n": 4096
+               },
+               "right": {
+                "axis": 0,
+                "mid": "217/6400",
+                "left": {
+                 "axis": 1,
+                 "mid": "93/6400",
+                 "left": {
+                  "kind": "grid",
+                  "n": 4096
+                 },
+                 "right": {
+                  "kind": "grid",
+                  "n": 4096
+                 }
+                },
+                "right": {
+                 "kind": "grid",
+                 "n": 4096
+                }
+               }
+              }
+             }
+            }
+           },
+           "right": {
+            "axis": 2,
+            "mid": "777/800",
+            "left": {
+             "kind": "grid",
+             "n": 4096
+            },
+            "right": {
+             "axis": 0,
+             "mid": "93/3200",
+             "left": {
+              "axis": 1,
+              "mid": "93/3200",
+              "left": {
+               "axis": 2,
+               "mid": "1577/1600",
+               "left": {
+                "kind": "grid",
+                "n": 4096
+               },
+               "right": {
+                "axis": 0,
+                "mid": "31/1280",
+                "left": {
+                 "kind": "grid",
+                 "n": 4096
+                },
+                "right": {
+                 "kind": "grid",
+                 "n": 4096
+                }
+               }
+              },
+              "right": {
+               "kind": "grid",
+               "n": 4096
+              }
+             },
+             "right": {
+              "axis": 1,
+              "mid": "93/3200",
+              "left": {
+               "axis": 2,
+               "mid": "1577/1600",
+               "left": {
+                "kind": "grid",
+                "n": 4096
+               },
+               "right": {
+                "axis": 0,
+                "mid": "217/6400",
+                "left": {
+                 "kind": "grid",
+                 "n": 4096
+                },
+                "right": {
+                 "kind": "grid",
+                 "n": 4096
+                }
+               }
+              },
+              "right": {
+               "kind": "grid",
+               "n": 4096
+              }
+             }
+            }
+           }
+          }
+         }
+        },
+        "right": {
+         "axis": 2,
+         "mid": "377/400",
+         "left": {
+          "kind": "grid",
+          "n": 4096
+         },
+         "right": {
+          "axis": 0,
+          "mid": "31/1600",
+          "left": {
+           "axis": 1,
+           "mid": "93/1600",
+           "left": {
+            "axis": 2,
+            "mid": "777/800",
+            "left": {
+             "kind": "grid",
+             "n": 4096
+            },
+            "right": {
+             "axis": 0,
+             "mid": "31/3200",
+             "left": {
+              "kind": "grid",
+              "n": 4096
+             },
+             "right": {
+              "kind": "grid",
+              "n": 4096
+             }
+            }
+           },
+           "right": {
+            "axis": 2,
+            "mid": "777/800",
+            "left": {
+             "kind": "grid",
+             "n": 4096
+            },
+            "right": {
+             "kind": "grid",
+             "n": 4096
+            }
+           }
+          },
+          "right": {
+           "axis": 1,
+           "mid": "93/1600",
+           "left": {
+            "axis": 2,
+            "mid": "777/800",
+            "left": {
+             "kind": "grid",
+             "n": 4096
+            },
+            "right": {
+             "axis": 0,
+             "mid": "93/3200",
+             "left": {
+              "kind": "grid",
+              "n": 4096
+             },
+             "right": {
+              "kind": "grid",
+              "n": 4096
+             }
+            }
+           },
+           "right": {
+            "kind": "grid",
+            "n": 4096
+           }
+          }
+         }
+        }
+       },
+       "right": {
+        "axis": 1,
+        "mid": "31/800",
+        "left": {
+         "axis": 2,
+         "mid": "377/400",
+         "left": {
+          "kind": "grid",
+          "n": 4096
+         },
+         "right": {
+          "axis": 0,
+          "mid": "93/1600",
+          "left": {
+           "axis": 1,
+           "mid": "31/1600",
+           "left": {
+            "axis": 2,
+            "mid": "777/800",
+            "left": {
+             "kind": "grid",
+             "n": 4096
+            },
+            "right": {
+             "axis": 0,
+             "mid": "31/640",
+             "left": {
+              "axis": 1,
+              "mid": "31/3200",
+              "left": {
+               "axis": 2,
+               "mid": "1577/1600",
+               "left": {
+                "kind": "grid",
+                "n": 4096
+               },
+               "right": {
+                "axis": 0,
+                "mid": "279/6400",
+                "left": {
+                 "kind": "grid",
+                 "n": 4096
+                },
+                "right": {
+                 "kind": "grid",
+                 "n": 4096
+                }
+               }
+              },
+              "right": {
+               "axis": 2,
+               "mid": "1577/1600",
+               "left": {
+                "kind": "grid",
+                "n": 4096
+               },
+               "right": {
+                "axis": 0,
+                "mid": "279/6400",
+                "left": {
+                 "kind": "grid",
+                 "n": 4096
+                },
+                "right": {
+                 "kind": "grid",
+                 "n": 4096
+                }
+               }
+              }
+             },
+             "right": {
+              "axis": 1,
+              "mid": "31/3200",
+              "left": {
+               "axis": 2,
+               "mid": "1577/1600",
+               "left": {
+                "kind": "grid",
+                "n": 4096
+               },
+               "right": {
+                "axis": 0,
+                "mid": "341/6400",
+                "left": {
+                 "kind": "grid",
+                 "n": 4096
+                },
+                "right": {
+                 "kind": "grid",
+                 "n": 4096
+                }
+               }
+              },
+              "right": {
+               "axis": 2,
+               "mid": "1577/1600",
+               "left": {
+                "kind": "grid",
+                "n": 4096
+               },
+               "right": {
+                "kind": "grid",
+                "n": 4096
+               }
+              }
+             }
+            }
+           },
+           "right": {
+            "axis": 2,
+            "mid": "777/800",
+            "left": {
+             "kind": "grid",
+             "n": 4096
+            },
+            "right": {
+             "axis": 0,
+             "mid": "31/640",
+             "left": {
+              "axis": 1,
+              "mid": "93/3200",
+              "left": {
+               "axis": 2,
+               "mid": "1577/1600",
+               "left": {
+                "kind": "grid",
+                "n": 4096
+               },
+               "right": {
+                "axis": 0,
+                "mid": "279/6400",
+                "left": {
+                 "kind": "grid",
+                 "n": 4096
+                },
+                "right": {
+                 "kind": "grid",
+                 "n": 4096
+                }
+               }
+              },
+              "right": {
+               "kind": "grid",
+               "n": 4096
+              }
+             },
+             "right": {
+              "axis": 1,
+              "mid": "93/3200",
+              "left": {
+               "kind": "grid",
+               "n": 4096
+              },
+              "right": {
+               "kind": "grid",
+               "n": 4096
+              }
+             }
+            }
+           }
+          },
+          "right": {
+           "axis": 1,
+           "mid": "31/1600",
+           "left": {
+            "axis": 2,
+            "mid": "777/800",
+            "left": {
+             "kind": "grid",
+             "n": 4096
+            },
+            "right": {
+             "axis": 0,
+             "mid": "217/3200",
+             "left": {
+              "axis": 1,
+              "mid": "31/3200",
+              "left": {
+               "kind": "grid",
+               "n": 4096
+              },
+              "right": {
+               "kind": "grid",
+               "n": 4096
+              }
+             },
+             "right": {
+              "kind": "grid",
+              "n": 4096
+             }
+            }
+           },
+           "right": {
+            "axis": 2,
+            "mid": "777/800",
+            "left": {
+             "kind": "grid",
+             "n": 4096
+            },
+            "right": {
+             "axis": 0,
+             "mid": "217/3200",
+             "left": {
+              "kind": "grid",
+              "n": 4096
+             },
+             "right": {
+              "kind": "grid",
+              "n": 4096
+             }
+            }
+           }
+          }
+         }
+        },
+        "right": {
+         "axis": 2,
+         "mid": "377/400",
+         "left": {
+          "kind": "grid",
+          "n": 4096
+         },
+         "right": {
+          "axis": 0,
+          "mid": "93/1600",
+          "left": {
+           "axis": 1,
+           "mid": "93/1600",
+           "left": {
+            "axis": 2,
+            "mid": "777/800",
+            "left": {
+             "kind": "grid",
+             "n": 4096
+            },
+            "right": {
+             "axis": 0,
+             "mid": "31/640",
+             "left": {
+              "kind": "grid",
+              "n": 4096
+             },
+             "right": {
+              "kind": "grid",
+              "n": 4096
+             }
+            }
+           },
+           "right": {
+            "kind": "grid",
+            "n": 4096
+           }
+          },
+          "right": {
+           "axis": 1,
+           "mid": "93/1600",
+           "left": {
+            "axis": 2,
+            "mid": "777/800",
+            "left": {
+             "kind": "grid",
+             "n": 4096
+            },
+            "right": {
+             "axis": 0,
+             "mid": "217/3200",
+             "left": {
+              "kind": "grid",
+              "n": 4096
+             },
+             "right": {
+              "kind": "grid",
+              "n": 4096
+             }
+            }
+           },
+           "right": {
+            "kind": "grid",
+            "n": 4096
+           }
+          }
+         }
+        }
+       }
+      }
+     },
+     "right": {
+      "axis": 2,
+      "mid": "177/200",
+      "left": {
+       "kind": "grid",
+       "n": 4096
+      },
+      "right": {
+       "axis": 0,
+       "mid": "31/800",
+       "left": {
+        "axis": 1,
+        "mid": "93/800",
+        "left": {
+         "axis": 2,
+         "mid": "377/400",
+         "left": {
+          "kind": "grid",
+          "n": 4096
+         },
+         "right": {
+          "axis": 0,
+          "mid": "31/1600",
+          "left": {
+           "axis": 1,
+           "mid": "31/320",
+           "left": {
+            "kind": "grid",
+            "n": 4096
+           },
+           "right": {
+            "kind": "grid",
+            "n": 4096
+           }
+          },
+          "right": {
+           "axis": 1,
+           "mid": "31/320",
+           "left": {
+            "kind": "grid",
+            "n": 4096
+           },
+           "right": {
+            "kind": "grid",
+            "n": 4096
+           }
+          }
+         }
+        },
+        "right": {
+         "axis": 2,
+         "mid": "377/400",
+         "left": {
+          "kind": "grid",
+          "n": 4096
+         },
+         "right": {
+          "axis": 0,
+          "mid": "31/1600",
+          "left": {
+           "kind": "grid",
+           "n": 4096
+          },
+          "right": {
+           "kind": "grid",
+           "n": 4096
+          }
+         }
+        }
+       },
+       "right": {
+        "axis": 1,
+        "mid": "93/800",
+        "left": {
+         "axis": 2,
+         "mid": "377/400",
+         "left": {
+          "kind": "grid",
+          "n": 4096
+         },
+         "right": {
+          "axis": 0,
+          "mid": "93/1600",
+          "left": {
+           "kind": "grid",
+           "n": 4096
+          },
+          "right": {
+           "kind": "grid",
+           "n": 4096
+          }
+         }
+        },
+        "right": {
+         "axis": 2,
+         "mid": "377/400",
+         "left": {
+          "kind": "grid",
+          "n": 4096
+         },
+         "right": {
+          "kind": "grid",
+          "n": 4096
+         }
+        }
+       }
+      }
+     }
+    },
+    "right": {
+     "axis": 1,
+     "mid": "31/400",
+     "left": {
+      "axis": 2,
+      "mid": "177/200",
+      "left": {
+       "kind": "grid",
+       "n": 4096
+      },
+      "right": {
+       "axis": 0,
+       "mid": "93/800",
+       "left": {
+        "axis": 1,
+        "mid": "31/800",
+        "left": {
+         "axis": 2,
+         "mid": "377/400",
+         "left": {
+          "kind": "grid",
+          "n": 4096
+         },
+         "right": {
+          "axis": 0,
+          "mid": "31/320",
+          "left": {
+           "axis": 1,
+           "mid": "31/1600",
+           "left": {
+            "axis": 2,
+            "mid": "777/800",
+            "left": {
+             "kind": "grid",
+             "n": 4096
+            },
+            "right": {
+             "kind": "grid",
+             "n": 4096
+            }
+           },
+           "right": {
+            "axis": 2,
+            "mid": "777/800",
+            "left": {
+             "kind": "grid",
+             "n": 4096
+            },
+            "right": {
+             "kind": "grid",
+             "n": 4096
+            }
+           }
+          },
+          "right": {
+           "kind": "grid",
+           "n": 4096
+          }
+         }
+        },
+        "right": {
+         "axis": 2,
+         "mid": "377/400",
+         "left": {
+          "kind": "grid",
+          "n": 4096
+         },
+         "right": {
+          "axis": 0,
+          "mid": "31/320",
+          "left": {
+           "axis": 1,
+           "mid": "93/1600",
+           "left": {
+            "kind": "grid",
+            "n": 4096
+           },
+           "right": {
+            "kind": "grid",
+            "n": 4096
+           }
+          },
+          "right": {
+           "kind": "grid",
+           "n": 4096
+          }
+         }
+        }
+       },
+       "right": {
+        "axis": 1,
+        "mid": "31/800",
+        "left": {
+         "axis": 2,
+         "mid": "377/400",
+         "left": {
+          "kind": "grid",
+          "n": 4096
+         },
+         "right": {
+          "kind": "grid",
+          "n": 4096
+         }
+        },
+        "right": {
+         "kind": "grid",
+         "n": 4096
+        }
+       }
+      }
+     },
+     "right": {
+      "axis": 2,
+      "mid": "177/200",
+      "left": {
+       "kind": "grid",
+       "n": 4096
+      },
+      "right": {
+       "axis": 0,
+       "mid": "93/800",
+       "left": {
+        "axis": 1,
+        "mid": "93/800",
+        "left": {
+         "axis": 2,
+         "mid": "377/400",
+         "left": {
+          "kind": "grid",
+          "n": 4096
+         },
+         "right": {
+          "axis": 0,
+          "mid": "31/320",
+          "left": {
+           "kind": "grid",
+           "n": 4096
+          },
+          "right": {
+           "kind": "grid",
+           "n": 4096
+          }
+         }
+        },
+        "right": {
+         "kind": "grid",
+         "n": 4096
+        }
+       },
+       "right": {
+        "axis": 1,
+        "mid": "93/800",
+        "left": {
+         "kind": "grid",
+         "n": 4096
+        },
+        "right": {
+         "kind": "grid",
+         "n": 4096
+        }
+       }
+      }
+     }
+    }
+   },
+   "right": {
+    "axis": 0,
+    "mid": "31/400",
+    "left": {
+     "axis": 1,
+     "mid": "93/400",
+     "left": {
+      "axis": 2,
+      "mid": "177/200",
+      "left": {
+       "kind": "grid",
+       "n": 4096
+      },
+      "right": {
+       "axis": 0,
+       "mid": "31/800",
+       "left": {
+        "axis": 1,
+        "mid": "31/160",
+        "left": {
+         "axis": 2,
+         "mid": "377/400",
+         "left": {
+          "kind": "grid",
+          "n": 4096
+         },
+         "right": {
+          "kind": "grid",
+          "n": 4096
+         }
+        },
+        "right": {
+         "kind": "grid",
+         "n": 4096
+        }
+       },
+       "right": {
+        "axis": 1,
+        "mid": "31/160",
+        "left": {
+         "kind": "grid",
+         "n": 4096
+        },
+        "right": {
+         "kind": "grid",
+         "n": 4096
+        }
+       }
+      }
+     },
+     "right": {
+      "axis": 2,
+      "mid": "177/200",
+      "left": {
+       "kind": "S"
+      },
+      "right": {
+       "axis": 0,
+       "mid": "31/800",
+       "left": {
+        "axis": 1,
+        "mid": "217/800",
+        "left": {
+         "kind": "grid",
+         "n": 4096
+        },
+        "right": {
+         "kind": "grid",
+         "n": 4096
+        }
+       },
+       "right": {
+        "axis": 1,
+        "mid": "217/800",
+        "left": {
+         "kind": "grid",
+         "n": 4096
+        },
+        "right": {
+         "kind": "grid",
+         "n": 4096
+        }
+       }
+      }
+     }
+    },
+    "right": {
+     "axis": 1,
+     "mid": "93/400",
+     "left": {
+      "axis": 2,
+      "mid": "177/200",
+      "left": {
+       "kind": "grid",
+       "n": 4096
+      },
+      "right": {
+       "axis": 0,
+       "mid": "93/800",
+       "left": {
+        "axis": 1,
+        "mid": "31/160",
+        "left": {
+         "kind": "grid",
+         "n": 4096
+        },
+        "right": {
+         "kind": "grid",
+         "n": 4096
+        }
+       },
+       "right": {
+        "kind": "grid",
+        "n": 4096
+       }
+      }
+     },
+     "right": {
+      "axis": 2,
+      "mid": "177/200",
+      "left": {
+       "kind": "S"
+      },
+      "right": {
+       "axis": 0,
+       "mid": "93/800",
+       "left": {
+        "kind": "grid",
+        "n": 4096
+       },
+       "right": {
+        "kind": "grid",
+        "n": 4096
+       }
+      }
+     }
+    }
+   }
+  },
+  "right": {
+   "axis": 1,
+   "mid": "31/200",
+   "left": {
+    "axis": 0,
+    "mid": "93/400",
+    "left": {
+     "axis": 1,
+     "mid": "31/400",
+     "left": {
+      "axis": 2,
+      "mid": "177/200",
+      "left": {
+       "kind": "grid",
+       "n": 4096
+      },
+      "right": {
+       "axis": 0,
+       "mid": "31/160",
+       "left": {
+        "kind": "grid",
+        "n": 4096
+       },
+       "right": {
+        "kind": "grid",
+        "n": 4096
+       }
+      }
+     },
+     "right": {
+      "axis": 2,
+      "mid": "177/200",
+      "left": {
+       "kind": "grid",
+       "n": 4096
+      },
+      "right": {
+       "kind": "grid",
+       "n": 4096
+      }
+     }
+    },
+    "right": {
+     "kind": "grid",
+     "n": 4096
+    }
+   },
+   "right": {
+    "axis": 0,
+    "mid": "93/400",
+    "left": {
+     "axis": 1,
+     "mid": "93/400",
+     "left": {
+      "kind": "grid",
+      "n": 4096
+     },
+     "right": {
+      "kind": "grid",
+      "n": 4096
+     }
+    },
+    "right": {
+     "kind": "grid",
+     "n": 4096
+    }
+   }
+  }
+ },
+ "leaves": 213,
+ "float_min": 0.09507077705967416
+}

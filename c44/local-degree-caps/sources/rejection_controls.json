@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "controls": [
+    {
+      "control": "R_too_small",
+      "checker": "caps",
+      "rejected": true
+    },
+    {
+      "control": "bad_M",
+      "checker": "caps",
+      "rejected": true
+    },
+    {
+      "control": "false_lower_cap",
+      "checker": "caps",
+      "rejected": true
+    },
+    {
+      "control": "false_minimum_budget",
+      "checker": "caps",
+      "rejected": true
+    },
+    {
+      "control": "arbitrary_cap",
+      "checker": "caps",
+      "rejected": true
+    },
+    {
+      "control": "wrong_schema",
+      "checker": "row",
+      "rejected": true
+    },
+    {
+      "control": "wrong_schema",
+      "checker": "column",
+      "rejected": true
+    },
+    {
+      "control": "arbitrary_caps",
+      "checker": "row",
+      "rejected": true
+    },
+    {
+      "control": "arbitrary_caps",
+      "checker": "column",
+      "rejected": true
+    },
+    {
+      "control": "cap_hash",
+      "checker": "row",
+      "rejected": true
+    },
+    {
+      "control": "cap_hash",
+      "checker": "column",
+      "rejected": true
+    },
+    {
+      "control": "spectral_hash",
+      "checker": "row",
+      "rejected": true
+    },
+    {
+      "control": "spectral_hash",
+      "checker": "column",
+      "rejected": true
+    },
+    {
+      "control": "false_claim",
+      "checker": "row",
+      "rejected": true
+    },
+    {
+      "control": "false_claim",
+      "checker": "column",
+      "rejected": true
+    },
+    {
+      "control": "false_math_refreshed_hash",
+      "checker": "row",
+      "rejected": true
+    },
+    {
+      "control": "false_math_refreshed_hash",
+      "checker": "column",
+      "rejected": true
+    }
+  ]
+}

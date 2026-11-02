@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checker": "exact Flint/Bernstein polynomial + Arb moments",
+  "certificate_sha256": "f121cfc0cc783c70d182d7d4d741e405338cb9c5926ca5493d0a21c27d69513c",
+  "c": "4263/10000",
+  "R": "99/100",
+  "atoms": 8,
+  "mass_exact": "1",
+  "envelope_polynomial_degree": 170,
+  "primitive_polynomial_sha256": "a22c7dcf0cab0a1917ffaff4a492ed21d8372e9debce1dfc777bdcb05f5baf82",
+  "envelope_partitions": 1,
+  "first_finite_through": 2183,
+  "first_tail_from": 2184,
+  "first_min_relative_lower": "[6.6452117503638500964006686034294650371310168998141058263035002775e-6 +/- 4.25e-72]",
+  "first_min_k": 23,
+  "second_finite_through": 1299,
+  "second_tail_from": 1300,
+  "second_min_relative_lower": "[6.6452127170883198501278758699185858717102043736314797570223095752e-6 +/- 4.66e-71]",
+  "second_min_k": 1,
+  "second_tail_gap_lower": "[6.2743938421888078817557789076881041120107472644249914880090456938e-11 +/- 9.4e-78]",
+  "seconds": 1.803129832725972
+}

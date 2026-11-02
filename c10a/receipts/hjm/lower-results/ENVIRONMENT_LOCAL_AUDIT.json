@@ -1,0 +1,19 @@
+{
+  "status": "ENVIRONMENT_RECORDED_BY_LOCAL_AUDIT",
+  "note": "Author driver failed after final mathematical assembly at ctypes.util.find_library(mpfr); explicit paths used here",
+  "python": "3.12.13 (main, Jun 23 2026, 15:44:24) [Clang 22.1.3 ]",
+  "platform": "macOS-26.7.1-arm64-arm-64bit",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)",
+  "MPFR_version": "4.2.2",
+  "GMP_version": "6.3.0",
+  "python_packages": {
+    "numpy": "2.5.4",
+    "setuptools": "84.0.0"
+  },
+  "Cython_version": "3.2.4",
+  "analytic_backend": "independent-mpfr-endpoint-0.3-fma",
+  "precision_bits": 384,
+  "workers": 1,
+  "author_driver_exit_code": 1,
+  "all_mathematical_checks_completed": true
+}

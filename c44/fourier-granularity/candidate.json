@@ -1,0 +1,15 @@
+{
+  "schema": "c44-fourier-granularity-bound-v1",
+  "caps": {
+    "3": "5/4",
+    "4": "31/16",
+    "7": "447/128"
+  },
+  "external_R3": 10,
+  "external_bs_theorem": "3b(b-1)<=2(d^4-d^2)",
+  "horizon": 96,
+  "epi_source": "baseline/sources/epi_certificate.json",
+  "spectral_source": "spectral_certificate_round3.json",
+  "spectral_sha256": "1020ed20d078ec1fece41c643007426bc452fc3aeafc81761901b32ded4495ed",
+  "claim": "4.1225323803"
+}

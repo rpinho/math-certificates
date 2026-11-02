@@ -1,0 +1,32 @@
+Compiling flint.pyx because it changed.
+[1/1] Cythonizing flint.pyx
+running build_ext
+building 'flint' extension
+c++ -fno-strict-overflow -Wsign-compare -Wunreachable-code -DNDEBUG -g -O3 -Wall -O3 -arch arm64 -mmacosx-version-min=11.0 -Wno-nullability-completeness -Wno-expansion-to-defined -Wno-undef-prefix -fPIC -I/opt/homebrew/include -I. -I. -c flint.cpp -o build/temp.macosx-11.0-arm64-cpython-312/flint.o -O3 -std=c++17
+In file included from flint.cpp:1171:
+In file included from ./balls.hpp:2:
+/opt/homebrew/include/gmpxx.h:2163:29: warning: identifier '_mpz' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+ 2163 | inline mpz_class operator"" _mpz(const char* s)
+      |                  ~~~~~~~~~~~^~~~
+      |                  operator""_mpz
+/opt/homebrew/include/gmpxx.h:2168:29: warning: identifier '_mpq' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+ 2168 | inline mpq_class operator"" _mpq(const char* s)
+      |                  ~~~~~~~~~~~^~~~
+      |                  operator""_mpq
+/opt/homebrew/include/gmpxx.h:2175:29: warning: identifier '_mpf' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+ 2175 | inline mpf_class operator"" _mpf(const char* s)
+      |                  ~~~~~~~~~~~^~~~
+      |                  operator""_mpf
+In file included from flint.cpp:1171:
+./balls.hpp:96:4: warning: misleading indentation; statement is not part of the previous 'for' [-Wmisleading-indentation]
+   96 |   }return out;
+      |    ^
+./balls.hpp:80:3: note: previous statement is here
+   80 |   for(int i=0;i<r;i++)for(int k=0;k<c;k++){
+      |   ^
+4 warnings generated.
+c++ -fno-strict-overflow -Wsign-compare -Wunreachable-code -DNDEBUG -g -O3 -Wall -O3 -arch arm64 -mmacosx-version-min=11.0 -Wno-nullability-completeness -Wno-expansion-to-defined -Wno-undef-prefix -fPIC -bundle -undefined dynamic_lookup -arch arm64 -mmacosx-version-min=11.0 -Wl,-headerpad,40 build/temp.macosx-11.0-arm64-cpython-312/flint.o -L/opt/homebrew/lib -L. -o build/lib.macosx-11.0-arm64-cpython-312/flint.cpython-312-darwin.so -lmpfr -lgmpxx -lgmp
+ld: warning: building for macOS-11.0, but linking with dylib './local-deps/lib/libmpfr.6.dylib' which was built for newer version 26.0
+ld: warning: building for macOS-11.0, but linking with dylib '/opt/homebrew/opt/gmp/lib/libgmpxx.4.dylib' which was built for newer version 26.0
+ld: warning: building for macOS-11.0, but linking with dylib '/opt/homebrew/opt/gmp/lib/libgmp.10.dylib' which was built for newer version 26.0
+copying build/lib.macosx-11.0-arm64-cpython-312/flint.cpython-312-darwin.so -> 

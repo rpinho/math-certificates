@@ -1,0 +1,28 @@
+{
+  "status": "INPUTS_AND_SOURCE_AUDITED_WITH_TWO_DOCUMENTATION_HASH_DEFECTS",
+  "numerical_proof_replayed": false,
+  "manifest_files": 247,
+  "manifest_sha256": "75a1912de8dd33ef2e14a16f14fd8b53a8a27e52b52f08a1754f4b0e0bf688a4",
+  "documentation_hash_defects": {
+    "lower/README.md": [
+      "f5cf6d25557d0dd4ea2b8aa1b960d7666d73e59b17ef237a8d672fea78b2a1bf",
+      "a7cd186140490e95fc339961e6b816be386908e26d5571bd1e9dedb976c39040"
+    ],
+    "upper/README.md": [
+      "01830d531f22de99493975582bdbdc9bc0cd1e62054cedee57b6d8a6b3f89a35",
+      "f63294edf26e07e02b23e9484892375f8b749c7048f0efd0955dc66c67f7609d"
+    ]
+  },
+  "authors_structural_check": {
+    "lower_rows": 35,
+    "upper_components": 32,
+    "staircase_strips": 2048,
+    "exact_lower_endpoint": "1773000000000/999999998227",
+    "upper_comparison_margin": "561831528950464991/1000000000000000000",
+    "analytic_numerical_certificates_replayed": false,
+    "rotation_tail_checks": 70,
+    "rotation_tail_minimum_gap": "1011627087840387/500000000000000000000000"
+  },
+  "independent_rotation_checks": 70,
+  "minimum_rotation_gap": "1011627087840387/500000000000000000000000"
+}

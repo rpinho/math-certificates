@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "checker": "independent standard-library integer Mobius polynomial + fixed-point moments",
+  "certificate_sha256": "f121cfc0cc783c70d182d7d4d741e405338cb9c5926ca5493d0a21c27d69513c",
+  "c": "4263/10000",
+  "R": "99/100",
+  "atoms": 8,
+  "bits": 180,
+  "mass_exact": "1",
+  "envelope_polynomial_degree": 170,
+  "primitive_polynomial_sha256": "a22c7dcf0cab0a1917ffaff4a492ed21d8372e9debce1dfc777bdcb05f5baf82",
+  "envelope_partitions": 1,
+  "first_finite_through": 2183,
+  "first_tail_from": 2184,
+  "first_min_relative_lower": "666762963437317157767695285873962399865958366073/100337353945238750572866569715864676448938510892877767",
+  "first_min_k": 23,
+  "second_finite_through": 1299,
+  "second_tail_from": 1300,
+  "second_min_relative_lower": "2495275513946997243032653472253608849400350583176/375499719900664417519253980327504507716181553413037123",
+  "second_min_k": 1,
+  "second_tail_gap_lower": "96154805847907396376110880028915671892138643/1532495540865888858358347027150309183618739122183602176",
+  "seconds": 4.615272833034396
+}

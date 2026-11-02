@@ -1,0 +1,476 @@
+{
+  "model": "contact_spectral_v3",
+  "zeta": "7/100",
+  "tree": {
+    "split": "a",
+    "mid": "2701/20000",
+    "left": {
+      "split": "b",
+      "mid": "23/25",
+      "left": {
+        "theta_cells": 4096
+      },
+      "right": {
+        "split": "a",
+        "mid": "2703/40000",
+        "left": {
+          "split": "b",
+          "mid": "24/25",
+          "left": {
+            "theta_cells": 4096
+          },
+          "right": {
+            "split": "a",
+            "mid": "2707/80000",
+            "left": {
+              "split": "b",
+              "mid": "49/50",
+              "left": {
+                "theta_cells": 4096
+              },
+              "right": {
+                "split": "a",
+                "mid": "543/32000",
+                "left": {
+                  "split": "b",
+                  "mid": "99/100",
+                  "left": {
+                    "theta_cells": 4096
+                  },
+                  "right": {
+                    "split": "a",
+                    "mid": "2731/320000",
+                    "left": {
+                      "split": "b",
+                      "mid": "199/200",
+                      "left": {
+                        "theta_cells": 4096
+                      },
+                      "right": {
+                        "split": "a",
+                        "mid": "2763/640000",
+                        "left": {
+                          "split": "b",
+                          "mid": "399/400",
+                          "left": {
+                            "theta_cells": 4096
+                          },
+                          "right": {
+                            "split": "a",
+                            "mid": "2827/1280000",
+                            "left": {
+                              "theta_cells": 4096
+                            },
+                            "right": {
+                              "theta_cells": 4096
+                            }
+                          }
+                        },
+                        "right": {
+                          "theta_cells": 4096
+                        }
+                      }
+                    },
+                    "right": {
+                      "split": "b",
+                      "mid": "199/200",
+                      "left": {
+                        "theta_cells": 4096
+                      },
+                      "right": {
+                        "split": "a",
+                        "mid": "8161/640000",
+                        "left": {
+                          "theta_cells": 4096
+                        },
+                        "right": {
+                          "theta_cells": 4096
+                        }
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "split": "b",
+                  "mid": "99/100",
+                  "left": {
+                    "theta_cells": 4096
+                  },
+                  "right": {
+                    "split": "a",
+                    "mid": "8129/320000",
+                    "left": {
+                      "split": "b",
+                      "mid": "199/200",
+                      "left": {
+                        "theta_cells": 4096
+                      },
+                      "right": {
+                        "split": "a",
+                        "mid": "13559/640000",
+                        "left": {
+                          "theta_cells": 4096
+                        },
+                        "right": {
+                          "theta_cells": 4096
+                        }
+                      }
+                    },
+                    "right": {
+                      "split": "b",
+                      "mid": "199/200",
+                      "left": {
+                        "theta_cells": 4096
+                      },
+                      "right": {
+                        "split": "a",
+                        "mid": "18957/640000",
+                        "left": {
+                          "theta_cells": 4096
+                        },
+                        "right": {
+                          "theta_cells": 4096
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "right": {
+              "split": "b",
+              "mid": "49/50",
+              "left": {
+                "theta_cells": 4096
+              },
+              "right": {
+                "split": "a",
+                "mid": "8113/160000",
+                "left": {
+                  "split": "b",
+                  "mid": "99/100",
+                  "left": {
+                    "theta_cells": 4096
+                  },
+                  "right": {
+                    "split": "a",
+                    "mid": "13527/320000",
+                    "left": {
+                      "split": "b",
+                      "mid": "199/200",
+                      "left": {
+                        "theta_cells": 4096
+                      },
+                      "right": {
+                        "split": "a",
+                        "mid": "4871/128000",
+                        "left": {
+                          "theta_cells": 4096
+                        },
+                        "right": {
+                          "theta_cells": 4096
+                        }
+                      }
+                    },
+                    "right": {
+                      "split": "b",
+                      "mid": "199/200",
+                      "left": {
+                        "theta_cells": 4096
+                      },
+                      "right": {
+                        "split": "a",
+                        "mid": "29753/640000",
+                        "left": {
+                          "theta_cells": 4096
+                        },
+                        "right": {
+                          "theta_cells": 4096
+                        }
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "split": "b",
+                  "mid": "99/100",
+                  "left": {
+                    "theta_cells": 4096
+                  },
+                  "right": {
+                    "split": "a",
+                    "mid": "757/12800",
+                    "left": {
+                      "split": "b",
+                      "mid": "199/200",
+                      "left": {
+                        "theta_cells": 4096
+                      },
+                      "right": {
+                        "split": "a",
+                        "mid": "35151/640000",
+                        "left": {
+                          "theta_cells": 4096
+                        },
+                        "right": {
+                          "theta_cells": 4096
+                        }
+                      }
+                    },
+                    "right": {
+                      "split": "b",
+                      "mid": "199/200",
+                      "left": {
+                        "theta_cells": 4096
+                      },
+                      "right": {
+                        "split": "a",
+                        "mid": "40549/640000",
+                        "left": {
+                          "theta_cells": 4096
+                        },
+                        "right": {
+                          "theta_cells": 4096
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "right": {
+          "split": "b",
+          "mid": "24/25",
+          "left": {
+            "theta_cells": 4096
+          },
+          "right": {
+            "split": "a",
+            "mid": "1621/16000",
+            "left": {
+              "split": "b",
+              "mid": "49/50",
+              "left": {
+                "theta_cells": 4096
+              },
+              "right": {
+                "split": "a",
+                "mid": "13511/160000",
+                "left": {
+                  "split": "b",
+                  "mid": "99/100",
+                  "left": {
+                    "theta_cells": 4096
+                  },
+                  "right": {
+                    "split": "a",
+                    "mid": "24323/320000",
+                    "left": {
+                      "split": "b",
+                      "mid": "199/200",
+                      "left": {
+                        "theta_cells": 4096
+                      },
+                      "right": {
+                        "split": "a",
+                        "mid": "45947/640000",
+                        "left": {
+                          "theta_cells": 4096
+                        },
+                        "right": {
+                          "theta_cells": 4096
+                        }
+                      }
+                    },
+                    "right": {
+                      "split": "b",
+                      "mid": "199/200",
+                      "left": {
+                        "theta_cells": 4096
+                      },
+                      "right": {
+                        "split": "a",
+                        "mid": "10269/128000",
+                        "left": {
+                          "theta_cells": 4096
+                        },
+                        "right": {
+                          "theta_cells": 4096
+                        }
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "split": "b",
+                  "mid": "99/100",
+                  "left": {
+                    "theta_cells": 4096
+                  },
+                  "right": {
+                    "split": "a",
+                    "mid": "29721/320000",
+                    "left": {
+                      "split": "b",
+                      "mid": "199/200",
+                      "left": {
+                        "theta_cells": 4096
+                      },
+                      "right": {
+                        "split": "a",
+                        "mid": "56743/640000",
+                        "left": {
+                          "theta_cells": 4096
+                        },
+                        "right": {
+                          "theta_cells": 4096
+                        }
+                      }
+                    },
+                    "right": {
+                      "split": "b",
+                      "mid": "199/200",
+                      "left": {
+                        "theta_cells": 4096
+                      },
+                      "right": {
+                        "split": "a",
+                        "mid": "62141/640000",
+                        "left": {
+                          "theta_cells": 4096
+                        },
+                        "right": {
+                          "theta_cells": 4096
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "right": {
+              "split": "b",
+              "mid": "49/50",
+              "left": {
+                "theta_cells": 4096
+              },
+              "right": {
+                "split": "a",
+                "mid": "18909/160000",
+                "left": {
+                  "split": "b",
+                  "mid": "99/100",
+                  "left": {
+                    "theta_cells": 4096
+                  },
+                  "right": {
+                    "split": "a",
+                    "mid": "35119/320000",
+                    "left": {
+                      "theta_cells": 4096
+                    },
+                    "right": {
+                      "theta_cells": 4096
+                    }
+                  }
+                },
+                "right": {
+                  "split": "b",
+                  "mid": "99/100",
+                  "left": {
+                    "theta_cells": 4096
+                  },
+                  "right": {
+                    "split": "a",
+                    "mid": "40517/320000",
+                    "left": {
+                      "theta_cells": 4096
+                    },
+                    "right": {
+                      "theta_cells": 4096
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "right": {
+      "split": "b",
+      "mid": "23/25",
+      "left": {
+        "theta_cells": 4096
+      },
+      "right": {
+        "split": "a",
+        "mid": "8101/40000",
+        "left": {
+          "split": "b",
+          "mid": "24/25",
+          "left": {
+            "theta_cells": 4096
+          },
+          "right": {
+            "split": "a",
+            "mid": "13503/80000",
+            "left": {
+              "split": "b",
+              "mid": "49/50",
+              "left": {
+                "theta_cells": 4096
+              },
+              "right": {
+                "split": "a",
+                "mid": "24307/160000",
+                "left": {
+                  "theta_cells": 4096
+                },
+                "right": {
+                  "theta_cells": 4096
+                }
+              }
+            },
+            "right": {
+              "split": "b",
+              "mid": "49/50",
+              "left": {
+                "theta_cells": 4096
+              },
+              "right": {
+                "split": "a",
+                "mid": "5941/32000",
+                "left": {
+                  "theta_cells": 4096
+                },
+                "right": {
+                  "theta_cells": 4096
+                }
+              }
+            }
+          }
+        },
+        "right": {
+          "split": "b",
+          "mid": "24/25",
+          "left": {
+            "theta_cells": 4096
+          },
+          "right": {
+            "split": "a",
+            "mid": "18901/80000",
+            "left": {
+              "theta_cells": 4096
+            },
+            "right": {
+              "theta_cells": 4096
+            }
+          }
+        }
+      }
+    }
+  }
+}

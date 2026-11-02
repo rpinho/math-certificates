@@ -1,0 +1,23 @@
+{
+  "schema": "c44-static-manifest-v1",
+  "files": {
+    "candidate.json": "7b41d5af01676f131bfa7960bea51d33c790a3180274dd1c1617445c73a7ead3",
+    "cap_certificate.json": "e38613d38d8ef82156cbe36060679911d82b6f1e046ccd0432e0a191dc232512",
+    "spectral_certificate_round3.json": "1020ed20d078ec1fece41c643007426bc452fc3aeafc81761901b32ded4495ed",
+    "PROOF.md": "da4e3cfbf9ae66411737c12a8087c8d8286fbea9f705cb209fa58c86b9ac49aa",
+    "verify_caps.py": "3de07fa9ef99de9777c345c00b0825c9df40279fbff57d930cf8ddf96e7a23c0",
+    "verify_spectral.py": "0ab675c689a8bc124ff4654139c003f0c09ce4336b835a07c606826b34d4726b",
+    "verify_bound.py": "c96c29a2755d30ab1849c0d9f6faa644f7d137fc496dec2d7a425fb677ea811f",
+    "verify_column.py": "85edaa5bb9ab7efb4421ddf64754f014b7ce0c10a5756c849a914c4ccf2b457e",
+    "control_structure.py": "1fcb3d97dd588dbfb0c46e87e738220fba53c70158ca77bac7b905676626bffd",
+    "control_rejections.py": "f02b4715a7f5a05392f18a039cefa1ed33c152e6f2f4ff9e07faa63cbcd83e2d",
+    "make_receipt.py": "52d8ed82086234230bd706b304e41b57e2d1dd63214ec87919e806ba6351a9a7",
+    "baseline/PROOF.md": "59214a415c489874ec3da59e759bdc8e3b351a69172d6fe156a549ba18d5284c",
+    "baseline/baseline/PROOF.md": "a3825d066f6167c841d6c40696d10270f600d7edb278e8da90da30ed97e87292",
+    "baseline/baseline/sources/epi_certificate.json": "ce66f1097a7284e9845113fa1dc39267932cc934fd23d9019ff13d3dcb39cf49",
+    "baseline/candidate.json": "7cc5e0be182809869dde1b1fa6e0f7bc0f1f047881aea1da6c639e3ce35cf747",
+    "baseline/verification_bound_row.json": "4a0e94e6d55e53da8e628941f018b0f9760137ec257764f9a5c29f032bdf09f7",
+    "baseline/verification_bound_column.json": "18e7471f9337884d27d37a95292c499b7987df7c25551344929bb8250245c378",
+    "jobs/reproduce_frozen.sh": "77983a5f317da1c6ecd57af6482b750d5658631ecfa04e8ec6a0cdabf7d89ed2"
+  }
+}

@@ -1,0 +1,13 @@
+PID 94779
+{
+  "status": "PASS",
+  "limit_claim": "1.20194336847",
+  "limit_log_comparison_positive": true,
+  "checker": "exact rational log series + Robbins, coarse 3<pi<7/2",
+  "terms": 44,
+  "claim": "3756073/3125000",
+  "log_comparison_positive": true,
+  "finite_witness_between_1.20194336_and_1.20194337": true,
+  "margin_log_lower_display": 7.024389112300473e-09,
+  "interval_width_log_display": 3.3665579263008444e-13
+}

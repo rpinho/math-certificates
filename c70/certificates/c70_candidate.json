@@ -1,0 +1,12 @@
+{
+  "schema": "c70-cube-ball-single-term-v1",
+  "n": 1000000000000,
+  "k": 367879441172,
+  "normalized_side": "632120558828/367879441172",
+  "claim": "1.20194336",
+  "baseline_n": 300000,
+  "baseline_side": "13/1000",
+  "baseline_claim": "1.201927",
+  "limit_claim": "1.20194336847",
+  "limit_formula": "exp(1/(2*e))"
+}
