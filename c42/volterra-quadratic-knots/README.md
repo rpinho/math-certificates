@@ -8,7 +8,7 @@ New here are the non-uniform grid, 49 rational phases on knots j²/4608, and two
 
 Theorem A is stated for knots j/48. Its proof uses only a finite piecewise-linear phase, with |d(u)| ≤ TΛu for Λ the largest slope, so it applies verbatim to these knots. Bakeas confirmed this. It also assumes Re γ ≥ 0. Here a = Re γ = 0.1118, and both programs check a > 0.
 
-The claim is max(T,F) ≤ T = 0.6863607950. Two Arb verifiers give F ≤ 0.6863607742 and F ≤ 0.6863607773.
+The claim is max(T,F) ≤ T = 0.6863607950. Two Arb verifiers give F ≤ 0.6863607743 and F ≤ 0.6863607774.
 
 ## What's here
 
