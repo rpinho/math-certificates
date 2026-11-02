@@ -1,0 +1,102 @@
+{
+  "status": "PASS_EXACT_NUMERICAL_HYPOTHESES",
+  "claim": "For every n>=1, R_n>1/2+2^(-4096); hence C42>=1/2+2^(-4096)",
+  "qualification": "Candidate and unrefereed. Analytic proof is not formally verified.",
+  "utc": "2026-11-02T18:38:10.580407+00:00",
+  "artifact_sha256": "f6681b2f4bf138ad04b8cd62c585d9b13a50057caeda0bc676262a31a1a1c79b",
+  "proof_sha256": "3acab5f81d45eb8d1db381355bc9333acf8bea4e251c04c06cd6cf518d92ba1a",
+  "checker_sha256": "7e014c836a1cdfa02803bfd3e897c264b3b0102801417c7639200c77a52bdc74",
+  "checks": [
+    "positive integral delta_exponent",
+    "positive integral eta_exponent",
+    "positive integral lambda_exponent",
+    "positive integral uniform_error_exponent",
+    "positive integral parallel_deficit_exponent",
+    "positive integral early_fraction_exponent",
+    "positive integral radial_error_exponent",
+    "positive integral t0_lower_exponent",
+    "positive integral scale_ratio_lower_exponent",
+    "positive integral contraction_product_upper_exponent",
+    "schema",
+    "r bracket by squares",
+    "positive explicit gain",
+    "q upper",
+    "growth lower 1/8",
+    "growth upper 2",
+    "e <= 2 delta",
+    "A > 1/(8 delta)",
+    "radial error e coefficient",
+    "radial error endpoint coefficient",
+    "small eta",
+    "delta <= eta squared",
+    "radicand upper <= 2 eta",
+    "radical upper positive",
+    "b <= beta cap by squaring",
+    "B upper",
+    "t0 at least 2",
+    "t0 lower from polynomial growth",
+    "scale ratio lower",
+    "uniform balance error",
+    "R bracket",
+    "summed-angle floor",
+    "Lipschitz first term",
+    "Lipschitz second term",
+    "Lipschitz third term",
+    "Lipschitz sum",
+    "q squared change",
+    "w >= 1/t",
+    "contraction product cap",
+    "parallelism deficit",
+    "angle conversion error",
+    "small epsilon",
+    "ratio radial part",
+    "ratio phase part",
+    "weights conversion",
+    "weighted mean error",
+    "delta small for second moment",
+    "distance bound sqrt(18)<5",
+    "dyadic eighth root",
+    "dyadic fourth root",
+    "early cutoff exists",
+    "b to C transfer",
+    "final error cap",
+    "escape contradiction",
+    "cubic telescoping identity",
+    "cubic positivity on integers t>=1",
+    "eighth-power telescoping inequality",
+    "Gaussian-rational Newton identities n=2..13",
+    "Gaussian-rational summed identities n=2..13"
+  ],
+  "negative_controls": [
+    {
+      "key": "delta_exponent",
+      "value": 1,
+      "rejected": "FAIL q upper"
+    },
+    {
+      "key": "eta_exponent",
+      "value": 1,
+      "rejected": "FAIL small eta"
+    },
+    {
+      "key": "parallel_deficit_exponent",
+      "value": 500,
+      "rejected": "FAIL parallelism deficit"
+    },
+    {
+      "key": "scale_ratio_lower_exponent",
+      "value": 4096,
+      "rejected": "FAIL scale ratio lower"
+    },
+    {
+      "key": "early_fraction_exponent",
+      "value": 8,
+      "rejected": "FAIL final error cap"
+    },
+    {
+      "key": "final_error_upper",
+      "value": "1/2",
+      "rejected": "FAIL escape contradiction"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+ "sha256": "f6681b2f4bf138ad04b8cd62c585d9b13a50057caeda0bc676262a31a1a1c79b",
+ "file": "inputs/lower_certificate.json",
+ "date": "2026-11-02",
+ "reviews": [
+  {
+   "reviewer": "claude-science",
+   "model": "claude-opus-5-5",
+   "verdict": "PASS",
+   "report": "reviews/claude-science_opus-5-5.md",
+   "session": "36860321-913a-4bbb-9683-c0fb4abc4cec"
+  },
+  {
+   "reviewer": "astra",
+   "model": "gpt-6-astra",
+   "verdict": "PASS",
+   "report": "reviews/astra_gpt-6-astra.md"
+  },
+  {
+   "reviewer": "sol",
+   "model": "gpt-6.1-sol",
+   "verdict": "PASS",
+   "report": "reviews/sol_gpt-6.1-sol_mechanical.md",
+   "scope": "mechanical correctness only; same model family as the author"
+  }
+ ],
+ "note": "Blind reviews of LOWER_PROOF.md, the certificate, manifest and checker together."
+}

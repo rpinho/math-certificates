@@ -1,0 +1,18 @@
+{
+  "schema": "biro-explicit-lower-v1",
+  "status": "candidate and unrefereed",
+  "claim": "For every n>=1, R_n>1/2+2^(-4096); hence C42>=1/2+2^(-4096)",
+  "method_credit": "Andras Biro, Indagationes Mathematicae 11 (2000), 343-358",
+  "delta_exponent": 4096,
+  "eta_exponent": 512,
+  "lambda_exponent": 2048,
+  "uniform_error_exponent": 252,
+  "parallel_deficit_exponent": 240,
+  "early_fraction_exponent": 48,
+  "radial_error_exponent": 254,
+  "t0_lower_exponent": 1021,
+  "scale_ratio_lower_exponent": 1022,
+  "contraction_product_upper_exponent": 340,
+  "final_error_upper": "1/16",
+  "proof_file": "LOWER_PROOF.md"
+}
