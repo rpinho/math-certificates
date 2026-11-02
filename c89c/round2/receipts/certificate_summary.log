@@ -1,0 +1,44 @@
+{
+  "frozen_k5_column.cert": {
+    "bound": "762079654433/500000000000000",
+    "value": 0.001524159308866,
+    "improvement": 6.438500506308682e-10,
+    "relative_improvement": 4.2242980695459993e-07,
+    "rows": 13227
+  },
+  "frozen_k6_column.cert": {
+    "bound": "5473181271/250000000000000",
+    "value": 2.1892725084e-05,
+    "improvement": 8.09725084e-07,
+    "relative_improvement": 0.03840654005596927,
+    "rows": 8277
+  },
+  "frozen_lift9_blocks.cert": {
+    "bound": "21892570653/1000000000000000",
+    "value": 2.1892570653e-05,
+    "improvement": 8.09570653e-07,
+    "relative_improvement": 0.038399215149646636,
+    "rows": 541
+  },
+  "frozen_lift9_rows.cert": {
+    "bound": "21932414437/1000000000000000",
+    "value": 2.1932414437e-05,
+    "improvement": 8.49414437e-07,
+    "relative_improvement": 0.04028906877579092,
+    "rows": 484
+  },
+  "frozen_ppss_blocks.cert": {
+    "bound": "304831810599/200000000000000",
+    "value": 0.001524159052995,
+    "improvement": 3.879790506308682e-10,
+    "relative_improvement": 2.545529278126751e-07,
+    "rows": 13227
+  },
+  "frozen_rows8.cert": {
+    "bound": "2736561/125000000000",
+    "value": 2.1892488e-05,
+    "improvement": 8.09488e-07,
+    "relative_improvement": 0.038395294787269364,
+    "rows": 541
+  }
+}

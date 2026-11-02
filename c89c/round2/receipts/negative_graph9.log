@@ -1,0 +1,19 @@
+augmentation 0 9 1793579570.9517376
+augmentation 1000 33327 1793579575.27059
+augmentation 2000 81672 1793579579.674295
+augmentation 3000 107551 1793579584.1674263
+augmentation 4000 139572 1793579588.6742396
+augmentation 5000 164967 1793579593.2697368
+augmentation 6000 180455 1793579597.9574027
+augmentation 7000 205868 1793579602.3900108
+augmentation 8000 233994 1793579607.1199045
+augmentation 9000 250900 1793579611.9658248
+augmentation 10000 257386 1793579616.4778917
+augmentation 11000 267536 1793579621.1422606
+augmentation 12000 273601 1793579626.1989033
+Traceback (most recent call last):
+  File "/root/os/math_c89cr2_1101/scripts/check_graph9.py", line 25, in <module>
+    assert actual==expected
+           ^^^^^^^^^^^^^^^^
+AssertionError
+PASS missing order-nine graph rejected

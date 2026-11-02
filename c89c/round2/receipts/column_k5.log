@@ -1,0 +1,17 @@
+START 5 directions 170 time 1793578187.3951275
+/root/os/math_c89cr2_1101/scripts/column_search.py:55: OptimizeWarning: Unrecognized options detected: {'threads': 1, 'small_matrix_value': 1e-12}. These will be passed to HiGHS verbatim.
+  res=linprog(np.r_[np.zeros(len(columns)),-1.],A_ub=np.column_stack((M*scale,np.ones(nr))),b_ub=target*scale,bounds=[(0,None)]*len(columns)+[(0,scale)],method='highs',options={'threads':1,'time_limit':900,'primal_feasibility_tolerance':1e-10,'dual_feasibility_tolerance':1e-10,'small_matrix_value':1e-12})
+ROUND 0 cols 170 status Optimization terminated successfully. (HiGHS Status 7: Optimal) raw 0.0015241590721329118 actual 0.0015241590720281722 time 1793578189.6837027
+CANDIDATE {'k': 5, 'round': 0, 'columns': 170, 'candidate': '381039767751/250000000000000', 'value': 0.001524159071004, 'actual_LP': 0.0015241590720281722, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)'}
+PRICING 298 best -0.12693440648774115
+ROUND 1 cols 250 status Optimization terminated successfully. (HiGHS Status 7: Optimal) raw 0.0015241591910278246 actual 0.0015241591070431389 time 1793578240.4504085
+CANDIDATE {'k': 5, 'round': 1, 'columns': 250, 'candidate': '762079553017/500000000000000', 'value': 0.001524159106034, 'actual_LP': 0.0015241591070431389, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)'}
+PRICING 306 best -0.11904228176053275
+ROUND 2 cols 330 status Optimization terminated successfully. (HiGHS Status 7: Optimal) raw 0.0015241593179159843 actual 0.001524159258449359 time 1793578300.500039
+CANDIDATE {'k': 5, 'round': 2, 'columns': 330, 'candidate': '304831851489/200000000000000', 'value': 0.001524159257445, 'actual_LP': 0.001524159258449359, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)'}
+PRICING 311 best -0.1101996401899281
+ROUND 3 cols 410 status Optimization terminated successfully. (HiGHS Status 7: Optimal) raw 0.0015241594177733662 actual 0.0015241593098680427 time 1793578408.728488
+CANDIDATE {'k': 5, 'round': 3, 'columns': 410, 'candidate': '762079654433/500000000000000', 'value': 0.001524159308866, 'actual_LP': 0.0015241593098680427, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)'}
+PRICING 308 best -0.07673872098742984
+NO_LP The HiGHS status code was not recognized. (HiGHS Status 15: model_status is Unknown; primal_status is Feasible)
+DONE 5 1793578576.8259912

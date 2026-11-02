@@ -1,0 +1,9 @@
+{
+  "PASS": true,
+  "archive": "ramsey_multiplicity_candidates.tar.gz",
+  "bytes": 8800036,
+  "sha256": "6ec8aa40e3d6fe09155f8c6ffcc18cd8ceddcf8520dd684193e4adf0093e229d",
+  "manifest_files": 107,
+  "archive_replay": "every archive member independently matched its manifest hash and byte count",
+  "root_inventory_recheck": "all seven initial/final root hashes equal"
+}

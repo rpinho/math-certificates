@@ -1,0 +1,8 @@
+LP9 rows (274668, 1303) baseline 2.5987180456e-05 time 1793582151.2013834
+CUT ROUND 0 14862 1793582151.4571743
+/root/os/math_c89cr2_1101/scripts/lift_rows9_cut.py:58: OptimizeWarning: Unrecognized options detected: {'threads': 1, 'small_matrix_value': 1e-12}. These will be passed to HiGHS verbatim.
+  trial=linprog(np.r_[np.zeros(M.shape[1]),-1.],A_ub=np.column_stack((M[use]*scale,np.ones(len(use)))),b_ub=target[use]*scale,bounds=[(0,None)]*M.shape[1]+[(0,10)],method='highs',options={'threads':1,'time_limit':600,'primal_feasibility_tolerance':1e-10,'dual_feasibility_tolerance':1e-10,'small_matrix_value':1e-12})
+NO LP Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)
+LP9 RESULT cutting planes; baseline -2.5987182439626957
+ACTUAL 2.5987182439626957e-05
+CANDIDATE9 {'value': 2.5987181439e-05, 'candidate': '25987181439/1000000000000000', 'baseline': 2.5987180456e-05, 'LP_status': 'cutting planes; baseline', 'mode': 'rows', 'worst': 30156}

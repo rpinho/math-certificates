@@ -1,0 +1,13 @@
+ASSEMBLE (274668, 287455) 217141522 1793578792.0566504
+SOLVE (562126, 287457) 217978316 time 1793578796.2190123
+Traceback (most recent call last):
+  File "/root/os/math_c89cr2_1101/scripts/solve9_raw.py", line 27, in <module>
+    result=scs.solve(dict(A=AA,b=rhs,c=c,x=x0,s=s0,y=np.zeros(len(rhs))),dict(l=nr+3,s=[md[3] for md in meta]),use_indirect=True,eps_abs=1e-8,eps_rel=1e-8,max_iters=10000,time_limit_secs=1200,verbose=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/os/math_sweep3_1101/.venv/lib/python3.12/site-packages/scs/__init__.py", line 219, in solve
+    solver = SCS(data, cone, **settings)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/os/math_sweep3_1101/.venv/lib/python3.12/site-packages/scs/__init__.py", line 172, in __init__
+    self._solver = _scs.SCS(
+                   ^^^^^^^^^
+TypeError: 'use_indirect' is an invalid keyword argument for this function

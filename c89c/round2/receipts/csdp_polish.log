@@ -1,0 +1,5 @@
+/root/os/math_c89cr2_1101/scripts/polish_weights_high.py:34: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  result=linprog(np.r_[np.zeros(B),-1.],A_ub=np.column_stack((M,np.ones(nr))),b_ub=target,bounds=[(0,10)]*B+[(0,1)],method='highs',options={'threads':1,'primal_feasibility_tolerance':1e-9,'dual_feasibility_tolerance':1e-9})
+exploratory LP Optimization terminated successfully. (HiGHS Status 7: Optimal) bound 2.598718245966994e-05
+weights [0.0, 1.000000060502349, 1.0000000402531566, 1.0000000022301805, 0.9999999942941391, 0.9999999754635746, 0.9999999751357329, 0.9999999991303142, 1.0000000321473765, 0.9999999630289312, 0.999999995398513, 0.9999998546502349, 1.0000000159002072, 0.9999999681550187]
+rounded candidate 5197268107/200000000000000 2.5986340535e-05 row 86

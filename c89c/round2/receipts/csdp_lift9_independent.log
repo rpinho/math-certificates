@@ -1,0 +1,10 @@
+PASS: eight-vertex orbit index covers all 268435456 labelled graphs; random normalization.
+lift checked 50000
+lift checked 100000
+lift checked 150000
+lift checked 200000
+lift checked 250000
+PASS: 274668 exact nine-vertex inequalities by summing nine independently indexed eight-vertex residuals.
+NOTE: graph9 completeness requires the separate exhaustive augmentation check.
+PASS: c6 >= 25987181439/1000000000000000; PSD by stored integer square factors.
+MIN_SLACK 423625409907002632000000000000000 / 423360000000000000000000000000000000000000000 at 30156

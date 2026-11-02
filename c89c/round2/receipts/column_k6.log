@@ -1,0 +1,11 @@
+START 6 directions 183 time 1793578187.1810594
+/root/os/math_c89cr2_1101/scripts/column_search.py:55: OptimizeWarning: Unrecognized options detected: {'threads': 1, 'small_matrix_value': 1e-12}. These will be passed to HiGHS verbatim.
+  res=linprog(np.r_[np.zeros(len(columns)),-1.],A_ub=np.column_stack((M*scale,np.ones(nr))),b_ub=target*scale,bounds=[(0,None)]*len(columns)+[(0,scale)],method='highs',options={'threads':1,'time_limit':900,'primal_feasibility_tolerance':1e-10,'dual_feasibility_tolerance':1e-10,'small_matrix_value':1e-12})
+ROUND 0 cols 183 status Optimization terminated successfully. (HiGHS Status 7: Optimal) raw 2.189256432979316e-05 actual 2.189256432970541e-05 time 1793578189.5043333
+CANDIDATE {'k': 6, 'round': 0, 'columns': 183, 'candidate': '21892563253/1000000000000000', 'value': 2.1892563253e-05, 'actual_LP': 2.189256432970541e-05, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)'}
+PRICING 309 best -0.19667334485730334
+ROUND 1 cols 263 status Optimization terminated successfully. (HiGHS Status 7: Optimal) raw 2.1892581509254727e-05 actual 2.18925559500871e-05 time 1793578197.968692
+CANDIDATE {'k': 6, 'round': 1, 'columns': 263, 'candidate': '21892554841/1000000000000000', 'value': 2.1892554841e-05, 'actual_LP': 2.18925559500871e-05, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)'}
+PRICING 332 best -0.13786486876140613
+NO_LP (HiGHS Status 0: Not Set)
+DONE 6 1793578220.8764477

@@ -1,0 +1,6 @@
+LP blocks (12346, 170) public_exact 0.0015241586650159493 time 1793578109.2485833
+/root/os/math_c89cr2_1101/scripts/reweight_ppss.py:34: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  res=linprog(np.r_[np.zeros(M.shape[1]),-1],A_ub=np.column_stack((M*scale,np.ones(len(target)))),b_ub=target*scale,bounds=[(0,None)]*M.shape[1]+[(0,2000)],method='highs',options={'threads':1,'time_limit':1800,'primal_feasibility_tolerance':1e-9,'dual_feasibility_tolerance':1e-9})
+LP RESULT Optimization terminated successfully. (HiGHS Status 7: Optimal) objective -1524.159072133008
+ACTUAL_LP_MIN 0.0015241590541288375 baseline min 0.0015241586650159504
+CANDIDATE {'candidate': '304831810599/200000000000000', 'value': 0.001524159052995, 'public_exact': '20421620024978222587630220763104861267/13398618197511951998870375167625873326080', 'improvement': 3.8797905079629436e-10, 'LP_status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)'}

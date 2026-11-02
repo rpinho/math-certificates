@@ -1,0 +1,20 @@
+CSDP 6.2.0
+Iter:  0 Ap: 0.00e+00 Pobj:  1.1892488e-01 Ad: 0.00e+00 Dobj:  6.1035156e-01 
+Iter:  1 Ap: 1.77e-06 Pobj:  1.1892451e-01 Ad: 5.03e-05 Dobj:  6.1032249e-01 
+Iter:  2 Ap: 8.68e-06 Pobj:  1.1884357e-01 Ad: 2.09e-05 Dobj:  6.1011187e-01 
+Iter:  3 Ap: 1.06e-06 Pobj:  1.1883882e-01 Ad: 1.83e-05 Dobj:  6.1001814e-01 
+Iter:  4 Ap: 3.29e-05 Pobj:  1.1866508e-01 Ad: 2.76e-05 Dobj:  6.0985497e-01 
+Process stopped by signal.
+Iter:  5 Ap: 4.04e-05 Pobj:  1.1850539e-01 Ad: 7.96e-05 Dobj:  6.0949665e-01 
+Failure: return code is 10 
+Primal objective value: 1.1850539e-01 
+Dual objective value: 6.0949665e-01 
+Relative primal infeasibility: 1.63e-15 
+Relative dual infeasibility: 5.75e-07 
+Real Relative Gap: 2.84e-01 
+XZ Relative Gap: 2.87e-01 
+DIMACS error measures: 2.19e-15 0.00e+00 7.28e-06 0.00e+00 2.84e-01 2.87e-01
+Elements time: 366.649514 
+Factor time: 21.188825 
+Other time: 18.017505 
+Total time: 405.855844 

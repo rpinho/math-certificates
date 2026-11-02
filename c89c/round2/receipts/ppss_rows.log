@@ -1,0 +1,9 @@
+LP rows (12346, 13227) public_exact 0.0015241586650159493 time 1793577906.5721889
+/root/os/math_c89cr2_1101/scripts/reweight_ppss.py:33: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  res=linprog(np.r_[np.zeros(M.shape[1]),-1],A_ub=np.column_stack((M*scale,np.ones(len(target)))),b_ub=target*scale,bounds=[(0,10)]*M.shape[1]+[(0,2)],method='highs',options={'threads':1,'time_limit':1800,'primal_feasibility_tolerance':1e-9,'dual_feasibility_tolerance':1e-9})
+LP RESULT Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None) objective None
+Traceback (most recent call last):
+  File "/root/os/math_c89cr2_1101/scripts/reweight_ppss.py", line 34, in <module>
+    res=linprog(np.r_[np.zeros(M.shape[1]),-1],A_ub=np.column_stack((M*scale,np.ones(len(target)))),b_ub=target*scale,bounds=[(0,None)]*M.shape[1]+[(0,2000)],method='highs',options={'threads':1,'time_limit':1800,'primal_feasibility_tolerance':1e-9,'dual_feasibility_tolerance':1e-9})
+                                                                                                               ^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable

@@ -1,0 +1,44 @@
+make: Entering directory '/root/os/math_c89cr2_1101/sources/Csdp-master/lib'
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o readprob.o readprob.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o sdp.o sdp.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o op_o.o op_o.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o psd_feas.o psd_feas.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o op_a.o op_a.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o op_at.o op_at.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o Fnorm.o Fnorm.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o calc_pobj.o calc_pobj.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o calc_dobj.o calc_dobj.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o trace_prod.o trace_prod.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o zero_mat.o zero_mat.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o mat_mult.o mat_mult.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o sym_mat.o sym_mat.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o copy_mat.o copy_mat.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o addscaledmat.o addscaledmat.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o user_exit.o user_exit.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o make_i.o make_i.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o allocmat.o allocmat.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o initsoln.o initsoln.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o initparams.o initparams.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o add_mat.o add_mat.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o writesol.o writesol.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o readsol.o readsol.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o easysdp.o easysdp.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o writeprob.o writeprob.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o solvesys.o solvesys.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o makefill.o makefill.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o mat_multsp.o mat_multsp.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o norms.o norms.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o linesearch.o linesearch.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o matvec.o matvec.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o chol.o chol.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o qreig.o qreig.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o tweakgap.o tweakgap.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o freeprob.o freeprob.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o packed.o packed.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o sortentries.o sortentries.c
+ar cr libsdp.a  readprob.o sdp.o op_o.o psd_feas.o op_a.o op_at.o  Fnorm.o calc_pobj.o calc_dobj.o trace_prod.o zero_mat.o mat_mult.o sym_mat.o copy_mat.o addscaledmat.o  user_exit.o make_i.o allocmat.o initsoln.o initparams.o add_mat.o writesol.o readsol.o easysdp.o writeprob.o solvesys.o makefill.o mat_multsp.o norms.o linesearch.o matvec.o chol.o qreig.o tweakgap.o freeprob.o packed.o sortentries.o
+make: Leaving directory '/root/os/math_c89cr2_1101/sources/Csdp-master/lib'
+make: Entering directory '/root/os/math_c89cr2_1101/sources/Csdp-master/solver'
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include   -c -o csdp.o csdp.c
+cc -m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include csdp.o -L../lib -lsdp -Wl,-l:liblapack.so.3 -Wl,-l:libblas.so.3 -lm -fopenmp -o csdp
+make: Leaving directory '/root/os/math_c89cr2_1101/sources/Csdp-master/solver'

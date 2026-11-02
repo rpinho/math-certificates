@@ -1,0 +1,20 @@
+SETUP 8 6 12346 77196 blocks 14 maxdim 176 time 1793578977.8194962
+(CVXPY) Nov 02 12:22:57 AM: Your problem has 153090 variables, 165435 constraints, and 0 parameters.
+(CVXPY) Nov 02 12:22:57 AM: It is compliant with the following grammars: DCP, DQCP
+(CVXPY) Nov 02 12:22:57 AM: DCP verification time: 0.0014 seconds.
+(CVXPY) Nov 02 12:22:57 AM: Expression tree has 7 nodes.
+(CVXPY) Nov 02 12:22:57 AM: (If you need to solve this problem multiple times, but with different data, consider using parameters.)
+(CVXPY) Nov 02 12:22:57 AM: CVXPY will first compile your problem; then, it will invoke a numerical solver to obtain a solution.
+(CVXPY) Nov 02 12:22:57 AM: Your problem is compiled with the CPP canonicalization backend.
+(CVXPY) Nov 02 12:22:57 AM: Compiling problem (target solver=CLARABEL).
+(CVXPY) Nov 02 12:22:57 AM: Reduction chain: FlipObjective -> Dcp2Cone -> CvxAttr2Constr -> ExactCone2Cone -> EliminateZeroSized -> ConeMatrixStuffing -> CLARABEL
+(CVXPY) Nov 02 12:22:57 AM: Applying reduction FlipObjective
+(CVXPY) Nov 02 12:22:57 AM: Applying reduction Dcp2Cone
+(CVXPY) Nov 02 12:22:57 AM: Applying reduction CvxAttr2Constr
+(CVXPY) Nov 02 12:22:57 AM: Applying reduction ExactCone2Cone
+(CVXPY) Nov 02 12:22:57 AM: Applying reduction EliminateZeroSized
+(CVXPY) Nov 02 12:22:57 AM: Applying reduction ConeMatrixStuffing
+(CVXPY) Nov 02 12:22:59 AM: Applying reduction CLARABEL
+(CVXPY) Nov 02 12:23:00 AM: Finished problem compilation (took 3.085e+00 seconds).
+(CVXPY) Nov 02 12:23:00 AM: Invoking solver CLARABEL  to obtain a solution.
+memory allocation of 3141048888 bytes failed

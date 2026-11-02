@@ -1,0 +1,1675 @@
+{
+  "c6_9.cert": {
+    "role": "primary",
+    "n": 9,
+    "k": 6,
+    "D": 1000000000000,
+    "root_mode": 0,
+    "block_count": 14,
+    "factor_rows": 1303,
+    "bound": "25987181439/1000000000000000",
+    "value": 2.5987181439e-05,
+    "public_comparison": "21083/1000000000",
+    "absolute_gain": "4904181439/1000000000000000",
+    "absolute_gain_decimal": 4.904181439e-06,
+    "relative_gain_percent": 23.261307399326473,
+    "random_ratio": 0.425773980696576,
+    "sha256_file": "0137db8ed8648496eddf8f007bcda642ffae9c2e7d93f9b224c4b5c4eec96665",
+    "sha256_certificate": "0137db8ed8648496eddf8f007bcda642ffae9c2e7d93f9b224c4b5c4eec96665",
+    "bytes": 1406830,
+    "blocks": [
+      {
+        "t": 0,
+        "m": 4,
+        "type": 0,
+        "dimension": 11,
+        "factor_rows": 11
+      },
+      {
+        "t": 2,
+        "m": 3,
+        "type": 0,
+        "dimension": 74,
+        "factor_rows": 74
+      },
+      {
+        "t": 2,
+        "m": 3,
+        "type": 1,
+        "dimension": 74,
+        "factor_rows": 74
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 0,
+        "dimension": 44,
+        "factor_rows": 44
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 1,
+        "dimension": 116,
+        "factor_rows": 116
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 3,
+        "dimension": 176,
+        "factor_rows": 176
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 7,
+        "dimension": 92,
+        "factor_rows": 92
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 11,
+        "dimension": 92,
+        "factor_rows": 92
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 12,
+        "dimension": 68,
+        "factor_rows": 68
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 13,
+        "dimension": 152,
+        "factor_rows": 152
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 15,
+        "dimension": 176,
+        "factor_rows": 176
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 30,
+        "dimension": 68,
+        "factor_rows": 68
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 31,
+        "dimension": 116,
+        "factor_rows": 116
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 63,
+        "dimension": 44,
+        "factor_rows": 44
+      }
+    ]
+  },
+  "c6_8.cert.gz": {
+    "role": "eight-vertex support",
+    "n": 8,
+    "k": 6,
+    "D": 1000000000000,
+    "root_mode": 0,
+    "block_count": 14,
+    "factor_rows": 1303,
+    "bound": "3248397557/125000000000000",
+    "value": 2.5987180456e-05,
+    "public_comparison": "21083/1000000000",
+    "absolute_gain": "613022557/125000000000000",
+    "absolute_gain_decimal": 4.904180456e-06,
+    "relative_gain_percent": 23.26130273680216,
+    "random_ratio": 0.425773964591104,
+    "sha256_file": "6b7f5322636aceb2583f9bdb1fbd3817f51aac75647a6fb9b2c96ef14319686d",
+    "sha256_certificate": "bbcc572b177c0f1a5bf5a36f3be7056441f0fe160ad8e7f59b840aaf0ff199ad",
+    "bytes": 651704,
+    "blocks": [
+      {
+        "t": 0,
+        "m": 4,
+        "type": 0,
+        "dimension": 11,
+        "factor_rows": 11
+      },
+      {
+        "t": 2,
+        "m": 3,
+        "type": 0,
+        "dimension": 74,
+        "factor_rows": 74
+      },
+      {
+        "t": 2,
+        "m": 3,
+        "type": 1,
+        "dimension": 74,
+        "factor_rows": 74
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 0,
+        "dimension": 44,
+        "factor_rows": 44
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 1,
+        "dimension": 116,
+        "factor_rows": 116
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 3,
+        "dimension": 176,
+        "factor_rows": 176
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 7,
+        "dimension": 92,
+        "factor_rows": 92
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 11,
+        "dimension": 92,
+        "factor_rows": 92
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 12,
+        "dimension": 68,
+        "factor_rows": 68
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 13,
+        "dimension": 152,
+        "factor_rows": 152
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 15,
+        "dimension": 176,
+        "factor_rows": 176
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 30,
+        "dimension": 68,
+        "factor_rows": 68
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 31,
+        "dimension": 116,
+        "factor_rows": 116
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 63,
+        "dimension": 44,
+        "factor_rows": 44
+      }
+    ]
+  },
+  "c5_8.cert.gz": {
+    "role": "primary",
+    "n": 8,
+    "k": 5,
+    "D": 1000000000000,
+    "root_mode": 1,
+    "block_count": 170,
+    "factor_rows": 13227,
+    "bound": "762079654433/500000000000000",
+    "value": 0.001524159308866,
+    "public_comparison": "20421620024978222587630220763104861267/13398618197511951998870375167625873326080",
+    "absolute_gain": "52653204375315811874176671867185899398517/81778675521923535149355317185216512000000000000000",
+    "absolute_gain_decimal": 6.438500506308682e-10,
+    "relative_gain_percent": 4.224298069545999e-05,
+    "random_ratio": 0.780369566139392,
+    "sha256_file": "caa77c8d6295b48263ddea7044e94c1a837c1cb4b0f6c96b27d4dd89d98aeb57",
+    "sha256_certificate": "cc7fa1eb973d9d350b4a0cc01163eb027578497c0d2f3aa12d7deb8e7ffb385a",
+    "bytes": 5891084,
+    "blocks": [
+      {
+        "t": 0,
+        "m": 4,
+        "type": 0,
+        "dimension": 11,
+        "factor_rows": 11
+      },
+      {
+        "t": 2,
+        "m": 3,
+        "type": 0,
+        "dimension": 120,
+        "factor_rows": 120
+      },
+      {
+        "t": 2,
+        "m": 3,
+        "type": 1,
+        "dimension": 120,
+        "factor_rows": 120
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 0,
+        "dimension": 272,
+        "factor_rows": 272
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 1,
+        "dimension": 272,
+        "factor_rows": 272
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 3,
+        "dimension": 272,
+        "factor_rows": 272
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 7,
+        "dimension": 272,
+        "factor_rows": 272
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 11,
+        "dimension": 272,
+        "factor_rows": 272
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 12,
+        "dimension": 272,
+        "factor_rows": 272
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 13,
+        "dimension": 272,
+        "factor_rows": 272
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 15,
+        "dimension": 272,
+        "factor_rows": 272
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 30,
+        "dimension": 272,
+        "factor_rows": 272
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 31,
+        "dimension": 272,
+        "factor_rows": 272
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 63,
+        "dimension": 272,
+        "factor_rows": 272
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 0,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 7,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 11,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 12,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 13,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 15,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 30,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 31,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 63,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 75,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 76,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 77,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 79,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 86,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 87,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 94,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 95,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 116,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 117,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 119,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 127,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 222,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 223,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 235,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 236,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 237,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 239,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 254,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 255,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 507,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 511,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1023,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1099,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1100,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1101,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1103,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1108,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1109,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1110,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1111,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1118,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1119,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1140,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1141,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1143,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1151,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1182,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1183,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1184,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1185,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1187,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1191,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1194,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1195,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1196,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1197,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1198,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1199,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1214,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1215,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1246,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1247,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1259,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1260,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1261,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1263,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1268,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1269,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1270,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1271,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1278,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1279,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1456,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1457,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1459,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1460,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1461,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1463,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1465,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1467,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1468,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1469,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1471,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1531,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1532,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1533,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1535,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1972,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1973,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1975,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 1983,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 2047,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3294,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3295,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3306,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3307,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3308,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3309,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3310,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3311,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3326,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3327,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3440,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3441,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3443,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3447,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3448,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3449,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3451,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3452,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3453,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3455,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3576,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3577,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3578,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3579,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3582,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3583,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3873,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3875,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3879,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3885,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3887,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3903,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3947,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3948,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3949,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3950,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3951,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3958,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3959,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3966,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 3967,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 4094,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 4095,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 7672,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 7673,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 7675,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 7679,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 7902,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 7903,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 7915,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 7916,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 7917,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 7919,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 7934,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 7935,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 8185,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 8187,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 8191,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 16350,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 16351,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 16383,
+        "dimension": 64,
+        "factor_rows": 64
+      },
+      {
+        "t": 6,
+        "m": 1,
+        "type": 32767,
+        "dimension": 64,
+        "factor_rows": 64
+      }
+    ]
+  },
+  "c6_seed8.cert": {
+    "role": "search seed",
+    "n": 8,
+    "k": 6,
+    "D": 1000000000,
+    "root_mode": 0,
+    "block_count": 13,
+    "factor_rows": 541,
+    "bound": "2736561/125000000000",
+    "value": 2.1892488e-05,
+    "public_comparison": "21083/1000000000",
+    "absolute_gain": "50593/62500000000",
+    "absolute_gain_decimal": 8.09488e-07,
+    "relative_gain_percent": 3.8395294787269365,
+    "random_ratio": 0.358686523392,
+    "sha256_file": "72bfd95b7ae71e9cf4d691a8c137fc923f88b0c55b05ad576fb5af61869f48ab",
+    "sha256_certificate": "72bfd95b7ae71e9cf4d691a8c137fc923f88b0c55b05ad576fb5af61869f48ab",
+    "bytes": 595918,
+    "blocks": [
+      {
+        "t": 2,
+        "m": 3,
+        "type": 0,
+        "dimension": 74,
+        "factor_rows": 22
+      },
+      {
+        "t": 2,
+        "m": 3,
+        "type": 1,
+        "dimension": 74,
+        "factor_rows": 23
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 0,
+        "dimension": 44,
+        "factor_rows": 12
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 1,
+        "dimension": 116,
+        "factor_rows": 43
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 3,
+        "dimension": 176,
+        "factor_rows": 94
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 7,
+        "dimension": 92,
+        "factor_rows": 36
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 11,
+        "dimension": 92,
+        "factor_rows": 40
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 12,
+        "dimension": 68,
+        "factor_rows": 23
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 13,
+        "dimension": 152,
+        "factor_rows": 75
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 15,
+        "dimension": 176,
+        "factor_rows": 95
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 30,
+        "dimension": 68,
+        "factor_rows": 24
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 31,
+        "dimension": 116,
+        "factor_rows": 42
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 63,
+        "dimension": 44,
+        "factor_rows": 12
+      }
+    ]
+  },
+  "public_c6_8.cert": {
+    "role": "public baseline",
+    "n": 8,
+    "k": 6,
+    "D": 1000000000,
+    "root_mode": 0,
+    "block_count": 13,
+    "factor_rows": 793,
+    "bound": "21083/1000000000",
+    "value": 2.1083e-05,
+    "public_comparison": "21083/1000000000",
+    "absolute_gain": "0",
+    "absolute_gain_decimal": 0.0,
+    "relative_gain_percent": 0.0,
+    "random_ratio": 0.345423872,
+    "sha256_file": "39bd22dac99c7cd509ffc6b32762302f79b2775c3e16fed89078080c4f0296f5",
+    "sha256_certificate": "39bd22dac99c7cd509ffc6b32762302f79b2775c3e16fed89078080c4f0296f5",
+    "bytes": 742613,
+    "blocks": [
+      {
+        "t": 2,
+        "m": 3,
+        "type": 0,
+        "dimension": 74,
+        "factor_rows": 39
+      },
+      {
+        "t": 2,
+        "m": 3,
+        "type": 1,
+        "dimension": 74,
+        "factor_rows": 39
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 0,
+        "dimension": 44,
+        "factor_rows": 24
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 1,
+        "dimension": 116,
+        "factor_rows": 69
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 3,
+        "dimension": 176,
+        "factor_rows": 120
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 7,
+        "dimension": 92,
+        "factor_rows": 56
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 11,
+        "dimension": 92,
+        "factor_rows": 57
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 12,
+        "dimension": 68,
+        "factor_rows": 38
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 13,
+        "dimension": 152,
+        "factor_rows": 101
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 15,
+        "dimension": 176,
+        "factor_rows": 120
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 30,
+        "dimension": 68,
+        "factor_rows": 39
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 31,
+        "dimension": 116,
+        "factor_rows": 68
+      },
+      {
+        "t": 4,
+        "m": 2,
+        "type": 63,
+        "dimension": 44,
+        "factor_rows": 23
+      }
+    ]
+  }
+}

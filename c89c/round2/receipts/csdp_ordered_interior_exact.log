@@ -1,0 +1,4 @@
+checked 10000
+PASS exhaustive labelled cover 268435456 and random normalization
+PASS exact coefficient inequalities: 12346 classes, 170 PSD square-factor blocks; c6 >= 15552040797/1000000000000000
+MIN_SLACK 40357802294115600000000000000000 / 40320000000000000000000000000000000000000000 at 12170

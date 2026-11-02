@@ -1,0 +1,29 @@
+{
+  "c6_9.cert": {
+    "minimum_slack": "7564739462625047/7560000000000000000000000000",
+    "graph_index": 30156,
+    "agree": true,
+    "logs": [
+      "csdp_lift9_exact.log",
+      "csdp_lift9_independent.log"
+    ]
+  },
+  "c6_8.cert.gz": {
+    "minimum_slack": "420281426482829/420000000000000000000000000",
+    "graph_index": 11661,
+    "agree": true,
+    "logs": [
+      "csdp_exact.log",
+      "csdp_legacy.log"
+    ]
+  },
+  "c5_8.cert.gz": {
+    "minimum_slack": "560022510134247/560000000000000000000000000",
+    "graph_index": 9736,
+    "agree": true,
+    "logs": [
+      "k5_column_exact.log",
+      "k5_column_legacy.log"
+    ]
+  }
+}

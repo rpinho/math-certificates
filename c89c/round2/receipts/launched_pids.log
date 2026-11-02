@@ -1,0 +1,133 @@
+15895 sh -c g++ -O3 -std=c++17 scripts/verify_exact.cpp -o verify_baseline && ./verify_baseline artifacts/baseline.cert sources/graph8.g6
+15985 sh -c gzip -dc /root/os/math_sweep3_1101/flags8.coo.gz > artifacts/base8.coo; /root/os/math_sweep3_1101/.venv/bin/python scripts/reweight_rows.py artifacts/base8 artifacts/baseline.cert artifacts/rows8.cert
+16000 curl -LfsS https://zenodo.org/api/records/6602512/files/certificates.zip/content -o sources/published_certificates.zip
+16176 sh -c g++ -O3 -std=c++17 scripts/generate.cpp -o generate; ./generate 8 sources/graph8.g6 artifacts/full8 0 4 2 3 4 2 6 1
+16195 curl -LfsS https://users.cecs.anu.edu.au/~bdm/data/graph9.g6 -o sources/graph9.g6
+16303 sh -c g++ -O3 -std=c++17 scripts/verify_frozen.cpp -o verify_frozen && ./verify_frozen artifacts/baseline.cert sources/graph8.g6
+16318 sh -c unzip -p sources/published_certificates.zip certificates/c_5.json > sources/published_c5.json; head -c 1800 sources/published_c5.json
+16333 ./generate 9 sources/graph9.g6 artifacts/odd9 1 4 3 3
+16367 ./verify_baseline artifacts/frozen_rows8.cert sources/graph8.g6
+16422 sh -c cd sources; apt-get download libgmp-dev; dpkg-deb -x libgmp-dev*.deb gmpdev; cd ..; g++ -O3 -std=c++17 -Isources/gmpdev/usr/include -Isources/gmpdev/usr/include/x86_64-linux-gnu scripts/verify_frozen.cpp -Wl,-l:libgmp.so.10 -o verify_frozen; ./verify_frozen artifacts/frozen_rows8.cert sources/graph8.g6
+16501 /root/os/math_sweep3_1101/.venv/bin/python scripts/solve_sdp.py artifacts/full8 4 SCS 1200
+16503 /root/os/math_sweep3_1101/.venv/bin/python scripts/solve_sdp.py artifacts/full8 6 SCS 1200
+16502 /root/os/math_sweep3_1101/.venv/bin/python scripts/solve_sdp.py artifacts/full8 5 SCS 1200
+16545 sh -c set -e; curl -LfsS https://archive.ubuntu.com/ubuntu/pool/main/g/gmp/libgmp-dev_6.3.0+dfsg-2ubuntu6_amd64.deb -o sources/gmpdev.deb; dpkg-deb -x sources/gmpdev.deb sources/gmpdev; g++ -O3 -std=c++17 -Isources/gmpdev/usr/include -Isources/gmpdev/usr/include/x86_64-linux-gnu scripts/verify_frozen.cpp -Wl,-l:libgmp.so.10 -o verify_frozen; ./verify_frozen artifacts/frozen_rows8.cert sources/graph8.g6
+16581 /root/os/math_sweep3_1101/.venv/bin/python scripts/inspect_published.py
+16631 sh -c set -e; g++ -O3 -std=c++17 -Isources/gmpdev/usr/include -Isources/gmpdev/usr/include/x86_64-linux-gnu scripts/verify_frozen.cpp -Wl,-l:libgmpxx.so.4 -Wl,-l:libgmp.so.10 -o verify_frozen; ./verify_frozen artifacts/frozen_rows8.cert sources/graph8.g6
+16661 sh -c set -e; g++ -O3 -std=c++17 -Isources/gmpdev/usr/include -Isources/gmpdev/usr/include/x86_64-linux-gnu scripts/verify_frozen.cpp -Wl,-l:libgmp.so.10 -o verify_frozen; ./verify_frozen artifacts/frozen_rows8.cert sources/graph8.g6
+16741 /root/os/math_sweep3_1101/.venv/bin/python scripts/lift_baseline.py artifacts/base8 artifacts/frozen_rows8.cert
+16936 ./generate 8 sources/graph8.g6 artifacts/ordered8 0 4 2 3 4 2 6 1
+16980 /root/os/math_sweep3_1101/.venv/bin/python scripts/search9.py 1
+17032 sh -c set -e; /root/os/math_sweep3_1101/.venv/bin/python scripts/import_ppss.py; ./verify_frozen artifacts/ppss_baseline.cert sources/graph8.g6
+17125 /root/os/math_sweep3_1101/.venv/bin/python scripts/reweight_ppss.py blocks
+17227 /root/os/math_sweep3_1101/.venv/bin/python scripts/search9.py 2
+17228 /root/os/math_sweep3_1101/.venv/bin/python scripts/reweight_ppss.py blocks
+17256 /root/os/math_sweep3_1101/.venv/bin/python scripts/check_controls.py
+17337 /root/os/math_sweep3_1101/.venv/bin/python scripts/reweight_ppss.py blocks
+17336 /root/os/math_sweep3_1101/.venv/bin/python scripts/reweight_ppss.py rows
+17362 /root/os/math_sweep3_1101/.venv/bin/python scripts/monitor.py
+17581 /root/os/math_sweep3_1101/.venv/bin/python scripts/reweight_ppss.py blocks
+17668 /root/os/math_sweep3_1101/.venv/bin/python scripts/column_search.py 5 12
+17669 /root/os/math_sweep3_1101/.venv/bin/python scripts/column_search.py 6 12
+17685 ./verify_frozen artifacts/frozen_ppss_blocks.cert sources/graph8.g6
+17730 /root/os/math_sweep3_1101/.venv/bin/python scripts/check_graph9.py
+17836 /root/os/math_sweep3_1101/.venv/bin/python scripts/column_search.py 6 20 columnv2
+17877 /root/os/math_sweep3_1101/.venv/bin/python scripts/search9full.py
+17930 sh -c set -e; g++ -O3 -std=c++17 -Isources/gmpdev/usr/include -Isources/gmpdev/usr/include/x86_64-linux-gnu scripts/verify_legacy_gmp.cpp -Wl,-l:libgmp.so.10 -o verify_legacy_gmp; ./verify_legacy_gmp artifacts/frozen_ppss_blocks.cert sources/graph8.g6
+17977 /root/os/math_sweep3_1101/.venv/bin/python scripts/lift_squares9.py blocks
+18004 /root/os/math_sweep3_1101/.venv/bin/python scripts/published_summary.py
+18089 g++ -O3 -std=c++17 -Isources/gmpdev/usr/include -Isources/gmpdev/usr/include/x86_64-linux-gnu scripts/verify_frozen.cpp -Wl,-l:libgmp.so.10 -o verify_frozen_fast
+18113 ./verify_frozen_fast artifacts/frozen_lift9_blocks.cert sources/graph9.g6
+18114 ./verify_frozen_fast artifacts/frozen_rows8.cert sources/graph8.g6
+18206 /root/os/math_sweep3_1101/.venv/bin/python scripts/solve9_raw.py
+18273 /root/os/math_sweep3_1101/.venv/bin/python scripts/polish_nine.py artifacts/nine_round0_Q.npz
+18315 /root/os/math_sweep3_1101/.venv/bin/python scripts/solve9_raw.py
+18364 ./verify_frozen_fast artifacts/frozen_k5_column.cert sources/graph8.g6
+18365 ./verify_legacy_gmp artifacts/frozen_k5_column.cert sources/graph8.g6
+18381 /root/os/math_sweep3_1101/.venv/bin/python scripts/solve_sdp.py artifacts/original8 6 CLARABEL 900
+18455 sh -c gzip -c artifacts/frozen_k5_column.cert > artifacts/frozen_k5_column.cert.gz; gzip -c artifacts/frozen_ppss_blocks.cert > artifacts/frozen_ppss_blocks.cert.gz
+18522 /root/os/math_sweep3_1101/.venv/bin/python scripts/lift_rows9_cut.py
+18563 sh -c gzip -c sources/openai_math_tree.json > sources/openai_math_tree.json.gz; gzip -c sources/plasma-ai_erdos_tree.json > sources/plasma-ai_erdos_tree.json.gz
+18731 /root/os/math_sweep3_1101/.venv/bin/python scripts/summarize_certificates.py
+18796 /root/os/math_sweep3_1101/.venv/bin/python scripts/solve_color.py artifacts/original8 CLARABEL
+18885 sh -c head -n -1 sources/graph9.g6 > artifacts/controls/incomplete9.g6; /root/os/math_sweep3_1101/.venv/bin/python scripts/check_graph9.py sources/graph8.g6 artifacts/controls/incomplete9.g6; code=$?; test "$code" -ne 0 && printf "PASS missing order-nine graph rejected\n"
+18916 ./verify_frozen_fast artifacts/frozen_k6_column.cert sources/graph8.g6
+18917 ./verify_legacy_gmp artifacts/frozen_k6_column.cert sources/graph8.g6
+18959 /root/os/math_sweep3_1101/.venv/bin/python scripts/environment.py
+19023 /root/os/math_sweep3_1101/.venv/bin/python scripts/solve_color.py artifacts/original8 CLARABEL
+19125 sh -c set -e; curl -LfsS https://archive.ubuntu.com/ubuntu/pool/universe/c/coinor-csdp/coinor-csdp_6.2.0-5build1_amd64.deb -o sources/csdp.deb; curl -LfsS https://archive.ubuntu.com/ubuntu/pool/universe/c/coinor-csdp/libsdp0_6.2.0-5build1_amd64.deb -o sources/libsdp.deb; dpkg-deb -x sources/csdp.deb sources/csdp; dpkg-deb -x sources/libsdp.deb sources/csdp; ldd sources/csdp/usr/bin/csdp
+19198 /root/os/math_sweep3_1101/.venv/bin/python scripts/export_csdp.py artifacts/original8 CLARABEL
+19236 env LD_LIBRARY_PATH=/root/os/math_c89cr2_1101/sources/csdp/usr/lib/x86_64-linux-gnu ./sources/csdp/usr/bin/csdp scripts/goodman_csdp.dat-s artifacts/goodman_csdp.sol
+19289 env LD_LIBRARY_PATH=/root/os/math_c89cr2_1101/sources/csdp/usr/lib/x86_64-linux-gnu ./sources/csdp/usr/bin/csdp artifacts/original8_color.dat-s artifacts/original8_color.sol
+19351 ./verify_frozen_fast artifacts/frozen_lift9_rows.cert sources/graph9.g6
+19425 /root/os/math_sweep3_1101/.venv/bin/python scripts/warm_csdp.py
+19494 env LD_LIBRARY_PATH=/root/os/math_c89cr2_1101/sources/csdp/usr/lib/x86_64-linux-gnu ./sources/csdp/usr/bin/csdp artifacts/original8_color.dat-s artifacts/original8_color.sol artifacts/original8_color.warm
+19570 sh -c set -e; g++ -O3 -std=c++17 -Isources/gmpdev/usr/include -Isources/gmpdev/usr/include/x86_64-linux-gnu scripts/verify_lift9.cpp -Wl,-l:libgmp.so.10 -o verify_lift9; ./verify_lift9 artifacts/frozen_lift9_rows.cert sources/graph8.g6 sources/graph9.g6
+19656 /root/os/math_sweep3_1101/.venv/bin/python scripts/finish_csdp.py 19494
+19729 sh -c gzip -c artifacts/frozen_k6_column.cert > artifacts/frozen_k6_column.cert.gz; chmod a-w artifacts/frozen*.cert sources/graph8.g6 sources/graph9.g6
+19829 /root/os/math_sweep3_1101/.venv/bin/python scripts/summarize_certificates.py
+19964 sh -c set -e; /root/os/math_sweep3_1101/.venv/bin/python scripts/export_ordered_csdp.py; /root/os/math_sweep3_1101/.venv/bin/python scripts/warm_csdp_full.py artifacts/ordered8
+20021 sh -c set -e; /root/os/math_sweep3_1101/.venv/bin/python scripts/warm_csdp_full.py artifacts/ordered8; exec env LD_LIBRARY_PATH=/root/os/math_c89cr2_1101/sources/csdp/usr/lib/x86_64-linux-gnu ./sources/csdp/usr/bin/csdp artifacts/ordered8_color.dat-s artifacts/ordered8_color.sol artifacts/ordered8_color.warm
+20035 /root/os/math_sweep3_1101/.venv/bin/python scripts/finish_csdp.py 20021 artifacts/ordered8 csdp_ordered
+20140 /root/os/math_sweep3_1101/.venv/bin/python scripts/lift_after_csdp.py
+20235 sh -c set -e; curl -LfsS https://codeload.github.com/coin-or/Csdp/tar.gz/refs/heads/master -o sources/Csdp-source.tar.gz; tar -xzf sources/Csdp-source.tar.gz -C sources; grep -R -n "SETNUMTHREADS\\|omp_set_num_threads\\|USESIGTERM" sources/Csdp-master/solver sources/Csdp-master/lib | head -25; sha256sum sources/Csdp-source.tar.gz
+20290 sh -c set -e; make -C sources/Csdp-master/lib -j2 CFLAGS="-m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include"; make -C sources/Csdp-master/solver CFLAGS="-m64 -march=native -mtune=native -O3 -fopenmp -ansi -DBIT64 -DUSEOPENMP -DUSESIGTERM -DUSEGETTIME -I../include" LIBS="-L../lib -lsdp -Wl,-l:liblapack.so.3 -Wl,-l:libblas.so.3 -lm -fopenmp"; nm -D sources/csdp/usr/lib/x86_64-linux-gnu/libsdp.so.0 | grep catch_sigterm || true
+20444 env OMP_NUM_THREADS=6 OMP_DYNAMIC=FALSE ./sources/Csdp-master/solver/csdp scripts/goodman_csdp.dat-s artifacts/goodman_parallel.sol
+20463 env OMP_NUM_THREADS=6 OMP_DYNAMIC=FALSE ./sources/Csdp-master/solver/csdp artifacts/ordered8_color.dat-s artifacts/ordered8_color.sol artifacts/ordered8_color.warm
+20481 /root/os/math_sweep3_1101/.venv/bin/python scripts/finish_csdp.py 20463 artifacts/ordered8 csdp_ordered
+20509 /root/os/math_sweep3_1101/.venv/bin/python scripts/read_csdp.py artifacts/original8
+20510 /root/os/math_sweep3_1101/.venv/bin/python scripts/export_squares_high.py artifacts/original8 artifacts/original8_CSDP_Q.npz artifacts/csdp_provisional.cert 1000000000000 6
+20511 /root/os/math_sweep3_1101/.venv/bin/python scripts/polish_weights_high.py artifacts/original8 artifacts/csdp_provisional.cert artifacts/csdp_polished.cert
+20512 ./verify_frozen_fast artifacts/frozen_csdp8.cert sources/graph8.g6
+20513 ./verify_legacy_gmp artifacts/frozen_csdp8.cert sources/graph8.g6
+20546 /root/os/math_sweep3_1101/.venv/bin/python scripts/lift_rows9_cut.py artifacts/frozen_csdp8.cert csdp_lift9
+20547 /root/os/math_sweep3_1101/.venv/bin/python scripts/read_csdp.py artifacts/ordered8
+20548 /root/os/math_sweep3_1101/.venv/bin/python scripts/export_squares_high.py artifacts/ordered8 artifacts/ordered8_CSDP_Q.npz artifacts/csdp_ordered_provisional.cert 1000000000000 6
+20549 /root/os/math_sweep3_1101/.venv/bin/python scripts/polish_weights_high.py artifacts/ordered8 artifacts/csdp_ordered_provisional.cert artifacts/csdp_ordered_polished.cert
+20564 ./verify_frozen_fast artifacts/frozen_csdp_ordered8.cert sources/graph8.g6
+20575 /root/os/math_sweep3_1101/.venv/bin/python scripts/finish_csdp.py 20463 artifacts/ordered8 csdp_ordered
+20578 /root/os/math_sweep3_1101/.venv/bin/python scripts/read_csdp.py artifacts/ordered8
+20579 /root/os/math_sweep3_1101/.venv/bin/python scripts/export_squares_high.py artifacts/ordered8 artifacts/ordered8_CSDP_Q.npz artifacts/csdp_ordered_provisional.cert 1000000000000 6
+20580 /root/os/math_sweep3_1101/.venv/bin/python scripts/polish_weights_high.py artifacts/ordered8 artifacts/csdp_ordered_provisional.cert artifacts/csdp_ordered_polished.cert
+20581 ./verify_frozen_fast artifacts/frozen_csdp_ordered8.cert sources/graph8.g6
+20692 ./verify_legacy_gmp artifacts/frozen_csdp_ordered8.cert sources/graph8.g6
+20766 sh -c set -e; /root/os/math_sweep3_1101/.venv/bin/python scripts/warm_csdp_interior.py artifacts/ordered8; exec env OMP_NUM_THREADS=6 OMP_DYNAMIC=FALSE ./sources/Csdp-master/solver/csdp artifacts/ordered8_color.dat-s artifacts/ordered8_color.sol artifacts/ordered8_color.warm
+20780 /root/os/math_sweep3_1101/.venv/bin/python scripts/finish_csdp.py 20766 artifacts/ordered8 csdp_ordered_interior
+20950 sh -c set -e; /root/os/math_sweep3_1101/.venv/bin/python scripts/export_ordered_csdp.py artifacts/ordered8balanced; /root/os/math_sweep3_1101/.venv/bin/python scripts/warm_csdp_balanced.py artifacts/ordered8balanced
+21093 /root/os/math_sweep3_1101/.venv/bin/python scripts/read_csdp.py artifacts/ordered8
+21094 /root/os/math_sweep3_1101/.venv/bin/python scripts/export_squares_high.py artifacts/ordered8 artifacts/ordered8_CSDP_Q.npz artifacts/csdp_ordered_interior_provisional.cert 1000000000000 6
+21096 /root/os/math_sweep3_1101/.venv/bin/python scripts/polish_weights_high.py artifacts/ordered8 artifacts/csdp_ordered_interior_provisional.cert artifacts/csdp_ordered_interior_polished.cert
+21109 sh -c while kill -0 20950 2>/dev/null; do sleep 10; done; test -s artifacts/ordered8balanced_color.warm || exit 3; while kill -0 20766 2>/dev/null; do sleep 10; done; exec env OMP_NUM_THREADS=6 OMP_DYNAMIC=FALSE ./sources/Csdp-master/solver/csdp artifacts/ordered8balanced_color.dat-s artifacts/ordered8balanced_color.sol artifacts/ordered8balanced_color.warm
+21134 ./verify_frozen_fast artifacts/frozen_csdp_ordered_interior8.cert sources/graph8.g6
+21145 /root/os/math_sweep3_1101/.venv/bin/python scripts/finish_csdp.py 21109 artifacts/ordered8balanced csdp_balanced
+21229 ./verify_legacy_gmp artifacts/frozen_csdp_ordered_interior8.cert sources/graph8.g6
+21311 ./verify_frozen_fast artifacts/frozen_csdp_lift9.cert sources/graph9.g6
+21357 ./verify_lift9 artifacts/frozen_csdp_lift9.cert sources/graph8.g6 sources/graph9.g6
+21452 /root/os/math_sweep3_1101/.venv/bin/python scripts/diagonal_start.py
+21459 sh -c while kill -0 21109 2>/dev/null; do sleep 10; done; exec env OMP_NUM_THREADS=6 OMP_DYNAMIC=FALSE ./sources/Csdp-master/solver/csdp artifacts/ordered8diag_color.dat-s artifacts/ordered8diag_color.sol artifacts/ordered8diag_color.warm
+21473 /root/os/math_sweep3_1101/.venv/bin/python scripts/finish_csdp.py 21459 artifacts/ordered8diag csdp_diag
+21481 /root/os/math_sweep3_1101/.venv/bin/python scripts/read_csdp.py artifacts/ordered8balanced
+21495 /root/os/math_sweep3_1101/.venv/bin/python scripts/export_squares_high.py artifacts/ordered8balanced artifacts/ordered8balanced_CSDP_Q.npz artifacts/csdp_balanced_provisional.cert 1000000000000 6
+21509 /root/os/math_sweep3_1101/.venv/bin/python scripts/polish_weights_high.py artifacts/ordered8balanced artifacts/csdp_balanced_provisional.cert artifacts/csdp_balanced_polished.cert
+21510 ./verify_frozen_fast artifacts/frozen_csdp_balanced8.cert sources/graph8.g6
+21565 /root/os/math_sweep3_1101/.venv/bin/python scripts/refresh_sources.py
+21592 ./verify_legacy_gmp artifacts/frozen_csdp_balanced8.cert sources/graph8.g6
+21973 /root/os/math_sweep3_1101/.venv/bin/python scripts/materialize_final.py
+22108 /root/os/math_sweep3_1101/.venv/bin/python scripts/compare_slacks.py
+22300 /root/os/math_sweep3_1101/.venv/bin/python scripts/refresh_sources.py
+22579 /root/os/math_sweep3_1101/.venv/bin/python scripts/stop_workers.py
+22716 /root/os/math_sweep3_1101/.venv/bin/python -c import json;from pathlib import Path;print([(p.name,(x:=json.loads(p.read_text())).get("verified"),x.get("value"),x.get("error")) for p in sorted(Path("receipts").glob("*pipeline.json"))])
+22831 /root/os/math_sweep3_1101/.venv/bin/python scripts/materialize_final.py
+22832 /root/os/math_sweep3_1101/.venv/bin/python scripts/build_bundle.py
+22833 /root/os/math_sweep3_1101/.venv/bin/python scripts/check_manifest.py proof_bundle
+22858 /root/os/math_sweep3_1101/.venv/bin/python scripts/cleanup_temporaries.py
+22860 /root/os/math_sweep3_1101/.venv/bin/python scripts/check_manifest.py proof_bundle
+22861 /root/os/math_sweep3_1101/.venv/bin/python scripts/stop_workers.py worker_cleanup_final.json
+23056 /root/os/math_sweep3_1101/.venv/bin/python scripts/closeout_sources.py
+23058 /root/os/math_sweep3_1101/.venv/bin/python -c import json,hashlib;from pathlib import Path;a=Path("sources/final");b=Path("receipts/closeout_sources");names=["README.md","pr277.diff","pr279.diff","pr308.diff","root_hashes.json"];r={p:(a/p).read_bytes()==(b/p).read_bytes() for p in names};assert all(r.values()),r;Path("receipts/closeout_source_comparison.json").write_text(json.dumps({"PASS":True,"identical":r},indent=2));print("PASS final source comparison",r)
+23164 /root/os/math_sweep3_1101/.venv/bin/python -c import json;from pathlib import Path;a=Path("sources/final");b=Path("receipts/closeout_sources");f=lambda p:{x["number"]:(x["title"],x["head"]["sha"]) for x in json.loads(p.read_text())};left=f(a/"open_prs.json");right=f(b/"open_prs.json");assert left==right,(left.keys()^right.keys());g=lambda p:[(x["full_name"],x["updated_at"]) for x in json.loads(p.read_text())["items"]];assert g(a/"code_search.json")==g(b/"code_search.json");p=Path("receipts/closeout_source_comparison.json");r=json.loads(p.read_text());r.update({"open_pr_ids_titles_heads_unchanged":True,"open_pr_count":len(right),"updated_code_search_unchanged":True});p.write_text(json.dumps(r,indent=2));print("PASS",len(right),"open PR IDs/titles/heads and public code searches unchanged")
+23237 /root/os/math_sweep3_1101/.venv/bin/python scripts/build_bundle.py
+23238 /root/os/math_sweep3_1101/.venv/bin/python scripts/check_manifest.py proof_bundle
+23276 /root/os/math_sweep3_1101/.venv/bin/python -
+23290 /root/os/math_sweep3_1101/.venv/bin/python scripts/stop_workers.py worker_cleanup_final.json
+23292 /root/os/math_sweep3_1101/.venv/bin/python scripts/check_manifest.py proof_bundle

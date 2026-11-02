@@ -1,0 +1,8 @@
+sources/Csdp-master/lib/op_o.c:133:#ifdef SETNUMTHREADS
+sources/Csdp-master/lib/op_o.c:134:  omp_set_num_threads(omp_get_max_threads());
+sources/Csdp-master/lib/op_o.c:143:#ifdef SETNUMTHREADS
+sources/Csdp-master/lib/op_o.c:145:      omp_set_num_threads(1);
+sources/Csdp-master/lib/op_o.c:425:#ifdef SETNUMTHREADS
+sources/Csdp-master/lib/op_o.c:426:  omp_set_num_threads(omp_get_max_threads());
+sources/Csdp-master/lib/user_exit.c:9:#ifdef USESIGTERM
+fcd2530520aaa7dcf583b2f64a3518e7c875befa271fd1077ff0952d50028af5  sources/Csdp-source.tar.gz

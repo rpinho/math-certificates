@@ -1,0 +1,8 @@
+{
+  "recorded_peak_rss_kb": 24520788,
+  "peak_utc": "2026-11-02 00:36:32",
+  "samples": 213,
+  "sample_interval_seconds": 30,
+  "compute_rule": "nice 10; BLAS one thread; dedicated CSDP OpenMP at most six workers; at most ten active compute workers including concurrent checks",
+  "deadline_utc": "2026-11-02 03:50:00"
+}

@@ -1,0 +1,27 @@
+{
+  "doubled_bound": {
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "FAIL negative exact slack at graph 5\n"
+  },
+  "wrong_factor_denominator": {
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "FAIL negative exact slack at graph 87\n"
+  },
+  "duplicate_flag": {
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "FAIL duplicate flag orbit\n"
+  },
+  "duplicate_graph": {
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "FAIL duplicate graph class\n"
+  },
+  "missing_graph": {
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "checked 10000\nFAIL incomplete graph list\n"
+  }
+}

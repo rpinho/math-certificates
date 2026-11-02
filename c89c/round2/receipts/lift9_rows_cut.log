@@ -1,0 +1,14 @@
+LP9 rows (274668, 541) baseline 2.1892488e-05 time 1793579197.357899
+CUT ROUND 0 14865 1793579197.4801168
+/root/os/math_c89cr2_1101/scripts/lift_rows9_cut.py:56: OptimizeWarning: Unrecognized options detected: {'threads': 1, 'small_matrix_value': 1e-12}. These will be passed to HiGHS verbatim.
+  trial=linprog(np.r_[np.zeros(M.shape[1]),-1.],A_ub=np.column_stack((M[use]*scale,np.ones(len(use)))),b_ub=target[use]*scale,bounds=[(0,None)]*M.shape[1]+[(0,10)],method='highs',options={'threads':1,'time_limit':600,'primal_feasibility_tolerance':1e-10,'dual_feasibility_tolerance':1e-10,'small_matrix_value':1e-12})
+CUT RESULT 0 global 2.1500648098882538e-05 subset 2.1936138478973715e-05
+CUT ROUND 1 18863 1793579409.6058404
+CUT RESULT 1 global 2.1901606061919057e-05 subset 2.1932467620641783e-05
+CUT ROUND 2 20383 1793579667.295439
+CUT RESULT 2 global 2.1932415507207318e-05 subset 2.1932415510571245e-05
+CUT ROUND 3 20578 1793579892.4269607
+CUT RESULT 3 global 2.1932415509717832e-05 subset 2.193241551057016e-05
+LP9 RESULT cutting planes; Optimization terminated successfully. (HiGHS Status 7: Optimal) -2.1932415509717833
+ACTUAL 2.1932415509717832e-05
+CANDIDATE9 {'value': 2.1932414437e-05, 'candidate': '21932414437/1000000000000000', 'baseline': 2.1892488e-05, 'LP_status': 'cutting planes; Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'mode': 'rows', 'worst': 2097}

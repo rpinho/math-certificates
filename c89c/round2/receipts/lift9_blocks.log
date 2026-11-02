@@ -1,0 +1,34 @@
+lifting indices 0 1793578506.153436
+lifting indices 10000 1793578507.0191643
+lifting indices 20000 1793578507.9100976
+lifting indices 30000 1793578508.8349411
+lifting indices 40000 1793578509.7345152
+lifting indices 50000 1793578510.6549819
+lifting indices 60000 1793578511.5466661
+lifting indices 70000 1793578512.4858022
+lifting indices 80000 1793578513.4468057
+lifting indices 90000 1793578514.3311417
+lifting indices 100000 1793578515.3287725
+lifting indices 110000 1793578516.243387
+lifting indices 120000 1793578517.1571414
+lifting indices 130000 1793578518.151849
+lifting indices 140000 1793578519.0659122
+lifting indices 150000 1793578519.9908934
+lifting indices 160000 1793578521.0652318
+lifting indices 170000 1793578521.9727266
+lifting indices 180000 1793578522.867225
+lifting indices 190000 1793578523.7823198
+lifting indices 200000 1793578524.8765888
+lifting indices 210000 1793578525.8135998
+lifting indices 220000 1793578526.7651691
+lifting indices 230000 1793578527.7234416
+lifting indices 240000 1793578528.6519608
+lifting indices 250000 1793578529.5877411
+lifting indices 260000 1793578530.7553127
+lifting indices 270000 1793578531.7428503
+LP9 blocks (274668, 13) baseline 2.1892488e-05 time 1793578532.5857117
+/root/os/math_c89cr2_1101/scripts/lift_squares9.py:51: OptimizeWarning: Unrecognized options detected: {'threads': 1, 'small_matrix_value': 1e-12}. These will be passed to HiGHS verbatim.
+  res=linprog(np.r_[np.zeros(M.shape[1]),-1.],A_ub=np.column_stack((M*scale,np.ones(len(target)))),b_ub=target*scale,bounds=[(0,None)]*M.shape[1]+[(0,10)],method='highs',options={'threads':1,'time_limit':1800,'primal_feasibility_tolerance':1e-10,'dual_feasibility_tolerance':1e-10,'small_matrix_value':1e-12})
+LP9 RESULT Optimization terminated successfully. (HiGHS Status 7: Optimal) -2.1892571673793597
+ACTUAL 2.1892571673785485e-05
+CANDIDATE9 {'value': 2.1892570653e-05, 'candidate': '21892570653/1000000000000000', 'baseline': 2.1892488e-05, 'LP_status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'mode': 'blocks', 'worst': 2224}

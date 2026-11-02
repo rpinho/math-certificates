@@ -1,0 +1,32 @@
+{
+  "c6_9.cert": {
+    "bound": "25987181439/1000000000000000",
+    "relative_gain_percent": 23.261307399326473,
+    "factor_rows": 1303,
+    "sha256_certificate": "0137db8ed8648496eddf8f007bcda642ffae9c2e7d93f9b224c4b5c4eec96665"
+  },
+  "c6_8.cert.gz": {
+    "bound": "3248397557/125000000000000",
+    "relative_gain_percent": 23.26130273680216,
+    "factor_rows": 1303,
+    "sha256_certificate": "bbcc572b177c0f1a5bf5a36f3be7056441f0fe160ad8e7f59b840aaf0ff199ad"
+  },
+  "c5_8.cert.gz": {
+    "bound": "762079654433/500000000000000",
+    "relative_gain_percent": 4.224298069545999e-05,
+    "factor_rows": 13227,
+    "sha256_certificate": "cc7fa1eb973d9d350b4a0cc01163eb027578497c0d2f3aa12d7deb8e7ffb385a"
+  },
+  "c6_seed8.cert": {
+    "bound": "2736561/125000000000",
+    "relative_gain_percent": 3.8395294787269365,
+    "factor_rows": 541,
+    "sha256_certificate": "72bfd95b7ae71e9cf4d691a8c137fc923f88b0c55b05ad576fb5af61869f48ab"
+  },
+  "public_c6_8.cert": {
+    "bound": "21083/1000000000",
+    "relative_gain_percent": 0.0,
+    "factor_rows": 793,
+    "sha256_certificate": "39bd22dac99c7cd509ffc6b32762302f79b2775c3e16fed89078080c4f0296f5"
+  }
+}

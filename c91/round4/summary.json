@@ -1,0 +1,58 @@
+{
+  "schema": "c91-factored-band-infinite-v1",
+  "status": "candidate; unrefereed",
+  "L": 12,
+  "W": 3,
+  "B": 1,
+  "K": 4,
+  "original_states": 262713,
+  "base_states": 103267,
+  "tracker_states": 11028253,
+  "tracker_classes": 5372908,
+  "product_states": 65623319,
+  "quotient_states": 9409061,
+  "x": [
+    1145519853,
+    1000000000
+  ],
+  "t": [
+    356670822,
+    1000000000
+  ],
+  "z": [
+    [
+      1041421066,
+      1000000000
+    ],
+    [
+      1016222687,
+      1000000000
+    ],
+    [
+      1004130270,
+      1000000000
+    ],
+    [
+      1002178291,
+      1000000000
+    ]
+  ],
+  "bound": [
+    263561,
+    1000000
+  ],
+  "verification": "independent exact integer rows and 256-bit Arb: PASS",
+  "artifact_sha256": "2b408738acf654f6a0763d56a7a3283259310eff4c5e4f6cc72afc9993432302",
+  "artifact_bytes": 30801887,
+  "forbidden_patterns": 136974,
+  "edges": 268855220,
+  "minimum_integer_slack": "24135458879717399780804710393689786990042686139056836918057292509728270831595925361789733938176299145676213146096264848051500240288000000000000000000000000000000000000000000000000",
+  "gain_over_round3": "2077/500000",
+  "gain_decimal": "0.004154",
+  "goal_gain_strictly_above_0_002": true,
+  "Arb_threshold": "[0.2635619761391951148499363693689657934599294474237544133600074220332740637749 +/- 7.70e-77]",
+  "Arb_exponent": "[1.0063428841284675404621617574378536647840248814473830678245623018354623e-6 +/- 9.10e-77]",
+  "verification_seconds": 1098.5998923778534,
+  "potential_encoding": "ieee754-binary32-le;byteplanes;base64",
+  "completed_utc": "2026-11-02T01:33:48Z"
+}

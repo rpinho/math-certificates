@@ -1,0 +1,5 @@
+LP (12346, 793) baseline 2.1083e-05 start 1793577179.3857474
+/root/os/math_c89cr2_1101/scripts/reweight_rows.py:37: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  result=linprog(np.r_[np.zeros(M.shape[1]),-1.],A_ub=np.column_stack((M*scale,np.ones(nr))),b_ub=target*scale,bounds=[(0,100)]*M.shape[1]+[(0,10)],method='highs',options={'threads':1,'time_limit':900,'primal_feasibility_tolerance':1e-9,'dual_feasibility_tolerance':1e-9})
+LP result Optimization terminated successfully. (HiGHS Status 7: Optimal) objective -2.189259209875051
+CANDIDATE 2736561/125000000000 2.1892488e-05 worst 5632

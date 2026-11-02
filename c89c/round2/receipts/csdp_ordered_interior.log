@@ -1,0 +1,19 @@
+WARM primal 1.1892488e-05 min slack 0.08819198016692581 dual 6.103515625e-05 minZ 9.999999999971197e-06
+SAVED artifacts/ordered8_color.warm
+CSDP 6.2.0
+Iter:  0 Ap: 0.00e+00 Pobj:  1.1892488e-01 Ad: 0.00e+00 Dobj:  6.1035156e-01 
+Iter:  1 Ap: 1.12e-04 Pobj:  1.1776349e-01 Ad: 2.58e-04 Dobj:  6.1258141e-01 
+Process stopped by signal.
+Iter:  2 Ap: 3.73e-04 Pobj:  1.1388304e-01 Ad: 1.82e-03 Dobj:  6.2821368e-01 
+Failure: return code is 10 
+Primal objective value: 1.1388304e-01 
+Dual objective value: 6.2821368e-01 
+Relative primal infeasibility: 1.26e-15 
+Relative dual infeasibility: 5.74e-04 
+Real Relative Gap: 2.95e-01 
+XZ Relative Gap: 1.98e+01 
+DIMACS error measures: 1.70e-15 0.00e+00 7.26e-03 0.00e+00 2.95e-01 1.98e+01
+Elements time: 176.736817 
+Factor time: 8.472779 
+Other time: 20.208903 
+Total time: 205.418499 

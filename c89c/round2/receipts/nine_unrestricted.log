@@ -1,0 +1,84 @@
+ROUND 0 constraints 2502 time 1793577687.5885613
+(CVXPY) Nov 02 12:01:27 AM: Your problem has 573414 variables, 575915 constraints, and 0 parameters.
+(CVXPY) Nov 02 12:01:27 AM: It is compliant with the following grammars: DCP, DQCP
+(CVXPY) Nov 02 12:01:27 AM: DCP verification time: 0.0003 seconds.
+(CVXPY) Nov 02 12:01:27 AM: Expression tree has 8 nodes.
+(CVXPY) Nov 02 12:01:27 AM: (If you need to solve this problem multiple times, but with different data, consider using parameters.)
+(CVXPY) Nov 02 12:01:27 AM: CVXPY will first compile your problem; then, it will invoke a numerical solver to obtain a solution.
+(CVXPY) Nov 02 12:01:27 AM: Your problem is compiled with the CPP canonicalization backend.
+(CVXPY) Nov 02 12:01:27 AM: Compiling problem (target solver=SCS).
+(CVXPY) Nov 02 12:01:27 AM: Reduction chain: FlipObjective -> Dcp2Cone -> CvxAttr2Constr -> ExactCone2Cone -> EliminateZeroSized -> ConeMatrixStuffing -> SCS
+(CVXPY) Nov 02 12:01:27 AM: Applying reduction FlipObjective
+(CVXPY) Nov 02 12:01:27 AM: Applying reduction Dcp2Cone
+(CVXPY) Nov 02 12:01:27 AM: Applying reduction CvxAttr2Constr
+(CVXPY) Nov 02 12:01:27 AM: Applying reduction ExactCone2Cone
+(CVXPY) Nov 02 12:01:27 AM: Applying reduction EliminateZeroSized
+(CVXPY) Nov 02 12:01:27 AM: Applying reduction ConeMatrixStuffing
+(CVXPY) Nov 02 12:01:28 AM: Applying reduction SCS
+(CVXPY) Nov 02 12:01:28 AM: Finished problem compilation (took 1.149e+00 seconds).
+(CVXPY) Nov 02 12:01:28 AM: Invoking solver SCS  to obtain a solution.
+(CVXPY) Nov 02 12:02:32 AM: Problem status: optimal
+(CVXPY) Nov 02 12:02:32 AM: Optimal value: 1.000e+00
+(CVXPY) Nov 02 12:02:32 AM: Compilation took 1.149e+00 seconds
+(CVXPY) Nov 02 12:02:32 AM: Solver (including time spent in interface) took 6.424e+01 seconds
+===============================================================================
+                                     CVXPY                                     
+                                     v1.9.3                                    
+===============================================================================
+-------------------------------------------------------------------------------
+                                  Compilation                                  
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+                                Numerical solver                               
+-------------------------------------------------------------------------------
+------------------------------------------------------------------
+	       SCS v3.3.1 - Splitting Conic Solver
+	(c) Brendan O'Donoghue, Stanford University, 2012
+------------------------------------------------------------------
+problem:  variables n: 287457, constraints m: 289959
+cones: 	  l: linear vars: 2504
+	  s: psd vars: 287455, ssize: 5
+settings: eps_abs: 1.0e-08, eps_rel: 1.0e-08, eps_infeas: 1.0e-07
+	  alpha: 1.50, scale: 1.00e-01, adaptive_scale: 1
+	  max_iters: 30000, normalize: 1, rho_x: 1.00e-06
+	  acceleration_lookback: 10, acceleration_interval: 5
+	  time_limit_secs: 6.00e+02
+lin-sys:  sparse-direct-mkl-pardiso
+	  nnz(A): 2281089, nnz(P): 0
+------------------------------------------------------------------
+ iter | pri res | dua res |   gap   |   obj   |  scale  | time (s)
+------------------------------------------------------------------
+     0| 1.00e+01  1.25e+00  4.50e-03 -2.25e-03  1.00e-01  3.10e+00 
+   250| 3.87e+18  1.46e+18  8.41e+16 -5.53e+16  2.66e-02  2.99e+01 
+   500| 1.02e-02  2.29e-03  4.68e-04 -9.97e-01  2.96e-03  5.61e+01 
+   575| 8.08e-10  5.10e-10  5.59e-10 -1.00e+00  3.00e-04  6.42e+01 
+------------------------------------------------------------------
+status:  solved
+timings: total: 6.42e+01s = setup: 2.93e+00s + solve: 6.13e+01s
+	 lin-sys: 1.30e+01s, cones: 4.38e+01s, accel: 1.15e+00s
+------------------------------------------------------------------
+objective = -1.000000
+------------------------------------------------------------------
+-------------------------------------------------------------------------------
+                                    Summary                                    
+-------------------------------------------------------------------------------
+CANDIDATE 0 -92.38732371753514 raw 0.9999999989303825 w 1.0855716590671409e-10
+ROUND 1 constraints 5502 time 1793577753.8832886
+(CVXPY) Nov 02 12:02:33 AM: Your problem has 573414 variables, 578915 constraints, and 0 parameters.
+(CVXPY) Nov 02 12:02:33 AM: It is compliant with the following grammars: DCP, DQCP
+(CVXPY) Nov 02 12:02:33 AM: DCP verification time: 0.0001 seconds.
+(CVXPY) Nov 02 12:02:33 AM: Expression tree has 8 nodes.
+(CVXPY) Nov 02 12:02:33 AM: (If you need to solve this problem multiple times, but with different data, consider using parameters.)
+(CVXPY) Nov 02 12:02:33 AM: CVXPY will first compile your problem; then, it will invoke a numerical solver to obtain a solution.
+(CVXPY) Nov 02 12:02:33 AM: Your problem is compiled with the CPP canonicalization backend.
+(CVXPY) Nov 02 12:02:33 AM: Compiling problem (target solver=SCS).
+(CVXPY) Nov 02 12:02:33 AM: Reduction chain: FlipObjective -> Dcp2Cone -> CvxAttr2Constr -> ExactCone2Cone -> EliminateZeroSized -> ConeMatrixStuffing -> SCS
+(CVXPY) Nov 02 12:02:33 AM: Applying reduction FlipObjective
+(CVXPY) Nov 02 12:02:33 AM: Applying reduction Dcp2Cone
+(CVXPY) Nov 02 12:02:33 AM: Applying reduction CvxAttr2Constr
+(CVXPY) Nov 02 12:02:33 AM: Applying reduction ExactCone2Cone
+(CVXPY) Nov 02 12:02:33 AM: Applying reduction EliminateZeroSized
+(CVXPY) Nov 02 12:02:33 AM: Applying reduction ConeMatrixStuffing
+(CVXPY) Nov 02 12:02:34 AM: Applying reduction SCS
+(CVXPY) Nov 02 12:02:35 AM: Finished problem compilation (took 1.286e+00 seconds).
+(CVXPY) Nov 02 12:02:35 AM: Invoking solver SCS  to obtain a solution.

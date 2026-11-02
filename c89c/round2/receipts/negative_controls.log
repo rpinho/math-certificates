@@ -1,0 +1,7 @@
+doubled_bound 1 FAIL negative exact slack at graph 5
+wrong_factor_denominator 1 FAIL negative exact slack at graph 87
+duplicate_flag 1 FAIL duplicate flag orbit
+duplicate_graph 1 FAIL duplicate graph class
+missing_graph 1 checked 10000
+FAIL incomplete graph list
+PASS all five invalid artifacts rejected

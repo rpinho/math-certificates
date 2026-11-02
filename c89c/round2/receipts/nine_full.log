@@ -1,0 +1,18 @@
+START 1793578347.1623669 (274668, 287455) 217141522
+(CVXPY) Nov 02 12:12:27 AM: Your problem has 573414 variables, 848083 constraints, and 0 parameters.
+(CVXPY) Nov 02 12:12:27 AM: It is compliant with the following grammars: DCP, DQCP
+(CVXPY) Nov 02 12:12:27 AM: DCP verification time: 0.0008 seconds.
+(CVXPY) Nov 02 12:12:27 AM: Expression tree has 11 nodes.
+(CVXPY) Nov 02 12:12:27 AM: (If you need to solve this problem multiple times, but with different data, consider using parameters.)
+(CVXPY) Nov 02 12:12:27 AM: CVXPY will first compile your problem; then, it will invoke a numerical solver to obtain a solution.
+(CVXPY) Nov 02 12:12:27 AM: Your problem is compiled with the CPP canonicalization backend.
+(CVXPY) Nov 02 12:12:27 AM: Compiling problem (target solver=SCS).
+(CVXPY) Nov 02 12:12:27 AM: Reduction chain: FlipObjective -> Dcp2Cone -> CvxAttr2Constr -> ExactCone2Cone -> EliminateZeroSized -> ConeMatrixStuffing -> SCS
+(CVXPY) Nov 02 12:12:27 AM: Applying reduction FlipObjective
+(CVXPY) Nov 02 12:12:27 AM: Applying reduction Dcp2Cone
+(CVXPY) Nov 02 12:12:27 AM: Applying reduction CvxAttr2Constr
+(CVXPY) Nov 02 12:12:27 AM: Applying reduction ExactCone2Cone
+(CVXPY) Nov 02 12:12:27 AM: Applying reduction EliminateZeroSized
+(CVXPY) Nov 02 12:12:27 AM: Applying reduction ConeMatrixStuffing
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc

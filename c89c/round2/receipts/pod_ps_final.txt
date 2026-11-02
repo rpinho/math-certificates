@@ -1,0 +1,16 @@
+    PID    PPID %CPU COMMAND
+      1       0  0.0 /bin/bash /start.sh
+      7       1  0.0 /bin/bash -c (sleep 32400; curl -s -m 30 -H 'Content-Type: application/json' -H "Authorization: Bearer $RUNPOD_API_KEY" -d "{\"query\":\"mutation { podTerminate(input:{podId:\\\"$RUNPOD_POD_ID\\\"}) }\"}" https://api.runpod.io/graphql > /tmp/term.out 2>&1) & exec /start.sh
+      8       7  0.0 sleep 32400
+     21       1  0.0 nginx: master process /usr/sbin/nginx
+     22      21  0.0 nginx: worker process
+     43       1  0.0 sshd: /usr/sbin/sshd [listener] 0 of 10-100 startups
+     53       1  0.0 sleep infinity
+  19937       1  0.2 venv/bin/python -u resource_guard_v2.py
+  22149       1 99.9 venv/bin/python -u search_resume_dense_local.py adaptive_dense --cone adaptive300-cone.json --resume resume-input/adaptive300 --resume-initial 6322 --presolve on --fine 8
+  22919       1 99.9 venv/bin/python -u search_resume_ipm.py adaptive_ipm --cone adaptive300-cone.json --resume resume-input/adaptive300-cut0 --resume-initial 6322 --presolve on --fine 8
+  23004       1 99.9 venv/bin/python -u search_refine_primal.py refine_primal100 --cone refine100-cone.json --resume resume-input/refine100 --resume-initial 3025 --presolve on --fine 8
+  23278      43  0.4 sshd: root@notty
+  23289   23278  0.0 bash -c cd /root/os/math_c89cr2_1101; sh scripts/run_compute.sh /root/os/math_sweep3_1101/.venv/bin/python scripts/stop_workers.py worker_cleanup_final.json; sh scripts/run_compute.sh /root/os/math_sweep3_1101/.venv/bin/python scripts/check_manifest.py proof_bundle; date -u
+  23290   23289  3.7 /root/os/math_sweep3_1101/.venv/bin/python scripts/stop_workers.py worker_cleanup_final.json
+  23291   23290  0.0 ps -axo pid,ppid,pcpu,command

@@ -1,0 +1,202 @@
+exact_dyadic_potential_common_exponent -53
+artifact_sha256 2b408738acf654f6a0763d56a7a3283259310eff4c5e4f6cc72afc9993432302
+Arb_exponent [1.0063428841284675404621617574378536647840248814473830678245623018354623e-6 +/- 9.10e-77] Arb_threshold [0.2635619761391951148499363693689657934599294474237544133600074220332740637749 +/- 7.70e-77]
+checker_cpp_sha256 f0c80b19d614aa9066e055559cfa7f1a1024783c53b35c746ab421ae5b7344a1
+checker_python_sha256 dddeaa36bfe9ec7d348de4147f179d926b70e334c034f069381abcab974786a8
+forbidden_checked 0
+base_full 262713
+base_refine 0 135
+base_refine 1 2017
+base_refine 2 13227
+base_refine 3 38199
+base_refine 4 66507
+base_refine 5 89861
+base_refine 6 99767
+base_refine 7 102449
+base_refine 8 103267
+base_refine 9 103267
+run_memory_states 19
+compact_rows 0 reachable 9
+compact_rows 1000000 reachable 1285580
+compact_rows 2000000 reachable 2421650
+compact_rows 3000000 reachable 3481838
+compact_rows 4000000 reachable 4501092
+compact_rows 5000000 reachable 5508379
+compact_rows 6000000 reachable 6491946
+compact_rows 7000000 reachable 7440864
+compact_rows 8000000 reachable 8365771
+compact_rows 9000000 reachable 9264442
+compact_rows 10000000 reachable 10153887
+compact_rows 11000000 reachable 11006510
+compact_full 11028253
+labeled_refine 0 1113
+labeled_refine 1 7452
+labeled_refine 2 56818
+labeled_refine 3 258125
+labeled_refine 4 826862
+labeled_refine 5 1813370
+labeled_refine 6 2797866
+labeled_refine 7 3572146
+labeled_refine 8 4363220
+labeled_refine 9 5001602
+labeled_refine 10 5286266
+labeled_refine 11 5352006
+labeled_refine 12 5370878
+labeled_refine 13 5372824
+labeled_refine 14 5372908
+labeled_refine 15 5372908
+labeled_minimum 11028253 5372908
+intersection_rows 0 reachable 9
+intersection_rows 1000000 reachable 1618302
+intersection_rows 2000000 reachable 2910719
+intersection_rows 3000000 reachable 4131483
+intersection_rows 4000000 reachable 5383612
+intersection_rows 5000000 reachable 6616483
+intersection_rows 6000000 reachable 7821588
+intersection_rows 7000000 reachable 8978643
+intersection_rows 8000000 reachable 10153281
+intersection_rows 9000000 reachable 11290550
+intersection_rows 10000000 reachable 12463157
+intersection_rows 11000000 reachable 13611230
+intersection_rows 12000000 reachable 14698130
+intersection_rows 13000000 reachable 15858920
+intersection_rows 14000000 reachable 16945052
+intersection_rows 15000000 reachable 18033720
+intersection_rows 16000000 reachable 19106797
+intersection_rows 17000000 reachable 20169194
+intersection_rows 18000000 reachable 21210591
+intersection_rows 19000000 reachable 22240688
+intersection_rows 20000000 reachable 23248521
+intersection_rows 21000000 reachable 24261532
+intersection_rows 22000000 reachable 25265611
+intersection_rows 23000000 reachable 26249089
+intersection_rows 24000000 reachable 27219235
+intersection_rows 25000000 reachable 28212989
+intersection_rows 26000000 reachable 29185094
+intersection_rows 27000000 reachable 30168739
+intersection_rows 28000000 reachable 31156700
+intersection_rows 29000000 reachable 32147213
+intersection_rows 30000000 reachable 33125348
+intersection_rows 31000000 reachable 34104505
+intersection_rows 32000000 reachable 35079536
+intersection_rows 33000000 reachable 36057121
+intersection_rows 34000000 reachable 37009731
+intersection_rows 35000000 reachable 37979108
+intersection_rows 36000000 reachable 38952311
+intersection_rows 37000000 reachable 39892358
+intersection_rows 38000000 reachable 40859683
+intersection_rows 39000000 reachable 41827204
+intersection_rows 40000000 reachable 42755629
+intersection_rows 41000000 reachable 43726924
+intersection_rows 42000000 reachable 44661572
+intersection_rows 43000000 reachable 45567764
+intersection_rows 44000000 reachable 46529211
+intersection_rows 45000000 reachable 47438301
+intersection_rows 46000000 reachable 48348804
+intersection_rows 47000000 reachable 49287128
+intersection_rows 48000000 reachable 50177176
+intersection_rows 49000000 reachable 51111338
+intersection_rows 50000000 reachable 51998426
+intersection_rows 51000000 reachable 52909894
+intersection_rows 52000000 reachable 53796040
+intersection_rows 53000000 reachable 54694706
+intersection_rows 54000000 reachable 55565746
+intersection_rows 55000000 reachable 56446066
+intersection_rows 56000000 reachable 57317854
+intersection_rows 57000000 reachable 58192518
+intersection_rows 58000000 reachable 59069876
+intersection_rows 59000000 reachable 59938760
+intersection_rows 60000000 reachable 60822787
+intersection_rows 61000000 reachable 61703786
+intersection_rows 62000000 reachable 62584763
+intersection_rows 63000000 reachable 63458429
+intersection_rows 64000000 reachable 64303401
+intersection_rows 65000000 reachable 65125720
+intersection_full 65623319
+weighted_refine 0 323
+weighted_refine 1 3712
+weighted_refine 2 37392
+weighted_refine 3 220436
+weighted_refine 4 882719
+weighted_refine 5 2592600
+weighted_refine 6 4919636
+weighted_refine 7 6806314
+weighted_refine 8 7982734
+weighted_refine 9 8835067
+weighted_refine 10 9247026
+weighted_refine 11 9362179
+weighted_refine 12 9404551
+weighted_refine 13 9408967
+weighted_refine 14 9409053
+weighted_refine 15 9409061
+weighted_refine 16 9409061
+exact_rows 0
+exact_rows 1000000
+exact_rows 2000000
+exact_rows 3000000
+exact_rows 4000000
+exact_rows 5000000
+exact_rows 6000000
+exact_rows 7000000
+exact_rows 8000000
+exact_rows 9000000
+exact_rows 10000000
+exact_rows 11000000
+exact_rows 12000000
+exact_rows 13000000
+exact_rows 14000000
+exact_rows 15000000
+exact_rows 16000000
+exact_rows 17000000
+exact_rows 18000000
+exact_rows 19000000
+exact_rows 20000000
+exact_rows 21000000
+exact_rows 22000000
+exact_rows 23000000
+exact_rows 24000000
+exact_rows 25000000
+exact_rows 26000000
+exact_rows 27000000
+exact_rows 28000000
+exact_rows 29000000
+exact_rows 30000000
+exact_rows 31000000
+exact_rows 32000000
+exact_rows 33000000
+exact_rows 34000000
+exact_rows 35000000
+exact_rows 36000000
+exact_rows 37000000
+exact_rows 38000000
+exact_rows 39000000
+exact_rows 40000000
+exact_rows 41000000
+exact_rows 42000000
+exact_rows 43000000
+exact_rows 44000000
+exact_rows 45000000
+exact_rows 46000000
+exact_rows 47000000
+exact_rows 48000000
+exact_rows 49000000
+exact_rows 50000000
+exact_rows 51000000
+exact_rows 52000000
+exact_rows 53000000
+exact_rows 54000000
+exact_rows 55000000
+exact_rows 56000000
+exact_rows 57000000
+exact_rows 58000000
+exact_rows 59000000
+exact_rows 60000000
+exact_rows 61000000
+exact_rows 62000000
+exact_rows 63000000
+exact_rows 64000000
+exact_rows 65000000
+EXACT_PASS states=65623319 edges=268855220 classes=9409061 min_slack=24135458879717399780804710393689786990042686139056836918057292509728270831595925361789733938176299145676213146096264848051500240288000000000000000000000000000000000000000000000000
+denominator=4536914354679845455830123097866493444371379959175192823267782402437134400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+seconds=1086.74
+INDEPENDENT_EXACT_ARB_PASS bound 263561/1000000 seconds 1098.5998923778534

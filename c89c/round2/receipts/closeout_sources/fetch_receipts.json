@@ -1,0 +1,155 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/teorth/optimizationproblems/main/README.md",
+    "file": "receipts/closeout_sources/README.md",
+    "status": 200,
+    "sha256": "6f6c505c5715a8320a7c2edbf6f7f4cba40c8bd6f6cccd6ed3c1c9eeaf769ac0",
+    "bytes": 57772,
+    "utc": "2026-11-02 02:07:46",
+    "etag": "\"201e5aede8b9b1af0e8b88c6410ae804185fc810fd1eebff436b4517e926c001\""
+  },
+  {
+    "url": "https://raw.githubusercontent.com/teorth/optimizationproblems/main/constants/89a.md",
+    "file": "receipts/closeout_sources/89a.md",
+    "status": 200,
+    "sha256": "bee4f58a0cc04459f4aa60106f7f68536bad5ed23669d2362d6635d423b970b8",
+    "bytes": 8985,
+    "utc": "2026-11-02 02:07:46",
+    "etag": "\"e4e1a56fd263d34522a177138922e4edbe1dea562fadeeb282509c5ed6075b57\""
+  },
+  {
+    "url": "https://github.com/teorth/optimizationproblems/pull/277.diff",
+    "file": "receipts/closeout_sources/pr277.diff",
+    "status": 200,
+    "sha256": "5ef315be1dcf21b827b964fd7151093211dab6c342e26a5b3ddf02693fc0af4f",
+    "bytes": 7161,
+    "utc": "2026-11-02 02:07:46",
+    "etag": "W/\"5ef315be1dcf21b827b964fd71510932\""
+  },
+  {
+    "url": "https://github.com/teorth/optimizationproblems/pull/279.diff",
+    "file": "receipts/closeout_sources/pr279.diff",
+    "status": 200,
+    "sha256": "2ac87b6daff4739058b99d6b168e967faf894f0efd619a5fd656588313dd11e2",
+    "bytes": 12857,
+    "utc": "2026-11-02 02:07:47",
+    "etag": "W/\"2ac87b6daff4739058b99d6b168e967f\""
+  },
+  {
+    "url": "https://github.com/teorth/optimizationproblems/pull/308.diff",
+    "file": "receipts/closeout_sources/pr308.diff",
+    "status": 200,
+    "sha256": "93a985885ec515093294fde36abe5d44bd658ad1d93a2bae18056de7bc2394e7",
+    "bytes": 15236,
+    "utc": "2026-11-02 02:07:47",
+    "etag": "W/\"93a985885ec515093294fde36abe5d44\""
+  },
+  {
+    "url": "https://api.github.com/repos/teorth/optimizationproblems/pulls?state=open&per_page=100",
+    "file": "receipts/closeout_sources/open_prs.json",
+    "status": 200,
+    "sha256": "35fe6586c61858acbca00ca11293050b26c167a714c52afb5219f77d708b6007",
+    "bytes": 879528,
+    "utc": "2026-11-02 02:07:48",
+    "etag": "W/\"35fe6586c61858acbca00ca11293050b26c167a714c52afb5219f77d708b6007\""
+  },
+  {
+    "url": "https://api.github.com/search/repositories?q=ramsey+multiplicity&sort=updated&per_page=30",
+    "file": "receipts/closeout_sources/code_search.json",
+    "status": 200,
+    "sha256": "01f093f21732aa8f127d650467622ae2e589151b211b40b1981f0ccfd17e0d4a",
+    "bytes": 17135,
+    "utc": "2026-11-02 02:07:49",
+    "etag": null
+  },
+  {
+    "url": "https://api.github.com/search/repositories?q=ramsey+multiplicity+2026&sort=updated&per_page=30",
+    "file": "receipts/closeout_sources/code_search2026.json",
+    "status": 200,
+    "sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f",
+    "bytes": 55,
+    "utc": "2026-11-02 02:07:49",
+    "etag": null
+  },
+  {
+    "url": "https://api.github.com/repos/BakeLab/Epi-results/git/trees/HEAD",
+    "file": "receipts/closeout_sources/BakeLab_Epi-results_root.json",
+    "status": 200,
+    "sha256": "e08304d77bc92ed7accf147b25cd587cc619dc1d7a033194ee739e5b7c369f9a",
+    "bytes": 1899,
+    "utc": "2026-11-02 02:07:49",
+    "etag": "W/\"e08304d77bc92ed7accf147b25cd587cc619dc1d7a033194ee739e5b7c369f9a\""
+  },
+  {
+    "url": "https://api.github.com/repos/google-deepmind/alphaevolve_results/git/trees/HEAD",
+    "file": "receipts/closeout_sources/google-deepmind_alphaevolve_results_root.json",
+    "status": 200,
+    "sha256": "9ed379961d29fda6cb13eeb814a1552418dc6f311c7b77bc1fec7a48c6e4921c",
+    "bytes": 1405,
+    "utc": "2026-11-02 02:07:49",
+    "etag": "W/\"9ed379961d29fda6cb13eeb814a1552418dc6f311c7b77bc1fec7a48c6e4921c\""
+  },
+  {
+    "url": "https://api.github.com/repos/google-deepmind/alphaevolve_repository_of_problems/git/trees/HEAD",
+    "file": "receipts/closeout_sources/google-deepmind_alphaevolve_repository_of_problems_root.json",
+    "status": 200,
+    "sha256": "2e35d09a5f2fd286a531719bad5f6553ba4c88235bb426537911e3e622da05b7",
+    "bytes": 2977,
+    "utc": "2026-11-02 02:07:50",
+    "etag": "W/\"2e35d09a5f2fd286a531719bad5f6553ba4c88235bb426537911e3e622da05b7\""
+  },
+  {
+    "url": "https://api.github.com/repos/openai/math/git/trees/HEAD",
+    "file": "receipts/closeout_sources/openai_math_root.json",
+    "status": 200,
+    "sha256": "705cd19617e3ea3fc532b91dbca7661d32295103d67fa04cfa91d76c6237fd8c",
+    "bytes": 2263,
+    "utc": "2026-11-02 02:07:50",
+    "etag": "W/\"705cd19617e3ea3fc532b91dbca7661d32295103d67fa04cfa91d76c6237fd8c\""
+  },
+  {
+    "url": "https://api.github.com/repos/togethercomputer/EinsteinArena-new-SOTA/git/trees/HEAD",
+    "file": "receipts/closeout_sources/togethercomputer_EinsteinArena-new-SOTA_root.json",
+    "status": 200,
+    "sha256": "c6fe4eadb00714ab87c6a8869a1ad6a9986f23716073d625485405c04fc79408",
+    "bytes": 4234,
+    "utc": "2026-11-02 02:07:50",
+    "etag": "W/\"c6fe4eadb00714ab87c6a8869a1ad6a9986f23716073d625485405c04fc79408\""
+  },
+  {
+    "url": "https://api.github.com/repos/plasma-ai/erdos/git/trees/HEAD",
+    "file": "receipts/closeout_sources/plasma-ai_erdos_root.json",
+    "status": 200,
+    "sha256": "13dc02608bfa804bc5ca1b7c26b3f19577f775a9ebd02cd77abff9867cf03f8b",
+    "bytes": 4634,
+    "utc": "2026-11-02 02:07:50",
+    "etag": "W/\"13dc02608bfa804bc5ca1b7c26b3f19577f775a9ebd02cd77abff9867cf03f8b\""
+  },
+  {
+    "url": "https://api.github.com/repos/kisonecat/openai-math/git/trees/HEAD",
+    "file": "receipts/closeout_sources/kisonecat_openai-math_root.json",
+    "status": 200,
+    "sha256": "e93377b65b89e3183d2977028a862ae1ff4bb0853d1cde94c159d291a1904687",
+    "bytes": 1775,
+    "utc": "2026-11-02 02:07:51",
+    "etag": "W/\"e93377b65b89e3183d2977028a862ae1ff4bb0853d1cde94c159d291a1904687\""
+  },
+  {
+    "url": "https://raw.githubusercontent.com/openai/math/main/overview.tex",
+    "file": "receipts/closeout_sources/openai_overview.tex",
+    "status": 200,
+    "sha256": "39de58f1bf2185eb11d444a58aec4c7c7530419f3127deb9261fa46e044a4135",
+    "bytes": 322988,
+    "utc": "2026-11-02 02:07:51",
+    "etag": "\"eec5d7d20c761374677bf7fcae53294df5019bb80ab0f0083d3b98ac446e88a3\""
+  },
+  {
+    "url": "https://zenodo.org/api/records/6602512",
+    "file": "receipts/closeout_sources/zenodo_metadata.json",
+    "status": 200,
+    "sha256": "fc8fbd26d42b01123687bb1917610cee660ffd7c071fb03ab179803e22d70c12",
+    "bytes": 5411,
+    "utc": "2026-11-02 02:07:51",
+    "etag": null
+  }
+]
