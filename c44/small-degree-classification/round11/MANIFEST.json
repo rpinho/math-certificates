@@ -4,7 +4,6 @@
   "round": 11,
   "scope": "release files except this manifest and SHA256SUMS; frozen inputs have their own manifests",
   "sha256": {
-    ".DS_Store": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
     "INPUT_ERRATA.md": "841bdbef94062795a2e8c27ae46f603604298a6dff9e96c9db92c8db8e536c2a",
     "PRIOR_ART.md": "c8c3246b7b75b946ee2ad11ce4b912cbadb32486305f1224dcb13b4383496a56",
     "REPORT.md": "e2913b8d18b46e5fc81b747ad1c1a4aabb66d520b308c39f6447e3ec06d6a21a",
@@ -1375,6 +1374,7 @@
     "receipts/accepted/FINAL_RECEIPT.json": "54104ac4bdeab3efe41d7d2a8772c6bb02626b9131a29b3879df8755f7fef18c",
     "receipts/accepted/compile_allmin.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "receipts/accepted/ledger.json": "2fea19e4c809f2280ee8ea085ce6b4eaba424249e69de65353718ae85dfad422",
+    "receipts/accepted/rejections.log": "10c34d7c9936f1cafdf3832dfac977034641c9d89a89b5b6d39fd229fc96a262",
     "receipts/accepted/rejections/REJECTIONS.json": "8235907bbfb60c4b7d41e1676e670fc611656eca81066347b1553b845a4d8b13",
     "receipts/accepted/rejections/case_00/allminimum.json": "183d2c84b5537b2311006ea8f825c35615fdc919fc3314870c7c652f0a153e9b",
     "receipts/accepted/rejections/case_00/caps.json": "17befe7e87e3417cc2c0f138bf1c6dcc09e17b9fb1e14ec1cbed87c54fe646ef",
@@ -1608,7 +1608,6 @@
     "receipts/accepted/rejections/positive_weaker/caps.json": "89713780dcc09a949eba8ed5942fa4d449ce56fb0fc8c503a5ea6e1e5ec1c905",
     "receipts/accepted/rejections/positive_weaker/direct_r7.json": "0fac32120ccaa2f3fb8ff9953e748f1a12d423622234a804b2be8bd0f21b3aae",
     "receipts/accepted/rejections/positive_weaker/lemma.json": "6c58230a374af122363d416c559fe2e7564f49c126ba7b5159c9ed20e25d7ef3",
-    "receipts/accepted/rejections.log": "10c34d7c9936f1cafdf3832dfac977034641c9d89a89b5b6d39fd229fc96a262",
     "receipts/accepted/verify_a.json": "d99a301eed0df2b02753b2134c0dea8c94a213d347ba4b0678060e95fa757c6c",
     "receipts/accepted/verify_a.log": "6974870a41aacc1052a39ee0c7ae6a6efc02f5112503afc68afabe01bf5c773e",
     "receipts/accepted/verify_b.json": "a46c08e40f06d301ea76b322369bb0377ae29290f7101b348ae3f8544fc8e1c9",
@@ -1621,6 +1620,9 @@
     "receipts/parity/verify_b.json": "452e8ce6b2cd569c91209ed8a0b1d89da6cad11e96bfe08960417b808dd2fdb4",
     "review/astra/ASTRA_SUMMARY.md": "4bfbec019f387f40f431ce48eee5c62f18108e46fa1a3390d1beb2a173f2a353",
     "review/astra/REFEREE_REPORT.txt": "c70242a361992461bc385687fb6c62fa425f6ca9ad07daf6d64ee3f21bf6264b",
-    "review/cs/cs.md": "e1f705494e4c9ef0466344087568e056c8be2f0b492099dab1bf7821b124af14"
+    "review/cs/cs.md": "e1f705494e4c9ef0466344087568e056c8be2f0b492099dab1bf7821b124af14",
+    "review/probes/README.md": "39d7b731dc477c878bcd0e4a5baaa30ba532396d9ea8620ff8efce6bfbe34735",
+    "review/probes/positive_fresh_omitted.out.txt": "e2abd6d63dc025e81d98709ca0137223fa3c3e5c43a6d89c8d28ba8807fae348",
+    "review/probes/positive_fresh_omitted.py": "30f124e0a1392e56d6c6b458e8fca291c869167f1fad8a867c6badbb56c5ed0c"
   }
 }
