@@ -1,0 +1,18 @@
+{
+  "schema": "c44-round10-auxiliary-controls-v1",
+  "sha256": {
+    "CATALOGUE.json": "9e242a1ef12640284aa8a8bf41f5dc9bdf10f2b6db43e01676e127770b515877",
+    "HALF_SUPPORT_LEMMA.md": "557bed7ce53f9cb46a00c2f5df9bac5490d0fd1fe9fb0517f29bc2e94ea81e15",
+    "PROOF.md": "17b0f5b247ffa1b8ec7fff6500bfb1cf470d86344919296fddd4a41eef0051ef",
+    "bank_count.txt": "0400fecc339aab2a33d3e1bbbba3ff0ec4b2b6f644573060ce509b684e9fd3d9",
+    "bank_potential.txt": "8be8cc289e9174dd1be1e3ad35a1eab9e0141999fbcbf5c442942f081f2ca841",
+    "cubic_stats_a.py": "52db5434c0bee0eea2818905e0702049895c2e39c6beb88c0f226979a88362e3",
+    "cubic_stats_b.cpp": "57cf057c48643f5ee23f9521e1cbdaf826973968f7ad40c4b1e8b27ff6204b04",
+    "replay.py": "6620b6f68a3820cb08e57c3a95e26eba98633a1b3679538e807276c50929cb15",
+    "search_gate_cliques.cpp": "81bc5250598830b6482d463729eac13ee5e05f0059d37b37d91ab667e1531e28",
+    "search_potential_cliques.cpp": "50484ab35c4aad4ec79ba16d63a11828bdf8caa54abc4cc2614adf5881acf86c",
+    "seed36.json": "f7996498868cc5a2e7242211fc0fc183d11fd93dafef44433fc53d199371a178",
+    "verify_seed_a.py": "ef7073ce7836c28a9fb7d1d57b36f3dbcc22d9d40550846b5ba67cc174c5d81c",
+    "verify_seed_b.py": "6de0c345e5f90c5b45934b59e03f7d97b506fafc48e8a8b42e1a1c04be59a0c0"
+  }
+}

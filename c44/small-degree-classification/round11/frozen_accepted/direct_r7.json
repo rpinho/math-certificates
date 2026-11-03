@@ -1,0 +1,10 @@
+{
+  "schema":"c44-direct-r7-v1",
+  "status":"candidate, unrefereed",
+  "k":6,"weight":"31/16","controls":22,"norm":124,
+  "partial_minimum":32,"partial_gap":16,"deficit":40,
+  "one_bad":{"loss_at_most":24,"P_good_at_least":8,"P_incidence_at_least":128,"T_good_only_incidence_at_least":112,"T_with_bad_incidence_at_least":104},
+  "two_bad":{"loss_at_most":8,"top_pair_divisor":16,"possible_top_energy_sums":[104,98,98]},
+  "all_minimum":{"artifact":"allminimum.json","homogeneous_seed_required":true,"nonhomogeneous_minimum_loss":16,"total_incidence_loss_at_most":200},
+  "conclusion":{"control_ceiling":21,"R7_upper":228}
+}

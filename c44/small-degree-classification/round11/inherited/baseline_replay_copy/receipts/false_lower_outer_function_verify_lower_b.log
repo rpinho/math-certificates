@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_lower_b.py", line 63, in <module>
+    row['code']=child.returncode;assert child.returncode==0,stderr
+                                        ^^^^^^^^^^^^^^^^^^^
+AssertionError: frozen_lower_b: /root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_lower_outer_b.cpp:18: int main(int, char**): Assertion `value==den||value==-den' failed.
+

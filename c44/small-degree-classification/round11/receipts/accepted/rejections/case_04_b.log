@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/root/os/math_c44r11_1103/frozen_accepted/verify_b.py", line 11, in <module>
+    assert packet['previous_bound']=='79671833529611582591986228957/39614081257132168796771975168' and packet['improvement_bar']=='1/10000'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

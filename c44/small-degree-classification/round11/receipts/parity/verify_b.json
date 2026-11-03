@@ -1,0 +1,587 @@
+{
+  "status": "PASS",
+  "verifier": "B generating polynomials and integer maxima",
+  "bound": "39449672077327653986659243787/19807040628566084398385987584",
+  "tensor_types": 180,
+  "completion": {
+    "status": "PASS",
+    "implementation": "B set affine closures",
+    "positive": {
+      "controls": 12,
+      "norm": 64,
+      "nodes": 20,
+      "domains": 13,
+      "unsigned_leaves": 1,
+      "seconds": 0.004143714904785156
+    },
+    "target": {
+      "controls": 22,
+      "norm": 124,
+      "nodes": 72,
+      "domains": 65,
+      "unsigned_leaves": 0,
+      "seconds": 0.011039018630981445
+    }
+  },
+  "rows": [
+    {
+      "d": 5,
+      "R": 50,
+      "critical_points": 2,
+      "exhaustive_points": 2
+    },
+    {
+      "d": 6,
+      "R": 107,
+      "critical_points": 6,
+      "exhaustive_points": 6
+    },
+    {
+      "d": 7,
+      "R": 227,
+      "critical_points": 12,
+      "exhaustive_points": 18
+    },
+    {
+      "d": 8,
+      "R": 474,
+      "critical_points": 20,
+      "exhaustive_points": 51
+    },
+    {
+      "d": 9,
+      "R": 975,
+      "critical_points": 30,
+      "exhaustive_points": 138
+    },
+    {
+      "d": 10,
+      "R": 1985,
+      "critical_points": 42,
+      "exhaustive_points": 352
+    },
+    {
+      "d": 11,
+      "R": 4014,
+      "critical_points": 55,
+      "exhaustive_points": 865
+    },
+    {
+      "d": 12,
+      "R": 8081,
+      "critical_points": 70,
+      "exhaustive_points": 2061
+    },
+    {
+      "d": 13,
+      "R": 16226,
+      "critical_points": 88,
+      "exhaustive_points": 4793
+    },
+    {
+      "d": 14,
+      "R": 32528,
+      "critical_points": 106,
+      "exhaustive_points": 10938
+    },
+    {
+      "d": 15,
+      "R": 65145,
+      "critical_points": 127,
+      "exhaustive_points": 24592
+    },
+    {
+      "d": 16,
+      "R": 130393,
+      "critical_points": 149,
+      "exhaustive_points": 54631
+    },
+    {
+      "d": 17,
+      "R": 260904,
+      "critical_points": 173,
+      "exhaustive_points": null
+    },
+    {
+      "d": 18,
+      "R": 521942,
+      "critical_points": 199,
+      "exhaustive_points": null
+    },
+    {
+      "d": 19,
+      "R": 1044035,
+      "critical_points": 227,
+      "exhaustive_points": null
+    },
+    {
+      "d": 20,
+      "R": 2088239,
+      "critical_points": 256,
+      "exhaustive_points": null
+    },
+    {
+      "d": 21,
+      "R": 4176666,
+      "critical_points": 287,
+      "exhaustive_points": null
+    },
+    {
+      "d": 22,
+      "R": 8353540,
+      "critical_points": 321,
+      "exhaustive_points": null
+    },
+    {
+      "d": 23,
+      "R": 16707310,
+      "critical_points": 355,
+      "exhaustive_points": null
+    },
+    {
+      "d": 24,
+      "R": 33414872,
+      "critical_points": 392,
+      "exhaustive_points": null
+    },
+    {
+      "d": 25,
+      "R": 66830019,
+      "critical_points": 430,
+      "exhaustive_points": null
+    },
+    {
+      "d": 26,
+      "R": 133660337,
+      "critical_points": 470,
+      "exhaustive_points": null
+    },
+    {
+      "d": 27,
+      "R": 267320998,
+      "critical_points": 512,
+      "exhaustive_points": null
+    },
+    {
+      "d": 28,
+      "R": 534642346,
+      "critical_points": 556,
+      "exhaustive_points": null
+    },
+    {
+      "d": 29,
+      "R": 1069285069,
+      "critical_points": 601,
+      "exhaustive_points": null
+    },
+    {
+      "d": 30,
+      "R": 2138570543,
+      "critical_points": 648,
+      "exhaustive_points": null
+    },
+    {
+      "d": 31,
+      "R": 4277141520,
+      "critical_points": 698,
+      "exhaustive_points": null
+    },
+    {
+      "d": 32,
+      "R": 8554283505,
+      "critical_points": 748,
+      "exhaustive_points": null
+    },
+    {
+      "d": 33,
+      "R": 17108567506,
+      "critical_points": 801,
+      "exhaustive_points": null
+    },
+    {
+      "d": 34,
+      "R": 34217135540,
+      "critical_points": 855,
+      "exhaustive_points": null
+    },
+    {
+      "d": 35,
+      "R": 68434271641,
+      "critical_points": 911,
+      "exhaustive_points": null
+    },
+    {
+      "d": 36,
+      "R": 136868543877,
+      "critical_points": 969,
+      "exhaustive_points": null
+    },
+    {
+      "d": 37,
+      "R": 273737088384,
+      "critical_points": 1029,
+      "exhaustive_points": null
+    },
+    {
+      "d": 38,
+      "R": 547474177434,
+      "critical_points": 1090,
+      "exhaustive_points": null
+    },
+    {
+      "d": 39,
+      "R": 1094948355572,
+      "critical_points": 1153,
+      "exhaustive_points": null
+    },
+    {
+      "d": 40,
+      "R": 2189896711886,
+      "critical_points": 1219,
+      "exhaustive_points": null
+    },
+    {
+      "d": 41,
+      "R": 4379793424553,
+      "critical_points": 1285,
+      "exhaustive_points": null
+    },
+    {
+      "d": 42,
+      "R": 8759586849927,
+      "critical_points": 1354,
+      "exhaustive_points": null
+    },
+    {
+      "d": 43,
+      "R": 17519173700716,
+      "critical_points": 1424,
+      "exhaustive_points": null
+    },
+    {
+      "d": 44,
+      "R": 35038347402336,
+      "critical_points": 1496,
+      "exhaustive_points": null
+    },
+    {
+      "d": 45,
+      "R": 70076694805620,
+      "critical_points": 1570,
+      "exhaustive_points": null
+    },
+    {
+      "d": 46,
+      "R": 140153389612232,
+      "critical_points": 1646,
+      "exhaustive_points": null
+    },
+    {
+      "d": 47,
+      "R": 280306779225501,
+      "critical_points": 1723,
+      "exhaustive_points": null
+    },
+    {
+      "d": 48,
+      "R": 560613558452085,
+      "critical_points": 1802,
+      "exhaustive_points": null
+    },
+    {
+      "d": 49,
+      "R": 1121227116905300,
+      "critical_points": 1884,
+      "exhaustive_points": null
+    },
+    {
+      "d": 50,
+      "R": 2242454233811779,
+      "critical_points": 1966,
+      "exhaustive_points": null
+    },
+    {
+      "d": 51,
+      "R": 4484908467624786,
+      "critical_points": 2051,
+      "exhaustive_points": null
+    },
+    {
+      "d": 52,
+      "R": 8969816935250850,
+      "critical_points": 2137,
+      "exhaustive_points": null
+    },
+    {
+      "d": 53,
+      "R": 17939633870503029,
+      "critical_points": 2225,
+      "exhaustive_points": null
+    },
+    {
+      "d": 54,
+      "R": 35879267741007439,
+      "critical_points": 2315,
+      "exhaustive_points": null
+    },
+    {
+      "d": 55,
+      "R": 71758535482016313,
+      "critical_points": 2407,
+      "exhaustive_points": null
+    },
+    {
+      "d": 56,
+      "R": 143517070964034115,
+      "critical_points": 2500,
+      "exhaustive_points": null
+    },
+    {
+      "d": 57,
+      "R": 287034141928069774,
+      "critical_points": 2595,
+      "exhaustive_points": null
+    },
+    {
+      "d": 58,
+      "R": 574068283856141148,
+      "critical_points": 2693,
+      "exhaustive_points": null
+    },
+    {
+      "d": 59,
+      "R": 1148136567712283954,
+      "critical_points": 2791,
+      "exhaustive_points": null
+    },
+    {
+      "d": 60,
+      "R": 2296273135424569624,
+      "critical_points": 2892,
+      "exhaustive_points": null
+    },
+    {
+      "d": 61,
+      "R": 4592546270849141023,
+      "critical_points": 2994,
+      "exhaustive_points": null
+    },
+    {
+      "d": 62,
+      "R": 9185092541698283881,
+      "critical_points": 3098,
+      "exhaustive_points": null
+    },
+    {
+      "d": 63,
+      "R": 18370185083396569659,
+      "critical_points": 3204,
+      "exhaustive_points": null
+    },
+    {
+      "d": 64,
+      "R": 36740370166793141277,
+      "critical_points": 3312,
+      "exhaustive_points": null
+    },
+    {
+      "d": 65,
+      "R": 73480740333586284576,
+      "critical_points": 3421,
+      "exhaustive_points": null
+    },
+    {
+      "d": 66,
+      "R": 146961480667172571238,
+      "critical_points": 3532,
+      "exhaustive_points": null
+    },
+    {
+      "d": 67,
+      "R": 293922961334345144628,
+      "critical_points": 3646,
+      "exhaustive_points": null
+    },
+    {
+      "d": 68,
+      "R": 587845922668690291474,
+      "critical_points": 3760,
+      "exhaustive_points": null
+    },
+    {
+      "d": 69,
+      "R": 1175691845337380585233,
+      "critical_points": 3877,
+      "exhaustive_points": null
+    },
+    {
+      "d": 70,
+      "R": 2351383690674761172820,
+      "critical_points": 3995,
+      "exhaustive_points": null
+    },
+    {
+      "d": 71,
+      "R": 4702767381349522348063,
+      "critical_points": 4115,
+      "exhaustive_points": null
+    },
+    {
+      "d": 72,
+      "R": 9405534762699044698619,
+      "critical_points": 4237,
+      "exhaustive_points": null
+    },
+    {
+      "d": 73,
+      "R": 18811069525398089399802,
+      "critical_points": 4361,
+      "exhaustive_points": null
+    },
+    {
+      "d": 74,
+      "R": 37622139050796178802241,
+      "critical_points": 4486,
+      "exhaustive_points": null
+    },
+    {
+      "d": 75,
+      "R": 75244278101592357607192,
+      "critical_points": 4613,
+      "exhaustive_points": null
+    },
+    {
+      "d": 76,
+      "R": 150488556203184715217168,
+      "critical_points": 4743,
+      "exhaustive_points": null
+    },
+    {
+      "d": 77,
+      "R": 300977112406369430437196,
+      "critical_points": 4873,
+      "exhaustive_points": null
+    },
+    {
+      "d": 78,
+      "R": 601954224812738860877328,
+      "critical_points": 5006,
+      "exhaustive_points": null
+    },
+    {
+      "d": 79,
+      "R": 1203908449625477721757669,
+      "critical_points": 5140,
+      "exhaustive_points": null
+    },
+    {
+      "d": 80,
+      "R": 2407816899250955443518430,
+      "critical_points": 5276,
+      "exhaustive_points": null
+    },
+    {
+      "d": 81,
+      "R": 4815633798501910887040031,
+      "critical_points": 5414,
+      "exhaustive_points": null
+    },
+    {
+      "d": 82,
+      "R": 9631267597003821774083313,
+      "critical_points": 5554,
+      "exhaustive_points": null
+    },
+    {
+      "d": 83,
+      "R": 19262535194007643548169959,
+      "critical_points": 5695,
+      "exhaustive_points": null
+    },
+    {
+      "d": 84,
+      "R": 38525070388015287096343333,
+      "critical_points": 5838,
+      "exhaustive_points": null
+    },
+    {
+      "d": 85,
+      "R": 77050140776030574192690164,
+      "critical_points": 5984,
+      "exhaustive_points": null
+    },
+    {
+      "d": 86,
+      "R": 154100281552061148385383911,
+      "critical_points": 6130,
+      "exhaustive_points": null
+    },
+    {
+      "d": 87,
+      "R": 308200563104122296770771490,
+      "critical_points": 6279,
+      "exhaustive_points": null
+    },
+    {
+      "d": 88,
+      "R": 616401126208244593541546734,
+      "critical_points": 6429,
+      "exhaustive_points": null
+    },
+    {
+      "d": 89,
+      "R": 1232802252416489187083097310,
+      "critical_points": 6581,
+      "exhaustive_points": null
+    },
+    {
+      "d": 90,
+      "R": 2465604504832978374166198550,
+      "critical_points": 6735,
+      "exhaustive_points": null
+    },
+    {
+      "d": 91,
+      "R": 4931209009665956748332401120,
+      "critical_points": 6891,
+      "exhaustive_points": null
+    },
+    {
+      "d": 92,
+      "R": 9862418019331913496664806350,
+      "critical_points": 7048,
+      "exhaustive_points": null
+    },
+    {
+      "d": 93,
+      "R": 19724836038663826993329616901,
+      "critical_points": 7207,
+      "exhaustive_points": null
+    },
+    {
+      "d": 94,
+      "R": 39449672077327653986659238096,
+      "critical_points": 7369,
+      "exhaustive_points": null
+    },
+    {
+      "d": 95,
+      "R": 78899344154655307973318480579,
+      "critical_points": 7531,
+      "exhaustive_points": null
+    },
+    {
+      "d": 96,
+      "R": 157798688309310615946636965640,
+      "critical_points": 7696,
+      "exhaustive_points": null
+    }
+  ],
+  "artifact_sha256": {
+    "caps.json": "8a714bc0c78411071593610f9a54e7d28cc42f6b1d2640db13b874697ee0b12f",
+    "lemma.json": "6c58230a374af122363d416c559fe2e7564f49c126ba7b5159c9ed20e25d7ef3",
+    "direct_r7.json": "bb82f70bcffd1932b639c10aceaf044c5891ca2bb0c836c2ffd2b584d4bb893f",
+    "allminimum.json": "183d2c84b5537b2311006ea8f825c35615fdc919fc3314870c7c652f0a153e9b",
+    "partial.json": "88de2b3434ed02cb4cfa6cf9cc39a40eb619300f911dc46a1f008510c71ee130"
+  }
+}

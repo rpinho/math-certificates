@@ -1,0 +1,287 @@
+{
+  "status": "PASS",
+  "corrupted_artifacts": 20,
+  "rejections": 40,
+  "results": [
+    {
+      "control": "r7_too_small",
+      "verifier": "a",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_a.py\", line 108, in <module>\n    assert peak<n\n           ^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "r7_too_small",
+      "verifier": "b",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_b.py\", line 97, in <module>\n    assert row['d']==d and row['R']==maximum and row['first_excluded']==maximum+1\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "r7_too_large",
+      "verifier": "a",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_a.py\", line 114, in <module>\n    assert (v,h,used)==(F(w['budget']),w['h'],w['retained']) and v>=n-1\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "r7_too_large",
+      "verifier": "b",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_b.py\", line 97, in <module>\n    assert row['d']==d and row['R']==maximum and row['first_excluded']==maximum+1\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "r5_unproved",
+      "verifier": "a",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_a.py\", line 108, in <module>\n    assert peak<n\n           ^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "r5_unproved",
+      "verifier": "b",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_b.py\", line 97, in <module>\n    assert row['d']==d and row['R']==maximum and row['first_excluded']==maximum+1\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "wrong_base_R4",
+      "verifier": "a",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_a.py\", line 14, in <module>\n    assert P['base_counts']==dict(zip(('1','2','3','4'),(1,4,10,22))) and P['horizon']==96\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "wrong_base_R4",
+      "verifier": "b",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_b.py\", line 13, in <module>\n    assert artifact['horizon']==96 and artifact['base_counts']=={'1':1,'2':4,'3':10,'4':22}\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "missing_first_row",
+      "verifier": "a",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_a.py\", line 68, in <module>\n    assert [r['d'] for r in P['rows']]==list(range(5,97))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "missing_first_row",
+      "verifier": "b",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_b.py\", line 97, in <module>\n    assert row['d']==d and row['R']==maximum and row['first_excluded']==maximum+1\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "wrong_bound",
+      "verifier": "a",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_a.py\", line 11, in <module>\n    assert F(P['bound'])==F(P['rows'][-1]['R'],1<<96)+F(P['tail'])\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "wrong_bound",
+      "verifier": "b",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_b.py\", line 10, in <module>\n    assert Fraction(artifact['bound'])==Fraction(artifact['rows'][-1]['R'],1<<96)+Fraction(artifact['tail'])\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "wrong_tail",
+      "verifier": "a",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_a.py\", line 10, in <module>\n    assert F(P['tail'])==F(9508,1<<96)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "wrong_tail",
+      "verifier": "b",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_b.py\", line 9, in <module>\n    assert Fraction(artifact['tail'])==Fraction(9508,1<<96)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "false_strict_claim",
+      "verifier": "a",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_a.py\", line 12, in <module>\n    assert F(P['bound'])<F(P['strict_claim'])\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "false_strict_claim",
+      "verifier": "b",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_b.py\", line 11, in <module>\n    assert Fraction(artifact['bound'])<Fraction(artifact['strict_claim'])\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "wrong_baseline",
+      "verifier": "a",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_a.py\", line 65, in <module>\n    assert P['previous_bound']=='159363009872336981657958180965/79228162514264337593543950336'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "wrong_baseline",
+      "verifier": "b",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_b.py\", line 59, in <module>\n    assert artifact['previous_bound']=='159363009872336981657958180965/79228162514264337593543950336'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "omit_near_lemma",
+      "verifier": "a",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_a.py\", line 15, in <module>\n    assert P['near_equality_artifact']=='near_equality.json'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "omit_near_lemma",
+      "verifier": "b",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_b.py\", line 14, in <module>\n    assert artifact['near_equality_artifact']=='near_equality.json'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "wrong_tensor_deficit",
+      "verifier": "a",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_a.py\", line 39, in <module>\n    assert T['degree6_tensor_rows']==rows\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "wrong_tensor_deficit",
+      "verifier": "b",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_b.py\", line 24, in <module>\n    assert sorted(seen,key=lambda x:x['blocks'])==lemma['degree6_tensor_rows']\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "missing_tensor_type",
+      "verifier": "a",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_a.py\", line 39, in <module>\n    assert T['degree6_tensor_rows']==rows\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "missing_tensor_type",
+      "verifier": "b",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_b.py\", line 24, in <module>\n    assert sorted(seen,key=lambda x:x['blocks'])==lemma['degree6_tensor_rows']\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "false_direct_constant",
+      "verifier": "a",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_a.py\", line 40, in <module>\n    assert T['direct_case']=={'k':6,'lambda':'31/16','norm':124,'h':23,'partial_minimum':32,'partial_gap':16,'deficit':8,'constant_square':'4/3'}\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "false_direct_constant",
+      "verifier": "b",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_b.py\", line 25, in <module>\n    case=lemma['direct_case'];assert case==dict(k=6,**{'lambda':'31/16'},norm=124,h=23,partial_minimum=32,partial_gap=16,deficit=8,constant_square='4/3')\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "wrong_partial_gap",
+      "verifier": "a",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_a.py\", line 40, in <module>\n    assert T['direct_case']=={'k':6,'lambda':'31/16','norm':124,'h':23,'partial_minimum':32,'partial_gap':16,'deficit':8,'constant_square':'4/3'}\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "wrong_partial_gap",
+      "verifier": "b",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_b.py\", line 25, in <module>\n    case=lemma['direct_case'];assert case==dict(k=6,**{'lambda':'31/16'},norm=124,h=23,partial_minimum=32,partial_gap=16,deficit=8,constant_square='4/3')\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "omit_lemma_hypothesis",
+      "verifier": "a",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_a.py\", line 17, in <module>\n    assert T['statement']=='k>=3, lambda>=1 and h>2*k*lambda-1/2 imply lambda=1 and h=2*k'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "omit_lemma_hypothesis",
+      "verifier": "b",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_b.py\", line 16, in <module>\n    assert lemma['statement']=='k>=3, lambda>=1 and h>2*k*lambda-1/2 imply lambda=1 and h=2*k'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "wrong_sign_rank",
+      "verifier": "a",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_a.py\", line 61, in <module>\n    assert T['sign_completion']=={'range':'s components attain values c-s and c+s, so s<=1 and c=0','cube_face_ranks':expected_ranks,'dimension_two_exception':True}\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "wrong_sign_rank",
+      "verifier": "b",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_b.py\", line 55, in <module>\n    assert lemma['sign_completion']==dict(range='s components attain values c-s and c+s, so s<=1 and c=0',cube_face_ranks=face_records,dimension_two_exception=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "missing_sign_dimension",
+      "verifier": "a",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_a.py\", line 61, in <module>\n    assert T['sign_completion']=={'range':'s components attain values c-s and c+s, so s<=1 and c=0','cube_face_ranks':expected_ranks,'dimension_two_exception':True}\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "missing_sign_dimension",
+      "verifier": "b",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_b.py\", line 55, in <module>\n    assert lemma['sign_completion']==dict(range='s components attain values c-s and c+s, so s<=1 and c=0',cube_face_ranks=face_records,dimension_two_exception=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "erase_dimension_exception",
+      "verifier": "a",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_a.py\", line 61, in <module>\n    assert T['sign_completion']=={'range':'s components attain values c-s and c+s, so s<=1 and c=0','cube_face_ranks':expected_ranks,'dimension_two_exception':True}\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "erase_dimension_exception",
+      "verifier": "b",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_b.py\", line 55, in <module>\n    assert lemma['sign_completion']==dict(range='s components attain values c-s and c+s, so s<=1 and c=0',cube_face_ranks=face_records,dimension_two_exception=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "wrong_range_argument",
+      "verifier": "a",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_a.py\", line 61, in <module>\n    assert T['sign_completion']=={'range':'s components attain values c-s and c+s, so s<=1 and c=0','cube_face_ranks':expected_ranks,'dimension_two_exception':True}\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "wrong_range_argument",
+      "verifier": "b",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_b.py\", line 55, in <module>\n    assert lemma['sign_completion']==dict(range='s components attain values c-s and c+s, so s<=1 and c=0',cube_face_ranks=face_records,dimension_two_exception=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    {
+      "control": "omit_sign_completion",
+      "verifier": "a",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_a.py\", line 61, in <module>\n    assert T['sign_completion']=={'range':'s components attain values c-s and c+s, so s<=1 and c=0','cube_face_ranks':expected_ranks,'dimension_two_exception':True}\n           ~^^^^^^^^^^^^^^^^^^^\nKeyError: 'sign_completion'\n"
+    },
+    {
+      "control": "omit_sign_completion",
+      "verifier": "b",
+      "rejected": true,
+      "exit": 1,
+      "error": "Traceback (most recent call last):\n  File \"/root/os/math_c44r11_1103/inherited/frozen_final/verify_b.py\", line 55, in <module>\n    assert lemma['sign_completion']==dict(range='s components attain values c-s and c+s, so s<=1 and c=0',cube_face_ranks=face_records,dimension_two_exception=True)\n           ~~~~~^^^^^^^^^^^^^^^^^^^\nKeyError: 'sign_completion'\n"
+    }
+  ]
+}

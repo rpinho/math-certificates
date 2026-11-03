@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/root/os/math_c44r11_1103/frozen_accepted/verify_a.py", line 152, in <module>
+    assert (value,h,used)==(Q(w['budget']),w['h'],w['retained']) and value>=n-1
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

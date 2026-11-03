@@ -1,0 +1,307 @@
+{
+  "status": "PASS",
+  "mutations": 12,
+  "rejections": 24,
+  "rows": [
+    {
+      "case": 0,
+      "verifier": "a",
+      "code": 1,
+      "pid": 92817,
+      "path": [
+        "schema"
+      ],
+      "value": "wrong",
+      "seconds": 0.05163288116455078,
+      "log_sha256": "2a04eae31f3ba2ed23150d532bb4cb059c8abe3e2e0e2c45f55008575638b871"
+    },
+    {
+      "case": 0,
+      "verifier": "b",
+      "code": 1,
+      "pid": 92815,
+      "path": [
+        "schema"
+      ],
+      "value": "wrong",
+      "seconds": 0.0973048210144043,
+      "log_sha256": "0e4c9f9c0b84f6df207c721126acd807f3a25121339d6ba6a945afc0835118f0"
+    },
+    {
+      "case": 1,
+      "verifier": "a",
+      "code": 1,
+      "pid": 92818,
+      "path": [
+        "status"
+      ],
+      "value": "verified",
+      "seconds": 0.05107688903808594,
+      "log_sha256": "2a04eae31f3ba2ed23150d532bb4cb059c8abe3e2e0e2c45f55008575638b871"
+    },
+    {
+      "case": 1,
+      "verifier": "b",
+      "code": 1,
+      "pid": 92816,
+      "path": [
+        "status"
+      ],
+      "value": "verified",
+      "seconds": 0.05444812774658203,
+      "log_sha256": "0e4c9f9c0b84f6df207c721126acd807f3a25121339d6ba6a945afc0835118f0"
+    },
+    {
+      "case": 2,
+      "verifier": "a",
+      "code": 1,
+      "pid": 92820,
+      "path": [
+        "degree"
+      ],
+      "value": 5,
+      "seconds": 0.07760477066040039,
+      "log_sha256": "6b49c57c81c0d5d58e9b3676e964b51ab664d04292ae21b2dc69d2475adfb6d0"
+    },
+    {
+      "case": 2,
+      "verifier": "b",
+      "code": 1,
+      "pid": 92821,
+      "path": [
+        "degree"
+      ],
+      "value": 5,
+      "seconds": 0.044474124908447266,
+      "log_sha256": "0bd7a5916e28029a449a2a578180f4ab2533db64a3e8c60c5097cdfe9abf28f5"
+    },
+    {
+      "case": 3,
+      "verifier": "a",
+      "code": 1,
+      "pid": 92822,
+      "path": [
+        "controls"
+      ],
+      "value": 20,
+      "seconds": 0.07415604591369629,
+      "log_sha256": "6b49c57c81c0d5d58e9b3676e964b51ab664d04292ae21b2dc69d2475adfb6d0"
+    },
+    {
+      "case": 3,
+      "verifier": "b",
+      "code": 1,
+      "pid": 92823,
+      "path": [
+        "controls"
+      ],
+      "value": 20,
+      "seconds": 0.06869697570800781,
+      "log_sha256": "0bd7a5916e28029a449a2a578180f4ab2533db64a3e8c60c5097cdfe9abf28f5"
+    },
+    {
+      "case": 4,
+      "verifier": "a",
+      "code": 1,
+      "pid": 92824,
+      "path": [
+        "norms"
+      ],
+      "value": [
+        120,
+        125
+      ],
+      "seconds": 0.05120992660522461,
+      "log_sha256": "6b49c57c81c0d5d58e9b3676e964b51ab664d04292ae21b2dc69d2475adfb6d0"
+    },
+    {
+      "case": 4,
+      "verifier": "b",
+      "code": 1,
+      "pid": 92825,
+      "path": [
+        "norms"
+      ],
+      "value": [
+        120,
+        125
+      ],
+      "seconds": 0.06016278266906738,
+      "log_sha256": "0bd7a5916e28029a449a2a578180f4ab2533db64a3e8c60c5097cdfe9abf28f5"
+    },
+    {
+      "case": 5,
+      "verifier": "a",
+      "code": 1,
+      "pid": 92826,
+      "path": [
+        "minimum_norm"
+      ],
+      "value": 31,
+      "seconds": 0.0371549129486084,
+      "log_sha256": "6b49c57c81c0d5d58e9b3676e964b51ab664d04292ae21b2dc69d2475adfb6d0"
+    },
+    {
+      "case": 5,
+      "verifier": "b",
+      "code": 1,
+      "pid": 92827,
+      "path": [
+        "minimum_norm"
+      ],
+      "value": 31,
+      "seconds": 0.05440926551818848,
+      "log_sha256": "414da9651635222b578748dee97e4be8502d8b79e0ba90efd7bdba63e1bde83b"
+    },
+    {
+      "case": 6,
+      "verifier": "a",
+      "code": 1,
+      "pid": 92828,
+      "path": [
+        "gap"
+      ],
+      "value": 15,
+      "seconds": 0.08604097366333008,
+      "log_sha256": "6b49c57c81c0d5d58e9b3676e964b51ab664d04292ae21b2dc69d2475adfb6d0"
+    },
+    {
+      "case": 6,
+      "verifier": "b",
+      "code": 1,
+      "pid": 92829,
+      "path": [
+        "gap"
+      ],
+      "value": 15,
+      "seconds": 0.08510327339172363,
+      "log_sha256": "414da9651635222b578748dee97e4be8502d8b79e0ba90efd7bdba63e1bde83b"
+    },
+    {
+      "case": 7,
+      "verifier": "a",
+      "code": 1,
+      "pid": 92830,
+      "path": [
+        "component_variance_numerator"
+      ],
+      "value": 64,
+      "seconds": 0.06643915176391602,
+      "log_sha256": "6b49c57c81c0d5d58e9b3676e964b51ab664d04292ae21b2dc69d2475adfb6d0"
+    },
+    {
+      "case": 7,
+      "verifier": "b",
+      "code": 1,
+      "pid": 92831,
+      "path": [
+        "component_variance_numerator"
+      ],
+      "value": 64,
+      "seconds": 0.03936886787414551,
+      "log_sha256": "414da9651635222b578748dee97e4be8502d8b79e0ba90efd7bdba63e1bde83b"
+    },
+    {
+      "case": 8,
+      "verifier": "a",
+      "code": 1,
+      "pid": 92832,
+      "path": [
+        "homogeneous_seed"
+      ],
+      "value": false,
+      "seconds": 0.10637903213500977,
+      "log_sha256": "1600a7c6f0aeb7c025d3522a7d4fc8dcec3856a96537a7b27a4d48c5dd06150f"
+    },
+    {
+      "case": 8,
+      "verifier": "b",
+      "code": 1,
+      "pid": 92833,
+      "path": [
+        "homogeneous_seed"
+      ],
+      "value": false,
+      "seconds": 0.09272193908691406,
+      "log_sha256": "116cc9e9d7afb9084bbd3c08794f78324bebe92678336d1eb6203e35e23e06d1"
+    },
+    {
+      "case": 9,
+      "verifier": "a",
+      "code": 1,
+      "pid": 92834,
+      "path": [
+        "even_masks"
+      ],
+      "value": false,
+      "seconds": 0.0925912857055664,
+      "log_sha256": "1600a7c6f0aeb7c025d3522a7d4fc8dcec3856a96537a7b27a4d48c5dd06150f"
+    },
+    {
+      "case": 9,
+      "verifier": "b",
+      "code": 1,
+      "pid": 92835,
+      "path": [
+        "even_masks"
+      ],
+      "value": false,
+      "seconds": 0.08717799186706543,
+      "log_sha256": "116cc9e9d7afb9084bbd3c08794f78324bebe92678336d1eb6203e35e23e06d1"
+    },
+    {
+      "case": 10,
+      "verifier": "a",
+      "code": 1,
+      "pid": 92836,
+      "path": [
+        "cases",
+        0,
+        "omitted"
+      ],
+      "value": 0,
+      "seconds": 0.03635692596435547,
+      "log_sha256": "69c90efde47e1ddab6704c664e2f326315e51c0eab0e5b9198058acf71da5257"
+    },
+    {
+      "case": 10,
+      "verifier": "b",
+      "code": 1,
+      "pid": 92837,
+      "path": [
+        "cases",
+        0,
+        "omitted"
+      ],
+      "value": 0,
+      "seconds": 0.03842496871948242,
+      "log_sha256": "fbecb8dc9425625ac66773f1b166277c03d763e567724f21ded8652f39b2f16d"
+    },
+    {
+      "case": 11,
+      "verifier": "a",
+      "code": 1,
+      "pid": 92838,
+      "path": [
+        "conclusion",
+        "ceiling"
+      ],
+      "value": 21,
+      "seconds": 0.0383298397064209,
+      "log_sha256": "95eed4e191868886df5335f4cb58b2759a64e935d3621f3d4d24847576b7d378"
+    },
+    {
+      "case": 11,
+      "verifier": "b",
+      "code": 1,
+      "pid": 92839,
+      "path": [
+        "conclusion",
+        "ceiling"
+      ],
+      "value": 21,
+      "seconds": 0.053578853607177734,
+      "log_sha256": "058181bcb3ab050cf76677fe9ef65b59cf686f5909376615247142bff50d3382"
+    }
+  ]
+}

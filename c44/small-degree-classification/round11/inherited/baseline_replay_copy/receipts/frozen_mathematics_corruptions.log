@@ -1,0 +1,24 @@
+rejected missing_h14_case
+rejected duplicate_case
+rejected false_control_ceiling
+rejected false_partial_minimum
+rejected false_norm
+rejected false_template_count
+rejected false_good_set
+rejected false_seed_block
+rejected unresolved_leaf_hidden
+rejected false_mathematical_R6_106
+rejected false_selector_envelope
+rejected false_tail
+rejected false_final_rational
+rejected false_strict_decimal
+rejected missing_recurrence_row
+rejected false_degree_horizon
+rejected false_character_signing
+rejected missing_flat_point
+rejected false_flat_denominator
+rejected false_lower_parity_coefficient
+rejected false_lower_variable_count
+rejected false_lower_outer_function
+rejected false_lower_lift
+PASS 46 separate checker rejections

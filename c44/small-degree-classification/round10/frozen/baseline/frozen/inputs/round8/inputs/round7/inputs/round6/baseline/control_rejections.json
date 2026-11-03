@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "controls": [
+    {
+      "name": "false_quartic_23",
+      "independent": "REJECTED",
+      "rows": "REJECTED"
+    },
+    {
+      "name": "false_sextic_95",
+      "independent": "REJECTED",
+      "rows": "REJECTED"
+    },
+    {
+      "name": "wrong_minimum_budget",
+      "independent": "REJECTED",
+      "rows": "REJECTED"
+    },
+    {
+      "name": "understated_controls",
+      "independent": "REJECTED",
+      "rows": "REJECTED"
+    },
+    {
+      "name": "unsupported_gap",
+      "independent": "REJECTED",
+      "rows": "REJECTED"
+    },
+    {
+      "name": "wrong_input_cap",
+      "independent": "REJECTED",
+      "rows": "REJECTED"
+    },
+    {
+      "name": "missing_degree",
+      "independent": "REJECTED",
+      "rows": "REJECTED"
+    },
+    {
+      "name": "duplicate_degree",
+      "independent": "REJECTED",
+      "rows": "REJECTED"
+    },
+    {
+      "name": "forged_nonminimum_floor",
+      "independent": "REJECTED",
+      "rows": "REJECTED"
+    },
+    {
+      "name": "forged_minimum_floor",
+      "independent": "REJECTED",
+      "rows": "REJECTED"
+    },
+    {
+      "name": "caps_changed",
+      "independent": "REJECTED",
+      "rows": "REJECTED"
+    },
+    {
+      "name": "wrong_R3",
+      "independent": "REJECTED",
+      "rows": "REJECTED"
+    },
+    {
+      "name": "wrong_block_theorem",
+      "independent": "REJECTED",
+      "rows": "REJECTED"
+    },
+    {
+      "name": "wrong_horizon",
+      "independent": "REJECTED",
+      "rows": "REJECTED"
+    },
+    {
+      "name": "stronger_decimal",
+      "independent": "REJECTED",
+      "rows": "REJECTED"
+    },
+    {
+      "name": "weaker_decimal",
+      "independent": "REJECTED",
+      "rows": "REJECTED"
+    },
+    {
+      "name": "wrong_spectral_hash",
+      "independent": "REJECTED",
+      "rows": "REJECTED"
+    },
+    {
+      "name": "wrong_epi_hash",
+      "independent": "REJECTED",
+      "rows": "REJECTED"
+    },
+    {
+      "name": "wrong_cap_hash",
+      "independent": "REJECTED",
+      "rows": "REJECTED"
+    }
+  ],
+  "count": 19
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "qualification": "candidate, unrefereed; explicit published and inherited premises",
+  "bound": "158378953776073338924201677619/79228162514264337593543950336",
+  "strict_claim": "1.9990234376",
+  "R5_upper": 50,
+  "R6_upper": 107,
+  "R7_upper": 228,
+  "R8_upper": 476,
+  "lower": "3/2",
+  "artifact_rejections": 76,
+  "manifest_sha256": "064be2eb77bdf9cd51b862f114907b2818e92850ee388cc9d8e1dfc46d8ab0f3",
+  "artifact_sha256": {
+    "caps.json": "9209fce1d1399c468769dbf020a47e3aa5283613586a5987e60b91fcc0fe95f8",
+    "lemma.json": "6c58230a374af122363d416c559fe2e7564f49c126ba7b5159c9ed20e25d7ef3",
+    "direct_r7.json": "bb82f70bcffd1932b639c10aceaf044c5891ca2bb0c836c2ffd2b584d4bb893f",
+    "allminimum.json": "183d2c84b5537b2311006ea8f825c35615fdc919fc3314870c7c652f0a153e9b"
+  },
+  "ended": "2026-11-03T07:23:32.426528+00:00"
+}

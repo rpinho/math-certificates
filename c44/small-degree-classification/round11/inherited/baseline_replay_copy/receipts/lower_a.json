@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "method": "full exact sparse expansion and Boolean square",
+  "best_lift": "3/2",
+  "seeds": [
+    {
+      "label": "parity_local_0_w2",
+      "n": 46,
+      "degree": 5,
+      "lift": "3/2"
+    },
+    {
+      "label": "parity_local_1_w2",
+      "n": 46,
+      "degree": 5,
+      "lift": "3/2"
+    },
+    {
+      "label": "parity_local_2_w3",
+      "n": 46,
+      "degree": 5,
+      "lift": "3/2"
+    },
+    {
+      "label": "parity_local_3_w3",
+      "n": 46,
+      "degree": 5,
+      "lift": "3/2"
+    },
+    {
+      "label": "parity_local_4_w4",
+      "n": 46,
+      "degree": 5,
+      "lift": "3/2"
+    },
+    {
+      "label": "parity_local_5_w4",
+      "n": 46,
+      "degree": 5,
+      "lift": "3/2"
+    },
+    {
+      "label": "parity_xi5_pairs",
+      "n": 46,
+      "degree": 5,
+      "lift": "3/2"
+    },
+    {
+      "label": "parity_xi6_local_0_w2",
+      "n": 46,
+      "degree": 5,
+      "lift": "3/2"
+    },
+    {
+      "label": "parity_xi6_local_1_w3",
+      "n": 46,
+      "degree": 5,
+      "lift": "3/2"
+    },
+    {
+      "label": "shared_selectors_0",
+      "n": 46,
+      "degree": 5,
+      "lift": "3/2"
+    },
+    {
+      "label": "shared_selectors_1",
+      "n": 46,
+      "degree": 5,
+      "lift": "3/2"
+    },
+    {
+      "label": "selector_potential_0",
+      "n": 46,
+      "degree": 5,
+      "lift": "3/2"
+    },
+    {
+      "label": "selector_potential_1",
+      "n": 46,
+      "degree": 5,
+      "lift": "3/2"
+    }
+  ]
+}

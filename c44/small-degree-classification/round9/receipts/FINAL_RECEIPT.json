@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "qualification": "candidate, unrefereed; external completeness premises explicit",
+  "manifest_sha256": "c97a1d6d3e638aeaf8950f0e26370d15d24e5cc8a79f6d70f4d45328258bace9",
+  "bound": "80058654243525646012949597587/39614081257132168796771975168",
+  "strict_claim": "2.0209645587",
+  "R5_upper": 50,
+  "R6_upper": 107,
+  "lower_bound": "3/2",
+  "classification": {
+    "a": {
+      "cases": 189,
+      "nodes": 42853514,
+      "unresolved": 0,
+      "flat_residual_rejections": 23
+    },
+    "b": {
+      "cases": 189,
+      "nodes": 43046684,
+      "unresolved": 0,
+      "flat_residual_rejections": 23
+    }
+  },
+  "artifact_rejections": 46,
+  "ended": "2026-11-03T03:56:17.132842+00:00"
+}

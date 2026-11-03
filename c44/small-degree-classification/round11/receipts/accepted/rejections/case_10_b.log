@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/root/os/math_c44r11_1103/frozen_accepted/verify_b.py", line 146, in <module>
+    assert packet['caps']=={str(d):str(Fraction(n,2**d)) for d,n in counts.items()}
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

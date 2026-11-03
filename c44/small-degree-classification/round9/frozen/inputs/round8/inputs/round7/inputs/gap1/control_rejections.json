@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "controls": [
+    {
+      "control": "false energy cap point_pair_pair",
+      "rejected": true
+    },
+    {
+      "control": "false energy cap pair_triple",
+      "rejected": true
+    },
+    {
+      "control": "false energy cap three_pairs",
+      "rejected": true
+    },
+    {
+      "control": "missing structural type",
+      "rejected": true
+    },
+    {
+      "control": "incorrect structural degree",
+      "rejected": true
+    },
+    {
+      "control": "false cubic ceiling",
+      "rejected": true
+    },
+    {
+      "control": "witness sign",
+      "rejected": true
+    },
+    {
+      "control": "witness denominator",
+      "rejected": true
+    },
+    {
+      "control": "witness mask",
+      "rejected": true
+    },
+    {
+      "control": "witness count",
+      "rejected": true
+    },
+    {
+      "control": "catalogue truth-table corruption",
+      "rejected": true
+    },
+    {
+      "control": "unjustified R4=21",
+      "rejected": true
+    },
+    {
+      "control": "false R5=52 cap",
+      "rejected": true
+    },
+    {
+      "control": "false cubic energy envelope",
+      "rejected": true
+    },
+    {
+      "control": "false equality signature",
+      "rejected": true
+    }
+  ],
+  "child_pids": [
+    5522
+  ]
+}

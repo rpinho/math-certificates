@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_b.py", line 76, in <module>
+    key=(row['n'],row['kind'],row['case_index']);assert key in canonical and key not in seen;seen.add(key)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "archive_sha256": "fdb303660c9da202d27982ec785b6190b9db840f6319f99cffe4bf27ae38e5aa",
+  "files": 876,
+  "classification": {
+    "a": {
+      "cases": 189,
+      "nodes": 42853514,
+      "unresolved": 0
+    },
+    "b": {
+      "cases": 189,
+      "nodes": 43046684,
+      "unresolved": 0
+    }
+  }
+}

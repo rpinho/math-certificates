@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/root/os/math_c44r11_1103/frozen_accepted/verify_b.py", line 86, in <module>
+    assert direct['two_bad']==dict(loss_at_most=8,top_pair_divisor=16,possible_top_energy_sums=[104,98,98])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

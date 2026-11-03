@@ -1,0 +1,135 @@
+{
+  "status": "FEASIBLE",
+  "qualification": "sampled family, exploratory, no universal exclusion",
+  "seed": 110304,
+  "controls": 12,
+  "target_degree": 6,
+  "bank_size": 9235,
+  "generation_attempts": 6092,
+  "valid_ternary_sums": 5574,
+  "bank_hash": "2aabaedb9dbef28582520176d658df4c37dff05537692ed3dfcca52714b86eae",
+  "bank_distribution": {
+    "degree2_lambda4096/4096": 1989,
+    "degree1_lambda4096/4096": 156,
+    "degree3_lambda4096/4096": 2446,
+    "degree4_lambda4096/4096": 2419,
+    "degree2_lambda8192/4096": 381,
+    "degree1_lambda8192/4096": 12,
+    "degree3_lambda8192/4096": 433,
+    "degree4_lambda6144/4096": 245,
+    "degree3_lambda6144/4096": 217,
+    "degree2_lambda6144/4096": 226,
+    "degree4_lambda8192/4096": 482,
+    "degree4_lambda7168/4096": 71,
+    "degree3_lambda7168/4096": 93,
+    "degree4_lambda7680/4096": 65
+  },
+  "seconds": 75.19084429740906,
+  "relevant_controls": 6,
+  "count": 94,
+  "asymptotic_lift": "96/64",
+  "gates": [
+    {
+      "degree": 2,
+      "used": 15,
+      "denominator": 4096,
+      "terms": [
+        [
+          "5",
+          1024
+        ],
+        [
+          "6",
+          1024
+        ],
+        [
+          "9",
+          1024
+        ],
+        [
+          "10",
+          1024
+        ]
+      ],
+      "payload_degree": 4,
+      "support_count": 1024
+    },
+    {
+      "degree": 2,
+      "used": 15,
+      "denominator": 4096,
+      "terms": [
+        [
+          "5",
+          -1024
+        ],
+        [
+          "6",
+          -1024
+        ],
+        [
+          "9",
+          1024
+        ],
+        [
+          "10",
+          1024
+        ]
+      ],
+      "payload_degree": 4,
+      "support_count": 1024
+    },
+    {
+      "degree": 2,
+      "used": 51,
+      "denominator": 4096,
+      "terms": [
+        [
+          "17",
+          -1024
+        ],
+        [
+          "18",
+          1024
+        ],
+        [
+          "33",
+          -1024
+        ],
+        [
+          "34",
+          1024
+        ]
+      ],
+      "payload_degree": 4,
+      "support_count": 1024
+    },
+    {
+      "degree": 2,
+      "used": 51,
+      "denominator": 4096,
+      "terms": [
+        [
+          "17",
+          1024
+        ],
+        [
+          "18",
+          -1024
+        ],
+        [
+          "33",
+          -1024
+        ],
+        [
+          "34",
+          1024
+        ]
+      ],
+      "payload_degree": 4,
+      "support_count": 1024
+    }
+  ],
+  "solver_objective": 94.0,
+  "solver_bound": 109870.0
+}

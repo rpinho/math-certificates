@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/root/os/math_c44r11_1103/frozen_accepted/verify_b.py", line 13, in <module>
+    assert law['statement']=='k>=4, lambda>=1 and h>2*k*lambda-1 imply lambda=1 and h=2*k'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

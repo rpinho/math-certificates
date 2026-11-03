@@ -1,0 +1,12 @@
+templates independently rebuilt 359502 seconds 6.533661635010503
+nonhomogeneous cases 31 seconds 12.915042213979177
+homogeneous case {'pairs': (0, 0, 2, 2), 'outside': 4, 'nodes': 76, 'models': 0}
+homogeneous case {'pairs': (0, 1, 1, 2), 'outside': 4, 'nodes': 19, 'models': 0}
+homogeneous case {'pairs': (0, 1, 2, 2), 'outside': 3, 'nodes': 19, 'models': 0}
+homogeneous case {'pairs': (0, 2, 2, 2), 'outside': 2, 'nodes': 117, 'models': 0}
+homogeneous case {'pairs': (1, 1, 1, 1), 'outside': 4, 'nodes': 19, 'models': 0}
+homogeneous case {'pairs': (1, 1, 1, 2), 'outside': 3, 'nodes': 19, 'models': 0}
+homogeneous case {'pairs': (1, 1, 2, 2), 'outside': 2, 'nodes': 60, 'models': 0}
+homogeneous case {'pairs': (1, 2, 2, 2), 'outside': 1, 'nodes': 73, 'models': 1}
+homogeneous case {'pairs': (2, 2, 2, 2), 'outside': 0, 'nodes': 129, 'models': 9}
+PASS quintic13 B 44.225305025000125

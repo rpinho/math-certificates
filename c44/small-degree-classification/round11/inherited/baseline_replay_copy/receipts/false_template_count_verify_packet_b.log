@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_b.py", line 16, in <module>
+    assert S['template_counts']==dict(zip(('13','14','15','16','17'),(359502,752752,1479478,2757118,4910178)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

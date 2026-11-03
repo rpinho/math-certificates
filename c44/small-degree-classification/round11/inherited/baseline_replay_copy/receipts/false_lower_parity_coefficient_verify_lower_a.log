@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_lower_a.py", line 35, in <module>
+    n,d=check(data['terms'],int(data['denominator']))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_lower_a.py", line 16, in check
+    assert {s:c for s,c in square.items() if c}=={0:denominator**2}
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

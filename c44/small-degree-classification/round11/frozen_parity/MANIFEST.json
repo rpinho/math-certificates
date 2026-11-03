@@ -1,0 +1,22 @@
+{
+  "status": "candidate, unrefereed",
+  "sha256": {
+    "BASELINE.json": "3a63b0055adc2733f324b29d79a79844909b20f9682677a9eafe36c33f88a216",
+    "PROOF.md": "b8bd3abe23cda8e6e51f258da7c0a080e0700ffac39f00ea0560e72363111ff4",
+    "allminimum.json": "183d2c84b5537b2311006ea8f825c35615fdc919fc3314870c7c652f0a153e9b",
+    "caps.json": "8a714bc0c78411071593610f9a54e7d28cc42f6b1d2640db13b874697ee0b12f",
+    "direct_r7.json": "bb82f70bcffd1932b639c10aceaf044c5891ca2bb0c836c2ffd2b584d4bb893f",
+    "lemma.json": "6c58230a374af122363d416c559fe2e7564f49c126ba7b5159c9ed20e25d7ef3",
+    "partial.json": "88de2b3434ed02cb4cfa6cf9cc39a40eb619300f911dc46a1f008510c71ee130",
+    "reject_controls.py": "0fa451970b03f528d0db942ca4cdcc844dc1d66d18152dc919ba3e0d34227ea0",
+    "reject_partial.py": "8f07a09d866ad85c23d6b2b03244b5937a14bdbe83fd8fdd0b0691bcc1fd650e",
+    "replay.py": "1f67f0da85209ecdc8c8ce541d6a8907be7e0fdaf2b7ae921b2ac602e48f74cb",
+    "verify_a.py": "baeb5f7202aa23c4e13a58611a29d23cd59f7723a3f94225043ca9e4ede57587",
+    "verify_allmin_a.cpp": "c46210f93d01679ae626dcedd356437745841b7586d395a3e158ae686ed060cd",
+    "verify_allmin_b.py": "118d158f5e6ffa801c004d2b1532443f3652f713f440f7d11b920208299b9a3b",
+    "verify_b.py": "53d9d0d1dbd165ddb6f3256212c23410966a40a7ff21c2c7aaaf578696de7f06",
+    "verify_partial_a.cpp": "81ebbc8b75bdcd4e99deb050a31e587857363d0a9e2af6fff53b2e30f442a826",
+    "verify_partial_a.py": "ac3bb5a1d15d26e66d6d1c39e0c24e0ba0a243c70d563bce92c1aec36e47d8cc",
+    "verify_partial_b.py": "1390841cde2a91614d02f989919554d7a24f3101571313102df2cb3750c57089"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "candidate, unrefereed",
+  "sha256": {
+    "BASELINE.json": "40e2f04e8ff47d5699a18b6c0300ecc643bc7f7e2917ceaa072c1f155c3c7f90",
+    "PROOF.md": "d18d7e70a3c1896cb3c1e44ed919b85e875aa2697b8aacbbcad1c42ace37cbc1",
+    "allminimum.json": "183d2c84b5537b2311006ea8f825c35615fdc919fc3314870c7c652f0a153e9b",
+    "caps.json": "9209fce1d1399c468769dbf020a47e3aa5283613586a5987e60b91fcc0fe95f8",
+    "direct_r7.json": "bb82f70bcffd1932b639c10aceaf044c5891ca2bb0c836c2ffd2b584d4bb893f",
+    "lemma.json": "6c58230a374af122363d416c559fe2e7564f49c126ba7b5159c9ed20e25d7ef3",
+    "reject_controls.py": "bb9c89feca0b3f18ce5ddbac12857a4ecd718242930ff28ffb7a121f69f65bb1",
+    "replay.py": "73e6f21d3c5887d7a33bfc842f09a167e30c2b19c458ade2f8c2d47f57238bae",
+    "verify_a.py": "42e465ee07c690cb7cc146bc94a061aaa75eb7ed072d99debfa5196156084e1d",
+    "verify_allmin_a.cpp": "c46210f93d01679ae626dcedd356437745841b7586d395a3e158ae686ed060cd",
+    "verify_allmin_b.py": "118d158f5e6ffa801c004d2b1532443f3652f713f440f7d11b920208299b9a3b",
+    "verify_b.py": "ed45b77bce0507fc682acdcb1ade7fed88031f19bdddfd1b0dd489a853ba724a"
+  }
+}

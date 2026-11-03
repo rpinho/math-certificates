@@ -1,0 +1,203 @@
+{
+  "status": "PASS",
+  "qualification": "candidate, unrefereed; explicit published and inherited premises",
+  "bound": "39449672077327653986659243787/19807040628566084398385987584",
+  "strict_claim": "1.9916994577",
+  "R5_upper": 50,
+  "R6_upper": 107,
+  "R7_upper": 227,
+  "R8_upper": 474,
+  "lower": "3/2",
+  "artifact_rejections": 120,
+  "manifest_sha256": "1f456b8be382973c1559d7f73fff3968aa3f16e7f0c1679987f471ac1e8e56cb",
+  "partial_cases": 15,
+  "partial_positive_controls": 2,
+  "scalar_positive_controls": 2,
+  "artifact_sha256": {
+    "caps.json": "8a714bc0c78411071593610f9a54e7d28cc42f6b1d2640db13b874697ee0b12f",
+    "lemma.json": "6c58230a374af122363d416c559fe2e7564f49c126ba7b5159c9ed20e25d7ef3",
+    "direct_r7.json": "bb82f70bcffd1932b639c10aceaf044c5891ca2bb0c836c2ffd2b584d4bb893f",
+    "allminimum.json": "183d2c84b5537b2311006ea8f825c35615fdc919fc3314870c7c652f0a153e9b",
+    "partial.json": "88de2b3434ed02cb4cfa6cf9cc39a40eb619300f911dc46a1f008510c71ee130"
+  },
+  "ended": "2026-11-03T09:49:01.108015+00:00",
+  "partial_results": {
+    "a_0": {
+      "case": 0,
+      "nodes": 383,
+      "unsigned_leaves": 0
+    },
+    "b_0": {
+      "case": 0,
+      "nodes": 383,
+      "unsigned_leaves": 0,
+      "seconds": 4.493824874982238
+    },
+    "a_1": {
+      "case": 1,
+      "nodes": 1605,
+      "unsigned_leaves": 0
+    },
+    "b_1": {
+      "case": 1,
+      "nodes": 1605,
+      "unsigned_leaves": 0,
+      "seconds": 13.019807208009297
+    },
+    "a_2": {
+      "case": 2,
+      "nodes": 2101,
+      "unsigned_leaves": 0
+    },
+    "b_2": {
+      "case": 2,
+      "nodes": 2101,
+      "unsigned_leaves": 0,
+      "seconds": 11.90036187498481
+    },
+    "a_3": {
+      "case": 3,
+      "nodes": 2101,
+      "unsigned_leaves": 0
+    },
+    "b_3": {
+      "case": 3,
+      "nodes": 2101,
+      "unsigned_leaves": 0,
+      "seconds": 11.93919875001302
+    },
+    "a_4": {
+      "case": 4,
+      "nodes": 1548,
+      "unsigned_leaves": 0
+    },
+    "b_4": {
+      "case": 4,
+      "nodes": 1548,
+      "unsigned_leaves": 0,
+      "seconds": 5.620797208015574
+    },
+    "a_5": {
+      "case": 5,
+      "nodes": 1548,
+      "unsigned_leaves": 0
+    },
+    "b_5": {
+      "case": 5,
+      "nodes": 1548,
+      "unsigned_leaves": 0,
+      "seconds": 5.418402124982094
+    },
+    "a_6": {
+      "case": 6,
+      "nodes": 875,
+      "unsigned_leaves": 0
+    },
+    "b_6": {
+      "case": 6,
+      "nodes": 875,
+      "unsigned_leaves": 0,
+      "seconds": 8.583595750009408
+    },
+    "a_7": {
+      "case": 7,
+      "nodes": 5703,
+      "unsigned_leaves": 0
+    },
+    "b_7": {
+      "case": 7,
+      "nodes": 5703,
+      "unsigned_leaves": 0,
+      "seconds": 49.417310707998695
+    },
+    "a_8": {
+      "case": 8,
+      "nodes": 9678,
+      "unsigned_leaves": 0
+    },
+    "b_8": {
+      "case": 8,
+      "nodes": 9678,
+      "unsigned_leaves": 0,
+      "seconds": 71.4121956670133
+    },
+    "a_9": {
+      "case": 9,
+      "nodes": 9678,
+      "unsigned_leaves": 0
+    },
+    "b_9": {
+      "case": 9,
+      "nodes": 9678,
+      "unsigned_leaves": 0,
+      "seconds": 71.4085090419976
+    },
+    "a_10": {
+      "case": 10,
+      "nodes": 11007,
+      "unsigned_leaves": 0
+    },
+    "b_10": {
+      "case": 10,
+      "nodes": 11007,
+      "unsigned_leaves": 0,
+      "seconds": 63.49623433401575
+    },
+    "a_11": {
+      "case": 11,
+      "nodes": 6944,
+      "unsigned_leaves": 0
+    },
+    "b_11": {
+      "case": 11,
+      "nodes": 6944,
+      "unsigned_leaves": 0,
+      "seconds": 27.5448495419987
+    },
+    "a_12": {
+      "case": 12,
+      "nodes": 11007,
+      "unsigned_leaves": 0
+    },
+    "b_12": {
+      "case": 12,
+      "nodes": 11007,
+      "unsigned_leaves": 0,
+      "seconds": 55.18643970799167
+    },
+    "a_13": {
+      "case": 13,
+      "nodes": 6944,
+      "unsigned_leaves": 0
+    },
+    "b_13": {
+      "case": 13,
+      "nodes": 6944,
+      "unsigned_leaves": 0,
+      "seconds": 26.39042966699344
+    },
+    "a_14": {
+      "case": 14,
+      "nodes": 6944,
+      "unsigned_leaves": 0
+    },
+    "b_14": {
+      "case": 14,
+      "nodes": 6944,
+      "unsigned_leaves": 0,
+      "seconds": 25.60552666700096
+    }
+  },
+  "partial_positives": {
+    "a": {
+      "nodes": 16,
+      "unsigned_leaves": 1
+    },
+    "b": {
+      "status": "PASS",
+      "positive": true,
+      "nodes": 16,
+      "unsigned_leaves": 1
+    }
+  }
+}

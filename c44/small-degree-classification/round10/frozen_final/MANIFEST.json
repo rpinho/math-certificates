@@ -1,0 +1,16 @@
+{
+  "schema": "c44-round10-final-frozen-v1",
+  "sha256": {
+    "BASELINE.json": "0f3dc56d2a5af380e2a35ef9ad6452a6c6667ac93a0560d1c6ccfe8d62b55d4c",
+    "BASELINE_RECEIPT.json": "ffa7f0277d68e04b1136595b83ecabf01f8aa7cb61475a30710e6593271da5c8",
+    "PROOF.md": "0df9cddd9ae736addbddc7830ab68925861f235aa57f94ab5b593c2aa19d1075",
+    "certificates/caps.json": "a46e650abb071ec5143254ebd20d494d3009accee6b0b1edc29bea453f0560b1",
+    "certificates/near_equality.json": "76485907a0d3b0574d10b0fda85d5ddeb6aa008a355e395adcc55a30ded93323",
+    "control_signs.py": "f2a19cb0ffc70c9cf810dc5aba0de94cefb47ffa8b1a81ca73af111ad9ce330f",
+    "generate_caps.py": "4681bdcd998b718768f118ceefefb248dfcb225b4709e02a5f1fecb5f0b9cc6d",
+    "reject_controls.py": "30ff171adaf6dd7d05b6602d46ad19d3084efeb10f16079415867362b0f46646",
+    "replay.py": "9daa9106cb65b98b68a10c7af94de5da8554cca7164437971f5cb4b427c3c85d",
+    "verify_a.py": "b11eb2ad8f49b444817b90490e70b3ea508fa5d9296d7b3207d5ceaca3318126",
+    "verify_b.py": "ee8d0e6580f41b7d66e257c86e1e95c6ec1a969d55fe0d93db2a94b83772bb20"
+  }
+}

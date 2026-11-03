@@ -1,0 +1,1304 @@
+{
+  "status": "PASS",
+  "method": "independent integer maxima with full grid through 16",
+  "modes": {
+    "simple": {
+      "bound": "80880411492166173705437336107/39614081257132168796771975168",
+      "rows": [
+        {
+          "degree": 5,
+          "R": 50,
+          "grid_points": 2,
+          "critical_points": 2,
+          "maximizer_grid_index": "12"
+        },
+        {
+          "degree": 6,
+          "R": 109,
+          "grid_points": 6,
+          "critical_points": 6,
+          "maximizer_grid_index": "28"
+        },
+        {
+          "degree": 7,
+          "R": 233,
+          "grid_points": 18,
+          "critical_points": 15,
+          "maximizer_grid_index": "60"
+        },
+        {
+          "degree": 8,
+          "R": 487,
+          "grid_points": 51,
+          "critical_points": 30,
+          "maximizer_grid_index": "134"
+        },
+        {
+          "degree": 9,
+          "R": 1001,
+          "grid_points": 138,
+          "critical_points": 47,
+          "maximizer_grid_index": "289"
+        },
+        {
+          "degree": 10,
+          "R": 2037,
+          "grid_points": 352,
+          "critical_points": 66,
+          "maximizer_grid_index": "641"
+        },
+        {
+          "degree": 11,
+          "R": 4117,
+          "grid_points": 865,
+          "critical_points": 89,
+          "maximizer_grid_index": "1384"
+        },
+        {
+          "degree": 12,
+          "R": 8287,
+          "grid_points": 2061,
+          "critical_points": 115,
+          "maximizer_grid_index": "3027"
+        },
+        {
+          "degree": 13,
+          "R": 16637,
+          "grid_points": 4793,
+          "critical_points": 145,
+          "maximizer_grid_index": "6528"
+        },
+        {
+          "degree": 14,
+          "R": 33349,
+          "grid_points": 10938,
+          "critical_points": 176,
+          "maximizer_grid_index": "14022"
+        },
+        {
+          "degree": 15,
+          "R": 66786,
+          "grid_points": 24592,
+          "critical_points": 212,
+          "maximizer_grid_index": "30136"
+        },
+        {
+          "degree": 16,
+          "R": 133673,
+          "grid_points": 54631,
+          "critical_points": 250,
+          "maximizer_grid_index": "63899"
+        },
+        {
+          "degree": 17,
+          "R": 267462,
+          "grid_points": null,
+          "critical_points": 291,
+          "maximizer_grid_index": "136193"
+        },
+        {
+          "degree": 18,
+          "R": 535055,
+          "grid_points": null,
+          "critical_points": 336,
+          "maximizer_grid_index": "287203"
+        },
+        {
+          "degree": 19,
+          "R": 1070258,
+          "grid_points": null,
+          "critical_points": 384,
+          "maximizer_grid_index": "608030"
+        },
+        {
+          "degree": 20,
+          "R": 2140682,
+          "grid_points": null,
+          "critical_points": 434,
+          "maximizer_grid_index": "1283127"
+        },
+        {
+          "degree": 21,
+          "R": 4281548,
+          "grid_points": null,
+          "critical_points": 488,
+          "maximizer_grid_index": "2693530"
+        },
+        {
+          "degree": 22,
+          "R": 8563300,
+          "grid_points": null,
+          "critical_points": 546,
+          "maximizer_grid_index": "5642339"
+        },
+        {
+          "degree": 23,
+          "R": 17126824,
+          "grid_points": null,
+          "critical_points": 605,
+          "maximizer_grid_index": "11796480"
+        },
+        {
+          "degree": 24,
+          "R": 34253894,
+          "grid_points": null,
+          "critical_points": 669,
+          "maximizer_grid_index": "24618742"
+        },
+        {
+          "degree": 25,
+          "R": 68508056,
+          "grid_points": null,
+          "critical_points": 735,
+          "maximizer_grid_index": "51205463"
+        },
+        {
+          "degree": 26,
+          "R": 137016404,
+          "grid_points": null,
+          "critical_points": 804,
+          "maximizer_grid_index": "106703095"
+        },
+        {
+          "degree": 27,
+          "R": 274033124,
+          "grid_points": null,
+          "critical_points": 877,
+          "maximizer_grid_index": "221652835"
+        },
+        {
+          "degree": 28,
+          "R": 548066590,
+          "grid_points": null,
+          "critical_points": 953,
+          "maximizer_grid_index": "459819996"
+        },
+        {
+          "degree": 29,
+          "R": 1096133548,
+          "grid_points": null,
+          "critical_points": 1031,
+          "maximizer_grid_index": "952706195"
+        },
+        {
+          "degree": 30,
+          "R": 2192267492,
+          "grid_points": null,
+          "critical_points": 1113,
+          "maximizer_grid_index": "1971612144"
+        },
+        {
+          "degree": 31,
+          "R": 4384535408,
+          "grid_points": null,
+          "critical_points": 1199,
+          "maximizer_grid_index": "4071271084"
+        },
+        {
+          "degree": 32,
+          "R": 8769071269,
+          "grid_points": null,
+          "critical_points": 1286,
+          "maximizer_grid_index": "8399432012"
+        },
+        {
+          "degree": 33,
+          "R": 17538143022,
+          "grid_points": null,
+          "critical_points": 1378,
+          "maximizer_grid_index": "17347641345"
+        },
+        {
+          "degree": 34,
+          "R": 35076286559,
+          "grid_points": null,
+          "critical_points": 1472,
+          "maximizer_grid_index": "35726318873"
+        },
+        {
+          "degree": 35,
+          "R": 70152573665,
+          "grid_points": null,
+          "critical_points": 1569,
+          "maximizer_grid_index": "73519734304"
+        },
+        {
+          "degree": 36,
+          "R": 140305147911,
+          "grid_points": null,
+          "critical_points": 1670,
+          "maximizer_grid_index": "151428275523"
+        },
+        {
+          "degree": 37,
+          "R": 280610296437,
+          "grid_points": null,
+          "critical_points": 1774,
+          "maximizer_grid_index": "311146519667"
+        },
+        {
+          "degree": 38,
+          "R": 561220593524,
+          "grid_points": null,
+          "critical_points": 1880,
+          "maximizer_grid_index": "639369726119"
+        },
+        {
+          "degree": 39,
+          "R": 1122441187734,
+          "grid_points": null,
+          "critical_points": 1990,
+          "maximizer_grid_index": "1311095279833"
+        },
+        {
+          "degree": 40,
+          "R": 2244882376192,
+          "grid_points": null,
+          "critical_points": 2104,
+          "maximizer_grid_index": "2692393857761"
+        },
+        {
+          "degree": 41,
+          "R": 4489764753146,
+          "grid_points": null,
+          "critical_points": 2219,
+          "maximizer_grid_index": "5518173981902"
+        },
+        {
+          "degree": 42,
+          "R": 8979529507093,
+          "grid_points": null,
+          "critical_points": 2339,
+          "maximizer_grid_index": "11303515880674"
+        },
+        {
+          "degree": 43,
+          "R": 17959059015027,
+          "grid_points": null,
+          "critical_points": 2461,
+          "maximizer_grid_index": "23142101879858"
+        },
+        {
+          "degree": 44,
+          "R": 35918118030936,
+          "grid_points": null,
+          "critical_points": 2586,
+          "maximizer_grid_index": "47355710107935"
+        },
+        {
+          "degree": 45,
+          "R": 71836236062796,
+          "grid_points": null,
+          "critical_points": 2715,
+          "maximizer_grid_index": "96856978846815"
+        },
+        {
+          "degree": 46,
+          "R": 143672472126559,
+          "grid_points": null,
+          "critical_points": 2847,
+          "maximizer_grid_index": "198009827366595"
+        },
+        {
+          "degree": 47,
+          "R": 287344944254129,
+          "grid_points": null,
+          "critical_points": 2981,
+          "maximizer_grid_index": "404620279021569"
+        },
+        {
+          "degree": 48,
+          "R": 574689888509314,
+          "grid_points": null,
+          "critical_points": 3119,
+          "maximizer_grid_index": "826458442256821"
+        },
+        {
+          "degree": 49,
+          "R": 1149379777019730,
+          "grid_points": null,
+          "critical_points": 3261,
+          "maximizer_grid_index": "1687383844760236"
+        },
+        {
+          "degree": 50,
+          "R": 2298759554040609,
+          "grid_points": null,
+          "critical_points": 3404,
+          "maximizer_grid_index": "3443760174245681"
+        },
+        {
+          "degree": 51,
+          "R": 4597519108082415,
+          "grid_points": null,
+          "critical_points": 3552,
+          "maximizer_grid_index": "7025615418697975"
+        },
+        {
+          "degree": 52,
+          "R": 9195038216166076,
+          "grid_points": null,
+          "critical_points": 3702,
+          "maximizer_grid_index": "14327628226291432"
+        },
+        {
+          "degree": 53,
+          "R": 18390076432333448,
+          "grid_points": null,
+          "critical_points": 3855,
+          "maximizer_grid_index": "29208441814051920"
+        },
+        {
+          "degree": 54,
+          "R": 36780152864668243,
+          "grid_points": null,
+          "critical_points": 4012,
+          "maximizer_grid_index": "59523991301377972"
+        },
+        {
+          "degree": 55,
+          "R": 73560305729337885,
+          "grid_points": null,
+          "critical_points": 4172,
+          "maximizer_grid_index": "121263589966605579"
+        },
+        {
+          "degree": 56,
+          "R": 147120611458677222,
+          "grid_points": null,
+          "critical_points": 4334,
+          "maximizer_grid_index": "246961026839080291"
+        },
+        {
+          "degree": 57,
+          "R": 294241222917355950,
+          "grid_points": null,
+          "critical_points": 4500,
+          "maximizer_grid_index": "502794729827148948"
+        },
+        {
+          "degree": 58,
+          "R": 588482445834713461,
+          "grid_points": null,
+          "critical_points": 4670,
+          "maximizer_grid_index": "1023344252170222180"
+        },
+        {
+          "degree": 59,
+          "R": 1176964891669428539,
+          "grid_points": null,
+          "critical_points": 4841,
+          "maximizer_grid_index": "2082215993233917600"
+        },
+        {
+          "degree": 60,
+          "R": 2353929783338858751,
+          "grid_points": null,
+          "critical_points": 5017,
+          "maximizer_grid_index": "4233078320939969937"
+        },
+        {
+          "degree": 61,
+          "R": 4707859566677719233,
+          "grid_points": null,
+          "critical_points": 5195,
+          "maximizer_grid_index": "8610882487532388352"
+        },
+        {
+          "degree": 62,
+          "R": 9415719133355440256,
+          "grid_points": null,
+          "critical_points": 5376,
+          "maximizer_grid_index": "17501726446982627867"
+        },
+        {
+          "degree": 63,
+          "R": 18831438266710882362,
+          "grid_points": null,
+          "critical_points": 5561,
+          "maximizer_grid_index": "35573207069562875245"
+        },
+        {
+          "degree": 64,
+          "R": 37662876533421766634,
+          "grid_points": null,
+          "critical_points": 5749,
+          "maximizer_grid_index": "72249747622029077164"
+        },
+        {
+          "degree": 65,
+          "R": 75325753066843535240,
+          "grid_points": null,
+          "critical_points": 5939,
+          "maximizer_grid_index": "146781319055259205633"
+        },
+        {
+          "degree": 66,
+          "R": 150651506133687072515,
+          "grid_points": null,
+          "critical_points": 6133,
+          "maximizer_grid_index": "298127763837413599580"
+        },
+        {
+          "degree": 67,
+          "R": 301303012267374147128,
+          "grid_points": null,
+          "critical_points": 6331,
+          "maximizer_grid_index": "605109104842139079526"
+        },
+        {
+          "degree": 68,
+          "R": 602606024534748296419,
+          "grid_points": null,
+          "critical_points": 6530,
+          "maximizer_grid_index": "1228498090401373422548"
+        },
+        {
+          "degree": 69,
+          "R": 1205212049069496595067,
+          "grid_points": null,
+          "critical_points": 6734,
+          "maximizer_grid_index": "2493565757728502918447"
+        },
+        {
+          "degree": 70,
+          "R": 2410424098138993192429,
+          "grid_points": null,
+          "critical_points": 6940,
+          "maximizer_grid_index": "5059220070302602243206"
+        },
+        {
+          "degree": 71,
+          "R": 4820848196277986387221,
+          "grid_points": null,
+          "critical_points": 7149,
+          "maximizer_grid_index": "10262714302950639687623"
+        },
+        {
+          "degree": 72,
+          "R": 9641696392555972776873,
+          "grid_points": null,
+          "critical_points": 7362,
+          "maximizer_grid_index": "20814162834267881676916"
+        },
+        {
+          "degree": 73,
+          "R": 19283392785111945556247,
+          "grid_points": null,
+          "critical_points": 7578,
+          "maximizer_grid_index": "42206150440647454097409"
+        },
+        {
+          "degree": 74,
+          "R": 38566785570223891115065,
+          "grid_points": null,
+          "critical_points": 7796,
+          "maximizer_grid_index": "85552461282124736919357"
+        },
+        {
+          "degree": 75,
+          "R": 77133571140447782232773,
+          "grid_points": null,
+          "critical_points": 8018,
+          "maximizer_grid_index": "173451244600536428254403"
+        },
+        {
+          "degree": 76,
+          "R": 154267142280895564468261,
+          "grid_points": null,
+          "critical_points": 8244,
+          "maximizer_grid_index": "351532960984816389707531"
+        },
+        {
+          "degree": 77,
+          "R": 308534284561791128939311,
+          "grid_points": null,
+          "critical_points": 8471,
+          "maximizer_grid_index": "712331702100231746444882"
+        },
+        {
+          "degree": 78,
+          "R": 617068569123582257881485,
+          "grid_points": null,
+          "critical_points": 8703,
+          "maximizer_grid_index": "1443204260712837547645381"
+        },
+        {
+          "degree": 79,
+          "R": 1234137138247164515765909,
+          "grid_points": null,
+          "critical_points": 8937,
+          "maximizer_grid_index": "2923508111856531129217341"
+        },
+        {
+          "degree": 80,
+          "R": 2468274276494329031534833,
+          "grid_points": null,
+          "critical_points": 9174,
+          "maximizer_grid_index": "5920293372954552683094329"
+        },
+        {
+          "degree": 81,
+          "R": 4936548552988658063072758,
+          "grid_points": null,
+          "critical_points": 9415,
+          "maximizer_grid_index": "11987255080116307410445928"
+        },
+        {
+          "degree": 82,
+          "R": 9873097105977316126148687,
+          "grid_points": null,
+          "critical_points": 9659,
+          "maximizer_grid_index": "24275528958064127810612289"
+        },
+        {
+          "degree": 83,
+          "R": 19746194211954632252300624,
+          "grid_points": null,
+          "critical_points": 9905,
+          "maximizer_grid_index": "49138411667994622430435180"
+        },
+        {
+          "degree": 84,
+          "R": 39492388423909264504604578,
+          "grid_points": null,
+          "critical_points": 10155,
+          "maximizer_grid_index": "99452355377454072348117709"
+        },
+        {
+          "degree": 85,
+          "R": 78984776847818529009212568,
+          "grid_points": null,
+          "critical_points": 10409,
+          "maximizer_grid_index": "201314932913921820187976072"
+        },
+        {
+          "degree": 86,
+          "R": 157969553695637058018428630,
+          "grid_points": null,
+          "critical_points": 10664,
+          "maximizer_grid_index": "407336887926623288983351538"
+        },
+        {
+          "degree": 87,
+          "R": 315939107391274116036860837,
+          "grid_points": null,
+          "critical_points": 10924,
+          "maximizer_grid_index": "824206263437731834550843154"
+        },
+        {
+          "degree": 88,
+          "R": 631878214782548232073725335,
+          "grid_points": null,
+          "critical_points": 11186,
+          "maximizer_grid_index": "1667039226753193480817822098"
+        },
+        {
+          "degree": 89,
+          "R": 1263756429565096464147454417,
+          "grid_points": null,
+          "critical_points": 11451,
+          "maximizer_grid_index": "3372683232030340010307557191"
+        },
+        {
+          "degree": 90,
+          "R": 2527512859130192928294912667,
+          "grid_points": null,
+          "critical_points": 11720,
+          "maximizer_grid_index": "6820840974882790475322000466"
+        },
+        {
+          "degree": 91,
+          "R": 5055025718260385856589829254,
+          "grid_points": null,
+          "critical_points": 11992,
+          "maximizer_grid_index": "13792715271037945229501075731"
+        },
+        {
+          "degree": 92,
+          "R": 10110051436520771713179662516,
+          "grid_points": null,
+          "critical_points": 12266,
+          "maximizer_grid_index": "27887660225659665533441809443"
+        },
+        {
+          "degree": 93,
+          "R": 20220102873041543426359329129,
+          "grid_points": null,
+          "critical_points": 12544,
+          "maximizer_grid_index": "56380095267453732085079679334"
+        },
+        {
+          "degree": 94,
+          "R": 40440205746083086852718662445,
+          "grid_points": null,
+          "critical_points": 12826,
+          "maximizer_grid_index": "113970350713563719502003243076"
+        },
+        {
+          "degree": 95,
+          "R": 80880411492166173705437329168,
+          "grid_points": null,
+          "critical_points": 13109,
+          "maximizer_grid_index": "230362203906168848601441286451"
+        },
+        {
+          "degree": 96,
+          "R": 161760822984332347410874662706,
+          "grid_points": null,
+          "critical_points": 13397,
+          "maximizer_grid_index": "465569702353558594332588529213"
+        }
+      ]
+    },
+    "sharp": {
+      "bound": "80880411492166173705437336107/39614081257132168796771975168",
+      "rows": [
+        {
+          "degree": 5,
+          "R": 50,
+          "grid_points": 2,
+          "critical_points": 2,
+          "maximizer_grid_index": "8"
+        },
+        {
+          "degree": 6,
+          "R": 109,
+          "grid_points": 6,
+          "critical_points": 6,
+          "maximizer_grid_index": "28"
+        },
+        {
+          "degree": 7,
+          "R": 233,
+          "grid_points": 18,
+          "critical_points": 15,
+          "maximizer_grid_index": "60"
+        },
+        {
+          "degree": 8,
+          "R": 487,
+          "grid_points": 51,
+          "critical_points": 30,
+          "maximizer_grid_index": "134"
+        },
+        {
+          "degree": 9,
+          "R": 1001,
+          "grid_points": 138,
+          "critical_points": 47,
+          "maximizer_grid_index": "289"
+        },
+        {
+          "degree": 10,
+          "R": 2037,
+          "grid_points": 352,
+          "critical_points": 66,
+          "maximizer_grid_index": "641"
+        },
+        {
+          "degree": 11,
+          "R": 4117,
+          "grid_points": 865,
+          "critical_points": 89,
+          "maximizer_grid_index": "1384"
+        },
+        {
+          "degree": 12,
+          "R": 8287,
+          "grid_points": 2061,
+          "critical_points": 115,
+          "maximizer_grid_index": "3027"
+        },
+        {
+          "degree": 13,
+          "R": 16637,
+          "grid_points": 4793,
+          "critical_points": 145,
+          "maximizer_grid_index": "6528"
+        },
+        {
+          "degree": 14,
+          "R": 33349,
+          "grid_points": 10938,
+          "critical_points": 176,
+          "maximizer_grid_index": "14022"
+        },
+        {
+          "degree": 15,
+          "R": 66786,
+          "grid_points": 24592,
+          "critical_points": 212,
+          "maximizer_grid_index": "30136"
+        },
+        {
+          "degree": 16,
+          "R": 133673,
+          "grid_points": 54631,
+          "critical_points": 250,
+          "maximizer_grid_index": "63899"
+        },
+        {
+          "degree": 17,
+          "R": 267462,
+          "grid_points": null,
+          "critical_points": 291,
+          "maximizer_grid_index": "136193"
+        },
+        {
+          "degree": 18,
+          "R": 535055,
+          "grid_points": null,
+          "critical_points": 336,
+          "maximizer_grid_index": "287203"
+        },
+        {
+          "degree": 19,
+          "R": 1070258,
+          "grid_points": null,
+          "critical_points": 384,
+          "maximizer_grid_index": "608030"
+        },
+        {
+          "degree": 20,
+          "R": 2140682,
+          "grid_points": null,
+          "critical_points": 434,
+          "maximizer_grid_index": "1283127"
+        },
+        {
+          "degree": 21,
+          "R": 4281548,
+          "grid_points": null,
+          "critical_points": 488,
+          "maximizer_grid_index": "2693530"
+        },
+        {
+          "degree": 22,
+          "R": 8563300,
+          "grid_points": null,
+          "critical_points": 546,
+          "maximizer_grid_index": "5642339"
+        },
+        {
+          "degree": 23,
+          "R": 17126824,
+          "grid_points": null,
+          "critical_points": 605,
+          "maximizer_grid_index": "11796480"
+        },
+        {
+          "degree": 24,
+          "R": 34253894,
+          "grid_points": null,
+          "critical_points": 669,
+          "maximizer_grid_index": "24618742"
+        },
+        {
+          "degree": 25,
+          "R": 68508056,
+          "grid_points": null,
+          "critical_points": 735,
+          "maximizer_grid_index": "51205463"
+        },
+        {
+          "degree": 26,
+          "R": 137016404,
+          "grid_points": null,
+          "critical_points": 804,
+          "maximizer_grid_index": "106703095"
+        },
+        {
+          "degree": 27,
+          "R": 274033124,
+          "grid_points": null,
+          "critical_points": 877,
+          "maximizer_grid_index": "221652835"
+        },
+        {
+          "degree": 28,
+          "R": 548066590,
+          "grid_points": null,
+          "critical_points": 953,
+          "maximizer_grid_index": "459819996"
+        },
+        {
+          "degree": 29,
+          "R": 1096133548,
+          "grid_points": null,
+          "critical_points": 1031,
+          "maximizer_grid_index": "952706195"
+        },
+        {
+          "degree": 30,
+          "R": 2192267492,
+          "grid_points": null,
+          "critical_points": 1113,
+          "maximizer_grid_index": "1971612144"
+        },
+        {
+          "degree": 31,
+          "R": 4384535408,
+          "grid_points": null,
+          "critical_points": 1199,
+          "maximizer_grid_index": "4071271084"
+        },
+        {
+          "degree": 32,
+          "R": 8769071269,
+          "grid_points": null,
+          "critical_points": 1286,
+          "maximizer_grid_index": "8399432012"
+        },
+        {
+          "degree": 33,
+          "R": 17538143022,
+          "grid_points": null,
+          "critical_points": 1378,
+          "maximizer_grid_index": "17347641345"
+        },
+        {
+          "degree": 34,
+          "R": 35076286559,
+          "grid_points": null,
+          "critical_points": 1472,
+          "maximizer_grid_index": "35726318873"
+        },
+        {
+          "degree": 35,
+          "R": 70152573665,
+          "grid_points": null,
+          "critical_points": 1569,
+          "maximizer_grid_index": "73519734304"
+        },
+        {
+          "degree": 36,
+          "R": 140305147911,
+          "grid_points": null,
+          "critical_points": 1670,
+          "maximizer_grid_index": "151428275523"
+        },
+        {
+          "degree": 37,
+          "R": 280610296437,
+          "grid_points": null,
+          "critical_points": 1774,
+          "maximizer_grid_index": "311146519667"
+        },
+        {
+          "degree": 38,
+          "R": 561220593524,
+          "grid_points": null,
+          "critical_points": 1880,
+          "maximizer_grid_index": "639369726119"
+        },
+        {
+          "degree": 39,
+          "R": 1122441187734,
+          "grid_points": null,
+          "critical_points": 1990,
+          "maximizer_grid_index": "1311095279833"
+        },
+        {
+          "degree": 40,
+          "R": 2244882376192,
+          "grid_points": null,
+          "critical_points": 2104,
+          "maximizer_grid_index": "2692393857761"
+        },
+        {
+          "degree": 41,
+          "R": 4489764753146,
+          "grid_points": null,
+          "critical_points": 2219,
+          "maximizer_grid_index": "5518173981902"
+        },
+        {
+          "degree": 42,
+          "R": 8979529507093,
+          "grid_points": null,
+          "critical_points": 2339,
+          "maximizer_grid_index": "11303515880674"
+        },
+        {
+          "degree": 43,
+          "R": 17959059015027,
+          "grid_points": null,
+          "critical_points": 2461,
+          "maximizer_grid_index": "23142101879858"
+        },
+        {
+          "degree": 44,
+          "R": 35918118030936,
+          "grid_points": null,
+          "critical_points": 2586,
+          "maximizer_grid_index": "47355710107935"
+        },
+        {
+          "degree": 45,
+          "R": 71836236062796,
+          "grid_points": null,
+          "critical_points": 2715,
+          "maximizer_grid_index": "96856978846815"
+        },
+        {
+          "degree": 46,
+          "R": 143672472126559,
+          "grid_points": null,
+          "critical_points": 2847,
+          "maximizer_grid_index": "198009827366595"
+        },
+        {
+          "degree": 47,
+          "R": 287344944254129,
+          "grid_points": null,
+          "critical_points": 2981,
+          "maximizer_grid_index": "404620279021569"
+        },
+        {
+          "degree": 48,
+          "R": 574689888509314,
+          "grid_points": null,
+          "critical_points": 3119,
+          "maximizer_grid_index": "826458442256821"
+        },
+        {
+          "degree": 49,
+          "R": 1149379777019730,
+          "grid_points": null,
+          "critical_points": 3261,
+          "maximizer_grid_index": "1687383844760236"
+        },
+        {
+          "degree": 50,
+          "R": 2298759554040609,
+          "grid_points": null,
+          "critical_points": 3404,
+          "maximizer_grid_index": "3443760174245681"
+        },
+        {
+          "degree": 51,
+          "R": 4597519108082415,
+          "grid_points": null,
+          "critical_points": 3552,
+          "maximizer_grid_index": "7025615418697975"
+        },
+        {
+          "degree": 52,
+          "R": 9195038216166076,
+          "grid_points": null,
+          "critical_points": 3702,
+          "maximizer_grid_index": "14327628226291432"
+        },
+        {
+          "degree": 53,
+          "R": 18390076432333448,
+          "grid_points": null,
+          "critical_points": 3855,
+          "maximizer_grid_index": "29208441814051920"
+        },
+        {
+          "degree": 54,
+          "R": 36780152864668243,
+          "grid_points": null,
+          "critical_points": 4012,
+          "maximizer_grid_index": "59523991301377972"
+        },
+        {
+          "degree": 55,
+          "R": 73560305729337885,
+          "grid_points": null,
+          "critical_points": 4172,
+          "maximizer_grid_index": "121263589966605579"
+        },
+        {
+          "degree": 56,
+          "R": 147120611458677222,
+          "grid_points": null,
+          "critical_points": 4334,
+          "maximizer_grid_index": "246961026839080291"
+        },
+        {
+          "degree": 57,
+          "R": 294241222917355950,
+          "grid_points": null,
+          "critical_points": 4500,
+          "maximizer_grid_index": "502794729827148948"
+        },
+        {
+          "degree": 58,
+          "R": 588482445834713461,
+          "grid_points": null,
+          "critical_points": 4670,
+          "maximizer_grid_index": "1023344252170222180"
+        },
+        {
+          "degree": 59,
+          "R": 1176964891669428539,
+          "grid_points": null,
+          "critical_points": 4841,
+          "maximizer_grid_index": "2082215993233917600"
+        },
+        {
+          "degree": 60,
+          "R": 2353929783338858751,
+          "grid_points": null,
+          "critical_points": 5017,
+          "maximizer_grid_index": "4233078320939969937"
+        },
+        {
+          "degree": 61,
+          "R": 4707859566677719233,
+          "grid_points": null,
+          "critical_points": 5195,
+          "maximizer_grid_index": "8610882487532388352"
+        },
+        {
+          "degree": 62,
+          "R": 9415719133355440256,
+          "grid_points": null,
+          "critical_points": 5376,
+          "maximizer_grid_index": "17501726446982627867"
+        },
+        {
+          "degree": 63,
+          "R": 18831438266710882362,
+          "grid_points": null,
+          "critical_points": 5561,
+          "maximizer_grid_index": "35573207069562875245"
+        },
+        {
+          "degree": 64,
+          "R": 37662876533421766634,
+          "grid_points": null,
+          "critical_points": 5749,
+          "maximizer_grid_index": "72249747622029077164"
+        },
+        {
+          "degree": 65,
+          "R": 75325753066843535240,
+          "grid_points": null,
+          "critical_points": 5939,
+          "maximizer_grid_index": "146781319055259205633"
+        },
+        {
+          "degree": 66,
+          "R": 150651506133687072515,
+          "grid_points": null,
+          "critical_points": 6133,
+          "maximizer_grid_index": "298127763837413599580"
+        },
+        {
+          "degree": 67,
+          "R": 301303012267374147128,
+          "grid_points": null,
+          "critical_points": 6331,
+          "maximizer_grid_index": "605109104842139079526"
+        },
+        {
+          "degree": 68,
+          "R": 602606024534748296419,
+          "grid_points": null,
+          "critical_points": 6530,
+          "maximizer_grid_index": "1228498090401373422548"
+        },
+        {
+          "degree": 69,
+          "R": 1205212049069496595067,
+          "grid_points": null,
+          "critical_points": 6734,
+          "maximizer_grid_index": "2493565757728502918447"
+        },
+        {
+          "degree": 70,
+          "R": 2410424098138993192429,
+          "grid_points": null,
+          "critical_points": 6940,
+          "maximizer_grid_index": "5059220070302602243206"
+        },
+        {
+          "degree": 71,
+          "R": 4820848196277986387221,
+          "grid_points": null,
+          "critical_points": 7149,
+          "maximizer_grid_index": "10262714302950639687623"
+        },
+        {
+          "degree": 72,
+          "R": 9641696392555972776873,
+          "grid_points": null,
+          "critical_points": 7362,
+          "maximizer_grid_index": "20814162834267881676916"
+        },
+        {
+          "degree": 73,
+          "R": 19283392785111945556247,
+          "grid_points": null,
+          "critical_points": 7578,
+          "maximizer_grid_index": "42206150440647454097409"
+        },
+        {
+          "degree": 74,
+          "R": 38566785570223891115065,
+          "grid_points": null,
+          "critical_points": 7796,
+          "maximizer_grid_index": "85552461282124736919357"
+        },
+        {
+          "degree": 75,
+          "R": 77133571140447782232773,
+          "grid_points": null,
+          "critical_points": 8018,
+          "maximizer_grid_index": "173451244600536428254403"
+        },
+        {
+          "degree": 76,
+          "R": 154267142280895564468261,
+          "grid_points": null,
+          "critical_points": 8244,
+          "maximizer_grid_index": "351532960984816389707531"
+        },
+        {
+          "degree": 77,
+          "R": 308534284561791128939311,
+          "grid_points": null,
+          "critical_points": 8471,
+          "maximizer_grid_index": "712331702100231746444882"
+        },
+        {
+          "degree": 78,
+          "R": 617068569123582257881485,
+          "grid_points": null,
+          "critical_points": 8703,
+          "maximizer_grid_index": "1443204260712837547645381"
+        },
+        {
+          "degree": 79,
+          "R": 1234137138247164515765909,
+          "grid_points": null,
+          "critical_points": 8937,
+          "maximizer_grid_index": "2923508111856531129217341"
+        },
+        {
+          "degree": 80,
+          "R": 2468274276494329031534833,
+          "grid_points": null,
+          "critical_points": 9174,
+          "maximizer_grid_index": "5920293372954552683094329"
+        },
+        {
+          "degree": 81,
+          "R": 4936548552988658063072758,
+          "grid_points": null,
+          "critical_points": 9415,
+          "maximizer_grid_index": "11987255080116307410445928"
+        },
+        {
+          "degree": 82,
+          "R": 9873097105977316126148687,
+          "grid_points": null,
+          "critical_points": 9659,
+          "maximizer_grid_index": "24275528958064127810612289"
+        },
+        {
+          "degree": 83,
+          "R": 19746194211954632252300624,
+          "grid_points": null,
+          "critical_points": 9905,
+          "maximizer_grid_index": "49138411667994622430435180"
+        },
+        {
+          "degree": 84,
+          "R": 39492388423909264504604578,
+          "grid_points": null,
+          "critical_points": 10155,
+          "maximizer_grid_index": "99452355377454072348117709"
+        },
+        {
+          "degree": 85,
+          "R": 78984776847818529009212568,
+          "grid_points": null,
+          "critical_points": 10409,
+          "maximizer_grid_index": "201314932913921820187976072"
+        },
+        {
+          "degree": 86,
+          "R": 157969553695637058018428630,
+          "grid_points": null,
+          "critical_points": 10664,
+          "maximizer_grid_index": "407336887926623288983351538"
+        },
+        {
+          "degree": 87,
+          "R": 315939107391274116036860837,
+          "grid_points": null,
+          "critical_points": 10924,
+          "maximizer_grid_index": "824206263437731834550843154"
+        },
+        {
+          "degree": 88,
+          "R": 631878214782548232073725335,
+          "grid_points": null,
+          "critical_points": 11186,
+          "maximizer_grid_index": "1667039226753193480817822098"
+        },
+        {
+          "degree": 89,
+          "R": 1263756429565096464147454417,
+          "grid_points": null,
+          "critical_points": 11451,
+          "maximizer_grid_index": "3372683232030340010307557191"
+        },
+        {
+          "degree": 90,
+          "R": 2527512859130192928294912667,
+          "grid_points": null,
+          "critical_points": 11720,
+          "maximizer_grid_index": "6820840974882790475322000466"
+        },
+        {
+          "degree": 91,
+          "R": 5055025718260385856589829254,
+          "grid_points": null,
+          "critical_points": 11992,
+          "maximizer_grid_index": "13792715271037945229501075731"
+        },
+        {
+          "degree": 92,
+          "R": 10110051436520771713179662516,
+          "grid_points": null,
+          "critical_points": 12266,
+          "maximizer_grid_index": "27887660225659665533441809443"
+        },
+        {
+          "degree": 93,
+          "R": 20220102873041543426359329129,
+          "grid_points": null,
+          "critical_points": 12544,
+          "maximizer_grid_index": "56380095267453732085079679334"
+        },
+        {
+          "degree": 94,
+          "R": 40440205746083086852718662445,
+          "grid_points": null,
+          "critical_points": 12826,
+          "maximizer_grid_index": "113970350713563719502003243076"
+        },
+        {
+          "degree": 95,
+          "R": 80880411492166173705437329168,
+          "grid_points": null,
+          "critical_points": 13109,
+          "maximizer_grid_index": "230362203906168848601441286451"
+        },
+        {
+          "degree": 96,
+          "R": 161760822984332347410874662706,
+          "grid_points": null,
+          "critical_points": 13397,
+          "maximizer_grid_index": "465569702353558594332588529213"
+        }
+      ]
+    }
+  }
+}

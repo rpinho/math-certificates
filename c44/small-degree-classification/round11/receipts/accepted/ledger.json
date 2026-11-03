@@ -1,0 +1,64 @@
+{
+  "pid": 167917,
+  "started": "2026-11-03T07:22:19.258213+00:00",
+  "steps": [
+    {
+      "label": "compile_allmin",
+      "pid": 167919,
+      "command": [
+        "g++",
+        "-O3",
+        "-std=c++17",
+        "/root/os/math_c44r11_1103/frozen_accepted/verify_allmin_a.cpp",
+        "-o",
+        "/root/os/math_c44r11_1103/build/verify_allmin_a"
+      ],
+      "started": 1793690539.2595825,
+      "code": 0,
+      "seconds": 1.268476963043213
+    },
+    {
+      "label": "verify_b",
+      "pid": 167928,
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/frozen_accepted/verify_b.py",
+        "/root/os/math_c44r11_1103/frozen_accepted",
+        "--out",
+        "/root/os/math_c44r11_1103/receipts/accepted/verify_b.json"
+      ],
+      "started": 1793690540.533009,
+      "code": 0,
+      "seconds": 2.1696650981903076
+    },
+    {
+      "label": "verify_a",
+      "pid": 167927,
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/frozen_accepted/verify_a.py",
+        "/root/os/math_c44r11_1103/frozen_accepted",
+        "--out",
+        "/root/os/math_c44r11_1103/receipts/accepted/verify_a.json"
+      ],
+      "started": 1793690540.5351715,
+      "code": 0,
+      "seconds": 21.63776397705078
+    },
+    {
+      "label": "rejections",
+      "pid": 167969,
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/frozen_accepted/reject_controls.py",
+        "/root/os/math_c44r11_1103/frozen_accepted",
+        "/root/os/math_c44r11_1103/receipts/accepted/rejections"
+      ],
+      "started": 1793690562.176752,
+      "code": 0,
+      "seconds": 50.06624937057495
+    }
+  ],
+  "status": "PASS",
+  "ended": "2026-11-03T07:23:32.426923+00:00"
+}

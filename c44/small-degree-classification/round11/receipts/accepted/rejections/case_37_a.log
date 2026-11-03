@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/root/os/math_c44r11_1103/frozen_accepted/verify_a.py", line 103, in <module>
+    assert given_seed==dict(distinguished=0,pairs=[[1+2*j,2+2*j] for j in range(5)],terms=sorted(1|sum(1<<(1+2*j+((choice>>j)&1)) for j in range(5)) for choice in range(32)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "case_count": 113,
+  "rows": [
+    {
+      "d": 4,
+      "types": 7,
+      "worst_minimum_R": 24,
+      "all_other_minimum_R_at_most": 23,
+      "worst_type": "phi_2^3"
+    },
+    {
+      "d": 5,
+      "types": 12,
+      "worst_minimum_R": 54,
+      "all_other_minimum_R_at_most": 53,
+      "worst_type": "phi_2^4"
+    },
+    {
+      "d": 6,
+      "types": 19,
+      "worst_minimum_R": 115,
+      "all_other_minimum_R_at_most": 114,
+      "worst_type": "phi_2^5"
+    },
+    {
+      "d": 7,
+      "types": 30,
+      "worst_minimum_R": 265,
+      "all_other_minimum_R_at_most": 264,
+      "worst_type": "phi_2^6"
+    },
+    {
+      "d": 8,
+      "types": 45,
+      "worst_minimum_R": 606,
+      "all_other_minimum_R_at_most": 605,
+      "worst_type": "phi_2^7"
+    }
+  ]
+}

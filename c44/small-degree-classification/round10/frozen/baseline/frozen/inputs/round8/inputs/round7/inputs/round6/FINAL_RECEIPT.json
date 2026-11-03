@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "mathematical_status": "candidate, unrefereed",
+  "utc": "2026-11-01T21:23:22.284860+00:00",
+  "manifest_sha256": "a0ce1dfe27cfffaf7b38a5deb7a896191e8c286a5abf9854215f91d0eec86058",
+  "static_hashes_checked": 57,
+  "bound": "174098727923678791596986402933/79228162514264337593543950336",
+  "both_independent_implementations_agree": true,
+  "runtime_hashes": {
+    "verification_a.json": "ff1494f3528e34c932f2ed356ef7c17bce2a9a3ab42f9cbabd06668a502d553d",
+    "verification_b.json": "2b3fddf71c70da8a5e08c2133d2ab1eb86e8a7d96f21eb91b522ed26e7cffe92",
+    "analysis.json": "0a837855e1bd30aaf267a4dd70f4465d26c102655e3e935c2cfaacaa2e0d873b",
+    "control_corruption.json": "c4b5b723c69b3c2d12be4150107331d811e024148ac67f35fe81c4e7e115338b",
+    "ternary.log": "13d4f6f955f314c0085413beff72d041b84aca4b688e2e8b1a039ffa6baa2686",
+    "boolean.log": "18d15f626e8cec6ee7700708519442f38c410037e4bead09d2dca87e7da0a92a",
+    "PROCESS_LEDGER.json": "015b9d4c702fae63251674ba677810545cb684d6b7cb4f03abd23b202b1500aa"
+  },
+  "process_audit": {
+    "ps_command": "ps -eo pid,ppid,pcpu,args",
+    "remaining_job_workers": []
+  },
+  "pod_termination_requested": false
+}

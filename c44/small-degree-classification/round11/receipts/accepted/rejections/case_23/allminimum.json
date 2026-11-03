@@ -1,0 +1,76 @@
+{
+  "schema": "c44-allminimum-v1",
+  "status": "candidate, unrefereed",
+  "degree": 6,
+  "target": {
+    "controls": 22,
+    "norm": 124,
+    "expected_unsigned_leaves": 0
+  },
+  "positive": {
+    "controls": 12,
+    "norm": 64,
+    "expected_unsigned_leaves_at_least": 1
+  },
+  "component_variance_numerator": 63,
+  "two_component_norm_threshold": 126,
+  "seed": {
+    "distinguished": 0,
+    "pairs": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        9,
+        10
+      ]
+    ],
+    "terms": [
+      683,
+      685,
+      691,
+      693,
+      715,
+      717,
+      723,
+      725,
+      811,
+      813,
+      819,
+      821,
+      843,
+      845,
+      851,
+      853,
+      1195,
+      1197,
+      1203,
+      1205,
+      1227,
+      1229,
+      1235,
+      1237,
+      1323,
+      1325,
+      1331,
+      1333,
+      1355,
+      1357,
+      1363,
+      1365
+    ]
+  }
+}

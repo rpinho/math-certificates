@@ -1,0 +1,609 @@
+{
+  "pid": 157778,
+  "tests": [
+    {
+      "label": "missing_h14_case",
+      "checker": "verify_packet_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_2ub9lrf_",
+        "--structure-only"
+      ],
+      "pid": 157779,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "missing_h14_case",
+      "checker": "verify_packet_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_2ub9lrf_",
+        "--structure-only"
+      ],
+      "pid": 157780,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "duplicate_case",
+      "checker": "verify_packet_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_9ouh62wf",
+        "--structure-only"
+      ],
+      "pid": 157781,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "duplicate_case",
+      "checker": "verify_packet_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_9ouh62wf",
+        "--structure-only"
+      ],
+      "pid": 157782,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_control_ceiling",
+      "checker": "verify_packet_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_kfx7tqdz",
+        "--structure-only"
+      ],
+      "pid": 157783,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_control_ceiling",
+      "checker": "verify_packet_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_kfx7tqdz",
+        "--structure-only"
+      ],
+      "pid": 157784,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_partial_minimum",
+      "checker": "verify_packet_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_vi92kjo_",
+        "--structure-only"
+      ],
+      "pid": 157785,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_partial_minimum",
+      "checker": "verify_packet_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_vi92kjo_",
+        "--structure-only"
+      ],
+      "pid": 157786,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_norm",
+      "checker": "verify_packet_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_b7ewzc82",
+        "--structure-only"
+      ],
+      "pid": 157787,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_norm",
+      "checker": "verify_packet_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_b7ewzc82",
+        "--structure-only"
+      ],
+      "pid": 157788,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_template_count",
+      "checker": "verify_packet_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_558c85gw",
+        "--structure-only"
+      ],
+      "pid": 157789,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_template_count",
+      "checker": "verify_packet_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_558c85gw",
+        "--structure-only"
+      ],
+      "pid": 157790,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_good_set",
+      "checker": "verify_packet_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_4a8wn6sx",
+        "--structure-only"
+      ],
+      "pid": 157791,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_good_set",
+      "checker": "verify_packet_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_4a8wn6sx",
+        "--structure-only"
+      ],
+      "pid": 157792,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_seed_block",
+      "checker": "verify_packet_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_mh5gsys4",
+        "--structure-only"
+      ],
+      "pid": 157793,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_seed_block",
+      "checker": "verify_packet_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_mh5gsys4",
+        "--structure-only"
+      ],
+      "pid": 157794,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "unresolved_leaf_hidden",
+      "checker": "verify_packet_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_m611_fc5",
+        "--structure-only"
+      ],
+      "pid": 157795,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "unresolved_leaf_hidden",
+      "checker": "verify_packet_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_m611_fc5",
+        "--structure-only"
+      ],
+      "pid": 157796,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_mathematical_R6_106",
+      "checker": "verify_packet_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_hlfrgpr0"
+      ],
+      "pid": 157797,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_mathematical_R6_106",
+      "checker": "verify_packet_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_hlfrgpr0"
+      ],
+      "pid": 157798,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_selector_envelope",
+      "checker": "verify_packet_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_015ybqor"
+      ],
+      "pid": 157799,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_selector_envelope",
+      "checker": "verify_packet_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_015ybqor"
+      ],
+      "pid": 157800,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_tail",
+      "checker": "verify_packet_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_17xinxoi"
+      ],
+      "pid": 157801,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_tail",
+      "checker": "verify_packet_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_17xinxoi"
+      ],
+      "pid": 157858,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_final_rational",
+      "checker": "verify_packet_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_2gw0v6vw"
+      ],
+      "pid": 157859,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_final_rational",
+      "checker": "verify_packet_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_2gw0v6vw"
+      ],
+      "pid": 160344,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_strict_decimal",
+      "checker": "verify_packet_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_b7_qyh0q"
+      ],
+      "pid": 160348,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_strict_decimal",
+      "checker": "verify_packet_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_b7_qyh0q"
+      ],
+      "pid": 160443,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "missing_recurrence_row",
+      "checker": "verify_packet_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_8ns1cbsw"
+      ],
+      "pid": 160469,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "missing_recurrence_row",
+      "checker": "verify_packet_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_8ns1cbsw"
+      ],
+      "pid": 160470,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_degree_horizon",
+      "checker": "verify_packet_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_n7lexe5y"
+      ],
+      "pid": 160502,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_degree_horizon",
+      "checker": "verify_packet_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_packet_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_n7lexe5y"
+      ],
+      "pid": 160504,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_character_signing",
+      "checker": "verify_flat_controls_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_flat_controls_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_f0zuh301"
+      ],
+      "pid": 160507,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_character_signing",
+      "checker": "verify_flat_controls_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_flat_controls_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_f0zuh301"
+      ],
+      "pid": 160508,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "missing_flat_point",
+      "checker": "verify_flat_controls_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_flat_controls_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_mth_1al1"
+      ],
+      "pid": 160510,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "missing_flat_point",
+      "checker": "verify_flat_controls_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_flat_controls_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_mth_1al1"
+      ],
+      "pid": 160513,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_flat_denominator",
+      "checker": "verify_flat_controls_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_flat_controls_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_eqd5vmtk"
+      ],
+      "pid": 160518,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_flat_denominator",
+      "checker": "verify_flat_controls_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_flat_controls_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_eqd5vmtk"
+      ],
+      "pid": 160520,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_lower_parity_coefficient",
+      "checker": "verify_lower_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_lower_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_py3nr71a"
+      ],
+      "pid": 160523,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_lower_parity_coefficient",
+      "checker": "verify_lower_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_lower_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_py3nr71a",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/build/frozen_lower_b"
+      ],
+      "pid": 160525,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_lower_variable_count",
+      "checker": "verify_lower_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_lower_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_72fj7_o3"
+      ],
+      "pid": 160528,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_lower_variable_count",
+      "checker": "verify_lower_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_lower_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_72fj7_o3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/build/frozen_lower_b"
+      ],
+      "pid": 160530,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_lower_outer_function",
+      "checker": "verify_lower_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_lower_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_4in7_fnj"
+      ],
+      "pid": 160532,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_lower_outer_function",
+      "checker": "verify_lower_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_lower_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_4in7_fnj",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/build/frozen_lower_b"
+      ],
+      "pid": 160535,
+      "code": 1,
+      "rejected": true,
+      "nested_children": [
+        {
+          "label": "shared_selectors_0",
+          "pid": 160537
+        }
+      ]
+    },
+    {
+      "label": "false_lower_lift",
+      "checker": "verify_lower_a.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_lower_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_7evbd9s7"
+      ],
+      "pid": 160538,
+      "code": 1,
+      "rejected": true
+    },
+    {
+      "label": "false_lower_lift",
+      "checker": "verify_lower_b.py",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_lower_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/receipts/temporary_corruptions/control_7evbd9s7",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/build/frozen_lower_b"
+      ],
+      "pid": 160548,
+      "code": 1,
+      "rejected": true,
+      "nested_children": [
+        {
+          "label": "shared_selectors_0",
+          "pid": 160549,
+          "code": 0
+        },
+        {
+          "label": "shared_selectors_1",
+          "pid": 160551,
+          "code": 0
+        },
+        {
+          "label": "selector_potential_0",
+          "pid": 160554,
+          "code": 0
+        },
+        {
+          "label": "selector_potential_1",
+          "pid": 160556,
+          "code": 0
+        }
+      ]
+    }
+  ],
+  "status": "PASS",
+  "rejections": 46
+}

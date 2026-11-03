@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "implementation": "quintic13 A: full-template trace verification",
+  "templates": 359502,
+  "homogeneous_seed_nodes": 305,
+  "nonhomogeneous_nodes": 326,
+  "unsigned_terminal_models_rejected": 10,
+  "cases": [
+    9,
+    31
+  ],
+  "second_weight_controls_upper": 12
+}

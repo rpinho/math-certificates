@@ -1,0 +1,29 @@
+{
+  "schema": "c44-reed-muller-bound-v1",
+  "status": "candidate, unrefereed",
+  "caps": {
+    "1": "1/2",
+    "2": "1",
+    "3": "5/4",
+    "4": "3/2",
+    "5": "27/16",
+    "6": "2",
+    "7": "149/64",
+    "8": "341/128",
+    "9": "3",
+    "10": "3413/1024",
+    "11": "7509/2048",
+    "12": "4"
+  },
+  "external_R3": 10,
+  "external_bs_theorem": "3b(b-1)<=2(d^4-d^2)",
+  "horizon": 96,
+  "claim": "3.1674542553",
+  "baseline_claim": "3.9819073803",
+  "cap_source": "cap_certificate.json",
+  "cap_sha256": "ba780ccb7bcf0ca9a068982f0882a4b1f93cc849e0c86e65709811d60641f8cb",
+  "spectral_source": "spectral_certificate_round3.json",
+  "spectral_sha256": "1020ed20d078ec1fece41c643007426bc452fc3aeafc81761901b32ded4495ed",
+  "epi_source": "epi_certificate.json",
+  "epi_sha256": "ce66f1097a7284e9845113fa1dc39267932cc934fd23d9019ff13d3dcb39cf49"
+}

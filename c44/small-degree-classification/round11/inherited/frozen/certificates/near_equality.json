@@ -1,0 +1,218 @@
+{
+  "schema": "c44-near-equality-v1",
+  "status": "candidate, unrefereed",
+  "statement": "k>=3 and h>2*k*lambda-1/2 implies h divisible by 2*k",
+  "degree6_tensor_rows": [
+    {
+      "blocks": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "controls": 5,
+      "terms": 32,
+      "deficit": 80
+    },
+    {
+      "blocks": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "controls": 6,
+      "terms": 32,
+      "deficit": 64
+    },
+    {
+      "blocks": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "controls": 7,
+      "terms": 32,
+      "deficit": 48
+    },
+    {
+      "blocks": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "controls": 6,
+      "terms": 32,
+      "deficit": 64
+    },
+    {
+      "blocks": [
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "controls": 8,
+      "terms": 32,
+      "deficit": 32
+    },
+    {
+      "blocks": [
+        1,
+        1,
+        2,
+        3
+      ],
+      "controls": 7,
+      "terms": 32,
+      "deficit": 48
+    },
+    {
+      "blocks": [
+        1,
+        1,
+        4
+      ],
+      "controls": 6,
+      "terms": 32,
+      "deficit": 64
+    },
+    {
+      "blocks": [
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "controls": 9,
+      "terms": 32,
+      "deficit": 16
+    },
+    {
+      "blocks": [
+        1,
+        2,
+        2,
+        3
+      ],
+      "controls": 8,
+      "terms": 32,
+      "deficit": 32
+    },
+    {
+      "blocks": [
+        1,
+        2,
+        4
+      ],
+      "controls": 7,
+      "terms": 32,
+      "deficit": 48
+    },
+    {
+      "blocks": [
+        1,
+        3,
+        3
+      ],
+      "controls": 7,
+      "terms": 32,
+      "deficit": 48
+    },
+    {
+      "blocks": [
+        1,
+        5
+      ],
+      "controls": 6,
+      "terms": 32,
+      "deficit": 64
+    },
+    {
+      "blocks": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "controls": 10,
+      "terms": 32,
+      "deficit": 0
+    },
+    {
+      "blocks": [
+        2,
+        2,
+        2,
+        3
+      ],
+      "controls": 9,
+      "terms": 32,
+      "deficit": 16
+    },
+    {
+      "blocks": [
+        2,
+        2,
+        4
+      ],
+      "controls": 8,
+      "terms": 32,
+      "deficit": 32
+    },
+    {
+      "blocks": [
+        2,
+        3,
+        3
+      ],
+      "controls": 8,
+      "terms": 32,
+      "deficit": 32
+    },
+    {
+      "blocks": [
+        2,
+        5
+      ],
+      "controls": 7,
+      "terms": 32,
+      "deficit": 48
+    },
+    {
+      "blocks": [
+        3,
+        4
+      ],
+      "controls": 7,
+      "terms": 32,
+      "deficit": 48
+    },
+    {
+      "blocks": [
+        6
+      ],
+      "controls": 6,
+      "terms": 32,
+      "deficit": 64
+    }
+  ],
+  "direct_case": {
+    "k": 6,
+    "lambda": "31/16",
+    "norm": 124,
+    "h": 23,
+    "partial_minimum": 32,
+    "partial_gap": 16,
+    "deficit": 8,
+    "constant_square": "4/3"
+  }
+}

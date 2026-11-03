@@ -1,0 +1,392 @@
+C44 round-11 chain referee report — 2026-11-03
+
+No false or unjustified inference affecting the candidate bound was found.
+The final verdict is ACCEPT on the explicitly identified external mathematical
+premises. This is an AI mathematical and computational review, not independent
+human refereeing or proof-assistant formalization.
+
+The first literal hypothesis defect identified in the inherited material is
+round8/PROOF.md, section 5, lines 229–232: the integer norm-gap display for
+polynomials of degree AT MOST r needs Q != 0. Q=0 is a counterexample to its
+standalone wording. Every application here is to Q_i=2 Delta_i A for a relevant
+coordinate, explicitly nonzero. Adding that hypothesis changes no inference,
+certificate or numerical result. The two NEW lemmas themselves have the
+hypotheses they use. There is also the previously reported, already corrected
+round-7 wording error: the budget is 201/4=50.25, whose floor is 50, rather
+than a real budget at most 50. The consumed round-8 INPUT_ERRATA.md records it.
+
+All work took place under review-copy/ or audit/ in this review directory.
+The original round-11 tree was copied in full. The consumed earlier frozen
+chain was already in that copy. Earlier referee reports and the previously
+downloaded final CHS paper were copied for reading. No original was edited,
+no file was deleted, and no external message, PR change or publication was
+made. closeout.json records the original-tree before/after comparison and
+post-replay manifests. Older folders were accessed read-only. I did not rerun
+the round-9 189-case classifiers or round-7 classification, as authorized by
+the request; the accepted previous review and byte-identical inputs supply
+that part of the chain. Their prior tests are documented in the copied
+round10-full-report.txt, and are not represented as fresh tests in this review.
+
+Reproduction and package boundaries
+
+The two first direct invocations of the unchanged replay.py wrappers failed
+before mathematical computation: inherited/receipts/FINAL_RECEIPT.json was
+absent. The inherited receipts had been archived. I verified the SHA-256 of
+receipts/BASELINE_REPLAY_FULL.tar.gz and all 876 indexed members, then restored
+only absent members into the working copy. Existing members were required to
+match. No receipt was manufactured or altered to pass a check. The archive is
+fdb303660c9da202d27982ec785b6190b9db840f6319f99cffe4bf27ae38e5aa.
+This is a packaging/reproduction caveat: the one-line direct replay command
+requires the archived inherited receipts to be restored, or inherited replay
+to be run first. Fresh round-11 checks are not replaced by historical receipts.
+
+Both unchanged round-11 wrappers subsequently passed in full, including both
+implementations and all supplied rejection controls. The first successful
+pair ran at nice 20: the shell was already nice 10 and explicit nice -n 10
+incremented it. I retained these logs under audit/nice20 and repeated both
+wrappers with inherited priority exactly 10. The final runs use Python
+3.12.13, found through uv; system Python 3.9.6 is insufficient. Native sources
+were compiled locally using g++ -O3 -std=c++17 (Apple clang). The wrappers set
+single-thread numerical-library environment variables and disable bytecode
+writes. A 2400-second limit applies separately to each whole wrapper.
+restored-replays.json contains final commands, durations, codes and priority.
+replays.json and the initial replay logs preserve the missing-receipt failures.
+Final nice-10 elapsed times were 23.932 seconds for frozen_accepted and
+153.851 seconds for frozen_parity. Neither approached the 40-minute limit.
+The repeated mathematical outputs and artifact hashes match the nice-20 runs.
+
+The final packet's manifest is
+aceffcb6e28d793b37470b2a41e291ef2eb898c318d52ef3cdd26f21f1170ba8
+(17 listed entries); the predecessor manifest is
+c5cdbb5d10c52ea072ad2f4d093926a1863dd22415fc8ac370244aaeaa8d2581
+(12 entries). Every listed hash matched. The wrappers also checked exact file
+sets, dependencies, receipt fields and the manifests again after computation.
+
+Round 11 consumes the original round-10 frozen and frozen_final trees byte
+for byte, including their manifests: respectively 564 and 12 actual files
+(563 and 11 manifest entries). Their manifest hashes are
+c3ff9d74c64712fb1b68aff8e36363a6232167026bcec0887d3a8d2aa450decc and
+7b91a9bf911c1892d5615cad93bb1e987d174606a87925c91998833ebc19a627.
+BASELINE.json binds these, the old bound, and for the parity packet the
+accepted predecessor's manifest and bound. The accepted PROOF.md is embedded
+verbatim in parity PROOF.md. The old frozen scalar outputs were not modified.
+
+The consumed round-9 manifest has 552 entries, round-8 221, round-7 196,
+and r4-exact 34. All match. Direct comparison with original earlier packets
+also matches every available manifest-listed file and the manifests themselves.
+As documented in the earlier review, standalone round-8 lacks three listed
+bytecode files and standalone round-7 lacks three bytecode files and five
+compiled executables. These all exist with correct hashes in the actual
+consumed chain. No missing mathematical source or certificate was found.
+hash-results.json, dependency-comparisons.json and closeout.json give paths,
+counts, hashes and the precise missing standalone files.
+All 15 manifests in the copied tree passed the final check, including the
+flat-schema R4 manifest. The first dependency-audit helper attempt assumed
+every manifest had a nested sha256 key and stopped with KeyError on R4; the
+helper was corrected to support both documented formats and then passed.
+The original round-11 before/after comparison covered 1,096 files with no
+changes, additions or removals. The assembled ledger has 484 stage/control
+entries across the two successful pairs of runs; it is not a count of
+independent mathematical claims.
+
+Mathematical review of the new reductions
+
+Parity lemma: f must be sign-valued and attain R_d, the maximum number of
+relevant variables over ALL dimensions among real-degree-at-most-d Boolean
+functions. This is the definition in the packet. For F(x,z)=z^d f(zx), a
+Fourier mask S becomes S or S union {z}. In the latter case |S|<=d-1, so
+degree remains <=d. Restriction z=1 preserves each old relevant variable.
+The new z is relevant exactly when the opposite-parity Fourier sum is
+nonzero. Different masks cannot cancel that sum. Thus any such term would
+increase the variable count at the same degree bound, a contradiction.
+This proves the assertion for every count maximizer. It is not an assertion
+about all degree-d functions or maximization within a fixed ambient dimension.
+The separate local-degree substitution argument gives d_i=d. At d=7, f is
+odd and A=Delta_i f is even, ternary, and of degree at most 6.
+
+Minimum-partial counting: the finite statement is for even ternary A of
+degree at most 6, exactly h=21 relevant variables, and lambda=64 E A^2 equal
+to 15/8 or 31/16. A constant coefficient is allowed throughout. With integer
+Fourier numerators on denominator 64, N=120 or 124, m=32, q=16 and
+delta=6N-32h is respectively 48 or 72. For every relevant coordinate,
+Q_i=2 Delta_i A is a nonzero integer-valued degree-at-most-5 polynomial.
+The gap gives e_i=32 or e_i>=48; evaluation at all plus also gives even e_i.
+Consequently at most 3 or 4 coordinates are exceptional, leaving at least
+18 or 17 minimum partials. The omitted coordinates need not be exceptional.
+
+For a minimum partial with v_i other relevant coordinates, its classified
+tensor gives L_i=32(5-v_i/2). A nonhomogeneous one has L_i>=16. Evenness is
+essential to the bound sum_i L_i<=4L: lower masks have sizes at most 4.
+If all 21-b minimum partials were nonhomogeneous, then
+  16(21-b)<=4(delta-16b), equivalently 336+48b<=4delta.
+This is impossible for both delta=48 and delta=72 and every b>=0. A homogeneous
+minimum seed therefore exists. Its five pairs and distinguished coordinate
+are exactly the frozen seed. No maximality assumption on A is needed beyond
+the earlier deduction of evenness from the extremal parent f.
+
+A point block would put both parities in A's Fourier support, so it is
+excluded. All seven cost-five block partitions with block sizes at least 2
+remain. Selecting 18 or 17 minimum coordinates containing the distinguished
+one and quotienting only by seed-pair permutations, pair flips and permutations
+outside the seed gives exactly six and nine omitted-coordinate profiles.
+The argument permits additional minimum coordinates outside the selected set.
+
+I checked the affine-flat equality proof: support density and integrality
+force 32 unit Fourier numerators for each minimum Q_i. On an active input
+they all align in sign. Mask differences constrain the active support and
+have rank exactly 5. A constant-one projection in another coordinate would,
+together with five independent coordinate projections of the direction space,
+produce a mask of degree at least 6 in Q_i; hence it is impossible. Each other
+used coordinate therefore occurs in exactly 16 masks.
+
+I reviewed the enumeration in verify_partial_a.cpp, its Python metadata
+driver and verify_partial_b.py against the proof, and reviewed both inherited
+allminimum implementations. For an already used selected coordinate there
+are at least 16 forced masks. Rank 5 determines the flat; rank 4 leaves one
+additional affine coset; larger rank is impossible. Fresh columns are constant
+on the direction space, so they appear together on the new coset. Canonical
+fresh labels are valid under permutations separately within selected and
+omitted unused pools. When the next selected coordinate is unused, the code
+enumerates all seven tensor types, all used subsets and both fresh-pool sizes,
+ordering equal-size block roles only to remove permutation duplicates.
+No arbitrary binary affine transformation is treated as preserving real degree.
+
+All pruning rules checked are necessary: mask parity/size, no new coefficient
+touching a completed coordinate, norm/loss bounds, selected energy at most 32,
+and incidence needed to reach every coordinate's valid minimum energy. An
+unknown squared numerator contributes at most six times itself to incidence.
+Omitted coordinates above energy 32 have the even lower target at least 48.
+Signs and omitted-only coefficients are relaxed. The final parity leaf is
+counted even if those remaining constraints would be impossible, which is safe
+for a zero-leaf exclusion. The proposer's extra cooccurrence filter is absent.
+
+The closed-component rejection is justified without assuming a component is
+ternary. Fix all other components to obtain an integer-valued translate B of
+the component. For every atom a, B-a is a nonzero degree-at-most-6 polynomial,
+so the atom has mass at most 63/64. Integer spacing gives
+  Var B >= (1-sum p_a^2)/2 >= 63/4096.
+Disjoint-variable components have independent variances. Two nonconstant
+components require total numerator norm at least 126; N is 120 or 124. A
+proper component whose vertices are all completed cannot acquire a new term;
+the other relevant coordinates therefore force a forbidden second component.
+
+The predecessor full-deficit lemma is also valid on its stated k>=4,
+nonzero ternary, lambda>=1 hypotheses. I checked the single-exception link
+argument, the P/T lower complexes, the k=4 modular substitute for the invalid
+dimension-one link inference, and the global sign factorization. The latter
+uses a third cube direction to turn affine face signs into affine global
+signs; disjoint product components attain independent extrema, forcing one
+component and zero constant. In the direct h=22 exclusion, I checked both
+exceptional-coordinate cases: the two-exception top-energy sums 104,98,98
+cannot be multiples of 16; the one-exception P/T incidence estimates and
+the final congruence are correct. The all-minimum case is exhaustively checked.
+
+Independent arithmetic
+
+audit/independent_recurrence.py imports no submitted generator or verifier.
+It adapts the previously independent referee method to the two new ceilings.
+For each d=5,...,96 it fixes every possible integer h, then checks the first
+energy-grid point of each applicability regime. All below-two allowed weights
+are enumerated. This differs from the submitted implementations' floor-cell
+enumerations. With k=d-1, c=R_k/2^k and
+  b=max(1/2,max_{1<=t<=d-2}(1/4+2^(-t-1)+R_t/2^(t+1))),
+the budgets used are
+  C2=2^d c+h+1-2c lambda,
+  C3=2^d c+h-2c lambda+4[b-(c+1/2)/2]
+with C3 available only when lambda>1 and 3h>4k lambda, plus
+  R_d <= d 2^(d-1)/lambda.
+The control ceiling is 2k at lambda=1 and floor(2k lambda-1) otherwise,
+with the inherited small-degree exclusions and the new R7 ceilings.
+At and above two, for fixed h the ceiling requires lambda>=(h+1)/(2k).
+Within either C3 applicability regime the budgets decrease, so its first
+grid point suffices. The influence lower construction gives lambda<=d/2.
+
+Both 92-row computations match every submitted count. Final first caps are
+50,107,227,474,975,1985,4014,8081 for degrees 5 through 12.
+The predecessor gives 50,107,228,476,979,1993,4029,8111.
+For the final packet,
+  R_96 <= 157798688309310615946636965640.
+The tail is independently derived by telescoping
+  sum_{d=H+1}^infinity d(d-1)/2^d=(H^2+3H+4)/2^H.
+At H=96 this is exactly 9508/2^96. The resulting rational is
+  (R_96+9508)/2^96
+   =39449672077327653986659243787/19807040628566084398385987584
+   =1.99169945763793704666583745598143748247267212141494883634...
+The ceiling at ten decimal places is 1.9916994577. Its positive excess is
+  12004721076353109759098957/193428131138340667952988160000000000.
+The predecessor rational is
+  158378953776073338924201677619/79228162514264337593543950336
+   =1.99902343750000000005421017066029680828...
+Its upward decimal is 1.9990234376. Independent-recurrence.json retains all
+rows, maximizing scalar parameters, decimals, margins and timings. A scalar
+feasible point does not certify a Boolean construction.
+Independent subtraction also confirms the round-10 gain is exactly
+772489374956274618667741383/39614081257132168796771975168 > 1/10000,
+and the gain over the accepted round-11 predecessor is
+580265466762722977564702471/79228162514264337593543950336.
+
+As a direct check of R7<=227, excluding count 228 restricts lambda<=448/228;
+the next weight 63/32 is already too large. At weights
+1,3/2,7/4,15/8,31/16 the ceilings are 12,17,20,20,20 and the largest valid
+budgets over every integer h are respectively
+7157/32,14453/64,29183/128,58259/256,116411/512, all strictly below 228.
+
+External mathematical premises and credit
+
+These are mathematical dependencies, not consequences of checksums or of
+two implementations agreeing. I reviewed their applicability and the retained
+bridges; I did not reproduce the external classification projects from scratch.
+
+Chiarelli–Hatami–Saks: use the corrected final Combinatorica paper,
+Proposition 2.1 and Corollary 2.2, for W_d=R_d/2^d. Its footnote explicitly
+acknowledges the older erroneous proof and Wellens's correction. I read the
+previously downloaded final PDF/text; two fresh web opens timed out, while
+the search index supplied the final-paper metadata. The current packet's
+selector duplication proof is the corrected argument, separate from its
+count-maximizer AND substitution. Source:
+https://par.nsf.gov/servlets/purl/10201042
+
+Wellens: the weighted coordinate restriction inequality and local-degree
+framework are the foundation of C2/C3. I checked the active section-potential
+derivation in round8 sections 2 and 6, including the one-active-edge selector
+potential b_d and the strict applicability conditions. This active recurrence
+does not need the historical BakeLab/Epi block-sensitivity certificate as an
+additional premise. Retain Wellens's credit and the older Epi provenance.
+The correct journal locator is Discrete Analysis 2022:20, as PR #285 notes.
+https://arxiv.org/html/2005.00566v2
+https://discreteanalysisjournal.com/article/57741-relationships-between-the-number-of-inputs-and-other-complexity-measures-of-boolean-functions
+
+Valyuzhenich: Theorem 2(2), applied with i=0,j=r, classifies minimum-support
+real degree-at-most-r polynomials. The allowed coordinate equivalences, point
+indicators and two-string blocks yield exactly the tensor factors used here.
+Odd block size has equal signs and even block size opposite signs; their
+Fourier masks have parity opposite to block size and cost size-1. Point
+factors have both masks and cost one. The support/Parseval equality, rather
+than the theorem alone, fixes the integer partial's nonzero values to +/-1.
+https://arxiv.org/html/2303.10995
+
+Barnes–Wall gap: Nebe Theorem 3.3 supplies no squared norms strictly between
+minimum and 3/2 minimum. I checked the packet's scaling for odd r into
+Lambda_n (factor 2^((r-1)/2)) and even r into Delta_n (factor 2^(r/2)); both
+give normalized norm ratio 2^r E Q^2. Padding makes n large enough. The
+retained BW_GAP_PROOF.md supplies the congruence, similarity, recursion and
+minimum-coset argument. Barnes–Wall basis/minimum results and Broue–Enguehard
+pair-preserving minimum-vector transitivity remain explicit classical premises.
+The latest author-hosted PDF retains the gap theorem; its stronger-spectrum
+reference is not silently used to strengthen this recurrence.
+https://arxiv.org/html/2603.23133v1
+https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/BW.pdf
+https://doi.org/10.1017/S1446788700025064
+https://www.numdam.org/item/10.24033/asens.1241.pdf
+
+Rasoolzadeh: the complete 761-class (n-4)-resilient catalogue, under extended
+variable-permutation equivalence and padding to n=10, translates by full
+parity multiplication to the cubic catalogue. This is a published completeness
+premise. Fresh download of F10T6.txt from the repository's main branch matches
+all submitted bytes: 761 lines, SHA-256
+d0ca4026c3bfa61f7c40945e4627feecd9264d7854114806c533d64e06836ba0.
+HEAD is eace0ce0edcb664cd5e4f84d7f5cb56dc7400925. An initial master-branch URL
+returned 404; git ls-remote identified main and the corrected fetch succeeded.
+Exact envelope checking of those rows does not establish catalogue completeness.
+Credit also Tarannikov–Kirienko for R3=10 and Krotov–Valyuzhenich for the
+resilient/cubic connection.
+https://d-nb.info/1307299091/34
+https://gitlab.science.ru.nl/shahramr/ResilientFunctions
+
+Masuda–Panov: Lemma 4.7 applies to connected simplicial complexes of dimension
+at least two whose every vertex link is the requisite cross-polytope boundary.
+It does not require a polytope realization. I checked the explicit proof and
+dimensions in the generic deficit argument and both exceptional-link cases.
+The k=4 lower-complex boundary is handled by modular arithmetic rather than
+an invalid dimension-one application. The triangle negative control is apt.
+https://arxiv.org/html/math/0607094v2
+
+The below-two Reed–Muller weight spectrum is a further genuine premise, with
+Berlekamp–Sloane and Kasami–Tokura credit. The ternary support indicator is
+obtained by reducing integer bit coefficients modulo two. The sharper grid
+then removes the inadmissible last weights. All grid points at/above two are
+allowed; no questionable universal empty interval above two, no uncorrected
+KTA 2.5 table and no arbitrary F2 substitution of real-degree controls is used.
+The retained KTA_AUDIT.md documents this distinction. Nisan–Szegedy supplies
+the original influence/degree background; CHS and Shinkar–Tal retain credit
+for the lower construction giving C44>=3/2. The retained rounds 4–10 must be
+credited, including both round-7 quintic and round-9 inputs to R6<=107, and
+round-10's final sign-completion strengthening. These are not new consequences
+of round 11. The report appropriately disclaims priority, optimality, human
+independence of the checkers, and improvement of the lower bound.
+
+Public record check
+
+Fresh direct HTML and GitHub raw 44a both still list 4.3576549226* as the best
+table entry. The published Wellens comparison remains 4.394. I fetched all
+47 open PR diffs, all 53 open issue-feed entries (47 PRs plus six issues),
+every available issue discussion, and reviews plus inline comments for every
+open PR. All those GitHub requests succeeded; public-fetch.json and
+public-followup.json are the request/result inventories. No matching discussion
+or review supplied a stronger C44 result. Relevant diffs #294, #285 and #283
+were read in full: #294 still proposes 2.0417086280*, #285 corrects the Wellens
+bibliography, and #283 is a degree-four sensitivity result, not a C44 bound.
+https://teorth.github.io/optimizationproblems/constants/44a.html
+https://github.com/teorth/optimizationproblems/pull/294
+https://github.com/teorth/optimizationproblems/pull/285
+https://github.com/teorth/optimizationproblems/pull/283
+
+Targeted current web searches for relevant-variable bounds, parity, the
+candidate decimal and C44 found no stronger applicable public bound. The
+September 2026 Valyuzhenich Hamming-graph paper explicitly concerns q>=3;
+its constants do not improve this q=2 problem:
+https://arxiv.org/abs/2609.12540
+This is a bounded public-record finding, not an exhaustive novelty claim.
+The original packet's broader named-repository/community search is retained
+as historical evidence; this review does not claim to have freshly repeated
+all of that broader search.
+
+Complete fresh check inventory
+
+1. Read REPORT.md, final and accepted PROOF.md, both replay wrappers, both
+   scalar implementations, both allminimum implementations, both partial
+   implementations/drivers and both families of corruption controls; checked
+   the inherited reduction, classification interfaces, budgets and tail.
+2. Copy, 876-member receipt archive hash verification/restoration, all manifest
+   hashes, original round-10 frozen-tree equality, older dependency comparisons,
+   verbatim accepted-proof embedding, and original-tree before/after inventory.
+3. Two initial direct wrapper attempts: operational failure due to
+   absent archived receipts. No mathematical stage ran in those attempts.
+4. Accepted wrapper, both nice-20 and final nice-10 runs: native allminimum A
+   compilation; verify_a.py and verify_b.py; 180 cost-partition tensor summaries;
+   all 92 scalar rows; exceptional-link/dimension/modular controls; direct h=22
+   exclusion; both minimum-product positive tests; 38 mutations x two scalar
+   checkers = 76 rejections; two true weaker-claim controls. The h=22 searches
+   each visit 72 nodes, 65 domains, zero leaves. Positive allminimum A/B runs
+   visit 17/20 nodes and retain one leaf each.
+5. Parity wrapper, both nice-20 and final nice-10 runs: compile allminimum A
+   and partial A; all 15 cases under both partial implementations; two partial
+   minimum-product positive tests; 12 partial-artifact mutations x two checkers
+   = 24 direct rejections; both full scalar verifiers with their predecessor
+   allminimum checks; 48 scalar/dependency mutations x two checkers = 96
+   rejections; two true weaker-claim controls. Each partial implementation visits
+   78,066 nodes total and returns zero leaves in every case. Both partial
+   positives retain one leaf in 16 nodes. No timeout or assertion failure is
+   treated as an exclusion. The corruption tests verify defined metadata and
+   certificate mutations; they do not by themselves prove algorithm completeness.
+6. Independent exact recurrence for BOTH packets: 184 rows in total; final
+   rational, tail telescoping identity, ten-place upward rounding and margins.
+7. Independent lemma_controls.py at nice 10: all 65,536 sign truth tables on
+   four inputs, truth-value/Fourier agreement for the parity lift, preservation
+   of old relevance, new relevance for all 65,024 mixed-parity cases, and degree
+   preservation; all 19 cost-five tensor types with seven even types; loss and
+   exceptional-count arithmetic at N=120/124; the 6+9 profile count; exact
+   component variance constant; every h in the five decisive R7 budgets.
+   These finite controls corroborate, rather than replace, the universal proofs.
+8. Fresh public catalogue byte comparison; primary-source hypothesis/credit
+   review; live/raw 44a; all open PRs/issues/discussions/reviews; targeted web
+   searches. Source access failures and the corrected catalogue URL are disclosed.
+9. Final post-replay manifests, preservation and execution-ledger assembly.
+
+all-checks.json/tsv enumerate wrapper stages and corruption outcomes, including
+the repeated nice-20 run. The full commands and timings for both final wrappers
+are also in review-copy/c44r11/receipts/{accepted,parity}/ledger.json. Historical
+round-7/round-9 tests, exploratory search, lower-bank searches and annihilator
+searches were not rerun and are not counted as fresh evidence for this bound.
+
+VERDICT: ACCEPT

@@ -1,0 +1,13 @@
+{
+  "schema": "c44-round10-sampled-lower-v1",
+  "sha256": {
+    "PROOF.md": "a6488f47b99f5c0aed730dc93d9ff02a0aa6c3280441dc7c17d0b8548a44a1bc",
+    "replay_reference.py": "24c13c5b8716a3bfa53b62319fefaf1ea1746f113da0217af26e2b2edade9a9a",
+    "seeds/hinted_gates_h10_d5.json": "4b5eb60606c30adb3e49cc1f1f48ac83adb28cdde10fdee824901fd7a8eec0ed",
+    "seeds/hinted_gates_h12_d5.json": "d6788caa85f8d733d81c678c17dc49a6232c93152edd8819821ff069488f2e31",
+    "seeds/hinted_gates_h12_d6.json": "5e8706b77e0be78b72bb7a966a04d900d4cd1e42977e53d19e1efe7831347de6",
+    "seeds/hinted_gates_h8_d5.json": "c9c041ba802c8ff74b7a25cc27c82ac7bfb9cdaf438fbd1547121efd6806f43c",
+    "verify_a.py": "ef7073ce7836c28a9fb7d1d57b36f3dbcc22d9d40550846b5ba67cc174c5d81c",
+    "verify_b.py": "6de0c345e5f90c5b45934b59e03f7d97b506fafc48e8a8b42e1a1c04be59a0c0"
+  }
+}

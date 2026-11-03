@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/root/os/math_c44r11_1103/frozen_accepted/verify_a.py", line 56, in <module>
+    assert lemma['decisive']==[{'k':7,'weight':'135/64','h':29,'delta':34},{'k':7,'weight':'17/8','h':29,'delta':48}]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checker": "quartic A: complete branch coverage in frozen trace",
+  "trace_nodes": 24572,
+  "unsigned_models": 9,
+  "all_rejected_by_remaining_energy_and_empty_intersection": true,
+  "R5_second_weight_controls": 10
+}

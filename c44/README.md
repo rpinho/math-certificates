@@ -1,6 +1,6 @@
 # A degree-three local-weight cap and an improved relevant-variable bound
 
-**Newest result:** [reed-muller-caps/](reed-muller-caps/) proves C₄₄ < 2.1974348818 (unrefereed, 1 November 2026).
+**Newest result:** [small-degree-classification/](small-degree-classification/) gives the candidate C₄₄ < 1.9916994577* with R4 = 22, R5 <= 50, R6 <= 107, R7 <= 227 and R8 <= 474 (unrefereed, 3 November 2026).
 
 **Earlier result:** [local-degree-caps/](local-degree-caps/) proves C₄₄ < 3.9819073803 (unrefereed, 1 November 2026).
 

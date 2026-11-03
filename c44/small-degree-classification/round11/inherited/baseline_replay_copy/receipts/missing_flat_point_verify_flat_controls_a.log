@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/verify_flat_controls_a.py", line 5, in <module>
+    E=P['masks'];assert len(E)==32 and len(set(E))==32
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "implementation": "quintic A: exhaustive tensor-role table and complete trace",
+  "minimum_templates_on_8": 6951,
+  "compatible_local_templates": 5,
+  "trace_nodes": 86,
+  "excluded_controls": 14,
+  "new_second_weight_control_ceiling": 13,
+  "additional_external_premise": "Nebe Barnes-Wall second-minimum theorem and written integer-polynomial embedding"
+}

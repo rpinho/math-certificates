@@ -1,0 +1,134 @@
+{
+  "supervisor_pid": 157675,
+  "started_utc": "2026-11-03T06:42:20.351730+00:00",
+  "workers": 3,
+  "steps": [
+    {
+      "label": "completion_a",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/replay_inherited_157641/verify_completion_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/replay_inherited_157641"
+      ],
+      "started": 1793688140.3534787,
+      "timeout": 1800,
+      "pid": 157678,
+      "code": 0,
+      "status": "PASS",
+      "seconds": 49.71613383293152
+    },
+    {
+      "label": "completion_b",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/replay_inherited_157641/verify_completion_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/replay_inherited_157641"
+      ],
+      "started": 1793688140.3540385,
+      "timeout": 1800,
+      "pid": 157680,
+      "code": 0,
+      "status": "PASS",
+      "seconds": 3.880809783935547
+    },
+    {
+      "label": "quartic_a",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/replay_inherited_157641/inputs/round7/verify_quartic_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/replay_inherited_157641/inputs/round7"
+      ],
+      "started": 1793688140.354781,
+      "timeout": 1800,
+      "pid": 157681,
+      "code": 0,
+      "status": "PASS",
+      "seconds": 17.82205557823181
+    },
+    {
+      "label": "quartic_b",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/replay_inherited_157641/inputs/round7/verify_quartic_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/replay_inherited_157641/inputs/round7"
+      ],
+      "started": 1793688144.2358694,
+      "timeout": 1800,
+      "pid": 157682,
+      "code": 0,
+      "status": "PASS",
+      "seconds": 59.588058948516846
+    },
+    {
+      "label": "quintic_a",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/replay_inherited_157641/inputs/round7/verify_quintic_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/replay_inherited_157641/inputs/round7"
+      ],
+      "started": 1793688158.177825,
+      "timeout": 1800,
+      "pid": 157695,
+      "code": 0,
+      "status": "PASS",
+      "seconds": 2.8703317642211914
+    },
+    {
+      "label": "quintic_b",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/replay_inherited_157641/inputs/round7/verify_quintic_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/replay_inherited_157641/inputs/round7"
+      ],
+      "started": 1793688161.0492146,
+      "timeout": 1800,
+      "pid": 157696,
+      "code": 0,
+      "status": "PASS",
+      "seconds": 1.4700629711151123
+    },
+    {
+      "label": "quintic13_a",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/replay_inherited_157641/inputs/round7/verify_quintic13_a.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/replay_inherited_157641/inputs/round7"
+      ],
+      "started": 1793688162.5202641,
+      "timeout": 1800,
+      "pid": 157697,
+      "code": 0,
+      "status": "PASS",
+      "seconds": 84.88355302810669
+    },
+    {
+      "label": "quintic13_b",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/replay_inherited_157641/inputs/round7/verify_quintic13_b.py",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/replay_inherited_157641/inputs/round7"
+      ],
+      "started": 1793688190.070612,
+      "timeout": 1800,
+      "pid": 157723,
+      "code": 0,
+      "status": "PASS",
+      "seconds": 44.99559736251831
+    },
+    {
+      "label": "R4_full",
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/replay_inherited_157641/inputs/round7/inputs/gap1/run_checks_job.py"
+      ],
+      "started": 1793688203.8250263,
+      "timeout": 1800,
+      "pid": 157737,
+      "code": 0,
+      "status": "PASS",
+      "seconds": 17.57876229286194
+    }
+  ],
+  "status": "PASS",
+  "ended_utc": "2026-11-03T06:44:07.405559+00:00"
+}

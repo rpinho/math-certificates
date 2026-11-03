@@ -1,0 +1,84 @@
+{
+  "pid": 157640,
+  "started": "2026-11-03T06:42:15.556834+00:00",
+  "steps": [
+    {
+      "label": "baseline_replay",
+      "pid": 157641,
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/baseline_replay_copy/frozen/replay.py",
+        "--workers",
+        "4",
+        "--replay"
+      ],
+      "started": 1793688135.8754303,
+      "code": 0,
+      "seconds": 535.1708908081055
+    },
+    {
+      "label": "compile_near",
+      "pid": 161982,
+      "command": [
+        "g++",
+        "-O3",
+        "-std=c++17",
+        "/root/os/math_c44r11_1103/inherited/frozen/control_near.cpp",
+        "-o",
+        "/root/os/math_c44r11_1103/inherited/build/control_near"
+      ],
+      "started": 1793688671.048814,
+      "code": 0,
+      "seconds": 1.3158926963806152
+    },
+    {
+      "label": "near_controls",
+      "pid": 161987,
+      "command": [
+        "/root/os/math_c44r11_1103/inherited/build/control_near"
+      ],
+      "started": 1793688672.3664896,
+      "code": 0,
+      "seconds": 0.031740665435791016
+    },
+    {
+      "label": "round10_b",
+      "pid": 161991,
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/frozen/verify_b.py",
+        "/root/os/math_c44r11_1103/inherited/frozen"
+      ],
+      "started": 1793688672.4028869,
+      "code": 0,
+      "seconds": 5.276153326034546
+    },
+    {
+      "label": "round10_a",
+      "pid": 161990,
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/frozen/verify_a.py",
+        "/root/os/math_c44r11_1103/inherited/frozen"
+      ],
+      "started": 1793688672.4061518,
+      "code": 0,
+      "seconds": 58.460418462753296
+    },
+    {
+      "label": "corruptions",
+      "pid": 162050,
+      "command": [
+        "/usr/bin/python3",
+        "/root/os/math_c44r11_1103/inherited/frozen/reject_controls.py",
+        "/root/os/math_c44r11_1103/inherited/frozen",
+        "/root/os/math_c44r11_1103/inherited/receipts"
+      ],
+      "started": 1793688730.8691597,
+      "code": 0,
+      "seconds": 1.7859790325164795
+    }
+  ],
+  "status": "PASS",
+  "ended": "2026-11-03T06:52:12.813000+00:00"
+}

@@ -1,0 +1,190 @@
+{
+  "schema": "c44-parity-partial-v1",
+  "status": "candidate, unrefereed",
+  "degree": 6,
+  "controls": 21,
+  "norms": [
+    120,
+    124
+  ],
+  "minimum_norm": 32,
+  "gap": 16,
+  "component_variance_numerator": 63,
+  "homogeneous_seed": true,
+  "even_masks": true,
+  "cases": [
+    {
+      "norm": 120,
+      "omitted": 14336,
+      "seed_pair_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "norm": 120,
+      "omitted": 6656,
+      "seed_pair_counts": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "norm": 120,
+      "omitted": 3584,
+      "seed_pair_counts": [
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "norm": 120,
+      "omitted": 2688,
+      "seed_pair_counts": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "norm": 120,
+      "omitted": 1664,
+      "seed_pair_counts": [
+        0,
+        0,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "norm": 120,
+      "omitted": 672,
+      "seed_pair_counts": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "norm": 124,
+      "omitted": 30720,
+      "seed_pair_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "norm": 124,
+      "omitted": 14848,
+      "seed_pair_counts": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "norm": 124,
+      "omitted": 7680,
+      "seed_pair_counts": [
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "norm": 124,
+      "omitted": 6784,
+      "seed_pair_counts": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "norm": 124,
+      "omitted": 3712,
+      "seed_pair_counts": [
+        0,
+        0,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "norm": 124,
+      "omitted": 1920,
+      "seed_pair_counts": [
+        0,
+        0,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "norm": 124,
+      "omitted": 2720,
+      "seed_pair_counts": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "norm": 124,
+      "omitted": 1696,
+      "seed_pair_counts": [
+        0,
+        0,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "norm": 124,
+      "omitted": 680,
+      "seed_pair_counts": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "conclusion": {
+    "ceiling": 20,
+    "weights": [
+      "15/8",
+      "31/16"
+    ],
+    "R7": 227
+  }
+}

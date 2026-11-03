@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "witnesses": [
+    {
+      "d": 1,
+      "variables": 1,
+      "terms": 1,
+      "minimum_coordinates": 1,
+      "normalized_weight": "1/2",
+      "upper_cap": "1/2",
+      "count_headroom": 0
+    },
+    {
+      "d": 2,
+      "variables": 4,
+      "terms": 4,
+      "minimum_coordinates": 4,
+      "normalized_weight": "1",
+      "upper_cap": "1",
+      "count_headroom": 0,
+      "expected_branch_D": "1/2",
+      "minimum_budget": "1"
+    },
+    {
+      "d": 3,
+      "variables": 10,
+      "terms": 16,
+      "minimum_coordinates": 8,
+      "normalized_weight": "5/4",
+      "upper_cap": "5/4",
+      "count_headroom": 0,
+      "expected_branch_D": "3/4",
+      "minimum_budget": "11/8"
+    },
+    {
+      "d": 4,
+      "variables": 22,
+      "terms": 64,
+      "minimum_coordinates": 16,
+      "normalized_weight": "11/8",
+      "upper_cap": "3/2",
+      "count_headroom": 2,
+      "expected_branch_D": "1",
+      "minimum_budget": "49/32"
+    },
+    {
+      "d": 5,
+      "variables": 46,
+      "terms": 256,
+      "minimum_coordinates": 32,
+      "normalized_weight": "23/16",
+      "upper_cap": "27/16",
+      "count_headroom": 8,
+      "expected_branch_D": "19/16",
+      "minimum_budget": "27/16"
+    },
+    {
+      "d": 6,
+      "variables": 94,
+      "terms": 1024,
+      "minimum_coordinates": 64,
+      "normalized_weight": "47/32",
+      "upper_cap": "2",
+      "count_headroom": 34,
+      "expected_branch_D": "21/16",
+      "minimum_budget": "925/512"
+    }
+  ],
+  "sharp_gap_witnesses": [
+    {
+      "degree": 3,
+      "selector_influence": "3/8",
+      "ratio_to_minimum": "3/2"
+    },
+    {
+      "degree": 4,
+      "selector_influence": "3/16",
+      "ratio_to_minimum": "3/2"
+    },
+    {
+      "degree": 5,
+      "selector_influence": "3/32",
+      "ratio_to_minimum": "3/2"
+    },
+    {
+      "degree": 6,
+      "selector_influence": "3/64",
+      "ratio_to_minimum": "3/2"
+    },
+    {
+      "degree": 7,
+      "selector_influence": "3/128",
+      "ratio_to_minimum": "3/2"
+    },
+    {
+      "degree": 8,
+      "selector_influence": "3/256",
+      "ratio_to_minimum": "3/2"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "runner_pid": 12655,
+  "nice": 10,
+  "workers": 1,
+  "memory_limit_bytes": 40000000000,
+  "started": "2026-11-01T21:22:16.481566+00:00",
+  "steps": [
+    {
+      "label": "check_a",
+      "pid": 12657,
+      "command": [
+        "python3",
+        "verify_caps_a.py"
+      ],
+      "started": "2026-11-01T21:22:16.482032+00:00",
+      "returncode": 0,
+      "elapsed_seconds": 0.21467593789566308,
+      "peak_child_RSS_KiB": 15368
+    },
+    {
+      "label": "check_b",
+      "pid": 12658,
+      "command": [
+        "python3",
+        "verify_caps_b.py"
+      ],
+      "started": "2026-11-01T21:22:16.697273+00:00",
+      "returncode": 0,
+      "elapsed_seconds": 3.9169617879670113,
+      "peak_child_RSS_KiB": 16900
+    },
+    {
+      "label": "compile",
+      "pid": 12659,
+      "command": [
+        "g++",
+        "-O3",
+        "-std=c++17",
+        "control_ternary.cpp",
+        "-o",
+        "control_ternary"
+      ],
+      "started": "2026-11-01T21:22:20.614582+00:00",
+      "returncode": 0,
+      "elapsed_seconds": 0.42268470290582627,
+      "peak_child_RSS_KiB": 86092
+    },
+    {
+      "label": "ternary",
+      "pid": 12664,
+      "command": [
+        "./control_ternary"
+      ],
+      "started": "2026-11-01T21:22:21.037522+00:00",
+      "returncode": 0,
+      "elapsed_seconds": 7.194439094979316,
+      "peak_child_RSS_KiB": 86092
+    },
+    {
+      "label": "compile_boolean",
+      "pid": 12680,
+      "command": [
+        "g++",
+        "-O3",
+        "-std=c++17",
+        "control_boolean.cpp",
+        "-o",
+        "control_boolean"
+      ],
+      "started": "2026-11-01T21:22:28.232531+00:00",
+      "returncode": 0,
+      "elapsed_seconds": 0.44646022806409746,
+      "peak_child_RSS_KiB": 86092
+    },
+    {
+      "label": "boolean",
+      "pid": 12685,
+      "command": [
+        "./control_boolean"
+      ],
+      "started": "2026-11-01T21:22:28.679217+00:00",
+      "returncode": 0,
+      "elapsed_seconds": 0.2544160030083731,
+      "peak_child_RSS_KiB": 86092
+    },
+    {
+      "label": "analysis",
+      "pid": 12686,
+      "command": [
+        "python3",
+        "analyze.py"
+      ],
+      "started": "2026-11-01T21:22:28.934132+00:00",
+      "returncode": 0,
+      "elapsed_seconds": 0.028129282989539206,
+      "peak_child_RSS_KiB": 86092
+    },
+    {
+      "label": "corruption",
+      "pid": 12687,
+      "command": [
+        "python3",
+        "control_corruption.py"
+      ],
+      "started": "2026-11-01T21:22:28.962500+00:00",
+      "returncode": 0,
+      "elapsed_seconds": 5.996608538087457,
+      "peak_child_RSS_KiB": 86092
+    }
+  ],
+  "status": "PASS",
+  "ended": "2026-11-01T21:22:34.962230+00:00"
+}

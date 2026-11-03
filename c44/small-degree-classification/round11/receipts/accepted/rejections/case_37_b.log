@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/root/os/math_c44r11_1103/frozen_accepted/verify_b.py", line 109, in <module>
+    assert child.returncode==0,child.stderr
+           ^^^^^^^^^^^^^^^^^^^
+AssertionError: Traceback (most recent call last):
+  File "/root/os/math_c44r11_1103/frozen_accepted/verify_allmin_b.py", line 10, in <module>
+    assert case['seed']==dict(distinguished=0,pairs=[[2*j+1,2*j+2] for j in range(5)],terms=sorted(1|sum(1<<(2*j+1+((choice>>j)&1)) for j in range(5)) for choice in range(32)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+

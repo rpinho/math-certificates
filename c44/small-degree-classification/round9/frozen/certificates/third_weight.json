@@ -1,0 +1,5715 @@
+{
+  "schema": "c44-third-weight-v2",
+  "status": "candidate, unrefereed",
+  "degree": 5,
+  "normalized_weight": "7/4",
+  "denominator": 32,
+  "numerator_norm": 56,
+  "minimum_partial_energy": 16,
+  "next_partial_energy": 24,
+  "conclusion": "controls <= 13",
+  "template_counts": {
+    "13": 359502,
+    "15": 1479478,
+    "16": 2757118,
+    "17": 4910178,
+    "14": 752752
+  },
+  "cases": [
+    {
+      "n": 17,
+      "kind": "hom",
+      "case_index": 0,
+      "pair_counts": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "outside": 8,
+      "goodbits": 131067,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n17_hom_0.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 17,
+      "kind": "hom",
+      "case_index": 1,
+      "pair_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "outside": 7,
+      "goodbits": 65535,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n17_hom_1.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 16,
+      "kind": "hom",
+      "case_index": 0,
+      "pair_counts": [
+        0,
+        1,
+        2,
+        2
+      ],
+      "outside": 7,
+      "goodbits": 65513,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n16_hom_0.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 16,
+      "kind": "hom",
+      "case_index": 1,
+      "pair_counts": [
+        0,
+        2,
+        2,
+        2
+      ],
+      "outside": 6,
+      "goodbits": 32761,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n16_hom_1.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 16,
+      "kind": "hom",
+      "case_index": 2,
+      "pair_counts": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "outside": 7,
+      "goodbits": 65451,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n16_hom_2.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 16,
+      "kind": "hom",
+      "case_index": 3,
+      "pair_counts": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "outside": 6,
+      "goodbits": 32747,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n16_hom_3.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 16,
+      "kind": "hom",
+      "case_index": 4,
+      "pair_counts": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "outside": 5,
+      "goodbits": 16379,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n16_hom_4.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 16,
+      "kind": "hom",
+      "case_index": 5,
+      "pair_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "outside": 4,
+      "goodbits": 8191,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n16_hom_5.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "hom",
+      "case_index": 0,
+      "pair_counts": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "outside": 6,
+      "goodbits": 32673,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n15_hom_0.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "hom",
+      "case_index": 1,
+      "pair_counts": [
+        0,
+        0,
+        2,
+        2
+      ],
+      "outside": 5,
+      "goodbits": 16353,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n15_hom_1.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "hom",
+      "case_index": 2,
+      "pair_counts": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "outside": 6,
+      "goodbits": 32425,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n15_hom_2.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "hom",
+      "case_index": 3,
+      "pair_counts": [
+        0,
+        1,
+        1,
+        2
+      ],
+      "outside": 5,
+      "goodbits": 16297,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n15_hom_3.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "hom",
+      "case_index": 4,
+      "pair_counts": [
+        0,
+        1,
+        2,
+        2
+      ],
+      "outside": 4,
+      "goodbits": 8169,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n15_hom_4.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "hom",
+      "case_index": 5,
+      "pair_counts": [
+        0,
+        2,
+        2,
+        2
+      ],
+      "outside": 3,
+      "goodbits": 4089,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n15_hom_5.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "hom",
+      "case_index": 6,
+      "pair_counts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "outside": 5,
+      "goodbits": 16043,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n15_hom_6.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "hom",
+      "case_index": 7,
+      "pair_counts": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "outside": 4,
+      "goodbits": 8107,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n15_hom_7.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "hom",
+      "case_index": 8,
+      "pair_counts": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "outside": 3,
+      "goodbits": 4075,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n15_hom_8.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "hom",
+      "case_index": 9,
+      "pair_counts": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "outside": 2,
+      "goodbits": 2043,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n15_hom_9.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "hom",
+      "case_index": 10,
+      "pair_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "outside": 1,
+      "goodbits": 1023,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n15_hom_10.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 0,
+      "type": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "bad": 1,
+      "goodbits": 32765,
+      "blocks": [
+        62
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_0.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 1,
+      "type": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "bad": 6,
+      "goodbits": 32703,
+      "blocks": [
+        62
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_1.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 2,
+      "type": [
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "bad": 1,
+      "goodbits": 32765,
+      "blocks": [
+        14,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_2.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 3,
+      "type": [
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "bad": 7,
+      "goodbits": 32639,
+      "blocks": [
+        14,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_3.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 4,
+      "type": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "bad": 1,
+      "goodbits": 32765,
+      "blocks": [
+        6,
+        120
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_4.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 5,
+      "type": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "bad": 3,
+      "goodbits": 32759,
+      "blocks": [
+        6,
+        120
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_5.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 6,
+      "type": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "bad": 7,
+      "goodbits": 32639,
+      "blocks": [
+        6,
+        120
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_6.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 7,
+      "type": [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "bad": 1,
+      "goodbits": 32765,
+      "blocks": [
+        6,
+        24,
+        224
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_7.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 8,
+      "type": [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "bad": 5,
+      "goodbits": 32735,
+      "blocks": [
+        6,
+        24,
+        224
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_8.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 9,
+      "type": [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "bad": 8,
+      "goodbits": 32511,
+      "blocks": [
+        6,
+        24,
+        224
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_9.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 10,
+      "type": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "bad": 1,
+      "goodbits": 32765,
+      "blocks": [
+        2,
+        60
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_10.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 11,
+      "type": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "bad": 2,
+      "goodbits": 32763,
+      "blocks": [
+        2,
+        60
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_11.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 12,
+      "type": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "bad": 6,
+      "goodbits": 32703,
+      "blocks": [
+        2,
+        60
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_12.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 13,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "bad": 1,
+      "goodbits": 32765,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_13.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 14,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "bad": 2,
+      "goodbits": 32763,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_14.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 15,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "bad": 4,
+      "goodbits": 32751,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_15.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 16,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "bad": 7,
+      "goodbits": 32639,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_16.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 17,
+      "type": [
+        1,
+        3,
+        0,
+        0,
+        0
+      ],
+      "bad": 1,
+      "goodbits": 32765,
+      "blocks": [
+        2,
+        12,
+        48,
+        192
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_17.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 18,
+      "type": [
+        1,
+        3,
+        0,
+        0,
+        0
+      ],
+      "bad": 2,
+      "goodbits": 32763,
+      "blocks": [
+        2,
+        12,
+        48,
+        192
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_18.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 19,
+      "type": [
+        1,
+        3,
+        0,
+        0,
+        0
+      ],
+      "bad": 8,
+      "goodbits": 32511,
+      "blocks": [
+        2,
+        12,
+        48,
+        192
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_19.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 20,
+      "type": [
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      "bad": 1,
+      "goodbits": 32765,
+      "blocks": [
+        2,
+        4,
+        56
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_20.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 21,
+      "type": [
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      "bad": 3,
+      "goodbits": 32759,
+      "blocks": [
+        2,
+        4,
+        56
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_21.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 22,
+      "type": [
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      "bad": 6,
+      "goodbits": 32703,
+      "blocks": [
+        2,
+        4,
+        56
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_22.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 23,
+      "type": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "bad": 1,
+      "goodbits": 32765,
+      "blocks": [
+        2,
+        4,
+        24,
+        96
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_23.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 24,
+      "type": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "bad": 3,
+      "goodbits": 32759,
+      "blocks": [
+        2,
+        4,
+        24,
+        96
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_24.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 25,
+      "type": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "bad": 7,
+      "goodbits": 32639,
+      "blocks": [
+        2,
+        4,
+        24,
+        96
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_25.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 26,
+      "type": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "bad": 1,
+      "goodbits": 32765,
+      "blocks": [
+        2,
+        4,
+        8,
+        48
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_26.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 27,
+      "type": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "bad": 4,
+      "goodbits": 32751,
+      "blocks": [
+        2,
+        4,
+        8,
+        48
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_27.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 28,
+      "type": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "bad": 6,
+      "goodbits": 32703,
+      "blocks": [
+        2,
+        4,
+        8,
+        48
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_28.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 29,
+      "type": [
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bad": 1,
+      "goodbits": 32765,
+      "blocks": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_29.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 15,
+      "kind": "nonhom",
+      "case_index": 30,
+      "type": [
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bad": 5,
+      "goodbits": 32735,
+      "blocks": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n15_nonhom_30.txt",
+      "unresolved": 0
+    },
+    {
+      "n": 14,
+      "kind": "hom",
+      "case_index": 0,
+      "goodbits": 16001,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n14_hom_0.txt",
+      "unresolved": 0,
+      "pair_counts": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "hom",
+      "case_index": 1,
+      "goodbits": 8065,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n14_hom_1.txt",
+      "unresolved": 0,
+      "pair_counts": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "outside": 4
+    },
+    {
+      "n": 14,
+      "kind": "hom",
+      "case_index": 2,
+      "goodbits": 7841,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n14_hom_2.txt",
+      "unresolved": 0,
+      "pair_counts": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "outside": 4
+    },
+    {
+      "n": 14,
+      "kind": "hom",
+      "case_index": 3,
+      "goodbits": 4001,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n14_hom_3.txt",
+      "unresolved": 0,
+      "pair_counts": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "outside": 3
+    },
+    {
+      "n": 14,
+      "kind": "hom",
+      "case_index": 4,
+      "goodbits": 2017,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n14_hom_4.txt",
+      "unresolved": 0,
+      "pair_counts": [
+        0,
+        0,
+        2,
+        2
+      ],
+      "outside": 2
+    },
+    {
+      "n": 14,
+      "kind": "hom",
+      "case_index": 5,
+      "goodbits": 3753,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n14_hom_5.txt",
+      "unresolved": 0,
+      "pair_counts": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "outside": 3
+    },
+    {
+      "n": 14,
+      "kind": "hom",
+      "case_index": 6,
+      "goodbits": 1961,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n14_hom_6.txt",
+      "unresolved": 0,
+      "pair_counts": [
+        0,
+        1,
+        1,
+        2
+      ],
+      "outside": 2
+    },
+    {
+      "n": 14,
+      "kind": "hom",
+      "case_index": 7,
+      "goodbits": 1001,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n14_hom_7.txt",
+      "unresolved": 0,
+      "pair_counts": [
+        0,
+        1,
+        2,
+        2
+      ],
+      "outside": 1
+    },
+    {
+      "n": 14,
+      "kind": "hom",
+      "case_index": 8,
+      "goodbits": 505,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n14_hom_8.txt",
+      "unresolved": 0,
+      "pair_counts": [
+        0,
+        2,
+        2,
+        2
+      ],
+      "outside": 0
+    },
+    {
+      "n": 14,
+      "kind": "hom",
+      "case_index": 9,
+      "goodbits": 1707,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n14_hom_9.txt",
+      "unresolved": 0,
+      "pair_counts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "outside": 2
+    },
+    {
+      "n": 14,
+      "kind": "hom",
+      "case_index": 10,
+      "goodbits": 939,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n14_hom_10.txt",
+      "unresolved": 0,
+      "pair_counts": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "outside": 1
+    },
+    {
+      "n": 14,
+      "kind": "hom",
+      "case_index": 11,
+      "goodbits": 491,
+      "blocks": [
+        6,
+        24,
+        96,
+        384
+      ],
+      "nonhomogeneous_only": false,
+      "file": "n14_hom_11.txt",
+      "unresolved": 0,
+      "pair_counts": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "outside": 0
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 0,
+      "goodbits": 16323,
+      "blocks": [
+        62
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_0.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "block_good_counts": [
+        [],
+        [],
+        [],
+        [],
+        [
+          1
+        ]
+      ],
+      "outside": 8
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 1,
+      "goodbits": 8135,
+      "blocks": [
+        62
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_1.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "block_good_counts": [
+        [],
+        [],
+        [],
+        [],
+        [
+          2
+        ]
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 2,
+      "goodbits": 4047,
+      "blocks": [
+        62
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_2.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "block_good_counts": [
+        [],
+        [],
+        [],
+        [],
+        [
+          3
+        ]
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 3,
+      "goodbits": 2015,
+      "blocks": [
+        62
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_3.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "block_good_counts": [
+        [],
+        [],
+        [],
+        [],
+        [
+          4
+        ]
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 4,
+      "goodbits": 1023,
+      "blocks": [
+        62
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_4.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "block_good_counts": [
+        [],
+        [],
+        [],
+        [],
+        [
+          5
+        ]
+      ],
+      "outside": 4
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 5,
+      "goodbits": 16305,
+      "blocks": [
+        14,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_5.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [],
+        [
+          0,
+          2
+        ],
+        [],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 6,
+      "goodbits": 8177,
+      "blocks": [
+        14,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_6.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [],
+        [
+          0,
+          3
+        ],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 7,
+      "goodbits": 16275,
+      "blocks": [
+        14,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_7.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [],
+        [
+          1,
+          1
+        ],
+        [],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 8,
+      "goodbits": 8115,
+      "blocks": [
+        14,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_8.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [],
+        [
+          1,
+          2
+        ],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 9,
+      "goodbits": 4083,
+      "blocks": [
+        14,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_9.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [],
+        [
+          1,
+          3
+        ],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 10,
+      "goodbits": 4023,
+      "blocks": [
+        14,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_10.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [],
+        [
+          2,
+          2
+        ],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 11,
+      "goodbits": 2039,
+      "blocks": [
+        14,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_11.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [],
+        [
+          2,
+          3
+        ],
+        [],
+        []
+      ],
+      "outside": 4
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 12,
+      "goodbits": 1023,
+      "blocks": [
+        14,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_12.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [],
+        [
+          3,
+          3
+        ],
+        [],
+        []
+      ],
+      "outside": 3
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 13,
+      "goodbits": 16281,
+      "blocks": [
+        6,
+        120
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_13.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          0
+        ],
+        [],
+        [
+          2
+        ],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 14,
+      "goodbits": 8121,
+      "blocks": [
+        6,
+        120
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_14.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          0
+        ],
+        [],
+        [
+          3
+        ],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 15,
+      "goodbits": 4089,
+      "blocks": [
+        6,
+        120
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_15.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          0
+        ],
+        [],
+        [
+          4
+        ],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 16,
+      "goodbits": 16267,
+      "blocks": [
+        6,
+        120
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_16.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          1
+        ],
+        [],
+        [
+          1
+        ],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 17,
+      "goodbits": 8091,
+      "blocks": [
+        6,
+        120
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_17.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          1
+        ],
+        [],
+        [
+          2
+        ],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 18,
+      "goodbits": 4027,
+      "blocks": [
+        6,
+        120
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_18.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          1
+        ],
+        [],
+        [
+          3
+        ],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 19,
+      "goodbits": 2043,
+      "blocks": [
+        6,
+        120
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_19.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          1
+        ],
+        [],
+        [
+          4
+        ],
+        []
+      ],
+      "outside": 4
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 20,
+      "goodbits": 16263,
+      "blocks": [
+        6,
+        120
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_20.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          2
+        ],
+        [],
+        [
+          0
+        ],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 21,
+      "goodbits": 8079,
+      "blocks": [
+        6,
+        120
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_21.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          2
+        ],
+        [],
+        [
+          1
+        ],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 22,
+      "goodbits": 3999,
+      "blocks": [
+        6,
+        120
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_22.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          2
+        ],
+        [],
+        [
+          2
+        ],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 23,
+      "goodbits": 1983,
+      "blocks": [
+        6,
+        120
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_23.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          2
+        ],
+        [],
+        [
+          3
+        ],
+        []
+      ],
+      "outside": 4
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 24,
+      "goodbits": 1023,
+      "blocks": [
+        6,
+        120
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_24.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          2
+        ],
+        [],
+        [
+          4
+        ],
+        []
+      ],
+      "outside": 3
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 25,
+      "goodbits": 16353,
+      "blocks": [
+        6,
+        24,
+        224
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_25.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          0,
+          0
+        ],
+        [
+          3
+        ],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 26,
+      "goodbits": 16233,
+      "blocks": [
+        6,
+        24,
+        224
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_26.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          0,
+          1
+        ],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 27,
+      "goodbits": 8169,
+      "blocks": [
+        6,
+        24,
+        224
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_27.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          0,
+          1
+        ],
+        [
+          3
+        ],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 28,
+      "goodbits": 16185,
+      "blocks": [
+        6,
+        24,
+        224
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_28.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 29,
+      "goodbits": 8057,
+      "blocks": [
+        6,
+        24,
+        224
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_29.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          0,
+          2
+        ],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 30,
+      "goodbits": 4089,
+      "blocks": [
+        6,
+        24,
+        224
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_30.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          0,
+          2
+        ],
+        [
+          3
+        ],
+        [],
+        []
+      ],
+      "outside": 4
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 31,
+      "goodbits": 16171,
+      "blocks": [
+        6,
+        24,
+        224
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_31.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          1,
+          1
+        ],
+        [
+          1
+        ],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 32,
+      "goodbits": 8043,
+      "blocks": [
+        6,
+        24,
+        224
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_32.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          1,
+          1
+        ],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 33,
+      "goodbits": 4075,
+      "blocks": [
+        6,
+        24,
+        224
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_33.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          1,
+          1
+        ],
+        [
+          3
+        ],
+        [],
+        []
+      ],
+      "outside": 4
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 34,
+      "goodbits": 16155,
+      "blocks": [
+        6,
+        24,
+        224
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_34.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          1,
+          2
+        ],
+        [
+          0
+        ],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 35,
+      "goodbits": 7995,
+      "blocks": [
+        6,
+        24,
+        224
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_35.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          1,
+          2
+        ],
+        [
+          1
+        ],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 36,
+      "goodbits": 3963,
+      "blocks": [
+        6,
+        24,
+        224
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_36.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          1,
+          2
+        ],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "outside": 4
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 37,
+      "goodbits": 2043,
+      "blocks": [
+        6,
+        24,
+        224
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_37.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ],
+        [],
+        []
+      ],
+      "outside": 3
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 38,
+      "goodbits": 7967,
+      "blocks": [
+        6,
+        24,
+        224
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_38.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          2,
+          2
+        ],
+        [
+          0
+        ],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 39,
+      "goodbits": 3903,
+      "blocks": [
+        6,
+        24,
+        224
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_39.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          2,
+          2
+        ],
+        [
+          1
+        ],
+        [],
+        []
+      ],
+      "outside": 4
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 40,
+      "goodbits": 1919,
+      "blocks": [
+        6,
+        24,
+        224
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_40.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          2,
+          2
+        ],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "outside": 3
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 41,
+      "goodbits": 1023,
+      "blocks": [
+        6,
+        24,
+        224
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_41.txt",
+      "unresolved": 0,
+      "type": [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [],
+        [
+          2,
+          2
+        ],
+        [
+          3
+        ],
+        [],
+        []
+      ],
+      "outside": 2
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 42,
+      "goodbits": 16325,
+      "blocks": [
+        2,
+        60
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_42.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0
+        ],
+        [],
+        [],
+        [
+          1
+        ],
+        []
+      ],
+      "outside": 8
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 43,
+      "goodbits": 8141,
+      "blocks": [
+        2,
+        60
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_43.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0
+        ],
+        [],
+        [],
+        [
+          2
+        ],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 44,
+      "goodbits": 4061,
+      "blocks": [
+        2,
+        60
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_44.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0
+        ],
+        [],
+        [],
+        [
+          3
+        ],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 45,
+      "goodbits": 2045,
+      "blocks": [
+        2,
+        60
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_45.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0
+        ],
+        [],
+        [],
+        [
+          4
+        ],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 46,
+      "goodbits": 16323,
+      "blocks": [
+        2,
+        60
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_46.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [],
+        [],
+        [
+          0
+        ],
+        []
+      ],
+      "outside": 8
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 47,
+      "goodbits": 8135,
+      "blocks": [
+        2,
+        60
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_47.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [],
+        [],
+        [
+          1
+        ],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 48,
+      "goodbits": 4047,
+      "blocks": [
+        2,
+        60
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_48.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [],
+        [],
+        [
+          2
+        ],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 49,
+      "goodbits": 2015,
+      "blocks": [
+        2,
+        60
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_49.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [],
+        [],
+        [
+          3
+        ],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 50,
+      "goodbits": 1023,
+      "blocks": [
+        2,
+        60
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_50.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [],
+        [],
+        [
+          4
+        ],
+        []
+      ],
+      "outside": 4
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 51,
+      "goodbits": 16305,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_51.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 52,
+      "goodbits": 8177,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_52.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          3
+        ],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 53,
+      "goodbits": 16277,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_53.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 54,
+      "goodbits": 8117,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_54.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 55,
+      "goodbits": 4085,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_55.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 56,
+      "goodbits": 16269,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_56.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0
+        ],
+        [
+          2
+        ],
+        [
+          0
+        ],
+        [],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 57,
+      "goodbits": 8093,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_57.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0
+        ],
+        [
+          2
+        ],
+        [
+          1
+        ],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 58,
+      "goodbits": 4029,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_58.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 59,
+      "goodbits": 2045,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_59.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [],
+        []
+      ],
+      "outside": 4
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 60,
+      "goodbits": 16275,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_60.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 61,
+      "goodbits": 8115,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_61.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 62,
+      "goodbits": 4083,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_62.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [
+          3
+        ],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 63,
+      "goodbits": 16263,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_63.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        [],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 64,
+      "goodbits": 8087,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_64.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 65,
+      "goodbits": 4023,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_65.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 66,
+      "goodbits": 2039,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_66.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [],
+        []
+      ],
+      "outside": 4
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 67,
+      "goodbits": 8079,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_67.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          0
+        ],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 68,
+      "goodbits": 3999,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_68.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          1
+        ],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 69,
+      "goodbits": 1983,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_69.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "outside": 4
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 70,
+      "goodbits": 1023,
+      "blocks": [
+        2,
+        12,
+        112
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_70.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [],
+        []
+      ],
+      "outside": 3
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 71,
+      "goodbits": 16337,
+      "blocks": [
+        2,
+        12,
+        48,
+        192
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_71.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        3,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 72,
+      "goodbits": 8177,
+      "blocks": [
+        2,
+        12,
+        48,
+        192
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_72.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        3,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 73,
+      "goodbits": 16213,
+      "blocks": [
+        2,
+        12,
+        48,
+        192
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_73.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        3,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 74,
+      "goodbits": 8149,
+      "blocks": [
+        2,
+        12,
+        48,
+        192
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_74.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        3,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 75,
+      "goodbits": 4085,
+      "blocks": [
+        2,
+        12,
+        48,
+        192
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_75.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        3,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 4
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 76,
+      "goodbits": 2045,
+      "blocks": [
+        2,
+        12,
+        48,
+        192
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_76.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        3,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 3
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 77,
+      "goodbits": 16323,
+      "blocks": [
+        2,
+        12,
+        48,
+        192
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_77.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        3,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 78,
+      "goodbits": 16211,
+      "blocks": [
+        2,
+        12,
+        48,
+        192
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_78.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        3,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 79,
+      "goodbits": 8147,
+      "blocks": [
+        2,
+        12,
+        48,
+        192
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_79.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        3,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 80,
+      "goodbits": 4083,
+      "blocks": [
+        2,
+        12,
+        48,
+        192
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_80.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        3,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 4
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 81,
+      "goodbits": 8023,
+      "blocks": [
+        2,
+        12,
+        48,
+        192
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_81.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        3,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 82,
+      "goodbits": 4055,
+      "blocks": [
+        2,
+        12,
+        48,
+        192
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_82.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        3,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 4
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 83,
+      "goodbits": 2039,
+      "blocks": [
+        2,
+        12,
+        48,
+        192
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_83.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        3,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [
+          1,
+          2,
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 3
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 84,
+      "goodbits": 1023,
+      "blocks": [
+        2,
+        12,
+        48,
+        192
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_84.txt",
+      "unresolved": 0,
+      "type": [
+        1,
+        3,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 2
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 85,
+      "goodbits": 16329,
+      "blocks": [
+        2,
+        4,
+        56
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_85.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          0
+        ],
+        [],
+        [
+          1
+        ],
+        [],
+        []
+      ],
+      "outside": 8
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 86,
+      "goodbits": 8153,
+      "blocks": [
+        2,
+        4,
+        56
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_86.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          0
+        ],
+        [],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 87,
+      "goodbits": 4089,
+      "blocks": [
+        2,
+        4,
+        56
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_87.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          0
+        ],
+        [],
+        [
+          3
+        ],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 88,
+      "goodbits": 16325,
+      "blocks": [
+        2,
+        4,
+        56
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_88.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          1
+        ],
+        [],
+        [
+          0
+        ],
+        [],
+        []
+      ],
+      "outside": 8
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 89,
+      "goodbits": 8141,
+      "blocks": [
+        2,
+        4,
+        56
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_89.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          1
+        ],
+        [],
+        [
+          1
+        ],
+        [],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 90,
+      "goodbits": 4061,
+      "blocks": [
+        2,
+        4,
+        56
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_90.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          1
+        ],
+        [],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 91,
+      "goodbits": 2045,
+      "blocks": [
+        2,
+        4,
+        56
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_91.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          1
+        ],
+        [],
+        [
+          3
+        ],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 92,
+      "goodbits": 8135,
+      "blocks": [
+        2,
+        4,
+        56
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_92.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1,
+          1
+        ],
+        [],
+        [
+          0
+        ],
+        [],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 93,
+      "goodbits": 4047,
+      "blocks": [
+        2,
+        4,
+        56
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_93.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1,
+          1
+        ],
+        [],
+        [
+          1
+        ],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 94,
+      "goodbits": 2015,
+      "blocks": [
+        2,
+        4,
+        56
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_94.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1,
+          1
+        ],
+        [],
+        [
+          2
+        ],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 95,
+      "goodbits": 1023,
+      "blocks": [
+        2,
+        4,
+        56
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_95.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1,
+          1
+        ],
+        [],
+        [
+          3
+        ],
+        [],
+        []
+      ],
+      "outside": 4
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 96,
+      "goodbits": 16353,
+      "blocks": [
+        2,
+        4,
+        24,
+        96
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_96.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 97,
+      "goodbits": 16297,
+      "blocks": [
+        2,
+        4,
+        24,
+        96
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_97.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 98,
+      "goodbits": 8169,
+      "blocks": [
+        2,
+        4,
+        24,
+        96
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_98.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 99,
+      "goodbits": 4089,
+      "blocks": [
+        2,
+        4,
+        24,
+        96
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_99.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 100,
+      "goodbits": 16293,
+      "blocks": [
+        2,
+        4,
+        24,
+        96
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_100.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 101,
+      "goodbits": 8165,
+      "blocks": [
+        2,
+        4,
+        24,
+        96
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_101.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 102,
+      "goodbits": 8109,
+      "blocks": [
+        2,
+        4,
+        24,
+        96
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_102.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 103,
+      "goodbits": 4077,
+      "blocks": [
+        2,
+        4,
+        24,
+        96
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_103.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 104,
+      "goodbits": 2045,
+      "blocks": [
+        2,
+        4,
+        24,
+        96
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_104.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 4
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 105,
+      "goodbits": 16263,
+      "blocks": [
+        2,
+        4,
+        24,
+        96
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_105.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 106,
+      "goodbits": 8103,
+      "blocks": [
+        2,
+        4,
+        24,
+        96
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_106.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 107,
+      "goodbits": 4071,
+      "blocks": [
+        2,
+        4,
+        24,
+        96
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_107.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 108,
+      "goodbits": 4015,
+      "blocks": [
+        2,
+        4,
+        24,
+        96
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_108.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 109,
+      "goodbits": 2031,
+      "blocks": [
+        2,
+        4,
+        24,
+        96
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_109.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 4
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 110,
+      "goodbits": 1023,
+      "blocks": [
+        2,
+        4,
+        24,
+        96
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_110.txt",
+      "unresolved": 0,
+      "type": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 3
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 111,
+      "goodbits": 16337,
+      "blocks": [
+        2,
+        4,
+        8,
+        48
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_111.txt",
+      "unresolved": 0,
+      "type": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 8
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 112,
+      "goodbits": 8177,
+      "blocks": [
+        2,
+        4,
+        8,
+        48
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_112.txt",
+      "unresolved": 0,
+      "type": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 113,
+      "goodbits": 16329,
+      "blocks": [
+        2,
+        4,
+        8,
+        48
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_113.txt",
+      "unresolved": 0,
+      "type": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 8
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 114,
+      "goodbits": 8153,
+      "blocks": [
+        2,
+        4,
+        8,
+        48
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_114.txt",
+      "unresolved": 0,
+      "type": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 115,
+      "goodbits": 4089,
+      "blocks": [
+        2,
+        4,
+        8,
+        48
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_115.txt",
+      "unresolved": 0,
+      "type": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 116,
+      "goodbits": 8141,
+      "blocks": [
+        2,
+        4,
+        8,
+        48
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_116.txt",
+      "unresolved": 0,
+      "type": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 117,
+      "goodbits": 4061,
+      "blocks": [
+        2,
+        4,
+        8,
+        48
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_117.txt",
+      "unresolved": 0,
+      "type": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 118,
+      "goodbits": 2045,
+      "blocks": [
+        2,
+        4,
+        8,
+        48
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_118.txt",
+      "unresolved": 0,
+      "type": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 119,
+      "goodbits": 4047,
+      "blocks": [
+        2,
+        4,
+        8,
+        48
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_119.txt",
+      "unresolved": 0,
+      "type": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 120,
+      "goodbits": 2015,
+      "blocks": [
+        2,
+        4,
+        8,
+        48
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_120.txt",
+      "unresolved": 0,
+      "type": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 5
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 121,
+      "goodbits": 1023,
+      "blocks": [
+        2,
+        4,
+        8,
+        48
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_121.txt",
+      "unresolved": 0,
+      "type": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2
+        ],
+        [],
+        [],
+        []
+      ],
+      "outside": 4
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 122,
+      "goodbits": 16353,
+      "blocks": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_122.txt",
+      "unresolved": 0,
+      "type": [
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [],
+        [],
+        [],
+        []
+      ],
+      "outside": 9
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 123,
+      "goodbits": 8177,
+      "blocks": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_123.txt",
+      "unresolved": 0,
+      "type": [
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [],
+        [],
+        [],
+        []
+      ],
+      "outside": 8
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 124,
+      "goodbits": 4089,
+      "blocks": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_124.txt",
+      "unresolved": 0,
+      "type": [
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [],
+        [],
+        [],
+        []
+      ],
+      "outside": 7
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 125,
+      "goodbits": 2045,
+      "blocks": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_125.txt",
+      "unresolved": 0,
+      "type": [
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [],
+        [],
+        [],
+        []
+      ],
+      "outside": 6
+    },
+    {
+      "n": 14,
+      "kind": "nonhom",
+      "case_index": 126,
+      "goodbits": 1023,
+      "blocks": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "nonhomogeneous_only": true,
+      "file": "n14_nonhom_126.txt",
+      "unresolved": 0,
+      "type": [
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "block_good_counts": [
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [],
+        [],
+        [],
+        []
+      ],
+      "outside": 5
+    }
+  ]
+}

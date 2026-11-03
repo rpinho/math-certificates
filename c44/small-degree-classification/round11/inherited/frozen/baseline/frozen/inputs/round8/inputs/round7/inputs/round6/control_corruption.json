@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "mutation": "wrong_cap",
+      "checker": "verify_caps_a.py",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_cap",
+      "checker": "verify_caps_b.py",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_base",
+      "checker": "verify_caps_a.py",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_base",
+      "checker": "verify_caps_b.py",
+      "rejected": true
+    },
+    {
+      "mutation": "false_claim",
+      "checker": "verify_caps_a.py",
+      "rejected": true
+    },
+    {
+      "mutation": "false_claim",
+      "checker": "verify_caps_b.py",
+      "rejected": true
+    },
+    {
+      "mutation": "missing_case",
+      "checker": "verify_caps_a.py",
+      "rejected": true
+    },
+    {
+      "mutation": "missing_case",
+      "checker": "verify_caps_b.py",
+      "rejected": true
+    },
+    {
+      "mutation": "odd_grid_witness",
+      "checker": "verify_caps_a.py",
+      "rejected": true
+    },
+    {
+      "mutation": "odd_grid_witness",
+      "checker": "verify_caps_b.py",
+      "rejected": true
+    },
+    {
+      "mutation": "bad_block_input",
+      "checker": "verify_caps_b.py",
+      "rejected": true
+    }
+  ]
+}

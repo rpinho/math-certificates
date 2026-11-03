@@ -1,0 +1,10 @@
+independent tensor templates 11880 3.904241584939882
+{'case': 0, 'nodes': 1499803, 'models': 0}
+{'case': 1, 'nodes': 393848, 'models': 0}
+{'case': 2, 'nodes': 21337, 'models': 0}
+{'case': 3, 'nodes': 1410, 'models': 0}
+{'case': 4, 'nodes': 18687, 'models': 0}
+{'case': 5, 'nodes': 1368, 'models': 0}
+{'case': 6, 'nodes': 147, 'models': 1}
+{'case': 7, 'nodes': 91, 'models': 8}
+{"status": "PASS", "checker": "quartic B: direct tensor character sums, fixed-order exhaustive completion", "templates": 11880, "nodes": 1936691, "cases": [{"case": 0, "nodes": 1499803, "models": 0}, {"case": 1, "nodes": 393848, "models": 0}, {"case": 2, "nodes": 21337, "models": 0}, {"case": 3, "nodes": 1410, "models": 0}, {"case": 4, "nodes": 18687, "models": 0}, {"case": 5, "nodes": 1368, "models": 0}, {"case": 6, "nodes": 147, "models": 1}, {"case": 7, "nodes": 91, "models": 8}], "seconds": 59.28360696695745, "controls_upper": 10}

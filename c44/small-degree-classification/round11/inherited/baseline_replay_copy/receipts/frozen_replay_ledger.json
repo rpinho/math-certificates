@@ -1,0 +1,29 @@
+{
+  "pid": 157641,
+  "manifest_sha256": "c97a1d6d3e638aeaf8950f0e26370d15d24e5cc8a79f6d70f4d45328258bace9",
+  "started": "2026-11-03T06:42:16.026393+00:00",
+  "stages": [
+    {
+      "label": "frozen_compile",
+      "pid": 157642,
+      "code": 0
+    },
+    {
+      "label": "frozen_structure",
+      "pid": 157670,
+      "code": 0
+    },
+    {
+      "label": "frozen_inherited",
+      "pid": 157675,
+      "code": 0
+    },
+    {
+      "label": "frozen_mathematics",
+      "pid": 157759,
+      "code": 0
+    }
+  ],
+  "status": "PASS",
+  "ended": "2026-11-03T06:51:11.006872+00:00"
+}
