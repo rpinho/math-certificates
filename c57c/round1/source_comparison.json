@@ -1,0 +1,93 @@
+{
+  "qualification": "candidate, unrefereed; no novelty judgment",
+  "source_check_utc": "2026-11-03T11:00:59.905079+00:00",
+  "live_table": "https://teorth.github.io/optimizationproblems/",
+  "target_source": "https://github.com/teorth/optimizationproblems/blob/main/constants/57c.md",
+  "public_lower": "0.612242",
+  "public_upper": "0.6562681",
+  "predecessor_lower": "306147/500000",
+  "candidate_lower": "6123/10000",
+  "gain_over_predecessor": "3/500000",
+  "public_credit": "Frank Wikstrom, arXiv:2610.34580v1",
+  "public_target_page_sha256": "76d42e84cb23f6b6b13b5dca0fdee993b363d4c9ac3223074c5f3ed0adc1048b",
+  "audited_heads": {
+    "teorth/optimizationproblems": {
+      "sha": "87b4ebbd426ff8db597a2004cc45da17903bdcf2",
+      "date": "2026-10-28T04:15:42Z"
+    },
+    "BakeLab/Epi-results": {
+      "sha": "97fa6a420f417458e11723c8bceb70f1529e447a",
+      "date": "2026-09-14T08:27:59Z"
+    },
+    "google-deepmind/alphaevolve_results": {
+      "sha": "4226acbf237ff9ad10ba7673a2af127a2d8a5971",
+      "date": "2026-01-05T16:13:57Z"
+    },
+    "google-deepmind/alphaevolve_repository_of_problems": {
+      "sha": "8f447457957deac61e28bf1676746f0753b3b2f8",
+      "date": "2026-07-11T19:25:35Z"
+    },
+    "openai/math": {
+      "sha": "4eaee87548250b2682affda7d05d947c05554bae",
+      "date": "2026-10-30T00:35:35Z"
+    },
+    "plasma-ai/erdos": {
+      "sha": "17c86a0d4ebe1487a087ceb8c14952a10ec2f2bd",
+      "date": "2026-10-28T16:34:55Z"
+    },
+    "kisonecat/openai-math": {
+      "sha": "77bce8d6471b3ede2fb7364539bb7bee37f6452b",
+      "date": "2026-10-09T12:20:03Z"
+    },
+    "quasar17/Alpha_Omega_Agents": {
+      "sha": "9bfd5018f7bcf02e204c40c3b21e7b7d14b33131",
+      "date": "2026-05-01T14:56:57Z"
+    },
+    "JamesWeatherhead/CodexProLong": {
+      "sha": "b96501f3ddb4447977c0bf9a995f745ef4743a7c",
+      "date": "2026-08-16T04:04:51Z"
+    },
+    "leandrejack-afk/chvatal-sankoff-bound": {
+      "sha": "574220ee90b332181ba8f8eccf500c380c0f78bb",
+      "date": "2026-10-26T11:41:10Z"
+    },
+    "YouhuaLi/tight-alternating-knot-constant": {
+      "sha": "debf7c92f93bae64486e6302e565a2d3b1290f9c",
+      "date": "2026-10-25T20:45:40Z"
+    },
+    "pw/erdosproblemaday-verification": {
+      "sha": "634b667ee7844f12590117c4c2d7bc0143f2fdd9",
+      "date": "2026-11-02T11:09:06Z"
+    },
+    "seewoo5/awesome-ai-for-math": {
+      "sha": "d4290a732c3264ca9da4cdbbdff1a4262f5117f0",
+      "date": "2026-09-10T13:42:42Z"
+    }
+  },
+  "open_target_prs": [
+    {
+      "number": 272,
+      "title": "C_31b: new page for the Chvátal–Sankoff constant with a four-letter alphabet",
+      "url": "https://github.com/teorth/optimizationproblems/pull/272",
+      "paths": [
+        "README.md",
+        "constants/31b.md"
+      ]
+    }
+  ],
+  "X": "unavailable",
+  "public_lower_source": "Wikström, arXiv:2610.34580v1, Theorem 1.2 (not a live table entry)",
+  "public_upper_source": "Wikström, arXiv:2610.34580v1, Theorems 1.3 and 7.3; same univalent Bloch–Landau constant",
+  "live_table_lower": "0.5708858",
+  "live_table_upper": "0.6563937 (0.65628589*)",
+  "predecessor_decimal": "0.612294",
+  "predecessor_status": "our earlier candidate, unrefereed, never filed",
+  "gain_over_wikstrom": "29/500000",
+  "historical_first_predecessor_lower": "61229/100000",
+  "release_note": "Live release audit is recorded in PRIOR_ART_RELEASE.md; inherited audited_heads and open_target_prs are historical multi-target provenance.",
+  "release_source_check_utc": "2026-11-03T12:12:34.841605+00:00",
+  "release_upstream_sha": "87b4ebbd426ff8db597a2004cc45da17903bdcf2",
+  "release_open_57c_prs": [],
+  "wikstrom_arxiv_lower": "0.612242",
+  "wikstrom_arxiv_upper": "0.6562681"
+}

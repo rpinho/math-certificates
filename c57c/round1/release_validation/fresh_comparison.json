@@ -1,0 +1,8 @@
+{
+  "all_three_match_historical_fields": true,
+  "fresh_ranges": 3,
+  "fresh_leaves": 1839,
+  "fresh_boxes": 34827,
+  "fresh_extra_splits": 16494,
+  "mixed_aggregation": "3 fresh plus 159 historical receipts; not a full fresh replay"
+}

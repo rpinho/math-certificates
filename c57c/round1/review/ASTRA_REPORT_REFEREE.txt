@@ -1,0 +1,250 @@
+Referee report: candidate C57c >= 6123/10000
+Review date: 2026-11-03 (UTC)
+
+First definite unjustified item found:
+The claimed actual-artifact control coverage is overstated. In
+bundle/check_c57_forest_controls.py:20-23, both the purported identically
+positive false-exclusion witness and the unsupported-phase witness have
+area_weight='0'. prepare() rejects them at
+bundle/verify_c57c_center6.py:107 with 'nonpositive area weight'. The false
+exclusion never reaches Arithmetic.leaf(), and the phase variant never
+reaches the phase-rule check. The false-exclusion test in
+test_c57_fast_rejections.py has the same defect. Its separate phase test,
+which mutates a real witness, is valid.
+This is a test-coverage defect, not a counterexample to the bound.
+Corrected referee controls successfully reject an admissible identically
+positive simple form in arithmetic, and reject an unsupported phase after
+using a valid positive area weight. Rejection reasons are retained in
+review_logs/corrected_controls.log. No false mathematical inequality or
+unsafe successful arithmetic acceptance has been found in this review.
+
+Scope and integrity:
+The original frozen folder was not modified. All work used ./bundle, copied
+from frozen/c57c_612300.
+REPORT.md and ATTEMPTS.md were copied to JOB_REPORT.md and JOB_ATTEMPTS.md.
+Every one of the 228 SHA256SUMS entries passed. MANIFEST.json's 228 hashes
+agree exactly with SHA256SUMS and with the files. The only unlisted files
+are the two inventory files themselves, MANIFEST.json and SHA256SUMS.
+The mathematical selector C57_FOREST_V2.json is hash-listed and selects
+12 gzip parts totaling 31,568,022 bytes; the other part-directory files
+are provenance/preparation/compaction records, not additional data leaves.
+The manifest hash is
+2968a6ec912a4af95a096b32d568dc06cd2e355961df5962fd82e53e2e496bb2.
+
+Fresh global verification and historical aggregation:
+verify_c57c_forest.py C57_FOREST_V2.json --aggregate cert_receipts/*.json
+was rerun. It reconstructs every global dyadic coverage edge and rehashes
+all 12 parts and checker modules. The 162 supplied arithmetic receipts
+cover exactly 489,994 leaves, with matching parameters, sources, hashes
+and 192-bit precision; the aggregate matches the historical result:
+1,660,856 arithmetic boxes and 585,431 extra splits.
+The global leaf-kind totals are 266,664 simple, 207,598 taylor4,
+13,871 a4cap and 1,861 blochcap. There are no blend leaves.
+The range plan was also independently checked against the literal part
+leaf counts and receipt intervals. This aggregation authenticates coverage
+and consistency; it does not independently reproduce unsampled arithmetic.
+
+Fresh partial replay:
+The reproducible uniform sample uses random.Random(2026110357).sample(jobs,20)
+on the literal RANGE_PLAN.json order. Three additional stress ranges were
+selected by the largest historical extra_splits/verified_leaves:
+parent2_02000_03000 (25.576), theta_tail_06750_07000 (24.636), and
+theta_tail_07500_08000 (24.018).
+IMPORTANT LIMITATION: the packet does not store certified margins. These
+are the three most subdivision-intensive ranges by that explicit metric;
+I cannot identify them as the three smallest mathematical margins. The
+literal request for the 'three tightest' is therefore not fully certified.
+Python 3.12.13 and python-flint 0.9.0 were installed in .venv; the checker
+uses Arb at 192 bits with single-thread BLAS environment variables. The
+tool shell already runs at nice 10. An initial explicit nice -n 10 launch
+therefore inherited nice 20; its four unfinished ranges were terminated
+and restarted at actual nice 10. No initial partial results were reused.
+The global/control commands were also rerun at actual nice 10.
+The complete selection and exact commands are in sample_plan.json and
+run_review.py; per-range logs and fresh receipts are in review_logs/ and
+fresh_receipts/. Final results and the individual range list follow below.
+The full replay was deliberately not launched: the supplied range times
+sum to about 6.81 serial hours across the original machines. Partial fresh
+receipts are never presented as an exhaustive proof.
+
+Rejection and implementation checks:
+1. check_c57_forest_controls.py: all nine supplied controls report rejection:
+   missing part, duplicate part, corrupt SHA, inconsistent parameters,
+   false exclusion, negative weight, unsupported phase, t=1, false caps.
+   The two wrongly exercised controls are explained above.
+2. test_c57_fast_rejections.py: invalid phase, purported false exclusion,
+   empty cover, missing cover, duplicate cover. The false-exclusion result
+   is a validator rejection, not an arithmetic rejection.
+3. test_c57_forest_verifier.py: complete fresh two-part mixed-radius-0.55
+   control, all 76,402 leaves and 77,084 boxes (341 extra splits); then
+   rejection of a receipt gap, receipt overlap, incomplete verified count,
+   and missing global subtree.
+4. audit_controls.py: confirmed the exact erroneous rejection reasons;
+   corrected valid simple positive-form rejection and corrected phase
+   rejection; additionally tested stale receipt checker hashes. False receipt precision and false radius also reject at their intended
+   consistency checks. All corrected controls completed successfully.
+5. audit_exact.py: a separately written rational recurrence for inverse and
+   square-root coefficients, followed by the bivariate logarithmic-
+   derivative recurrence, agrees with all 49 checker Grunsky templates
+   (140 nonzero rational monomials). All seven area coefficients agree;
+   every term has the required homogeneity and at most one high coefficient.
+   The parabolic lemma was independently checked in Fraction arithmetic,
+   with slack 39869083/345600000 in 12/5 - 1 - (4/25)J.
+6. audit_scaled_identity.py: 32 random rational-parameter comparisons of
+   the original scaled-Bloch quotient against the canceled Gram evaluation
+   at 256 bits pass; differences contain zero and have absolute bound
+   <1e-55. Positive, singular, indefinite and zero-straddling matrix controls
+   confirm strict positive-definiteness behavior. These point diagnostics
+   supplement, and do not replace, box replay and the written identities.
+7. Manual source audit traced witness validation, exact dyadic coverage,
+   geometric/binomial/log series, Laurent substitutions and phases, sparse
+   Gram assembly, coefficient caps, derivative disks, fixed-remainder core
+   derivatives, exact dyadic congruences, Gershgorin/interval Cholesky, and
+   both-child subdivision. Floating-point Cholesky only proposes a
+   preconditioner; acceptance uses strict Arb inequalities. Missing checks
+   or exhausted refinement return rejection, not success.
+
+External premises and logical direction:
+The table's C57c is the infimum of image-disk radii over univalent maps
+with f'(0)=1. For globally univalent maps this is exactly the image
+inradius; translation of f(0) and rotation do not change it. Thus the
+packet studies the correct constant, not the locally univalent or ordinary
+Bloch constant.
+
+Landau normalization is valid: restrict to F(rz), maximize its hyperbolic
+derivative at an interior point, compose with a disk automorphism and
+normalize. The similarity factor M is at least r|F'(0)| and
+R_F >= M R_f. The normalized derivative inequality implies a2=0,
+|a3|<=1/3 and |f(z)|<=atanh|z|. No Bloch inequality is being assumed for
+an arbitrary unnormalized map. These premises match Wikstrom's Lemma 2.1.
+
+For each normalized univalent transform F, F(z)/z is zero-free and has a
+holomorphic logarithm on the disk. The exterior odd square root is
+holomorphic and univalent, with leading coefficient one: equality of its
+values forces equal squared arguments, and the opposite-argument case
+is excluded by oddness and nonvanishing. This verifies the hypotheses for
+both the exterior area theorem sum n|h_n|^2<=1 and strong Grunsky
+contraction. Finite matrix compressions are contractions and therefore
+||z||^2+Re(z^T M z)>=0 for every complex z. The sign, square-root index
+weights, and complex bilinear (rather than Hermitian) form are correct.
+
+The omitted-value Mobius transform has no pole. The bounded-image
+quadratic transform has one omitted pole and its other pole lies outside
+the radial image bound. The two-value identity proves injectivity, and
+both transforms retain derivative one. The stated t and center bounds
+are checked in Arb. The area-derived caps for a5 through a8 have the
+correct coefficients and directions. Cauchy's derivative tail on |z|=4/5
+is a convergent geometric bound for every chosen radius <=1/4.
+
+The parabolic coefficient map covers all actual tuples after the stated
+symmetries. At u=0, choose x2=0; the canceled scaled-Bloch expression is
+the valid fixed-function limit plus 2/c^2. Its validity is not needed at
+redundant endpoint representations with x2>0. Taylor remainder bounds
+majorize actual higher-coefficient contributions; their box bound E is
+held fixed when differentiating the core matrix. Negative definiteness
+contradicts a nonnegative necessary sum. Moving-phase vectors are allowed
+pointwise for every angle and preserve their norm. The covered circle is
+inside a simply connected image, so the winding-number argument fills its
+interior. No radial monotonicity assumption is needed for this step.
+
+Every part header uses the exact fraction 6123/10000, equal to the exact
+terminating decimal 0.61230. Arb encloses this rational and the checker
+requires strict exclusion or strict positive definiteness; it does not
+accept by rounding a computed lower radius upward. The final transfer is
+R_F >= r|F'(0)|R followed by r increasing to one, hence C57c >= R.
+The gain over Wikstrom's 0.612242 is exactly 29/500000 = 0.000058.
+
+Public record and credit:
+The live 57c page and the GitHub contents API agree. Current main is
+87b4ebbd426ff8db597a2004cc45da17903bdcf2 (2026-10-28).
+The live file hash agrees with the packet's recorded page hash:
+76d42e84cb23f6b6b13b5dca0fdee993b363d4c9ac3223074c5f3ed0adc1048b.
+The page still lists lower bound 0.5708858 and the starred upper bound
+0.65628589 (with the older 0.6563937 unstarred). Wikstrom's public preprint,
+not the live table entry, states 0.612242 <= U < 0.6562681. Its arXiv page
+currently exposes v1, submitted 25 October 2026, and no journal reference.
+Calling it public/preprint is supported; journal publication or peer review
+was not established. The metadata's public_lower/public_upper can validly
+refer to that preprint, but should not be described as live table cells.
+
+Using gh, enumerated all 53 open repository items
+(47 PRs and six issues), all open PR file lists/diffs, and their issue
+comments. PR #223 changes 57a and 57b to Wikstrom's other results; it does
+not improve 57c. PR #272 mentions the family numbering incidentally and
+changes only 31b/README. No open item changing 57c or asserting a stronger
+57c lower bound was found. All 47 PR review-comment threads and review summaries were also
+checked; none supplied a further 57-family claim.
+
+Recent web/arXiv searches for univalent Bloch bounds, Wikstrom's paper,
+0.612242 and 0.61230, plus the paper's current abstract and Zenodo archive,
+found no public lower bound stronger than the candidate. This is a scoped
+search result, not a proof of global priority. The existing paper and
+Zenodo record support 0.612242. Wikstrom's normalization, transforms,
+Grunsky method and equation-(9) center are appropriately credited. Add
+an explicit citation to his equation (12) for the phase congruence:
+the seven-index moving-phase choice generalizes that existing mechanism.
+The claimed localized sixth-coefficient center and added constraints are
+extensions of this framework, not independent rediscoveries of it.
+The packet candidly states that discovery and checker share authorship.
+PROOF.md refers to PRIOR_ART.md, which is absent from the frozen packet;
+include it or replace that dangling reference with the included comparison.
+
+Primary sources checked:
+https://teorth.github.io/optimizationproblems/constants/57c.html
+https://github.com/teorth/optimizationproblems/blob/main/constants/57c.md
+https://arxiv.org/html/2610.34580v1 (Lemma 2.1, Section 3, bounded transform,
+  equations (9) and (12), theorem statements and references)
+https://zenodo.org/records/23650159
+https://arxiv.org/pdf/2201.07336 (strong Grunsky inequality (3), Section 1)
+https://arxiv.org/pdf/2308.08081 (v4, exterior area theorem 1.1)
+https://github.com/teorth/optimizationproblems/pull/223
+
+Disposition:
+FLAG for overstated control coverage and lack of a literal tightest-range
+ranking, with the smaller documentation/credit corrections above.
+No mathematical disproof has been found. This report does not claim
+exhaustive independent arithmetic verification.
+
+Final run record:
+Review interval: 2026-11-03T11:41:04+00:00 to 2026-11-03T12:01:35.461153+00:00; 20.52 minutes total (<40).
+All 23 selected ranges passed: 20 random plus 3 subdivision-stress proxies.
+Fresh arithmetic: 57,250 leaves, 314,986 boxes, 128,868 extra splits.
+Sample controller wall time: 16.88 minutes.
+Skipped fresh arithmetic: 139 ranges / 432,744 leaves.
+All artifact/checker hashes, parameters, precision, ranges, and box/split counts
+agree with their historical counterparts. Reaggregation with the 23 fresh
+receipts replacing their historical counterparts also passes; the other
+139 receipts remain historical. Original and copied packet hashes were
+rechecked at the end: all 228 files and both inventory files agree.
+All nine supplied artifact controls, five fast controls and composite
+forest controls completed at actual nice 10. The additional corrected
+controls, stale checker hash, false precision and false receipt radius
+controls all completed, with the intended rejection reasons. The original
+zero-area-weight false-exclusion controls remain flagged as inadequate.
+
+Individual fresh ranges (R=random, S=subdivision stress proxy):
+R  pi_critical_c_13000_14000        PASS  leaves= 1000 boxes=  2806 splits=   903 seconds=31.561
+R  upper_u_25000_30000              PASS  leaves= 5000 boxes= 15106 splits=  5053 seconds=170.446
+R  parent0_25000_30000              PASS  leaves= 5000 boxes= 12742 splits=  3871 seconds=150.319
+R  theta_tail_05000_06000           PASS  leaves= 1000 boxes= 27550 splits= 13275 seconds=392.663
+R  upper_u_10000_15000              PASS  leaves= 5000 boxes= 14948 splits=  4974 seconds=139.758
+R  upper_u_52000_53000              PASS  leaves= 1000 boxes= 13736 splits=  6368 seconds=175.867
+R  theta_tail_07000_07500           PASS  leaves=  500 boxes= 16740 splits=  8120 seconds=230.370
+R  theta_tail_10000_11000           PASS  leaves= 1000 boxes= 17530 splits=  8265 seconds=289.869
+R  theta_tail_00000_01000           PASS  leaves= 1000 boxes=  1078 splits=    39 seconds=7.512
+R  parent0_85000_90000              PASS  leaves= 5000 boxes=  7480 splits=  1240 seconds=71.242
+R  pi_critical_a_07000_08000        PASS  leaves= 1000 boxes=  3410 splits=  1205 seconds=50.102
+R  parent2_80000_85000              PASS  leaves= 5000 boxes=  6274 splits=   637 seconds=132.335
+R  parent2_25000_30000              PASS  leaves= 5000 boxes= 15254 splits=  5127 seconds=177.582
+R  theta_tail_01000_02000           PASS  leaves= 1000 boxes=  1654 splits=   327 seconds=22.131
+R  upper_u_30000_35000              PASS  leaves= 5000 boxes= 13516 splits=  4258 seconds=142.643
+R  pi_critical_a_03000_04000        PASS  leaves= 1000 boxes=  2088 splits=   544 seconds=26.354
+R  parent0_120000_125000            PASS  leaves= 5000 boxes=  6732 splits=   866 seconds=74.819
+R  pi_critical_b_01000_02000        PASS  leaves= 1000 boxes=  1000 splits=     0 seconds=10.008
+R  parent2_30000_35000              PASS  leaves= 5000 boxes= 10360 splits=  2680 seconds=128.765
+R  parent2_01000_02000              PASS  leaves= 1000 boxes= 35744 splits= 17372 seconds=418.094
+S  parent2_02000_03000              PASS  leaves= 1000 boxes= 52152 splits= 25576 seconds=589.545
+S  theta_tail_06750_07000           PASS  leaves=  250 boxes= 12568 splits=  6159 seconds=178.298
+S  theta_tail_07500_08000           PASS  leaves=  500 boxes= 24518 splits= 12009 seconds=350.732
+
+VERDICT: FLAG

@@ -1,0 +1,51 @@
+{
+  "status": "VERIFIED_ARITHMETIC_RANGE_NOT_FULL_PROOF",
+  "artifact_sha256": "f6a4c8440d47b0faf7d080202344d05ca01e4e720ed843e3f7bea9113ce5df21",
+  "parameters": {
+    "radius": "6123/10000",
+    "t": "124993/125000",
+    "kappa": "3/1000",
+    "center": "Wikstrom-eq9-plus-localized-shifted-a6",
+    "mu": "17/4",
+    "bump": "exp(-2500*(1/3-s)^2-100*abs(a4)^2)",
+    "coefficient_caps": [
+      "1",
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  "leaves": 56178,
+  "leaf_range": [
+    49000,
+    50000
+  ],
+  "verified_leaves": 1000,
+  "kinds": {
+    "simple": 37819,
+    "taylor4": 14878,
+    "a4cap": 3481
+  },
+  "arithmetic_boxes": 8878,
+  "extra_splits": 3939,
+  "precision": 192,
+  "checker_files": {
+    "c57c_checker_blend_fast.py": "555292175376d03e10c124514daed3cac43b4310104b3ea17b5d755e97466a48",
+    "c57c_checker_bloch_fast.py": "72b1378c56cd8d59b9029dfb1251ba9b55452e52ea1dffd816a5edae40400f7f",
+    "c57c_checker_caps.py": "d4f3cc13b00267eb1704951a1bf45790fa8794876548c61ea5479847a4f4b87d",
+    "c57c_checker_core_fast.py": "a71fc95764eca8f65a11f64ce5efa6db7b896bf7115ba1b0452cf0c25a15725c",
+    "c57c_checker_hessian.py": "11b3c91caa460f24c8456db542ccee00bc9ba07f1c3a655d74a3cf1e33bd5d1f",
+    "c57c_checker_laurent_fast.py": "99eef899feef3e01331d97a3ea3938641cff710031541bc6018135cf733d47b3",
+    "c57c_checker_laurent_phase_trig_fast.py": "1ef57691b0ecd1ff7e22b30f2ec6e8c5444591501d1026f74e280a660c4a43a8",
+    "c57c_checker_laurent_scaled_fast.py": "202cadd2c07f690393da96720b67b9b3096199e83b94a8dd32cd8c23386352ed",
+    "c57c_checker_mean_fast.py": "a4c57c59e534d892e97e4767ef954c2ef22c8fd930358ad5b895fde315874398",
+    "c57c_checker_nested_fast.py": "5191648f52f665854e2f91006eedaf12d5d138ed106f8b8c93a4d1d001ee3a06",
+    "c57c_checker_parabolic.py": "f8b0907e2817fe3d4b4281d46eff1ef972a52736c51c1a4ee5a669010f1efc6e",
+    "c57c_checker_pd.py": "e2ca254a9019b6038c0dd2b70a431bcd42233c24a42e77fdb4876bd346e98a27",
+    "c57c_checker_scaled_bloch_fast.py": "5bbff24ddf7be24b360ecd179b218c6146901e22d511c687c8f85cf0602f14b0",
+    "verify_c57c_center6.py": "51edf359b475198574da09205017ca00a2a0d1d2ec37937b9f3a5e9947eb3104",
+    "verify_c57c_fast.py": "3795e344efe225976c09e388623207e99841b838b889df58d68b72c93cf10591",
+    "verify_c57c_forest.py": "4c066b624904110ce4fc2b640694cfec8b3deda0895a8281f0c2c3f1c6fe49c0"
+  },
+  "seconds": 209.51404119608924
+}

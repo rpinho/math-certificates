@@ -1,0 +1,11 @@
+{
+  "mini": {
+    "python": "3.12.13",
+    "python_flint": "0.9.0"
+  },
+  "authorized_cpu_pod": {
+    "python": "3.12.3",
+    "python_flint": "0.9.0"
+  },
+  "precision_bits": 192
+}

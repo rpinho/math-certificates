@@ -1,0 +1,12 @@
+{
+  "source": "cert_parts/pi_tail.jsonl.gz",
+  "source_sha256": "c55a6f82836c4295660c3282e9b3d8053da69db3ad8340c00eecfb07ff2c4dd3",
+  "artifact": "cert_parts/pi_tail_refined1.jsonl.gz",
+  "sha256": "b1d64d4e05a6ab1bffb792160ae5941bc42299d3afa11020609bf62c2bfc26e4",
+  "leaves": 22141,
+  "refined_paths": [
+    "6002027175727047475646046240740734206402740"
+  ],
+  "levels": 8,
+  "qualification": "data refinement only; entire new artifact must pass unchanged separate checker"
+}

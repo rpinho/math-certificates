@@ -1,0 +1,13 @@
+{
+  "artifact": "cert_parts/pi_prefix.jsonl.gz",
+  "sha256": "8550318ec2225aab130b7aade1541b045ded57da3f532ec071ac4a7d1b8e2cf3",
+  "leaves": 19000,
+  "source_sha256": "c55a6f82836c4295660c3282e9b3d8053da69db3ad8340c00eecfb07ff2c4dd3",
+  "source_leaf_range": [
+    0,
+    19000
+  ],
+  "uniform_levels": 0,
+  "exceptional_levels": {},
+  "qualification": "exact coverage-preserving data preparation only; full arithmetic replay required"
+}

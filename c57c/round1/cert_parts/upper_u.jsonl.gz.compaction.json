@@ -1,0 +1,11 @@
+{
+  "source": "results/c57c_phase_upper_u.jsonl.gz",
+  "source_sha256": "56b1ac11177bd4545415213333287dc4d53cc6c75d7660597d0010a38f22a45e",
+  "artifact": "cert_parts/upper_u.jsonl.gz",
+  "sha256": "f6a4c8440d47b0faf7d080202344d05ca01e4e720ed843e3f7bea9113ce5df21",
+  "source_definitions": 43888,
+  "used_definitions": 21995,
+  "leaves": 56178,
+  "bytes": 2099586,
+  "qualification": "data preparation only; complete arithmetic and global cover checks required"
+}

@@ -1,0 +1,11 @@
+{
+  "source": "results/c57c_parabolic.jsonl.gz",
+  "source_sha256": "c4131320493ab8e0c134880f27ea9c4f1e1b3645c5ba90e7c9e1ef17b9353c32",
+  "artifact": "cert_parts/prefix.jsonl.gz",
+  "sha256": "e85be3fa4e9b9e04130430a8461852ef39389fbb67e16f4de65b6295a827339c",
+  "source_definitions": 1003,
+  "used_definitions": 409,
+  "leaves": 589,
+  "bytes": 130877,
+  "qualification": "data preparation only; complete arithmetic and global cover checks required"
+}

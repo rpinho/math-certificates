@@ -1,0 +1,11 @@
+{
+  "source": "results/c57c_mid_u.jsonl.gz",
+  "source_sha256": "bfcca3f6de5262ed27a87c9b3952872f0357fd860b656fe283eeaf283fc355e4",
+  "artifact": "cert_parts/mid_u.jsonl.gz",
+  "sha256": "133b105919e05e9c9ed89b2ad26fd749f86034f57e4ef2c6681021814f910417",
+  "source_definitions": 22304,
+  "used_definitions": 9535,
+  "leaves": 34177,
+  "bytes": 533250,
+  "qualification": "data preparation only; complete arithmetic and global cover checks required"
+}

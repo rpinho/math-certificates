@@ -1,0 +1,747 @@
+diff --git a/PRIOR_ART.md b/PRIOR_ART.md
+--- /dev/null
++++ b/PRIOR_ART.md
+@@ -0,0 +1,191 @@
++# Prior art — math_newtargets2_1103
++
++Started 2026-11-03 01:38 UTC. This file precedes new search code.
++The predecessor's SURVEY.md, PRIOR_ART.md, ATTEMPTS.md, PROOF_C57C.md,
++NEEDS_POD.md, REPORT.md and frozen proof/checker/receipts have been read.
++Its frozen packet is read-only and will remain unchanged.
++
++## Starting sources and credited baselines
++
++- Official live table and raw source: https://teorth.github.io/optimizationproblems/
++  and https://github.com/teorth/optimizationproblems. Refresh of target pages,
++  open PRs and issues is in progress using the supplied gh executable.
++- C57c: Frank Wikström, https://arxiv.org/abs/2610.34580v1,
++  supplementary data https://doi.org/10.5281/zenodo.23650159.
++  Public lower 0.612242 and upper 0.6562681 reproduced by predecessor.
++  Predecessor candidate, unrefereed lower 0.61229 uses the full complex
++  2x2 Grunsky form after Wikström's bounded-image transform and his center.
++  Its exact frozen artifact has SHA256
++  a35e5fdb94fdfb4bc56d817a6a794b52295b2b8d1aa602f8dcc2eb4b514a9d05.
++  This job's improvement threshold is at least 0.61230.
++- C5b: public upper 5/9, anonymous reader submission
++  https://www.erdosproblemaday.com/submission/7bkzb8 and Patrick White–Claude
++  packet https://github.com/pw/erdosproblemaday-verification/tree/main/757/reader-5-9.
++  Ma–Tang https://arxiv.org/abs/2602.23282 supplies the finite-to-asymptotic
++  reduction and public lower 9/17. The desired improvement is a smaller
++  upper ratio; n=20,h<=11 would give 11/20. The task's word "above" is
++  interpreted as improving the bound, since a numerically larger upper
++  ratio would be weaker.
++- C31b: pending https://github.com/teorth/optimizationproblems/pull/272,
++  Leandre Jack lower 0.617356 and upper 0.679701. Source
++  https://github.com/leandrejack-afk/chvatal-sankoff-bound,
++  upper kary at f5f250f, lower at bb3b815. Full live refresh pending.
++- C22b: Youhua Li–Claude upper 7.2012719, limiting helix cost
++  7.2012609899..., https://github.com/YouhuaLi/tight-alternating-knot-constant.
++  Prior unsuccessful methods: aligned ellipses and square weaves, and the
++  public author's Fourier/period-doubling screens. Distinct methods required.
++
++## Audit scope
++
++The predecessor's public code, AI/agent repository, recent arXiv and
++community audit is retained as read-only prior evidence; this job will
++refresh sources relevant to every attempted target and before any claim.
++Required repositories: BakeLab/Epi-results; google-deepmind/alphaevolve_results;
++google-deepmind/alphaevolve_repository_of_problems; openai/math;
++EinsteinArena-related repositories; plasma-ai/erdos; kisonecat/openai-math.
++Public searches should be ordered by update time. X is unavailable and will
++not be represented as checked. No messages or publication are authorized.
++
++All prospective results are candidate and unrefereed. No novelty judgment.
++The separately implemented checker and explicit analytic proof must both be
++present before a finite artifact supports a claim.
++
++## Initial live refresh (01:41 UTC)
++
++`sources/initial_audit.json` records fresh HEADs for all named repositories,
++the actual DeepMind problem repository and the awesome list. Target source
++HEADs match the predecessor; OpenAI/math HEAD is 4eaee875 (30 October).
++All open PR file lists were inspected: only #272 touches the four target
++pages; no page PR for C57c, C5b or C22b. Live raw pages and README saved.
++Public repository searches sorted by updated are saved in sources/.
++
++Fresh web searches locate Wikström v1 (25 October), unchanged Zenodo 1.0.0,
++the reader's 5/9 construction, and an additional relevant C5b source:
++https://einsteinarena.com/problems/sidon-45-set/threads/282
++by SuperDuperAI-Salavatov, 20 October. It reports exhaustive exclusion of
++n=16,h=9 and classifies n=14,h=8 into nine realizable AP-hypergraph types.
++It explains the row-space realization criterion: choose distinct middle
++vertices; no collision, unintended AP or disjoint-pair-sum relation may
++belong to the span of the intended AP equations. Its n=18 case is explicitly
++open. This is a public computational claim, not replayed certification.
++Our second C5b method will build on that exact incidence criterion rather
++than repeat a coordinate-only search. The n=20 pod search remains required.
++
++For C31b, full public kary and lower READMEs and transition/iteration sources
++were downloaded and read. Current h=6 upper table has 8,502,177 states and
++27,720,529,578 accepted transitions (169 GB uncompressed records). The
++headline lower witness has 1,431,743,147 classes (5.7 GB raw). Source logs
++are evidence of the authors' computation, not a full local replay. The
++replay/attack will distinguish exact arithmetic of the reported parameters,
++small-state reproduction, and any complete headline artifact check.
++
++The initial web searches returned no additional indexed applicable C31b or
++C22b improvement. This is a search limitation and no novelty assessment.
++X remains unavailable.
++
++## Primary-paper finite bound re-read (03 Nov, 05:20 UTC)
++
++Re-opened Ma–Tang v2, https://arxiv.org/pdf/2602.23282 (6 March 2026),
++Section 5.2. Theorem 5.3 states 17*tau(H)<=5n+3m for linear F7-free
++3-graphs, and Lemmas 2.4/5.2 give m<=n-2 and F7-free for (4,5) sets.
++**Inference used in the new finite gluing screen:**
++alpha=n-tau>=ceil((9n+6)/17). In particular an n=20,h<=11 or n=22,h<=12
++candidate must saturate m=n-2. This pruning is a derivation from the cited
++primary statements; the paper itself drops the additive term when stating
++its asymptotic 9/17 lower bound. Its Theorem 1.5 also states the
++finite-to-asymptotic infimum characterization. Our explicit separated-copy
++proof is written in PROOF_C5B_FINITE_REDUCTION.md.
++
++## Live sources 1–3 refreshed (03 Nov, 06:15 UTC)
++
++Read the live HTML table and raw target pages again; read all open PR file
++lists with pagination, PR #272 and its complete C31b page. Only #272 touches
++these targets. The live main HEAD and all 13 audited public repository HEADs
++are unchanged from the initial audit. Repository READMEs were fetched again;
++no additional target result was found. Saved in `sources/refresh_0615/` with
++empty audit error list. Target issue searches also saved. X unavailable.
++
++C31b comparison uses Jack's underlying exact lower r=59928872/134217728,
++which yields gamma=0.617356904524725130..., rather than merely the page's
++six-decimal 0.617356. The public upper source gives 0.679700467578359;
++our prospective replay upper 0.6797005 would reproduce the displayed page
++but would not improve that more precise public source. Our lower producer
++has proposed r=479430980/1073741824; complete independent checking and
++procedural replay are pending. No improvement claim is made at this stage.
++
++## C31b exact comparison after the complete check (06:53 UTC)
++
++The separately written literal-operator checker passed all 1,431,743,147
++classes of the frozen h=9 potential (receipt in frozen/c31_lower_h9/).
++Its conservative r=479430980/2^30 is above the public exact
++r0=59928872/2^27=479430976/2^30 by 4/2^30. Since
++2r/(1+r)-2r0/(1+r0)=2(r-r0)/[(1+r)(1+r0)]>0, this is a candidate,
++unrefereed lower bound gamma>=239715490/388293201>.617356908085.
++No novelty judgment. PR #272 was re-read at 06:49 and remains open with
++updated_at 26 October; the 06:15 full live-table/repository audit applies.
++A complete procedural decode/hash replay is running before the final
++small-packet report. A fail-closed checker revision will also be replayed
++in full, without altering the first frozen packet or its historical receipt.
++
++## Resume live-source refresh (07:32 UTC)
++
++Re-read the live table HTML, raw C57c/C5b/C22b pages, all open PR file lists,
++and PR #272's complete C31b page, using the supplied gh executable. All 13
++audited repository HEADs are unchanged; only #272 touches these four target
++pages. Complete fresh receipts: sources/refresh_0731/, no audit errors.
++The exact C31b source comparison above remains the comparison used here.
++X is unavailable. No novelty judgment, and incomplete C57c covers support
++no improvement claim.
++
++## C31b complete upper baseline and decoded lower artifact (08:10 UTC)
++
++The exact upper replay completed every one of 8,502,177 states and
++27,720,529,578 accepted transitions. Certified upper .6797005 is retained
++as a baseline replay, not an improvement over the public source's underlying
++.679700467578359. A diagnostic using the exact maximum row ratio would give
++about .67970047139, still weaker than that source; no upper gain is claimed.
++
++The lower procedural decoder completed and matched all prescribed hashes.
++The original full direct-sum check reported minimum drift numerator
++7,670,895,684 over 17,179,869,184. The tightened packet uses this exact r,
++giving gamma>=3835447842/6212691217, prospective gain
++570425344/150771609578801525>0 over the public exact source. The hardened
++checker is performing a full replay before the final qualification is set.
++No novelty judgment; this is a fixed-point refinement of Jack's operator.
++
++## Hardened C31b receipt and fresh comparison (08:39 UTC)
++
++The complete hardened exact checker passed all 1,431,743,147 classes for
++r=1917723921/4294967296, minimum numerator 7,670,895,684 over 2^34.
++The full h=5..9 procedural decode and every hash also passed. Therefore
++candidate, unrefereed gamma_4>=3835447842/6212691217>.617356908308.
++The exact gain over the public source is
++570425344/150771609578801525>0, approximately 3.78e-9. This is a
++fixed-point refinement of Jack/Lueker, with no novelty judgment.
++
++Before this comparison, the live table HTML, raw target pages, all open PR
++file lists, PR #272's complete proposed page, and all 13 audited repository
++HEADs/READMEs were re-read. `sources/refresh_0837/` records no changed HEADs
++and no audit errors; only #272 touches these targets. X remains unavailable.
++The underlying exact public value remains the comparison, not its printed
++six-decimal page ceiling/floor. Verification and value controls are in
++frozen/c31_lower_h9_tight/; final complete output hashes match that packet.
++
++## Read-only refresh, 2026-11-03 09:55 UTC
++
++Live table, target pages, every open PR file list, issue searches and the 13 audited repository HEADs re-read in sources/refresh_0955/. No audit errors and no changes to the compared repository HEADs. Only open PR #272 touches these targets. Its four-letter lower display remains .617356; the underlying exact public value used in the comparison is 14982218/24268325. C31b candidate/unrefereed packet is sealed with the full check and decoder receipts. No novelty judgment. X unavailable.
++
++## Pre-claim live-source refresh, 2026-11-03 11:00 UTC
++
++sources/refresh_1100/ re-reads the live table, raw target pages, all open PR
++file lists, PR#272's complete C31b page, issue searches and all13 audited
++repository HEADs/READMEs. Empty audit error list; no HEAD changes relative
++to09:55. Only#272 touches the four targets. Wikstrom's C57c comparison
++remains .612242 and the reader C5b upper5/9; C31b comparison still uses
++Jack's exact underlying14982218/24268325, and C22b upper7.2012719.
++C57c arithmetic is not yet complete at this refresh; no .61230 claim made.
++X unavailable, no novelty judgment. A final end-of-job refresh remains due.
++
++## End-of-job source refresh, 2026-11-03T11:32:50.836954+00:00
++
++sources/refresh_1132/ re-read the live HTML table, raw target pages, every open PR file list, PR#272, target issue searches and all13 audited repository HEADs/READMEs. No errors or changed HEADs since11:00. Only#272 touches these targets. The exact underlying C31b comparison and C57c/C5b/C22b values remain unchanged. Candidate and unrefereed; no novelty judgment. X unavailable.
+diff --git a/PRIOR_ART_RELEASE.md b/PRIOR_ART_RELEASE.md
+--- /dev/null
++++ b/PRIOR_ART_RELEASE.md
+@@ -0,0 +1,54 @@
++# C57c release source audit, 3 November 2026
++
++This packages an existing frozen candidate. No search for a new construction
++or numerical optimization was performed. `PRIOR_ART.md` is the unchanged
++parent-job prior-art record, included to resolve the proof citation. Its
++multi-target repository and PR entries are historical provenance.
++
++The live [57c page](https://teorth.github.io/optimizationproblems/constants/57c.html)
++and [upstream source](https://github.com/teorth/optimizationproblems/blob/87b4ebbd426ff8db597a2004cc45da17903bdcf2/constants/57c.md)
++still list lower 0.5708858 and upper 0.6563937 (0.65628589*).
++The current [Wikström preprint](https://arxiv.org/abs/2610.34580) exposes
++only v1, submitted 25 October 2026. Theorem 1.2 gives lower 0.612242;
++Theorems 1.3 and 7.3 give upper 0.6562681 for the same univalent constant.
++The phase congruence extended here is his equation (12); the starting
++center is his equation (9). His [supplement](https://doi.org/10.5281/zenodo.23650159)
++is the public code/data baseline. His short verifier was not rerun in this
++packaging job; the predecessor recorded reproduction. This job reruns the
++frozen candidate's controls, aggregation and selected ranges, not a new
++baseline search. No journal publication or human refereeing was established.
++
++All 53 open upstream items (47 PRs and six issues) were enumerated with
++pagination. Every PR file list and patch, every open-item body and issue
++comment, and every PR review summary and review comment were read.
++[PR #223](https://github.com/teorth/optimizationproblems/pull/223) updates
++57a/57b only, using different Wikström papers. PR #272 mentions that family
++numbering but changes 31b and README. No open item changes 57c or gives a
++stronger 57c bound in the material inspected.
++
++The 13 inherited repository HEADs and READMEs were refreshed, including
++BakeLab/Epi-results, both google-deepmind AlphaEvolve repositories,
++openai/math, plasma-ai/erdos, kisonecat/openai-math and the awesome-ai-for-math
++list. No HEAD changed from the inherited audit and no additional applicable
++result was found in those READMEs. GitHub public repository searches for
++"univalent Bloch", "Bloch Landau", "2610.34580" and EinsteinArena were
++sorted by recent update. Web/arXiv queries included those names, the exact
++0.612242/0.61230/0.6562681 values, and results since 25 October. They found
++no stronger applicable bound. The paper's Section 6.3 explicitly says a
++higher-order compression certificate is in preparation; it states no
++additional numerical lower bound. This creates a concrete priority
++limitation: no novelty claim is made for our extensions.
++
++The web searches also returned van Staden's 20 October preprint
++(0.65628589, weaker than Wikström's upper result), the older
++Carroll–Ortega-Cerdà work, and work on the ordinary Bloch constant, which
++is a different quantity. Public community queries for Reddit, X and Tao's
++blog produced no additional relevant 57c result; X was not directly
++accessible. Search coverage is limited and does not prove global priority.
++
++Full public-source receipts and a final refresh are retained in the local
++release job's `sources/` directory and summarized in its `REPORT.md`.
++
++Final release refresh: 2026-11-03T12:12:34.841605+00:00; upstream main 87b4ebbd426ff8db597a2004cc45da17903bdcf2; 47 open PRs / 53 total open items; no changed audited repository HEADs.
++
++The Zenodo supplement was re-read online: version 1.0.0, modified 25 October 2026, with the same two bounds. The direct arXiv search endpoint failed to fetch; the current abstract/version page and indexed arXiv/web searches were available.
+diff --git a/PROOF.md b/PROOF.md
+--- a/PROOF.md
++++ b/PROOF.md
+@@ -13,7 +13,8 @@
+ builder cover establishes that statement. No novelty judgment is made.
+ 
+ Credit: Frank Wikström, arXiv:2610.34580v1, supplies the normalization,
+-bounded-image transform, Grunsky framework and equation-(9) center. The
++bounded-image transform, Grunsky framework, equation-(9) center and equation-(12) phase congruence.
++The moving-phase witnesses extend that phase congruence to seven indices. The
+ predecessor job combined his bounded-image transform with complex 2x2
+ forms and proposed U>=0.61229. Here the center additionally depends on a6;
+ higher forms, the area theorem and a bounded Taylor remainder eliminate
+@@ -210,7 +211,7 @@
+ This is the binomial expansion of alpha=t/w+(q/t)*conj(w) and
+ gamma=q*conj(w)/w. In the direct mode t=1,q=0; in the original mode
+ alpha=gamma=0. Combining identical monomials is an exact identity, not a
+-new inequality. The checker independently reconstructs all formal
++new inequality. The checker separately reconstructs (same agent) all formal
+ coefficients using geometric inverse powers, binomial square-root powers
+ and logarithm powers. Its alpha/gamma Laurent powers are expanded by
+ literal polynomial multiplication. The builder uses inverse/root
+@@ -222,7 +223,7 @@
+ the appropriate exponent and multiplying by that exponent. The functions
+ are smooth on the proved nonzero rectangles. Directly combining these
+ formal derivatives preserves exact cancellations before Arb evaluation.
+-The independently assembled real sparse-polynomial Gram is unchanged.
++The separately assembled (same agent) real sparse-polynomial Gram is unchanged.
+ 
+ ## 5. A uniform Taylor remainder in the sixth coefficient
+ 
+@@ -254,7 +255,7 @@
+ in the derivative sum. It can shrink the w rectangle to component radii
+ epsilon*B6, since |c|<=B6. The same Taylor integral argument then applies.
+ Every endpoint, square root and cap is enclosed by Arb; the checker uses
+-an independently written scalar endpoint calculation. The box remainder
++an separately written (same agent) scalar endpoint calculation. The box remainder
+ upper bound is still held fixed in all subsequent core derivatives.
+ 
+ By (2), or these sharper bounds, this bounds |T_ij| for every actual Y on the straight segment
+@@ -292,7 +293,7 @@
+ higher coefficient choice at once, with only s,a,theta left to cover.
+ 
+ The separate checker reconstructs G by sparse polynomial multiplication
+-of the affine forms, using independently constructed binomial and logarithm
++of the affine forms, using separately constructed (same agent) binomial and logarithm
+ series. The builder instead uses inverse and square-root recurrences and
+ inserts Gram coefficients directly. For positivity the checker proposes a
+ floating Cholesky inverse, converts its entries to exact dyadic rationals,
+@@ -314,8 +315,8 @@
+ the same strict Gershgorin test to that enclosure. Fixing E_box is valid:
+ it majorizes the pointwise remainder everywhere; differentiating a
+ pointwise upper-bound algorithm instead would require extra derivatives
+-and is not done. The checker-only core chain rule is independent of the
+-builder jets. The exact dyadic preconditioner may put the constant
++and is not done. The checker-only core chain rule was separately written (same agent)
++and does not use the builder jets. The exact dyadic preconditioner may put the constant
+ coordinate last; the coordinate permutation is invertible. Numerical SDP
+ matrices are never proof inputs: the packet contains only positive rank
+ forms with rational weights and integer complex vectors, plus rational zeta.
+@@ -376,7 +377,7 @@
+ also gives Re f'(i*r)<=|f'(i*r)|<=1/(1-r^2). Consequently the last
+ lower bound cannot be STRICTLY greater than 1/(1-r^2).
+ 
+-A Bloch-cap leaf records r. The independent checker uses that original
++A Bloch-cap leaf records r. The separately written (same agent) checker uses that original
+ lower-derivative comparison in Arb over the ENTIRE closed box. The builder
+ uses the algebraically equivalent inequality after division by r^2:
+ 
+@@ -419,7 +420,7 @@
+ same contradiction and the same disk conclusion.
+ 
+ The builder assembles these quadratic matrices by outer products. The
+-checker independently writes H as a sparse polynomial in eight real
++checker separately writes (same agent) H as a sparse polynomial in eight real
+ variables, multiplies it by its coefficientwise conjugate, subtracts
+ that product from U_r^2, and inserts each quadratic monomial into the
+ symmetric Gram. It differentiates the resulting polynomial in the four
+@@ -440,7 +441,7 @@
+ v<=3*sqrt(delta)/2. If 0<delta<16/81, choose r=(2/5)*sqrt(delta).
+ Then r<8/45<1/5. Every positive term in the bracket increases with r,
+ so the bracket is at most its value J at r=1/5. Exact rational arithmetic
+-(or its independent Arb check) verifies
++(or its separately written (same agent) Arb check) verifies
+ 
+     1+(4/25)*J < 12/5.
+ 
+@@ -460,6 +461,12 @@
+ u=sqrt(1-3*s), x1=Re(a)/b0, and x2=Im(a)/((3/2)*u) when u>0.
+ Their ranges follow from |a|<=b0 and (P). If u=0 then Im(a)=0,
+ and set x2=0. This proves surjectivity onto every actual coefficient tuple.
++For scaled-Bloch leaves this choice is mandatory at u=0: the canceled
++inequality is valid for the selected representative (u=0,x2=0), by the
++fixed-function radius limit detailed below. It is not asserted for redundant
++representatives (u=0,x2>0), and can fail there. Every actual function has
++the selected representative in the complete closed cover, where all
++necessary constraints used for its exclusion hold.
+ The map also represents fictitious tuples with |a|>b0. They need not
+ correspond to a function, and are safely excluded by an optional a4cap
+ leaf whenever the ENTIRE closed box violates |a|<=b0.
+@@ -495,7 +502,7 @@
+ actual tuple in the box; otherwise its nonnegative upper bound applies.
+ The checker may take the maximum with zero without excluding any actual
+ function. Core derivatives are the explicit chain rule for this polynomial
+-map, independently implemented by the checker.
++map, separately implemented by the same agent in the checker.
+ 
+ Every leaf is a path of exact coordinate bisections from that cube. Digit
+ 2j selects the lower child in coordinate j and digit 2j+1 its upper child.
+@@ -532,14 +539,14 @@
+ 
+ ## Bounded-duration arithmetic replay
+ 
+-For a large artifact the independent checker can check its exact complete
++For a large artifact the separately written (same agent) checker can check its exact complete
+ cover structure and replay arithmetic in disjoint leaf-index ranges. The
+ index is the exact depth-first leaf count in the same structurally checked
+ artifact. Each range receipt states the frozen artifact SHA256, every
+ checker-source hash, the exact interval [lo,hi), and the number of arithmetic
+ leaves actually checked. To conclude the whole finite statement, the
+ ranges must cover [0,N) exactly, with no gap or overlap, N equal to the
+-independently checked complete cover's leaf count, and identical artifact
++separately checked (same agent) complete cover's leaf count, and identical artifact
+ and checker hashes. Every leaf then has the contradiction proved above;
+ the finite union gives the whole cube. Additional internal checker splits
+ must include both closed children and do not alter the covered leaf.
+@@ -703,6 +710,10 @@
+ 
+ # Moving-phase Grunsky witnesses for the proposed C57c cover
+ 
++Credit: Wikström, arXiv:2610.34580v1, equation (12), already uses a
++phase congruence for the complex Grunsky matrix. The seven-index moving
++phases here extend his mechanism.
++
+ Candidate, unrefereed; the complete 0.61230 forest passed separate exhaustive replay. No
+ novelty judgment. The normalization, omitted-value transforms, center,
+ area theorem and quadratic contradiction are those explicitly proved in
+@@ -768,7 +779,7 @@
+ By homogeneity, N+m-n equals 2u+3v plus the weight of the one high
+ coefficient in that column (zero for the constant column, otherwise
+ 4,5,6,7). This is the exponent compiled by the discovery code. The
+-independent checker instead attaches N=(i+j)/2 to each original entry,
++separately written (same agent) checker instead attaches N=(i+j)/2 to each original entry,
+ then uses N+m-n after its own Laurent substitution. Both are exact finite
+ polynomial identities. The original/direct modes are the same identities
+ with their absent alpha/gamma factors; the norm has phase exponent zero.
+@@ -796,11 +807,11 @@
+ explicitly, while the rigorous box remainder E remains fixed.
+ 
+ Every proposed form's integer coordinates and positive rational weights
+-are checked. The independent checker reconstructs its own binomial,
++are checked. The separately written (same agent) checker reconstructs its own binomial,
+ geometric and logarithm templates; discovery uses inverse/root recurrences
+ and the homogeneity grading above. Both use strict Arb arithmetic for all
+ acceptance. Numerical SDP coordinates are proposals only. The complete
+-mixed .55 control and independent identities are implementation controls;
++mixed .55 control and separately derived (same agent) identities are implementation controls;
+ only a complete 0.61230 cover and its exhaustive separate arithmetic replay
+ could establish the requested candidate bound.
+ 
+diff --git a/PROOF_C57C_MOVING_PHASE.md b/PROOF_C57C_MOVING_PHASE.md
+--- a/PROOF_C57C_MOVING_PHASE.md
++++ b/PROOF_C57C_MOVING_PHASE.md
+@@ -1,4 +1,8 @@
+ # Moving-phase Grunsky witnesses for the proposed C57c cover
++
++Credit: Wikström, arXiv:2610.34580v1, equation (12), already uses a
++phase congruence for the complex Grunsky matrix. The seven-index moving
++phases here extend his mechanism.
+ 
+ Candidate, unrefereed; the complete 0.61230 forest passed separate exhaustive replay. No
+ novelty judgment. The normalization, omitted-value transforms, center,
+@@ -65,7 +69,7 @@
+ By homogeneity, N+m-n equals 2u+3v plus the weight of the one high
+ coefficient in that column (zero for the constant column, otherwise
+ 4,5,6,7). This is the exponent compiled by the discovery code. The
+-independent checker instead attaches N=(i+j)/2 to each original entry,
++separately written (same agent) checker instead attaches N=(i+j)/2 to each original entry,
+ then uses N+m-n after its own Laurent substitution. Both are exact finite
+ polynomial identities. The original/direct modes are the same identities
+ with their absent alpha/gamma factors; the norm has phase exponent zero.
+@@ -93,10 +97,10 @@
+ explicitly, while the rigorous box remainder E remains fixed.
+ 
+ Every proposed form's integer coordinates and positive rational weights
+-are checked. The independent checker reconstructs its own binomial,
++are checked. The separately written (same agent) checker reconstructs its own binomial,
+ geometric and logarithm templates; discovery uses inverse/root recurrences
+ and the homogeneity grading above. Both use strict Arb arithmetic for all
+ acceptance. Numerical SDP coordinates are proposals only. The complete
+-mixed .55 control and independent identities are implementation controls;
++mixed .55 control and separately derived (same agent) identities are implementation controls;
+ only a complete 0.61230 cover and its exhaustive separate arithmetic replay
+ could establish the requested candidate bound.
+diff --git a/PROOF_C57C_PARABOLIC.md b/PROOF_C57C_PARABOLIC.md
+--- a/PROOF_C57C_PARABOLIC.md
++++ b/PROOF_C57C_PARABOLIC.md
+@@ -6,7 +6,8 @@
+ builder cover establishes that statement. No novelty judgment is made.
+ 
+ Credit: Frank Wikström, arXiv:2610.34580v1, supplies the normalization,
+-bounded-image transform, Grunsky framework and equation-(9) center. The
++bounded-image transform, Grunsky framework, equation-(9) center and equation-(12) phase congruence.
++The moving-phase witnesses extend that phase congruence to seven indices. The
+ predecessor job combined his bounded-image transform with complex 2x2
+ forms and proposed U>=0.61229. Here the center additionally depends on a6;
+ higher forms, the area theorem and a bounded Taylor remainder eliminate
+@@ -203,7 +204,7 @@
+ This is the binomial expansion of alpha=t/w+(q/t)*conj(w) and
+ gamma=q*conj(w)/w. In the direct mode t=1,q=0; in the original mode
+ alpha=gamma=0. Combining identical monomials is an exact identity, not a
+-new inequality. The checker independently reconstructs all formal
++new inequality. The checker separately reconstructs (same agent) all formal
+ coefficients using geometric inverse powers, binomial square-root powers
+ and logarithm powers. Its alpha/gamma Laurent powers are expanded by
+ literal polynomial multiplication. The builder uses inverse/root
+@@ -215,7 +216,7 @@
+ the appropriate exponent and multiplying by that exponent. The functions
+ are smooth on the proved nonzero rectangles. Directly combining these
+ formal derivatives preserves exact cancellations before Arb evaluation.
+-The independently assembled real sparse-polynomial Gram is unchanged.
++The separately assembled (same agent) real sparse-polynomial Gram is unchanged.
+ 
+ ## 5. A uniform Taylor remainder in the sixth coefficient
+ 
+@@ -247,7 +248,7 @@
+ in the derivative sum. It can shrink the w rectangle to component radii
+ epsilon*B6, since |c|<=B6. The same Taylor integral argument then applies.
+ Every endpoint, square root and cap is enclosed by Arb; the checker uses
+-an independently written scalar endpoint calculation. The box remainder
++an separately written (same agent) scalar endpoint calculation. The box remainder
+ upper bound is still held fixed in all subsequent core derivatives.
+ 
+ By (2), or these sharper bounds, this bounds |T_ij| for every actual Y on the straight segment
+@@ -285,7 +286,7 @@
+ higher coefficient choice at once, with only s,a,theta left to cover.
+ 
+ The separate checker reconstructs G by sparse polynomial multiplication
+-of the affine forms, using independently constructed binomial and logarithm
++of the affine forms, using separately constructed (same agent) binomial and logarithm
+ series. The builder instead uses inverse and square-root recurrences and
+ inserts Gram coefficients directly. For positivity the checker proposes a
+ floating Cholesky inverse, converts its entries to exact dyadic rationals,
+@@ -307,8 +308,8 @@
+ the same strict Gershgorin test to that enclosure. Fixing E_box is valid:
+ it majorizes the pointwise remainder everywhere; differentiating a
+ pointwise upper-bound algorithm instead would require extra derivatives
+-and is not done. The checker-only core chain rule is independent of the
+-builder jets. The exact dyadic preconditioner may put the constant
++and is not done. The checker-only core chain rule was separately written (same agent)
++and does not use the builder jets. The exact dyadic preconditioner may put the constant
+ coordinate last; the coordinate permutation is invertible. Numerical SDP
+ matrices are never proof inputs: the packet contains only positive rank
+ forms with rational weights and integer complex vectors, plus rational zeta.
+@@ -369,7 +370,7 @@
+ also gives Re f'(i*r)<=|f'(i*r)|<=1/(1-r^2). Consequently the last
+ lower bound cannot be STRICTLY greater than 1/(1-r^2).
+ 
+-A Bloch-cap leaf records r. The independent checker uses that original
++A Bloch-cap leaf records r. The separately written (same agent) checker uses that original
+ lower-derivative comparison in Arb over the ENTIRE closed box. The builder
+ uses the algebraically equivalent inequality after division by r^2:
+ 
+@@ -412,7 +413,7 @@
+ same contradiction and the same disk conclusion.
+ 
+ The builder assembles these quadratic matrices by outer products. The
+-checker independently writes H as a sparse polynomial in eight real
++checker separately writes (same agent) H as a sparse polynomial in eight real
+ variables, multiplies it by its coefficientwise conjugate, subtracts
+ that product from U_r^2, and inserts each quadratic monomial into the
+ symmetric Gram. It differentiates the resulting polynomial in the four
+@@ -433,7 +434,7 @@
+ v<=3*sqrt(delta)/2. If 0<delta<16/81, choose r=(2/5)*sqrt(delta).
+ Then r<8/45<1/5. Every positive term in the bracket increases with r,
+ so the bracket is at most its value J at r=1/5. Exact rational arithmetic
+-(or its independent Arb check) verifies
++(or its separately written (same agent) Arb check) verifies
+ 
+     1+(4/25)*J < 12/5.
+ 
+@@ -488,7 +489,7 @@
+ actual tuple in the box; otherwise its nonnegative upper bound applies.
+ The checker may take the maximum with zero without excluding any actual
+ function. Core derivatives are the explicit chain rule for this polynomial
+-map, independently implemented by the checker.
++map, separately implemented by the same agent in the checker.
+ 
+ Every leaf is a path of exact coordinate bisections from that cube. Digit
+ 2j selects the lower child in coordinate j and digit 2j+1 its upper child.
+@@ -525,14 +526,14 @@
+ 
+ ## Bounded-duration arithmetic replay
+ 
+-For a large artifact the independent checker can check its exact complete
++For a large artifact the separately written (same agent) checker can check its exact complete
+ cover structure and replay arithmetic in disjoint leaf-index ranges. The
+ index is the exact depth-first leaf count in the same structurally checked
+ artifact. Each range receipt states the frozen artifact SHA256, every
+ checker-source hash, the exact interval [lo,hi), and the number of arithmetic
+ leaves actually checked. To conclude the whole finite statement, the
+ ranges must cover [0,N) exactly, with no gap or overlap, N equal to the
+-independently checked complete cover's leaf count, and identical artifact
++separately checked (same agent) complete cover's leaf count, and identical artifact
+ and checker hashes. Every leaf then has the contradiction proved above;
+ the finite union gives the whole cube. Additional internal checker splits
+ must include both closed children and do not alter the covered leaf.
+diff --git a/README.md b/README.md
+--- a/README.md
++++ b/README.md
+@@ -6,9 +6,11 @@
+ 
+ Complete verification is recorded in verification.json: complete
+ global coverage and every arithmetic range. A partial receipt proves no
+-constant bound. The gain over the predecessor's 0.61229 is exactly
+-1/100000 = 0.00001. Frank Wikström's normalization, bounded-image transform,
+-Grunsky framework and equation-(9) center are credited in the proof.
++constant bound. The gain over Wikström's arXiv lower bound 0.612242 is exactly
++29/500000 = 0.000058 (+5.8e-5). The gain over our own earlier
++0.612294 candidate, which was never filed, is 3/500000 = 0.000006
++(+6e-6). Frank Wikström's normalization, bounded-image transform,
++Grunsky framework, equation-(9) center and equation-(12) phase congruence are credited in the proof.
+ No novelty judgment or independent human review is claimed.
+ 
+ The center adds a localized sixth-coefficient term. Higher Grunsky forms,
+@@ -19,7 +21,7 @@
+ The classical area/Grunsky theorems and ordinary complex analysis are
+ explicit mathematical inputs, not formalized by the arithmetic checker.
+ 
+-The separately implemented checker imports no discovery/SDP code. Its
++The separately written (same agent) checker imports no discovery/SDP code. Its
+ formal-series construction, sparse quadratic assembly, core derivatives
+ and strict Arb positivity test differ from discovery. Both implementations
+ were written by the same agent; this is not independent authorship.
+@@ -79,3 +81,11 @@
+ coefficient caps. Broader mixed easy-radius and chain-rule/congruence
+ controls are retained separately. The literal input artifact and code
+ hashes, not an optimizer log, define the result.
++
++Release qualification: written and checked by AI agents under Ricardo Pinho's
++direction; the Arb checker was separately written by the same agent.
++Two AI reviews (Claude Opus 5.5 via Claude Science and GPT-6 Astra) found
++no false mathematical step. Both returned FLAG for the limitations recorded
++in review/. No human referee has reviewed this candidate. The release reruns
++controls, global aggregation and selected ranges; it is not a full fresh
++arithmetic replay. Historical cert_receipts/ remain unchanged.
+diff --git a/RELEASE_NOTES.md b/RELEASE_NOTES.md
+--- /dev/null
++++ b/RELEASE_NOTES.md
+@@ -0,0 +1,57 @@
++# Release corrections and verification
++
++This is a packaging revision of the frozen 0.612300 candidate. It changes
++no certificate selector, part, range plan, historical arithmetic receipt,
++or arithmetic checker module. `CHANGES.diff` records the top-level source
++and documentation corrections; the inventory includes the added review
++reports and release evidence.
++
++- Included the parent job's unchanged PRIOR_ART.md.
++- Corrected the gain to +0.000058 over Wikström's arXiv 0.612242 and
++  +0.000006 over our earlier, never-filed 0.612294 candidate.
++- Distinguished Wikström's preprint values from the live table values.
++- Described the checker as separately written by the same agent.
++- Credited Wikström's equation (12) for the extended phase congruence.
++- Made the u=0, x2=0 representative convention explicit; the scaled-Bloch
++  inequality is not asserted on redundant u=0, x2>0 representatives.
++- Set the false-exclusion and unsupported-phase fixtures' area weight to
++  1; also corrected the same ineffective fixture in the fast suite.
++  The false witness now passes prepare() before arithmetic rejects it at
++  the refinement cap, and the unsupported phase rejects as invalid phase.
++  Astra's separate simple-form control rejects at the midpoint; stale
++  checker hashes, false precision and false radius also reject as intended.
++- Reran all three supplied suites, Astra's corrected controls, historical
++  aggregation, and three candidate ranges at actual nice 10. The mixed
++  aggregate uses three fresh and 159 historical receipts. No full fresh
++  arithmetic replay is claimed.
++
++The review copies retain both FLAG verdicts. Their local filesystem paths,
++and local paths in historical/control output logs, were replaced for
++publication. The code/data and historical arithmetic receipts are unchanged.
++An initial nice-20 launch was stopped; the final results were rerun at
++actual nice 10 and supersede its output.
++
++Reproduce the bounded release checks with Python 3 and python-flint 0.9.0.
++Run from this packet directory at actual nice 10 (the usual `nice -n 10`
++command is appropriate only when starting from nice 0), and set
++OPENBLAS_NUM_THREADS=OMP_NUM_THREADS=MKL_NUM_THREADS=1 and
++PYTHONDONTWRITEBYTECODE=1:
++
++```sh
++python -B check_c57_forest_controls.py C57_FOREST_V2.json
++python -B test_c57_fast_rejections.py
++python -B test_c57_forest_verifier.py
++python -B release_validation/astra_corrected_controls.py
++python -B verify_c57c_forest.py C57_FOREST_V2.json --aggregate cert_receipts/*.json
++python -B verify_c57c_forest.py --part cert_parts/prefix.jsonl.gz --leaf-start 0 --leaf-stop 589
++python -B verify_c57c_forest.py --part cert_parts/pi_critical_b.jsonl.gz --leaf-start 1000 --leaf-stop 2000
++python -B verify_c57c_forest.py --part cert_parts/theta_tail.jsonl.gz --leaf-start 6750 --leaf-stop 7000
++shasum -a 256 -c SHA256SUMS
++```
++
++The first three suites must report all controls passing; the corrected
++referee controls must end CORRECTED_CONTROLS_PASS. Aggregation must report
++VERIFIED_CANDIDATE_UNREFEREED and 489,994 leaves. Individual ranges report
++VERIFIED_ARITHMETIC_RANGE_NOT_FULL_PROOF; no single range proves a constant
++bound. Reproduction changes generated results, so inventories should be
++checked before running commands that overwrite their output files.
+diff --git a/check_c57_forest_controls.py b/check_c57_forest_controls.py
+--- a/check_c57_forest_controls.py
++++ b/check_c57_forest_controls.py
+@@ -5,7 +5,7 @@
+ ROOT=pathlib.Path(__file__).resolve().parent;source=ROOT/args.manifest;data=json.loads(source.read_text());passed=[]
+ def reject(label,call):
+  try:call()
+- except (Rejected,ValueError,KeyError):passed.append(label);print('REJECTED_'+label,flush=True)
++ except (Rejected,ValueError,KeyError) as error:passed.append(label);print('REJECTED_'+label+': '+str(error),flush=True)
+  else:raise AssertionError(label+' unexpectedly accepted')
+ with tempfile.TemporaryDirectory(prefix='actual-forest-controls-',dir=ROOT)as temporary:
+  work=pathlib.Path(temporary);(work/'cert_parts').symlink_to(ROOT/'cert_parts',target_is_directory=True);target=work/'bad_manifest.json'
+@@ -17,8 +17,9 @@
+   else:bad['parameters']['radius']='13/20'
+   target.write_text(json.dumps(bad));reject(label,lambda:structure(target))
+ with gzip.open(ROOT/data['parts'][0]['file'],'rt')as f:head=json.loads(next(f))
+-false={'kind':'taylor4','phase_rule':'j*theta/2','forms':[{'mode':0,'z':[[1,0]]+[[0,0]for _ in range(6)],'weight':'1'}],'area_weight':'0'}
+-A=Arithmetic(head,192);reject('identically_positive_false_exclusion',lambda:A.leaf(((0,40),)*4,prepare(false)))
++false={'kind':'taylor4','phase_rule':'j*theta/2','forms':[{'mode':0,'z':[[1,0]]+[[0,0]for _ in range(6)],'weight':'1'}],'area_weight':'1'}
++prepared_false=prepare(false) # Positive area weight must pass witness validation.
++A=Arithmetic(head,192);reject('identically_positive_false_exclusion',lambda:A.leaf(((0,40),)*4,prepared_false))
+ bad=copy.deepcopy(false);bad['forms'][0]['weight']='-1';reject('negative_weight',lambda:prepare(bad))
+ bad=copy.deepcopy(false);bad['phase_rule']='j*theta';reject('unsupported_phase',lambda:prepare(bad))
+ bad=copy.deepcopy(head);bad['t']='1';reject('invalid_transform_t',lambda:Arithmetic(bad))
+diff --git a/source_comparison.json b/source_comparison.json
+--- a/source_comparison.json
++++ b/source_comparison.json
+@@ -5,9 +5,9 @@
+   "target_source": "https://github.com/teorth/optimizationproblems/blob/main/constants/57c.md",
+   "public_lower": "0.612242",
+   "public_upper": "0.6562681",
+-  "predecessor_lower": "61229/100000",
++  "predecessor_lower": "306147/500000",
+   "candidate_lower": "6123/10000",
+-  "gain_over_predecessor": "1/100000",
++  "gain_over_predecessor": "3/500000",
+   "public_credit": "Frank Wikstrom, arXiv:2610.34580v1",
+   "public_target_page_sha256": "76d42e84cb23f6b6b13b5dca0fdee993b363d4c9ac3223074c5f3ed0adc1048b",
+   "audited_heads": {
+@@ -67,7 +67,7 @@
+   "open_target_prs": [
+     {
+       "number": 272,
+-      "title": "C_31b: new page for the Chv\u00e1tal\u2013Sankoff constant with a four-letter alphabet",
++      "title": "C_31b: new page for the Chvátal–Sankoff constant with a four-letter alphabet",
+       "url": "https://github.com/teorth/optimizationproblems/pull/272",
+       "paths": [
+         "README.md",
+@@ -75,5 +75,19 @@
+       ]
+     }
+   ],
+-  "X": "unavailable"
++  "X": "unavailable",
++  "public_lower_source": "Wikström, arXiv:2610.34580v1, Theorem 1.2 (not a live table entry)",
++  "public_upper_source": "Wikström, arXiv:2610.34580v1, Theorems 1.3 and 7.3; same univalent Bloch–Landau constant",
++  "live_table_lower": "0.5708858",
++  "live_table_upper": "0.6563937 (0.65628589*)",
++  "predecessor_decimal": "0.612294",
++  "predecessor_status": "our earlier candidate, unrefereed, never filed",
++  "gain_over_wikstrom": "29/500000",
++  "historical_first_predecessor_lower": "61229/100000",
++  "release_note": "Live release audit is recorded in PRIOR_ART_RELEASE.md; inherited audited_heads and open_target_prs are historical multi-target provenance.",
++  "release_source_check_utc": "2026-11-03T12:12:34.841605+00:00",
++  "release_upstream_sha": "87b4ebbd426ff8db597a2004cc45da17903bdcf2",
++  "release_open_57c_prs": [],
++  "wikstrom_arxiv_lower": "0.612242",
++  "wikstrom_arxiv_upper": "0.6562681"
+ }
+diff --git a/test_c57_fast_rejections.py b/test_c57_fast_rejections.py
+--- a/test_c57_fast_rejections.py
++++ b/test_c57_fast_rejections.py
+@@ -8,10 +8,11 @@
+ else:raise AssertionError('unsupported phase accepted')
+ # For mode0 the first Grunsky entry is a2=0. This valid positive form is
+ # identically1 and cannot be used as a negative exclusion at any point.
+-false={'kind':'taylor4','phase_rule':'j*theta/2','forms':[{'mode':0,'z':[[1,0]]+[[0,0]for _ in range(6)],'weight':'1'}],'area_weight':'0'}
++false={'kind':'taylor4','phase_rule':'j*theta/2','forms':[{'mode':0,'z':[[1,0]]+[[0,0]for _ in range(6)],'weight':'1'}],'area_weight':'1'}
+ A=Arithmetic(head)
+-try:A.leaf(((0,40),)*4,prepare(false))
+-except Rejected:print('IDENTICALLY_POSITIVE_FORM_FALSE_EXCLUSION_REJECTED',flush=True)
++prepared_false=prepare(false) # Reach arithmetic rather than an area-weight validation failure.
++try:A.leaf(((0,40),)*4,prepared_false)
++except Rejected as error:print('IDENTICALLY_POSITIVE_FORM_FALSE_EXCLUSION_REJECTED: '+str(error),flush=True)
+ else:raise AssertionError('false exclusion accepted')
+ with tempfile.TemporaryDirectory(prefix='phase-rejections-',dir=pathlib.Path.cwd())as scratch:
+  for name,rows in [('empty',[]),('missing',records[:-1]),('duplicate',records+[records[-1]])]:

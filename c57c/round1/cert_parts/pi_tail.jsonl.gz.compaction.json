@@ -1,0 +1,11 @@
+{
+  "source": "results/c57c_phase_pi_tail.jsonl.gz",
+  "source_sha256": "c417742368203a4fb0e98d01fe75a7c64026ace16841adf39eca3f99fd960288",
+  "artifact": "cert_parts/pi_tail.jsonl.gz",
+  "sha256": "c55a6f82836c4295660c3282e9b3d8053da69db3ad8340c00eecfb07ff2c4dd3",
+  "source_definitions": 27066,
+  "used_definitions": 13641,
+  "leaves": 21886,
+  "bytes": 4630355,
+  "qualification": "data preparation only; complete arithmetic and global cover checks required"
+}

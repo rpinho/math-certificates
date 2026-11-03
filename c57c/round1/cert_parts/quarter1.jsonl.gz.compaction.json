@@ -1,0 +1,11 @@
+{
+  "source": "results/c57c_scaled_shard_1.jsonl.gz",
+  "source_sha256": "562343e44f6dfc8045a5edfdd87da1cf942dda8c730ae4ed308112ea71a70b44",
+  "artifact": "cert_parts/quarter1.jsonl.gz",
+  "sha256": "60aa7a79fba105c72bc03f688c0962fc400748769881f1d1055a3d3f5c1bfa5c",
+  "source_definitions": 58196,
+  "used_definitions": 29709,
+  "leaves": 65613,
+  "bytes": 1292151,
+  "qualification": "data preparation only; complete arithmetic and global cover checks required"
+}

@@ -1,0 +1,11 @@
+{
+  "source": "results/c57c_phase_theta_tail.jsonl.gz",
+  "source_sha256": "ee0aeeb2ce1c0b577d02c479752de006a39a5986d63dda676cc49eacf07f375b",
+  "artifact": "cert_parts/theta_tail.jsonl.gz",
+  "sha256": "ca9bd3efcdb8a3b15344e8316929ebe57029508684e54e1db9bb5fe544812b67",
+  "source_definitions": 20252,
+  "used_definitions": 9655,
+  "leaves": 16739,
+  "bytes": 3094289,
+  "qualification": "data preparation only; complete arithmetic and global cover checks required"
+}

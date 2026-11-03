@@ -1,0 +1,11 @@
+{
+  "source": "results/c57c_pi_corner.jsonl.gz",
+  "source_sha256": "f44dd4928f354da0c31a055850a371f33e21e35be3854cd3efd15fe1ed46292f",
+  "artifact": "cert_parts/pi_corner.jsonl.gz",
+  "sha256": "06f8413c8cc6aa53ef56a1b5cc2c69ce2c4a33efb2cc7b297a8b36d5403dba05",
+  "source_definitions": 4101,
+  "used_definitions": 2256,
+  "leaves": 3411,
+  "bytes": 744091,
+  "qualification": "data preparation only; complete arithmetic and global cover checks required"
+}

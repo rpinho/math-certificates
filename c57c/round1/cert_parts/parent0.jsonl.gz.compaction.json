@@ -1,0 +1,11 @@
+{
+  "source": "results/c57c_phase_shard_0.jsonl.gz",
+  "source_sha256": "7a8fbeeecd4236b6f6cb1bafc37793ff462eda4f79a0e39c4f451674ea00b924",
+  "artifact": "cert_parts/parent0.jsonl.gz",
+  "sha256": "3a3641e8adfcaf7e8c34a1574b3de7849205830f6acec13bd61706ba70ea5d68",
+  "source_definitions": 109393,
+  "used_definitions": 53478,
+  "leaves": 131420,
+  "bytes": 9228222,
+  "qualification": "data preparation only; complete arithmetic and global cover checks required"
+}
