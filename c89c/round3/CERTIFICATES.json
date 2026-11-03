@@ -1,0 +1,82 @@
+{
+  "status": "candidate and unrefereed",
+  "selected": [
+    {
+      "file": "certificates/c6_ordered_type8.cert.xz",
+      "role": "C89c lower",
+      "status": "candidate and unrefereed",
+      "compressed_bytes": 4255432,
+      "uncompressed_bytes": 22097854,
+      "sha256_compressed": "6fc1a65ed64022e891261364bb931117d077149fca4574fda3d187d748d516a3",
+      "sha256_uncompressed": "888552bb82994a387f152d8a7816c011c2bad19f5ed98059152b6dd417ee3c94",
+      "ambient_order": 8,
+      "clique_size": 6,
+      "D": 1000000000000,
+      "blocks": 340,
+      "factor_rows": 25230,
+      "bound": "8280981029/250000000000000",
+      "header_mode": -2,
+      "families": [
+        {
+          "t": 0,
+          "m": 4,
+          "root_mode": 1,
+          "colour": 0,
+          "blocks": 1
+        },
+        {
+          "t": 0,
+          "m": 4,
+          "root_mode": 1,
+          "colour": 1,
+          "blocks": 1
+        },
+        {
+          "t": 2,
+          "m": 3,
+          "root_mode": 1,
+          "colour": 0,
+          "blocks": 2
+        },
+        {
+          "t": 2,
+          "m": 3,
+          "root_mode": 1,
+          "colour": 1,
+          "blocks": 2
+        },
+        {
+          "t": 4,
+          "m": 2,
+          "root_mode": 1,
+          "colour": 0,
+          "blocks": 11
+        },
+        {
+          "t": 4,
+          "m": 2,
+          "root_mode": 1,
+          "colour": 1,
+          "blocks": 11
+        },
+        {
+          "t": 6,
+          "m": 1,
+          "root_mode": 1,
+          "colour": 0,
+          "blocks": 156
+        },
+        {
+          "t": 6,
+          "m": 1,
+          "root_mode": 1,
+          "colour": 1,
+          "blocks": 156
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "C6 uses larger types at ambient eight, not genuine nine-vertex square products."
+  ]
+}

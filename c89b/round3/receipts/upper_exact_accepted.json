@@ -1,0 +1,22 @@
+{
+  "PASS": true,
+  "status": "candidate and unrefereed",
+  "bound": "10014541091180996983/6058287395472553279488",
+  "decimal": "0.0016530316964931393",
+  "parts": 256,
+  "parameters": {
+    "dimension": 6,
+    "layers": 4,
+    "D": 36,
+    "P": 24,
+    "Q": 35
+  },
+  "certificate": "certificates/c5_upper_radial4.json.gz",
+  "sha256_compressed": "492ac90760499a3c4fa29de7788976923134847ca4e2bf043fb496baace26472",
+  "sha256_uncompressed": "ffa1cb8f34994b83e9367fd0dc68645061f137024923301a624f070abc30b3dd",
+  "compressed_bytes": 4440,
+  "gain_from_stated_baseline": "76197881363755461012329/2366518513856466124800000000",
+  "independent_red_agreement": true,
+  "independent_blue_agreement": true,
+  "controls": true
+}

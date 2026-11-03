@@ -1,0 +1,78 @@
+{
+  "PASS": true,
+  "certificate_sha256": "888552bb82994a387f152d8a7816c011c2bad19f5ed98059152b6dd417ee3c94",
+  "controls": [
+    {
+      "control": "false_bound_one",
+      "checker": "./check_certificate_v3",
+      "rejected": true,
+      "diagnostic": "REJECT negative inequality at graph 0"
+    },
+    {
+      "control": "false_bound_one",
+      "checker": "./check_coloured_predecessor",
+      "rejected": true,
+      "diagnostic": "FAIL negative exact slack at graph 0"
+    },
+    {
+      "control": "zero_denominator",
+      "checker": "./check_certificate_v3",
+      "rejected": true,
+      "diagnostic": "REJECT header ranges"
+    },
+    {
+      "control": "zero_denominator",
+      "checker": "./check_coloured_predecessor",
+      "rejected": true,
+      "diagnostic": "FAIL header"
+    },
+    {
+      "control": "duplicate_flag",
+      "checker": "./check_certificate_v3",
+      "rejected": true,
+      "diagnostic": "REJECT duplicate flag orbit"
+    },
+    {
+      "control": "duplicate_flag",
+      "checker": "./check_coloured_predecessor",
+      "rejected": true,
+      "diagnostic": "FAIL duplicate flag orbit"
+    },
+    {
+      "control": "invalid_colour",
+      "checker": "./check_certificate_v3",
+      "rejected": true,
+      "diagnostic": "REJECT colour range"
+    },
+    {
+      "control": "invalid_colour",
+      "checker": "./check_coloured_predecessor",
+      "rejected": true,
+      "diagnostic": "FAIL block mode/colour"
+    },
+    {
+      "control": "truncated_factor",
+      "checker": "./check_certificate_v3",
+      "rejected": true,
+      "diagnostic": "REJECT invalid square factor"
+    },
+    {
+      "control": "truncated_factor",
+      "checker": "./check_coloured_predecessor",
+      "rejected": true,
+      "diagnostic": "FAIL integer factor syntax"
+    },
+    {
+      "control": "incomplete_graph_list",
+      "checker": "./check_coloured_predecessor",
+      "rejected": true,
+      "diagnostic": "FAIL incomplete graph list"
+    },
+    {
+      "control": "duplicate_graph_list",
+      "checker": "./check_coloured_predecessor",
+      "rejected": true,
+      "diagnostic": "FAIL duplicate graph class"
+    }
+  ]
+}

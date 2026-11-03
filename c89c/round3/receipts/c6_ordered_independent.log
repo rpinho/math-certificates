@@ -1,0 +1,5 @@
+checked 10000 shard 0
+PASS exact inequalities 12346 / 12346 graphs; shard 0 of 1; integer-square PSD
+BOUND 8280981029/250000000000000
+MINIMUM 1335556701009255479055120/40320000000000000000000000000 graph 905
+REQUIRES separate exhaustive graph-list completeness replay

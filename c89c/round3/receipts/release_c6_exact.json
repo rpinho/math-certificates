@@ -1,0 +1,17 @@
+{
+  "name": "c6_exact",
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "./check_coloured_predecessor",
+    "artifacts/c6_ordered_type8.cert",
+    "sources/graph8.g6"
+  ],
+  "stdin": null,
+  "started_at_utc": "2026-11-03T04:23:17.129624+00:00",
+  "elapsed_seconds": 95.779,
+  "exit_code": 0,
+  "stdout": "release_c6_exact.stdout",
+  "stderr": "release_c6_exact.stderr"
+}

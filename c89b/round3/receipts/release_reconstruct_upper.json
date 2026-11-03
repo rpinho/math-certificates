@@ -1,0 +1,22 @@
+{
+  "name": "reconstruct_upper",
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "python3",
+    "scripts/freeze_radial.py",
+    "6",
+    "4",
+    "36",
+    "24",
+    "35",
+    "artifacts/reconstructed.json.gz"
+  ],
+  "stdin": null,
+  "started_at_utc": "2026-11-03T04:23:15.020633+00:00",
+  "elapsed_seconds": 0.098,
+  "exit_code": 0,
+  "stdout": "release_reconstruct_upper.stdout",
+  "stderr": "release_reconstruct_upper.stderr"
+}

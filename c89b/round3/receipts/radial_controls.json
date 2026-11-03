@@ -1,0 +1,77 @@
+{
+  "PASS": true,
+  "baseline": "2405659597/1427496763392",
+  "small_instances": [
+    {
+      "parameters": [
+        2,
+        2,
+        3,
+        1,
+        2
+      ],
+      "density": "1077083/13436928",
+      "match": true
+    },
+    {
+      "parameters": [
+        2,
+        3,
+        5,
+        4,
+        3
+      ],
+      "density": "101951201/4050000000",
+      "match": true
+    },
+    {
+      "parameters": [
+        4,
+        2,
+        7,
+        5,
+        6
+      ],
+      "density": "729977777/61681958912",
+      "match": true
+    },
+    {
+      "parameters": [
+        2,
+        4,
+        2,
+        0,
+        1
+      ],
+      "density": "6421/65536",
+      "match": true
+    }
+  ],
+  "rejections": [
+    {
+      "input": "6 4 0 0 0",
+      "rejected": true,
+      "diagnostic": "REJECT parameter range"
+    },
+    {
+      "input": "6 4 36 37 35",
+      "rejected": true,
+      "diagnostic": "REJECT parameter range"
+    },
+    {
+      "input": "6 4 36 24 -1",
+      "rejected": true,
+      "diagnostic": "REJECT parameter range"
+    },
+    {
+      "input": "6 4 36 24 35 extra",
+      "rejected": true,
+      "diagnostic": "REJECT trailing input"
+    },
+    {
+      "control": "false claimed density <0.001",
+      "rejected": true
+    }
+  ],
+  "selected": "10014541091180996983/6058287395472553279488"
+}

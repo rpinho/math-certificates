@@ -1,0 +1,15 @@
+{
+  "PASS": true,
+  "status": "candidate and unrefereed",
+  "bound": "8280981029/250000000000000",
+  "decimal": 3.3123924116e-05,
+  "improvement_percent": 27.463439858390736,
+  "minimum": "1854939862512854832021/56000000000000000000000000",
+  "slack": "112016854832021/56000000000000000000000000",
+  "worst": 905,
+  "certificate": "certificates/c6_ordered_type8.cert.xz",
+  "uncompressed_bytes": 22097854,
+  "compressed_bytes": 4255432,
+  "sha256_uncompressed": "888552bb82994a387f152d8a7816c011c2bad19f5ed98059152b6dd417ee3c94",
+  "sha256_compressed": "6fc1a65ed64022e891261364bb931117d077149fca4574fda3d187d748d516a3"
+}

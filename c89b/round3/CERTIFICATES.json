@@ -1,0 +1,26 @@
+{
+  "status": "candidate and unrefereed",
+  "selected": [
+    {
+      "file": "certificates/c5_upper_radial4.json.gz",
+      "role": "C89b upper",
+      "status": "candidate and unrefereed",
+      "compressed_bytes": 4440,
+      "uncompressed_bytes": 167184,
+      "sha256_compressed": "492ac90760499a3c4fa29de7788976923134847ca4e2bf043fb496baace26472",
+      "sha256_uncompressed": "ffa1cb8f34994b83e9367fd0dc68645061f137024923301a624f070abc30b3dd",
+      "bound": "10014541091180996983/6058287395472553279488",
+      "parts": 256,
+      "D": 36,
+      "radial_parameters": {
+        "dimension": 6,
+        "layers": 4,
+        "p_numerator": 24,
+        "q_numerator": 35
+      }
+    }
+  ],
+  "notes": [
+    "C5 upper is a full explicit256-part rational matrix with two separate exact evaluations."
+  ]
+}

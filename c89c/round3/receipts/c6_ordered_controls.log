@@ -1,0 +1,11 @@
+{'control': 'false_bound_one', 'checker': './check_certificate_v3', 'rejected': True, 'diagnostic': 'REJECT negative inequality at graph 0'}
+{'control': 'false_bound_one', 'checker': './check_coloured_predecessor', 'rejected': True, 'diagnostic': 'FAIL negative exact slack at graph 0'}
+{'control': 'zero_denominator', 'checker': './check_certificate_v3', 'rejected': True, 'diagnostic': 'REJECT header ranges'}
+{'control': 'zero_denominator', 'checker': './check_coloured_predecessor', 'rejected': True, 'diagnostic': 'FAIL header'}
+{'control': 'duplicate_flag', 'checker': './check_certificate_v3', 'rejected': True, 'diagnostic': 'REJECT duplicate flag orbit'}
+{'control': 'duplicate_flag', 'checker': './check_coloured_predecessor', 'rejected': True, 'diagnostic': 'FAIL duplicate flag orbit'}
+{'control': 'invalid_colour', 'checker': './check_certificate_v3', 'rejected': True, 'diagnostic': 'REJECT colour range'}
+{'control': 'invalid_colour', 'checker': './check_coloured_predecessor', 'rejected': True, 'diagnostic': 'FAIL block mode/colour'}
+{'control': 'truncated_factor', 'checker': './check_certificate_v3', 'rejected': True, 'diagnostic': 'REJECT invalid square factor'}
+{'control': 'truncated_factor', 'checker': './check_coloured_predecessor', 'rejected': True, 'diagnostic': 'FAIL integer factor syntax'}
+PASS all selected-certificate rejection controls

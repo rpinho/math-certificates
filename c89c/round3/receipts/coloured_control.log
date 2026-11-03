@@ -1,0 +1,7 @@
+PASS exhaustive labelled cover 64 and random normalization
+PASS exact coefficient inequalities: 11 classes, 4 PSD square-factor blocks; c3 >= 1/4
+MIN_SLACK 0 / 1536 at 0
+PASS exact inequalities 11 / 11 graphs; shard 0 of 1; integer-square PSD
+BOUND 1/4
+MINIMUM 96/384 graph 0
+REQUIRES separate exhaustive graph-list completeness replay

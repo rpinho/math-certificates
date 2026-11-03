@@ -1,0 +1,15 @@
+{
+  "name": "radial_baseline",
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "./check_radial_exact"
+  ],
+  "stdin": "6 3 7 5 7\n",
+  "started_at_utc": "2026-11-03T04:23:14.209978+00:00",
+  "elapsed_seconds": 0.81,
+  "exit_code": 0,
+  "stdout": "release_radial_baseline.stdout",
+  "stderr": "release_radial_baseline.stderr"
+}

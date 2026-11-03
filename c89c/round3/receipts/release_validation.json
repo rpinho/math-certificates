@@ -1,0 +1,13 @@
+{
+  "PASS": true,
+  "status": "candidate and unrefereed",
+  "bound": "8280981029/250000000000000",
+  "decimal": "0.000033123924116",
+  "classes": 12346,
+  "labelled_coverage": 268435456,
+  "random_normalization": true,
+  "square_factor_PSD": true,
+  "minimum_slack": "112016854832021/56000000000000000000000000",
+  "worst_graph": 905,
+  "release_replay": "release_c6_exact.stdout"
+}

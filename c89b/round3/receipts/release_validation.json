@@ -1,0 +1,15 @@
+{
+  "PASS": true,
+  "status": "candidate and unrefereed",
+  "density": "10014541091180996983/6058287395472553279488",
+  "upper_threshold": "0.001653032",
+  "upper_rounding_margin": "3591273024823630093/11832592569282330624000000000",
+  "baseline": "2405659597/1427496763392",
+  "improvement_percent": 1.9105862079977725,
+  "red_rooted_integer": "13559225531043975390720",
+  "blue_rooted_integer": "12398464977297168789216",
+  "definition_matches_frozen_uncompressed_bytes": true,
+  "structured_input": "6 4 36 24 35",
+  "frozen_full_matrix_replay": "c5_upper_radial4_uniform.json",
+  "release_replay": "release_radial_selected.stdout"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "radial_selected",
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "./check_radial_exact"
+  ],
+  "stdin": "6 4 36 24 35\n",
+  "started_at_utc": "2026-11-03T04:23:11.024368+00:00",
+  "elapsed_seconds": 3.185,
+  "exit_code": 0,
+  "stdout": "release_radial_selected.stdout",
+  "stderr": "release_radial_selected.stderr"
+}

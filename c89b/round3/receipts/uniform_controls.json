@@ -1,0 +1,212 @@
+{
+  "PASS": true,
+  "literal_controls": [
+    {
+      "trial": 0,
+      "n": 1,
+      "D": 10,
+      "literal_match": true
+    },
+    {
+      "trial": 1,
+      "n": 2,
+      "D": 2,
+      "literal_match": true
+    },
+    {
+      "trial": 2,
+      "n": 3,
+      "D": 10,
+      "literal_match": true
+    },
+    {
+      "trial": 3,
+      "n": 4,
+      "D": 3,
+      "literal_match": true
+    },
+    {
+      "trial": 4,
+      "n": 5,
+      "D": 9,
+      "literal_match": true
+    },
+    {
+      "trial": 5,
+      "n": 1,
+      "D": 7,
+      "literal_match": true
+    },
+    {
+      "trial": 6,
+      "n": 2,
+      "D": 5,
+      "literal_match": true
+    },
+    {
+      "trial": 7,
+      "n": 3,
+      "D": 5,
+      "literal_match": true
+    },
+    {
+      "trial": 8,
+      "n": 4,
+      "D": 2,
+      "literal_match": true
+    },
+    {
+      "trial": 9,
+      "n": 5,
+      "D": 4,
+      "literal_match": true
+    },
+    {
+      "trial": 10,
+      "n": 1,
+      "D": 4,
+      "literal_match": true
+    },
+    {
+      "trial": 11,
+      "n": 2,
+      "D": 7,
+      "literal_match": true
+    },
+    {
+      "trial": 12,
+      "n": 3,
+      "D": 3,
+      "literal_match": true
+    },
+    {
+      "trial": 13,
+      "n": 4,
+      "D": 4,
+      "literal_match": true
+    },
+    {
+      "trial": 14,
+      "n": 5,
+      "D": 6,
+      "literal_match": true
+    },
+    {
+      "trial": 15,
+      "n": 1,
+      "D": 7,
+      "literal_match": true
+    },
+    {
+      "trial": 16,
+      "n": 2,
+      "D": 1,
+      "literal_match": true
+    },
+    {
+      "trial": 17,
+      "n": 3,
+      "D": 6,
+      "literal_match": true
+    },
+    {
+      "trial": 18,
+      "n": 4,
+      "D": 5,
+      "literal_match": true
+    },
+    {
+      "trial": 19,
+      "n": 5,
+      "D": 8,
+      "literal_match": true
+    },
+    {
+      "trial": 20,
+      "n": 1,
+      "D": 2,
+      "literal_match": true
+    },
+    {
+      "trial": 21,
+      "n": 2,
+      "D": 9,
+      "literal_match": true
+    },
+    {
+      "trial": 22,
+      "n": 3,
+      "D": 3,
+      "literal_match": true
+    },
+    {
+      "trial": 23,
+      "n": 4,
+      "D": 8,
+      "literal_match": true
+    },
+    {
+      "trial": 24,
+      "n": 5,
+      "D": 12,
+      "literal_match": true
+    },
+    {
+      "trial": 25,
+      "n": 1,
+      "D": 4,
+      "literal_match": true
+    },
+    {
+      "trial": 26,
+      "n": 2,
+      "D": 11,
+      "literal_match": true
+    },
+    {
+      "trial": 27,
+      "n": 3,
+      "D": 1,
+      "literal_match": true
+    },
+    {
+      "trial": 28,
+      "n": 4,
+      "D": 10,
+      "literal_match": true
+    },
+    {
+      "trial": 29,
+      "n": 5,
+      "D": 11,
+      "literal_match": true
+    }
+  ],
+  "rejections": [
+    {
+      "input": "1 65\n1\n0",
+      "rejected": true,
+      "diagnostic": "REJECT uniform checker ranges"
+    },
+    {
+      "input": "1 2\n2\n1",
+      "rejected": true,
+      "diagnostic": "REJECT requires uniform unit masses"
+    },
+    {
+      "input": "2 2\n1 1\n0 1\n2 0",
+      "rejected": true,
+      "diagnostic": "REJECT asymmetry"
+    },
+    {
+      "input": "1 2\n1\n3",
+      "rejected": true,
+      "diagnostic": "REJECT probability range"
+    },
+    {
+      "input": "1 2\n1\n1\nextra",
+      "rejected": true,
+      "diagnostic": "REJECT trailing input"
+    }
+  ]
+}
