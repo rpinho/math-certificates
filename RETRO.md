@@ -14,8 +14,8 @@ We went back to the table and filed three new bounds. All three are open pull re
   of the work come from Flammang (2009) and McKee (2011).
 - **C44 ≤ 4.1225323803** ([#294](https://github.com/teorth/optimizationproblems/pull/294)), down from our 4.3576549226.
   It changes two steps in Wellens's recurrence and keeps Épi's certificates.
-- **C68 ≥ 0.44667** ([#299](https://github.com/teorth/optimizationproblems/pull/299)). It sits directly on David
-  Niedbala Giraudin's 0.446 ([#274](https://github.com/teorth/optimizationproblems/pull/274)), which is still open and
+- **C68 ≥ 0.44667** ([#299](https://github.com/teorth/optimizationproblems/pull/299)). It sits directly on V.
+  Patankar's 0.446 ([#274](https://github.com/teorth/optimizationproblems/pull/274)), which is still open and
   should be credited first.
 
 I also filed [#300](https://github.com/teorth/optimizationproblems/pull/300), which records two C10a bounds by other
