@@ -1,0 +1,299 @@
+--- c30r2/BAR.json
++++ c30/round1/BAR.json
+@@ -42,17 +42,6 @@
+     "GitHub general API rate limited; search API, raw sources and website used where accessible.",
+     "Absence of stronger claims in bounded checks is not a novelty judgment."
+   ],
+-  "constraints": {
+-    "heavy_compute_host": "[historical-compute-host]",
+-    "remote_dir": "[historical-compute-directory]",
+-    "nice": 10,
+-    "workers_max": 10,
+-    "ram_gb_max": 60,
+-    "blas_threads": 1,
+-    "harvest_by_utc": "2026-11-04T11:30:00Z",
+-    "pod_end_utc": "2026-11-04T12:15:00Z",
+-    "float_stop_hours": 12
+-  },
+   "source_sha256": {
+     "sources/alphaevolve_problems_readme.txt": "28344ad075733037cc4b515c58d12bc88afc1d1cd6cfa6aedc749bf7f499f076",
+     "sources/alphaevolve_results_readme.txt": "6705252d42fb27af57cbe604421f7d0cca70058bc71067f9b0aed4c097800f5a",
+--- c30r2/PROOF.md
++++ c30/round1/PROOF.md
+@@ -1,6 +1,6 @@
+ # Baseline proof notes and pilot scope — candidate, unrefereed
+ 
+-These are the initial baseline and reduced-model notes. The final candidate proof of 521/50 is in **FIRST_MOMENT_PROOF.md**, with its separate candidate certificate. The baseline certificate discussed below replays the **external Norton v3 baseline**, conditional on the combinatorial results listed in REFEREE.md.
++These are the initial baseline and reduced-model notes. The final candidate proof of 521/50 is in **FIRST_MOMENT_PROOF.md**, with its separate candidate certificate. The baseline certificate discussed below replays the **external Norton v3 baseline**, conditional on the combinatorial results listed in REFEREE.md. See RELEASE_NOTES.md for the source-digest provenance check used by this trimmed release.
+ 
+ ## Baseline implication
+ 
+@@ -21,7 +21,7 @@
+ 
+ The frozen arithmetic certificate takes z=9604060/10^8, kappa=516/1000, alpha=55555555/10^8, beta=18518518/10^8, q0=3046850759320/10^12, q1=1 and q2=9. All inputs are rational. The 256-bit Arb verifier evaluates the explicit H0,H2,H3 polynomials with outward rounding, establishes both derivative signs and the radius constraints, and proves a tangent-based Phi lower bound greater than 1.2788e-7. The exact product z*(10412263/10^6)<1 then implies the external baseline 10.412263.
+ 
+-`baseline_float.py` uses the derivative definition and mpmath. `verify_baseline.py` was separately written (same agent), uses explicit closed forms and Arb, reads the frozen JSON artifact, and checks its BAR.json and source hashes. Its seven corruption controls include target inflation to 521/50; that certificate is rejected. These checks do not turn the baseline into a new result or human-refereed work.
++The omitted historical `baseline_float.py` used the derivative definition and mpmath. `verify_baseline.py` was separately written (same agent), uses explicit closed forms and Arb, reads the frozen JSON artifact, and checks its BAR.json hash and the source digest recorded there. Its seven corruption controls include target inflation to 521/50; that certificate is rejected. These checks do not turn the baseline into a new result or human-refereed work.
+ 
+ ## Exhaustive marginal encoding
+ 
+--- c30r2/SUMMARY.md
++++ c30/round1/README.md
+@@ -8,6 +8,19 @@
+ 
+ **What is inherited.** BBEP supply the domino/arch bijection and enumeration, the leaf and empty-strip concentration estimates, physical concatenation, coefficientwise log-convexity, and coefficient extraction: [BBEP v3, Theorem 3.1; Propositions 3.2–3.4, 3.6, 6.1–6.4, 7.2–7.3; Lemma 7.4](https://arxiv.org/html/1711.10325v3). These results do not supply our extra two-leaf cap. Norton supplies the two-axis non-leaf gap rule and the Harris shared-neighbor comparison: [v3, Lemmas 2.1–2.2, 3.1, 3.5, 4.1, 4.3, 4.4; Corollary 3.3; Theorem 3.6; Proposition 4.5](https://arxiv.org/html/2608.20292v3). The marginal equations, kernel evaluations, and local algebraic setup come from [withdrawn v2, Proposition 5.2, equations (18)–(21), Corollary 5.5](https://arxiv.org/html/2608.20292v2); the needed untilted parts are re-derived. We do not assume v2's withdrawn profile-concentration or equal-profile claims.
+ 
+-**How much is verified.** The exact Arb certificate passes at z = 50/521, including root isolation, a whole-contour Rouché bound, and the saddle calculation; all **13 rejection controls** pass. Historical exhaustive encoding checks reach **n = 14**. Our direct value-word check reaches **n = 9**; a reviewer reports a separately written check through **n = 10**. These finite checks do not mechanically establish the infinite-family theorem or the inherited results. The complete conditional bound is **L0** under the supplied definitions; exact finite subclaims have **L1** evidence. **Nothing is in Lean yet.** See [VERIFIED.md](VERIFIED.md) for the step-by-step limits.
++**How much is verified.** The exact Arb certificate passes at z = 50/521, including root isolation, a whole-contour Rouché bound, and the saddle calculation; all **13 rejection controls** pass. Historical exhaustive encoding checks reach **n = 14**. Our direct value-word check reaches **n = 9**; a reviewer reports a separately written check through **n = 10**. These finite checks do not mechanically establish the infinite-family theorem or the inherited results. The complete conditional bound is **L0** under the supplied definitions; exact finite subclaims have **L1-same-agent** evidence. **Nothing is in Lean yet.** See [VERIFIED.md](VERIFIED.md) for the step-by-step limits.
+ 
+ **Thin margin.** The certified growth exponent is positive by only **Phi > 0.00018309709357909**, about **1.8e-4**. The review's estimated break-even for this profile is about **10.4207**; that estimate is not an additional certified bound. The short [manuscript](manuscript/c30.pdf) preserves the mathematics of [FIRST_MOMENT_PROOF.md](FIRST_MOMENT_PROOF.md), adding Claude Science's clause that noncrossing excludes an arc from B0 into a gap.
++
++
++**Verification level: L0 (whole bound; finite parts L1-same-agent).** Written and checked by AI agents under Ricardo Pinho's direction. Two AI reviews: Claude Opus 5.5 via Claude Science and GPT-6 Astra; no human referee. The latest manuscript recheck verdicts are Astra FLAG (only cache paths, excluded here) and Claude Science ACCEPT. Earlier flags and their corrections remain in the review history.
++
++Reproduce in an environment with Python 3.12, python-flint 0.9.0 and SymPy 1.14.0:
++
++```sh
++uv run --no-project --python 3.12 --with python-flint==0.9.0 --with sympy==1.14.0 -- bash reproduce.sh
++```
++
++The script checks the sealed payload, replays the baseline, candidate and all 13 candidate/mean rejection controls, checks the archived n≤14 coefficients, runs the finite value-word/envelope checks and supplied reviewer code, and checks integrity again. No network is used by the script; uv may download the environment first. It does not repeat the historical exhaustive n≤14 permutation traversal.
++
++See [RELEASE_NOTES.md](RELEASE_NOTES.md) for packaging edits and reproduction limits, [CHANGES.diff](CHANGES.diff) for textual changes relative to the final input packet, and [review provenance](evidence/README.md). Built on BBEP and Norton v3, with marginal equations credited to withdrawn Norton v2; v2's headline bound is not assumed. The related table update is maximusrufus's [PR #313](https://github.com/teorth/optimizationproblems/pull/313). No priority claim is made.
+--- c30r2/VERIFIED.md
++++ c30/round1/VERIFIED.md
+@@ -2,9 +2,9 @@
+ 
+ **Overall: L0, conditional on BBEP and unrefereed Norton v3. Nothing is in Lean yet.** The finite numerical certificate is checked; the all-size combinatorial and analytic implications remain AI-reviewed written proofs. An L1 row below certifies exactly its finite statement, never the surrounding infinite theorem.
+ 
+-Definitions supplied by Ricardo on 2026-11-03: **L0** = AI review only; **L1** = exact finite certificate plus an independent checker; **L2** = Lean proof of our new step, with inherited published results as cited axioms; **L3** = full Lean. Publication is recorded separately from these mechanical-verification levels: an inherited published theorem does not become L1 merely by being cited. “Independent checker” here means code separate from the search or from the representation being tested; it does not mean independent human review. The Arb verifiers and finite checkers were separately written by the same AI agent, so every L1 row here is labelled "L1 (same-agent checker)"; a checker by a different party or model would be needed for a plain L1. AI reviewers replaying that code are not additional independent checker implementations.
++**Verification level: L0 (whole bound; finite parts L1-same-agent).** The 3 November 2026 levels audit requires a checker by a different party or model for strict L1. A separate implementation by the same agent is useful finite evidence, but does not meet strict L1. Reviewer replay of supplied code does not create another checker. New all-size value-word, first-moment selection, envelope and growth-transfer steps remain prose at L0. No L2 or L3 claim is made.
+ 
+-`../levels_1103/LEVELS.md` was absent when this table was written (2026-11-03). The supplied definitions are therefore applied strictly below. `evidence/verification_level_source.json` records the existence check. No L2 or L3 claim is made.
++The original packet recorded that the levels audit was not yet available; its historical existence receipt is retained. The release read that audit and applies its C30 classification here. Rows below use L1-same-agent solely for finite evidence.
+ 
+ | Step / statement (manuscript location) | New / inherited; exact source | How checked and scope | Level of stated step |
+ |---|---|---|---|
+@@ -17,25 +17,25 @@
+ | Two-axis gap rule, locality and reflected orientation (§2, Lemma 2.4) | Inherited: Norton v3 Lemmas 2.1–2.2, 3.1; Cor. 3.3; Lemma 4.3 | AI re-derivation/source audit only for the general statement. Unrefereed premise. | **L0** |
+ | Monotone placements and Harris shared-neighbor bound at fixed z, free connector size (§2, Lemma 2.4) | Inherited: Norton v3 Lemma 3.5, Thm. 3.6, Remark 3.7 | AI re-derivation via product component-size law and association. Four floating reviewer examples are controls, not proof. | **L0** |
+ | Terminal-chain value-word lemma for every arch prefix (§3, Lemma 3.1) | New explicit lemma from BBEP Props. 3.2–3.4 | Full written proof; Astra2 and Claude Science recheck. Claude Science's B0-to-gap clause added. Finite checks are separate rows. | **L0** |
+-| Value-word rule on every 213-avoiding upper cell through n=9 | New finite control | `check_value_word.py`, separate from recurrence/candidate code; **6,918 cells**, including recursive nodes and Catalan count checks. Rerun here. | **L1 (same-agent checker)**, finite range only |
++| Value-word rule on every 213-avoiding upper cell through n=9 | New finite control | `check_value_word.py`, separate from recurrence/candidate code; **6,918 cells**, including recursive nodes and Catalan count checks. Rerun here. | **L1-same-agent**, finite range only |
+ | Value-word rule through n=10 | Reviewer finite control | the Claude Science recheck reports its own checker and **23,714 cells**. Report copied to `evidence/reviews/cs2/cs.md`; linked code artifact absent from supplied files. Not rerun here; no locally inspectable independent checker for this stronger range. | **L0 locally**; reviewer-reported exact evidence |
+ | Marking interpretation and unique all-size F,S,T,P recurrences (§3, Prop. 3.2) | Inherited algebra: Norton v2 Prop. 5.2, eqs. (18)–(21); re-derived using new value-word proof | Written six-case argument and AI re-derivation. Exhaustive coefficient check below cannot prove it at all sizes. | **L0** |
+-| All five marginal coefficient polynomials match actual domino encodings for n≤14 | Finite control of new encoding / inherited equations | Independent C++ actual-permutation traversal versus Python formal tower. Historical run and Astra replay: at n=14, **1,209,639,642 avoiders**, **1,390,594,458 encodings**. This job rechecks archived coefficients, not traversal. Reviewer's separate direct F/P check through n=7 rerun here. | **L1 (same-agent checker)**, finite range only |
++| All five marginal coefficient polynomials match actual domino encodings for n≤14 | Finite control of new encoding / inherited equations | Independent C++ actual-permutation traversal versus Python formal tower. Historical run and Astra replay: at n=14, **1,209,639,642 avoiders**, **1,390,594,458 encodings**. This job rechecks archived coefficients, not traversal. Reviewer's separate direct F/P check through n=7 rerun here. | **L1-same-agent**, finite range only |
+ | Formal kernel cancellations and physical branch interpretation (§4, eq. (4.1)) | Inherited: Norton v2 Cor. 5.5 and local algebra, re-derived | AI algebra/analytic review; finite exact root checks below support but do not prove analytic identification. | **L0** |
+ | Convergence majorants, removable quadratic branch, contour domination and local analyticity (§4, Lemma 4.1) | Rebuilt untilted argument from v2 local setup with corrected normalization | AI re-derivation only for the analytic implications and whole-disc argument. Arb checks the numerical constants and denominators used. | **L0** |
+-| Rational root interval, derivative sign, numerical Rouché inequality <16, local jet evaluation mu2<1/10 | Exact finite certificate for first moment | `verify_mean_two_leaf.py`, rational endpoints, outward Arb balls, exact truncated jets; **mu2 = 0.066279600572…**. Candidate calls this checker; full replay rerun here. | **L1 (same-agent checker)**, numerical/local algebra only |
++| Rational root interval, derivative sign, numerical Rouché inequality <16, local jet evaluation mu2<1/10 | Exact finite certificate for first moment | `verify_mean_two_leaf.py`, rational endpoints, outward Arb balls, exact truncated jets; **mu2 = 0.066279600572…**. Candidate calls this checker; full replay rerun here. | **L1-same-agent**, numerical/local algebra only |
+ | Derivative generating-function ratio tends to mu2 (§5, eq. (5.1)) | New first-moment use of local algebra | Real local expansions, boundary derivative bound E_n≤4D_n and factor 4/27: written proof and AI review; reviewer symbolic identities are finite algebraic controls. | **L0** |
+ | Markov selection, divergence of G'', radius rho and full-growth limsup subsequence (§5, Prop. 5.1) | New | AI re-derivation only. No two-leaf second moment or concentration assumption. | **L0** |
+ | Seven-statistic pigeonholing, balancing with per-cell two-leaf and boundary caps (§5, Prop. 5.1) | New extension using inherited BBEP injection | Written proof and AI review; reviewer finite pairing checks support but do not prove extension. Does not require identical output profiles. | **L0** |
+ | Restrict surplus leaves and obtain integer thresholds (§6) | Inherited restriction method from Norton v3 Lemma 4.4, applied with new cap | AI proof review; rational threshold slack checked by candidate verifier. | **L0** as all-size construction |
+ | Integer envelope including parity and product inequality (§6, Lemma 6.1) | New envelope, inherited BBEP transfer inequality | Full excess-sum/majorization proof, AI re-derivation only at all sizes. Finite controls below. | **L0** |
+-| Finite envelope controls and invalid-envelope rejection | New finite control | `check_profile_envelope.py`: **1,068,643** exact integer cases, including parity. Rerun here. | **L1 (same-agent checker)**, tested cases only |
++| Finite envelope controls and invalid-envelope rejection | New finite control | `check_profile_envelope.py`: **1,068,643** exact integer cases, including parity. Rerun here. | **L1-same-agent**, tested cases only |
+ | Common c_m sequence, ordered placements, injective finite staircase and polynomial degridding (§7) | New application to selected subsequence / envelope; inherited BBEP Lemma 7.4 and Norton v3 §3, Prop. 4.5 | AI re-derivation only of the infinite construction and radius implication. Uses actual shared neighbors and a common lower function. | **L0** |
+ | Convex saddle argument and tangent-minimum implication (§7) | Inherited: Norton v3 Lemma 4.1 | AI argument review of convexity and tangent bound. Numerical bracket checked separately. | **L0** as general argument |
+-| Frozen rational thresholds, profile identities, saddle bracket, tangent loss and Phi>0 at z=50/521 | Exact finite certificate, new envelope; inherited arithmetic method | `verify_candidate.py` using `verify_baseline.py` plus mean checker; 384-bit outward Arb. **Phi > 0.00018309709357909**. Rerun here, byte-identical receipt. | **L1 (same-agent checker)**, finite arithmetic only |
+-| Thirteen corrupted candidate/mean certificates rejected | New finite regression controls | `candidate_rejection_controls.py`: 9 candidate and 4 first-moment mutations all rejected. Does not prove checker completeness. Rerun here. | **L1 (same-agent checker)**, named controls only |
+-| Ordering diagnostic 1196≠1205, v2 printed normalization counterexample, old-profile obstruction, baseline and its 7 corruptions | Inherited diagnostic controls | Exact integer/rational/Arb scripts retained and rerun by `replay.sh`. Diagnostic scope only; not alternative proofs of 10.42. | **L1 (same-agent checker)**, finite checks only |
++| Frozen rational thresholds, profile identities, saddle bracket, tangent loss and Phi>0 at z=50/521 | Exact finite certificate, new envelope; inherited arithmetic method | `verify_candidate.py` using `verify_baseline.py` plus mean checker; 384-bit outward Arb. **Phi > 0.00018309709357909**. Rerun here, byte-identical receipt. | **L1-same-agent**, finite arithmetic only |
++| Thirteen corrupted candidate/mean certificates rejected | New finite regression controls | `candidate_rejection_controls.py`: 9 candidate and 4 first-moment mutations all rejected. Does not prove checker completeness. Rerun here. | **L1-same-agent**, named controls only |
++| Ordering diagnostic 1196≠1205, v2 printed normalization counterexample, old-profile obstruction, baseline and its 7 corruptions | Inherited diagnostic controls | Exact integer/rational/Arb scripts retained and rerun by `replay.sh`. Diagnostic scope only; not alternative proofs of 10.42. | **L1-same-agent**, finite checks only |
+ | Conditional C30≥521/50 (§1, Thm. 1.1; §7) | New candidate conclusion on cited premises | Finite arithmetic plus the **L0** infinite-family and inherited steps above. No human referee; unrefereed Norton v3 premise remains. | **L0 overall** |
+ | Break-even ≈10.4207 for this fixed profile | Claude Science floating diagnostic | Review report only; not certified by the rational certificate and not an additional bound. | **L0 / uncertified diagnostic** |
+ 
+-Sources: [BBEP v3](https://arxiv.org/html/1711.10325v3), [Norton v2](https://arxiv.org/html/2608.20292v2), [Norton v3](https://arxiv.org/html/2608.20292v3). Source snapshots, AI reports and receipts are included. The outreach note is one expert's checklist; it is not a referee report on this mathematics and has not been treated as approval or a gate.
++Sources: [BBEP v3](https://arxiv.org/html/1711.10325v3), [Norton v2](https://arxiv.org/html/2608.20292v2), [Norton v3](https://arxiv.org/html/2608.20292v3). AI reports and finite receipts are included. Source snapshots and private correspondence are omitted; BAR.json retains historical source digests. See RELEASE_NOTES.md for the narrower source-digest check in this release.
+--- c30r2/artifacts/baseline_certificate.json
++++ c30/round1/artifacts/baseline_certificate.json
+@@ -13,6 +13,6 @@
+     "2": "11111113/50000000",
+     "3": "3703701/100000000"
+   },
+-  "bar_sha256": "2d3511f185f4c3569332082544a2bb146a64120c879d32633f73fab2da97960e",
++  "bar_sha256": "efff3442f1054fda597c37fc658faf102a1b63195b0f64fc2c808069741ed525",
+   "source_sha256": "049f1255e16bf555a9fa98b4369ece2591727cc76df1b909950f584f1c91b0ae"
+ }
+--- c30r2/artifacts/candidate_certificate.json
++++ c30/round1/artifacts/candidate_certificate.json
+@@ -18,6 +18,6 @@
+   "leaf_upper_input": "555556/1000000",
+   "leaf_lower_input": "5555552/10000000",
+   "empty_lower_input": "1851851/10000000",
+-  "bar_sha256": "2d3511f185f4c3569332082544a2bb146a64120c879d32633f73fab2da97960e",
+-  "mean_certificate_sha256": "9e723705ee52191f0e79a042dcef8c923d192b30ef151761d7c78298ea46546d"
++  "bar_sha256": "efff3442f1054fda597c37fc658faf102a1b63195b0f64fc2c808069741ed525",
++  "mean_certificate_sha256": "0482a344d8af7eac4d2df7fabce1e0096be2d3b2bf67b7f33d7eccb3260c7206"
+ }
+--- c30r2/artifacts/mean_two_leaf_certificate.json
++++ c30/round1/artifacts/mean_two_leaf_certificate.json
+@@ -3,5 +3,5 @@
+   "root_lower": "97361182572562565170307374803364843000944541528145546570069/250000000000000000000000000000000000000000000000000000000000",
+   "root_upper": "97361182572562565170307374803364843000944541528145546570119/250000000000000000000000000000000000000000000000000000000000",
+   "markov_threshold": "1/10",
+-  "bar_sha256": "2d3511f185f4c3569332082544a2bb146a64120c879d32633f73fab2da97960e"
++  "bar_sha256": "efff3442f1054fda597c37fc658faf102a1b63195b0f64fc2c808069741ed525"
+ }
+--- c30r2/artifacts/reduced_obstruction.json
++++ c30/round1/artifacts/reduced_obstruction.json
+@@ -7,5 +7,5 @@
+     "2": "2/9",
+     "3": "1/27"
+   },
+-  "bar_sha256": "2d3511f185f4c3569332082544a2bb146a64120c879d32633f73fab2da97960e"
++  "bar_sha256": "efff3442f1054fda597c37fc658faf102a1b63195b0f64fc2c808069741ed525"
+ }
+--- c30r2/check_manifest.py
++++ c30/round1/check_manifest.py
+@@ -5,6 +5,9 @@
+ 
+ root=Path(__file__).resolve().parent
+ m=json.loads((root/'MANIFEST.json').read_text())
++actual={p.relative_to(root).as_posix() for p in root.rglob('*') if p.is_file()}
++expected=set(m['files'])|{'MANIFEST.json','SHA256SUMS'}
++assert actual==expected, {'unexpected':sorted(actual-expected),'missing':sorted(expected-actual)}
+ for rel,entry in m['files'].items():
+     p=root/rel
+     assert p.is_file(),rel
+--- c30r2/check_value_word.py
++++ c30/round1/check_value_word.py
+@@ -91,9 +91,6 @@
+         'cells_checked': sum(row['cells'] for row in rows), 'rows': rows,
+     }
+     output = Path(args.output)
+-    if output.exists() and not output.with_name(output.name + '.v1').exists():
+-        from shutil import copy2
+-        copy2(output, output.with_name(output.name + '.v1'))
+     output.write_text(json.dumps(result, indent=2) + '\n')
+     print(json.dumps({key: value for key, value in result.items() if key != 'rows'}))
+ 
+--- c30r2/evidence/README.md
++++ c30/round1/evidence/README.md
+@@ -1,9 +1,9 @@
+-# Evidence provenance
++# Review and certificate provenance
+ 
+-- `source_identity.json` binds the unchanged final c30r1 proof; frozen BAR, candidate/mean certificates and their verifiers are also byte-identical to c30r1.
+-- `reviews/` contains supplied AI reports from Astra, Astra2, CS and CS2. The initial FLAG reports describe issues corrected by the later follow-up reports; they are preserved as historical reports, not current instructions. The CS2 report supplies the n≤10 value-word evidence. Its linked `own_lemma21.py` artifact was not present in the supplied folder, so that exact check is not claimed as reproduced here.
+-- Astra's independent exact, algebra and pairing checkers and their original receipts are retained. The algebra checker has one path-only portability edit: it reads the packet's `verify_baseline.py` relative to its own file rather than `submission/verify_baseline.py`. No mathematical expression changed. All three checkers were rerun here; output is in `logs/reviewer_*_replay.json`.
+-- `pod_results/` at the packet root contains historical enumeration outputs only. No remote computation was run for this upgrade. Astra's separate historical n≤14 replay is in `reviews/astra/brute14.jsonl`.
+-- `verification_level_source.json` records that the sibling LEVELS.md did not exist when the verification table was written, so Ricardo's supplied definitions were applied directly.
++`reviews/astra`, `astra2`, `cs` and `cs2` preserve the supplied first proof reviews and follow-ups. `reviews/manuscript/initial` and `recheck` retain the manuscript reviews and latest rechecks. Historical FLAG verdicts are not relabelled: later changes addressed their cited documentation issues. The latest Astra FLAG concerns cache paths only; no caches are included. The latest Claude Science verdict is ACCEPT. These are two model families, not independent human referees.
+ 
+-The independent-checker claims concern separate code and exact finite tests. They do not imply independent human review or mechanical proof of an all-size mathematical theorem.
++The reports are historical records, with local absolute paths scrubbed and portable report links fixed. Their references to omitted sources, logs and private notes describe the historical packet, not included release files. Their original hashes and input locations (relative job labels only) are in `release_provenance.json`. The manuscript review's input correction diff is retained with paths scrubbed as `reviews/manuscript/CHANGES.diff`.
++
++Astra's small exact, algebra and 5,313 pairing checks are retained with receipts. The n≤14 enumeration data at `reviews/astra/brute14.jsonl` are historical reviewer evidence, reused by the coefficient replay; the full traversal is not freshly rerun. Claude Science's reported n≤10 value-word checker was not supplied as a local file, so that check is not represented as locally replayed. Running supplied reviewer code does not establish a fresh independent checker for the whole bound.
++
++`source_identity.json` and `verification_level_source.json` retain historical packet facts; current proof identity is in `release_provenance.json`, and the release's strict verification classification is in VERIFIED.md. BAR.json preserves source digests and public bibliographic data, with irrelevant historical infrastructure removed. No source snapshots, correspondence or reviewer session logs are included.
+--- c30r2/evidence/reviews/astra/astra.md
++++ c30/round1/evidence/reviews/astra/astra.md
+@@ -1,6 +1,6 @@
+ **FLAG: two definite errors in the source audit; no counterexample found to the candidate’s mathematical route.**
+ 
+-Full results, every check, hashes, and reproduction commands are in [REFEREE_REPORT.md](review/REFEREE_REPORT.md). Exact external statements, hypotheses, and withdrawal dependencies are in [EXTERNAL_PREMISES.md](review/EXTERNAL_PREMISES.md). The original folder remains unchanged.
++Full results, every check, hashes, and reproduction commands are in [REFEREE_REPORT.md](REFEREE_REPORT.md). Exact external statements, hypotheses, and withdrawal dependencies are in [EXTERNAL_PREMISES.md](EXTERNAL_PREMISES.md). The original folder remains unchanged.
+ 
+ The first false item is **GATE.md:13**, which says the sources do not identify v2’s withdrawal cause. Norton’s v3 Comments explicitly identify unequal cells after pairing and an Appendix F argument count checked only at arc endpoints. This explanation already exists in the packet’s hash-matching archived abstract. [Norton v3 withdrawal comments](https://arxiv.org/abs/2608.20292v3).
+ 
+--- c30r2/manuscript/README.md
++++ c30/round1/manuscript/README.md
+@@ -1,12 +1,12 @@
+ # Manuscript source and scope
+ 
+-`c30.tex` is the amsart source; `c30.pdf` is the 10-page built manuscript. `c30.txt` is extracted text for inspection. Build from the packet root:
++`c30.tex` is the amsart source; `c30.pdf` is the 10-page built manuscript. Build from the packet root:
+ 
+ ```sh
+ nice -n 10 tectonic -k --keep-logs manuscript/c30.tex
+ ```
+ 
+-The final build has no TeX warnings, undefined references or overfull/underfull boxes. PDF pages were inspected as rendered thumbnails; all ten pages have readable, unclipped layouts. Build output and a contact sheet are in `logs/`. The original final authority is retained byte for byte as `FIRST_MOMENT_PROOF.md`; its source hash is in `evidence/source_identity.json`.
++The final build has no TeX warnings, undefined references or overfull/underfull boxes. PDF pages were inspected as rendered thumbnails; all ten pages have readable, unclipped layouts. Build output and the contact sheet were inspected in the input job and are omitted from this release. The final input authority and manuscript are retained byte for byte; their input hashes are in `evidence/release_provenance.json`.
+ 
+ Proof correspondence:
+ 
+--- c30r2/verify_baseline.py
++++ c30/round1/verify_baseline.py
+@@ -62,7 +62,9 @@
+     c=json.loads(Path(path).read_text())
+     root=Path(__file__).resolve().parent
+     assert hashlib.sha256((root/'BAR.json').read_bytes()).hexdigest()==c['bar_sha256'], 'changed frozen bar'
+-    assert hashlib.sha256((root/'sources/norton-v3.html').read_bytes()).hexdigest()==c['source_sha256'], 'changed source'
++    # Source snapshots are omitted; this checks provenance linkage, not source bytes.
++    bar=json.loads((root/'BAR.json').read_text())
++    assert bar['source_sha256']['sources/norton-v3.html']==c['source_sha256'], 'changed source digest'
+     ctx.prec=256
+     z,k,alpha,beta,q0,q1,q2,lam=[Fraction(c[n]) for n in ['z','kappa','alpha','beta','q0','q1','q2','lambda']]
+     assert 0 < z < Fraction(1,4)
+--- c30r2/verify_v2_scaling.py
++++ c30/round1/verify_v2_scaling.py
+@@ -11,7 +11,9 @@
+ 
+ 
+ def verify(c):
+-    assert c['source_sha256']==hashlib.sha256(Path('sources/norton-v2.html').read_bytes()).hexdigest()
++    # Source snapshots are omitted; this checks provenance linkage, not source bytes.
++    bar=json.loads(Path('BAR.json').read_text())
++    assert c['source_sha256']==bar['source_sha256']['sources/norton-v2.html']
+     z=F(c['z']);u=F(c['u']);v=F(c['v']);lam=F(c['rouche_lambda'])
+     assert (z,u,v,lam)==(F(4,27),F(1,2),F(0),F(16))
+     vmax=z*(1+lam*z)
+--- c30r2/replay.sh
++++ c30/round1/replay.sh
+@@ -1,14 +1,15 @@
+ #!/usr/bin/env bash
+ set -euo pipefail
+ cd -- "$(dirname -- "$0")"
+-TASK_PYTHON="${TASK_PYTHON:-$HOME/dev/open-science/.venv/bin/python}"
++TASK_PYTHON="${TASK_PYTHON:-python3}"
++export PYTHONDONTWRITEBYTECODE=1
+ export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
+-nice -n 10 "$TASK_PYTHON" verify_baseline.py artifacts/baseline_certificate.json
+-nice -n 10 "$TASK_PYTHON" rejection_controls.py
+-nice -n 10 "$TASK_PYTHON" verify_ordering.py
+-nice -n 10 "$TASK_PYTHON" verify_v2_scaling.py
+-nice -n 10 "$TASK_PYTHON" verify_reduced_obstruction.py
+-nice -n 10 "$TASK_PYTHON" check_tower_counts.py pod_results/brute14.jsonl
+-nice -n 10 "$TASK_PYTHON" verify_mean_two_leaf.py
+-nice -n 10 "$TASK_PYTHON" verify_candidate.py artifacts/candidate_certificate.json
+-nice -n 10 "$TASK_PYTHON" candidate_rejection_controls.py
++nice -n 10 "$TASK_PYTHON" -B verify_baseline.py artifacts/baseline_certificate.json
++nice -n 10 "$TASK_PYTHON" -B rejection_controls.py
++nice -n 10 "$TASK_PYTHON" -B verify_ordering.py
++nice -n 10 "$TASK_PYTHON" -B verify_v2_scaling.py
++nice -n 10 "$TASK_PYTHON" -B verify_reduced_obstruction.py
++nice -n 10 "$TASK_PYTHON" -B check_tower_counts.py evidence/reviews/astra/brute14.jsonl
++nice -n 10 "$TASK_PYTHON" -B verify_mean_two_leaf.py
++nice -n 10 "$TASK_PYTHON" -B verify_candidate.py artifacts/candidate_certificate.json
++nice -n 10 "$TASK_PYTHON" -B candidate_rejection_controls.py
+--- c30r2/reproduce.sh
++++ c30/round1/reproduce.sh
+@@ -2,14 +2,16 @@
+ # All arithmetic and finite controls; no network, remote compute, or search.
+ set -euo pipefail
+ cd -- "$(dirname -- "$0")"
+-TASK_PYTHON="${TASK_PYTHON:-$HOME/dev/open-science/.venv/bin/python}"
++TASK_PYTHON="${TASK_PYTHON:-python3}"
+ export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
+ export PYTHONDONTWRITEBYTECODE=1
++"$TASK_PYTHON" -B check_manifest.py
++shasum -a 256 -c SHA256SUMS
+ bash replay.sh
+-nice -n 10 "$TASK_PYTHON" check_value_word.py --max-n 9 --output artifacts/value_word_rerun.json
+-nice -n 10 "$TASK_PYTHON" check_profile_envelope.py
+-nice -n 10 "$TASK_PYTHON" evidence/reviews/astra/independent_exact_checks.py evidence/reviews/astra/brute14.jsonl
+-nice -n 10 "$TASK_PYTHON" evidence/reviews/astra/independent_algebra_checks.py
+-nice -n 10 "$TASK_PYTHON" evidence/reviews/astra/independent_pairing_check.py
+-nice -n 10 "$TASK_PYTHON" check_manifest.py
++nice -n 10 "$TASK_PYTHON" -B check_value_word.py --max-n 9 --output artifacts/value_word_rerun.json
++nice -n 10 "$TASK_PYTHON" -B check_profile_envelope.py
++nice -n 10 "$TASK_PYTHON" -B evidence/reviews/astra/independent_exact_checks.py evidence/reviews/astra/brute14.jsonl
++nice -n 10 "$TASK_PYTHON" -B evidence/reviews/astra/independent_algebra_checks.py
++nice -n 10 "$TASK_PYTHON" -B evidence/reviews/astra/independent_pairing_check.py
++nice -n 10 "$TASK_PYTHON" -B check_manifest.py
+ shasum -a 256 -c SHA256SUMS

@@ -1,0 +1,374 @@
+\documentclass[11pt]{amsart}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,array}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\usepackage{microtype}
+\numberwithin{equation}{section}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\theoremstyle{remark}\newtheorem{remark}[theorem]{Remark}
+\newcommand{\Av}{\operatorname{Av}}
+\newcommand{\Cat}{\operatorname{Cat}}
+\newcommand{\coef}[2]{[#1]#2}
+\newcommand{\bbep}{Bevan--Brignall--Elvey Price--Pantone}
+\title[A conditional candidate lower bound of 10.42]{A first-moment strip bound and a conditional candidate lower bound of 10.42 for $\Av(1324)$}
+\author{Research packet prepared under the direction of Ricardo Pinho}
+\date{3 November 2026; private manuscript, unrefereed}
+\begin{document}
+\begin{abstract}
+We give a candidate proof that the growth rate of 1324-avoiding permutations is at least $521/50=10.42$, conditional on the domino results of \bbep\ and the retained two-axis relaxation and Harris argument of Norton's unrefereed third version. The additional argument uses a value-word lemma, a local first-moment calculation for two-leaf strips, selection of a full-growth subsequence of domino families, and an integer majorization envelope. It requires no concentration theorem for two-leaf strips. A frozen rational certificate, checked with outward-rounded Arb arithmetic, gives $\Phi>0.00018309709357909$ at $z=50/521$. Finite exhaustive checks support the marginal encoding; they do not verify the infinite-family proof. Nothing is formalized in Lean, and there has been no human referee.
+\end{abstract}
+\maketitle
+
+\section{Definitions, history, and the claim}
+A permutation contains a pattern if some subsequence has that relative order; $\Av_n(\pi)$ denotes the length-$n$ permutations avoiding $\pi$. Write
+\[
+ C_{30}=\operatorname{gr}(\Av(1324))
+       =\lim_{n\to\infty}|\Av_n(1324)|^{1/n}.
+\]
+Equivalently its ordinary generating function has radius $1/C_{30}$. We use this standard growth-rate convention throughout, and use a limsup explicitly when discussing our selected domino families.
+
+A \emph{vertical domino} is a gridded 1324-avoider with a 213-avoiding top cell and a 132-avoiding bottom cell sharing a position axis. Its size is its total number of points. A \emph{leaf} is a right-to-left maximum in the top cell, and a left-to-right minimum in the bottom cell. The non-leaves cut each cell along the value axis into \emph{strips}; a strip size is its number of leaves. Exterior strips are included unless stated otherwise. After extra leaves are restricted, a strip size counts only the remaining free points. Horizontal dominoes are the reflected counterparts.
+
+The arch representation has an upper and a lower noncrossing system, each with at most one incoming and one outgoing arc per point. An arc joins consecutive increasing values of its cell. A prefix may have open lower arcs; the upper system considered below is complete. Concatenation of arch configurations corresponds to skew sum in each cell: all values in the earlier factor exceed all values in the later factor. Rotation by $180$ degrees exchanges the cells. These are inherited bijections, not new definitions of an arbitrary arch model.
+
+\subsection*{History and attribution}
+\bbep\ (BBEP) established the domino framework and the lower bound $10.271012$, commonly displayed as $10.27$ \cite[Theorem 7.1]{BBEP}. Norton v1 claimed $10.617$; its entropy correction did not justify the concavity used for vertex minimization. Specifically $J=A-2\operatorname{Ent}$ with $A$ concave does not make $J$ concave \cite[equation (43), Proposition 7.2]{N1}. Norton v2 claimed $10.466425$. The v3 Comments withdraw it because pairing does not force agreement of the two cells of a member and the Appendix F zero count tests argument increments only at arc endpoints \cite{N3comments}. Both earlier claims are withdrawn, rather than established comparison bounds.
+
+The retained, unrefereed Norton v3 claim is $10.412263$ \cite[Theorem 1.1]{N3}. Open optimizationproblems PR \#313, by maximusrufus on 3 November 2026, proposes that value for constant 30; it supersedes the earlier closed \#223 as the relevant table proposal \cite{PR313}. Brignall gives the upper-bound claim $13.167248$ \cite{Brignall}; Frankl\'in gives a conditional lower bound $10.418$ under a weighted-quotient counting conjecture \cite{Franklin}. Neither is an unconditional lower bound above $10.42$. Our bounded source checks are documented in the accompanying \texttt{PRIOR\_ART.md}; no priority claim is made.
+
+The additional mathematical content here is the explicit value-word proof, the two-leaf first-moment bound and family selection, and the common integer envelope. It occupies roughly two pages of core argument, with the inherited algebra and analytic justification written out for review. The marginal/kernel equations and local algebraic setup are credited to withdrawn v2, specifically Proposition 5.2, equations (18)--(21), and Corollary 5.5 \cite{N2}; we re-derive the untilted parts needed here. We do not assume its tilted family or strip-concentration theorem. BBEP supply the arch framework, enumeration, leaf/empty-strip concentration, balancing injection, log-convexity, and coefficient extraction. Norton v3 supplies the two-axis relaxation and Harris comparison.
+
+\begin{theorem}[Conditional candidate]\label{thm:main}
+Assuming the inherited BBEP results and the retained Norton v3 results stated below, $C_{30}\geq 521/50=10.42$.
+\end{theorem}
+The qualification matters: exact numerical certification does not establish the inherited unrefereed combinatorics or formally verify our infinite-family argument.
+
+\section{Inherited results used}
+We state the source inputs with their hypotheses, so that the new argument can be read without attributing its extra two-leaf cap to an inherited theorem.
+
+\begin{lemma}[BBEP arch enumeration and balancing]\label{lem:bbep}
+For gridded total-size-$n$ dominoes, the unmarked generating function $D$ satisfies
+\begin{gather}\label{eq:curve}
+ D_n=\frac{2(3n+3)!}{(n+2)!(2n+3)!},\qquad
+ z=\frac{w}{(1+w)^3},\quad D=(1-w)(1+w)^3,\\
+ \rho=\frac4{27},\qquad w_0=\frac12.\nonumber
+\end{gather}
+The arch map is a bijection, and concatenation and rotation act as described above. Concatenating two size-$m$ arch configurations, one rotated, is injective on the ordered inputs by splitting at total length $m$. If the input top sizes agree, the output has $m$ points in each cell.
+\end{lemma}
+These are \cite[Theorem 3.1, Propositions 3.2--3.4 and 3.6]{BBEP}.
+
+\begin{lemma}[BBEP leaf and empty-strip concentration]\label{lem:concentration}
+If $a_-<5/9<a_+$ and $b_-<5/27$, the fraction of total-size-$n$ dominoes with, in both cells, leaf counts in $[a_-n/2,a_+n/2]$ and empty-strip counts at least $b_-n/2+2$ tends to one.
+\end{lemma}
+Indeed \cite[Propositions 6.1--6.4]{BBEP} give top-cell means $5n/18+O(1)$ and $5n/54+O(1)$ for leaves and medial empty strips, with variances $O(n)$. Rotation gives the bottom cell. Apply Chebyshev; total and medial empty-strip counts differ by at most one. Strict threshold slack absorbs any fixed additive constant. This lemma says nothing about two-leaf strips.
+
+For a connecting cell define
+\begin{equation}\label{eq:H}
+ Q(z)=\frac{1-\sqrt{1-4z}}2,\qquad
+ H_j(z,q)=\frac1{j!}\left(\frac{d}{dz}\right)^j
+                  \frac{z^j}{1-qQ(z)}.
+\end{equation}
+The variable $q$ marks skew components. A component is skew indecomposable; its generating function is $Q$. A strip with $j$ free points and $n$ connector points admits $\binom{n+j}{j}$ weak placements, giving the derivative operator in \eqref{eq:H}.
+
+\begin{lemma}[BBEP coefficient lemmas]\label{lem:coeff}
+Coefficientwise in $z,q$, $H_aH_b\geq H_{a-1}H_{b+1}$ for integers $a\geq b+2\geq2$. For finitely many nonnegative series $F_j(q)$, positive limits $e_j(m)/m\to\eta_j$ and $\kappa>0$, suppose an interior positive $q_*$ satisfies
+\[
+ q_*\sum_j\eta_j\frac{F'_j(q_*)}{F_j(q_*)}=\kappa.
+\]
+There is a sequence of integers $c_m/m\to\kappa$ such that
+\[
+ \left([q^{c_m}]\prod_jF_j(q)^{e_j(m)}\right)^{1/m}
+ \longrightarrow q_*^{-\kappa}\prod_jF_j(q_*)^{\eta_j}.
+\]
+\end{lemma}
+See \cite[Propositions 7.2--7.3 and Lemma 7.4]{BBEP}. We apply the coefficient lemma to four series $H_j(z,q)$ at fixed $0<z<1/4$, inside $q<1/Q(z)$. All four limiting exponents will be positive. The coefficients are nonnegative and aperiodic. The selected component sequence exists for all sufficiently large $m$ and can be restricted to a subsequence.
+
+\begin{lemma}[Norton v3 two-axis rule and Harris comparison]\label{lem:norton}
+In the descending alternating $\Av(213),\Av(132)$ staircase, every 1324 occurrence is confined to two neighboring cells. In the period-six construction, require each non-leaf of a domino cell to lie at a skew-component boundary of its adjacent connector, along the shared axis. This rule excludes 1324 in both orientations. For fixed actual neighbors and connector component count $c$, at fixed $0<z<1/4$ with unrestricted total connector size, the shared-neighbor count is at least the product of the two one-sided sums divided by $Q(z)^c$.
+\end{lemma}
+The source is \cite[Lemmas 2.1--2.2, Lemmas 3.1 and 3.5, Corollary 3.3, Theorem 3.6]{N3}. Reflection exchanges the two domino orientations \cite[Lemma 4.3]{N3}. Conditional on $c$, component sizes have product law $\Cat_{k-1}z^k/Q(z)$; both placement functions increase in every coordinate. Harris association supplies the bound. Fixing total connector size would invalidate this product-measure proof. The inequality concerns values at positive $z$, not coefficientwise comparison in $z$ \cite[Remark 3.7]{N3}. These statements remain unrefereed premises here.
+
+\section{The value word and marginal equations}
+Read the upper cell in increasing value order and put $0$ at a leaf and $1$ at a non-leaf; denote the resulting binary word by $\nu$.
+
+\begin{lemma}[Value word of a terminal upper chain]\label{lem:word}
+Take an arch prefix with no open upper arcs. If its rightmost point is an isolated upper point, deleting it leaves $B$ with $\nu=0\nu(B)$. Otherwise let $t_1,\ldots,t_m$, $m\geq2$, be the upper chain ending at that point in position order. Let $B_0$ precede $t_1$ and let $B_i$ lie strictly between $t_i,t_{i+1}$ for $1\leq i<m$. The chain values are consecutive increasing upper values; all upper points of the $B_i$ lie above the chain, and the upper values of $B_i$ exceed those of $B_j$ whenever $i<j$. Leaf status within each subobject is preserved. Consequently
+\begin{equation}\label{eq:word}
+ \nu=1^{m-1}0\,\nu(B_{m-1})\cdots\nu(B_1)\nu(B_0).
+\end{equation}
+The four lower-point operations leave $\nu$ unchanged. These rules also hold when lower arcs are open.
+\end{lemma}
+\begin{proof}
+The inputs are BBEP's inverse arch map \cite[Proposition 3.2, proof and equation (1)]{BBEP} and the terminal decomposition \cite[Proposition 3.4, cases (v)--(vi), Figure 8]{BBEP}. Discard lower points and arcs to reconstruct the complete upper permutation. No upper arc can join distinct intervening gaps without crossing a chain arc. An arc spanning the component would end farther right than its terminal point, which is impossible. An extra arc cannot enter a chain point, since each point has at most one incoming and one outgoing arc. The initial subobject $B_0$ is a separate concatenation factor: noncrossing also excludes an arc from $B_0$ into a gap, since it would cross the chain arc over that gap. Thus the stated upper projection is exactly the one reconstructed by BBEP's inverse map.
+
+Along the chain successive values differ by one. If an upper point $x$ in the gap $(t_i,t_{i+1})$ lay below both endpoints, $(t_i,x,t_{i+1})$ would be a 213. It therefore lies above both; the chain interval is consecutive, so $x$ lies above the entire chain. For $x\in B_i$, $y\in B_j$ with $1\leq i<j<m$, the chain point $t_{i+1}$ is between them in position and below both. If $x<y$, $(x,t_{i+1},y)$ is 213. Hence $x>y$. Concatenation maps to skew sum, so every upper value in $B_0$ exceeds the entire terminal component, including every enclosed subobject. Empty subobjects cause no exception.
+
+All chain points except $t_m$ have a larger chain point to their right; $t_m$ is the rightmost upper point and is a leaf. For a point in any $B_i$, all outside upper points to its right are smaller, by the value comparisons just proved and skew sum for $B_0$. They cannot destroy an internal right-to-left maximum or create one where an internal larger point already exists. Thus each internal word is unchanged. Increasing value order meets the chain first and then $B_{m-1},\ldots,B_0$, proving \eqref{eq:word}.
+
+An isolated terminal upper point is a last singleton skew factor. It is below all earlier upper values, is a leaf, and changes none of their leaf marks, giving $0\nu(B)$. Lower operations change neither the upper arch system nor its inverse upper permutation. Induction on prefix size, starting at the empty word, proves all assertions at every recursive node.
+\end{proof}
+
+A maximal run of ones is therefore a nontrivial upper chain, called a \emph{block}. It owns the following zero-run. If a later block occurs the strip is \emph{closed}; otherwise it is terminal. The leading zero-run has no owner. Closed owned strips count every top-cell $j$-leaf strip, $j\geq1$, except at most two boundary strips.
+
+Let $v$ mark open lower arcs and let $A(z,v)$ count prefixes with no open upper arc; put $D=A(z,0)$. BBEP's six cases give
+\begin{equation}\label{eq:A}
+ A=1+z(2+v)A+z(1+v)\frac{A-D}{v}+g(A),\qquad
+ g(x)=\frac{z^2x^2}{1-zx}.
+\end{equation}
+Every division by $v$ means a formal difference quotient with removable constant term. Define $F$ to count words without a one, with $u$ on each zero; $S$ marks with $u$ the zeros before the first block and excludes words with no block; $T$ records a marked terminal block, with $u$ on additional zeros after its own zero; and $P$ records a marked closed block, with $u^{j-1}$ on its $j$-leaf strip. Subscript $0$ means $v=0$. Put
+\begin{align*}
+ K_0&=1-z(1+v)-z(1+v)/v,& K_A&=K_0-z,\\
+ R&=\frac{z^2(A+F-zAF)}{(1-zA)(1-zF)},&Y&=g'(A),\\
+ V&=\frac{Sz^2}{(1-zA)^2(1-zF)}.&&
+\end{align*}
+\begin{proposition}[Untilted marginal recurrences]\label{prop:M}
+The formal series are uniquely specified by
+\begin{align}\label{eq:M}
+ (K_0-uz)F&=1-z(1+v)F_0/v,\nonumber\\
+ (K_0-uz)S&=g(A)-z(1+v)S_0/v,\nonumber\\
+ (K_A-R)T&=g(F)-z(1+v)T_0/v,\nonumber\\
+ (K_A-Y)P&=SR+TV-z(1+v)P_0/v.
+\end{align}
+These are the untilted equations of \cite[Proposition 5.2, equations (18)--(21)]{N2}, re-derived here with their marking interpretation.
+\end{proposition}
+\begin{proof}
+Lower cases contribute $z(1+v)$ and the difference quotient. An isolated upper point contributes $z$, or $uz$ when extending the recorded zero-run. A block has $m\geq2$ ordered subobjects with weight $z^m$. It is excluded from $F$. For $S$ the root starts with a one and its subobjects are unrestricted, giving $g(A)$. For $T$, either the root is marked and all subobjects are $F$, giving $g(F)$, or a subobject contains the marked block and every later subobject is $F$. The latter multiplier is
+\[
+ R=\sum_{m\geq2}z^m\sum_{a+b=m-1}A^aF^b.
+\]
+For $P$ there are exactly three disjoint cases. The root owns the marked closed strip, whose first later block lies in an $S$ subobject, giving $SR$. The marked strip is already closed in a subobject, giving $YP$. Or it is terminal in its marked subobject and a later subobject closes it, giving $TV$. Summing gives $V=S(Y-R)/(A-F)$, which cancels to the displayed rational expression. The word order is justified by Lemma~\ref{lem:word}, including leaf marks; no averaging over neighboring orders occurs. Each combinatorial right-hand-side operation raises $z$-degree, so induction gives uniqueness.
+\end{proof}
+
+\section{Local first-moment evaluation}
+The $F,S$ kernel has smaller root $v_1=z+O(z^2)$ of
+\[
+ zv_1^2-(1-z(2+u))v_1+z=0.
+\]
+Let $v'_1$ be the other root, and let $r=z+O(z^2)$ be the formal root of $K_A-R=0$. Kernel cancellation gives the inherited algebraic evaluations \cite[Corollary 5.5]{N2}
+\begin{align}\label{eq:K}
+ F&=\frac1{z(1+v_1)(v'_1-v)},& F_0&=\frac{v_1}{z(1+v_1)},\nonumber\\
+ S_0&=\frac{v_1g(A(z,v_1))}{z(1+v_1)},&
+ T_0&=\frac{r g(F(u,z,r))}{z(1+r)},\nonumber\\
+ P_0&=\frac{w\{S(u,z,w)R(u,z,w)+T(u,z,w)V(u,z,w)\}}{z(1+w)}.
+\end{align}
+Here \eqref{eq:curve} makes $A(z,w)=(1+w)^2$ and $K_A-Y=0$. Substitution is first formal at $z=0$, then real for $0<z<\rho$. Marked counts are bounded by $n$ times unmarked counts, so the required marked series converge inside $\rho$.
+
+\begin{lemma}[Root selection and local analyticity]\label{lem:analytic}
+The root $r$ in \eqref{eq:K} is the formal root continued to the critical point. The resulting function $p(w,u)=P_0$ is analytic near $(w,u)=(1/2,0)$ on that local branch.
+\end{lemma}
+\begin{proof}
+We give the untilted contour argument, including the corrected normalization, rather than importing v2's withdrawn continuation claims. Put
+\begin{gather*}
+ v_{\max}=\rho(1+16\rho)=364/729<1/2,\quad
+ C_A=A(\rho,v_{\max}),\quad C_F=F(1,\rho,v_{\max}),\\
+ C_R=\frac{C_A+C_F-\rho C_AC_F}{(1-\rho C_A)(1-\rho C_F)}.
+\end{gather*}
+There is no factor $\rho^2$ in $C_R$. Nonnegativity gives
+$|R|\leq C_R|z|^2$ on $|z|\leq\rho$, $|u|\leq1$, $|v|\leq v_{\max}$.
+Here is why the series used for this majorant are finite. The physical unmarked branch has critical discriminant
+\[
+ \Delta(v,\rho,D(\rho))=\frac{(2v-9)(2v-1)^3}{729}.
+\]
+Along the positive curve the remaining discriminant factor decreases in $v$ for $0\leq w<1/2$, $0\leq v\leq1/2$; at $v=1/2$ it is
+\[
+ (1+w)^2(2w-1)(2w^3-9w^2+4w-4)/4>0.
+\]
+At a zero of the quadratic coefficient, $z=v/(1+v)^2$, the physical branch has already crossed $w=v$ and the linear coefficient is $z^2(1+v)D>0$. This is the finite removable branch. Thus no earlier positive singularity occurs; nonnegativity gives the absolute convergence and modulus bounds asserted above. In particular $A(\rho,v)$ is analytic for $|v|<1/2$. The explicit $F$ is dominated by $A$ for $|u|\leq1$.
+
+For $\chi(v)=v(K_A-R)$ compare with $v-z$ on $|v-z|=16|z|^2$. Directly,
+\[
+ |\chi(v)-(v-z)|\leq |z|^2(1+16|z|)
+              \{3+|z|(1+16|z|)+C_R|z|\}.
+\]
+The coefficient of $|z|^2$ is monotone in $|z|$ and at $\rho$ is certified below $15.270542<16$; also $1-\rho C_A$ and $1-\rho C_F$ are positive. Rouch\'e selects a unique simple root in that disc for every $0<|z|\leq\rho$, joining $r=z+O(z^2)$ at zero. This is a $v$-disc argument at each $z$, not convergence of a positive $z$-series beyond its radius.
+
+At $(w,u)=(1/2,0)$ the certificate isolates
+\[
+ r=0.38944473029025026068\ldots,\qquad
+ \partial_v(K_A-R)=0.7358159158\ldots>0.
+\]
+All square roots and denominators in \eqref{eq:K} are locally analytic and nonzero as certified. For $A$ use the stable quadratic expression $-2a_0/(a_1+\sqrt\Delta)$, where $a_i$ are its quadratic coefficients; the alternate formula has a removable $0/0$ at $v_1$ when $u=0$. The implicit function theorem makes $r$ analytic in $(w,u)$ locally, hence so is $p$. No continuation around $|z|=\rho$ is required.
+\end{proof}
+
+Since $z'(w_0)=D'(w_0)=0$, quantities depending only on $z,D,u$ have zero $w$ derivative there, also after differentiating in $u$. At the kernel point $A=(1+w)^2$. Thus four-coefficient jets retaining $1,u,w,uw$ evaluate the mixed derivative exactly over Arb balls. The frozen first-moment certificate gives
+\begin{equation}\label{eq:mu}
+ \mu_2:=\frac4{27}p_{wu}(w_0,0)
+ =0.06627960057204584443150090889068205402\ldots<\frac1{10}.
+\end{equation}
+Rational endpoints isolate the root by opposite signs, its derivative stays away from zero on the interval, and all divisions and square roots are validated. There is no floating differentiation in this check.
+
+\section{A full-growth family from the first moment}
+\begin{proposition}[First-moment selection and balancing]\label{prop:family}
+Put $s_2=1/10$ and
+\[
+ a_-=\frac{5555552}{10^7},\quad a_+=\frac{555556}{10^6},\quad
+ b_-=\frac{1851851}{10^7}.
+\]
+Along an infinite sequence of sizes $m$, there is a balanced family $\mathcal B_m$ with $m$ points in each cell and
+\[
+ |\mathcal B_m|\geq(27/4)^{2m-o(m)},
+\]
+whose every cell has leaves in $[a_-m,a_+m]$, at least $b_-m-1$ empty strips, and at most $s_2m+2$ two-leaf strips.
+\end{proposition}
+\begin{proof}
+Let $N_2(\delta)$ count two-leaf strips in both cells, including boundaries, and $M(z)=\sum_\delta N_2(\delta)z^{|\delta|}$. Rotation and the at most two boundary exceptions per cell give
+\[
+ M(z)=2[u]P_0(z,u)+E(z),\qquad 0\leq E_n\leq4D_n.
+\]
+Set $\epsilon=\rho-z$. The explicit unmarked curve yields local real expansions
+\begin{align*}
+ \epsilon&=\frac{16}{81}(w-w_0)^2+O((w-w_0)^3),\\
+ D(z)&=D(\rho)-a\epsilon+\frac{2187}{16}\epsilon^{3/2}
+                                     +O(\epsilon^2).
+\end{align*}
+These algebraic expansions may be differentiated on the real branch. Analyticity of $p$ gives the leading square-root term of $[u]P_0$. Since $D'(\rho)$ is finite, $E_n\leq4D_n$ makes $E'(\rho)$ finite. Differentiating therefore gives
+\begin{equation}\label{eq:ratio}
+ \lim_{z\uparrow\rho}\frac{zM'(z)}{z^2D''(z)}=\mu_2.
+\end{equation}
+The factor is exactly $4/27$, since $3\rho(2187/16)(4/9)=27$. This is a ratio of positive generating-function derivatives. It requires no marked-series coefficient asymptotics, exterior $\Delta$-domain, or second moment of $N_2$.
+
+For a bad domino with $N_2>s_2n$, $n(n-1)\leq nN_2/s_2$. Its total $n(n-1)$-weighted generating function is at most $zM'(z)/s_2$. By Lemma~\ref{lem:concentration}, the bad leaf/empty events have counts $o(D_n)$; their corresponding second-derivative weight is $o(z^2D''(z))$. To see this, bound their fraction by any fixed $\eta$ for all sufficiently large $n$. The finite initial sum stays bounded whereas $D''(z)\to\infty$, then let $\eta\downarrow0$.
+
+Let $G$ count dominoes satisfying $N_2\leq s_2n$ and those leaf/empty thresholds. The strict inequalities $a_-<5/9<a_+$ and $b_-<5/27$ hold. By \eqref{eq:ratio},
+\[
+ \liminf_{z\uparrow\rho}\frac{G''(z)}{D''(z)}
+       \geq1-\mu_2/s_2>0.
+\]
+Consequently $G''$ diverges at $\rho$. As $G\leq D$ coefficientwise, its radius is exactly $\rho$. Along an infinite sequence, $G_m=(27/4)^{m-o(m)}$.
+
+Pigeonhole top cell size, both leaf counts, both empty counts, and both two-leaf counts. There are at most $(m+1)^7$ classes, so one class $\mathcal L_m$ has the same exponential size. Concatenate any $\sigma\in\mathcal L_m$ with the rotated arch configuration of any $\tau\in\mathcal L_m$. Lemma~\ref{lem:bbep} recovers both inputs by splitting at length $m$, and the common top size makes both output cells size $m$. Leaves add. At a join just one boundary strip per cell merges: empty strips decrease by at most one and two-leaf counts increase by at most two. Fixed input statistics thus give the stated per-cell inequalities and $|\mathcal B_m|=|\mathcal L_m|^2$. Identical output profiles are neither asserted nor needed.
+\end{proof}
+
+\section{A common integer strip envelope}
+Fix
+\[
+ \alpha=\frac{555555}{10^6},\qquad
+ \beta=\frac{185185}{10^6},\qquad c_2=\frac7{50}.
+\]
+In each cell of $\mathcal B_m$, restrict surplus leaves until precisely $L=\lceil\alpha m\rceil$ points remain free. Restricting a leaf splits its old strip into two; it cannot decrease empty strips and creates at most two two-leaf strips. Since
+\[
+ s_2+2(a_+-\alpha)=0.100002<c_2,\qquad b_->\beta,
+\]
+for all sufficiently large $m$ its ordered strip vector has
+\begin{equation}\label{eq:bounds}
+ r=m-L+1,\quad n_0\geq B=\lceil\beta m\rceil+1,\quad
+ n_2\leq U=\lfloor c_2m\rfloor,\quad\sum_i y_i=L.
+\end{equation}
+Additional restrictions reduce placement choices, which is the required direction for a lower bound.
+
+\begin{lemma}[Integer envelope]\label{lem:envelope}
+Let $y$ be any nonnegative integer $r$-vector satisfying \eqref{eq:bounds}. Choose $e_2\in\{U,U-1\}$ so that $L-r+B-e_2$ is even, and put
+\begin{equation}\label{eq:e}
+ e_0=B,\qquad e_1=\frac{3(r-B)-L-e_2}{2},\qquad
+ e_3=\frac{L-r+B-e_2}{2}.
+\end{equation}
+For all sufficiently large $m$ these are nonnegative integers. A vector $x$ with $e_j$ entries equal to $j$ is majorized by $y$. Consequently
+\begin{equation}\label{eq:envelope}
+ \prod_i H_{y_i}(z,q)\ \geq\ \prod_{j=0}^3 H_j(z,q)^{e_j}
+\end{equation}
+coefficientwise in $z,q$.
+\end{lemma}
+\begin{proof}
+The vectors have equal lengths and sums. The entries in \eqref{eq:e} are integral by the parity choice and nonnegative for large $m$; in particular the linear estimate $e_1>0.0411125m-3.5$ suffices for that entry. Compare excess sums $\sum_i(y_i-t)_+$ and $\sum_i(x_i-t)_+$. At $t=1$, the former is $L-r+n_0\geq L-r+B$, the value for $x$. At $t=2$ it is $L-2r+2n_0+n_1$. Write $T=\sum_{j\geq4}(j-3)n_j\geq0$. The count identities give
+\[
+ 2(2n_0+n_1)=3r-L+n_0-n_2+T\geq3r-L+B-U.
+\]
+As $2n_0+n_1$ is an integer, taking a ceiling gives at least
+$(3r-L+B-e_2)/2=2B+e_1$, which is the needed comparison. The parity choice $U-1$ handles exactly the odd case. At zero the sums agree; for integer thresholds at least three, $x$ has no excess. Between integers the excess sums are linear, and for negative thresholds they agree. These inequalities characterize majorization.
+
+Integer majorization is a finite sequence of transfers of one unit from a larger part to a smaller part. Lemma~\ref{lem:coeff} says each such transfer cannot increase the $H$ product. This proves \eqref{eq:envelope}.
+\end{proof}
+The limiting coordinates are
+\begin{equation}\label{eq:eta}
+ (\eta_0,\eta_1,\eta_2,\eta_3)
+ =\left(\frac{37037}{200000},\frac{3289}{80000},
+             \frac7{50},\frac{31259}{400000}\right),
+\end{equation}
+with $\sum\eta_j=1-\alpha$, $\sum j\eta_j=\alpha$. The actual first-moment density $\mu_2$, selection threshold $s_2$, and synthetic envelope coordinate $\eta_2=c_2$ are distinct. The envelope bounds each ordered placement product; it does not replace the joint count by a function of an unordered profile.
+
+\section{Transfer to permutations and the rational certificate}
+Use $\mathcal B_m$ vertically and its reflected family horizontally in the period-six staircase. Lemma~\ref{lem:norton} excludes every 1324 by its two-axis gap rule. A gridded output recovers all dominoes, connectors, and row/column interleavings. Each row and column meets only two consecutive cells, so its shuffle creates no further consistency choice. This is an injection into gridded permutations.
+
+At fixed positive $z$, with connector total size free, Harris and the common envelope give a shared connector contribution at least $J_m(z)^2/Q(z)^{c_m}$, where
+\[
+ J_m(z)=[q^{c_m}]\prod_{j=0}^3H_j(z,q)^{e_j(m)}.
+\]
+Lemma~\ref{lem:coeff} supplies $c_m/m\to\kappa$ and
+\begin{equation}\label{eq:Lambda}
+ J_m(z)^{1/m}\longrightarrow e^\Lambda,\qquad
+ \Lambda=\min_{0<q<1/Q(z)}
+       \left\{-\kappa\log q+\sum_{j=0}^3\eta_j\log H_j(z,q)\right\}.
+\end{equation}
+All $\eta_j$ are positive, and the saddle will be bracketed strictly inside the convergence interval. The coefficient sequence is defined for all large $m$ and hence on the full-growth subsequence of Proposition~\ref{prop:family}.
+
+For fixed $k$, the staircase through $6k+2$ cells has a subfamily whose generating-function value dominates
+\begin{equation}\label{eq:staircase}
+ |\mathcal B_m|^{2k+1}z^{(4k+2)m}J_m(z)^{4k}Q(z)^{-2kc_m}.
+\end{equation}
+Its limiting logarithmic $m$-growth is at least
+\[
+ 2\log(27z/4)+2k\Phi,\qquad
+ \Phi=2\log(27z/4)+2\Lambda-\kappa\log Q(z).
+\]
+A positive $\Phi$ makes this positive for sufficiently large fixed $k$. If the ungridded avoidance generating function had radius larger than $z$, a fixed finite grid would also converge there: its number of row/column divisions on $n$ points is polynomial in $n$. Its value would uniformly bound every subfamily in \eqref{eq:staircase}, contradicting their exponential divergence along the subsequence. The radius is therefore at most $z$. Only a limsup subsequence for $\mathcal B_m$ is needed; this is the finite-grid argument of \cite[Proposition 4.5]{N3} with our proved envelope and subsequence.
+
+The frozen rational certificate chooses
+\begin{equation}\label{eq:cert}
+ z=\frac{50}{521},\quad \kappa=\frac{515801757591}{10^{12}},\quad
+ q_1=1,\quad q_2=9,\quad q_0=\frac{3049509956240}{10^{12}}.
+\end{equation}
+For $B(q)=-\kappa\log q+\sum\eta_j\log H_j(z,q)$, nonnegative coefficients make $B$ convex in $\log q$ \cite[Lemma 4.1]{N3}. Its derivative with respect to that variable is negative at $q_1$ and positive at $q_2$, both strictly below $1/Q(z)$. A tangent at $q_0$ gives the global minimum lower bound
+\[
+ \Lambda\geq B(q_0)-|B_{\log q}(q_0)|
+       \bigl(|\log(q_1/q_0)|+|\log(q_2/q_0)|\bigr).
+\]
+The separately written checker evaluates this bound with outward rounding and obtains
+\begin{equation}\label{eq:Phi}
+ \Phi>0.00018309709357909>0.
+\end{equation}
+Since $1/z=521/50$ exactly, this proves the conditional implication in Theorem~\ref{thm:main}.
+
+\section{Verification, limitations, and provenance}
+The packet contains frozen rational input in
+\texttt{artifacts/candidate\_certificate.json} and
+\texttt{artifacts/mean\_two\_leaf\_certificate.json}.
+
+\texttt{verify\_candidate.py} calls the local first-moment checker and uses explicit $H_j$ expressions from \texttt{verify\_baseline.py}. The checker was written separately from the search computation by the same AI agent, not by a human or a different laboratory. Arithmetic is performed by python-flint/Arb at 384-bit precision; source and certificate hashes bind the inputs. It verifies the threshold inequalities, profile moments, root isolation, whole-contour Rouch\'e majorant, denominators and branches, saddle bracket, and conservative tangent loss. The observed bracket slopes are approximately $-0.38221648$ and $29.56038437$; the tangent slope is approximately $1.4028\cdot10^{-13}$. Thirteen deliberate corruptions are rejected.
+
+A separate formal recurrence implementation and a C++ maximum-insertion traversal agree in all coefficients of $A,F,S,T,P$ through $n=14$. At size 14 the traversal visits $1,209,639,642$ avoiders and $1,390,594,458$ gridded domino encodings, with known avoider counts matched at every size. These are historical exhaustive runs, also replayed by an AI reviewer with the supplied traversal. This packet reruns the archived coefficient comparison, not the billion-object traversal. The upper-cell value-word check passes all $6,918$ 213-avoiders through $n=9$ including recursive subobjects. The Claude Science follow-up reviewer reports its own separately written check of $23,714$ cells through $n=10$. The linked code artifact is absent from the supplied folder. We retain this as reviewer evidence; we have not reproduced its $n=10$ run. Integer envelope controls cover $1,068,643$ finite instances, including parity and an invalid-envelope rejection.
+
+The verification levels in the accompanying \texttt{VERIFIED.md} distinguish L0 (AI review only), L1 (an exact finite certificate plus an independent checker), L2 (Lean for our new step with cited inherited axioms), and L3 (full Lean). Exact finite numerical subclaims and checked finite encodings have L1 evidence. The value-word theorem for all sizes, analytic interpretation, first-moment selection, balancing extension, integer-envelope theorem, and infinite staircase/radius transfer remain L0 as all-size statements. Inherited concentration, log-convexity and unrefereed Norton v3 are not made mechanically verified by our arithmetic. The whole conditional bound remains L0. Nothing is in Lean yet.
+
+The $\Phi$ margin is thin, about $1.8\cdot10^{-4}$. The Claude Science review estimates break-even for this fixed profile at about $10.4207$; this is a floating numerical diagnostic, not an additional certified bound. A successful certificate proves its stated arithmetic and local algebra, and finite controls test their specified ranges. Neither replaces a proof of infinite-family validity or a responsible human reading of the dependencies. The old withdrawn equal-profile assertion, endpoint-only winding check, and entropy/ordering transfer are not used. The proof requires only bounded, possibly unequal, per-cell boundary corrections and a uniform contour bound. We make no matrix-certificate claim, no novelty claim, and no claim of human refereeing.
+
+\subsection*{AI-use statement}
+This manuscript and the accompanying argument were written and checked by AI agents under Ricardo Pinho's direction; no human referee. The supplied AI reports led to an expanded value-word proof and corrected historical attribution. The one additional clause excluding an arc from $B_0$ into a gap implements a reviewer's follow-up note. The same clause is in \texttt{FIRST\_MOMENT\_PROOF.md}, whose mathematics the manuscript matches. Independent human review of the new steps and of the retained Norton v3 machinery remains outstanding.
+
+\begin{thebibliography}{9}
+\raggedright
+\bibitem{BBEP} D. Bevan, R. Brignall, A. Elvey Price, and J. Pantone,
+\emph{A structural characterisation of $\Av(1324)$ and new bounds on its growth rate},
+European Journal of Combinatorics \textbf{88} (2020), Paper 103115.
+ arXiv:1711.10325v3;
+\href{https://arxiv.org/html/1711.10325v3}{versioned text}. Result numbering here follows this arXiv version.
+\bibitem{N1} C. C. Norton, \emph{A new lower bound for the growth rate of $\Av(1324)$}, arXiv:2608.20292v1, 20 August 2026, withdrawn claim;
+\url{https://arxiv.org/html/2608.20292v1}.
+\bibitem{N2} C. C. Norton, same title, arXiv:2608.20292v2, 31 August 2026, withdrawn claim;
+\url{https://arxiv.org/html/2608.20292v2}.
+\bibitem{N3} C. C. Norton, same title, arXiv:2608.20292v3, 4 September 2026. Unrefereed preprint;
+\url{https://arxiv.org/html/2608.20292v3}.
+\bibitem{N3comments} C. C. Norton, version 3 abstract and Comments, withdrawal account;
+\url{https://arxiv.org/abs/2608.20292v3}, accessed 3 November 2026.
+\bibitem{Brignall} R. Brignall, \emph{Shuffle automata and the growth of 1324-avoiding permutations}, arXiv:2610.02535, 1 October 2026;
+\url{https://arxiv.org/abs/2610.02535}.
+\bibitem{Franklin} A. F. Frankl\'in, \emph{Pattern Avoiding Permutations as Walks}, arXiv:2512.19462, 22 December 2025;
+\url{https://arxiv.org/abs/2512.19462}.
+\bibitem{PR313} maximusrufus, \emph{optimizationproblems}, pull request \#313, constant 30 proposal, 3 November 2026;
+\url{https://github.com/teorth/optimizationproblems/pull/313}. Repository table:
+\url{https://teorth.github.io/optimizationproblems/constants/30a.html}.
+\end{thebibliography}
+\end{document}

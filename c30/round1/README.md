@@ -1,0 +1,26 @@
+# A candidate lower bound of 10.42 for C30
+
+**Claim.** The growth rate of permutations avoiding the pattern 1324 is at least **521/50 = 10.42**, conditional on the cited BBEP results and the retained machinery of **Norton's unrefereed v3**. A permutation avoids 1324 when no four entries, read left to right, have that relative order. The growth rate describes how quickly the number of avoiders increases with length. This is an AI-written candidate argument, with no human referee and no priority claim.
+
+**What is new in this packet's argument.** The additions amount to about two pages of core mathematics, expanded in the manuscript for review. The **value-word lemma** proves how the leaf/non-leaf word changes when a terminal arch chain is attached: its subobjects lie above the chain in reverse value order, and their leaf marks are preserved. This supplies the missing all-size explanation behind the strip-counting equations; it is proved from BBEP's inverse arch map.
+
+The **two-leaf first-moment bound** gives an actual density of about **0.06627960057**, below **1/10**. The **family-selection argument** uses this mean and positivity of generating functions to obtain a full-growth subsequence whose members obey a two-leaf cap. It does not infer concentration from a mean. Physical arch concatenation then gives balanced dominoes satisfying common per-cell inequalities. Finally, an **integer majorization envelope**, including its parity correction, provides a uniform placement lower bound for every permitted ordered strip pattern. Its synthetic two-leaf coordinate is **7/50**, distinct from the mean and the selection threshold.
+
+**What is inherited.** BBEP supply the domino/arch bijection and enumeration, the leaf and empty-strip concentration estimates, physical concatenation, coefficientwise log-convexity, and coefficient extraction: [BBEP v3, Theorem 3.1; Propositions 3.2–3.4, 3.6, 6.1–6.4, 7.2–7.3; Lemma 7.4](https://arxiv.org/html/1711.10325v3). These results do not supply our extra two-leaf cap. Norton supplies the two-axis non-leaf gap rule and the Harris shared-neighbor comparison: [v3, Lemmas 2.1–2.2, 3.1, 3.5, 4.1, 4.3, 4.4; Corollary 3.3; Theorem 3.6; Proposition 4.5](https://arxiv.org/html/2608.20292v3). The marginal equations, kernel evaluations, and local algebraic setup come from [withdrawn v2, Proposition 5.2, equations (18)–(21), Corollary 5.5](https://arxiv.org/html/2608.20292v2); the needed untilted parts are re-derived. We do not assume v2's withdrawn profile-concentration or equal-profile claims.
+
+**How much is verified.** The exact Arb certificate passes at z = 50/521, including root isolation, a whole-contour Rouché bound, and the saddle calculation; all **13 rejection controls** pass. Historical exhaustive encoding checks reach **n = 14**. Our direct value-word check reaches **n = 9**; a reviewer reports a separately written check through **n = 10**. These finite checks do not mechanically establish the infinite-family theorem or the inherited results. The complete conditional bound is **L0** under the supplied definitions; exact finite subclaims have **L1-same-agent** evidence. **Nothing is in Lean yet.** See [VERIFIED.md](VERIFIED.md) for the step-by-step limits.
+
+**Thin margin.** The certified growth exponent is positive by only **Phi > 0.00018309709357909**, about **1.8e-4**. The review's estimated break-even for this profile is about **10.4207**; that estimate is not an additional certified bound. The short [manuscript](manuscript/c30.pdf) preserves the mathematics of [FIRST_MOMENT_PROOF.md](FIRST_MOMENT_PROOF.md), adding Claude Science's clause that noncrossing excludes an arc from B0 into a gap.
+
+
+**Verification level: L0 (whole bound; finite parts L1-same-agent).** Written and checked by AI agents under Ricardo Pinho's direction. Two AI reviews: Claude Opus 5.5 via Claude Science and GPT-6 Astra; no human referee. The latest manuscript recheck verdicts are Astra FLAG (only cache paths, excluded here) and Claude Science ACCEPT. Earlier flags and their corrections remain in the review history.
+
+Reproduce in an environment with Python 3.12, python-flint 0.9.0 and SymPy 1.14.0:
+
+```sh
+uv run --no-project --python 3.12 --with python-flint==0.9.0 --with sympy==1.14.0 -- bash reproduce.sh
+```
+
+The script checks the sealed payload, replays the baseline, candidate and all 13 candidate/mean rejection controls, checks the archived n≤14 coefficients, runs the finite value-word/envelope checks and supplied reviewer code, and checks integrity again. No network is used by the script; uv may download the environment first. It does not repeat the historical exhaustive n≤14 permutation traversal.
+
+See [RELEASE_NOTES.md](RELEASE_NOTES.md) for packaging edits and reproduction limits, [CHANGES.diff](CHANGES.diff) for textual changes relative to the final input packet, and [review provenance](evidence/README.md). Built on BBEP and Norton v3, with marginal equations credited to withdrawn Norton v2; v2's headline bound is not assumed. The related table update is maximusrufus's [PR #313](https://github.com/teorth/optimizationproblems/pull/313). No priority claim is made.

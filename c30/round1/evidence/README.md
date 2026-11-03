@@ -1,0 +1,9 @@
+# Review and certificate provenance
+
+`reviews/astra`, `astra2`, `cs` and `cs2` preserve the supplied first proof reviews and follow-ups. `reviews/manuscript/initial` and `recheck` retain the manuscript reviews and latest rechecks. Historical FLAG verdicts are not relabelled: later changes addressed their cited documentation issues. The latest Astra FLAG concerns cache paths only; no caches are included. The latest Claude Science verdict is ACCEPT. These are two model families, not independent human referees.
+
+The reports are historical records, with local absolute paths scrubbed and portable report links fixed. Their references to omitted sources, logs and private notes describe the historical packet, not included release files. Their original hashes and input locations (relative job labels only) are in `release_provenance.json`. The manuscript review's input correction diff is retained with paths scrubbed as `reviews/manuscript/CHANGES.diff`.
+
+Astra's small exact, algebra and 5,313 pairing checks are retained with receipts. The n≤14 enumeration data at `reviews/astra/brute14.jsonl` are historical reviewer evidence, reused by the coefficient replay; the full traversal is not freshly rerun. Claude Science's reported n≤10 value-word checker was not supplied as a local file, so that check is not represented as locally replayed. Running supplied reviewer code does not establish a fresh independent checker for the whole bound.
+
+`source_identity.json` and `verification_level_source.json` retain historical packet facts; current proof identity is in `release_provenance.json`, and the release's strict verification classification is in VERIFIED.md. BAR.json preserves source digests and public bibliographic data, with irrelevant historical infrastructure removed. No source snapshots, correspondence or reviewer session logs are included.

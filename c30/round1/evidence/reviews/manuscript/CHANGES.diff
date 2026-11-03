@@ -1,0 +1,152 @@
+diff -ru -x logs -x pod_results -x *.aux -x *.log -x *.out -x c30.pdf -x MANIFEST.json -x SHA256SUMS -x __pycache__ [local-workspace]/c30r2_review/astra/packet/FIRST_MOMENT_PROOF.md [local-workspace]/c30r2/FIRST_MOMENT_PROOF.md
+--- [local-workspace]/c30r2_review/astra/packet/FIRST_MOMENT_PROOF.md	2026-11-03 09:55:07
++++ [local-workspace]/c30r2/FIRST_MOMENT_PROOF.md	2026-11-03 12:39:23
+@@ -35,7 +35,7 @@
+ 
+ First discard lower points and lower arcs when reconstructing the upper permutation. Its upper arch system is complete even if some lower arcs are open. The rightmost upper chain is a connected component. No upper arc can join two distinct intervening gaps without crossing a chain arc; an arc spanning the entire component would enclose its terminal point and end farther right, which is impossible. Nor can an additional arc enter a chain point, since each point has at most one incoming and one outgoing arc. The upper projection therefore has the stated initial and enclosed subobjects. The inverse in Proposition 3.2 reconstructs exactly its 213-avoiding upper permutation.
+ 
+-Along the chain, successive values differ by one. In particular no other upper value lies numerically between any successive pair, and the chain values form one interval. For a point x inside the gap between ti and t(i+1), x is either below both endpoints or above both. The former possibility would make the position-ordered triple (ti,x,t(i+1)) an occurrence of 213. Hence x is above both, and consecutiveness of the whole chain interval puts x above the entire chain. For two nonempty enclosed subobjects Bi,Bj with 1<=i<j<m, choose arbitrary upper points x in Bi and y in Bj. The chain point t(i+1) lies between them in position and below both in value. If x<y, the triple (x,t(i+1),y) is 213. Thus x>y, proving the reverse value order for every pair of enclosed subobjects, not just their extrema. The initial upper subobject B0 is separate from the chain component. Concatenation becomes skew sum under Pi_213, so all its upper values exceed those of the entire terminal component, including the enclosed subobjects. Empty upper subobjects cause no exception to these comparisons.
++Along the chain, successive values differ by one. In particular no other upper value lies numerically between any successive pair, and the chain values form one interval. For a point x inside the gap between ti and t(i+1), x is either below both endpoints or above both. The former possibility would make the position-ordered triple (ti,x,t(i+1)) an occurrence of 213. Hence x is above both, and consecutiveness of the whole chain interval puts x above the entire chain. For two nonempty enclosed subobjects Bi,Bj with 1<=i<j<m, choose arbitrary upper points x in Bi and y in Bj. The chain point t(i+1) lies between them in position and below both in value. If x<y, the triple (x,t(i+1),y) is 213. Thus x>y, proving the reverse value order for every pair of enclosed subobjects, not just their extrema. The initial upper subobject B0 is separate from the chain component: noncrossing excludes an arc from B0 into a gap, since it would cross the chain arc over that gap. Concatenation becomes skew sum under Pi_213, so all its upper values exceed those of the entire terminal component, including the enclosed subobjects. Empty upper subobjects cause no exception to these comparisons.
+ 
+ Every chain point except tm has a larger chain point to its right and is a non-leaf. The terminal point tm is the rightmost upper point and is a leaf. For any upper point in Bi, all upper points outside Bi that lie to its right are smaller: they are later chain points or points in later subobjects. This also holds for B0 by skew sum. Such outside points cannot destroy a right-to-left maximum or create one where an internal larger point to the right already exists. Thus leaf status in each subobject agrees with its status in the whole prefix. Reading in increasing value order now encounters the chain first, giving 1^(m-1)0, and then the upper subobjects in order B(m-1),...,B0, with their unchanged internal subwords. This proves the chain formula.
+ 
+diff -ru -x logs -x pod_results -x *.aux -x *.log -x *.out -x c30.pdf -x MANIFEST.json -x SHA256SUMS -x __pycache__ [local-workspace]/c30r2_review/astra/packet/SUMMARY.md [local-workspace]/c30r2/SUMMARY.md
+--- [local-workspace]/c30r2_review/astra/packet/SUMMARY.md	2026-11-03 12:22:59
++++ [local-workspace]/c30r2/SUMMARY.md	2026-11-03 12:39:23
+@@ -6,7 +6,7 @@
+ 
+ The **two-leaf first-moment bound** gives an actual density of about **0.06627960057**, below **1/10**. The **family-selection argument** uses this mean and positivity of generating functions to obtain a full-growth subsequence whose members obey a two-leaf cap. It does not infer concentration from a mean. Physical arch concatenation then gives balanced dominoes satisfying common per-cell inequalities. Finally, an **integer majorization envelope**, including its parity correction, provides a uniform placement lower bound for every permitted ordered strip pattern. Its synthetic two-leaf coordinate is **7/50**, distinct from the mean and the selection threshold.
+ 
+-**What is inherited.** BBEP supply the domino/arch bijection and enumeration, the leaf and empty-strip concentration estimates, physical concatenation, coefficientwise log-convexity, and coefficient extraction: [BBEP v3, Theorem 3.1; Propositions 3.2–3.4, 3.6, 6.1–6.4, 7.2–7.3; Lemma 7.4](https://arxiv.org/html/1711.10325v3). These results do not supply our extra two-leaf cap. Norton supplies the two-axis non-leaf gap rule and the Harris shared-neighbor comparison: [v3, Lemmas 2.1–2.2, 3.1, 3.5; Corollary 3.3; Theorem 3.6; Lemma 4.3](https://arxiv.org/html/2608.20292v3). The marginal equations, kernel evaluations, and local algebraic setup come from [withdrawn v2, Proposition 5.2, equations (18)–(21), Corollary 5.5](https://arxiv.org/html/2608.20292v2); the needed untilted parts are re-derived. We do not assume v2's withdrawn profile-concentration or equal-profile claims.
++**What is inherited.** BBEP supply the domino/arch bijection and enumeration, the leaf and empty-strip concentration estimates, physical concatenation, coefficientwise log-convexity, and coefficient extraction: [BBEP v3, Theorem 3.1; Propositions 3.2–3.4, 3.6, 6.1–6.4, 7.2–7.3; Lemma 7.4](https://arxiv.org/html/1711.10325v3). These results do not supply our extra two-leaf cap. Norton supplies the two-axis non-leaf gap rule and the Harris shared-neighbor comparison: [v3, Lemmas 2.1–2.2, 3.1, 3.5, 4.1, 4.3, 4.4; Corollary 3.3; Theorem 3.6; Proposition 4.5](https://arxiv.org/html/2608.20292v3). The marginal equations, kernel evaluations, and local algebraic setup come from [withdrawn v2, Proposition 5.2, equations (18)–(21), Corollary 5.5](https://arxiv.org/html/2608.20292v2); the needed untilted parts are re-derived. We do not assume v2's withdrawn profile-concentration or equal-profile claims.
+ 
+ **How much is verified.** The exact Arb certificate passes at z = 50/521, including root isolation, a whole-contour Rouché bound, and the saddle calculation; all **13 rejection controls** pass. Historical exhaustive encoding checks reach **n = 14**. Our direct value-word check reaches **n = 9**; a reviewer reports a separately written check through **n = 10**. These finite checks do not mechanically establish the infinite-family theorem or the inherited results. The complete conditional bound is **L0** under the supplied definitions; exact finite subclaims have **L1** evidence. **Nothing is in Lean yet.** See [VERIFIED.md](VERIFIED.md) for the step-by-step limits.
+ 
+diff -ru -x logs -x pod_results -x *.aux -x *.log -x *.out -x c30.pdf -x MANIFEST.json -x SHA256SUMS -x __pycache__ [local-workspace]/c30r2_review/astra/packet/VERIFIED.md [local-workspace]/c30r2/VERIFIED.md
+--- [local-workspace]/c30r2_review/astra/packet/VERIFIED.md	2026-11-03 12:22:59
++++ [local-workspace]/c30r2/VERIFIED.md	2026-11-03 12:39:23
+@@ -2,7 +2,7 @@
+ 
+ **Overall: L0, conditional on BBEP and unrefereed Norton v3. Nothing is in Lean yet.** The finite numerical certificate is checked; the all-size combinatorial and analytic implications remain AI-reviewed written proofs. An L1 row below certifies exactly its finite statement, never the surrounding infinite theorem.
+ 
+-Definitions supplied by Ricardo on 2026-11-03: **L0** = AI review only; **L1** = exact finite certificate plus an independent checker; **L2** = Lean proof of our new step, with inherited published results as cited axioms; **L3** = full Lean. Publication is recorded separately from these mechanical-verification levels: an inherited published theorem does not become L1 merely by being cited. “Independent checker” here means code separate from the search or from the representation being tested; it does not mean independent human review. The Arb verifiers were separately written by the same AI agent. AI reviewers replaying that code are not additional independent checker implementations.
++Definitions supplied by Ricardo on 2026-11-03: **L0** = AI review only; **L1** = exact finite certificate plus an independent checker; **L2** = Lean proof of our new step, with inherited published results as cited axioms; **L3** = full Lean. Publication is recorded separately from these mechanical-verification levels: an inherited published theorem does not become L1 merely by being cited. “Independent checker” here means code separate from the search or from the representation being tested; it does not mean independent human review. The Arb verifiers and finite checkers were separately written by the same AI agent, so every L1 row here is labelled "L1 (same-agent checker)"; a checker by a different party or model would be needed for a plain L1. AI reviewers replaying that code are not additional independent checker implementations.
+ 
+ `../levels_1103/LEVELS.md` was absent when this table was written (2026-11-03). The supplied definitions are therefore applied strictly below. `evidence/verification_level_source.json` records the existence check. No L2 or L3 claim is made.
+ 
+@@ -17,24 +17,24 @@
+ | Two-axis gap rule, locality and reflected orientation (§2, Lemma 2.4) | Inherited: Norton v3 Lemmas 2.1–2.2, 3.1; Cor. 3.3; Lemma 4.3 | AI re-derivation/source audit only for the general statement. Unrefereed premise. | **L0** |
+ | Monotone placements and Harris shared-neighbor bound at fixed z, free connector size (§2, Lemma 2.4) | Inherited: Norton v3 Lemma 3.5, Thm. 3.6, Remark 3.7 | AI re-derivation via product component-size law and association. Four floating reviewer examples are controls, not proof. | **L0** |
+ | Terminal-chain value-word lemma for every arch prefix (§3, Lemma 3.1) | New explicit lemma from BBEP Props. 3.2–3.4 | Full written proof; Astra2 and CS2 review. CS's B0-to-gap clause added. Finite checks are separate rows. | **L0** |
+-| Value-word rule on every 213-avoiding upper cell through n=9 | New finite control | `check_value_word.py`, separate from recurrence/candidate code; **6,918 cells**, including recursive nodes and Catalan count checks. Rerun here. | **L1**, finite range only |
++| Value-word rule on every 213-avoiding upper cell through n=9 | New finite control | `check_value_word.py`, separate from recurrence/candidate code; **6,918 cells**, including recursive nodes and Catalan count checks. Rerun here. | **L1 (same-agent checker)**, finite range only |
+ | Value-word rule through n=10 | Reviewer finite control | CS2 reports its own checker and **23,714 cells**. Report copied to `evidence/reviews/cs2/cs.md`; linked code artifact absent from supplied files. Not rerun here; no locally inspectable independent checker for this stronger range. | **L0 locally**; reviewer-reported exact evidence |
+ | Marking interpretation and unique all-size F,S,T,P recurrences (§3, Prop. 3.2) | Inherited algebra: Norton v2 Prop. 5.2, eqs. (18)–(21); re-derived using new value-word proof | Written six-case argument and AI re-derivation. Exhaustive coefficient check below cannot prove it at all sizes. | **L0** |
+-| All five marginal coefficient polynomials match actual domino encodings for n≤14 | Finite control of new encoding / inherited equations | Independent C++ actual-permutation traversal versus Python formal tower. Historical run and Astra replay: at n=14, **1,209,639,642 avoiders**, **1,390,594,458 encodings**. This job rechecks archived coefficients, not traversal. Reviewer's separate direct F/P check through n=7 rerun here. | **L1**, finite range only |
++| All five marginal coefficient polynomials match actual domino encodings for n≤14 | Finite control of new encoding / inherited equations | Independent C++ actual-permutation traversal versus Python formal tower. Historical run and Astra replay: at n=14, **1,209,639,642 avoiders**, **1,390,594,458 encodings**. This job rechecks archived coefficients, not traversal. Reviewer's separate direct F/P check through n=7 rerun here. | **L1 (same-agent checker)**, finite range only |
+ | Formal kernel cancellations and physical branch interpretation (§4, eq. (4.1)) | Inherited: Norton v2 Cor. 5.5 and local algebra, re-derived | AI algebra/analytic review; finite exact root checks below support but do not prove analytic identification. | **L0** |
+ | Convergence majorants, removable quadratic branch, contour domination and local analyticity (§4, Lemma 4.1) | Rebuilt untilted argument from v2 local setup with corrected normalization | AI re-derivation only for the analytic implications and whole-disc argument. Arb checks the numerical constants and denominators used. | **L0** |
+-| Rational root interval, derivative sign, numerical Rouché inequality <16, local jet evaluation mu2<1/10 | Exact finite certificate for first moment | `verify_mean_two_leaf.py`, rational endpoints, outward Arb balls, exact truncated jets; **mu2 = 0.066279600572…**. Candidate calls this checker; full replay rerun here. | **L1**, numerical/local algebra only |
++| Rational root interval, derivative sign, numerical Rouché inequality <16, local jet evaluation mu2<1/10 | Exact finite certificate for first moment | `verify_mean_two_leaf.py`, rational endpoints, outward Arb balls, exact truncated jets; **mu2 = 0.066279600572…**. Candidate calls this checker; full replay rerun here. | **L1 (same-agent checker)**, numerical/local algebra only |
+ | Derivative generating-function ratio tends to mu2 (§5, eq. (5.1)) | New first-moment use of local algebra | Real local expansions, boundary derivative bound E_n≤4D_n and factor 4/27: written proof and AI review; reviewer symbolic identities are finite algebraic controls. | **L0** |
+ | Markov selection, divergence of G'', radius rho and full-growth limsup subsequence (§5, Prop. 5.1) | New | AI re-derivation only. No two-leaf second moment or concentration assumption. | **L0** |
+ | Seven-statistic pigeonholing, balancing with per-cell two-leaf and boundary caps (§5, Prop. 5.1) | New extension using inherited BBEP injection | Written proof and AI review; reviewer finite pairing checks support but do not prove extension. Does not require identical output profiles. | **L0** |
+ | Restrict surplus leaves and obtain integer thresholds (§6) | Inherited restriction method from Norton v3 Lemma 4.4, applied with new cap | AI proof review; rational threshold slack checked by candidate verifier. | **L0** as all-size construction |
+ | Integer envelope including parity and product inequality (§6, Lemma 6.1) | New envelope, inherited BBEP transfer inequality | Full excess-sum/majorization proof, AI re-derivation only at all sizes. Finite controls below. | **L0** |
+-| Finite envelope controls and invalid-envelope rejection | New finite control | `check_profile_envelope.py`: **1,068,643** exact integer cases, including parity. Rerun here. | **L1**, tested cases only |
++| Finite envelope controls and invalid-envelope rejection | New finite control | `check_profile_envelope.py`: **1,068,643** exact integer cases, including parity. Rerun here. | **L1 (same-agent checker)**, tested cases only |
+ | Common c_m sequence, ordered placements, injective finite staircase and polynomial degridding (§7) | New application to selected subsequence / envelope; inherited BBEP Lemma 7.4 and Norton v3 §3, Prop. 4.5 | AI re-derivation only of the infinite construction and radius implication. Uses actual shared neighbors and a common lower function. | **L0** |
+ | Convex saddle argument and tangent-minimum implication (§7) | Inherited: Norton v3 Lemma 4.1 | AI argument review of convexity and tangent bound. Numerical bracket checked separately. | **L0** as general argument |
+-| Frozen rational thresholds, profile identities, saddle bracket, tangent loss and Phi>0 at z=50/521 | Exact finite certificate, new envelope; inherited arithmetic method | `verify_candidate.py` using `verify_baseline.py` plus mean checker; 384-bit outward Arb. **Phi > 0.00018309709357909**. Rerun here, byte-identical receipt. | **L1**, finite arithmetic only |
+-| Thirteen corrupted candidate/mean certificates rejected | New finite regression controls | `candidate_rejection_controls.py`: 9 candidate and 4 first-moment mutations all rejected. Does not prove checker completeness. Rerun here. | **L1**, named controls only |
+-| Ordering diagnostic 1196≠1205, v2 printed normalization counterexample, old-profile obstruction, baseline and its 7 corruptions | Inherited diagnostic controls | Exact integer/rational/Arb scripts retained and rerun by `replay.sh`. Diagnostic scope only; not alternative proofs of 10.42. | **L1**, finite checks only |
++| Frozen rational thresholds, profile identities, saddle bracket, tangent loss and Phi>0 at z=50/521 | Exact finite certificate, new envelope; inherited arithmetic method | `verify_candidate.py` using `verify_baseline.py` plus mean checker; 384-bit outward Arb. **Phi > 0.00018309709357909**. Rerun here, byte-identical receipt. | **L1 (same-agent checker)**, finite arithmetic only |
++| Thirteen corrupted candidate/mean certificates rejected | New finite regression controls | `candidate_rejection_controls.py`: 9 candidate and 4 first-moment mutations all rejected. Does not prove checker completeness. Rerun here. | **L1 (same-agent checker)**, named controls only |
++| Ordering diagnostic 1196≠1205, v2 printed normalization counterexample, old-profile obstruction, baseline and its 7 corruptions | Inherited diagnostic controls | Exact integer/rational/Arb scripts retained and rerun by `replay.sh`. Diagnostic scope only; not alternative proofs of 10.42. | **L1 (same-agent checker)**, finite checks only |
+ | Conditional C30≥521/50 (§1, Thm. 1.1; §7) | New candidate conclusion on cited premises | Finite arithmetic plus the **L0** infinite-family and inherited steps above. No human referee; unrefereed Norton v3 premise remains. | **L0 overall** |
+ | Break-even ≈10.4207 for this fixed profile | CS floating diagnostic | Review report only; not certified by the rational certificate and not an additional bound. | **L0 / uncertified diagnostic** |
+ 
+Only in [local-workspace]/c30r2_review/astra/packet/evidence: EXPERT_CONTACT_BAR.md
+diff -ru -x logs -x pod_results -x *.aux -x *.log -x *.out -x c30.pdf -x MANIFEST.json -x SHA256SUMS -x __pycache__ [local-workspace]/c30r2_review/astra/packet/evidence/README.md [local-workspace]/c30r2/evidence/README.md
+--- [local-workspace]/c30r2_review/astra/packet/evidence/README.md	2026-11-03 12:25:40
++++ [local-workspace]/c30r2/evidence/README.md	2026-11-03 12:32:46
+@@ -5,6 +5,5 @@
+ - Astra's independent exact, algebra and pairing checkers and their original receipts are retained. The algebra checker has one path-only portability edit: it reads the packet's `verify_baseline.py` relative to its own file rather than `submission/verify_baseline.py`. No mathematical expression changed. All three checkers were rerun here; output is in `logs/reviewer_*_replay.json`.
+ - `pod_results/` at the packet root contains historical enumeration outputs only. No remote computation was run for this upgrade. Astra's separate historical n≤14 replay is in `reviews/astra/brute14.jsonl`.
+ - `verification_level_source.json` records that the sibling LEVELS.md did not exist when the verification table was written, so Ricardo's supplied definitions were applied directly.
+-- `EXPERT_CONTACT_BAR.md` is one expert's view and the requested quality checklist. No contact, reply, message or publication was made; the note was not treated as a permission gate or a mathematical referee report.
+ 
+ The independent-checker claims concern separate code and exact finite tests. They do not imply independent human review or mechanical proof of an all-size mathematical theorem.
+diff -ru -x logs -x pod_results -x *.aux -x *.log -x *.out -x c30.pdf -x MANIFEST.json -x SHA256SUMS -x __pycache__ [local-workspace]/c30r2_review/astra/packet/evidence/reviews/astra/REFEREE_REPORT.md [local-workspace]/c30r2/evidence/reviews/astra/REFEREE_REPORT.md
+--- [local-workspace]/c30r2_review/astra/packet/evidence/reviews/astra/REFEREE_REPORT.md	2026-11-03 09:38:33
++++ [local-workspace]/c30r2/evidence/reviews/astra/REFEREE_REPORT.md	2026-11-03 12:32:40
+@@ -8,7 +8,7 @@
+ 
+ Neither error is an input to FIRST_MOMENT_PROOF.md. The candidate does use ideas from withdrawn v2—its marginal equations and kernel algebra—but re-derives the needed untilted statements and avoids the withdrawn equal-profile and complex zero-count assertions. The detailed theorem/hypothesis audit is in [EXTERNAL_PREMISES.md](EXTERNAL_PREMISES.md).
+ 
+-All work was done in `[local-workspace]/c30r1_review/astra`. The original was copied to `submission/` and was not edited. The original's 131 manifested files and all 32 BAR source hashes pass. At completion, the copy's 131 manifested files also still match: regenerated receipts agree exactly with the frozen ones. New scripts, downloaded sources and logs are outside the copied packet.
++All work was done in `../c30r1_review/astra`. The original was copied to `submission/` and was not edited. The original's 131 manifested files and all 32 BAR source hashes pass. At completion, the copy's 131 manifested files also still match: regenerated receipts agree exactly with the frozen ones. New scripts, downloaded sources and logs are outside the copied packet.
+ 
+ Numerical certification results:
+ 
+@@ -71,7 +71,7 @@
+ | [Brignall, 1 October 2026](https://arxiv.org/abs/2610.02535) | Public preprint upper bound 13.167248, stronger than the live table's 13.5. This upper-bound proof was identified, not independently refereed here. |
+ | [Meng v2, 9 September 2026](https://arxiv.org/abs/2609.06717v2) | Improved regions of inversion monotonicity, including k<=2n+6 and certain growing regions. The unrestricted conjecture remains open; this is not a proof of the conditional global upper bound near 13.002. |
+ 
+-Using `gh`, I fetched all 58 open repository items (52 PRs, 6 issues), every open PR's file list/patches, comments for all open items that had comments, and the reviews/review comments for the relevant #313 and historical #223. The scan covered 71 additional API collections without errors. Only #313 changes constant 30; other matches were unchanged README context or unrelated numerical text. Raw data are retained in `review_sources/github/`, with `github_audit.json` and `github_c30_changes.json` recording the scan.
++Using `~/dev/.bin/gh`, I fetched all 58 open repository items (52 PRs, 6 issues), every open PR's file list/patches, comments for all open items that had comments, and the reviews/review comments for the relevant #313 and historical #223. The scan covered 71 additional API collections without errors. Only #313 changes constant 30; other matches were unchanged README context or unrelated numerical text. Raw data are retained in `review_sources/github/`, with `github_audit.json` and `github_c30_changes.json` recording the scan.
+ 
+ The arXiv recent-first search for 1324 returned 50 items, spanning beyond 2025; I inspected all 16 results with 2025–2026 identifiers. Other relevant results concern subclasses, cyclic permutations or involutions, not a stronger growth bound for the full class. Web searches covered 1324 growth/lower/upper bounds in 2025–2026, Norton withdrawals, 10.42 and 13.167248; the query results led back to the primary sources above. I found no unwithdrawn unconditional public lower bound stronger than 10.42 in this search. There are stronger *conditional* historical numbers (for example 10.607 under Stieltjes/continued-fraction hypotheses) and the withdrawn Norton numbers, which should not be counted as unconditional competitors. This is a scoped search, not an exhaustive priority certification.
+ 
+@@ -81,19 +81,19 @@
+ 
+ ```sh
+ cd submission
+-[local-path] check_manifest.py
+-TASK_PYTHON=[local-path] bash replay.sh
++~/dev/open-science/.venv/bin/python check_manifest.py
++TASK_PYTHON=~/dev/open-science/.venv/bin/python bash replay.sh
+ nice -n 10 clang++ -O3 -std=c++17 brute_gate.cpp -o ../review_brute_gate
+ nice -n 10 ../review_brute_gate 13
+ nice -n 10 ../review_brute_gate 14
+-nice -n 10 [local-path] check_tower_counts.py ../review_logs/brute13.jsonl
+-nice -n 10 [local-path] check_tower_counts.py ../review_logs/brute14.jsonl
+-nice -n 10 [local-path] check_profile_envelope.py
+-nice -n 10 [local-path] audit_strip_encoding.py --max-n 7
+-nice -n 10 [local-path] audit_v2_marks.py --max-n 7
++nice -n 10 ~/dev/open-science/.venv/bin/python check_tower_counts.py ../review_logs/brute13.jsonl
++nice -n 10 ~/dev/open-science/.venv/bin/python check_tower_counts.py ../review_logs/brute14.jsonl
++nice -n 10 ~/dev/open-science/.venv/bin/python check_profile_envelope.py
++nice -n 10 ~/dev/open-science/.venv/bin/python audit_strip_encoding.py --max-n 7
++nice -n 10 ~/dev/open-science/.venv/bin/python audit_v2_marks.py --max-n 7
+ cd ..
+-nice -n 10 [local-path] independent_exact_checks.py review_logs/brute14.jsonl
+-nice -n 10 [local-path] independent_algebra_checks.py
++nice -n 10 ~/dev/open-science/.venv/bin/python independent_exact_checks.py review_logs/brute14.jsonl
++nice -n 10 ~/dev/open-science/.venv/bin/python independent_algebra_checks.py
+ nice -n 10 python3 independent_pairing_check.py
+ ```
+ 
+diff -ru -x logs -x pod_results -x *.aux -x *.log -x *.out -x c30.pdf -x MANIFEST.json -x SHA256SUMS -x __pycache__ [local-workspace]/c30r2_review/astra/packet/evidence/reviews/astra/astra.md [local-workspace]/c30r2/evidence/reviews/astra/astra.md
+--- [local-workspace]/c30r2_review/astra/packet/evidence/reviews/astra/astra.md	2026-11-03 09:39:38
++++ [local-workspace]/c30r2/evidence/reviews/astra/astra.md	2026-11-03 12:32:40
+@@ -1,6 +1,6 @@
+ **FLAG: two definite errors in the source audit; no counterexample found to the candidate’s mathematical route.**
+ 
+-Full results, every check, hashes, and reproduction commands are in [REFEREE_REPORT.md]([local-workspace]/c30r1_review/astra/REFEREE_REPORT.md). Exact external statements, hypotheses, and withdrawal dependencies are in [EXTERNAL_PREMISES.md]([local-workspace]/c30r1_review/astra/EXTERNAL_PREMISES.md). The original folder remains unchanged.
++Full results, every check, hashes, and reproduction commands are in [REFEREE_REPORT.md](review/REFEREE_REPORT.md). Exact external statements, hypotheses, and withdrawal dependencies are in [EXTERNAL_PREMISES.md](review/EXTERNAL_PREMISES.md). The original folder remains unchanged.
+ 
+ The first false item is **GATE.md:13**, which says the sources do not identify v2’s withdrawal cause. Norton’s v3 Comments explicitly identify unequal cells after pairing and an Appendix F argument count checked only at arc endpoints. This explanation already exists in the packet’s hash-matching archived abstract. [Norton v3 withdrawal comments](https://arxiv.org/abs/2608.20292v3).
+ 
+diff -ru -x logs -x pod_results -x *.aux -x *.log -x *.out -x c30.pdf -x MANIFEST.json -x SHA256SUMS -x __pycache__ [local-workspace]/c30r2_review/astra/packet/manuscript/c30.tex [local-workspace]/c30r2/manuscript/c30.tex
+--- [local-workspace]/c30r2_review/astra/packet/manuscript/c30.tex	2026-11-03 12:24:03
++++ [local-workspace]/c30r2/manuscript/c30.tex	2026-11-03 12:39:23
+@@ -346,7 +346,7 @@
+ The $\Phi$ margin is thin, about $1.8\cdot10^{-4}$. The CS review estimates break-even for this fixed profile at about $10.4207$; this is a floating numerical diagnostic, not an additional certified bound. A successful certificate proves its stated arithmetic and local algebra, and finite controls test their specified ranges. Neither replaces a proof of infinite-family validity or a responsible human reading of the dependencies. The old withdrawn equal-profile assertion, endpoint-only winding check, and entropy/ordering transfer are not used. The proof requires only bounded, possibly unequal, per-cell boundary corrections and a uniform contour bound. We make no matrix-certificate claim, no novelty claim, and no claim of human refereeing.
+ 
+ \subsection*{AI-use statement}
+-This manuscript and the accompanying argument were written and checked by AI agents under Ricardo Pinho's direction; no human referee. The supplied AI reports led to an expanded value-word proof and corrected historical attribution. The one additional clause excluding an arc from $B_0$ into a gap implements the CS follow-up note. The mathematics otherwise matches the final \texttt{FIRST\_MOMENT\_PROOF.md}. Independent human review of the new steps and of the retained Norton v3 machinery remains outstanding.
++This manuscript and the accompanying argument were written and checked by AI agents under Ricardo Pinho's direction; no human referee. The supplied AI reports led to an expanded value-word proof and corrected historical attribution. The one additional clause excluding an arc from $B_0$ into a gap implements a reviewer's follow-up note. The same clause is in \texttt{FIRST\_MOMENT\_PROOF.md}, whose mathematics the manuscript matches. Independent human review of the new steps and of the retained Norton v3 machinery remains outstanding.
+ 
+ \begin{thebibliography}{9}
+ \raggedright

@@ -1,0 +1,37 @@
+[
+  {
+    "case": "target_inflation",
+    "rejected": true,
+    "reason": "claimed bound exceeds certified reciprocal"
+  },
+  {
+    "case": "wrong_profile",
+    "rejected": true,
+    "reason": "wrong profile"
+  },
+  {
+    "case": "bad_tangent",
+    "rejected": true,
+    "reason": ""
+  },
+  {
+    "case": "bad_density",
+    "rejected": true,
+    "reason": ""
+  },
+  {
+    "case": "bad_z",
+    "rejected": true,
+    "reason": "no saddle bracket"
+  },
+  {
+    "case": "changed_bar",
+    "rejected": true,
+    "reason": "changed frozen bar"
+  },
+  {
+    "case": "negative_lambda",
+    "rejected": true,
+    "reason": "claimed bound exceeds certified reciprocal"
+  }
+]

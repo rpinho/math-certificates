@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "max_n": 9,
+  "scope": "Lemma 2.1 on all 213-avoiding upper projections; finite control only",
+  "cells_checked": 6918,
+  "rows": [
+    {
+      "n": 0,
+      "cells": 1,
+      "recursive_nodes": 1
+    },
+    {
+      "n": 1,
+      "cells": 1,
+      "recursive_nodes": 2,
+      "isolated_nodes": 1,
+      "word_checks": 1
+    },
+    {
+      "n": 2,
+      "cells": 2,
+      "recursive_nodes": 6,
+      "chain_nodes": 1,
+      "above_chain_point_checks": 0,
+      "reverse_order_pair_checks": 0,
+      "word_checks": 3,
+      "isolated_nodes": 2
+    },
+    {
+      "n": 3,
+      "cells": 5,
+      "recursive_nodes": 20,
+      "chain_nodes": 4,
+      "above_chain_point_checks": 2,
+      "reverse_order_pair_checks": 0,
+      "word_checks": 10,
+      "isolated_nodes": 6
+    },
+    {
+      "n": 4,
+      "cells": 14,
+      "recursive_nodes": 70,
+      "chain_nodes": 15,
+      "above_chain_point_checks": 15,
+      "reverse_order_pair_checks": 1,
+      "word_checks": 35,
+      "isolated_nodes": 20
+    },
+    {
+      "n": 5,
+      "cells": 42,
+      "recursive_nodes": 252,
+      "chain_nodes": 56,
+      "above_chain_point_checks": 83,
+      "reverse_order_pair_checks": 12,
+      "word_checks": 126,
+      "isolated_nodes": 70
+    },
+    {
+      "n": 6,
+      "cells": 132,
+      "recursive_nodes": 924,
+      "chain_nodes": 210,
+      "above_chain_point_checks": 408,
+      "reverse_order_pair_checks": 93,
+      "word_checks": 462,
+      "isolated_nodes": 252
+    },
+    {
+      "n": 7,
+      "cells": 429,
+      "recursive_nodes": 3432,
+      "chain_nodes": 792,
+      "above_chain_point_checks": 1887,
+      "reverse_order_pair_checks": 592,
+      "word_checks": 1716,
+      "isolated_nodes": 924
+    },
+    {
+      "n": 8,
+      "cells": 1430,
+      "recursive_nodes": 12870,
+      "chain_nodes": 3003,
+      "above_chain_point_checks": 8417,
+      "reverse_order_pair_checks": 3369,
+      "word_checks": 6435,
+      "isolated_nodes": 3432
+    },
+    {
+      "n": 9,
+      "cells": 4862,
+      "recursive_nodes": 48620,
+      "chain_nodes": 11440,
+      "above_chain_point_checks": 36671,
+      "reverse_order_pair_checks": 17844,
+      "word_checks": 24310,
+      "isolated_nodes": 12870
+    }
+  ]
+}

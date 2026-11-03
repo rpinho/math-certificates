@@ -1,0 +1,73 @@
+{
+  "kind": "exact rejection control for profile-only joint pairing; not a growth bound",
+  "connector_total_size": 3,
+  "connector_components": 2,
+  "horizontal_132_cells": {
+    "a": [
+      4,
+      3,
+      1,
+      2
+    ],
+    "b": [
+      4,
+      2,
+      3,
+      1
+    ]
+  },
+  "vertical_132_cells": {
+    "a": [
+      3,
+      4,
+      2,
+      1
+    ],
+    "b": [
+      3,
+      2,
+      4,
+      1
+    ]
+  },
+  "a_restricted_word": [
+    false,
+    true,
+    false,
+    false
+  ],
+  "b_restricted_word": [
+    false,
+    false,
+    true,
+    false
+  ],
+  "common_unordered_strip_profile": [
+    1,
+    2
+  ],
+  "placements": [
+    {
+      "component_sizes": [
+        1,
+        2
+      ],
+      "a_forward": 26,
+      "b_forward": 23,
+      "a_reversed": 23,
+      "b_reversed": 26
+    },
+    {
+      "component_sizes": [
+        2,
+        1
+      ],
+      "a_forward": 23,
+      "b_forward": 26,
+      "a_reversed": 26,
+      "b_reversed": 23
+    }
+  ],
+  "joint_a_a": 1196,
+  "joint_a_b": 1205
+}

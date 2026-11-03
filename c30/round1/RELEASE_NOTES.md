@@ -1,0 +1,13 @@
+# C30 round 1 release notes
+
+Candidate C30 >= 521/50 = 10.42*, conditional on BBEP and unrefereed Norton v3. Verification level: L0 (whole bound; finite parts L1-same-agent). Two AI model families reviewed the written argument; no human referee, no Lean proof, no priority claim.
+
+The final FIRST_MOMENT_PROOF.md, manuscript/c30.tex and manuscript/c30.pdf are byte-identical to the final input packet. No mathematical formula or rational parameter was changed. README starts with SUMMARY.md, with release commands, review status and the strict verification tag appended/corrected. VERIFIED.md now applies the available levels audit, rather than recording it as absent.
+
+Omitted: logs, pod_results, source snapshots, float-search outputs, stale initial final_receipt.json, .v1 backups, duplicate packet trees, TeX auxiliary files, caches and private prompts/correspondence. The tiny reviewer n≤14 JSONL needed by the coefficient replay is retained under evidence. BAR's historical infrastructure constraints were removed; certificates were rebound to its new digest, and the candidate's mean-certificate digest was updated transitively. Rational inputs and numeric checks are unchanged.
+
+Two snapshot-only hash assertions in verify_baseline.py and verify_v2_scaling.py now compare the certificate's historical source digest with BAR.json. This checks provenance linkage, not the omitted HTML bytes or the source theorem. The original packet's manifest was checked before packaging, including the original source snapshots. The release remains conditional on the written source results; no stronger verification claim follows from this edit.
+
+replay.sh and reproduce.sh use portable Python selection, -B and disabled bytecode, and read the retained reviewer enumeration. check_value_word.py no longer writes an unsealed .v1 backup; check_manifest.py additionally rejects unlisted files (including caches). All full reproduction steps run locally. uv supplies pinned python-flint and SymPy. A PDF rebuild is optional and may alter PDF hashes; integrity checks cover the shipped PDF. regenerate_manifest.py intentionally reseals an edited release and is not called by reproduction.
+
+CHANGES.diff contains text changes relative to c30r2 (README mapped from SUMMARY), omits removed files/binary content and seals, and scrubs private paths even on old sides of diffs. release_provenance.json lists every copied input and its original SHA-256. The historical manuscript correction diff is separately preserved. Seals cover all shipped payload files; SHA256SUMS also binds MANIFEST.json. Reproduction should not require resealing.

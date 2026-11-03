@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "joint_a_a": 1196,
+  "joint_a_b": 1205,
+  "same_profile_different_joint_count": true,
+  "verifier": "separately written (same agent)",
+  "rejection_controls": [
+    {
+      "field": "joint_a_a",
+      "rejected": true
+    },
+    {
+      "field": "joint_a_b",
+      "rejected": true
+    }
+  ]
+}

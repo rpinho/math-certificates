@@ -1,0 +1,79 @@
+{
+  "job": "math_c30r1_1103",
+  "frozen_utc": "2026-11-03T13:19:58.209863+00:00",
+  "search_started": false,
+  "constant": "growth rate of Av(1324), lower bound",
+  "bar": {
+    "rational": "10412263/1000000",
+    "decimal": "10.412263",
+    "claimant": "Charles C. Norton",
+    "source": "https://arxiv.org/html/2608.20292v3",
+    "version": "v3",
+    "date": "2026-09-04",
+    "status": "unrefereed claim; proof audit pending"
+  },
+  "minimum_to_count": {
+    "rational": "521/50",
+    "decimal": "10.42"
+  },
+  "table": {
+    "lower": "10.27",
+    "upper": "13.5",
+    "source": "https://teorth.github.io/optimizationproblems/constants/30a.html",
+    "primary_lower": "https://arxiv.org/abs/1711.10325v3"
+  },
+  "withdrawn": [
+    {
+      "version": "v1",
+      "decimal": "10.617",
+      "status": "withdrawn as unproved by v3"
+    },
+    {
+      "version": "v2",
+      "decimal": "10.466425",
+      "status": "withdrawn as unproved by v3"
+    }
+  ],
+  "additional_source": {
+    "url": "https://arxiv.org/abs/2610.02535",
+    "result": "upper bound 13.167248; does not change lower-bound target"
+  },
+  "limitations": [
+    "GitHub general API rate limited; search API, raw sources and website used where accessible.",
+    "Absence of stronger claims in bounded checks is not a novelty judgment."
+  ],
+  "source_sha256": {
+    "sources/alphaevolve_problems_readme.txt": "28344ad075733037cc4b515c58d12bc88afc1d1cd6cfa6aedc749bf7f499f076",
+    "sources/alphaevolve_results_readme.txt": "6705252d42fb27af57cbe604421f7d0cca70058bc71067f9b0aed4c097800f5a",
+    "sources/bbep.html": "65614c0298feec5aeaeebc1eed552b012443ad5547db1ad770f353f0edffc04d",
+    "sources/bbep.txt": "1789e107639df23522e6b25b7dcca460a6ab6bd0424f13de55d0b1d05136bd19",
+    "sources/bbep_abs.txt": "2e2bbb2962145b605642e852860fdf5f3b99fc6a970a3f84b85a1f8b4cac1d24",
+    "sources/constant30.txt": "d50a30e4b58d0bf51b23c599d1de48c3cc17794cd35575a93c9d4b0ebd7563c6",
+    "sources/einsteinarena.txt": "23a82a923920e8c1693c3b31803172a34e39920738b8b64e2d38908b85dce2e6",
+    "sources/epi_readme.txt": "c40cb95444e4893fb75c46ba6f1f76763d25b3b9434011457ba4a905a84c72e6",
+    "sources/erdosproblems.txt": "9e850abab817059cf19ad473f81a634f8a08185442f3594061e3f3246a0994ba",
+    "sources/franklin_abs.txt": "e0a8c1893b93abf96be93b03e4fcc0a6eec103dc4fa1fd3dd36fe846612360a7",
+    "sources/kisonecat_readme.txt": "fa56f3cef7fa08e3109a1d8c0a083c5e960865c20efa6fbcd1b8f072ce075666",
+    "sources/norton-v1.html": "3aeb54193b29d659d0a83bd7e77cc386a6dd8c00259c8412a783bdbc1e861be7",
+    "sources/norton-v1.txt": "4808a2531e0d829e6abcd509c8e67d68e2f07f54d4c2f069e900c371af9c2fa5",
+    "sources/norton-v2.html": "3a8fd9e3275da932402a3fdc34ef1d286be71b055ed201578e949ca1ca70e8ea",
+    "sources/norton-v2.txt": "bf3dde9bc7ba677b8e0a52c765306efafe8c34e0ffa2e48327f2b5d1bda951bf",
+    "sources/norton-v3.html": "049f1255e16bf555a9fa98b4369ece2591727cc76df1b909950f584f1c91b0ae",
+    "sources/norton-v3.txt": "ba7f5a96a503d36a981ae3ceea2c20e846d419ee95dc8202326eacb05f24882b",
+    "sources/norton_abs_v1.txt": "c0dc1bb7aca95dc4ee8ee02404af5d8bcee2cc7db5cc7275147175e26c796585",
+    "sources/norton_abs_v2.txt": "32f14e3390440cad48fec0fc447b0e9916392a99a0204c058cfcdaf978b693b8",
+    "sources/norton_abs_v3.txt": "c13333649e46015a769d24d32bedae025a0cd43dd0814f182d0766f6f0f5650c",
+    "sources/oeis_counts.txt": "7266a9f79a09288043c060451c7896fc030f75256fc7a57448c64a93075d9f43",
+    "sources/open_issues_1324.json": "c9938edecb99d754b2d039ac9eec320a94c769b6a6417921e2dcbef9e2fe01a0",
+    "sources/openai_math_readme.txt": "6cb7f0e387b67c051227c6ba27aca87ee82d9dd2530b6452b86b8681a2e2743a",
+    "sources/plasma_readme.txt": "efab4090a6aa739fdd68fd6720f72e57014cc1a447bd6a3008392aa2915c243a",
+    "sources/pr223.diff": "1a43592cf90e482e158215dbe7b17dda4502a27d922257ddee80bcde332a88e1",
+    "sources/recent_1324.txt": "d6ea51c6a437ecf66e829a4e13e491e8ca77f0b4e26df85cb22a8a0475639742",
+    "sources/repos_1324_updated.json": "b70177d294c333c50845f2d96c4b4259d1048cd17e2d7e57ea1c159f3042e055",
+    "sources/repos_stanley_wilf_updated.json": "4f089c95990be01a378f3c45634e716bcf41f848371bf83802ef0984abdb0b31",
+    "sources/retrievals.json": "f38a923743714a5f151c67d89365fa2e5573fd22fbd121516ee276dac1ab90af",
+    "sources/shuffle-automata.html": "01a1e858b7fb0cb0553c87efa5e2a27037a7cd523340bbad90dbd5f32611fdf2",
+    "sources/table.txt": "8cee80dea5d52eec8af7ac42b2127f2a95c971804ba168e20ef76969d4cb9841",
+    "sources/table_readme_raw.txt": "6f6c505c5715a8320a7c2edbf6f7f4cba40c8bd6f6cccd6ed3c1c9eeaf769ac0"
+  }
+}

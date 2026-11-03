@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "verifier": "separately written (same agent)",
+  "actual_R": "8/81",
+  "upper_on_printed_CR": "86/513",
+  "upper_on_printed_CR_times_z_squared": "1376/373977",
+  "strict_violation": "35560/373977",
+  "scope": "printed Lemma 5.11 normalization only; appendix code removes the extra rho^2",
+  "corrupted_certificate_rejected": true
+}

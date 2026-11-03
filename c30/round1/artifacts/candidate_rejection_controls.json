@@ -1,0 +1,67 @@
+[
+  {
+    "case": "inflate_bound",
+    "rejected": true,
+    "reason": ""
+  },
+  {
+    "case": "bad_profile",
+    "rejected": true,
+    "reason": ""
+  },
+  {
+    "case": "too_few_two_leaf_strips",
+    "rejected": true,
+    "reason": ""
+  },
+  {
+    "case": "invalid_leaf_density",
+    "rejected": true,
+    "reason": ""
+  },
+  {
+    "case": "negative_kappa",
+    "rejected": true,
+    "reason": ""
+  },
+  {
+    "case": "bad_saddle",
+    "rejected": true,
+    "reason": "nonpositive target exponent"
+  },
+  {
+    "case": "bad_z",
+    "rejected": true,
+    "reason": ""
+  },
+  {
+    "case": "wrong_bar",
+    "rejected": true,
+    "reason": ""
+  },
+  {
+    "case": "wrong_mean_hash",
+    "rejected": true,
+    "reason": ""
+  },
+  {
+    "case": "wrong_root",
+    "rejected": true,
+    "reason": ""
+  },
+  {
+    "case": "root_not_isolated",
+    "rejected": true,
+    "reason": ""
+  },
+  {
+    "case": "bad_mean_threshold",
+    "rejected": true,
+    "reason": ""
+  },
+  {
+    "case": "mean_bar_hash",
+    "rejected": true,
+    "reason": ""
+  }
+]
