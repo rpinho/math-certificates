@@ -1,0 +1,40 @@
+'C30Lean.excess_nonneg' depends on axioms: [propext, Quot.sound]
+'C30Lean.strip_count_identities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'C30Lean.StripEnvelope.vector_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'C30Lean.StripEnvelope.vector_length' depends on axioms: [propext]
+'C30Lean.StripEnvelope.vector_sum' depends on axioms: [propext]
+'C30Lean.StripEnvelope.excess_values' depends on axioms: [propext, Classical.choice, Quot.sound]
+'C30Lean.parity_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'C30Lean.integer_strip_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'C30Lean.realExcess_int' depends on axioms: [propext, Classical.choice, Quot.sound]
+'C30Lean.realExcess_interpolate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'C30Lean.integer_thresholds_suffice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'C30Lean.strip_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'C30Lean.application_feasibility' depends on axioms: [propext, Classical.choice, Quot.sound]
+'C30Lean.strip_envelope_application' depends on axioms: [propext, Classical.choice, Quot.sound]
+'C30Lean.finite_weighted_markov' depends on axioms: [propext, Classical.choice, Quot.sound]
+'C30Lean.finite_family_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+C30Lean.strip_envelope (y : List ℤ) (L B U : ℤ) (hy : ∀ a ∈ y, 0 ≤ a) (hL : y.sum = L)
+  (hn0 : B ≤ C30Lean.countStrip y 0) (hn2 : C30Lean.countStrip y 2 ≤ U) (hB : 0 ≤ B) (hU : 0 ≤ U)
+  (hzero : U = 0 → (L - ↑y.length + B) % 2 = 0) (h₁ : U ≤ 3 * (↑y.length - B) - L) (h₃ : U ≤ L - ↑y.length + B) :
+  ∃ e,
+    ↑e.e0 = B ∧
+      (↑e.e2 = U ∨ ↑e.e2 = U - 1) ∧
+        (L - ↑y.length + B - ↑e.e2) % 2 = 0 ∧
+          ↑e.e1 = (3 * (↑y.length - B) - L - ↑e.e2) / 2 ∧
+            ↑e.e3 = (L - ↑y.length + B - ↑e.e2) / 2 ∧ C30Lean.ThresholdMajorized e.vector y
+C30Lean.strip_envelope_application (y : List ℤ) (m : ℕ) (hm : 100 ≤ m) (hy : ∀ a ∈ y, 0 ≤ a)
+  (hlen : ↑y.length = C30Lean.stripCount m) (hL : y.sum = C30Lean.freeLeaves m)
+  (hn0 : C30Lean.emptyBound m ≤ C30Lean.countStrip y 0) (hn2 : C30Lean.countStrip y 2 ≤ C30Lean.twoCap m) :
+  ∃ e,
+    ↑e.e0 = C30Lean.emptyBound m ∧
+      (↑e.e2 = C30Lean.twoCap m ∨ ↑e.e2 = C30Lean.twoCap m - 1) ∧
+        (C30Lean.freeLeaves m - ↑y.length + C30Lean.emptyBound m - ↑e.e2) % 2 = 0 ∧
+          ↑e.e1 = (3 * (↑y.length - C30Lean.emptyBound m) - C30Lean.freeLeaves m - ↑e.e2) / 2 ∧
+            ↑e.e3 = (C30Lean.freeLeaves m - ↑y.length + C30Lean.emptyBound m - ↑e.e2) / 2 ∧
+              C30Lean.ThresholdMajorized e.vector y
+C30Lean.finite_weighted_markov.{u_1} {ι : Type u_1} (s : Finset ι) (w f : ι → ℝ) (t : ℝ) (ht : 0 < t)
+  (hw : ∀ i ∈ s, 0 ≤ w i) (hf : ∀ i ∈ s, 0 ≤ f i) : ∑ i ∈ s with t < f i, w i ≤ (∑ i ∈ s, w i * f i) / t
+C30Lean.finite_family_selection.{u_1} {ι : Type u_1} (s : Finset ι) (w : ι → ℝ) (n N₂ : ι → ℕ) (t : ℝ) (ht : 0 < t)
+  (hw : ∀ i ∈ s, 0 ≤ w i) :
+  ∑ i ∈ s with t * ↑(n i) < ↑(N₂ i), w i * ↑(n i) * (↑(n i) - 1) ≤ (∑ i ∈ s, w i * ↑(n i) * ↑(N₂ i)) / t

@@ -1,0 +1,56 @@
+UTC start: 2026-11-03T18:00:26.806578+00:00
+cwd: /root/os/math_c30lean_1103/verification/clean-checkout-xaoSyYO8
+command: lake build
+worker PID: 5981; parent PID: 5980
+✔ [3137/3144] Built C30Lean.Markov (4.7s)
+✔ [3138/3144] Built C30Lean.Envelope (8.1s)
+✔ [3139/3144] Built C30Lean.Majorization (5.2s)
+✔ [3140/3144] Built C30Lean.Application (6.3s)
+✔ [3141/3144] Built C30Lean (4.4s)
+ℹ [3143/3144] Built Audit (4.2s)
+info: Audit.lean:5:0: 'C30Lean.excess_nonneg' depends on axioms: [propext, Quot.sound]
+info: Audit.lean:6:0: 'C30Lean.strip_count_identities' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:7:0: 'C30Lean.StripEnvelope.vector_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:8:0: 'C30Lean.StripEnvelope.vector_length' depends on axioms: [propext]
+info: Audit.lean:9:0: 'C30Lean.StripEnvelope.vector_sum' depends on axioms: [propext]
+info: Audit.lean:10:0: 'C30Lean.StripEnvelope.excess_values' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:11:0: 'C30Lean.parity_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:12:0: 'C30Lean.integer_strip_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:13:0: 'C30Lean.realExcess_int' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:14:0: 'C30Lean.realExcess_interpolate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:15:0: 'C30Lean.integer_thresholds_suffice' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:16:0: 'C30Lean.strip_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:17:0: 'C30Lean.application_feasibility' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:18:0: 'C30Lean.strip_envelope_application' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:19:0: 'C30Lean.finite_weighted_markov' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:20:0: 'C30Lean.finite_family_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:22:0: C30Lean.strip_envelope (y : List ℤ) (L B U : ℤ) (hy : ∀ a ∈ y, 0 ≤ a) (hL : y.sum = L)
+  (hn0 : B ≤ C30Lean.countStrip y 0) (hn2 : C30Lean.countStrip y 2 ≤ U) (hB : 0 ≤ B) (hU : 0 ≤ U)
+  (hzero : U = 0 → (L - ↑y.length + B) % 2 = 0) (h₁ : U ≤ 3 * (↑y.length - B) - L) (h₃ : U ≤ L - ↑y.length + B) :
+  ∃ e,
+    ↑e.e0 = B ∧
+      (↑e.e2 = U ∨ ↑e.e2 = U - 1) ∧
+        (L - ↑y.length + B - ↑e.e2) % 2 = 0 ∧
+          ↑e.e1 = (3 * (↑y.length - B) - L - ↑e.e2) / 2 ∧
+            ↑e.e3 = (L - ↑y.length + B - ↑e.e2) / 2 ∧ C30Lean.ThresholdMajorized e.vector y
+info: Audit.lean:23:0: C30Lean.strip_envelope_application (y : List ℤ) (m : ℕ) (hm : 100 ≤ m) (hy : ∀ a ∈ y, 0 ≤ a)
+  (hlen : ↑y.length = C30Lean.stripCount m) (hL : y.sum = C30Lean.freeLeaves m)
+  (hn0 : C30Lean.emptyBound m ≤ C30Lean.countStrip y 0) (hn2 : C30Lean.countStrip y 2 ≤ C30Lean.twoCap m) :
+  ∃ e,
+    ↑e.e0 = C30Lean.emptyBound m ∧
+      (↑e.e2 = C30Lean.twoCap m ∨ ↑e.e2 = C30Lean.twoCap m - 1) ∧
+        (C30Lean.freeLeaves m - ↑y.length + C30Lean.emptyBound m - ↑e.e2) % 2 = 0 ∧
+          ↑e.e1 = (3 * (↑y.length - C30Lean.emptyBound m) - C30Lean.freeLeaves m - ↑e.e2) / 2 ∧
+            ↑e.e3 = (C30Lean.freeLeaves m - ↑y.length + C30Lean.emptyBound m - ↑e.e2) / 2 ∧
+              C30Lean.ThresholdMajorized e.vector y
+info: Audit.lean:24:0: C30Lean.finite_weighted_markov.{u_1} {ι : Type u_1} (s : Finset ι) (w f : ι → ℝ) (t : ℝ) (ht : 0 < t)
+  (hw : ∀ i ∈ s, 0 ≤ w i) (hf : ∀ i ∈ s, 0 ≤ f i) : ∑ i ∈ s with t < f i, w i ≤ (∑ i ∈ s, w i * f i) / t
+info: Audit.lean:25:0: C30Lean.finite_family_selection.{u_1} {ι : Type u_1} (s : Finset ι) (w : ι → ℝ) (n N₂ : ι → ℕ) (t : ℝ) (ht : 0 < t)
+  (hw : ∀ i ∈ s, 0 ≤ w i) :
+  ∑ i ∈ s with t * ↑(n i) < ↑(N₂ i), w i * ↑(n i) * (↑(n i) - 1) ≤ (∑ i ∈ s, w i * ↑(n i) * ↑(N₂ i)) / t
+Build completed successfully (3144 jobs).
+
+EXIT_CODE=0
+elapsed_seconds=33.752
+max_child_rss_kib=1822024
+UTC end: 2026-11-03T18:01:00.558372+00:00
