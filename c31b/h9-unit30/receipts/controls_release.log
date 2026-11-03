@@ -1,0 +1,48 @@
+LOWER_INDEX_READY ranks=43947 classes=22187 seconds=0.005
+EXACT_LOWER_PASS k=4 h=5 classes=22187 min_numerator=7349629664 max_numerator=7349629701 denominator=17179869184 seconds=0.010
+{
+  "status": "VERIFIED_CANDIDATE_UNREFEREED",
+  "alphabet": 4,
+  "history": 5,
+  "classes": 22187,
+  "r": "229675927/536870912",
+  "gamma_exact": "459351854/766546839",
+  "gamma_floor_12": "0.599248252852",
+  "gamma_decimal_diagnostic": 0.5992482528520348,
+  "min_numerator": 7349629664,
+  "max_numerator": 7349629701,
+  "drift_denominator": 17179869184,
+  "decoded_sha256": "e6c43fa1b002bc1457dee394e0d0823dea64244995c4d9fe31e11d8c56742375",
+  "metadata_sha256": "a83d90d078dd708f9709f8c999392c14077685d1d1746a0a41d2d3ca5a8d2d69",
+  "checker_sha256": "b0915bc3c59db00ad7b8055df7a167e4b7b79ab3bcc5855a293e707d3f7e1e85",
+  "wrapper_sha256": "d5f81fd526f9e9fc809234ed8f796e72794c18d7525a83ec443b14d6179f0733",
+  "seconds": 0.29438758300966583
+}
+LOWER_INDEX_READY ranks=43947 classes=22187 seconds=0.002
+orbit 0 drift=7349629684 required=8589934592
+REJECTED: lower potential inequality
+REJECTED_AS_REQUIRED inflated drift
+LOWER_INDEX_READY ranks=43947 classes=22187 seconds=0.004
+orbit 51 drift=0 required=7349629664
+REJECTED: lower potential inequality
+REJECTED_AS_REQUIRED rehashed zero potential
+REJECTED_AS_REQUIRED corrupted vector bytes
+REJECTED_AS_REQUIRED corrupted decoder hash
+REJECTED_AS_REQUIRED invalid drift domain
+REJECTED_AS_REQUIRED corrupted checker source
+{
+  "status": "ALL_LOWER_CONTROLS_PASS",
+  "positive_control_history": 5,
+  "positive_control_classes": 22187,
+  "positive_control_min_numerator": 7349629664,
+  "rejected": [
+    "inflated drift",
+    "rehashed zero potential",
+    "corrupted vector bytes",
+    "corrupted decoder hash",
+    "invalid drift domain",
+    "corrupted checker source"
+  ],
+  "qualification": "small-state controls; use the complete h9 exact receipt for the headline bound"
+}
+ALL_LOWER_CONTROLS_PASS

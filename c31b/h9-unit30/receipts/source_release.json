@@ -1,0 +1,17 @@
+{
+  "observed_utc": "2026-11-03T11:58:38.910498+00:00",
+  "pr": "https://github.com/teorth/optimizationproblems/pull/272",
+  "pr_head": "9197233f81d14145bc1ab0a2c24ac418bf7103a8",
+  "pr_linked_source_commit": "bb3b815c72c4f4cf84fe15be9a7ab06141c70f44",
+  "source_head": "574220ee90b332181ba8f8eccf500c380c0f78bb",
+  "unchanged_between_source_commits": {
+    "lower_README.md": "17669392a93f3688e0babb26f1397e16952ab9b051dc499be0b94f8c64ac8a11",
+    "lower_klow.c": "f037b73d523d8687455e46f3e99f3178916ef9d56fa628262d8e2c6b7b12d2a7",
+    "lower_runs_rcheck_k4_h9.txt": "e9fec93c5471ac9bb0e24e7f09168d0cf79ad3ed9ddb7af692047da1cb3af7dd",
+    "lower_runs_k4_h9.log": "df0ebd964468f28d3180f8f49ba93d434d940939c9ac3f8af6612ad5074d9ddd"
+  },
+  "discussion_comments": 0,
+  "reviews": 0,
+  "review_comments": 0,
+  "qualification": "Read-only public-source snapshot; no full h=9 replay in this release job."
+}

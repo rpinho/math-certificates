@@ -1,0 +1,47 @@
+{
+  "format": "c31-lower-procedural-v1",
+  "qualification": "candidate, unrefereed; verification requires the accompanying complete exact receipt",
+  "alphabet": 4,
+  "history": 9,
+  "shift": 30,
+  "classes": 1431743147,
+  "r": "1917723921/4294967296",
+  "decoded_sha256": "e7d2d67183587232849d936ce9281ecd9671ca09c130c9d63f0c7c4718601450",
+  "decoded_filename": "lower_h9_w.bin",
+  "raw_encoding": "uint64-little-endian",
+  "generator": "c31_lower_table.c",
+  "generator_sha256": "b3b70de498947cddc9c8fb3fa1c98059f6cf3c9824a9cec93e086cf8beac8005",
+  "decoder": "decode_c31_lower.py",
+  "decoder_sha256": "218d65e7424e613d97cfe3a05e600d9b918e0354eee94433d87f6efa72b714ad",
+  "checker_kernel": "verify_c31_lower.c",
+  "checker_sha256": "b0915bc3c59db00ad7b8055df7a167e4b7b79ab3bcc5855a293e707d3f7e1e85",
+  "recipe": [
+    {
+      "history": 5,
+      "iteration_limit": 120,
+      "sha256": "e6c43fa1b002bc1457dee394e0d0823dea64244995c4d9fe31e11d8c56742375"
+    },
+    {
+      "history": 6,
+      "iteration_limit": 120,
+      "sha256": "be7ecb0055c61af95f554a3cf8355e641bf0e5df5567b52414858097c79add17"
+    },
+    {
+      "history": 7,
+      "iteration_limit": 120,
+      "sha256": "1332a8025ab9f348dcccbbd86755ead5fa0e7f4d39d74d9790134c540db142ec"
+    },
+    {
+      "history": 8,
+      "iteration_limit": 120,
+      "sha256": "1cb6cb146364b2a1e7916f9b78540b904257d0bbf58053050ed3588854f88119"
+    },
+    {
+      "history": 9,
+      "iteration_limit": 55,
+      "sha256": "e7d2d67183587232849d936ce9281ecd9671ca09c130c9d63f0c7c4718601450"
+    }
+  ],
+  "resource_note": "Full h=9 reconstruction and checking needs about 80 GB RAM, 13 GB temporary disk and roughly two hours on the original shared CPU pod. The 11,453,945,176-byte vector is reconstructed, not retained.",
+  "credit": "Leandre Jack's construction, exactly as cited by PR #272: https://github.com/leandrejack-afk/chvatal-sankoff-bound/tree/bb3b815/lower (commit bb3b815c72c4f4cf84fe15be9a7ab06141c70f44). The frozen packet credited later HEAD 574220ee90b332181ba8f8eccf500c380c0f78bb; the lower source and logs are byte-identical at these commits. Lueker (2009), Lemma 2.3; Kiwi and Soto (2009), k-letter setting; Rosenfeld (2024). Same operator, h=9 and class set; precision refinement 2^-27 to 2^-30, not a new method. Checker separately written (same agent)."
+}

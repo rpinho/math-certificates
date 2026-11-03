@@ -1,0 +1,25 @@
+{
+  "utc": "2026-11-03T09:55:21.997620+00:00",
+  "live_table": "https://teorth.github.io/optimizationproblems/",
+  "open_pr": "https://github.com/teorth/optimizationproblems/pull/272",
+  "public_repository": {
+    "sha": "574220ee90b332181ba8f8eccf500c380c0f78bb",
+    "date": "2026-10-26T11:41:10Z"
+  },
+  "open_target_prs": [
+    {
+      "number": 272,
+      "title": "C_31b: new page for the Chv\u00e1tal\u2013Sankoff constant with a four-letter alphabet",
+      "url": "https://github.com/teorth/optimizationproblems/pull/272",
+      "paths": [
+        "README.md",
+        "constants/31b.md"
+      ]
+    }
+  ],
+  "source_page_sha256": "9bcfc404908456ba9db5894f85094c45022f6eecc0ad8f14df5255b67e558562",
+  "underlying_public_r": "59928872/134217728",
+  "underlying_public_gamma": "14982218/24268325",
+  "printed_PR_lower": "0.617356",
+  "qualification": "Comparison is to the underlying exact source. Candidate, unrefereed; no novelty judgment. X unavailable."
+}

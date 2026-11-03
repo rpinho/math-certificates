@@ -1,0 +1,14 @@
+{
+  "qualification": "candidate, unrefereed; complete hardened literal check and procedural decode/hash replay passed",
+  "r": "1917723921/4294967296",
+  "gamma_exact": "3835447842/6212691217",
+  "gamma_decimal_diagnostic": 0.6173569083080989,
+  "public_r": "7491109/16777216",
+  "public_gamma_exact": "14982218/24268325",
+  "positive_gain_exact": "570425344/150771609578801525",
+  "gain_decimal_diagnostic": 3.783373710697599e-09,
+  "decoded_sha256": "e7d2d67183587232849d936ce9281ecd9671ca09c130c9d63f0c7c4718601450",
+  "reason": "use the exact minimum drift reported by the complete separately written (same agent) literal-operator check, preserving the decoded potential",
+  "comparison_scope": "Exact gain over Jack's stated 14982218/24268325; the gain over his exact witness may be smaller. Same operator, h=9 and class set; fixed-point unit 2^-30 instead of 2^-27. Precision refinement, not a new method.",
+  "public_source_cited_by_pr272": "https://github.com/leandrejack-afk/chvatal-sankoff-bound/tree/bb3b815/lower"
+}

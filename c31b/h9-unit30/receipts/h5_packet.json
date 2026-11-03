@@ -1,0 +1,27 @@
+{
+  "format": "c31-lower-procedural-v1",
+  "qualification": "h=5 fixture only; not the h=9 headline certificate",
+  "alphabet": 4,
+  "history": 5,
+  "shift": 30,
+  "classes": 22187,
+  "r": "459351854/1073741824",
+  "decoded_sha256": "e6c43fa1b002bc1457dee394e0d0823dea64244995c4d9fe31e11d8c56742375",
+  "decoded_filename": "lower_h5_w.bin",
+  "raw_encoding": "uint64-little-endian",
+  "generator": "../c31_lower_table.c",
+  "generator_sha256": "b3b70de498947cddc9c8fb3fa1c98059f6cf3c9824a9cec93e086cf8beac8005",
+  "decoder": "../decode_c31_lower.py",
+  "decoder_sha256": "218d65e7424e613d97cfe3a05e600d9b918e0354eee94433d87f6efa72b714ad",
+  "checker_kernel": "../verify_c31_lower.c",
+  "checker_sha256": "b0915bc3c59db00ad7b8055df7a167e4b7b79ab3bcc5855a293e707d3f7e1e85",
+  "recipe": [
+    {
+      "history": 5,
+      "iteration_limit": 120,
+      "sha256": "e6c43fa1b002bc1457dee394e0d0823dea64244995c4d9fe31e11d8c56742375"
+    }
+  ],
+  "resource_note": "Small h=5 fixture, one worker, well below 1 GB RAM; seconds locally.",
+  "credit": "Leandre Jack's construction, exactly as cited by PR #272: https://github.com/leandrejack-afk/chvatal-sankoff-bound/tree/bb3b815/lower (commit bb3b815c72c4f4cf84fe15be9a7ab06141c70f44). The frozen packet credited later HEAD 574220ee90b332181ba8f8eccf500c380c0f78bb; the lower source and logs are byte-identical at these commits. Lueker (2009), Lemma 2.3; Kiwi and Soto (2009), k-letter setting; Rosenfeld (2024). Same operator, h=9 and class set; precision refinement 2^-27 to 2^-30, not a new method. Checker separately written (same agent)."
+}

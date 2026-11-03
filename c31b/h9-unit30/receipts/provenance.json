@@ -1,0 +1,43 @@
+{
+  "checked_utc": "2026-11-03T12:01:44.907712+00:00",
+  "qualification": "Release checks cover h=5, value arithmetic and controls only. No h=9 replay.",
+  "frozen_source_sha256_check": "all 18 entries passed; all 20 source files unchanged",
+  "historical_hash_links": {
+    "verification.json:metadata_sha256": {
+      "file": "packet.json.orig",
+      "sha256": "93004594bd37addd4b49f00208d84ffb9c916e92871eeca7216be8ba962bf5a0"
+    },
+    "verification.json:checker_sha256": {
+      "file": "verify_c31_lower.c.orig",
+      "sha256": "34846d45d3649a4b1e65f48966558ff55f76af7564603def3b5b944da1a23790"
+    },
+    "verification.json:wrapper_sha256": {
+      "file": "verify_c31_lower.py",
+      "sha256": "d5f81fd526f9e9fc809234ed8f796e72794c18d7525a83ec443b14d6179f0733"
+    },
+    "decoder_replay.json:generator_sha256": {
+      "file": "c31_lower_table.c.orig",
+      "sha256": "bb3ee788ee194046eee556e8f4d34cef10f4df4ff1a3fdb201f82e6c76853872"
+    },
+    "decoder_replay.json:decoder_sha256": {
+      "file": "decode_c31_lower.py",
+      "sha256": "218d65e7424e613d97cfe3a05e600d9b918e0354eee94433d87f6efa72b714ad"
+    }
+  },
+  "source_comment_checks": {
+    "c31_lower_table.c": {
+      "preprocessed_bytes_identical": true,
+      "preprocessed_sha256": "84488bccf8551ab2583bd8a858b3dd6e8309f61b88112aabfff09edac61f7165"
+    },
+    "verify_c31_lower.c": {
+      "preprocessed_bytes_identical": true,
+      "preprocessed_sha256": "99830788df66db47153ff13027785cb0a0335a5777f6377204363c057049f569"
+    }
+  },
+  "controls_json_unchanged": true,
+  "h5_vector_sha256": "e6c43fa1b002bc1457dee394e0d0823dea64244995c4d9fe31e11d8c56742375",
+  "retained_h9_verification_sha256": "fe86ca1ec78e355af3a227f08cdbdb24f8425da12ea59e5897e6d0860ddd1db3",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)",
+  "python": "3.12.13",
+  "published_log_paths": "Job-directory prefixes normalized to <job>; numerical output unchanged."
+}

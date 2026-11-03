@@ -1,0 +1,449 @@
+/* Precomputed integer transition indices for Jack/Lueker lower operator; final potential needs a separately written (same agent) direct-sum checker. */
+/* Checkpoint/target-stop wrapper of credited Jack recurrence. Integer potential updates are unchanged from c31_lower30.c. */
+/* Credited precision and capped-continuation variant of Leandre Jack klow.c.
+ * Original public source: leandrejack-afk/chvatal-sankoff-bound, bb3b815/lower/klow.c. No structural gain
+ * is asserted from changing SHIFT. */
+// klow.c: Lueker's lower bound for the Chvatal-Sankoff constant gamma_k
+// (J. ACM 56(3) 2009, Section 2, Lemma 2.3) with the full symmetry of the problem.
+//
+// The value w(s, t) of a pair of strings of length h is unchanged by any permutation
+// of the alphabet and by swapping s and t. A class of pairs is stored once: label the
+// letters of the concatenation s.t in order of first appearance (a restricted growth
+// string, RGS, with at most k labels), rank it lexicographically, and keep the smaller
+// of the ranks of s.t and t.s. A bitmap over all RGS ranks marks the kept ones; its
+// prefix counts give the dense index.
+//
+// One step of the iteration goes through an intermediate vector over pairs (x, y) with
+// |x| = h - 1 and |y| = h (alphabet symmetry only):
+//   F(x, y) = floor( sum_c w(xc, y) / k )
+//   T(w)(as', bt') = max( F(s', bt'), F(t', as') )                  a != b
+//   T(w)(as', at') = 1 + floor( max( sum_c F(t', s'c), sum_c F(s', t'c) ) / k )
+// Every floor rounds down, so the computed T is never above Lueker's T (equations (4),
+// (5) of the paper, with the simplification (18)). For the input w of a step,
+// r = min (T(w) - w) over all classes gives T(w, w) >= w + r, hence
+// gamma_k >= 2r/(1+r) (Lemma 2.3). Values are fixed point with unit 2^-SHIFT and are
+// shifted down by their minimum after every step (T commutes with adding a constant).
+//
+// usage: klow k h iters [threads] [dump_prefix]
+#include <inttypes.h>
+#include <pthread.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+
+#define SHIFT 30
+#define MAXL 40
+#define MAXK 32
+typedef uint64_t val_t;
+
+static int K, H, LW, LF, NT;
+static uint64_t cntW[MAXL + 1][MAXK], cntF[MAXL + 1][MAXK];
+static uint64_t NWF, NF, NW;  // all RGS of length 2h, all RGS of length 2h-1, kept classes
+static uint64_t *bits, *cum;  // canonical bitmap over w-space ranks, prefix counts per word
+static val_t *w, *F;
+static uint32_t *F_edges,*W_edges;
+// warm start: the witness of a run with h - 1, read through its own class space
+static int HP;
+static uint64_t cntP[MAXL + 1][MAXK];
+static uint64_t *bitsP, *cumP;
+static val_t *wprev;
+
+static double now(void) {
+  struct timespec ts; clock_gettime(CLOCK_MONOTONIC, &ts);
+  return ts.tv_sec + 1e-9 * ts.tv_nsec;
+}
+
+static void build_counts(uint64_t cnt[][MAXK], int L) {
+  for (int m = 0; m < K; m++) cnt[L][m] = 1;
+  for (int i = L - 1; i >= 1; i--)
+    for (int m = 0; m < K; m++) {
+      uint64_t a, b = m + 1 < K ? cnt[i + 1][m + 1] : 0;
+      if (__builtin_mul_overflow((uint64_t)(m + 1), cnt[i + 1][m], &a) || __builtin_add_overflow(a, b, &cnt[i][m])) {
+        fprintf(stderr, "too many classes for k=%d h=%d (counts overflow 64 bits)\n", K, H);
+        exit(1);
+      }
+    }
+}
+
+// Rank of the RGS of p[0..n1-1] . q[0..n2-1] (raw letters < MAXK + 2).
+static inline uint64_t rank2(const uint8_t *p, int n1, const uint8_t *q, int n2,
+                             uint64_t cnt[][MAXK]) {
+  uint8_t map[MAXK + 2];
+  memset(map, 0xff, sizeof map);
+  int next = 0, m = -1, i = 0;
+  uint64_t R = 0;
+  for (int j = 0; j < n1; j++, i++) {
+    int x = p[j], r = map[x];
+    if (r == 0xff) r = map[x] = (uint8_t)next++;
+    if (i) R += (uint64_t)r * cnt[i + 1][m];
+    if (r > m) m = r;
+  }
+  for (int j = 0; j < n2; j++, i++) {
+    int x = q[j], r = map[x];
+    if (r == 0xff) r = map[x] = (uint8_t)next++;
+    if (i) R += (uint64_t)r * cnt[i + 1][m];
+    if (r > m) m = r;
+  }
+  return R;
+}
+
+static inline uint64_t dense_of_rank(uint64_t R) {
+  uint64_t wd = R >> 6, b = R & 63;
+  uint64_t mask = b ? (~0ULL >> (64 - b)) : 0;
+  return cum[wd] + (uint64_t)__builtin_popcountll(bits[wd] & mask);
+}
+
+// Dense index of the class of the pair (a, b), |a| = |b| = h.
+static inline uint64_t wdense(const uint8_t *a, const uint8_t *b) {
+  uint64_t r1 = rank2(a, H, b, H, cntW), r2 = rank2(b, H, a, H, cntW);
+  return dense_of_rank(r1 < r2 ? r1 : r2);
+}
+
+// Index of the class of the pair (x, y), |x| = h - 1, |y| = h.
+static inline uint64_t fidx(const uint8_t *x, const uint8_t *y) {
+  return rank2(x, H - 1, y, H, cntF);
+}
+
+static void unrank(uint64_t R, int L, uint64_t cnt[][MAXK], uint8_t *r, int8_t *mx) {
+  r[0] = 0; mx[0] = 0;
+  int m = 0;
+  for (int i = 1; i < L; i++) {
+    int top = m + 1 < K ? m + 1 : K - 1, v;
+    for (v = 0; v <= top; v++) {
+      uint64_t c = cnt[i + 1][v > m ? v : m];
+      if (R < c) break;
+      R -= c;
+    }
+    r[i] = (uint8_t)v;
+    if (v > m) m = v;
+    mx[i] = (int8_t)m;
+  }
+}
+
+static inline int next_rgs(uint8_t *r, int8_t *mx, int L) {
+  for (int i = L - 1; i >= 1; i--) {
+    if (r[i] <= mx[i - 1] && r[i] + 1 < K) {
+      r[i]++;
+      int m = mx[i - 1] > r[i] ? mx[i - 1] : r[i];
+      mx[i] = (int8_t)m;
+      for (int j = i + 1; j < L; j++) { r[j] = 0; mx[j] = (int8_t)m; }
+      return 1;
+    }
+  }
+  return 0;
+}
+
+typedef struct {
+  int id, phase;
+  uint64_t lo, hi;
+  uint64_t cnt;
+  uint64_t vmin, vmax;
+  int64_t dmin, dmax;
+  uint64_t dmin_idx;
+} job_t;
+
+static void *work(void *arg) {
+  job_t *j = (job_t *)arg;
+  uint8_t r[MAXL], a[MAXL], b[MAXL];
+  int8_t mx[MAXL];
+  const uint64_t one = (uint64_t)1 << SHIFT;
+  if (j->hi <= j->lo) { j->cnt = 0; j->vmin = UINT64_MAX; j->vmax = 0; j->dmin = INT64_MAX; j->dmax = INT64_MIN; return NULL; }
+  if(j->phase==4){
+    unrank(j->lo,LF,cntF,r,mx);
+    for(uint64_t R=j->lo;R<j->hi;R++){
+      memcpy(a,r,H-1);const uint8_t *y=r+H-1;
+      for(int c=0;c<4;c++){a[H-1]=c;uint64_t index=wdense(a,y);if(index>=NW||index>UINT32_MAX)exit(9);F_edges[4*R+c]=(uint32_t)index;}
+      if(R+1<j->hi)next_rgs(r,mx,LF);
+    }
+    j->cnt=j->hi-j->lo;return NULL;
+  }else if(j->phase==5){
+    unrank(j->lo,LW,cntW,r,mx);uint64_t dense=dense_of_rank(j->lo),count=0;
+    for(uint64_t R=j->lo;R<j->hi;R++){
+      if((bits[R>>6]>>(R&63))&1){
+        const uint8_t *ss=r,*tt=r+H;uint32_t *edge=W_edges+8*dense;
+        if(ss[0]==tt[0]){
+          memcpy(a,ss+1,H-1);memcpy(b,tt+1,H-1);
+          for(int c=0;c<4;c++){
+            a[H-1]=c;b[H-1]=c;uint64_t q1=fidx(tt+1,a),q2=fidx(ss+1,b);
+            if(q1>=NF||q2>=NF||q1>=(1ULL<<31)||q2>=(1ULL<<31))exit(9);
+            edge[c]=(uint32_t)q1;edge[4+c]=(uint32_t)q2;
+          }
+          edge[0]|=0x80000000u;
+        }else{
+          uint64_t q1=fidx(ss+1,tt),q2=fidx(tt+1,ss);
+          if(q1>=NF||q2>=NF||q1>=(1ULL<<31)||q2>=(1ULL<<31))exit(9);
+          edge[0]=(uint32_t)q1;edge[1]=(uint32_t)q2;
+        }
+        dense++;count++;
+      }
+      if(R+1<j->hi)next_rgs(r,mx,LW);
+    }
+    j->cnt=count;return NULL;
+  }else if(j->phase==6){
+    for(uint64_t R=j->lo;R<j->hi;R++){
+      if(R+16<j->hi){const uint32_t *next=F_edges+4*(R+16);for(int c=0;c<4;c++)__builtin_prefetch(w+next[c],0,1);}
+      const uint32_t *edge=F_edges+4*R;
+      F[R]=(w[edge[0]]+w[edge[1]]+w[edge[2]]+w[edge[3]])/4;
+    }
+    j->cnt=j->hi-j->lo;return NULL;
+  }else if(j->phase==7){
+    uint64_t vmin=UINT64_MAX,vmax=0,dmi=0;int64_t dmin=INT64_MAX,dmax=INT64_MIN;
+    for(uint64_t d=j->lo;d<j->hi;d++){
+      if(d+16<j->hi){const uint32_t *next=W_edges+8*(d+16);__builtin_prefetch(F+(next[0]&0x7fffffffu),0,1);__builtin_prefetch(F+next[1],0,1);}
+      const uint32_t *edge=W_edges+8*d;uint64_t v;
+      if(edge[0]&0x80000000u){
+        uint64_t left=F[edge[0]&0x7fffffffu]+F[edge[1]]+F[edge[2]]+F[edge[3]];
+        uint64_t right=F[edge[4]]+F[edge[5]]+F[edge[6]]+F[edge[7]];
+        v=one+(left>right?left:right)/4;
+      }else v=F[edge[0]]>F[edge[1]]?F[edge[0]]:F[edge[1]];
+      if(v>UINT64_MAX/64)exit(9);int64_t dd=(int64_t)v-(int64_t)w[d];
+      if(dd<dmin){dmin=dd;dmi=d;}if(dd>dmax)dmax=dd;if(v<vmin)vmin=v;if(v>vmax)vmax=v;w[d]=v;
+    }
+    j->cnt=j->hi-j->lo;j->vmin=vmin;j->vmax=vmax;j->dmin=dmin;j->dmax=dmax;j->dmin_idx=dmi;return NULL;
+  }
+  if (j->phase == 0) {  // canonical bitmap over w-space RGS ranks [lo, hi), lo and hi multiples of 64
+    unrank(j->lo, LW, cntW, r, mx);
+    uint64_t word = 0, c = 0;
+    for (uint64_t R = j->lo; R < j->hi; R++) {
+      uint64_t R2 = rank2(r + H, H, r, H, cntW);
+      if (R <= R2) { word |= 1ULL << (R & 63); c++; }
+      if ((R & 63) == 63 || R + 1 == j->hi) { bits[R >> 6] = word; word = 0; }
+      if (R + 1 < j->hi) next_rgs(r, mx, LW);
+    }
+    j->cnt = c;
+  } else if (j->phase == 1) {  // F from w, F-space ranks [lo, hi)
+    unrank(j->lo, LF, cntF, r, mx);
+    for (uint64_t R = j->lo; R < j->hi; R++) {
+      int u = mx[LF - 1] + 1;  // letters present in x.y
+      memcpy(a, r, H - 1);
+      const uint8_t *y = r + H - 1;
+      uint64_t sum = 0;
+      for (int c = 0; c < u; c++) { a[H - 1] = (uint8_t)c; sum += w[wdense(a, y)]; }
+      if (u < K) { a[H - 1] = (uint8_t)u; sum += (uint64_t)(K - u) * w[wdense(a, y)]; }
+      F[R] = (val_t)(sum / K);
+      if (R + 1 < j->hi) next_rgs(r, mx, LF);
+    }
+  } else if (j->phase == 3) {  // warm start: w(s, t) = wprev(s[0..h-2], t[0..h-2])
+    unrank(j->lo, LW, cntW, r, mx);
+    uint64_t d = dense_of_rank(j->lo), cnt = 0;
+    for (uint64_t R = j->lo; R < j->hi; R++) {
+      if ((bits[R >> 6] >> (R & 63)) & 1) {
+        const uint8_t *s = r, *t = r + H;
+        uint64_t q1 = rank2(s, HP, t, HP, cntP), q2 = rank2(t, HP, s, HP, cntP);
+        uint64_t q = q1 < q2 ? q1 : q2, wd = q >> 6, b = q & 63;
+        uint64_t mask = b ? (~0ULL >> (64 - b)) : 0;
+        w[d] = wprev[cumP[wd] + (uint64_t)__builtin_popcountll(bitsP[wd] & mask)];
+        d++; cnt++;
+      }
+      if (R + 1 < j->hi) next_rgs(r, mx, LW);
+    }
+    j->cnt = cnt;
+  } else {  // phase 2: w <- T(w) through F, w-space ranks [lo, hi), canonical ones only
+    unrank(j->lo, LW, cntW, r, mx);
+    uint64_t d = dense_of_rank(j->lo), cnt = 0;
+    uint64_t vmin = UINT64_MAX, vmax = 0, dmi = 0;
+    int64_t dmin = INT64_MAX, dmax = INT64_MIN;
+    for (uint64_t R = j->lo; R < j->hi; R++) {
+      if ((bits[R >> 6] >> (R & 63)) & 1) {
+        const uint8_t *s = r, *t = r + H;
+        uint64_t v;
+        if (t[0] == s[0]) {  // matched first letters
+          // letters present in t'.s'
+          uint32_t seen = 0;
+          for (int i = 1; i < H; i++) seen |= 1u << s[i];
+          for (int i = 1; i < H; i++) seen |= 1u << t[i];
+          int u = __builtin_popcount(seen);
+          // sum_c F(t', s'c) and sum_c F(s', t'c) round the same double sum in the two
+          // orders; both are lower bounds, take the larger (keeps T swap-symmetric).
+          uint64_t sum1 = 0, sum2 = 0;
+          memcpy(a, s + 1, H - 1);  // a = s' c
+          memcpy(b, t + 1, H - 1);  // b = t' c
+          for (int c = 0; c < K + 1 && seen; c++) {
+            if (seen & (1u << c)) {
+              seen &= ~(1u << c);
+              a[H - 1] = (uint8_t)c; sum1 += F[fidx(t + 1, a)];
+              b[H - 1] = (uint8_t)c; sum2 += F[fidx(s + 1, b)];
+            }
+          }
+          if (u < K) {
+            a[H - 1] = (uint8_t)(MAXK); sum1 += (uint64_t)(K - u) * F[fidx(t + 1, a)];
+            b[H - 1] = (uint8_t)(MAXK); sum2 += (uint64_t)(K - u) * F[fidx(s + 1, b)];
+          }
+          v = one + (sum1 > sum2 ? sum1 : sum2) / K;
+        } else {
+          uint64_t A = F[fidx(s + 1, t)], B = F[fidx(t + 1, s)];
+          v = A > B ? A : B;
+        }
+        if (v > UINT64_MAX / 64) { fprintf(stderr, "overflow\n"); exit(2); }
+        int64_t dd = (int64_t)v - (int64_t)w[d];
+        if (dd < dmin) { dmin = dd; dmi = d; }
+        if (dd > dmax) dmax = dd;
+        if (v < vmin) vmin = v;
+        if (v > vmax) vmax = v;
+        w[d] = (val_t)v;
+        d++; cnt++;
+      }
+      if (R + 1 < j->hi) next_rgs(r, mx, LW);
+    }
+    j->cnt = cnt; j->vmin = vmin; j->vmax = vmax; j->dmin = dmin; j->dmax = dmax; j->dmin_idx = dmi;
+  }
+  return NULL;
+}
+
+static job_t jobs[512];
+static pthread_t th[512];
+static int last_nj;
+
+static void run_phase(int phase, uint64_t total, int align64) {
+  int nj = NT * 8;  // more jobs than threads for balance, run in waves of NT
+  if (nj > 512) nj = 512;
+  if ((uint64_t)nj > total) nj = 1;
+  last_nj = nj;
+  for (int i = 0; i < nj; i++) {
+    uint64_t lo = total * i / nj, hi = total * (i + 1) / nj;
+    if (align64) { lo &= ~63ULL; hi = (i + 1 == nj) ? total : (hi & ~63ULL); }
+    jobs[i] = (job_t){.id = i, .phase = phase, .lo = lo, .hi = hi};
+  }
+  for (int base = 0; base < nj; base += NT) {
+    int n = nj - base < NT ? nj - base : NT;
+    for (int i = 0; i < n; i++) pthread_create(&th[i], NULL, work, &jobs[base + i]);
+    for (int i = 0; i < n; i++) pthread_join(th[i], NULL);
+  }
+}
+
+static void bound_str(int64_t r, char *out) {  // floor(10^9 * 2r/(2^SHIFT + r)), r < 2^SHIFT
+  if (r <= 0) { strcpy(out, "<=0"); return; }
+  if (r >= ((int64_t)1 << SHIFT)) { strcpy(out, ">=1 (impossible: check the operator)"); return; }
+  __int128 num = (__int128)2 * r * 1000000000;
+  __int128 den = ((__int128)1 << SHIFT) + r;
+  sprintf(out, "0.%09" PRId64, (int64_t)(num / den));
+}
+
+int main(int argc, char **argv) {
+  if (argc < 4) { fprintf(stderr, "usage: klow k h iters [threads] [dump_prefix]\n"); return 1; }
+  K = atoi(argv[1]); H = atoi(argv[2]);
+  if(K!=4||H<2||H>9){fprintf(stderr,"table variant supports k=4, 2<=h<=9\n");return 9;}
+  int iters = atoi(argv[3]);
+  NT = argc > 4 ? atoi(argv[4]) : 8;
+  const char *dump = argc > 5 ? argv[5] : NULL;
+  if (K < 2 || K > 30 || H < 2 || 2 * H > MAXL) { fprintf(stderr, "bad k or h\n"); return 1; }
+  LW = 2 * H; LF = 2 * H - 1;
+  build_counts(cntW, LW); build_counts(cntF, LF);
+  NWF = cntW[1][0]; NF = cntF[1][0];
+  uint64_t nwords = (NWF + 63) / 64;
+  bits = calloc(nwords + 1, 8); cum = calloc(nwords + 1, 8);
+  F = malloc(NF * sizeof(val_t));
+  double t0 = now();
+  run_phase(0, NWF, 1);
+  NW = 0;
+  for (uint64_t i = 0; i < nwords; i++) { cum[i] = NW; NW += (uint64_t)__builtin_popcountll(bits[i]); }
+  cum[nwords] = NW;
+  w = calloc(NW, sizeof(val_t));
+  if (!bits || !cum || !F || !w) { fprintf(stderr, "out of memory\n"); return 1; }
+  const char *init = getenv("KLOW_INIT");
+  if (init) {  // the witness of the run with h - 1
+    HP = H - 1;
+    int LP = 2 * HP;
+    build_counts(cntP, LP);
+    uint64_t nfp = cntP[1][0], nwp_words = (nfp + 63) / 64, nwp = 0;
+    bitsP = calloc(nwp_words + 1, 8); cumP = calloc(nwp_words + 1, 8);
+    uint8_t r[MAXL]; int8_t mx[MAXL];
+    unrank(0, LP, cntP, r, mx);
+    for (uint64_t R = 0; R < nfp; R++) {
+      if (R <= rank2(r + HP, HP, r, HP, cntP)) bitsP[R >> 6] |= 1ULL << (R & 63);
+      if (R + 1 < nfp) next_rgs(r, mx, LP);
+    }
+    for (uint64_t i = 0; i < nwp_words; i++) { cumP[i] = nwp; nwp += (uint64_t)__builtin_popcountll(bitsP[i]); }
+    cumP[nwp_words] = nwp;
+    wprev = malloc(nwp * sizeof(val_t));
+    FILE *f = fopen(init, "rb");
+    if (!f || fread(wprev, sizeof(val_t), nwp, f) != nwp || fgetc(f) != EOF) { fprintf(stderr, "bad KLOW_INIT file (want %" PRIu64 " values)\n", nwp); return 5; }
+    fclose(f);
+    run_phase(3, NWF, 1);
+    uint64_t cnt = 0;
+    for (int i = 0; i < last_nj; i++) if (jobs[i].hi > jobs[i].lo) cnt += jobs[i].cnt;
+    if (cnt != NW) { fprintf(stderr, "warm start count mismatch\n"); return 5; }
+    free(wprev); free(bitsP); free(cumP);
+    printf("warm start from %s (h=%d, %" PRIu64 " classes)\n", init, HP, nwp);
+  }
+  const char *resume = getenv("KLOW_RESUME");
+  if (resume) {
+    FILE *rf=fopen(resume,"rb");
+    if(!rf || fread(w,sizeof(val_t),NW,rf)!=NW || fgetc(rf)!=EOF){fprintf(stderr,"bad resume file\n");return 5;}
+    fclose(rf);printf("resumed same-history vector %s\n",resume);
+  }
+  if(NW>UINT32_MAX||NF>=(1ULL<<31))return 9;
+  F_edges=malloc((size_t)NF*4*sizeof(uint32_t));W_edges=malloc((size_t)NW*8*sizeof(uint32_t));
+  if(!F_edges||!W_edges){fprintf(stderr,"table allocation failed\n");return 9;}
+  printf("TABLE_BUILD_START bytes=%" PRIu64 "\n",(uint64_t)(NF*16+NW*32));fflush(stdout);
+  run_phase(4,NF,0);printf("TABLE_F_READY seconds=%.1f\n",now()-t0);fflush(stdout);
+  run_phase(5,NWF,1);uint64_t table_count=0;for(int j=0;j<last_nj;j++)table_count+=jobs[j].cnt;
+  if(table_count!=NW)return 9;free(bits);free(cum);bits=NULL;cum=NULL;
+  printf("TABLES_READY states=%" PRIu64 " F_states=%" PRIu64 " seconds=%.1f\n",NW,NF,now()-t0);fflush(stdout);
+  double elapsed_limit=getenv("KLOW_SECONDS")?atof(getenv("KLOW_SECONDS")):1e100;
+  printf("k=%d h=%d rgs=%" PRIu64 " classes=%" PRIu64 " F=%" PRIu64 " shift=%d threads=%d (setup %.1fs)\n",
+         K, H, NWF, NW, NF, SHIFT, NT, now() - t0);
+  fflush(stdout);
+  int64_t best = INT64_MIN; int best_it = 0;
+  int64_t dmin = 0, dmax = 0;
+  int cert = 0;  // set for the final step, whose input vector is dumped first
+  int64_t target_r=getenv("KLOW_TARGET_R")?strtoll(getenv("KLOW_TARGET_R"),NULL,10):INT64_MAX;
+  const char *checkpoint=getenv("KLOW_CHECKPOINT_PREFIX");
+
+  for (int it = 1; ; it++) {
+    double ta = now();
+    const char *threads_path=getenv("KLOW_THREADS_FILE");
+    if(threads_path){
+      FILE *tf=fopen(threads_path,"r");int desired=NT;
+      if(tf){if(fscanf(tf,"%d",&desired)!=1)desired=NT;fclose(tf);}
+      if(desired>=1 && desired<=3 && desired!=NT){NT=desired;printf("worker budget changed to %d\n",NT);}
+    }
+    if (cert && dump) {  // the witness: the input vector of this step
+      char fn[1024]; snprintf(fn, sizeof fn, "%s_w.bin", dump);
+      FILE *f = fopen(fn, "wb");
+      if (!f || fwrite(w, sizeof(val_t), NW, f) != NW || fclose(f)) { fprintf(stderr, "dump failed\n"); return 4; }
+    }
+    run_phase(6, NF, 0);
+    run_phase(7, NW, 0);
+    uint64_t vmin = UINT64_MAX, vmax = 0, cnt = 0, dmi = 0;
+    dmin = INT64_MAX; dmax = INT64_MIN;
+    for (int i = 0; i < last_nj; i++) {
+      if (jobs[i].hi <= jobs[i].lo) continue;
+      cnt += jobs[i].cnt;
+      if (jobs[i].vmin < vmin) vmin = jobs[i].vmin;
+      if (jobs[i].vmax > vmax) vmax = jobs[i].vmax;
+      if (jobs[i].dmin < dmin) { dmin = jobs[i].dmin; dmi = jobs[i].dmin_idx; }
+      if (jobs[i].dmax > dmax) dmax = jobs[i].dmax;
+    }
+    if (cnt != NW) { fprintf(stderr, "count mismatch %" PRIu64 " vs %" PRIu64 "\n", cnt, NW); return 3; }
+    for (uint64_t i = 0; i < NW; i++) w[i] -= (val_t)vmin;
+    if(checkpoint && !cert && it%5==0){
+      char tmp[1024],dst[1024],info[1024];
+      snprintf(tmp,sizeof tmp,"%s_temporary.bin",checkpoint);
+      snprintf(dst,sizeof dst,"%s_w.bin",checkpoint);
+      snprintf(info,sizeof info,"%s.json",checkpoint);
+      FILE *cf=fopen(tmp,"wb");
+      if(!cf || fwrite(w,sizeof(val_t),NW,cf)!=NW || fclose(cf) || rename(tmp,dst)){fprintf(stderr,"checkpoint write failed\n");return 8;}
+      cf=fopen(info,"w");if(!cf)return 8;
+      fprintf(cf,"{\"completed_iterations\":%d,\"classes\":%" PRIu64 ",\"shift\":%d,\"previous_input_drift_lower_numerator\":%" PRId64 ",\"encoding\":\"uint64-little-endian\",\"qualification\":\"UNVERIFIED checkpoint; exact checker required\"}\n",it,NW,SHIFT,dmin);fclose(cf);
+      printf("CHECKPOINT after_iteration=%d previous_drift=%" PRId64 "\n",it,dmin);fflush(stdout);
+    }
+    if (dmin > best) { best = dmin; best_it = it; }
+    char bs[64]; bound_str(dmin, bs);
+    if (it <= 3 || it % 5 == 0 || cert)
+      printf("it %4d  rmin %.10f  rmax %.10f  spread %.6f  bound %s  (argmin %" PRIu64 ", %.1fs)\n", it,
+             (double)dmin / (1 << SHIFT), (double)dmax / (1 << SHIFT),
+             (double)(vmax - vmin) / (1 << SHIFT), bs, dmi, now() - ta);
+    fflush(stdout);
+    if (cert) break;
+    // converged when T(w) - w is constant up to 2 units, or at the step limit
+    if (it >= iters || dmin>=target_r || now()-t0>elapsed_limit || (it >= 20 && dmin > 0 && dmax - dmin <= 2)) cert = 1;
+  }
+  char bs[64]; bound_str(best, bs);
+  printf("best r over all steps = %" PRId64 " / 2^%d at step %d (%s)\n", best, SHIFT, best_it, bs);
+  bound_str(dmin, bs);
+  printf("CERT k=%d h=%d classes=%" PRIu64 " shift=%d r=%" PRId64 " gamma_%d >= %s%s\n", K, H, NW, SHIFT,
+         dmin, K, bs, dump ? " (witness dumped)" : "");
+  return 0;
+}

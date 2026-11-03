@@ -1,0 +1,15 @@
+{
+  "status": "ALL_LOWER_CONTROLS_PASS",
+  "positive_control_history": 5,
+  "positive_control_classes": 22187,
+  "positive_control_min_numerator": 7349629664,
+  "rejected": [
+    "inflated drift",
+    "rehashed zero potential",
+    "corrupted vector bytes",
+    "corrupted decoder hash",
+    "invalid drift domain",
+    "corrupted checker source"
+  ],
+  "qualification": "small-state controls; use the complete h9 exact receipt for the headline bound"
+}

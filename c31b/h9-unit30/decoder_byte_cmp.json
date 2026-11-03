@@ -1,0 +1,9 @@
+{
+  "status": "FULL_RECONSTRUCTED_VECTOR_BYTE_COMPARISON_PASSED",
+  "observed_utc": "2026-11-03T09:43:40.552555+00:00",
+  "exit_code": 0,
+  "limit_seconds": 300,
+  "bytes": 11453945176,
+  "decoded_sha256": "e7d2d67183587232849d936ce9281ecd9671ca09c130c9d63f0c7c4718601450",
+  "scope": "cmp checked every byte of the reconstructed vector against the original vector that passed the complete separately written (same agent) literal-operator check"
+}

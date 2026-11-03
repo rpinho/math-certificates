@@ -1,0 +1,35 @@
+{
+  "status": "FULL_PROCEDURAL_DECODE_AND_HASH_REPLAY_PASSED",
+  "recipe": [
+    {
+      "history": 5,
+      "iteration_limit": 120,
+      "sha256": "e6c43fa1b002bc1457dee394e0d0823dea64244995c4d9fe31e11d8c56742375"
+    },
+    {
+      "history": 6,
+      "iteration_limit": 120,
+      "sha256": "be7ecb0055c61af95f554a3cf8355e641bf0e5df5567b52414858097c79add17"
+    },
+    {
+      "history": 7,
+      "iteration_limit": 120,
+      "sha256": "1332a8025ab9f348dcccbbd86755ead5fa0e7f4d39d74d9790134c540db142ec"
+    },
+    {
+      "history": 8,
+      "iteration_limit": 120,
+      "sha256": "1cb6cb146364b2a1e7916f9b78540b904257d0bbf58053050ed3588854f88119"
+    },
+    {
+      "history": 9,
+      "iteration_limit": 55,
+      "sha256": "e7d2d67183587232849d936ce9281ecd9671ca09c130c9d63f0c7c4718601450"
+    }
+  ],
+  "final_decoded_sha256": "e7d2d67183587232849d936ce9281ecd9671ca09c130c9d63f0c7c4718601450",
+  "generator_sha256": "bb3ee788ee194046eee556e8f4d34cef10f4df4ff1a3fdb201f82e6c76853872",
+  "decoder_sha256": "218d65e7424e613d97cfe3a05e600d9b918e0354eee94433d87f6efa72b714ad",
+  "full_log_sha256": "7c5d130a08dfcbcdf67ad8955839668787ca2651ac6efe4b390ac314d69ac299",
+  "qualification": "every fixed intermediate and final hash checked in a separate complete decode; full literal operator check is verification.json"
+}
