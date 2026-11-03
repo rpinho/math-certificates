@@ -1,0 +1,41 @@
+{
+  "schema": "binary-cayley-two-masks-v1",
+  "dimension": 8,
+  "probability_numerator": 2648,
+  "probability_denominator": 4041,
+  "hard_red_mask_hex": "173e5ee876e8e880167c7ae06ec8a801173e5ee876e8e880e88181178117177e",
+  "fractional_mask_hex": "0040200008000001010204081020408000402000080000010000000000000000",
+  "fractional_indices": [
+    64,
+    91,
+    109,
+    118,
+    135,
+    142,
+    149,
+    156,
+    163,
+    170,
+    177,
+    184,
+    192,
+    219,
+    237,
+    246
+  ],
+  "density": "15058298592194934908767847/9131939205947984819238469632",
+  "status": "candidate and unrefereed",
+  "selected_full_matrix": "certificates/c5_cayley256_fine.json.gz",
+  "simple_alternative": "certificates/c5_cayley256_simple.json.gz",
+  "density_polynomial_coefficients": [
+    8734,
+    -5530,
+    4320,
+    -410,
+    395,
+    -60,
+    10
+  ],
+  "density_polynomial_denominator": 4194304,
+  "fractional_edges_cross_character": 73
+}

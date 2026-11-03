@@ -1,0 +1,27 @@
+{
+  "PASS": true,
+  "status": "candidate and unrefereed",
+  "certificate": "certificates/c5_cayley256_fine.json.gz",
+  "sha256": "78978a9f0cfc8dcf56ca371994b155f07768964fad62fe3e037d457b9aef0125",
+  "uncompressed_sha256": "706c4db4c7d057081f093e58c146c550d88f453519884c0f5372386629cbcca6",
+  "density": "15058298592194934908767847/9131939205947984819238469632",
+  "parts": 256,
+  "two_exact_counters": true,
+  "red_and_blue_agree": true,
+  "improvement_from_round3": "201594733554298396585450710194935/49639559364486735648975462410263461888",
+  "controls": [
+    {
+      "script": "check_wide.py",
+      "threshold": "29410721602061970626529351096739/17835818761617157850075136000000000",
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"scripts/check_wide.py\", line 16, in <module>\n    if len(sys.argv)>2:assert value<Fraction(sys.argv[2]),'claimed upper threshold fails exact comparison'\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: claimed upper threshold fails exact comparison\n"
+    },
+    {
+      "script": "check_cayley_matrix_r4.py",
+      "threshold": "29410721602061970626529351096739/17835818761617157850075136000000000",
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"scripts/check_cayley_matrix_r4.py\", line 7, in <module>\n    if len(sys.argv)>2:assert density<Fraction(sys.argv[2]),'claimed upper threshold fails exact comparison'\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: claimed upper threshold fails exact comparison\n"
+    }
+  ],
+  "note": "Separately written (same agent) exact counters; no human referee"
+}

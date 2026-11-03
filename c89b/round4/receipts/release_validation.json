@@ -1,0 +1,126 @@
+{
+  "PASS": true,
+  "utc": "2026-11-03T10:38:38.483923+00:00",
+  "status": "candidate and unrefereed",
+  "python": "3.9.6",
+  "density": "15058298592194934908767847/9131939205947984819238469632",
+  "decimal_upper_bound": "0.001648970526",
+  "selected_sha256": "78978a9f0cfc8dcf56ca371994b155f07768964fad62fe3e037d457b9aef0125",
+  "uncompressed_sha256": "706c4db4c7d057081f093e58c146c550d88f453519884c0f5372386629cbcca6",
+  "certificate_byte_identical_to_source": true,
+  "both_color_totals_agree_with_factor_256": true,
+  "mask_and_kernel_reconstruct_full_matrix": true,
+  "literal_comparisons": 36,
+  "malformed_inputs_rejected": 10,
+  "false_threshold_rejections": 2,
+  "compiled_binaries_moved_out_of_package": true,
+  "runs": [
+    {
+      "label": "build_check_wide",
+      "command": [
+        "c++",
+        "-O3",
+        "-std=c++17",
+        "-I/opt/homebrew/opt/gmp/include",
+        "-L/opt/homebrew/opt/gmp/lib",
+        "scripts/check_wide.cpp",
+        "-lgmp",
+        "-o",
+        "check_wide"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 1.604524458,
+      "expected_returncode": 0
+    },
+    {
+      "label": "build_check_cayley_exact_r4",
+      "command": [
+        "c++",
+        "-O3",
+        "-std=c++17",
+        "-I/opt/homebrew/opt/gmp/include",
+        "-L/opt/homebrew/opt/gmp/lib",
+        "scripts/check_cayley_exact_r4.cpp",
+        "-lgmp",
+        "-o",
+        "check_cayley_exact_r4"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.7796244170000002,
+      "expected_returncode": 0
+    },
+    {
+      "label": "check_wide",
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python3",
+        "scripts/check_wide.py",
+        "certificates/c5_cayley256_fine.json.gz",
+        "0.001648970526"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 7.339121417,
+      "expected_returncode": 0
+    },
+    {
+      "label": "check_cayley_matrix_r4",
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python3",
+        "scripts/check_cayley_matrix_r4.py",
+        "certificates/c5_cayley256_fine.json.gz",
+        "0.001648970526"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.54629175,
+      "expected_returncode": 0
+    },
+    {
+      "label": "controls",
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python3",
+        "scripts/control_wide_cayley_r4.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 1.7290944159999988,
+      "expected_returncode": 0
+    },
+    {
+      "label": "check_wide_false_threshold",
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python3",
+        "scripts/check_wide.py",
+        "certificates/c5_cayley256_fine.json.gz",
+        "0.0016489"
+      ],
+      "returncode": 1,
+      "elapsed_seconds": 6.653394749999999,
+      "expected_returncode": 1
+    },
+    {
+      "label": "check_cayley_matrix_r4_false_threshold",
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python3",
+        "scripts/check_cayley_matrix_r4.py",
+        "certificates/c5_cayley256_fine.json.gz",
+        "0.0016489"
+      ],
+      "returncode": 1,
+      "elapsed_seconds": 0.34076179199999856,
+      "expected_returncode": 1
+    }
+  ]
+}

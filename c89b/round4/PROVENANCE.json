@@ -1,0 +1,162 @@
+{
+  "source_job": "math_c89cr4_1103",
+  "release_job": "math_c89rel4_1103",
+  "status": "candidate and unrefereed",
+  "scope": "K5 upper certificate only; no numerical search artifacts",
+  "source_upper_manifest_sha256": "99a00a807f424bcfde6de1d41d713e453fe84fa2ce6767db7b274c7d6d25a570",
+  "files": [
+    {
+      "source": "PROOF.md",
+      "file": "PROOF.md",
+      "source_sha256": "1a6158018d542ca7fe8a7f5bc18264481c81d1b4af3e604d2d34fcf7de5a9c94",
+      "release_sha256": "33494360121ff93f909ec5a946c3cf8a52935064fb69ec786cb71f546c9f150e",
+      "byte_identical": false
+    },
+    {
+      "source": "REPRODUCE.md",
+      "file": "REPRODUCE.md",
+      "source_sha256": "82741e7f2c66dfac29b17c80a8acb1d61f29c6643b2e82c606ac8cc29b7c487f",
+      "release_sha256": "0be296323d5da6631050ff13458acf0a050b94dbdf56324d82eb00e8fc720cf1",
+      "byte_identical": false
+    },
+    {
+      "source": "PRIOR_ART.md",
+      "file": "PRIOR_ART.md",
+      "source_sha256": "56b0f7475b49f3a0a163f50326a5c74b89a7775762ce86f8639b14ab5655de5f",
+      "release_sha256": "68475bd0200f937d2db0c202c933a4b1d82e9abed6b0a2cda2591297a4b83118",
+      "byte_identical": false
+    },
+    {
+      "source": "scripts/check_manifest.py",
+      "file": "scripts/check_manifest.py",
+      "source_sha256": "d00cb16539c9e5869efe5d3aa3358d5ef475595dc24d2abd20961d301b3e958b",
+      "release_sha256": "d00cb16539c9e5869efe5d3aa3358d5ef475595dc24d2abd20961d301b3e958b",
+      "byte_identical": true
+    },
+    {
+      "source": "scripts/check_wide.cpp",
+      "file": "scripts/check_wide.cpp",
+      "source_sha256": "f9c88dc31417e9c79235459915d53fc0f2256f1cff0e910343a100c59c271f50",
+      "release_sha256": "f9c88dc31417e9c79235459915d53fc0f2256f1cff0e910343a100c59c271f50",
+      "byte_identical": true
+    },
+    {
+      "source": "scripts/check_wide.py",
+      "file": "scripts/check_wide.py",
+      "source_sha256": "11e4d78cc66b4bdb8def1381d2dc57a1aab402315ccab0392efc42071b91310a",
+      "release_sha256": "85f74f54e7bd74869f59e0f35693b6aca7a89d817e05482eea5c1657cafcdb71",
+      "byte_identical": false
+    },
+    {
+      "source": "scripts/check_cayley_exact_r4.cpp",
+      "file": "scripts/check_cayley_exact_r4.cpp",
+      "source_sha256": "641d9ec02bb5835a0c74d996287cbbb2cf59701921b76c5edf3fa100c1d9eabe",
+      "release_sha256": "bfcd586583fc1c71391bbbfb7d8c7c97307ee1664130684291c10147b75c62ad",
+      "byte_identical": false
+    },
+    {
+      "source": "scripts/check_cayley_matrix_r4.py",
+      "file": "scripts/check_cayley_matrix_r4.py",
+      "source_sha256": "966b415c599fe6dd5bbdf8a4d06bc1af46cf2cdca8bda9d3792abc5aa177b334",
+      "release_sha256": "9fe95278199b747c738ccff1fa664889a630772e70ff67df75881055c5ecccea",
+      "byte_identical": false
+    },
+    {
+      "source": "scripts/control_wide_cayley_r4.py",
+      "file": "scripts/control_wide_cayley_r4.py",
+      "source_sha256": "6775aa3ae951d5a91e8fd9e39ac27cd17766de40e77ed159b6c5d316871d9044",
+      "release_sha256": "6775aa3ae951d5a91e8fd9e39ac27cd17766de40e77ed159b6c5d316871d9044",
+      "byte_identical": true
+    },
+    {
+      "source": "scripts/cayley_probability_polynomial_r4.py",
+      "file": "scripts/cayley_probability_polynomial_r4.py",
+      "source_sha256": "50ab9b0aff88a05b875acac1e8f34c7dd80309368a2a5cd583d3b85cc3ac0c58",
+      "release_sha256": "50ab9b0aff88a05b875acac1e8f34c7dd80309368a2a5cd583d3b85cc3ac0c58",
+      "byte_identical": true
+    },
+    {
+      "source": "certificates/c5_cayley256_fine.json.gz",
+      "file": "certificates/c5_cayley256_fine.json.gz",
+      "source_sha256": "78978a9f0cfc8dcf56ca371994b155f07768964fad62fe3e037d457b9aef0125",
+      "release_sha256": "78978a9f0cfc8dcf56ca371994b155f07768964fad62fe3e037d457b9aef0125",
+      "byte_identical": true
+    },
+    {
+      "source": "certificates/c5_cayley256_fine.kernel.json",
+      "file": "certificates/c5_cayley256_fine.kernel.json",
+      "source_sha256": "79e2f3d7d5b5f5fca7560795f2d782e3474a1e4e2a895f8fbb0cf04275661143",
+      "release_sha256": "79e2f3d7d5b5f5fca7560795f2d782e3474a1e4e2a895f8fbb0cf04275661143",
+      "byte_identical": true
+    },
+    {
+      "source": "certificates/c5_cayley256_definition.json",
+      "file": "certificates/c5_cayley256_definition.json",
+      "source_sha256": "52ba8e51bba96da34526b3a777ad545c5a37ca3a10937c5c84d03273f5ea0a85",
+      "release_sha256": "52ba8e51bba96da34526b3a777ad545c5a37ca3a10937c5c84d03273f5ea0a85",
+      "byte_identical": true
+    },
+    {
+      "source": "certificates/c5_cayley256_simple.json.gz",
+      "file": "certificates/c5_cayley256_simple.json.gz",
+      "source_sha256": "254e32de4efe4c5042feb6bfd16bcf02b79a2973ed64125772038b16b6c577e7",
+      "release_sha256": "254e32de4efe4c5042feb6bfd16bcf02b79a2973ed64125772038b16b6c577e7",
+      "byte_identical": true
+    },
+    {
+      "source": "receipts/cayley256_fine_accepted.json",
+      "file": "receipts/cayley256_fine_accepted.json",
+      "source_sha256": "09f3982f03c50585353c88ca16c1816f7afd53e36fea66600516a75c298e1a68",
+      "release_sha256": "00f0f9ad68527b698890ad0d1d445efbef103556832101532335a967467f1e85",
+      "byte_identical": false
+    },
+    {
+      "source": "receipts/cayley256_fine_check_wide.json",
+      "file": "receipts/cayley256_fine_check_wide.json",
+      "source_sha256": "93f0accf8dbd1d15546aab29056aa64b26dbf8a07bcfd2d36753db4e804ffb87",
+      "release_sha256": "17fe3b16948fb8ad6a31894b64978cbcf0b5000d7031757c5896467b42bfd687",
+      "byte_identical": false
+    },
+    {
+      "source": "receipts/cayley256_fine_check_cayley_matrix_r4.json",
+      "file": "receipts/cayley256_fine_check_cayley_matrix_r4.json",
+      "source_sha256": "d52faa867754488ee7666ab93543d1d02f27a92d748916b67bfa19516a789b11",
+      "release_sha256": "df3ac7c752d13a328ab4864ada02f29d56273998843dfa2ea28671ed17096f3a",
+      "byte_identical": false
+    },
+    {
+      "source": "receipts/cayley256_simple_accepted.json",
+      "file": "receipts/cayley256_simple_accepted.json",
+      "source_sha256": "dca4797634b672ab23908fd7444bcd2754aa139fd79cc33e0d20dd71acec0b6c",
+      "release_sha256": "da4dd2962ea6f2a0c37a9ecaa9cf1889694696cd69b0357e80bf49fd62ca107c",
+      "byte_identical": false
+    },
+    {
+      "source": "receipts/cayley_probability_polynomial.json",
+      "file": "receipts/cayley_probability_polynomial.json",
+      "source_sha256": "9d1a0e5c5f8db281091b1238e3c85578eb8475377ef0aca1433aa32edce96ad8",
+      "release_sha256": "2720c69a5669a63f8d158f5b269c6ed2ed0d8c96ff60168685debfcabdfd72f4",
+      "byte_identical": false
+    },
+    {
+      "source": "CERTIFICATES.json",
+      "file": "CERTIFICATES.json",
+      "source_sha256": "729f8dbd829185b38bb6838cbfdf909953f101742cdb8c6bba309caccb7b6346",
+      "release_sha256": "b373369c3de0da9ef265637b85efd4625f0cb824b183fa07975dd2f3c85e1e40",
+      "byte_identical": false
+    }
+  ],
+  "review_source_sha256": {
+    "astra": "46dea5dcf127cce2c59fad7e22e08468276f3f1dc99c72a8efd42dc832cb6525",
+    "cs": "3ca2427d53e73d2747c6254845893ce876cd881039e325d10db421822e0a78b7"
+  },
+  "notes": [
+    "Certificate gzip files and kernel/definition are copied byte-for-byte.",
+    "Changes to counting sources are comments or output presentation only; no counting algorithm changed.",
+    "Mixed CERTIFICATES.json was projected to upper material only.",
+    "PROOF.md and REPRODUCE.md omit lower research; PRIOR_ART.md is rewritten for the upper-only release.",
+    "Acceptance receipts omit decimal approximations and discovery threshold fields; traceback paths are made relative.",
+    "release_* receipts are fresh package replays, while the optional polynomial and simpler upper receipt are historical.",
+    "Detailed local CHANGES.diff is an audit artifact outside the publication overlay."
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "format": "c89r4-upper-proof-v1",
+  "status": "candidate and unrefereed",
+  "scope": "Exact K5 upper proof, counters, controls, receipts and AI review summary only",
+  "files": [
+    {
+      "file": "CERTIFICATES.json",
+      "bytes": 3652,
+      "sha256": "b373369c3de0da9ef265637b85efd4625f0cb824b183fa07975dd2f3c85e1e40"
+    },
+    {
+      "file": "PRIOR_ART.md",
+      "bytes": 2262,
+      "sha256": "68475bd0200f937d2db0c202c933a4b1d82e9abed6b0a2cda2591297a4b83118"
+    },
+    {
+      "file": "PROOF.md",
+      "bytes": 7875,
+      "sha256": "33494360121ff93f909ec5a946c3cf8a52935064fb69ec786cb71f546c9f150e"
+    },
+    {
+      "file": "PROVENANCE.json",
+      "bytes": 7744,
+      "sha256": "47bf5e818d7aeeedee5101bdfade2880bbed9dde9c01ec079bb083361f3ce748"
+    },
+    {
+      "file": "README.md",
+      "bytes": 1042,
+      "sha256": "ed730173410af8197e383a40a6a03d4c726817d2485737ae751521d4d0e94a06"
+    },
+    {
+      "file": "REPRODUCE.md",
+      "bytes": 2733,
+      "sha256": "0be296323d5da6631050ff13458acf0a050b94dbdf56324d82eb00e8fc720cf1"
+    },
+    {
+      "file": "certificates/c5_cayley256_definition.json",
+      "bytes": 931,
+      "sha256": "52ba8e51bba96da34526b3a777ad545c5a37ca3a10937c5c84d03273f5ea0a85"
+    },
+    {
+      "file": "certificates/c5_cayley256_fine.json.gz",
+      "bytes": 6477,
+      "sha256": "78978a9f0cfc8dcf56ca371994b155f07768964fad62fe3e037d457b9aef0125"
+    },
+    {
+      "file": "certificates/c5_cayley256_fine.kernel.json",
+      "bytes": 2464,
+      "sha256": "79e2f3d7d5b5f5fca7560795f2d782e3474a1e4e2a895f8fbb0cf04275661143"
+    },
+    {
+      "file": "certificates/c5_cayley256_simple.json.gz",
+      "bytes": 6345,
+      "sha256": "254e32de4efe4c5042feb6bfd16bcf02b79a2973ed64125772038b16b6c577e7"
+    },
+    {
+      "file": "receipts/cayley256_fine_accepted.json",
+      "bytes": 1673,
+      "sha256": "00f0f9ad68527b698890ad0d1d445efbef103556832101532335a967467f1e85"
+    },
+    {
+      "file": "receipts/cayley256_fine_check_cayley_matrix_r4.json",
+      "bytes": 366,
+      "sha256": "df3ac7c752d13a328ab4864ada02f29d56273998843dfa2ea28671ed17096f3a"
+    },
+    {
+      "file": "receipts/cayley256_fine_check_wide.json",
+      "bytes": 362,
+      "sha256": "17fe3b16948fb8ad6a31894b64978cbcf0b5000d7031757c5896467b42bfd687"
+    },
+    {
+      "file": "receipts/cayley256_simple_accepted.json",
+      "bytes": 1584,
+      "sha256": "da4dd2962ea6f2a0c37a9ecaa9cf1889694696cd69b0357e80bf49fd62ca107c"
+    },
+    {
+      "file": "receipts/cayley_probability_polynomial.json",
+      "bytes": 923,
+      "sha256": "2720c69a5669a63f8d158f5b269c6ed2ed0d8c96ff60168685debfcabdfd72f4"
+    },
+    {
+      "file": "receipts/release_check_cayley_matrix_r4.json",
+      "bytes": 366,
+      "sha256": "df3ac7c752d13a328ab4864ada02f29d56273998843dfa2ea28671ed17096f3a"
+    },
+    {
+      "file": "receipts/release_check_wide.json",
+      "bytes": 362,
+      "sha256": "17fe3b16948fb8ad6a31894b64978cbcf0b5000d7031757c5896467b42bfd687"
+    },
+    {
+      "file": "receipts/release_validation.json",
+      "bytes": 3264,
+      "sha256": "321ab5b241a0b6bebceb74eaef4dc7bd63c1ddd96de94c4b9a3330e9c5087611"
+    },
+    {
+      "file": "receipts/wide_cayley_controls.json",
+      "bytes": 5877,
+      "sha256": "0b622c64191c7a18a7480b04cfe11333fc949aa978c918b313905a00e86a4bb6"
+    },
+    {
+      "file": "review/README.md",
+      "bytes": 2039,
+      "sha256": "67f9f609aeae9fa7b5dfa1d275dbf5889eee63c67c04e2b6e57861280f951f7d"
+    },
+    {
+      "file": "scripts/cayley_probability_polynomial_r4.py",
+      "bytes": 2828,
+      "sha256": "50ab9b0aff88a05b875acac1e8f34c7dd80309368a2a5cd583d3b85cc3ac0c58"
+    },
+    {
+      "file": "scripts/check_cayley_exact_r4.cpp",
+      "bytes": 1633,
+      "sha256": "bfcd586583fc1c71391bbbfb7d8c7c97307ee1664130684291c10147b75c62ad"
+    },
+    {
+      "file": "scripts/check_cayley_matrix_r4.py",
+      "bytes": 1418,
+      "sha256": "9fe95278199b747c738ccff1fa664889a630772e70ff67df75881055c5ecccea"
+    },
+    {
+      "file": "scripts/check_manifest.py",
+      "bytes": 507,
+      "sha256": "d00cb16539c9e5869efe5d3aa3358d5ef475595dc24d2abd20961d301b3e958b"
+    },
+    {
+      "file": "scripts/check_wide.cpp",
+      "bytes": 2488,
+      "sha256": "f9c88dc31417e9c79235459915d53fc0f2256f1cff0e910343a100c59c271f50"
+    },
+    {
+      "file": "scripts/check_wide.py",
+      "bytes": 1401,
+      "sha256": "85f74f54e7bd74869f59e0f35693b6aca7a89d817e05482eea5c1657cafcdb71"
+    },
+    {
+      "file": "scripts/control_wide_cayley_r4.py",
+      "bytes": 2465,
+      "sha256": "6775aa3ae951d5a91e8fd9e39ac27cd17766de40e77ed159b6c5d316871d9044"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "PASS": true,
+  "status": "candidate and unrefereed",
+  "degree_bound": 6,
+  "bipartite_character": 73,
+  "coefficient_numerators": [
+    "8734",
+    "-5530",
+    "4320",
+    "-410",
+    "395",
+    "-60",
+    "10"
+  ],
+  "coefficient_denominator": "4194304",
+  "points": [
+    {
+      "p": "0",
+      "density": "4367/2097152"
+    },
+    {
+      "p": "1/6",
+      "density": "185008127/97844723712"
+    },
+    {
+      "p": "1/3",
+      "density": "5365531/3057647616"
+    },
+    {
+      "p": "1/2",
+      "density": "224663/134217728"
+    },
+    {
+      "p": "2/3",
+      "density": "2521193/1528823808"
+    },
+    {
+      "p": "5/6",
+      "density": "164651927/97844723712"
+    },
+    {
+      "p": "1",
+      "density": "7459/4194304"
+    }
+  ],
+  "two_exact_counters_agree_separately_red_blue": true,
+  "selected_density": "15058298592194934908767847/9131939205947984819238469632",
+  "elapsed": 51.315213441848755
+}
