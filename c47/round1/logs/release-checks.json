@@ -1,0 +1,99 @@
+{
+  "checked_at": "2026-11-03T23:23:08.276800+00:00",
+  "checks": [
+    {
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python3",
+        "verify_exact.py",
+        "certificates/half59.json",
+        "--claim",
+        "170311/100000",
+        "--out",
+        "logs/half59-exact.json"
+      ],
+      "pid": null,
+      "returncode": 0,
+      "seconds": 0.3022780829924159,
+      "stdout_stderr": "logs/release-exact.log"
+    },
+    {
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python3",
+        "rejection_controls.py",
+        "certificates/half59.json",
+        "215956002657486428307163448091951082893881/126800499112387565339223240212480000000000"
+      ],
+      "pid": null,
+      "returncode": 0,
+      "seconds": 0.5776902500074357,
+      "stdout_stderr": "logs/release-controls.log"
+    },
+    {
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python3",
+        "finite_instance.py",
+        "certificates/half59.json",
+        "logs/half59-exact.json",
+        "logs/half59-finite.json",
+        "--claim",
+        "170311/100000"
+      ],
+      "pid": null,
+      "returncode": 0,
+      "seconds": 0.040198916976805776,
+      "stdout_stderr": "logs/release-finite.log"
+    },
+    {
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python3",
+        "-I",
+        "sources/tomar-v5/lowerbound/check_exact2.py",
+        "certificates/half59-measure.json"
+      ],
+      "pid": null,
+      "returncode": 0,
+      "seconds": 28.408659458975308,
+      "stdout_stderr": "logs/release-half59-upstream.log"
+    },
+    {
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python3",
+        "-I",
+        "sources/tomar-v5/lowerbound/check_exact2.py",
+        "sources/tomar-v5/lowerbound/c2lower_1p70272.json"
+      ],
+      "pid": null,
+      "returncode": 0,
+      "seconds": 2.3727495839702897,
+      "stdout_stderr": "logs/release-tomar50-upstream.log"
+    },
+    {
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python3",
+        "audit_receipts.py"
+      ],
+      "pid": null,
+      "returncode": 0,
+      "seconds": 0.04084416601108387,
+      "stdout_stderr": "logs/release-receipt-audit.log"
+    }
+  ]
+}

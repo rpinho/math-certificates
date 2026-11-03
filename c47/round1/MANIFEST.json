@@ -1,0 +1,322 @@
+{
+  "format": "math-certificates-c47-round1-release-v1",
+  "sealed_utc": "2026-11-03T23:24:04.071364+00:00",
+  "qualification": "candidate, unrefereed; verification level L0 for the bound as a whole",
+  "claim": "170311/100000",
+  "exact_ratio": "215956002657486428307163448091951082893881/126800499112387565339223240212480000000000",
+  "frozen_decision_outcome": "A",
+  "upstream_commit": "3af09fc359ce262f4a7f63d34b0d97e6d4d95d1a",
+  "source_manifest_sha256": "8f2ec2317e09577d8a706c713be949b433984a3dce4a5ab1d10a145bcb6d5aa3",
+  "source_provenance": [
+    {
+      "source": "c47r2/PROOF.md",
+      "release": "PROOF.md",
+      "sha256": "615b9f09795c72ff844be37ed32b0fea0c273a23c9d1afbc18dbafb8f821f290",
+      "source_manifest_match": true,
+      "transformation": "REPORT.md references now point to README.md. Reviewer wording corrections: distinguish our search scripts from unchanged hf.py and accurately scope AI reviews and the final-byte acceptance gate."
+    },
+    {
+      "source": "c47r2/CREDIT.md",
+      "release": "CREDIT.md",
+      "sha256": "e392b7c259c477861b9568fd250fb692349517ae95cc10b28013b8e896641dcd",
+      "source_manifest_match": true,
+      "transformation": "Reviewer wording corrections: distinguish our search scripts from unchanged hf.py and accurately scope AI reviews and the final-byte acceptance gate."
+    },
+    {
+      "source": "c47r2/TABLE_RECORD.md",
+      "release": "TABLE_RECORD.md",
+      "sha256": "bd843b13228fbe0182a6f95292f83f30ed547026bd0a0e5326ee249af489570a",
+      "source_manifest_match": true,
+      "transformation": "REPORT.md reference now points to README.md. Reviewer wording corrections: distinguish our search scripts from unchanged hf.py and accurately scope AI reviews and the final-byte acceptance gate."
+    },
+    {
+      "source": "c47r2/verify_exact.py",
+      "release": "verify_exact.py",
+      "sha256": "f01475b149795e25821fc5c434ee2d535b941967897c758dbdc1391e8ae3edfe",
+      "source_manifest_match": true
+    },
+    {
+      "source": "c47r2/rejection_controls.py",
+      "release": "rejection_controls.py",
+      "sha256": "1be59be3acc414ffa848f26340afab14a9ddfce3159213e220e9bb9c4ff938b3",
+      "source_manifest_match": true
+    },
+    {
+      "source": "c47r2/finite_instance.py",
+      "release": "finite_instance.py",
+      "sha256": "6c2b122d44ebe2b743c94cf1571738883e8b00dd6bb7e4e1855689d77cfa73f4",
+      "source_manifest_match": true
+    },
+    {
+      "source": "c47r2/audit_receipts.py",
+      "release": "audit_receipts.py",
+      "sha256": "5654d3156f45a21491bd70c79e93a1332228dec38f50278ab1910727ceb48463",
+      "source_manifest_match": true
+    },
+    {
+      "source": "c47r2/extract_half.py",
+      "release": "extract_half.py",
+      "sha256": "9da8da700fa03daf3564f569ccce6c0470e3af07c00d982bd105af7faf5d700f",
+      "source_manifest_match": true,
+      "transformation": "Only the emitted credit string changed; all producer logic is unchanged."
+    },
+    {
+      "source": "c47r2/DECISION_RULE.md",
+      "release": "DECISION_RULE.md",
+      "sha256": "f61af81f9048945dd04d0bac881fe31303ea768aaf2d50a7022ff45e4b0eb664",
+      "source_manifest_match": true,
+      "transformation": "Reviewer wording corrections: distinguish our search scripts from unchanged hf.py and accurately scope AI reviews and the final-byte acceptance gate."
+    },
+    {
+      "source": "c47r2/certificates/half59.json",
+      "release": "certificates/half59.json",
+      "sha256": "cbb4e13c5f5cd2a9efdd6356053c605d5969bb579e90cffa0d9f4a54856bdeab",
+      "source_manifest_match": true,
+      "transformation": "Only credit wording and, where present, the measure identity hash changed; all mathematical data is unchanged."
+    },
+    {
+      "source": "c47r2/certificates/half59-measure.json",
+      "release": "certificates/half59-measure.json",
+      "sha256": "50d6c3fc268927d2e7cede60b76125219936c9fd2b37a011583290eb2e10f351",
+      "source_manifest_match": true,
+      "transformation": "Only credit wording and, where present, the measure identity hash changed; all mathematical data is unchanged."
+    },
+    {
+      "source": "c47r2/certificates/parent-117-measure.json",
+      "release": "certificates/parent-117-measure.json",
+      "sha256": "0092f5b1d20460927e987d3aa1f4e11304d2c1e3622964f95dd908f8ad7cd36b",
+      "source_manifest_match": true,
+      "transformation": "Only credit wording and, where present, the measure identity hash changed; all mathematical data is unchanged."
+    },
+    {
+      "source": "c47r2/certificates/tomar50-float-start.json",
+      "release": "certificates/tomar50-float-start.json",
+      "sha256": "b81cea3a33eb3d4a24f77e7712ee367a489ca2893d6def05b4c0d4c9fe2d4310",
+      "source_manifest_match": true
+    },
+    {
+      "source": "c47r2/logs/half-extraction.json",
+      "release": "logs/half-extraction.json",
+      "sha256": "9936b6e2eae838ff4a990d0c5f912404311dd54c6f650ebcd8f2b920f6a2b153",
+      "source_manifest_match": true,
+      "transformation": "Corrected description or refreshed verification receipt and dependent identity hash; mathematical values unchanged."
+    },
+    {
+      "source": "c47r2/logs/tomar-start-conversion.json",
+      "release": "logs/tomar-start-conversion.json",
+      "sha256": "3be3f25b0cbe6b902f7e1a106b48cba7c9d1d78ff41f0e00e73edfdcbf45256d",
+      "source_manifest_match": true
+    },
+    {
+      "source": "c47r2/logs/hf-summary.json",
+      "release": "logs/hf-summary.json",
+      "sha256": "1728aa83fe3d5790573aaaf5ec5baf13ee7fd4609f79081a7bd4eaa85bab2dbe",
+      "source_manifest_match": true,
+      "transformation": "Removed the historical process identifier; all settings, numerical outcomes and timings unchanged. Corrected description or refreshed verification receipt and dependent identity hash; mathematical values unchanged."
+    },
+    {
+      "source": "c47r2/logs/half59-upstream.log",
+      "release": "logs/half59-upstream.log",
+      "sha256": "1fd6add392d1d10690deffb4d81d3ece06398da1209992130242d788752cdfeb",
+      "source_manifest_match": true
+    },
+    {
+      "source": "c47r2/logs/tomar50-upstream.log",
+      "release": "logs/tomar50-upstream.log",
+      "sha256": "111614a9aa302a6bdb83e86b9f4bdd26c97b016efb9a5333648475d925a5b9c1",
+      "source_manifest_match": true
+    },
+    {
+      "source": "c47r2/sources/hf-fresh.py",
+      "release": "sources/hf-fresh.py",
+      "sha256": "822f5106c7f899e93f62e3c6a2d0afc8dd54565ddbbee1e65d46f5595b5c08c9",
+      "source_manifest_match": true
+    },
+    {
+      "source": "c47r2/sources/check_exact2-fresh.py",
+      "release": "sources/check_exact2-fresh.py",
+      "sha256": "abb311c73157e35f384ee2aca6aded4772cc13ea8f70650b8499400621a80e23",
+      "source_manifest_match": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/tejasvi/square-maximal-weak-type/3af09fc359ce262f4a7f63d34b0d97e6d4d95d1a/LICENSE",
+      "release": "sources/tomar-v5/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "fresh_download": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/tejasvi/square-maximal-weak-type/3af09fc359ce262f4a7f63d34b0d97e6d4d95d1a/README.md",
+      "release": "sources/tomar-v5/README.md",
+      "sha256": "b5459d21d729a0dfe274766de716d60af27aa0fc0dc48dc90cf2a3de1514106d",
+      "fresh_download": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/tejasvi/square-maximal-weak-type/3af09fc359ce262f4a7f63d34b0d97e6d4d95d1a/paper/main.tex",
+      "release": "sources/tomar-v5/paper/main.tex",
+      "sha256": "be6cca23f1770215717e791aacaaa81f8fa5d786ffc6944bec4a62cc56fb9ed2",
+      "fresh_download": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/tejasvi/square-maximal-weak-type/3af09fc359ce262f4a7f63d34b0d97e6d4d95d1a/lowerbound/check_exact2.py",
+      "release": "sources/tomar-v5/lowerbound/check_exact2.py",
+      "sha256": "abb311c73157e35f384ee2aca6aded4772cc13ea8f70650b8499400621a80e23",
+      "fresh_download": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/tejasvi/square-maximal-weak-type/3af09fc359ce262f4a7f63d34b0d97e6d4d95d1a/lowerbound/c2lower_1p70272.json",
+      "release": "sources/tomar-v5/lowerbound/c2lower_1p70272.json",
+      "sha256": "e2ca1616be95afa6680e3ccf157cc16fdd39026ad0f5fa79ebd32e5214779888",
+      "fresh_download": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/tejasvi/square-maximal-weak-type/3af09fc359ce262f4a7f63d34b0d97e6d4d95d1a/lowerbound/search/hf.py",
+      "release": "sources/tomar-v5/lowerbound/search/hf.py",
+      "sha256": "822f5106c7f899e93f62e3c6a2d0afc8dd54565ddbbee1e65d46f5595b5c08c9",
+      "fresh_download": true
+    },
+    {
+      "source": "c47r2/certificate_scan.c",
+      "release": "certificate_scan.c",
+      "sha256": "9cece801f852e125d0f2607374ada8af0c212075846d8b64d14c02b447ee8d9a"
+    },
+    {
+      "source": "c47r2/make_fast_certificate.py",
+      "release": "make_fast_certificate.py",
+      "sha256": "04ce3948bb61c2572825679aeaf86c525f9037e9f55adc970aa0dd39b9a0d8ff",
+      "transformation": "Only the emitted credit string changed; all producer logic is unchanged."
+    },
+    {
+      "source": "c47r2/observe_hf.py",
+      "release": "observe_hf.py",
+      "sha256": "7e2d135f4f09a99c38960a569e1e5721bb1efccf7ba1baebda33a9a4a2f506ec"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/tejasvi/square-maximal-weak-type/3af09fc359ce262f4a7f63d34b0d97e6d4d95d1a/lowerbound/search/hleval.py",
+      "release": "sources/tomar-v5/lowerbound/search/hleval.py",
+      "sha256": "71409fbd68ac2919519e59b2ef16ca927c3e53392cd1203a30178ed5a389f300",
+      "fresh_download": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/tejasvi/square-maximal-weak-type/3af09fc359ce262f4a7f63d34b0d97e6d4d95d1a/lowerbound/search/search.py",
+      "release": "sources/tomar-v5/lowerbound/search/search.py",
+      "sha256": "e510dc03ef2f952ddaa93be7ea17099bab8bb4405c2032fa9097ead195188eaa",
+      "fresh_download": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/tejasvi/square-maximal-weak-type/3af09fc359ce262f4a7f63d34b0d97e6d4d95d1a/lowerbound/search/eval.c",
+      "release": "sources/tomar-v5/lowerbound/search/eval.c",
+      "sha256": "929c70511f4b356e179f4e117220a1af21962ceb78fa1f451c7bc91dbb77408b",
+      "fresh_download": true
+    },
+    {
+      "source": "c47r2/REPORT.md",
+      "release": "README.md",
+      "sha256": "912dc10ff764253229979cc953065aeedfb9bb2e07d76d330584a1c3da77f3e1",
+      "source_manifest_match": true,
+      "transformed": true,
+      "transformation": "Adapted from source REPORT.md: release commands/scope replace host-specific execution sections; raw-search-log links removed; no mathematical data changed. Reviewer wording corrections: distinguish our search scripts from unchanged hf.py and accurately scope AI reviews and the final-byte acceptance gate."
+    }
+  ],
+  "documentation_changes": {
+    "README.md": "Adapted from source REPORT.md: release commands/scope replace host-specific execution sections; raw-search-log links removed; no mathematical data changed. Reviewer wording corrections: distinguish our search scripts from unchanged hf.py and accurately scope AI reviews and the final-byte acceptance gate.",
+    "PROOF.md": "REPORT.md references now point to README.md. Reviewer wording corrections: distinguish our search scripts from unchanged hf.py and accurately scope AI reviews and the final-byte acceptance gate.",
+    "TABLE_RECORD.md": "REPORT.md reference now points to README.md. Reviewer wording corrections: distinguish our search scripts from unchanged hf.py and accurately scope AI reviews and the final-byte acceptance gate.",
+    "logs/hf-summary.json": "Removed the historical process identifier; all settings, numerical outcomes and timings unchanged. Corrected description or refreshed verification receipt and dependent identity hash; mathematical values unchanged.",
+    "CREDIT.md": "Reviewer wording corrections: distinguish our search scripts from unchanged hf.py and accurately scope AI reviews and the final-byte acceptance gate.",
+    "DECISION_RULE.md": "Reviewer wording corrections: distinguish our search scripts from unchanged hf.py and accurately scope AI reviews and the final-byte acceptance gate.",
+    "PRIOR_ART_RELEASE.md": "Reviewer wording corrections: distinguish our search scripts from unchanged hf.py and accurately scope AI reviews and the final-byte acceptance gate.",
+    "REPRODUCE.md": "Reviewer wording corrections: distinguish our search scripts from unchanged hf.py and accurately scope AI reviews and the final-byte acceptance gate.",
+    "certificates/controls/half59/atom-outside-cell.json": "Only credit wording and, where present, the measure identity hash changed; all mathematical data is unchanged.",
+    "certificates/controls/half59/changed-heavy-mass.json": "Only credit wording and, where present, the measure identity hash changed; all mathematical data is unchanged.",
+    "certificates/controls/half59/duplicate-atom.json": "Only credit wording and, where present, the measure identity hash changed; all mathematical data is unchanged.",
+    "certificates/controls/half59/expanded-rectangle.json": "Only credit wording and, where present, the measure identity hash changed; all mathematical data is unchanged.",
+    "certificates/controls/half59/oversized-radius.json": "Only credit wording and, where present, the measure identity hash changed; all mathematical data is unchanged.",
+    "certificates/controls/half59/raised-claim.json": "Only credit wording and, where present, the measure identity hash changed; all mathematical data is unchanged.",
+    "certificates/controls/half59/zero-mass.json": "Only credit wording and, where present, the measure identity hash changed; all mathematical data is unchanged.",
+    "certificates/half59-measure.json": "Only credit wording and, where present, the measure identity hash changed; all mathematical data is unchanged.",
+    "certificates/half59.json": "Only credit wording and, where present, the measure identity hash changed; all mathematical data is unchanged.",
+    "certificates/parent-117-measure.json": "Only credit wording and, where present, the measure identity hash changed; all mathematical data is unchanged.",
+    "extract_half.py": "Only the emitted credit string changed; all producer logic is unchanged.",
+    "logs/half-extraction.json": "Corrected description or refreshed verification receipt and dependent identity hash; mathematical values unchanged.",
+    "logs/half59-exact.json": "Corrected description or refreshed verification receipt and dependent identity hash; mathematical values unchanged.",
+    "logs/half59-finite.json": "Corrected description or refreshed verification receipt and dependent identity hash; mathematical values unchanged.",
+    "logs/receipt-audit.json": "Corrected description or refreshed verification receipt and dependent identity hash; mathematical values unchanged.",
+    "logs/rejection-controls-half59.json": "Corrected description or refreshed verification receipt and dependent identity hash; mathematical values unchanged.",
+    "logs/release-checks.json": "Corrected description or refreshed verification receipt and dependent identity hash; mathematical values unchanged.",
+    "logs/release-controls.log": "Corrected description or refreshed verification receipt and dependent identity hash; mathematical values unchanged.",
+    "logs/release-exact.log": "Corrected description or refreshed verification receipt and dependent identity hash; mathematical values unchanged.",
+    "logs/release-finite.log": "Corrected description or refreshed verification receipt and dependent identity hash; mathematical values unchanged.",
+    "logs/release-receipt-audit.log": "Corrected description or refreshed verification receipt and dependent identity hash; mathematical values unchanged.",
+    "make_fast_certificate.py": "Only the emitted credit string changed; all producer logic is unchanged."
+  },
+  "omissions": [
+    "Large raw floating-search logs, resource/process logs and personal paths",
+    "Caches, Finder metadata and compiled binaries",
+    "Earlier review working copies; their limited scope is described in README.md"
+  ],
+  "files": {
+    "CREDIT.md": "537c43f56ee6651b26ca9d7afcd1e154c26bce5ac8b45ff585d2762f3b34dcbd",
+    "DECISION_RULE.md": "351da27c88ee574381c6b7da827d37379971e09e186ecf61b67e9cb8405dfc62",
+    "PRIOR_ART_RELEASE.md": "faf98460d864c2590126b3810fdb15b7399d1e89582cbb1d7592629c68c14d90",
+    "PROOF.md": "c436939e86c07c9a671489404d034e741a38b56642a3aa9625a1ca3e3a155fe9",
+    "README.md": "0d3be3f5c75919b36e76425964c03427e8221dac98591e99c4589bea5f6802cf",
+    "REPRODUCE.md": "982190f6a8a23b1670c3dce304817d580644e976955a83036daf10b869e9631b",
+    "TABLE_RECORD.md": "f824255be923f6aee4b90939e1c8a8b97a2df3f2f104b645ddd8409d3884bdc7",
+    "audit_receipts.py": "5654d3156f45a21491bd70c79e93a1332228dec38f50278ab1910727ceb48463",
+    "certificate_scan.c": "9cece801f852e125d0f2607374ada8af0c212075846d8b64d14c02b447ee8d9a",
+    "certificates/controls/half59/atom-outside-cell.json": "4c5f6a78b900eca0f085846c5fcfbc222c65bb39c2f28675a6d1ece1cee68522",
+    "certificates/controls/half59/changed-heavy-mass.json": "78b8495747f89e1d8ef415885897820c0bb7ad95634a752175b3e122c69f9c35",
+    "certificates/controls/half59/duplicate-atom.json": "5731bc19c51baa7afa510b9507a084e691f22d0b7bf2d018cb64343c1ba8f6c4",
+    "certificates/controls/half59/expanded-rectangle.json": "1bc69cb3628c1a9b9e145e16769ee58b9f1d412408dba5d4a3834770c410be79",
+    "certificates/controls/half59/oversized-radius.json": "a143b0b2409220c8f014272f858cc2f289bc6930f1c1b1359684604d51e45a82",
+    "certificates/controls/half59/raised-claim.json": "177f82e813fb6d95e24659a01e6bd46a0d7716688c1bf8267d711afa7a110501",
+    "certificates/controls/half59/zero-mass.json": "06d59883287c4060424bd62d5ca0dc1728f5c893b500e141f2990dacdd1b84c9",
+    "certificates/half59-measure.check2.json": "3e5044c162985fb7f6d4b08a0814e9d5d70edf50ec770db8a21be6d1dc1d937c",
+    "certificates/half59-measure.json": "64585e1f89c428711dd1c36197de26326c23ac1c83e6aa132dbaec0a2dc54b16",
+    "certificates/half59.json": "b4d88847ef0c41577213a34ef6fda3d0d9b52b672f6ce20e998b006a2031ba99",
+    "certificates/parent-117-measure.json": "02146b4fd238473e66a80d02df7b449cdab7ef8458c1e6fb8e6562da3d2307c7",
+    "certificates/tomar50-float-start.json": "b81cea3a33eb3d4a24f77e7712ee367a489ca2893d6def05b4c0d4c9fe2d4310",
+    "extract_half.py": "ff4c43d6dca1753f811278b7eb50aa96f095eef61498646a4ea7a48e42bba953",
+    "finite_instance.py": "6c2b122d44ebe2b743c94cf1571738883e8b00dd6bb7e4e1855689d77cfa73f4",
+    "logs/half-extraction.json": "c74dff6a09fce2c784d7e132fd0c4a9b149a0d169f5881e03373a20a011339cf",
+    "logs/half59-exact.json": "9a5a7560b17bd09c2c5a428720b705abeaf879c983ed586ec0f1aa7c357fc61f",
+    "logs/half59-finite.json": "72e0b4005cd5189149909f80b3a6511e583cab2e168af4559887ae01009bbf4a",
+    "logs/half59-upstream.log": "1fd6add392d1d10690deffb4d81d3ece06398da1209992130242d788752cdfeb",
+    "logs/hf-summary.json": "c1a189512bc41e45f0c30dba3c20468e12e009121c1ba9af815d8b362c19cde7",
+    "logs/receipt-audit.json": "999b68bd2276a9b9ab12b84b5eb6fdf12a36cd1625d6e66bbb04e2531b64c24d",
+    "logs/rejection-controls-half59.json": "a233051114389af9aa16f3ad23c4629ea9a170b9e50fff01b6159fd8a7707192",
+    "logs/release-checks.json": "d74200788c709b8527cdcaf9aa68b158a54a06a55e9542ece9ef781cd4ecb6e2",
+    "logs/release-controls.log": "06f1054ea9929827f16b00bbfad5782df60dd5b0e733de4a0b8e6dab45d86263",
+    "logs/release-exact.log": "9a5a7560b17bd09c2c5a428720b705abeaf879c983ed586ec0f1aa7c357fc61f",
+    "logs/release-finite.log": "72e0b4005cd5189149909f80b3a6511e583cab2e168af4559887ae01009bbf4a",
+    "logs/release-half59-upstream.log": "1fd6add392d1d10690deffb4d81d3ece06398da1209992130242d788752cdfeb",
+    "logs/release-receipt-audit.log": "999b68bd2276a9b9ab12b84b5eb6fdf12a36cd1625d6e66bbb04e2531b64c24d",
+    "logs/release-tomar50-upstream.log": "111614a9aa302a6bdb83e86b9f4bdd26c97b016efb9a5333648475d925a5b9c1",
+    "logs/tomar-start-conversion.json": "3be3f25b0cbe6b902f7e1a106b48cba7c9d1d78ff41f0e00e73edfdcbf45256d",
+    "logs/tomar50-upstream.log": "111614a9aa302a6bdb83e86b9f4bdd26c97b016efb9a5333648475d925a5b9c1",
+    "make_fast_certificate.py": "a7644e71dc247b9385edda4984f3965129110c90b2491ed328fce1ea3ed5e201",
+    "observe_hf.py": "7e2d135f4f09a99c38960a569e1e5721bb1efccf7ba1baebda33a9a4a2f506ec",
+    "rejection_controls.py": "1be59be3acc414ffa848f26340afab14a9ddfce3159213e220e9bb9c4ff938b3",
+    "sources/check_exact2-fresh.py": "abb311c73157e35f384ee2aca6aded4772cc13ea8f70650b8499400621a80e23",
+    "sources/hf-fresh.py": "822f5106c7f899e93f62e3c6a2d0afc8dd54565ddbbee1e65d46f5595b5c08c9",
+    "sources/public-audit.json": "5380f0d45a5c310f798d434779f61d37eb1de2bbc532aabdd8d5f33657165289",
+    "sources/tomar-v5/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "sources/tomar-v5/README.md": "b5459d21d729a0dfe274766de716d60af27aa0fc0dc48dc90cf2a3de1514106d",
+    "sources/tomar-v5/lowerbound/c2lower_1p70272.check2.json": "8db9366d4de5ac6957cf59105cc31af332ccb0ef319809be5409620032db664c",
+    "sources/tomar-v5/lowerbound/c2lower_1p70272.json": "e2ca1616be95afa6680e3ccf157cc16fdd39026ad0f5fa79ebd32e5214779888",
+    "sources/tomar-v5/lowerbound/check_exact2.py": "abb311c73157e35f384ee2aca6aded4772cc13ea8f70650b8499400621a80e23",
+    "sources/tomar-v5/lowerbound/search/eval.c": "929c70511f4b356e179f4e117220a1af21962ceb78fa1f451c7bc91dbb77408b",
+    "sources/tomar-v5/lowerbound/search/hf.py": "822f5106c7f899e93f62e3c6a2d0afc8dd54565ddbbee1e65d46f5595b5c08c9",
+    "sources/tomar-v5/lowerbound/search/hleval.py": "71409fbd68ac2919519e59b2ef16ca927c3e53392cd1203a30178ed5a389f300",
+    "sources/tomar-v5/lowerbound/search/search.py": "e510dc03ef2f952ddaa93be7ea17099bab8bb4405c2032fa9097ead195188eaa",
+    "sources/tomar-v5/paper/main.tex": "be6cca23f1770215717e791aacaaa81f8fa5d786ffc6944bec4a62cc56fb9ed2",
+    "verify_exact.py": "f01475b149795e25821fc5c434ee2d535b941967897c758dbdc1391e8ae3edfe"
+  },
+  "inventory_rule": "MANIFEST.json hashes every other payload file except SHA256SUMS; SHA256SUMS hashes every file except itself, including MANIFEST.json.",
+  "wording_revision": {
+    "job": "math_c47relfix_1103",
+    "mathematical_data_unchanged": true,
+    "verifier_logic_unchanged": true,
+    "publish_gate": "Both reviewers must accept the final bytes; no human referee."
+  }
+}

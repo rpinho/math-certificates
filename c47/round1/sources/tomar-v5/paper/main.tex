@@ -1,0 +1,414 @@
+\documentclass[11pt]{amsart}
+\pdfsuppressptexinfo=-1
+\usepackage[margin=1.1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs,enumitem}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Bounds for the weak type (1,1) constant of the centred maximal operator over squares},
+  pdfauthor={Tejasvi Singh Tomar}}
+
+\newtheorem{theorem}[equation]{Theorem}
+\newtheorem{lemma}[equation]{Lemma}
+\newtheorem{proposition}[equation]{Proposition}
+\newtheorem{corollary}[equation]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[equation]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[equation]{Remark}
+\numberwithin{equation}{section}
+\setlength{\emergencystretch}{2em}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\dd}{\,\mathrm{d}}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\Cc}{C_c^\infty}
+
+\newcommand{\CBOUND}{3.59123}
+\newcommand{\MASSHALF}{3.591224327\ldots}
+\newcommand{\ALPHA}{47/40}
+\newcommand{\RR}{33/20}
+\newcommand{\HH}{1/32}
+\newcommand{\CC}{1977601376167/1099511627776}
+\newcommand{\CCdec}{1.7986179\ldots}
+\newcommand{\NCLASS}{1{,}181}
+\newcommand{\MAXIDX}{70}
+\newcommand{\SUPPU}{9/4}
+\newcommand{\DENMAX}{2^{40}}
+\newcommand{\SINGHALF}{3.8721047\ldots}
+\newcommand{\SPLHALF}{-0.2808804\ldots}
+\newcommand{\Calpha}{4.2391860\ldots}
+\newcommand{\Kappa}{6.4600705\ldots}
+\newcommand{\VAmin}{1.3\cdot10^{-8}}
+\newcommand{\LocalMinA}{2.8\cdot10^{-4}}
+\newcommand{\ZENODODOI}{10.5281/zenodo.23716078}
+\newcommand{\REPOURL}{https://github.com/tejasvi/square-maximal-weak-type/tree/v5}
+\newcommand{\LBDEC}{1.7027237335}
+\newcommand{\LBATOMS}{50}
+\newcommand{\LBROWN}{6}
+\newcommand{\LBREACH}{1396/125}
+\newcommand{\LBDENEXP}{40}
+\newcommand{\LBPX}{3.2873}
+\newcommand{\LBPY}{2.7437}
+\newcommand{\LBW}{4.0084}
+\newcommand{\LBFRAME}{1.6447}
+\newcommand{\LEANUPTHM}{Hl47a.\allowbreak weakType\allowbreak Constant\_\allowbreak two\_\allowbreak le}
+\newcommand{\LEANLOWTHM}{CenteredMaximal.\allowbreak ofReal\_\allowbreak le\_\allowbreak weakType\allowbreak Constant\_\allowbreak two}
+
+\begin{document}
+
+\title[Weak type constant over squares]{Bounds for the weak type $(1,1)$ constant of the centred maximal operator over squares}
+\author{Tejasvi Singh Tomar}
+\renewcommand{\urladdrname}{{\itshape ORCID}}
+\urladdr{\href{https://orcid.org/0000-0003-4668-3639}{https://orcid.org/0000-0003-4668-3639}}
+\subjclass[2020]{42B25; 35R11, 65G40, 68V05, 68V20}
+\keywords{Hardy--Littlewood maximal function, weak type $(1,1)$, best constants, fractional Laplacian, partial balayage, computer-assisted proof, formal verification, Lean 4}
+
+\begin{abstract}
+Let $c_2$ be the best constant in the weak type $(1,1)$ inequality for the centred Hardy--Littlewood maximal operator over axis-parallel squares in the plane. We prove $\LBDEC\le c_2\le\CBOUND$, improving the bounds $1.6855\ldots\le c_2<3.615749$ obtained by Lin. The upper bound comes from a new kernel in Lin's comparison principle, which bounds $c_2$ by half the integral of a suitable kernel; closed forms for the fractional operator in this principle make its conditions checkable. The lower bound comes from a periodic measure obtained by modifying Lin's lattice of point masses. Both proofs are computer-assisted and formally verified in Lean.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}\label{sec:intro}
+
+For $f\in L^1(\R^2)$ and $x\in\R^2$ let
+\[
+Mf(x)=\sup_{r>0}\frac{1}{|Q(x,r)|}\int_{Q(x,r)}|f(y)|\dd y,
+\]
+where $Q(x,r)$ is the closed square with centre $x$, sides parallel to the axes and side length $2r$, and $|E|$ is the Lebesgue measure of $E$. Let $c_2$ be the least constant such that
+\begin{equation}\label{eq:weak}
+\lambda\,\bigl|\{x:\ Mf(x)\ge\lambda\}\bigr|\le c_2\,\|f\|_1\qquad(f\in L^1(\R^2),\ \lambda>0).
+\end{equation}
+The same constant is obtained with the strict level sets $\{Mf>\lambda\}$, since $\{Mf\ge\lambda\}$ is the decreasing intersection of the sets $\{Mf>\lambda'\}$, $\lambda'<\lambda$, which have finite measure.
+
+The best constant in the weak type $(1,1)$ inequality for the centred maximal operator is known only in dimension one, where it is $(11+\sqrt{61})/12$ \cite{Mel03}; in higher dimensions it is not known, and for cubes the constants tend to infinity with the dimension \cite{Ald11}, while for Euclidean balls they grow at most like $\sqrt n\log n$ \cite{SS26}. The plane is thus the first open case. For squares, the Vitali covering argument shows that $c_2\le9$, and a refinement yields $c_2\le4$ \cite[Exercise~42]{Tao10}; both are stated there for balls, and the same arguments apply to squares. Aldaz proved the lower bound $c_2\ge3/4-\sqrt2/4+\sqrt6/2=1.6211\ldots$ \cite{Ald00}. The constant $c_2$ is also entry 47a of the list of optimization constants collected by Tao and others \cite{Tao26}.
+
+Lin improved both bounds. He proved $c_2\ge1.6855\ldots$ with a periodic measure \cite{Lin26b}, and an upper bound by comparison with a nonlocal operator \cite{Lin26a}, adapting the partial balayage method of Spector and Stockdale \cite{SS26}. In coordinates $(u,v)$ in which squares become diamonds, let $r=|u|+|v|$ and let $D=\{r\le1\}$ be the unit diamond. For $0<\alpha<2$ let $A_\alpha=-|\partial_u|^\alpha-|\partial_v|^\alpha$, the Fourier multiplier with symbol $-(|\xi_1|^\alpha+|\xi_2|^\alpha)$. Lin's comparison principle states that $c_2\le\frac12\int K$ for every even integrable kernel $K$ with $K\ge\mathbf 1_D$ (that is, $K\ge0$, and $K\ge1$ on $D$) and $A_\alpha K\ge0$ on $\R^2\setminus\{0\}$. With $\alpha=1$ and an explicit kernel, Lin proves $c_2<3.878624$ from this principle; this proof and that of the lower bound are formalized in Lean \cite{Lin26b}. With a kernel for $\alpha=6/5$, made of a truncated power of $r$ and cubic B-splines, Lin obtained $c_2<3.615749$ \cite{Lin26a,Lin26c}, and his formalization \cite{Lin26d} proves the weaker bound $c_2<452/125=3.616$ with this kernel in Lean.
+
+\begin{theorem}\label{thm:main}
+$c_2\le\CBOUND$.
+\end{theorem}
+
+\begin{theorem}\label{thm:lower}
+$c_2\ge\LBDEC$.
+\end{theorem}
+
+The proof of Theorem~\ref{thm:main} applies the comparison principle to an explicit kernel in Lin's family,
+\begin{equation}\label{eq:kernel}
+K(u,v)=c\,\Psi(|u|+|v|)+S(u,v),\qquad S(u,v)=\sum_{i,j}a_{ij}\,B\Bigl(\frac uh-i\Bigr)B\Bigl(\frac vh-j\Bigr),
+\end{equation}
+where $\Psi(r)=(r^{-\alpha}-R^{-\alpha})_+$ and $B$ is the centred cubic B-spline. We take $\alpha=\ALPHA$, $R=\RR$ and $h=\HH$ (Section~\ref{sec:kernel}). For Theorem~\ref{thm:lower} we use, as Lin does, that $c_2$ is at least the area of a part of a period cell on which the maximal function of a periodic measure is at least $1$, divided by the mass of the cell (Lemma~\ref{lem:periodic}). We apply this to Lin's lattice of point masses, with slightly changed periods and masses and with $48$ small atoms added to each period cell (Section~\ref{sec:lower}).
+
+Section~\ref{sec:principle} states the comparison principle (proved in Appendix~\ref{app:principle}, following \cite{Lin26a}), Section~\ref{sec:closed} computes $A_\alpha K$ in closed form, Section~\ref{sec:kernel} describes the kernel and Section~\ref{sec:verify} its verification. Section~\ref{sec:lower} proves Theorem~\ref{thm:lower}, Section~\ref{sec:gap} discusses the remaining gap, and Appendix~\ref{app:lean} describes the proofs of both theorems in Lean.
+
+\section{The comparison principle}\label{sec:principle}
+
+\subsection{Diamonds} Let $T(u,v)=(u+v,u-v)$. Then $|\det T|=2$ and $T(D)=[-1,1]^2$, since $\max(|u+v|,|u-v|)=|u|+|v|$. For $g\in L^1(\R^2)$ let
+\[
+M_Dg(z)=\sup_{s>0}\frac{1}{2s^2}\int_{z+sD}|g(w)|\dd w .
+\]
+If $g=f\circ T$, then $\int_{z+sD}|g|=\frac12\int_{Q(Tz,s)}|f|$ and $|z+sD|=2s^2$, so $M_Dg=(Mf)\circ T$. Since also $|\{M_Dg>\lambda\}|=\frac12|\{Mf>\lambda\}|$ and $\|g\|_1=\frac12\|f\|_1$, the best weak type $(1,1)$ constant of $M_D$ is $c_2$.
+
+\subsection{The operator} For $0<\alpha<2$ and a function $f$ on $\R^2$ let
+\begin{equation}\label{eq:A}
+Af(x)=\sum_{j=1}^2\int_{\R}\bigl[f(x+te_j)+f(x-te_j)-2f(x)\bigr]\frac{\dd t}{|t|^{1+\alpha}},
+\end{equation}
+where $e_1,e_2$ are the coordinate vectors. We write $\hat g(\xi)=\int g(x)e^{-ix\cdot\xi}\dd x$, so that $\int g\bar w=(2\pi)^{-2}\int\hat g\,\overline{\hat w}$ for $g,w\in L^2(\R^2)$, and $\psi(\xi)=|\xi_1|^\alpha+|\xi_2|^\alpha$.
+
+For $\phi\in\Cc(\R^2)$ the bracket in \eqref{eq:A} is at most $\min(t^2\|\nabla^2\phi\|_\infty,4\|\phi\|_\infty)$ in absolute value, so the integral converges absolutely and $A\phi$ is bounded and continuous. Outside $\supp\phi$ only the terms $\phi(x\pm te_j)$ remain, so $A\phi$ vanishes outside the union of $\supp\phi$ and two strips of bounded width parallel to the axes, and it is $O(|x|^{-1-\alpha})$ along each strip. Hence $A\phi\in L^1\cap L^\infty$, and by Fubini's theorem $\widehat{A\phi}=-d_\alpha\psi\hat\phi$, where
+\[
+d_\alpha=\int_{\R}\frac{2(1-\cos t)}{|t|^{1+\alpha}}\dd t=\frac{4\Gamma(1-\alpha)\cos(\pi\alpha/2)}{\alpha}>0
+\]
+(with $d_1=2\pi$). Thus $A=d_\alpha A_\alpha$ on $\Cc(\R^2)$, where $A_\alpha$ is the Fourier multiplier with symbol $-\psi$. The sign conditions below do not depend on this normalization.
+
+For $v\in L^1(\R^2)$ let
+\[
+\mathcal E(v,v)=\sum_{j=1}^2\iint\bigl[v(x+te_j)-v(x)\bigr]^2\frac{\dd t\dd x}{|t|^{1+\alpha}}\in[0,\infty].
+\]
+By Plancherel's identity (in $[0,\infty]$) for each $t$ and Tonelli's theorem, $\mathcal E(v,v)=(2\pi)^{-2}d_\alpha\int\psi|\hat v|^2$. Let $H$ be the space of $v\in L^1(\R^2)$ with $\mathcal E(v,v)<\infty$. Since $\hat v$ is bounded and $\psi(\xi)\ge|\xi|^\alpha$, every $v\in H$ has $\hat v\in L^2$, so $H\subset L^1\cap L^2$. On $H$ we use the bilinear form $\mathcal E(v,w)=(2\pi)^{-2}d_\alpha\int\psi\,\hat v\,\overline{\hat w}$. Then $\Cc(\R^2)\subset H$, and $\mathcal E(v,\phi)=-\int v\,A\phi$ for $v\in H$ and $\phi\in\Cc(\R^2)$ by Plancherel's identity. Since $|a_+-b_+|\le|a-b|$, $v_+\in H$ for every $v\in H$.
+
+For $K\in L^1(\R^2)$ we write $AK\ge0$ on $\R^2\setminus\{0\}$ if $\int K\,A\phi\ge0$ for every nonnegative $\phi\in\Cc(\R^2\setminus\{0\})$.
+
+\begin{theorem}[Lin]\label{thm:principle}
+Let $0<\alpha<2$ and let $K\in L^1(\R^2)$ be even, with $K\ge0$ almost everywhere, $K\ge1$ almost everywhere on $D$, and $AK\ge0$ on $\R^2\setminus\{0\}$. Then $c_2\le\frac12\int K$.
+\end{theorem}
+
+This is \cite[Theorem~1]{Lin26a}, where the first two conditions are written $K\ge\mathbf 1_D$; see also \cite[Principle~2 and Corollary~3.1]{Lin26c}. We follow the proof in \cite{Lin26a}, which treats the transfer step (Lemma~\ref{lem:transfer} below) for $f\in\Cc$, and write out the extension to integrable $f$, which \cite{Lin26c} outlines. For $s>0$ let $K_s(x)=s^{-2}K(x/s)$, and for $f\ge0$ let $M_Kf=\sup_{s>0}K_s*f$.
+
+\begin{lemma}[{\cite[Lemma~1]{Lin26a}}]\label{lem:domination}
+If $K\ge0$ almost everywhere and $K\ge1$ almost everywhere on $D$, then $M_Dg\le\frac12M_K|g|$.
+\end{lemma}
+
+\begin{proof}
+$K_s\ge s^{-2}\mathbf 1_{sD}$ almost everywhere and $D=-D$, so $\frac{1}{2s^2}\int_{z+sD}|g|=\frac{1}{2s^2}\int_{sD}|g(z-w)|\dd w\le\frac12(K_s*|g|)(z)$.
+\end{proof}
+
+\begin{lemma}[{\cite[Lemma~2]{Lin26a}}]\label{lem:obstacle}
+Let $0\le f\in\Cc(\R^2)$ and $\mu>0$. There are $U\in H$ with $U\ge0$ and a measurable $\sigma$ with $0\le\sigma\le\mu$ such that $\int U\,A\phi=\int(\sigma-f)\phi$ for every $\phi\in\Cc(\R^2)$, $\sigma=\mu$ almost everywhere on $\Omega=\{U>0\}$, and $\int\sigma=\int f$. In particular $\mu|\Omega|\le\|f\|_1$.
+\end{lemma}
+
+We quote this lemma and outline Lin's proof. Lin states the lemma for $A_\alpha$, and dividing his solution by $d_\alpha$ yields the form above. His proof, in the present normalization, minimizes $\frac12\mathcal E(v,v)+\mu\int v-\int fv$ over nonnegative $v\in H$. The functional is coercive by the fractional Sobolev inequality \cite{DNPV12}, and weak compactness yields a minimizer $U$. Truncation in the variational inequality leads to the Lewy--Stampacchia bound $-f\le AU\le\mu-f$ in the sense of distributions. The function $\sigma=f+AU$ then satisfies $0\le\sigma\le\mu$. Testing the Euler--Lagrange identity with $U$ itself shows that $\int U(\mu-\sigma)=0$, so $\sigma=\mu$ on $\Omega$. Finally, $\int\sigma=\int f$ follows by testing with $\chi(\cdot/\rho)$ and using $\|A[\chi(\cdot/\rho)]\|_\infty=\rho^{-\alpha}\|A\chi\|_\infty$.
+
+\begin{lemma}[after {\cite[Lemma~3]{Lin26a}}]\label{lem:transfer}
+Under the hypotheses of Theorem~\ref{thm:principle}, every bounded, compactly supported, measurable $f\ge0$ and every $\lambda>0$ satisfy $|\{M_Kf>\lambda\}|\le\|K\|_1\|f\|_1/\lambda$.
+\end{lemma}
+
+We prove Lemma~\ref{lem:transfer} and Theorem~\ref{thm:principle} in Appendix~\ref{app:principle}.
+
+\section{The operator on the kernel}\label{sec:closed}
+
+Throughout this section $1<\alpha<2$. The kernel \eqref{eq:kernel} is continuous on $\R^2\setminus\{0\}$, and, for $c>0$, $K(x)\to\infty$ as $x\to0$. We first show that the pointwise values of $AK$ determine the sign condition of Theorem~\ref{thm:principle}.
+
+\begin{lemma}\label{lem:regularity}
+Let $K$ be given by \eqref{eq:kernel} with finitely many nonzero $a_{ij}$. For every $x=(u,v)$ with $uv\ne0$ and $|u|+|v|\ne R$ the integral \eqref{eq:A} for $AK(x)$ converges absolutely, and $\int K\,A\phi=\int(AK)\phi$ for every $\phi\in\Cc(\R^2\setminus\{0\})$.
+\end{lemma}
+
+\begin{proof}
+Let $G(x)=\sum_j\int|K(x+te_j)+K(x-te_j)-2K(x)|\,|t|^{-1-\alpha}\dd t\in[0,\infty]$. At a point $x$ as in the statement, $K$ is $C^2$ near $x$ and bounded on the two lines $x+\R e_j$, which do not pass through the origin, so $G(x)<\infty$. We show that $G$ is locally integrable on $\R^2\setminus\{0\}$. The part $|t|\ge1$, integrated over a compact set $E$, is at most $C(\|K\|_1+\int_E|K|)$, since $K\in L^1$. For $|t|<1$, the spline part $S$ is $C^2$ with bounded second derivatives, so its second differences are $O(t^2)$. The function $\Psi(|u|+|v|)$ is $C^2$ off the axes, the curve $r=R$ and the origin. Near a point at distance $\delta$ from the axes or from $r=R$ and away from the origin, its second difference along $e_j$ is $O(t^2)$ for $|t|<\delta$ and $O(|t|)$ for $|t|\ge\delta$ (segments that pass near the origin are treated next), so its contribution to $G$ is $O(\delta^{1-\alpha})$, which is integrable because $\alpha<2$. Finally, if the line $x+\R e_j$ passes at distance $\delta$ from the origin, the singularity $(\,|\tau|+\delta)^{-\alpha}$ of $\Psi$ on it contributes $O(\delta^{1-\alpha}|x|^{-1-\alpha})$, again integrable near the axes. Hence $G\in L^1_{\mathrm{loc}}(\R^2\setminus\{0\})$.
+
+For $\varepsilon>0$ let $A_\varepsilon$ denote \eqref{eq:A} restricted to $|t|>\varepsilon$. By Fubini's theorem and the substitutions $x\mapsto x\mp te_j$, $\int K\,A_\varepsilon\phi=\int(A_\varepsilon K)\phi$. As $\varepsilon\to0$ the left side tends to $\int K\,A\phi$ by dominated convergence, since the bracket for $\phi$ is $O(\min(t^2,1))$ and $K\in L^1$. The right side tends to $\int(AK)\phi$ by dominated convergence with majorant $G|\phi|$.
+\end{proof}
+
+\subsection{B-splines} Let $B(x)=\frac1{12}\sum_{k=-2}^2w_k|x-k|^3$ with $(w_{-2},\dots,w_2)=(1,-4,6,-4,1)$. This is the centred cubic B-spline: $B$ is $C^2$, supported in $[-2,2]$, with $B(x)=(4-6x^2+3|x|^3)/6$ for $|x|\le1$, $B(x)=(2-|x|)^3/6$ for $1\le|x|\le2$, and $\int B=1$. For a function $b$ on $\R$ let $L_\alpha b(s)=\int[b(s+t)+b(s-t)-2b(s)]|t|^{-1-\alpha}\dd t$.
+
+\begin{lemma}\label{lem:bspline}
+$L_\alpha B(s)=\kappa\sum_{k=-2}^2w_k|s-k|^{3-\alpha}$ with $\kappa=-2/(\alpha(1-\alpha)(2-\alpha)(3-\alpha))$.
+\end{lemma}
+
+\begin{proof}
+With $\hat b(\xi)=\int b(x)e^{-ix\xi}\dd x$ we have $\hat B(\xi)=(2-2\cos\xi)^2/\xi^4$ and $(2-2\cos\xi)^2=\sum_kw_ke^{-ik\xi}$, and $\widehat{L_\alpha B}(\xi)=-d_\alpha|\xi|^\alpha\hat B(\xi)$ with $d_\alpha$ as in Section~\ref{sec:principle}. For $1<q<2$ the Fourier transform of the tempered distribution $|x|^q$ is the homogeneous distribution $c_q|\xi|^{-1-q}$, $c_q=-2\Gamma(1+q)\sin(\pi q/2)$, defined by analytic continuation in $q$. Its product with the smooth function $\sum_kw_ke^{-ik\xi}$, which vanishes to order $4$ at $0$, is the locally integrable function $c_q|\xi|^{-1-q}(2-2\cos\xi)^2$, because the pairing with this product converges absolutely for $-1-q>-5$. Hence, with $q=3-\alpha$, the Fourier transform of $\sum_kw_k|x-k|^{3-\alpha}$ is $c_{3-\alpha}|\xi|^{\alpha-4}(2-2\cos\xi)^2$, and $\widehat{L_\alpha B}$ is $-d_\alpha/c_{3-\alpha}$ times it. Both $L_\alpha B$ and $\sum_kw_k|x-k|^{3-\alpha}$ are continuous and bounded, so they agree up to this factor. Finally $-d_\alpha/c_{3-\alpha}=-2\Gamma(1-\alpha)/(\alpha\Gamma(4-\alpha))=\kappa$.
+\end{proof}
+
+Consequently, since only finitely many $a_{ij}$ are nonzero,
+\begin{equation}\label{eq:AS}
+AS(u,v)=h^{-\alpha}\kappa\sum_m\Bigl[\Bigl|\frac uh-m\Bigr|^{3-\alpha}P_m\Bigl(\frac vh\Bigr)+\Bigl|\frac vh-m\Bigr|^{3-\alpha}P'_m\Bigl(\frac uh\Bigr)\Bigr],
+\end{equation}
+where $P_m(y)=\sum_j\bigl(\sum_kw_ka_{m-k,j}\bigr)B(y-j)$ and $P'_m(y)=\sum_i\bigl(\sum_kw_ka_{i,m-k}\bigr)B(y-i)$.
+
+\subsection{Powers of the diamond norm}
+
+\begin{lemma}\label{lem:power}
+Let $r=|u|+|v|$ and
+\[
+C_\alpha=-\frac{8\,\Gamma(1-\alpha)\,\Gamma(2\alpha)\cos^2(\pi\alpha/2)}{\Gamma(1+\alpha)}>0 .
+\]
+Then $\int r^{-\alpha}A\phi=C_\alpha\int r^{-2\alpha}\phi$ for every $\phi\in\Cc(\R^2\setminus\{0\})$. For every $(u,v)$ with $uv\ne0$ the integral \eqref{eq:A} for $A\,r^{-\alpha}$ converges absolutely and equals $C_\alpha r^{-2\alpha}$.
+\end{lemma}
+
+\begin{proof}
+For $0<\operatorname{Re}s<2$ the function $f_s=r^{-s}$ is locally integrable and tempered, and $r^{-s}=\Gamma(s)^{-1}\int_0^\infty\lambda^{s-1}e^{-\lambda|u|}e^{-\lambda|v|}\dd\lambda$. Since $\widehat{e^{-\lambda|x|}}=2\lambda/(\lambda^2+\xi^2)$, Fubini's theorem shows that $\hat f_s=m_s$, where
+\[
+m_s(\xi)=\frac{1}{\Gamma(s)}\int_0^\infty\frac{4\lambda^{s+1}\dd\lambda}{(\lambda^2+\xi_1^2)(\lambda^2+\xi_2^2)}=k_s\,\frac{|\xi_1|^s-|\xi_2|^s}{\xi_1^2-\xi_2^2},\qquad k_s=\frac{2\pi}{\Gamma(s)\sin(\pi s/2)},
+\]
+by partial fractions. Let $\phi\in\Cc(\R^2\setminus\{0\})$ be real. Since $f_\alpha\in L^1+L^2$ and $A\phi\in L^1\cap L^\infty$ with $\widehat{A\phi}=-d_\alpha\psi\hat\phi\in L^1$, Parseval's identity and $(|\xi_1|^\alpha+|\xi_2|^\alpha)(|\xi_1|^\alpha-|\xi_2|^\alpha)=|\xi_1|^{2\alpha}-|\xi_2|^{2\alpha}$ give
+\[
+\int f_\alpha\,A\phi=-\frac{d_\alpha k_\alpha}{(2\pi)^2}\int n(\xi)\,\overline{\hat\phi(\xi)}\dd\xi,\qquad n(\xi)=\frac{|\xi_1|^{2\alpha}-|\xi_2|^{2\alpha}}{\xi_1^2-\xi_2^2}.
+\]
+The function $F(s)=\int r^{-s}\phi$ is entire. The function $G(s)=(2\pi)^{-2}\int m_s\overline{\hat\phi}$ is analytic on $0<\operatorname{Re}s<4$, apart from a possible pole of $k_s$ at $s=2$. It is removable, because $(|\xi_1|^s-|\xi_2|^s)/(\xi_1^2-\xi_2^2)$ equals $1$ at $s=2$ and $\int\hat\phi=(2\pi)^2\phi(0)=0$. Since $F=G$ on $0<\operatorname{Re}s<2$, they agree on $0<\operatorname{Re}s<4$, and at $s=2\alpha\in(2,4)$ we get $\int r^{-2\alpha}\phi=k_{2\alpha}(2\pi)^{-2}\int n\,\overline{\hat\phi}$. Hence $\int r^{-\alpha}A\phi=C_\alpha\int r^{-2\alpha}\phi$ with $C_\alpha=-d_\alpha k_\alpha/k_{2\alpha}$, which simplifies to the stated formula. For $1<\alpha<2$, $\Gamma(1-\alpha)<0$, so $C_\alpha>0$.
+
+Let $x=(u,v)$ with $uv\ne0$. Then $r^{-\alpha}$ is smooth near $x$ and at most $\min(|u|,|v|)^{-\alpha}$ on the lines $x+\R e_j$, so \eqref{eq:A} converges absolutely, locally uniformly in $x$, and $A\,r^{-\alpha}$ is continuous on $\{uv\ne0\}$. For $\phi\in\Cc(\{uv\ne0\})$ the argument in the second paragraph of the proof of Lemma~\ref{lem:regularity} shows that $\int r^{-\alpha}A\phi=\int(A\,r^{-\alpha})\phi$; on the left, dominated convergence applies because the bracket for $\phi$ vanishes unless $x$ lies in $\supp\phi$ or in one of two strips that avoid a neighbourhood of the origin, where $r^{-\alpha}$ is bounded. Hence $A\,r^{-\alpha}=C_\alpha r^{-2\alpha}$ on $\{uv\ne0\}$.
+\end{proof}
+
+The constants of Lemmas~\ref{lem:bspline} and~\ref{lem:power} are $\kappa=\Kappa$ and $C_\alpha=\Calpha$ for $\alpha=\ALPHA$.
+
+\subsection{The truncated power} Let $R>0$ and $\Psi(r)=(r^{-\alpha}-R^{-\alpha})_+$. By the symmetries of $A$ it suffices to consider $u,v\ge0$.
+
+\begin{lemma}\label{lem:inside}
+For $u,v>0$ with $r=u+v<R$,
+\[
+A\Psi(|u|+|v|)=C_\alpha r^{-2\alpha}+4I(R-r)+2I(R+u-v)+2I(R+v-u),
+\]
+where, for $0<d<\infty$,
+\[
+I(d)=\int_0^\infty\bigl[R^{-\alpha}-(R+s)^{-\alpha}\bigr](d+s)^{-1-\alpha}\dd s=\frac{R^{-\alpha}d^{-\alpha}}{\alpha}-\frac{d^{-2\alpha}}{2\alpha}\,{}_2F_1\Bigl(\alpha,2\alpha;2\alpha+1;-\frac{R-d}{d}\Bigr).
+\]
+\end{lemma}
+
+\begin{proof}
+Write $\Psi(\rho)=\rho^{-\alpha}-R^{-\alpha}+\tau(\rho)$ with $\tau(\rho)=(R^{-\alpha}-\rho^{-\alpha})_+$. Constants are annihilated by $A$, so by Lemma~\ref{lem:power}, $A\Psi=C_\alpha r^{-2\alpha}+A[\tau(|u|+|v|)]$. Since $\tau$ vanishes on $\{\rho\le R\}$, which contains $x=(u,v)$, we have $A[\tau](x)=\sum_j\int\tau(|x+te_j|_1)\,2|t|^{-1-\alpha}\dd t$, where $|\cdot|_1$ is the diamond norm, after combining $\pm t$. On the line $x+te_1$ we have $|x+te_1|_1=r+t$ for $t\ge0$ and $=-t-u+v$ for $t\le-u$. Thus $\tau>0$ exactly for $t>R-r$ and for $t<-(R+u-v)$, and the two pieces contribute $2I(R-r)$ and $2I(R+u-v)$. The line $x+te_2$ contributes $2I(R-r)$ and $2I(R+v-u)$. The closed form follows from $\int_0^\infty(R+s)^{-\alpha}(d+s)^{-1-\alpha}\dd s=d^{-2\alpha}(2\alpha)^{-1}{}_2F_1(\alpha,2\alpha;2\alpha+1;1-R/d)$.
+\end{proof}
+
+\begin{lemma}\label{lem:outside}
+For $u,v>0$ with $u+v>R$,
+\[
+A\Psi(|u|+|v|)=2J(u,v)+2J(v,u),\qquad J(x,y)=\int_{y-R}^{R-y}\Psi(|t|+y)\,|x-t|^{-1-\alpha}\dd t\qquad(y<R),
+\]
+with $J(x,y)=0$ for $y\ge R$. On $\{u,v>0,\ u+v>R\}$ the function $A\Psi$ is nonnegative and nonincreasing in $u$ and in $v$.
+\end{lemma}
+
+\begin{proof}
+$\Psi$ vanishes at $x$, so $A\Psi(x)=\sum_j\int\Psi(|x+te_j|_1)\,2|t|^{-1-\alpha}\dd t$. On the line $x+te_1$, parametrized by $s=u+t$, the integrand is $\Psi(|s|+v)|s-u|^{-1-\alpha}$, supported in $|s|<R-v<u$. As $u$ increases, $|s-u|^{-1-\alpha}$ decreases for every $s$ in the support. On the line $x+te_2$ the integrand is $\Psi(u+|v+t|)|t|^{-1-\alpha}$, which is nonincreasing in $u$. The same holds with $u$ and $v$ exchanged.
+\end{proof}
+
+By Lemmas~\ref{lem:bspline}--\ref{lem:outside}, $AK=c\,A\Psi+AS$ is explicit off the axes and off the curve $r=R$: a finite sum of powers $|u/h-m|^{3-\alpha}$ and $|v/h-m|^{3-\alpha}$ times piecewise cubic polynomials, plus $c\,A\Psi$, given by elementary and hypergeometric functions inside $r<R$ and by one-dimensional integrals of elementary functions outside.
+
+\section{The kernel}\label{sec:kernel}
+
+To see the role of the exponent, note that for $\alpha=1$ the function $r^{-1}$ is a multiple of the Green function of $A$, and the kernel $(R/r-1)_+/(R-1)$ has $\frac12\int K=R^2/(R-1)$, which is minimal for $R=2$, where it equals the covering bound $4$. For $1<\alpha<2$, Lemma~\ref{lem:power} shows that $r^{-\alpha}$ is strictly subharmonic for $A$ off the origin, which the spline part can trade against $\int K$. For a singular part $r^{-\beta}$ with $1<\beta<2$, at points $(u,v)$ with small $|v|$ the kink of $r^{-\beta}$ across the axis contributes a negative term of order $|v|^{1-\alpha}$ to $A\,r^{-\beta}$, and the lines passing near the origin contribute a positive term of order $|v|^{1-\beta}$. For $\beta=\alpha$ the two leading terms cancel, consistent with Lemma~\ref{lem:power}; for $\beta<\alpha$, $A\,r^{-\beta}$ tends to $-\infty$ at the axes. Both of Lin's kernels and ours use $\beta=\alpha$.
+
+The kernel \eqref{eq:kernel} has the parameters $\alpha=\ALPHA$, $R=\RR$, $h=\HH$ and $c=\CC$ ($=\CCdec$). The coefficients satisfy $a_{ij}=a_{|i|,|j|}=a_{ji}$ and $a_{ij}=0$ unless $\max(|i|,|j|)\le\MAXIDX$. There are $\NCLASS$ nonzero values $a_{ij}$ with $0\le j\le i$, all dyadic rationals with denominators dividing $\DENMAX$, and they are listed in the certificate file, which is archived with the programs and the Lean proofs (\href{https://doi.org/\ZENODODOI}{doi:\ZENODODOI}). Thus $K$ has the symmetries of the square, and $S$ vanishes outside $\max(|u|,|v|)<\SUPPU$. Since $\int B=1$ and $\int_{\R^2}\Psi(|u|+|v|)\dd u\dd v=\int_0^R(\rho^{-\alpha}-R^{-\alpha})4\rho\dd\rho$,
+\begin{equation}\label{eq:mass}
+\int K=c\,\frac{2\alpha R^{2-\alpha}}{2-\alpha}+h^2\sum_{i,j}a_{ij}.
+\end{equation}
+For our kernel, $\frac12\int K=\MASSHALF$, of which the singular part contributes $\SINGHALF$ and the spline part $\SPLHALF$; the spline part is negative near the origin, where it offsets part of the singular term.
+
+The kernel was found by linear programming. For fixed $\alpha$, $R$ and $h$, the conditions $K\ge0$, $K\ge1$ on $D$ and $AK\ge0$ are linear in $(c,a_{ij})$, and so is $\int K$; minimizing $\int K$ subject to these conditions at finitely many points is a linear program, which we solved with HiGHS \cite{HiGHS}. Constraints imposed at finitely many points are not enough, because the optimal solutions have $AK=0$ on large sets and turn negative between the sample points. We therefore added violated constraints from successively finer grids, required $AK$ to exceed a small margin, and refined the grid around the points where the verifier of Section~\ref{sec:verify} failed. The coefficients were then rounded to the dyadic grid. Only the certificate enters the proof, so the search programs need not be trusted.
+
+\section{Verification}\label{sec:verify}
+
+By Theorem~\ref{thm:principle} and Lemma~\ref{lem:regularity}, Theorem~\ref{thm:main} follows from four statements about the kernel of Section~\ref{sec:kernel}:
+\begin{enumerate}[label=(C\arabic*)]
+\item $K\ge0$ on $\R^2\setminus\{0\}$;
+\item $K\ge1$ on $D\setminus\{0\}$;
+\item $\frac12\int K\le\CBOUND$;
+\item $AK(x)\ge0$ for almost every $x\ne0$.
+\end{enumerate}
+$K$ is even, and $K\in L^1$ because $\alpha<2$ and $S$ has compact support. By the symmetries of $K$ and of $A$ it suffices to verify (C1), (C2) and (C4) on $\{0\le v\le u\}$. Where $K$ vanishes, (C4) follows from (C1), because then $AK(x)=\sum_j\int[K(x+te_j)+K(x-te_j)]|t|^{-1-\alpha}\dd t$.
+
+(C3) is the evaluation of \eqref{eq:mass} in ball arithmetic. For (C1) and (C2), on each cell of the grid $h\Z^2$ in $\{0\le v\le u\}$ the spline part is a polynomial of degree $3$ in each variable, and the least of its Bernstein coefficients, computed exactly, is a lower bound. The singular part $c\Psi(u+v)$ is convex and nonincreasing in $r=u+v$ on $u,v\ge0$, so on a cell it is bounded below by its value at the largest $r$, by a tangent line in $r$, or by a Taylor polynomial with remainder; these bounds are polynomials in $(u,v)$ and are added to the Bernstein net. Cells cut by the line $u+v=1$ are split, and failing cells are subdivided.
+
+For (C4), the cells of $h\Z^2$ in $\{0\le v\le u\}$ on which $K$ is not identically zero are divided into sub-cells, uniformly in the first program and more finely toward the knot lines in the second. On a sub-cell, $AS$ is given by \eqref{eq:AS}. Each power $|u/h-m|^{3-\alpha}$ is replaced by a Taylor polynomial with an explicit remainder; for the two knot lines that bound the knot cell, near which the power is not smooth, it is bounded by its chord together with a tangent line or an explicit error term. The term $c\,A\Psi$ is bounded below either by a Taylor model with remainder or by termwise bounds at the corners of the sub-cell. These termwise bounds use that $C_\alpha r^{-2\alpha}$ and $I$ are decreasing and, outside the curve $r=R$, they also use Lemma~\ref{lem:outside}. At some points the two terms $c\,A\Psi$ and $AS$ are large and nearly cancel; there only a joint polynomial model of their sum, bounded through its Bernstein coefficients, proves positivity. The closed forms of Section~\ref{sec:closed} hold at every point of a sub-cell that lies off the axes and off the curve $r=R$; on sub-cells that meet the curve $r=R$ only the monotone bounds are used. A sub-cell passes if the resulting lower bound is nonnegative; otherwise it is quadrisected. Near the origin the term $c\,C_\alpha r^{-2\alpha}\ge0$ of Lemma~\ref{lem:inside} dominates, and the same bounds apply to the sub-cells that contain the origin.
+
+Two independent programs carry out these checks in ball arithmetic with the Arb library \cite{Joh17}, and both accept the certificate. Table~\ref{tab:verify} gives their figures for (C4); for (C1)--(C3) both confirm the claims, and the second program bounds $K$ below by $1.00009$ on $D$. Both rely on Arb's evaluation of ${}_2F_1$, also at arguments below $-1$; at sample points, the closed forms of Section~\ref{sec:closed} evaluated in this way agree with rigorous quadrature of the definition \eqref{eq:A}. The archive also contains the programs, their runs and these comparisons.
+
+The margins are small, because the linear program imposed positive margins on $AK$ only at its sample points: the smallest value of $AK$ that we found by sampling and local search, which is not certified, is $\LocalMinA$, just outside the curve $r=R$.
+
+With the coefficients of Lin's kernel for $\alpha=6/5$ \cite{Lin26d}, a truncated power $a(r^{-6/5}-R^{-6/5})_+$ plus a combination of cubic B-splines with spacing $1/16$ \cite{Lin26a,Lin26c}, the first program confirms that this kernel satisfies the hypotheses of Theorem~\ref{thm:principle} with $\frac12\int K=3.6157487\ldots$, so $c_2<3.615749$. For Lin's parameters $\alpha=6/5$, $R=7/4$ and $h=1/16$, the linear programs of Section~\ref{sec:kernel} yield about $3.599$ with constraints at finitely many points; this is the value of a relaxation rather than a bound, and it is consistent with Lin's bound.
+
+\begin{table}[ht]
+\caption{The checks of claim (C4) by the two programs, run with $16$ processes on a shared server.}\label{tab:verify}
+\begin{tabular}{@{}lll@{}}
+\toprule
+ & first program & second program\\
+\midrule
+least certified lower bound for $AK$ & $\VAmin$ & $3.28\cdot10^{-8}$\\
+sub-cells & $219{,}732$ evaluated & $443{,}754$ final\\
+time & $68$\,s & $33$\,s\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+The kernel of Section~\ref{sec:kernel} satisfies (C1)--(C4). It is even and integrable. By (C4) and Lemma~\ref{lem:regularity}, $AK\ge0$ on $\R^2\setminus\{0\}$ in the sense of Section~\ref{sec:principle}. Theorem~\ref{thm:principle} now yields $c_2\le\frac12\int K\le\CBOUND$.
+\end{proof}
+
+\section{A lower bound}\label{sec:lower}
+
+Lin's lower bound comes from a periodic measure \cite{Lin26b}. It has unit masses at the points $(i\eta,j(\eta+1))$ with $i$ even and masses $w$ at the points with $i$ odd, where $\eta=(5+\sqrt{22})/6$ and $w=(17+4\sqrt{22})/9$. On a period cell, every point outside four small rectangles is the centre of a square whose average mass is at least $1$, and truncating the lattice and spreading each atom over a small square turns this into a lower bound for $c_2$. We keep this scheme and change the periods and the mass $w$ slightly. With the new parameters the lattice alone gives only about $\LBFRAME$, but the points that it leaves uncovered lie mostly in thin horizontal strips. We add rows of small atoms in these strips.
+
+For a measure $\mu=\sum_pm_p\delta_p$ with $m_p>0$ and finitely many atoms $p$ in each bounded set we write $M\mu(x)=\sup_{s>0}\mu(Q(x,s))/(4s^2)$, with the closed squares $Q(x,s)=\{y:|y-x|_\infty\le s\}$ of Section~\ref{sec:intro}.
+
+\begin{lemma}\label{lem:rect}
+Let $\mu$ be such a measure, let $\lambda>0$, let $S$ be a finite set of atoms of $\mu$, and let $0<\rho\le\sqrt{\mu(S)/(4\lambda)}$. Then $M\mu\ge\lambda$ on the rectangle $R_S(\rho)=\bigcap_{p\in S}Q(p,\rho)$.
+\end{lemma}
+
+\begin{proof}
+If $x\in R_S(\rho)$, then $|p-x|_\infty\le\rho$ for every $p\in S$, so $S\subset Q(x,\rho)$ and $\mu(Q(x,\rho))\ge\mu(S)\ge4\lambda\rho^2$.
+\end{proof}
+
+\begin{lemma}\label{lem:periodic}
+Let $\mu$ be periodic with respect to the lattice $P_x\Z\times P_y\Z$, with finitely many atoms in the cell $C=[0,P_x)\times[0,P_y)$, and let $\lambda>0$. Let $U$ be the union of the lattice translates of finitely many rectangles $R_1,\dots,R_n$, where each $R_i$ is contained in $R_{S_i}(\rho_i)$ for a finite set $S_i$ of atoms of $\mu$ and a number $0<\rho_i<\sqrt{\mu(S_i)/(4\lambda)}$. Then $c_2\ge\lambda\,|U\cap C|/\mu(C)$.
+\end{lemma}
+
+\begin{proof}
+We follow Lin's argument \cite{Lin26b}, which adapts the smoothing of point masses in \cite[Lemma~1.1]{Ald00} to atoms of arbitrary positive mass. Let $q$ be an integer with $q\min(P_x,P_y)\ge\max_i\rho_i$, let $N\ge2q$, and let $\mu_N$ be the restriction of $\mu$ to $B_N=[0,NP_x)\times[0,NP_y)$. Call the $(N-2q)^2$ cells $[kP_x,(k+1)P_x)\times[lP_y,(l+1)P_y)$ with $q\le k,l<N-q$ inner. Replace every atom $m\delta_p$ of $\mu_N$ by $m(2\varepsilon)^{-2}\mathbf 1_{Q(p,\varepsilon)}$, and call the sum $f_\varepsilon$, so that $\|f_\varepsilon\|_1=N^2\mu(C)$. Let $x$ be a point of an inner cell that lies in a translate $R_i+t$ by a lattice vector $t$. As in the proof of Lemma~\ref{lem:rect}, every atom $p$ in $S_i+t$ satisfies $|p-x|_\infty\le\rho_i$. Hence $p\in B_N$, and $Q(x,\rho_i+\varepsilon)$ contains $Q(p,\varepsilon)$, so $Mf_\varepsilon(x)\ge\mu(S_i)/(4(\rho_i+\varepsilon)^2)\ge\lambda$ if $\varepsilon\le\min_i\bigl(\sqrt{\mu(S_i)/(4\lambda)}-\rho_i\bigr)$. Since $U$ is periodic, its part in the inner cells has measure $(N-2q)^2|U\cap C|$, and \eqref{eq:weak} for $f_\varepsilon$ gives $c_2\ge\lambda|\{Mf_\varepsilon\ge\lambda\}|/\|f_\varepsilon\|_1\ge\lambda(N-2q)^2|U\cap C|/(N^2\mu(C))$. Letting $N\to\infty$ proves the lemma.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:lower}]
+We take $\lambda=1$ and the measure given by the certificate in the archive. Its period cell has sides $P_x\approx\LBPX$ and $P_y\approx\LBPY$, where Lin's lattice has $2\eta\approx3.2301$ and $\eta+1\approx2.6151$. The cell contains $\LBATOMS$ atoms, all with rational positions and masses. Two of them are as in Lin's lattice: an atom of mass $1$ at $(0,0)$ and an atom of mass $w'\approx\LBW$ at $(P_x/2,0)$, where Lin has $w\approx3.9735$. The other $48$ atoms are two horizontal segments of $\LBROWN$ equally spaced atoms, with masses about $0.0061$ on the first segment and $0.0050$ on the second, and their images under the reflections $x\mapsto-x$ and $y\mapsto-y$ (modulo the periods). The first segment lies at height about $0.3955\,P_y$, beside the column of the atoms of mass $w'$. The second lies at height about $0.2002\,P_y$, and together with its image under $x\mapsto-x$ it forms a row of $12$ atoms centred on the column of the atoms of mass $1$.
+
+A program in exact arithmetic enumerates the boxes $[x_a,x_b]\times[y_a,y_b]$ whose sides lie on coordinates of atoms in a window around the cell and have length at most $\LBREACH$. For each box, $S$ is the set of atoms in the box and $\rho_S$ is the largest multiple $k2^{-\LBDENEXP}$ with $(k2^{-\LBDENEXP})^2\le\mu(S)/4$, minus $2^{-\LBDENEXP}$, so that $\rho_S<\sqrt{\mu(S)/4}$; the program then forms the rectangle $[x_b-\rho_S,x_a+\rho_S]\times[y_b-\rho_S,y_a+\rho_S]$, which is contained in $R_S(\rho_S)$. It intersects these rectangles with the cell and takes the intersections of positive area as the rectangles $R_1,\dots,R_n$ of Lemma~\ref{lem:periodic}. Their translates by nonzero lattice vectors meet $C$ only in null sets, so $|U\cap C|$ is the area of $R_1\cup\dots\cup R_n$, which the program computes exactly. The quotient $|U\cap C|/\mu(C)$ is a rational number greater than $\LBDEC$, and Lemma~\ref{lem:periodic} gives the theorem.
+\end{proof}
+
+An independent re-implementation, which enumerates the sets $S$ differently and computes the area of the union of the rectangles $R_S(\rho_S)$, clipped to the cell, by another exact method, gives the same rational number.
+
+\section{The remaining gap}\label{sec:gap}
+
+The two bounds are still far apart. For the upper bound, the comparison principle gives $c_2\le\frac12\int K$ for every admissible kernel, so the method is limited only by the infimum of $\frac12\int K$ over such kernels, which is not known. Within the family \eqref{eq:kernel} with $h=1/16$, the linear programs of Section~\ref{sec:kernel}, which impose the conditions at finitely many points, gave their smallest values for $\alpha$ between $1.15$ and $1.2$ and $R$ near $1.65$. For the lower bound, Lemma~\ref{lem:periodic} is limited by how much of a period cell the rectangles $R_S(\rho_S)$ can cover per unit of mass; the atoms of Section~\ref{sec:lower} raise this ratio by filling the strips that the lattice leaves uncovered.
+
+\appendix
+\section{Proof of the comparison principle}\label{app:principle}
+
+\begin{proof}[Proof of Lemma~\ref{lem:transfer}]
+First let $f\in\Cc(\R^2)$. Put $\mu=\lambda/\|K\|_1$ and take $U,\sigma,\Omega$ from Lemma~\ref{lem:obstacle}. Fix $s>0$. The kernel $K_s$ is even, nonnegative and integrable with $\|K_s\|_1=\|K\|_1$, and $AK_s\ge0$ on $\R^2\setminus\{0\}$, because $\int K_s\,A\phi=s^{-\alpha}\int K\,A[\phi(s\,\cdot)]$.
+
+For $\phi\in\Cc(\R^2)$ let $\Lambda\phi=K_s*A\phi$, a bounded, continuous, integrable function. We show that $\Lambda$ satisfies the positive maximum principle. Let first $\phi\ge0$ with $\phi(0)=0$. Choose $\eta\in\Cc(\R^2)$ with $0\le\eta\le1$ and $\eta=1$ near $0$, and put $g_\varepsilon=\eta(\cdot/\varepsilon)\phi$. Since $\phi$ has a minimum at $0$, $\|g_\varepsilon\|_\infty\le C\varepsilon^2$ and $\|\nabla^2g_\varepsilon\|_\infty\le C$, hence $\|Ag_\varepsilon\|_\infty\le C\varepsilon^{2-\alpha}$. Since $K_s$ is even,
+\[
+\Lambda\phi(0)=\int K_s\,A\phi=\int K_s\,A(\phi-g_\varepsilon)+\int K_s\,Ag_\varepsilon\ge-\|K\|_1\,C\varepsilon^{2-\alpha},
+\]
+because $\phi-g_\varepsilon\ge0$ vanishes near $0$. Hence $\Lambda\phi(0)\ge0$, and by translation invariance $\Lambda\phi(x_0)\ge0$ whenever $\phi\ge0$ and $\phi(x_0)=0$. If $\phi$ attains a nonnegative global maximum $m$ at $x_0$, apply this to $m\chi(\cdot/\rho)-\phi$, where $\chi\in\Cc$ satisfies $0\le\chi\le1$ and $\chi=1$ on the unit ball, and let $\rho\to\infty$, using $\|\Lambda[\chi(\cdot/\rho)]\|_\infty\le\|K\|_1\rho^{-\alpha}\|A\chi\|_\infty$. We obtain $\Lambda\phi(x_0)\le0$.
+
+By Courr\`ege's theorem \cite{Cou64},
+\[
+\Lambda\phi=-\gamma\phi+b\cdot\nabla\phi+\operatorname{tr}(\Theta\nabla^2\phi)+\int\bigl(\phi(\cdot+z)-\phi-\mathbf 1_{|z|<1}\,z\cdot\nabla\phi\bigr)\dd\nu(z)
+\]
+with $\gamma\ge0$, a positive semidefinite matrix $\Theta$ and a L\'evy measure $\nu$. Testing with $\chi(\cdot/\rho)$ shows that $\gamma=0$. Since $K_s$ and $A$ are even, $\Lambda$ commutes with $\phi\mapsto\phi(-\cdot)$; after averaging the representation with its reflection we may take $b=0$ and $\nu$ symmetric. We compare the Fourier transforms of the two expressions for $\Lambda\phi$, which Fubini's theorem permits since $\int\min(1,|z|^2)\dd\nu(z)<\infty$, and obtain
+\begin{equation}\label{eq:symbol}
+\xi\cdot\Theta\xi+\int(1-\cos z\cdot\xi)\dd\nu(z)=d_\alpha\psi(\xi)\hat K_s(\xi)\qquad(\xi\in\R^2).
+\end{equation}
+The right side is at most $d_\alpha\|K\|_1\psi(\xi)=O(|\xi|^\alpha)$, and the left side is at least $\xi\cdot\Theta\xi$, so $\Theta=0$ because $\alpha<2$. For $v,w\in H$ let $\mathcal E_\Lambda(v,w)=(2\pi)^{-2}d_\alpha\int\psi\hat K_s\,\hat v\,\overline{\hat w}$. By \eqref{eq:symbol} with $\Theta=0$, Plancherel's identity for each $z$, Tonelli's theorem and polarization,
+\[
+\mathcal E_\Lambda(v,w)=\frac12\iint\bigl[v(x+z)-v(x)\bigr]\bigl[w(x+z)-w(x)\bigr]\dd x\dd\nu(z),
+\]
+and $0\le\mathcal E_\Lambda(v,v)\le\|K\|_1\,\mathcal E(v,v)$.
+
+Since $\sigma-f\in L^1\cap L^\infty$, the function $\Lambda U:=K_s*(\sigma-f)$ is bounded and lies in $L^2$. By the equation of Lemma~\ref{lem:obstacle} and Plancherel's identity, the tempered, locally integrable function $g=\hat\sigma-\hat f+d_\alpha\psi\hat U$ satisfies $\int g\,\overline{\hat\phi}=0$ for every $\phi\in\Cc$. The functions $\hat\phi$ are dense in the Schwartz space, so $g=0$, that is, $\hat\sigma-\hat f=-d_\alpha\psi\hat U$. Hence $\widehat{\Lambda U}=-d_\alpha\psi\hat K_s\hat U$; likewise $\widehat{\Lambda\phi}=-d_\alpha\psi\hat K_s\hat\phi$ for $\phi\in\Cc$. Therefore, by Plancherel's identity,
+\begin{equation}\label{eq:pairings}
+-\int(\Lambda U)w=\mathcal E_\Lambda(U,w),\qquad-\int(\Lambda\phi)w=\mathcal E_\Lambda(\phi,w)\qquad(w\in H).
+\end{equation}
+Let $0\le\phi\in\Cc$, $\varepsilon>0$ and $W=(\varepsilon\phi-U)_+\in H$. Applying the pointwise inequality $(a-b)(a_+-b_+)\ge(a_+-b_+)^2$ inside the double integral for $\mathcal E_\Lambda$, we find $\mathcal E_\Lambda(U-\varepsilon\phi,W)\le-\mathcal E_\Lambda(W,W)\le0$. Combined with \eqref{eq:pairings}, this yields
+\[
+-\int(\Lambda U)\frac W\varepsilon=\frac1\varepsilon\mathcal E_\Lambda(U,W)\le\mathcal E_\Lambda(\phi,W)=-\int(\Lambda\phi)\,W\le\varepsilon\|\Lambda\phi\|_\infty\int\phi .
+\]
+As $\varepsilon\to0$, $W/\varepsilon\to\phi\mathbf 1_{\{U=0\}}$ with $0\le W/\varepsilon\le\phi$, so $\int_{\{U=0\}}(\Lambda U)\phi\ge0$. Hence $\Lambda U\ge0$ almost everywhere on $\{U=0\}$, and there
+\[
+K_s*f=K_s*\sigma-\Lambda U\le K_s*\sigma\le\mu\|K_s\|_1=\lambda .
+\]
+The second inequality uses $K_s\ge0$ and $\sigma\le\mu$.
+
+For each $x$, $s\mapsto K_s*f(x)$ is continuous, since $s\mapsto K_s$ is continuous in $L^1$. Taking the inequality for all rational $s$ outside a common null set, we get $M_Kf\le\lambda$ almost everywhere on $\{U=0\}$, so $|\{M_Kf>\lambda\}|\le|\Omega|\le\|f\|_1/\mu=\|K\|_1\|f\|_1/\lambda$.
+
+Now let $f\ge0$ be bounded, measurable and compactly supported, and let $f_\varepsilon=f*\rho_\varepsilon$ for a mollifier $\rho_\varepsilon$. Then $\|f_\varepsilon\|_1=\|f\|_1$. Each $K_s*f$ is continuous, being the convolution of an integrable function with a bounded one, so $K_s*f_\varepsilon=(K_s*f)*\rho_\varepsilon\to K_s*f$ everywhere. Hence $M_Kf\le\liminf_{\varepsilon\to0}M_Kf_\varepsilon$, every point of $\{M_Kf>\lambda\}$ lies in $\{M_Kf_\varepsilon>\lambda\}$ for all small $\varepsilon$, and $|\{M_Kf>\lambda\}|\le\liminf_\varepsilon|\{M_Kf_\varepsilon>\lambda\}|\le\|K\|_1\|f\|_1/\lambda$.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:principle}]
+Let $g\in L^1(\R^2)$ and $f_n=\min(|g|,n)\mathbf 1_{\{|x|\le n\}}$. Since $K\ge0$, $K_s*f_n\uparrow K_s*|g|$ for each $s$ by monotone convergence, hence $M_Kf_n\uparrow M_K|g|$ and $\{M_K|g|>\lambda\}=\bigcup_n\{M_Kf_n>\lambda\}$. By Lemma~\ref{lem:transfer}, $|\{M_K|g|>\lambda\}|\le\|K\|_1\|g\|_1/\lambda$. By Lemma~\ref{lem:domination}, $|\{M_Dg>\lambda\}|\le|\{M_K|g|>2\lambda\}|\le\frac12\|K\|_1\|g\|_1/\lambda$, so the weak type constant of $M_D$ is at most $\frac12\|K\|_1=\frac12\int K$. It equals $c_2$.
+\end{proof}
+
+\section{Formal verification}\label{app:lean}
+
+Both theorems are also proved in Lean~4 with Mathlib. The formal statements use Lin's definitions \cite{Lin26b}, which take the strict level sets $\{Mf>\lambda\}$; these give the same constant (Section~\ref{sec:intro}). Both proofs use only the standard axioms \texttt{propext}, \texttt{Classical.choice} and \texttt{Quot.sound}, and their numerical data are checked by evaluation in the Lean kernel.
+
+Lin's formalization \cite{Lin26b} proves Lemma~\ref{lem:obstacle} for bounded, measurable, compactly supported $f\ge0$ and every $0<\alpha<2$, and the passage from such $f$ to integrable $f$. Its version of the transfer step assumes that $K$ has compact support and that $AK$ is a finite measure minus a multiple of the point mass at $0$. The kernel \eqref{eq:kernel} with $\alpha>1$ is outside that class, because $A\,r^{-\alpha}$ is not integrable near the origin (Lemma~\ref{lem:power}).
+
+The formal version of Theorem~\ref{thm:main} is the theorem \texttt{\LEANUPTHM}, which states that $c_2\le359123/100000$; the formal development also proves the strict inequality and the inequality \eqref{eq:weak} with $359123/100000$ in place of $c_2$. The formal proof adapts Lin's formalization of the partial balayage argument for squares \cite{Lin26d} to our kernel. Lin's analytic chain is kept, with our constants. Unlike that transfer step, the argument of \cite{Lin26d} does not need $AK$ to be integrable near the origin; Lin's formalization treats his kernel, with $\alpha=6/5$, and ours treats our kernel, with $\alpha=\ALPHA$. The spline part of our kernel, unlike Lin's, does not vanish outside the diamond $r<R$. We added the check of (C4) there, and we replaced Lin's checks of (C1) and (C2) by checks for our kernel; that of (C1) covers the square $\max(|u|,|v|)<\SUPPU$ instead of the diamond $r<R$. The numerical data are lower bounds for $AK$ on rectangles that cover the part of $\{0\le v\le u\}$ where $K$ is not identically zero, and lower bounds for $K$; (C3) follows from an exact formula for $\int K$. These kernel checks take about $64$ CPU-hours.
+
+The formal version of Theorem~\ref{thm:lower} is the theorem \texttt{\LEANLOWTHM}, which states that $\LBDEC\le c_2$. The formal proof extends Lin's formal proof from his lattice to periodic measures with finitely many atoms in each cell. Its data are generated from the certificate. They cut the union of the rectangles of Section~\ref{sec:lower} into disjoint pieces, each contained in one of these rectangles, and they list the rectangles used by the pieces, each with its radius and its set of atoms as in Lemma~\ref{lem:rect}. This proof builds in about $25$\,s.
+
+\section*{Data availability}
+The Zenodo record \href{https://doi.org/\ZENODODOI}{doi:\ZENODODOI} archives the certificates of both bounds and their verification programs, the Lean proofs of both bounds, the search programs and the logs. They are also available in the repository \url{\REPOURL}.
+
+\section*{Use of AI tools}
+Generative AI tools were used to find and prove the results, to write the programs and our parts of the Lean proofs, and to draft the text. The author reviewed the arguments and the programs and takes responsibility for the content.
+
+\begin{thebibliography}{99}
+\bibitem{Ald00} J.~M.~Aldaz, \emph{A remark on the centered $n$-dimensional Hardy--Littlewood maximal function}, Czechoslovak Math. J. \textbf{50} (2000), 103--112.
+\bibitem{Ald11} J.~M.~Aldaz, \emph{The weak type $(1,1)$ bounds for the maximal function associated to cubes grow to infinity with the dimension}, Ann. of Math. (2) \textbf{173} (2011), 1013--1023.
+\bibitem{Cou64} P.~Courr\`ege, \emph{G\'en\'erateur infinit\'esimal d'un semi-groupe de convolution sur $\R^n$, et formule de L\'evy--Khinchine}, Bull. Sci. Math. (2) \textbf{88} (1964), 3--30.
+\bibitem{DNPV12} E.~Di Nezza, G.~Palatucci and E.~Valdinoci, \emph{Hitchhiker's guide to the fractional Sobolev spaces}, Bull. Sci. Math. \textbf{136} (2012), 521--573.
+\bibitem{HiGHS} Q.~Huangfu and J.~A.~J.~Hall, \emph{Parallelizing the dual revised simplex method}, Math. Program. Comput. \textbf{10} (2018), 119--142.
+\bibitem{Joh17} F.~Johansson, \emph{Arb: efficient arbitrary-precision midpoint-radius interval arithmetic}, IEEE Trans. Comput. \textbf{66} (2017), 1281--1292.
+\bibitem{Lin26a} Y.~Lin, \emph{$c_2<4$}, manuscript (PDF of 30 September 2026), \url{https://coolrmal.github.io/assets/papers/c2-less-than-4.pdf}.
+\bibitem{Lin26b} Y.~Lin, \emph{Centred maximal constants for squares and Euclidean balls}, Lean formalization, \url{https://github.com/CoolRmal/centered-maximal-constant}, commit \texttt{72c022b} (1 October 2026); Palomar registry entry PALOMAR-2026-09-19-000002, version~3.
+\bibitem{Lin26c} Y.~Lin, \emph{Two partial balayage principles for weak-type estimates}, manuscript (PDF of 5 October 2026), \url{https://coolrmal.github.io/assets/papers/two-partial-balayage-principles.pdf}.
+\bibitem{Lin26d} Y.~Lin, \emph{Two partial balayage principles in Lean}, Lean formalization, \url{https://github.com/CoolRmal/partial-balayage-lean}, commit \texttt{0055cdf} (6 October 2026, UTC); the files for squares were removed later the same day in commit \texttt{f0777f5}. The Lean build of commit \texttt{0055cdf} passed; its Comparator check did not complete.
+\bibitem{Mel03} A.~D.~Melas, \emph{The best constant for the centered Hardy--Littlewood maximal inequality}, Ann. of Math. (2) \textbf{157} (2003), 647--688.
+\bibitem{SS26} D.~Spector and C.~B.~Stockdale, \emph{The weak-type $(1,1)$ bound for the Hardy--Littlewood maximal function is $O(\sqrt n\log n)$}, arXiv:2609.05377, 2026.
+\bibitem{Tao10} T.~Tao, \emph{245A, Notes 5: Differentiation theorems}, 2010, \url{https://terrytao.wordpress.com/2010/10/16/245a-notes-5-differentiation-theorems/}.
+\bibitem{Tao26} T.~Tao et al., \emph{Optimization constants in mathematics}, \url{https://teorth.github.io/optimizationproblems/}, 2026.
+\end{thebibliography}
+
+\end{document}

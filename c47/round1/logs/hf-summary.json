@@ -1,0 +1,35 @@
+{
+  "status": "UNVERIFIED floating provenance experiment",
+  "upstream_commit": "3af09fc359ce262f4a7f63d34b0d97e6d4d95d1a",
+  "seed": 1103,
+  "settings": {
+    "rounds": 20,
+    "n": 500,
+    "maxit": 400,
+    "tries": 6,
+    "HL_REACH": null
+  },
+  "start": "published rational 50-atom measure converted by float(Fraction(value))",
+  "best_observed_ratio": 1.7027237336033003,
+  "best_observed_atoms": 50,
+  "best_accepted_ratio": null,
+  "best_accepted_atoms": null,
+  "objective_calls": 14908,
+  "cpu_seconds": 21572.02,
+  "best_checkpoint_cpu_seconds": 21571.94,
+  "cpu_hours": 5.992227777777778,
+  "wall_seconds": 21575.593058724073,
+  "last_phase": "initial 50-atom polish",
+  "frozen_gate": 1.703,
+  "frozen_gate_reached": false,
+  "upstream_main_finished": false,
+  "returncode": -2,
+  "stop_receipt": {
+    "utc": "2026-11-03T22:47:55.421525+00:00",
+    "reason": "final checkpoint with a 30-second margin under six CPU-hours; unchanged upstream settings",
+    "cpu_seconds_at_signal": 21570.07,
+    "signal": "SIGINT",
+    "hard_cpu_limit_seconds": 21599
+  },
+  "interpretation": "Further hole-filling on Tomar's measure: the same insertion-and-refinement operation as his hf.py, applied by our own search scripts. A bounded negative replay does not establish novelty or inability of the method to reach the candidate."
+}
