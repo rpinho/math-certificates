@@ -1,0 +1,82 @@
+{
+  "claims": [
+    {
+      "value": "8388608/3192535",
+      "kind": "rigorous",
+      "producer": "frozen/c38_power_secant/input/verify_power_secant.py",
+      "arithmetic": "exact",
+      "new_bound": true
+    },
+    {
+      "value": "2.6275696",
+      "kind": "rigorous",
+      "producer": "frozen/c38_power_secant/input/verify_power_secant.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "decimal rounding-down of 8388608/3192535 (the table entry); not a separate bound"
+    },
+    {
+      "value": "2.6275696272711184",
+      "kind": "rigorous",
+      "producer": "frozen/c38_power_secant/input/verify_power_secant.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "decimal expansion of 8388608/3192535; not a separate bound"
+    },
+    {
+      "value": "1.0000001143720572",
+      "kind": "estimate",
+      "producer": "frozen/c38_power_secant/input/verify_power_secant.py",
+      "arithmetic": "float",
+      "note": "displayed decimal of the exact rational S at k=1353; acceptance uses the exact rational"
+    },
+    {
+      "value": "1051/400",
+      "kind": "rigorous",
+      "producer": "frozen/c38_power_secant/input/verify_power_secant.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "the requested comparison target (table threshold 2.6275); the bound exceeds it"
+    },
+    {
+      "value": "2.6275",
+      "kind": "rigorous",
+      "producer": "frozen/c38_power_secant/input/verify_power_secant.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "decimal of the comparison target 1051/400"
+    },
+    {
+      "value": "400/1051",
+      "kind": "rigorous",
+      "producer": "frozen/c38_power_secant/input/verify_power_secant.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "reciprocal of the comparison target, the evaluation point a in P(a)>=1"
+    },
+    {
+      "value": "17783/255402800",
+      "kind": "rigorous",
+      "producer": "frozen/c38_power_secant/input/verify_power_secant.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "exact excess of the bound over the requested target 1051/400"
+    },
+    {
+      "value": "51082227/2^27",
+      "kind": "rigorous",
+      "producer": "frozen/c38_power_secant/input/verify_power_secant.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "exact evaluation point c of the second-point replay (a parameter, not a bound)"
+    },
+    {
+      "value": "0.00005094176474102854",
+      "kind": "rigorous",
+      "producer": "frozen/c38_power_secant/input/verify_power_secant.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "truncated decimal expansion of the exact rational e=(lo22-hi23)/2^96"
+    }
+  ]
+}

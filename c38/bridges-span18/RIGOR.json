@@ -1,0 +1,10 @@
+{
+  "steps": [
+    {
+      "document": "PROOF.md",
+      "statement": "At k=1353 the verifier recomputes the entire exact rational S(k), checks equality with the frozen value, and checks numerator≥denominator.",
+      "producer": "frozen/c38_power_secant/input/verify_power_secant.py",
+      "arithmetic": "exact"
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "sha": "0ea6932a15924be370f253c32d204ac79521414a",
+  "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/trees/0ea6932a15924be370f253c32d204ac79521414a",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "105932b9bc71146bd8c3561b4f3fbb9fca43570c",
+      "size": 321,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/105932b9bc71146bd8c3561b4f3fbb9fca43570c"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79db9745761b69930b0707a9b0897e91bb2541fe",
+      "size": 1072,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/79db9745761b69930b0707a9b0897e91bb2541fe"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "045b473ff74eca29e794b52d7b09c996a0d70224",
+      "size": 5057,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/045b473ff74eca29e794b52d7b09c996a0d70224"
+    },
+    {
+      "path": "code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "25cee642018079997d2586260056e94d8bb9b7b0",
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/trees/25cee642018079997d2586260056e94d8bb9b7b0"
+    },
+    {
+      "path": "code/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64c554d19ed9b8d9a5ad79207eaa68ab86dd6f6c",
+      "size": 7116,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/64c554d19ed9b8d9a5ad79207eaa68ab86dd6f6c"
+    },
+    {
+      "path": "code/audit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7bd4f24e28cb30c215f5c3d463aa6449e25e40a0",
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/trees/7bd4f24e28cb30c215f5c3d463aa6449e25e40a0"
+    },
+    {
+      "path": "code/audit/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bf6d50d4498d56669c3d11d651cbb23a0fb0d21",
+      "size": 1048,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/4bf6d50d4498d56669c3d11d651cbb23a0fb0d21"
+    },
+    {
+      "path": "code/audit/root_audit_exact.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cda5dca055f7f3ae1c753fa09d0abbc3b7d7777c",
+      "size": 5886,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/cda5dca055f7f3ae1c753fa09d0abbc3b7d7777c"
+    },
+    {
+      "path": "code/audit/root_audit_subset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e071813a94588f0d288ca0c295eb1ec29c3f926d",
+      "size": 5635,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/e071813a94588f0d288ca0c295eb1ec29c3f926d"
+    },
+    {
+      "path": "code/crossing3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2a0a3d045eeadee04ff49a64d71465cd06d82ee1",
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/trees/2a0a3d045eeadee04ff49a64d71465cd06d82ee1"
+    },
+    {
+      "path": "code/crossing3/INDEPENDENT_VERIFICATION.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0d838ee7ef90cbf9b0b273ce043f4be31fc3f6e",
+      "size": 12638,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/d0d838ee7ef90cbf9b0b273ce043f4be31fc3f6e"
+    },
+    {
+      "path": "code/crossing3/assemble_certificate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41577502afa63866d8e8c6fce67ffdf5d5550c6d",
+      "size": 4866,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/41577502afa63866d8e8c6fce67ffdf5d5550c6d"
+    },
+    {
+      "path": "code/crossing3/bruteforce_dfs.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0770087476dc9650cd7a4cf8b9f4ebd01e58471",
+      "size": 2197,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/a0770087476dc9650cd7a4cf8b9f4ebd01e58471"
+    },
+    {
+      "path": "code/crossing3/certificate_exact.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e93766a1a1a1af1301ceafc1be4ba403e16bc217",
+      "size": 5174,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/e93766a1a1a1af1301ceafc1be4ba403e16bc217"
+    },
+    {
+      "path": "code/crossing3/check_disjointness.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "016523c4f9e88177dff74d3379c480975877ecda",
+      "size": 2117,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/016523c4f9e88177dff74d3379c480975877ecda"
+    },
+    {
+      "path": "code/crossing3/crossing_counter.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "758ee69e19ea373b74a2efd4e1fbdb929ef15807",
+      "size": 13268,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/758ee69e19ea373b74a2efd4e1fbdb929ef15807"
+    },
+    {
+      "path": "code/crossing3/tmxq_fresh.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a2ad34772127682c2351809684cf329c8247971",
+      "size": 46946,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/5a2ad34772127682c2351809684cf329c8247971"
+    },
+    {
+      "path": "code/kernel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d948b88089e9c469e58aa1cc95c832a9bba6109a",
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/trees/d948b88089e9c469e58aa1cc95c832a9bba6109a"
+    },
+    {
+      "path": "code/kernel/finish_subset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78dfe0c09818c781057325eabbc786e062f5cb52",
+      "size": 10122,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/78dfe0c09818c781057325eabbc786e062f5cb52"
+    },
+    {
+      "path": "code/kernel/tailx.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f3ccbbedbfa4acccc91151fc8be0bebf9587d15",
+      "size": 29856,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/7f3ccbbedbfa4acccc91151fc8be0bebf9587d15"
+    },
+    {
+      "path": "code/kernel/tmc.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af30364a61e1e190dca319403c02893867e1c289",
+      "size": 29042,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/af30364a61e1e190dca319403c02893867e1c289"
+    },
+    {
+      "path": "code/kernel/tmx.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11ff05ab915d590ddb3f1d0501b86b87ed672d0e",
+      "size": 38699,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/11ff05ab915d590ddb3f1d0501b86b87ed672d0e"
+    },
+    {
+      "path": "code/kernel/tmxq.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a2ad34772127682c2351809684cf329c8247971",
+      "size": 46946,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/5a2ad34772127682c2351809684cf329c8247971"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4366d6dc2c05c112e464106cdc10ecfa107a99ca",
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/trees/4366d6dc2c05c112e464106cdc10ecfa107a99ca"
+    },
+    {
+      "path": "docs/LITERATURE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d9ec41b16cea992deea27f5085cb78cbdba5873",
+      "size": 13492,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/6d9ec41b16cea992deea27f5085cb78cbdba5873"
+    },
+    {
+      "path": "docs/LIT_CHECK_PROMPT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "853adebef5b03a0d9fa2b158a3a15f422c66abc3",
+      "size": 4620,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/853adebef5b03a0d9fa2b158a3a15f422c66abc3"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d4a299ba7282e6445aa5893e28ace2dd5434e41",
+      "size": 17471,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/3d4a299ba7282e6445aa5893e28ace2dd5434e41"
+    },
+    {
+      "path": "explainer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "05153e6b705d5dc8a69cdcdbd01004f41bff4b67",
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/trees/05153e6b705d5dc8a69cdcdbd01004f41bff4b67"
+    },
+    {
+      "path": "explainer/report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32042139f2f6fb89b836d5921699d4f454df788f",
+      "size": 45344,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/32042139f2f6fb89b836d5921699d4f454df788f"
+    },
+    {
+      "path": "lean",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bd8668d46a67b38bb1535f8f85247b5cd0b0102d",
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/trees/bd8668d46a67b38bb1535f8f85247b5cd0b0102d"
+    },
+    {
+      "path": "lean/SawBound.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1498ed77e9b9b3e3714d2165377d7fcaa8009013",
+      "size": 333,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/1498ed77e9b9b3e3714d2165377d7fcaa8009013"
+    },
+    {
+      "path": "lean/SawBound",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6c3ebd6f18a4a51bf9b95e08cc57733dc673f687",
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/trees/6c3ebd6f18a4a51bf9b95e08cc57733dc673f687"
+    },
+    {
+      "path": "lean/SawBound/Basic.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a4796a48981800d7a4a94ed5fa70e9499d41972",
+      "size": 16104,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/9a4796a48981800d7a4a94ed5fa70e9499d41972"
+    },
+    {
+      "path": "lean/SawBound/Bound.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6945c2fba4127cb4fbc356f0edff6c05f7955bc2",
+      "size": 3771,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/6945c2fba4127cb4fbc356f0edff6c05f7955bc2"
+    },
+    {
+      "path": "lean/SawBound/Cert.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43ff94601ae96ee7369a4f30af93952f2a4cabee",
+      "size": 5529,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/43ff94601ae96ee7369a4f30af93952f2a4cabee"
+    },
+    {
+      "path": "lean/SawBound/CertCore.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d16104b872ec082fc5bf5dbe2abc4f147213dd07",
+      "size": 4117,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/d16104b872ec082fc5bf5dbe2abc4f147213dd07"
+    },
+    {
+      "path": "lean/SawBound/CertKernel.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c03d523e77b8ac1c95049e94fabf28b35ad12d9",
+      "size": 2564,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/8c03d523e77b8ac1c95049e94fabf28b35ad12d9"
+    },
+    {
+      "path": "lean/SawBound/Cut.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cbe5c47fbf957b4a046bc1f0b300739beb0985f",
+      "size": 36705,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/7cbe5c47fbf957b4a046bc1f0b300739beb0985f"
+    },
+    {
+      "path": "lean/SawBound/Defs.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e014eed385ab97a62d605caf61d4a7f16de00ab3",
+      "size": 3176,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/e014eed385ab97a62d605caf61d4a7f16de00ab3"
+    },
+    {
+      "path": "lean/SawBound/Edges.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc76cabeb5d9dec9b41b3b0b6f09bb4cecbdbc28",
+      "size": 53435,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/bc76cabeb5d9dec9b41b3b0b6f09bb4cecbdbc28"
+    },
+    {
+      "path": "lean/SawBound/Enum.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c4e16ac7c03dfc702077361544a093145bcaf2c",
+      "size": 9249,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/7c4e16ac7c03dfc702077361544a093145bcaf2c"
+    },
+    {
+      "path": "lean/SawBound/Factorization.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cdf0124891965ab4ac9c9c3128ba74fac2b1003",
+      "size": 23572,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/1cdf0124891965ab4ac9c9c3128ba74fac2b1003"
+    },
+    {
+      "path": "lean/SawBound/KV",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c53df11f1ad7a272275e75a3a54a4b48137d1fce",
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/trees/c53df11f1ad7a272275e75a3a54a4b48137d1fce"
+    },
+    {
+      "path": "lean/SawBound/KV/A7.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e31c4a68dafd0590929fc25480b6ee8ed58209e",
+      "size": 1076,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/2e31c4a68dafd0590929fc25480b6ee8ed58209e"
+    },
+    {
+      "path": "lean/SawBound/KV/A8.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70927198829ffa45edc4913dbcaabb0bc5913f22",
+      "size": 1253,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/70927198829ffa45edc4913dbcaabb0bc5913f22"
+    },
+    {
+      "path": "lean/SawBound/KV/A9.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dace31b476893eaed80e6da5462814003d79ee7a",
+      "size": 1919,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/dace31b476893eaed80e6da5462814003d79ee7a"
+    },
+    {
+      "path": "lean/SawBound/KV/C7_0.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5c004883b175da6a1ed299e17ed7ebd48f34836",
+      "size": 598,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/d5c004883b175da6a1ed299e17ed7ebd48f34836"
+    },
+    {
+      "path": "lean/SawBound/KV/C8_0.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "072af7419e08351aa538d0f79c5c125c8336e41a",
+      "size": 1067,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/072af7419e08351aa538d0f79c5c125c8336e41a"
+    },
+    {
+      "path": "lean/SawBound/KV/C9_0.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaa64408d6573c8a7c683f1fbb950f9198154b6c",
+      "size": 1123,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/eaa64408d6573c8a7c683f1fbb950f9198154b6c"
+    },
+    {
+      "path": "lean/SawBound/KV/C9_1.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "483ae19a87a7d498eb2145c7a66bc3fd8ed12f8a",
+      "size": 1248,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/483ae19a87a7d498eb2145c7a66bc3fd8ed12f8a"
+    },
+    {
+      "path": "lean/SawBound/KV/C9_2.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "164270b9a08fb248453a26e2e4a5a98f32a7c3ee",
+      "size": 771,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/164270b9a08fb248453a26e2e4a5a98f32a7c3ee"
+    },
+    {
+      "path": "lean/SawBound/KernelSplit.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "760c31d9a92bdb91a31327dc29e3185f0941da99",
+      "size": 2422,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/760c31d9a92bdb91a31327dc29e3185f0941da99"
+    },
+    {
+      "path": "lean/SawBound/LowerBound.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "985b0a69ad61c6950472ceeee986ea69dc4b3f11",
+      "size": 20112,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/985b0a69ad61c6950472ceeee986ea69dc4b3f11"
+    },
+    {
+      "path": "lean/SawBound/Sweep.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2c27030c1157d643dfbe9a814810e2eefdac372",
+      "size": 7481,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/c2c27030c1157d643dfbe9a814810e2eefdac372"
+    },
+    {
+      "path": "lean/SawBound/Values.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36108770e71df20733e94ee6a623718c433f39db",
+      "size": 2977,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/36108770e71df20733e94ee6a623718c433f39db"
+    },
+    {
+      "path": "lean/SawBound/Values2.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40a80fefc3cc495bd9d51ee27b1fc0247d39579a",
+      "size": 609,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/40a80fefc3cc495bd9d51ee27b1fc0247d39579a"
+    },
+    {
+      "path": "lean/lake-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9470a938240aa35eb63528ad7382ee4c5835ad59",
+      "size": 3148,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/9470a938240aa35eb63528ad7382ee4c5835ad59"
+    },
+    {
+      "path": "lean/lakefile.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c59028e0e17419f2390f56882930ff07ea911a0b",
+      "size": 156,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/c59028e0e17419f2390f56882930ff07ea911a0b"
+    },
+    {
+      "path": "lean/lean-toolchain",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "025e59548e48cf71f2744154e2890beefe30a258",
+      "size": 25,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/025e59548e48cf71f2744154e2890beefe30a258"
+    },
+    {
+      "path": "open-problems",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1489c90acc0696bb656a899b720deba3fa4041f2",
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/trees/1489c90acc0696bb656a899b720deba3fa4041f2"
+    },
+    {
+      "path": "open-problems/PROGRESS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dd3eb95fdc9b6383ca7f8bf4aea8cc9be818574",
+      "size": 10493,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/4dd3eb95fdc9b6383ca7f8bf4aea8cc9be818574"
+    },
+    {
+      "path": "paper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "66141f4e68a4ddd7dad36de25c4dee4735a76146",
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/trees/66141f4e68a4ddd7dad36de25c4dee4735a76146"
+    },
+    {
+      "path": "paper/paper.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2400ce69bfdb0ac41d47678976c2813de4a2ca36",
+      "size": 338284,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/2400ce69bfdb0ac41d47678976c2813de4a2ca36"
+    },
+    {
+      "path": "paper/paper.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e6342f523c470137801c814feab6b36369b5618",
+      "size": 40312,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/1e6342f523c470137801c814feab6b36369b5618"
+    },
+    {
+      "path": "results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "623f7043af84f105ad0d50c16b17abdab2ed639c",
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/trees/623f7043af84f105ad0d50c16b17abdab2ed639c"
+    },
+    {
+      "path": "results/bridge_n32.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "665380ff53040ef8ffad1c2912e6bcae832b6a9d",
+      "size": 1060,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/665380ff53040ef8ffad1c2912e6bcae832b6a9d"
+    },
+    {
+      "path": "results/saw_n30.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a42d4e0c6bf60df5028c24bd6a7dd9a197d119e2",
+      "size": 1018,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/a42d4e0c6bf60df5028c24bd6a7dd9a197d119e2"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0fd3f2d23eefd37e004345e60a138b7c62d2526f",
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/trees/0fd3f2d23eefd37e004345e60a138b7c62d2526f"
+    },
+    {
+      "path": "src/saw.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2677b93f59b76f2eea7af6136bf333744b6bb0e0",
+      "size": 5896,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/2677b93f59b76f2eea7af6136bf333744b6bb0e0"
+    },
+    {
+      "path": "src/validate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a19f1f87cd5caf13aa396177a94fd2d19c1bb73",
+      "size": 1530,
+      "url": "https://api.github.com/repos/vitplanocka/saw-connective-constant/git/blobs/6a19f1f87cd5caf13aa396177a94fd2d19c1bb73"
+    }
+  ],
+  "truncated": false,
+  "commit": "0ea6932a15924be370f253c32d204ac79521414a"
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "frame_range": 22,
+    "span_min": 18,
+    "span_max": 30,
+    "crossing_cap": 5,
+    "M": 51081913,
+    "scale": 96,
+    "num_lo": "24214940656472574396497602",
+    "num_hi": "24214940656472574406776303",
+    "seconds": 4815.64
+  },
+  {
+    "frame_range": 21,
+    "span_min": 18,
+    "span_max": 30,
+    "crossing_cap": 5,
+    "M": 51081913,
+    "scale": 96,
+    "num_lo": "16763609806985735985018538",
+    "num_hi": "16763609806985735992765441",
+    "seconds": 3029.95
+  },
+  {
+    "frame_range": 23,
+    "span_min": 18,
+    "span_max": 18,
+    "crossing_cap": 5,
+    "M": 51081913,
+    "scale": 96,
+    "num_lo": "12984082942204509301591410",
+    "num_hi": "12984082942204509302627181",
+    "seconds": 4452.26
+  },
+  {
+    "M": 51081913,
+    "crossing_cap": 5,
+    "frame_range": 22,
+    "num_hi": "9568774508383300714298126",
+    "num_lo": "9568774508383300713508094",
+    "provenance": "h=18 terminal fork in frame22_18_30 sweep",
+    "scale": 96,
+    "span_max": 18,
+    "span_min": 18
+  }
+]
