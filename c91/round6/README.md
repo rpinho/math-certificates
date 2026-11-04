@@ -62,4 +62,4 @@ Proof dependencies are PROOF.md and sources/ROUND5_PROOF.md. Verification
 contains the two complete independent checker sources, exact stdout,
 normalized and original receipts, execution timing and model evidence.
 SHA256SUMS covers all payload files; MANIFEST lists file sizes and hashes.
-Review status: Astra ACCEPT; CS review pending (placeholder).
+Review status: Astra ACCEPT; Claude Science ACCEPT within argument scope. See reviews/.
