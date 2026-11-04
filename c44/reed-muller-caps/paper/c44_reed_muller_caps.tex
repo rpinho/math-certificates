@@ -1,0 +1,786 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{fontspec}
+\setmainfont{lmroman10-regular.otf}[BoldFont=lmroman10-bold.otf,ItalicFont=lmroman10-italic.otf,BoldItalicFont=lmroman10-bolditalic.otf]
+\setsansfont{lmsans10-regular.otf}
+\setmonofont{lmmono10-regular.otf}
+\usepackage{microtype}
+\usepackage{booktabs}
+\makeatletter
+\renewcommand\section{\@startsection{section}{1}{\z@}
+  {-3.5ex\@plus -1ex\@minus -.2ex}{2.3ex\@plus .2ex}
+  {\normalfont\Large\bfseries\raggedright}}
+\makeatother
+\usepackage{xurl}
+\usepackage[unicode,hidelinks,hypertexnames=false]{hyperref}
+\hypersetup{pdftitle={Ternary derivative controls and Reed-Muller weight caps: C44 < 2.1974348818},pdfauthor={Ricardo Pinho},pdfsubject={Candidate, unrefereed; frozen proof with explicit corrections}}
+\newtheorem*{claim}{Statement}
+\theoremstyle{remark}
+\newtheorem*{editorial}{Editorial remark}
+\newtheoremstyle{correctionstyle}{0.6em}{0.6em}{\normalfont}{}{\bfseries}{:}{0.5em}{}
+\theoremstyle{correctionstyle}
+\newtheorem*{correction}{Correction}
+\setlength{\parskip}{0.25em}
+\setlength{\parindent}{0pt}
+\setlength{\emergencystretch}{2em}
+\allowdisplaybreaks[1]
+\title{Ternary derivative controls and Reed-Muller weight caps: C44 < 2.1974348818}
+\author{Ricardo Pinho\\\small ORCID \href{https://orcid.org/0009-0006-2744-2599}{0009-0006-2744-2599}}
+\date{4 November 2026}
+\begin{document}
+\maketitle
+\begin{center}
+\fbox{\begin{minipage}{0.94\linewidth}
+Candidate, unrefereed. This result was found by AI agents working under my direction. I have only reviewed it at summary level, and other AI models reviewed it, so no human has checked it line by line.
+
+The verifiers check the arithmetic, not the written lemmas.
+\end{minipage}}
+\end{center}
+\begin{claim}
+For the constant in $r(f)\le C\,2^{\deg(f)}$,
+\[
+C_{44}\le\frac{174098727923678791596986402933}{79228162514264337593543950336}<2.1974348818.
+\]
+The lower bound is $1.5$.
+\end{claim}
+\begin{editorial}
+The comparison with the exact rational is non-strict, as in the frozen
+proof's equation (12). The source README states it as strict; no strictness
+argument at the rational endpoint is supplied here. Since the rational is
+strictly below $2.1974348818$, the decimal bound $C_{44}<2.1974348818$ holds either way.
+\end{editorial}
+The seven numbered sections below transcribe the frozen \path{PROOF.md}.
+Marked corrections reproduce the supplied errata without silently changing
+the original argument. Supplemental material follows Section 7.
+
+% SOURCE P001, PROOF.md lines 1--1
+\textit{Frozen source title: Ternary derivative controls and higher weight caps}\phantomsection\label{src-p001}\label{src-end-p001}
+
+% SOURCE P002, PROOF.md lines 3--8
+\leavevmode\label{src-p002}Candidate, unrefereed. This is a written mathematical proof with exact
+arithmetic certificates, not proof-assistant formalization or independent
+human refereeing. Two separately written implementations check the finite
+artifact. Their finite controls do not prove the named external theorems.
+No novelty or priority is claimed. The framework is due to CHS/Wellens; the
+low binary weights are due to Berlekamp–Sloane and Kasami–Tokura.\label{src-end-p002}\par
+
+% SOURCE P003, PROOF.md lines 10--10
+\clearpage
+\section{Definitions, support, and extremizers}\label{src-p003}\label{src-end-p003}
+
+% SOURCE P004, PROOF.md lines 12--16
+\leavevmode\label{src-p004}The cube has independent uniform sign coordinates. Every real function has
+a unique multilinear Fourier expansion $f=\sum_S\widehat f(S)\prod_{i\in S}x_i$.
+Its real degree is the largest $|S|$ with nonzero coefficient. A coordinate
+is relevant precisely when some such $S$ contains it. Its local degree $d_i$
+is the largest $|S|$ containing it. Set\label{src-end-p004}\par
+
+% SOURCE P005, PROOF.md lines 18--20
+\begin{equation}
+\begin{aligned}
+D(f)&=\sum_{i\ \mathrm{relevant}}2^{-d_i},\\
+R_d&=\max\text{ number of relevant coordinates at degree at most }d,\\
+W_d&=\max D(f)\text{ at degree at most }d.
+\end{aligned}\tag*{}
+\label{src-p005}
+\end{equation}
+
+% SOURCE P006, PROOF.md lines 22--29
+\leavevmode\label{src-p006}A nonzero multilinear real polynomial of degree at most $k$ is nonzero on
+at least a $2^{-k}$ fraction of the cube. Here is an induction proof. The case
+$k=0$ is constant. For a nonconstant polynomial choose a coordinate $j$ and
+write $P=x_jA+B$ with $A$ nonzero and degree at most $k-1$. The induction
+hypothesis gives support density of $A$ at least $2^{-(k-1)}$. For each input
+in that support, the two values $B+A$ and $B-A$ cannot both vanish. Averaging
+the two $j$ branches gives support density at least $2^{-k}$. This also handles
+polynomials whose degree is strictly below the stated upper bound.\label{src-end-p006}\par
+
+% SOURCE P007, PROOF.md lines 31--31
+\leavevmode\label{src-p007}For a sign Boolean $f$, write\label{src-end-p007}\par
+
+% SOURCE P008, PROOF.md lines 33--33
+\begin{equation}
+A_i=\frac{f(i=+1)-f(i=-1)}{2}.\tag*{}
+\label{src-p008}
+\end{equation}
+
+% SOURCE P009, PROOF.md lines 35--36
+\leavevmode\label{src-p009}Its values are $0,+1,-1$, its real degree is $d_i-1$, and $p_i=\mathbb E A_i^2=\operatorname{Inf}_i(f)$.
+The support lemma gives $p_i\ge 2^{1-d_i}$. Parseval gives\label{src-end-p009}\par
+
+% SOURCE P010, PROOF.md lines 38--38
+\begin{equation}
+I(f)=\sum_i p_i=\sum_S |S|\widehat f(S)^2\le\deg(f).\tag*{}
+\label{src-p010}
+\end{equation}
+
+% SOURCE P011, PROOF.md lines 40--43
+\leavevmode\label{src-p011}Consequently $D(f)\le I(f)/2\le d/2$ and every relevant variable has influence
+at least $2^{1-d}$. Thus $R_d\le d\,2^{d-1}$. After removing dummy variables and
+relabeling, only finitely many Boolean functions need be considered. The
+two displayed maxima therefore exist.\label{src-end-p011}\par
+
+% SOURCE P012, PROOF.md lines 45--49
+\leavevmode\label{src-p012}We use the CHS identity $W_d=R_d/2^d$, and include its proof because its
+extremal reduction matters here. Choose $f$ maximizing $D$ at degree at most $d$.
+Let $L$ be its relevant coordinates of local degree below $d$, and $Y$ the
+others. If $L$ is nonempty, take a disjoint copy $L'$ and a fresh sign selector $z$,
+and form\label{src-end-p012}\par
+
+% SOURCE P013, PROOF.md lines 51--51
+\begin{equation}
+h=\frac{1+z}{2}f(x_L,Y)+\frac{1-z}{2}f(x_{L'},Y).\tag*{}
+\label{src-p013}
+\end{equation}
+
+% SOURCE P014, PROOF.md lines 53--62
+\leavevmode\label{src-p014}This is Boolean. All degree-$d$ terms of the two $f$ copies involve only $Y$,
+so those terms cancel in the coefficient of $z$. Hence $\deg(h)\le d$. Every $Y$
+coordinate retains local degree $d$. Each original $L$ coordinate and its
+copy have local degree exactly one more than before: a largest Fourier
+term containing that coordinate gives a noncanceling term also containing $z$.
+Their two weights sum to the original weight. The selector is relevant
+because the two copies differ for some inputs whenever $L$ is nonempty.
+It adds positive weight. Thus $D(h)>D(f)$, a contradiction. An extremizer
+for $D$ has every relevant local degree $d$, proving $W_d\le R_d/2^d$. Conversely,
+an $R_d$ extremizer has $D\ge R_d/2^d$. This proves the identity.\label{src-end-p014}\par
+
+% SOURCE P015, PROOF.md lines 64--73
+\leavevmode\label{src-p015}We also need every coordinate of an $R_d$ extremizer to have local degree $d$.
+In bit coordinates, replace a coordinate of smaller local degree by the
+AND of two fresh bits. The new polynomial has degree at most $d$, since
+terms using that coordinate increase degree by at most one, and other
+terms keep their degrees. Both fresh coordinates are relevant: fix the
+other fresh bit to 1 and use a witnessing pair of inputs for the original
+coordinate. All other relevant coordinates remain relevant, by realizing
+either value of the substituted AND. The relevant count increases by one,
+contradicting maximality. This proves the required all-local-degrees-$d$
+reduction for count extremizers separately.\label{src-end-p015}\par
+
+% SOURCE P016, PROOF.md lines 75--83
+\leavevmode\label{src-p016}The published exact result $R_3=10$ supplies $W_3=5/4$. The elementary influence
+bound supplies $W_1\le 1/2$ and $W_2\le 1$. The $R_3$ premise is the result for
+arbitrary degree-at-most-three Boolean functions, not a restricted coloring
+class; see Tarannikov–Kirienko, ePrint 2000/050, and Krotov–Valyuzhenich,
+\url{https://arxiv.org/html/2311.05566v2} , section 3. CHS's identity is Corollary
+2.2 in the final Combinatorica paper, \url{https://par.nsf.gov/servlets/purl/10201042} ;
+the corrected duplication proof also appears in Chiarelli's thesis,
+Proposition 8.5 and Corollary 8.6,
+\url{https://sites.math.rutgers.edu/~zeilberg/Theses/JohnChiarelli.pdf} .\label{src-end-p016}\par
+
+% SOURCE P017, PROOF.md lines 85--85
+\section{A general control bound for ternary polynomials}\label{src-p017}\label{src-end-p017}
+
+% SOURCE P018, PROOF.md lines 87--88
+\leavevmode\label{src-p018}Let $A$ take values $0,+1,-1$, have real degree at most $k\ge 1$, and have $h$
+relevant coordinates. Put $p=\mathbb E A^2$. For a relevant coordinate $j$,\label{src-end-p018}\par
+
+% SOURCE P019, PROOF.md lines 90--90
+\begin{equation}
+\Delta_jA=\frac{A(j=+1)-A(j=-1)}{2}\tag*{}
+\label{src-p019}
+\end{equation}
+
+% SOURCE P020, PROOF.md lines 92--94
+\leavevmode\label{src-p020}is a nonzero real polynomial of degree at most $k-1$. Its nonzero values
+belong to $\{+1/2,\allowbreak-1/2,\allowbreak+1,\allowbreak-1\}$, so their squared magnitude is at least $1/4$.
+By the support lemma,\label{src-end-p020}\par
+
+% SOURCE P021, PROOF.md lines 96--96
+\begin{equation}
+\mathbb E(\Delta_jA)^2\ge\frac{1}{4}\,2^{-(k-1)}=2^{-(k+1)}.\tag*{}
+\label{src-p021}
+\end{equation}
+
+% SOURCE P022, PROOF.md lines 98--99
+\leavevmode\label{src-p022}On the other hand Fourier orthogonality, first for each derivative and
+then summed over coordinates, gives\label{src-end-p022}\par
+
+% SOURCE P023, PROOF.md lines 101--102
+\begin{equation}
+\sum_j\mathbb E(\Delta_jA)^2=\sum_S|S|\widehat A(S)^2\le k\sum_S\widehat A(S)^2=kp.\tag*{}
+\label{src-p023}
+\end{equation}
+
+% SOURCE P024, PROOF.md lines 104--104
+\leavevmode\label{src-p024}There are $h$ nonzero summands, each at least $2^{-(k+1)}$. Therefore\label{src-end-p024}\par
+
+% SOURCE P025, PROOF.md lines 106--106
+\begin{equation}
+h\le\left\lfloor kp\,2^{k+1}\right\rfloor.\tag{1}
+\label{src-p025}
+\end{equation}
+
+% SOURCE P026, PROOF.md lines 108--109
+\leavevmode\label{src-p026}For the derivative $A_i$ of a $\text{degree-}d$ Boolean function set $k=d-1$,
+$M=2^k$ and $\lambda=Mp_i$. Formula (1) becomes\label{src-end-p026}\par
+
+% SOURCE P027, PROOF.md lines 111--111
+\begin{equation}
+h_i\le\lfloor2k\lambda\rfloor.\tag{2}
+\label{src-p027}
+\end{equation}
+
+% SOURCE P028, PROOF.md lines 113--118
+\leavevmode\label{src-p028}No affine change of coordinates over $\mathbb F_2$ is being used to infer real
+polynomial degree. Formula (1) is a direct real Fourier calculation. At
+$\lambda=1$ it recovers the worst $2k$ budget in the minimum-support
+classification of Valyuzhenich, Theorem 2(2),
+\url{https://arxiv.org/html/2303.10995} . That external classification is useful
+context but is not needed as a premise of (1).\label{src-end-p028}\par
+
+% SOURCE P029, PROOF.md lines 120--120
+\section{Restrictions controlled by any nonzero derivative}\label{src-p029}\label{src-end-p029}
+
+% SOURCE P030, PROOF.md lines 122--123
+\leavevmode\label{src-p030}For completeness, the weighted restriction inequality for a coordinate
+set $H$ is\label{src-end-p030}\par
+
+% SOURCE P031, PROOF.md lines 125--125
+\begin{equation}
+D(f)\le\sum_{j\in H}2^{-d_j(f)}+\mathbb E_\alpha D(f_\alpha).\tag{3}
+\label{src-p031}
+\end{equation}
+
+% SOURCE P032, PROOF.md lines 127--137
+\leavevmode\label{src-p032}To prove it for one fixed coordinate $j$, consider another relevant
+coordinate $i$. If $i$ survives in both branches, its local degrees cannot
+increase, so both branch weights are at least its original weight. If it
+survives in exactly one branch, its derivative factors as $(1\pm x_j)/2$ times
+the nonzero branch derivative. Its original local degree is exactly one
+larger than its surviving branch local degree. Half that branch weight
+therefore equals the original weight. A relevant $i$ cannot disappear in
+both branches. Sum these inequalities over $i$ other than $j$. Applying them
+successively to coordinates in $H$, or equivalently inducting on $|H|$, proves
+(3) for the coordinates outside $H$; the original weights of $H$ supply the
+first term. Disappearing coordinates contribute zero on their branches.\label{src-end-p032}\par
+
+\begin{correction}\label{correction-3}
+Read the preceding iteration as follows: iterate over $H$ for each coordinate
+outside $H$, then charge $H$ at its original weights. Charging each later
+coordinate at its weight after restriction gives an inequality in the wrong
+direction. This is correction 1 in \path{CORRECTIONS.md}, reproduced below.
+\end{correction}
+% SOURCE P033, PROOF.md lines 139--144
+\leavevmode\label{src-p033}Choose a count extremizer $f$ with $N=R_d$ and all local degrees $d$. Choose
+one of its coordinates $i$ and let $H$ be the full relevant-coordinate set of
+$A_i$; write $h=|H|$. Decompose $f=x_iA_i(x_H)+B(x_H,x_Y)$. On any control input
+$\alpha$ with $A_i(\alpha)=\pm1$, both $x_i$ branches being Boolean forces $B=0$
+for every $Y$. Thus $f_\alpha$ is a signed dictator and has $D=1/2$. The fraction
+of such control assignments is exactly $p_i$.\label{src-end-p033}\par
+
+% SOURCE P034, PROOF.md lines 146--152
+\leavevmode\label{src-p034}Every degree-$d$ monomial meets $H$. For a monomial in $B$ disjoint from $H$, its
+coefficient cannot change on restricting $H$, since every larger monomial
+containing it would have degree above $d$. But that coefficient must vanish
+on any active control assignment, since $B$ vanishes identically there. This
+is a contradiction. A degree-$d$ monomial involving $i$ contains a nonempty
+mask of $A_i$ (of size $d-1$), hence also meets $H$ for $d\ge2$. Consequently every
+$f_\alpha$ has degree at most $d-1$.\label{src-end-p034}\par
+
+% SOURCE P035, PROOF.md lines 154--155
+\leavevmode\label{src-p035}Let $c\ge W_{d-1}$ with $c\ge1/2$. Formula (3), all original local degrees being $d$,
+and the dictator branches imply\label{src-end-p035}\par
+
+% SOURCE P036, PROOF.md lines 157--157
+\begin{equation}
+\frac{N}{2^d}\le\frac h{2^d}+\frac{p_i}{2}+(1-p_i)c.\tag*{}
+\label{src-p036}
+\end{equation}
+
+% SOURCE P037, PROOF.md lines 159--159
+\leavevmode\label{src-p037}Use (2) and $\lambda=Mp_i$ to obtain the essential inequality\label{src-end-p037}\par
+
+% SOURCE P038, PROOF.md lines 161--162
+\begin{equation}
+\begin{aligned}N&\le F_d(c,\lambda)\\
+&:=2^dc+\lfloor2(d-1)\lambda\rfloor+(1-2c)\lambda.\end{aligned}\tag{4}
+\label{src-p038}
+\end{equation}
+
+% SOURCE P039, PROOF.md lines 164--164
+\leavevmode\label{src-p039}Choose $i$ of minimum influence. Since $\sum_i p_i\le d$,\label{src-end-p039}\par
+
+% SOURCE P040, PROOF.md lines 166--166
+\begin{equation}
+1\le\lambda\le\frac{dM}{N}.\tag{5}
+\label{src-p040}
+\end{equation}
+
+% SOURCE P041, PROOF.md lines 168--169
+\leavevmode\label{src-p041}Equations (4),(5) apply to the SAME chosen derivative. They do not assume
+that every low-weight derivative has the same normal form.\label{src-end-p041}\par
+
+% SOURCE P042, PROOF.md lines 171--171
+\section{Exact energy grid and the higher low-weight spectrum}\label{src-p042}\label{src-end-p042}
+
+% SOURCE P043, PROOF.md lines 173--175
+\leavevmode\label{src-p043}We give the degree-to-lattice bridge explicitly. For a Boolean bit-output
+function $g=(1-f)/2$, its unique real bit polynomial has integer coefficients:
+the coefficient of a mask $T$ is\label{src-end-p043}\par
+
+% SOURCE P044, PROOF.md lines 177--177
+\begin{equation}
+\sum_{U\subseteq T}(-1)^{|T|-|U|}g(1_U),\tag*{}
+\label{src-p044}
+\end{equation}
+
+% SOURCE P045, PROOF.md lines 179--183
+\leavevmode\label{src-p045}where other bits are zero. Substituting $\text{bit}=(1-\text{sign})/2$ shows every Fourier
+coefficient of the sign Boolean $f$ is an integer multiple of $2^{1-d}=1/M$.
+Indeed a term of bit degree $t\le d$ contributes a multiple of $2^{1-t}$ to $f$;
+the constant term is also on this grid. The derivative $A_i$ inherits this
+grid. Write its coefficients $z_S/M$ with integers $z_S$. Parseval gives\label{src-end-p045}\par
+
+% SOURCE P046, PROOF.md lines 185--185
+\begin{equation}
+\lambda=M\mathbb E A_i^2=\frac{\sum_S z_S^2}{M}.\tag*{}
+\label{src-p046}
+\end{equation}
+
+% SOURCE P047, PROOF.md lines 187--189
+\leavevmode\label{src-p047}At the $\text{all-}{+1}$ input, $\sum z_S=MA_i(+1)$, an integer multiple of $M$. For $d\ge2$,
+$M$ is even. Since $z^2=z$ modulo two for every integer $z$, $\sum z_S^2$ is even.
+Therefore\label{src-end-p047}\par
+
+% SOURCE P048, PROOF.md lines 191--191
+\begin{equation}
+\lambda\in\frac2M\mathbb Z.\tag{6}
+\label{src-p048}
+\end{equation}
+
+% SOURCE P049, PROOF.md lines 193--197
+\leavevmode\label{src-p049}Independently, $A_i$ itself has integer coefficients in bit variables, by
+the same finite-difference formula, since its values are integers. Reduce
+those coefficients modulo two. The result has $\mathbb F_2$ degree at most $k$ and
+value 1 exactly on the support of $A_i$, since both signs reduce to 1.
+We do not reduce $A_i$ squared, whose real degree could be $2k$.\label{src-end-p049}\par
+
+% SOURCE P050, PROOF.md lines 199--201
+\leavevmode\label{src-p050}The external below-twice-minimum Reed–Muller theorem states: for order
+$k\ge2$, any nonzero binary $\operatorname{RM}(k,n)$ word of weight strictly below
+$2\cdot2^{n-k}$ has normalized weight\label{src-end-p050}\par
+
+% SOURCE P051, PROOF.md lines 203--203
+\begin{equation}
+\lambda=2-2^{-j},\quad\text{for an integer }j\ge0.\tag{7}
+\label{src-p051}
+\end{equation}
+
+% SOURCE P052, PROOF.md lines 205--213
+\leavevmode\label{src-p052}Only necessity is used, so all parameter-dependent restrictions on $j$ may
+be dropped. Append unused coordinates if necessary to have $n\ge k+2$;
+normalized weight and degree bounds do not change. The statement applies
+to degree at most $k$; if the algebraic degree is smaller, a weight below
+twice this minimum is already impossible by the support bound. This
+statement is due to Berlekamp–Sloane / Kasami–Tokura (1970), DOI
+10.1109/TIT.1970.1054545. A published explicit statement and the two
+normal forms appear in Carlet (2024), section 2, p.10613,
+\url{https://www.aimspress.com/aimspress-data/math/2024/5/PDF/math-09-05-518.pdf} .\label{src-end-p052}\par
+
+% SOURCE P053, PROOF.md lines 215--216
+\leavevmode\label{src-p053}Combine (6),(7). For $j\ge k$ the value $M(2-2^{-j})$ is either nonintegral
+($j>k$) or odd ($j=k$). Hence the safe finite list below 2 is exactly\label{src-end-p053}\par
+
+% SOURCE P054, PROOF.md lines 218--218
+\begin{equation}
+\{2-2^{-j}:j=0,\ldots,k-1\}.\tag{8}
+\label{src-p054}
+\end{equation}
+
+% SOURCE P055, PROOF.md lines 220--226
+\leavevmode\label{src-p055}The first terms are $1,3/2,7/4,15/8,31/16,\ldots$ . Thus third and higher
+weights are used, rather than replacing the sharp $3/2$ factor by a false
+uniform gap. We allow ALL grid values $\lambda\ge2$. In particular we do
+not silently use the uncorrected final KTA table for $2\mathinner{.\,.}2.5$. The reason
+and an exact counterexample are in \path{KTA_AUDIT.md}. Our proof does not depend
+on reconstructing the inaccessible full 1974 preprint or assuming its
+published final table is complete.\label{src-end-p055}\par
+
+\begin{correction}\label{correction-4}
+The attribution to third and higher below-two weights is open. The referee's
+ablation finds that, given the energy grid, the single fact that no normalized
+weight lies in $(1,3/2)$ already gives the same rational. Section 5's ablation
+numbers disagree, and this has not been resolved; the bound does not depend
+on that attribution. This is correction 2 in \path{CORRECTIONS.md}.
+\end{correction}
+\begin{editorial}
+\path{CORRECTIONS.md} additionally marks the table-omission claim in
+\path{KTA_AUDIT.md} as unverified. The original paragraph's wording above is
+retained; it should be read subject to that caveat.
+\end{editorial}
+% SOURCE P056, PROOF.md lines 228--228
+\section{Finite scalar optimization, with the floor treated correctly}\label{src-p056}\label{src-end-p056}
+
+% SOURCE P057, PROOF.md lines 230--233
+\leavevmode\label{src-p057}Suppose $c$ bounds $W_{d-1}$. To exclude $N\ge n$, (5) puts $\lambda$ in $[1,t]$,
+where $t=dM/n$. Since the set of possible $\lambda$ for $N\ge n$ is contained in
+this interval, it suffices to show every allowed $\lambda$ in $[1,t]$ has
+$F_d(c,\lambda)<n$. This excludes all $N\ge n$ at once, not merely $N=n$.\label{src-end-p057}\par
+
+% SOURCE P058, PROOF.md lines 235--236
+\leavevmode\label{src-p058}Use $c\in[1/2,(d-1)/2]$, checked inductively in the certificate. Within a
+cell $h\le2k\lambda<h+1$, the value (4) is\label{src-end-p058}\par
+
+% SOURCE P059, PROOF.md lines 238--238
+\begin{equation}
+2^dc+h+(1-2c)\lambda,\tag*{}
+\label{src-p059}
+\end{equation}
+
+% SOURCE P060, PROOF.md lines 240--243
+\leavevmode\label{src-p060}which is nonincreasing in $\lambda$. It is NOT safe to substitute $t$ directly
+inside its floor. Below 2 we test every member of (8) not exceeding $t$.
+For $\lambda\ge2$, the possible cell indices are $4k$ through $\lfloor2kt\rfloor$.
+On the grid (6), the first value in cell $h$ is\label{src-end-p060}\par
+
+% SOURCE P061, PROOF.md lines 245--245
+\begin{equation}
+\lambda_h=\frac2M\left\lceil\frac{hM}{4k}\right\rceil.\tag{9}
+\label{src-p061}
+\end{equation}
+
+% SOURCE P062, PROOF.md lines 247--250
+\leavevmode\label{src-p062}Discard it if $\lambda_h>t$ or $2k\lambda_h\ge h+1$. Every other grid value in
+that cell has no larger budget. Thus (8),(9) form a complete finite cover
+of all possible cases. Every such budget is strictly below $n$ in \path{caps.json}.
+The resulting $c_d=(n-1)/2^d$ is valid by (4),(5) and the CHS identity.\label{src-end-p062}\par
+
+% SOURCE P063, PROOF.md lines 252--254
+\leavevmode\label{src-p063}Starting with $c_1=1/2,c_2=1,c_3=5/4$, proceed through $d=96$. The certificate
+uses each already established $c_{d-1}$ before deriving $c_d$. There is no
+circular use of the eventual constant. Some initial ceilings are:\label{src-end-p063}\par
+
+% SOURCE P064, PROOF.md lines 256--266
+\begin{center}
+\begin{tabular}{rrr}
+\toprule
+$d$ & $R_d$ ceiling & $c_d$\\
+\midrule
+4 & 24 & $3/2$\\
+5 & 54 & $27/16$\\
+6 & 119 & $119/64$\\
+7 & 254 & $127/64$\\
+8 & 528 & $33/16$\\
+9 & 1083 & $1083/512$\\
+10 & 2199 & $2199/1024$\\
+11 & 4439 & $4439/2048$\\
+12 & 8928 & $279/128$\\
+\bottomrule
+\end{tabular}
+\phantomsection\label{src-p064}\label{src-end-p064}
+\end{center}
+
+% SOURCE P065, PROOF.md lines 268--274
+\leavevmode\label{src-p065}The frozen packet stores the most dangerous finite case at each first
+excluded count, its complete case count, and a feasible scalar point at
+the preceding count. Checker B independently enumerates all floor cells;
+checker A uses an independently derived collapsed envelope. For the latter,
+write $a=2c-1\in[0,k-1]$. Consecutive first grid values in occupied cells
+$h<h'$ differ by at most $(h'-h)/(2k)+2/M$. Therefore their maximal budgets
+increase by at least\label{src-end-p065}\par
+
+% SOURCE P066, PROOF.md lines 276--277
+\begin{equation}
+\begin{aligned}(h'-h)\left(1-\frac a{2k}\right)-\frac{2a}{M}\\\ge1-\frac a{2k}-\frac{2a}{M}>0.\end{aligned}\tag*{}
+\label{src-p066}
+\end{equation}
+
+% SOURCE P067, PROOF.md lines 279--284
+\leavevmode\label{src-p067}The last strict inequality is checked exactly for every degree; universally
+it follows for $k\ge3$ from $(k-1)/(2k)+2(k-1)/2^k<1$ (at $k=3$ this is $5/6$;
+at $k\ge4$ the first term is below $1/2$ and the second is at most $3/8$).
+Thus the rightmost occupied high cell suffices for checker A. It locates
+that cell from the last grid point below $t$ and tests its first grid point.
+Checker B uses none of this envelope shortcut.\label{src-end-p067}\par
+
+% SOURCE P068, PROOF.md lines 286--292
+\leavevmode\label{src-p068}Two additional certified variants quantify the inputs. Dropping the RM
+gaps altogether and allowing a continuum $\lambda\ge1$ gives a bound below
+2.2952887883. Retaining only $\lambda=1$ or $\lambda\ge3/2$ gives a bound below
+2.2108998048. The third and higher below-two weights give the displayed
+2.1974348818 bound. Each variant has its own inductive caps and both
+checkers verify them. These are candidate, unrefereed consequences of the
+same written lemmas, not claims about the exact Boolean maxima.\label{src-end-p068}\par
+
+\begin{correction}\label{correction-5}
+The attribution to third and higher below-two weights is open. The referee's
+ablation finds that, given the energy grid, the single fact that no normalized
+weight lies in $(1,3/2)$ already gives the same rational. Section 5's ablation
+numbers disagree, and this has not been resolved; the bound does not depend
+on that attribution. This is correction 2 in \path{CORRECTIONS.md}.
+\end{correction}
+% SOURCE P069, PROOF.md lines 294--294
+\section{An elementary infinite tail}\label{src-p069}\label{src-end-p069}
+
+% SOURCE P070, PROOF.md lines 296--297
+\leavevmode\label{src-p070}We need a global bound, not just a horizon calculation. The CHS/Shinkar–Tal
+lower family starts with $\Xi_1=x$ and, on disjoint variables, uses\label{src-end-p070}\par
+
+% SOURCE P071, PROOF.md lines 299--299
+\begin{equation}
+\Xi_d=\frac{s+t}{2}\Xi_{d-1}(x)+\frac{s-t}{2}\Xi_{d-1}(y).\tag*{}
+\label{src-p071}
+\end{equation}
+
+% SOURCE P072, PROOF.md lines 301--304
+\leavevmode\label{src-p072}On a sign input exactly one summand is active, proving Booleanity by
+induction. Its nonzero Fourier masks have size $d$. The two input copies
+and the two fresh selectors remain relevant, so its count $L_d$ satisfies
+$L_1=1$ and $L_d=2L_{d-1}+2$. Solving this recursion gives\label{src-end-p072}\par
+
+% SOURCE P073, PROOF.md lines 306--306
+\begin{equation}
+L_d=3\cdot2^{d-1}-2=3M-2.\tag*{}
+\label{src-p073}
+\end{equation}
+
+% SOURCE P074, PROOF.md lines 308--312
+\leavevmode\label{src-p074}Thus $R_d\ge3M-2\ge2M$ for $d\ge2$. For the least-influence coordinate of its
+count extremizer, (5) now yields $\lambda\le d/2$. Apply (4) with the ACTUAL
+$c=W_{d-1}$, discard its floor downward, and divide by $2^d$. Since
+$1/2\le W_{d-1}\le(d-1)/2$, the multiplier $2d-1-2W_{d-1}$ is positive and at
+most $2d-2$. Hence\label{src-end-p074}\par
+
+% SOURCE P075, PROOF.md lines 314--315
+\begin{equation}
+\begin{aligned}W_d&\le W_{d-1}+\frac{\lambda(2d-1-2W_{d-1})}{2^d}\\
+&\le W_{d-1}+\frac{d(d-1)}{2^d}.\end{aligned}\tag{10}
+\label{src-p075}
+\end{equation}
+
+% SOURCE P076, PROOF.md lines 317--319
+\leavevmode\label{src-p076}No block-sensitivity theorem or inherited numerical block certificate is
+required for (10). For $H\ge1$, write $d=H+j$ and sum $j\ge1$. The elementary
+geometric-series identities are\label{src-end-p076}\par
+
+% SOURCE P077, PROOF.md lines 321--321
+\begin{equation}
+\sum 2^{-j}=1,\qquad\sum j2^{-j}=2,\qquad\sum j^2 2^{-j}=6.\tag*{}
+\label{src-p077}
+\end{equation}
+
+% SOURCE P078, PROOF.md lines 323--325
+\leavevmode\label{src-p078}The first follows by summing the geometric series; applying $x\,d/dx$ to
+$\sum_{j\ge1}x^j=x/(1-x)$ once and twice, then setting $x=1/2$, gives the
+other two. Expansion of $(H+j)(H+j-1)$ gives\label{src-end-p078}\par
+
+% SOURCE P079, PROOF.md lines 327--327
+\begin{equation}
+\sum_{d>H}\frac{d(d-1)}{2^d}=\frac{H^2+3H+4}{2^H}.\tag{11}
+\label{src-p079}
+\end{equation}
+
+% SOURCE P080, PROOF.md lines 329--331
+\leavevmode\label{src-p080}The computed caps are nondecreasing through $H$. Every smaller degree is
+therefore bounded by $c_H$; for larger degrees telescope (10) and apply
+(11). Consequently $C_{44}=\sup_d R_d/2^d$ satisfies\label{src-end-p080}\par
+
+% SOURCE P081, PROOF.md lines 333--335
+\begin{equation}
+\begin{aligned}C_{44}&\le c_{96}+\frac{9508}{2^{96}}\\
+&=\frac{174098727923678791596986402933}{79228162514264337593543950336}\\
+&<2.1974348818.\end{aligned}\tag{12}
+\label{src-p081}
+\end{equation}
+
+% SOURCE P082, PROOF.md lines 337--337
+\leavevmode\label{src-p082}The exact improvement over round five's frozen rational is\label{src-end-p082}\par
+
+% SOURCE P083, PROOF.md lines 339--340
+\begin{equation}
+\frac{76852852570035861934916069377}{79228162514264337593543950336}>\frac{1}{1000}.\tag*{}
+\label{src-p083}
+\end{equation}
+
+% SOURCE P084, PROOF.md lines 342--343
+\leavevmode\label{src-p084}This is an exact rational comparison. Rounding displayed decimals never
+enters the proof.\label{src-end-p084}\par
+
+% SOURCE P085, PROOF.md lines 345--345
+\section{What the recurrence and the scalar limit do and do not establish}\label{src-p085}\label{src-end-p085}
+
+% SOURCE P086, PROOF.md lines 347--347
+\leavevmode\label{src-p086}The inherited valid block recurrence is\label{src-end-p086}\par
+
+% SOURCE P087, PROOF.md lines 349--351
+\begin{equation}
+\begin{aligned}U(0,d)&=0,\\
+U(b,d)&=\min\left(c_d,\frac d{2^d}+\max_{1\le j\le d}U(b-1,j)\right),\\
+U(b,d)&=U(B_d,d)\quad\text{for }b>B_d.
+\end{aligned}\tag*{}
+\label{src-p087}
+\end{equation}
+
+% SOURCE P088, PROOF.md lines 353--360
+\leavevmode\label{src-p088}Its proof and raw block duals are retained in \path{baseline/PROOF.md}, sections
+5–6. In outline, restricting a maximum monomial of size $d$ costs $d/2^d$
+in (3) and lowers block sensitivity by one: the nonzero full monomial
+coefficient guarantees nonconstancy on its coordinates at every outside
+input; this gives one sensitive block disjoint from all sensitive blocks
+of the restricted function. Induct on $b$ and take the maximum over every
+degree $j\le d$. Freezing a column above $B_d$ is valid because that class of
+functions cannot grow further.\label{src-end-p088}\par
+
+% SOURCE P089, PROOF.md lines 362--374
+\leavevmode\label{src-p089}Checker B rechecks every retained Épi moment certificate and all 37
+Fourier-lattice duals before re-running this recurrence with the inherited
+$B_d$. Checker A separately computes integer recurrence rows using only
+$B_d=d^2$, a consequence of the external Wellens theorem
+$3\operatorname{bs}(\operatorname{bs}-1)\le2(d^4-d^2)$, Theorem 4.1, equation (4.3),
+\url{https://arxiv.org/html/2005.00566} . Both reach exactly $c_d$ in EVERY final
+column through degree 96. Thus the current block inputs are inactive at
+the saturation rows of this run. The accepted global bound (12) has the
+stronger elementary tail (11) and does not rely on those block premises.
+The saturation thresholds and slack are in \path{analysis.json}. A smaller $B_d$
+can help only if it crosses below its saturation threshold, with other
+inputs fixed; a decrement that leaves it at or above that threshold has
+zero effect in this recurrence.\label{src-end-p089}\par
+
+% SOURCE P090, PROOF.md lines 376--381
+\leavevmode\label{src-p090}There is also a precise limit for the scalar relaxation just specified.
+Define its next count as the largest integer $N$ for which (4),(5),(6),(8)
+are jointly feasible, allowing every high grid value $\ge2$. The packet's
+feasible scalar points at its count ceilings and the strict exclusions at
+the next integers prove that the computed counts are exactly optimal for
+THIS relaxation. Those scalar points are not Boolean existence witnesses.\label{src-end-p090}\par
+
+% SOURCE P091, PROOF.md lines 383--391
+\leavevmode\label{src-p091}Let $c$ be the previous scalar cap. Its denominator divides $2^{d-1}$, so
+$N_0=2^dc$ is an integer. The case $\lambda=1$ has budget
+$N_0+2d-1-2c\ge N_0$ and satisfies $N_0\lambda\le dM$ whenever $c\le d/2$.
+It belongs to every allowed low spectrum. Hence the next cap is at least $c$.
+Every feasible scalar point at the largest count also has $N\ge3M-2$, so the
+same estimates as in (10) bound the scalar increment by $d(d-1)/2^d$.
+The maintained upper condition $c_d\le d/2$ continues after $d=96$ by induction,
+since this increment is less than $1/2$ for $d\ge6$. Therefore the infinite
+scalar sequence exists, is nondecreasing, and its limit lies in\label{src-end-p091}\par
+
+% SOURCE P092, PROOF.md lines 393--394
+\begin{equation}
+\left[\frac{174098727923678791596986393425}{2^{96}},\ \frac{174098727923678791596986402933}{2^{96}}\right].\tag{13}
+\label{src-p092}
+\end{equation}
+
+% SOURCE P093, PROOF.md lines 396--404
+\leavevmode\label{src-p093}This pins its limit to $2.197434881723198\ldots$ with interval width
+$9508/2^{96}<1.3\cdot10^{-25}$. It quantifies the end of this particular energy and
+weight-spectrum relaxation. It is not an optimality theorem for all uses
+of Reed–Muller structure. Full signed real-degree compatibility, sharper
+control sets for actual higher-weight derivatives, correlations between
+derivatives, or new block bounds crossing the saturation thresholds could
+improve it. The known lower bound is $3/2$ from the family above, leaving a
+candidate gap about 0.6974348817. The remaining gap cannot be removed by
+merely iterating this already saturated scalar relaxation farther.\label{src-end-p093}\par
+
+% SOURCE P094, PROOF.md lines 406--412
+\leavevmode\label{src-p094}Related energy prior art: Potapov, \emph{On the number of relevant variables for
+discrete functions}, Cryptography and Communications 17 (2025), 989–998,
+\url{https://link.springer.com/article/10.1007/s12095-025-00797-4} , section 5,
+also uses Fourier energy and changed edges to bound ternary relevance.
+Its root-of-unity output encoding can double the real degree of a ternary
+polynomial in our encoding. We credit the related method; no novelty is
+claimed for the elementary real-energy argument in section 2.\label{src-end-p094}\par
+
+\clearpage\section*{Corrections}\addcontentsline{toc}{section}{Corrections}\label{corrections}
+\subsection*{Corrections to {\normalfont\texttt{PROOF.md}}}
+\texttt{PROOF.md} is frozen so that its hash matches the receipts. A referee found two wording defects. Neither changes the mathematics.\par
+
+1. Section 3, "Applying them successively to coordinates in H, or equivalently inducting on |H|". Read literally, this charges each later coordinate at its weight after restriction, and that inequality runs the wrong way. The correct reading: iterate over H for each coordinate outside H, then charge H at its original weights.\par
+
+2. Sections 4 and 5 credit the third and higher below-two weights for the final bound. The referee's ablation finds that, given the energy grid, the single fact that no normalized weight lies in (1, 3/2) already gives the same rational. Section 5's ablation numbers disagree with that, and this hasn't been resolved. Treat the attribution as open. The bound doesn't depend on it.\par
+
+External premises are R3 = 10 and the second Reed-Muller weight 3/2. The Kasami-Tokura-Azumi 1976 results aren't a premise. The claim in \texttt{KTA\_AUDIT.md} about a table omission is unverified.\par
+
+
+\section*{External premises and cited results}
+\addcontentsline{toc}{section}{External premises and cited results}
+\label{premises}
+The external premises identified in \path{CORRECTIONS.md} are $R_3=10$
+and the second Reed--Muller weight $3/2$ (no normalized weight lies in
+$(1,3/2)$). The degree-three result is cited through Tarannikov--Kirienko,
+\url{https://eprint.iacr.org/2000/050}, and Krotov--Valyuzhenich,
+\url{https://arxiv.org/html/2311.05566v2}, Section 3. These results are
+cited, not reproved.
+
+Section 4 cites the fuller below-two Kasami--Tokura spectrum, crediting
+Berlekamp--Sloane for low binary weights: Kasami--Tokura (1970),
+\url{https://doi.org/10.1109/TIT.1970.1054545}; see also Carlet (2024),
+Section 2, p.~10613, linked there. Correction 2 leaves the need for the
+higher below-two weights for this bound open.
+
+Section 1 proves and cites the Chiarelli--Hatami--Saks identity. Section 7
+cites Wellens's recurrence and block theorem, whose premises are not needed
+for (12). Valyuzhenich's minimum-support classification is context, rather
+than a premise of Section 2's energy inequality.
+
+\textbf{KTA audit caveat.} The Kasami--Tokura--Azumi (1976) results are not
+a premise. \path{KTA_AUDIT.md} reports that its original PDF endpoint and
+the Elsevier API denied access, and that the full 1974 preprint was not
+reconstructed. Its claim about an omission in the final table is
+\emph{unverified}, as \path{CORRECTIONS.md} explicitly states. The proof
+allows all energy-grid values at and above $2$ and uses no KTA exclusions
+in the range $2$ to $2.5$. The audit's claimed higher-weight numerical gain
+is also subject to correction 2.
+
+\section*{Certificates and reproduction}
+\addcontentsline{toc}{section}{Certificates and reproduction}
+\label{certificates}
+Pinned source folder:
+\begin{center}\small
+\url{https://github.com/rpinho/math-certificates/tree/09c84234137d3fadee1620dbc1c2ca58d2756ce2/c44/reed-muller-caps}
+\end{center}
+The frozen \path{PROOF.md} SHA-256, checked against \path{MANIFEST.json}, is
+\begin{center}\small\path{af599ddff4732631a1c0565d5a5b3a90510d53955436b085b55883d85dcc4c47}\end{center}
+The packet includes the following files and subfolders.
+\begin{itemize}
+\item Written sources: \path{PROOF.md}, \path{CORRECTIONS.md},
+\path{README.md}, \path{PRIOR_ART.md}, \path{KTA_AUDIT.md}, and \path{review/}.
+\item Exact inputs and generation: \path{caps.json}, \path{candidate.json},
+\path{generate.py}, \path{analyze.py}, \path{analysis.json}, and \path{analysis.log}.
+\item Checkers: \path{verify_caps_a.py} and \path{verify_caps_b.py}.
+Checker B also reads \path{baseline/epi_certificate.json} and
+\path{baseline/spectral_certificate_round3.json}; \path{baseline/} retains
+the inherited proofs and certificates.
+\item Receipts and hashes: \path{check_a.log}, \path{check_b.log},
+\path{verification_a.json}, \path{verification_b.json},
+\path{FINAL_RECEIPT.json}, \path{MANIFEST.json}, \path{SHA256SUMS},
+and \path{PROCESS_LEDGER.json}.
+\item Finite controls: \path{control_boolean.cpp}, \path{control_ternary.cpp},
+\path{control_corruption.py}, \path{control_corruption.json},
+\path{boolean.log}, \path{ternary.log}, and \path{corruption.log}.
+\path{jobs/} retains the original reproduction wrappers.
+\end{itemize}
+From a writable copy of the pinned folder, using Python 3.10 or later
+(standard library), the two checker commands are
+\begin{verbatim}
+nice -n 10 python3 -B verify_caps_a.py candidate.json
+nice -n 10 python3 -B verify_caps_b.py candidate.json
+\end{verbatim}
+The scripts write \path{verification_a.json} and \path{verification_b.json}
+beside themselves. Both were replayed for this PDF and returned PASS with
+the rational in (12). They check arithmetic conditional on the written
+lemmas and external premises, not those universal statements themselves.
+
+\section*{Credit and later work}
+\addcontentsline{toc}{section}{Credit and later work}
+\label{credit}
+Following the source README and prior-art note, credit goes to Chiarelli,
+Hatami and Saks for the weighted framework (including the corrected
+duplication in Chiarelli's thesis); Wellens for the recurrence; Berlekamp
+and Sloane, Kasami, Tokura and Azumi for the weight spectra; Valyuzhenich
+for minimum-influence structure; BakeLab/Épi for inherited exact
+polynomial certificates; and Shinkar and Tal for the lower family also
+credited in Section 6. The degree-three citations are due to Tarannikov
+and Kirienko, and Krotov and Valyuzhenich. Potapov's related ternary
+spectral-energy method is credited in Section 7. The source prior-art
+note and KTA audit also discuss Carlet, Rolland, Klein and Storme, Krotov's
+public discussion, Lou and Wang, and Wei et al.; these contextual
+references do not supply additional premises for (12). No novelty,
+priority, or optimality is claimed.
+
+Later work in the same repository (\path{small-degree-classification})
+gives $C_{44}<1.9916994577$, also unrefereed; this PDF concerns the requested
+$2.1974348818$ proof.
+\end{document}
