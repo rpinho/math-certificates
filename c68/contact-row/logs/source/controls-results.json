@@ -1,0 +1,254 @@
+{
+  "status": "PASS",
+  "verification": "separately written (same agent)",
+  "controls": 35,
+  "all_exact_rejections": true,
+  "results": [
+    {
+      "name": "model",
+      "expected": "MEASURE_MODEL",
+      "actual": "MEASURE_MODEL",
+      "status": "PASS",
+      "artifact_sha256": "71fd7d694305054a264ade57162702aa099a5fb4a0a27353d037ed0630521cfd"
+    },
+    {
+      "name": "radius",
+      "expected": "TARGET_RADIUS",
+      "actual": "TARGET_RADIUS",
+      "status": "PASS",
+      "artifact_sha256": "14dddf1d9660c023d99218f76b1a6f1996a380b24aca0863ee9e7826005ea7b0"
+    },
+    {
+      "name": "zeta",
+      "expected": "MEASURE_ZETA",
+      "actual": "MEASURE_ZETA",
+      "status": "PASS",
+      "artifact_sha256": "3104f570f558872b3d42a76444ee32259d5eadb8a6a73df87a0362433eb668f1"
+    },
+    {
+      "name": "kappa",
+      "expected": "MEASURE_KAPPA",
+      "actual": "MEASURE_KAPPA",
+      "status": "PASS",
+      "artifact_sha256": "85abcc022469d4e17f2f5a61e636f46365d9fd4ede031f1073cbb9119dc9271f"
+    },
+    {
+      "name": "list-length",
+      "expected": "MEASURE_LENGTH",
+      "actual": "MEASURE_LENGTH",
+      "status": "PASS",
+      "artifact_sha256": "b08c5a0fbef26fbfbc46c2f844d80549dfcc8dbd56a4da4013388f918027a384"
+    },
+    {
+      "name": "negative-weight",
+      "expected": "MEASURE_WEIGHT",
+      "actual": "MEASURE_WEIGHT",
+      "status": "PASS",
+      "artifact_sha256": "2cb1950fa55e796bc08620db0048252718914450b9989c635a984ac99852ecbf"
+    },
+    {
+      "name": "mass",
+      "expected": "MEASURE_MASS",
+      "actual": "MEASURE_MASS",
+      "status": "PASS",
+      "artifact_sha256": "60f47a7117a6a299b27d4ca39ccf797322b6c78f0e4fdf0611aedf1bc254bbbe"
+    },
+    {
+      "name": "endpoint",
+      "expected": "MEASURE_ENDPOINTS",
+      "actual": "MEASURE_ENDPOINTS",
+      "status": "PASS",
+      "artifact_sha256": "13d6747ff9810bb14ea79147ddd45ac71ee0a29c96402057d5853dff63cba7db"
+    },
+    {
+      "name": "order",
+      "expected": "MEASURE_ORDER",
+      "actual": "MEASURE_ORDER",
+      "status": "PASS",
+      "artifact_sha256": "e2080269b80914b0b8db2418922e8692beb9bf0ecf39c5ab1c9267765f196b8e"
+    },
+    {
+      "name": "rational-type",
+      "expected": "MEASURE_NODE_RATIONAL",
+      "actual": "MEASURE_NODE_RATIONAL",
+      "status": "PASS",
+      "artifact_sha256": "207d2ec4744d0d561039e6fcdb9cc2d8513cdc237f092d040f92910829ee487f"
+    },
+    {
+      "name": "tail-envelope",
+      "expected": "TAIL_ENVELOPE",
+      "actual": "TAIL_ENVELOPE",
+      "status": "PASS",
+      "artifact_sha256": "e5ca1f56b1e0644419e49fca5239815f40e89f68459a64b80de674b754f3c5f2"
+    },
+    {
+      "name": "tail-cutoff-type",
+      "expected": "TAIL_CUTOFF_TYPE",
+      "actual": "TAIL_CUTOFF_TYPE",
+      "status": "PASS",
+      "artifact_sha256": "6e260e65cc5b8e1401649b52852cbf017873adfc13e91f632d4cac6f26d99b8b"
+    },
+    {
+      "name": "first-tail-start",
+      "expected": "TAIL1_START",
+      "actual": "TAIL1_START",
+      "status": "PASS",
+      "artifact_sha256": "ef5aed113a31fd7a7d8e5dce919315bcead6b73bf6a192dbf99b1b76250f4107"
+    },
+    {
+      "name": "second-tail-interval",
+      "expected": "TAIL2_INTERVAL",
+      "actual": "TAIL2_INTERVAL",
+      "status": "PASS",
+      "artifact_sha256": "07697317b1c5605781e501cea15b5ac442eb56f1af67b1538f871e5855ce0f74"
+    },
+    {
+      "name": "cover-filename",
+      "expected": "COVER_FILENAME",
+      "actual": "COVER_FILENAME",
+      "status": "PASS",
+      "artifact_sha256": "1f0680e8ab44e72904faf5c4a506b5f19b2da33cd768db841c29718ebe3cf070"
+    },
+    {
+      "name": "cover-hash",
+      "expected": "COVER_HASH",
+      "actual": "COVER_HASH",
+      "status": "PASS",
+      "artifact_sha256": "55373241a6481ec7a7c0f11cfb6c06914066350de18dbbb91d391f78a485ed20"
+    },
+    {
+      "name": "ordinary-moment",
+      "expected": "ORDINARY_MOMENT_1",
+      "actual": "ORDINARY_MOMENT_1",
+      "status": "PASS",
+      "artifact_sha256": "f5825e42b7a68d15c79f5890ab8e1fea08ac8e3da0a24be483eb303e32f54250"
+    },
+    {
+      "name": "weighted-moment",
+      "expected": "WEIGHTED_MOMENT_1",
+      "actual": "WEIGHTED_MOMENT_1",
+      "status": "PASS",
+      "artifact_sha256": "cfddf905183d3fe7bcf7770d28be521ca0b00cebc376e451d2e771c53c152705"
+    },
+    {
+      "name": "second-tail-gap",
+      "expected": "TAIL2_GAP",
+      "actual": "TAIL2_GAP",
+      "status": "PASS",
+      "artifact_sha256": "5fa374a9146c0d7a29242114c7f8ae5b75ba603ba515a32998e2620a34d30a6b"
+    },
+    {
+      "name": "second-tail-start",
+      "expected": "TAIL2_GAP",
+      "actual": "TAIL2_GAP",
+      "status": "PASS",
+      "artifact_sha256": "79a3f47e14c998c43ad1a720155641592c72b16abf5e1b6299bc63e2035151f6"
+    },
+    {
+      "name": "cover-model",
+      "expected": "COVER_MODEL",
+      "actual": "COVER_MODEL",
+      "status": "PASS",
+      "artifact_sha256": "a3d21200821f30b0a7e4cec2b42adebf5e6fd21639eaf7dc50a454d6537acbff"
+    },
+    {
+      "name": "cover-zeta",
+      "expected": "COVER_ZETA",
+      "actual": "COVER_ZETA",
+      "status": "PASS",
+      "artifact_sha256": "c71f51380b43d4fe4708ceb3459b0346a98536fe3ca5032dc53bca689b191457"
+    },
+    {
+      "name": "cover-kappa",
+      "expected": "COVER_KAPPA",
+      "actual": "COVER_KAPPA",
+      "status": "PASS",
+      "artifact_sha256": "366cdb2c837399e590187991c5b328d18f30b7e91c4534a8cb418a8904b9dc0c"
+    },
+    {
+      "name": "cover-delta",
+      "expected": "COVER_DELTA",
+      "actual": "COVER_DELTA",
+      "status": "PASS",
+      "artifact_sha256": "a1eaec930ca9b581557ab764413cd22dfe435213f1e05ddf4f33c90a2f646a49"
+    },
+    {
+      "name": "cover-root",
+      "expected": "COVER_ROOT",
+      "actual": "COVER_ROOT",
+      "status": "PASS",
+      "artifact_sha256": "dd06da603b6233b769ea321107bcf732b6caa20ba89a3c2558dc64e2a9d9be67"
+    },
+    {
+      "name": "cover-missing-child",
+      "expected": "COVER_NODE",
+      "actual": "COVER_NODE",
+      "status": "PASS",
+      "artifact_sha256": "1742bab7ba200f49dcc0bfa1b045ef65d770a2c477fd048bdcda19560ec12c53"
+    },
+    {
+      "name": "cover-axis",
+      "expected": "COVER_AXIS",
+      "actual": "COVER_AXIS",
+      "status": "PASS",
+      "artifact_sha256": "07fd098344d985951e00d1a87e7813aa5752be2fa6c50bf6bc1dd4e9c5b4487a"
+    },
+    {
+      "name": "cover-split",
+      "expected": "COVER_SPLIT",
+      "actual": "COVER_SPLIT",
+      "status": "PASS",
+      "artifact_sha256": "c91ce9d3d581f3c2d47b20eaf8de45d91c554bc09730061ab532bc00213d81c5"
+    },
+    {
+      "name": "false-psd",
+      "expected": "PSD_NOT_EXCLUDED",
+      "actual": "PSD_NOT_EXCLUDED",
+      "status": "PASS",
+      "artifact_sha256": "8f70345f9316f4e5f35d4bd5ce04b656dabd4d91c2a1dd71be26780ac9c7da65"
+    },
+    {
+      "name": "false-constant",
+      "expected": "CONSTANT_FLOOR",
+      "actual": "CONSTANT_FLOOR",
+      "status": "PASS",
+      "artifact_sha256": "26fdc845267f6c9edfe0e7f4b8c057f1b7d6c74d162a67eb28ec039b04ee1144"
+    },
+    {
+      "name": "false-small",
+      "expected": "SMALL_REGION",
+      "actual": "SMALL_REGION",
+      "status": "PASS",
+      "artifact_sha256": "c8fc3847c807f034fb48545d90252adcecfa4124e1d89c088b9c3cc6647cf94e"
+    },
+    {
+      "name": "grid-size",
+      "expected": "GRID_SIZE",
+      "actual": "GRID_SIZE",
+      "status": "PASS",
+      "artifact_sha256": "0756fe7586edfb6cb3d2505301b5171c6242f34e88a11be72034245c3167fc50"
+    },
+    {
+      "name": "unknown-leaf",
+      "expected": "COVER_LEAF_KIND",
+      "actual": "COVER_LEAF_KIND",
+      "status": "PASS",
+      "artifact_sha256": "4638570dbbe297910bbf4f3e0e4818cd7a1b5a270eb455ba317bf2c35e8eb642"
+    },
+    {
+      "name": "leaf-extra-field",
+      "expected": "COVER_LEAF_FIELDS",
+      "actual": "COVER_LEAF_FIELDS",
+      "status": "PASS",
+      "artifact_sha256": "951509c2c72cbc0467acba83ae9a0e442b5b180e12fa8115946328debd04de0e"
+    },
+    {
+      "name": "scalar-numerical-margin",
+      "expected": "GRID_SCALAR_MARGIN",
+      "actual": "GRID_SCALAR_MARGIN",
+      "status": "PASS",
+      "artifact_sha256": "e057edce356d9f234e99cd855e53a6563952d31dc94dda1ab954bef8eb2ffc0b"
+    }
+  ],
+  "seconds": 34.773259789915755
+}

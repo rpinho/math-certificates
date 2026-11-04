@@ -1,0 +1,2288 @@
+{
+  "model": "signed_contact_v4",
+  "zeta": "23/200",
+  "kappa": "3/25",
+  "delta": "1/1000000",
+  "root": [
+    "0",
+    "17/50",
+    "0",
+    "17/50",
+    "7/10",
+    "1"
+  ],
+  "tree": {
+    "axis": 0,
+    "mid": "17/100",
+    "left": {
+      "axis": 1,
+      "mid": "17/100",
+      "left": {
+        "axis": 0,
+        "mid": "17/200",
+        "left": {
+          "axis": 1,
+          "mid": "17/200",
+          "left": {
+            "axis": 2,
+            "mid": "17/20",
+            "left": {
+              "kind": "grid",
+              "n": 4096
+            },
+            "right": {
+              "axis": 0,
+              "mid": "17/400",
+              "left": {
+                "axis": 1,
+                "mid": "17/400",
+                "left": {
+                  "axis": 2,
+                  "mid": "37/40",
+                  "left": {
+                    "kind": "grid",
+                    "n": 4096
+                  },
+                  "right": {
+                    "axis": 0,
+                    "mid": "17/800",
+                    "left": {
+                      "axis": 1,
+                      "mid": "17/800",
+                      "left": {
+                        "axis": 2,
+                        "mid": "77/80",
+                        "left": {
+                          "kind": "grid",
+                          "n": 4096
+                        },
+                        "right": {
+                          "axis": 0,
+                          "mid": "17/1600",
+                          "left": {
+                            "axis": 1,
+                            "mid": "17/1600",
+                            "left": {
+                              "axis": 2,
+                              "mid": "157/160",
+                              "left": {
+                                "kind": "grid",
+                                "n": 4096
+                              },
+                              "right": {
+                                "axis": 0,
+                                "mid": "17/3200",
+                                "left": {
+                                  "axis": 1,
+                                  "mid": "17/3200",
+                                  "left": {
+                                    "axis": 2,
+                                    "mid": "317/320",
+                                    "left": {
+                                      "kind": "grid",
+                                      "n": 4096
+                                    },
+                                    "right": {
+                                      "axis": 0,
+                                      "mid": "17/6400",
+                                      "left": {
+                                        "axis": 1,
+                                        "mid": "17/6400",
+                                        "left": {
+                                          "axis": 2,
+                                          "mid": "637/640",
+                                          "left": {
+                                            "kind": "grid",
+                                            "n": 4096
+                                          },
+                                          "right": {
+                                            "axis": 0,
+                                            "mid": "17/12800",
+                                            "left": {
+                                              "axis": 1,
+                                              "mid": "17/12800",
+                                              "left": {
+                                                "axis": 2,
+                                                "mid": "1277/1280",
+                                                "left": {
+                                                  "kind": "grid",
+                                                  "n": 4096
+                                                },
+                                                "right": {
+                                                  "axis": 0,
+                                                  "mid": "17/25600",
+                                                  "left": {
+                                                    "axis": 1,
+                                                    "mid": "17/25600",
+                                                    "left": {
+                                                      "axis": 2,
+                                                      "mid": "2557/2560",
+                                                      "left": {
+                                                        "kind": "grid",
+                                                        "n": 4096
+                                                      },
+                                                      "right": {
+                                                        "axis": 0,
+                                                        "mid": "17/51200",
+                                                        "left": {
+                                                          "axis": 1,
+                                                          "mid": "17/51200",
+                                                          "left": {
+                                                            "axis": 2,
+                                                            "mid": "5117/5120",
+                                                            "left": {
+                                                              "kind": "grid",
+                                                              "n": 4096
+                                                            },
+                                                            "right": {
+                                                              "axis": 0,
+                                                              "mid": "17/102400",
+                                                              "left": {
+                                                                "axis": 1,
+                                                                "mid": "17/102400",
+                                                                "left": {
+                                                                  "axis": 2,
+                                                                  "mid": "10237/10240",
+                                                                  "left": {
+                                                                    "kind": "grid",
+                                                                    "n": 4096
+                                                                  },
+                                                                  "right": {
+                                                                    "axis": 0,
+                                                                    "mid": "17/204800",
+                                                                    "left": {
+                                                                      "axis": 1,
+                                                                      "mid": "17/204800",
+                                                                      "left": {
+                                                                        "axis": 2,
+                                                                        "mid": "20477/20480",
+                                                                        "left": {
+                                                                          "kind": "grid",
+                                                                          "n": 4096
+                                                                        },
+                                                                        "right": {
+                                                                          "axis": 0,
+                                                                          "mid": "17/409600",
+                                                                          "left": {
+                                                                            "axis": 1,
+                                                                            "mid": "17/409600",
+                                                                            "left": {
+                                                                              "axis": 2,
+                                                                              "mid": "40957/40960",
+                                                                              "left": {
+                                                                                "kind": "grid",
+                                                                                "n": 4096
+                                                                              },
+                                                                              "right": {
+                                                                                "axis": 0,
+                                                                                "mid": "17/819200",
+                                                                                "left": {
+                                                                                  "axis": 1,
+                                                                                  "mid": "17/819200",
+                                                                                  "left": {
+                                                                                    "axis": 2,
+                                                                                    "mid": "81917/81920",
+                                                                                    "left": {
+                                                                                      "kind": "grid",
+                                                                                      "n": 4096
+                                                                                    },
+                                                                                    "right": {
+                                                                                      "axis": 0,
+                                                                                      "mid": "17/1638400",
+                                                                                      "left": {
+                                                                                        "axis": 1,
+                                                                                        "mid": "17/1638400",
+                                                                                        "left": {
+                                                                                          "axis": 2,
+                                                                                          "mid": "163837/163840",
+                                                                                          "left": {
+                                                                                            "kind": "grid",
+                                                                                            "n": 4096
+                                                                                          },
+                                                                                          "right": {
+                                                                                            "axis": 0,
+                                                                                            "mid": "17/3276800",
+                                                                                            "left": {
+                                                                                              "axis": 1,
+                                                                                              "mid": "17/3276800",
+                                                                                              "left": {
+                                                                                                "axis": 2,
+                                                                                                "mid": "327677/327680",
+                                                                                                "left": {
+                                                                                                  "kind": "grid",
+                                                                                                  "n": 4096
+                                                                                                },
+                                                                                                "right": {
+                                                                                                  "axis": 0,
+                                                                                                  "mid": "17/6553600",
+                                                                                                  "left": {
+                                                                                                    "axis": 1,
+                                                                                                    "mid": "17/6553600",
+                                                                                                    "left": {
+                                                                                                      "axis": 2,
+                                                                                                      "mid": "655357/655360",
+                                                                                                      "left": {
+                                                                                                        "kind": "grid",
+                                                                                                        "n": 4096
+                                                                                                      },
+                                                                                                      "right": {
+                                                                                                        "axis": 0,
+                                                                                                        "mid": "17/13107200",
+                                                                                                        "left": {
+                                                                                                          "axis": 1,
+                                                                                                          "mid": "17/13107200",
+                                                                                                          "left": {
+                                                                                                            "axis": 2,
+                                                                                                            "mid": "1310717/1310720",
+                                                                                                            "left": {
+                                                                                                              "kind": "grid",
+                                                                                                              "n": 4096
+                                                                                                            },
+                                                                                                            "right": {
+                                                                                                              "axis": 0,
+                                                                                                              "mid": "17/26214400",
+                                                                                                              "left": {
+                                                                                                                "axis": 1,
+                                                                                                                "mid": "17/26214400",
+                                                                                                                "left": {
+                                                                                                                  "kind": "small"
+                                                                                                                },
+                                                                                                                "right": {
+                                                                                                                  "kind": "grid",
+                                                                                                                  "n": 4096
+                                                                                                                }
+                                                                                                              },
+                                                                                                              "right": {
+                                                                                                                "kind": "grid",
+                                                                                                                "n": 4096
+                                                                                                              }
+                                                                                                            }
+                                                                                                          },
+                                                                                                          "right": {
+                                                                                                            "kind": "grid",
+                                                                                                            "n": 4096
+                                                                                                          }
+                                                                                                        },
+                                                                                                        "right": {
+                                                                                                          "kind": "grid",
+                                                                                                          "n": 4096
+                                                                                                        }
+                                                                                                      }
+                                                                                                    },
+                                                                                                    "right": {
+                                                                                                      "kind": "grid",
+                                                                                                      "n": 4096
+                                                                                                    }
+                                                                                                  },
+                                                                                                  "right": {
+                                                                                                    "kind": "grid",
+                                                                                                    "n": 4096
+                                                                                                  }
+                                                                                                }
+                                                                                              },
+                                                                                              "right": {
+                                                                                                "kind": "grid",
+                                                                                                "n": 4096
+                                                                                              }
+                                                                                            },
+                                                                                            "right": {
+                                                                                              "kind": "grid",
+                                                                                              "n": 4096
+                                                                                            }
+                                                                                          }
+                                                                                        },
+                                                                                        "right": {
+                                                                                          "kind": "grid",
+                                                                                          "n": 4096
+                                                                                        }
+                                                                                      },
+                                                                                      "right": {
+                                                                                        "kind": "grid",
+                                                                                        "n": 4096
+                                                                                      }
+                                                                                    }
+                                                                                  },
+                                                                                  "right": {
+                                                                                    "kind": "grid",
+                                                                                    "n": 4096
+                                                                                  }
+                                                                                },
+                                                                                "right": {
+                                                                                  "kind": "grid",
+                                                                                  "n": 4096
+                                                                                }
+                                                                              }
+                                                                            },
+                                                                            "right": {
+                                                                              "kind": "grid",
+                                                                              "n": 8192
+                                                                            }
+                                                                          },
+                                                                          "right": {
+                                                                            "kind": "grid",
+                                                                            "n": 4096
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      "right": {
+                                                                        "kind": "grid",
+                                                                        "n": 32768
+                                                                      }
+                                                                    },
+                                                                    "right": {
+                                                                      "kind": "grid",
+                                                                      "n": 4096
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "right": {
+                                                                  "axis": 2,
+                                                                  "mid": "10237/10240",
+                                                                  "left": {
+                                                                    "kind": "grid",
+                                                                    "n": 4096
+                                                                  },
+                                                                  "right": {
+                                                                    "axis": 0,
+                                                                    "mid": "17/204800",
+                                                                    "left": {
+                                                                      "kind": "grid",
+                                                                      "n": 8192
+                                                                    },
+                                                                    "right": {
+                                                                      "kind": "grid",
+                                                                      "n": 4096
+                                                                    }
+                                                                  }
+                                                                }
+                                                              },
+                                                              "right": {
+                                                                "kind": "grid",
+                                                                "n": 4096
+                                                              }
+                                                            }
+                                                          },
+                                                          "right": {
+                                                            "axis": 2,
+                                                            "mid": "5117/5120",
+                                                            "left": {
+                                                              "kind": "grid",
+                                                              "n": 4096
+                                                            },
+                                                            "right": {
+                                                              "axis": 0,
+                                                              "mid": "17/102400",
+                                                              "left": {
+                                                                "axis": 1,
+                                                                "mid": "51/102400",
+                                                                "left": {
+                                                                  "axis": 2,
+                                                                  "mid": "10237/10240",
+                                                                  "left": {
+                                                                    "kind": "grid",
+                                                                    "n": 4096
+                                                                  },
+                                                                  "right": {
+                                                                    "axis": 0,
+                                                                    "mid": "17/204800",
+                                                                    "left": {
+                                                                      "kind": "grid",
+                                                                      "n": 4096
+                                                                    },
+                                                                    "right": {
+                                                                      "kind": "grid",
+                                                                      "n": 4096
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "right": {
+                                                                  "kind": "grid",
+                                                                  "n": 16384
+                                                                }
+                                                              },
+                                                              "right": {
+                                                                "kind": "grid",
+                                                                "n": 4096
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "right": {
+                                                          "kind": "grid",
+                                                          "n": 4096
+                                                        }
+                                                      }
+                                                    },
+                                                    "right": {
+                                                      "axis": 2,
+                                                      "mid": "2557/2560",
+                                                      "left": {
+                                                        "kind": "grid",
+                                                        "n": 4096
+                                                      },
+                                                      "right": {
+                                                        "axis": 0,
+                                                        "mid": "17/51200",
+                                                        "left": {
+                                                          "axis": 1,
+                                                          "mid": "51/51200",
+                                                          "left": {
+                                                            "axis": 2,
+                                                            "mid": "5117/5120",
+                                                            "left": {
+                                                              "kind": "grid",
+                                                              "n": 4096
+                                                            },
+                                                            "right": {
+                                                              "axis": 0,
+                                                              "mid": "17/102400",
+                                                              "left": {
+                                                                "kind": "grid",
+                                                                "n": 8192
+                                                              },
+                                                              "right": {
+                                                                "kind": "grid",
+                                                                "n": 4096
+                                                              }
+                                                            }
+                                                          },
+                                                          "right": {
+                                                            "axis": 2,
+                                                            "mid": "5117/5120",
+                                                            "left": {
+                                                              "kind": "grid",
+                                                              "n": 4096
+                                                            },
+                                                            "right": {
+                                                              "axis": 0,
+                                                              "mid": "17/102400",
+                                                              "left": {
+                                                                "kind": "grid",
+                                                                "n": 4096
+                                                              },
+                                                              "right": {
+                                                                "kind": "grid",
+                                                                "n": 4096
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "right": {
+                                                          "kind": "grid",
+                                                          "n": 4096
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "right": {
+                                                    "kind": "grid",
+                                                    "n": 4096
+                                                  }
+                                                }
+                                              },
+                                              "right": {
+                                                "axis": 2,
+                                                "mid": "1277/1280",
+                                                "left": {
+                                                  "kind": "grid",
+                                                  "n": 4096
+                                                },
+                                                "right": {
+                                                  "axis": 0,
+                                                  "mid": "17/25600",
+                                                  "left": {
+                                                    "axis": 1,
+                                                    "mid": "51/25600",
+                                                    "left": {
+                                                      "axis": 2,
+                                                      "mid": "2557/2560",
+                                                      "left": {
+                                                        "kind": "grid",
+                                                        "n": 4096
+                                                      },
+                                                      "right": {
+                                                        "axis": 0,
+                                                        "mid": "17/51200",
+                                                        "left": {
+                                                          "axis": 1,
+                                                          "mid": "17/10240",
+                                                          "left": {
+                                                            "axis": 2,
+                                                            "mid": "5117/5120",
+                                                            "left": {
+                                                              "kind": "grid",
+                                                              "n": 4096
+                                                            },
+                                                            "right": {
+                                                              "axis": 0,
+                                                              "mid": "17/102400",
+                                                              "left": {
+                                                                "kind": "grid",
+                                                                "n": 4096
+                                                              },
+                                                              "right": {
+                                                                "kind": "grid",
+                                                                "n": 4096
+                                                              }
+                                                            }
+                                                          },
+                                                          "right": {
+                                                            "kind": "grid",
+                                                            "n": 16384
+                                                          }
+                                                        },
+                                                        "right": {
+                                                          "kind": "grid",
+                                                          "n": 4096
+                                                        }
+                                                      }
+                                                    },
+                                                    "right": {
+                                                      "axis": 2,
+                                                      "mid": "2557/2560",
+                                                      "left": {
+                                                        "kind": "grid",
+                                                        "n": 4096
+                                                      },
+                                                      "right": {
+                                                        "axis": 0,
+                                                        "mid": "17/51200",
+                                                        "left": {
+                                                          "kind": "grid",
+                                                          "n": 8192
+                                                        },
+                                                        "right": {
+                                                          "kind": "grid",
+                                                          "n": 4096
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "right": {
+                                                    "kind": "grid",
+                                                    "n": 4096
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "right": {
+                                              "kind": "grid",
+                                              "n": 4096
+                                            }
+                                          }
+                                        },
+                                        "right": {
+                                          "axis": 2,
+                                          "mid": "637/640",
+                                          "left": {
+                                            "kind": "grid",
+                                            "n": 4096
+                                          },
+                                          "right": {
+                                            "axis": 0,
+                                            "mid": "17/12800",
+                                            "left": {
+                                              "axis": 1,
+                                              "mid": "51/12800",
+                                              "left": {
+                                                "axis": 2,
+                                                "mid": "1277/1280",
+                                                "left": {
+                                                  "kind": "grid",
+                                                  "n": 4096
+                                                },
+                                                "right": {
+                                                  "axis": 0,
+                                                  "mid": "17/25600",
+                                                  "left": {
+                                                    "axis": 1,
+                                                    "mid": "17/5120",
+                                                    "left": {
+                                                      "axis": 2,
+                                                      "mid": "2557/2560",
+                                                      "left": {
+                                                        "kind": "grid",
+                                                        "n": 4096
+                                                      },
+                                                      "right": {
+                                                        "axis": 0,
+                                                        "mid": "17/51200",
+                                                        "left": {
+                                                          "kind": "grid",
+                                                          "n": 4096
+                                                        },
+                                                        "right": {
+                                                          "kind": "grid",
+                                                          "n": 4096
+                                                        }
+                                                      }
+                                                    },
+                                                    "right": {
+                                                      "axis": 2,
+                                                      "mid": "2557/2560",
+                                                      "left": {
+                                                        "kind": "grid",
+                                                        "n": 4096
+                                                      },
+                                                      "right": {
+                                                        "axis": 0,
+                                                        "mid": "17/51200",
+                                                        "left": {
+                                                          "kind": "grid",
+                                                          "n": 4096
+                                                        },
+                                                        "right": {
+                                                          "kind": "grid",
+                                                          "n": 4096
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "right": {
+                                                    "kind": "grid",
+                                                    "n": 4096
+                                                  }
+                                                }
+                                              },
+                                              "right": {
+                                                "axis": 2,
+                                                "mid": "1277/1280",
+                                                "left": {
+                                                  "kind": "grid",
+                                                  "n": 4096
+                                                },
+                                                "right": {
+                                                  "axis": 0,
+                                                  "mid": "17/25600",
+                                                  "left": {
+                                                    "axis": 1,
+                                                    "mid": "119/25600",
+                                                    "left": {
+                                                      "axis": 2,
+                                                      "mid": "2557/2560",
+                                                      "left": {
+                                                        "kind": "grid",
+                                                        "n": 4096
+                                                      },
+                                                      "right": {
+                                                        "axis": 0,
+                                                        "mid": "17/51200",
+                                                        "left": {
+                                                          "kind": "grid",
+                                                          "n": 4096
+                                                        },
+                                                        "right": {
+                                                          "kind": "grid",
+                                                          "n": 4096
+                                                        }
+                                                      }
+                                                    },
+                                                    "right": {
+                                                      "kind": "grid",
+                                                      "n": 16384
+                                                    }
+                                                  },
+                                                  "right": {
+                                                    "kind": "grid",
+                                                    "n": 4096
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "right": {
+                                              "kind": "grid",
+                                              "n": 4096
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "right": {
+                                        "kind": "grid",
+                                        "n": 4096
+                                      }
+                                    }
+                                  },
+                                  "right": {
+                                    "axis": 2,
+                                    "mid": "317/320",
+                                    "left": {
+                                      "kind": "grid",
+                                      "n": 4096
+                                    },
+                                    "right": {
+                                      "axis": 0,
+                                      "mid": "17/6400",
+                                      "left": {
+                                        "axis": 1,
+                                        "mid": "51/6400",
+                                        "left": {
+                                          "axis": 2,
+                                          "mid": "637/640",
+                                          "left": {
+                                            "kind": "grid",
+                                            "n": 4096
+                                          },
+                                          "right": {
+                                            "axis": 0,
+                                            "mid": "17/12800",
+                                            "left": {
+                                              "axis": 1,
+                                              "mid": "17/2560",
+                                              "left": {
+                                                "axis": 2,
+                                                "mid": "1277/1280",
+                                                "left": {
+                                                  "kind": "grid",
+                                                  "n": 4096
+                                                },
+                                                "right": {
+                                                  "axis": 0,
+                                                  "mid": "17/25600",
+                                                  "left": {
+                                                    "kind": "grid",
+                                                    "n": 16384
+                                                  },
+                                                  "right": {
+                                                    "kind": "grid",
+                                                    "n": 4096
+                                                  }
+                                                }
+                                              },
+                                              "right": {
+                                                "axis": 2,
+                                                "mid": "1277/1280",
+                                                "left": {
+                                                  "kind": "grid",
+                                                  "n": 4096
+                                                },
+                                                "right": {
+                                                  "axis": 0,
+                                                  "mid": "17/25600",
+                                                  "left": {
+                                                    "kind": "grid",
+                                                    "n": 4096
+                                                  },
+                                                  "right": {
+                                                    "kind": "grid",
+                                                    "n": 4096
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "right": {
+                                              "kind": "grid",
+                                              "n": 4096
+                                            }
+                                          }
+                                        },
+                                        "right": {
+                                          "axis": 2,
+                                          "mid": "637/640",
+                                          "left": {
+                                            "kind": "grid",
+                                            "n": 4096
+                                          },
+                                          "right": {
+                                            "axis": 0,
+                                            "mid": "17/12800",
+                                            "left": {
+                                              "axis": 1,
+                                              "mid": "119/12800",
+                                              "left": {
+                                                "axis": 2,
+                                                "mid": "1277/1280",
+                                                "left": {
+                                                  "kind": "grid",
+                                                  "n": 4096
+                                                },
+                                                "right": {
+                                                  "axis": 0,
+                                                  "mid": "17/25600",
+                                                  "left": {
+                                                    "kind": "grid",
+                                                    "n": 4096
+                                                  },
+                                                  "right": {
+                                                    "kind": "grid",
+                                                    "n": 4096
+                                                  }
+                                                }
+                                              },
+                                              "right": {
+                                                "axis": 2,
+                                                "mid": "1277/1280",
+                                                "left": {
+                                                  "kind": "grid",
+                                                  "n": 4096
+                                                },
+                                                "right": {
+                                                  "axis": 0,
+                                                  "mid": "17/25600",
+                                                  "left": {
+                                                    "kind": "grid",
+                                                    "n": 4096
+                                                  },
+                                                  "right": {
+                                                    "kind": "grid",
+                                                    "n": 4096
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "right": {
+                                              "kind": "grid",
+                                              "n": 4096
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "right": {
+                                        "kind": "grid",
+                                        "n": 4096
+                                      }
+                                    }
+                                  }
+                                },
+                                "right": {
+                                  "kind": "grid",
+                                  "n": 4096
+                                }
+                              }
+                            },
+                            "right": {
+                              "axis": 2,
+                              "mid": "157/160",
+                              "left": {
+                                "kind": "grid",
+                                "n": 4096
+                              },
+                              "right": {
+                                "axis": 0,
+                                "mid": "17/3200",
+                                "left": {
+                                  "axis": 1,
+                                  "mid": "51/3200",
+                                  "left": {
+                                    "axis": 2,
+                                    "mid": "317/320",
+                                    "left": {
+                                      "kind": "grid",
+                                      "n": 4096
+                                    },
+                                    "right": {
+                                      "axis": 0,
+                                      "mid": "17/6400",
+                                      "left": {
+                                        "axis": 1,
+                                        "mid": "17/1280",
+                                        "left": {
+                                          "axis": 2,
+                                          "mid": "637/640",
+                                          "left": {
+                                            "kind": "grid",
+                                            "n": 4096
+                                          },
+                                          "right": {
+                                            "axis": 0,
+                                            "mid": "17/12800",
+                                            "left": {
+                                              "axis": 1,
+                                              "mid": "153/12800",
+                                              "left": {
+                                                "kind": "grid",
+                                                "n": 32768
+                                              },
+                                              "right": {
+                                                "kind": "grid",
+                                                "n": 4096
+                                              }
+                                            },
+                                            "right": {
+                                              "kind": "grid",
+                                              "n": 4096
+                                            }
+                                          }
+                                        },
+                                        "right": {
+                                          "axis": 2,
+                                          "mid": "637/640",
+                                          "left": {
+                                            "kind": "grid",
+                                            "n": 4096
+                                          },
+                                          "right": {
+                                            "axis": 0,
+                                            "mid": "17/12800",
+                                            "left": {
+                                              "kind": "grid",
+                                              "n": 8192
+                                            },
+                                            "right": {
+                                              "kind": "grid",
+                                              "n": 4096
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "right": {
+                                        "kind": "grid",
+                                        "n": 4096
+                                      }
+                                    }
+                                  },
+                                  "right": {
+                                    "axis": 2,
+                                    "mid": "317/320",
+                                    "left": {
+                                      "kind": "grid",
+                                      "n": 4096
+                                    },
+                                    "right": {
+                                      "axis": 0,
+                                      "mid": "17/6400",
+                                      "left": {
+                                        "axis": 1,
+                                        "mid": "119/6400",
+                                        "left": {
+                                          "axis": 2,
+                                          "mid": "637/640",
+                                          "left": {
+                                            "kind": "grid",
+                                            "n": 4096
+                                          },
+                                          "right": {
+                                            "axis": 0,
+                                            "mid": "17/12800",
+                                            "left": {
+                                              "kind": "grid",
+                                              "n": 4096
+                                            },
+                                            "right": {
+                                              "kind": "grid",
+                                              "n": 4096
+                                            }
+                                          }
+                                        },
+                                        "right": {
+                                          "axis": 2,
+                                          "mid": "637/640",
+                                          "left": {
+                                            "kind": "grid",
+                                            "n": 4096
+                                          },
+                                          "right": {
+                                            "axis": 0,
+                                            "mid": "17/12800",
+                                            "left": {
+                                              "kind": "grid",
+                                              "n": 4096
+                                            },
+                                            "right": {
+                                              "kind": "grid",
+                                              "n": 4096
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "right": {
+                                        "kind": "grid",
+                                        "n": 4096
+                                      }
+                                    }
+                                  }
+                                },
+                                "right": {
+                                  "axis": 1,
+                                  "mid": "51/3200",
+                                  "left": {
+                                    "kind": "grid",
+                                    "n": 4096
+                                  },
+                                  "right": {
+                                    "kind": "grid",
+                                    "n": 4096
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "right": {
+                            "axis": 1,
+                            "mid": "17/1600",
+                            "left": {
+                              "kind": "grid",
+                              "n": 4096
+                            },
+                            "right": {
+                              "kind": "grid",
+                              "n": 4096
+                            }
+                          }
+                        }
+                      },
+                      "right": {
+                        "axis": 2,
+                        "mid": "77/80",
+                        "left": {
+                          "kind": "grid",
+                          "n": 4096
+                        },
+                        "right": {
+                          "axis": 0,
+                          "mid": "17/1600",
+                          "left": {
+                            "axis": 1,
+                            "mid": "51/1600",
+                            "left": {
+                              "axis": 2,
+                              "mid": "157/160",
+                              "left": {
+                                "kind": "grid",
+                                "n": 4096
+                              },
+                              "right": {
+                                "axis": 0,
+                                "mid": "17/3200",
+                                "left": {
+                                  "axis": 1,
+                                  "mid": "17/640",
+                                  "left": {
+                                    "axis": 2,
+                                    "mid": "317/320",
+                                    "left": {
+                                      "kind": "grid",
+                                      "n": 4096
+                                    },
+                                    "right": {
+                                      "axis": 0,
+                                      "mid": "17/6400",
+                                      "left": {
+                                        "axis": 1,
+                                        "mid": "153/6400",
+                                        "left": {
+                                          "axis": 2,
+                                          "mid": "637/640",
+                                          "left": {
+                                            "kind": "grid",
+                                            "n": 4096
+                                          },
+                                          "right": {
+                                            "kind": "grid",
+                                            "n": 16384
+                                          }
+                                        },
+                                        "right": {
+                                          "axis": 2,
+                                          "mid": "637/640",
+                                          "left": {
+                                            "kind": "grid",
+                                            "n": 4096
+                                          },
+                                          "right": {
+                                            "kind": "grid",
+                                            "n": 4096
+                                          }
+                                        }
+                                      },
+                                      "right": {
+                                        "kind": "grid",
+                                        "n": 4096
+                                      }
+                                    }
+                                  },
+                                  "right": {
+                                    "axis": 2,
+                                    "mid": "317/320",
+                                    "left": {
+                                      "kind": "grid",
+                                      "n": 4096
+                                    },
+                                    "right": {
+                                      "axis": 0,
+                                      "mid": "17/6400",
+                                      "left": {
+                                        "axis": 1,
+                                        "mid": "187/6400",
+                                        "left": {
+                                          "kind": "grid",
+                                          "n": 4096
+                                        },
+                                        "right": {
+                                          "kind": "grid",
+                                          "n": 4096
+                                        }
+                                      },
+                                      "right": {
+                                        "kind": "grid",
+                                        "n": 4096
+                                      }
+                                    }
+                                  }
+                                },
+                                "right": {
+                                  "axis": 1,
+                                  "mid": "17/640",
+                                  "left": {
+                                    "kind": "grid",
+                                    "n": 4096
+                                  },
+                                  "right": {
+                                    "kind": "grid",
+                                    "n": 4096
+                                  }
+                                }
+                              }
+                            },
+                            "right": {
+                              "axis": 2,
+                              "mid": "157/160",
+                              "left": {
+                                "kind": "grid",
+                                "n": 4096
+                              },
+                              "right": {
+                                "axis": 0,
+                                "mid": "17/3200",
+                                "left": {
+                                  "axis": 1,
+                                  "mid": "119/3200",
+                                  "left": {
+                                    "axis": 2,
+                                    "mid": "317/320",
+                                    "left": {
+                                      "kind": "grid",
+                                      "n": 4096
+                                    },
+                                    "right": {
+                                      "axis": 0,
+                                      "mid": "17/6400",
+                                      "left": {
+                                        "kind": "grid",
+                                        "n": 4096
+                                      },
+                                      "right": {
+                                        "kind": "grid",
+                                        "n": 4096
+                                      }
+                                    }
+                                  },
+                                  "right": {
+                                    "axis": 2,
+                                    "mid": "317/320",
+                                    "left": {
+                                      "kind": "grid",
+                                      "n": 4096
+                                    },
+                                    "right": {
+                                      "axis": 0,
+                                      "mid": "17/6400",
+                                      "left": {
+                                        "kind": "grid",
+                                        "n": 4096
+                                      },
+                                      "right": {
+                                        "kind": "grid",
+                                        "n": 4096
+                                      }
+                                    }
+                                  }
+                                },
+                                "right": {
+                                  "axis": 1,
+                                  "mid": "119/3200",
+                                  "left": {
+                                    "kind": "grid",
+                                    "n": 4096
+                                  },
+                                  "right": {
+                                    "kind": "grid",
+                                    "n": 4096
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "right": {
+                            "axis": 1,
+                            "mid": "51/1600",
+                            "left": {
+                              "axis": 2,
+                              "mid": "157/160",
+                              "left": {
+                                "kind": "grid",
+                                "n": 4096
+                              },
+                              "right": {
+                                "kind": "grid",
+                                "n": 4096
+                              }
+                            },
+                            "right": {
+                              "axis": 2,
+                              "mid": "157/160",
+                              "left": {
+                                "kind": "grid",
+                                "n": 4096
+                              },
+                              "right": {
+                                "axis": 0,
+                                "mid": "51/3200",
+                                "left": {
+                                  "kind": "grid",
+                                  "n": 4096
+                                },
+                                "right": {
+                                  "kind": "grid",
+                                  "n": 4096
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "right": {
+                      "axis": 1,
+                      "mid": "17/800",
+                      "left": {
+                        "kind": "grid",
+                        "n": 4096
+                      },
+                      "right": {
+                        "axis": 2,
+                        "mid": "77/80",
+                        "left": {
+                          "kind": "grid",
+                          "n": 4096
+                        },
+                        "right": {
+                          "axis": 0,
+                          "mid": "51/1600",
+                          "left": {
+                            "kind": "grid",
+                            "n": 4096
+                          },
+                          "right": {
+                            "kind": "grid",
+                            "n": 4096
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "axis": 2,
+                  "mid": "37/40",
+                  "left": {
+                    "kind": "grid",
+                    "n": 4096
+                  },
+                  "right": {
+                    "axis": 0,
+                    "mid": "17/800",
+                    "left": {
+                      "axis": 1,
+                      "mid": "51/800",
+                      "left": {
+                        "axis": 2,
+                        "mid": "77/80",
+                        "left": {
+                          "kind": "grid",
+                          "n": 4096
+                        },
+                        "right": {
+                          "axis": 0,
+                          "mid": "17/1600",
+                          "left": {
+                            "axis": 1,
+                            "mid": "17/320",
+                            "left": {
+                              "axis": 2,
+                              "mid": "157/160",
+                              "left": {
+                                "kind": "grid",
+                                "n": 4096
+                              },
+                              "right": {
+                                "axis": 0,
+                                "mid": "17/3200",
+                                "left": {
+                                  "axis": 1,
+                                  "mid": "153/3200",
+                                  "left": {
+                                    "axis": 2,
+                                    "mid": "317/320",
+                                    "left": {
+                                      "kind": "grid",
+                                      "n": 4096
+                                    },
+                                    "right": {
+                                      "axis": 0,
+                                      "mid": "17/6400",
+                                      "left": {
+                                        "kind": "grid",
+                                        "n": 4096
+                                      },
+                                      "right": {
+                                        "kind": "grid",
+                                        "n": 4096
+                                      }
+                                    }
+                                  },
+                                  "right": {
+                                    "axis": 2,
+                                    "mid": "317/320",
+                                    "left": {
+                                      "kind": "grid",
+                                      "n": 4096
+                                    },
+                                    "right": {
+                                      "kind": "grid",
+                                      "n": 4096
+                                    }
+                                  }
+                                },
+                                "right": {
+                                  "axis": 1,
+                                  "mid": "153/3200",
+                                  "left": {
+                                    "kind": "grid",
+                                    "n": 4096
+                                  },
+                                  "right": {
+                                    "kind": "grid",
+                                    "n": 4096
+                                  }
+                                }
+                              }
+                            },
+                            "right": {
+                              "axis": 2,
+                              "mid": "157/160",
+                              "left": {
+                                "kind": "grid",
+                                "n": 4096
+                              },
+                              "right": {
+                                "axis": 0,
+                                "mid": "17/3200",
+                                "left": {
+                                  "axis": 1,
+                                  "mid": "187/3200",
+                                  "left": {
+                                    "kind": "grid",
+                                    "n": 4096
+                                  },
+                                  "right": {
+                                    "kind": "grid",
+                                    "n": 4096
+                                  }
+                                },
+                                "right": {
+                                  "kind": "grid",
+                                  "n": 4096
+                                }
+                              }
+                            }
+                          },
+                          "right": {
+                            "axis": 1,
+                            "mid": "17/320",
+                            "left": {
+                              "axis": 2,
+                              "mid": "157/160",
+                              "left": {
+                                "kind": "grid",
+                                "n": 4096
+                              },
+                              "right": {
+                                "axis": 0,
+                                "mid": "51/3200",
+                                "left": {
+                                  "kind": "grid",
+                                  "n": 4096
+                                },
+                                "right": {
+                                  "kind": "grid",
+                                  "n": 4096
+                                }
+                              }
+                            },
+                            "right": {
+                              "axis": 2,
+                              "mid": "157/160",
+                              "left": {
+                                "kind": "grid",
+                                "n": 4096
+                              },
+                              "right": {
+                                "kind": "grid",
+                                "n": 4096
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "right": {
+                        "axis": 2,
+                        "mid": "77/80",
+                        "left": {
+                          "kind": "grid",
+                          "n": 4096
+                        },
+                        "right": {
+                          "axis": 0,
+                          "mid": "17/1600",
+                          "left": {
+                            "axis": 1,
+                            "mid": "119/1600",
+                            "left": {
+                              "axis": 2,
+                              "mid": "157/160",
+                              "left": {
+                                "kind": "grid",
+                                "n": 4096
+                              },
+                              "right": {
+                                "axis": 0,
+                                "mid": "17/3200",
+                                "left": {
+                                  "kind": "grid",
+                                  "n": 4096
+                                },
+                                "right": {
+                                  "kind": "grid",
+                                  "n": 4096
+                                }
+                              }
+                            },
+                            "right": {
+                              "axis": 2,
+                              "mid": "157/160",
+                              "left": {
+                                "kind": "grid",
+                                "n": 4096
+                              },
+                              "right": {
+                                "axis": 0,
+                                "mid": "17/3200",
+                                "left": {
+                                  "kind": "grid",
+                                  "n": 4096
+                                },
+                                "right": {
+                                  "kind": "grid",
+                                  "n": 4096
+                                }
+                              }
+                            }
+                          },
+                          "right": {
+                            "axis": 1,
+                            "mid": "119/1600",
+                            "left": {
+                              "axis": 2,
+                              "mid": "157/160",
+                              "left": {
+                                "kind": "grid",
+                                "n": 4096
+                              },
+                              "right": {
+                                "kind": "grid",
+                                "n": 4096
+                              }
+                            },
+                            "right": {
+                              "axis": 2,
+                              "mid": "157/160",
+                              "left": {
+                                "kind": "grid",
+                                "n": 4096
+                              },
+                              "right": {
+                                "kind": "grid",
+                                "n": 4096
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "right": {
+                      "axis": 1,
+                      "mid": "51/800",
+                      "left": {
+                        "axis": 2,
+                        "mid": "77/80",
+                        "left": {
+                          "kind": "grid",
+                          "n": 4096
+                        },
+                        "right": {
+                          "axis": 0,
+                          "mid": "51/1600",
+                          "left": {
+                            "kind": "grid",
+                            "n": 4096
+                          },
+                          "right": {
+                            "kind": "grid",
+                            "n": 4096
+                          }
+                        }
+                      },
+                      "right": {
+                        "axis": 2,
+                        "mid": "77/80",
+                        "left": {
+                          "kind": "grid",
+                          "n": 4096
+                        },
+                        "right": {
+                          "axis": 0,
+                          "mid": "51/1600",
+                          "left": {
+                            "kind": "grid",
+                            "n": 4096
+                          },
+                          "right": {
+                            "kind": "grid",
+                            "n": 4096
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "right": {
+                "axis": 1,
+                "mid": "17/400",
+                "left": {
+                  "axis": 2,
+                  "mid": "37/40",
+                  "left": {
+                    "kind": "grid",
+                    "n": 4096
+                  },
+                  "right": {
+                    "axis": 0,
+                    "mid": "51/800",
+                    "left": {
+                      "kind": "grid",
+                      "n": 4096
+                    },
+                    "right": {
+                      "kind": "grid",
+                      "n": 4096
+                    }
+                  }
+                },
+                "right": {
+                  "axis": 2,
+                  "mid": "37/40",
+                  "left": {
+                    "kind": "grid",
+                    "n": 4096
+                  },
+                  "right": {
+                    "axis": 0,
+                    "mid": "51/800",
+                    "left": {
+                      "kind": "grid",
+                      "n": 4096
+                    },
+                    "right": {
+                      "kind": "grid",
+                      "n": 4096
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "right": {
+            "axis": 2,
+            "mid": "17/20",
+            "left": {
+              "kind": "grid",
+              "n": 4096
+            },
+            "right": {
+              "axis": 0,
+              "mid": "17/400",
+              "left": {
+                "axis": 1,
+                "mid": "51/400",
+                "left": {
+                  "axis": 2,
+                  "mid": "37/40",
+                  "left": {
+                    "kind": "grid",
+                    "n": 4096
+                  },
+                  "right": {
+                    "axis": 0,
+                    "mid": "17/800",
+                    "left": {
+                      "axis": 1,
+                      "mid": "17/160",
+                      "left": {
+                        "axis": 2,
+                        "mid": "77/80",
+                        "left": {
+                          "kind": "grid",
+                          "n": 4096
+                        },
+                        "right": {
+                          "axis": 0,
+                          "mid": "17/1600",
+                          "left": {
+                            "axis": 1,
+                            "mid": "153/1600",
+                            "left": {
+                              "axis": 2,
+                              "mid": "157/160",
+                              "left": {
+                                "kind": "grid",
+                                "n": 4096
+                              },
+                              "right": {
+                                "kind": "grid",
+                                "n": 4096
+                              }
+                            },
+                            "right": {
+                              "axis": 2,
+                              "mid": "157/160",
+                              "left": {
+                                "kind": "grid",
+                                "n": 4096
+                              },
+                              "right": {
+                                "kind": "grid",
+                                "n": 4096
+                              }
+                            }
+                          },
+                          "right": {
+                            "axis": 1,
+                            "mid": "153/1600",
+                            "left": {
+                              "axis": 2,
+                              "mid": "157/160",
+                              "left": {
+                                "kind": "grid",
+                                "n": 4096
+                              },
+                              "right": {
+                                "kind": "grid",
+                                "n": 4096
+                              }
+                            },
+                            "right": {
+                              "kind": "grid",
+                              "n": 4096
+                            }
+                          }
+                        }
+                      },
+                      "right": {
+                        "axis": 2,
+                        "mid": "77/80",
+                        "left": {
+                          "kind": "grid",
+                          "n": 4096
+                        },
+                        "right": {
+                          "axis": 0,
+                          "mid": "17/1600",
+                          "left": {
+                            "axis": 1,
+                            "mid": "187/1600",
+                            "left": {
+                              "kind": "grid",
+                              "n": 4096
+                            },
+                            "right": {
+                              "kind": "grid",
+                              "n": 4096
+                            }
+                          },
+                          "right": {
+                            "axis": 1,
+                            "mid": "187/1600",
+                            "left": {
+                              "kind": "grid",
+                              "n": 4096
+                            },
+                            "right": {
+                              "kind": "grid",
+                              "n": 4096
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "right": {
+                      "axis": 1,
+                      "mid": "17/160",
+                      "left": {
+                        "axis": 2,
+                        "mid": "77/80",
+                        "left": {
+                          "kind": "grid",
+                          "n": 4096
+                        },
+                        "right": {
+                          "axis": 0,
+                          "mid": "51/1600",
+                          "left": {
+                            "kind": "grid",
+                            "n": 4096
+                          },
+                          "right": {
+                            "kind": "grid",
+                            "n": 4096
+                          }
+                        }
+                      },
+                      "right": {
+                        "axis": 2,
+                        "mid": "77/80",
+                        "left": {
+                          "kind": "grid",
+                          "n": 4096
+                        },
+                        "right": {
+                          "axis": 0,
+                          "mid": "51/1600",
+                          "left": {
+                            "kind": "grid",
+                            "n": 4096
+                          },
+                          "right": {
+                            "kind": "grid",
+                            "n": 4096
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "axis": 2,
+                  "mid": "37/40",
+                  "left": {
+                    "kind": "grid",
+                    "n": 4096
+                  },
+                  "right": {
+                    "axis": 0,
+                    "mid": "17/800",
+                    "left": {
+                      "axis": 1,
+                      "mid": "119/800",
+                      "left": {
+                        "axis": 2,
+                        "mid": "77/80",
+                        "left": {
+                          "kind": "grid",
+                          "n": 4096
+                        },
+                        "right": {
+                          "axis": 0,
+                          "mid": "17/1600",
+                          "left": {
+                            "axis": 1,
+                            "mid": "221/1600",
+                            "left": {
+                              "kind": "grid",
+                              "n": 4096
+                            },
+                            "right": {
+                              "kind": "psd"
+                            }
+                          },
+                          "right": {
+                            "axis": 1,
+                            "mid": "221/1600",
+                            "left": {
+                              "kind": "grid",
+                              "n": 4096
+                            },
+                            "right": {
+                              "kind": "psd"
+                            }
+                          }
+                        }
+                      },
+                      "right": {
+                        "axis": 2,
+                        "mid": "77/80",
+                        "left": {
+                          "kind": "grid",
+                          "n": 4096
+                        },
+                        "right": {
+                          "kind": "psd"
+                        }
+                      }
+                    },
+                    "right": {
+                      "axis": 1,
+                      "mid": "119/800",
+                      "left": {
+                        "axis": 2,
+                        "mid": "77/80",
+                        "left": {
+                          "kind": "grid",
+                          "n": 4096
+                        },
+                        "right": {
+                          "axis": 0,
+                          "mid": "51/1600",
+                          "left": {
+                            "kind": "grid",
+                            "n": 4096
+                          },
+                          "right": {
+                            "kind": "grid",
+                            "n": 4096
+                          }
+                        }
+                      },
+                      "right": {
+                        "axis": 2,
+                        "mid": "77/80",
+                        "left": {
+                          "kind": "grid",
+                          "n": 4096
+                        },
+                        "right": {
+                          "kind": "psd"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "right": {
+                "axis": 1,
+                "mid": "51/400",
+                "left": {
+                  "axis": 2,
+                  "mid": "37/40",
+                  "left": {
+                    "kind": "grid",
+                    "n": 4096
+                  },
+                  "right": {
+                    "axis": 0,
+                    "mid": "51/800",
+                    "left": {
+                      "axis": 1,
+                      "mid": "17/160",
+                      "left": {
+                        "kind": "grid",
+                        "n": 4096
+                      },
+                      "right": {
+                        "kind": "grid",
+                        "n": 4096
+                      }
+                    },
+                    "right": {
+                      "kind": "grid",
+                      "n": 4096
+                    }
+                  }
+                },
+                "right": {
+                  "axis": 2,
+                  "mid": "37/40",
+                  "left": {
+                    "kind": "grid",
+                    "n": 4096
+                  },
+                  "right": {
+                    "axis": 0,
+                    "mid": "51/800",
+                    "left": {
+                      "axis": 1,
+                      "mid": "119/800",
+                      "left": {
+                        "kind": "grid",
+                        "n": 4096
+                      },
+                      "right": {
+                        "kind": "grid",
+                        "n": 4096
+                      }
+                    },
+                    "right": {
+                      "kind": "grid",
+                      "n": 4096
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "right": {
+          "axis": 1,
+          "mid": "17/200",
+          "left": {
+            "axis": 2,
+            "mid": "17/20",
+            "left": {
+              "kind": "grid",
+              "n": 4096
+            },
+            "right": {
+              "axis": 0,
+              "mid": "51/400",
+              "left": {
+                "kind": "grid",
+                "n": 4096
+              },
+              "right": {
+                "kind": "grid",
+                "n": 4096
+              }
+            }
+          },
+          "right": {
+            "axis": 2,
+            "mid": "17/20",
+            "left": {
+              "kind": "grid",
+              "n": 4096
+            },
+            "right": {
+              "axis": 0,
+              "mid": "51/400",
+              "left": {
+                "axis": 1,
+                "mid": "51/400",
+                "left": {
+                  "kind": "grid",
+                  "n": 4096
+                },
+                "right": {
+                  "kind": "grid",
+                  "n": 4096
+                }
+              },
+              "right": {
+                "kind": "grid",
+                "n": 4096
+              }
+            }
+          }
+        }
+      },
+      "right": {
+        "axis": 0,
+        "mid": "17/200",
+        "left": {
+          "axis": 1,
+          "mid": "51/200",
+          "left": {
+            "axis": 2,
+            "mid": "17/20",
+            "left": {
+              "kind": "grid",
+              "n": 4096
+            },
+            "right": {
+              "axis": 0,
+              "mid": "17/400",
+              "left": {
+                "axis": 1,
+                "mid": "17/80",
+                "left": {
+                  "axis": 2,
+                  "mid": "37/40",
+                  "left": {
+                    "kind": "grid",
+                    "n": 4096
+                  },
+                  "right": {
+                    "axis": 0,
+                    "mid": "17/800",
+                    "left": {
+                      "axis": 1,
+                      "mid": "153/800",
+                      "left": {
+                        "axis": 2,
+                        "mid": "77/80",
+                        "left": {
+                          "kind": "grid",
+                          "n": 4096
+                        },
+                        "right": {
+                          "kind": "psd"
+                        }
+                      },
+                      "right": {
+                        "axis": 2,
+                        "mid": "77/80",
+                        "left": {
+                          "kind": "grid",
+                          "n": 4096
+                        },
+                        "right": {
+                          "kind": "psd"
+                        }
+                      }
+                    },
+                    "right": {
+                      "axis": 1,
+                      "mid": "153/800",
+                      "left": {
+                        "axis": 2,
+                        "mid": "77/80",
+                        "left": {
+                          "kind": "grid",
+                          "n": 4096
+                        },
+                        "right": {
+                          "kind": "psd"
+                        }
+                      },
+                      "right": {
+                        "axis": 2,
+                        "mid": "77/80",
+                        "left": {
+                          "kind": "grid",
+                          "n": 4096
+                        },
+                        "right": {
+                          "kind": "psd"
+                        }
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "axis": 2,
+                  "mid": "37/40",
+                  "left": {
+                    "kind": "grid",
+                    "n": 4096
+                  },
+                  "right": {
+                    "kind": "psd"
+                  }
+                }
+              },
+              "right": {
+                "axis": 1,
+                "mid": "17/80",
+                "left": {
+                  "axis": 2,
+                  "mid": "37/40",
+                  "left": {
+                    "kind": "grid",
+                    "n": 4096
+                  },
+                  "right": {
+                    "axis": 0,
+                    "mid": "51/800",
+                    "left": {
+                      "axis": 1,
+                      "mid": "153/800",
+                      "left": {
+                        "kind": "grid",
+                        "n": 4096
+                      },
+                      "right": {
+                        "kind": "grid",
+                        "n": 4096
+                      }
+                    },
+                    "right": {
+                      "kind": "grid",
+                      "n": 4096
+                    }
+                  }
+                },
+                "right": {
+                  "axis": 2,
+                  "mid": "37/40",
+                  "left": {
+                    "kind": "grid",
+                    "n": 4096
+                  },
+                  "right": {
+                    "kind": "psd"
+                  }
+                }
+              }
+            }
+          },
+          "right": {
+            "axis": 2,
+            "mid": "17/20",
+            "left": {
+              "kind": "constant"
+            },
+            "right": {
+              "axis": 0,
+              "mid": "17/400",
+              "left": {
+                "axis": 1,
+                "mid": "119/400",
+                "left": {
+                  "axis": 2,
+                  "mid": "37/40",
+                  "left": {
+                    "kind": "grid",
+                    "n": 4096
+                  },
+                  "right": {
+                    "kind": "psd"
+                  }
+                },
+                "right": {
+                  "kind": "psd"
+                }
+              },
+              "right": {
+                "axis": 1,
+                "mid": "119/400",
+                "left": {
+                  "axis": 2,
+                  "mid": "37/40",
+                  "left": {
+                    "kind": "grid",
+                    "n": 4096
+                  },
+                  "right": {
+                    "kind": "psd"
+                  }
+                },
+                "right": {
+                  "kind": "psd"
+                }
+              }
+            }
+          }
+        },
+        "right": {
+          "axis": 1,
+          "mid": "51/200",
+          "left": {
+            "axis": 2,
+            "mid": "17/20",
+            "left": {
+              "kind": "grid",
+              "n": 4096
+            },
+            "right": {
+              "axis": 0,
+              "mid": "51/400",
+              "left": {
+                "axis": 1,
+                "mid": "17/80",
+                "left": {
+                  "kind": "grid",
+                  "n": 4096
+                },
+                "right": {
+                  "axis": 2,
+                  "mid": "37/40",
+                  "left": {
+                    "kind": "grid",
+                    "n": 4096
+                  },
+                  "right": {
+                    "kind": "psd"
+                  }
+                }
+              },
+              "right": {
+                "kind": "grid",
+                "n": 4096
+              }
+            }
+          },
+          "right": {
+            "axis": 2,
+            "mid": "17/20",
+            "left": {
+              "kind": "constant"
+            },
+            "right": {
+              "axis": 0,
+              "mid": "51/400",
+              "left": {
+                "axis": 1,
+                "mid": "119/400",
+                "left": {
+                  "axis": 2,
+                  "mid": "37/40",
+                  "left": {
+                    "kind": "grid",
+                    "n": 4096
+                  },
+                  "right": {
+                    "kind": "psd"
+                  }
+                },
+                "right": {
+                  "kind": "psd"
+                }
+              },
+              "right": {
+                "kind": "grid",
+                "n": 4096
+              }
+            }
+          }
+        }
+      }
+    },
+    "right": {
+      "axis": 1,
+      "mid": "17/100",
+      "left": {
+        "axis": 0,
+        "mid": "51/200",
+        "left": {
+          "kind": "grid",
+          "n": 4096
+        },
+        "right": {
+          "kind": "constant"
+        }
+      },
+      "right": {
+        "axis": 0,
+        "mid": "51/200",
+        "left": {
+          "axis": 1,
+          "mid": "51/200",
+          "left": {
+            "kind": "grid",
+            "n": 4096
+          },
+          "right": {
+            "kind": "grid",
+            "n": 4096
+          }
+        },
+        "right": {
+          "kind": "constant"
+        }
+      }
+    }
+  },
+  "proposal_leaves": 287,
+  "proposal_min": 0.11502033068374033,
+  "proposal_seconds": 1.9376851841807365,
+  "proposal_max_depth": 55
+}

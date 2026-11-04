@@ -1,0 +1,41 @@
+{
+  "utc": "2026-11-04T11:00:58.658613+00:00",
+  "verification": "separately written (same agent)",
+  "essential_runtime_files": {
+    "verify_measure.py": "99781f39f7f5bb6a856a2c1fef38f686b9bac34a30b1e81304c48216c64c8927",
+    "verify_row.py": "5a985de24583b37479aba5e107c49d32bea9fa5b27bdf348ec07731594fdd2d3",
+    "certificates/certificate-0447.json": "d9dd308f94efb019368682367609d9fa71c9982bb7195b27da22bb80d02f4afe",
+    "certificates/row-cover.json": "fda0aa1430313c3f896021073f3a44c3b1b920d2b07451d3b7d58d7d4d0bfc27"
+  },
+  "analytic_proof_files": {
+    "PROOF.md": "26e3c8ed0d0e58195fb54da527fd3d4967dba6acd611eca9a147c1878e4fde32",
+    "CONTACT_ROW_LEMMA.md": "5aca9d0d70e09c2b77fabc2d0a26ae2fb20e796c0cf8e3fe358e1638af97a47c",
+    "INPUT_GREEN_FLUX.md": "76982169e92d5ea5f93e2fa4b7d1cc37d023adc1bc88582e132fe8da794be342",
+    "INPUT_ANGULAR.md": "8fd4486639b029e22f0c23f0cb26ae3fcfec07687da5a18498975a9a095859d7"
+  },
+  "imports": {
+    "verify_measure.py": [
+      "argparse",
+      "flint",
+      "fractions",
+      "hashlib",
+      "json",
+      "math",
+      "pathlib",
+      "time",
+      "verify_row"
+    ],
+    "verify_row.py": [
+      "argparse",
+      "flint",
+      "fractions",
+      "hashlib",
+      "json",
+      "pathlib",
+      "time"
+    ]
+  },
+  "third_party_dependency": "python-flint 0.9.0",
+  "portable_command": "python -B verify_measure.py certificates/certificate-0447.json --output replay.json",
+  "optimizer_required": false
+}

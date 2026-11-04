@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-04T04:27:55.827236+00:00",
+  "scope": "Frozen proof, acceptance programs and exact artifacts; reports and diagnostics may continue.",
+  "files": {
+    "BAR.json": "329c38111d3dcbd0146bb5002a1dfbfef51d4315ee2fe65378bec402c5b12bd1",
+    "PROOF.md": "26e3c8ed0d0e58195fb54da527fd3d4967dba6acd611eca9a147c1878e4fde32",
+    "CONTACT_ROW_LEMMA.md": "5aca9d0d70e09c2b77fabc2d0a26ae2fb20e796c0cf8e3fe358e1638af97a47c",
+    "INPUT_GREEN_FLUX.md": "76982169e92d5ea5f93e2fa4b7d1cc37d023adc1bc88582e132fe8da794be342",
+    "INPUT_ANGULAR.md": "8fd4486639b029e22f0c23f0cb26ae3fcfec07687da5a18498975a9a095859d7",
+    "verify_measure.py": "99781f39f7f5bb6a856a2c1fef38f686b9bac34a30b1e81304c48216c64c8927",
+    "verify_row.py": "5a985de24583b37479aba5e107c49d32bea9fa5b27bdf348ec07731594fdd2d3",
+    "verify_controls.py": "f5cfaf56aab39b420c24361a674ac2dde5396f69e351238667b4f527a3fba548",
+    "verify_retained.py": "14900b5bb77d0af296b10791d095d18f3249a6545b570f331ce9cc49e6f556c6",
+    "verify_alternate.py": "82ee73abc39750621ec9e779e5b1b91ca3792ea38b5907258676856300b3d526",
+    "certificates/certificate-0447.json": "d9dd308f94efb019368682367609d9fa71c9982bb7195b27da22bb80d02f4afe",
+    "certificates/row-cover.json": "fda0aa1430313c3f896021073f3a44c3b1b920d2b07451d3b7d58d7d4d0bfc27",
+    "certificates/contact-configurations.json": "8a6ca0e0c4a65522a05c2cf7a26235b45e92f0ac2748aec43db17285154fe9ff",
+    "verify_contact_configurations.py": "6065aed10aa20f302d29b364d360f7edb11e710289d5d0366410347cdde9deaf"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "model": "contact_row_v1",
+  "zeta": "23/200",
+  "kappa": "3/25",
+  "delta": "1/1000000",
+  "root": [
+    "0",
+    "17/50",
+    "0",
+    "17/50",
+    "7/10",
+    "1"
+  ],
+  "tree": {
+    "kind": "trust_previous_pass"
+  },
+  "proposal_leaves": 287,
+  "proposal_min": 0.11502033068374033,
+  "proposal_seconds": 1.9376851841807365,
+  "proposal_max_depth": 55
+}

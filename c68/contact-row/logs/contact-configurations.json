@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "verification": "separately written (same agent)",
+  "sha256": "8a6ca0e0c4a65522a05c2cf7a26235b45e92f0ac2748aec43db17285154fe9ff",
+  "cases": [
+    {
+      "name": "balanced-two-contact-endpoint",
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "m1": [
+        "0",
+        "0"
+      ],
+      "m2": [
+        "1",
+        "0"
+      ],
+      "a_squared": "0",
+      "q0": "0",
+      "S": "0",
+      "J": "0",
+      "row_improvement": false,
+      "allowed_normalized_radius": "1",
+      "h_squared": "100001",
+      "min_exact_pair_gap": "0",
+      "improved_normalized_radius_gap": "0"
+    },
+    {
+      "name": "three-contact-row-improvement",
+      "weights": [
+        "3/8",
+        "5/16",
+        "5/16"
+      ],
+      "m1": [
+        "-797/3208",
+        "25/802"
+      ],
+      "m2": [
+        "159801/160801",
+        "-9975/160801"
+      ],
+      "a_squared": "1609/25664",
+      "q0": "638209/645209",
+      "S": "666329/10291264",
+      "J": "[0.24821680556056482911323337955130639463185883170248235586363684856611952250054207675858889578769 +/- 5.21e-96]",
+      "row_improvement": true,
+      "allowed_normalized_radius": "425/2572816",
+      "h_squared": "2817051/160801",
+      "min_exact_pair_gap": "0",
+      "improved_normalized_radius_gap": "[0.75161800579011085076437932186224202857446451205781764227070311200626497759585035861183790504067 +/- 5.90e-96]"
+    }
+  ],
+  "scope": "Exact balanced geometric contact configurations satisfying the Fourier pair relaxation; no holomorphic annular interpolation claim."
+}

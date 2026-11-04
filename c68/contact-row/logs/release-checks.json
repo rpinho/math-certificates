@@ -1,0 +1,145 @@
+{
+  "started_utc": "2026-11-04T11:29:05.581957+00:00",
+  "status": "PASS",
+  "python": "3.12.13",
+  "platform": "Darwin arm64",
+  "python_flint": "0.9.0",
+  "mpmath": "1.3.0",
+  "nice": 10,
+  "max_concurrent_workers": 2,
+  "thread_limits": 1,
+  "checks": [
+    {
+      "name": "full",
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python",
+        "-B",
+        "verify_measure.py",
+        "certificates/certificate-0447.json",
+        "--bits",
+        "320",
+        "--output",
+        "logs/verification-final.json"
+      ],
+      "pid": 72987,
+      "exit_code": 0,
+      "status": "PASS",
+      "seconds": 18.778,
+      "log": "logs/release-full.log",
+      "receipt": "logs/verification-final.json"
+    },
+    {
+      "name": "controls",
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python",
+        "-B",
+        "verify_controls.py"
+      ],
+      "pid": 73411,
+      "exit_code": 0,
+      "status": "PASS",
+      "seconds": 10.019,
+      "log": "logs/release-controls.log",
+      "receipt": "logs/controls-results.json"
+    },
+    {
+      "name": "retained",
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python",
+        "-B",
+        "verify_retained.py"
+      ],
+      "pid": 73519,
+      "exit_code": 0,
+      "status": "PASS",
+      "seconds": 0.079,
+      "log": "logs/release-retained.log",
+      "receipt": "logs/retained-verification.json"
+    },
+    {
+      "name": "auxiliary",
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python",
+        "-B",
+        "verify_auxiliary.py"
+      ],
+      "pid": 73520,
+      "exit_code": 0,
+      "status": "PASS",
+      "seconds": 0.023,
+      "log": "logs/release-auxiliary.log",
+      "receipt": "logs/auxiliary-rejections.json"
+    },
+    {
+      "name": "contacts",
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python",
+        "-B",
+        "verify_contact_configurations.py"
+      ],
+      "pid": 73521,
+      "exit_code": 0,
+      "status": "PASS",
+      "seconds": 0.051,
+      "log": "logs/release-contacts.log",
+      "receipt": "logs/contact-configurations.json"
+    },
+    {
+      "name": "alternate-scalar",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 98.16404216602677,
+      "receipt": "logs/alternate-scalar.json",
+      "log": "logs/release-alternate-scalar.log",
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python",
+        "-B",
+        "verify_alternate.py",
+        "scalar",
+        "certificates/row-cover.json",
+        "--output",
+        "logs/alternate-scalar.json"
+      ]
+    },
+    {
+      "name": "alternate-measure",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 189.22275070799515,
+      "receipt": "logs/alternate-measure.json",
+      "log": "logs/release-alternate-measure.log",
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python",
+        "-B",
+        "verify_alternate.py",
+        "measure",
+        "certificates/certificate-0447.json",
+        "--output",
+        "logs/alternate-measure.json"
+      ]
+    }
+  ],
+  "completed_utc": "2026-11-04T11:34:58.485582+00:00",
+  "niceness_note": "All commands invoked with nice -n 10; inherited positive niceness made observed alternate workers NI=20 (lower priority)."
+}

@@ -1,0 +1,6 @@
+{
+  "basic_exact_rational_cases": 4500,
+  "transcendental_cross_checks": 500,
+  "independent_reference": "python-flint Arb 384 bits",
+  "all_pass": true
+}

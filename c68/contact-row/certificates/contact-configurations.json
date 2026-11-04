@@ -1,0 +1,9 @@
+{
+ "model":"exact_contact_configurations_v1",
+ "kappa":"3/25",
+ "D":"100000",
+ "cases":[
+  {"name":"balanced-two-contact-endpoint","weights":["1/2","1/2"],"domain":[["1","0"],["-1","0"]],"image_directions":[["1","0"],["-1","0"]],"expect_row_improvement":false},
+  {"name":"three-contact-row-improvement","weights":["3/8","5/16","5/16"],"domain":[["1","0"],["-1","0"],["-399/401","40/401"]],"image_directions":[["1","0"],["-3/5","4/5"],["-3/5","-4/5"]],"expect_row_improvement":true}
+ ]
+}

@@ -1,0 +1,50 @@
+{
+  "seed": 110468,
+  "pairs": 1000,
+  "radii_per_pair": 30,
+  "radial_tests": 30000,
+  "min_normalized_radial_slack": 0.0007666994135025843,
+  "min_normalized_squared_norm_gap": 0.06931061257392702,
+  "worst_radial_case": {
+    "trial": 45,
+    "r": 0.44700000100000004,
+    "f": [
+      [
+        0.44665741760431404,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "u": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  "scope": "floating diagnostics, boundary-grid Lipschitz normalization of Laurent quotient; not proof",
+  "all_pass": true
+}

@@ -1,0 +1,6 @@
+{
+  "model": "contact_row_negative_controls_v1",
+  "naive_floor": {"domain_cosine":"399/401","domain_sine":"40/401","weights":["1/2","1/2"],"D":"1"},
+  "too_large_coefficient": {"m1":"0","m2":"1","zeta":"13/100","N":12,"radius":"1/2"},
+  "expected_rejections": ["FALSE_NAIVE_FLOOR_J_EQUALS_ABS_M1","FALSE_UNIFORM_COEFFICIENT_13_100"]
+}
