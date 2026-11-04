@@ -30,6 +30,24 @@ No optimality is claimed. The programs check finite identities, recurrences,
 tails and finite cases of the new lemma; the universal prose argument and
 published theorem R₃ ≤ 10 remain mathematical dependencies.
 
+## Independent external replay
+
+On 4 November 2026, GitHub user arhancanli posted an
+[independent replay](https://github.com/teorth/optimizationproblems/pull/258#issuecomment-6625127605)
+of the **C₄₄ ≤ 4.3576549226** bound on PR #258. They wrote their own code
+from the paper and the table page, without reading or running our scripts,
+and recomputed the exact rational
+172624496193406565421448533795/39614081257132168796771975168 = 4.35765492257445791338…;
+their rejection controls behaved as expected. Code:
+[arhancanli/quantavane-replays @ 956da51a](https://github.com/arhancanli/quantavane-replays/tree/956da51a5414a7e355ae9631867a545d5cd07e6b) (`c44/`).
+They report no connection with the author and disclose AI assistance (Claude, Anthropic).
+
+Their notes: the published **R₃ ≤ 10 is load-bearing**. A degree-3 cap of
+11/8, which R₃ ≤ 11 would give, returns exactly Épi's bound, and the claim
+needs only a cap of at most 173/128. Épi's 4.3654674227 is valid but about
+1.3 · 10⁻¹⁰ loose. The replay checks the computation; the prose lemmas,
+including the cap lemma, remain mathematical dependencies. It is not a peer review.
+
 ## Reproduce
 
 The recorded environment is Python 3.12.13, python-flint 0.9.0 and mpmath 1.3.0.

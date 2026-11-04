@@ -24,6 +24,24 @@ Exhaustive priority is not asserted. No optimality over all convex-body
 pairs is claimed. The geometric positioning reduction and limiting theorem
 are proved in prose; the programs verify the arithmetic comparisons.
 
+## Independent external replay
+
+On 4 November 2026, GitHub user arhancanli posted an
+[independent replay](https://github.com/teorth/optimizationproblems/pull/259#issuecomment-6625128151)
+of the **C₇₀ ≥ 1.20194336** row on PR #259. With their own fixed-point
+interval arithmetic, in the paper's factorial form, they enclosed the retained
+Steiner term at n = 10¹², k = 367879441172 in an interval of width
+4.4 · 10⁻¹¹⁷ inside our ball, and enclosed exp(1/(2e)) as
+1.20194336847031446719…. Code:
+[arhancanli/quantavane-replays @ 956da51a](https://github.com/arhancanli/quantavane-replays/tree/956da51a5414a7e355ae9631867a545d5cd07e6b).
+They report no connection with the author and disclose AI assistance (Claude, Anthropic).
+
+Their notes: "the Steiner term with k = 367879441172" means κ_k a^(n−k), as
+in the paper (reading the displayed sum's index as j = k gives only 1.0019).
+**k is not the exact maximiser**: k + 2 gives a value 2.5 · 10⁻²³ higher.
+We claimed no optimality. The replay checks the arithmetic; the geometric
+reduction and limiting theorem remain prose arguments. It is not a peer review.
+
 ## Reproduce
 
 The recorded environment is Python 3.12.13, python-flint 0.9.0 and mpmath 1.3.0.
