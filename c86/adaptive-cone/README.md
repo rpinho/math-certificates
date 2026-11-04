@@ -17,6 +17,26 @@ It improves the 1.80580911 in [`../classical-half-cells/`](../classical-half-cel
 
 The review passed every step and all 28 auxiliaries. It's AI, so it isn't a second party. No priority or optimality is claimed.
 
+## Independent external replay
+
+On 4 November 2026, GitHub user arhancanli posted an
+[independent replay](https://github.com/teorth/optimizationproblems/pull/298#issuecomment-6638029022)
+of the **C₈₆ ≤ 1.80560940** bound on PR #298, pinned to this folder at commit `0d82162`
+(`certificate.json`, sha256 `10d68ec2…0dad5`). They wrote their own standard-library code
+from the 86a page and this folder's README, PROOF.md, METHOD.md and VERIFIER_NOTES.md,
+without reading or running our checkers or audit scripts. All six checks pass (E1–E6),
+and their red controls are refused as expected. They recompute
+T/m = 288897505229428473/160000001279369600 = 1.80560939324616691129…, so the printed
+1.80560940 is T/m rounded up. Code:
+[arhancanli/quantavane-replays @ bd52e926](https://github.com/arhancanli/quantavane-replays/tree/bd52e92675d1f7802d39dd2945a3184ca3ad15d1) (`c86/`).
+They report no connection with the author and disclose AI assistance (Claude, Anthropic).
+
+Their note: METHOD.md says the floating LP enforced a potential margin of 2·10⁻⁶ and
+auxiliary integrals of 10⁻⁷. In the exact certificate the minimum of f is about
+5.57·10⁻⁷ and the smallest integral about 8.95·10⁻⁸. Neither number is part of the claim,
+which needs only both to be positive (PROOF.md), and both are. The replay checks the
+computation; the minimum principle and Smith's results are cited theorems. It is not a peer review.
+
 ## Credit
 
 The auxiliaries come from Flammang's and McKee's lists, as the provenance file records. Smith for the criterion, and Tomar for the adaptive nodes.
