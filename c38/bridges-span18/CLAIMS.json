@@ -77,6 +77,30 @@
       "arithmetic": "exact",
       "new_bound": false,
       "note": "truncated decimal expansion of the exact rational e=(lo22-hi23)/2^96"
+    },
+    {
+      "value": "17",
+      "kind": "rigorous",
+      "producer": "frozen/c38_power_secant/input/verify_power_secant.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "span cutoff of the first family (spans<=17), a parameter of the proof"
+    },
+    {
+      "value": "690",
+      "kind": "rigorous",
+      "producer": "frozen/c38_power_secant/input/verify_power_secant.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "exact degree bound deg(E)<=690 of the span 19-30 supplement polynomial"
+    },
+    {
+      "value": "1",
+      "kind": "rigorous",
+      "producer": "frozen/c38_power_secant/input/verify_power_secant.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "the renewal threshold in P(a)>=1 and S(k)>=1"
     }
   ]
 }
