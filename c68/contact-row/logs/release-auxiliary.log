@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "verification": "separately written (same agent)",
+  "sha256": "4ff51580b2e2d868648b024ca7760321c180f72561a2128b91e0a91103776e87",
+  "exact_expected_rejections": [
+    "FALSE_NAIVE_FLOOR_J_EQUALS_ABS_M1",
+    "FALSE_UNIFORM_COEFFICIENT_13_100"
+  ],
+  "naive_floor": {
+    "a": "40/401",
+    "b": "157601/160801",
+    "S": "501814336/25856961601",
+    "J": "1600/160801",
+    "wrong_floor_gap": "-2077433704/25856961601"
+  },
+  "coefficient": {
+    "energy": "42/325",
+    "rhs": "13/100",
+    "gap": "-1/1300"
+  }
+}
