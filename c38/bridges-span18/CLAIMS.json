@@ -101,6 +101,14 @@
       "arithmetic": "exact",
       "new_bound": false,
       "note": "the renewal threshold in P(a)>=1 and S(k)>=1"
+    },
+    {
+      "value": "18",
+      "kind": "rigorous",
+      "producer": "frozen/c38_power_secant/input/verify_power_secant.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "span of the strips (span-18), a parameter of the proof"
     }
   ]
 }
