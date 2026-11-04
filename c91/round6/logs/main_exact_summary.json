@@ -1,0 +1,26 @@
+{
+  "status": "complete exact replay, Arb/rational exponents and rejection controls passed; candidate and unrefereed",
+  "artifact_sha256": "e6bcacb08bb36ee21e93f90a05160b6240260692390630c03049ac0ccd39f767",
+  "bound": [
+    265988,
+    1000000
+  ],
+  "states": 121332798,
+  "lifted_states": 242665595,
+  "edges": 499034690,
+  "classes": 32774059,
+  "minimum_integer_slack": "4736028943110",
+  "dyadic_majorant_denominator": 4398046511104,
+  "checker_seconds": 7573.07,
+  "guard_elapsed_seconds": 7583.386555194855,
+  "peak_rss_bytes": 27232026624,
+  "end_utc": "2026-11-03T23:18:25.627002+00:00",
+  "potential": {
+    "encoding": "integer-lazy-power-ceil-weights-v1",
+    "precision": 42,
+    "initial": 1125899906842624,
+    "steps": 128
+  },
+  "controls_passed": 5,
+  "verifier_authorship": "separately written (same agent)"
+}

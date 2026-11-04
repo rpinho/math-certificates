@@ -1,0 +1,3 @@
+VERIFY_CHECKPOINT schema PASS
+VERIFY_CHECKPOINT exponent PASS
+VERIFY_REJECT initial potential (requires 0 < initial <= 2^60)

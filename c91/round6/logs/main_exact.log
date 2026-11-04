@@ -1,0 +1,298 @@
+artifact_sha256 e6bcacb08bb36ee21e93f90a05160b6240260692390630c03049ac0ccd39f767
+Arb_exponent [8.941135476526014934376329038362404524512534731717051655448063493499899e-7 +/- 6.23e-77] Arb_threshold [0.2659889995225820962851511120531947123742665463624785243121443062822331181529 +/- 7.99e-77]
+exact_potential_recipe {'encoding': 'integer-lazy-power-ceil-weights-v1', 'precision': 42, 'initial': 1125899906842624, 'steps': 128}
+checker_source_sha256 verify_orbit8.py 2434e8d0f962f0dbbd40a5294a421a25dbe347df92d78ad6da70a305519aa4f8
+checker_source_sha256 verify_orbit8.cpp d6fbbab3337acecd9834a9493fdfd0fb13523cc05e442173521e6201df9fa6cd
+checker_source_sha256 orbit_tracker8.inc 6c5d02aa074bd4b13b0d0f206a20c9ee68dbf985952babb20b8d00b3a76f697d
+checker_source_sha256 base_complement.inc eba5b0f949045286603c5050876b522d8045f3140ff773a15cf8827e05268c30
+forbidden_checked 0
+base_full 131999
+base_refine 0 147
+base_refine 1 2379
+base_refine 2 10661
+base_refine 3 24795
+base_refine 4 42321
+base_refine 5 57569
+base_refine 6 63841
+base_refine 7 65281
+base_refine 8 65575
+base_refine 9 65587
+base_refine 10 65587
+MATCHER_COMPLEMENT_PASS states=65587
+gap_record_rows 0 reachable 5
+gap_record_rows 1000000 reachable 1673872
+gap_record_rows 2000000 reachable 3098569
+gap_record_rows 3000000 reachable 4480675
+gap_record_rows 4000000 reachable 5859422
+gap_record_rows 5000000 reachable 7079958
+gap_record_rows 6000000 reachable 8446213
+gap_record_rows 7000000 reachable 9610482
+gap_record_rows 8000000 reachable 10880142
+gap_record_rows 9000000 reachable 12079265
+gap_record_rows 10000000 reachable 13249458
+gap_record_rows 11000000 reachable 14468544
+gap_record_rows 12000000 reachable 15621862
+gap_record_rows 13000000 reachable 16737265
+gap_record_rows 14000000 reachable 17928315
+gap_record_rows 15000000 reachable 19092979
+gap_record_rows 16000000 reachable 20182466
+gap_record_rows 17000000 reachable 21266474
+gap_record_rows 18000000 reachable 22410388
+gap_record_rows 19000000 reachable 23511292
+gap_record_rows 20000000 reachable 24564459
+gap_record_rows 21000000 reachable 25645334
+gap_record_rows 22000000 reachable 26749817
+gap_record_rows 23000000 reachable 27836049
+gap_record_rows 24000000 reachable 28882401
+gap_record_rows 25000000 reachable 29935509
+gap_record_rows 26000000 reachable 31014108
+gap_record_rows 27000000 reachable 32100645
+gap_record_rows 28000000 reachable 33136009
+gap_record_rows 29000000 reachable 34169081
+gap_record_rows 30000000 reachable 35206935
+gap_record_rows 31000000 reachable 36275363
+gap_record_rows 32000000 reachable 37328452
+gap_record_rows 33000000 reachable 38355907
+gap_record_rows 34000000 reachable 39402147
+gap_record_rows 35000000 reachable 40429525
+gap_record_rows 36000000 reachable 41485339
+gap_record_rows 37000000 reachable 42501643
+gap_record_rows 38000000 reachable 43517752
+gap_record_rows 39000000 reachable 44555977
+gap_record_rows 40000000 reachable 45597644
+gap_record_rows 41000000 reachable 46597319
+gap_record_rows 42000000 reachable 47615731
+gap_record_rows 43000000 reachable 48624399
+gap_record_rows 44000000 reachable 49632998
+gap_record_rows 45000000 reachable 50682248
+gap_record_rows 46000000 reachable 51705833
+gap_record_rows 47000000 reachable 52697533
+gap_record_rows 48000000 reachable 53670572
+gap_record_rows 49000000 reachable 54643415
+gap_record_rows 50000000 reachable 55650398
+gap_record_rows 51000000 reachable 56692688
+gap_record_rows 52000000 reachable 57685195
+gap_record_rows 53000000 reachable 58661502
+gap_record_rows 54000000 reachable 59604367
+gap_record_rows 55000000 reachable 60588760
+gap_record_rows 56000000 reachable 61595219
+gap_record_rows 57000000 reachable 62602718
+gap_record_rows 58000000 reachable 63562172
+gap_record_rows 59000000 reachable 64528169
+gap_record_rows 60000000 reachable 65466429
+gap_record_rows 61000000 reachable 66450235
+gap_record_rows 62000000 reachable 67460971
+gap_record_rows 63000000 reachable 68437364
+gap_record_rows 64000000 reachable 69375362
+gap_record_rows 65000000 reachable 70289903
+gap_record_rows 66000000 reachable 71256262
+gap_record_rows 67000000 reachable 72228030
+gap_record_rows 68000000 reachable 73207713
+gap_record_rows 69000000 reachable 74150118
+gap_record_rows 70000000 reachable 75085659
+gap_record_rows 71000000 reachable 76028280
+gap_record_rows 72000000 reachable 76983228
+gap_record_rows 73000000 reachable 77953643
+gap_record_rows 74000000 reachable 78894309
+gap_record_rows 75000000 reachable 79823409
+gap_record_rows 76000000 reachable 80755448
+gap_record_rows 77000000 reachable 81705639
+gap_record_rows 78000000 reachable 82664511
+gap_record_rows 79000000 reachable 83591001
+gap_record_rows 80000000 reachable 84510389
+gap_record_rows 81000000 reachable 85445595
+gap_record_rows 82000000 reachable 86389445
+gap_record_rows 83000000 reachable 87336019
+gap_record_rows 84000000 reachable 88246721
+gap_record_rows 85000000 reachable 89155991
+gap_record_rows 86000000 reachable 90090123
+gap_record_rows 87000000 reachable 91024028
+gap_record_rows 88000000 reachable 91945067
+gap_record_rows 89000000 reachable 92846070
+gap_record_rows 90000000 reachable 93774063
+gap_record_rows 91000000 reachable 94698307
+gap_record_rows 92000000 reachable 95611378
+gap_record_rows 93000000 reachable 96521038
+gap_record_rows 94000000 reachable 97435071
+gap_record_rows 95000000 reachable 98350614
+gap_record_rows 96000000 reachable 99247715
+gap_record_rows 97000000 reachable 100158448
+gap_record_rows 98000000 reachable 101060254
+gap_record_rows 99000000 reachable 101958187
+gap_record_rows 100000000 reachable 102860056
+gap_record_rows 101000000 reachable 103753468
+gap_record_rows 102000000 reachable 104642174
+gap_record_rows 103000000 reachable 105529640
+gap_record_rows 104000000 reachable 106418960
+gap_record_rows 105000000 reachable 107294827
+gap_record_rows 106000000 reachable 108178840
+gap_record_rows 107000000 reachable 109059930
+gap_record_rows 108000000 reachable 109937373
+gap_record_rows 109000000 reachable 110810160
+gap_record_rows 110000000 reachable 111680543
+gap_record_rows 111000000 reachable 112544402
+gap_record_rows 112000000 reachable 113411734
+gap_record_rows 113000000 reachable 114274191
+gap_record_rows 114000000 reachable 115132288
+gap_record_rows 115000000 reachable 116000684
+gap_record_rows 116000000 reachable 116862611
+gap_record_rows 117000000 reachable 117716811
+gap_record_rows 118000000 reachable 118566383
+gap_record_rows 119000000 reachable 119410241
+gap_record_rows 120000000 reachable 120244696
+gap_record_rows 121000000 reachable 121063695
+gap_record_full 121332798
+weighted_refine 0 1313
+weighted_refine 1 10253
+weighted_refine 2 64741
+weighted_refine 3 298752
+weighted_refine 4 1002134
+weighted_refine 5 2875934
+weighted_refine 6 5813498
+weighted_refine 7 9036502
+weighted_refine 8 12281581
+weighted_refine 9 15749754
+weighted_refine 10 19658344
+weighted_refine 11 23832502
+weighted_refine 12 27149037
+weighted_refine 13 29442226
+weighted_refine 14 31258233
+weighted_refine 15 32207528
+weighted_refine 16 32600974
+weighted_refine 17 32720890
+weighted_refine 18 32761713
+weighted_refine 19 32767856
+weighted_refine 20 32773135
+weighted_refine 21 32774059
+weighted_refine 22 32774059
+exact_potential_iteration 32
+exact_potential_iteration 64
+exact_potential_iteration 96
+exact_potential_iteration 128
+EXACT_POTENTIAL_RECONSTRUCTED steps=128 minimum=2 maximum=3008546357789572 fnv64=6183231679368099008
+exact_rows 0
+exact_rows 1000000
+exact_rows 2000000
+exact_rows 3000000
+exact_rows 4000000
+exact_rows 5000000
+exact_rows 6000000
+exact_rows 7000000
+exact_rows 8000000
+exact_rows 9000000
+exact_rows 10000000
+exact_rows 11000000
+exact_rows 12000000
+exact_rows 13000000
+exact_rows 14000000
+exact_rows 15000000
+exact_rows 16000000
+exact_rows 17000000
+exact_rows 18000000
+exact_rows 19000000
+exact_rows 20000000
+exact_rows 21000000
+exact_rows 22000000
+exact_rows 23000000
+exact_rows 24000000
+exact_rows 25000000
+exact_rows 26000000
+exact_rows 27000000
+exact_rows 28000000
+exact_rows 29000000
+exact_rows 30000000
+exact_rows 31000000
+exact_rows 32000000
+exact_rows 33000000
+exact_rows 34000000
+exact_rows 35000000
+exact_rows 36000000
+exact_rows 37000000
+exact_rows 38000000
+exact_rows 39000000
+exact_rows 40000000
+exact_rows 41000000
+exact_rows 42000000
+exact_rows 43000000
+exact_rows 44000000
+exact_rows 45000000
+exact_rows 46000000
+exact_rows 47000000
+exact_rows 48000000
+exact_rows 49000000
+exact_rows 50000000
+exact_rows 51000000
+exact_rows 52000000
+exact_rows 53000000
+exact_rows 54000000
+exact_rows 55000000
+exact_rows 56000000
+exact_rows 57000000
+exact_rows 58000000
+exact_rows 59000000
+exact_rows 60000000
+exact_rows 61000000
+exact_rows 62000000
+exact_rows 63000000
+exact_rows 64000000
+exact_rows 65000000
+exact_rows 66000000
+exact_rows 67000000
+exact_rows 68000000
+exact_rows 69000000
+exact_rows 70000000
+exact_rows 71000000
+exact_rows 72000000
+exact_rows 73000000
+exact_rows 74000000
+exact_rows 75000000
+exact_rows 76000000
+exact_rows 77000000
+exact_rows 78000000
+exact_rows 79000000
+exact_rows 80000000
+exact_rows 81000000
+exact_rows 82000000
+exact_rows 83000000
+exact_rows 84000000
+exact_rows 85000000
+exact_rows 86000000
+exact_rows 87000000
+exact_rows 88000000
+exact_rows 89000000
+exact_rows 90000000
+exact_rows 91000000
+exact_rows 92000000
+exact_rows 93000000
+exact_rows 94000000
+exact_rows 95000000
+exact_rows 96000000
+exact_rows 97000000
+exact_rows 98000000
+exact_rows 99000000
+exact_rows 100000000
+exact_rows 101000000
+exact_rows 102000000
+exact_rows 103000000
+exact_rows 104000000
+exact_rows 105000000
+exact_rows 106000000
+exact_rows 107000000
+exact_rows 108000000
+exact_rows 109000000
+exact_rows 110000000
+exact_rows 111000000
+exact_rows 112000000
+exact_rows 113000000
+exact_rows 114000000
+exact_rows 115000000
+exact_rows 116000000
+exact_rows 117000000
+exact_rows 118000000
+exact_rows 119000000
+exact_rows 120000000
+exact_rows 121000000
+EXACT_PASS states=121332798 edges=499034690 classes=32774059 min_slack=4736028943110
+denominator=4398046511104
+seconds=7573.07
+SEPARATELY_WRITTEN_SAME_AGENT_EXACT_ARB_PASS bound 66497/250000 seconds 7582.470578193665

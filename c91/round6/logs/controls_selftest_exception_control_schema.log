@@ -1,0 +1,5 @@
+VERIFY_REJECT schema
+Traceback (most recent call last):
+  File "work/classifier-test-wzr0sb39/exception.py", line 2, in <module>
+    raise ValueError('RLIMIT_AS')
+ValueError: RLIMIT_AS

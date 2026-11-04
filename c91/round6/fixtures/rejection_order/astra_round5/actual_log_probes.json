@@ -1,0 +1,67 @@
+[
+  {
+    "name": "schema",
+    "exit_code": 41,
+    "seconds": 0.37,
+    "passed": true,
+    "cpp_start": false,
+    "diagnostic": "VERIFY_REJECT schema",
+    "sampled_nice": [
+      10
+    ]
+  },
+  {
+    "name": "exponent",
+    "exit_code": 42,
+    "seconds": 0.36,
+    "passed": true,
+    "cpp_start": false,
+    "diagnostic": "VERIFY_REJECT exponent",
+    "sampled_nice": [
+      10
+    ]
+  },
+  {
+    "name": "canonical_word",
+    "exit_code": 1,
+    "seconds": 15.53,
+    "passed": true,
+    "cpp_start": true,
+    "diagnostic": "REJECT: listed word is canonical",
+    "sampled_nice": [
+      10
+    ],
+    "rejection_moved_before_start": [
+      true,
+      "expected evidence observed"
+    ],
+    "probe_log": "logs/astra2_order_probe_canonical_word.log"
+  },
+  {
+    "name": "zero_potential",
+    "exit_code": 44,
+    "seconds": 0.6,
+    "passed": true,
+    "cpp_start": false,
+    "diagnostic": "VERIFY_REJECT zero potential (requires positive normal binary32)",
+    "sampled_nice": [
+      10
+    ]
+  },
+  {
+    "name": "positive_root_minimum",
+    "exit_code": 1,
+    "seconds": 16.64,
+    "passed": true,
+    "cpp_start": true,
+    "diagnostic": "REJECT: exact row inequality failed at 0 (positive-minimum lower bound)",
+    "sampled_nice": [
+      10
+    ],
+    "rejection_moved_before_start": [
+      true,
+      "expected evidence observed"
+    ],
+    "probe_log": "logs/astra2_order_probe_positive_root_minimum.log"
+  }
+]

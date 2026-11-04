@@ -1,0 +1,28 @@
+TEST_NICE 20
+test_actual_missing_verifier_and_python_exception_are_errors (__main__.FailClosedTests.test_actual_missing_verifier_and_python_exception_are_errors) ... CONTROL_START schema pid 25046
+FROZEN_CONTROL {"name": "schema", "status": "ERROR", "passed": false, "reason": "wrong exit status, diagnostic, or stop condition", "exit_code": 2, "seconds": 0.223015833995305, "command": ["python3", "-u", "work/classifier-test-wzr0sb39/missing.py", "work/classifier-test-wzr0sb39/artifact"], "pid": 25046, "intentional_checkpoint_stop": false, "timed_out": false, "log": "logs/controls_selftest_missing_control_schema.log", "log_sha256": "65589f91bde908466faba94b2d21919527bdd5f48034371717ebece1c40c34da", "resource_notices": [], "seen_processes": [{"pid": 25046, "ppid": 25045, "pgid": 25046, "nice": 20, "rss_kib": 2336, "command": "(python3.12)"}], "max_sampled_worker_processes": 1, "peak_sampled_group_rss_bytes": 2392064}
+CONTROL_START schema pid 25053
+FROZEN_CONTROL {"name": "schema", "status": "ERROR", "passed": false, "reason": "exception or execution failure in verifier output", "exit_code": 1, "seconds": 0.2422193749807775, "command": ["python3", "-u", "work/classifier-test-wzr0sb39/exception.py", "work/classifier-test-wzr0sb39/artifact"], "pid": 25053, "intentional_checkpoint_stop": false, "timed_out": false, "log": "logs/controls_selftest_exception_control_schema.log", "log_sha256": "93de85ba3804b89c0ca04084a5183e71d9f3ba6b492bdaea19584eba02cc733a", "resource_notices": [], "seen_processes": [{"pid": 25053, "ppid": 25045, "pgid": 25053, "nice": 20, "rss_kib": 2784, "command": "(python3.12)"}], "max_sampled_worker_processes": 1, "peak_sampled_group_rss_bytes": 2850816}
+ok
+test_actual_signal_and_spawn_failure_are_errors (__main__.FailClosedTests.test_actual_signal_and_spawn_failure_are_errors) ... CONTROL_START schema pid 25056
+FROZEN_CONTROL {"name": "schema", "status": "ERROR", "passed": false, "reason": "wrong exit status, diagnostic, or stop condition", "exit_code": -15, "seconds": 0.2563810840365477, "command": ["python3", "-u", "work/classifier-test-347ywioz/terminate_probe.py", "work/classifier-test-347ywioz/artifact"], "pid": 25056, "intentional_checkpoint_stop": false, "timed_out": false, "log": "logs/controls_selftest_signal_control_schema.log", "log_sha256": "7730f4f9e502489d7891dbab49a6097ee25ffade054cc983ee17901c862d4296", "resource_notices": [], "seen_processes": [{"pid": 25056, "ppid": 25045, "pgid": 25056, "nice": 20, "rss_kib": 3840, "command": "(python3.12)"}], "max_sampled_worker_processes": 1, "peak_sampled_group_rss_bytes": 3932160}
+FROZEN_CONTROL {"name": "schema", "status": "ERROR", "passed": false, "reason": "exception or execution failure in verifier output", "exit_code": null, "seconds": 0.0001937909983098507, "command": ["python3", "-u", "work/classifier-test-347ywioz/terminate_probe.py", "work/classifier-test-347ywioz/artifact"], "pid": null, "intentional_checkpoint_stop": false, "timed_out": false, "log": "logs/controls_selftest_spawn_control_schema.log", "log_sha256": "0c2afe0fc10e77950ef987e10005c69a7a397e5828f9793bfca2a01567b595fd", "resource_notices": [], "seen_processes": [], "max_sampled_worker_processes": 0, "peak_sampled_group_rss_bytes": 0}
+ok
+test_all_expected_rejections_and_impostors (__main__.FailClosedTests.test_all_expected_rejections_and_impostors) ... ok
+test_astra_actual_logs_and_before_start_probes (__main__.FailClosedTests.test_astra_actual_logs_and_before_start_probes) ... ok
+test_cpp_is_required_for_cpp_rejections_and_positive (__main__.FailClosedTests.test_cpp_is_required_for_cpp_rejections_and_positive) ... ok
+test_diagnostic_before_each_required_checkpoint_is_error (__main__.FailClosedTests.test_diagnostic_before_each_required_checkpoint_is_error) ... ok
+test_duplicate_and_extra_rejections_anywhere_are_errors (__main__.FailClosedTests.test_duplicate_and_extra_rejections_anywhere_are_errors) ... ok
+test_duplicate_checkpoints_are_errors (__main__.FailClosedTests.test_duplicate_checkpoints_are_errors) ... ok
+test_original_astra2_probes_with_round6_recipe_checkpoint (__main__.FailClosedTests.test_original_astra2_probes_with_round6_recipe_checkpoint) ... ok
+test_positive_capture_and_checkpoint_order (__main__.FailClosedTests.test_positive_capture_and_checkpoint_order) ... ok
+test_reordered_and_missing_actual_checkpoints_are_errors (__main__.FailClosedTests.test_reordered_and_missing_actual_checkpoints_are_errors) ... ok
+test_resource_hook_logs_refusal_and_applies_on_supported_os (__main__.FailClosedTests.test_resource_hook_logs_refusal_and_applies_on_supported_os) ... ok
+test_timeout_reaps_process_group (__main__.FailClosedTests.test_timeout_reaps_process_group) ... CONTROL_START canonical_word pid 25072
+FROZEN_CONTROL {"name": "canonical_word", "status": "ERROR", "passed": false, "reason": "deadline reached before the required outcome", "exit_code": -15, "seconds": 0.23115754197351635, "command": ["python3", "-u", "work/classifier-test-6mxv_7w2/sleep.py", "work/classifier-test-6mxv_7w2/artifact"], "pid": 25072, "intentional_checkpoint_stop": false, "timed_out": true, "log": "logs/controls_selftest_timeout_control_canonical_word.log", "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "resource_notices": [], "seen_processes": [{"pid": 25072, "ppid": 25045, "pgid": 25072, "nice": 20, "rss_kib": 2064, "command": "python3 -u work/classifier-test-6mxv_7w2/sleep.py work/classifier-test-6mxv_7w2/artifact"}], "max_sampled_worker_processes": 1, "peak_sampled_group_rss_bytes": 2113536}
+ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 1.017s
+
+OK

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "positive_frozen",
+    "exit_code": 143,
+    "intentional_checkpoint_stop": true
+  },
+  {
+    "name": "schema",
+    "exit_code": 41,
+    "intentional_checkpoint_stop": false
+  },
+  {
+    "name": "exponent",
+    "exit_code": 42,
+    "intentional_checkpoint_stop": false
+  },
+  {
+    "name": "canonical_word",
+    "exit_code": 1,
+    "intentional_checkpoint_stop": false
+  },
+  {
+    "name": "zero_initial",
+    "exit_code": 44,
+    "intentional_checkpoint_stop": false
+  },
+  {
+    "name": "constant_positive_potential",
+    "exit_code": 1,
+    "intentional_checkpoint_stop": false
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "verification": "L0",
+  "finite_component": "L1",
+  "finite_evidence": {
+    "verification_scope": "The frozen C91 round-6 finite bank and complement-orbit graph reconstruct with 121332798 complete rows, 499034690 edges and 32774059 potential classes; all exact strict dyadic-majorant row inequalities for its integer recipe and the rational exponent at 265988/1000000 pass.",
+    "producer_author": "gpt-6.1-sol",
+    "checker_author": "gpt-6-astra",
+    "certificate": "candidate_c91r6.json.gz",
+    "checker": [
+      "nice",
+      "-n",
+      "10",
+      "python3",
+      "verification/independent.py",
+      "candidate_c91r6.json.gz"
+    ],
+    "checker_max_seconds": 18000,
+    "expected_output_sha256": "9f3012574de4287fa9b51f8993a2c7bca08883d16c45a914ba558a3050638d67",
+    "run_receipt": "verification/check.json",
+    "run_receipt_sha256": "5b6761936c7bf979374ee21affce0e202d3f44f94c25b2af1ff2121d6b6289c3"
+  }
+}

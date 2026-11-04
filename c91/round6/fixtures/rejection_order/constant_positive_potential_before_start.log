@@ -1,0 +1,20 @@
+VERIFY_CHECKPOINT schema PASS
+VERIFY_CHECKPOINT exponent PASS
+VERIFY_CHECKPOINT integer power recipe PASS
+artifact_sha256 362a36cd396d6feb8150a629be0bc85c4488d939c0fd672a2853c577f2214ce5
+Arb_exponent [8.941135476526014934376329038362404524512534731717051655448063493499899e-7 +/- 6.23e-77] Arb_threshold [0.2659889995225820962851511120531947123742665463624785243121443062822331181529 +/- 7.99e-77]
+exact_potential_recipe {'encoding': 'integer-lazy-power-ceil-weights-v1', 'precision': 42, 'initial': 1125899906842624, 'steps': 0}
+checker_source_sha256 verify_orbit8.py 57b82bd06efece68246cbe819abf046eccbaa1e09bcc8a7a53dbc74fb4deab2f
+checker_source_sha256 verify_orbit8.cpp 950688975c8c1ac40c231d629b318578df115059acd8c35a5e72732981b9ed27
+checker_source_sha256 orbit_tracker8.inc 6c5d02aa074bd4b13b0d0f206a20c9ee68dbf985952babb20b8d00b3a76f697d
+checker_source_sha256 base_complement.inc eba5b0f949045286603c5050876b522d8045f3140ff773a15cf8827e05268c30
+frozen/verify_orbit8.cpp:47:159: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+   47 |  auto offer=[&](int at,const CanonKey&from,int cost,int gap,char op){CanonKey t=from;t.cost+=cost;t.gaps+=gap;t.ops.push_back(op);if(lesskey(t,dp[at]))dp[at]=move(t);};
+      |                                                                                                                                                               ^
+      |                                                                                                                                                               std::
+1 warning generated.
+RESOURCE_LIMIT RLIMIT_AS SKIPPED ValueError current limit exceeds maximum limit
+REJECT: exact row inequality failed at 0 (positive-minimum lower bound)
+VERIFY_CHECKPOINT cpp START
+forbidden_checked 0
+VERIFY_CHECKPOINT canonical word PASS

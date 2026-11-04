@@ -1,0 +1,19 @@
+REJECT: exact row inequality failed at 0 (positive-minimum lower bound)
+VERIFY_CHECKPOINT schema PASS
+VERIFY_CHECKPOINT exponent PASS
+exact_dyadic_potential_common_exponent -53
+artifact_sha256 0c363fc7820c5e23966a903f5ae49f095d6b2c1af9e8e9437c424fee65d6f281
+Arb_exponent [2.45179869327612477001801520342518566990612809302592413330876274375829e-8 +/- 7.86e-77] Arb_threshold [0.2642630237821207938573172551207910559203622156272721064561144006340324937837 +/- 8.20e-77]
+gap_engine_sha256 2a90d5c59281d13a3191d0776ff58c0f7c8169b9039780d96bafef4c36c815e7
+complement_engine_sha256 eba5b0f949045286603c5050876b522d8045f3140ff773a15cf8827e05268c30
+checker_cpp_sha256 2eaa9fd70570956c705102147f23b06ece98d4d13a334f2ab773128b700860e1
+checker_python_sha256 ffd5f050a633128728fe8963955f29fd76583b75c22b8332a8947c30ab0c0a15
+round5-review/frozen/verify_orbit4.cpp:46:159: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+   46 |  auto offer=[&](int at,const CanonKey&from,int cost,int gap,char op){CanonKey t=from;t.cost+=cost;t.gaps+=gap;t.ops.push_back(op);if(lesskey(t,dp[at]))dp[at]=move(t);};
+      |                                                                                                                                                               ^
+      |                                                                                                                                                               std::
+1 warning generated.
+RESOURCE_LIMIT RLIMIT_AS SKIPPED ValueError current limit exceeds maximum limit
+VERIFY_CHECKPOINT cpp START
+forbidden_checked 0
+VERIFY_CHECKPOINT canonical word PASS

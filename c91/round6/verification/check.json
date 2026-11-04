@@ -1,0 +1,20 @@
+{
+  "command": [
+    "nice",
+    "-n",
+    "10",
+    "python3",
+    "verification/independent.py",
+    "candidate_c91r6.json.gz"
+  ],
+  "exit_code": 0,
+  "producer_author": "gpt-6.1-sol",
+  "checker_author": "gpt-6-astra",
+  "certificate_sha256": "e6bcacb08bb36ee21e93f90a05160b6240260692390630c03049ac0ccd39f767",
+  "output": "verification/check.stdout",
+  "output_sha256": "9f3012574de4287fa9b51f8993a2c7bca08883d16c45a914ba558a3050638d67",
+  "checker_sources_sha256": {
+    "verification/independent.py": "8c60929373d743d57c2081061ab6b18a3c2c46cadbb8316816a6349ccd1ef1a6",
+    "verification/independent.cpp": "caa48c078f82607dfad936c66a52f547ae96b37bdf09a57b0bdc0fd7cf8aa5b6"
+  }
+}

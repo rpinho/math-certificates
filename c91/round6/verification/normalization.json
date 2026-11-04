@@ -1,0 +1,16 @@
+{
+  "original_receipt_sha256": "64dc32b1b17046dfb111b71ca81c89e9cdbd8c8c78171a8d4171eb14ba8da8d1",
+  "original_levels_update_sha256": "832b7dc1d468054677d9b25e4f7668a86bb9c54dc040b6fc6823c6f7f001a528",
+  "normalized_receipt_sha256": "5b6761936c7bf979374ee21affce0e202d3f44f94c25b2af1ff2121d6b6289c3",
+  "certificate_bytes_unchanged": true,
+  "checker_implementation_bytes_unchanged": true,
+  "stdout_bytes_unchanged": true,
+  "changed_metadata": [
+    "checker_author: gpt-6 -> gpt-6-astra from selection evidence",
+    "command/output/source paths relocated to release root"
+  ],
+  "producer_log_sha256": "f24a9c13b695e2907d2735d75c58c752ea1b6eeb5892add28a3a58eb1997a41c",
+  "checker_selection_sha256": "08483e622b4d75bdcc264760266ae3a813a869e9dbcfb731426864c55fdd0b22",
+  "elapsed_seconds": 2141.69722533226,
+  "new_full_run_performed": false
+}
