@@ -1,0 +1,202 @@
+{
+  "verdict": "ALL_FROZEN_C22B_CHECKS_PASS_CANDIDATE_UNREFEREED",
+  "verifiers": "separately written (same agent)",
+  "claim": "C22b <=1772603/250000",
+  "upper_exact": "1772603/250000",
+  "upper_display_only": 7.090412,
+  "family": "T(2,1104n+3), n>=1, up to mirror",
+  "thickness_lower_exact": "500000/499951",
+  "thickness_upper_exact": "1000099/1000000",
+  "length_inequality": "L_n<=(3545553/500000)(1104n+3)+150",
+  "ropelength_limit_upper_exact": "1772602767903/250000000000",
+  "qualification": "explicit proof in PROOF.md uses stated classical theorems; not referee review or a formal proof assistant",
+  "checks": {
+    "integrity": {
+      "packet": "c22b_7090412_rational",
+      "files": 57,
+      "bytes": 1565831,
+      "verdict": "FROZEN_BYTES_PASS"
+    },
+    "geometry": {
+      "verdict": "DIRECT_KNOT_GEOMETRY_CHECKS_PASS_CANDIDATE_UNREFEREED",
+      "verifier": "separately written (same agent)",
+      "precision_bits": 220,
+      "covers": 22,
+      "leaves": 146198,
+      "scalars": {
+        "length_coefficient_upper": "[7.0911059675486719886727558957752231 +/- 5.05e-37]",
+        "cap_total_length": "[134.34945994352949197108721430534883 +/- 1.38e-33]",
+        "upper_plane_distance": "[5.3604719251600724568813670426820463 +/- 4.40e-35]",
+        "upper_semicircle_radius": "[4.2234022951313389184313224031814133 +/- 4.32e-35]",
+        "phase_cover_margin": "[0.002528978534699237360427519 +/- 1.56e-28]",
+        "end_zone_clearance": "[2.228506022070010300957622 +/- 7.55e-26]",
+        "outer_short_arc_upper": "[2.889995575988680919236493 +/- 4.60e-25]",
+        "inner_short_arc_upper": "[2.985292266441602685455911 +/- 4.48e-25]"
+      },
+      "topology": {
+        "body_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            1104,
+            1
+          ]
+        ],
+        "nilpotent_increment": [
+          [
+            0,
+            0
+          ],
+          [
+            1104,
+            0
+          ]
+        ],
+        "closure_constant_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "closure_n_coefficient": [
+          [
+            0,
+            0
+          ],
+          [
+            1104,
+            0
+          ]
+        ],
+        "crossings": "4*P*n+3",
+        "knot": "T(2,4*P*n+3), up to mirror",
+        "components": 1,
+        "qualification": "expected body action and cap algebra; the actual physical word is checked by verify_projection.py, with the rational tangle argument in PROOF.md"
+      },
+      "scope": "finite arithmetic plus analytic and topological proof in PROOF.md; not a formal proof assistant"
+    },
+    "physical_braid": {
+      "verdict": "PHYSICAL_BRAID_PROJECTION_PASS_CANDIDATE_UNREFEREED",
+      "verifier": "separately written (same agent)",
+      "projection": [
+        7,
+        1
+      ],
+      "inverse_witnesses": 24849,
+      "leaves": 33800,
+      "root_events": 908,
+      "roots_by_function": {
+        "m": 542,
+        "p": 110,
+        "a": 246,
+        "i": 10
+      },
+      "raw_crossings": 1560,
+      "body_matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          1104,
+          1
+        ]
+      ],
+      "permutation": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "qualification": "complete physical body braid check; full bound also requires geometry/caps and PROOF.md"
+    },
+    "length_identity": {
+      "verdict": "EXACT_SPEED_POLYNOMIAL_PASS_CANDIDATE_UNREFEREED",
+      "verifier": "separately written (same agent)",
+      "field": "Q(eta), eta^2=1/(R^2+h^2), eta>0",
+      "rows": 2,
+      "coefficient_interval": "[7.0911059675486719886727558957752231 +/- 5.05e-37]",
+      "qualification": "speed identity and Jensen scalar only; full bound also needs body/caps and topology"
+    },
+    "margin": {
+      "verdict": "UNIFORM_SCALING_MARGIN_PASS_CANDIDATE_UNREFEREED",
+      "verifier": "separately written (same agent) geometry checker, same-agent scaling driver",
+      "scale_down": "499951/500000",
+      "original_thickness_lower": "500000/499951",
+      "covers_recomputed": 22,
+      "leaves_recomputed": 146198,
+      "scaled_artifact_sha256": "61cbfa3879f5723537bc24a6955127b89357642d2498cba90c82604299aeafe2",
+      "qualification": "lambda,Q_outer,Q_inner,and upper vertical clearance scale every physical point uniformly; see PROOF.md"
+    },
+    "finite_witness": {
+      "verdict": "EXACT_FINITE_WITNESS_PASS_CANDIDATE_UNREFEREED",
+      "n": 1,
+      "knot": "T(2,1107) up to mirror",
+      "crossings": 1107,
+      "length_upper_exact": "248861907/31250",
+      "ropelength_per_crossing_upper_exact": "27651323/3843750",
+      "display_only": 7.193840130081301,
+      "target_exact": "36/5",
+      "standard_diagram": {
+        "crossings": 1107,
+        "components": 1,
+        "alternating": true,
+        "projection_graph": "cycle with doubled edges",
+        "no_loops_or_cut_vertices": true
+      },
+      "qualification": "finite closure and crossing number use the all-n topology/cap proof and certificate"
+    },
+    "standard_diagrams": [
+      {
+        "m": 2,
+        "repeat": 1107,
+        "crossings": 1107,
+        "components": 1,
+        "alternating": true,
+        "no_self_loops_or_cut_vertices": true
+      },
+      {
+        "m": 2,
+        "repeat": 2211,
+        "crossings": 2211,
+        "components": 1,
+        "alternating": true,
+        "no_self_loops_or_cut_vertices": true
+      },
+      {
+        "m": 2,
+        "repeat": 3315,
+        "crossings": 3315,
+        "components": 1,
+        "alternating": true,
+        "no_self_loops_or_cut_vertices": true
+      }
+    ],
+    "ropelength": {
+      "verdict": "EXACT_ROPELENGTH_MARGIN_COROLLARY_PASS_CANDIDATE_UNREFEREED",
+      "verifier": "separately written (same agent)",
+      "upper_exact": "1772603/250000",
+      "upper_display_only": 7.090412,
+      "exact_limit_upper": "1772602767903/250000000000",
+      "exact_ropelength_additive_upper": "1499853/10000",
+      "finite_ratio_upper_exact": "13824306585173/1921875000000",
+      "qualification": "arithmetic corollary; verify_all also verifies the complete closed-family geometry, topology, speed, margin and finite inputs"
+    },
+    "contact": {
+      "verdict": "SELECTED_BODY_CONTACT_UPPER_PASS_CANDIDATE_UNREFEREED",
+      "verifier": "separately written (same agent)",
+      "precision_bits": 220,
+      "radius_interval": "[1.00009831283308338696074802072457480516242448 +/- 3.44e-45]",
+      "closed_family_thickness_upper_exact": "1000099/1000000",
+      "false_margin_scaled_radius_interval": "[0.999999303100112911705438906670523072256713397 +/- 4.58e-46]",
+      "false_margin_scale": "999901/1000000",
+      "qualification": "selected body pair occurs in every n>=1 closure by core translation; thickness<=this tangent-point radius; lower bound requires all22 geometry covers and margin"
+    }
+  }
+}

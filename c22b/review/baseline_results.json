@@ -1,0 +1,30 @@
+{
+  "coefficient": "[7.2012718881991413179879419857421370030816273029 +/- 4.36e-47]",
+  "curvature_radii": [
+    "[1.9879124632886639621687412295986374790466903336 +/- 1.35e-47]",
+    "[1.4552138267360835121744429430622896961025885595 +/- 4.22e-47]"
+  ],
+  "covers": [
+    {
+      "name": "baseline_outer_self",
+      "nodes": 49,
+      "leaves": 25,
+      "short_arc_leaves": 0,
+      "maxdepth": 11,
+      "lower": "[4.0000095196080225531936121202586986281384129886 +/- 1.58e-47]",
+      "threshold": "4.0000000000000000000000000000000000000000000000",
+      "seconds": 0.001
+    },
+    {
+      "name": "baseline_unlike",
+      "nodes": 107,
+      "leaves": 54,
+      "short_arc_leaves": 0,
+      "maxdepth": 11,
+      "lower": "[4.0000047197480874125771401806037514443164088902 +/- 3.06e-47]",
+      "threshold": "4.0000000000000000000000000000000000000000000000",
+      "seconds": 0.001
+    }
+  ],
+  "scope": "Periodic double helix only; prior finite closure not replayed or verified"
+}

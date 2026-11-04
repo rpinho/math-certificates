@@ -1,0 +1,79 @@
+{
+  "job": "math_c22b_1104",
+  "constant": "C22b",
+  "side": "upper",
+  "frozen_utc": "2026-11-04T02:27:44.657121+00:00",
+  "target_exact": "36/5",
+  "target_decimal": "7.20",
+  "comparison_public_exact": "72012719/10000000",
+  "comparison_limiting_numerical": "7.2012609899825",
+  "comparison_status": "candidate and unrefereed; starred public claim",
+  "holders": [
+    "Youhua Li",
+    "Claude Opus 5.5"
+  ],
+  "source_head": "debf7c92f93bae64486e6302e565a2d3b1290f9c",
+  "table_main": "87b4ebbd426ff8db597a2004cc45da17903bdcf2",
+  "open_pr_count": 57,
+  "page_prs": [],
+  "baseline_replay": {
+    "log": "logs/baseline_li_full.log",
+    "seconds": 25.1,
+    "n0": 59,
+    "c_upper": 7.20127188819914,
+    "C_upper": 19.648867,
+    "qualification": "supplied public verifier; its libm accuracy assumption is explicit in public paper; not a separately written verifier"
+  },
+  "required_family": "reduced alternating knots/links; thickness >=1; L<=7.20 C+O(1); certified finite closures and crossing counts",
+  "required_evidence": [
+    "explicit written proof with every step",
+    "exact rational or Arb interval certificate",
+    "separately written (same agent) verifier on frozen artifact",
+    "corruption controls with exact expected rejections"
+  ],
+  "methods": [
+    "cut and reconnected circular-arc strands in staggered periodic alternating chain; optimize contacts/junctions",
+    "four- or six-strand noncoaxial piecewise smooth periodic alternating braids with all-pair clearance and curvature"
+  ],
+  "pilot": {
+    "elapsed_hours": 8,
+    "threshold": "<7.199",
+    "requires": "topology-valid numerical family and robust thickness margin",
+    "failure_action": "stop geometric refinement; sampled clearance proves no bound"
+  },
+  "started_utc": "2026-11-04T02:23:10Z",
+  "nine_hour_end_utc": "2026-11-04T11:23:10Z",
+  "pod_final_pull_deadline_utc": "2026-11-04T11:30:00Z",
+  "pod_termination_utc": "2026-11-04T12:15:00Z",
+  "limits": {
+    "workers": 6,
+    "ram_gb": 30,
+    "disk_gb": 6,
+    "nice": 10,
+    "blas_threads": 1,
+    "mini_processes": 2
+  },
+  "credits": [
+    "Youhua Li",
+    "Claude",
+    "Olsen\u2013Bohr",
+    "Huh\u2013Kim\u2013Oh",
+    "Klotz\u2013Maldonado",
+    "Kim\u2013Oh\u2013Huh",
+    "Diao",
+    "Cantarella\u2013Kusner\u2013Sullivan",
+    "Litherland\u2013Simon\u2013Durumeric\u2013Rawdon"
+  ],
+  "source_audit_errors": [
+    "youssef-karray/awesome-mathematical-ai: gh: Not Found (HTTP 404)\n"
+  ],
+  "source_audit_qualification": "Guessed awesome list 404 corrected by successful seewoo5/awesome-ai-for-math; OpenAI recursive tree truncated, direct preprint listing read. IOP abstract accessible, full paper paywalled. Bounded inventory checks do not establish absence. X/private communities unavailable.",
+  "hashes": {
+    "sources/live_22b.html": "acbf9303989352bd0fb12949b07faf8b52ba4a8d852c2fbc736d810625d96fa0",
+    "sources/raw_22b.md": "db646f75bc8009cb96d49467f5e3454c6cc085c6080e1de1a66f4c761ac3bfab",
+    "sources/initial_audit.json": "c1ec15ceeeb0119dd5044384e46fb0ced05d5570dd4ddabc1713861529584a02",
+    "sources/extra_repo_audit.json": "cdd14c6a71b557ca368ad65175d402c71cf9a014fd0e93e0d18fbf013348770c",
+    "public_c22b/design.json": "a900eed11f034360bf3783f09763c21d4bb4d62df72b5e613568df6fbf25a569",
+    "logs/baseline_li_full.log": "584ae7b7cd75350a5139d8ae6c720892f058988024efef9310c66a0492f55e44"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pid": 73106,
+  "precision_bits": 160,
+  "mode": "curvature",
+  "curvatures": [
+    {
+      "name": "curvature_0",
+      "certified_radius_lower": "[1.9000000000000000000000000000000000000000000000 +/- 1.65e-48]",
+      "raw_interval_lower": "1.9003005307167768478393554687500000000000000000",
+      "leaves": 340,
+      "maxdepth": 9
+    },
+    {
+      "name": "curvature_1",
+      "certified_radius_lower": "[1.0001000000000000000000000000000000000000000000 +/- 1.58e-48]",
+      "raw_interval_lower": "1.0269999392330646514892578125000000000000000000",
+      "leaves": 10,
+      "maxdepth": 4
+    }
+  ]
+}

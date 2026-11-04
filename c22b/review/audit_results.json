@@ -1,0 +1,60 @@
+{
+  "symbolic": {
+    "velocity_0": true,
+    "acceleration_0": true,
+    "velocity_1": true,
+    "acceleration_1": true,
+    "velocity_2": true,
+    "acceleration_2": true,
+    "pair_u_0": true,
+    "pair_d_0": true,
+    "pair_u_1": true,
+    "pair_d_1": true,
+    "pair_u_2": true,
+    "pair_d_2": true,
+    "speed_identity": true
+  },
+  "cap_diagram": {
+    "lower_crossing_height": "[4.868391133040267641294927126683185295162401830 +/- 5.36e-46]",
+    "lower_connector_crossing_arclength": "[9.091727658708175928009549742407186590780460663 +/- 8.15e-46]",
+    "lower_template_right_depth_gap": "[7.044472481312389093639679412920754010033913460 +/- 8.65e-46]",
+    "lower_template_left_depth_gap": "[7.044472481312389093639679412920754010033913460 +/- 8.65e-46]",
+    "upper_crossing_depths": [
+      "[-5.645554285022928765024577884458789338735075363 +/- 5.45e-46]",
+      "[5.645554285022928765024577884458789338735075363 +/- 5.45e-46]"
+    ],
+    "join_diagnostics": [
+      {
+        "k": 0,
+        "c": -1,
+        "max_position_error": "[1.3685379257710585296933378762264895407222981968e-47 +/- 4.78e-94]",
+        "max_tangent_error": "[6.0024370004382242302138413185777696224474523039e-47 +/- 3.10e-94]"
+      },
+      {
+        "k": 0,
+        "c": 1,
+        "max_position_error": "[1.3685379257710585296933378762264895407222981968e-47 +/- 4.78e-94]",
+        "max_tangent_error": "[6.0024370004382242302138413185777696224474523039e-47 +/- 3.10e-94]"
+      },
+      {
+        "k": 1,
+        "c": -1,
+        "max_position_error": "[2.4831004388110069121955334934321248915403512893e-47 +/- 2.08e-94]",
+        "max_tangent_error": "[3.2129045566214057245822456764891164363152942583e-47 +/- 3.46e-94]"
+      },
+      {
+        "k": 1,
+        "c": 1,
+        "max_position_error": "[2.4831004388110069121955334934321248915403512893e-47 +/- 2.08e-94]",
+        "max_tangent_error": "[3.2129045566214057245822456764891164363152942583e-47 +/- 3.46e-94]"
+      }
+    ]
+  },
+  "arithmetic": {
+    "limit_of_stated_bound": "1772602767903/250000000000",
+    "gap_to_claim": "232097/250000000000",
+    "cap_intercept_after_scaling": "1499853/10000",
+    "false_margin_rejected": true,
+    "first_n_meeting_decimal_bound_using_stated_coarse_bound": 146336
+  }
+}

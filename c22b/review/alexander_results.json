@@ -1,0 +1,24 @@
+{
+  "degree": 1106,
+  "coefficient_rule": "coefficient of t^j is (-1)^j, 0<=j<=1106",
+  "determinant": 1107,
+  "delta_at_one": 1,
+  "relation_units": [
+    [
+      -552,
+      1
+    ],
+    [
+      -553,
+      -1
+    ]
+  ],
+  "number_of_body_crossings": 1560,
+  "number_of_cap_crossings": 3,
+  "local_sanity_knots": [
+    1,
+    3,
+    5,
+    7
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "environment": {
+    "machine": "local Mini",
+    "python": "3.12.13 (main, Jun 23 2026, 15:44:24) [Clang 22.1.3 ]",
+    "platform": "macOS-26.7.2-arm64-arm-64bit",
+    "python_flint": "0.9.0",
+    "effective_nice": 10,
+    "worker_limit": 1,
+    "threads": 1,
+    "execution": "local; no pod",
+    "packet": "c22b/round1",
+    "driver_pid": 77564,
+    "manifest_sha256": "cc810a3a3735714375fc10abf3af5e860050228955cb580453990a350019573f"
+  },
+  "runs": [
+    {
+      "script": "verify_all.py",
+      "pid": 77569,
+      "utc_start": "2026-11-04T11:33:04.547119+00:00",
+      "effective_nice": 10,
+      "command": "nice -n 0 python -B c22b/round1/verify_all.py c22b/round1",
+      "exit_code": 0,
+      "elapsed_seconds": 28.5898655000492,
+      "utc_end": "2026-11-04T11:33:33.137743+00:00",
+      "verdict": "ALL_FROZEN_C22B_CHECKS_PASS_CANDIDATE_UNREFEREED"
+    },
+    {
+      "script": "run_controls.py",
+      "pid": 77851,
+      "utc_start": "2026-11-04T11:33:33.138945+00:00",
+      "effective_nice": 10,
+      "command": "nice -n 0 python -B c22b/round1/run_controls.py c22b/round1",
+      "exit_code": 0,
+      "elapsed_seconds": 33.11313412495656,
+      "utc_end": "2026-11-04T11:34:06.252703+00:00",
+      "verdict": "ALL_EXACT_EXPECTED_CORRUPTION_REJECTIONS_PASS"
+    }
+  ],
+  "verdict": "RELEASE_FULL_REPLAY_AND_ALL_108_EXACT_REJECTIONS_PASS"
+}

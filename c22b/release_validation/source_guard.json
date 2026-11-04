@@ -1,0 +1,62 @@
+{
+  "utc_start": "2026-11-04T11:34:35.026020+00:00",
+  "kind": "read_only_final_source_guard",
+  "changes": [
+    {
+      "utc": "2026-11-04T11:34:16.085741+00:00",
+      "repo": "carlostoledo1891/cert-machine",
+      "old": "ce9c62cb5d00d52efeb1a0596a6a2cf982edb1b8",
+      "head": "c6eae1cc88d17490f3db924745132a1e19123bf6",
+      "changed_files": [
+        "HANDOFF.md",
+        "apps/extremos/build.js",
+        "apps/extremos/figs.js",
+        "corpus/outreach.json",
+        "design/measure-baseline.json",
+        "site/about/index.html",
+        "site/apps/index.html",
+        "site/extremos/index.html",
+        "site/grammar/index.html",
+        "site/grammar/llms.txt",
+        "site/index.html",
+        "site/machine/index.html",
+        "site/oracle/index.html",
+        "site/papers/index.html",
+        "site/reports/index.html",
+        "tools/grammar-scenes/maps.js",
+        "tools/grammar-scenes/routes-time.js",
+        "tools/import-runpod-flashprove.js"
+      ],
+      "topic_matching_changed_files": [],
+      "assessment": "Two new commits concern ocean-extreme visualizations, shared plotting helpers, site rebuilds, FlashProve import tooling and handoff/outreach notes; no C22b contribution inferred from the changed-file/topic screen."
+    }
+  ],
+  "repos": {
+    "vinid/einstein-arena": "5baf6361a3e0e2123edb98f676ef44f7ab081ad6",
+    "plasma-ai/erdos": "17c86a0d4ebe1487a087ceb8c14952a10ec2f2bd",
+    "BakeLab/Epi-results": "97fa6a420f417458e11723c8bceb70f1529e447a",
+    "Njakasoa/tight-knots-ropelength": "71018e24ff9824afb992669c1d872ef11582b955",
+    "kisonecat/openai-math": "77bce8d6471b3ede2fb7364539bb7bee37f6452b",
+    "togethercomputer/EinsteinArena-new-SOTA": "c388c6f7408c886311940896713339a1a70c2394",
+    "andrewaschoen/ropelength-lower-bound": "459b4957b49a7afc4d593f065376466e824065dd",
+    "seewoo5/awesome-ai-for-math": "a18c189ad4cc4d4de79b08e7ead46a991add4182",
+    "teorth/optimizationproblems": "87b4ebbd426ff8db597a2004cc45da17903bdcf2",
+    "quasar17/Alpha_Omega_Agents": "9bfd5018f7bcf02e204c40c3b21e7b7d14b33131",
+    "YouhuaLi/tight-alternating-knot-constant": "debf7c92f93bae64486e6302e565a2d3b1290f9c",
+    "JamesWeatherhead/CodexProLong": "b96501f3ddb4447977c0bf9a995f745ef4743a7c",
+    "vibemathing/problem-wikipedia-f67a492dfaf70102": "81a02707307a3b60c95ad84933b92f57156f3627",
+    "openai/math": "4eaee87548250b2682affda7d05d947c05554bae",
+    "u00dxk2/bounds-ledger": "a9433c4df8c6452a22581d0a85c9f7262b4a7296",
+    "google-deepmind/alphaevolve_repository_of_problems": "8f447457957deac61e28bf1676746f0753b3b2f8",
+    "carlostoledo1891/cert-machine": "c6eae1cc88d17490f3db924745132a1e19123bf6",
+    "google-deepmind/alphaevolve_results": "4226acbf237ff9ad10ba7673a2af127a2d8a5971"
+  },
+  "main": "87b4ebbd426ff8db597a2004cc45da17903bdcf2",
+  "live_and_raw_22b_unchanged": true,
+  "prs_count": 58,
+  "prs_metadata_unchanged": true,
+  "issues_count": 7,
+  "issues_metadata_unchanged": true,
+  "utc_end": "2026-11-04T11:34:51.735729+00:00",
+  "verdict": "SOURCE_GUARD_PASS_WITH_REVIEWED_UNRELATED_REPOSITORY_UPDATE"
+}

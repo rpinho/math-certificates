@@ -1,0 +1,608 @@
+{
+  "verdict": "ALL_EXACT_EXPECTED_CORRUPTION_REJECTIONS_PASS",
+  "total_controls": 108,
+  "groups": [
+    {
+      "script": "controls.py",
+      "controls": [
+        {
+          "corruption": "remove candidate qualification",
+          "expected": "E_STATUS",
+          "actual": "E_STATUS"
+        },
+        {
+          "corruption": "wrong target bar",
+          "expected": "E_BAR",
+          "actual": "E_BAR"
+        },
+        {
+          "corruption": "claim larger than target",
+          "expected": "E_CLAIM_BAR",
+          "actual": "E_CLAIM_BAR"
+        },
+        {
+          "corruption": "length coefficient too small",
+          "expected": "E_LENGTH_COEFFICIENT",
+          "actual": "E_LENGTH_COEFFICIENT"
+        },
+        {
+          "corruption": "nonpositive N",
+          "expected": "E_N",
+          "actual": "E_N"
+        },
+        {
+          "corruption": "boolean N",
+          "expected": "E_N",
+          "actual": "E_N"
+        },
+        {
+          "corruption": "wrong crossing slope",
+          "expected": "E_CROSSING_FORMULA",
+          "actual": "E_CROSSING_FORMULA"
+        },
+        {
+          "corruption": "wrong crossing intercept",
+          "expected": "E_CROSSING_FORMULA",
+          "actual": "E_CROSSING_FORMULA"
+        },
+        {
+          "corruption": "insufficient additive allowance",
+          "expected": "E_ADDITIVE_LENGTH",
+          "actual": "E_ADDITIVE_LENGTH"
+        },
+        {
+          "corruption": "unit cap radius",
+          "expected": "E_PARAMETER_RANGE",
+          "actual": "E_PARAMETER_RANGE"
+        },
+        {
+          "corruption": "zero inner satellite",
+          "expected": "E_PARAMETER_RANGE",
+          "actual": "E_PARAMETER_RANGE"
+        },
+        {
+          "corruption": "scale below admitted domain",
+          "expected": "E_PARAMETER_RANGE",
+          "actual": "E_PARAMETER_RANGE"
+        },
+        {
+          "corruption": "unsafe enlarged outer satellite",
+          "expected": "E_CORE_TUBE",
+          "actual": "E_CORE_TUBE"
+        },
+        {
+          "corruption": "truncated phase domain",
+          "expected": "E_DOMAINS",
+          "actual": "E_DOMAINS"
+        },
+        {
+          "corruption": "changed construction digest",
+          "expected": "E_ARTIFACT_HASH",
+          "actual": "E_ARTIFACT_HASH"
+        },
+        {
+          "corruption": "duplicate binary leaf",
+          "expected": "E_DUPLICATE_OR_PREFIX",
+          "actual": "E_DUPLICATE_OR_PREFIX"
+        },
+        {
+          "corruption": "missing binary leaf",
+          "expected": "E_COVER_GAP",
+          "actual": "E_COVER_GAP"
+        },
+        {
+          "corruption": "nonbinary leaf address",
+          "expected": "E_PATH",
+          "actual": "E_PATH"
+        },
+        {
+          "corruption": "false short arc across different strands",
+          "expected": "E_SHORT_ARC_LEAF",
+          "actual": "E_SHORT_ARC_LEAF"
+        },
+        {
+          "corruption": "false whole interface distance enclosure",
+          "expected": "E_DISTANCE_LEAF",
+          "actual": "E_DISTANCE_LEAF"
+        },
+        {
+          "corruption": "false whole body distance enclosure",
+          "expected": "E_DISTANCE_LEAF",
+          "actual": "E_DISTANCE_LEAF"
+        },
+        {
+          "corruption": "false whole curvature enclosure",
+          "expected": "E_CURVATURE_LEAF",
+          "actual": "E_CURVATURE_LEAF"
+        },
+        {
+          "corruption": "invalid strand index",
+          "expected": "E_COVER_INDEX",
+          "actual": "E_COVER_INDEX"
+        },
+        {
+          "corruption": "invented proof reason",
+          "expected": "E_LEAF_REASON",
+          "actual": "E_LEAF_REASON"
+        },
+        {
+          "corruption": "omitted full interface certificate",
+          "expected": "E_MISSING_COVER",
+          "actual": "E_MISSING_COVER"
+        },
+        {
+          "corruption": "repeated full certificate",
+          "expected": "E_DUPLICATE_COVER",
+          "actual": "E_DUPLICATE_COVER"
+        },
+        {
+          "corruption": "decreased outer radius with certificate rebound to changed bytes",
+          "expected": "E_DISTANCE_LEAF",
+          "actual": "E_DISTANCE_LEAF"
+        },
+        {
+          "corruption": "wrong closure mode",
+          "expected": "E_CLOSURE_MODE",
+          "actual": "E_CLOSURE_MODE"
+        },
+        {
+          "corruption": "insufficient upper vertical clearance",
+          "expected": "E_UPPER_CLEARANCE",
+          "actual": "E_UPPER_CLEARANCE"
+        },
+        {
+          "corruption": "wrong component count",
+          "expected": "E_COMPONENT_COUNT",
+          "actual": "E_COMPONENT_COUNT"
+        },
+        {
+          "corruption": "wrong exact core-period count",
+          "expected": "E_PERIODS",
+          "actual": "E_PERIODS"
+        }
+      ]
+    },
+    {
+      "script": "projection_controls.py",
+      "controls": [
+        {
+          "corruption": "wrong projection packet kind",
+          "expected": "E_PROJECTION_KIND",
+          "actual": "E_PROJECTION_KIND"
+        },
+        {
+          "corruption": "remove candidate status",
+          "expected": "E_PROJECTION_STATUS",
+          "actual": "E_PROJECTION_STATUS"
+        },
+        {
+          "corruption": "wrong construction binding",
+          "expected": "E_PROJECTION_HASH",
+          "actual": "E_PROJECTION_HASH"
+        },
+        {
+          "corruption": "change projection vector",
+          "expected": "E_PROJECTION_VECTOR",
+          "actual": "E_PROJECTION_VECTOR"
+        },
+        {
+          "corruption": "degenerate inverse bracket",
+          "expected": "E_INVERSE_BRACKET",
+          "actual": "E_INVERSE_BRACKET"
+        },
+        {
+          "corruption": "inverse lower endpoint above root",
+          "expected": "E_INVERSE_LOWER",
+          "actual": "E_INVERSE_LOWER"
+        },
+        {
+          "corruption": "inverse upper endpoint below root",
+          "expected": "E_INVERSE_UPPER",
+          "actual": "E_INVERSE_UPPER"
+        },
+        {
+          "corruption": "missing required inverse witness",
+          "expected": "E_MISSING_INVERSE",
+          "actual": "E_MISSING_INVERSE"
+        },
+        {
+          "corruption": "duplicate projection leaf",
+          "expected": "E_PROJECTION_DUPLICATE",
+          "actual": "E_PROJECTION_DUPLICATE"
+        },
+        {
+          "corruption": "missing projection leaf",
+          "expected": "E_PROJECTION_COVER_GAP",
+          "actual": "E_PROJECTION_COVER_GAP"
+        },
+        {
+          "corruption": "hide a proven crossing as empty",
+          "expected": "E_FALSE_EMPTY",
+          "actual": "E_FALSE_EMPTY"
+        },
+        {
+          "corruption": "unjustified global root uniqueness",
+          "expected": "E_ROOT_DERIVATIVE",
+          "actual": "E_ROOT_DERIVATIVE"
+        },
+        {
+          "corruption": "root interval outside leaf",
+          "expected": "E_ROOT_OUTSIDE_LEAF",
+          "actual": "E_ROOT_OUTSIDE_LEAF"
+        },
+        {
+          "corruption": "zero-width root interval",
+          "expected": "E_ROOT_INTERVAL",
+          "actual": "E_ROOT_INTERVAL"
+        },
+        {
+          "corruption": "stored crossing sign corrupted",
+          "expected": "E_WORD_MISMATCH",
+          "actual": "E_WORD_MISMATCH"
+        }
+      ]
+    },
+    {
+      "script": "length_controls.py",
+      "controls": [
+        {
+          "corruption": "wrong identity kind",
+          "expected": "E_SPEED_KIND",
+          "actual": "E_SPEED_KIND"
+        },
+        {
+          "corruption": "wrong construction binding",
+          "expected": "E_SPEED_HASH",
+          "actual": "E_SPEED_HASH"
+        },
+        {
+          "corruption": "wrong quadratic field relation",
+          "expected": "E_SPEED_RELATION",
+          "actual": "E_SPEED_RELATION"
+        },
+        {
+          "corruption": "missing signed radius row",
+          "expected": "E_SPEED_ROWS",
+          "actual": "E_SPEED_ROWS"
+        },
+        {
+          "corruption": "wrong signed radius",
+          "expected": "E_SPEED_RADII",
+          "actual": "E_SPEED_RADII"
+        },
+        {
+          "corruption": "altered exact coefficient",
+          "expected": "E_SPEED_COEFFICIENT",
+          "actual": "E_SPEED_COEFFICIENT"
+        },
+        {
+          "corruption": "altered exact mean",
+          "expected": "E_SPEED_MEAN",
+          "actual": "E_SPEED_MEAN"
+        },
+        {
+          "corruption": "unexpected identity field",
+          "expected": "E_SPEED_SCHEMA",
+          "actual": "E_SPEED_SCHEMA"
+        }
+      ]
+    },
+    {
+      "script": "diagram_controls.py",
+      "controls": [
+        {
+          "corruption": "reverse exactly one crossing",
+          "expected": "E_NOT_ALTERNATING",
+          "actual": "E_NOT_ALTERNATING",
+          "pass": true
+        },
+        {
+          "corruption": "fake crossing count",
+          "expected": "E_CROSSING_COUNT",
+          "actual": "E_CROSSING_COUNT",
+          "pass": true
+        },
+        {
+          "corruption": "nugatory one-crossing closure",
+          "expected": "E_NUGATORY",
+          "actual": "E_NUGATORY",
+          "pass": true
+        },
+        {
+          "corruption": "generator outside lanes",
+          "expected": "E_GENERATOR_RANGE",
+          "actual": "E_GENERATOR_RANGE",
+          "pass": true
+        },
+        {
+          "corruption": "boolean masquerading as integer",
+          "expected": "E_INTEGER",
+          "actual": "E_INTEGER",
+          "pass": true
+        },
+        {
+          "corruption": "empty collection",
+          "expected": "E_EMPTY_CASES",
+          "actual": "E_EMPTY_CASES",
+          "pass": true
+        },
+        {
+          "corruption": "unsupported packet kind",
+          "expected": "E_PACKET_KIND",
+          "actual": "E_PACKET_KIND",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "script": "margin_controls.py",
+      "controls": [
+        {
+          "corruption": "wrong original artifact binding",
+          "expected": "E_MARGIN_HASH",
+          "actual": "E_MARGIN_HASH"
+        },
+        {
+          "corruption": "expansion instead of shrink",
+          "expected": "E_MARGIN_FACTOR",
+          "actual": "E_MARGIN_FACTOR"
+        },
+        {
+          "corruption": "wrong reciprocal thickness",
+          "expected": "E_MARGIN_RECIPROCAL",
+          "actual": "E_MARGIN_RECIPROCAL"
+        },
+        {
+          "corruption": "wrong transformed artifact hash",
+          "expected": "E_MARGIN_TRANSFORM_HASH",
+          "actual": "E_MARGIN_TRANSFORM_HASH"
+        },
+        {
+          "corruption": "wrong margin certificate kind",
+          "expected": "E_MARGIN_KIND",
+          "actual": "E_MARGIN_KIND"
+        },
+        {
+          "corruption": "overstated margin with consistent reciprocal and transformed hash",
+          "expected": "E_DISTANCE_LEAF",
+          "actual": "E_DISTANCE_LEAF"
+        }
+      ]
+    },
+    {
+      "script": "finite_controls.py",
+      "controls": [
+        {
+          "corruption": "wrong artifact binding",
+          "expected": "E_FINITE_HASH",
+          "actual": "E_FINITE_HASH"
+        },
+        {
+          "corruption": "zero repetition count",
+          "expected": "E_FINITE_N",
+          "actual": "E_FINITE_N"
+        },
+        {
+          "corruption": "wrong finite crossing count",
+          "expected": "E_FINITE_CROSSINGS",
+          "actual": "E_FINITE_CROSSINGS"
+        },
+        {
+          "corruption": "understated body coefficient",
+          "expected": "E_FINITE_COEFFICIENT",
+          "actual": "E_FINITE_COEFFICIENT"
+        },
+        {
+          "corruption": "understated cap length",
+          "expected": "E_FINITE_CAPS",
+          "actual": "E_FINITE_CAPS"
+        },
+        {
+          "corruption": "wrong target bar",
+          "expected": "E_FINITE_BAR",
+          "actual": "E_FINITE_BAR"
+        },
+        {
+          "corruption": "wrong exact length",
+          "expected": "E_FINITE_LENGTH",
+          "actual": "E_FINITE_LENGTH"
+        },
+        {
+          "corruption": "wrong exact ratio",
+          "expected": "E_FINITE_RATIO",
+          "actual": "E_FINITE_RATIO"
+        }
+      ]
+    },
+    {
+      "script": "split_controls.py",
+      "controls": [
+        {
+          "corruption": "omitted outer-connector/inner-semicircle cover",
+          "expected": "E_MISSING_COVER",
+          "actual": "E_MISSING_COVER"
+        },
+        {
+          "corruption": "false whole-square distance proof",
+          "expected": "E_CAP_PAIR_DISTANCE",
+          "actual": "E_CAP_PAIR_DISTANCE"
+        },
+        {
+          "corruption": "false short-arc exclusion for different-radius cap pieces",
+          "expected": "E_CAP_PAIR_METADATA",
+          "actual": "E_CAP_PAIR_METADATA"
+        },
+        {
+          "corruption": "wrong semicircle index",
+          "expected": "E_CAP_PAIR_INDEX",
+          "actual": "E_CAP_PAIR_INDEX"
+        },
+        {
+          "corruption": "inner connector substituted for outer connector",
+          "expected": "E_CAP_PAIR_INDEX",
+          "actual": "E_CAP_PAIR_INDEX"
+        },
+        {
+          "corruption": "unit inner connector radius",
+          "expected": "E_PARAMETER_RANGE",
+          "actual": "E_PARAMETER_RANGE"
+        },
+        {
+          "corruption": "inner connector too short for slab reduction",
+          "expected": "E_CAP_VERTICAL_SEPARATION",
+          "actual": "E_CAP_VERTICAL_SEPARATION"
+        },
+        {
+          "corruption": "missing inner connector radius",
+          "expected": "E_PARAMETER_SCHEMA",
+          "actual": "E_PARAMETER_SCHEMA"
+        }
+      ]
+    },
+    {
+      "script": "ropelength_controls.py",
+      "controls": [
+        {
+          "corruption": "wrong corollary kind",
+          "expected": "E_ROP_KIND",
+          "actual": "E_ROP_KIND"
+        },
+        {
+          "corruption": "remove candidate qualification",
+          "expected": "E_ROP_STATUS",
+          "actual": "E_ROP_STATUS"
+        },
+        {
+          "corruption": "extra schema field",
+          "expected": "E_ROP_SCHEMA",
+          "actual": "E_ROP_SCHEMA"
+        },
+        {
+          "corruption": "wrong construction binding",
+          "expected": "E_ROP_HASH",
+          "actual": "E_ROP_HASH"
+        },
+        {
+          "corruption": "wrong physical coefficient",
+          "expected": "E_ROP_PHYSICAL_BINDING",
+          "actual": "E_ROP_PHYSICAL_BINDING"
+        },
+        {
+          "corruption": "wrong thickness lower bound",
+          "expected": "E_ROP_THICKNESS_BINDING",
+          "actual": "E_ROP_THICKNESS_BINDING"
+        },
+        {
+          "corruption": "wrong exact limit",
+          "expected": "E_ROP_LIMIT",
+          "actual": "E_ROP_LIMIT"
+        },
+        {
+          "corruption": "wrong exact additive",
+          "expected": "E_ROP_ADDITIVE",
+          "actual": "E_ROP_ADDITIVE"
+        },
+        {
+          "corruption": "understated final upper bound",
+          "expected": "E_ROP_CLAIM",
+          "actual": "E_ROP_CLAIM"
+        },
+        {
+          "corruption": "claim above frozen bar",
+          "expected": "E_ROP_BAR",
+          "actual": "E_ROP_BAR"
+        },
+        {
+          "corruption": "wrong finite ropelength ratio",
+          "expected": "E_ROP_FINITE",
+          "actual": "E_ROP_FINITE"
+        },
+        {
+          "corruption": "wrong target bar",
+          "expected": "E_ROP_BAR",
+          "actual": "E_ROP_BAR"
+        }
+      ]
+    },
+    {
+      "script": "contact_controls.py",
+      "controls": [
+        {
+          "corruption": "wrong contact construction binding",
+          "expected": "E_CONTACT_HASH",
+          "actual": "E_CONTACT_HASH"
+        },
+        {
+          "corruption": "invalid strand",
+          "expected": "E_CONTACT_INDEX",
+          "actual": "E_CONTACT_INDEX"
+        },
+        {
+          "corruption": "phase outside finite body",
+          "expected": "E_CONTACT_PHASE",
+          "actual": "E_CONTACT_PHASE"
+        },
+        {
+          "corruption": "coincident selected points",
+          "expected": "E_CONTACT_DEGENERATE",
+          "actual": "E_CONTACT_DEGENERATE"
+        },
+        {
+          "corruption": "understated radius upper bound",
+          "expected": "E_CONTACT_UPPER",
+          "actual": "E_CONTACT_UPPER"
+        },
+        {
+          "corruption": "valid margin falsely labelled a counterexample",
+          "expected": "E_CONTACT_FALSE_MARGIN",
+          "actual": "E_CONTACT_FALSE_MARGIN"
+        },
+        {
+          "corruption": "boolean tangent index",
+          "expected": "E_CONTACT_TANGENT",
+          "actual": "E_CONTACT_TANGENT"
+        },
+        {
+          "corruption": "different lower reach binding",
+          "expected": "E_CONTACT_LOWER_BINDING",
+          "actual": "E_CONTACT_LOWER_BINDING"
+        }
+      ]
+    },
+    {
+      "script": "verify_manifest.py",
+      "controls": [
+        {
+          "corruption": "same-size byte corruption",
+          "expected": "E_HASH:ADVERSARIAL_REVIEW.md",
+          "actual": "E_HASH:ADVERSARIAL_REVIEW.md"
+        },
+        {
+          "corruption": "missing actual member",
+          "expected": "E_FILE_SET",
+          "actual": "E_FILE_SET"
+        },
+        {
+          "corruption": "extra member",
+          "expected": "E_FILE_SET",
+          "actual": "E_FILE_SET"
+        },
+        {
+          "corruption": "nested extra file with reserved basename",
+          "expected": "E_FILE_SET",
+          "actual": "E_FILE_SET"
+        }
+      ]
+    },
+    {
+      "script": "verify_all.py",
+      "controls": [
+        {
+          "corruption": "valid diagram of the wrong finite knot",
+          "expected": "E_DIAGRAM_BINDING",
+          "actual": "E_DIAGRAM_BINDING"
+        }
+      ]
+    }
+  ]
+}
