@@ -1,0 +1,19 @@
+{
+  "args": [
+    "bin/frozen_point_w22_h18_30_c5",
+    "22",
+    "18",
+    "30",
+    "5",
+    "frozen/rectangle_point/w22_h18_30_c5/replay.json"
+  ],
+  "exit_code": 0,
+  "elapsed_s": 11242.071871519089,
+  "sampled_peak_rss_kB": 3547032,
+  "status": "COMPLETE_FROZEN_POINT_REPLAY",
+  "started_utc": "2026-11-04T06:08:43.952819+00:00",
+  "completed_utc": "2026-11-04T09:16:06.032481+00:00",
+  "input_manifest_sha256": "c09395238e3ab6e888f3bbed83ffcf31e9bdb7dd0997254d41af6ccd34ee3ddd",
+  "verifier_source_sha256": "f3a9e2670a3df6bcf65796005f5b2c610945024bf9be860e8cb167e5d3891d9c",
+  "output_sha256": "9add34ca9f16dc3ef884ee6e0d04670e2315ab27c8e6f3d19392b16fef721f13"
+}

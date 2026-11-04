@@ -1,0 +1,134 @@
+{
+  "utc": "2026-11-04T11:31:23.436983+00:00",
+  "completed_utc": "2026-11-04T11:31:52.465451+00:00",
+  "upstream_main": "87b4ebbd426ff8db597a2004cc45da17903bdcf2",
+  "open_prs": 58,
+  "open_issues": 7,
+  "file_patches": 140,
+  "missing_patches": 0,
+  "direct_38a_prs": [
+    {
+      "number": 317,
+      "title": "C30: add candidate 10.42* lower bound conditional on Norton v3 (stacked on #313)",
+      "url": "https://github.com/teorth/optimizationproblems/pull/317",
+      "direct_38a": true,
+      "topic_hit": true,
+      "missing_patches": [],
+      "file_count": 8
+    },
+    {
+      "number": 313,
+      "title": "Update bounds for C_17, C_30, C_38, C_57a, C_57b, C_62b, C_63",
+      "url": "https://github.com/teorth/optimizationproblems/pull/313",
+      "direct_38a": true,
+      "topic_hit": true,
+      "missing_patches": [],
+      "file_count": 8
+    }
+  ],
+  "context_only_38a_prs": [
+    316,
+    209
+  ],
+  "tracked_repositories": [
+    {
+      "repo": "teorth/optimizationproblems",
+      "sha": "87b4ebbd426ff8db597a2004cc45da17903bdcf2",
+      "previous": "87b4ebbd426ff8db597a2004cc45da17903bdcf2",
+      "unchanged": true
+    },
+    {
+      "repo": "BakeLab/Epi-results",
+      "sha": "97fa6a420f417458e11723c8bceb70f1529e447a",
+      "previous": "97fa6a420f417458e11723c8bceb70f1529e447a",
+      "unchanged": true
+    },
+    {
+      "repo": "google-deepmind/alphaevolve_results",
+      "sha": "4226acbf237ff9ad10ba7673a2af127a2d8a5971",
+      "previous": "4226acbf237ff9ad10ba7673a2af127a2d8a5971",
+      "unchanged": true
+    },
+    {
+      "repo": "google-deepmind/alphaevolve_repository_of_problems",
+      "sha": "8f447457957deac61e28bf1676746f0753b3b2f8",
+      "previous": "8f447457957deac61e28bf1676746f0753b3b2f8",
+      "unchanged": true
+    },
+    {
+      "repo": "openai/math",
+      "sha": "4eaee87548250b2682affda7d05d947c05554bae",
+      "previous": "4eaee87548250b2682affda7d05d947c05554bae",
+      "unchanged": true
+    },
+    {
+      "repo": "plasma-ai/erdos",
+      "sha": "17c86a0d4ebe1487a087ceb8c14952a10ec2f2bd",
+      "previous": "17c86a0d4ebe1487a087ceb8c14952a10ec2f2bd",
+      "unchanged": true
+    },
+    {
+      "repo": "kisonecat/openai-math",
+      "sha": "77bce8d6471b3ede2fb7364539bb7bee37f6452b",
+      "previous": "77bce8d6471b3ede2fb7364539bb7bee37f6452b",
+      "unchanged": true
+    },
+    {
+      "repo": "quasar17/Alpha_Omega_Agents",
+      "sha": "9bfd5018f7bcf02e204c40c3b21e7b7d14b33131",
+      "previous": "9bfd5018f7bcf02e204c40c3b21e7b7d14b33131",
+      "unchanged": true
+    },
+    {
+      "repo": "JamesWeatherhead/CodexProLong",
+      "sha": "b96501f3ddb4447977c0bf9a995f745ef4743a7c",
+      "previous": "b96501f3ddb4447977c0bf9a995f745ef4743a7c",
+      "unchanged": true
+    },
+    {
+      "repo": "vitplanocka/saw-connective-constant",
+      "sha": "0ea6932a15924be370f253c32d204ac79521414a",
+      "previous": "0ea6932a15924be370f253c32d204ac79521414a",
+      "unchanged": true
+    },
+    {
+      "repo": "tejasvi/connective-constant-bound",
+      "sha": "9a451bfefdf405ff3dcaefdfbd98262ce3ae540e",
+      "previous": "9a451bfefdf405ff3dcaefdfbd98262ce3ae540e",
+      "unchanged": true
+    }
+  ],
+  "primary_sources": [
+    {
+      "file": "live38.html",
+      "url": "https://teorth.github.io/optimizationproblems/constants/38a.html",
+      "sha256": "b685ea54344ed8cf1f839477b019ddb3148bcaa75ff96af6555b33774518739f",
+      "bytes": 18035
+    },
+    {
+      "file": "raw38.md",
+      "url": "https://raw.githubusercontent.com/teorth/optimizationproblems/main/constants/38a.md",
+      "sha256": "acf6de60f46fe5fc073295aa10065674e34ca1b2e81b06a4606fa05a416a99d4",
+      "bytes": 14308
+    },
+    {
+      "file": "README.upstream.md",
+      "url": "https://raw.githubusercontent.com/teorth/optimizationproblems/main/README.md",
+      "sha256": "6f6c505c5715a8320a7c2edbf6f7f4cba40c8bd6f6cccd6ed3c1c9eeaf769ac0",
+      "bytes": 57772
+    },
+    {
+      "file": "numaro.html",
+      "url": "https://numaro.tech/research/self-avoiding-walk-connective-constant-2026/",
+      "sha256": "b6702d429221b1b52f68657aa20c9732c0d9a89e982e2c13c2abfcdfac3e5f1b",
+      "bytes": 67232
+    },
+    {
+      "file": "zenodo.json",
+      "url": "https://zenodo.org/api/records/21546041",
+      "sha256": "79b67358d48f5152403b123d0443f01f847cd79cc96d834f6573d1bd0b7dffa0",
+      "bytes": 8927
+    }
+  ],
+  "limits": "Bounded public-source audit; no novelty, absence, refereeing or independent-authorship claim."
+}

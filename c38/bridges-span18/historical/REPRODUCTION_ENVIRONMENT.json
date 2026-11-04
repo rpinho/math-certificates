@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-04T06:21:04.864847+00:00",
+  "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.39",
+  "python": "3.12.3",
+  "gpp_version": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "gcc_version": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "cpu_count_available": 128,
+  "requested_limits": "nice10; single-thread BLAS;<=18numerical workers/threads;<=200GB aggregate own RAM;<=8GB own directory",
+  "native_flags": [
+    "-O3",
+    "-march=native",
+    "-std=c++17",
+    "-fopenmp"
+  ],
+  "arithmetic": "unsigned128-bit integers with explicit capacity checks; Python exact integers/Fraction",
+  "method": "all heavy native work on this pod; no separate agent"
+}

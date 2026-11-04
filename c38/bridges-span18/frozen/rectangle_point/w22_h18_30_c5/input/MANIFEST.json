@@ -1,0 +1,20 @@
+{
+  "schema": "c38-point-rectangle-input-v1",
+  "frozen_utc": "2026-11-04T06:08:38.943677+00:00",
+  "parameters": {
+    "W": 22,
+    "span_min": 18,
+    "span_max": 30,
+    "crossing_cap": 5,
+    "M": 51081913,
+    "S": 96
+  },
+  "sha256": {
+    "rectangle_point_pilot.cpp": "eec8b5ae6b367f83e6e55479c7494e504bacdcfd73fc1e3a3c76cfaeea60d93a",
+    "verify_rectangle_point.cpp": "f3a9e2670a3df6bcf65796005f5b2c610945024bf9be860e8cb167e5d3891d9c",
+    "PROOF_RECTANGLE_POINT.md": "6e9defd32f6c7ba192fc6842e8eda5866fe600edc79bdc4daadb57948609230b",
+    "PROOF_RECTANGLE.md": "c014ee126e6a3b82d7957029b35d67903bd6ce84fef7eb6d248905119e48a6b5",
+    "BAR_PUBLIC.json": "d3ffe717956ec6c7bea44661ed81379c4562a5566fb63a447246557c5a87c8ae",
+    "search.json": "6472784216db04fd52a945af04e5ddffb9c3c6bbf980009a676319891539fe88"
+  }
+}

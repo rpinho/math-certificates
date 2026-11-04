@@ -1,0 +1,27 @@
+closure delta turn=0 stage0=255 pending=254 elapsed=0.00116763
+closure delta turn=1 stage0=633 pending=378 elapsed=0.00244971
+closure delta turn=2 stage0=706 pending=73 elapsed=0.00349083
+closure delta turn=3 stage0=708 pending=2 elapsed=0.00382159
+closure delta turn=4 stage0=708 pending=0 elapsed=0.00398751
+graph stage=0 states=708 edges=1031 elapsed=0.00418047
+graph stage=1 states=1031 edges=1815 elapsed=0.00443382
+graph stage=2 states=1416 edges=2269 elapsed=0.0046965
+graph stage=3 states=1416 edges=2281 elapsed=0.00496327
+graph stage=4 states=1416 edges=2282 elapsed=0.00523054
+graph stage=5 states=1416 edges=2282 elapsed=0.00550952
+graph stage=6 states=1416 edges=2281 elapsed=0.00576399
+graph stage=7 states=1416 edges=1667 elapsed=0.00597522
+GRAPH_COMPLETE states=10235 edges=15908 elapsed=0.00604293
+potential cycle=1 fixed=0
+potential cycle=11 fixed=0
+potential cycle=21 fixed=0
+potential cycle=31 fixed=0
+potential cycle=38 fixed=1
+column=25 lo=50580587840026913756173516677 hi=50580587840026913756173544588
+column=50 lo=50867644393734842552024852556 hi=50867644393734842552024916332
+column=75 lo=50868415399547617021063635157 hi=50868415399547617021063734796
+column=100 lo=50868417470397966411123787970 hi=50868417470397966411123918390
+column=125 lo=50868417475960079041797058699 hi=50868417475960079041797217796
+column=150 lo=50868417475975018362219408658 hi=50868417475975018362219596398
+column=168 lo=50868417475975058028979282211 hi=50868417475975058028979490547
+VERIFIED complete recomputation elapsed=0.0381796

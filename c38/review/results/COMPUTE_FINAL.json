@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-04T13:48:04.048089+00:00",
+  "platform": "macOS-26.7.2-arm64-arm-64bit",
+  "python": "3.12.13 (main, Jun 23 2026, 15:44:24) [Clang 22.1.3 ]",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)",
+  "sha256": {
+    "independent_tm.cpp": "b824addfeedcd807ffddd247b576c97d8d86da9a73ef1e95db90f12a8d061430",
+    "independent_interval.cpp": "ed7dbb349e8d5b2ccc6923cb8194049e858b3574ac6082a399ec228abde9b5ac",
+    "independent_rectangle.cpp": "86a76c2dc83323095cb4ca1b854fbbeb1f18f05942557d1e5ec078a5515ad099"
+  },
+  "native_workers": [],
+  "cleanup_status": "NO_NATIVE_WORKERS_RUNNING"
+}

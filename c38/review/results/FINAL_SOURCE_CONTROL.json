@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "final_source_sha256": "b824addfeedcd807ffddd247b576c97d8d86da9a73ef1e95db90f12a8d061430",
+  "checks": [
+    "length-40 span-10 coefficients match initial source",
+    "span-1 exact finite value and tail match initial source"
+  ]
+}

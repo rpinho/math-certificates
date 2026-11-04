@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-04T09:32:53.621390+00:00",
+  "candidate_unrefereed": true,
+  "mu": "134217728/51081873",
+  "input_manifest_sha256": "00007825552d00027007f4011d19b1b814d9c81ecf9e670ddb897331a46e052b",
+  "verified_sha256": "d54b2e3ac0ba8ab4726e752a3ecf281a871676154a0804d75e78a9a8895029d3",
+  "controls_sha256": "446aa985387aa519684a924efbe4c2cdacec3f49ec6d41bfd8335abad7e27335",
+  "actual_exact_rejections": 21,
+  "freeze_before_verification_before_controls": true,
+  "expanded_integer_coefficient_vector_materialized": false
+}

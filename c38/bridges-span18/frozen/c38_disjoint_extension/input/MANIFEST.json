@@ -1,0 +1,12 @@
+{
+  "schema": "c38-disjoint-input-v1",
+  "frozen_utc": "2026-11-04T10:32:26.144297+00:00",
+  "sha256": {
+    "seed.json": "59b38b4be00b5c2afa5bdbbbe26c879cff94313b35bdd2ba863140755d30e283",
+    "build_disjoint_extension.py": "9d114ca6df4fa85bcf2d8755285efa4a2a855394f4d5d2fa16fcd9a4b4e46088",
+    "verify_disjoint_extension.py": "ff693abd5b3c85f55af373e80ff993e6a6c5fa2154f7a396d77de51319d27ddf",
+    "test_disjoint_controls.py": "8a6bd5e9e5c2c2af5415da8801b0375963bef5a3e8be2e315625ea5bd48a596e",
+    "PROOF_DISJOINT_EXTENSION.md": "98828821ee2df08a0559950475bd34e683dc4433fff86c9e9116a7cf6805ed1a",
+    "verify_rectangle_point_packet.py": "aeafd1991648a8de873dfa3404cc8694054a32619475afd9f0c8fd034dd9b688"
+  }
+}

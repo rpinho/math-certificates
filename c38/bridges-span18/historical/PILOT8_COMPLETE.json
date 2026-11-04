@@ -1,0 +1,19 @@
+{
+  "status": "PILOT8_COMPLETE_PRODUCTION_AND_SEPARATE_REPLAY_PASS",
+  "utc": "2026-11-04T07:15:16.975804+00:00",
+  "deadline_utc": "2026-11-04T09:25:39+00:00",
+  "candidate_unrefereed": true,
+  "verification": "complete frozen separately written (same agent) span18 replay matches every finite numerator and whole graph count",
+  "source_elapsed_s": 3930.526474237442,
+  "source_sampled_peak_GB": 39.09158912,
+  "source_sweep_s_per_column": 8.671222222222221,
+  "native_controller_elapsed_s": 1675.3035230636597,
+  "native_sampled_peak_GB": 49.063047168,
+  "native_graph_build_s": 919.549,
+  "states": 1613562216,
+  "edges": 2563523274,
+  "columns": 72,
+  "input_manifest_sha256": "c3b95cb5122603a8b09ae6b0001d90de5b45e9d32c82e86a351b6dd3f924cb88",
+  "continuation": "main standard complete-union replay is running within the remaining slot; all own numerical allocations remain<=18threads and200GB",
+  "positive_acceptance_scope": "first per-span frozen replay and35rejections pass; further whole-union full replay still pending"
+}

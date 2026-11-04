@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-04T13:43:35.618205+00:00",
+  "records": [
+    {
+      "pid": 11784,
+      "action": "SIGTERM",
+      "reason": "completed remote job; no matching remote controller remains"
+    },
+    {
+      "pid": 87507,
+      "action": "SIGTERM",
+      "reason": "completed remote job; no matching remote controller remains"
+    },
+    {
+      "pid": 98749,
+      "action": "SIGTERM",
+      "reason": "completed remote job; no matching remote controller remains"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "input_manifest_sha256": "c09395238e3ab6e888f3bbed83ffcf31e9bdb7dd0997254d41af6ccd34ee3ddd",
+  "controls": [
+    {
+      "corruption": "source byte changed",
+      "expected": "REJECT:INPUT_SHA256",
+      "actual": "REJECT:INPUT_SHA256",
+      "pass_": true
+    },
+    {
+      "corruption": "search byte changed",
+      "expected": "REJECT:INPUT_SHA256",
+      "actual": "REJECT:INPUT_SHA256",
+      "pass_": true
+    },
+    {
+      "corruption": "replay byte changed",
+      "expected": "REJECT:REPLAY_SHA256",
+      "actual": "REJECT:REPLAY_SHA256",
+      "pass_": true
+    },
+    {
+      "corruption": "receipt incomplete",
+      "expected": "REJECT:REPLAY_INCOMPLETE",
+      "actual": "REJECT:REPLAY_INCOMPLETE",
+      "pass_": true
+    },
+    {
+      "corruption": "input manifest unbound",
+      "expected": "REJECT:REPLAY_INPUT_BINDING",
+      "actual": "REJECT:REPLAY_INPUT_BINDING",
+      "pass_": true
+    },
+    {
+      "corruption": "verifier source unbound",
+      "expected": "REJECT:REPLAY_SOURCE_BINDING",
+      "actual": "REJECT:REPLAY_SOURCE_BINDING",
+      "pass_": true
+    },
+    {
+      "corruption": "replay before freeze",
+      "expected": "REJECT:FREEZE_REPLAY_ORDER",
+      "actual": "REJECT:FREEZE_REPLAY_ORDER",
+      "pass_": true
+    },
+    {
+      "corruption": "invalid crossing cap",
+      "expected": "REJECT:PARAMETERS",
+      "actual": "REJECT:PARAMETERS",
+      "pass_": true
+    },
+    {
+      "corruption": "wrong replay parameter",
+      "expected": "REJECT:OUTPUT_PARAMETERS",
+      "actual": "REJECT:OUTPUT_PARAMETERS",
+      "pass_": true
+    },
+    {
+      "corruption": "changed lower numerator with hashes rebound",
+      "expected": "REJECT:FULL_POINT_REPLAY_MISMATCH",
+      "actual": "REJECT:FULL_POINT_REPLAY_MISMATCH",
+      "pass_": true
+    },
+    {
+      "corruption": "negative lower numerator with hashes rebound",
+      "expected": "REJECT:NUMERATOR_FORMAT",
+      "actual": "REJECT:NUMERATOR_FORMAT",
+      "pass_": true
+    },
+    {
+      "corruption": "unverified replay status with hashes rebound",
+      "expected": "REJECT:STATUS",
+      "actual": "REJECT:STATUS",
+      "pass_": true
+    }
+  ]
+}

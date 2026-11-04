@@ -1,0 +1,160 @@
+{
+  "status": "PASS",
+  "input_manifest_sha256": "61a2f2064a58dfae8568bf13e60350ffdddbe6cc94746d9d001a7c64370244e9",
+  "controls": [
+    {
+      "corruption": "change verifier byte",
+      "expected": "REJECT:INPUT_SHA256",
+      "actual": "REJECT:INPUT_SHA256",
+      "pass": true,
+      "seed_hash_rebound": false
+    },
+    {
+      "corruption": "change seed byte",
+      "expected": "REJECT:INPUT_SHA256",
+      "actual": "REJECT:INPUT_SHA256",
+      "pass": true,
+      "seed_hash_rebound": false
+    },
+    {
+      "corruption": "wrong main binding",
+      "expected": "REJECT:BASE_BINDING",
+      "actual": "REJECT:BASE_BINDING",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "wrong full two-point receipt binding",
+      "expected": "REJECT:STOP_FULL_SHA256",
+      "actual": "REJECT:STOP_FULL_SHA256",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "wrong stop controls binding",
+      "expected": "REJECT:STOP_CONTROLS_SHA256",
+      "actual": "REJECT:STOP_CONTROLS_SHA256",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "change base point",
+      "expected": "REJECT:BASE_POINT",
+      "actual": "REJECT:BASE_POINT",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "reverse upper point",
+      "expected": "REJECT:SECOND_POINT",
+      "actual": "REJECT:SECOND_POINT",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "inflate span17 lower",
+      "expected": "REJECT:LOWER_VALUES",
+      "actual": "REJECT:LOWER_VALUES",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "inflate span18 lower",
+      "expected": "REJECT:LOWER_VALUES",
+      "actual": "REJECT:LOWER_VALUES",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "understate upper value",
+      "expected": "REJECT:UPPER_VALUE",
+      "actual": "REJECT:UPPER_VALUE",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "understate last degree",
+      "expected": "REJECT:DEGREE18",
+      "actual": "REJECT:DEGREE18",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "understate slope",
+      "expected": "REJECT:SLOPE",
+      "actual": "REJECT:SLOPE",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "zero step",
+      "expected": "REJECT:STEP",
+      "actual": "REJECT:STEP",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "inconsistent new point",
+      "expected": "REJECT:NEW_POINT",
+      "actual": "REJECT:NEW_POINT",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "negative last multiplier",
+      "expected": "REJECT:NEGATIVE_MULTIPLIER",
+      "actual": "REJECT:NEGATIVE_MULTIPLIER",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "next grid point fails exact inequality",
+      "expected": "REJECT:BELOW_ONE",
+      "actual": "REJECT:BELOW_ONE",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "wrong claimed value",
+      "expected": "REJECT:CLAIMED_VALUE",
+      "actual": "REJECT:CLAIMED_VALUE",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "wrong reciprocal",
+      "expected": "REJECT:CLAIMED_MU",
+      "actual": "REJECT:CLAIMED_MU",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "remove candidate status",
+      "expected": "REJECT:STATUS",
+      "actual": "REJECT:STATUS",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "misrepresent full coefficient vector",
+      "expected": "REJECT:FAMILY_SCOPE",
+      "actual": "REJECT:FAMILY_SCOPE",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "future freeze",
+      "expected": "REJECT:FREEZE_TIME",
+      "actual": "REJECT:FREEZE_TIME",
+      "pass": true,
+      "seed_hash_rebound": false
+    },
+    {
+      "corruption": "malformed seed with hash rebound",
+      "expected": "REJECT:SEED_JSON",
+      "actual": "REJECT:SEED_JSON",
+      "pass": true,
+      "seed_hash_rebound": true
+    }
+  ]
+}

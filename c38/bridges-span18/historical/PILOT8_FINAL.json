@@ -1,0 +1,15 @@
+{
+  "status": "PILOT8_FINAL_PASS_COMPLETE_MAIN_CERTIFICATE_BEFORE_DEADLINE",
+  "utc": "2026-11-04T08:52:20.456276+00:00",
+  "deadline_utc": "2026-11-04T09:25:39+00:00",
+  "whole_main_replay_completed_utc": "2026-11-04T08:27:42+00:00",
+  "main_packet_sha256": "865241e4447884bb5354ba1799ab94baf4923bb4870e927a151cf14415d6faad",
+  "full_acceptance_sha256": "34a73392f474785905576c55ed1b0dfc937f13967af4e876df9f04dd1b6879e9",
+  "final_audit_sha256": "8d51ccab491a3ad124fc28607509471b92dd82a06c3d5c074364e72fd37d1a55",
+  "source_and_native_resource_measurements": "results/PILOT8_COMPLETE.json",
+  "mu": "134217728/51081913",
+  "candidate_unrefereed": true,
+  "verification": "complete separately written (same agent) frozen native replay, further standard full eighteen-span replay,35actual corruption controls",
+  "decision": "complete enumeration plus checking fits the authorized10hour/200GB/18worker slot; continue remaining secondary checks and final source audit",
+  "expanded_main_coefficient_vector_materialized": false
+}

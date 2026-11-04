@@ -1,0 +1,195 @@
+{
+  "status": "PASS",
+  "input_manifest_sha256": "112b2ccffab251aaf9bad964086338f08beabac1a727b4eec346a4707c5a4f97",
+  "controls": [
+    {
+      "corruption": "change verifier byte",
+      "expected": "REJECT:INPUT_SHA256",
+      "actual": "REJECT:INPUT_SHA256",
+      "pass": true,
+      "seed_hash_rebound": false
+    },
+    {
+      "corruption": "change scalar checker byte",
+      "expected": "REJECT:INPUT_SHA256",
+      "actual": "REJECT:INPUT_SHA256",
+      "pass": true,
+      "seed_hash_rebound": false
+    },
+    {
+      "corruption": "change seed byte",
+      "expected": "REJECT:INPUT_SHA256",
+      "actual": "REJECT:INPUT_SHA256",
+      "pass": true,
+      "seed_hash_rebound": false
+    },
+    {
+      "corruption": "wrong secant binding",
+      "expected": "REJECT:SECANT_BINDING",
+      "actual": "REJECT:SECANT_BINDING",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "wrong secant seed binding",
+      "expected": "REJECT:SECANT_SEED_SHA256",
+      "actual": "REJECT:SECANT_SEED_SHA256",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "wrong width22 input binding",
+      "expected": "REJECT:POINT_INPUT_SHA256",
+      "actual": "REJECT:POINT_INPUT_SHA256",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "wrong width23 input binding",
+      "expected": "REJECT:POINT_INPUT_SHA256",
+      "actual": "REJECT:POINT_INPUT_SHA256",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "wrong width22 controls binding",
+      "expected": "REJECT:POINT_CONTROLS_SHA256",
+      "actual": "REJECT:POINT_CONTROLS_SHA256",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "wrong width23 controls binding",
+      "expected": "REJECT:POINT_CONTROLS_SHA256",
+      "actual": "REJECT:POINT_CONTROLS_SHA256",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "change base point",
+      "expected": "REJECT:BASE_POINT",
+      "actual": "REJECT:BASE_POINT",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "inflate width22 lower",
+      "expected": "REJECT:POINT_VALUES",
+      "actual": "REJECT:POINT_VALUES",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "understate width23 upper",
+      "expected": "REJECT:POINT_VALUES",
+      "actual": "REJECT:POINT_VALUES",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "inflate extra lower",
+      "expected": "REJECT:EXTRA_LOWER",
+      "actual": "REJECT:EXTRA_LOWER",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "include overlapping span18",
+      "expected": "REJECT:EXTRA_FAMILY",
+      "actual": "REJECT:EXTRA_FAMILY",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "change extra range",
+      "expected": "REJECT:EXTRA_FAMILY",
+      "actual": "REJECT:EXTRA_FAMILY",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "change crossing cap",
+      "expected": "REJECT:EXTRA_FAMILY",
+      "actual": "REJECT:EXTRA_FAMILY",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "understate extra degree",
+      "expected": "REJECT:EXTRA_DEGREE",
+      "actual": "REJECT:EXTRA_DEGREE",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "zero step",
+      "expected": "REJECT:STEP",
+      "actual": "REJECT:STEP",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "inconsistent new point",
+      "expected": "REJECT:NEW_POINT",
+      "actual": "REJECT:NEW_POINT",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "negative multiplier",
+      "expected": "REJECT:NEGATIVE_MULTIPLIER",
+      "actual": "REJECT:NEGATIVE_MULTIPLIER",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "next grid point fails exact bound",
+      "expected": "REJECT:BELOW_ONE",
+      "actual": "REJECT:BELOW_ONE",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "wrong claimed value",
+      "expected": "REJECT:CLAIMED_VALUE",
+      "actual": "REJECT:CLAIMED_VALUE",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "wrong reciprocal",
+      "expected": "REJECT:CLAIMED_MU",
+      "actual": "REJECT:CLAIMED_MU",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "remove candidate status",
+      "expected": "REJECT:STATUS",
+      "actual": "REJECT:STATUS",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "misrepresent coefficient expansion",
+      "expected": "REJECT:FAMILY_SCOPE",
+      "actual": "REJECT:FAMILY_SCOPE",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "future freeze",
+      "expected": "REJECT:FREEZE_TIME",
+      "actual": "REJECT:FREEZE_TIME",
+      "pass": true,
+      "seed_hash_rebound": false
+    },
+    {
+      "corruption": "malformed seed with hash rebound",
+      "expected": "REJECT:SEED_JSON",
+      "actual": "REJECT:SEED_JSON",
+      "pass": true,
+      "seed_hash_rebound": true
+    }
+  ]
+}

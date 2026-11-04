@@ -1,0 +1,13 @@
+closure delta turn=0 stage0=7 pending=6 elapsed=0.0017384
+closure delta turn=1 stage0=7 pending=0 elapsed=0.00197483
+graph stage=0 states=7 edges=11 elapsed=0.00216005
+graph stage=1 states=11 edges=19 elapsed=0.0023654
+graph stage=2 states=14 edges=16 elapsed=0.00254908
+GRAPH_COMPLETE states=32 edges=46 elapsed=0.00267999
+potential cycle=1 fixed=0
+potential cycle=11 fixed=0
+potential cycle=16 fixed=1
+column=25 lo=61237051327103013934643082296 hi=61237051327103013934643082712
+column=50 lo=61237062363270416593155675951 hi=61237062363270416593155676808
+column=62 lo=61237062363271553369636247549 hi=61237062363271553369636248607
+VERIFIED complete recomputation elapsed=0.00536709

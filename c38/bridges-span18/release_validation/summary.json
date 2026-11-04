@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "qualification": "candidate, unrefereed; L0 for the bound as a whole",
+  "mu": "8388608/3192535",
+  "S_decimal_diagnostic": 1.0000001143720572,
+  "location": "Mini, macOS arm64; release copy",
+  "python": "3.12.13",
+  "nice": 10,
+  "maximum_concurrent_check_processes": 2,
+  "native_enumeration_rerun": false,
+  "full_coefficient_vector_materialized": false,
+  "rejection_controls": 22,
+  "byte_identical_frozen_files": 379,
+  "unpinned_historical_metadata_paths_made_relative": 2,
+  "records": [
+    {
+      "command": [
+        "python3",
+        "frozen/c38_power_secant/input/verify_power_secant.py",
+        "frozen/c38_power_secant",
+        "release_validation/VERIFIED.json"
+      ],
+      "pid": 78425,
+      "started_utc": "2026-11-04T11:34:36.490938+00:00",
+      "completed_utc": "2026-11-04T11:34:36.590207+00:00",
+      "elapsed_s": 0.09919325000373647,
+      "exit_code": 0,
+      "log": "release_validation/verifier.log"
+    },
+    {
+      "command": [
+        "python3",
+        "frozen/c38_power_secant/input/test_power_controls.py",
+        "frozen/c38_power_secant",
+        "release_validation/REJECTION_CONTROLS.json"
+      ],
+      "pid": 78426,
+      "started_utc": "2026-11-04T11:34:36.590239+00:00",
+      "completed_utc": "2026-11-04T11:34:37.158190+00:00",
+      "elapsed_s": 0.5679711670381948,
+      "exit_code": 0,
+      "log": "release_validation/controls.log"
+    },
+    {
+      "command": [
+        "python3",
+        "audit_exact_extension.py",
+        "frozen/c38_power_secant",
+        "release_validation/AUDIT.json"
+      ],
+      "pid": 78434,
+      "started_utc": "2026-11-04T11:34:37.158230+00:00",
+      "completed_utc": "2026-11-04T11:34:37.806234+00:00",
+      "elapsed_s": 0.6480154999881051,
+      "exit_code": 0,
+      "log": "release_validation/audit.log"
+    }
+  ],
+  "scope": "Fresh exact arithmetic, manifest and historical native-output/receipt validation, all 22 actual degree-power corruptions. No new native state-graph reconstruction."
+}

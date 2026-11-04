@@ -1,0 +1,22 @@
+[
+  {
+    "source": "logs/pod/controller.log",
+    "source_log_sha256": "758deb1da3f56fb341216bdce9ece54b4629cac3d0ecf0894513cd79ced3b1e0",
+    "excerpt": "2026-11-04T06:02:18.960829+00:00 | END logs/production_span_18 {\"args\": [\"bin/tmxq\", \"18\", \"51081913\", \"--scale\", \"96\", \"--relstop\", \"56\", \"--planes\", \"3\", \"--out\", \"results/production/span_18.json\"], \"exit_code\": 0, \"elapsed_s\": 3930.526474237442, \"sampled_peak_rss_kB\": 38175380}"
+  },
+  {
+    "source": "logs/pod/complete_union_replay_controller.log",
+    "source_log_sha256": "123e08aea7352971e9503d8c456c7d506aa8088a000fe3c255312912eed9de5e",
+    "excerpt": "2026-11-04T08:27:42.420854+00:00 | END logs/verify_final_point_packet_full {\"args\": [\"python3\", \"frozen/c38_finite_strip/verify_packet.py\", \"frozen/c38_finite_strip/packet.json\", \"--full\", \"--binary\", \"bin/complete_union_verify_strip\", \"--finite-binary\", \"bin/complete_union_verify_finite\", \"--work\", \"frozen/c38_finite_strip/complete_union_replay\", \"--receipt\", \"frozen/c38_finite_strip/FULL_ACCEPTANCE.json\"], \"exit_code\": 0, \"elapsed_s\": 4455.790206193924, \"sampled_peak_rss_kB\": 18784}"
+  },
+  {
+    "source": "logs/pod/standard_stop_full_controller.log",
+    "source_log_sha256": "c4b051060f43c374a143b273688a6e4340859a409e089b13d7676c57778f75bc",
+    "excerpt": "2026-11-04T09:48:18.866558+00:00 | END logs/standard_span17_stop_full {\"args\": [\"python3\", \"frozen/span17_all_length_stop/verify_span17_stop.py\", \"frozen/span17_all_length_stop\", \"frozen/span17_all_length_stop/FULL_ACCEPTANCE.json\", \"--full\", \"--binary\", \"bin/full_stop_verify_strip\", \"--work\", \"frozen/span17_all_length_stop/complete_union_replay\"], \"exit_code\": 0, \"elapsed_s\": 4825.7889132499695, \"sampled_peak_rss_kB\": 18576}"
+  },
+  {
+    "source": "logs/pod/incremental_frozen_replay_span_18.log",
+    "source_log_sha256": "a676d10dfdeafbb9833172505bbe64f8e82c2612d68523b68ee3eaa48ac77ec6",
+    "excerpt": "VERIFIED complete recomputation elapsed=1663.42"
+  }
+]

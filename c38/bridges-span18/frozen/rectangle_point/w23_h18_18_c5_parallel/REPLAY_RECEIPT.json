@@ -1,0 +1,19 @@
+{
+  "args": [
+    "bin/frozen_point_w23_parallel",
+    "23",
+    "18",
+    "18",
+    "5",
+    "frozen/rectangle_point/w23_h18_18_c5_parallel/replay.json"
+  ],
+  "exit_code": 0,
+  "elapsed_s": 9406.438331604004,
+  "sampled_peak_rss_kB": 5363536,
+  "status": "COMPLETE_FROZEN_POINT_REPLAY",
+  "started_utc": "2026-11-04T07:55:17.368805+00:00",
+  "completed_utc": "2026-11-04T10:32:03.812761+00:00",
+  "input_manifest_sha256": "9f693e53f0616c4005c1128cdcca3223527b923f3f4f8f2ed76458988b3bf094",
+  "verifier_source_sha256": "f3a9e2670a3df6bcf65796005f5b2c610945024bf9be860e8cb167e5d3891d9c",
+  "output_sha256": "69ac3c7f8dc1fdb74157162197f2035f6f15b1ae99360716248cc21b0ea2d7a5"
+}

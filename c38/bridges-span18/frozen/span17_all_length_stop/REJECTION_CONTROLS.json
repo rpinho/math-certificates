@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "input_manifest_sha256": "66ab647c05dbf591a880e361abc8aa88f4abb4a2bf5a5a729f3807f6690e2887",
+  "controls": [
+    {
+      "corruption": "producer frozen byte changed",
+      "expected": "REJECT:FROZEN_INPUT_SHA256",
+      "actual": "REJECT:FROZEN_INPUT_SHA256",
+      "pass": true,
+      "rebound_hashes": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "auxiliary point changed",
+      "expected": "REJECT:FUGACITY",
+      "actual": "REJECT:FUGACITY",
+      "pass": true,
+      "rebound_hashes": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "auxiliary span removed",
+      "expected": "REJECT:COVERAGE",
+      "actual": "REJECT:COVERAGE",
+      "pass": true,
+      "rebound_hashes": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "auxiliary replay marked partial",
+      "expected": "REJECT:REPLAY_INCOMPLETE",
+      "actual": "REJECT:REPLAY_INCOMPLETE",
+      "pass": true,
+      "rebound_hashes": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "auxiliary replay byte changed",
+      "expected": "REJECT:RECEIPT_SHA256",
+      "actual": "REJECT:RECEIPT_SHA256",
+      "pass": true,
+      "rebound_hashes": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "auxiliary finite count changed with hashes rebound",
+      "expected": "REJECT:FINITE_NUMERATOR_MISMATCH",
+      "actual": "REJECT:FINITE_NUMERATOR_MISMATCH",
+      "pass": true,
+      "rebound_hashes": true,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "negative auxiliary tail with hashes rebound",
+      "expected": "REJECT:BRACKET",
+      "actual": "REJECT:BRACKET",
+      "pass": true,
+      "rebound_hashes": true,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "incomplete native auxiliary verdict",
+      "expected": "REJECT:NATIVE_REPLAY_INCOMPLETE",
+      "actual": "REJECT:NATIVE_REPLAY_INCOMPLETE",
+      "pass": true,
+      "rebound_hashes": true,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "stage count changed with hashes rebound",
+      "expected": "REJECT:STAGE_SIZES",
+      "actual": "REJECT:STAGE_SIZES",
+      "pass": true,
+      "rebound_hashes": true,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "input frozen after replay with hashes rebound",
+      "expected": "REJECT:FREEZE_REPLAY_ORDER",
+      "actual": "REJECT:FREEZE_REPLAY_ORDER",
+      "pass": true,
+      "rebound_hashes": true,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "auxiliary tail changed with fresh native replay",
+      "expected": "REJECT:FULL_REPLAY_MISMATCH",
+      "actual": "REJECT:FULL_REPLAY_MISMATCH",
+      "pass": true,
+      "rebound_hashes": true,
+      "fresh_native_replay": true
+    }
+  ]
+}

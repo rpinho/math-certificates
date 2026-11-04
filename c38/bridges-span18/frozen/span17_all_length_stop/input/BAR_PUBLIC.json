@@ -1,0 +1,73 @@
+{
+  "job": "math_c38_1104",
+  "frozen_utc": "2026-11-04T01:30:08.755547+00:00",
+  "target": {
+    "numerator": "1051",
+    "denominator": "400",
+    "decimal": "2.6275",
+    "side": "lower"
+  },
+  "criterion": "Exact nonnegative coefficients a_n of a proven disjoint family of irreducible square-lattice bridges; sum a_n*(400/1051)^n >= 1. An exact or Arb enclosure may verify evaluation, but all coefficient provenance and any truncation must be explicit.",
+  "required": [
+    "written proof with every step explicit",
+    "frozen exact or Arb artifact",
+    "separately written (same agent) complete verifier",
+    "corruption controls with exact expected rejection",
+    "candidate and unrefereed",
+    "no novelty judgment"
+  ],
+  "requested_baseline": {
+    "holder": "Numaro",
+    "numerator": "340282366920938463463374607431768211456",
+    "denominator": "129513673858566230428673965530967449326",
+    "span": 17,
+    "length": 260,
+    "provenance_scope": "public bridge table and arithmetic checkers; original generator absent"
+  },
+  "stronger_public_claim_located": {
+    "holder": "Vít Plánočka",
+    "numerator": "134217728",
+    "denominator": "51082227",
+    "url": "https://github.com/vitplanocka/saw-connective-constant",
+    "commit": "0ea6932a15924be370f253c32d204ac79521414a",
+    "status": "public unrefereed claim; reproduction pending"
+  },
+  "live_table": {
+    "lower": "2.6273856",
+    "upper": "2.679193",
+    "open_prs": 57,
+    "open_prs_touching_38a": [
+      {
+        "number": 313,
+        "relation": "Couronné upper; split from closed #223"
+      },
+      {
+        "number": 317,
+        "relation": "inherits #313 upper change in stacked branch; substantive C30 lower"
+      }
+    ],
+    "pr223_status": "CLOSED"
+  },
+  "credit": [
+    "Harry Kesten",
+    "Iwan Jensen",
+    "Numaro",
+    "Vít Plánočka",
+    "I. G. Enting",
+    "Madras and Slade for bridge-joining antecedents when used"
+  ],
+  "source_sha256": {
+    "sources/numaro/RUN_LOG_L17.txt": "04407813df5d2ed81e53407e18b3612d5bd6e228a75cda422612c542eea22406",
+    "sources/numaro/README.md": "7ff364e41cad18638cfee8e50eb9dce66d0e4a155060389837b68637b897af49",
+    "sources/numaro/bridge_table_record_L17.json": "c0593d569d1f3f33ab32c0598896c011df867b41c626a92ad84c0c79c045de40",
+    "sources/numaro/check_saw38a.py": "fff25b8b84cd023c397fe88c8993510ad7b18f86df9a13a9389b8559175e5e2d",
+    "sources/numaro/verify.py": "6454b89f3b23e72d58a4dde1e322835efaa94c49d020f98c7d6d073076896b52",
+    "sources/numaro/check_saw38a_L17.py": "9e64157663f39ffcc7e7a9612df34216e3175e9f0a328ec50d867a1092937ea6",
+    "sources/numaro/bridge_table_record.json": "ecf1969f203c0b05164607b692d87f9020d255545452b11bb4bbc8c8217ed5ee",
+    "sources/planocka/paper/paper.tex": "3ebf1076347dab71a5deb4cd1d3503893d4f7a55e0afab6d2fa05f2d4d79d22e",
+    "sources/planocka/code/kernel/tmxq.c": "7d75d790aa90dc4b69bb9b05a11d38cd9da88e791111cb5cbf053ce78da8c73b",
+    "sources/pr313.json": "ea2bf889cb59e025dfb8df2950d316e1d366a9fc2894f98fa7388a16338b5578",
+    "sources/pr317.json": "238e931aee65cdf9652dcaec1896c94a0bc3d73841d4e5a3ac9319ec259e7a3f"
+  },
+  "private_full_bar_sha256": "cc8727f15c39e05ac45a92f668e495355ecae5a9c35620c0fe9e2b5fcabbf0f4"
+}

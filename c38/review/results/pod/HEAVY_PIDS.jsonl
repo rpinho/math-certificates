@@ -1,0 +1,8 @@
+{"pid": 152448, "cmd": ["./independent_rectangle", "22", "18", "30", "5", "results/rectangle22.json"], "started": 1793792298.767983}
+{"pid": 152450, "cmd": ["./independent_rectangle", "23", "18", "18", "5", "results/rectangle23.json"], "started": 1793792298.768523}
+{"pid": 152453, "cmd": ["./independent_tm", "12", "280", "51081913", "exact", "results/b12.json"], "started": 1793792298.7691288}
+{"pid": 152455, "cmd": ["./independent_tm", "11", "257", "51081913", "exact", "results/b11.json"], "started": 1793792298.7705212}
+{"pid": 152456, "cmd": ["./independent_tm", "12", "280", "51082227", "exact", "results/c12.json"], "started": 1793792298.769974}
+{"pid": 152457, "cmd": ["./independent_tm", "11", "257", "51082227", "exact", "results/c11.json"], "started": 1793792298.7722552}
+{"pid": 153088, "cmd": ["./independent_tm", "11", "40", "51081913", "coeff", "results/count11.json"], "started": 1793793396.2092776}
+{"pid": 153089, "cmd": ["./independent_tm", "12", "40", "51081913", "coeff", "results/count12.json"], "started": 1793793398.7400374}

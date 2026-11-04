@@ -1,0 +1,286 @@
+{
+  "status": "PASS",
+  "packet_sha256": "865241e4447884bb5354ba1799ab94baf4923bb4870e927a151cf14415d6faad",
+  "controls": [
+    {
+      "corruption": "unbound finite last verifier source",
+      "expected": "REJECT:FINITE_VERIFIER_SOURCE_UNPINNED",
+      "actual": "REJECT:FINITE_VERIFIER_SOURCE_UNPINNED",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "finite last verifier source byte changed",
+      "expected": "REJECT:SOURCE_SHA256",
+      "actual": "REJECT:SOURCE_SHA256",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "frozen finite native input source byte changed",
+      "expected": "REJECT:FINITE_CORE_INPUT_SHA256",
+      "actual": "REJECT:FINITE_CORE_INPUT_SHA256",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "terminal mode changed",
+      "expected": "REJECT:TERMINAL_MODE",
+      "actual": "REJECT:TERMINAL_MODE",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "finite marker falsely claims infinite tail",
+      "expected": "REJECT:FINITE_MODE",
+      "actual": "REJECT:FINITE_MODE",
+      "pass": true,
+      "all_hashes_rebound": true,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "finite marker has nonzero unused tail",
+      "expected": "REJECT:FINITE_TAIL_MARKER",
+      "actual": "REJECT:FINITE_TAIL_MARKER",
+      "pass": true,
+      "all_hashes_rebound": true,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "target numerator changed",
+      "expected": "REJECT:TARGET_CHANGED",
+      "actual": "REJECT:TARGET_CHANGED",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "weaker dyadic point",
+      "expected": "REJECT:TARGET_TOO_WEAK",
+      "actual": "REJECT:TARGET_TOO_WEAK",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "missing span",
+      "expected": "REJECT:SPAN_COVERAGE",
+      "actual": "REJECT:SPAN_COVERAGE",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "duplicate span",
+      "expected": "REJECT:SPAN_ORDER_OR_DUPLICATE",
+      "actual": "REJECT:SPAN_ORDER_OR_DUPLICATE",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "unbound verifier source",
+      "expected": "REJECT:VERIFIER_SOURCE_UNPINNED",
+      "actual": "REJECT:VERIFIER_SOURCE_UNPINNED",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "verifier source byte changed",
+      "expected": "REJECT:SOURCE_SHA256",
+      "actual": "REJECT:SOURCE_SHA256",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "producer frozen byte changed",
+      "expected": "REJECT:FROZEN_INPUT_SHA256",
+      "actual": "REJECT:FROZEN_INPUT_SHA256",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "separate replay byte changed",
+      "expected": "REJECT:DATA_SHA256",
+      "actual": "REJECT:DATA_SHA256",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "separate replay removed",
+      "expected": "REJECT:DATA_MISSING",
+      "actual": "REJECT:DATA_MISSING",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "partial complete-replay receipt",
+      "expected": "REJECT:RECEIPTS_INCOMPLETE",
+      "actual": "REJECT:RECEIPTS_INCOMPLETE",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "wrong per-span manifest path",
+      "expected": "REJECT:SPAN_MANIFEST_PATH",
+      "actual": "REJECT:SPAN_MANIFEST_PATH",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "wrong per-span manifest hash",
+      "expected": "REJECT:SPAN_MANIFEST_SHA256",
+      "actual": "REJECT:SPAN_MANIFEST_SHA256",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "wrong per-span source core binding",
+      "expected": "REJECT:SPAN_CORE_BINDING",
+      "actual": "REJECT:SPAN_CORE_BINDING",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "input declared frozen after replay with all hashes rebound",
+      "expected": "REJECT:FREEZE_REPLAY_ORDER",
+      "actual": "REJECT:FREEZE_REPLAY_ORDER",
+      "pass": true,
+      "all_hashes_rebound": true,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "malformed frozen input manifest JSON",
+      "expected": "REJECT:FROZEN_MANIFEST_JSON",
+      "actual": "REJECT:FROZEN_MANIFEST_JSON",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "malformed separate numerical JSON with hashes rebound",
+      "expected": "REJECT:DATA_JSON",
+      "actual": "REJECT:DATA_JSON",
+      "pass": true,
+      "all_hashes_rebound": true,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "width metadata changed",
+      "expected": "REJECT:WIDTH_METADATA",
+      "actual": "REJECT:WIDTH_METADATA",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "zero width",
+      "expected": "REJECT:WIDTH",
+      "actual": "REJECT:WIDTH",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "partial native verdict",
+      "expected": "REJECT:REPLAY_INCOMPLETE",
+      "actual": "REJECT:REPLAY_INCOMPLETE",
+      "pass": true,
+      "all_hashes_rebound": true,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "wrong arithmetic scale",
+      "expected": "REJECT:SCALE",
+      "actual": "REJECT:SCALE",
+      "pass": true,
+      "all_hashes_rebound": true,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "negative tail numerator",
+      "expected": "REJECT:NEGATIVE_NUMERATOR",
+      "actual": "REJECT:NEGATIVE_NUMERATOR",
+      "pass": true,
+      "all_hashes_rebound": true,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "exact finite count changed and all hashes rebound",
+      "expected": "REJECT:FINITE_NUMERATOR_MISMATCH",
+      "actual": "REJECT:FINITE_NUMERATOR_MISMATCH",
+      "pass": true,
+      "all_hashes_rebound": true,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "graph state count changed",
+      "expected": "REJECT:GRAPH_COUNT_MISMATCH",
+      "actual": "REJECT:GRAPH_COUNT_MISMATCH",
+      "pass": true,
+      "all_hashes_rebound": true,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "stage count sum corrupted",
+      "expected": "REJECT:STAGE_COUNT_SUM",
+      "actual": "REJECT:STAGE_COUNT_SUM",
+      "pass": true,
+      "all_hashes_rebound": true,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "degree bound reduced",
+      "expected": "REJECT:DEGREE_BOUND",
+      "actual": "REJECT:DEGREE_BOUND",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "claimed rational sum changed",
+      "expected": "REJECT:CLAIMED_SUM_MISMATCH",
+      "actual": "REJECT:CLAIMED_SUM_MISMATCH",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "expanded coefficient scope misrepresented",
+      "expected": "REJECT:COEFFICIENT_ENCODING",
+      "actual": "REJECT:COEFFICIENT_ENCODING",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "candidate status removed",
+      "expected": "REJECT:STATUS_LABEL",
+      "actual": "REJECT:STATUS_LABEL",
+      "pass": true,
+      "all_hashes_rebound": false,
+      "fresh_native_replay": false
+    },
+    {
+      "corruption": "actual tail changed with rebound hashes and fresh native replay",
+      "expected": "REJECT:FULL_REPLAY_MISMATCH",
+      "actual": "REJECT:FULL_REPLAY_MISMATCH",
+      "pass": true,
+      "all_hashes_rebound": true,
+      "fresh_native_replay": true
+    }
+  ]
+}

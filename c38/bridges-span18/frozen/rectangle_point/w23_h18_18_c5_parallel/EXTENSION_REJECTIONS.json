@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "span17_input_manifest_sha256": "66ab647c05dbf591a880e361abc8aa88f4abb4a2bf5a5a729f3807f6690e2887",
+  "point_input_manifest_sha256": "9f693e53f0616c4005c1128cdcca3223527b923f3f4f8f2ed76458988b3bf094",
+  "control_source_sha256": "f452af7d532047a431ec97e278f47ba11ce3c097509e2f6ce182e805736cb8e7",
+  "controls": [
+    {
+      "corruption": "span17 producer byte changed",
+      "expected": "REJECT:STOP_FROZEN_INPUT_SHA256",
+      "actual": "REJECT:STOP_FROZEN_INPUT_SHA256",
+      "pass": true
+    },
+    {
+      "corruption": "point search byte changed",
+      "expected": "REJECT:POINT_INPUT_SHA256",
+      "actual": "REJECT:POINT_INPUT_SHA256",
+      "pass": true
+    },
+    {
+      "corruption": "overlapping span scope",
+      "expected": "REJECT:DISJOINT_SPAN_SCOPE",
+      "actual": "REJECT:DISJOINT_SPAN_SCOPE",
+      "pass": true
+    },
+    {
+      "corruption": "span17 standard full replay missing",
+      "expected": "REJECT:STOP_FULL_INCOMPLETE",
+      "actual": "REJECT:STOP_FULL_INCOMPLETE",
+      "pass": true
+    },
+    {
+      "corruption": "point controls incomplete",
+      "expected": "REJECT:POINT_CONTROLS_INCOMPLETE",
+      "actual": "REJECT:POINT_CONTROLS_INCOMPLETE",
+      "pass": true
+    }
+  ]
+}

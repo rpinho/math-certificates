@@ -1,0 +1,153 @@
+{
+  "status": "PASS",
+  "input_manifest_sha256": "00007825552d00027007f4011d19b1b814d9c81ecf9e670ddb897331a46e052b",
+  "controls": [
+    {
+      "corruption": "alter verifier byte",
+      "expected": "REJECT:INPUT_SHA256",
+      "actual": "REJECT:INPUT_SHA256",
+      "pass": true,
+      "seed_hash_rebound": false
+    },
+    {
+      "corruption": "alter seed byte",
+      "expected": "REJECT:INPUT_SHA256",
+      "actual": "REJECT:INPUT_SHA256",
+      "pass": true,
+      "seed_hash_rebound": false
+    },
+    {
+      "corruption": "drop a span",
+      "expected": "REJECT:SPAN_COVERAGE",
+      "actual": "REJECT:SPAN_COVERAGE",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "duplicate span",
+      "expected": "REJECT:SPAN_ORDER",
+      "actual": "REJECT:SPAN_ORDER",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "change width",
+      "expected": "REJECT:WIDTH",
+      "actual": "REJECT:WIDTH",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "understate degree",
+      "expected": "REJECT:DEGREE",
+      "actual": "REJECT:DEGREE",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "inflate per-span lower value",
+      "expected": "REJECT:ALPHA",
+      "actual": "REJECT:ALPHA",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "change weighted sum",
+      "expected": "REJECT:WEIGHTED_SUM",
+      "actual": "REJECT:WEIGHTED_SUM",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "change base point",
+      "expected": "REJECT:BASE_POINT",
+      "actual": "REJECT:BASE_POINT",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "zero step",
+      "expected": "REJECT:STEP",
+      "actual": "REJECT:STEP",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "inconsistent new point",
+      "expected": "REJECT:NEW_POINT",
+      "actual": "REJECT:NEW_POINT",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "negative multiplier",
+      "expected": "REJECT:NEGATIVE_MULTIPLIER",
+      "actual": "REJECT:NEGATIVE_MULTIPLIER",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "next grid step fails linear bound",
+      "expected": "REJECT:BELOW_ONE",
+      "actual": "REJECT:BELOW_ONE",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "false lower value",
+      "expected": "REJECT:CLAIMED_VALUE",
+      "actual": "REJECT:CLAIMED_VALUE",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "false reciprocal",
+      "expected": "REJECT:CLAIMED_MU",
+      "actual": "REJECT:CLAIMED_MU",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "remove candidate status",
+      "expected": "REJECT:STATUS",
+      "actual": "REJECT:STATUS",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "misrepresent coefficient family",
+      "expected": "REJECT:FAMILY_SCOPE",
+      "actual": "REJECT:FAMILY_SCOPE",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "change main binding",
+      "expected": "REJECT:BASE_BINDING",
+      "actual": "REJECT:BASE_BINDING",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "change full replay receipt binding",
+      "expected": "REJECT:BASE_FULL_SHA256",
+      "actual": "REJECT:BASE_FULL_SHA256",
+      "pass": true,
+      "seed_hash_rebound": true
+    },
+    {
+      "corruption": "future freeze timestamp",
+      "expected": "REJECT:FREEZE_TIME",
+      "actual": "REJECT:FREEZE_TIME",
+      "pass": true,
+      "seed_hash_rebound": false
+    },
+    {
+      "corruption": "malformed seed with hash rebound",
+      "expected": "REJECT:SEED_JSON",
+      "actual": "REJECT:SEED_JSON",
+      "pass": true,
+      "seed_hash_rebound": true
+    }
+  ]
+}

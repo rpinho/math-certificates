@@ -1,0 +1,28 @@
+{
+  "status": "PASS_COMPLETED_EXACT_EXTENSION",
+  "utc": "2026-11-04T11:34:37.801523+00:00",
+  "candidate_unrefereed": true,
+  "verifier": "separately written (same agent), frozen source",
+  "mu": "8388608/3192535",
+  "input_manifest_sha256": "9797a748df2e4f4e12bd56578e10d68ebdd8d350e8fd9180cfb8cc445d161281",
+  "actual_exact_rejection_controls": 22,
+  "fresh_verification_started_utc": "2026-11-04T11:34:37.181491+00:00",
+  "fresh_verification_completed_utc": "2026-11-04T11:34:37.218294+00:00",
+  "fresh_actual_controls_completed_utc": "2026-11-04T11:34:37.801276+00:00",
+  "fresh_controls_sha256": "3b00402c27c3c7e60c1b3b4c8a5de0c62bab10379fbb9057487924236afc925a",
+  "freeze_before_verification_before_controls": true,
+  "chronology_evidence": "actual ordered fresh audit calls with embedded UTC times; filesystem mtimes are not used because rsync rounds subsecond timestamps",
+  "copied_pod_checks": [
+    "copied-pod exact checker receipt matches",
+    "copied-pod actual corruption controls match"
+  ],
+  "sha256": {
+    "input/MANIFEST.json": "9797a748df2e4f4e12bd56578e10d68ebdd8d350e8fd9180cfb8cc445d161281",
+    "input/seed.json": "7cedfa3d8fb31407b98fa04b75b3ea401e95b3aaa35965359ba6cb978f61b1b9",
+    "VERIFIED.json": "badcc6b0283c46d09e558f3e4540bd4db96ff947ee73c07e1623585f7b621006",
+    "REJECTION_CONTROLS.json": "3b00402c27c3c7e60c1b3b4c8a5de0c62bab10379fbb9057487924236afc925a",
+    "POD_VERIFIED.json": "badcc6b0283c46d09e558f3e4540bd4db96ff947ee73c07e1623585f7b621006",
+    "POD_REJECTION_CONTROLS.json": "3b00402c27c3c7e60c1b3b4c8a5de0c62bab10379fbb9057487924236afc925a"
+  },
+  "full_expanded_integer_coefficient_vector_materialized": false
+}
