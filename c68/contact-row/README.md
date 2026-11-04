@@ -138,13 +138,15 @@ acceptance certificate; no optimizer is required or imported.
 [REPRODUCE.md](REPRODUCE.md) gives single-process, nice-10 commands and the
 Python dependencies. [MANIFEST.json](MANIFEST.json) records source provenance
 and transformations. SHA256SUMS covers the complete release including the
-manifest. [PRIOR_ART_RELEASE.md](PRIOR_ART_RELEASE.md) records the live audit.
+manifest. [PRIOR_ART_RELEASE.md](PRIOR_ART_RELEASE.md) records the live audit;
+[PRIOR_ART.md](PRIOR_ART.md) is the source job's initial and final audit.
 The frozen source manifests are historical provenance records and do not
 serve as the release inventory (BAR.json is deliberately omitted).
 
 Credit is V. Patankar (#274) first, then Wang, Wikström and the earlier
 signed-contact step. The predecessor README's attribution of the flux input
 to David Niedbala Giraudin is superseded by current #274 and the source proof.
+Older c68 folders keep that wrong name for checksum reasons; [../CREDIT_CORRECTION.md](../CREDIT_CORRECTION.md) overrides it.
 
 **Verification level: L0** for the bound as a whole (definitions: https://github.com/rpinho/math-certificates/blob/59eeb7097f806da05187b5f234445be3589204d4/VERIFICATION_LEVELS.md)
 The verifiers were separately written by the same AI agent; the new contact-row lemma is a prose argument needing mathematical review.
