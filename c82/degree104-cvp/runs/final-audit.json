@@ -1,0 +1,44 @@
+{
+  "certificate_sha256": "27a4e61121b0c882c249fe3f06ed04d3c6b16067b7d1a0f6d2d6a80d40b3d3f9",
+  "D": 999999999856,
+  "degree_A": "952533595715278899/1048576",
+  "degree_ratio": 0.9084068258785665,
+  "denominators": 6,
+  "numerators": 13,
+  "candidate_unrefereed": true,
+  "pid": 33435,
+  "added": [
+    {
+      "name": "C82r3_56e044d57633",
+      "degree": 104,
+      "parent_rc": -0.003535135267014766,
+      "public_bank": false,
+      "source": "runs/after-dual104.json"
+    },
+    {
+      "name": "C82r3_11b375537096",
+      "degree": 104,
+      "parent_rc": -0.003129985632501331,
+      "public_bank": false,
+      "source": "runs/after-dual104.json"
+    },
+    {
+      "name": "C82r3_1d86166ad1c2",
+      "degree": 104,
+      "parent_rc": -0.005382060202105521,
+      "public_bank": false,
+      "source": "runs/after-dual104.json"
+    },
+    {
+      "name": "C82r3_daebb873ff8b",
+      "degree": 104,
+      "parent_rc": -0.0016535496496885571,
+      "public_bank": false,
+      "source": "runs/fixed104.json"
+    }
+  ],
+  "numeric_unverified": 0.2524048059303552,
+  "baseline_grid_value": 0.25241009658121205,
+  "numeric_gain": 5.290650856859536e-06,
+  "seconds": 99.56455787498271
+}

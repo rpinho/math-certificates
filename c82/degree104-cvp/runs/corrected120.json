@@ -1,0 +1,827 @@
+{
+ "candidate_unrefereed": true,
+ "settings": {
+  "state": "runs/baseline.json",
+  "dual": "runs/baseline-dual.npz",
+  "library": "library.json",
+  "degree": 120,
+  "points": 1024,
+  "seconds": 180,
+  "seed": 1120,
+  "nodes": 200000,
+  "keep": 16,
+  "iterations": 8,
+  "bits": 260,
+  "ridge_bits": 190,
+  "unit_shifts": false,
+  "out": "runs/corrected120.json"
+ },
+ "elapsed_seconds": 209.9057675829972,
+ "pid": 12907,
+ "trials": 2,
+ "iterations": 2,
+ "polynomials_scored": 32,
+ "best": {
+  "coeffs": [
+   1,
+   -29,
+   439,
+   -4596,
+   37285,
+   -249322,
+   1428835,
+   -7209789,
+   32678839,
+   -135139936,
+   516371724,
+   -1842402641,
+   6193662287,
+   -19769489537,
+   60310730417,
+   -176839817566,
+   500717886905,
+   -1374425614907,
+   3668989652790,
+   -9549927205965,
+   24289441665088,
+   -60476641180683,
+   147635296572609,
+   -353851733106496,
+   833697740790182,
+   -1932943479572117,
+   4414325506578573,
+   -9938123642615655,
+   22072584439388659,
+   -48393153385070609,
+   104793534535300894,
+   -224239447725472318,
+   474347077939691083,
+   -992297079119021185,
+   2053427690844049234,
+   -4204533491254045174,
+   8520086173999976485,
+   -17089310665150753189,
+   33931761541182387197,
+   -66698672089088672439,
+   129797163923384519948,
+   -250057090909174365998,
+   476878635739351849618,
+   -900160363940358119166,
+   1681526695985583882463,
+   -3107908959285744333543,
+   5682021002973194408370,
+   -10272532719945055995651,
+   18358747060102504878090,
+   -32421268732434344059842,
+   56552070498622562352134,
+   -97384023667022049543303,
+   165468750943449228008515,
+   -277256257092045572701450,
+   457837995885356754437082,
+   -744586199733226024080700,
+   1191725131350009469174196,
+   -1875662561120526373323229,
+   2900546109876382073501052,
+   -4402956818677920843257007,
+   6553927829678116922131282,
+   -9555695044370704906281582,
+   13630014479309473941539132,
+   -18994947566757672145872486,
+   25828243184933508375317961,
+   -34218249883079667176289248,
+   44107670597815269411484435,
+   -55240681756754243723690582,
+   67128364264873617094564460,
+   -79048825298118919295689639,
+   90094795463666746114669709,
+   -99272105497426080114163081,
+   105638723609201272003684793,
+   -108459778856555966529235180,
+   107344385846804459898365092,
+   -102329671434867594428019983,
+   93887912223773788434831176,
+   -82851758197458256620995233,
+   70274174123549032354666365,
+   -57256637751507760597842965,
+   44785600805700128923738069,
+   -33611550246408305449749728,
+   24190042272661946354609781,
+   -16685722319633241656460786,
+   11024906139006804261425575,
+   -6974021979081721775212464,
+   4221046289514778366267190,
+   -2443009190356757860021198,
+   1351216800899891186624276,
+   -713724591830757116596524,
+   359777142857783661974018,
+   -172942976162730986261361,
+   79210357352884924320853,
+   -34536966158242736514516,
+   14321519821395154672114,
+   -5642059612343210207175,
+   2109244443993364038723,
+   -747315492302218226346,
+   250587388857325971544,
+   -79399547576504739753,
+   23731845062420964164,
+   -6678286896651188211,
+   1765570280992057476,
+   -437463726084893171,
+   101309753937117800,
+   -21860853164392289,
+   4379777359157778,
+   -811402622193884,
+   138345976156429,
+   -21589171736450,
+   3063323828550,
+   -392113574195,
+   44844726442,
+   -4527775996,
+   397454717,
+   -29728029,
+   1842872,
+   -90942,
+   3351,
+   -82,
+   1
+  ],
+  "degree": 120,
+  "rc": 0.005405720863681296,
+  "rc_per_degree": 4.50476738640108e-05,
+  "height": 0.2524799026589472,
+  "source": {
+   "trial": 1,
+   "degree": 120,
+   "seed": 1120,
+   "residue_shift": [
+    0,
+    0
+   ],
+   "iteration": -1
+  },
+  "known": false,
+  "score_seconds": 0.2865803330205381,
+  "coprime_to_numerators": true
+ },
+ "negative_candidates": [],
+ "iteration_stats": [
+  {
+   "build_seconds": 1.8140922500169836,
+   "lll_seconds": 118.5537220829865,
+   "total_seconds": 120.53762920800364,
+   "nodes": 200000,
+   "enumeration_completed": false,
+   "qr_diagonal_min": 0.042796951669663255,
+   "qr_diagonal_max": 1.315539316496665,
+   "unique_proposals": 16,
+   "dimension": 114,
+   "ambient_dimension": 2162,
+   "target_norm_before_rescale": 4.699137513474231e-24,
+   "nearest_projected_squared_distance": 0.1343859958977394,
+   "current_projected_squared_distance": 0.1343859958977394,
+   "exact_sampled_l2_ratio": 1.0,
+   "sampled_log_difference": 0.0,
+   "trial": 0,
+   "iteration": 0,
+   "current_rc": 0.005405720863709718,
+   "best_rc": 0.005405720863709718,
+   "degree": 120
+  },
+  {
+   "build_seconds": 2.069152457988821,
+   "lll_seconds": 73.99094287498156,
+   "total_seconds": 76.19515416602371,
+   "nodes": 200000,
+   "enumeration_completed": false,
+   "qr_diagonal_min": 0.04876738329844571,
+   "qr_diagonal_max": 1.1873155224433227,
+   "unique_proposals": 16,
+   "dimension": 114,
+   "ambient_dimension": 2162,
+   "target_norm_before_rescale": 9.642956155726272e-24,
+   "nearest_projected_squared_distance": 0.15572134836527052,
+   "current_projected_squared_distance": 0.15572134836527052,
+   "trial": 1,
+   "iteration": 0,
+   "current_rc": 0.005405720863681296,
+   "best_rc": 0.005405720863681296,
+   "degree": 120
+  }
+ ],
+ "score_records": [
+  {
+   "degree": 120,
+   "rc": 0.005405720863709718,
+   "rc_per_degree": 4.5047673864247644e-05,
+   "height": 0.25247896660617963,
+   "source": {
+    "trial": 0,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": -1
+   },
+   "known": false,
+   "score_seconds": 0.27215279202209786,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.11238813967932515,
+   "rc_per_degree": 0.0009365678306610429,
+   "height": 0.25339308083402556,
+   "source": {
+    "trial": 0,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.3159282080014236,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.1443304829583063,
+   "rc_per_degree": 0.0012027540246525525,
+   "height": 0.25365909964552474,
+   "source": {
+    "trial": 0,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.3170712499995716,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.11889090705926009,
+   "rc_per_degree": 0.0009907575588271674,
+   "height": 0.25343914835150166,
+   "source": {
+    "trial": 0,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.3264848330290988,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.1450498843754673,
+   "rc_per_degree": 0.0012087490364622274,
+   "height": 0.2536614617205562,
+   "source": {
+    "trial": 0,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.3196568749845028,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.12001228111756035,
+   "rc_per_degree": 0.0010001023426463363,
+   "height": 0.25345418230386846,
+   "source": {
+    "trial": 0,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.2979655839735642,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.1320125157576264,
+   "rc_per_degree": 0.0011001042979802201,
+   "height": 0.25355240758127184,
+   "source": {
+    "trial": 0,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.31565833295462653,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.1128496385569484,
+   "rc_per_degree": 0.0009404136546412367,
+   "height": 0.25339772961469825,
+   "source": {
+    "trial": 0,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.3868912909529172,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.09103881416533355,
+   "rc_per_degree": 0.000758656784711113,
+   "height": 0.25321176012237373,
+   "source": {
+    "trial": 0,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.29271033295663074,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.13558318159322624,
+   "rc_per_degree": 0.0011298598466102188,
+   "height": 0.25358818706703823,
+   "source": {
+    "trial": 0,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.29877891700016335,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.13487688831364508,
+   "rc_per_degree": 0.0011239740692803757,
+   "height": 0.2535789521105764,
+   "source": {
+    "trial": 0,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.30127370898844674,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.15628967681291783,
+   "rc_per_degree": 0.001302413973440982,
+   "height": 0.25375537908149354,
+   "source": {
+    "trial": 0,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.3135401249746792,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.12758831816790916,
+   "rc_per_degree": 0.0010632359847325763,
+   "height": 0.2535163191391972,
+   "source": {
+    "trial": 0,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.29332279198570177,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.12638951544264998,
+   "rc_per_degree": 0.0010532459620220833,
+   "height": 0.2535022959485101,
+   "source": {
+    "trial": 0,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.32792783295735717,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.12356686980319864,
+   "rc_per_degree": 0.0010297239150266553,
+   "height": 0.25348568292583384,
+   "source": {
+    "trial": 0,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.3215800420148298,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.11324508006525846,
+   "rc_per_degree": 0.0009437090005438206,
+   "height": 0.2533939531793806,
+   "source": {
+    "trial": 0,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.36671816697344184,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.005405720863681296,
+   "rc_per_degree": 4.50476738640108e-05,
+   "height": 0.2524799026589472,
+   "source": {
+    "trial": 1,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": -1
+   },
+   "known": false,
+   "score_seconds": 0.2865803330205381,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.08065577006739844,
+   "rc_per_degree": 0.0006721314172283203,
+   "height": 0.25312796264412263,
+   "source": {
+    "trial": 1,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.23189349996391684,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.053028264772844835,
+   "rc_per_degree": 0.0004419022064403736,
+   "height": 0.2528971888738081,
+   "source": {
+    "trial": 1,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.23402579099638388,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.054029260645815924,
+   "rc_per_degree": 0.0004502438387151327,
+   "height": 0.2529049941445791,
+   "source": {
+    "trial": 1,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.21932087501045316,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.10847947461547491,
+   "rc_per_degree": 0.0009039956217956243,
+   "height": 0.25335858972798303,
+   "source": {
+    "trial": 1,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.21815650002099574,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.08805354717055991,
+   "rc_per_degree": 0.000733779559754666,
+   "height": 0.25318648413234657,
+   "source": {
+    "trial": 1,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.2228525829850696,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.07029671138585414,
+   "rc_per_degree": 0.0005858059282154511,
+   "height": 0.2530364465490818,
+   "source": {
+    "trial": 1,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.22402320796390995,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.05187215470519746,
+   "rc_per_degree": 0.0004322679558766455,
+   "height": 0.25288366115510114,
+   "source": {
+    "trial": 1,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.2199743750388734,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.04070692092815875,
+   "rc_per_degree": 0.0003392243410679896,
+   "height": 0.25279394704294744,
+   "source": {
+    "trial": 1,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.22548629203811288,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.07033283395117351,
+   "rc_per_degree": 0.0005861069495931126,
+   "height": 0.25303609553132644,
+   "source": {
+    "trial": 1,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.22853970801224932,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.05054042868549402,
+   "rc_per_degree": 0.0004211702390457835,
+   "height": 0.2528751447169256,
+   "source": {
+    "trial": 1,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.23248779197456315,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.10117602104481449,
+   "rc_per_degree": 0.0008431335087067874,
+   "height": 0.2532982304068315,
+   "source": {
+    "trial": 1,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.22377466701436788,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.08265361799134396,
+   "rc_per_degree": 0.0006887801499278664,
+   "height": 0.25313992665575125,
+   "source": {
+    "trial": 1,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.22797741601243615,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.08007623939279185,
+   "rc_per_degree": 0.0006673019949399321,
+   "height": 0.2531220009524234,
+   "source": {
+    "trial": 1,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.22836508398177102,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.07714871849858795,
+   "rc_per_degree": 0.0006429059874882329,
+   "height": 0.2530974931770351,
+   "source": {
+    "trial": 1,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.23422791599296033,
+   "coprime_to_numerators": true
+  },
+  {
+   "degree": 120,
+   "rc": 0.06257779808105823,
+   "rc_per_degree": 0.0005214816506754852,
+   "height": 0.25297795025816205,
+   "source": {
+    "trial": 1,
+    "degree": 120,
+    "seed": 1120,
+    "residue_shift": [
+     0,
+     0
+    ],
+    "iteration": 0
+   },
+   "known": false,
+   "score_seconds": 0.2265193749917671,
+   "coprime_to_numerators": true
+  }
+ ],
+ "cvp_selftest": {
+  "status": "PASS",
+  "nodes": 23,
+  "nearest_squared_distance": 0.3234999999999999
+ },
+ "source_sha256": "ee660ac267288c48736734f99a5927d379a7ce4398b2f784f2c6e2674a854ab2"
+}

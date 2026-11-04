@@ -1,0 +1,101 @@
+{
+  "time_utc": "2026-11-04T23:01:24.717021+00:00",
+  "pid": 31202,
+  "receipts": {
+    "table": {
+      "api": "repos/teorth/optimizationproblems/contents/constants/82a.md",
+      "status": 0,
+      "sha256": "b3f6bce9cc9da7e81bdaffffc2644f32f30a2930b04fc58342f7809ba84ecf15"
+    },
+    "open_prs": {
+      "api": "repos/teorth/optimizationproblems/pulls?state=open&per_page=100",
+      "status": 0,
+      "sha256": "e4389fe0230aba1a4ace58b0ed97a676bb2d9ad64e91c1d2a4f758b72f137369"
+    },
+    "open_issues": {
+      "api": "repos/teorth/optimizationproblems/issues?state=open&per_page=100",
+      "status": 0,
+      "sha256": "5091f11951cc3f98aff233bda9f52d21984721fce748471aa2186400ba59a2aa"
+    },
+    "pr280": {
+      "api": "repos/teorth/optimizationproblems/pulls/280",
+      "status": 0,
+      "sha256": "8ea0ea821946bfb8e9d19016e27cd641502d262131b49b4f201cede8e649b1b9"
+    },
+    "repo_search": {
+      "api": "search/repositories?q=zhang+zagier&sort=updated&per_page=30",
+      "status": 0,
+      "sha256": "2fcf993cc4bd070662f70fc3bb04343e8becea8327620ad40aa0442c9d1e0933"
+    },
+    "vidigoat_tree": {
+      "api": "repos/vidigoat/optimization-records/git/trees/main?recursive=1",
+      "status": 0,
+      "sha256": "b19b88894318a9b8bc16ab2356f2d81451dd2d22a00e5d1dc3f0fb4543ae4582"
+    },
+    "vidigoat_certificate": {
+      "api": "repos/vidigoat/optimization-records/contents/tao/certificates/c82/v2/certificate.json",
+      "status": 0,
+      "sha256": "dc3a6b43a46dd2fcea5c3a2a5fc0d3fa66bdf3a206cc717e59af851ece857dce"
+    },
+    "BakeLab_Epi-results": {
+      "api": "repos/BakeLab/Epi-results",
+      "status": 0,
+      "sha256": "67e0a62570e8c9f62e0df8695c0bc52fb2febf1559393ce29cc36e55e6dca4f8"
+    },
+    "google-deepmind_alphaevolve_results": {
+      "api": "repos/google-deepmind/alphaevolve_results",
+      "status": 0,
+      "sha256": "c39183498bf23f1837b4fa294d6d81f93e70972dda1473c0180a7cd88afc01a2"
+    },
+    "google-deepmind_alphaevolve_repository_of_problems": {
+      "api": "repos/google-deepmind/alphaevolve_repository_of_problems",
+      "status": 0,
+      "sha256": "25be744e7467271913fe25fcbc6a16624f8f6e3a1fd2bda033f4a95b31a3c8e8"
+    },
+    "openai_math": {
+      "api": "repos/openai/math",
+      "status": 0,
+      "sha256": "eec7be98d7ad12cce21b5ec18c2aa820f6b0b90b5f1ef8e4b98501b77e2504c2"
+    },
+    "plasma-ai_erdos": {
+      "api": "repos/plasma-ai/erdos",
+      "status": 0,
+      "sha256": "fed530ca00532d137f121374e0179b884c9d8b14d1e5ddddf26d8005c44ae6f6"
+    },
+    "kisonecat_openai-math": {
+      "api": "repos/kisonecat/openai-math",
+      "status": 0,
+      "sha256": "fa5cbd053473d5830de3f1b357570b2eb883e4bb119fe87dd2662299d6af4640"
+    },
+    "togethercomputer_EinsteinArena-new-SOTA": {
+      "api": "repos/togethercomputer/EinsteinArena-new-SOTA",
+      "status": 0,
+      "sha256": "c773f7e7f752511afdf8db9560bcaeaec71271bfc43f521badfccdef74a81648"
+    }
+  },
+  "open_prs": 61,
+  "relevant_prs": [
+    {
+      "number": 303,
+      "title": " Update with resolution of KLS conjecture and tight bounds for thin-shell",
+      "updated_at": "2026-10-31T15:00:42Z"
+    },
+    {
+      "number": 301,
+      "title": "C82: upper bound 0.253091834* with new degree-44 denominators (unrefereed)",
+      "updated_at": "2026-11-04T13:50:02Z"
+    },
+    {
+      "number": 280,
+      "title": "C82: improved upper bound 0.2524177045* (four new degree-104 denominators)",
+      "updated_at": "2026-11-04T17:11:45Z"
+    },
+    {
+      "number": 242,
+      "title": "C82, C86: R. Pinho's certificates and the \u00c9pi construction independently replayed; asterisks removed",
+      "updated_at": "2026-11-04T14:34:18Z"
+    }
+  ],
+  "current_v2_certificate_sha256": "1125ddf42e9a544c6fc566aa2ebdfb59ec7c35177030c5d50767427e52f841d1",
+  "matches_pinned": true
+}

@@ -1,0 +1,24 @@
+PID 94241 PRECISION 256
+ROOTS_READY H=[0.252403463228463620015602513255947419238611832477773973947245156807963034311 +/- 3.02e-76]
+INTEGRATE 1/1099511627776 549755813883/5497558138880
+CALLS 10000 seconds 19.8
+CALLS 20000 seconds 36.1
+CALLS 30000 seconds 51.6
+CALLS 40000 seconds 67.1
+CALLS 50000 seconds 82.8
+CALLS 60000 seconds 98.4
+CALLS 70000 seconds 113.8
+CALLS 80000 seconds 129.0
+CALLS 90000 seconds 144.4
+Traceback (most recent call last):
+  File "replay/check.py", line 243, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "replay/check.py", line 230, in main
+    J, integration = e.integrate(arb(args.tol))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "replay/check.py", line 206, in integrate
+    require(v.is_finite() and v.imag.contains(0), 'validated integral nonfinite')
+  File "replay/check.py", line 31, in require
+    raise ValueError(message)
+ValueError: validated integral nonfinite

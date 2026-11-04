@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/QZTazVj3VWfVc/qbjIIyl17KPnI</id>
+  <title>arXiv Query: search_query=all:"essential minimum" AND submittedDate:"202511040000 TO 202611042359"&amp;id_list=&amp;start=0&amp;max_results=50</title>
+  <updated>2026-11-04T22:35:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22essential+minimum%22+AND+submittedDate:%22202511040000+TO+202611042359%22&amp;start=0&amp;max_results=50&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>50</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.39505v1</id>
+    <title>Limit distribution of algebraic integral points on curves</title>
+    <updated>2026-09-30T11:06:56Z</updated>
+    <link href="https://arxiv.org/abs/2609.39505v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.39505v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For a quasi-projective arithmetic surface $\mathcal U/\mathbb Z$ and a compact subset $E\subset \mathcal U(\mathbb C)$ under mild regularity assumptions, we study algebraic integral points on $\mathcal U$ whose Galois orbits lie in $E$. We characterize the collections of local probability measures that arise simultaneously as the local limit distributions of Galois orbits of such points. Our result also works for measures prescribed at a subset of places. This generalizes the results of Smith and Orloski--Sardari on $\mathcal{U}=\mathbb{A}^1$ concerning the archimedean place. As a consequence, we prove an integral version of Szachniewicz's theorem on curves, which states that every \emph{integral} GVF functional can be approximated by a sequence of algebraic integral points in the GVF topology.
+  We also give several applications: we prove that the essential minimum of height functions on curves can be attained by algebraic integral points; we connect integer Chebyshev constants with the essential minima of certain height functions on $\mathbb{A}^1$ and prove a conjecture of Montgomery; we also answer affirmatively a question of Levenberg--Londhe by showing that the smallest limit of averaged trace of totally positive algebraic integers can be attained by a sequence of totally positive algebraic units.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-30T11:06:56Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Binggang Qu</name>
+    </author>
+    <author>
+      <name>Chengyuan Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.18978v2</id>
+    <title>Closing the gap around the essential minimum of height functions with linear programming</title>
+    <updated>2026-03-20T18:04:32Z</updated>
+    <link href="https://arxiv.org/abs/2601.18978v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.18978v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For many common height functions, it is notoriously hard to compute the essential minimum. Nevertheless there are two classical methods, one giving lower bounds and the other giving upper bounds. In this paper, we show that the two methods are actually dual to each other in the sense of linear programming. The main theorem is that they satisfy strong duality, which closes the gap around the essential minimum from both ends. As applications we prove that this essential minimum can be realized by a generic sequence of algebraic integers, and that if the associated Green function is computable then this essential minimum is a computable real number.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-26T21:32:35Z</published>
+    <arxiv:comment>Shortened introduction, improved the reading flow, added references</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>José Burgos Gil</name>
+    </author>
+    <author>
+      <name>Ricardo Menares</name>
+    </author>
+    <author>
+      <name>Binggang Qu</name>
+    </author>
+    <author>
+      <name>Martín Sombra</name>
+    </author>
+  </entry>
+</feed>

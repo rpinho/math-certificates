@@ -1,0 +1,37 @@
+{
+  "certificate_sha256": "844f33f3c151cbf4db0e225f2a01dd6da48bd506d2e4cd185abeea2a6058b082",
+  "D": 1000000000064,
+  "degree_A": "237382682093565003/262144",
+  "degree_ratio": 0.9055430682310963,
+  "denominators": 4,
+  "numerators": 15,
+  "candidate_unrefereed": true,
+  "pid": 20237,
+  "added": [
+    {
+      "name": "C82r3_0",
+      "degree": 104,
+      "parent_rc": -0.00010921334638780422,
+      "public_bank": false,
+      "source": "runs/corrected104.json"
+    },
+    {
+      "name": "C82r3_1",
+      "degree": 104,
+      "parent_rc": -0.00020178506300183585,
+      "public_bank": false,
+      "source": "runs/gram104-smoke.json"
+    },
+    {
+      "name": "C82r3_2",
+      "degree": 104,
+      "parent_rc": -0.0029272880327013695,
+      "public_bank": false,
+      "source": "runs/gram104-smoke.json"
+    }
+  ],
+  "numeric_unverified": 0.25241009658121205,
+  "baseline_grid_value": 0.25241770446098977,
+  "numeric_gain": 7.607879777715709e-06,
+  "seconds": 52.55012208299013
+}

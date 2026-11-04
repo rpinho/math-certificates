@@ -1,0 +1,1068 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- bs5/base -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+  
+
+<link rel="schema.dc" href="http://purl.org/dc/elemtens/1.1/" />
+<meta name="citation_doi" content="10.5802/jtnb.307">
+<meta name="citation_title" content="Zhang-Zagier heights of perturbed polynomials">
+
+  <meta name="citation_author" content="Christophe Doche">
+
+<meta name="citation_publication_date"
+      content="2001">
+
+<meta name="citation_journal_title"
+      content="Journal de théorie des nombres de Bordeaux">
+
+  <meta name="citation_issn"
+        content="1246-7405">
+
+<meta name="citation_volume" content="13">
+<meta name="citation_language" content="en">
+<meta name="citation_issue" content="1">
+<meta name="citation_firstpage" content="103">
+<meta name="citation_lastpage" content="110">
+
+
+  
+    <meta name="citation_pdf_url"
+          content="https://jtnb.centre-mersenne.org/item/10.5802/jtnb.307.pdf">
+  
+
+
+
+
+    <title>
+      
+  Zhang-Zagier heights of perturbed polynomials
+
+    </title>
+
+    
+    
+    
+      <link rel="stylesheet"
+            href="/static/ptf/vendors/font-awesome/css/font-awesome.min.css" />
+    
+    
+      <link rel="stylesheet"
+            href="/static/ptf/vendors/bootstrap5/css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="/static/ptf/css/bs5/ptf.css" />
+    <link rel="stylesheet" href="/static/ptf/css/bs5/base.css" />
+    
+      <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab"
+          rel="stylesheet">
+
+    
+      <link rel="shortcut icon"
+            type="image/svg+xml"
+            href="/static/jtnb/img/favicon.ico" />
+    
+
+    
+  
+<link rel="stylesheet" href="/static/ptf/vendors/flag-icon/css/flag-icon.min.css" />
+<link rel="stylesheet" href="/static/ptf/css/sticky_footer.css" />
+
+  
+
+
+    
+      
+        <link rel="stylesheet"
+              href="/static/jtnb/css/style_jtnb.css" />
+      
+    
+    
+      
+
+<link type="application/rss+xml" rel="alternate" href="/fr/latest/feed/jtnb/" title="Flux RSS des derniers articles parus" hreflang="fr"/>
+
+    
+  </head>
+  <body >
+    
+      
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-static-top">
+  <div class='container'>
+    <!-- Brand and toggle get grouped for better mobile display -->
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#jtnb-navbar-collapse" aria-controls="jtnb-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="jtnb-navbar-collapse">
+      <ul class="nav navbar-nav">
+        
+          <li class="nav-item"><a class="nav-link" href="https://jtnb.math.u-bordeaux.fr/aboutjtnb.html">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://jtnb.math.u-bordeaux.fr/jtnbedit.html">Équipe éditoriale</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://jtnb.math.u-bordeaux.fr/jtnbsubmit.html">Instructions aux auteurs</a></li>
+        
+      </ul>
+      
+
+
+
+
+
+  
+  
+    <form class="navbar-form navbar-right position-relative " action="/i18n/setlang/"  method="post"><input type="hidden" name="csrfmiddlewaretoken" value="mlEcmnAQrV7RKJkuoszArrFQOz9qE7vgrakpAKzUoscwhlzhg3d1P3CtcppEQUS4">
+      <button class="language-select-button btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="flag-icon flag-icon-fr"></span>
+      </button>
+      <input type="hidden" name="language" value="fr">
+      <ul class="dropdown-menu custom-select position-absolute " style="min-width: auto; max-width: fit-content; text-align: center;">
+        
+        <li><a class="dropdown-item" href="#" value="en" action="submit"><span class="flag-icon flag-icon-gb"></span></a></li>
+        
+        <li><a class="dropdown-item" href="#" value="fr" action="submit"><span class="flag-icon flag-icon-fr"></span></a></li>
+        
+      </ul>      
+    </form>
+  
+
+     </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>
+
+<header class='jumbotron'>
+  <div class='container'>
+    <a href="/">
+      <img alt="JTNB logo" class="img-fluid mx-auto d-block logo" src="/static/jtnb/img/jtnb_logo.png">
+    </a>
+    <div id='search-bar' class="container">
+      
+
+
+
+
+<form class="d-flex gap-2 align-items-center align-items-md-start flex-column flex-md-row" method="get" action="/search_init/">
+  <input type="hidden" name="csrfmiddlewaretoken" value="mlEcmnAQrV7RKJkuoszArrFQOz9qE7vgrakpAKzUoscwhlzhg3d1P3CtcppEQUS4">
+  
+  
+
+<div class="px-0 text-nowrap browse-button">
+  <a href="/journals/JTNB/"
+     class="btn btn-primary search-button">
+    
+  Feuilleter
+
+  </a>
+</div>
+
+  
+
+  <div class="flex-grow-1 d-flex gap-2 w-100 align-items-stretch align-items-lg-start">
+    <div class="flex-grow-1" id="line-container">
+      <div class="d-flex input-group search-group flex-nowrap">
+        <div class="search-group-inner input-group w-100" id="search-input-group">
+          <input class="searchinput form-control" type="text" name="q0" value=""
+                  placeholder="Rechercher des articles, des auteurs..."/>
+          <i class="searchclear fa fa-remove hidden" role="button"></i>
+          <input type="hidden" name="qt0" value="all">
+          <button type="button" class="btn btn-light dropdown-toggle border-0 rounded-0 border-end d-flex flex-nowrap align-items-center" data-bs-toggle="dropdown" aria-expanded="false">
+            
+              Tout
+            
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">Tout</a></li>
+            <li><a href="#" class="dropdown-item">Auteur</a></li>
+            <li><a href="#" class="dropdown-item">Titre</a></li>
+            <li><a href="#" class="dropdown-item">Bibliographie</a></li>
+            
+            
+            <li><a href="#" class="dropdown-item">Affiliation</a></li>
+            <li><a href="#" class="dropdown-item">Plein texte</a></li>
+          </ul>
+          
+          <button id="add-search-field" type="button" class="btn btn-light">
+            <i class="fa fa-plus"></i>
+          </button>
+          
+        </div>
+      </div>
+
+      
+      
+        
+      
+    </div>
+
+    
+    
+
+<div class="search-button-div d-flex">
+  <button type="submit" class="btn btn-primary search-button d-flex flex-nowrap align-items-center gap-1" name="Submit">
+    <i class="fa fa-search"></i>
+    <span id="search-button-text" class="d-none d-sm-block">Rechercher</span>
+  </button>
+  
+  
+  
+</div>
+    
+  </div>
+
+  
+</form>
+<div id="template-search-form" style="display:none">
+  
+
+<div class="input-group search-group search-group-added d-none d-lg-flex flex-nowrap">
+  <div  class="input-group flex-nowrap">
+    <div style="display:flex" class="input-group-text flex-nowrap justify-content-center align-items-center gap-1 px-2 search_first_box">
+      <input id="not##i##"" class="bt-checkbox" type="checkbox" name="not##i##" /> <label for="not##i##"">NOT</label>
+    </div>
+    <div  class="search-group-inner input-group w-100 p-0">
+      <input class="searchinput form-control rounded-0 border-0 w-100 h-100 px-2 py-1" type="text" name="q##i##"/>
+      <i class="searchclear fa fa-remove hidden"></i>
+    </div>
+  </div>
+
+  <div style="display:none" class="flex-grow-1 input-group">
+    <!-- <div class="container"> -->
+    <!-- <div class="row"> -->
+    <span class="input-group-text search_first_box">Entre</span>
+    <input class="form-control" type="text" name="q-f-##i##" placeholder="Année" />
+    <span class="input-group-text">et</span>
+    <input class="form-control rounded-0" type="text" name="q-l-##i##" placeholder="Année" />
+  <!-- </div> -->
+  <!-- </div> -->
+</div>
+<div class="input-group-btn d-flex flex-nowrap" id="search-group-btn">
+    <input type="hidden" name="qt##i##" value="author">
+    <button type="button" class="btn btn-light dropdown-toggle rounded-0 border-0 border-start border-end" data-bs-toggle="dropdown" aria-expanded="false">
+      
+        Auteur
+      
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#" class="dropdown-item">Tout</a></li>
+      <li><a href="#" class="dropdown-item">Auteur</a></li>
+      <li><a href="#" class="dropdown-item">Titre</a></li>
+      <li><a href="#" class="dropdown-item">Date</a></li>
+      <li><a href="#" class="dropdown-item">Bibliographie</a></li>
+      <li><a href="#" class="dropdown-item">Mots-clés</a></li>
+      
+      <li><a href="#" class="dropdown-item">Affiliation</a></li>
+      <li><a href="#" class="dropdown-item">Plein texte</a></li>
+    </ul>
+    <button type="button" class="btn btn-light border-0 remove-search-field">
+      <i class="fa fa-minus"></i>
+    </button>
+  </div>
+</div><!-- /input-group -->
+
+
+</div>
+
+
+    </div><!-- /#search-bar -->
+  </div>
+</header>
+
+    
+
+    
+      <main class="container 
+  article-container
+"
+            style="flex-grow: 1">
+        
+  
+    
+      
+  <div id="content_left">
+    
+  </div>
+
+    
+
+    
+  
+    
+
+
+
+  
+
+
+    
+    
+
+    
+  
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div id="article-div" class="article-div">
+  
+  <div >
+    
+
+    
+    <div class="col-12">
+    
+
+      
+        
+      
+      <div style="font-size:18px;margin-bottom:10px">
+        
+
+
+  <span class="common-title article-title">
+    
+    
+    Zhang-Zagier heights of perturbed polynomials
+    
+      
+    
+  </span>
+  
+  
+
+
+
+
+      </div>
+      
+
+
+
+<div class="article-author" style="display:inline-block">
+  
+    
+      
+        
+          
+
+
+
+
+  <div style="margin-bottom:5px; font-size: 16px">
+    <a class="author_link" href="/search?&quot;Christophe Doche&quot;-c">Christophe Doche</a>
+</div>
+
+
+        
+      
+    
+  
+</div>
+
+
+      <div style="margin-bottom:10px">
+        
+
+
+
+Journal de théorie des nombres de Bordeaux, Tome 13 (2001) no. 1, pp. 103-110
+
+        
+        
+      </div>
+
+      
+      
+        <div class="binary-file-icon" style="margin-top:20px;margin-bottom:10px">
+          
+<div class="wrapper-float">
+
+
+
+  <div class="d-flex flex-nowrap mt-0">
+    
+      <a href="/item/10.5802/jtnb.307.pdf" target="_blank">
+        <img src="/static/ptf/img/pdf.svg">
+      </a>
+    
+    
+    
+    
+    
+    
+  </div>
+
+</div>
+
+        </div>
+      
+      
+      
+    </div>
+
+    
+  </div>
+  
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+
+
+
+
+
+
+
+
+  
+
+
+<div id="abstract">
+  <div class="col-12">
+    <div class="mt-4 mb-4">
+      <ul class="nav nav-tabs article-tab">
+        
+          <li class="nav-item">
+            <a class="nav-link "
+               lang="en"
+               data-bs-toggle="tab"
+               data-bs-target="#abstract-en"
+               href="#abstract-en">
+              <span title="Anglais
+">
+                
+                  
+                    Abstract
+                  
+                  
+                    (VO)
+                  
+                
+              </span>
+            </a>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link active"
+               lang="fr"
+               data-bs-toggle="tab"
+               data-bs-target="#abstract-fr"
+               href="#abstract-fr">
+              <span title="Français
+">
+                
+                  
+                    Résumé
+                  
+                  
+                
+              </span>
+            </a>
+          </li>
+        
+      </ul>
+      <div class="tab-content mt-2">
+        
+          <div lang="en"
+               id="abstract-en"
+               class="tab-pane fade ">
+            
+              <p>In a previous article we studied the spectrum of the Zhang-Zagier height [2]. The progress we made stood on an algorithm that produced polynomials with a small height. In this paper we describe a new algorithm that provides even smaller heights. It allows us to find a limit point less than <span class="mathjax-formula" data-tex="$1.289735$"><math xmlns="http://www.w3.org/1998/Math/MathML" ><mrow><mn>1</mn><mo>.</mo><mn>289735</mn></mrow></math></span> i.e. better than the previous one, namely <span class="mathjax-formula" data-tex="$1.2916674$"><math xmlns="http://www.w3.org/1998/Math/MathML" ><mrow><mn>1</mn><mo>.</mo><mn>2916674</mn></mrow></math></span>. After some definitions we detail the principle of the algorithm, the results it gives and the construction that leads to this new limit point.</p>
+            
+            
+
+
+
+
+            
+
+
+
+
+
+          </div>
+        
+          <div lang="fr"
+               id="abstract-fr"
+               class="tab-pane fade show active">
+            
+              <p>Dans un précédent article, nous étudions le spectre de la hauteur de Zhang-Zagier [2]. Les progrès accomplis reposaient sur un algorithme qui donnaient des polynômes possédant une petite hauteur. Ici, nous décrivons un nouvel algorithme qui produit des hauteurs encore plus petites. Ceci nous a permis de mettre en évidence un point d’accumulation inférieur à <span class="mathjax-formula" data-tex="$1,289735$"><math xmlns="http://www.w3.org/1998/Math/MathML" ><mrow><mn>1</mn><mo>,</mo><mn>289735</mn></mrow></math></span>. Cette borne est meilleure que la précédente qui était <span class="mathjax-formula" data-tex="$1,2916674$"><math xmlns="http://www.w3.org/1998/Math/MathML" ><mrow><mn>1</mn><mo>,</mo><mn>2916674</mn></mrow></math></span>. Après quelques définitions nous détaillons le principe de l’algorithme, les résultats obtenus et la construction explicite qui mène à cette nouvelle borne.</p>
+            
+            
+
+
+
+
+            
+
+
+
+
+
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+        <div>
+          <div class="col-12">
+          
+          
+            
+              
+                
+                  <div class="mt-4 mb-4">
+                    <ul class="nav nav-tabs article-tab">
+                      
+                        <li class="nav-item">
+                          <a class="nav-link active"
+                             data-bs-toggle="tab"
+                             data-bs-target="#info-tab"
+                             href="#info-tab">Détail</a>
+                        </li>
+                      
+
+                      <li class="nav-item">
+                        <a class="nav-link "
+                           data-bs-toggle="tab"
+                           data-bs-target="#citation-tab"
+                           href="#citation-tab"><i class="bi bi-quote"></i> Citer cet article</a>
+                      </li>
+
+                      
+                      
+                      
+                    </ul>
+                    <div class="tab-content" style="margin-top:10px">
+                      <div id="info-tab"
+                           class="tab-pane fade show active">
+                        
+                          
+                          
+                            
+                            
+                          
+                          
+                          
+                        
+                        <!--Mis en ligne le : <time datetime="2024-03-10">2024-03-10</time><br>-->
+                        <div style="margin-top:5px">
+                          
+                            
+                              
+                            
+                            
+                              
+
+  
+    
+      
+      <a href="https://zbmath.org/?q=an:1046.11076"
+         class="badge bg-secondary rounded-pill ref-badge extid-badge">
+        
+        
+        
+        
+        
+        
+        
+        
+        Zbl
+        
+        
+        
+        
+      </a>
+    
+  
+
+
+                            
+                              
+
+  
+    
+      
+      <a href="https://mathscinet.ams.org/mathscinet-getitem?mr=1838073"
+         class="badge bg-secondary rounded-pill ref-badge extid-badge">
+        
+        
+        
+        
+        
+        
+        
+        MR
+        
+        
+        
+        
+        
+      </a>
+    
+  
+
+
+                            
+                            
+                            
+                              
+                                
+                              
+                            
+                          
+                        </div>
+                        
+                          
+  
+    
+      DOI : 
+        
+          <a href="https://doi.org/10.5802/jtnb.307">10.5802/jtnb.307</a>
+        
+        <br>
+    
+  
+
+                        
+                        
+                        
+                        <div style="margin-top:5px">
+                          
+                            
+                          
+                        </div>
+                        
+                        
+                          
+                        
+                        
+                          
+                            
+                              <div style="margin-top:5px">
+                                
+                                  
+                                
+                              </div>
+                            
+                          
+                        
+                        
+                        
+                        
+                      </div>
+                      <div id="citation-tab"
+                           class="tab-pane fade ">
+                        
+
+
+
+<div class="upper-right">
+  <pre class="upper-right-content" id="how-to-cite-div">Christophe Doche. Zhang-Zagier heights of perturbed polynomials. Journal de théorie des nombres de Bordeaux, Tome 13 (2001) no. 1, pp. 103-110. doi: 10.5802/jtnb.307</pre>
+  <button class="bi bi-copy copy-button btn btn-primary"
+          data-clipboard-action="copy"
+          data-clipboard-target="#how-to-cite-div"
+          aria-hidden="true"
+          title="Copier dans le presse-papier"></button>
+</div>
+<div class="upper mt-4">
+  <ul class="nav nav-pills">
+    <li role="presentation" class="nav-item">
+      <a class="nav-link active"
+         data-bs-toggle="tab"
+         data-bs-target="#bibtex"
+         href="#bibtex">BibTeX</a>
+    </li>
+    <li role="presentation" class="nav-item">
+      <a class="nav-link"
+         data-bs-toggle="tab"
+         data-bs-target="#ris"
+         href="#ris">RIS</a>
+    </li>
+    <li role="presentation" class="nav-item">
+      <a class="nav-link"
+         data-bs-toggle="tab"
+         data-bs-target="#enw"
+         href="#enw">EndNote</a>
+    </li>
+  </ul>
+  <div class="tab-content">
+    <div id="bibtex" class="tab-pane fade show active">
+      <pre class="upper-right-content" id="bibtex-div">@article{JTNB_2001__13_1_103_0,
+     author = {Christophe Doche},
+     title = {Zhang-Zagier heights of perturbed polynomials},
+     journal = {Journal de th\&#x27;eorie des nombres de Bordeaux},
+     pages = {103--110},
+     year = {2001},
+     publisher = {Universit\&#x27;e Bordeaux I},
+     volume = {13},
+     number = {1},
+     doi = {10.5802/jtnb.307},
+     zbl = {1046.11076},
+     mrnumber = {1838073},
+     language = {en},
+     url = {https://jtnb.centre-mersenne.org/articles/10.5802/jtnb.307/}
+}</pre>
+      <button class="bi bi-copy copy-button btn btn-primary"
+              data-clipboard-action="copy"
+              data-clipboard-target="#bibtex-div"
+              aria-hidden="true"
+              title="Copier dans le presse-papier"></button>
+      
+        <a class="bi bi-download export-button btn btn-primary"
+           title="Télécharger"
+           href="/export_citation/JTNB_2001__13_1_103_0/bib/"></a>
+      
+    </div>
+    <div id="ris" class="tab-pane fade">
+      <pre class="upper-right-content" id="ris-div">TY  - JOUR
+AU  - Christophe Doche
+TI  - Zhang-Zagier heights of perturbed polynomials
+JO  - Journal de théorie des nombres de Bordeaux
+PY  - 2001
+SP  - 103
+EP  - 110
+VL  - 13
+IS  - 1
+PB  - Université Bordeaux I
+UR  - https://jtnb.centre-mersenne.org/articles/10.5802/jtnb.307/
+DO  - 10.5802/jtnb.307
+LA  - en
+ID  - JTNB_2001__13_1_103_0
+ER  - </pre>
+      <button class="bi bi-copy copy-button btn btn-primary"
+              data-clipboard-action="copy"
+              data-clipboard-target="#ris-div"
+              aria-hidden="true"
+              title="Copier dans le presse-papier"></button>
+      
+        <a class="bi bi-download export-button btn btn-primary"
+           title="Télécharger"
+           href="/export_citation/JTNB_2001__13_1_103_0/ris/"></a>
+      
+    </div>
+    <div id="enw" class="tab-pane fade">
+      <pre class="upper-right-content" id="enw-div">%0 Journal Article
+%A Christophe Doche
+%T Zhang-Zagier heights of perturbed polynomials
+%J Journal de théorie des nombres de Bordeaux
+%D 2001
+%P 103-110
+%V 13
+%N 1
+%I Université Bordeaux I
+%U https://jtnb.centre-mersenne.org/articles/10.5802/jtnb.307/
+%R 10.5802/jtnb.307
+%G en
+%F JTNB_2001__13_1_103_0</pre>
+      <button class="bi bi-copy copy-button btn btn-primary"
+              data-clipboard-action="copy"
+              data-clipboard-target="#enw-div"
+              aria-hidden="true"
+              title="Copier dans le presse-papier"></button>
+      
+        <a class="bi bi-download export-button btn btn-primary"
+           title="Télécharger"
+           href="/export_citation/JTNB_2001__13_1_103_0/enw/"></a>
+      
+    </div>
+  </div>
+</div>
+
+                      </div>
+                      
+                      
+                      
+                      
+                    </div>
+                  </div>
+                
+              
+            
+          
+          
+    </div>
+  </div>
+
+
+
+  
+
+  
+
+
+
+
+  <div>
+    <div class="col-12">
+      <div style="margin-top:30px;margin-bottom:10px">
+
+        <ul class="nav nav-tabs article-tab"
+            >
+          <li class="nav-item"
+              id="main-citations-li"
+              >
+            <a class="nav-link active"
+               data-bs-toggle="tab"
+               data-bs-target="#references-tab"
+               href="#references-tab">Bibliographie</a>
+          </li>
+          <li class="nav-item" id="citations-html" style="display:none">
+            <a class="nav-link"
+               data-bs-toggle="tab"
+               data-bs-target="#citations-tab"
+               href="#citations-tab">Cité par</a>
+          </li>
+        </ul>
+
+        <div class="tab-content" style="margin-top:10px">
+          
+            <div id="references-tab" class="tab-pane fade show active">
+              <div style="margin-top:11px;margin-bottom: 0px">
+
+
+
+
+  
+    <p class="bibitemcls"> [1] <span class="citation-author">J. Dégot</span>, <span class="citation-author">J.-C. Hohl</span>, <span class="citation-author">O. Jenvrin</span>, <span class="citation-document-title">Calcul numérique de la mesure de Mahler d'un polynome par itérations de Graeffe</span>. <span class="citation-publication-title">C.R. Acad. Sci. Paris</span> <span class="citation-volume">320</span> (1995), 269-272. | <a href="https://mathscinet.ams.org/mathscinet-getitem?mr=1320369" class="badge bg-secondary rounded-pill ref-badge">MR</a> | <a href="https://zbmath.org/?q=an:0834.30006" class="badge bg-secondary rounded-pill ref-badge">Zbl</a></p><p class="bibitemcls"> [2] <span class="citation-author">C. Doche</span>, <span class="citation-document-title">On the spectrum of the Zhang-Zagier height</span>. <span class="citation-publication-title">Math. Comp.</span> <span class="citation-volume">70</span> (2001), no. 233, 419-430. | <a href="https://mathscinet.ams.org/mathscinet-getitem?mr=1681120" class="badge bg-secondary rounded-pill ref-badge">MR</a> | <a href="https://zbmath.org/?q=an:0960.11047" class="badge bg-secondary rounded-pill ref-badge">Zbl</a></p><p class="bibitemcls"> [3] <span class="citation-author">G.P. Dresden</span>, <span class="citation-document-title">Orbits of algebraic numbers with low heights</span>. <span class="citation-publication-title">Math. Comp.</span> <span class="citation-volume">67</span> (1998), 815-820. | <a href="https://mathscinet.ams.org/mathscinet-getitem?mr=1468942" class="badge bg-secondary rounded-pill ref-badge">MR</a> | <a href="https://zbmath.org/?q=an:0926.11078" class="badge bg-secondary rounded-pill ref-badge">Zbl</a></p><p class="bibitemcls">[4] <span class="citation-author">V. Flammang</span>, <span class="citation-document-title">Mesures de polynômes. Applications au diamètre transfini entier</span>. Thèse de l'Université de Metz, 1994.</p><p class="bibitemcls"> [5] <span class="citation-author">V. Flammang</span>, <span class="citation-document-title">Two new points in the spectrum of the absolute Mahler measure of totally positive algebraic integers</span>. <span class="citation-publication-title">Math. Comp.</span> <span class="citation-volume">65</span> (1996), 307-311. | <a href="https://mathscinet.ams.org/mathscinet-getitem?mr=1320894" class="badge bg-secondary rounded-pill ref-badge">MR</a> | <a href="https://zbmath.org/?q=an:0852.11058" class="badge bg-secondary rounded-pill ref-badge">Zbl</a></p><p class="bibitemcls"> [6] <span class="citation-author">M.J. Mossinghoff</span>, <span class="citation-author">C.G. Pinner</span>, <span class="citation-author">J.D. Vaaler</span>, <span class="citation-document-title">Perturbing polynomials with all their roots on the unit circle</span>. <span class="citation-publication-title">Math. Comp.</span> <span class="citation-volume">67</span> (1998), 1707-1726. | <a href="https://mathscinet.ams.org/mathscinet-getitem?mr=1604387" class="badge bg-secondary rounded-pill ref-badge">MR</a> | <a href="https://zbmath.org/?q=an:0909.12003" class="badge bg-secondary rounded-pill ref-badge">Zbl</a></p><p class="bibitemcls"> [7] <span class="citation-author">C.J. Smyth</span>, <span class="citation-document-title">On the product of the conjugates outside the unit circle of an algebraic integer</span>. <span class="citation-publication-title">Bull. London Math. Soc.</span> <span class="citation-volume">3</span> (1971), 169-175. | <a href="https://mathscinet.ams.org/mathscinet-getitem?mr=289451" class="badge bg-secondary rounded-pill ref-badge">MR</a> | <a href="https://zbmath.org/?q=an:0235.12003" class="badge bg-secondary rounded-pill ref-badge">Zbl</a></p><p class="bibitemcls"> [8] <span class="citation-author">C.J. Smyth</span>, <span class="citation-document-title">On the measure of totally real algebraic integers II</span>. <span class="citation-publication-title">Math. Comp.</span> <span class="citation-volume">37</span> (1981), 205-208. | <a href="https://mathscinet.ams.org/mathscinet-getitem?mr=616373" class="badge bg-secondary rounded-pill ref-badge">MR</a> | <a href="https://zbmath.org/?q=an:0475.12001" class="badge bg-secondary rounded-pill ref-badge">Zbl</a></p><p class="bibitemcls"> [9] <span class="citation-author">D. Zagier</span>, <span class="citation-document-title">Algebraic numbers close both to 0 and 1. Math</span>. <span class="citation-publication-title">Comp.</span> <span class="citation-volume">61</span> (1993), 485-491. | <a href="https://mathscinet.ams.org/mathscinet-getitem?mr=1197513" class="badge bg-secondary rounded-pill ref-badge">MR</a> | <a href="https://zbmath.org/?q=an:0786.11063" class="badge bg-secondary rounded-pill ref-badge">Zbl</a></p><p class="bibitemcls"> [10] <span class="citation-author">S. Zhang</span>, <span class="citation-document-title">Positive line bundles on arithmetic surfaces</span>. <span class="citation-publication-title">Ann. of Math.</span> <span class="citation-volume">136</span> (1992), 569-587. | <a href="https://mathscinet.ams.org/mathscinet-getitem?mr=1189866" class="badge bg-secondary rounded-pill ref-badge">MR</a> | <a href="https://zbmath.org/?q=an:0788.14017" class="badge bg-secondary rounded-pill ref-badge">Zbl</a></p>
+  
+
+</div>
+            </div>
+          
+
+          
+            <div id="citations-tab" class="tab-pane fade show">
+              <div id="citations-div"
+                   data-url="/citedby/10.5802/jtnb.307"
+                   style="margin-top:11px;
+                          margin-bottom: 11px"></div>
+              <p>
+                <em>Cité par <span id="citations-number"></span> Sources : <span id="citations-sources"></span></em>
+              </p>
+            </div>
+          
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  
+
+  
+
+
+</div>
+
+
+
+  
+
+      </main>
+    
+
+    
+      
+        
+
+
+
+
+<footer id="footer" class="mt-auto">
+
+  
+  <div class="logos-footer d-flex justify-content-center align-items-center flex-wrap" style="padding: 0 10%; column-gap:5px; row-gap: 10px">
+    
+    
+
+
+<div class="logo-footer-div d-flex mx-auto flex-nowrap gap-2 align-items-center ">
+  <span class="footer-logo-text text-nowrap">Diffusé par : </span>
+  <a class="logo-footer" href="http://www.centre-mersenne.org/"><img class="logo-footer" src="/static/mersenne_cms/img/logo-mersenne.png" alt="centre Mersenne"></a>
+  
+</div>
+
+    
+
+    
+    
+
+    
+
+
+<div class="logo-footer-div d-flex mx-auto flex-nowrap gap-2 align-items-center mathdoc-thumbnail">
+  <span class="footer-logo-text text-nowrap">Développé par : </span>
+  <a class="logo-footer" href="http://www.mathdoc.fr/"><img class="logo-footer" src="/static/mersenne_cms/img/logo-mathdoc-footer.png" alt="Mathdoc"></a>
+  
+</div>
+
+</div>
+
+  
+
+  <div id="info-line" class="d-flex flex-nowrap justify-content-around align-items-center col-12 col-md-10 col-xl-8 mx-auto">
+    <div class="footer-text d-flex justify-content-center align-items-center">
+      
+  ISSN : 1246-7405 <br>
+
+
+  e-ISSN : 1246-7405
+
+
+  <br>
+
+
+  <!--    <span>©&nbsp;2018 - 2026&nbsp;</span><a href="http://www.centre-mersenne.org">Centre Mersenne</a>, <a href="/">Algebraic Combinatorics</a>, and the authors-->
+    </div>
+
+    
+
+    <nav class="navbar menu-bottom">
+      <div class="container-fluid justify-content-center align-items-center">
+        <ul class="nav d-flex justify-content-center align-items-end " style="column-gap: 1rem;">
+          <li><a class="menu-link nav-link p-0" href="/accessibility/">Accessibilité - non conforme</a></li>
+          <li>
+            <a class="menu-link nav-link p-0" href='/rss/' alt='syndication feed'>
+              <i class="fa fa-rss d-inline" aria-hidden="true"></i> Nous suivre
+            </a>
+          </li>
+
+          
+          
+
+
+
+
+  
+  
+    
+    
+        <li >
+          <a href="/page/legal-notice/"
+             class="menu-link nav-link p-0">Mentions légales</a>
+        </li>
+    
+    
+  
+
+  
+  
+    
+    
+        <li >
+          <a href="/page/contact/"
+             class="menu-link nav-link p-0">Contact</a>
+        </li>
+    
+    
+  
+
+
+
+        </ul>
+      </div>
+    </nav>
+  </div>
+</footer>
+
+
+      
+    
+
+    
+      <script type="text/javascript"
+              src="/static/ptf/vendors/jquery/js/jquery-3.5.1.min.js"></script>
+      
+        <script type="text/javascript"
+                src="/static/ptf/vendors/bootstrap5/js/bootstrap.bundle.min.js"></script>
+      
+      <script type="text/javascript"
+              src="/static/ptf/vendors/clipboard/js/clipboard.min.js "></script>
+      
+        <script type="module" src="/static/ptf/js/mathjax-config.js" defer></script>
+        
+        
+        <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js" defer></script>
+      
+
+      
+  
+<script src="/static/ptf/js/bs5/select.js"></script>
+
+  
+
+
+      <script type="text/javascript" src="/static/ptf/js/bs5/ptf.js"></script>
+      <script type="text/javascript" src="/static/ptf/js/bs5/search-bar.js"></script>
+      <script type="text/javascript" src="/static/ptf/js/bs5/facets.js"></script>
+    
+  </body>
+</html>

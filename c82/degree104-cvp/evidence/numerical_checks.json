@@ -1,0 +1,132 @@
+{
+  "pid": 27876,
+  "enumeration": {
+    "status": "PASS",
+    "checked_source": "cvp_fixed.py",
+    "brute_force_box": "[-8,8]^3",
+    "number_of_closest_points": 16,
+    "cases": [
+      {
+        "case": 0,
+        "nodes": 52,
+        "closest_squared_distance": 0.6773155626369696
+      },
+      {
+        "case": 1,
+        "nodes": 51,
+        "closest_squared_distance": 0.3312812864931741
+      },
+      {
+        "case": 2,
+        "nodes": 62,
+        "closest_squared_distance": 0.026197471274310942
+      },
+      {
+        "case": 3,
+        "nodes": 68,
+        "closest_squared_distance": 0.5917285419299323
+      },
+      {
+        "case": 4,
+        "nodes": 72,
+        "closest_squared_distance": 0.5120260774795494
+      },
+      {
+        "case": 5,
+        "nodes": 64,
+        "closest_squared_distance": 0.04270263593510214
+      },
+      {
+        "case": 6,
+        "nodes": 70,
+        "closest_squared_distance": 0.33655345992060415
+      },
+      {
+        "case": 7,
+        "nodes": 65,
+        "closest_squared_distance": 0.5072307954667109
+      },
+      {
+        "case": 8,
+        "nodes": 57,
+        "closest_squared_distance": 0.39958447928429497
+      },
+      {
+        "case": 9,
+        "nodes": 53,
+        "closest_squared_distance": 0.3165957813991598
+      },
+      {
+        "case": 10,
+        "nodes": 57,
+        "closest_squared_distance": 0.5850348245994836
+      },
+      {
+        "case": 11,
+        "nodes": 78,
+        "closest_squared_distance": 0.5857815621245844
+      },
+      {
+        "case": 12,
+        "nodes": 58,
+        "closest_squared_distance": 0.42165034627859627
+      },
+      {
+        "case": 13,
+        "nodes": 53,
+        "closest_squared_distance": 0.12387227411042871
+      },
+      {
+        "case": 14,
+        "nodes": 69,
+        "closest_squared_distance": 0.4747636415831222
+      },
+      {
+        "case": 15,
+        "nodes": 63,
+        "closest_squared_distance": 0.25875280118563304
+      }
+    ]
+  },
+  "lp": [
+    {
+      "prefix": "runs/baseline",
+      "grid": 524288,
+      "full_grid_value": 0.2524177044609907,
+      "saved_lp_value": 0.25241770446098977,
+      "full_grid_minus_saved": 9.43689570931383e-16,
+      "dual_objective": 0.25241770446099115,
+      "primal_dual_gap": -4.440892098500626e-16,
+      "normalization_residual": 0.0,
+      "degree_ratio": 0.9034161934817438,
+      "min_denominator_rc": 1.0444978215673473e-12,
+      "min_numerator_rc": -4.94693262048651e-13,
+      "max_active_denominator_abs_rc": 1.2541079286165768e-12,
+      "max_active_numerator_abs_rc": 4.94693262048651e-13,
+      "min_dual_atom": 0.0,
+      "max_dual_atom": 1.907348651786132e-06,
+      "uniform_atom": 1.9073486328125e-06,
+      "status": "PASS"
+    },
+    {
+      "prefix": "runs/pilot-early",
+      "grid": 524288,
+      "full_grid_value": 0.2524100965812126,
+      "saved_lp_value": 0.25241009658121205,
+      "full_grid_minus_saved": 5.551115123125783e-16,
+      "dual_objective": 0.2524100965812121,
+      "primal_dual_gap": 4.996003610813204e-16,
+      "normalization_residual": 0.0,
+      "degree_ratio": 0.9055430682890511,
+      "min_denominator_rc": 4.263256414560601e-14,
+      "min_numerator_rc": -3.196228004487267e-16,
+      "max_active_denominator_abs_rc": 1.0658141036401503e-13,
+      "max_active_numerator_abs_rc": 3.196228004487267e-16,
+      "min_dual_atom": 0.0,
+      "max_dual_atom": 1.9073486328992057e-06,
+      "uniform_atom": 1.9073486328125e-06,
+      "status": "PASS"
+    }
+  ],
+  "seconds": 12.763134541048203
+}

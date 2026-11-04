@@ -1,0 +1,19 @@
+{
+  "model": "GPT-6-based Codex (exact serving-model ID not exposed)",
+  "author": "codex math_c82r4ref_1104 (clean-room)",
+  "status": "PASS",
+  "value": "0.252404806",
+  "arithmetic": "interval",
+  "inputs": {
+    "review/inputs/PROOF.md": "e3dabd3a9c7eb6fc258c5d3fb42165f74ac512727fb14b48f4cc8042e4e36180",
+    "review/inputs/certificates/certificate.json": "27a4e61121b0c882c249fe3f06ed04d3c6b16067b7d1a0f6d2d6a80d40b3d3f9"
+  },
+  "inputs_hash": "633e175035413a38fce4c10d24532f7e902e7bb9f77a2a6ef766248d7ec33c65",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "review/replay/check.py",
+  "checker_sha256": "7e9c36a7f078d9c080d7b5af7b013b29d5cb3fe10b9dc07c62a6b48222a13899",
+  "report": "review/replay/report.md",
+  "report_sha256": "8772346d085f6ea10d1ab6794d2a1e7010362a185b69445b817bd3bd68cdc409",
+  "note": "Path-only re-keying for release layout. Original referee receipt is review/replay/REPLAY.original.json; input bytes, checker, report, and model attestation are unchanged."
+}

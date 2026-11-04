@@ -1,0 +1,61 @@
+diff --git a/README.md b/README.md
+index 2817bd1..b2a4c95 100644
+--- a/README.md
++++ b/README.md
+@@ -123,12 +123,12 @@ Bounds for which the level of available verification is currently at minimal lev
+ | [79](https://teorth.github.io/optimizationproblems/constants/79a.html) | Asymptotic essential-dimension ratio of the symmetric groups | $\frac{1}{2}$ | 1 |
+ | [80](https://teorth.github.io/optimizationproblems/constants/80a.html) | Ising perceptron capacity threshold | >0 (0.833*) | 0.847 (0.833*) |
+ | [81](https://teorth.github.io/optimizationproblems/constants/81a.html) | Brun's constant | 1.840503 | 2.288513 |
+-| [82](https://teorth.github.io/optimizationproblems/constants/82a.html) | Essential minimum of the Zhang-Zagier height | 0.24874 | 0.2536331090204145 (0.2534449*) |
++| [82](https://teorth.github.io/optimizationproblems/constants/82a.html) | Essential minimum of the Zhang-Zagier height | 0.24874 | 0.2534449 |
+ | [83](https://teorth.github.io/optimizationproblems/constants/83a.html) | Wirsing Constant | 0.30366300 | 0.30366300 |
+ | [84a](https://teorth.github.io/optimizationproblems/constants/84a.html) | Erdős unit distance exponent | 1.014 (1.04317*) | $\frac{4}{3}-\varepsilon$ |
+ | [84b](https://teorth.github.io/optimizationproblems/constants/84b.html) | Sum-product exponent for the reals | $\frac{4}{3}+\frac{10}{4407}\approx 1.3356$ | $<2$ (1.9993*) |
+ | [85](https://teorth.github.io/optimizationproblems/constants/85a.html) | Exponent for commutators close to the identity | 1 | 4 |
+-| [86](https://teorth.github.io/optimizationproblems/constants/86a.html) | Schur–Siegel–Smyth trace constant | 1.80203 | 1.8216 (1.8084990*) |
++| [86](https://teorth.github.io/optimizationproblems/constants/86a.html) | Schur–Siegel–Smyth trace constant | 1.80203 | 1.8117251 (1.8084990*) |
+ | [87](https://teorth.github.io/optimizationproblems/constants/87a.html) | Martinet's constant for totally real number fields | 60.8395 | 857.567 |
+ | [88a](https://teorth.github.io/optimizationproblems/constants/88a.html) | Bounded prime gap constant | 2 | 186 |
+ | [88b](https://teorth.github.io/optimizationproblems/constants/88b.html) | Exponent for bounded gaps between many primes | 0 | 3.8075 |
+@@ -225,8 +225,10 @@ Bounds for which the level of available verification is currently at minimal lev
+ - [1c](https://teorth.github.io/optimizationproblems/constants/1c.html), [1d](https://teorth.github.io/optimizationproblems/constants/1d.html) **independently replayed:** the step functions behind $C\_{1c} \geq 0.4103287$ and $C\_{1d} \leq 1.4630715826075594$ re-derived in exact rational arithmetic, with no code shared with the claimants, by [C. Toledo](https://carlostoledo.co/reports/optconst-queue.html#autocorr), 20 Oct 2026; asterisks removed, and the $C\_{1d}$ bound printed rounded up (its certificate's exact value, $1.46307158260755932746\ldots$, is above the $1.463071582607559$ first printed).
+ - [12](https://teorth.github.io/optimizationproblems/constants/12a.html) **improved upper bound:** $C_{12} \leq 0.8810$ by [Z. Dong and J. Cao](https://arxiv.org/abs/2610.02809), 2 Oct 2026.
+ - [12](https://teorth.github.io/optimizationproblems/constants/12a.html) **improved upper bound (unverified):** $C_{12} \leq 0.8618*$ by [D. O'Keefe](https://github.com/devinokeefe/travelling-sales-person-constant-bounds), 11 Oct 2026.
+-- [86](https://teorth.github.io/optimizationproblems/constants/86a.html) **improved upper bound (unverified):** $C_{86} \leq 1.8117251*$ by [R. Pinho](https://github.com/rpinho/c86-trace-certificate), 15 Oct 2026: the measure construction of Talebizadeh Sardari–Orloski with eleven auxiliary polynomials instead of four, certified in exact rational and arb ball arithmetic.
+-- [82](https://teorth.github.io/optimizationproblems/constants/82a.html) **improved upper bound (unverified):** $C_{82} < 0.2534449*$ by [R. Pinho](https://github.com/rpinho/c82-height-certificate), 16 Oct 2026, building on the September 2026 Épi construction (0.2535744749): Doche's limit-point method with $P\_7$ and 25 lattice-found numerator factors, certified by two independently written Arb checkers.
++- [86](https://teorth.github.io/optimizationproblems/constants/86a.html) **improved upper bound:** $C_{86} \leq 1.8117251$ by [R. Pinho](https://github.com/rpinho/c86-trace-certificate), 15 Oct 2026: the measure construction of Talebizadeh Sardari–Orloski with eleven auxiliary polynomials instead of four, certified in exact rational and arb ball arithmetic.
++- [86](https://teorth.github.io/optimizationproblems/constants/86a.html) **independently replayed:** the certificate behind $C\_{86} \leq 1.8117251$ (a 629-cell step measure and eleven polynomials) re-decided in exact rational and interval arithmetic, with no code shared with the claimant, by [C. Toledo](https://carlostoledo.co/reports/optconst-queue.html#c86), 20 Oct 2026; asterisk removed.
++- [82](https://teorth.github.io/optimizationproblems/constants/82a.html) **improved upper bound:** $C_{82} < 0.2534449$ by [R. Pinho](https://github.com/rpinho/c82-height-certificate), 16 Oct 2026, building on the September 2026 Épi construction (0.2535744749): Doche's limit-point method with $P\_7$ and 25 lattice-found numerator factors, certified by two independently written Arb checkers.
++- [82](https://teorth.github.io/optimizationproblems/constants/82a.html) **independently replayed:** the certificate behind $C\_{82} < 0.2534449$ and the Épi construction behind 0.2535744749068227 re-decided with certified roots and interval arithmetic, with no code shared with the claimants, by [C. Toledo](https://carlostoledo.co/reports/optconst-queue.html#c82), 20 Oct 2026; asterisks removed.
+ - [31](https://teorth.github.io/optimizationproblems/constants/31a.html) **improved upper bound (unverified):** $C_{31} \leq 0.824120*$ by [L. Jack](https://github.com/leandrejack-afk/chvatal-sankoff-bound), 17 Oct 2026: Lueker's 2009 automaton method run at $h = 10$ (and $h = 9$, giving $0.825101$).
+ - [1a](https://teorth.github.io/optimizationproblems/constants/1a.html), [1b](https://teorth.github.io/optimizationproblems/constants/1b.html) **improved upper bounds (unverified):** $C\_{1a} \leq 1.5027435$* and $C\_{1b} \leq 0.38085856$* by [Atris](https://github.com/atrislabs/records), 13 Oct 2026.
+ - [24](https://teorth.github.io/optimizationproblems/constants/24a.html) **Komlós conjecture proved (unverified):** $C\_{24} \leq 3\sqrt{2\pi} \approx 7.5199$* by [S. Guo, E. X. Fang, J. Lu](https://arxiv.org/abs/2609.11189), 10 Sep 2026.
+diff --git a/constants/82a.md b/constants/82a.md
+index 3c01b65..5efb017 100644
+--- a/constants/82a.md
++++ b/constants/82a.md
+@@ -23,8 +23,8 @@ h_Z(\alpha)\le H\}$ is finite.
+ | 0.25594 | [Doc01a] |  $h_Z=\log \mathfrak{h}$ in his notation |
+ | 0.25444 | [Doc01b] | Previous best known upper bound |
+ | 0.2536331090204145 | [Gri26] | Computation based on Doche's polynomials |
+-| 0.2535744749068227\* | [Epi26] | Doche's limit-point construction with unequal denominator multiplicities and two additional factors (Ed5, En6); reported in the Épi results repository (September 2026). An independent Arb re-evaluation of the same construction in [Pin26] encloses it at $0.25356893\ldots$. Asterisked: a self-archived computer-assisted result. |
+-| 0.2534449\* | [Pin26] | Doche's limit-point construction [Doc01b] on the factor library of [Gri26] and [Epi26], adding $P\_7$ to the denominator and 25 new numerator factors found by LP-dual-weighted lattice reduction (LLL), with all multiplicities and exponents re-optimised by a linear program ($\deg Q = 999999992$). Certified upper bound $0.2534446873\ldots$ by two independently written Arb checkers; the repository includes a self-contained proof that the construction yields infinitely many distinct algebraic numbers with $h\_Z \le B$. Certificate SHA-256 `b33626f367b6f52922746c0fee7bb008449cd0bb18efcb983ab20ff073350fce`, repository commit `69d8964`. Asterisked: a self-archived computer-assisted certificate, not yet independently replayed. |
++| 0.2535744749068227 | [Epi26] | Doche's limit-point construction with unequal denominator multiplicities and two additional factors (Ed5, En6); reported in the Épi results repository (September 2026); construction file `zhang_zagier_c82/construction.json` at repository commit `97fa6a4`, SHA-256 `e85e26fa7122a2e68b19b2fa01e27e78bbd802450bce2a0d45717f09b930e559`. An independent Arb re-evaluation of the same construction in [Pin26] encloses it at $0.25356893\ldots$. Independently replayed [T2026c]: the construction gives $B \in [0.253568930187, 0.253568930424]$, below the printed bound. |
++| 0.2534449 | [Pin26] | Doche's limit-point construction [Doc01b] on the factor library of [Gri26] and [Epi26], adding $P\_7$ to the denominator and 25 new numerator factors found by LP-dual-weighted lattice reduction (LLL), with all multiplicities and exponents re-optimised by a linear program ($\deg Q = 999999992$). Certified upper bound $0.2534446873\ldots$ by two independently written Arb checkers; the repository includes a self-contained proof that the construction yields infinitely many distinct algebraic numbers with $h\_Z \le B$. Certificate SHA-256 `b33626f367b6f52922746c0fee7bb008449cd0bb18efcb983ab20ff073350fce`, repository commit `69d8964`. Independently replayed [T2026c]: $B \in [0.253444687248, 0.253444687515]$, decided from the certificate's bytes by two implementations sharing no code with its checkers. |
+ 
+ ## Known lower bounds
+ 
+@@ -69,6 +69,7 @@ https://github.com/BakeLab/Epi-results/tree/main/records/zhang-zagier/zhang_zagi
+ Code and certification data for an improved C82 Zhang-Zagier bound.
+ GitHub repository, 2026.
+ https://github.com/maaxgrin/zhang-zagier-c82-bound
++- [T2026c] Toledo, Carlos. Independent replay of the [Pin26] certificate and the [Epi26] construction: Doche's bound $B$ decided from the pinned bytes — the exact hypotheses (integer factors, monic denominators, $\deg A < \deg Q$, coprimality), every root of every composed factor certified by Gershgorin's theorem, the integral bounded on dyadic panels — by two implementations that share no code with each other or with the claimants' checkers; Doche's theorem is read and not re-derived. [Report](https://carlostoledo.co/reports/optconst-queue.html#c82) (§9); code and record at commit [`d9a3942`](https://github.com/carlostoledo1891/cert-machine/tree/d9a3942b82f9b5dd174935584601065a4e660b68) (2026).
+ - [Pin26] Ricardo Pinho.
+ Certificate and checkers for C82 < 0.2534449.
+ GitHub repository, 2026.
+@@ -88,3 +89,5 @@ J. Amer. Math. Soc. 8 (1995), no. 1, 187–221.
+ Prepared with assistance from GPT-5.5 Pro.
+ 
+ The [Pin26] upper-bound row (October 2026): the factor search, the certificate, the checkers and the row text were prepared with AI assistance (OpenAI Codex/GPT-6 Astra and Claude) under the direction of the submitter, R. Pinho, who reviewed the argument and the references.
++
++The [T2026c] replay was prepared with AI assistance (Claude); its numbers are read from the record at the commit cited.

@@ -1,0 +1,35 @@
+{
+  "claims": [
+    {
+      "value": "0.252404806",
+      "kind": "rigorous",
+      "producer": "verify_interval.py",
+      "arithmetic": "interval",
+      "new_bound": true
+    },
+    {
+      "value": "0.2524177045",
+      "kind": "cited",
+      "source": "https://github.com/teorth/optimizationproblems/pull/280",
+      "new_bound": false
+    },
+    {
+      "value": "0.253091834",
+      "kind": "cited",
+      "source": "https://github.com/teorth/optimizationproblems/pull/301",
+      "new_bound": false
+    },
+    {
+      "value": "0.2534449",
+      "kind": "cited",
+      "source": "https://github.com/teorth/optimizationproblems/blob/main/constants/82a.md",
+      "new_bound": false
+    },
+    {
+      "value": "0.2536331090204145",
+      "kind": "cited",
+      "source": "https://github.com/teorth/optimizationproblems/blob/main/constants/82a.md",
+      "new_bound": false
+    }
+  ]
+}

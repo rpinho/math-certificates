@@ -1,0 +1,23 @@
+{
+  "certificate_sha256": "912ba23bc8eeb477e1605790b0e2c5fa2a5e89307a74c45a39b548778276f97d",
+  "D": 999999999856,
+  "degree_A": "473735727311601905/524288",
+  "degree_ratio": 0.9035791919323346,
+  "denominators": 5,
+  "numerators": 23,
+  "candidate_unrefereed": true,
+  "pid": 18168,
+  "added": [
+    {
+      "name": "C82r3_0",
+      "degree": 104,
+      "parent_rc": -0.00010921334638780422,
+      "public_bank": false,
+      "source": "runs/corrected104.json"
+    }
+  ],
+  "numeric_unverified": 0.252417696556618,
+  "baseline_grid_value": 0.25241770446098977,
+  "numeric_gain": 7.904371768230334e-09,
+  "seconds": 14.065402665990405
+}
