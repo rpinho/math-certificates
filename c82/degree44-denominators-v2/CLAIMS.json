@@ -73,6 +73,20 @@
       "arithmetic": "interval",
       "new_bound": false,
       "note": "Read the earlier sibling verifier and its certificate/README: this is its already filed strict threshold. It is historical, not a new bound in the current packet."
+    },
+    {
+      "value": "0.2534350402",
+      "kind": "cited",
+      "new_bound": false,
+      "source": "https://github.com/teorth/optimizationproblems/pull/280",
+      "note": "#280's bound by V. Patankar when this search started (the search baseline)."
+    },
+    {
+      "value": "0.2524177045",
+      "kind": "cited",
+      "new_bound": false,
+      "source": "https://github.com/teorth/optimizationproblems/pull/280",
+      "note": "#280's current title/body bound by V. Patankar, as of 5 Nov 2026 (candidate, unrefereed)."
     }
   ]
 }
