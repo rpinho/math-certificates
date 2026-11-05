@@ -1,8 +1,1 @@
-{
-  "target": "0.2520500000",
-  "rational": "5041/20000",
-  "criterion": "certified exact upper endpoint strictly below target",
-  "public_comparator": "0.2520591386",
-  "frozen_before": "step 2 joint union LP",
-  "candidate_unrefereed": true
-}
+{"constant":"C82","strict_upper_bound":"0.2519900000","rational":{"numerator":25199,"denominator":100000},"ours_round6":"0.2519964890","pr280_v4":"0.2520079724","frozen_before_step_1":true}

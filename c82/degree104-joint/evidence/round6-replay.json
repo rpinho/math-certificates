@@ -2,12 +2,12 @@
   "status": "PASS",
   "candidate_unrefereed": true,
   "artificial_integrand_offset": "0",
-  "certificate_sha256": "aa90cc311fae557b4e3661aa7ea1313bdf29d25a0eafa951035f6b6897edeced",
-  "source_sha256": "b0a6dbd113cf3cee62b438eaba33f53075314653c62aa88cb13034c129fb10bd",
+  "certificate_sha256": "b71150bb7c1a7ac34e86b447e565cdd6c6d33bb225fa910f0acced4136f74171",
+  "source_sha256": "a190188f502728fbdcc19295d8fa05d726dacd8a6e6fa418f1f08f2d8cc8d21d",
   "precision_bits": 256,
   "tolerance": "1e-13",
-  "target": "0.2520591386",
-  "pid": 68540,
+  "target": "0.2519964890",
+  "pid": 85482,
   "python_flint": "0.9.0",
   "audit": {
     "D": 1000000000064,
@@ -71,15 +71,15 @@
     }
   },
   "margin": {
-    "ball": "[6.26496117988e-5 +/- 4.36e-17]",
+    "ball": "[1.17988e-11 +/- 4.36e-17]",
     "lower": {
-      "mantissa": "7254329440093028039513828815879766242383838133756613819819287205162761417",
-      "exponent": -256
+      "mantissa": "2732421726645410552066958944581079229804896197477945770700201214021",
+      "exponent": -257
     },
     "upper": {
-      "mantissa": "7254329440094911305202347417692266499922896916261156290199970202019151049",
-      "exponent": -256
+      "mantissa": "2732425493176787589270583945096157347369905282418707136693913993285",
+      "exponent": -257
     }
   },
-  "seconds": 40.37098129198421
+  "seconds": 38.33182745904196
 }

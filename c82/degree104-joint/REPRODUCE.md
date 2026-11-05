@@ -1,52 +1,73 @@
 # Release verification from the packet root
 
-Requires Python 3 and python-flint 0.9.0 (the recorded backend). The search additionally uses numpy, scipy, highspy and fpylll; they are not needed for certificate replay. Choose an installed interpreter as C82_PYTHON. Use a working copy for a new search.
+Requires Python 3 and python-flint 0.9.0. Choose an installed interpreter as C82_PYTHON; search additionally needs numpy, scipy, highspy and fpylll.
 
 ```sh
 export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
 export VECLIB_MAXIMUM_THREADS=1 BLIS_NUM_THREADS=1 NUMBA_NUM_THREADS=1
 export PYTHONDONTWRITEBYTECODE=1
 C82_PYTHON=python3
-nice -n 10 "$C82_PYTHON" verify_best.py --certificate certificate.json --target 0.2519964890 --precision 256 --tol 1e-13 --out receipts/release-verifier.json
+nice -n 10 "$C82_PYTHON" verify_best.py --certificate certificate.json --target 0.2519923410 --precision 256 --tol 1e-13 --out receipts/release-verifier.json
 nice -n 10 "$C82_PYTHON" certificate_facts.py
 nice -n 10 "$C82_PYTHON" seal.py
+egress-gate scan .
 ```
 
-The frozen final producer replay is receipts/frozen-release-verifier.json (producer certificate SHA256 aa90cc311fae557b4e3661aa7ea1313bdf29d25a0eafa951035f6b6897edeced). The packaged certificate SHA256 is b71150bb7c1a7ac34e86b447e565cdd6c6d33bb225fa910f0acced4136f74171. Its P3 exponent is doubled from its lowest-terms form over 524288; the exact rational is unchanged. The packaged verifier changes only its hash pin. receipts/release-verifier.log records the actual packet replay command and environment. certificate_facts.py recomputes exact facts and both comparison gaps from the certificate and fresh receipt.
+The certificate, verifier and FACTOR_PROVENANCE.json are unchanged release bytes. Certificate SHA256 is ee9622b5e141489ad6fbf98b0ec5c43ac3e1b657f8876b435e65c536f359fdd5. CERTIFICATE_ENCODING.md lists the released equal fractions without restricted numerators. receipts/frozen-release-verifier.json is the producer's final stated-bound replay. receipts/release-verifier.log gives the actual packet replay command and environment. certificate_facts.py computes exact facts, all README comparison gaps, and full coefficient overlap with #280 v4.
 
-seal.py recomputes PYTHON_BLOBS.json, MANIFEST.json and SHA256SUMS, including any subsequently added review/ and REPLAY.json. The referee report for this final certificate is review/REFEREE.md, with its receipt REPLAY.json. Rerun egress-gate after resealing.
+seal.py recomputes PYTHON_BLOBS.json, MANIFEST.json and SHA256SUMS, including any subsequently added review/ and REPLAY.json. The round-7 referee archive is review/, with its receipt REPLAY.json. A verifier rerun that overwrites an included receipt must likewise be followed by resealing; for a final check use --out ../final-verifier.json and capture stdout outside the packet.
 
-The finished producer documentation follows. Its 0.2520500000 target is the historical frozen search bar. Only the final round num-16-1 files and restricted-16 master are retained, without a duplicate certificate. Three historical corrupted-certificate JSON files are omitted because of the restricted exponent encoding. Other historical rounds cited below and by the producer records are not included. Historical per-round verifiers remain pinned to the original producer bytes; use the root release command above. The two-worker commands describe the producer run; use --workers 1 for a one-core search in a separate working copy.
+The finished producer section follows. Its 0.2519900000 target is the historical frozen search bar and was not met. To replay the delivered bound, use 0.2519923410 as above. Only den-5 round files, their master and the final restricted-9 master are retained; earlier search paths below are archival references. A full fresh search requires omitted round-6 historical inputs in a separate working copy. The two-worker commands describe the producer run; use --workers 1 for a one-core search. run_local.sh uses C82_PYTHON (default python3), with relative paths and single-threaded settings.
 
 ---
 
-# Reproduce the C82 union and column generation
+# Reproduction
 
-Use our shared venv, single-threaded arithmetic, nice 10, within this job directory. All scripts reused from ../c82r5 are ours. No vidigoat Python is needed or permitted.
+All commands run from this job directory; run_local.sh sets single-threaded BLAS and invokes our shared Python at nice 10. Code is reused from our own c82r6/c82r5; third-party inputs are coefficient JSON and GitHub tree metadata only.
 
-```sh
-export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
-export VECLIB_MAXIMUM_THREADS=1 BLIS_NUM_THREADS=1 NUMBA_NUM_THREADS=1
-C82_PYTHON=python3
-nice -n 10 "$C82_PYTHON" verify_public.py --certificate prior_sources/pr280-v3-certificate.json --target 0.2520591386 --precision 256 --tol 1e-13 --out evidence/reproduced-public.json
-nice -n 10 "$C82_PYTHON" prepare_union.py
-nice -n 10 "$C82_PYTHON" joint_lp.py --input union-input.json --prefix rounds/reproduced-union
-nice -n 10 "$C82_PYTHON" run_cg.py --state rounds/reproduced-union.json --dual rounds/reproduced-union-dual.npz --seconds 240 --workers 2 --rounds 12
-```
-
-The union master uses all 7 union denominator coefficient arrays and all 895 union numerator coefficient arrays, N=524288, the inherited HiGHS simplex/row-generation method. Multiplicities are frozen at scale 10^12 and numerator powers at dyadic scale 2^20 by our round-5 freeze routine. Later standard restricted-master solves discard zero numerator columns while screening the entire union numerator bank against each new dual. All union denominators stay in the warm-start bank.
-
-CVP uses inherited defaults: degree 104, residue H=X(X-1)P4, 1024 stratified evaluation samples, 380-bit evaluations, exact integer Gram LLL with delta=.99, budgeted Schnorr–Euchner enumeration with 4 million nodes and 16 retained points, up to 8 IRLS steps per start. Each proposal is priced against the complete dual. Floating results do not certify any bound. Per-batch JSON records settings, candidates and timing; replay the final certificate to reproduce the mathematical result.
+Replay the input certificates and solve the complete initial union:
 
 ```sh
-nice -n 10 "$C82_PYTHON" verify_best.py --certificate certificate.json --target 0.2520500000 --precision 256 --tol 1e-13 --out evidence/reproduced-best.json
-nice -n 10 "$C82_PYTHON" rejection_controls.py --certificate certificate.json --verifier verify_best.py
+./run_local.sh bootstrap.py
 ```
 
-The second command deliberately rejects changed bytes, a zero denominator multiplicity (hash repinned), and a shared numerator/denominator factor (hash repinned). These are requested controls, not numerical search failures. Verification is separately written (same agent), using stdlib and python-flint only. Exact dyadic upper endpoint comparison with rational 5041/20000 is saved in RESULT.json. No novelty judgment is made; claims remain candidate and unrefereed.
+Run the inherited degree-104 weighted-CVP column generation, with two 240-second search workers per dual, complete numerator-bank pricing, exact weight freezing and separately written interval replay after each solve:
 
-NUMERICS.md was copied from round 5 and describes the verifier's integration enclosures. Factor names are labels only; FACTOR_PROVENANCE.json compares full coefficient arrays. The final blob inventory uses git hash-object on every .py and compares it with the complete GitHub trees at both prohibited-code commits, downloading tree metadata only.
+```sh
+./run_local.sh run_cg.py --state rounds/union.json --dual rounds/union-dual.npz --first 1 --rounds 100 --seconds 240 --workers 2
+```
 
-After the original-order loop stalled for three rounds, the standard positive-weight warm-start continuation used `run_cg.py --state rounds/restricted-7.json --dual rounds/num-3-0-dual.npz --first 7 --rounds 12 --seconds 240 --workers 2 --rotate-warm`. Per-worker reordered coefficient/weight inputs are saved as rounds/warm-K-W.json. All union denominators are retained.
+The initial union certificate has already been replayed by bootstrap, so --first 1 skips a duplicate replay. The memory-efficient full-union implementation retains the same grid, constraints and solver, with a single column-contiguous evaluation matrix.
 
-The first rotated batch ended at its 12-round batch limit with two consecutive no-gain rounds. It continued with `--state rounds/restricted-19.json --dual rounds/num-16-1-dual.npz --first 19 --rounds 12 --seconds 240 --workers 2 --rotate-warm --empty-start 2`; the consecutive no-gain count is preserved across batch boundaries. The preceding summaries are in rounds/rotated-1-finished.json and rounds/rotated-1-progress.json.
+The loop stops after three consecutive rounds whose LP gain is below 1e-10, or at 7.5 hours from evidence/start.json. It leaves the best interval-certified certificate in certificate.json and its hash-pinned verifier in verify_best.py. The 8-hour job ceiling allows final reporting. The 1e-10 no-gain criterion is the inherited numerical tolerance, applied to actual LP gain.
+
+Replay the final certificate against the frozen bar (returns failure if the bar is unmet):
+
+```sh
+./run_local.sh verify_best.py --certificate certificate.json --target 0.2519900000 --precision 256 --tol 1e-13 --out evidence/reproduced-best.json
+```
+
+To verify a certificate that misses the bar, use the explicitly reported rational in RESULT.json instead. The exact dyadic endpoint/rational comparison is recorded there.
+
+Run the specified rejection controls and Python blob/import inventory:
+
+```sh
+./run_local.sh rejection_controls.py --certificate certificate.json --verifier verify_best.py
+./run_local.sh source_inventory.py
+```
+
+The interrupted first round was resumed with `./run_local.sh resume_cg.py`:
+its saved search checkpoints were merged without rerunning them, then rounds
+2 onward used the inherited loop. That resume script consumes a specific saved
+checkpoint; use the main loop command above for a new run. The finished job's
+state and dual are named in rounds/finished.json. To continue that state on a
+future explicitly authorized job, start at the next unused round number and
+account for the existing consecutive no-gain count; this job stopped at three.
+
+PROOF.md gives the inherited Doche construction and extraction argument.
+evidence/final-stated-bound-replay.json is the final replay at the stated
+rational; RESULT.json gives the exact upper-endpoint comparison. The
+provenance report uses actual round-6 source files, rather than attributing
+everything in the mixed r7 union to round 6.
+
+NUMERICS.md describes the inherited verifier enclosure formulas. The verifier imports only stdlib and python-flint and shares no search helper. It was separately written by the same agent lineage, and is not an independent checker.

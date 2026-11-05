@@ -1,0 +1,89 @@
+{
+  "history": [
+    {
+      "round": 1,
+      "old_lp": 0.2519933831279051,
+      "new_lp": 0.25199337827284685,
+      "negative_candidates": 1,
+      "gain": 4.855058244324084e-09,
+      "empty_rounds": 0,
+      "state": "rounds/den-1.json",
+      "dual": "rounds/den-1-dual.npz"
+    },
+    {
+      "round": 2,
+      "old_lp": 0.25199337827284685,
+      "new_lp": 0.25199337827284685,
+      "negative_candidates": 0,
+      "gain": 0.0,
+      "empty_rounds": 1,
+      "state": "rounds/restricted-2.json",
+      "dual": "rounds/den-1-dual.npz"
+    },
+    {
+      "round": 3,
+      "old_lp": 0.25199337827284685,
+      "new_lp": 0.25199328040154245,
+      "negative_candidates": 1,
+      "gain": 9.787130439420366e-08,
+      "empty_rounds": 0,
+      "state": "rounds/num-3-0.json",
+      "dual": "rounds/num-3-0-dual.npz"
+    },
+    {
+      "round": 4,
+      "old_lp": 0.25199328040154245,
+      "new_lp": 0.2519924501984266,
+      "negative_candidates": 1,
+      "gain": 8.302031158646805e-07,
+      "empty_rounds": 0,
+      "state": "rounds/num-4-1.json",
+      "dual": "rounds/num-4-1-dual.npz"
+    },
+    {
+      "round": 5,
+      "old_lp": 0.2519924501984266,
+      "new_lp": 0.25199234090902256,
+      "negative_candidates": 1,
+      "gain": 1.0928940402665788e-07,
+      "empty_rounds": 0,
+      "state": "rounds/den-5.json",
+      "dual": "rounds/den-5-dual.npz"
+    },
+    {
+      "round": 6,
+      "old_lp": 0.25199234090902256,
+      "new_lp": 0.25199234090902256,
+      "negative_candidates": 0,
+      "gain": 0.0,
+      "empty_rounds": 1,
+      "state": "rounds/restricted-6.json",
+      "dual": "rounds/den-5-dual.npz"
+    },
+    {
+      "round": 7,
+      "old_lp": 0.25199234090902256,
+      "new_lp": 0.25199234090902256,
+      "negative_candidates": 0,
+      "gain": 0.0,
+      "empty_rounds": 2,
+      "state": "rounds/restricted-7.json",
+      "dual": "rounds/den-5-dual.npz"
+    },
+    {
+      "round": 8,
+      "old_lp": 0.25199234090902256,
+      "new_lp": 0.25199234090902256,
+      "negative_candidates": 0,
+      "gain": 0.0,
+      "empty_rounds": 3,
+      "state": "rounds/restricted-8.json",
+      "dual": "rounds/den-5-dual.npz"
+    }
+  ],
+  "state": "rounds/restricted-9.json",
+  "dual": "rounds/den-5-dual.npz",
+  "elapsed": 2380.2321082919952,
+  "stop": "three no-gain rounds",
+  "resumed_from_round_one_search_checkpoints": true
+}

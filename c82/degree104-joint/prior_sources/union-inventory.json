@@ -1,0 +1,5091 @@
+{
+  "denominator": [
+    {
+      "name": "D11_5_0",
+      "origin": "ours round6 final",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_7075b26a1a91",
+      "origin": "ours round6 final",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_99cd845e34d4",
+      "origin": "ours round6 final",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_8c76cd0c4e53",
+      "origin": "ours round6 final",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_f770a2649784",
+      "origin": "ours round6 final",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_935548ec48fe",
+      "origin": "ours round6 final",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_d24f4c93ef26",
+      "origin": "ours round6 final",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_083ca9b3950a",
+      "origin": "ours round6 final",
+      "degree": 104
+    },
+    {
+      "name": "D11_9_0",
+      "origin": "#280 v4",
+      "degree": 104
+    },
+    {
+      "name": "D11_12_0",
+      "origin": "#280 v4",
+      "degree": 104
+    },
+    {
+      "name": "D11_12_1",
+      "origin": "#280 v4",
+      "degree": 104
+    },
+    {
+      "name": "D31_5_0",
+      "origin": "#280 v4",
+      "degree": 104
+    },
+    {
+      "name": "D24_1_0",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "D24_1_1",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "D24_1_2",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "D71_2_0",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "D71_2_1",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "P9",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "MD36",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "MD40",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "MD44",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "MD45",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "Q1_c1",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "P7_c2",
+      "origin": "round6 union bank",
+      "degree": 12
+    },
+    {
+      "name": "D21_1_0",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "D21_2_0",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "D21_3_0",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "D21_6_0",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "D22_1_0",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "D22_1_1",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "D22_2_0",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "D22_3_0",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "D22_3_1",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "D22_3_2",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "D22_3_3",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "D22_4_0",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "D22_4_1",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "D22_7_0",
+      "origin": "round6 union bank",
+      "degree": 60
+    },
+    {
+      "name": "D22_9_0",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "D22_9_1",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "D22_10_0",
+      "origin": "round6 union bank",
+      "degree": 60
+    },
+    {
+      "name": "D22_11_0",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "D22_11_1",
+      "origin": "round6 union bank",
+      "degree": 60
+    },
+    {
+      "name": "D51_3_0",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "D51_11_0",
+      "origin": "round6 union bank",
+      "degree": 56
+    },
+    {
+      "name": "D51_22_0",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "D23_0_0",
+      "origin": "round6 union bank",
+      "degree": 60
+    },
+    {
+      "name": "D23_1_0",
+      "origin": "round6 union bank",
+      "degree": 60
+    },
+    {
+      "name": "D61_4_0",
+      "origin": "round6 union bank",
+      "degree": 88
+    },
+    {
+      "name": "D61_4_1",
+      "origin": "round6 union bank",
+      "degree": 88
+    },
+    {
+      "name": "D61_5_0",
+      "origin": "round6 union bank",
+      "degree": 88
+    },
+    {
+      "name": "D24_0_0",
+      "origin": "round6 union bank",
+      "degree": 88
+    },
+    {
+      "name": "D24_0_1",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "D24_0_2",
+      "origin": "round6 union bank",
+      "degree": 88
+    },
+    {
+      "name": "D24_1_3",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "D24_1_4",
+      "origin": "round6 union bank",
+      "degree": 88
+    },
+    {
+      "name": "D71_0_0",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "D71_1_0",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "D71_1_1",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "D71_1_2",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "D71_1_3",
+      "origin": "round6 union bank",
+      "degree": 88
+    },
+    {
+      "name": "D71_3_0",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "D101_1_0",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "D101_6_0",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "D101_7_0",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "D101_11_0",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "D111_0_0",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "D111_3_0",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "D111_3_1",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "D11_5_1",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "D11_5_2",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "C82r3_1d86166ad1c2",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "C82r5_08f64cf3bd2e",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "C82r5_69bba15e21e3",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "C82r5_a4a089d2812f",
+      "origin": "round6 union bank",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_0a687958c979",
+      "origin": "../c82r6/rounds/den-0-certificate.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_a2d5e71133fb",
+      "origin": "../c82r6/rounds/den-0-certificate.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_5ef5ff2b77fb",
+      "origin": "../c82r6/rounds/den-0-certificate.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_0d92be0b9fa9",
+      "origin": "../c82r6/rounds/den-0-certificate.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_ae98a5a802ca",
+      "origin": "../c82r6/rounds/den-0.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_e07907cce9e5",
+      "origin": "../c82r6/rounds/den-0.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_39f938bcd992",
+      "origin": "../c82r6/rounds/den-0.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_b4b67d814852",
+      "origin": "../c82r6/rounds/den-0.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_077265412a94",
+      "origin": "../c82r6/rounds/den-0.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_c77cc4c50809",
+      "origin": "../c82r6/rounds/den-0.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_08b8da4e0787",
+      "origin": "../c82r6/rounds/den-0.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_719d74e5da39",
+      "origin": "../c82r6/rounds/den-1-certificate.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_c87f877b9d4a",
+      "origin": "../c82r6/rounds/den-1-certificate.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_e4eece0e3b0e",
+      "origin": "../c82r6/rounds/den-1-certificate.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_bfdf5b99dea2",
+      "origin": "../c82r6/rounds/den-1.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_47f7ecf444a7",
+      "origin": "../c82r6/rounds/den-1.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_6e2d6a4a1891",
+      "origin": "../c82r6/rounds/den-10-certificate.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_e842aec1399f",
+      "origin": "../c82r6/rounds/den-10-certificate.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_eb0a567908b7",
+      "origin": "../c82r6/rounds/den-10-certificate.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_43caab431c5b",
+      "origin": "../c82r6/rounds/den-10.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_3bff2d00e5f3",
+      "origin": "../c82r6/rounds/den-10.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_dd4970dce0bf",
+      "origin": "../c82r6/rounds/den-10.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_8cc229a6f730",
+      "origin": "../c82r6/rounds/den-10.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_c0a67c4cb362",
+      "origin": "../c82r6/rounds/den-10.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_c76bba090d49",
+      "origin": "../c82r6/rounds/den-10.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_f2b8d7fbf236",
+      "origin": "../c82r6/rounds/den-11-certificate.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_def05c999bc5",
+      "origin": "../c82r6/rounds/den-12-certificate.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_ff9397d76700",
+      "origin": "../c82r6/rounds/den-13-certificate.json",
+      "degree": 104
+    },
+    {
+      "name": "C82r6_b5e1acb11c2d",
+      "origin": "../c82r6/rounds/den-13.json",
+      "degree": 104
+    }
+  ],
+  "numerator": [
+    {
+      "name": "P1",
+      "origin": "ours round6 final",
+      "degree": 1
+    },
+    {
+      "name": "P2",
+      "origin": "ours round6 final",
+      "degree": 1
+    },
+    {
+      "name": "P3",
+      "origin": "ours round6 final",
+      "degree": 3
+    },
+    {
+      "name": "P4",
+      "origin": "ours round6 final",
+      "degree": 4
+    },
+    {
+      "name": "P6",
+      "origin": "ours round6 final",
+      "degree": 8
+    },
+    {
+      "name": "MS360",
+      "origin": "ours round6 final",
+      "degree": 20
+    },
+    {
+      "name": "n22_7_5",
+      "origin": "ours round6 final",
+      "degree": 19
+    },
+    {
+      "name": "n11_4_53",
+      "origin": "ours round6 final",
+      "degree": 27
+    },
+    {
+      "name": "n11_6_21",
+      "origin": "ours round6 final",
+      "degree": 32
+    },
+    {
+      "name": "n101_0_17",
+      "origin": "ours round6 final",
+      "degree": 11
+    },
+    {
+      "name": "n121_3_30",
+      "origin": "ours round6 final",
+      "degree": 20
+    },
+    {
+      "name": "n11_6_49",
+      "origin": "ours round6 final",
+      "degree": 18
+    },
+    {
+      "name": "n101_6_2",
+      "origin": "ours round6 final",
+      "degree": 26
+    },
+    {
+      "name": "n101_7_34",
+      "origin": "ours round6 final",
+      "degree": 20
+    },
+    {
+      "name": "n101_2_37",
+      "origin": "ours round6 final",
+      "degree": 21
+    },
+    {
+      "name": "n11_6_51",
+      "origin": "#280 v4",
+      "degree": 8
+    },
+    {
+      "name": "n11_7_3",
+      "origin": "#280 v4",
+      "degree": 32
+    },
+    {
+      "name": "n11_7_7",
+      "origin": "#280 v4",
+      "degree": 17
+    },
+    {
+      "name": "n11_7_17",
+      "origin": "#280 v4",
+      "degree": 16
+    },
+    {
+      "name": "n11_9_1",
+      "origin": "#280 v4",
+      "degree": 13
+    },
+    {
+      "name": "n11_10_5",
+      "origin": "#280 v4",
+      "degree": 20
+    },
+    {
+      "name": "n11_10_6",
+      "origin": "#280 v4",
+      "degree": 20
+    },
+    {
+      "name": "n11_13_0",
+      "origin": "#280 v4",
+      "degree": 12
+    },
+    {
+      "name": "n29_0_2",
+      "origin": "#280 v4",
+      "degree": 16
+    },
+    {
+      "name": "n31_4_0",
+      "origin": "#280 v4",
+      "degree": 20
+    },
+    {
+      "name": "n31_4_2",
+      "origin": "#280 v4",
+      "degree": 18
+    },
+    {
+      "name": "n31_6_1",
+      "origin": "#280 v4",
+      "degree": 37
+    },
+    {
+      "name": "n31_6_7",
+      "origin": "#280 v4",
+      "degree": 20
+    },
+    {
+      "name": "n31_6_10",
+      "origin": "#280 v4",
+      "degree": 24
+    },
+    {
+      "name": "n31_6_13",
+      "origin": "#280 v4",
+      "degree": 34
+    },
+    {
+      "name": "n31_6_17",
+      "origin": "#280 v4",
+      "degree": 33
+    },
+    {
+      "name": "n31_8_0",
+      "origin": "#280 v4",
+      "degree": 19
+    },
+    {
+      "name": "n31_10_0",
+      "origin": "#280 v4",
+      "degree": 16
+    },
+    {
+      "name": "MS94",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "MS190",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "MS192",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "MS199",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "MS208",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "MS283",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "MS287",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "MS313",
+      "origin": "round6 union bank",
+      "degree": 23
+    },
+    {
+      "name": "MS347",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "MS374",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "MS384",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "MS400",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "MS426",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "MS435",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "MS444",
+      "origin": "round6 union bank",
+      "degree": 22
+    },
+    {
+      "name": "MS456",
+      "origin": "round6 union bank",
+      "degree": 22
+    },
+    {
+      "name": "MS458",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "MS459",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "MS462",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "MS471",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "MS483",
+      "origin": "round6 union bank",
+      "degree": 27
+    },
+    {
+      "name": "MS485",
+      "origin": "round6 union bank",
+      "degree": 25
+    },
+    {
+      "name": "MS489",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "MS494",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "MS499",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "MS503",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "select2_25_c1",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "cg1031_15_0_c1",
+      "origin": "round6 union bank",
+      "degree": 18
+    },
+    {
+      "name": "MS147_c1",
+      "origin": "round6 union bank",
+      "degree": 18
+    },
+    {
+      "name": "MS159_c1",
+      "origin": "round6 union bank",
+      "degree": 31
+    },
+    {
+      "name": "MS204_c1",
+      "origin": "round6 union bank",
+      "degree": 21
+    },
+    {
+      "name": "MS321_c1",
+      "origin": "round6 union bank",
+      "degree": 19
+    },
+    {
+      "name": "MS323_c1",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "MS326_c1",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "MS328_c1",
+      "origin": "round6 union bank",
+      "degree": 27
+    },
+    {
+      "name": "MS329_c1",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "MS333_c1",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "MS335_c1",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "MS351_c1",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "MS354_c1",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "MS355_c1",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "select2_22_c2",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "select4_1_c2",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "select5_0_c2",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "select5_7_c2",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "select5_9_c2",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "select5_10_c2",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "select7_0_c2",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "select8_0_c2",
+      "origin": "round6 union bank",
+      "degree": 22
+    },
+    {
+      "name": "select9_1_c2",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "select9_5_c2",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "select9_6_c2",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "select10_0_c2",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "cg1_0_1_c2",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "cg1_0_2_c2",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "cg1_1_2_c2",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "cg2_0_0_c2",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "cg2_1_0_c2",
+      "origin": "round6 union bank",
+      "degree": 22
+    },
+    {
+      "name": "cg2_1_1_c2",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "cg2_3_1_c2",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "cg2_4_0_c2",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "cg2_7_0_c2",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "cg2_9_0_c2",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "cg2_9_1_c2",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "cg2_9_2_c2",
+      "origin": "round6 union bank",
+      "degree": 17
+    },
+    {
+      "name": "cg2_10_1_c2",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "cg3_0_0_c2",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "cg3_0_1_c2",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "cg3_0_2_c2",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "cg3_1_0_c2",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "P8_c3",
+      "origin": "round6 union bank",
+      "degree": 12
+    },
+    {
+      "name": "select2_1_c3",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "select2_11_c3",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "select2_15_c3",
+      "origin": "round6 union bank",
+      "degree": 27
+    },
+    {
+      "name": "select2_36_c3",
+      "origin": "round6 union bank",
+      "degree": 18
+    },
+    {
+      "name": "select3_7_c3",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "select4_0_c3",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "select4_3_c3",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "select9_2_c3",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "select9_3_c3",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "select9_7_c3",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "merged_0_c3",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "En6_c5",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "broad1_4_c5",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "broad1_6_c5",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "broad1_10_c5",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "broad2_1_c5",
+      "origin": "round6 union bank",
+      "degree": 14
+    },
+    {
+      "name": "broad2_2_c5",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "broad2_3_c5",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "broad2_4_c5",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "broad2_5_c5",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "broad2_6_c5",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "broad2_7_c5",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "cg11_1_0",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "cg11_2_0",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "cg12_0_0",
+      "origin": "round6 union bank",
+      "degree": 33
+    },
+    {
+      "name": "cg12_1_1",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "cg12_1_2",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "cg12_2_0",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "cg12_2_1",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "cg12_3_0",
+      "origin": "round6 union bank",
+      "degree": 27
+    },
+    {
+      "name": "cg12_3_1",
+      "origin": "round6 union bank",
+      "degree": 29
+    },
+    {
+      "name": "cg12_4_0",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "cg12_6_0",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "cg12_6_2",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "cg12_6_3",
+      "origin": "round6 union bank",
+      "degree": 29
+    },
+    {
+      "name": "cg12_7_0",
+      "origin": "round6 union bank",
+      "degree": 23
+    },
+    {
+      "name": "n21_2_0",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n21_2_1",
+      "origin": "round6 union bank",
+      "degree": 29
+    },
+    {
+      "name": "n21_2_2",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n21_2_3",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n21_3_0",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n21_3_1",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n21_3_2",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n21_4_0",
+      "origin": "round6 union bank",
+      "degree": 19
+    },
+    {
+      "name": "n21_5_0",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "n21_5_1",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "n21_7_0",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n21_7_1",
+      "origin": "round6 union bank",
+      "degree": 22
+    },
+    {
+      "name": "n21_7_2",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "n21_9_0",
+      "origin": "round6 union bank",
+      "degree": 23
+    },
+    {
+      "name": "n21_10_0",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n21_10_1",
+      "origin": "round6 union bank",
+      "degree": 17
+    },
+    {
+      "name": "n21_11_2",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n22_1_0",
+      "origin": "round6 union bank",
+      "degree": 23
+    },
+    {
+      "name": "n22_1_1",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "n22_2_2",
+      "origin": "round6 union bank",
+      "degree": 31
+    },
+    {
+      "name": "n22_2_9",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "n22_2_12",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n22_3_4",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n22_3_6",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n22_3_8",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n22_3_9",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n22_3_10",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n22_3_11",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "n22_4_0",
+      "origin": "round6 union bank",
+      "degree": 46
+    },
+    {
+      "name": "n22_4_2",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n22_4_4",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n22_4_5",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n22_4_7",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n22_5_13",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n22_6_0",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "n22_6_1",
+      "origin": "round6 union bank",
+      "degree": 13
+    },
+    {
+      "name": "n22_6_2",
+      "origin": "round6 union bank",
+      "degree": 12
+    },
+    {
+      "name": "n22_6_3",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "n22_6_4",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "n22_6_5",
+      "origin": "round6 union bank",
+      "degree": 12
+    },
+    {
+      "name": "n22_6_6",
+      "origin": "round6 union bank",
+      "degree": 18
+    },
+    {
+      "name": "n22_7_0",
+      "origin": "round6 union bank",
+      "degree": 23
+    },
+    {
+      "name": "n22_7_1",
+      "origin": "round6 union bank",
+      "degree": 25
+    },
+    {
+      "name": "n22_7_3",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "n22_7_4",
+      "origin": "round6 union bank",
+      "degree": 14
+    },
+    {
+      "name": "n22_7_6",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "n22_7_7",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "n22_7_8",
+      "origin": "round6 union bank",
+      "degree": 18
+    },
+    {
+      "name": "n22_7_9",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "n22_7_10",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "n22_7_11",
+      "origin": "round6 union bank",
+      "degree": 19
+    },
+    {
+      "name": "n22_8_0",
+      "origin": "round6 union bank",
+      "degree": 17
+    },
+    {
+      "name": "n22_8_1",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n22_8_2",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "n22_8_3",
+      "origin": "round6 union bank",
+      "degree": 18
+    },
+    {
+      "name": "n22_8_4",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "n22_8_5",
+      "origin": "round6 union bank",
+      "degree": 25
+    },
+    {
+      "name": "n22_9_0",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n22_9_1",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n22_9_2",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n22_9_3",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n22_9_4",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n22_9_5",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n22_9_7",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n22_9_8",
+      "origin": "round6 union bank",
+      "degree": 22
+    },
+    {
+      "name": "n22_9_9",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n22_9_10",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n22_10_2",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n22_10_3",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n22_10_4",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "n22_10_6",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n22_10_7",
+      "origin": "round6 union bank",
+      "degree": 29
+    },
+    {
+      "name": "n22_11_0",
+      "origin": "round6 union bank",
+      "degree": 17
+    },
+    {
+      "name": "n22_12_4",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n22_12_8",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n22_12_9",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n22_12_10",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n22_12_12",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n23_0_0",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n23_0_1",
+      "origin": "round6 union bank",
+      "degree": 33
+    },
+    {
+      "name": "n23_0_3",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n23_0_4",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n23_0_5",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "n23_0_6",
+      "origin": "round6 union bank",
+      "degree": 31
+    },
+    {
+      "name": "n23_0_7",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n23_0_8",
+      "origin": "round6 union bank",
+      "degree": 22
+    },
+    {
+      "name": "n23_0_9",
+      "origin": "round6 union bank",
+      "degree": 27
+    },
+    {
+      "name": "n23_0_10",
+      "origin": "round6 union bank",
+      "degree": 14
+    },
+    {
+      "name": "n23_1_0",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n23_1_4",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n23_1_5",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "n23_1_6",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n23_1_7",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n23_1_8",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n23_1_9",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n23_1_11",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n23_1_12",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n23_1_13",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n23_1_14",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n23_2_0",
+      "origin": "round6 union bank",
+      "degree": 19
+    },
+    {
+      "name": "n23_2_1",
+      "origin": "round6 union bank",
+      "degree": 12
+    },
+    {
+      "name": "n23_2_2",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n23_2_3",
+      "origin": "round6 union bank",
+      "degree": 19
+    },
+    {
+      "name": "n23_3_0",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n23_3_1",
+      "origin": "round6 union bank",
+      "degree": 29
+    },
+    {
+      "name": "n23_3_2",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n23_3_3",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n23_3_4",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n23_3_5",
+      "origin": "round6 union bank",
+      "degree": 31
+    },
+    {
+      "name": "n23_3_6",
+      "origin": "round6 union bank",
+      "degree": 22
+    },
+    {
+      "name": "n23_3_7",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n23_3_9",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n23_3_10",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n24_0_0",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "n24_0_2",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "n24_0_3",
+      "origin": "round6 union bank",
+      "degree": 15
+    },
+    {
+      "name": "n24_0_4",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "n24_0_5",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "n24_0_6",
+      "origin": "round6 union bank",
+      "degree": 21
+    },
+    {
+      "name": "n24_0_7",
+      "origin": "round6 union bank",
+      "degree": 19
+    },
+    {
+      "name": "n101_0_0",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n101_0_1",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n101_0_2",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n101_0_3",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n101_0_4",
+      "origin": "round6 union bank",
+      "degree": 29
+    },
+    {
+      "name": "n101_0_5",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n101_0_6",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n101_0_7",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n101_0_8",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n101_0_9",
+      "origin": "round6 union bank",
+      "degree": 21
+    },
+    {
+      "name": "n101_0_10",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n101_0_11",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "n101_0_12",
+      "origin": "round6 union bank",
+      "degree": 23
+    },
+    {
+      "name": "n101_0_13",
+      "origin": "round6 union bank",
+      "degree": 18
+    },
+    {
+      "name": "n101_0_14",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "n101_0_15",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "n101_0_16",
+      "origin": "round6 union bank",
+      "degree": 25
+    },
+    {
+      "name": "n101_0_18",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "n101_0_19",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n101_0_20",
+      "origin": "round6 union bank",
+      "degree": 27
+    },
+    {
+      "name": "n101_0_21",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n101_0_22",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "n101_0_23",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n101_0_24",
+      "origin": "round6 union bank",
+      "degree": 29
+    },
+    {
+      "name": "n101_0_25",
+      "origin": "round6 union bank",
+      "degree": 23
+    },
+    {
+      "name": "n101_0_26",
+      "origin": "round6 union bank",
+      "degree": 14
+    },
+    {
+      "name": "n101_0_27",
+      "origin": "round6 union bank",
+      "degree": 33
+    },
+    {
+      "name": "n101_0_28",
+      "origin": "round6 union bank",
+      "degree": 9
+    },
+    {
+      "name": "n101_0_29",
+      "origin": "round6 union bank",
+      "degree": 12
+    },
+    {
+      "name": "n101_0_30",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n101_0_31",
+      "origin": "round6 union bank",
+      "degree": 29
+    },
+    {
+      "name": "n101_0_32",
+      "origin": "round6 union bank",
+      "degree": 33
+    },
+    {
+      "name": "n101_0_33",
+      "origin": "round6 union bank",
+      "degree": 31
+    },
+    {
+      "name": "n101_0_34",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n101_1_0",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "n101_1_1",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "n101_1_2",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "n101_1_3",
+      "origin": "round6 union bank",
+      "degree": 15
+    },
+    {
+      "name": "n101_2_0",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n101_2_1",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n101_2_2",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n101_2_3",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_2_4",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "n101_2_5",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n101_2_6",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n101_2_7",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n101_2_8",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n101_2_9",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n101_2_10",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n101_2_11",
+      "origin": "round6 union bank",
+      "degree": 47
+    },
+    {
+      "name": "n101_2_12",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_2_13",
+      "origin": "round6 union bank",
+      "degree": 31
+    },
+    {
+      "name": "n101_2_14",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n101_2_15",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n101_2_16",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n101_2_17",
+      "origin": "round6 union bank",
+      "degree": 47
+    },
+    {
+      "name": "n101_2_18",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n101_2_19",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_2_20",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n101_2_21",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n101_2_22",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n101_2_23",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n101_2_24",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n101_2_25",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n101_2_26",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n101_2_27",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n101_2_28",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n101_2_29",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "n101_2_30",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n101_2_31",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n101_2_32",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n101_2_33",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_2_34",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_2_35",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n101_2_36",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n101_2_38",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n101_2_39",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_2_40",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n101_2_41",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n101_2_42",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_2_43",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n101_2_44",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n101_2_45",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n101_2_46",
+      "origin": "round6 union bank",
+      "degree": 33
+    },
+    {
+      "name": "n101_2_47",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n101_2_48",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "n101_2_49",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n101_2_50",
+      "origin": "round6 union bank",
+      "degree": 27
+    },
+    {
+      "name": "n101_2_51",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n101_2_52",
+      "origin": "round6 union bank",
+      "degree": 22
+    },
+    {
+      "name": "n101_2_53",
+      "origin": "round6 union bank",
+      "degree": 29
+    },
+    {
+      "name": "n101_2_54",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_2_55",
+      "origin": "round6 union bank",
+      "degree": 33
+    },
+    {
+      "name": "n101_2_56",
+      "origin": "round6 union bank",
+      "degree": 33
+    },
+    {
+      "name": "n101_2_57",
+      "origin": "round6 union bank",
+      "degree": 18
+    },
+    {
+      "name": "n101_2_58",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n101_2_59",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n101_3_1",
+      "origin": "round6 union bank",
+      "degree": 31
+    },
+    {
+      "name": "n101_3_2",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_3_6",
+      "origin": "round6 union bank",
+      "degree": 33
+    },
+    {
+      "name": "n101_3_10",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_3_12",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_3_13",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n101_3_14",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n101_3_16",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n101_3_17",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_3_18",
+      "origin": "round6 union bank",
+      "degree": 47
+    },
+    {
+      "name": "n101_3_19",
+      "origin": "round6 union bank",
+      "degree": 48
+    },
+    {
+      "name": "n101_3_21",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_3_22",
+      "origin": "round6 union bank",
+      "degree": 31
+    },
+    {
+      "name": "n101_3_23",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n101_3_24",
+      "origin": "round6 union bank",
+      "degree": 46
+    },
+    {
+      "name": "n101_3_25",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_3_26",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n101_3_28",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n101_3_29",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_3_30",
+      "origin": "round6 union bank",
+      "degree": 46
+    },
+    {
+      "name": "n101_3_31",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n101_3_35",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n101_3_36",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n101_3_37",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n101_3_38",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n101_3_39",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_3_40",
+      "origin": "round6 union bank",
+      "degree": 46
+    },
+    {
+      "name": "n101_3_41",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_3_42",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_3_43",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n101_3_44",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_3_45",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_3_46",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n101_3_48",
+      "origin": "round6 union bank",
+      "degree": 47
+    },
+    {
+      "name": "n101_3_49",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n101_3_50",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n101_3_51",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_3_52",
+      "origin": "round6 union bank",
+      "degree": 31
+    },
+    {
+      "name": "n101_3_53",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n101_3_54",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n101_3_56",
+      "origin": "round6 union bank",
+      "degree": 51
+    },
+    {
+      "name": "n101_3_57",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n101_3_58",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n101_3_59",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n101_4_0",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_4_1",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n101_4_4",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_4_6",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n101_4_7",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n101_4_9",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_4_10",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_4_12",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n101_4_13",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n101_4_14",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n101_4_18",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n101_4_22",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_4_23",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n101_4_25",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n101_4_26",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n101_4_28",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n101_4_30",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n101_4_31",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n101_4_32",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n101_4_33",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n101_4_34",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_4_36",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n101_4_37",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n101_4_40",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n101_4_43",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n101_4_46",
+      "origin": "round6 union bank",
+      "degree": 46
+    },
+    {
+      "name": "n101_4_47",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n101_4_48",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n101_4_50",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n101_4_53",
+      "origin": "round6 union bank",
+      "degree": 48
+    },
+    {
+      "name": "n101_4_54",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "n101_4_55",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n101_4_56",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "n101_4_57",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n101_4_59",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n101_5_0",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n101_5_1",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n101_5_3",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n101_5_4",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n101_5_5",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n101_5_6",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n101_5_7",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n101_5_8",
+      "origin": "round6 union bank",
+      "degree": 33
+    },
+    {
+      "name": "n101_5_9",
+      "origin": "round6 union bank",
+      "degree": 48
+    },
+    {
+      "name": "n101_5_11",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n101_5_12",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n101_5_13",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_5_14",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n101_5_15",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n101_5_16",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n101_5_17",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n101_5_18",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n101_5_19",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_5_21",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_5_22",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_5_23",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n101_5_24",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n101_5_25",
+      "origin": "round6 union bank",
+      "degree": 29
+    },
+    {
+      "name": "n101_5_26",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n101_5_27",
+      "origin": "round6 union bank",
+      "degree": 21
+    },
+    {
+      "name": "n101_5_28",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n101_5_29",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_5_30",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n101_5_31",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n101_5_32",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n101_5_33",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_5_34",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_5_35",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_5_36",
+      "origin": "round6 union bank",
+      "degree": 18
+    },
+    {
+      "name": "n101_5_37",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n101_6_0",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "n101_6_1",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n101_6_3",
+      "origin": "round6 union bank",
+      "degree": 23
+    },
+    {
+      "name": "n101_6_4",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n101_6_5",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n101_7_0",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_7_1",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n101_7_2",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n101_7_3",
+      "origin": "round6 union bank",
+      "degree": 46
+    },
+    {
+      "name": "n101_7_4",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n101_7_5",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_7_6",
+      "origin": "round6 union bank",
+      "degree": 47
+    },
+    {
+      "name": "n101_7_7",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n101_7_8",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n101_7_9",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n101_7_10",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n101_7_11",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n101_7_12",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n101_7_13",
+      "origin": "round6 union bank",
+      "degree": 48
+    },
+    {
+      "name": "n101_7_14",
+      "origin": "round6 union bank",
+      "degree": 50
+    },
+    {
+      "name": "n101_7_15",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_7_17",
+      "origin": "round6 union bank",
+      "degree": 46
+    },
+    {
+      "name": "n101_7_18",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n101_7_19",
+      "origin": "round6 union bank",
+      "degree": 47
+    },
+    {
+      "name": "n101_7_20",
+      "origin": "round6 union bank",
+      "degree": 51
+    },
+    {
+      "name": "n101_7_21",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n101_7_22",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n101_7_23",
+      "origin": "round6 union bank",
+      "degree": 51
+    },
+    {
+      "name": "n101_7_25",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n101_7_26",
+      "origin": "round6 union bank",
+      "degree": 46
+    },
+    {
+      "name": "n101_7_27",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n101_7_28",
+      "origin": "round6 union bank",
+      "degree": 46
+    },
+    {
+      "name": "n101_7_29",
+      "origin": "round6 union bank",
+      "degree": 49
+    },
+    {
+      "name": "n101_7_30",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n101_7_31",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n101_7_32",
+      "origin": "round6 union bank",
+      "degree": 50
+    },
+    {
+      "name": "n101_7_35",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_7_36",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n101_7_38",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_7_41",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_7_42",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_7_43",
+      "origin": "round6 union bank",
+      "degree": 46
+    },
+    {
+      "name": "n101_7_47",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n101_7_50",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n101_7_51",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n101_7_52",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n101_7_53",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n101_7_54",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n101_7_55",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n101_7_56",
+      "origin": "round6 union bank",
+      "degree": 33
+    },
+    {
+      "name": "n101_7_58",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_7_59",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "n101_8_0",
+      "origin": "round6 union bank",
+      "degree": 50
+    },
+    {
+      "name": "n101_8_1",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n101_8_2",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_8_3",
+      "origin": "round6 union bank",
+      "degree": 46
+    },
+    {
+      "name": "n101_8_4",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_8_5",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n101_8_6",
+      "origin": "round6 union bank",
+      "degree": 46
+    },
+    {
+      "name": "n101_8_7",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n101_8_8",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_8_10",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n101_8_11",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n101_8_12",
+      "origin": "round6 union bank",
+      "degree": 46
+    },
+    {
+      "name": "n101_8_14",
+      "origin": "round6 union bank",
+      "degree": 50
+    },
+    {
+      "name": "n101_8_15",
+      "origin": "round6 union bank",
+      "degree": 49
+    },
+    {
+      "name": "n101_8_16",
+      "origin": "round6 union bank",
+      "degree": 46
+    },
+    {
+      "name": "n101_8_17",
+      "origin": "round6 union bank",
+      "degree": 46
+    },
+    {
+      "name": "n101_8_18",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n101_8_19",
+      "origin": "round6 union bank",
+      "degree": 47
+    },
+    {
+      "name": "n101_8_20",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n101_8_21",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n101_8_22",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_8_23",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_8_24",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_8_27",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n101_8_28",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n101_8_29",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n101_8_30",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_8_31",
+      "origin": "round6 union bank",
+      "degree": 50
+    },
+    {
+      "name": "n101_8_32",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n101_8_33",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n101_8_34",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n101_8_35",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n101_8_36",
+      "origin": "round6 union bank",
+      "degree": 46
+    },
+    {
+      "name": "n101_8_37",
+      "origin": "round6 union bank",
+      "degree": 47
+    },
+    {
+      "name": "n101_8_38",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n101_8_39",
+      "origin": "round6 union bank",
+      "degree": 48
+    },
+    {
+      "name": "n101_8_40",
+      "origin": "round6 union bank",
+      "degree": 48
+    },
+    {
+      "name": "n101_8_41",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n101_8_42",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n101_8_43",
+      "origin": "round6 union bank",
+      "degree": 50
+    },
+    {
+      "name": "n101_8_44",
+      "origin": "round6 union bank",
+      "degree": 49
+    },
+    {
+      "name": "n101_8_45",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_8_46",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n101_8_47",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_8_48",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_8_49",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n101_8_50",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n101_8_51",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "n101_8_54",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n101_8_55",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_8_56",
+      "origin": "round6 union bank",
+      "degree": 31
+    },
+    {
+      "name": "n101_8_57",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_8_58",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n101_8_59",
+      "origin": "round6 union bank",
+      "degree": 48
+    },
+    {
+      "name": "n101_9_0",
+      "origin": "round6 union bank",
+      "degree": 25
+    },
+    {
+      "name": "n101_9_1",
+      "origin": "round6 union bank",
+      "degree": 49
+    },
+    {
+      "name": "n101_9_2",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "n101_9_3",
+      "origin": "round6 union bank",
+      "degree": 46
+    },
+    {
+      "name": "n101_9_4",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n101_9_5",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_9_6",
+      "origin": "round6 union bank",
+      "degree": 49
+    },
+    {
+      "name": "n101_9_7",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n101_9_8",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_9_9",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n101_9_10",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "n101_9_11",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "n101_9_12",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n101_10_0",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n101_10_1",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_10_2",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n101_10_3",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n101_10_4",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n101_10_5",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n101_10_6",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n101_10_7",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_10_8",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n101_10_9",
+      "origin": "round6 union bank",
+      "degree": 21
+    },
+    {
+      "name": "n101_10_10",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "n101_10_11",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_10_12",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n101_10_13",
+      "origin": "round6 union bank",
+      "degree": 23
+    },
+    {
+      "name": "n101_10_14",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n101_10_15",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n101_10_16",
+      "origin": "round6 union bank",
+      "degree": 31
+    },
+    {
+      "name": "n101_10_17",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n101_10_18",
+      "origin": "round6 union bank",
+      "degree": 23
+    },
+    {
+      "name": "n101_11_0",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n101_12_0",
+      "origin": "round6 union bank",
+      "degree": 22
+    },
+    {
+      "name": "n101_12_1",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n101_12_2",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n101_12_3",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n101_12_4",
+      "origin": "round6 union bank",
+      "degree": 21
+    },
+    {
+      "name": "n101_12_5",
+      "origin": "round6 union bank",
+      "degree": 33
+    },
+    {
+      "name": "n101_12_6",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_12_7",
+      "origin": "round6 union bank",
+      "degree": 8
+    },
+    {
+      "name": "n101_12_8",
+      "origin": "round6 union bank",
+      "degree": 22
+    },
+    {
+      "name": "n101_12_9",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n101_12_10",
+      "origin": "round6 union bank",
+      "degree": 33
+    },
+    {
+      "name": "n101_12_11",
+      "origin": "round6 union bank",
+      "degree": 17
+    },
+    {
+      "name": "n101_12_12",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_12_13",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n101_12_14",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n101_12_15",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "n101_12_16",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n101_12_17",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n101_12_18",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "n101_12_19",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n101_12_20",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "n101_12_21",
+      "origin": "round6 union bank",
+      "degree": 15
+    },
+    {
+      "name": "n101_12_22",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n101_12_23",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n101_12_24",
+      "origin": "round6 union bank",
+      "degree": 33
+    },
+    {
+      "name": "n101_12_25",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n101_12_26",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n101_12_27",
+      "origin": "round6 union bank",
+      "degree": 2
+    },
+    {
+      "name": "n101_12_28",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n101_12_29",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n101_12_30",
+      "origin": "round6 union bank",
+      "degree": 31
+    },
+    {
+      "name": "n101_12_31",
+      "origin": "round6 union bank",
+      "degree": 31
+    },
+    {
+      "name": "n101_12_32",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n101_12_33",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n101_13_0",
+      "origin": "round6 union bank",
+      "degree": 25
+    },
+    {
+      "name": "n101_13_1",
+      "origin": "round6 union bank",
+      "degree": 19
+    },
+    {
+      "name": "n101_13_2",
+      "origin": "round6 union bank",
+      "degree": 17
+    },
+    {
+      "name": "n101_13_3",
+      "origin": "round6 union bank",
+      "degree": 15
+    },
+    {
+      "name": "n101_13_4",
+      "origin": "round6 union bank",
+      "degree": 19
+    },
+    {
+      "name": "n101_13_5",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "n101_13_6",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "n101_13_7",
+      "origin": "round6 union bank",
+      "degree": 23
+    },
+    {
+      "name": "n101_13_8",
+      "origin": "round6 union bank",
+      "degree": 12
+    },
+    {
+      "name": "n101_13_9",
+      "origin": "round6 union bank",
+      "degree": 21
+    },
+    {
+      "name": "n101_13_10",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "n101_14_0",
+      "origin": "round6 union bank",
+      "degree": 17
+    },
+    {
+      "name": "n101_14_1",
+      "origin": "round6 union bank",
+      "degree": 31
+    },
+    {
+      "name": "n101_15_0",
+      "origin": "round6 union bank",
+      "degree": 18
+    },
+    {
+      "name": "n101_15_1",
+      "origin": "round6 union bank",
+      "degree": 19
+    },
+    {
+      "name": "n101_17_0",
+      "origin": "round6 union bank",
+      "degree": 22
+    },
+    {
+      "name": "n101_17_1",
+      "origin": "round6 union bank",
+      "degree": 22
+    },
+    {
+      "name": "n101_17_2",
+      "origin": "round6 union bank",
+      "degree": 22
+    },
+    {
+      "name": "n101_17_3",
+      "origin": "round6 union bank",
+      "degree": 18
+    },
+    {
+      "name": "n101_19_0",
+      "origin": "round6 union bank",
+      "degree": 19
+    },
+    {
+      "name": "n111_1_0",
+      "origin": "round6 union bank",
+      "degree": 3
+    },
+    {
+      "name": "n111_1_1",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n111_1_2",
+      "origin": "round6 union bank",
+      "degree": 31
+    },
+    {
+      "name": "n111_1_3",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n111_1_4",
+      "origin": "round6 union bank",
+      "degree": 31
+    },
+    {
+      "name": "n111_1_5",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n111_1_6",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n111_1_7",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n111_1_8",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "n111_1_9",
+      "origin": "round6 union bank",
+      "degree": 29
+    },
+    {
+      "name": "n111_1_10",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "n111_1_11",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "n111_1_12",
+      "origin": "round6 union bank",
+      "degree": 31
+    },
+    {
+      "name": "n111_1_13",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n111_1_14",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n111_1_15",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n111_1_16",
+      "origin": "round6 union bank",
+      "degree": 29
+    },
+    {
+      "name": "n111_1_17",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n111_1_18",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n111_1_19",
+      "origin": "round6 union bank",
+      "degree": 29
+    },
+    {
+      "name": "n111_1_20",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "n111_1_21",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n111_1_22",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n111_1_23",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n111_1_24",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n111_1_25",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n111_1_26",
+      "origin": "round6 union bank",
+      "degree": 33
+    },
+    {
+      "name": "n111_1_27",
+      "origin": "round6 union bank",
+      "degree": 33
+    },
+    {
+      "name": "n111_1_28",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n111_1_29",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n111_1_30",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n111_1_31",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n111_1_32",
+      "origin": "round6 union bank",
+      "degree": 21
+    },
+    {
+      "name": "n111_1_33",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n111_1_34",
+      "origin": "round6 union bank",
+      "degree": 23
+    },
+    {
+      "name": "n111_1_35",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n111_1_36",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n111_1_37",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n111_1_38",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n111_1_39",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n111_1_40",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n111_2_0",
+      "origin": "round6 union bank",
+      "degree": 21
+    },
+    {
+      "name": "n111_2_1",
+      "origin": "round6 union bank",
+      "degree": 23
+    },
+    {
+      "name": "n111_2_2",
+      "origin": "round6 union bank",
+      "degree": 22
+    },
+    {
+      "name": "n111_2_3",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "n111_3_0",
+      "origin": "round6 union bank",
+      "degree": 21
+    },
+    {
+      "name": "n111_3_1",
+      "origin": "round6 union bank",
+      "degree": 17
+    },
+    {
+      "name": "n111_3_2",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "n111_3_3",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n121_0_0",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n121_0_1",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n121_0_2",
+      "origin": "round6 union bank",
+      "degree": 48
+    },
+    {
+      "name": "n121_0_3",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n121_0_4",
+      "origin": "round6 union bank",
+      "degree": 47
+    },
+    {
+      "name": "n121_0_5",
+      "origin": "round6 union bank",
+      "degree": 51
+    },
+    {
+      "name": "n121_0_6",
+      "origin": "round6 union bank",
+      "degree": 47
+    },
+    {
+      "name": "n121_0_7",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n121_0_8",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n121_0_9",
+      "origin": "round6 union bank",
+      "degree": 49
+    },
+    {
+      "name": "n121_0_10",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n121_0_11",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n121_0_12",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n121_0_13",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n121_0_14",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n121_0_15",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n121_0_16",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n121_0_17",
+      "origin": "round6 union bank",
+      "degree": 46
+    },
+    {
+      "name": "n121_0_18",
+      "origin": "round6 union bank",
+      "degree": 46
+    },
+    {
+      "name": "n121_0_19",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n121_0_20",
+      "origin": "round6 union bank",
+      "degree": 33
+    },
+    {
+      "name": "n121_0_21",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n121_0_22",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n121_0_23",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n121_0_24",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n121_0_25",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n121_0_26",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n121_0_27",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n121_0_28",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n121_0_29",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n121_0_30",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n121_0_31",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n121_0_32",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n121_0_33",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n121_0_34",
+      "origin": "round6 union bank",
+      "degree": 33
+    },
+    {
+      "name": "n121_0_35",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n121_0_36",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n121_0_37",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n121_0_38",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n121_0_39",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n121_0_40",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n121_0_41",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n121_0_42",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n121_0_43",
+      "origin": "round6 union bank",
+      "degree": 32
+    },
+    {
+      "name": "n121_0_44",
+      "origin": "round6 union bank",
+      "degree": 47
+    },
+    {
+      "name": "n121_0_45",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n121_0_46",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n121_0_47",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n121_0_48",
+      "origin": "round6 union bank",
+      "degree": 49
+    },
+    {
+      "name": "n121_0_49",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n121_0_50",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n121_0_51",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n121_0_52",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n121_0_53",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n121_0_54",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n121_0_55",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n121_0_56",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n121_0_57",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n121_0_58",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n121_0_59",
+      "origin": "round6 union bank",
+      "degree": 48
+    },
+    {
+      "name": "n121_1_0",
+      "origin": "round6 union bank",
+      "degree": 22
+    },
+    {
+      "name": "n121_1_1",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "n121_1_2",
+      "origin": "round6 union bank",
+      "degree": 19
+    },
+    {
+      "name": "n121_1_3",
+      "origin": "round6 union bank",
+      "degree": 22
+    },
+    {
+      "name": "n121_1_4",
+      "origin": "round6 union bank",
+      "degree": 15
+    },
+    {
+      "name": "n121_1_5",
+      "origin": "round6 union bank",
+      "degree": 25
+    },
+    {
+      "name": "n121_1_6",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n121_1_7",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "n121_1_8",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "n121_1_9",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "n121_1_10",
+      "origin": "round6 union bank",
+      "degree": 22
+    },
+    {
+      "name": "n121_1_11",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "n121_1_12",
+      "origin": "round6 union bank",
+      "degree": 6
+    },
+    {
+      "name": "n121_1_13",
+      "origin": "round6 union bank",
+      "degree": 12
+    },
+    {
+      "name": "n121_1_14",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n121_1_15",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n121_2_0",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n121_2_1",
+      "origin": "round6 union bank",
+      "degree": 21
+    },
+    {
+      "name": "n121_2_2",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "n121_2_3",
+      "origin": "round6 union bank",
+      "degree": 31
+    },
+    {
+      "name": "n121_2_4",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "n121_2_5",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n121_2_6",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n121_2_7",
+      "origin": "round6 union bank",
+      "degree": 29
+    },
+    {
+      "name": "n121_2_8",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n121_2_9",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n121_2_10",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n121_2_11",
+      "origin": "round6 union bank",
+      "degree": 30
+    },
+    {
+      "name": "n121_2_12",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "n121_2_13",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n121_2_14",
+      "origin": "round6 union bank",
+      "degree": 46
+    },
+    {
+      "name": "n121_2_15",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n121_2_16",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n121_2_17",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n121_2_18",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n121_2_19",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n121_2_20",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n121_2_21",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n121_2_22",
+      "origin": "round6 union bank",
+      "degree": 23
+    },
+    {
+      "name": "n121_2_23",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n121_2_24",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n121_2_25",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n121_2_26",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n121_2_27",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n121_2_28",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n121_2_29",
+      "origin": "round6 union bank",
+      "degree": 46
+    },
+    {
+      "name": "n121_2_30",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n121_2_31",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n121_2_32",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n121_2_33",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n121_2_34",
+      "origin": "round6 union bank",
+      "degree": 46
+    },
+    {
+      "name": "n121_2_35",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n121_2_36",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n121_2_37",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n121_2_38",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n121_2_39",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n121_2_40",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n121_2_41",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "n121_2_42",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n121_2_43",
+      "origin": "round6 union bank",
+      "degree": 19
+    },
+    {
+      "name": "n121_2_44",
+      "origin": "round6 union bank",
+      "degree": 28
+    },
+    {
+      "name": "n121_2_45",
+      "origin": "round6 union bank",
+      "degree": 27
+    },
+    {
+      "name": "n121_2_46",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "n121_2_47",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n121_2_48",
+      "origin": "round6 union bank",
+      "degree": 18
+    },
+    {
+      "name": "n121_2_49",
+      "origin": "round6 union bank",
+      "degree": 26
+    },
+    {
+      "name": "n121_2_50",
+      "origin": "round6 union bank",
+      "degree": 16
+    },
+    {
+      "name": "n121_2_51",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n121_2_52",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n121_2_53",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n121_2_54",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n121_2_55",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n121_2_56",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n121_2_57",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "n121_2_58",
+      "origin": "round6 union bank",
+      "degree": 23
+    },
+    {
+      "name": "n121_2_59",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n121_3_0",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n121_3_1",
+      "origin": "round6 union bank",
+      "degree": 47
+    },
+    {
+      "name": "n121_3_2",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n121_3_3",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n121_3_4",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n121_3_5",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n121_3_6",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n121_3_7",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n121_3_8",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n121_3_9",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n121_3_10",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n121_3_11",
+      "origin": "round6 union bank",
+      "degree": 49
+    },
+    {
+      "name": "n121_3_12",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n121_3_13",
+      "origin": "round6 union bank",
+      "degree": 50
+    },
+    {
+      "name": "n121_3_14",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n121_3_15",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n121_3_16",
+      "origin": "round6 union bank",
+      "degree": 29
+    },
+    {
+      "name": "n121_3_17",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n121_3_18",
+      "origin": "round6 union bank",
+      "degree": 50
+    },
+    {
+      "name": "n121_3_19",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n121_3_20",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n121_3_21",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n121_3_22",
+      "origin": "round6 union bank",
+      "degree": 49
+    },
+    {
+      "name": "n121_3_23",
+      "origin": "round6 union bank",
+      "degree": 35
+    },
+    {
+      "name": "n121_3_24",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n121_3_25",
+      "origin": "round6 union bank",
+      "degree": 20
+    },
+    {
+      "name": "n121_3_26",
+      "origin": "round6 union bank",
+      "degree": 34
+    },
+    {
+      "name": "n121_3_27",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n121_3_28",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n121_3_29",
+      "origin": "round6 union bank",
+      "degree": 48
+    },
+    {
+      "name": "n121_3_31",
+      "origin": "round6 union bank",
+      "degree": 49
+    },
+    {
+      "name": "n121_3_32",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n121_3_33",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n121_3_34",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n121_3_35",
+      "origin": "round6 union bank",
+      "degree": 48
+    },
+    {
+      "name": "n121_3_36",
+      "origin": "round6 union bank",
+      "degree": 40
+    },
+    {
+      "name": "n121_3_37",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n121_3_38",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "n121_3_39",
+      "origin": "round6 union bank",
+      "degree": 47
+    },
+    {
+      "name": "n121_3_40",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n121_3_41",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n121_3_42",
+      "origin": "round6 union bank",
+      "degree": 18
+    },
+    {
+      "name": "n121_3_43",
+      "origin": "round6 union bank",
+      "degree": 39
+    },
+    {
+      "name": "n121_3_44",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "n121_3_45",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n121_3_46",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n121_3_47",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n121_3_48",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n121_3_49",
+      "origin": "round6 union bank",
+      "degree": 43
+    },
+    {
+      "name": "n121_3_50",
+      "origin": "round6 union bank",
+      "degree": 49
+    },
+    {
+      "name": "n121_3_51",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n121_3_52",
+      "origin": "round6 union bank",
+      "degree": 37
+    },
+    {
+      "name": "n121_3_53",
+      "origin": "round6 union bank",
+      "degree": 44
+    },
+    {
+      "name": "n121_3_54",
+      "origin": "round6 union bank",
+      "degree": 45
+    },
+    {
+      "name": "n121_3_55",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n121_3_56",
+      "origin": "round6 union bank",
+      "degree": 41
+    },
+    {
+      "name": "n121_3_57",
+      "origin": "round6 union bank",
+      "degree": 36
+    },
+    {
+      "name": "n121_3_58",
+      "origin": "round6 union bank",
+      "degree": 38
+    },
+    {
+      "name": "n121_3_59",
+      "origin": "round6 union bank",
+      "degree": 33
+    },
+    {
+      "name": "n121_5_0",
+      "origin": "round6 union bank",
+      "degree": 24
+    },
+    {
+      "name": "n121_5_1",
+      "origin": "round6 union bank",
+      "degree": 10
+    },
+    {
+      "name": "n11_6_0",
+      "origin": "round6 union bank",
+      "degree": 42
+    },
+    {
+      "name": "n11_6_44",
+      "origin": "round6 union bank",
+      "degree": 22
+    },
+    {
+      "name": "n11_6_46",
+      "origin": "round6 union bank",
+      "degree": 28
+    }
+  ]
+}

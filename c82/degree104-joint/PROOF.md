@@ -1,6 +1,6 @@
 # Essential-minimum proof for the degree-104 certificate
 
-The claim is C82 <= B < 0.2519964890 (rigorous interval enclosure, verify_best.py), conditional on the mathematical argument below and the trusted exact/ball arithmetic backend. This is a candidate, unrefereed result, verification level L0 for the bound as a whole.
+The claim is C82 <= B < 0.2519923410 (rigorous interval enclosure, verify_best.py), conditional on the mathematical argument below and the trusted exact/ball arithmetic backend. This is a candidate, unrefereed result, verification level L0 for the bound as a whole.
 
 The cited construction is C. Doche, [*Zhang-Zagier heights of perturbed polynomials*](https://www.numdam.org/item/JTNB_2001__13_1_103_0/), J. Théor. Nombres Bordeaux 13 (2001), 103–110, equations (5)–(9), especially the roots-of-unity averaging lemma on page 108. Doche uses multiplicative heights: take natural logarithms to obtain the live 82a normalization. The extraction argument in the last part below is credited to the clean-room referee of the earlier degree-104 certificate, whose complete argument is preserved in [../degree104-cvp/review/REFEREE.md](../degree104-cvp/review/REFEREE.md); this certificate's referee report is review/REFEREE.md. The release supplies it explicitly rather than assuming that a limit of polynomial averages is automatically an essential-minimum bound.
 
@@ -12,13 +12,13 @@ Let T(z)=z(1-z). The certificate supplies nonconstant integer polynomials R_j wi
     D = sum_j m_j deg(R_j),
     a = sum_i q_i deg(S_i).
 
-Require a<D and gcd(S_i,R_j)=1 for every active pair. No monicity condition is imposed on S_i. In particular, the leading coefficient 9 in n121_3_30 (the only non-monic numerator) contributes its logarithm to the integrand. Irreducibility of the factors and pairwise coprimality of the denominators are unnecessary for this proof.
+Require a<D and gcd(S_i,R_j)=1 for every active pair. No monicity condition is imposed on S_i. In particular, the leading coefficients 9 in n121_3_30 and 2 in n31_6_7 (the two non-monic numerators) contribute their logarithms to the integrand. Irreducibility of the factors and pairwise coprimality of the denominators are unnecessary for this proof.
 
 Choose a positive common denominator b of the q_i and set
 
     A(X) = product_i S_i(X)^(b*q_i).
 
-Then A and Q are nonzero integer polynomials, Q is monic, deg(A)=ba<bD, and gcd(A,Q)=1. The certificate has 8 monic degree-104 denominators and 15 active numerators. In the certificate, D=1000000000064 and a=58700834920208207/65536, with slack D-a=6835165083986097/65536. These exact hypotheses and all 120 active gcd pairs are checked by verify_best.py.
+Then A and Q are nonzero integer polynomials, Q is monic, deg(A)=ba<bD, and gcd(A,Q)=1. The certificate has 8 monic degree-104 denominators and 18 active numerators. In the certificate, D=999999999856 and a=939550863051360379/1048576, with slack D-a=109025136797644677/1048576. These exact hypotheses and all 144 active gcd pairs are checked by verify_best.py.
 
 For Mahler measure M and natural logarithms define
 
@@ -80,6 +80,6 @@ There are therefore infinitely many distinct algebraic numbers with h_Z<=B+epsil
 
 ## Computational conclusion and limits
 
-verify_best.py checks the exact finite hypotheses, composes in integer arithmetic, isolates all 2126 composed roots with FLINT, and encloses H+J with Arb using the error bounds in NUMERICS.md. Its fresh release receipt is receipts/release-verifier.json. The exact dyadic upper endpoint is strictly below the exact rational target 0.2519964890 (rigorous, verify_best.py). Together with the mathematical argument above this gives the stated strict bound.
+verify_best.py checks the exact finite hypotheses, composes in integer arithmetic, isolates all 2224 composed roots with FLINT, and encloses H+J with Arb using the error bounds in NUMERICS.md. Its fresh release receipt is receipts/release-verifier.json. The exact dyadic upper endpoint is strictly below the exact rational target 0.2519923410 (rigorous, verify_best.py). Together with the mathematical argument above this gives the stated strict bound.
 
-The independently written clean-room checker and its result for this certificate are in review/replay/ (verdict HOLDS WITH CAVEATS; the caveat concerns model provenance, not the mathematics); review/REFEREE.md is its report. These computations are not proof-assistant formalization or line-by-line human verification. Trust includes the cited averaging theorem, the height/extraction argument, Python exact arithmetic and FLINT/Arb's certified roots and ball arithmetic.
+The independently written clean-room checker and its result for this certificate are in review/replay/ (verdict HOLDS WITH CAVEATS; the caveat concerns model provenance, not the mathematics). These computations are not proof-assistant formalization or line-by-line human verification. Trust includes the cited averaging theorem, the height/extraction argument, Python exact arithmetic and FLINT/Arb's certified roots and ball arithmetic.

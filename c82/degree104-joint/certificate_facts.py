@@ -37,18 +37,23 @@ def main():
     roots=2*sum(len(x['coeffs'])-1 for x in den+num)
     expected={'D':D,'degree_A':str(a),'coprimality_pairs':pairs,'composed_roots':roots,'denominator_factors':len(den),'numerator_factors':len(num)}
     assert receipt['audit']==expected
-    lo=endpoint(receipt['bound']['lower']);hi=endpoint(receipt['bound']['upper']);target=Fraction('0.2519964890')
-    assert hi<target and receipt['target']=='0.2519964890'
+    lo=endpoint(receipt['bound']['lower']);hi=endpoint(receipt['bound']['upper']);target=Fraction('0.2519923410')
+    assert hi<target and receipt['target']=='0.2519923410'
     facts={'certificate_sha256':sha,'D':D,'a':str(a),'slack':str(D-a),'active_gcd_pairs':pairs,'composed_roots':roots,
            'denominator_factors':len(den),'numerator_factors':len(num),'denominator_degrees':sorted({len(x['coeffs'])-1 for x in den}),
            'non_monic_numerators':{x['name']:x['coeffs'][0] for x in num if x['coeffs'][0]!=1},
            'exact_lower':str(lo),'exact_upper':str(hi),'interval_lower':outward(lo),'interval_upper':outward(hi,True),
-           'release_target':'0.2519964890','exact_margin_lower':str(target-hi),
+           'release_target':'0.2519923410','exact_margin_lower':str(target-hi),
            'gap_to_280_v3_at_least':outward(Fraction('0.2520591386')-hi),
-           'gap_to_previous_330_at_least':outward(Fraction('0.2520179248')-hi),
-           'exact_gap_to_280_v3':str(Fraction('0.2520591386')-hi),'exact_gap_to_previous_330':str(Fraction('0.2520179248')-hi),
+           'gap_to_previous_330_at_least':outward(Fraction('0.2519964890')-hi),
+           'gap_to_280_v4_at_least':outward(Fraction('0.2520079724')-hi),
+           'exact_gap_to_280_v3':str(Fraction('0.2520591386')-hi),'exact_gap_to_previous_330':str(Fraction('0.2519964890')-hi),'exact_gap_to_280_v4':str(Fraction('0.2520079724')-hi),
            'source':'Computed from certificate.json and receipts/release-verifier.json by certificate_facts.py; coefficient order descending. Composed-root count agrees with certified root isolation in verify_best.py.',
-           'encoding_note':'P3 exponent is 10908223350879106/1048576, doubled from its lowest-terms form over 524288; same rational as the final producer certificate.'}
+           'encoding_note':'Producer release bytes retained unchanged; see CERTIFICATE_ENCODING.md for equal-fraction representations.'}
+    public_raw=(P/'prior_sources/pr280-v4-certificate.json').read_bytes()
+    public=json.loads(public_raw)
+    facts['pr280_v4_certificate_sha256']=hashlib.sha256(public_raw).hexdigest()
+    facts['pr280_v4_factor_overlap']={k:[{'packet_name':x['name'],'public_name':y['name']} for x in cert[k] for y in public[k] if x['coeffs']==y['coeffs']] for k in ['denominator','numerator']}
     (P/'receipts/certificate-facts.json').write_text(json.dumps(facts,indent=2)+'\n')
     print(json.dumps(facts,indent=2))
 

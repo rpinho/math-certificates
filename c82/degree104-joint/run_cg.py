@@ -29,7 +29,7 @@ def verify(prefix):
     sha=hashlib.sha256(Path(cert).read_bytes()).hexdigest()
     source=''.join("EXPECTED = '"+sha+"'\n" if line.startswith('EXPECTED = ') else line for line in source.splitlines(True))
     verifier=prefix+'-verifier.py';Path(verifier).write_text(source)
-    run([verifier,'--certificate',cert,'--target','0.2520591386','--precision','256','--tol','1e-13','--out',prefix+'-replay.json'],prefix+'-verify.log')
+    run([verifier,'--certificate',cert,'--target','0.2520079724','--precision','256','--tol','1e-13','--out',prefix+'-replay.json'],prefix+'-verify.log')
     checkpoint(cert,verifier,prefix+'-replay.json')
 
 def compact(state,prefix):
@@ -47,7 +47,7 @@ if __name__=='__main__':
     if a.first==0:verify(state.removesuffix('.json'))
     state=compact(state,'rounds/restricted-'+str(a.first)+'.json')
     for k in range(a.first,a.first+a.rounds):
-        if time.time()-json.loads(Path('evidence/start.json').read_text())['start_epoch']>7*3600:break
+        if time.time()-json.loads(Path('evidence/start.json').read_text())['start_epoch']>7.5*3600:break
         searches=[];jobs=[]
         with open('STATUS.md','a') as f:f.write('\n'+time.strftime('%Y-%m-%d %H:%M:%S')+f' CVP round {k}, master {state}; {a.workers} workers, standard defaults, {a.seconds} seconds each.\n')
         before=resource.getrusage(resource.RUSAGE_CHILDREN)
@@ -89,7 +89,7 @@ if __name__=='__main__':
             screen=json.loads(Path(prefix+'-screen.json').read_text())
             if not screen['added']:break
             state=prefix+'.json';dual=prefix+'-dual.npz';verify(prefix)
-        new=json.loads(Path(state).read_text())['lp'];empty=empty+1 if negative==0 and old-new<1e-10 else 0
+        new=json.loads(Path(state).read_text())['lp'];empty=empty+1 if old-new<1e-10 else 0
         record={'round':k,'old_lp':old,'new_lp':new,'negative_candidates':negative,'gain':old-new,'empty_rounds':empty,'state':state,'dual':dual}
         history.append(record);write_json('rounds/progress.json',{'history':history,'state':state,'dual':dual,'elapsed':time.monotonic()-begun})
         with open('STATUS.md','a') as f:f.write('\n'+json.dumps(record)+'\n')

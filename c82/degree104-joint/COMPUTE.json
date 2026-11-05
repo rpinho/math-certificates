@@ -1,12 +1,16 @@
 {
-  "tracked_subprocess_cpu_seconds": 11536.118489000002,
-  "tracked_subprocess_core_hours": 3.204477358055556,
-  "bootstrap_single_thread_wall_seconds_upper_estimate": 292.09574004099704,
-  "estimated_total_core_hours": 3.2856150636224997,
-  "small_unmeasured_overhead_allowance_core_hours": 0.01,
-  "wall_hours": 2.075852772196134,
-  "max_numerical_workers": 3,
+  "tracked_subprocess_cpu_seconds": 5199.427900000001,
+  "tracked_core_hours": 1.444285527777778,
+  "interrupted_search_unmeasured_cpu_seconds_upper_bound": 759.1203483267517,
+  "total_core_hours_conservative_upper_bound": 1.6651522912018757,
+  "additional_short_setup_reporting_allowance_core_hours": 0.01,
+  "wall_hours": 1.1771472995148764,
+  "maximum_numerical_workers": 2,
+  "maximum_allowed_cores": 3,
   "blas_threads": 1,
+  "highs_threads": 1,
+  "flint_threads": 1,
   "nice_invocation": 10,
-  "effective_nice": 20
+  "effective_nice": 20,
+  "note": "Detailed child CPU records counted once; wrapper aggregate excluded. Interrupted round-one CPU uses saved process_time lower bounds; conservatively bound missing tails by two cores until resume. Short setup/reporting allowance separate."
 }

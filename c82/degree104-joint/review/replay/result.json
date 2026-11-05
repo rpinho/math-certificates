@@ -1,81 +1,109 @@
 {
-  "B": [
-    "0.251996488988201164531880087886",
-    "0.251996488988201164532207712015"
-  ],
+  "status": "PASS",
+  "target": "0.2519923410",
+  "precision_bits": 384,
+  "taylor_order": 40,
+  "integration_tolerance": "1e-21",
+  "certificate_sha256": "ee9622b5e141489ad6fbf98b0ec5c43ac3e1b657f8876b435e65c536f359fdd5",
+  "exact": {
+    "D": 999999999856,
+    "a": "939550863051360379/1048576",
+    "slack": "109025136797644677/1048576",
+    "b": 1048576,
+    "degree_A": "939550863051360379",
+    "degree_Q_power_b": 1048575999849005056,
+    "active_gcd_pairs": 144,
+    "denominator_count": 8,
+    "active_numerator_count": 18,
+    "composed_root_count_with_multiplicity": 2224
+  },
   "H": [
-    "0.251992523252609459669852920685",
-    "0.251992523252609459669852920686"
+    "0.251990275374608412903614832015",
+    "0.251990275374608412903614832016"
   ],
   "J": [
-    "0.000003965735591704862027167201",
-    "0.000003965735591704862354791329"
+    "0.000002065597399978337287368115",
+    "0.000002065597399978337289388528"
   ],
-  "certificate_sha256": "b71150bb7c1a7ac34e86b447e565cdd6c6d33bb225fa910f0acced4136f74171",
+  "B": [
+    "0.251992340972008391240902200131",
+    "0.251992340972008391240904220544"
+  ],
+  "B_ball": "[0.25199234097200839124090 +/- 4.23e-24]",
+  "panels": {
+    "visited": 7817,
+    "negative": 2524,
+    "positive": 1064,
+    "crossing": 62,
+    "singular_negative": 259,
+    "max_level": 45,
+    "covered_length": "1/2"
+  },
   "controls": {
-    "analytic_positive": {
-      "B": [
-        "1.609437912434100374586491804342",
-        "1.609437912434100374646115455456"
-      ],
-      "J": [
-        "0.510825623765990683191246567470",
-        "0.510825623765990683250870218483"
-      ],
-      "expected": "log(5)",
-      "stats": {
-        "evaluated": 53,
-        "max_depth": 22,
-        "negative": 0,
-        "positive": 26,
-        "positive_arcs": 1,
-        "uncertain": 1,
-        "unresolved_integral_upper": "[5.962365076758004414618362805223878998208580950966783045077385227737251062505e-20 +/- 9.58e-97]"
-      }
+    "perturbed_coefficient": {
+      "status": "PASS",
+      "rejection": "denominator is not nonconstant monic"
     },
-    "analytic_singular": {
+    "perturbed_exponent": {
+      "status": "PASS",
+      "rejection": "negative exponent"
+    },
+    "degree_failure": {
+      "status": "PASS",
+      "rejection": "strict degree condition fails"
+    },
+    "gcd_failure": {
+      "status": "PASS",
+      "rejection": "nontrivial numerator/denominator gcd"
+    },
+    "analytic_constant_1": {
+      "status": "PASS",
+      "expected": "log(3)",
       "B": [
         "1.098612288668109691395245236922",
         "1.098612288668109691395245236923"
       ],
-      "J": "0",
-      "expected": "log(3)",
-      "stats": {
-        "evaluated": 11,
-        "max_depth": 3,
-        "negative": 6,
+      "J": [
+        "0.000000000000000000000000000000",
+        "0.000000000000000000000000000000"
+      ],
+      "panels": {
+        "visited": 13,
+        "negative": 2,
         "positive": 0,
-        "positive_arcs": 0,
-        "uncertain": 0,
-        "unresolved_integral_upper": "0"
+        "crossing": 0,
+        "singular_negative": 5,
+        "max_level": 3,
+        "covered_length": "1/2"
       }
     },
-    "false_target": "REJECTED: lower endpoint exceeds 0.2519964889",
-    "perturbed_coefficient": "REJECTED: denominator must be nonconstant and monic",
-    "perturbed_exponent": "REJECTED: negative exponent"
+    "analytic_constant_16": {
+      "status": "PASS",
+      "expected": "log(16)",
+      "B": [
+        "2.772588722239781237668927876190",
+        "2.772588722239781237668929095476"
+      ],
+      "J": [
+        "1.673976433571671546273682639267",
+        "1.673976433571671546273683858553"
+      ],
+      "panels": {
+        "visited": 23,
+        "negative": 0,
+        "positive": 12,
+        "crossing": 0,
+        "singular_negative": 0,
+        "max_level": 4,
+        "covered_length": "1/2"
+      }
+    },
+    "false_target": {
+      "status": "PASS",
+      "target": "0.2519923409",
+      "decision": "REJECT",
+      "reason": "target is strictly below the rigorous lower endpoint of B"
+    }
   },
-  "exact": {
-    "D": 1000000000064,
-    "a": "58700834920208207/65536",
-    "active_numerators": 15,
-    "active_pairs": 120,
-    "circle_roots": 7,
-    "common_denominator": 1048576,
-    "composed_roots": 2126,
-    "denominators": 8,
-    "slack": "6835165083986097/65536"
-  },
-  "precision": 256,
-  "seconds": 39,
-  "status": "PASS",
-  "target": "0.2519964890",
-  "tiling": {
-    "evaluated": 5951,
-    "max_depth": 41,
-    "negative": 1960,
-    "positive": 958,
-    "positive_arcs": 29,
-    "uncertain": 58,
-    "unresolved_integral_upper": "[3.276241262393121912681050219991262879098722152921928770552246595231795338847e-22 +/- 8.72e-99]"
-  }
+  "elapsed_ns": 478658496375
 }

@@ -7,14 +7,14 @@
   "tree_sources": [
     {
       "file": "prior_sources/vidigoat-tree-197962c.json",
-      "sha256": "07439864dcb125a3692e3d7099e336f3ca44a184dc9d7897808f6945bb9e54e6",
+      "sha256": "a78973851ca7d8ade11dd6c0ea391bff6d164595244f84721809192e30b55486",
       "root_tree_sha": "197962c9610f583e9bc56efe37bfb994c1eeb834",
       "truncated": false,
       "blob_count": 196
     },
     {
       "file": "prior_sources/vidigoat-tree-3a7a84f.json",
-      "sha256": "33e51c5079ce3c132322b072861e6877a110d2e814f89ddac276bdc7da38b5b8",
+      "sha256": "1582aad362dfa09a6f91b902f5308a4e59b8f1986813cd19c1966d74a2cd9cdd",
       "root_tree_sha": "3a7a84fec9c64ae426f06a5f52597c84b3453ba0",
       "truncated": false,
       "blob_count": 166
@@ -23,7 +23,7 @@
   "files": [
     {
       "file": "add_columns.py",
-      "git_blob_sha1": "c9f6cbed7f9cc0a8cd913f91e3d8883f4b0c7aab",
+      "git_blob_sha1": "22df19de98187dd8f877e1cf8a78a1bea81a34ac",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
@@ -39,8 +39,24 @@
       "grep_import_matches": []
     },
     {
+      "file": "bootstrap.py",
+      "git_blob_sha1": "6ab6627d93d028f39af0ae09cb0561a7d6d4e2b7",
+      "foreign_blob_matches": [],
+      "imports": [
+        "checkpoint",
+        "json",
+        "numerics",
+        "pathlib",
+        "resource",
+        "run_cg",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
       "file": "certificate_facts.py",
-      "git_blob_sha1": "b8a88db08841bc4089ec85ec5f896042f53c5b46",
+      "git_blob_sha1": "e8e570d382bb92f5b93d57a86427a6252f9f30fa",
       "foreign_blob_matches": [],
       "imports": [
         "decimal",
@@ -55,7 +71,7 @@
     },
     {
       "file": "checkpoint.py",
-      "git_blob_sha1": "22ba677be417cf1b0ef8b1cfa4ef10773b54d251",
+      "git_blob_sha1": "0d9b8aade195b7ac74d2ce26cd7972591b442634",
       "foreign_blob_matches": [],
       "imports": [
         "decimal",
@@ -71,7 +87,7 @@
     },
     {
       "file": "cvp_search.py",
-      "git_blob_sha1": "d6d06ba34c6a29f27f350814e849ec4c23f42c88",
+      "git_blob_sha1": "b045f425a20c27825d7e88df3e563906401dcdf3",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
@@ -93,7 +109,7 @@
     },
     {
       "file": "evidence/control-shared_factor-verifier.py",
-      "git_blob_sha1": "245ec4cacc1a4f8a26691d7b5c9417b4aa71090e",
+      "git_blob_sha1": "fb5f07a9595ddf6baa5a3daaefc5ea305a787fa9",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
@@ -111,7 +127,7 @@
     },
     {
       "file": "evidence/control-zero_multiplicity-verifier.py",
-      "git_blob_sha1": "55ef23702d78f58d9cc188f7761c5f6246fa33ab",
+      "git_blob_sha1": "7b89d4b72b0454fd902e803d9ef7b0c4ceeafde2",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
@@ -128,20 +144,47 @@
       "grep_import_matches": []
     },
     {
-      "file": "evidence/run_cg_original.py",
-      "git_blob_sha1": "662752bc1afc7dc843fa2f16d90a9718fe84555b",
+      "file": "evidence/failed-bootstrap.py",
+      "git_blob_sha1": "6ab6627d93d028f39af0ae09cb0561a7d6d4e2b7",
+      "foreign_blob_matches": [],
+      "imports": [
+        "checkpoint",
+        "json",
+        "numerics",
+        "pathlib",
+        "resource",
+        "run_cg",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "evidence/failed-prepare_union.py",
+      "git_blob_sha1": "6ba9fb13cabf2caaa9d8bfd7c3605e4894365798",
+      "foreign_blob_matches": [],
+      "imports": [
+        "json",
+        "numerics",
+        "pathlib"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "evidence/pre-memory-joint_lp.py",
+      "git_blob_sha1": "bda9033e6557138a5be49c1cbe0ef380fc06ea54",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
-        "checkpoint",
+        "fractions",
         "hashlib",
+        "highspy",
         "json",
         "numerics",
-        "os",
+        "numpy",
         "pathlib",
-        "resource",
-        "subprocess",
-        "sys",
+        "scipy",
         "time"
       ],
       "prohibited_imports": [],
@@ -166,16 +209,28 @@
       "grep_import_matches": []
     },
     {
-      "file": "finish_report.py",
-      "git_blob_sha1": "7aae1a1f71702224faf2f5e59913125c3092f99a",
+      "file": "finalize_provenance.py",
+      "git_blob_sha1": "7fce4b4148d43cf06975e3bcf5cee89bf0bdbf58",
       "foreign_blob_matches": [],
       "imports": [
-        "decimal",
+        "json",
+        "numerics",
+        "pathlib"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "finish_report.py",
+      "git_blob_sha1": "6fc3184c7dc405d9d4e8bd5106cec232740fa17b",
+      "foreign_blob_matches": [],
+      "imports": [
+        "checkpoint",
+        "fractions",
         "json",
         "numerics",
         "os",
         "pathlib",
-        "subprocess",
         "time"
       ],
       "prohibited_imports": [],
@@ -183,7 +238,7 @@
     },
     {
       "file": "joint_lp.py",
-      "git_blob_sha1": "a6492930964e0259ae990e0a086949854ea962b1",
+      "git_blob_sha1": "00206c74890cf295ef3034d48230d564a7ae326b",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
@@ -237,7 +292,7 @@
     },
     {
       "file": "prepare_union.py",
-      "git_blob_sha1": "e29ca5308a2059e9c77b4fc186f2301c8c749dd9",
+      "git_blob_sha1": "3cc09fbe4d0f930e8c1be9594d0352f898af9ba5",
       "foreign_blob_matches": [],
       "imports": [
         "json",
@@ -264,40 +319,54 @@
       "grep_import_matches": []
     },
     {
+      "file": "resume_cg.py",
+      "git_blob_sha1": "94d62e4769d251e1e1270ab18d8dfc97c61185bf",
+      "foreign_blob_matches": [],
+      "imports": [
+        "json",
+        "numerics",
+        "pathlib",
+        "run_cg",
+        "subprocess",
+        "sys",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "resume_union.py",
+      "git_blob_sha1": "46b9c62635541187cc5dbd2fc60139bd7ecfe919",
+      "foreign_blob_matches": [],
+      "imports": [
+        "numerics",
+        "run_cg",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
       "file": "review/replay/check.py",
-      "git_blob_sha1": "ed8f95b77ad01c6956ed01a15dd8dbff71b8ee01",
+      "git_blob_sha1": "0f0752733f473c789bea6f4d3e4d06b56383d799",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
         "copy",
         "flint",
-        "fractions",
         "hashlib",
         "json",
         "os",
         "pathlib",
+        "sys",
         "time"
       ],
       "prohibited_imports": [],
       "grep_import_matches": []
     },
     {
-      "file": "review/replay/explore.py",
-      "git_blob_sha1": "bb0874865db792c2f856f4e63a3783739e2f9e6d",
-      "foreign_blob_matches": [],
-      "imports": [
-        "flint",
-        "fractions",
-        "json",
-        "os",
-        "time"
-      ],
-      "prohibited_imports": [],
-      "grep_import_matches": []
-    },
-    {
-      "file": "rounds/num-16-1-verifier.py",
-      "git_blob_sha1": "bec50384bbaf7eb7c7587333e785ab5cbf8a679c",
+      "file": "rounds/den-5-verifier.py",
+      "git_blob_sha1": "bb7c7e48ca2255cf43c492ee54a55e0e38272b3b",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
@@ -315,7 +384,7 @@
     },
     {
       "file": "run_cg.py",
-      "git_blob_sha1": "15b765139ff103390f1201cde0a32947c510f018",
+      "git_blob_sha1": "c93b4ddbf0e2f4471e805612f41c3c7141282ce3",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
@@ -335,7 +404,7 @@
     },
     {
       "file": "seal.py",
-      "git_blob_sha1": "af5cb7d31fed3041ae581c732a5b7e2a9d80075c",
+      "git_blob_sha1": "e2b8511da9300c9f63fe5c2ebd2c8082e998737f",
       "foreign_blob_matches": [],
       "imports": [
         "ast",
@@ -350,8 +419,22 @@
       "grep_import_matches": []
     },
     {
+      "file": "setup_local.py",
+      "git_blob_sha1": "ec2e495c2ee656b6b434a0dac637541d882fab98",
+      "foreign_blob_matches": [],
+      "imports": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "shutil",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
       "file": "source_inventory.py",
-      "git_blob_sha1": "a95e6c70c99f722d4cee712a57178e476f2f25a9",
+      "git_blob_sha1": "d610492a68af0ef4dc0c807ad0dab6a3b47eb337",
       "foreign_blob_matches": [],
       "imports": [
         "ast",
@@ -366,7 +449,25 @@
     },
     {
       "file": "verify_best.py",
-      "git_blob_sha1": "7c75c7b7ad26cd147539eda98bdf62032e2bdb70",
+      "git_blob_sha1": "bb7c7e48ca2255cf43c492ee54a55e0e38272b3b",
+      "foreign_blob_matches": [],
+      "imports": [
+        "argparse",
+        "collections",
+        "flint",
+        "fractions",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "verify_pr280_v4.py",
+      "git_blob_sha1": "62f29451588b1c5fec96149c459260617cfe9637",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
@@ -384,7 +485,25 @@
     },
     {
       "file": "verify_public.py",
-      "git_blob_sha1": "c92cf03bcec0ce575d444164496f5d90f6df417a",
+      "git_blob_sha1": "7c75c7b7ad26cd147539eda98bdf62032e2bdb70",
+      "foreign_blob_matches": [],
+      "imports": [
+        "argparse",
+        "collections",
+        "flint",
+        "fractions",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "verify_round6.py",
+      "git_blob_sha1": "7c75c7b7ad26cd147539eda98bdf62032e2bdb70",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",

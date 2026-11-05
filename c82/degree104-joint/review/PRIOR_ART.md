@@ -1,13 +1,14 @@
-# Permitted prior art, 2026-11-05
+# Prior art and comparison scope — 2026-11-05
 
-The clean-room spec overrides the broader search checklist in RULES.md: no producer repository code, linked packets, neighboring jobs, or other _codex files were read. This job referees the supplied certificate; it does not search for a new construction.
+This is a clean-room referee/replay, not a search for a new construction. The specific input restrictions override the broader repository/code-search requirements in RULES.md. No linked certificate packet or producer/replayer code has been accessed.
 
-Read live https://github.com/teorth/optimizationproblems/blob/main/constants/82a.md and bodies/comments of PRs #280, #301, #330 with the specified gh executable; saved text in sources/. The merged table prints 0.2536331090204145 and candidate 0.2534449*. The best candidate among the permitted live PRs is #330, 0.2520179248*, followed by #280 v3, 0.2520591386*, and #301, 0.253091834*. Their construction is Doche's limit-point method with weighted denominator and numerator factors. #280 credits CVP denominator searches; #330 credits joint optimization and new degree-104 factors.
+Allowed public sources read before implementation:
+- https://github.com/teorth/optimizationproblems/blob/main/constants/82a.md — live definition uses logarithmic absolute height h(alpha)+h(1-alpha), and the supremum of finite-sublevel thresholds. The merged table lists 0.2534449* as its smallest upper bound.
+- https://github.com/teorth/optimizationproblems/pull/280 — current v4 bound 0.2520079724*, V. Patankar, weighted closest-vector denominators and LLL numerator search. Body states rigorous upper endpoint 0.25200797232846; comments report an independent replay. Earlier v3 enclosure wording was corrected: an upper-bound quadrature tolerance is not a two-sided radius.
+- https://github.com/teorth/optimizationproblems/pull/301 — 0.253091834*, R. Pinho, residue-class/LP method; earlier certificate and independent replay described in text.
+- https://github.com/teorth/optimizationproblems/pull/330 — current bound 0.2519964890*, R. Pinho, joint degree-104 certificate built on Patankar v3; producer enclosure [0.2519964889882011564383,0.2519964889882011727026], independently replayed according to comments. This is the best of the allowed live PR texts.
+- C. Doche, Zhang-Zagier heights of perturbed polynomials, JTNB 13 (2001), 103–110, https://www.numdam.org/item/JTNB_2001__13_1_103_0/ — primary construction and averaging lemma.
 
-Doche, Zhang-Zagier heights of perturbed polynomials, JTNB 13 (2001), 103–110: https://www.numdam.org/item/JTNB_2001__13_1_103_0/ . This is the primary theorem to check.
+Bodies/comments and live definition are saved in sources/. Prior certificates cannot be reproduced here without violating the exclusive certificate-input rule. Comparison is therefore with their printed values, not a new replay of those certificates. The supplied new certificate alone will be replayed. No global priority claim is intended. Predictive-model baselines and SBS do not apply to a deterministic mathematical certificate.
 
-The old certificates cannot be replayed here because their packets are expressly forbidden inputs. Comparison uses their live printed bounds and replay statements, not an independent verification of those certificates. Broader code/repository/community searches are outside the explicit clean-room allowance. No global priority claim will be made.
-
-## Final permitted-source recheck
-
-During this replay #280 changed (updated_at 2026-11-05T13:30:35Z). Its new v4 body prints **0.2520079724*** and reports B <= 0.25200797232846, while retaining v3's 0.2520591386*. It remains above the supplied candidate. The final 82a source and #330 body are unchanged. Saved final bodies in sources/pr280-final.json and sources/pr330-final.json. No v4 linked code or certificate was accessed. Thus the best *currently observed permitted public candidate* is #280 v4; the requested comparison to v3 is retained separately. No exhaustive global priority claim is made.
+Final scoped recheck: PR #280 and #330 bodies/comments were fetched again with the prescribed gh executable. Both were byte-equivalent as parsed JSON to the initial snapshots (updatedAt 2026-11-05T14:07:16Z and 2026-11-05T15:14:40Z respectively). Their printed comparison values remain 0.2520079724* and 0.2519964890*. No linked packet or code was read.

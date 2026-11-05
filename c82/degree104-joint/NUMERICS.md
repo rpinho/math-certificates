@@ -14,7 +14,7 @@ bracket before division by D. All logs are natural. There is no extra factor
 of two in B: the integrator doubles exactly one half-circle integral because
 real coefficients give g(1-t)=g(t).
 
-The release PROOF.md gives the Doche limit-point reduction and the clean-room
+PROOF.md, adapted from our earlier release, gives the Doche limit-point reduction and the clean-room
 referee’s bounded-multiplicity extraction argument for infinitely many distinct algebraic numbers. This
 job rechecks its exact finite hypotheses (integral coefficients, positive
 integer denominator multiplicities, monicity, nonnegative rational exponents,

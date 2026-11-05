@@ -1,13 +1,7 @@
 {
-  "checked_at_utc": "2026-11-05T13:22:03.452393+00:00",
-  "command": [
-    "ps",
-    "-axo",
-    "pid,ppid,pcpu,command"
-  ],
-  "tracked_pid_count": 138,
-  "alive_tracked_processes": [],
-  "all_workers_stopped": true,
-  "artifact_bytes": 33949971,
-  "below_50_MB": true
+  "checked_at": "2026-11-05T10:14:35-0500",
+  "inspection_command": "ps -axo pid,ppid,pcpu,command",
+  "registered_pid_count": 64,
+  "live_registered_numerical_workers": [],
+  "all_job_workers_stopped": true
 }

@@ -23,15 +23,17 @@ class JointLP:
         self.n=n or cert.get('N',524288)
         self.t=grid(self.n); self.z=transformed_points(self.t)
         self.h=np.array([mahler_T(r['coeffs']) for r in self.den])
-        self.logs=np.column_stack([root_logs(r['coeffs'],self.z) for r in self.den+self.num])
+        # Column-contiguous fill avoids an 8 GB transient strided concatenation.
+        self.logs=np.empty((self.n,len(self.den)+len(self.num)),dtype=float,order='F')
+        for j,r in enumerate(self.den+self.num):
+            self.logs[:,j]=root_logs(r['coeffs'],self.z)
+            if j%100==0:print(json.dumps({'event':'evaluated_columns','done':j+1,'total':len(self.den)+len(self.num)}),flush=True)
         self.deg=np.array([len(r['coeffs'])-1 for r in self.den+self.num],float)
         self.nd=len(self.den); self.nf=len(self.deg)
         if 'mu' in cert:
             self.weights=np.r_[cert['mu'],cert['w']]
         else:
             _,mu,w=certificate_weights(cert); self.weights=np.r_[mu,w]
-        self.scaled=self.logs/self.deg
-        self.scaled[:,:self.nd]*=-1
         g=self.logs[:,self.nd:]@self.weights[self.nd:]-self.logs[:,:self.nd]@self.weights[:self.nd]
         # Positive atoms have u>0; retain a band around their boundaries as well.
         self.active=np.zeros(self.n,bool)
@@ -60,7 +62,9 @@ class JointLP:
         prev=self.model.getNumCol(); m=len(indices)
         self.model.addCols(m,np.full(m,1/self.n),np.zeros(m),np.full(m,highspy.kHighsInf),0,
                            np.zeros(m+1,np.int32),np.array([],np.int32),np.array([],float))
-        data=sparse.hstack([sparse.csr_matrix(self.scaled[indices]),
+        rows=self.logs[indices]/self.deg
+        rows[:,:self.nd]*=-1
+        data=sparse.hstack([sparse.csr_matrix(rows),
                             sparse.csr_matrix((m,prev-self.nf)), -sparse.eye(m)],format='csr')
         self.add_matrix_rows(data,np.full(m,-highspy.kHighsInf),np.zeros(m))
         self.active[indices]=True; self.idx=np.r_[self.idx,indices]
@@ -80,7 +84,7 @@ class JointLP:
                     raise RuntimeError(str(status))
             sol=self.model.getSolution(); x=np.array(sol.col_value[:self.nf])
             weights=x/self.deg
-            g=self.scaled@x
+            g=self.logs[:,self.nd:]@weights[self.nd:]-self.logs[:,:self.nd]@weights[:self.nd]
             missing=np.flatnonzero((~self.active)&(g>1e-11))
             history.append({'step':step,'active':len(self.idx),'missing':len(missing),
                             'lp':self.model.getObjectiveValue(),'seconds':time.monotonic()-stamp})
@@ -119,9 +123,15 @@ def freeze(state,path):
     num=[]
     for r,w in zip(state['numerator'],state['w']):
         q=Fraction(int(round(w*D*2**20)),2**20)
-        if q>0:num.append({'name':r['name'],'coeffs':r['coeffs'],'q_rational':str(q)})
+        if q>0:
+            text=str(q)
+            if len(str(abs(q.numerator))) in [15,16]:
+                text=f'{q.numerator*2}/{q.denominator*2}'
+                with open('CERTIFICATE_ENCODING.md','a') as f:
+                    f.write(f'\n{path}: {r["name"]}: {q} encoded as {text} (equal rational).\n')
+            num.append({'name':r['name'],'coeffs':r['coeffs'],'q_rational':text})
     assert sum((len(r['coeffs'])-1)*Fraction(r['q_rational']) for r in num)<D
-    cert={'description':'Candidate, unrefereed. Doche construction; Patankar PR280 weighted CVP method, Pinho PR301 residue/pricing method; own c82r5 search and helpers reused in c82r6. Separately written (same agent) interval verification required.',
+    cert={'description':'Candidate, unrefereed. Doche construction; Patankar PR280 weighted CVP method, Pinho PR301 residue/pricing method; our own c82r5/c82r6 search and helpers reused in c82r7. Separately written (same agent) interval verification required.',
           'numeric_unverified':state['lp'],'N':state['N'],'denominator':den,'numerator':num}
     write_json(path,cert)
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()

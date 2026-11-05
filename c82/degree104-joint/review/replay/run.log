@@ -1,140 +1,184 @@
-PID 26913 precision 256 threads 1
-ROOTS denominator D11_5_0 208 logM [26.2073912757310317857361125550041172468719446507033883521834182283956655244 +/- 1.88e-74]
-ROOTS denominator C82r6_7075b26a1a91 208 logM [26.2092810829833901663242403894615868004971440720483827929929324057798167700 +/- 2.55e-74]
-ROOTS denominator C82r6_99cd845e34d4 208 logM [26.2091889710352590495787434252055753612148732337081899067290566434394384730 +/- 5.90e-74]
-ROOTS denominator C82r6_8c76cd0c4e53 208 logM [26.2060789329560391005187051362499309071857706289718055844025663666750158989 +/- 6.20e-74]
-ROOTS denominator C82r6_f770a2649784 208 logM [26.2091883763610256197646380681132635956468542306741403430421050102332786706 +/- 5.87e-74]
-ROOTS denominator C82r6_935548ec48fe 208 logM [26.2088378791686118570376203595665025642389417885799671102097121179505349430 +/- 4.45e-74]
-ROOTS denominator C82r6_d24f4c93ef26 208 logM [26.2083495958799667736310354209908525523198152217258062004135990074872735971 +/- 4.11e-74]
-ROOTS denominator C82r6_083ca9b3950a 208 logM [26.2056538907282904253703279518837993751650104131309298895134763014317446961 +/- 6.63e-74]
-ROOTS numerator P1 2 logM 0
-ROOTS numerator P2 2 logM 0
-ROOTS numerator P3 6 logM [0.7940846267661463353218242184514291992157942888271642226082545758777972760128 +/- 8.48e-77]
-ROOTS numerator P4 8 logM [0.9624236501192068949955178268487368462703686687713210393220363376803277352164 +/- 5.64e-77]
-ROOTS numerator P6 16 logM [2.083090251634390152963652418806201263043919133914616773816089545339404416145 +/- 5.43e-76]
-ROOTS numerator MS360 40 logM [5.208364806658778477609527323012817535983308243166597368275063719233586014941 +/- 8.75e-76]
-ROOTS numerator n22_7_5 38 logM [5.24533487852478758959564300260369416778743742282501025144796190446326849324 +/- 9.96e-76]
-ROOTS numerator n11_4_53 54 logM [7.16375080539980481327861870685837317783880323801307275996231867927296470998 +/- 1.20e-75]
-ROOTS numerator n11_6_21 64 logM [8.16997357829594760078639992217995894782021299858421209553658753650550312262 +/- 2.57e-75]
-ROOTS numerator n101_0_17 22 logM [2.946662065094795233588032907670640264285906846785694966222678847354735986544 +/- 7.10e-76]
-ROOTS numerator n121_3_30 40 logM [6.22691005278660863722426814213254961221239080820491519675153830821468092073 +/- 6.14e-75]
-ROOTS numerator n11_6_49 36 logM [4.61166507830861729432468713059190587550225998511691137604672434099495424872 +/- 2.01e-75]
-ROOTS numerator n101_6_2 52 logM [6.73878795060105308602534301388083620355646101806242306741586032198348076930 +/- 1.61e-75]
-ROOTS numerator n101_7_34 40 logM [5.14497602624685592669324458897301212598443619525793260031377889324087379896 +/- 3.77e-75]
-ROOTS numerator n101_2_37 42 logM [5.45758789146316759170229662183601445152429963450440170519070701063505852323 +/- 4.71e-75]
-EXACT {"D": 1000000000064, "a": "58700834920208207/65536", "active_numerators": 15, "active_pairs": 120, "circle_roots": 7, "common_denominator": 1048576, "composed_roots": 2126, "denominators": 8, "slack": "6835165083986097/65536"}
-TILING {'negative': 318, 'positive': 167, 'uncertain': 9, 'evaluated': 1000, 'max_depth': 41} seconds 5
-TILING {'negative': 631, 'positive': 345, 'uncertain': 20, 'evaluated': 2000, 'max_depth': 41} seconds 10
-TILING {'negative': 1000, 'positive': 468, 'uncertain': 28, 'evaluated': 3000, 'max_depth': 41} seconds 16
-TILING {'negative': 1304, 'positive': 654, 'uncertain': 40, 'evaluated': 4000, 'max_depth': 41} seconds 21
-TILING {'negative': 1630, 'positive': 818, 'uncertain': 49, 'evaluated': 5000, 'max_depth': 41} seconds 26
-ARC 0 169171596335/2199023255552 161669/2097152 integral [4.3376307689176299707916592835462167332592927189257702244521315743808e-7 +/- 2.36e-75]
-ARC 1 197529698305/2199023255552 395655098341/4398046511104 integral [2.1902161363167027026071054740043031714095749885582708140406831853573e-7 +/- 5.65e-75]
-ARC 2 50470236627/549755813888 50489720831/549755813888 integral [2.9945216088469266952073086416013249861087473630625619921452931324e-10 +/- 1.49e-75]
-ARC 3 101070278725/1099511627776 50550313259/549755813888 integral [9.9633552809724609125588291770137237181494932535830693739918230476e-10 +/- 5.34e-75]
-ARC 4 412755010857/4398046511104 103224971149/1099511627776 integral [4.533194585556552539894955804531840429437607843792797445571817222867e-8 +/- 2.18e-75]
-ARC 5 413785764823/4398046511104 207159820287/2199023255552 integral [3.7666582785666674912649625571838032195101408570330889336619824982876e-7 +/- 4.13e-75]
-ARC 6 198013/2097152 51924184051/549755813888 integral [4.901902126729878997952588362923917348081132344994965338844593494180e-9 +/- 9.30e-76]
-ARC 7 472385585153/4398046511104 29560741985/274877906944 integral [5.1110897708331229973795481125832998627231506415375016238747983297092e-7 +/- 3.97e-75]
-ARC 8 232367/2097152 60972780257/549755813888 integral [3.054048545776510625392186118563028227736640172136479846175009013187e-8 +/- 2.39e-75]
-ARC 9 7682353653/68719476736 122958146593/1099511627776 integral [1.668227314310326722280284761367059486136980579317960289680451947366e-8 +/- 3.65e-75]
-ARC 10 122556285/1073741824 31399160103/274877906944 integral [5.475039061537641564933951660559035407586317545550131353062929913888e-8 +/- 4.64e-75]
-ARC 11 253429/2097152 66526949757/549755813888 integral [1.38025268377977806043558093916234090562124930690608477057284579195083e-7 +/- 8.60e-76]
-ARC 12 539252148835/4398046511104 257197/2097152 integral [1.403390362404241089788490046944865041516103450359533531053203031442e-8 +/- 1.67e-75]
-ARC 13 258770627877/1099511627776 32364267455/137438953472 integral [6.1885077450956070761696039134453619826822358442313037177318584928979e-7 +/- 3.07e-75]
-ARC 14 263813020179/1099511627776 263821197311/1099511627776 integral [7.106581114674876815121082692176337605605789085511554554634210094e-11 +/- 2.11e-75]
-ARC 15 4349609237/17179869184 530961/2097152 integral [2.783392166585619005923326489038272056205432152076133523195991132e-12 +/- 7.59e-76]
-ARC 16 532641/2097152 558621964679/2199023255552 integral [1.4696137293508579188869655299746161524387649608980614691104486140753e-8 +/- 8.06e-76]
-ARC 17 293354652723/1099511627776 73349885983/274877906944 integral [6.4325483158908097345635564714207347606795967358470403142879778353e-10 +/- 1.27e-75]
-ARC 18 73364275201/274877906944 2292698471/8589934592 integral [4.82027822450152197435883296789237992802329675991535642735238543e-12 +/- 2.02e-75]
-ARC 19 598590646621/2199023255552 598922493951/2199023255552 integral [5.2911927081812338794737198334252577578165847437788532987784947092296e-7 +/- 4.36e-75]
-ARC 20 650637/2097152 682414709427/2199023255552 integral [1.8264863640582564418176530643008838575634444047537401291478275414148e-7 +/- 4.11e-75]
-ARC 21 1479744159745/4398046511104 1479751715575/4398046511104 integral [3.049728465690972499227739623970063753856607979239595279222141448e-11 +/- 4.05e-75]
-ARC 22 92508177003/274877906944 705827/2097152 integral [2.1482277174190690382529157706383020171742207480682975394474048390e-10 +/- 1.41e-75]
-ARC 23 777155248129/2199023255552 777218102939/2199023255552 integral [6.17688803067935947071165034615725842820666268455046702686850368520e-9 +/- 2.52e-75]
-ARC 24 199775093953/549755813888 399713621445/1099511627776 integral [5.6615974691001709859002960223113871733930858219404005953381292263694e-7 +/- 4.89e-75]
-ARC 25 1655854596097/4398046511104 828196768283/2199023255552 integral [1.8052162112781251288706968165540456675585984692678639927753153211320e-7 +/- 3.61e-75]
-ARC 26 209369432065/549755813888 104688086039/274877906944 integral [5.787401619308427279095693022963592769952088032877900317165242410e-11 +/- 5.61e-75]
-ARC 27 59108524167/137438953472 902385/2097152 integral [2.039785297830239408375899836340350734679569255968885622120873951467e-8 +/- 5.55e-75]
-ARC 28 31597713565/68719476736 964297/2097152 integral [1.809289235885998695447934075404759941295059931737075545927527203e-11 +/- 5.59e-75]
+PID 74775 PRECISION 384 THREADS 1
+ROOTS D11_5_0 208 logM [26.207391275731031785736112555004 +/- 1.18e-31]
+ROOTS C82r6_8c76cd0c4e53 208 logM [26.206078932956039100518705136250 +/- 6.92e-32]
+ROOTS C82r6_935548ec48fe 208 logM [26.208837879168611857037620359567 +/- 4.98e-31]
+ROOTS C82r6_083ca9b3950a 208 logM [26.205653890728290425370327951884 +/- 2.01e-31]
+ROOTS D11_12_0 208 logM [26.208192782433997616086013628608 +/- 3.21e-31]
+ROOTS D31_5_0 208 logM [26.208225391626959126364358349904 +/- 1.63e-31]
+ROOTS C82r7_dd0a7c419abf 208 logM [26.207331639541518909086455943183 +/- 8.85e-32]
+ROOTS C82r7_7883918fa4f2 208 logM [26.209056588545160108879186555698 +/- 3.31e-31]
+ROOTS P1 2 logM 0
+ROOTS P2 2 logM [+/- 1.53e-115]
+ROOTS P3 6 logM [0.79408462676614633532182421845143 +/- 8.01e-34]
+ROOTS P4 8 logM [0.96242365011920689499551782684874 +/- 3.16e-33]
+ROOTS P6 16 logM [2.0830902516343901529636524188062 +/- 1.27e-33]
+ROOTS MS360 40 logM [5.2083648066587784776095273230128 +/- 1.76e-32]
+ROOTS n11_4_53 54 logM [7.1637508053998048132786187068584 +/- 2.69e-32]
+ROOTS n11_6_21 64 logM [8.1699735782959476007863999221800 +/- 4.11e-32]
+ROOTS n101_0_17 22 logM [2.9466620650947952335880329076706 +/- 4.03e-32]
+ROOTS n121_3_30 40 logM [6.2269100527866086372242681421325 +/- 4.97e-32]
+ROOTS n11_6_49 36 logM [4.6116650783086172943246871305919 +/- 5.88e-33]
+ROOTS n101_7_34 40 logM [5.1449760262468559266932445889730 +/- 1.22e-32]
+ROOTS n11_7_17 32 logM [4.0982602146025227391870677864602 +/- 4.87e-32]
+ROOTS n11_10_5 40 logM [5.0809675591779820351852115153165 +/- 3.34e-32]
+ROOTS n11_10_6 40 logM [5.1432745523340121429479490543801 +/- 8.86e-33]
+ROOTS n31_6_7 40 logM [5.4526900633745527762052812161362 +/- 4.55e-32]
+ROOTS n101_0_28 18 logM [2.3198167907166114733293613350330 +/- 1.71e-33]
+ROOTS cg2_4_0_c2 60 logM [7.7666912527825868925837541394457 +/- 4.80e-32]
+EXACT {"D": 999999999856, "a": "939550863051360379/1048576", "slack": "109025136797644677/1048576", "b": 1048576, "degree_A": "939550863051360379", "degree_Q_power_b": 1048575999849005056, "active_gcd_pairs": 144, "denominator_count": 8, "active_numerator_count": 18, "composed_root_count_with_multiplicity": 2224} H [0.251990275374608412903614832015321193931479381 +/- 2.09e-46]
+PANELS {"visited": 100, "negative": 45, "positive": 0, "crossing": 0, "singular_negative": 2, "max_level": 12} partial_J 0
+PANELS {"visited": 200, "negative": 85, "positive": 0, "crossing": 0, "singular_negative": 11, "max_level": 15} partial_J 0
+PANELS {"visited": 300, "negative": 95, "positive": 39, "crossing": 1, "singular_negative": 11, "max_level": 44} partial_J [5.118161312448673269e-7 +/- 4.69e-26]
+PANELS {"visited": 500, "negative": 172, "positive": 52, "crossing": 2, "singular_negative": 19, "max_level": 44} partial_J [5.118162972125095909e-7 +/- 8.62e-26]
+PANELS {"visited": 700, "negative": 246, "positive": 67, "crossing": 4, "singular_negative": 24, "max_level": 44} partial_J [5.13511071055074905e-7 +/- 2.30e-25]
+PANELS {"visited": 800, "negative": 269, "positive": 99, "crossing": 6, "singular_negative": 24, "max_level": 45} partial_J [5.44535333907830196e-7 +/- 2.54e-25]
+PANELS {"visited": 900, "negative": 314, "positive": 99, "crossing": 6, "singular_negative": 26, "max_level": 45} partial_J [5.44535333907830196e-7 +/- 2.54e-25]
+PANELS {"visited": 1000, "negative": 330, "positive": 130, "crossing": 7, "singular_negative": 26, "max_level": 45} partial_J [5.44728171960098877e-7 +/- 5.06e-25]
+PANELS {"visited": 1100, "negative": 364, "positive": 141, "crossing": 8, "singular_negative": 34, "max_level": 45} partial_J [5.44728171994340425e-7 +/- 2.20e-25]
+PANELS {"visited": 1200, "negative": 373, "positive": 178, "crossing": 9, "singular_negative": 34, "max_level": 45} partial_J [5.51989167260734698e-7 +/- 4.03e-25]
+PANELS {"visited": 1300, "negative": 416, "positive": 187, "crossing": 10, "singular_negative": 34, "max_level": 45} partial_J [5.51989167266412969e-7 +/- 4.40e-25]
+PANELS {"visited": 1500, "negative": 469, "positive": 223, "crossing": 12, "singular_negative": 37, "max_level": 45} partial_J [5.64956374372271157e-7 +/- 5.79e-25]
+PANELS {"visited": 1600, "negative": 477, "positive": 263, "crossing": 13, "singular_negative": 37, "max_level": 45} partial_J [9.34502492665312437e-7 +/- 4.57e-25]
+PANELS {"visited": 1700, "negative": 524, "positive": 263, "crossing": 14, "singular_negative": 37, "max_level": 45} partial_J [9.34502492665312437e-7 +/- 5.09e-25]
+PANELS {"visited": 1900, "negative": 589, "positive": 292, "crossing": 16, "singular_negative": 50, "max_level": 45} partial_J [9.34531074948335300e-7 +/- 5.44e-25]
+PANELS {"visited": 2200, "negative": 683, "positive": 330, "crossing": 18, "singular_negative": 65, "max_level": 45} partial_J [9.37282703784294564e-7 +/- 5.41e-25]
+PANELS {"visited": 2300, "negative": 720, "positive": 330, "crossing": 18, "singular_negative": 67, "max_level": 45} partial_J [9.37282703784294564e-7 +/- 5.41e-25]
+PANELS {"visited": 2500, "negative": 775, "positive": 382, "crossing": 20, "singular_negative": 68, "max_level": 45} partial_J [1.027295134375050762e-6 +/- 6.94e-25]
+PANELS {"visited": 2600, "negative": 816, "positive": 387, "crossing": 21, "singular_negative": 71, "max_level": 45} partial_J [1.027483910727213118e-6 +/- 4.23e-25]
+PANELS {"visited": 2700, "negative": 845, "positive": 404, "crossing": 22, "singular_negative": 71, "max_level": 45} partial_J [1.027559925891296794e-6 +/- 6.24e-25]
+PANELS {"visited": 2800, "negative": 852, "positive": 444, "crossing": 23, "singular_negative": 71, "max_level": 45} partial_J [1.117393844298246839e-6 +/- 5.52e-25]
+PANELS {"visited": 2900, "negative": 896, "positive": 451, "crossing": 24, "singular_negative": 75, "max_level": 45} partial_J [1.117393844298695780e-6 +/- 8.43e-25]
+PANELS {"visited": 3300, "negative": 1009, "positive": 532, "crossing": 29, "singular_negative": 75, "max_level": 45} partial_J [1.127932758880218061e-6 +/- 6.63e-25]
+PANELS {"visited": 3500, "negative": 1088, "positive": 547, "crossing": 31, "singular_negative": 76, "max_level": 45} partial_J [1.129872214568863235e-6 +/- 8.42e-25]
+PANELS {"visited": 3700, "negative": 1133, "positive": 600, "crossing": 34, "singular_negative": 80, "max_level": 45} partial_J [1.144330266763235914e-6 +/- 7.64e-25]
+PANELS {"visited": 4100, "negative": 1269, "positive": 656, "crossing": 38, "singular_negative": 85, "max_level": 45} partial_J [1.16142446944855132e-6 +/- 2.09e-24]
+PANELS {"visited": 4200, "negative": 1312, "positive": 656, "crossing": 38, "singular_negative": 90, "max_level": 45} partial_J [1.16142446944855132e-6 +/- 2.09e-24]
+PANELS {"visited": 4300, "negative": 1360, "positive": 656, "crossing": 38, "singular_negative": 94, "max_level": 45} partial_J [1.16142446944855132e-6 +/- 2.09e-24]
+PANELS {"visited": 4400, "negative": 1398, "positive": 656, "crossing": 38, "singular_negative": 102, "max_level": 45} partial_J [1.16142446944855132e-6 +/- 2.09e-24]
+PANELS {"visited": 4500, "negative": 1400, "positive": 703, "crossing": 39, "singular_negative": 102, "max_level": 45} partial_J [1.502604872512101490e-6 +/- 7.34e-25]
+PANELS {"visited": 4600, "negative": 1439, "positive": 708, "crossing": 40, "singular_negative": 111, "max_level": 45} partial_J [1.50260487697598888e-6 +/- 4.26e-24]
+PANELS {"visited": 4700, "negative": 1477, "positive": 708, "crossing": 40, "singular_negative": 123, "max_level": 45} partial_J [1.50260487697598888e-6 +/- 4.26e-24]
+PANELS {"visited": 4800, "negative": 1514, "positive": 708, "crossing": 40, "singular_negative": 132, "max_level": 45} partial_J [1.50260487697598888e-6 +/- 4.26e-24]
+PANELS {"visited": 5100, "negative": 1627, "positive": 741, "crossing": 44, "singular_negative": 133, "max_level": 45} partial_J [1.50381262270449276e-6 +/- 4.42e-24]
+PANELS {"visited": 5400, "negative": 1730, "positive": 773, "crossing": 46, "singular_negative": 140, "max_level": 45} partial_J [1.505750317732950860e-6 +/- 7.59e-25]
+PANELS {"visited": 5500, "negative": 1739, "positive": 819, "crossing": 48, "singular_negative": 140, "max_level": 45} partial_J [1.518834139213369022e-6 +/- 8.51e-25]
+PANELS {"visited": 5800, "negative": 1831, "positive": 869, "crossing": 50, "singular_negative": 146, "max_level": 45} partial_J [1.75242164887065168e-6 +/- 2.11e-24]
+PANELS {"visited": 6100, "negative": 1931, "positive": 901, "crossing": 52, "singular_negative": 163, "max_level": 45} partial_J [1.83015693756183180e-6 +/- 3.68e-24]
+PANELS {"visited": 6200, "negative": 1975, "positive": 901, "crossing": 52, "singular_negative": 170, "max_level": 45} partial_J [1.83015693756183180e-6 +/- 3.68e-24]
+PANELS {"visited": 6300, "negative": 2018, "positive": 901, "crossing": 52, "singular_negative": 177, "max_level": 45} partial_J [1.83015693756183180e-6 +/- 3.68e-24]
+PANELS {"visited": 6500, "negative": 2088, "positive": 901, "crossing": 52, "singular_negative": 206, "max_level": 45} partial_J [1.83015693756183180e-6 +/- 3.68e-24]
+PANELS {"visited": 6600, "negative": 2106, "positive": 930, "crossing": 53, "singular_negative": 207, "max_level": 45} partial_J [1.857766126703483976e-6 +/- 8.99e-25]
+PANELS {"visited": 6800, "negative": 2177, "positive": 946, "crossing": 54, "singular_negative": 217, "max_level": 45} partial_J [1.98478996862614758e-6 +/- 5.16e-24]
+PANELS {"visited": 7100, "negative": 2247, "positive": 1003, "crossing": 57, "singular_negative": 234, "max_level": 45} partial_J [2.05474133476927936e-6 +/- 5.26e-24]
+PANELS {"visited": 7400, "negative": 2368, "positive": 1031, "crossing": 60, "singular_negative": 239, "max_level": 45} partial_J [2.06493847166032280e-6 +/- 1.97e-24]
+PANELS {"visited": 7500, "negative": 2413, "positive": 1031, "crossing": 60, "singular_negative": 239, "max_level": 45} partial_J [2.06493847166032280e-6 +/- 1.97e-24]
+PANELS {"visited": 7800, "negative": 2514, "positive": 1064, "crossing": 62, "singular_negative": 259, "max_level": 45} partial_J [2.06559739997833729e-6 +/- 2.64e-24]
 {
-  "B": [
-    "0.251996488988201164531880087886",
-    "0.251996488988201164532207712015"
-  ],
+  "status": "PASS",
+  "target": "0.2519923410",
+  "precision_bits": 384,
+  "taylor_order": 40,
+  "integration_tolerance": "1e-21",
+  "certificate_sha256": "ee9622b5e141489ad6fbf98b0ec5c43ac3e1b657f8876b435e65c536f359fdd5",
+  "exact": {
+    "D": 999999999856,
+    "a": "939550863051360379/1048576",
+    "slack": "109025136797644677/1048576",
+    "b": 1048576,
+    "degree_A": "939550863051360379",
+    "degree_Q_power_b": 1048575999849005056,
+    "active_gcd_pairs": 144,
+    "denominator_count": 8,
+    "active_numerator_count": 18,
+    "composed_root_count_with_multiplicity": 2224
+  },
   "H": [
-    "0.251992523252609459669852920685",
-    "0.251992523252609459669852920686"
+    "0.251990275374608412903614832015",
+    "0.251990275374608412903614832016"
   ],
   "J": [
-    "0.000003965735591704862027167201",
-    "0.000003965735591704862354791329"
+    "0.000002065597399978337287368115",
+    "0.000002065597399978337289388528"
   ],
-  "certificate_sha256": "b71150bb7c1a7ac34e86b447e565cdd6c6d33bb225fa910f0acced4136f74171",
+  "B": [
+    "0.251992340972008391240902200131",
+    "0.251992340972008391240904220544"
+  ],
+  "B_ball": "[0.25199234097200839124090 +/- 4.23e-24]",
+  "panels": {
+    "visited": 7817,
+    "negative": 2524,
+    "positive": 1064,
+    "crossing": 62,
+    "singular_negative": 259,
+    "max_level": 45,
+    "covered_length": "1/2"
+  },
   "controls": {
-    "analytic_positive": {
-      "B": [
-        "1.609437912434100374586491804342",
-        "1.609437912434100374646115455456"
-      ],
-      "J": [
-        "0.510825623765990683191246567470",
-        "0.510825623765990683250870218483"
-      ],
-      "expected": "log(5)",
-      "stats": {
-        "evaluated": 53,
-        "max_depth": 22,
-        "negative": 0,
-        "positive": 26,
-        "positive_arcs": 1,
-        "uncertain": 1,
-        "unresolved_integral_upper": "[5.962365076758004414618362805223878998208580950966783045077385227737251062505e-20 +/- 9.58e-97]"
-      }
+    "perturbed_coefficient": {
+      "status": "PASS",
+      "rejection": "denominator is not nonconstant monic"
     },
-    "analytic_singular": {
+    "perturbed_exponent": {
+      "status": "PASS",
+      "rejection": "negative exponent"
+    },
+    "degree_failure": {
+      "status": "PASS",
+      "rejection": "strict degree condition fails"
+    },
+    "gcd_failure": {
+      "status": "PASS",
+      "rejection": "nontrivial numerator/denominator gcd"
+    },
+    "analytic_constant_1": {
+      "status": "PASS",
+      "expected": "log(3)",
       "B": [
         "1.098612288668109691395245236922",
         "1.098612288668109691395245236923"
       ],
-      "J": "0",
-      "expected": "log(3)",
-      "stats": {
-        "evaluated": 11,
-        "max_depth": 3,
-        "negative": 6,
+      "J": [
+        "0.000000000000000000000000000000",
+        "0.000000000000000000000000000000"
+      ],
+      "panels": {
+        "visited": 13,
+        "negative": 2,
         "positive": 0,
-        "positive_arcs": 0,
-        "uncertain": 0,
-        "unresolved_integral_upper": "0"
+        "crossing": 0,
+        "singular_negative": 5,
+        "max_level": 3,
+        "covered_length": "1/2"
       }
     },
-    "false_target": "REJECTED: lower endpoint exceeds 0.2519964889",
-    "perturbed_coefficient": "REJECTED: denominator must be nonconstant and monic",
-    "perturbed_exponent": "REJECTED: negative exponent"
+    "analytic_constant_16": {
+      "status": "PASS",
+      "expected": "log(16)",
+      "B": [
+        "2.772588722239781237668927876190",
+        "2.772588722239781237668929095476"
+      ],
+      "J": [
+        "1.673976433571671546273682639267",
+        "1.673976433571671546273683858553"
+      ],
+      "panels": {
+        "visited": 23,
+        "negative": 0,
+        "positive": 12,
+        "crossing": 0,
+        "singular_negative": 0,
+        "max_level": 4,
+        "covered_length": "1/2"
+      }
+    },
+    "false_target": {
+      "status": "PASS",
+      "target": "0.2519923409",
+      "decision": "REJECT",
+      "reason": "target is strictly below the rigorous lower endpoint of B"
+    }
   },
-  "exact": {
-    "D": 1000000000064,
-    "a": "58700834920208207/65536",
-    "active_numerators": 15,
-    "active_pairs": 120,
-    "circle_roots": 7,
-    "common_denominator": 1048576,
-    "composed_roots": 2126,
-    "denominators": 8,
-    "slack": "6835165083986097/65536"
-  },
-  "precision": 256,
-  "seconds": 39,
-  "status": "PASS",
-  "target": "0.2519964890",
-  "tiling": {
-    "evaluated": 5951,
-    "max_depth": 41,
-    "negative": 1960,
-    "positive": 958,
-    "positive_arcs": 29,
-    "uncertain": 58,
-    "unresolved_integral_upper": "[3.276241262393121912681050219991262879098722152921928770552246595231795338847e-22 +/- 8.72e-99]"
-  }
+  "elapsed_ns": 478658496375
 }

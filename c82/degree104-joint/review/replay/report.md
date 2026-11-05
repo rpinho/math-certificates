@@ -1,114 +1,129 @@
-# Clean-room replay: PASS
+# Independent replay of the supplied C82 certificate
 
-The independent checker proves
+**PASS.** The independently computed bound satisfies C82 <= B < 0.2519923410. The numerical replay passes; the exact serving-model ID remains unavailable, so different-model provenance cannot be attested.
 
-    B in [0.251996488988201164531880087886,
-          0.251996488988201164532207712015].
+## Inputs and independence
 
-The upper endpoint is less than the exact rational target 0.2519964890. The enclosure is strictly contained in the interval supplied in CLAIM.md. The mathematical reduction from C82 to B is reviewed in `../REFEREE.md`; this report explains the numerical proof.
+The mathematical inputs are only `inputs/CLAIM.md`, `inputs/PROOF.md`, and `inputs/certificates/certificate.json`. Their hashes were compared with `INPUTS_SHA256SUMS`. The old proof's certificate-specific values are not reused. Search-time JSON numbers are parsed as strings and ignored. No producer code or earlier checker was read, imported, or run. The allowed live 82a page, PR bodies/comments (#280, #301, #330), and Doche's paper supply definition, theorem, and comparison context; linked code/packets were not accessed.
 
-## Reproduction
+Implementation uses Python's standard library and python-flint 0.9.0. Arb precision is 384 bits; FLINT and BLAS are restricted to one thread. The exact serving-model identifier is not exposed in this session; the honest model description is “GPT-6-based Codex (exact serving-model ID not exposed)”. This replay does not establish that the producer and referee used different model IDs.
 
-From the job directory, with the supplied shared virtual environment available:
+## Exact certificate checks
+
+Coefficients must be JSON integers (booleans excluded), with nonzero leading coefficient. Every denominator must have positive degree and leading coefficient exactly 1; multiplicities must be positive integers. Every numerator must be nonzero and its exponent an exact nonnegative rational string. Zero weights are discarded. All active numerator/denominator polynomial gcds have degree zero. The common exponent denominator is computed with integer Euclidean gcd/lcm.
+
+For this certificate:
+
+- Eight degree-104 monic denominators and eighteen active numerators.
+- D = 999999999856.
+- a = 939550863051360379/1048576.
+- D-a = 109025136797644677/1048576 > 0.
+- b = 1048576; deg(A) = 939550863051360379 < bD = 1048575999849005056.
+- 144 active gcd pairs.
+- 2224 roots counted with multiplicity after exact composition with T(z)=z-z².
+
+In particular, the nonmonic numerators with leading coefficients 9 and 2 are retained without normalization. Their leading-coefficient logarithms contribute to g.
+
+## Mahler measure
+
+Each polynomial is composed with T in exact integer arithmetic. FLINT's certified complex root enclosures supply all roots and multiplicities, whose sum is checked against its degree. For a polynomial F with leading coefficient c,
+
+    log M(F) = log|c| + sum_r multiplicity(r) * log(max(1, |r|)).
+
+Arb's interval maximum is used even if a root's modulus enclosure meets 1. Hence no approximate inside/outside classification is needed. The denominator weights m/D give H.
+
+## Rigorous integration, including sign changes
+
+The real coefficients give g(1-t)=g(t). An adaptive exact dyadic partition covers [0,1/2]; its integral is doubled. The sum of accepted interval lengths is checked exactly to equal 1/2.
+
+For a panel t=c+h*u, |u|<=1, set z0=exp(2πic). On the complex disk |u|<=4,
+
+    |exp(2πi(c+h*u))-z0| <= delta = exp(8πh)-1.
+
+For each composed factor F, certified roots give a positive lower bound d for min_r |z0-r|. If rho=delta/d<1, every root logarithm has an analytic branch relative to its value at the center. Factoring F shows that its log variation on this disk has modulus at most deg(F)*[-log(1-rho)]. Thus the weighted sum has a bound
+
+    M = sum_F |weight(F)|*deg(F)*[-log(1-rho_F)].
+
+Taking the real Taylor coefficients is legitimate: the holomorphic extension of the real part is the average of the analytic function and its coefficientwise conjugate. It has the same disk bound. The weights are -m/D for denominators and +q/D for numerators.
+
+The coefficients through order K=40 are computed independently of the roots: form exp(2πi(c+h*u)), compose T, evaluate the original exact polynomial by series Horner, and take its logarithmic series in Arb/Acb. The principal logarithm's constant imaginary branch has no effect on the real coefficients or derivatives. All coefficient balls must be finite.
+
+Cauchy's coefficient bound gives, uniformly for |u|<=1, the explicit omitted-tail bound
+
+    E = M * 4^(-(K+1)) / (1-1/4).
+
+A ball polynomial evaluation plus [-E,E] encloses g over the full real panel. A nonpositive panel contributes exactly zero. A strictly positive panel contributes the termwise polynomial integral plus [-2hE,2hE]; only even powers remain. If the sign is unresolved, the full range of max(0,g), multiplied by panel length, encloses its integral. Such a crossing panel is accepted only when this error is small enough; otherwise it is bisected. Therefore no assumption is made about how many zeros or sign changes occur. An accumulated final radius check includes all Taylor, root, quadrature, crossing, and rounding errors.
+
+## Logarithmic singularities
+
+An additional exact check computes gcd(F(z), z^deg(F) F(1/z)) for every real composed factor. A unit-circle root must occur in this gcd. All denominator gcds are 1. The only nonconstant numerator gcds are z-1 for P1, z²-z+1=Phi_6(z) for P2, and z⁴-z³+z²-z+1=Phi_10(z) for P4. These are cyclotomic, so the complete unit-circle singularity list on [0,1/2] is t=0, 1/10, 1/6, 3/10. All corresponding numerator exponents are positive. This classification is supplementary; the numerical algorithm below bounds every panel without assuming a preselected singularity list.
+
+If the analytic disk test fails, the checker bounds each |F(z)|² as the leading coefficient squared times the product of squared distances to its certified roots. Arb evaluation over the entire real panel encloses this product. A numerator factor whose range contains zero still has a finite upper bound for log|F|, obtained from the product's positive upper endpoint. Its nonnegative weight preserves the bound. Denominator logs must have a strictly positive lower bound on that panel.
+
+Only a proved negative upper bound for g permits such a panel to contribute zero; otherwise it is bisected. Thus a neighborhood of a numerator root on the unit circle is never silently omitted. At the singular point g tends to minus infinity and max(0,g)=0. The finite collection of such points also has measure zero. The checker deliberately fails if any other singularity cannot be handled within its recursion bound; it does not assume that singularities are harmless.
+
+## Controls and implementation history
+
+Requested controls perturb a denominator leading coefficient and a numerator exponent, requiring exact rejection. Additional controls violate the strict degree and gcd hypotheses. The false target 0.2519923409 must lie strictly below the computed lower endpoint. Two analytic certificates use Q(X)=X-3, with a constant numerator 1 or 16 of weight 1. On |z|=1,
+
+    |z²-z+3|² = 5+12 cos²(theta)-8 cos(theta) >= 11/3 > 1,
+    |z²-z+3| <= 5 < 16.
+
+Both roots have modulus sqrt(3). Thus the first case has H=log(3), J=0, B=log(3); the second has H=log(3), J=log(16)-log(3), B=log(16). This checks a wholly negative integrand and positive analytic integration against known answers.
+
+An initial indexing mistake covered only [0,1/4]. That run was terminated and the active implementation reverted before correction. It produced no accepted result. The corrected implementation starts at dyadic level zero and verifies exact covered length. No change of numerical method was required.
+
+The next run finished integration but failed while parsing the decimal target with `fmpq`, which accepts integer/rational strings in this installation. That version was withdrawn before correction. The replacement uses `arb(target_string)` directly: a strict ball comparison proves that the entire B enclosure is below the exact target. The previously unreached controls were checked, then the complete computation was rerun. Neither failed run was counted as verification.
+
+Backend contracts: [python-flint integer-polynomial API](https://python-flint.readthedocs.io/en/latest/fmpz_poly.html#flint.fmpz_poly.complex_roots) returns complex root balls with multiplicities; [FLINT's certified integer-polynomial roots](https://flintlib.org/doc/arb_fmpz_poly/index.html) describes disjoint certified root enclosures. This calculation trusts Python exact integers and the FLINT/Arb implementation; it is not a proof-assistant formalization.
+
+
+## Completed result
+
+The final command exited successfully. Its outward-rounded enclosures are:
+
+| Quantity | Lower endpoint | Upper endpoint |
+|---|---|---|
+| H | 0.251990275374608412903614832015 | 0.251990275374608412903614832016 |
+| J | 0.000002065597399978337287368115 | 0.000002065597399978337289388528 |
+| B | 0.251992340972008391240902200131 | 0.251992340972008391240904220544 |
+
+The B interval is 2.020413E-24 wide and lies entirely inside the supplied claimed interval [0.2519923409720083869767, 0.2519923409720083953971]. Its upper endpoint is below the exact target 0.2519923410 by 2.7991608759095779456E-11. These are two-sided rigorous enclosures, not quadrature estimates with only arithmetic radii.
+
+The 7817 visited dyadic panels produced 3909 accepted panels: 2524 Taylor-negative, 1064 positive, 62 bounded sign-crossing panels, and 259 panels proved negative by root-product bounds. The deepest dyadic level was 45; accepted lengths sum exactly to 1/2. The final run took 478.658496375 seconds on one worker.
+
+All controls passed:
+
+| Control | Outcome |
+|---|---|
+| Perturbed denominator leading coefficient 1 -> 2 | Rejected: not monic |
+| Perturbed numerator exponent -> -1 | Rejected: negative exponent |
+| Exponent increased past degree allowance | Rejected: a >= D |
+| Denominator added as active numerator | Rejected: nonconstant gcd |
+| False target 0.2519923409 | Rejected: below rigorous lower endpoint of B |
+| Analytic Q=X-3, numerator constant 1 | Contains log(3), J=0 |
+| Analytic Q=X-3, numerator constant 16 | Contains log(16), J contains log(16/3) |
+
+The final check.py passes an AST inspection for no floating-point literals, no math imports, and no float calls. It imports no other local file. No raw binary floating-point computation is used by the checker; Arb/Acb provide rigorous ball arithmetic.
+
+## Reproduce
+
+From this job directory, with the supplied inputs and python-flint installed:
 
 ```sh
-OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 nice -n 10 \
-  ~/dev/open-science/.venv/bin/python replay/check.py \
-  --prec 256 --controls --output replay/result.json
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 \
+  nice -n 10 ~/dev/open-science/.venv/bin/python replay/check.py --controls
 ```
 
-The default certificate path is resolved relative to check.py. A separate explicit false-target run is:
+This writes replay/result.json and prints PASS only after the full interval computation and controls. The false-target control is included in that command. Output decimals are rounded outward from exact rational representations of Arb's dyadic endpoints. The final target comparison uses the conservative Arb enclosure of the decimal string.
 
-```sh
-OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 nice -n 10 \
-  ~/dev/open-science/.venv/bin/python replay/check.py \
-  --prec 256 --target 0.2519964889 --output replay/false-target.json
-```
+## Comparison and conclusion
 
-The latter must print FAIL and exit 1. PASS for the actual target exits 0. These commands make no network requests and do not read any other local source code. `check.py` imports only standard-library modules and python-flint. Python 3.12.13, python-flint 0.9.0, FLINT 3.6.0 were used. FLINT threads are explicitly set to one. The final successful run's main calculation took 39 seconds, before its small analytic controls; the first run took 54 seconds. Elapsed time is diagnostic, not part of the proof.
+The candidate is below both live printed bounds on the same 82a definition. Comparing with the rigorous B upper endpoint, the decrease is:
 
-## Exact algebra and Mahler measure
+- PR #280: 0.000015631427991608759095779456.
+- PR #330: 0.000004148027991608759095779456.
 
-The coefficient arrays are checked for actual integer entries, nonempty arrays, and nonzero leading coefficients. Every denominator must be nonconstant and monic, with positive integer multiplicity. Each active numerator exponent is parsed as an exact Fraction, checked nonnegative, and cleared by the exact lcm 1048576. Leading coefficients of numerators contribute log|lead| and are never silently normalized away. Search-time decimal metadata is parsed as strings and ignored.
+The corresponding improvements of the printed target 0.2519923410 are 0.0000156314 against #280 and 0.0000041480 against #330. The prior packets were not replayed, and no global record claim is made. See PRIOR_ART.md for the scoped source check.
 
-All 120 active numerator/denominator gcds are computed in Z[X] by FLINT and have degree zero. The strict degree inequality is exact:
-
-    D = 1000000000064
-    a = 58700834920208207/65536
-    D-a = 6835165083986097/65536 > 0.
-
-Composition with T=z-z^2 is exact in Z[z]. FLINT's certified complex root enclosures, with multiplicities counted, cover all 2126 roots of the 23 composed factors. Before isolation, exact division extracts all copies of Phi_1=z-1, Phi_6=z^2-z+1, and Phi_10=z^4-z^3+z^2-z+1. These account for the seven roots whose modulus is exactly one. Every other root is required to satisfy a strict Arb comparison |r|<1 or |r|>1. In this certificate the denominator has no unit-circle roots.
-
-For each composed denominator p, Jensen gives
-
-    log M(p) = log|lead(p)| + sum_{|r|>1} multiplicity(r) log|r|.
-
-This yields
-
-    H in [0.251992523252609459669852920685,
-          0.251992523252609459669852920686].
-
-The root enclosure, root counts and unit-circle decisions rely on the certified FLINT/Arb backend. They are not informal floating-point root approximations.
-
-## Rigorous treatment of signs and singularities
-
-After composition, express g as
-
-    g(t) = C + sum_r w_r log|exp(2*pi*i*t)-r|,
-
-where C includes all weighted leading-coefficient logarithms. Numerator weights are positive q_i/D times root multiplicities; denominator weights are negative -m_j/D times root multiplicities. All are enclosed from exact rational values. Real coefficients give g(1-t)=g(t), so the checker tiles [0,1/2] with exact rational dyadic intervals.
-
-For an entire panel, rectangular Acb evaluation encloses z=exp(2*pi*i*t). Root distances then enclose every logarithm. With positive weight, an upper bound on the distance gives an upper bound on its logarithmic contribution, even if the panel contains a zero. With negative weight, a strictly positive distance lower bound is required. This provides a valid upper bound on g even at numerator singularities, where the limiting value is -infinity.
-
-On panels avoiding all roots, a second bound uses the midpoint value and the mean-value theorem:
-
-    g'(t) = Re(2*pi*i*z * sum_r w_r/(z-r)).
-
-All terms are evaluated on the whole panel in Arb/Acb. If h is the half-width, g(midpoint) +/- h sup|g'| encloses the full range. Taking the tighter of two proved bounds preserves rigor.
-
-A panel with upper(g)<=0 contributes exactly zero to max(0,g). A panel with lower(g)>0 is accepted for integration. Otherwise it is subdivided, unless its full possible contribution is already small enough for the local stopping criterion. In that case the checker records the interval
-
-    [0, 2*(right-left)*max(0, upper(g))].
-
-The factor 2 accounts for the reflected half circle. The local tolerance is just a stopping heuristic: every actual error bound is summed into J. There is no assumption that the count of panels makes a tolerance automatically valid. No singular neighborhood or unresolved crossing is discarded.
-
-The final partition has 1960 negative leaves, 958 positive leaves (joined into 29 arcs), and 58 unresolved leaves. It took 5951 range evaluations, with maximum depth 41. Their summed unresolved-integral upper bound is less than 3.277e-22. This is already included in B and is much smaller than the margin to the printed target.
-
-## Integration by dilogarithm antiderivatives
-
-This replay uses an analytic primitive instead of sampled quadrature. For a single root r, write theta=2*pi*t. For |r|<=1,
-
-    log|exp(i*theta)-r| = log|1-r*exp(-i*theta)|,
-    primitive in theta = Im Li_2(r*exp(-i*theta)).
-
-For |r|>1,
-
-    log|exp(i*theta)-r| = log|r| + log|1-exp(i*theta)/r|,
-    primitive in theta = theta*log|r| - Im Li_2(exp(i*theta)/r).
-
-Both follow by differentiating Li_2(w), whose derivative is -log(1-w)/w. The relevant arguments lie inside the unit disk, or on its boundary for exact cyclotomic roots. The principal dilogarithm is continuous at w=1; thus even a unit-circle logarithmic singularity has a continuous, integrable primitive. On open positive arcs none of those singularities occurs. For every formula the actual root is enclosed by its computed ball, and every endpoint operation is performed with Arb/Acb, including polylog(2).
-
-The checker evaluates endpoint differences, divides by 2*pi, adds the constant term C times interval width, sums the weighted roots, and doubles for symmetry. It rejects any nonfinite special-function result. Arithmetic/endpoint/root errors are included by ball propagation. The explicit unresolved-panel interval is then added. This gives
-
-    J in [0.000003965735591704862027167201,
-          0.000003965735591704862354791329].
-
-The displayed decimal endpoints of H, J and B are rounded outward using exact integer floor/ceiling at 30 decimal places. All comparisons with the target are made on the internal Arb enclosure, not rounded console strings.
-
-## Required controls
-
-1. A denominator leading coefficient changed from 1 to 2 is rejected before numerical work: denominator must be monic.
-2. An exponent changed to -1 is rejected before numerical work: negative exponent.
-3. The false target 0.2519964889 is below B's lower endpoint and is rejected. A separate CLI run records FAIL in `false-target.json` and exits 1.
-4. Q=X-3, S=5, q=1 has H=log(3) and B=log(5), since |T-3|<=5 on the unit circle. The checker encloses log(5) and J=log(5/3), with B in [1.609437912434100374586491804342, 1.609437912434100374646115455456].
-5. Q=X-3, S=X, q=1/2 tests a numerator singularity at z=1. For c=cos(theta), Re T=1+c-2c^2<=9/8, so |T-3|>=15/8>sqrt(2)>=sqrt(|T|). Thus g<0 away from its negative singularity, J=0 and B=log(3). The checker returns exactly J=0 and encloses log(3) in [1.098612288668109691395245236922, 1.098612288668109691395245236923].
-
-Both synthetic certificates satisfy the strict degree condition. Their closed-form answers are independently derived here. The coefficient and exponent controls are rejection tests; no valid-perturbation sensitivity result is claimed.
-
-An AST inspection of the final check.py found no math import, float call, or floating-point literal. Numeric computation is exact integer/rational or Arb/Acb. Time is recorded with integer monotonic nanoseconds.
-
-## Clean-room and model attestation
-
-The producer inputs are exactly the three files and hashes in REPLAY.json. They match the supplied manifest. The checker was written in this session from the proof/certificate, mathematical identities and the installed library interface. Neither producer nor third-party replay code was read, imported, or executed. Permitted public theorem/definition/PR text was read; linked packets were not. No neighboring job files or forbidden repositories were accessed.
-
-The exact serving-model ID and producer/referee model difference cannot be established from exposed session metadata. REPLAY.json states this limitation in its model string. Its PASS status refers to the mathematical numerical replay, not a certification of different-model provenance. The referee verdict is HOLDS WITH CAVEATS for that reason. This is an AI review with the trust assumptions stated above.
+Did this referee discover something new? **No.** It independently reproduced the supplied candidate. That candidate does improve the compared printed bounds. The mathematical result holds, conditional on the usual trusted exact/ball-arithmetic backend. The referee verdict is HOLDS WITH CAVEATS solely because the exact model identity, and therefore different-model provenance, cannot be established within this session.

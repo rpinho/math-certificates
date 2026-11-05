@@ -1,19 +1,19 @@
 {
   "model": "GPT-6-based Codex (exact serving-model ID not exposed)",
-  "author": "codex math_c82r6fref_1105 (clean-room)",
+  "author": "codex math_c82r7ref_1105 (clean-room)",
   "status": "PASS",
-  "value": "0.2519964890",
+  "value": "0.2519923410",
   "arithmetic": "interval",
   "inputs": {
-    "CLAIM.md": "7c9447c78880c7f09646c6a39936cad223c3fb1baa0c8e9a5d3defaa69de1e1e",
+    "CLAIM.md": "b6cb4998d8aaaedc1bd0db4f59a386a20db1d83760997c5708df6f50302b2a2e",
     "PROOF.md": "6633baac5a1747a3beb0b2de2128ec8df9d3bef5f75d0892393667cd73c2ec7d",
-    "certificates/certificate.json": "b71150bb7c1a7ac34e86b447e565cdd6c6d33bb225fa910f0acced4136f74171"
+    "certificates/certificate.json": "ee9622b5e141489ad6fbf98b0ec5c43ac3e1b657f8876b435e65c536f359fdd5"
   },
-  "inputs_hash": "19d2c9c14e0359c5237084fcf108d2340688f2ce7d015947e5ac76bfefffd9be",
+  "inputs_hash": "4bdf7cf5f3b993dbbeaf90c62fc79e6f5a50a08bf2cca00af42cfc906e38ea06",
   "read_producer_code": false,
   "ran_producer_code": false,
   "checker": "replay/check.py",
-  "checker_sha256": "1f35d5ac029fc9f3c2df3b1ec03830e26793341ffda6249c2d2c53faa3640066",
+  "checker_sha256": "66ccac4bbdd139dc64de98e60c2703229e4b1b3693725f4ee2e3e3bab6ca0199",
   "report": "replay/report.md",
-  "report_sha256": "1797e254074084ee2d5bac252420a42b7ab6cae371f83051f1ece164a67b882f"
+  "report_sha256": "9ca6f1db40b246119f1a36fca97330ae130d4a15210c832aa3f4d572dddbd496"
 }
