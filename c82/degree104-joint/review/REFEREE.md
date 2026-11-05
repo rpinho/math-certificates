@@ -45,4 +45,6 @@ The clean-room code independence is attested: no producer source was read or run
 
 The result is suitable to accompany the candidate's proposed PR update with the provenance caveat retained and with the new certificate's counts and value replacing the earlier certificate-specific statements. No commit, PR update, push, post, upload, or contact was made.
 
+2026-11-05: The checker was revised only to remove float/math usage (integer-only LCM and exact progress logging); the full rerun with controls reproduced the identical certified result and PASS in 109.11 seconds.
+
 VERDICT: HOLDS WITH CAVEATS

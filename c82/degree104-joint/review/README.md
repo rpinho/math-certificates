@@ -4,7 +4,7 @@ A separate AI referee was given only review/inputs/: CLAIM.md, the released PROO
 
 Verdict: HOLDS WITH CAVEATS. The referee's interval is B in [0.2520179247552093517426, 0.2520179247552093517434], inside the producer's interval. The caveat is provenance: the session did not expose an exact serving-model identifier, so it cannot authenticate the model difference from the producer. According to the launcher record it ran on GPT-6 Astra; the receipt does not establish that. This is an AI review, not a human referee report or a formal proof, and it does not remove the candidate/unrefereed asterisk.
 
-The original receipt is replay/REPLAY.original.json (also preserved as replay/REPLAY.json). The packet-root REPLAY.json changes only path keys, their canonical inputs_hash and the checker/report paths, and adds a note. replay/check.before_extended_controls.py and replay/probe_roots.* are the referee's earlier working files.
+The original receipt is replay/REPLAY.original.json (also preserved as replay/REPLAY.json). The packet-root REPLAY.json changes only path keys, their canonical inputs_hash and the checker/report paths, and adds a note. replay/check.before_extended_controls.py, replay/check.before_float_audit.py and replay/probe_roots.* are the referee's earlier working files. The referee later revised check.py only to remove a `math` import (used for an integer lcm) and a float in a progress log, so that a static audit sees no float arithmetic; its rerun with controls reproduced the same certified result (see REFEREE.md and replay/report.md).
 
 To rerun from the packet root with python-flint installed (the checker's defaults point at review/inputs/certificates/certificate.json):
 

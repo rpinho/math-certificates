@@ -10,7 +10,6 @@ import copy
 from fractions import Fraction
 import hashlib
 import json
-import math
 import os
 from pathlib import Path
 import time
@@ -20,6 +19,19 @@ from flint import arb, acb, fmpz_poly, ctx
 def require(ok, message):
     if not ok:
         raise ValueError(message)
+
+
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return abs(a)
+
+
+def lcm(*values):
+    result = 1
+    for value in values:
+        result = abs(result // gcd(result, value) * value) if result and value else 0
+    return result
 
 
 def A(q):
@@ -65,7 +77,7 @@ def exact(c):
     for sn, s, _ in num:
         for rn, r, _ in den:
             require(s.gcd(r).degree() == 0, 'noncoprime active pair: '+sn+', '+rn)
-    b = math.lcm(*(w.denominator for _, _, w in num)) if num else 1
+    b = lcm(*(w.denominator for _, _, w in num)) if num else 1
     return den, num, D, a, b
 
 
@@ -219,7 +231,7 @@ class Replay:
                 stack.append((m,hi,depth+1))
                 stack.append((lo,m,depth+1))
             if time.monotonic()-last > 20:
-                self.say('tiling', cells, 'position', float(lo), 'positive_runs', len(positive),
+                self.say('tiling', cells, 'position', str(lo), 'positive_runs', len(positive),
                          'negative', negative, 'unresolved', unresolved, 'depth',max_depth)
                 last = time.monotonic()
         J = uncertain

@@ -4,6 +4,7 @@
   "producer_author": "codex math_c82r6_1105",
   "producer_model": "gpt-6.1-sol",
   "replay_inputs": {
+    "review/inputs/CLAIM.md": "proof",
     "review/inputs/PROOF.md": "proof",
     "review/inputs/certificates/certificate.json": "certificate"
   },
@@ -12,7 +13,8 @@
   "linked_trees": {
     "rpinho/math-certificates@59eeb7097f806da05187b5f234445be3589204d4": "sources/verification-levels-tree.json",
     "teorth/optimizationproblems@87b4ebbd426ff8db597a2004cc45da17903bdcf2": "sources/upstream-tree.json",
-    "rpinho/math-certificates@770ab6a8ece625c6c8c5ac11e8e3dec8f1ba8ee9": "sources/publish-trees/rpinho__math-certificates@770ab6a8ece625c6c8c5ac11e8e3dec8f1ba8ee9.json"
+    "rpinho/math-certificates@770ab6a8ece625c6c8c5ac11e8e3dec8f1ba8ee9": "sources/publish-trees/rpinho__math-certificates@770ab6a8ece625c6c8c5ac11e8e3dec8f1ba8ee9.json",
+    "rpinho/math-certificates@5461d490552a518667c3fd3fceff33ebdb4d347c": "sources/publish-trees/rpinho__math-certificates@5461d490552a518667c3fd3fceff33ebdb4d347c.json"
   },
   "submitter": "rpinho",
   "destination": "c82/degree104-joint"

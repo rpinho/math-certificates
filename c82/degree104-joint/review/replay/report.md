@@ -5,7 +5,7 @@ PASS. At 256-bit precision, with python-flint 0.9.0 and one FLINT thread, the in
     B in [0.2520179247552093517426, 0.2520179247552093517434]
     C82 <= B < 0.2520179248.
 
-These displayed decimal endpoints are rounded outward from exact dyadic endpoints in `result.json`. The entire replay interval is inside the supplied interval [0.2520179247552093455135, 0.2520179247552093577392]. The margin below the requested target exceeds 4.4790648256e-11. The final run, including controls, took 77.04 seconds. Floating search fields were never used.
+These displayed decimal endpoints are rounded outward from exact dyadic endpoints in `result.json`. The entire replay interval is inside the supplied interval [0.2520179247552093455135, 0.2520179247552093577392]. The margin below the requested target exceeds 4.4790648256e-11. The original run, including controls, took 77.04 seconds. Floating search fields were never used.
 
 ## Reproduction
 
@@ -96,3 +96,9 @@ The valid mutations are evaluated through the same exact hypotheses and root met
 Only the supplied CLAIM.md, PROOF.md, and certificate.json were used as producer inputs. Their hashes match INPUTS_SHA256SUMS. Public reference reading was limited to the allowed live 82a page, PR text, and Doche's paper. The checker and root probe were written during this session. No linked producer packet or repository code was read, imported, or run. The replay does not numerically reproduce the older PR certificates.
 
 This is a mathematical and interval-arithmetic AI review, not a proof-assistant formalization or a human review. Its arithmetic trust is Python exact integers/Fraction, python-flint, and FLINT/Arb's certified polynomial roots and special functions. The session identifies itself as GPT-6-based Codex but does not expose the exact serving-model ID. The receipt therefore cannot authenticate a different-model claim; that would require the launcher's separate evidence.
+
+## 2026-11-05: requested float/math audit revision
+
+Retained the original checker as `check.before_float_audit.py`. The only checker changes remove `import math`, replace `math.lcm` with an integer-only LCM using Euclidean GCD, and replace the progress-only `float(lo)` conversion with `str(lo)` (an exact rational string). No prohibited identifier remains in executable code. The proof computation and controls are unchanged.
+
+Reran `replay/check.py --controls` with the reproduction command above, capturing `replay/run.log` and regenerating `replay/result.json`. PID 72839 completed with PASS in 109.11 seconds at 256 bits with one FLINT thread. Every result field except PID and elapsed seconds is identical to the prior run, including the exact certified endpoints and all nine control outcomes. The enclosure remains [0.2520179247552093517426, 0.2520179247552093517434]. Input hashes are unchanged; no producer code was read or run. `REPLAY.json` retains its schema and provenance caveat with refreshed checker and report hashes. Did this revision find something new? No.

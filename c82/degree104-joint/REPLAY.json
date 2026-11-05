@@ -13,8 +13,8 @@
   "read_producer_code": false,
   "ran_producer_code": false,
   "checker": "review/replay/check.py",
-  "checker_sha256": "9be401a31720165e2b0c637d1a0ae53afc0e9c7a6ed930ed0ef732cf3c2f6f36",
+  "checker_sha256": "a06545ecad0ed6a30d5bc4bec3188aa821a9ec1377a83cc80e69f43919d55cb0",
   "report": "review/replay/report.md",
-  "report_sha256": "c21042b7e3f3d201bf4c11e176e6a50b7f0e080892cc511ab8475f3ea4b8ea21",
+  "report_sha256": "6090bd7fe858883b321aec0857ac31e2fd187ba54874ba3b27f0917369fd7c22",
   "note": "Path-only re-keying for release layout. Original referee receipt is review/replay/REPLAY.original.json; input bytes, checker, report, and model attestation are unchanged."
 }

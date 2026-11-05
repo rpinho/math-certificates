@@ -24,6 +24,30 @@
       "kind": "cited",
       "source": "https://github.com/teorth/optimizationproblems/blob/main/constants/82a.md",
       "new_bound": false
+    },
+    {
+      "value": "0.2520179247552093455135",
+      "kind": "rigorous",
+      "producer": "verify_best.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "lower endpoint of the interval enclosure of B"
+    },
+    {
+      "value": "0.2520179247552093577392",
+      "kind": "rigorous",
+      "producer": "verify_best.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "upper endpoint of the interval enclosure of B"
+    },
+    {
+      "value": "4.12·10⁻⁵",
+      "kind": "rigorous",
+      "producer": "checkpoint.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "exact lower bound on 0.2520591386 minus the upper endpoint (RESULT.json certified_gap_to_public_at_least)"
     }
   ]
 }

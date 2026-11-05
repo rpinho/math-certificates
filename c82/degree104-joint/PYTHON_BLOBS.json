@@ -250,7 +250,7 @@
       "grep_import_matches": []
     },
     {
-      "file": "review/replay/check.py",
+      "file": "review/replay/check.before_float_audit.py",
       "git_blob_sha1": "a9fc9fd97d2de87f623f7ec9349827b08151431f",
       "foreign_blob_matches": [],
       "imports": [
@@ -261,6 +261,24 @@
         "hashlib",
         "json",
         "math",
+        "os",
+        "pathlib",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "review/replay/check.py",
+      "git_blob_sha1": "c49397b55d61801ba2599e38e8f4475826e2d8cc",
+      "foreign_blob_matches": [],
+      "imports": [
+        "argparse",
+        "copy",
+        "flint",
+        "fractions",
+        "hashlib",
+        "json",
         "os",
         "pathlib",
         "time"
