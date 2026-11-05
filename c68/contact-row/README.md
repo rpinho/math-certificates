@@ -1,4 +1,4 @@
-# Candidate C68 >= 447/1000 = 0.447
+# Candidate C68 >= 447/1000 = 0.447 (rigorous, verify_measure.py)
 
 **The frozen bar is met by a candidate, unrefereed analytic proof.** The exact
 rational artifacts and all quantitative hypotheses pass verification. Both
@@ -8,9 +8,9 @@ judgment is made.
 
 The candidate is larger than the supplied 8937/20000 baseline by exactly
 3/20000 = 0.00015. The written implication is: for every f,u in A²(D),
-|f|<=|u| on 447/1000<|z|<1 implies ||f||₂<=||u||₂.
+|f|<=|u| on 447/1000<|z|<1 implies ||f||₂<=||u||₂ (rigorous, verify_measure.py).
 
-Credit first to **V. Patankar**, [PR #274](https://github.com/teorth/optimizationproblems/pull/274),
+Credit first to **@vidigoat (#274)**, [PR #274](https://github.com/teorth/optimizationproblems/pull/274),
 for the retained flux and enclosing input; **Chunjie Wang** for the
 [coefficient approach](https://doi.org/10.1090/proc/17112);
 **Frank Wikström** for [moment integration](https://arxiv.org/abs/2607.17748);
@@ -23,7 +23,7 @@ annular pseudodistance approach is an antecedent cited in the retained paper.
 [PROOF.md](PROOF.md) gives the norm implication, every moment reduction and
 both tails. [INPUT_GREEN_FLUX.md](INPUT_GREEN_FLUX.md) and
 [INPUT_ANGULAR.md](INPUT_ANGULAR.md) give the retained derivations with corrected
-Patankar attribution. [CONTACT_ROW_LEMMA.md](CONTACT_ROW_LEMMA.md) gives the
+@vidigoat attribution. [CONTACT_ROW_LEMMA.md](CONTACT_ROW_LEMMA.md) gives the
 changed analytic input and its positive moment/Schur-complement formulation.
 
 At every balancing contact, the same hyperbolic cosine-rule average equals
@@ -39,7 +39,7 @@ For a=|m1| and q0=E[cos²(theta-arg(m1))], the elementary support inequality
 The weight becomes max(S,J,T), retaining the joint first/second contact
 harmonics and their relative phase. Its verified linear-coefficient constant
 is 23/200=.115, using the contact moment PSD constraint and the outer-factor
-Schur complement. This corrects coefficient one only.
+Schur complement (rigorous, verify_row.py). This corrects coefficient one only.
 
 The frozen measure has eight positive rational atoms of mass 99/100 plus
 Lebesgue measure on [99/100,1]. The main checker uses an explicit cubic lower
@@ -48,13 +48,13 @@ fresh 5000-cell interval envelope and exact integer ordinary moments.
 
 | Verified condition | Primary receipt |
 |---|---|
-| Ordinary moments k=1,...,5999 | minimum relative margin >7.86562e-6, k=172 |
-| Weighted moments k=1,...,1799 | minimum relative margin >7.68082e-6, k=648 |
-| Ordinary infinite tail k>=6000 | exact last-atom gap 33/200000 |
-| Weighted infinite tail k>=1800 | propagation gap >8.88107e-10 |
+| Ordinary moments k=1,...,5999 | minimum relative margin >7.86562e-6, k=172  (rigorous, verify_measure.py) |
+| Weighted moments k=1,...,1799 | minimum relative margin >7.68082e-6, k=648  (rigorous, verify_measure.py) |
+| Ordinary infinite tail k>=6000 | exact last-atom gap 33/200000  (rigorous, verify_measure.py) |
+| Weighted infinite tail k>=1800 | propagation gap >8.88107e-10  (rigorous, verify_measure.py) |
 | Scalar parameter cover | 265 grid, 17 PSD, four constant and one small leaf |
-| Scalar finite-leaf margin | >2.04388e-5 |
-| Small-parameter log margin | >0.01616841 |
+| Scalar finite-leaf margin | >2.04388e-5  (rigorous, verify_row.py) |
+| Small-parameter log margin | >0.01616841  (rigorous, verify_row.py) |
 | Corrupted artifacts | all 35 exact expected rejection codes PASS |
 
 The source job's 320-bit replay, controls and alternate arithmetic replays
@@ -84,16 +84,16 @@ the same-agent analytic audit and that verification boundary.
 
 The old .105 counterexample is reproduced by exact-arc Arb integration:
 its old-weight energy is 0.1044575940727006..., while its row-weight energy
-is 0.6668411467973089.... Its moments are PSD; they were not discarded on
-that basis. The naive third-diagonal extension still fails by exactly -1/100.
+is 0.6668411467973089... (estimate, verify_retained.py). Its moments are PSD; they were not discarded on
+that basis. The naive third-diagonal extension still fails by exactly -1/100 (rigorous, verify_retained.py).
 The exact balanced two-contact endpoint and a rational three-contact example
 also pass; the latter has J>S while satisfying all geometric pair constraints.
 Their scope is geometric, without a claimed annular interpolation.
 
 [INEQUALITY_AUDIT.md](INEQUALITY_AUDIT.md) proves a useful same-measure comparison.
 At c=.447 the full old .095 weighted k=1 margin, including an upper bound
-for its continuous correction, is less than -0.00003324623828. The new
-sufficient margin exceeds 0.000003854649777. Thus this frozen measure fails
+for its continuous correction, is less than -0.00003324623828 (rigorous, verify_measure.py). The new
+sufficient margin exceeds 0.000003854649777 (rigorous, verify_measure.py). Thus this frozen measure fails
 the old criterion. The accepted result uses the row input; no optimality
 limit for other old-criterion measures is asserted.
 
@@ -106,13 +106,13 @@ complement before optimization. Paired LPs screened 5892 radius pairs and
 The old-weight screen had negative margin. This transported family gave no
 improvement; its sampled values are not certificates.
 
-[CROSS_RADIUS_FLUX.md](CROSS_RADIUS_FLUX.md) extends Patankar's flux argument
+[CROSS_RADIUS_FLUX.md](CROSS_RADIUS_FLUX.md) extends @vidigoat's flux argument
 to unequal radii and derives a sharper necessity for the two true contact
 measures. Explicit algebra shows that this relaxation still admits the
 retained bad relaxed moments at every pair of radii. This is a failure of
 that proposed relaxation, not a barrier for every two-radius approach.
 
-PILOT.json records PASS_CONTINUE before the six-hour deadline. Both retained
+The unbundled historical pilot record reports PASS_CONTINUE before the six-hour deadline. Both retained
 counterexamples and extremal contact configurations were checked within the
 pilot. Sustained diagnostics then ran until 10:50 UTC: 149647446 total tests
 across contact geometry, scalar minimization, polynomial Toeplitz minimizers
@@ -122,10 +122,10 @@ of every attempted method are recorded in [ATTEMPTS.md](ATTEMPTS.md).
 
 ## Release contents and reproduction
 
-This README is adapted from the source job's REPORT.md. Operational details,
+This README is adapted from the source job's unbundled report. Operational details,
 private machine paths and unreleased diagnostic logs are excluded. Source
 search and pilot results above are historical reports, not fresh searches
-or new certificates produced by this packaging job. PILOT.json and large
+or new certificates produced by this packaging job. The pilot record and large
 screening logs are omitted. No human mathematical endorsement is claimed.
 
 The runtime acceptance core is verify_measure.py plus verify_row.py and the
@@ -141,12 +141,12 @@ and transformations. SHA256SUMS covers the complete release including the
 manifest. [PRIOR_ART_RELEASE.md](PRIOR_ART_RELEASE.md) records the live audit;
 [PRIOR_ART.md](PRIOR_ART.md) is the source job's initial and final audit.
 The frozen source manifests are historical provenance records and do not
-serve as the release inventory (BAR.json is deliberately omitted).
+serve as the release inventory (the historical source manifest is deliberately omitted).
 
-Credit is V. Patankar (#274) first, then Wang, Wikström and the earlier
+Credit is @vidigoat (#274) (#274) first, then Wang, Wikström and the earlier
 signed-contact step. The predecessor README's attribution of the flux input
-to David Niedbala Giraudin is superseded by current #274 and the source proof.
-Older c68 folders keep that wrong name for checksum reasons; [../CREDIT_CORRECTION.md](../CREDIT_CORRECTION.md) overrides it.
+to “David Niedbala Giraudin” is not established by @vidigoat's own #274 author snapshot.
+Older c68 folders preserve historical text for checksum reasons; [../CREDIT_CORRECTION.md](../CREDIT_CORRECTION.md) records an earlier revision, not primary identity evidence. This packet uses @vidigoat (#274).
 
 **Verification level: L0** for the bound as a whole (definitions: https://github.com/rpinho/math-certificates/blob/59eeb7097f806da05187b5f234445be3589204d4/VERIFICATION_LEVELS.md)
 The verifiers were separately written by the same AI agent; the new contact-row lemma is a prose argument needing mathematical review.
