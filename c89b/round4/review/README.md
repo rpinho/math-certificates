@@ -17,11 +17,12 @@ The original read-only reviews are identified by SHA-256 in PROVENANCE.json.
   agreeing separately on red, blue and the total; six small literal-kernel
   controls passed. It did not rerun the supplied counters and could not
   refresh live priority sources. It flagged stale prior-art numbers,
-  task-brief wording, decimal rounding, and explicit credit to Jeetu SK,
-  #307 and round 3. Its two counting methods were written by that same
+  task-brief wording, decimal rounding, and explicit credit to Jeetu SK ([SK2026]),
+  to Ricardo Pinho's work in this PR (#307,
+  [Pin2026]) and to its round 3. Its two counting methods were written by that same
   reviewer agent; they are not a further independent review.
 
-The release uses only the safe decimal upper bound 0.001648970526, credits
+The release uses only the safe decimal upper bound 0.001648970526 (rigorous exact threshold comparison: scripts/check_cayley_matrix_r4.py), credits
 Feinstein's Technion announcement and joint work with Chaim Even-Zohar,
 labels our exact counters as separately written (same agent), removes
 stale task thresholds, and refreshes live sources. Both supplied exact

@@ -9,8 +9,9 @@
       "source": "PROOF.md",
       "file": "PROOF.md",
       "source_sha256": "1a6158018d542ca7fe8a7f5bc18264481c81d1b4af3e604d2d34fcf7de5a9c94",
-      "release_sha256": "33494360121ff93f909ec5a946c3cf8a52935064fb69ec786cb71f546c9f150e",
-      "byte_identical": false
+      "release_sha256": "96fbc32d004f7f01fa00efc723127379e24711920dc15982d3956d2664bf8a0a",
+      "byte_identical": false,
+      "original_release_sha256": "33494360121ff93f909ec5a946c3cf8a52935064fb69ec786cb71f546c9f150e"
     },
     {
       "source": "REPRODUCE.md",
@@ -158,5 +159,10 @@
     "Acceptance receipts omit decimal approximations and discovery threshold fields; traceback paths are made relative.",
     "release_* receipts are fresh package replays, while the optional polynomial and simpler upper receipt are historical.",
     "Detailed local CHANGES.diff is an audit artifact outside the publication overlay."
-  ]
+  ],
+  "publication_update": {
+    "job": "math_c89b_credit_1105",
+    "scope": "Publication metadata, credit evidence, and lint-required wording only; bound, certificates, counter code and original replay receipts unchanged.",
+    "original_release_hashes": "For an edited source-derived file, original_release_sha256 retains the prior release hash. Current package bytes are inventoried in MANIFEST.json."
+  }
 }

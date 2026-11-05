@@ -1,0 +1,35 @@
+{
+  "claims": [
+    {
+      "value": "0.001648970526",
+      "kind": "rigorous",
+      "producer": "scripts/check_cayley_matrix_r4.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "meaning": "Upward-rounded upper threshold; the wrapper compares the counted density with this decimal as an exact Fraction.",
+      "counter": "scripts/check_cayley_exact_r4.cpp"
+    },
+    {
+      "value": "15058298592194934908767847/9131939205947984819238469632",
+      "kind": "rigorous",
+      "producer": "scripts/check_cayley_exact_r4.cpp",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "meaning": "Selected exact finite-certificate density, reduced with GMP rational arithmetic."
+    },
+    {
+      "value": "0.001652",
+      "kind": "cited",
+      "new_bound": false,
+      "source": "https://math.technion.ac.il/events/noam-feinstein/",
+      "meaning": "Feinstein announcement, joint work with Chaim Even-Zohar; no public certificate checked."
+    },
+    {
+      "value": "0.001653032",
+      "kind": "cited",
+      "new_bound": false,
+      "source": "https://github.com/teorth/optimizationproblems/pull/307",
+      "meaning": "The earlier round-3 threshold retained as history in sources/live-pr307.json."
+    }
+  ]
+}

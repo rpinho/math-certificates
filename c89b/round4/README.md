@@ -1,7 +1,7 @@
-# C89b < 0.001648970526 — round 4
+# C89b < 0.001648970526 — round 4 (rigorous exact threshold comparison: scripts/check_cayley_matrix_r4.py)
 
 Candidate and unrefereed. The exact upper certificate has density
-15058298592194934908767847/9131939205947984819238469632.
+15058298592194934908767847/9131939205947984819238469632 (rigorous exact count: scripts/check_cayley_exact_r4.cpp).
 It defines a 256-part binary Cayley step graphon with probabilities
 0, 2648/4041 and 1. Repeated parts are counted.
 

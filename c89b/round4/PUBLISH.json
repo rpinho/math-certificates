@@ -1,0 +1,31 @@
+{
+  "target": "teorth/optimizationproblems#307",
+  "pr_number": 307,
+  "submitter": "rpinho",
+  "new_bound": true,
+  "live_body": "sources/live-pr307.json",
+  "producer_author": "codex math_c89cr4_1103",
+  "producer_model": "gpt-6.1-sol",
+  "producer_author_evidence": {
+    "packet_record": "PROVENANCE.json",
+    "source_job": "math_c89cr4_1103",
+    "authorship_record": "PROOF.md",
+    "meaning": "Codex source-job agent identifier, not an independently established human or replay-session identity."
+  },
+  "producer_model_evidence": {
+    "source": "sources/live-pr307.json",
+    "statement": "GPT-6.1 Sol via Codex (search, construction, exact counters, packaging)",
+    "original_source_job_selection_model": "gpt-6.1-sol"
+  },
+  "replay_inputs": {
+    "PROOF.md": "proof",
+    "certificates/c5_cayley256_fine.json.gz": "certificate",
+    "certificates/c5_cayley256_fine.kernel.json": "certificate",
+    "certificates/c5_cayley256_definition.json": "certificate"
+  },
+  "linked_trees": {
+    "rpinho/math-certificates@1d38853f31112da873c632fb3d3bd05519eb832a": "sources/publish-trees/rpinho__math-certificates@1d38853f31112da873c632fb3d3bd05519eb832a.json",
+    "rpinho/math-certificates@59eeb7097f806da05187b5f234445be3589204d4": "sources/publish-trees/rpinho__math-certificates@59eeb7097f806da05187b5f234445be3589204d4.json",
+    "arhancanli/quantavane-replays@f4daa1e08e5d1d55570aefa6c11a0910d2878bf8": "sources/publish-trees/arhancanli__quantavane-replays@f4daa1e08e5d1d55570aefa6c11a0910d2878bf8.json"
+  }
+}

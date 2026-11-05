@@ -1,0 +1,32 @@
+{
+  "credits": [
+    {
+      "pr_name": "Jeetu SK",
+      "packet_name": "Jeetu SK",
+      "source_name": "Jeetu SK",
+      "packet_file": "PROOF.md",
+      "source_pr": "sources/pr277.json"
+    },
+    {
+      "pr_name": "Ricardo Pinho",
+      "packet_name": "Ricardo Pinho",
+      "source_name": "Ricardo Pinho",
+      "packet_file": "README.md",
+      "source_pr": "sources/pr307.json"
+    }
+  ],
+  "independent_replays": [
+    {
+      "name": "Arhan Canli",
+      "login": "arhancanli",
+      "source": "sources/replay-comment.json",
+      "role": "Reported independent exact replay of the round-4 certificate; AI assistance disclosed (Claude, Anthropic).",
+      "code_commit": "f4daa1e08e5d1d55570aefa6c11a0910d2878bf8"
+    },
+    {
+      "name": "Carlos Toledo",
+      "source": "sources/pr277-replay-comment.json",
+      "role": "Reported independent exact replay of the inherited #277 witness; not the author of #277."
+    }
+  ]
+}
