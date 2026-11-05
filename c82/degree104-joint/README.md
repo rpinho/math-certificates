@@ -2,7 +2,7 @@
 
 This packet gives C82 < 0.2520179248 (rigorous interval bound, verify_best.py), a candidate, unrefereed upper bound for the essential minimum of the logarithmic Zhang-Zagier height in Tao's 82a definition. The asterisk stays. Verification level L0 applies to the bound as a whole. The verifier was written separately from the search code by the same AI agent lineage; this is not a second human party or a formal proof.
 
-Under the same definition it improves V. Patankar's public #280 v3 bound 0.2520591386* and our earlier #330 bound 0.252404806* in [../degree104-cvp](../degree104-cvp). The live-page value 0.2534449* is retained as a cited comparison. Sources are refreshed in sources/pr280.json, sources/pr330.json and sources/82a.md. This packet makes no novelty, priority or optimality claim.
+Under the same definition it improves V. Patankar's public #280 v3 bound 0.2520591386* and our earlier bound 0.252404806* in [../degree104-cvp](../degree104-cvp), the previous version of our PR (#330). The live-page value 0.2534449* is retained as a cited comparison. Sources are refreshed in sources/pr280.json, sources/pr330.json and sources/82a.md. This packet makes no novelty, priority or optimality claim.
 
 Credit: Doche supplies the construction (C. Doche, “Zhang-Zagier heights of perturbed polynomials”, J. Théor. Nombres Bordeaux 13 (2001), 103–110). V. Patankar (@vidigoat, #280) supplies the weighted-evaluation closest-vector method, the #280 v3 certificate, and the public numerator bank. Ricardo Pinho (#301) supplies the joint LP / reduced-cost pricing and residue-class restriction. Grinsztajn and Épi supply earlier factor libraries. The source credit snapshots are sources/pr280.json and sources/pr301.json.
 
