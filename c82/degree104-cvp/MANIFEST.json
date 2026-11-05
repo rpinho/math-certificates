@@ -22,12 +22,17 @@
     },
     {
       "path": "CREDITS.json",
-      "bytes": 401,
+      "bytes": 467,
       "sha256": "deff20408f13daf16ce528229bf08f77c41f48f576632623fbea48232e1c763d"
     },
     {
+      "path": "LICENSE-vidigoat-optimization-records.txt",
+      "bytes": 1071,
+      "sha256": "9b8ca3798ee2aa98655e2269080bf646a3b3b0e004b6de0dcb84585c005619ef"
+    },
+    {
       "path": "METHOD.md",
-      "bytes": 6940,
+      "bytes": 7359,
       "sha256": "c7d5ccecaf73f9c4fadebabb0924772f81b25ef38c192e0af55abc3135f6705d"
     },
     {
@@ -37,7 +42,7 @@
     },
     {
       "path": "PRIOR_ART.md",
-      "bytes": 5054,
+      "bytes": 5109,
       "sha256": "edf41f25c2ae7515e21abbde3e0bc07ac3d5330f4152a9258be089253fa82b5c"
     },
     {
@@ -52,7 +57,7 @@
     },
     {
       "path": "README.md",
-      "bytes": 2863,
+      "bytes": 2876,
       "sha256": "37212e430b6ebb3ba66321787c479d54569e1a446f316bb04d7fce49fff77a7c"
     },
     {
@@ -62,13 +67,18 @@
     },
     {
       "path": "REPRODUCE.md",
-      "bytes": 3618,
+      "bytes": 3779,
       "sha256": "76ea8a62ae9fa72fcc7ec8cf015beb3c617a7b558b24762e9f836120f0c1c2a5"
     },
     {
       "path": "RIGOR.json",
       "bytes": 494,
       "sha256": "983fa869dcbb83a544a7c9ba73121e34511501095c6b0c172aa2ec59aa8a2ac4"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICE.md",
+      "bytes": 1681,
+      "sha256": "9925a565f645b8540abd8551f1df6f901e87b439721886d46cddce75a5387177"
     },
     {
       "path": "certificate.json",
@@ -177,7 +187,7 @@
     },
     {
       "path": "prior_sources/README.md",
-      "bytes": 974,
+      "bytes": 1120,
       "sha256": "9eb61a8686d29ffd567d2c0b9bbde18d4a16bab9ae312b196b54bb36f9ef910a"
     },
     {
@@ -737,7 +747,7 @@
     },
     {
       "path": "sources/pr280.json",
-      "bytes": 4748,
+      "bytes": 14696,
       "sha256": "ba7758d3c170847832d968bcced3e07f8e8464c1579a889cb544476b0c3a71ad"
     },
     {
