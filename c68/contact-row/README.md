@@ -10,7 +10,7 @@ The candidate is larger than the supplied 8937/20000 baseline by exactly
 3/20000 = 0.00015. The written implication is: for every f,u in A²(D),
 |f|<=|u| on 447/1000<|z|<1 implies ||f||₂<=||u||₂ (rigorous, verify_measure.py).
 
-Credit first to **@vidigoat (#274)**, [PR #274](https://github.com/teorth/optimizationproblems/pull/274),
+Credit first to **V. Patankar** (@vidigoat), [PR #274](https://github.com/teorth/optimizationproblems/pull/274),
 for the retained flux and enclosing input; **Chunjie Wang** for the
 [coefficient approach](https://doi.org/10.1090/proc/17112);
 **Frank Wikström** for [moment integration](https://arxiv.org/abs/2607.17748);
@@ -23,7 +23,7 @@ annular pseudodistance approach is an antecedent cited in the retained paper.
 [PROOF.md](PROOF.md) gives the norm implication, every moment reduction and
 both tails. [INPUT_GREEN_FLUX.md](INPUT_GREEN_FLUX.md) and
 [INPUT_ANGULAR.md](INPUT_ANGULAR.md) give the retained derivations with corrected
-@vidigoat attribution. [CONTACT_ROW_LEMMA.md](CONTACT_ROW_LEMMA.md) gives the
+Patankar attribution. [CONTACT_ROW_LEMMA.md](CONTACT_ROW_LEMMA.md) gives the
 changed analytic input and its positive moment/Schur-complement formulation.
 
 At every balancing contact, the same hyperbolic cosine-rule average equals
@@ -106,7 +106,7 @@ complement before optimization. Paired LPs screened 5892 radius pairs and
 The old-weight screen had negative margin. This transported family gave no
 improvement; its sampled values are not certificates.
 
-[CROSS_RADIUS_FLUX.md](CROSS_RADIUS_FLUX.md) extends @vidigoat's flux argument
+[CROSS_RADIUS_FLUX.md](CROSS_RADIUS_FLUX.md) extends Patankar's flux argument
 to unequal radii and derives a sharper necessity for the two true contact
 measures. Explicit algebra shows that this relaxation still admits the
 retained bad relaxed moments at every pair of radii. This is a failure of
@@ -143,10 +143,10 @@ manifest. [PRIOR_ART_RELEASE.md](PRIOR_ART_RELEASE.md) records the live audit;
 The frozen source manifests are historical provenance records and do not
 serve as the release inventory (the historical source manifest is deliberately omitted).
 
-Credit is @vidigoat (#274) (#274) first, then Wang, Wikström and the earlier
+Credit is V. Patankar (#274) first, then Wang, Wikström and the earlier
 signed-contact step. The predecessor README's attribution of the flux input
-to “David Niedbala Giraudin” is not established by @vidigoat's own #274 author snapshot.
-Older c68 folders preserve historical text for checksum reasons; [../CREDIT_CORRECTION.md](../CREDIT_CORRECTION.md) records an earlier revision, not primary identity evidence. This packet uses @vidigoat (#274).
+to David Niedbala Giraudin was wrong: #274 and the source proof are V. Patankar's.
+Older c68 folders keep that wrong name for checksum reasons; [../CREDIT_CORRECTION.md](../CREDIT_CORRECTION.md) overrides it. #274's own diff credits V. Patankar (table row and bibliography), and its commits are authored by Vidit Patankar.
 
 **Verification level: L0** for the bound as a whole (definitions: https://github.com/rpinho/math-certificates/blob/59eeb7097f806da05187b5f234445be3589204d4/VERIFICATION_LEVELS.md)
 The verifiers were separately written by the same AI agent; the new contact-row lemma is a prose argument needing mathematical review.
