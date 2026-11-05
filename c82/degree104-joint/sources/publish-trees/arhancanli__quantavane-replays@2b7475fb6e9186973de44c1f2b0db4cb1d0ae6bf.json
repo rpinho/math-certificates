@@ -1,0 +1,496 @@
+{
+  "commit": "2b7475fb6e9186973de44c1f2b0db4cb1d0ae6bf",
+  "truncated": false,
+  "tree": [
+    {
+      "path": ".gitignore",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ASTERISK_INDEX.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "autocorr_check.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c16",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c16/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c16/c16_check.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c16/fetch.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c16/results",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c16/results/julsgaard_319.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c16/results/vid.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c16/run_all.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c44",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c44/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c44/c44_check.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c44/fetch.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c44/results",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c44/results/pin.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c44/run_all.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c49",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c49/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/fetch.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c49/results",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c49/results/cla_F.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/results/cla_FH.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/results/irsi_degkm.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/results/irsi_v10.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/results/irsi_v11.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/results/irsi_v12.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/results/kos.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/results/lemma.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/results/selftest.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/results/syl_Bprime.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/results/syl_unit.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/run_all.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c49/sunflower_check.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c68",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c68/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c68/c68_check.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c68/fetch.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c68/results",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c68/results/pin.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c68/results/vid0446.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c68/results/vid044605.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c68/run_all.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c70",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c70/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c70/c70_check.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c70/fetch.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c70/results",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c70/results/pin.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c70/run_all.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c82",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c82/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/c82_check.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/fetch.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c82/results",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c82/results/doche.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/epi.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/pin.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/pr280.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/pr280b.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/pr280c.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/pr280d.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/pr301.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/pr301a.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/pr330.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/pr330b.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/pr330c.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/selftest.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/run_all.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c86",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c86/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c86/c86_check.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c86/fetch.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c86/results",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c86/results/kos.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c86/results/p298.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c86/results/pin.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c86/results/vid.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c86/results/vid2.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c86/run_all.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "fetch.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "results",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "results/echul_c_f10240.json.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "results/huiihao_construction.json.decimal.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "results/huiihao_construction.json.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "results/julsgaard_c1c_K98304.json.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "results/julsgaard_certificate.json.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "results/kerem_c1d_n40960_1.4556234448.json.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "results/koshta_K24576_0.4103333.json.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "results/vidigoat_c1a_n131072.json.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "results/vidigoat_c1a_n262144.json.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "results/vidigoat_c1c_K98304_v2.json.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "results/vidigoat_c1c_K98304_v3.json.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "run_all.sh",
+      "type": "blob",
+      "mode": "100755"
+    }
+  ]
+}

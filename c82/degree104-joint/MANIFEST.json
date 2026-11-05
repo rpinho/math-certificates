@@ -1,6 +1,6 @@
 {
   "format": "math-certificates-c82-degree104-joint-release-v1",
-  "sealed_utc": "2026-11-05T14:42:33.754859+00:00",
+  "sealed_utc": "2026-11-05T15:11:01.620425+00:00",
   "claim": "0.2519964890",
   "qualification": "candidate, unrefereed; verification level L0 for the bound as a whole",
   "upstream_main": "87b4ebbd426ff8db597a2004cc45da17903bdcf2",
@@ -74,8 +74,8 @@
     },
     {
       "path": "PUBLISH.json",
-      "bytes": 1950,
-      "sha256": "2933cd3f2448d6e1a92f61d43570e2310ee42c0a7dc62b2d89d765974dd78712"
+      "bytes": 2130,
+      "sha256": "8fbc2184ddabeb99bdfd3c4ff6ffd1a7c1f26186d565ec95e2ea0c4069b7e66d"
     },
     {
       "path": "PYTHON_BLOBS.json",
@@ -616,6 +616,11 @@
       "path": "sources/pr330.json",
       "bytes": 16296,
       "sha256": "74eaacc89e3304d207878662daefdf4d5a79d9d2e90f3a20ecdff329c3fa5f12"
+    },
+    {
+      "path": "sources/publish-trees/arhancanli__quantavane-replays@2b7475fb6e9186973de44c1f2b0db4cb1d0ae6bf.json",
+      "bytes": 9345,
+      "sha256": "e65d2cfca178ca18c5caaa19a90e37761936df51c4bfdb7bac85d4b328c7570d"
     },
     {
       "path": "sources/publish-trees/arhancanli__quantavane-replays@7696576f41b418a5eacaed423b7b2078a521e26e.json",
