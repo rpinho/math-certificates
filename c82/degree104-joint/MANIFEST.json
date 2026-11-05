@@ -1,6 +1,6 @@
 {
   "format": "math-certificates-c82-degree104-joint-release-v1",
-  "sealed_utc": "2026-11-05T13:11:37.390923+00:00",
+  "sealed_utc": "2026-11-05T13:17:11.881361+00:00",
   "claim": "0.2520179248",
   "qualification": "candidate, unrefereed; verification level L0 for the bound as a whole",
   "upstream_main": "87b4ebbd426ff8db597a2004cc45da17903bdcf2",
@@ -65,8 +65,8 @@
     },
     {
       "path": "PUBLISH.json",
-      "bytes": 1256,
-      "sha256": "8344e719929d94e30de650ecd74bb1e97a0db4490e9e098666182dd53a3ee909"
+      "bytes": 1260,
+      "sha256": "cd304a224a64e3b7864e3f27b0f5df691e15a89e03f74114595005f0c9424859"
     },
     {
       "path": "PYTHON_BLOBS.json",
