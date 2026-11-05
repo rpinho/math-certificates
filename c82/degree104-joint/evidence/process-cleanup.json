@@ -1,0 +1,13 @@
+{
+  "checked_at_utc": "2026-11-05T13:22:03.452393+00:00",
+  "command": [
+    "ps",
+    "-axo",
+    "pid,ppid,pcpu,command"
+  ],
+  "tracked_pid_count": 138,
+  "alive_tracked_processes": [],
+  "all_workers_stopped": true,
+  "artifact_bytes": 33949971,
+  "below_50_MB": true
+}

@@ -1,50 +1,90 @@
-# Independent clean-room referee: C82 candidate
+# Independent referee verdict on the supplied C82 certificate
 
-The mathematical and numerical claim holds:
+The mathematical claim survives the attacks below. My independent 256-bit Arb replay proves
 
-    C82 <= B,
-    B in [0.2520179247552093517426, 0.2520179247552093517434],
-    hence C82 < 0.2520179248.
+    0.251996488988201164531880087886 <= B
+      <= 0.251996488988201164532207712015 < 0.2519964890.
 
-The replay interval lies wholly inside the candidate's supplied interval. The verdict carries a provenance caveat: this session does not expose its exact serving-model ID, so I cannot authenticate the requested difference from the producer's model. No mathematical defect or failed numerical hypothesis was found.
+This enclosure lies strictly inside the interval stated in `inputs/CLAIM.md`. Together with the reduction, it establishes **C82 < 0.2519964890**. The verdict has a provenance caveat: this session exposes only “GPT-6-based Codex”, not an exact serving-model ID. I cannot truthfully certify the requested different-model condition. No producer code was read or run.
+
+## Inputs and scope
+
+The only producer inputs were `inputs/CLAIM.md`, `inputs/PROOF.md`, and `inputs/certificates/certificate.json`. All match `INPUTS_SHA256SUMS`. The certificate SHA-256 is `b71150bb7c1a7ac34e86b447e565cdd6c6d33bb225fa910f0acced4136f74171`.
+
+I read the permitted machine rules, the live [82a definition](https://github.com/teorth/optimizationproblems/blob/main/constants/82a.md), [Doche's 2001 paper](https://www.numdam.org/item/JTNB_2001__13_1_103_0/), and the allowed PR bodies/comments using the specified gh executable. I did not access the linked code, certificates or replay packets. Sources are saved locally in `sources/`; the comparison history and clean-room restriction on broader prior-art searches are in `PRIOR_ART.md`.
+
+This is an independently written AI mathematical review and replay, not a human review or proof-assistant formalization. Trust includes Python integer arithmetic, python-flint/FLINT/Arb, the cited averaging lemma, and the mathematical arguments explained here.
 
 ## Attacks on the reduction
 
-1. **Wrong definition or normalization.** I fetched the live [82a definition](https://github.com/teorth/optimizationproblems/blob/main/constants/82a.md). It uses logarithmic height h(alpha)=log M(P)/deg(P) and h_Z(alpha)=h(alpha)+h(1-alpha), with C82 defined by finite sublevel sets. I read the printed definitions on pages 103–104 of [Doche, *Zhang-Zagier heights of perturbed polynomials*](https://www.numdam.org/item/JTNB_2001__13_1_103_0/). His height is multiplicative, so taking logarithms matches 82a. T(z)=z(1-z) is the same composition. No missing factor of two was found: symmetry doubles the mean h, while T doubles the degree.
+**Normalization and the substitution.** The live definition uses natural logarithmic Weil height and h_Z(alpha)=h(alpha)+h(1-alpha), then the supremum of thresholds with finite sublevel set. The supplied proof uses precisely that definition. T(z)=z(1-z) is invariant under z -> 1-z. Doche uses multiplicative heights; taking the logarithm accounts for the change of notation. I inspected the displayed formulas and lemma on pp. 108–109, not only the imperfect PDF text extraction.
 
-2. **Wrong theorem or an inadmissible specialization.** Doche's printed page-108 lemma and equations (5)–(9) were inspected directly. Apply the lemma to P(y,z)=Q(T(z))^b-y A(T(z)). The strict degree inequality makes every specialization in y have degree 2bD and nonzero leading coefficient. Root-of-unity factorization produces Q(T)^(bn)-A(T)^n. Jensen's formula in y gives the maximum of the two logarithms, and division by bD gives exactly H+J with the exponent signs in PROOF.md. General denominator multiplicities and arbitrary nonzero integer numerators fit this polynomial specialization; Doche's specific factor list is not a hypothesis of the averaging lemma.
+**Exact hypotheses on the new certificate.** The checker reconstructs polynomials from highest-degree-first integer arrays, using exact FLINT integer polynomials. It does not use search-time numerical fields. It verifies:
 
-3. **Nonintegral roots or a bad factor average.** Q is monic; the lower-degree term cannot cancel its leading term after composition. Up to a sign, F_n is monic integral. All its irreducible factors are therefore monic integral. Summing h over roots with multiplicity gives log M(F_n); invariance under alpha -> 1-alpha gives the mean h_Z as log M(F_n)/(bnD). An individual irreducible factor need not itself have that symmetry. The proof correctly uses the complete root multiset.
+| Quantity or condition | New certificate |
+|---|---:|
+| Nonconstant monic denominator factors | 8, all degree 104 |
+| Positive integer multiplicities | all 8 |
+| Active numerator factors | 15 |
+| Nonnegative exact rational exponents | all 15, all positive |
+| D = sum m_j deg R_j | 1000000000064 |
+| a = sum q_i deg S_i | 58700834920208207/65536 |
+| D-a | 6835165083986097/65536 > 0 |
+| Common exponent denominator b | 1048576 |
+| Exact active gcd(S_i,R_j) checks | 120, all constant |
+| Roots of all composed factors, with multiplicity | 2126 |
 
-4. **A polynomial average that fails to bound the essential minimum.** This is the substantive extraction issue. Pairwise active gcd checks imply gcd(A,Q)=1, so no root of F_n is a pole of u=A(T)/Q(T)^b. The rational map u is nonconstant by the strict degree inequality. At u(alpha)^n=1 the outer map 1-v^n has a simple zero; the multiplicity is the vanishing order of u-u(alpha), at most 2bD independently of n. Thus any fixed finite set occupies only bounded multiplicity in F_n, whose degree grows linearly in n. If the sublevel set h_Z<=B+epsilon were finite, nonnegative heights would force the limiting multiset average to be at least B+epsilon, contradicting its limit B. This proves C82<=B under the actual 82a definition. It does not claim attainment at B or infinitely many points at height <=B exactly.
+A common denominator b makes A=product S_i^(b q_i) an integer polynomial with nonnegative integer powers and deg A=ba<bD. Q=product R_j^m_j is monic of degree D. All active cross gcds being constant gives gcd(A,Q)=1 over Q[X]. No irreducibility of the listed factors or pairwise coprimality within the denominator list is needed. Numerators need not be monic; leading coefficients are included in the integral. Composition preserves cross coprimality by a Bezout identity over Q[X].
 
-5. **Old certificate assertions substituted for new checks.** CLAIM.md explicitly warns that the supplied PROOF.md describes an earlier certificate. I did not reuse its D, slack, pair count, root count, names, or old numerical result. The new certificate has D=999999999960, a=940866927165429405/1048576, and positive slack 107709072792627555/1048576. Ten monic denominators and eighteen active numerators pass all 180 exact gcd checks. The current nonmonic numerator is n121_1_12, leading coefficient 2; its contribution is included. Denominator irreducibility and pairwise coprimality are not needed.
+**Degree, algebraic integers, and the factor of two.** Independently reconstructing the argument, F_n=Q(T)^(bn)-A(T)^n has degree 2bnD and leading coefficient +/-1. Its roots are algebraic integers, with multiplicity. Each irreducible factor contributes its degree times the height of a root to log M(F_n). The symmetry permutes the full root multiset, so its average h_Z is log M(F_n)/(bnD). In particular, dividing once more by 2 would be wrong; the supplied proof does not make that mistake. Individual irreducible factors need not have the symmetry.
 
-6. **Numerical cancellation, missed signs, or discarded logarithmic singularities.** The independent checker uses exact polynomial composition, all 2666 certified roots, and 256-bit Arb balls. It encloses signs over complete intervals, retains a bounded contribution for every unresolved sign interval, and uses rigorously evaluated dilogarithm primitives on positive intervals with explicit branch-cut checks. All denominator roots are certified off the circle. Numerator singular neighborhoods are handled by finite upper bounds, including intervals with negative-infinite lower log bounds. The proof and exact dyadic results are in [replay/report.md](replay/report.md) and [replay/result.json](replay/result.json). The tolerance is not confused with a rounding radius.
+**Averaging theorem and exponent signs.** Apply Doche's p. 108 roots-of-unity averaging lemma to P(y,z)=Q(T(z))^b-y A(T(z)). Every specialization has the same positive z-degree 2bD and nonzero leading coefficient, satisfying its nonvanishing hypothesis. Factoring F_n over nth roots of unity and taking the logarithmic form of the lemma gives the two-variable Mahler integral. Jensen in y gives max(b log|Q(T)|,log|A(T)|). Division by bD gives exactly H+J, with positive q_i in the numerator and negative denominator contributions to g. This agrees with Doche's construction in equations (5)–(9). There is no negative polynomial exponent or hidden integrality assumption.
 
-## Controls and numerical verdict
+**Averages are not automatically infinitely many small points.** The supplied extraction step is necessary and valid. At any root alpha of F_n, Q(T(alpha)) is nonzero by coprimality. The rational function u=A(T)/Q(T)^b is nonconstant, since its numerator has strictly smaller degree. The multiplicity of alpha is the order of u(z)-u(alpha), as u(alpha)^n=1 and the outer power has nonzero derivative. Clearing the denominator bounds that order by 2bD, uniformly in n. Consequently any fixed finite set accounts for only bounded multiplicity while deg F_n grows linearly in n. If only finitely many alpha satisfied h_Z<=B+epsilon, nonnegativity of height would force the averages to have liminf at least B+epsilon, contradicting their limit B. This proves C82<=B. It does not claim attainment or an infinite sublevel set at B itself.
 
-The complete replay passed in 77.04 seconds. Invalid coefficient, negative exponent, degree, and gcd perturbations are rejected. Valid P1=X -> 2X and q(P1) -> 0 perturbations satisfy the hypotheses but provably change B. The false target 0.2520179247 is below the certified lower endpoint and is rejected. Analytic cases B=log(3) and the positive log-sine integral are reproduced. See the self-contained [checker](replay/check.py) and [replay report](replay/report.md).
+## Attacks on the numerical claim
 
-## Live comparisons
+The new checker `replay/check.py` is self-contained: only the standard library and python-flint. It contains no math import, float conversion, or floating-point literal. JSON search-time decimals are parsed as strings and ignored. Computation uses 256-bit Arb with one FLINT thread.
 
-The permitted sources were read and rechecked on 2026-11-05; the final 82a, #280, and #330 snapshots are unchanged from the initial reads.
+Mahler measures use complete certified FLINT root enclosures of the exact composed polynomials. Every denominator root has modulus rigorously separated from 1. The seven numerator roots on the unit circle come from exact divisions by Phi_1, Phi_6 and Phi_10; all remaining roots are separated from the circle.
 
-| Source | Printed upper bound | Printed bound minus this replay's upper endpoint |
-| --- | --- | --- |
-| [#280 v3, V. Patankar](https://github.com/teorth/optimizationproblems/pull/280) | 0.2520591386* | > 0.00004121384479064825 |
-| [#330](https://github.com/teorth/optimizationproblems/pull/330) | 0.252404806* | > 0.00038688124479064825 |
+For J the checker covers [0,1/2] by an adaptive exact dyadic partition and doubles by conjugation symmetry. It proves each accepted positive or negative panel's sign using rigorous range bounds (also a mean-value bound when nonsingular). A numerator logarithm tending to -infinity causes no omitted neighborhood: its finite upper bound can still prove g<0. All unresolved panels contribute a conservative [0,error] interval. There are 29 joined positive arcs, and the combined upper contribution from 58 unresolved panels is less than 3.277e-22.
 
-The #280 comment gives a tighter independent interval [0.2520591385259547,0.2520591385259548] and the author acknowledges that the earlier printed ball radius alone excluded quadrature error. The present bound is also below that interval. The #301 text reports 0.253091834*. These are textual comparisons, not local replays of forbidden packets. Credit remains with Doche's construction, the factor and search methods credited in the candidate, and the candidate's producer. See [PRIOR_ART.md](PRIOR_ART.md); no exhaustive global priority claim is made.
+On positive arcs the integral is evaluated by explicit dilogarithm antiderivatives of the root logarithms; there is no sampled-grid quadrature error to overlook. `replay/report.md` supplies the formulas and their branch justification. The actual unresolved-panel bound and Arb errors are included in the displayed enclosure.
 
-**Did I find something new? No.** This referee job reproduces the supplied candidate. The verified candidate improves the two requested printed bounds under the same definition; this job did not discover its construction.
+The split is
 
-## Caveats and disposition
+    H in [0.251992523252609459669852920685,
+          0.251992523252609459669852920686]
+    J in [0.000003965735591704862027167201,
+          0.000003965735591704862354791329].
 
-The clean-room code independence is attested: no producer source was read or run. Exact serving-model identity and the claimed model difference are not observable within this session; the receipt says so rather than inventing an ID. This is an AI referee opinion with a rigorous numerical replay, not a human referee report or formalized proof. The trusted numerical backend is Python plus FLINT/Arb. None of these caveats changes the certified numerical inequality.
+The certificate's search-time `numeric_unverified` field is below this certified enclosure and is not evidence for the bound. The stale numerical particulars in PROOF.md belong to the earlier certificate, as CLAIM.md explicitly warns; they must not be presented as the new certificate's D, root count, gcd count, or verified value.
 
-The result is suitable to accompany the candidate's proposed PR update with the provenance caveat retained and with the new certificate's counts and value replacing the earlier certificate-specific statements. No commit, PR update, push, post, upload, or contact was made.
+## Controls
 
-2026-11-05: The checker was revised only to remove float/math usage (integer-only LCM and exact progress logging); the full rerun with controls reproduced the identical certified result and PASS in 109.11 seconds.
+- Changing a denominator's leading coefficient from 1 to 2 is rejected as nonmonic.
+- Changing a numerator exponent to -1 is rejected as negative.
+- The false target 0.2519964889 is rejected: even the lower endpoint of B exceeds it.
+- The analytic case Q=X-3, S=5, q=1 gives B=log(5), J=log(5/3); both are enclosed.
+- The analytic case Q=X-3, S=X, q=1/2 has a numerator unit-circle singularity and g<0 everywhere else; the checker returns J=0 and encloses B=log(3).
+
+The first two controls deliberately violate hypotheses; they establish rejection, not a quantitative sensitivity claim for valid coefficient/exponent changes.
+
+## Comparison with permitted live values
+
+| Comparison | Printed strict upper bound | Improvement in printed bound to 0.2519964890 |
+|---|---:|---:|
+| [#280 v3](https://github.com/teorth/optimizationproblems/pull/280) requested in the spec | 0.2520591386* | 0.0000626496 |
+| [#330](https://github.com/teorth/optimizationproblems/pull/330), unchanged at final check | 0.2520179248* | 0.0000214358 |
+| #280 v4, added during this review | 0.2520079724* | 0.0000114834 |
+
+The final #280 body has updated_at 2026-11-05T13:30:35Z and reports B<=0.25200797232846 for v4. The v3 comparison remains relevant but is no longer its latest value. Its comments also correct an earlier confusion between quadrature upper bounds and two-sided enclosures. I did not replay any of these forbidden external packets, so these comparisons are to the public statements, not independent verification of the older certificates.
+
+**Did this referee find something new? No.** It verifies the supplied candidate, not a newly discovered certificate or construction. The supplied candidate does beat the specified printed numbers under the same definition, including the newly observed v4. This is not an exhaustive global priority or optimality claim.
+
+## Disposition
+
+The mathematics and numerical replay support updating the candidate bound to 0.2519964890*, with the new certificate-specific quantities above. Preserve the AI-review qualification and do not assert demonstrated different-model provenance from this receipt. No PR, repository or external service was modified; no commit, push or post was made.
 
 VERDICT: HOLDS WITH CAVEATS

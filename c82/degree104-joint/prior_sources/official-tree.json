@@ -1,1 +1,1052 @@
-{"sha":"87b4ebbd426ff8db597a2004cc45da17903bdcf2","url":"https://api.github.com/repos/teorth/optimizationproblems/git/trees/87b4ebbd426ff8db597a2004cc45da17903bdcf2","tree":[{"path":".gitignore","mode":"100644","type":"blob","sha":"e17643ffe7b588d5b3769870a55ae009006b0bbc","size":36,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/e17643ffe7b588d5b3769870a55ae009006b0bbc"},{"path":"CONTRIBUTING.md","mode":"100644","type":"blob","sha":"4a93a6f158af4e59fcc138b6b225fc3d9031d1e6","size":12432,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/4a93a6f158af4e59fcc138b6b225fc3d9031d1e6"},{"path":"LICENSE","mode":"100644","type":"blob","sha":"261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64","size":11357,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"},{"path":"README.md","mode":"100644","type":"blob","sha":"2817bd1d6291e889dfb5ad6c05470f78cce39c0d","size":57772,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/2817bd1d6291e889dfb5ad6c05470f78cce39c0d"},{"path":"_config.yml","mode":"100644","type":"blob","sha":"7480089fcf2dd7799d3105af7ed8517f08e417e4","size":188,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/7480089fcf2dd7799d3105af7ed8517f08e417e4"},{"path":"_layouts","mode":"040000","type":"tree","sha":"cb42f51f4b2f39273fe057abde2375a41a181b38","url":"https://api.github.com/repos/teorth/optimizationproblems/git/trees/cb42f51f4b2f39273fe057abde2375a41a181b38"},{"path":"_layouts/default.html","mode":"100644","type":"blob","sha":"534e048a865f8bc99c357466e0fe3d465990892b","size":783,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/534e048a865f8bc99c357466e0fe3d465990892b"},{"path":"constants","mode":"040000","type":"tree","sha":"7c216374538bd47e99bc882611e62581f3675751","url":"https://api.github.com/repos/teorth/optimizationproblems/git/trees/7c216374538bd47e99bc882611e62581f3675751"},{"path":"constants/10a.md","mode":"100644","type":"blob","sha":"4a1a2f4d8e9f9258465c858806b16e26d5e366b3","size":6417,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/4a1a2f4d8e9f9258465c858806b16e26d5e366b3"},{"path":"constants/10b.md","mode":"100644","type":"blob","sha":"ea61d3fea2c4b1e4d5ad775a6889fe17143ad24f","size":2585,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/ea61d3fea2c4b1e4d5ad775a6889fe17143ad24f"},{"path":"constants/10c.md","mode":"100644","type":"blob","sha":"f3ffdfe1c53532cd1725d1746875e41bd357bae7","size":16974,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/f3ffdfe1c53532cd1725d1746875e41bd357bae7"},{"path":"constants/11a.md","mode":"100644","type":"blob","sha":"15c5d9c36e4b77bb6a0b476830d0eef7b7747bef","size":2391,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/15c5d9c36e4b77bb6a0b476830d0eef7b7747bef"},{"path":"constants/11b.md","mode":"100644","type":"blob","sha":"98045ba44576d1f3c0890e5e3651e4366a4c9db8","size":4012,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/98045ba44576d1f3c0890e5e3651e4366a4c9db8"},{"path":"constants/12a.md","mode":"100644","type":"blob","sha":"14c0d1573204ff3b90c54736ff98f8da1a4d3e1d","size":4359,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/14c0d1573204ff3b90c54736ff98f8da1a4d3e1d"},{"path":"constants/13a.md","mode":"100644","type":"blob","sha":"fc64909f3418360d83bc8334217dc0a3acfce1ea","size":5190,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/fc64909f3418360d83bc8334217dc0a3acfce1ea"},{"path":"constants/13b.md","mode":"100644","type":"blob","sha":"54e8167e130deebd80dc5d7287657cd616c32c9d","size":4027,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/54e8167e130deebd80dc5d7287657cd616c32c9d"},{"path":"constants/14a.md","mode":"100644","type":"blob","sha":"a9cdd93a5cd623976a3af6d6e4b39eccef83b911","size":2639,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/a9cdd93a5cd623976a3af6d6e4b39eccef83b911"},{"path":"constants/15a.md","mode":"100644","type":"blob","sha":"e9316a159d49881cbf5acfa661a63e3e0b533fba","size":8233,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/e9316a159d49881cbf5acfa661a63e3e0b533fba"},{"path":"constants/15b.md","mode":"100644","type":"blob","sha":"fa7a13bc808e4a029dbdd78abedc53812d26237f","size":6740,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/fa7a13bc808e4a029dbdd78abedc53812d26237f"},{"path":"constants/16a.md","mode":"100644","type":"blob","sha":"9708983f852a0111f3e862f865fc6ddd0e5fce46","size":4697,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/9708983f852a0111f3e862f865fc6ddd0e5fce46"},{"path":"constants/17a.md","mode":"100644","type":"blob","sha":"58ef05c725911c1f522a03197eecfe9434400614","size":3463,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/58ef05c725911c1f522a03197eecfe9434400614"},{"path":"constants/17b.md","mode":"100644","type":"blob","sha":"85ed29ddbf3e172ed79c5e1d93f37d768b472caf","size":4483,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/85ed29ddbf3e172ed79c5e1d93f37d768b472caf"},{"path":"constants/18a.md","mode":"100644","type":"blob","sha":"3f07360b4c19b0f76a383a15b22ff18c1134df4a","size":2402,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/3f07360b4c19b0f76a383a15b22ff18c1134df4a"},{"path":"constants/19a.md","mode":"100644","type":"blob","sha":"de88b2f8376bb6981f39f4c0c8cae4e6f45b6bcf","size":6320,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/de88b2f8376bb6981f39f4c0c8cae4e6f45b6bcf"},{"path":"constants/1a.md","mode":"100644","type":"blob","sha":"b6b6c827f679ed6678f3e33c8700ab65e36b2b67","size":10788,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/b6b6c827f679ed6678f3e33c8700ab65e36b2b67"},{"path":"constants/1b.md","mode":"100644","type":"blob","sha":"e7d60e62a674f3c413875ccf44a9c110b3882ef0","size":10607,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/e7d60e62a674f3c413875ccf44a9c110b3882ef0"},{"path":"constants/1c.md","mode":"100644","type":"blob","sha":"2e1d35ba470f97dca240e4e838633a1febcdcda0","size":7110,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/2e1d35ba470f97dca240e4e838633a1febcdcda0"},{"path":"constants/1d.md","mode":"100644","type":"blob","sha":"c118ecd9ac3dce0130ad61a033cb9510ba2ce684","size":10221,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/c118ecd9ac3dce0130ad61a033cb9510ba2ce684"},{"path":"constants/20a.md","mode":"100644","type":"blob","sha":"403b4010f1d74208fb2b5784496bf4de9cb37cde","size":6615,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/403b4010f1d74208fb2b5784496bf4de9cb37cde"},{"path":"constants/20b.md","mode":"100644","type":"blob","sha":"c27c95060760cd089ef69342237b96f5d0b9d556","size":6747,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/c27c95060760cd089ef69342237b96f5d0b9d556"},{"path":"constants/20c.md","mode":"100644","type":"blob","sha":"2be0d459f32a070f2280309ece6e67fb43012ef1","size":6082,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/2be0d459f32a070f2280309ece6e67fb43012ef1"},{"path":"constants/21a.md","mode":"100644","type":"blob","sha":"0b9816d2725661e0f52c0883a0ec71d2bfa99d27","size":6986,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/0b9816d2725661e0f52c0883a0ec71d2bfa99d27"},{"path":"constants/22a.md","mode":"100644","type":"blob","sha":"2c0bb56bf873046eec7a47743ebf97ecc4a4a5a7","size":3314,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/2c0bb56bf873046eec7a47743ebf97ecc4a4a5a7"},{"path":"constants/22b.md","mode":"100644","type":"blob","sha":"cc13ae2a2a422dccf42b7c46840bf73f9c0ae72e","size":4394,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/cc13ae2a2a422dccf42b7c46840bf73f9c0ae72e"},{"path":"constants/23a.md","mode":"100644","type":"blob","sha":"7d2c058d3e7465245533c15b74d4e271356fee0a","size":3714,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/7d2c058d3e7465245533c15b74d4e271356fee0a"},{"path":"constants/23b.md","mode":"100644","type":"blob","sha":"f9db01811b8f61751fe8d488164e2f80386fcc59","size":8080,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/f9db01811b8f61751fe8d488164e2f80386fcc59"},{"path":"constants/23c.md","mode":"100644","type":"blob","sha":"3420bde13df0cf9874a0b44e51f39c6a83a7ef82","size":10737,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/3420bde13df0cf9874a0b44e51f39c6a83a7ef82"},{"path":"constants/24a.md","mode":"100644","type":"blob","sha":"eb09653152164c31b2e28267dda7c36ac7940112","size":5995,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/eb09653152164c31b2e28267dda7c36ac7940112"},{"path":"constants/25a.md","mode":"100644","type":"blob","sha":"c724e09f283604fb1ffd108007a77085af5ccff7","size":3650,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/c724e09f283604fb1ffd108007a77085af5ccff7"},{"path":"constants/26a.md","mode":"100644","type":"blob","sha":"fe1da16f56f78e5bd2494993e3c79d3042e6908c","size":3604,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/fe1da16f56f78e5bd2494993e3c79d3042e6908c"},{"path":"constants/26b.md","mode":"100644","type":"blob","sha":"a375c9e5b65474324d22975740bb8ae02abfb086","size":3124,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/a375c9e5b65474324d22975740bb8ae02abfb086"},{"path":"constants/27a.md","mode":"100644","type":"blob","sha":"e5c877614000d0acd8b0a1785f5158d6f11a7049","size":4384,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/e5c877614000d0acd8b0a1785f5158d6f11a7049"},{"path":"constants/27b.md","mode":"100644","type":"blob","sha":"412994ae81f70c39c068bda66abc1014b8ad9513","size":1518,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/412994ae81f70c39c068bda66abc1014b8ad9513"},{"path":"constants/28a.md","mode":"100644","type":"blob","sha":"9eee3f382806464254d6ad306fd5bc007523b8c9","size":16336,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/9eee3f382806464254d6ad306fd5bc007523b8c9"},{"path":"constants/29a.md","mode":"100644","type":"blob","sha":"92c8ef290c98d6ea8b81b31b4d276e94e28dba08","size":8785,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/92c8ef290c98d6ea8b81b31b4d276e94e28dba08"},{"path":"constants/2a.md","mode":"100644","type":"blob","sha":"aba1131c191229eaf850598d9d5d9bc8d6b0cd8c","size":6157,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/aba1131c191229eaf850598d9d5d9bc8d6b0cd8c"},{"path":"constants/30a.md","mode":"100644","type":"blob","sha":"d0cf3254c023a1a426186fba5749d8cdd2a9c1fb","size":12698,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/d0cf3254c023a1a426186fba5749d8cdd2a9c1fb"},{"path":"constants/31a.md","mode":"100644","type":"blob","sha":"4a9b11292c36af55b8774c3e0388eb0f9f279b59","size":3859,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/4a9b11292c36af55b8774c3e0388eb0f9f279b59"},{"path":"constants/32a.md","mode":"100644","type":"blob","sha":"8e187726c17d84dac1ca40373eaf96302e7a8989","size":4851,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/8e187726c17d84dac1ca40373eaf96302e7a8989"},{"path":"constants/33a.md","mode":"100644","type":"blob","sha":"206694f5cb9d3c92f5fb63de70ca89c2650505b0","size":13005,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/206694f5cb9d3c92f5fb63de70ca89c2650505b0"},{"path":"constants/34a.md","mode":"100644","type":"blob","sha":"ffa00b7cd08f30f8671c2f024495398c48e4a575","size":4953,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/ffa00b7cd08f30f8671c2f024495398c48e4a575"},{"path":"constants/35a.md","mode":"100644","type":"blob","sha":"cc5d101c29ed6dc496d8ce693e1dc7d2a2b43ee2","size":1984,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/cc5d101c29ed6dc496d8ce693e1dc7d2a2b43ee2"},{"path":"constants/36a.md","mode":"100644","type":"blob","sha":"00bec8b9c7074508b3e656f35a158fc27bbf2cb7","size":6161,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/00bec8b9c7074508b3e656f35a158fc27bbf2cb7"},{"path":"constants/37a.md","mode":"100644","type":"blob","sha":"5af9a1fee7b40a577a4a01215036c2259db76247","size":4370,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/5af9a1fee7b40a577a4a01215036c2259db76247"},{"path":"constants/38a.md","mode":"100644","type":"blob","sha":"7f558dff1f2651b4d974901c517789c45a885fbc","size":14308,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/7f558dff1f2651b4d974901c517789c45a885fbc"},{"path":"constants/39a.md","mode":"100644","type":"blob","sha":"357a4e631dcd20fb56d0fb208e4edd676b226dca","size":6509,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/357a4e631dcd20fb56d0fb208e4edd676b226dca"},{"path":"constants/3a.md","mode":"100644","type":"blob","sha":"98b3f0d4ef143cf222adc4a1b5d047b69b2753c9","size":14373,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/98b3f0d4ef143cf222adc4a1b5d047b69b2753c9"},{"path":"constants/3b.md","mode":"100644","type":"blob","sha":"e30bf23c33155960b1a29f1dd73aa71a38808f0f","size":3713,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/e30bf23c33155960b1a29f1dd73aa71a38808f0f"},{"path":"constants/3c.md","mode":"100644","type":"blob","sha":"c55fc0a84665f4d0bfda25504b8060e83179317d","size":6429,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/c55fc0a84665f4d0bfda25504b8060e83179317d"},{"path":"constants/3d.md","mode":"100644","type":"blob","sha":"8921fd0cad18e3affc5ee48815f7c6775a02ede7","size":10426,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/8921fd0cad18e3affc5ee48815f7c6775a02ede7"},{"path":"constants/3e.md","mode":"100644","type":"blob","sha":"8f2bdd5df66ecf49faea5bfa140242e5fb03e4e0","size":6298,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/8f2bdd5df66ecf49faea5bfa140242e5fb03e4e0"},{"path":"constants/40a.md","mode":"100644","type":"blob","sha":"3235f358c4ab8a1080d246caf8580f935f1c106a","size":5871,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/3235f358c4ab8a1080d246caf8580f935f1c106a"},{"path":"constants/40b.md","mode":"100644","type":"blob","sha":"64b7c7286cb8bddd8c0cb5d524edfd0362706985","size":5892,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/64b7c7286cb8bddd8c0cb5d524edfd0362706985"},{"path":"constants/41a.md","mode":"100644","type":"blob","sha":"3389ccc1ff8e7d961fe8c42fa0ddf9e5635d0907","size":2688,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/3389ccc1ff8e7d961fe8c42fa0ddf9e5635d0907"},{"path":"constants/41b.md","mode":"100644","type":"blob","sha":"f50c953566b7afeb00d49493527c9b7eb9f2e526","size":1882,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/f50c953566b7afeb00d49493527c9b7eb9f2e526"},{"path":"constants/42a.md","mode":"100644","type":"blob","sha":"45965201caf4a449ee705f8dff9efe88f7f539f8","size":6272,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/45965201caf4a449ee705f8dff9efe88f7f539f8"},{"path":"constants/43a.md","mode":"100644","type":"blob","sha":"66d8b21b7b4633c9e8ebc40c929fb379ad69bf0e","size":3784,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/66d8b21b7b4633c9e8ebc40c929fb379ad69bf0e"},{"path":"constants/44a.md","mode":"100644","type":"blob","sha":"1b13f9db152b4cfb1728e2c32c34b01e88c781be","size":4859,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/1b13f9db152b4cfb1728e2c32c34b01e88c781be"},{"path":"constants/45a.md","mode":"100644","type":"blob","sha":"ec610e5a56fd9d350f63eda45584bdfe615a18e5","size":4295,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/ec610e5a56fd9d350f63eda45584bdfe615a18e5"},{"path":"constants/46a.md","mode":"100644","type":"blob","sha":"8cc2578eb6a69c990c0c1660e8de78f3629ea542","size":4774,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/8cc2578eb6a69c990c0c1660e8de78f3629ea542"},{"path":"constants/47a.md","mode":"100644","type":"blob","sha":"3023e21af6852f5bf1b7a20ab5c3da98b0706b8a","size":10380,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/3023e21af6852f5bf1b7a20ab5c3da98b0706b8a"},{"path":"constants/48a.md","mode":"100644","type":"blob","sha":"2bb9c5068d059406ffa97212606dc2e2e119fa3f","size":7987,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/2bb9c5068d059406ffa97212606dc2e2e119fa3f"},{"path":"constants/49a.md","mode":"100644","type":"blob","sha":"903b1b84c177995eaeafb442daceb21c76d77192","size":14988,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/903b1b84c177995eaeafb442daceb21c76d77192"},{"path":"constants/4a.md","mode":"100644","type":"blob","sha":"c51fce904013fed05f71b3528403f68f47178a54","size":2572,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/c51fce904013fed05f71b3528403f68f47178a54"},{"path":"constants/4b.md","mode":"100644","type":"blob","sha":"33bf11633c421738a84228325a9dae1d3aa93017","size":15144,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/33bf11633c421738a84228325a9dae1d3aa93017"},{"path":"constants/50a.md","mode":"100644","type":"blob","sha":"6848fed3b4272700feb0754dffa48e0fcfb129cc","size":5529,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/6848fed3b4272700feb0754dffa48e0fcfb129cc"},{"path":"constants/51a.md","mode":"100644","type":"blob","sha":"85b55994a590d87348a9ad1d7ef6a4c58890585f","size":4264,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/85b55994a590d87348a9ad1d7ef6a4c58890585f"},{"path":"constants/52a.md","mode":"100644","type":"blob","sha":"796250a005e7951e5ba04bf4bfa1464f68fd8b28","size":6460,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/796250a005e7951e5ba04bf4bfa1464f68fd8b28"},{"path":"constants/53a.md","mode":"100644","type":"blob","sha":"9911190bd361e13f36107db4fda91d6e5e6f1141","size":9277,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/9911190bd361e13f36107db4fda91d6e5e6f1141"},{"path":"constants/54a.md","mode":"100644","type":"blob","sha":"3e5e6305985337128b52fd71df4020a3f66a6444","size":7560,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/3e5e6305985337128b52fd71df4020a3f66a6444"},{"path":"constants/55a.md","mode":"100644","type":"blob","sha":"1d6b8d427e0731b67b61b7873424efddb95246e7","size":2667,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/1d6b8d427e0731b67b61b7873424efddb95246e7"},{"path":"constants/56a.md","mode":"100644","type":"blob","sha":"1ecc904314b596ef2053311488e77e2cea4006ca","size":6432,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/1ecc904314b596ef2053311488e77e2cea4006ca"},{"path":"constants/57a.md","mode":"100644","type":"blob","sha":"f87f3ee0e4ece3950ca5a4c0e8d2a75fd689ca8b","size":5813,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/f87f3ee0e4ece3950ca5a4c0e8d2a75fd689ca8b"},{"path":"constants/57b.md","mode":"100644","type":"blob","sha":"08df1d9c2cef0f82a81b5cb4133aa265673fbfd8","size":4874,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/08df1d9c2cef0f82a81b5cb4133aa265673fbfd8"},{"path":"constants/57c.md","mode":"100644","type":"blob","sha":"8170f9cf224f5734d415f955ee94664052bd2c87","size":8581,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/8170f9cf224f5734d415f955ee94664052bd2c87"},{"path":"constants/58a.md","mode":"100644","type":"blob","sha":"0a0eb14e72359e7e5a75e4a07608e286a9de3f25","size":6370,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/0a0eb14e72359e7e5a75e4a07608e286a9de3f25"},{"path":"constants/59a.md","mode":"100644","type":"blob","sha":"e5db960c1d0906f69c5dfc86bb17871f390842f6","size":10784,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/e5db960c1d0906f69c5dfc86bb17871f390842f6"},{"path":"constants/5a.md","mode":"100644","type":"blob","sha":"9dde19d5fc51cdaf06f6a8d959518f2178abd7b3","size":6198,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/9dde19d5fc51cdaf06f6a8d959518f2178abd7b3"},{"path":"constants/5b.md","mode":"100644","type":"blob","sha":"d8c35b96af4b626ce5fea5e26f9bc37d4e3c3159","size":2438,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/d8c35b96af4b626ce5fea5e26f9bc37d4e3c3159"},{"path":"constants/60a.md","mode":"100644","type":"blob","sha":"00cc19a610af2d1cd36ec45ab041ca4e1b82533b","size":6257,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/00cc19a610af2d1cd36ec45ab041ca4e1b82533b"},{"path":"constants/61a.md","mode":"100644","type":"blob","sha":"a6ba32a3dae109702d46777fe62d6a584da879b5","size":4161,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/a6ba32a3dae109702d46777fe62d6a584da879b5"},{"path":"constants/62a.md","mode":"100644","type":"blob","sha":"90a4fa4bc4f123fc04a35e0e42a3e6d474d4cd6c","size":3779,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/90a4fa4bc4f123fc04a35e0e42a3e6d474d4cd6c"},{"path":"constants/62b.md","mode":"100644","type":"blob","sha":"52cab56e745a37f4b5a4479d88bc31c24a10c6cc","size":5795,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/52cab56e745a37f4b5a4479d88bc31c24a10c6cc"},{"path":"constants/63a.md","mode":"100644","type":"blob","sha":"67e3c4d8bd452b605271a84ef8fc47e4c5aa17a4","size":3896,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/67e3c4d8bd452b605271a84ef8fc47e4c5aa17a4"},{"path":"constants/64a.md","mode":"100644","type":"blob","sha":"d5e1d1dea3baf99835a20fe9048df51d4ebfe5a1","size":4325,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/d5e1d1dea3baf99835a20fe9048df51d4ebfe5a1"},{"path":"constants/65a.md","mode":"100644","type":"blob","sha":"4d9647972d24d8c0b4c475925b9d58cfe1a8a876","size":11381,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/4d9647972d24d8c0b4c475925b9d58cfe1a8a876"},{"path":"constants/66a.md","mode":"100644","type":"blob","sha":"4eb6ceb5f5058120561b5cf2dc46c8ee2529457a","size":5765,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/4eb6ceb5f5058120561b5cf2dc46c8ee2529457a"},{"path":"constants/67a.md","mode":"100644","type":"blob","sha":"eb8ad22866bc929420c5cc4169c3087ba65a08a4","size":3667,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/eb8ad22866bc929420c5cc4169c3087ba65a08a4"},{"path":"constants/68a.md","mode":"100644","type":"blob","sha":"10369a04a3c210c6ae5e33d68dbda6cb8002f336","size":7552,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/10369a04a3c210c6ae5e33d68dbda6cb8002f336"},{"path":"constants/69a.md","mode":"100644","type":"blob","sha":"122aecc3f25b34baf4035567ffff2c23f7c9a13c","size":6363,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/122aecc3f25b34baf4035567ffff2c23f7c9a13c"},{"path":"constants/6a.md","mode":"100644","type":"blob","sha":"17f3b1a0219607888bfe4107083a2274f299a044","size":2181,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/17f3b1a0219607888bfe4107083a2274f299a044"},{"path":"constants/70a.md","mode":"100644","type":"blob","sha":"a3b784285ceb074bf5a21cd71014c51238f7dcb6","size":9190,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/a3b784285ceb074bf5a21cd71014c51238f7dcb6"},{"path":"constants/71a.md","mode":"100644","type":"blob","sha":"7317e61e8159a2fe778b14cb715e3c1810b29569","size":9957,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/7317e61e8159a2fe778b14cb715e3c1810b29569"},{"path":"constants/72a.md","mode":"100644","type":"blob","sha":"1d9bb61a3f766e05a7440c339711fcb2900c2074","size":8100,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/1d9bb61a3f766e05a7440c339711fcb2900c2074"},{"path":"constants/73a.md","mode":"100644","type":"blob","sha":"3511f81b48f6b992c72643861aeff7ba18944495","size":5059,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/3511f81b48f6b992c72643861aeff7ba18944495"},{"path":"constants/74a.md","mode":"100644","type":"blob","sha":"76640e7dda22efdc926659d3f8c79856b94e10f5","size":10925,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/76640e7dda22efdc926659d3f8c79856b94e10f5"},{"path":"constants/75a.md","mode":"100644","type":"blob","sha":"97800ff4a22d7596a7b161a940792234fb280dbe","size":9928,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/97800ff4a22d7596a7b161a940792234fb280dbe"},{"path":"constants/76a.md","mode":"100644","type":"blob","sha":"d75994e1db10737ad3955053aa26cb760cf62003","size":8417,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/d75994e1db10737ad3955053aa26cb760cf62003"},{"path":"constants/77a.md","mode":"100644","type":"blob","sha":"375e12b4cc377c8e7e6da5d1a6d097170b02cab5","size":9504,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/375e12b4cc377c8e7e6da5d1a6d097170b02cab5"},{"path":"constants/78a.md","mode":"100644","type":"blob","sha":"d81d5c5e54f4f182670a4bc9ed76182d8482f22a","size":9173,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/d81d5c5e54f4f182670a4bc9ed76182d8482f22a"},{"path":"constants/79a.md","mode":"100644","type":"blob","sha":"2eae4500e3d1d35b30e847e385ef8bf0fb4a44e2","size":11024,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/2eae4500e3d1d35b30e847e385ef8bf0fb4a44e2"},{"path":"constants/7a.md","mode":"100644","type":"blob","sha":"6421327128af0ca8ca5f7de9f56dc867b71712bd","size":3849,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/6421327128af0ca8ca5f7de9f56dc867b71712bd"},{"path":"constants/7b.md","mode":"100644","type":"blob","sha":"ba96a9df55c3c77d3b407d6ff5a954c537bf4918","size":4510,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/ba96a9df55c3c77d3b407d6ff5a954c537bf4918"},{"path":"constants/80a.md","mode":"100644","type":"blob","sha":"d03dd13a54415a8ea8bc2badc35fb24a7e65799f","size":4708,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/d03dd13a54415a8ea8bc2badc35fb24a7e65799f"},{"path":"constants/81a.md","mode":"100644","type":"blob","sha":"67325e21c39bd97551a8e4615ac7bd4aee0980b0","size":4661,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/67325e21c39bd97551a8e4615ac7bd4aee0980b0"},{"path":"constants/82a.md","mode":"100644","type":"blob","sha":"3c01b653bc3c50908d4a409003c510b30adbdeb6","size":5356,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/3c01b653bc3c50908d4a409003c510b30adbdeb6"},{"path":"constants/83a.md","mode":"100644","type":"blob","sha":"6c91ab831746ae4c7616f66b4e0b71bf7139073e","size":5283,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/6c91ab831746ae4c7616f66b4e0b71bf7139073e"},{"path":"constants/84a.md","mode":"100644","type":"blob","sha":"ad6fd9aa25fd2460b358735fc1b2749ea6eb293d","size":14492,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/ad6fd9aa25fd2460b358735fc1b2749ea6eb293d"},{"path":"constants/84b.md","mode":"100644","type":"blob","sha":"881cfa61ef0026a07504fe3860110da38bca9e00","size":8865,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/881cfa61ef0026a07504fe3860110da38bca9e00"},{"path":"constants/85a.md","mode":"100644","type":"blob","sha":"79fb0df004e40178cf1c7148c7eeb8240b6db42e","size":6323,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/79fb0df004e40178cf1c7148c7eeb8240b6db42e"},{"path":"constants/86a.md","mode":"100644","type":"blob","sha":"5e5f7559864f9f0ee542b2f63979008c1a26ea9f","size":21432,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/5e5f7559864f9f0ee542b2f63979008c1a26ea9f"},{"path":"constants/87a.md","mode":"100644","type":"blob","sha":"1b0999434f839c509840fd382166f23712a5ccbf","size":8772,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/1b0999434f839c509840fd382166f23712a5ccbf"},{"path":"constants/88a.md","mode":"100644","type":"blob","sha":"07e0b5621b755866188141623afdc9cb4b6c8e78","size":8943,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/07e0b5621b755866188141623afdc9cb4b6c8e78"},{"path":"constants/88b.md","mode":"100644","type":"blob","sha":"9632e44d38ec75e569c2a6b567d2b1832c1b34e4","size":5207,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/9632e44d38ec75e569c2a6b567d2b1832c1b34e4"},{"path":"constants/89a.md","mode":"100644","type":"blob","sha":"18e2322bfcc131a3a4da06b84fccf3dd4a656aaa","size":8985,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/18e2322bfcc131a3a4da06b84fccf3dd4a656aaa"},{"path":"constants/8a.md","mode":"100644","type":"blob","sha":"f75a7e36291e9fcbaba4a53e93d31f13bcc35048","size":3666,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/f75a7e36291e9fcbaba4a53e93d31f13bcc35048"},{"path":"constants/90a.md","mode":"100644","type":"blob","sha":"d7ec37f1cd6bc2e2957db10395b8afafff8bd7b7","size":12600,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/d7ec37f1cd6bc2e2957db10395b8afafff8bd7b7"},{"path":"constants/9a.md","mode":"100644","type":"blob","sha":"58bae6508be3cde9f7305214137f1f3f5f05c10a","size":6062,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/58bae6508be3cde9f7305214137f1f3f5f05c10a"},{"path":"scripts","mode":"040000","type":"tree","sha":"78c6cee2e883881e163c5f13ba7595764118f88f","url":"https://api.github.com/repos/teorth/optimizationproblems/git/trees/78c6cee2e883881e163c5f13ba7595764118f88f"},{"path":"scripts/check_pages.py","mode":"100755","type":"blob","sha":"ae316baf2d69658e999190764803b9d5982e1b2c","size":10934,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/ae316baf2d69658e999190764803b9d5982e1b2c"},{"path":"template.md","mode":"100644","type":"blob","sha":"088ccadb1f7fce8ecdb9a7340e476ae4ac288362","size":883,"url":"https://api.github.com/repos/teorth/optimizationproblems/git/blobs/088ccadb1f7fce8ecdb9a7340e476ae4ac288362"}],"truncated":false}
+{
+  "sha": "87b4ebbd426ff8db597a2004cc45da17903bdcf2",
+  "url": "https://api.github.com/repos/teorth/optimizationproblems/git/trees/87b4ebbd426ff8db597a2004cc45da17903bdcf2",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e17643ffe7b588d5b3769870a55ae009006b0bbc",
+      "size": 36,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/e17643ffe7b588d5b3769870a55ae009006b0bbc"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a93a6f158af4e59fcc138b6b225fc3d9031d1e6",
+      "size": 12432,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/4a93a6f158af4e59fcc138b6b225fc3d9031d1e6"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2817bd1d6291e889dfb5ad6c05470f78cce39c0d",
+      "size": 57772,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/2817bd1d6291e889dfb5ad6c05470f78cce39c0d"
+    },
+    {
+      "path": "_config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7480089fcf2dd7799d3105af7ed8517f08e417e4",
+      "size": 188,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/7480089fcf2dd7799d3105af7ed8517f08e417e4"
+    },
+    {
+      "path": "_layouts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cb42f51f4b2f39273fe057abde2375a41a181b38",
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/trees/cb42f51f4b2f39273fe057abde2375a41a181b38"
+    },
+    {
+      "path": "_layouts/default.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "534e048a865f8bc99c357466e0fe3d465990892b",
+      "size": 783,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/534e048a865f8bc99c357466e0fe3d465990892b"
+    },
+    {
+      "path": "constants",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7c216374538bd47e99bc882611e62581f3675751",
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/trees/7c216374538bd47e99bc882611e62581f3675751"
+    },
+    {
+      "path": "constants/10a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a1a2f4d8e9f9258465c858806b16e26d5e366b3",
+      "size": 6417,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/4a1a2f4d8e9f9258465c858806b16e26d5e366b3"
+    },
+    {
+      "path": "constants/10b.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea61d3fea2c4b1e4d5ad775a6889fe17143ad24f",
+      "size": 2585,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/ea61d3fea2c4b1e4d5ad775a6889fe17143ad24f"
+    },
+    {
+      "path": "constants/10c.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3ffdfe1c53532cd1725d1746875e41bd357bae7",
+      "size": 16974,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/f3ffdfe1c53532cd1725d1746875e41bd357bae7"
+    },
+    {
+      "path": "constants/11a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15c5d9c36e4b77bb6a0b476830d0eef7b7747bef",
+      "size": 2391,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/15c5d9c36e4b77bb6a0b476830d0eef7b7747bef"
+    },
+    {
+      "path": "constants/11b.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98045ba44576d1f3c0890e5e3651e4366a4c9db8",
+      "size": 4012,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/98045ba44576d1f3c0890e5e3651e4366a4c9db8"
+    },
+    {
+      "path": "constants/12a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14c0d1573204ff3b90c54736ff98f8da1a4d3e1d",
+      "size": 4359,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/14c0d1573204ff3b90c54736ff98f8da1a4d3e1d"
+    },
+    {
+      "path": "constants/13a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc64909f3418360d83bc8334217dc0a3acfce1ea",
+      "size": 5190,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/fc64909f3418360d83bc8334217dc0a3acfce1ea"
+    },
+    {
+      "path": "constants/13b.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54e8167e130deebd80dc5d7287657cd616c32c9d",
+      "size": 4027,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/54e8167e130deebd80dc5d7287657cd616c32c9d"
+    },
+    {
+      "path": "constants/14a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9cdd93a5cd623976a3af6d6e4b39eccef83b911",
+      "size": 2639,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/a9cdd93a5cd623976a3af6d6e4b39eccef83b911"
+    },
+    {
+      "path": "constants/15a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9316a159d49881cbf5acfa661a63e3e0b533fba",
+      "size": 8233,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/e9316a159d49881cbf5acfa661a63e3e0b533fba"
+    },
+    {
+      "path": "constants/15b.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa7a13bc808e4a029dbdd78abedc53812d26237f",
+      "size": 6740,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/fa7a13bc808e4a029dbdd78abedc53812d26237f"
+    },
+    {
+      "path": "constants/16a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9708983f852a0111f3e862f865fc6ddd0e5fce46",
+      "size": 4697,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/9708983f852a0111f3e862f865fc6ddd0e5fce46"
+    },
+    {
+      "path": "constants/17a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58ef05c725911c1f522a03197eecfe9434400614",
+      "size": 3463,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/58ef05c725911c1f522a03197eecfe9434400614"
+    },
+    {
+      "path": "constants/17b.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85ed29ddbf3e172ed79c5e1d93f37d768b472caf",
+      "size": 4483,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/85ed29ddbf3e172ed79c5e1d93f37d768b472caf"
+    },
+    {
+      "path": "constants/18a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f07360b4c19b0f76a383a15b22ff18c1134df4a",
+      "size": 2402,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/3f07360b4c19b0f76a383a15b22ff18c1134df4a"
+    },
+    {
+      "path": "constants/19a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de88b2f8376bb6981f39f4c0c8cae4e6f45b6bcf",
+      "size": 6320,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/de88b2f8376bb6981f39f4c0c8cae4e6f45b6bcf"
+    },
+    {
+      "path": "constants/1a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6b6c827f679ed6678f3e33c8700ab65e36b2b67",
+      "size": 10788,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/b6b6c827f679ed6678f3e33c8700ab65e36b2b67"
+    },
+    {
+      "path": "constants/1b.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7d60e62a674f3c413875ccf44a9c110b3882ef0",
+      "size": 10607,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/e7d60e62a674f3c413875ccf44a9c110b3882ef0"
+    },
+    {
+      "path": "constants/1c.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e1d35ba470f97dca240e4e838633a1febcdcda0",
+      "size": 7110,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/2e1d35ba470f97dca240e4e838633a1febcdcda0"
+    },
+    {
+      "path": "constants/1d.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c118ecd9ac3dce0130ad61a033cb9510ba2ce684",
+      "size": 10221,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/c118ecd9ac3dce0130ad61a033cb9510ba2ce684"
+    },
+    {
+      "path": "constants/20a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "403b4010f1d74208fb2b5784496bf4de9cb37cde",
+      "size": 6615,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/403b4010f1d74208fb2b5784496bf4de9cb37cde"
+    },
+    {
+      "path": "constants/20b.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c27c95060760cd089ef69342237b96f5d0b9d556",
+      "size": 6747,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/c27c95060760cd089ef69342237b96f5d0b9d556"
+    },
+    {
+      "path": "constants/20c.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2be0d459f32a070f2280309ece6e67fb43012ef1",
+      "size": 6082,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/2be0d459f32a070f2280309ece6e67fb43012ef1"
+    },
+    {
+      "path": "constants/21a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b9816d2725661e0f52c0883a0ec71d2bfa99d27",
+      "size": 6986,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/0b9816d2725661e0f52c0883a0ec71d2bfa99d27"
+    },
+    {
+      "path": "constants/22a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0bb56bf873046eec7a47743ebf97ecc4a4a5a7",
+      "size": 3314,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/2c0bb56bf873046eec7a47743ebf97ecc4a4a5a7"
+    },
+    {
+      "path": "constants/22b.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc13ae2a2a422dccf42b7c46840bf73f9c0ae72e",
+      "size": 4394,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/cc13ae2a2a422dccf42b7c46840bf73f9c0ae72e"
+    },
+    {
+      "path": "constants/23a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d2c058d3e7465245533c15b74d4e271356fee0a",
+      "size": 3714,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/7d2c058d3e7465245533c15b74d4e271356fee0a"
+    },
+    {
+      "path": "constants/23b.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9db01811b8f61751fe8d488164e2f80386fcc59",
+      "size": 8080,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/f9db01811b8f61751fe8d488164e2f80386fcc59"
+    },
+    {
+      "path": "constants/23c.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3420bde13df0cf9874a0b44e51f39c6a83a7ef82",
+      "size": 10737,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/3420bde13df0cf9874a0b44e51f39c6a83a7ef82"
+    },
+    {
+      "path": "constants/24a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb09653152164c31b2e28267dda7c36ac7940112",
+      "size": 5995,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/eb09653152164c31b2e28267dda7c36ac7940112"
+    },
+    {
+      "path": "constants/25a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c724e09f283604fb1ffd108007a77085af5ccff7",
+      "size": 3650,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/c724e09f283604fb1ffd108007a77085af5ccff7"
+    },
+    {
+      "path": "constants/26a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe1da16f56f78e5bd2494993e3c79d3042e6908c",
+      "size": 3604,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/fe1da16f56f78e5bd2494993e3c79d3042e6908c"
+    },
+    {
+      "path": "constants/26b.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a375c9e5b65474324d22975740bb8ae02abfb086",
+      "size": 3124,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/a375c9e5b65474324d22975740bb8ae02abfb086"
+    },
+    {
+      "path": "constants/27a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5c877614000d0acd8b0a1785f5158d6f11a7049",
+      "size": 4384,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/e5c877614000d0acd8b0a1785f5158d6f11a7049"
+    },
+    {
+      "path": "constants/27b.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "412994ae81f70c39c068bda66abc1014b8ad9513",
+      "size": 1518,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/412994ae81f70c39c068bda66abc1014b8ad9513"
+    },
+    {
+      "path": "constants/28a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9eee3f382806464254d6ad306fd5bc007523b8c9",
+      "size": 16336,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/9eee3f382806464254d6ad306fd5bc007523b8c9"
+    },
+    {
+      "path": "constants/29a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92c8ef290c98d6ea8b81b31b4d276e94e28dba08",
+      "size": 8785,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/92c8ef290c98d6ea8b81b31b4d276e94e28dba08"
+    },
+    {
+      "path": "constants/2a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aba1131c191229eaf850598d9d5d9bc8d6b0cd8c",
+      "size": 6157,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/aba1131c191229eaf850598d9d5d9bc8d6b0cd8c"
+    },
+    {
+      "path": "constants/30a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0cf3254c023a1a426186fba5749d8cdd2a9c1fb",
+      "size": 12698,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/d0cf3254c023a1a426186fba5749d8cdd2a9c1fb"
+    },
+    {
+      "path": "constants/31a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a9b11292c36af55b8774c3e0388eb0f9f279b59",
+      "size": 3859,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/4a9b11292c36af55b8774c3e0388eb0f9f279b59"
+    },
+    {
+      "path": "constants/32a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e187726c17d84dac1ca40373eaf96302e7a8989",
+      "size": 4851,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/8e187726c17d84dac1ca40373eaf96302e7a8989"
+    },
+    {
+      "path": "constants/33a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "206694f5cb9d3c92f5fb63de70ca89c2650505b0",
+      "size": 13005,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/206694f5cb9d3c92f5fb63de70ca89c2650505b0"
+    },
+    {
+      "path": "constants/34a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffa00b7cd08f30f8671c2f024495398c48e4a575",
+      "size": 4953,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/ffa00b7cd08f30f8671c2f024495398c48e4a575"
+    },
+    {
+      "path": "constants/35a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc5d101c29ed6dc496d8ce693e1dc7d2a2b43ee2",
+      "size": 1984,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/cc5d101c29ed6dc496d8ce693e1dc7d2a2b43ee2"
+    },
+    {
+      "path": "constants/36a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00bec8b9c7074508b3e656f35a158fc27bbf2cb7",
+      "size": 6161,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/00bec8b9c7074508b3e656f35a158fc27bbf2cb7"
+    },
+    {
+      "path": "constants/37a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5af9a1fee7b40a577a4a01215036c2259db76247",
+      "size": 4370,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/5af9a1fee7b40a577a4a01215036c2259db76247"
+    },
+    {
+      "path": "constants/38a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f558dff1f2651b4d974901c517789c45a885fbc",
+      "size": 14308,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/7f558dff1f2651b4d974901c517789c45a885fbc"
+    },
+    {
+      "path": "constants/39a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "357a4e631dcd20fb56d0fb208e4edd676b226dca",
+      "size": 6509,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/357a4e631dcd20fb56d0fb208e4edd676b226dca"
+    },
+    {
+      "path": "constants/3a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98b3f0d4ef143cf222adc4a1b5d047b69b2753c9",
+      "size": 14373,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/98b3f0d4ef143cf222adc4a1b5d047b69b2753c9"
+    },
+    {
+      "path": "constants/3b.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e30bf23c33155960b1a29f1dd73aa71a38808f0f",
+      "size": 3713,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/e30bf23c33155960b1a29f1dd73aa71a38808f0f"
+    },
+    {
+      "path": "constants/3c.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c55fc0a84665f4d0bfda25504b8060e83179317d",
+      "size": 6429,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/c55fc0a84665f4d0bfda25504b8060e83179317d"
+    },
+    {
+      "path": "constants/3d.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8921fd0cad18e3affc5ee48815f7c6775a02ede7",
+      "size": 10426,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/8921fd0cad18e3affc5ee48815f7c6775a02ede7"
+    },
+    {
+      "path": "constants/3e.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f2bdd5df66ecf49faea5bfa140242e5fb03e4e0",
+      "size": 6298,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/8f2bdd5df66ecf49faea5bfa140242e5fb03e4e0"
+    },
+    {
+      "path": "constants/40a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3235f358c4ab8a1080d246caf8580f935f1c106a",
+      "size": 5871,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/3235f358c4ab8a1080d246caf8580f935f1c106a"
+    },
+    {
+      "path": "constants/40b.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64b7c7286cb8bddd8c0cb5d524edfd0362706985",
+      "size": 5892,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/64b7c7286cb8bddd8c0cb5d524edfd0362706985"
+    },
+    {
+      "path": "constants/41a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3389ccc1ff8e7d961fe8c42fa0ddf9e5635d0907",
+      "size": 2688,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/3389ccc1ff8e7d961fe8c42fa0ddf9e5635d0907"
+    },
+    {
+      "path": "constants/41b.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f50c953566b7afeb00d49493527c9b7eb9f2e526",
+      "size": 1882,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/f50c953566b7afeb00d49493527c9b7eb9f2e526"
+    },
+    {
+      "path": "constants/42a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45965201caf4a449ee705f8dff9efe88f7f539f8",
+      "size": 6272,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/45965201caf4a449ee705f8dff9efe88f7f539f8"
+    },
+    {
+      "path": "constants/43a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66d8b21b7b4633c9e8ebc40c929fb379ad69bf0e",
+      "size": 3784,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/66d8b21b7b4633c9e8ebc40c929fb379ad69bf0e"
+    },
+    {
+      "path": "constants/44a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b13f9db152b4cfb1728e2c32c34b01e88c781be",
+      "size": 4859,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/1b13f9db152b4cfb1728e2c32c34b01e88c781be"
+    },
+    {
+      "path": "constants/45a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec610e5a56fd9d350f63eda45584bdfe615a18e5",
+      "size": 4295,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/ec610e5a56fd9d350f63eda45584bdfe615a18e5"
+    },
+    {
+      "path": "constants/46a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cc2578eb6a69c990c0c1660e8de78f3629ea542",
+      "size": 4774,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/8cc2578eb6a69c990c0c1660e8de78f3629ea542"
+    },
+    {
+      "path": "constants/47a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3023e21af6852f5bf1b7a20ab5c3da98b0706b8a",
+      "size": 10380,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/3023e21af6852f5bf1b7a20ab5c3da98b0706b8a"
+    },
+    {
+      "path": "constants/48a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bb9c5068d059406ffa97212606dc2e2e119fa3f",
+      "size": 7987,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/2bb9c5068d059406ffa97212606dc2e2e119fa3f"
+    },
+    {
+      "path": "constants/49a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "903b1b84c177995eaeafb442daceb21c76d77192",
+      "size": 14988,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/903b1b84c177995eaeafb442daceb21c76d77192"
+    },
+    {
+      "path": "constants/4a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c51fce904013fed05f71b3528403f68f47178a54",
+      "size": 2572,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/c51fce904013fed05f71b3528403f68f47178a54"
+    },
+    {
+      "path": "constants/4b.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33bf11633c421738a84228325a9dae1d3aa93017",
+      "size": 15144,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/33bf11633c421738a84228325a9dae1d3aa93017"
+    },
+    {
+      "path": "constants/50a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6848fed3b4272700feb0754dffa48e0fcfb129cc",
+      "size": 5529,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/6848fed3b4272700feb0754dffa48e0fcfb129cc"
+    },
+    {
+      "path": "constants/51a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85b55994a590d87348a9ad1d7ef6a4c58890585f",
+      "size": 4264,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/85b55994a590d87348a9ad1d7ef6a4c58890585f"
+    },
+    {
+      "path": "constants/52a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "796250a005e7951e5ba04bf4bfa1464f68fd8b28",
+      "size": 6460,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/796250a005e7951e5ba04bf4bfa1464f68fd8b28"
+    },
+    {
+      "path": "constants/53a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9911190bd361e13f36107db4fda91d6e5e6f1141",
+      "size": 9277,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/9911190bd361e13f36107db4fda91d6e5e6f1141"
+    },
+    {
+      "path": "constants/54a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e5e6305985337128b52fd71df4020a3f66a6444",
+      "size": 7560,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/3e5e6305985337128b52fd71df4020a3f66a6444"
+    },
+    {
+      "path": "constants/55a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d6b8d427e0731b67b61b7873424efddb95246e7",
+      "size": 2667,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/1d6b8d427e0731b67b61b7873424efddb95246e7"
+    },
+    {
+      "path": "constants/56a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ecc904314b596ef2053311488e77e2cea4006ca",
+      "size": 6432,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/1ecc904314b596ef2053311488e77e2cea4006ca"
+    },
+    {
+      "path": "constants/57a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f87f3ee0e4ece3950ca5a4c0e8d2a75fd689ca8b",
+      "size": 5813,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/f87f3ee0e4ece3950ca5a4c0e8d2a75fd689ca8b"
+    },
+    {
+      "path": "constants/57b.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08df1d9c2cef0f82a81b5cb4133aa265673fbfd8",
+      "size": 4874,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/08df1d9c2cef0f82a81b5cb4133aa265673fbfd8"
+    },
+    {
+      "path": "constants/57c.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8170f9cf224f5734d415f955ee94664052bd2c87",
+      "size": 8581,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/8170f9cf224f5734d415f955ee94664052bd2c87"
+    },
+    {
+      "path": "constants/58a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a0eb14e72359e7e5a75e4a07608e286a9de3f25",
+      "size": 6370,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/0a0eb14e72359e7e5a75e4a07608e286a9de3f25"
+    },
+    {
+      "path": "constants/59a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5db960c1d0906f69c5dfc86bb17871f390842f6",
+      "size": 10784,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/e5db960c1d0906f69c5dfc86bb17871f390842f6"
+    },
+    {
+      "path": "constants/5a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dde19d5fc51cdaf06f6a8d959518f2178abd7b3",
+      "size": 6198,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/9dde19d5fc51cdaf06f6a8d959518f2178abd7b3"
+    },
+    {
+      "path": "constants/5b.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8c35b96af4b626ce5fea5e26f9bc37d4e3c3159",
+      "size": 2438,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/d8c35b96af4b626ce5fea5e26f9bc37d4e3c3159"
+    },
+    {
+      "path": "constants/60a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00cc19a610af2d1cd36ec45ab041ca4e1b82533b",
+      "size": 6257,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/00cc19a610af2d1cd36ec45ab041ca4e1b82533b"
+    },
+    {
+      "path": "constants/61a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6ba32a3dae109702d46777fe62d6a584da879b5",
+      "size": 4161,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/a6ba32a3dae109702d46777fe62d6a584da879b5"
+    },
+    {
+      "path": "constants/62a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90a4fa4bc4f123fc04a35e0e42a3e6d474d4cd6c",
+      "size": 3779,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/90a4fa4bc4f123fc04a35e0e42a3e6d474d4cd6c"
+    },
+    {
+      "path": "constants/62b.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52cab56e745a37f4b5a4479d88bc31c24a10c6cc",
+      "size": 5795,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/52cab56e745a37f4b5a4479d88bc31c24a10c6cc"
+    },
+    {
+      "path": "constants/63a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67e3c4d8bd452b605271a84ef8fc47e4c5aa17a4",
+      "size": 3896,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/67e3c4d8bd452b605271a84ef8fc47e4c5aa17a4"
+    },
+    {
+      "path": "constants/64a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5e1d1dea3baf99835a20fe9048df51d4ebfe5a1",
+      "size": 4325,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/d5e1d1dea3baf99835a20fe9048df51d4ebfe5a1"
+    },
+    {
+      "path": "constants/65a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d9647972d24d8c0b4c475925b9d58cfe1a8a876",
+      "size": 11381,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/4d9647972d24d8c0b4c475925b9d58cfe1a8a876"
+    },
+    {
+      "path": "constants/66a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4eb6ceb5f5058120561b5cf2dc46c8ee2529457a",
+      "size": 5765,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/4eb6ceb5f5058120561b5cf2dc46c8ee2529457a"
+    },
+    {
+      "path": "constants/67a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb8ad22866bc929420c5cc4169c3087ba65a08a4",
+      "size": 3667,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/eb8ad22866bc929420c5cc4169c3087ba65a08a4"
+    },
+    {
+      "path": "constants/68a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10369a04a3c210c6ae5e33d68dbda6cb8002f336",
+      "size": 7552,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/10369a04a3c210c6ae5e33d68dbda6cb8002f336"
+    },
+    {
+      "path": "constants/69a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "122aecc3f25b34baf4035567ffff2c23f7c9a13c",
+      "size": 6363,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/122aecc3f25b34baf4035567ffff2c23f7c9a13c"
+    },
+    {
+      "path": "constants/6a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17f3b1a0219607888bfe4107083a2274f299a044",
+      "size": 2181,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/17f3b1a0219607888bfe4107083a2274f299a044"
+    },
+    {
+      "path": "constants/70a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3b784285ceb074bf5a21cd71014c51238f7dcb6",
+      "size": 9190,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/a3b784285ceb074bf5a21cd71014c51238f7dcb6"
+    },
+    {
+      "path": "constants/71a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7317e61e8159a2fe778b14cb715e3c1810b29569",
+      "size": 9957,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/7317e61e8159a2fe778b14cb715e3c1810b29569"
+    },
+    {
+      "path": "constants/72a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d9bb61a3f766e05a7440c339711fcb2900c2074",
+      "size": 8100,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/1d9bb61a3f766e05a7440c339711fcb2900c2074"
+    },
+    {
+      "path": "constants/73a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3511f81b48f6b992c72643861aeff7ba18944495",
+      "size": 5059,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/3511f81b48f6b992c72643861aeff7ba18944495"
+    },
+    {
+      "path": "constants/74a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76640e7dda22efdc926659d3f8c79856b94e10f5",
+      "size": 10925,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/76640e7dda22efdc926659d3f8c79856b94e10f5"
+    },
+    {
+      "path": "constants/75a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97800ff4a22d7596a7b161a940792234fb280dbe",
+      "size": 9928,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/97800ff4a22d7596a7b161a940792234fb280dbe"
+    },
+    {
+      "path": "constants/76a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d75994e1db10737ad3955053aa26cb760cf62003",
+      "size": 8417,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/d75994e1db10737ad3955053aa26cb760cf62003"
+    },
+    {
+      "path": "constants/77a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "375e12b4cc377c8e7e6da5d1a6d097170b02cab5",
+      "size": 9504,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/375e12b4cc377c8e7e6da5d1a6d097170b02cab5"
+    },
+    {
+      "path": "constants/78a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d81d5c5e54f4f182670a4bc9ed76182d8482f22a",
+      "size": 9173,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/d81d5c5e54f4f182670a4bc9ed76182d8482f22a"
+    },
+    {
+      "path": "constants/79a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2eae4500e3d1d35b30e847e385ef8bf0fb4a44e2",
+      "size": 11024,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/2eae4500e3d1d35b30e847e385ef8bf0fb4a44e2"
+    },
+    {
+      "path": "constants/7a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6421327128af0ca8ca5f7de9f56dc867b71712bd",
+      "size": 3849,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/6421327128af0ca8ca5f7de9f56dc867b71712bd"
+    },
+    {
+      "path": "constants/7b.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba96a9df55c3c77d3b407d6ff5a954c537bf4918",
+      "size": 4510,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/ba96a9df55c3c77d3b407d6ff5a954c537bf4918"
+    },
+    {
+      "path": "constants/80a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d03dd13a54415a8ea8bc2badc35fb24a7e65799f",
+      "size": 4708,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/d03dd13a54415a8ea8bc2badc35fb24a7e65799f"
+    },
+    {
+      "path": "constants/81a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67325e21c39bd97551a8e4615ac7bd4aee0980b0",
+      "size": 4661,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/67325e21c39bd97551a8e4615ac7bd4aee0980b0"
+    },
+    {
+      "path": "constants/82a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c01b653bc3c50908d4a409003c510b30adbdeb6",
+      "size": 5356,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/3c01b653bc3c50908d4a409003c510b30adbdeb6"
+    },
+    {
+      "path": "constants/83a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c91ab831746ae4c7616f66b4e0b71bf7139073e",
+      "size": 5283,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/6c91ab831746ae4c7616f66b4e0b71bf7139073e"
+    },
+    {
+      "path": "constants/84a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad6fd9aa25fd2460b358735fc1b2749ea6eb293d",
+      "size": 14492,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/ad6fd9aa25fd2460b358735fc1b2749ea6eb293d"
+    },
+    {
+      "path": "constants/84b.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "881cfa61ef0026a07504fe3860110da38bca9e00",
+      "size": 8865,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/881cfa61ef0026a07504fe3860110da38bca9e00"
+    },
+    {
+      "path": "constants/85a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79fb0df004e40178cf1c7148c7eeb8240b6db42e",
+      "size": 6323,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/79fb0df004e40178cf1c7148c7eeb8240b6db42e"
+    },
+    {
+      "path": "constants/86a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e5f7559864f9f0ee542b2f63979008c1a26ea9f",
+      "size": 21432,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/5e5f7559864f9f0ee542b2f63979008c1a26ea9f"
+    },
+    {
+      "path": "constants/87a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b0999434f839c509840fd382166f23712a5ccbf",
+      "size": 8772,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/1b0999434f839c509840fd382166f23712a5ccbf"
+    },
+    {
+      "path": "constants/88a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07e0b5621b755866188141623afdc9cb4b6c8e78",
+      "size": 8943,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/07e0b5621b755866188141623afdc9cb4b6c8e78"
+    },
+    {
+      "path": "constants/88b.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9632e44d38ec75e569c2a6b567d2b1832c1b34e4",
+      "size": 5207,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/9632e44d38ec75e569c2a6b567d2b1832c1b34e4"
+    },
+    {
+      "path": "constants/89a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18e2322bfcc131a3a4da06b84fccf3dd4a656aaa",
+      "size": 8985,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/18e2322bfcc131a3a4da06b84fccf3dd4a656aaa"
+    },
+    {
+      "path": "constants/8a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f75a7e36291e9fcbaba4a53e93d31f13bcc35048",
+      "size": 3666,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/f75a7e36291e9fcbaba4a53e93d31f13bcc35048"
+    },
+    {
+      "path": "constants/90a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7ec37f1cd6bc2e2957db10395b8afafff8bd7b7",
+      "size": 12600,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/d7ec37f1cd6bc2e2957db10395b8afafff8bd7b7"
+    },
+    {
+      "path": "constants/9a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58bae6508be3cde9f7305214137f1f3f5f05c10a",
+      "size": 6062,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/58bae6508be3cde9f7305214137f1f3f5f05c10a"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "78c6cee2e883881e163c5f13ba7595764118f88f",
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/trees/78c6cee2e883881e163c5f13ba7595764118f88f"
+    },
+    {
+      "path": "scripts/check_pages.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ae316baf2d69658e999190764803b9d5982e1b2c",
+      "size": 10934,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/ae316baf2d69658e999190764803b9d5982e1b2c"
+    },
+    {
+      "path": "template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "088ccadb1f7fce8ecdb9a7340e476ae4ac288362",
+      "size": 883,
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/git/blobs/088ccadb1f7fce8ecdb9a7340e476ae4ac288362"
+    }
+  ],
+  "truncated": false
+}

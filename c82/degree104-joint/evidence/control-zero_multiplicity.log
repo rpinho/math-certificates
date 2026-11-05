@@ -1,12 +1,12 @@
-{"event": "start", "pid": 39267, "nice": 20, "settings": {"certificate": "evidence/corrupt-zero_multiplicity.json", "precision": 256, "tol": "1e-17", "target": "0.2524", "offset": "0", "out": "evidence/control-zero_multiplicity-result.json"}}
+{"event": "start", "pid": 84115, "nice": 20, "settings": {"certificate": "evidence/corrupt-zero_multiplicity.json", "precision": 256, "tol": "1e-17", "target": "0.2524", "offset": "0", "out": "evidence/control-zero_multiplicity-result.json"}}
 Traceback (most recent call last):
-  File "/evidence/control-zero_multiplicity-verifier.py", line 250, in <module>
+  File "evidence/control-zero_multiplicity-verifier.py", line 250, in <module>
     raise SystemExit(main())
                      ^^^^^^
-  File "/evidence/control-zero_multiplicity-verifier.py", line 227, in main
+  File "evidence/control-zero_multiplicity-verifier.py", line 227, in main
     r = Replay(a.certificate,a.precision,a.offset)
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/evidence/control-zero_multiplicity-verifier.py", line 52, in __init__
+  File "evidence/control-zero_multiplicity-verifier.py", line 52, in __init__
     assert abs(a[0]) == 1 and type(q) is int and q>0
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AssertionError

@@ -1,0 +1,544 @@
+{
+  "batches": [
+    {
+      "batch": "search-0-0",
+      "starts": 15,
+      "root_priced": 419,
+      "negative": 5,
+      "best_rc": -0.006050972928669296,
+      "cpu_seconds": 245.07952899999998
+    },
+    {
+      "batch": "search-0-1",
+      "starts": 12,
+      "root_priced": 433,
+      "negative": 7,
+      "best_rc": -0.006340007014703275,
+      "cpu_seconds": 240.264727
+    },
+    {
+      "batch": "search-1-0",
+      "starts": 14,
+      "root_priced": 449,
+      "negative": 1,
+      "best_rc": -0.000805191791208415,
+      "cpu_seconds": 247.288844
+    },
+    {
+      "batch": "search-1-1",
+      "starts": 12,
+      "root_priced": 434,
+      "negative": 4,
+      "best_rc": -0.0018324864889756043,
+      "cpu_seconds": 246.492463
+    },
+    {
+      "batch": "search-2-0",
+      "starts": 15,
+      "root_priced": 390,
+      "negative": 0,
+      "best_rc": 0.001527211528344452,
+      "cpu_seconds": 244.81794599999998
+    },
+    {
+      "batch": "search-2-1",
+      "starts": 12,
+      "root_priced": 402,
+      "negative": 1,
+      "best_rc": -0.003787166032381606,
+      "cpu_seconds": 249.05607500000002
+    },
+    {
+      "batch": "search-3-0",
+      "starts": 14,
+      "root_priced": 426,
+      "negative": 3,
+      "best_rc": -0.0017811967655205763,
+      "cpu_seconds": 244.867153
+    },
+    {
+      "batch": "search-3-1",
+      "starts": 15,
+      "root_priced": 420,
+      "negative": 0,
+      "best_rc": 0.0026739918154490283,
+      "cpu_seconds": 243.919787
+    },
+    {
+      "batch": "search-4-0",
+      "starts": 15,
+      "root_priced": 446,
+      "negative": 0,
+      "best_rc": 0.002749716375912925,
+      "cpu_seconds": 248.718727
+    },
+    {
+      "batch": "search-4-1",
+      "starts": 15,
+      "root_priced": 433,
+      "negative": 0,
+      "best_rc": 0.005598727827862859,
+      "cpu_seconds": 246.350322
+    },
+    {
+      "batch": "search-5-0",
+      "starts": 11,
+      "root_priced": 403,
+      "negative": 0,
+      "best_rc": 0.005092398261215436,
+      "cpu_seconds": 231.672945
+    },
+    {
+      "batch": "search-5-1",
+      "starts": 12,
+      "root_priced": 397,
+      "negative": 0,
+      "best_rc": 0.005489970777240671,
+      "cpu_seconds": 235.68326100000002
+    },
+    {
+      "batch": "search-6-0",
+      "starts": 12,
+      "root_priced": 372,
+      "negative": 0,
+      "best_rc": 0.0038275380851366947,
+      "cpu_seconds": 231.608136
+    },
+    {
+      "batch": "search-6-1",
+      "starts": 12,
+      "root_priced": 381,
+      "negative": 0,
+      "best_rc": 0.00042944890977025807,
+      "cpu_seconds": 232.15713
+    },
+    {
+      "batch": "search-7-0",
+      "starts": 12,
+      "root_priced": 418,
+      "negative": 2,
+      "best_rc": -0.0028398681012014038,
+      "cpu_seconds": 239.205909
+    },
+    {
+      "batch": "search-7-1",
+      "starts": 14,
+      "root_priced": 417,
+      "negative": 0,
+      "best_rc": 0.003179870292093767,
+      "cpu_seconds": 242.359601
+    },
+    {
+      "batch": "search-8-0",
+      "starts": 13,
+      "root_priced": 406,
+      "negative": 0,
+      "best_rc": 0.0038041373240496057,
+      "cpu_seconds": 246.566757
+    },
+    {
+      "batch": "search-8-1",
+      "starts": 12,
+      "root_priced": 401,
+      "negative": 4,
+      "best_rc": -0.002886406119287699,
+      "cpu_seconds": 246.953665
+    },
+    {
+      "batch": "search-9-0",
+      "starts": 16,
+      "root_priced": 406,
+      "negative": 0,
+      "best_rc": 8.0602047347611e-06,
+      "cpu_seconds": 239.228619
+    },
+    {
+      "batch": "search-9-1",
+      "starts": 14,
+      "root_priced": 426,
+      "negative": 0,
+      "best_rc": 0.0017060970858757685,
+      "cpu_seconds": 240.793126
+    },
+    {
+      "batch": "search-10-0",
+      "starts": 14,
+      "root_priced": 420,
+      "negative": 0,
+      "best_rc": 0.0023357797490710652,
+      "cpu_seconds": 241.96162
+    },
+    {
+      "batch": "search-10-1",
+      "starts": 12,
+      "root_priced": 432,
+      "negative": 1,
+      "best_rc": -0.0005302042834145482,
+      "cpu_seconds": 242.913252
+    },
+    {
+      "batch": "search-11-0",
+      "starts": 14,
+      "root_priced": 434,
+      "negative": 1,
+      "best_rc": -0.001281035485870774,
+      "cpu_seconds": 240.125061
+    },
+    {
+      "batch": "search-11-1",
+      "starts": 15,
+      "root_priced": 466,
+      "negative": 0,
+      "best_rc": 0.0032380840351038387,
+      "cpu_seconds": 242.703287
+    },
+    {
+      "batch": "search-12-0",
+      "starts": 15,
+      "root_priced": 448,
+      "negative": 0,
+      "best_rc": 0.000868238119760889,
+      "cpu_seconds": 239.51593
+    },
+    {
+      "batch": "search-12-1",
+      "starts": 14,
+      "root_priced": 464,
+      "negative": 1,
+      "best_rc": -5.338844402658083e-05,
+      "cpu_seconds": 244.21452499999998
+    },
+    {
+      "batch": "search-13-0",
+      "starts": 15,
+      "root_priced": 481,
+      "negative": 2,
+      "best_rc": -0.0011599892580491655,
+      "cpu_seconds": 244.684096
+    },
+    {
+      "batch": "search-13-1",
+      "starts": 14,
+      "root_priced": 492,
+      "negative": 2,
+      "best_rc": -0.005027604406727448,
+      "cpu_seconds": 242.693021
+    },
+    {
+      "batch": "search-14-0",
+      "starts": 18,
+      "root_priced": 515,
+      "negative": 0,
+      "best_rc": 0.003780629980170147,
+      "cpu_seconds": 243.16193199999998
+    },
+    {
+      "batch": "search-14-1",
+      "starts": 14,
+      "root_priced": 526,
+      "negative": 1,
+      "best_rc": -0.002442991315056986,
+      "cpu_seconds": 243.55285999999998
+    },
+    {
+      "batch": "search-15-0",
+      "starts": 15,
+      "root_priced": 466,
+      "negative": 0,
+      "best_rc": 0.0035860379536529763,
+      "cpu_seconds": 236.764481
+    },
+    {
+      "batch": "search-15-1",
+      "starts": 14,
+      "root_priced": 463,
+      "negative": 0,
+      "best_rc": 0.0061890850237347195,
+      "cpu_seconds": 237.691566
+    },
+    {
+      "batch": "search-16-0",
+      "starts": 13,
+      "root_priced": 418,
+      "negative": 1,
+      "best_rc": -0.0007967958691601496,
+      "cpu_seconds": 239.168574
+    },
+    {
+      "batch": "search-16-1",
+      "starts": 15,
+      "root_priced": 404,
+      "negative": 1,
+      "best_rc": -0.00320323457308902,
+      "cpu_seconds": 239.28267499999998
+    },
+    {
+      "batch": "search-17-0",
+      "starts": 14,
+      "root_priced": 404,
+      "negative": 0,
+      "best_rc": 0.012265175644436965,
+      "cpu_seconds": 239.721635
+    },
+    {
+      "batch": "search-17-1",
+      "starts": 11,
+      "root_priced": 401,
+      "negative": 0,
+      "best_rc": 0.0064421954319016095,
+      "cpu_seconds": 238.01848999999999
+    },
+    {
+      "batch": "search-18-0",
+      "starts": 14,
+      "root_priced": 389,
+      "negative": 0,
+      "best_rc": 0.0015632791284438952,
+      "cpu_seconds": 235.356483
+    },
+    {
+      "batch": "search-18-1",
+      "starts": 11,
+      "root_priced": 387,
+      "negative": 0,
+      "best_rc": 0.005250914075858759,
+      "cpu_seconds": 236.163493
+    },
+    {
+      "batch": "search-19-0",
+      "starts": 14,
+      "root_priced": 390,
+      "negative": 0,
+      "best_rc": 0.0047701878425669975,
+      "cpu_seconds": 240.300011
+    },
+    {
+      "batch": "search-19-1",
+      "starts": 14,
+      "root_priced": 390,
+      "negative": 0,
+      "best_rc": 0.004592343846887559,
+      "cpu_seconds": 237.41504099999997
+    }
+  ],
+  "loop": {
+    "history": [
+      {
+        "round": 19,
+        "old_lp": 0.25199648892320536,
+        "new_lp": 0.25199648892320536,
+        "negative_candidates": 0,
+        "gain": 0.0,
+        "empty_rounds": 3,
+        "state": "rounds/restricted-19.json",
+        "dual": "rounds/num-16-1-dual.npz"
+      }
+    ],
+    "state": "rounds/restricted-20.json",
+    "dual": "rounds/num-16-1-dual.npz",
+    "elapsed": 253.49177237501135,
+    "stop": "three no-gain rounds"
+  },
+  "all_rounds": [
+    {
+      "round": 0,
+      "old_lp": 0.25205913844096395,
+      "new_lp": 0.2520345490453377,
+      "negative_candidates": 12,
+      "gain": 2.458939562627327e-05,
+      "empty_rounds": 0,
+      "state": "rounds/num-0-0.json",
+      "dual": "rounds/num-0-0-dual.npz"
+    },
+    {
+      "round": 1,
+      "old_lp": 0.2520345490453377,
+      "new_lp": 0.25203310938409107,
+      "negative_candidates": 5,
+      "gain": 1.4396612466049952e-06,
+      "empty_rounds": 0,
+      "state": "rounds/num-1-2.json",
+      "dual": "rounds/num-1-2-dual.npz"
+    },
+    {
+      "round": 2,
+      "old_lp": 0.25203310938409107,
+      "new_lp": 0.2520265758167236,
+      "negative_candidates": 1,
+      "gain": 6.533567367461579e-06,
+      "empty_rounds": 0,
+      "state": "rounds/num-2-0.json",
+      "dual": "rounds/num-2-0-dual.npz"
+    },
+    {
+      "round": 3,
+      "old_lp": 0.2520265758167236,
+      "new_lp": 0.252026054313329,
+      "negative_candidates": 3,
+      "gain": 5.215033946348591e-07,
+      "empty_rounds": 0,
+      "state": "rounds/num-3-0.json",
+      "dual": "rounds/num-3-0-dual.npz"
+    },
+    {
+      "round": 4,
+      "old_lp": 0.252026054313329,
+      "new_lp": 0.252026054313329,
+      "negative_candidates": 0,
+      "gain": 0.0,
+      "empty_rounds": 1,
+      "state": "rounds/restricted-4.json",
+      "dual": "rounds/num-3-0-dual.npz"
+    },
+    {
+      "round": 5,
+      "old_lp": 0.252026054313329,
+      "new_lp": 0.252026054313329,
+      "negative_candidates": 0,
+      "gain": 0.0,
+      "empty_rounds": 2,
+      "state": "rounds/restricted-5.json",
+      "dual": "rounds/num-3-0-dual.npz"
+    },
+    {
+      "round": 6,
+      "old_lp": 0.252026054313329,
+      "new_lp": 0.252026054313329,
+      "negative_candidates": 0,
+      "gain": 0.0,
+      "empty_rounds": 3,
+      "state": "rounds/restricted-6.json",
+      "dual": "rounds/num-3-0-dual.npz"
+    },
+    {
+      "round": 7,
+      "old_lp": 0.252026054313329,
+      "new_lp": 0.25202176656492253,
+      "negative_candidates": 2,
+      "gain": 4.28774840643964e-06,
+      "empty_rounds": 0,
+      "state": "rounds/num-7-0.json",
+      "dual": "rounds/num-7-0-dual.npz"
+    },
+    {
+      "round": 8,
+      "old_lp": 0.25202176656492253,
+      "new_lp": 0.25201792465559375,
+      "negative_candidates": 4,
+      "gain": 3.841909328783366e-06,
+      "empty_rounds": 0,
+      "state": "rounds/num-8-0.json",
+      "dual": "rounds/num-8-0-dual.npz"
+    },
+    {
+      "round": 9,
+      "old_lp": 0.25201792465559375,
+      "new_lp": 0.25201792465559375,
+      "negative_candidates": 0,
+      "gain": 0.0,
+      "empty_rounds": 1,
+      "state": "rounds/restricted-9.json",
+      "dual": "rounds/num-8-0-dual.npz"
+    },
+    {
+      "round": 10,
+      "old_lp": 0.25201792465559375,
+      "new_lp": 0.252017652696335,
+      "negative_candidates": 1,
+      "gain": 2.719592587241415e-07,
+      "empty_rounds": 0,
+      "state": "rounds/num-10-0.json",
+      "dual": "rounds/num-10-0-dual.npz"
+    },
+    {
+      "round": 11,
+      "old_lp": 0.252017652696335,
+      "new_lp": 0.2520163706878416,
+      "negative_candidates": 1,
+      "gain": 1.2820084934195286e-06,
+      "empty_rounds": 0,
+      "state": "rounds/num-11-0.json",
+      "dual": "rounds/num-11-0-dual.npz"
+    },
+    {
+      "round": 12,
+      "old_lp": 0.2520163706878416,
+      "new_lp": 0.2520163690134206,
+      "negative_candidates": 1,
+      "gain": 1.6744209907493257e-09,
+      "empty_rounds": 0,
+      "state": "rounds/den-12.json",
+      "dual": "rounds/den-12-dual.npz"
+    },
+    {
+      "round": 13,
+      "old_lp": 0.2520163690134206,
+      "new_lp": 0.2520050014766615,
+      "negative_candidates": 4,
+      "gain": 1.13675367591215e-05,
+      "empty_rounds": 0,
+      "state": "rounds/num-13-0.json",
+      "dual": "rounds/num-13-0-dual.npz"
+    },
+    {
+      "round": 14,
+      "old_lp": 0.2520050014766615,
+      "new_lp": 0.25200165756122467,
+      "negative_candidates": 1,
+      "gain": 3.343915436826439e-06,
+      "empty_rounds": 0,
+      "state": "rounds/num-14-1.json",
+      "dual": "rounds/num-14-1-dual.npz"
+    },
+    {
+      "round": 15,
+      "old_lp": 0.25200165756122467,
+      "new_lp": 0.25200165756122467,
+      "negative_candidates": 0,
+      "gain": 0.0,
+      "empty_rounds": 1,
+      "state": "rounds/restricted-15.json",
+      "dual": "rounds/num-14-1-dual.npz"
+    },
+    {
+      "round": 16,
+      "old_lp": 0.25200165756122467,
+      "new_lp": 0.25199648892320536,
+      "negative_candidates": 2,
+      "gain": 5.168638019303895e-06,
+      "empty_rounds": 0,
+      "state": "rounds/num-16-1.json",
+      "dual": "rounds/num-16-1-dual.npz"
+    },
+    {
+      "round": 17,
+      "old_lp": 0.25199648892320536,
+      "new_lp": 0.25199648892320536,
+      "negative_candidates": 0,
+      "gain": 0.0,
+      "empty_rounds": 1,
+      "state": "rounds/restricted-17.json",
+      "dual": "rounds/num-16-1-dual.npz"
+    },
+    {
+      "round": 18,
+      "old_lp": 0.25199648892320536,
+      "new_lp": 0.25199648892320536,
+      "negative_candidates": 0,
+      "gain": 0.0,
+      "empty_rounds": 2,
+      "state": "rounds/restricted-18.json",
+      "dual": "rounds/num-16-1-dual.npz"
+    },
+    {
+      "round": 19,
+      "old_lp": 0.25199648892320536,
+      "new_lp": 0.25199648892320536,
+      "negative_candidates": 0,
+      "gain": 0.0,
+      "empty_rounds": 3,
+      "state": "rounds/restricted-19.json",
+      "dual": "rounds/num-16-1-dual.npz"
+    }
+  ]
+}

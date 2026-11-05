@@ -42,8 +42,8 @@ def compact(state,prefix):
 
 if __name__=='__main__':
     ap=argparse.ArgumentParser();ap.add_argument('--state',default='rounds/union.json');ap.add_argument('--dual',default='rounds/union-dual.npz')
-    ap.add_argument('--first',type=int,default=0);ap.add_argument('--rounds',type=int,default=12);ap.add_argument('--seconds',type=int,default=240);ap.add_argument('--workers',type=int,default=2);ap.add_argument('--rotate-warm',action='store_true')
-    a=ap.parse_args();register('column_generation_loop');begun=time.monotonic();state=a.state;dual=a.dual;empty=0;history=[]
+    ap.add_argument('--first',type=int,default=0);ap.add_argument('--rounds',type=int,default=12);ap.add_argument('--seconds',type=int,default=240);ap.add_argument('--workers',type=int,default=2);ap.add_argument('--rotate-warm',action='store_true');ap.add_argument('--empty-start',type=int,default=0)
+    a=ap.parse_args();register('column_generation_loop');begun=time.monotonic();state=a.state;dual=a.dual;empty=a.empty_start;history=[]
     if a.first==0:verify(state.removesuffix('.json'))
     state=compact(state,'rounds/restricted-'+str(a.first)+'.json')
     for k in range(a.first,a.first+a.rounds):

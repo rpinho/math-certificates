@@ -55,7 +55,7 @@ def checkpoint(certificate, verifier, replay):
         'Reproduce in this job directory:','', '```sh',
         'export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1',
         'export VECLIB_MAXIMUM_THREADS=1 BLIS_NUM_THREADS=1 NUMBA_NUM_THREADS=1',
-        'nice -n 10 ~/dev/open-science/.venv/bin/python verify_best.py --certificate certificate.json --target 0.2520500000 --precision 256 --tol 1e-13 --out evidence/reproduced-best.json',
+        'nice -n 10 python3 verify_best.py --certificate certificate.json --target 0.2520500000 --precision 256 --tol 1e-13 --out evidence/reproduced-best.json',
         '```','',
         'PRIOR_ART.md records the scoped public source checks. STATUS.md records the ongoing search and stopping reason; the final compute accounting, corruption controls and Python blob comparison will be appended when search ends.']
     Path('REPORT.md').write_text('\n'.join(report)+'\n')

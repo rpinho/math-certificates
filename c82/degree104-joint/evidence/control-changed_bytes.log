@@ -1,11 +1,11 @@
-{"event": "start", "pid": 39266, "nice": 20, "settings": {"certificate": "evidence/corrupt-changed_bytes.json", "precision": 256, "tol": "1e-17", "target": "0.2524", "offset": "0", "out": "evidence/control-changed_bytes-result.json"}}
+{"event": "start", "pid": 84114, "nice": 20, "settings": {"certificate": "evidence/corrupt-changed_bytes.json", "precision": 256, "tol": "1e-17", "target": "0.2524", "offset": "0", "out": "evidence/control-changed_bytes-result.json"}}
 Traceback (most recent call last):
-  File "/verify_best.py", line 250, in <module>
+  File "verify_best.py", line 250, in <module>
     raise SystemExit(main())
                      ^^^^^^
-  File "/verify_best.py", line 227, in main
+  File "verify_best.py", line 227, in main
     r = Replay(a.certificate,a.precision,a.offset)
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/verify_best.py", line 42, in __init__
+  File "verify_best.py", line 42, in __init__
     raise ValueError('REJECT: certificate SHA256 differs from pinned packet')
 ValueError: REJECT: certificate SHA256 differs from pinned packet

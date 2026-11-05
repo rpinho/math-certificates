@@ -1,0 +1,12 @@
+{
+  "tracked_subprocess_cpu_seconds": 11536.118489000002,
+  "tracked_subprocess_core_hours": 3.204477358055556,
+  "bootstrap_single_thread_wall_seconds_upper_estimate": 292.09574004099704,
+  "estimated_total_core_hours": 3.2856150636224997,
+  "small_unmeasured_overhead_allowance_core_hours": 0.01,
+  "wall_hours": 2.075852772196134,
+  "max_numerical_workers": 3,
+  "blas_threads": 1,
+  "nice_invocation": 10,
+  "effective_nice": 20
+}

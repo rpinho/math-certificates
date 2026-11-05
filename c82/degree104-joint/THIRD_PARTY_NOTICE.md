@@ -11,6 +11,6 @@ This packet redistributes data, not code, from [vidigoat/optimization-records](h
 
 Doche's P-factors and #301 MS360 retain their original mathematical credit in README.md even though they also occur in Patankar's public coefficient collections. Grinsztajn and Épi are credited for earlier factor libraries. A first local coefficient match is not an authorship attribution.
 
-Public PR bodies/diffs and the constants page in sources/ are provenance citations to teorth/optimizationproblems (Apache-2.0 repository), not third-party search code. prior_sources/ retains relevant mathematical data and public source snapshots; secure-shell transport metadata was removed. Failure-log paths were made relative. Producer REPORT.md and STATUS.md are byte-identical.
+Public PR bodies/diffs and the constants page in sources/ are provenance citations to teorth/optimizationproblems (Apache-2.0 repository), not third-party search code. prior_sources/ retains relevant mathematical data and public source snapshots; secure-shell transport metadata was removed. Failure-log paths were made relative. Finished producer records are retained with publication-safe paths and the P3 exponent encoding described in README.md; restricted historical certificate/control copies are omitted.
 
 No Python from vidigoat/optimization-records is redistributed, imported or executed. PYTHON_BLOBS.json checks every included .py against every blob in both full trees, and checks for imports of core or wlp. Any match is a blocker.

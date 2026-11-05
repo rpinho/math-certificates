@@ -1,8 +1,92 @@
 Working directory: packet root
-Interpreter: C82_PYTHON denotes the shared Python 3 interpreter with python-flint 0.9.0 used for this run; its machine-local path is omitted.
 Environment: OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 BLIS_NUM_THREADS=1 NUMBA_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1
-Exact command (interpreter path represented by C82_PYTHON):
-nice -n 10 "$C82_PYTHON" verify_best.py --certificate certificate.json --target 0.2520179248 --precision 256 --tol 1e-13 --out receipts/release-verifier.json
-Result: PASS; exit 0; target 0.2520179248; 256 bits; tol 1e-13.
-Runtime: 65.55573775002267 seconds (rerun 2026-11-05 on the re-encoded certificate, see README "Certificate encoding").
-The JSON receipt retains the exact bound, margin, certificate/source hashes, finite checks and backend version. Only this log's machine-specific interpreter path was relativized.
+Interpreter: shared research venv, Python 3 with python-flint 0.9.0; executable exposed as python3 by PATH (machine paths omitted).
+Command: nice -n 10 python3 verify_best.py --certificate certificate.json --target 0.2519964890 --precision 256 --tol 1e-13 --out receipts/release-verifier.json
+{"event": "start", "pid": 21656, "nice": 20, "settings": {"certificate": "certificate.json", "precision": 256, "tol": "1e-13", "target": "0.2519964890", "offset": "0", "out": "receipts/release-verifier.json"}}
+{"event": "initialized", "audit": {"D": 1000000000064, "degree_A": "58700834920208207/65536", "coprimality_pairs": 120, "composed_roots": 2126, "denominator_factors": 8, "numerator_factors": 15}, "mahler": "[0.25199252325260945966985292068525961531909607015901816199484210667468687175 +/- 4.61e-75]", "seconds": 4.4873212079983205}
+{"event": "progress", "visited": 4218, "counts": {"negative": 1177, "clipped_affine": 55, "gauss_positive": 873}, "t": 0.38084077648818493, "max_depth": 32}
+{
+  "status": "PASS",
+  "candidate_unrefereed": true,
+  "artificial_integrand_offset": "0",
+  "certificate_sha256": "b71150bb7c1a7ac34e86b447e565cdd6c6d33bb225fa910f0acced4136f74171",
+  "source_sha256": "a190188f502728fbdcc19295d8fa05d726dacd8a6e6fa418f1f08f2d8cc8d21d",
+  "precision_bits": 256,
+  "tolerance": "1e-13",
+  "target": "0.2519964890",
+  "pid": 21656,
+  "python_flint": "0.9.0",
+  "audit": {
+    "D": 1000000000064,
+    "degree_A": "58700834920208207/65536",
+    "coprimality_pairs": 120,
+    "composed_roots": 2126,
+    "denominator_factors": 8,
+    "numerator_factors": 15
+  },
+  "panels": {
+    "visited": 4605,
+    "counts": {
+      "negative": 1316,
+      "clipped_affine": 61,
+      "gauss_positive": 926
+    },
+    "max_depth": 32
+  },
+  "mahler_normalized": {
+    "ball": "[0.25199252325260945966985292068525961531909607015901816199484210667468687175 +/- 4.61e-75]",
+    "lower": {
+      "mantissa": "58357481479205261859657084175370908372412362828838470836548143461223239145625",
+      "exponent": -257
+    },
+    "upper": {
+      "mantissa": "58357481479205261859657084175370908372412362828838470836548143461223239146053",
+      "exponent": -257
+    }
+  },
+  "integral_normalized": {
+    "ball": "[3.9657355917e-6 +/- 1.31e-17]",
+    "lower": {
+      "mantissa": "60188368506107089495611391773376192062152827322907867346333660984421774247423",
+      "exponent": -273
+    },
+    "upper": {
+      "mantissa": "60188368506353932894759945374759223175093129546491820571051351102545469621759",
+      "exponent": -273
+    }
+  },
+  "integral_unnormalized": {
+    "ball": "[3965735.5920 +/- 4.95e-5]",
+    "lower": {
+      "mantissa": "109482004536328795583496456623311338925807583207084869490498863362972409882279",
+      "exponent": -234
+    },
+    "upper": {
+      "mantissa": "109482004536777801112462781401348488452550118183153618669870647140542282950311",
+      "exponent": -234
+    }
+  },
+  "bound": {
+    "ball": "[0.2519964889882012 +/- 4.36e-17]",
+    "lower": {
+      "mantissa": "29179199940412156282989363766403371930076072871713577134187427193744623897047",
+      "exponent": -256
+    },
+    "upper": {
+      "mantissa": "29179199940412158166255049291849831176644435449349544273710183621391632271831",
+      "exponent": -256
+    }
+  },
+  "margin": {
+    "ball": "[1.17988e-11 +/- 4.36e-17]",
+    "lower": {
+      "mantissa": "2732421726645410552066958944581079229804896197477945770700201214021",
+      "exponent": -257
+    },
+    "upper": {
+      "mantissa": "2732425493176787589270583945096157347369905282418707136693913993285",
+      "exponent": -257
+    }
+  },
+  "seconds": 37.182757332979236
+}

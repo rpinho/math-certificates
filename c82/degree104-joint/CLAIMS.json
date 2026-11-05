@@ -1,7 +1,7 @@
 {
   "claims": [
     {
-      "value": "0.2520179248",
+      "value": "0.2519964890",
       "kind": "rigorous",
       "producer": "verify_best.py",
       "arithmetic": "interval",
@@ -11,6 +11,12 @@
       "value": "0.2520591386",
       "kind": "cited",
       "source": "https://github.com/teorth/optimizationproblems/pull/280",
+      "new_bound": false
+    },
+    {
+      "value": "0.2520179248",
+      "kind": "cited",
+      "source": "https://github.com/teorth/optimizationproblems/pull/330",
       "new_bound": false
     },
     {
@@ -26,7 +32,7 @@
       "new_bound": false
     },
     {
-      "value": "0.2520179247552093455135",
+      "value": "0.2519964889882011564383",
       "kind": "rigorous",
       "producer": "verify_best.py",
       "arithmetic": "interval",
@@ -34,7 +40,7 @@
       "note": "lower endpoint of the interval enclosure of B"
     },
     {
-      "value": "0.2520179247552093577392",
+      "value": "0.2519964889882011727026",
       "kind": "rigorous",
       "producer": "verify_best.py",
       "arithmetic": "interval",
@@ -42,12 +48,34 @@
       "note": "upper endpoint of the interval enclosure of B"
     },
     {
-      "value": "4.12·10⁻⁵",
+      "value": "0.0000626496117988272974",
       "kind": "rigorous",
-      "producer": "checkpoint.py",
+      "producer": "certificate_facts.py",
       "arithmetic": "exact",
       "new_bound": false,
-      "note": "exact lower bound on 0.2520591386 minus the upper endpoint (RESULT.json certified_gap_to_public_at_least)"
+      "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_280_v3_at_least"
+    },
+    {
+      "value": "0.0000214358117988272974",
+      "kind": "rigorous",
+      "producer": "certificate_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_previous_330_at_least"
+    },
+    {
+      "value": "0.2520079724",
+      "kind": "cited",
+      "source": "https://github.com/teorth/optimizationproblems/pull/280",
+      "new_bound": false
+    },
+    {
+      "value": "0.25200797232842968",
+      "kind": "rigorous",
+      "producer": "evidence/verify_public_v4.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "midpoint of our interval replay of the public #280 v4 certificate (evidence/pr280-v4-replay.json)"
     }
   ]
 }

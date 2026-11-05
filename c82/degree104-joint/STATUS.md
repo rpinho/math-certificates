@@ -87,3 +87,74 @@ Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2520179247552093577
 {"round": 9, "old_lp": 0.25201792465559375, "new_lp": 0.25201792465559375, "negative_candidates": 0, "gain": 0.0, "empty_rounds": 1, "state": "rounds/restricted-9.json", "dual": "rounds/num-8-0-dual.npz"}
 
 2026-11-05 07:21:26 CVP round 10, master rounds/restricted-10.json; 2 workers, standard defaults, 240 seconds each.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2520176699390351550701, certified by a separately written (same agent lineage) interval verifier; frozen target met. Source: rounds/den-10-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2520176529516384528393, certified by a separately written (same agent lineage) interval verifier; frozen target met. Source: rounds/num-10-0-certificate.json
+
+{"round": 10, "old_lp": 0.25201792465559375, "new_lp": 0.252017652696335, "negative_candidates": 1, "gain": 2.719592587241415e-07, "empty_rounds": 0, "state": "rounds/num-10-0.json", "dual": "rounds/num-10-0-dual.npz"}
+
+2026-11-05 07:27:52 CVP round 11, master rounds/restricted-11.json; 2 workers, standard defaults, 240 seconds each.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2520164098613484201687, certified by a separately written (same agent lineage) interval verifier; frozen target met. Source: rounds/den-11-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2520163707121292354329, certified by a separately written (same agent lineage) interval verifier; frozen target met. Source: rounds/num-11-0-certificate.json
+
+{"round": 11, "old_lp": 0.252017652696335, "new_lp": 0.2520163706878416, "negative_candidates": 1, "gain": 1.2820084934195286e-06, "empty_rounds": 0, "state": "rounds/num-11-0.json", "dual": "rounds/num-11-0-dual.npz"}
+
+2026-11-05 07:34:26 CVP round 12, master rounds/restricted-12.json; 2 workers, standard defaults, 240 seconds each.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2520163690713724570623, certified by a separately written (same agent lineage) interval verifier; frozen target met. Source: rounds/den-12-certificate.json
+
+{"round": 12, "old_lp": 0.2520163706878416, "new_lp": 0.2520163690134206, "negative_candidates": 1, "gain": 1.6744209907493257e-09, "empty_rounds": 0, "state": "rounds/den-12.json", "dual": "rounds/den-12-dual.npz"}
+
+2026-11-05 07:39:35 CVP round 13, master rounds/restricted-13.json; 2 workers, standard defaults, 240 seconds each.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2520051490326487050550, certified by a separately written (same agent lineage) interval verifier; frozen target met. Source: rounds/den-13-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2520050015677050936317, certified by a separately written (same agent lineage) interval verifier; frozen target met. Source: rounds/num-13-0-certificate.json
+
+{"round": 13, "old_lp": 0.2520163690134206, "new_lp": 0.2520050014766615, "negative_candidates": 4, "gain": 1.13675367591215e-05, "empty_rounds": 0, "state": "rounds/num-13-0.json", "dual": "rounds/num-13-0-dual.npz"}
+
+2026-11-05 07:45:21 CVP round 14, master rounds/restricted-14.json; 2 workers, standard defaults, 240 seconds each.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2520020314352719000547, certified by a separately written (same agent lineage) interval verifier; frozen target met. Source: rounds/den-14-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2520017194238047735476, certified by a separately written (same agent lineage) interval verifier; frozen target met. Source: rounds/num-14-0-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2520016576526502824754, certified by a separately written (same agent lineage) interval verifier; frozen target met. Source: rounds/num-14-1-certificate.json
+
+{"round": 14, "old_lp": 0.2520050014766615, "new_lp": 0.25200165756122467, "negative_candidates": 1, "gain": 3.343915436826439e-06, "empty_rounds": 0, "state": "rounds/num-14-1.json", "dual": "rounds/num-14-1-dual.npz"}
+
+2026-11-05 07:51:46 CVP round 15, master rounds/restricted-15.json; 2 workers, standard defaults, 240 seconds each.
+
+{"round": 15, "old_lp": 0.25200165756122467, "new_lp": 0.25200165756122467, "negative_candidates": 0, "gain": 0.0, "empty_rounds": 1, "state": "rounds/restricted-15.json", "dual": "rounds/num-14-1-dual.npz"}
+
+2026-11-05 07:55:56 CVP round 16, master rounds/restricted-16.json; 2 workers, standard defaults, 240 seconds each.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519967643780124960368, certified by a separately written (same agent lineage) interval verifier; frozen target met. Source: rounds/den-16-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519964916810427295401, certified by a separately written (same agent lineage) interval verifier; frozen target met. Source: rounds/num-16-0-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519964889882011727026, certified by a separately written (same agent lineage) interval verifier; frozen target met. Source: rounds/num-16-1-certificate.json
+
+{"round": 16, "old_lp": 0.25200165756122467, "new_lp": 0.25199648892320536, "negative_candidates": 2, "gain": 5.168638019303895e-06, "empty_rounds": 0, "state": "rounds/num-16-1.json", "dual": "rounds/num-16-1-dual.npz"}
+
+2026-11-05 08:03:36 CVP round 17, master rounds/restricted-17.json; 2 workers, standard defaults, 240 seconds each.
+
+{"round": 17, "old_lp": 0.25199648892320536, "new_lp": 0.25199648892320536, "negative_candidates": 0, "gain": 0.0, "empty_rounds": 1, "state": "rounds/restricted-17.json", "dual": "rounds/num-16-1-dual.npz"}
+
+2026-11-05 08:07:53 CVP round 18, master rounds/restricted-18.json; 2 workers, standard defaults, 240 seconds each.
+
+{"round": 18, "old_lp": 0.25199648892320536, "new_lp": 0.25199648892320536, "negative_candidates": 0, "gain": 0.0, "empty_rounds": 2, "state": "rounds/restricted-18.json", "dual": "rounds/num-16-1-dual.npz"}
+
+Rotated warm-start batch reached its 12-round batch limit. Continuing from round 19 with existing consecutive no-gain count 2; no algorithm/settings change. Prior summaries preserved in rounds/rotated-1-*.json.
+
+2026-11-05 08:13:05 CVP round 19, master rounds/restricted-19.json; 2 workers, standard defaults, 240 seconds each.
+
+{"round": 19, "old_lp": 0.25199648892320536, "new_lp": 0.25199648892320536, "negative_candidates": 0, "gain": 0.0, "empty_rounds": 3, "state": "rounds/restricted-19.json", "dual": "rounds/num-16-1-dual.npz"}
+
+Shipped: candidate, unrefereed C82 < 0.2519964889882011727026, with a separately written (same agent) interval-verified certificate; frozen B < 0.2520500000 target met.
+Final stop: three no-gain rounds. See REPORT.md.
+
+Exit: search finished; final frozen-bar replay PASS, all three requested rejection controls reject; 44 Python git blobs compared with both complete public trees, no matches or foreign imports; 138 tracked PIDs checked with ps, none alive; 33949971 artifact bytes. Final REPORT.md and NOTE.md complete.
