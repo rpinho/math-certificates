@@ -23,7 +23,7 @@ def digest(path):
 def inventory():
     trees={}
     tree_sources=[]
-    for short in ['197962c','3a7a84f']:
+    for short in ['197962c','3a7a84f','79ce0df']:
         name=f'prior_sources/vidigoat-tree-{short}.json'
         path=P/name
         tree=json.loads(path.read_text())
@@ -54,7 +54,7 @@ def inventory():
                 grep.append(dict(line=lineno,text=line.strip()))
         records.append(dict(file=str(path.relative_to(P)),git_blob_sha1=blob,foreign_blob_matches=matches,imports=sorted(set(imports)),prohibited_imports=prohibited,grep_import_matches=grep))
     blocked=any(r['foreign_blob_matches'] or r['prohibited_imports'] or r['grep_import_matches'] for r in records)
-    js('PYTHON_BLOBS.json',dict(status='BLOCKED' if blocked else 'PASS',complete_trees=['197962c9610f583e9bc56efe37bfb994c1eeb834','3a7a84fec9c64ae426f06a5f52597c84b3453ba0'],tree_sources=tree_sources,files=records,all_python_blobs_distinct_from_every_blob_in_both_trees=not any(r['foreign_blob_matches'] for r in records),none_imports_core_or_wlp=not any(r['prohibited_imports'] or r['grep_import_matches'] for r in records),note='Metadata-only full-tree comparison against every blob, not only .py blobs. This check does not establish authorship. No source blobs from these trees were downloaded or executed.'))
+    js('PYTHON_BLOBS.json',dict(status='BLOCKED' if blocked else 'PASS',complete_trees=['197962c9610f583e9bc56efe37bfb994c1eeb834','3a7a84fec9c64ae426f06a5f52597c84b3453ba0','79ce0dfb211a67ff7e387b58b0d19ff1d6accfba'],tree_sources=tree_sources,files=records,all_python_blobs_distinct_from_every_blob_in_all_trees=not any(r['foreign_blob_matches'] for r in records),none_imports_core_or_wlp=not any(r['prohibited_imports'] or r['grep_import_matches'] for r in records),note='Metadata-only full-tree comparison against every blob, not only .py blobs. This check does not establish authorship. No source blobs from these trees were downloaded or executed.'))
     if blocked:raise ValueError('BLOCKER: Python blob or import match; see PYTHON_BLOBS.json')
     return len(records)
 

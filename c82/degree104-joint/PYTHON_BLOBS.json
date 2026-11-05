@@ -2,7 +2,8 @@
   "status": "PASS",
   "complete_trees": [
     "197962c9610f583e9bc56efe37bfb994c1eeb834",
-    "3a7a84fec9c64ae426f06a5f52597c84b3453ba0"
+    "3a7a84fec9c64ae426f06a5f52597c84b3453ba0",
+    "79ce0dfb211a67ff7e387b58b0d19ff1d6accfba"
   ],
   "tree_sources": [
     {
@@ -18,6 +19,13 @@
       "root_tree_sha": "3a7a84fec9c64ae426f06a5f52597c84b3453ba0",
       "truncated": false,
       "blob_count": 166
+    },
+    {
+      "file": "prior_sources/vidigoat-tree-79ce0df.json",
+      "sha256": "70e6e6a558f38492a7d80023f7e08ee10d4d47992925f6395391da2c15f5aa0c",
+      "root_tree_sha": "79ce0dfb211a67ff7e387b58b0d19ff1d6accfba",
+      "truncated": false,
+      "blob_count": 224
     }
   ],
   "files": [
@@ -404,7 +412,7 @@
     },
     {
       "file": "seal.py",
-      "git_blob_sha1": "e2b8511da9300c9f63fe5c2ebd2c8082e998737f",
+      "git_blob_sha1": "ce88d9fabec40424da99fa6b4650f6521568cb7e",
       "foreign_blob_matches": [],
       "imports": [
         "ast",
@@ -520,7 +528,7 @@
       "grep_import_matches": []
     }
   ],
-  "all_python_blobs_distinct_from_every_blob_in_both_trees": true,
+  "all_python_blobs_distinct_from_every_blob_in_all_trees": true,
   "none_imports_core_or_wlp": true,
   "note": "Metadata-only full-tree comparison against every blob, not only .py blobs. This check does not establish authorship. No source blobs from these trees were downloaded or executed."
 }

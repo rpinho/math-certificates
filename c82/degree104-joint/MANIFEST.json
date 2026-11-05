@@ -1,6 +1,6 @@
 {
   "format": "math-certificates-c82-degree104-joint-release-v1",
-  "sealed_utc": "2026-11-05T15:50:33.628504+00:00",
+  "sealed_utc": "2026-11-05T15:51:59.379120+00:00",
   "claim": "0.2519923410",
   "qualification": "candidate, unrefereed; verification level L0 for the bound as a whole",
   "upstream_main": "87b4ebbd426ff8db597a2004cc45da17903bdcf2",
@@ -84,13 +84,13 @@
     },
     {
       "path": "PYTHON_BLOBS.json",
-      "bytes": 12448,
-      "sha256": "745156bad60041b394b1c5bcb11dfc98bab4ea96f50d976265c7bc920bf5267c"
+      "bytes": 12767,
+      "sha256": "494d5db6f69f33f926c455d9889e83084a4894a1c8c4489aeec5d64eceb065c5"
     },
     {
       "path": "README.md",
-      "bytes": 9725,
-      "sha256": "872e46d58c6a28e3ab6f1066347a0bff2b7dedeb02df9385eff1caf64f1c7398"
+      "bytes": 9552,
+      "sha256": "b65eea918c2b084133ee08e7b0f3bb93d570531b6d7af16de89ac58bcf16c07f"
     },
     {
       "path": "REPLAY.json",
@@ -654,8 +654,8 @@
     },
     {
       "path": "seal.py",
-      "bytes": 6744,
-      "sha256": "2d18768654e20177015c38a3bb2ff4f1d8bebfd3ffdfce3e478915bad74d2dd2"
+      "bytes": 6796,
+      "sha256": "43770f91a06c2c470623441b96546f60201dc397c5f1438bfea70127b552d3dc"
     },
     {
       "path": "setup_local.py",
