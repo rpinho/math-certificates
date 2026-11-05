@@ -17,6 +17,20 @@
       "statement": "The exact comparison gaps are computed by certificate_facts.py in receipts/certificate-facts.json.",
       "producer": "certificate_facts.py",
       "arithmetic": "exact"
+    },
+    {
+      "document": "review/inputs/PROOF.md",
+      "statement": "The claim is C82 <= B < 0.252404806 (rigorous interval enclosure, verify_interval.py), conditional on the mathematical argument below and the trusted exact/ball arithmetic backend.",
+      "producer": "../degree104-cvp/verify_interval.py",
+      "arithmetic": "interval",
+      "note": "archived referee input: statement about the earlier certificate in ../degree104-cvp"
+    },
+    {
+      "document": "review/inputs/PROOF.md",
+      "statement": "The exact dyadic upper endpoint is strictly below the exact rational target 0.252404806 (rigorous, verify_interval.py).",
+      "producer": "../degree104-cvp/verify_interval.py",
+      "arithmetic": "interval",
+      "note": "archived referee input: statement about the earlier certificate in ../degree104-cvp"
     }
   ]
 }

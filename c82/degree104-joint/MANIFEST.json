@@ -1,6 +1,6 @@
 {
   "format": "math-certificates-c82-degree104-joint-release-v1",
-  "sealed_utc": "2026-11-05T13:43:10.501721+00:00",
+  "sealed_utc": "2026-11-05T13:44:33.723283+00:00",
   "claim": "0.2519964890",
   "qualification": "candidate, unrefereed; verification level L0 for the bound as a whole",
   "upstream_main": "87b4ebbd426ff8db597a2004cc45da17903bdcf2",
@@ -24,8 +24,8 @@
     },
     {
       "path": "CLAIMS.json",
-      "bytes": 2447,
-      "sha256": "a5b17c71c8410dd6341d89ab44cde4971cf64dc417aae85b4d2e86cefc07d6d1"
+      "bytes": 2769,
+      "sha256": "cc0ae765c81e3bef8263c72f899ebc826fd842c9481414f34d1dc2b11313542a"
     },
     {
       "path": "COMPUTE.json",
@@ -84,8 +84,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8654,
-      "sha256": "1efda6eb4217352a11690ec4e4aaab8a5af907e64891d87b1035f1723d1d27ef"
+      "bytes": 8690,
+      "sha256": "c42331968328de99dfe24c5a960432aac26d4106c141ca0d54cc22c5c23cbbad"
     },
     {
       "path": "REPLAY.json",
@@ -109,8 +109,8 @@
     },
     {
       "path": "RIGOR.json",
-      "bytes": 715,
-      "sha256": "0bc08dc2a386588a606642191d2f283c7fd3421d001ec014bb8d0fc1fae4ca15"
+      "bytes": 1552,
+      "sha256": "72116ac03cda22489303e4bd32f4931aed94b8b5cafc14f5f1628db7366e969c"
     },
     {
       "path": "SEARCH_SUMMARY.json",

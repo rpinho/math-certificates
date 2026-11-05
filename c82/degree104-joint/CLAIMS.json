@@ -28,7 +28,7 @@
     {
       "value": "0.2534449",
       "kind": "cited",
-      "source": "https://github.com/teorth/optimizationproblems/blob/main/constants/82a.md",
+      "source": "https://github.com/teorth/optimizationproblems/blob/87b4ebbd426ff8db597a2004cc45da17903bdcf2/constants/82a.md",
       "new_bound": false
     },
     {
@@ -76,6 +76,14 @@
       "arithmetic": "interval",
       "new_bound": false,
       "note": "midpoint of our interval replay of the public #280 v4 certificate (evidence/pr280-v4-replay.json)"
+    },
+    {
+      "value": "9.19e-18",
+      "kind": "rigorous",
+      "producer": "evidence/verify_public_v4.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "radius of our interval replay of the public #280 v4 certificate (evidence/pr280-v4-replay.json)"
     }
   ]
 }
