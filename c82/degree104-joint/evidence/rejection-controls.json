@@ -1,0 +1,20 @@
+[
+  {
+    "case": "changed_bytes",
+    "exit_code": 1,
+    "rejected": true,
+    "repinned": false
+  },
+  {
+    "case": "zero_multiplicity",
+    "exit_code": 1,
+    "rejected": true,
+    "repinned": true
+  },
+  {
+    "case": "shared_factor",
+    "exit_code": 1,
+    "rejected": true,
+    "repinned": true
+  }
+]

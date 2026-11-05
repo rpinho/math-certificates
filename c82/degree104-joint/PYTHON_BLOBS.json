@@ -1,0 +1,394 @@
+{
+  "status": "PASS",
+  "complete_trees": [
+    "197962c9610f583e9bc56efe37bfb994c1eeb834",
+    "3a7a84fec9c64ae426f06a5f52597c84b3453ba0"
+  ],
+  "tree_sources": [
+    {
+      "file": "prior_sources/vidigoat-tree-197962c.json",
+      "sha256": "a78973851ca7d8ade11dd6c0ea391bff6d164595244f84721809192e30b55486",
+      "root_tree_sha": "197962c9610f583e9bc56efe37bfb994c1eeb834",
+      "truncated": false,
+      "blob_count": 196
+    },
+    {
+      "file": "prior_sources/vidigoat-tree-3a7a84f.json",
+      "sha256": "1582aad362dfa09a6f91b902f5308a4e59b8f1986813cd19c1966d74a2cd9cdd",
+      "root_tree_sha": "3a7a84fec9c64ae426f06a5f52597c84b3453ba0",
+      "truncated": false,
+      "blob_count": 166
+    }
+  ],
+  "files": [
+    {
+      "file": "add_columns.py",
+      "git_blob_sha1": "c9f6cbed7f9cc0a8cd913f91e3d8883f4b0c7aab",
+      "foreign_blob_matches": [],
+      "imports": [
+        "argparse",
+        "flint",
+        "hashlib",
+        "joint_lp",
+        "json",
+        "numerics",
+        "pathlib",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "checkpoint.py",
+      "git_blob_sha1": "0eb8a72261e271b2a84a5841819f91b6aff213ed",
+      "foreign_blob_matches": [],
+      "imports": [
+        "decimal",
+        "fractions",
+        "hashlib",
+        "json",
+        "numerics",
+        "pathlib",
+        "shutil"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "cvp_search.py",
+      "git_blob_sha1": "d6d06ba34c6a29f27f350814e849ec4c23f42c88",
+      "foreign_blob_matches": [],
+      "imports": [
+        "argparse",
+        "flint",
+        "hashlib",
+        "itertools",
+        "json",
+        "math",
+        "mpmath",
+        "numba",
+        "numerics",
+        "numpy",
+        "os",
+        "pathlib",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "evidence/control-shared_factor-verifier.py",
+      "git_blob_sha1": "98ec742fc3c937308db4fd10f1eff70873aa8d8f",
+      "foreign_blob_matches": [],
+      "imports": [
+        "argparse",
+        "collections",
+        "flint",
+        "fractions",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "evidence/control-zero_multiplicity-verifier.py",
+      "git_blob_sha1": "79920cbfc37dec353d12eae12591d302ec90c789",
+      "foreign_blob_matches": [],
+      "imports": [
+        "argparse",
+        "collections",
+        "flint",
+        "fractions",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "evidence/run_cg_original.py",
+      "git_blob_sha1": "662752bc1afc7dc843fa2f16d90a9718fe84555b",
+      "foreign_blob_matches": [],
+      "imports": [
+        "argparse",
+        "checkpoint",
+        "hashlib",
+        "json",
+        "numerics",
+        "os",
+        "pathlib",
+        "resource",
+        "subprocess",
+        "sys",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "finish_report.py",
+      "git_blob_sha1": "0a932545bd1c972c8efff0af33ceb2c1e3d3a781",
+      "foreign_blob_matches": [],
+      "imports": [
+        "decimal",
+        "json",
+        "numerics",
+        "os",
+        "pathlib",
+        "subprocess",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "joint_lp.py",
+      "git_blob_sha1": "a6492930964e0259ae990e0a086949854ea962b1",
+      "foreign_blob_matches": [],
+      "imports": [
+        "argparse",
+        "fractions",
+        "hashlib",
+        "highspy",
+        "json",
+        "numerics",
+        "numpy",
+        "pathlib",
+        "scipy",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "numerator_search.py",
+      "git_blob_sha1": "eea1b90b1e77f716afc6a292cca4070a6e1d3927",
+      "foreign_blob_matches": [],
+      "imports": [
+        "argparse",
+        "flint",
+        "hashlib",
+        "joint_lp",
+        "json",
+        "numerics",
+        "numpy",
+        "pathlib",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "numerics.py",
+      "git_blob_sha1": "a96a3151b340594e07bb28cfc3d149d0c6bd274f",
+      "foreign_blob_matches": [],
+      "imports": [
+        "flint",
+        "fractions",
+        "functools",
+        "json",
+        "numpy",
+        "os",
+        "pathlib",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "prepare_union.py",
+      "git_blob_sha1": "e29ca5308a2059e9c77b4fc186f2301c8c749dd9",
+      "foreign_blob_matches": [],
+      "imports": [
+        "json",
+        "numerics",
+        "pathlib"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "rejection_controls.py",
+      "git_blob_sha1": "b08b16dd7c0d3c3d97cb2782d981324539b7868d",
+      "foreign_blob_matches": [],
+      "imports": [
+        "argparse",
+        "hashlib",
+        "json",
+        "numerics",
+        "pathlib",
+        "subprocess",
+        "sys"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "review/replay/check.before_extended_controls.py",
+      "git_blob_sha1": "593c993e6ad62cd7f4065900088d05a9ea6cfe28",
+      "foreign_blob_matches": [],
+      "imports": [
+        "argparse",
+        "copy",
+        "flint",
+        "fractions",
+        "hashlib",
+        "json",
+        "math",
+        "os",
+        "pathlib",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "review/replay/check.py",
+      "git_blob_sha1": "a9fc9fd97d2de87f623f7ec9349827b08151431f",
+      "foreign_blob_matches": [],
+      "imports": [
+        "argparse",
+        "copy",
+        "flint",
+        "fractions",
+        "hashlib",
+        "json",
+        "math",
+        "os",
+        "pathlib",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "review/replay/probe_roots.py",
+      "git_blob_sha1": "82f11de9eb1139416df5a5186881a39009681f86",
+      "foreign_blob_matches": [],
+      "imports": [
+        "flint",
+        "fractions",
+        "json",
+        "os",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "rounds/num-8-0-verifier.py",
+      "git_blob_sha1": "a1a0e31ecf3d2a7187f1a326fa8fc7a95031b219",
+      "foreign_blob_matches": [],
+      "imports": [
+        "argparse",
+        "collections",
+        "flint",
+        "fractions",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "run_cg.py",
+      "git_blob_sha1": "0b0280a9ee1f24eb886454cf93b98f41f5e227b0",
+      "foreign_blob_matches": [],
+      "imports": [
+        "argparse",
+        "checkpoint",
+        "hashlib",
+        "json",
+        "numerics",
+        "os",
+        "pathlib",
+        "resource",
+        "subprocess",
+        "sys",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "seal.py",
+      "git_blob_sha1": "d31d12de5b2b4d9d30b0ba3a82985f5ca91a4d1a",
+      "foreign_blob_matches": [],
+      "imports": [
+        "ast",
+        "datetime",
+        "hashlib",
+        "json",
+        "pathlib",
+        "re",
+        "subprocess"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "source_inventory.py",
+      "git_blob_sha1": "a95e6c70c99f722d4cee712a57178e476f2f25a9",
+      "foreign_blob_matches": [],
+      "imports": [
+        "ast",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "subprocess"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "verify_best.py",
+      "git_blob_sha1": "1f0e30f24825119a18fed134aa37ef5a6b7cb45f",
+      "foreign_blob_matches": [],
+      "imports": [
+        "argparse",
+        "collections",
+        "flint",
+        "fractions",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "verify_public.py",
+      "git_blob_sha1": "c92cf03bcec0ce575d444164496f5d90f6df417a",
+      "foreign_blob_matches": [],
+      "imports": [
+        "argparse",
+        "collections",
+        "flint",
+        "fractions",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    }
+  ],
+  "all_python_blobs_distinct_from_every_blob_in_both_trees": true,
+  "none_imports_core_or_wlp": true,
+  "note": "Metadata-only full-tree comparison against every blob, not only .py blobs. This check does not establish authorship. No source blobs from these trees were downloaded or executed."
+}

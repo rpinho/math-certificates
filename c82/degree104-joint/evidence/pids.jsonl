@@ -1,0 +1,120 @@
+{"pid": 26158, "kind": "public_v3_replay"}
+{"pid": 26302, "kind": "prepare_union", "time": 1793877434.3987992, "nice": 20}
+{"pid": 26357, "kind": "joint_lp", "time": 1793877442.000035, "nice": 20}
+{"pid": 27913, "kind": "column_generation_loop", "time": 1793877753.534198, "nice": 20}
+{"pid": 27914, "kind": "rounds/union-verifier.py", "log": "rounds/union-verify.log"}
+{"pid": 27992, "kind": "cvp", "round": 0, "worker": 0}
+{"pid": 27993, "kind": "cvp", "round": 0, "worker": 1}
+{"pid": 27993, "kind": "cvp", "time": 1793877779.591996, "nice": 20}
+{"pid": 27992, "kind": "cvp", "time": 1793877779.59202, "nice": 20}
+{"pid": 28885, "kind": "add_columns.py", "log": "logs/den-0.log"}
+{"pid": 28885, "kind": "merge_and_solve", "time": 1793878025.3000681, "nice": 20}
+{"pid": 28928, "kind": "rounds/den-0-verifier.py", "log": "rounds/den-0-verify.log"}
+{"pid": 29031, "kind": "numerator_search.py", "log": "logs/num-0-0.log"}
+{"pid": 29031, "kind": "numerator_pricing", "time": 1793878072.8775349, "nice": 20}
+{"pid": 29073, "kind": "rejection_controls", "time": 1793878082.747584, "nice": 20}
+{"kind": "expected_rejection", "pid": 29079, "case": "changed_bytes"}
+{"kind": "expected_rejection", "pid": 29092, "case": "zero_multiplicity"}
+{"kind": "expected_rejection", "pid": 29093, "case": "shared_factor"}
+{"pid": 29097, "kind": "rounds/num-0-0-verifier.py", "log": "rounds/num-0-0-verify.log"}
+{"pid": 29269, "kind": "numerator_search.py", "log": "logs/num-0-1.log"}
+{"pid": 29269, "kind": "numerator_pricing", "time": 1793878126.607202, "nice": 20}
+{"pid": 29270, "kind": "cvp", "round": 1, "worker": 0}
+{"pid": 29271, "kind": "cvp", "round": 1, "worker": 1}
+{"pid": 29271, "kind": "cvp", "time": 1793878132.927356, "nice": 20}
+{"pid": 29270, "kind": "cvp", "time": 1793878132.927354, "nice": 20}
+{"pid": 30213, "kind": "add_columns.py", "log": "logs/den-1.log"}
+{"pid": 30213, "kind": "merge_and_solve", "time": 1793878381.1412039, "nice": 20}
+{"pid": 30300, "kind": "rounds/den-1-verifier.py", "log": "rounds/den-1-verify.log"}
+{"pid": 30823, "kind": "numerator_search.py", "log": "logs/num-1-0.log"}
+{"pid": 30823, "kind": "numerator_pricing", "time": 1793878441.429097, "nice": 20}
+{"pid": 31003, "kind": "rounds/num-1-0-verifier.py", "log": "rounds/num-1-0-verify.log"}
+{"pid": 31502, "kind": "numerator_search.py", "log": "logs/num-1-1.log"}
+{"pid": 31502, "kind": "numerator_pricing", "time": 1793878510.706723, "nice": 20}
+{"pid": 31564, "kind": "rounds/num-1-1-verifier.py", "log": "rounds/num-1-1-verify.log"}
+{"pid": 31709, "kind": "numerator_search.py", "log": "logs/num-1-2.log"}
+{"pid": 31709, "kind": "numerator_pricing", "time": 1793878581.10231, "nice": 20}
+{"pid": 31797, "kind": "rounds/num-1-2-verifier.py", "log": "rounds/num-1-2-verify.log"}
+{"pid": 31961, "kind": "numerator_search.py", "log": "logs/num-1-3.log"}
+{"pid": 31961, "kind": "numerator_pricing", "time": 1793878652.41026, "nice": 20}
+{"pid": 31977, "kind": "cvp", "round": 2, "worker": 0}
+{"pid": 31978, "kind": "cvp", "round": 2, "worker": 1}
+{"pid": 31978, "kind": "cvp", "time": 1793878658.8037918, "nice": 20}
+{"pid": 31977, "kind": "cvp", "time": 1793878658.803801, "nice": 20}
+{"pid": 33759, "kind": "add_columns.py", "log": "logs/den-2.log"}
+{"pid": 33759, "kind": "merge_and_solve", "time": 1793878909.340318, "nice": 20}
+{"pid": 33915, "kind": "rounds/den-2-verifier.py", "log": "rounds/den-2-verify.log"}
+{"pid": 34048, "kind": "numerator_search.py", "log": "logs/num-2-0.log"}
+{"pid": 34048, "kind": "numerator_pricing", "time": 1793878982.192009, "nice": 20}
+{"pid": 34104, "kind": "rounds/num-2-0-verifier.py", "log": "rounds/num-2-0-verify.log"}
+{"pid": 34387, "kind": "numerator_search.py", "log": "logs/num-2-1.log"}
+{"pid": 34387, "kind": "numerator_pricing", "time": 1793879052.212359, "nice": 20}
+{"pid": 34395, "kind": "cvp", "round": 3, "worker": 0}
+{"pid": 34396, "kind": "cvp", "round": 3, "worker": 1}
+{"pid": 34396, "kind": "cvp", "time": 1793879058.727672, "nice": 20}
+{"pid": 34395, "kind": "cvp", "time": 1793879058.727672, "nice": 20}
+{"pid": 35168, "kind": "add_columns.py", "log": "logs/den-3.log"}
+{"pid": 35168, "kind": "merge_and_solve", "time": 1793879304.105589, "nice": 20}
+{"pid": 35198, "kind": "rounds/den-3-verifier.py", "log": "rounds/den-3-verify.log"}
+{"pid": 35344, "kind": "numerator_search.py", "log": "logs/num-3-0.log"}
+{"pid": 35344, "kind": "numerator_pricing", "time": 1793879367.644825, "nice": 20}
+{"pid": 35375, "kind": "rounds/num-3-0-verifier.py", "log": "rounds/num-3-0-verify.log"}
+{"pid": 35565, "kind": "numerator_search.py", "log": "logs/num-3-1.log"}
+{"pid": 35565, "kind": "numerator_pricing", "time": 1793879440.101687, "nice": 20}
+{"pid": 35616, "kind": "cvp", "round": 4, "worker": 0}
+{"pid": 35617, "kind": "cvp", "round": 4, "worker": 1}
+{"pid": 35616, "kind": "cvp", "time": 1793879446.6008298, "nice": 20}
+{"pid": 35617, "kind": "cvp", "time": 1793879446.6008298, "nice": 20}
+{"pid": 36999, "kind": "numerator_search.py", "log": "logs/num-4-0.log"}
+{"pid": 36999, "kind": "numerator_pricing", "time": 1793879696.268516, "nice": 20}
+{"pid": 37086, "kind": "cvp", "round": 5, "worker": 0}
+{"pid": 37087, "kind": "cvp", "round": 5, "worker": 1}
+{"pid": 37086, "kind": "cvp", "time": 1793879702.754974, "nice": 20}
+{"pid": 37087, "kind": "cvp", "time": 1793879702.754977, "nice": 20}
+{"pid": 38898, "kind": "numerator_search.py", "log": "logs/num-5-0.log"}
+{"pid": 38898, "kind": "numerator_pricing", "time": 1793879950.838808, "nice": 20}
+{"pid": 38975, "kind": "cvp", "round": 6, "worker": 0}
+{"pid": 38976, "kind": "cvp", "round": 6, "worker": 1}
+{"pid": 38976, "kind": "cvp", "time": 1793879958.7830431, "nice": 20}
+{"pid": 38975, "kind": "cvp", "time": 1793879958.783803, "nice": 20}
+{"pid": 39265, "kind": "rejection_controls", "time": 1793880024.101866, "nice": 20}
+{"kind": "expected_rejection", "pid": 39266, "case": "changed_bytes"}
+{"kind": "expected_rejection", "pid": 39267, "case": "zero_multiplicity"}
+{"kind": "expected_rejection", "pid": 39268, "case": "shared_factor"}
+{"pid": 40077, "kind": "numerator_search.py", "log": "logs/num-6-0.log"}
+{"pid": 40077, "kind": "numerator_pricing", "time": 1793880200.824183, "nice": 20}
+{"pid": 40341, "kind": "column_generation_loop", "time": 1793880246.8116632, "nice": 20}
+{"pid": 40344, "kind": "cvp", "round": 7, "worker": 0}
+{"pid": 40345, "kind": "cvp", "round": 7, "worker": 1}
+{"pid": 40345, "kind": "cvp", "time": 1793880247.157342, "nice": 20}
+{"pid": 40344, "kind": "cvp", "time": 1793880247.1573398, "nice": 20}
+{"pid": 45075, "kind": "add_columns.py", "log": "logs/den-7.log"}
+{"pid": 45075, "kind": "merge_and_solve", "time": 1793880491.682552, "nice": 20}
+{"pid": 45177, "kind": "rounds/den-7-verifier.py", "log": "rounds/den-7-verify.log"}
+{"pid": 45706, "kind": "numerator_search.py", "log": "logs/num-7-0.log"}
+{"pid": 45706, "kind": "numerator_pricing", "time": 1793880563.569113, "nice": 20}
+{"pid": 45866, "kind": "rounds/num-7-0-verifier.py", "log": "rounds/num-7-0-verify.log"}
+{"pid": 46334, "kind": "numerator_search.py", "log": "logs/num-7-1.log"}
+{"pid": 46334, "kind": "numerator_pricing", "time": 1793880642.56187, "nice": 20}
+{"pid": 46385, "kind": "cvp", "round": 8, "worker": 0}
+{"pid": 46386, "kind": "cvp", "round": 8, "worker": 1}
+{"pid": 46385, "kind": "cvp", "time": 1793880649.323575, "nice": 20}
+{"pid": 46386, "kind": "cvp", "time": 1793880649.323583, "nice": 20}
+{"pid": 49223, "kind": "add_columns.py", "log": "logs/den-8.log"}
+{"pid": 49223, "kind": "merge_and_solve", "time": 1793880898.038518, "nice": 20}
+{"pid": 49318, "kind": "rounds/den-8-verifier.py", "log": "rounds/den-8-verify.log"}
+{"pid": 49599, "kind": "numerator_search.py", "log": "logs/num-8-0.log"}
+{"pid": 49599, "kind": "numerator_pricing", "time": 1793880958.259754, "nice": 20}
+{"pid": 49690, "kind": "rounds/num-8-0-verifier.py", "log": "rounds/num-8-0-verify.log"}
+{"pid": 49871, "kind": "numerator_search.py", "log": "logs/num-8-1.log"}
+{"pid": 49871, "kind": "numerator_pricing", "time": 1793881030.3947551, "nice": 20}
+{"pid": 49889, "kind": "cvp", "round": 9, "worker": 0}
+{"pid": 49890, "kind": "cvp", "round": 9, "worker": 1}
+{"pid": 49890, "kind": "cvp", "time": 1793881036.9568331, "nice": 20}
+{"pid": 49889, "kind": "cvp", "time": 1793881036.9568388, "nice": 20}
+{"pid": 51440, "kind": "numerator_search.py", "log": "logs/num-9-0.log"}
+{"pid": 51440, "kind": "numerator_pricing", "time": 1793881279.260253, "nice": 20}
+{"pid": 51499, "kind": "cvp", "round": 10, "worker": 0}
+{"pid": 51500, "kind": "cvp", "round": 10, "worker": 1}
+{"pid": 51500, "kind": "cvp", "time": 1793881286.9759722, "nice": 20}
+{"pid": 51499, "kind": "cvp", "time": 1793881286.9759822, "nice": 20}

@@ -1,0 +1,8 @@
+Working directory: packet root
+Interpreter: C82_PYTHON denotes the shared Python 3 interpreter with python-flint 0.9.0 used for this run; its machine-local path is omitted.
+Environment: OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 BLIS_NUM_THREADS=1 NUMBA_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1
+Exact command (interpreter path represented by C82_PYTHON):
+nice -n 10 "$C82_PYTHON" verify_best.py --certificate certificate.json --target 0.2520179248 --precision 256 --tol 1e-13 --out receipts/release-verifier.json
+Result: PASS; exit 0; target 0.2520179248; 256 bits; tol 1e-13.
+Runtime: 65.55573775002267 seconds (rerun 2026-11-05 on the re-encoded certificate, see README "Certificate encoding").
+The JSON receipt retains the exact bound, margin, certificate/source hashes, finite checks and backend version. Only this log's machine-specific interpreter path was relativized.

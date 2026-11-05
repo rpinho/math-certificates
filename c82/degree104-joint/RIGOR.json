@@ -1,0 +1,16 @@
+{
+  "steps": [
+    {
+      "document": "PROOF.md",
+      "statement": "These exact hypotheses and all 180 active gcd pairs are checked by verify_best.py",
+      "producer": "verify_best.py",
+      "arithmetic": "exact"
+    },
+    {
+      "document": "PROOF.md",
+      "statement": "The exact dyadic upper endpoint is strictly below the exact rational target 0.2520179248 (rigorous, verify_best.py).",
+      "producer": "verify_best.py",
+      "arithmetic": "interval"
+    }
+  ]
+}

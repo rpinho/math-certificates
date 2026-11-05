@@ -1,0 +1,18 @@
+{
+  "target": "teorth/optimizationproblems",
+  "new_bound": true,
+  "producer_author": "codex math_c82r6_1105",
+  "producer_model": "gpt-6.1-sol",
+  "replay_inputs": {
+    "review/inputs/PROOF.md": "proof",
+    "review/inputs/certificates/certificate.json": "certificate"
+  },
+  "publication_commit": "87b4ebbd426ff8db597a2004cc45da17903bdcf2",
+  "publication_tree": "sources/upstream-tree.json",
+  "linked_trees": {
+    "rpinho/math-certificates@59eeb7097f806da05187b5f234445be3589204d4": "sources/verification-levels-tree.json",
+    "teorth/optimizationproblems@87b4ebbd426ff8db597a2004cc45da17903bdcf2": "sources/upstream-tree.json"
+  },
+  "submitter": "rpinho",
+  "destination": "c82/degree104-joint"
+}

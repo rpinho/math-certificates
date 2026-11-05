@@ -1,0 +1,34 @@
+PID 58642 precision 256 FLINT threads 1
+roots denominator D11_5_0 208 boundary 0
+roots denominator C82r6_0a687958c979 208 boundary 0
+roots denominator C82r6_a2d5e71133fb 208 boundary 0
+roots denominator C82r6_719d74e5da39 208 boundary 0
+roots denominator C82r6_c87f877b9d4a 208 boundary 0
+roots denominator C82r6_7075b26a1a91 208 boundary 0
+roots denominator C82r6_99cd845e34d4 208 boundary 0
+roots denominator C82r6_8cc229a6f730 208 boundary 0
+roots denominator C82r6_6e2d6a4a1891 208 boundary 0
+roots denominator C82r6_e842aec1399f 208 boundary 0
+roots numerator P1 2 boundary 1
+roots numerator P2 2 boundary 2
+roots numerator P3 6 boundary 0
+roots numerator P4 8 boundary 4
+roots numerator P6 16 boundary 0
+roots numerator MS360 40 boundary 0
+roots numerator n22_7_5 38 boundary 0
+roots numerator n23_3_6 44 boundary 0
+roots numerator n11_4_53 54 boundary 0
+roots numerator n11_6_21 64 boundary 0
+roots numerator n11_6_46 56 boundary 0
+roots numerator n23_2_3 38 boundary 0
+roots numerator n101_0_17 22 boundary 0
+roots numerator n23_3_1 58 boundary 0
+roots numerator n111_1_0 6 boundary 2
+roots numerator n121_1_12 12 boundary 0
+roots numerator cg12_6_3 58 boundary 0
+roots numerator n101_2_13 62 boundary 0
+H [0.252015958341014008648036904324181924084226134378563880324577298780167290291 +/- 3.93e-76]
+tiling 1959 position 0.11629762931261212 positive_runs 13 negative 541 unresolved 26 depth 41
+tiling 3903 position 0.341796875 positive_runs 24 negative 1088 unresolved 50 depth 41
+J [1.966414195343095e-6 +/- 4.01e-22] B [0.252017924755209351743 +/- 3.65e-22]
+FINAL PASS {"ball": "[0.252017924755209351743 +/- 3.65e-22]", "lower": "58363364065316879104131358639715875544489015711280903773149670203810569831735/231584178474632390847141970017375815706539969331281128078915168015826259279872", "upper": "58363364065316879104291317687306783751388878361256113715177336248663757079863/231584178474632390847141970017375815706539969331281128078915168015826259279872"} seconds 77.04186987498542

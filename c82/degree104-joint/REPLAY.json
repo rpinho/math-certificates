@@ -1,0 +1,20 @@
+{
+  "model": "GPT-6-based Codex (exact serving-model ID not exposed)",
+  "author": "codex math_c82r6cref_1105 (clean-room)",
+  "status": "PASS",
+  "value": "0.2520179248",
+  "arithmetic": "interval",
+  "inputs": {
+    "review/inputs/CLAIM.md": "df14d4690a96c0978bfc4b419f6343428ab8fabedd8d5ba7de7fffeece7801f9",
+    "review/inputs/PROOF.md": "6633baac5a1747a3beb0b2de2128ec8df9d3bef5f75d0892393667cd73c2ec7d",
+    "review/inputs/certificates/certificate.json": "a4061273a4c69c593dac56ede91a1c5c2e9afbb70eb19c037d712bf5c20fe36e"
+  },
+  "inputs_hash": "e706f6712216ff150066fd36995e49a892ab3bc402cf2448f6b88ca5c166db8b",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "review/replay/check.py",
+  "checker_sha256": "9be401a31720165e2b0c637d1a0ae53afc0e9c7a6ed930ed0ef732cf3c2f6f36",
+  "report": "review/replay/report.md",
+  "report_sha256": "c21042b7e3f3d201bf4c11e176e6a50b7f0e080892cc511ab8475f3ea4b8ea21",
+  "note": "Path-only re-keying for release layout. Original referee receipt is review/replay/REPLAY.original.json; input bytes, checker, report, and model attestation are unchanged."
+}
