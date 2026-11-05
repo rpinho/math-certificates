@@ -5,8 +5,8 @@
       "kind": "rigorous",
       "producer": "round11/frozen_parity/verify_b.py",
       "arithmetic": "exact",
-      "new_bound": false,
-      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+      "new_bound": true,
+      "note": "Headline decimal of the new rational upper bound 39449672077327653986659243787/19807040628566084398385987584 (PR #294's stated bound C44 < 1.9916994577*); registered as new together with the rational. Producer scope is retained and is not a clean-room replay attestation."
     },
     {
       "value": "39449672077327653986659243787/19807040628566084398385987584",
