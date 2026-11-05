@@ -2,7 +2,7 @@
 
 This local, unrefereed experiment uses the public certificate and denominator-coefficient bank of vidigoat PR280, commit 3a7a84fec9c64ae426f06a5f52597c84b3453ba0. The Schnorr–Euchner/weighted-evaluation/product-start method is credited to vidigoat. The reduced-cost formula, residue restriction, joint LP, root-based screening and verification approach are inherited from our PR301 work; Doche supplies the limit-point construction, with earlier factor-library contributions by Grinsztajn and Épi.
 
-No script or module from vidigoat was executed or imported. Only the README, PR text and JSON data were consumed. cvp_search.py and cvp_gram.py are fresh implementations of the published method description. core.py, wlp.py and solve_lp.py are copies of our earlier code. The interval verifier is a copy of our own arb301 code, sharing no search functions.
+The search imports two MIT-licensed files from vidigoat/optimization-records@3a7a84f: core.py, byte-identical to vidigoat's, and wlp.py, vidigoat's file with one added thread setting. An earlier version of this note said no vidigoat module was imported and called both files copies of our earlier code; that was wrong. The other scripts (cvp_search.py, cvp_gram.py, cvp_fixed.py, cvp_profile.py, solve_lp.py, check_numerics.py) were written in our lane and import core.py; their line-level similarity to vidigoat's search code is under 10%. Neither verify_interval.py nor the referee checker imports core.py or wlp.py. Licence and file list: [THIRD_PARTY_NOTICE.md](THIRD_PARTY_NOTICE.md). The interval verifier is a copy of our own arb301 code, sharing no search functions.
 
 ## LP and pricing
 

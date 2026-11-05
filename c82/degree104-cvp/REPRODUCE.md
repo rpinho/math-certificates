@@ -26,7 +26,7 @@ Its historical accepted run took 452.66 seconds with controls. That independent 
 
 ## Search archive
 
-Search is heuristic and runtime-limited, so exact completed-start counts can vary. It is not part of the certificate replay. The scripts are at the packet root, states and dual arrays in runs/, and public warm-start data in prior_sources/. No code from @vidigoat (#280) was imported or executed by the producer. Credit Ricardo Pinho (#301) for the inherited reduced-cost and residue-class infrastructure. The legacy cvp_gram.py has the documented duplicate-seed limitation; use cvp_fixed.py for a new search.
+Search is heuristic and runtime-limited, so exact completed-start counts can vary. It is not part of the certificate replay. The scripts are at the packet root, states and dual arrays in runs/, and public warm-start data in prior_sources/. The search imports V. Patankar's MIT-licensed core.py (verbatim) and wlp.py (one thread setting added) from vidigoat/optimization-records; see [THIRD_PARTY_NOTICE.md](THIRD_PARTY_NOTICE.md). The certificate replay does not use them. Credit Ricardo Pinho (#301) for the inherited reduced-cost and residue-class infrastructure. The legacy cvp_gram.py has the documented duplicate-seed limitation; use cvp_fixed.py for a new search.
 
 ```sh
 nice -n 10 "$PYTHON" cvp_fixed.py --state runs/pilot-early.json \

@@ -63,4 +63,4 @@ since the true B is about 1.3 · 10⁻¹⁵ above it (estimate, review/integrate
 The replay checks the computation; the reduction C₈₂ ≤ B for certificates meeting
 H1–H3 remains a mathematical argument. It is not a peer review.
 
-Primary PR attribution: @vidigoat (#280); author evidence is retained in sources/pr-280.json.
+Primary PR attribution: V. Patankar (@vidigoat, #280); #280's own diff and commits name him, and that evidence is retained in sources/pr-280.json.
