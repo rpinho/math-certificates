@@ -1,0 +1,22 @@
+{
+  "steps": [
+    {
+      "document": "round11/frozen_parity/PROOF.md",
+      "statement": "All92 rows through degree96 and the9508/2^96 tail are checked exactly.",
+      "producer": "round11/frozen_parity/verify_b.py",
+      "arithmetic": "exact"
+    },
+    {
+      "document": "round11/frozen_parity/PROOF.md",
+      "statement": "With H=96 the tail is9508/2^96.",
+      "producer": "round11/frozen_parity/verify_b.py",
+      "arithmetic": "exact"
+    },
+    {
+      "document": "round11/frozen_parity/PROOF.md",
+      "statement": "Thus the degree-96 cap plus 9508/2^96 bounds every degree.",
+      "producer": "round11/frozen_parity/verify_b.py",
+      "arithmetic": "exact"
+    }
+  ]
+}

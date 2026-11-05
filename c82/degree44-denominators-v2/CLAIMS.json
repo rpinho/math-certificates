@@ -1,0 +1,78 @@
+{
+  "claims": [
+    {
+      "value": "0.253091834",
+      "kind": "rigorous",
+      "producer": "verify_exact.py",
+      "arithmetic": "interval",
+      "new_bound": true,
+      "note": "Original main mathematical claim; independently authored/model clean-room replay remains required."
+    },
+    {
+      "value": "0.25309183355151",
+      "kind": "rigorous",
+      "producer": "verify_exact.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": "0.25309183355146",
+      "kind": "estimate",
+      "producer": "review/integrate_gauss.py",
+      "arithmetic": "float",
+      "new_bound": false,
+      "note": "The source uses Arb and derivative bounds, but this displayed scalar is a rounded/truncated diagnostic, not an enclosing endpoint. External replay B_lo=0.2530918335514613 exceeds it. The arithmetic=float designation qualifies the displayed approximate scalar; it does not assert that integrate_gauss.py is pure float."
+    },
+    {
+      "value": "0.2530918335514613",
+      "kind": "cited",
+      "source": "sources/v2/pr301-comments.json",
+      "new_bound": false,
+      "note": "Checked arhancanli’s comment 6628606867 and pinned c82/results/pr301.txt / pr301a.txt at 087d768de15d74095bfc8f00ee9b35677e87b106. The four decimals are their reported enclosing endpoints; 4.5 and 3.8 are coefficients of rounded margins ×10^-10, not standalone bounds. Public replay evidence is not a v2 hash-bound REPLAY.json receipt."
+    },
+    {
+      "value": "0.2530918335514614",
+      "kind": "cited",
+      "source": "sources/v2/pr301-comments.json",
+      "new_bound": false,
+      "note": "Checked arhancanli’s comment 6628606867 and pinned c82/results/pr301.txt / pr301a.txt at 087d768de15d74095bfc8f00ee9b35677e87b106. The four decimals are their reported enclosing endpoints; 4.5 and 3.8 are coefficients of rounded margins ×10^-10, not standalone bounds. Public replay evidence is not a v2 hash-bound REPLAY.json receipt."
+    },
+    {
+      "value": "0.2531232746206604",
+      "kind": "cited",
+      "source": "sources/v2/pr301-comments.json",
+      "new_bound": false,
+      "note": "Checked arhancanli’s comment 6628606867 and pinned c82/results/pr301.txt / pr301a.txt at 087d768de15d74095bfc8f00ee9b35677e87b106. The four decimals are their reported enclosing endpoints; 4.5 and 3.8 are coefficients of rounded margins ×10^-10, not standalone bounds. Public replay evidence is not a v2 hash-bound REPLAY.json receipt."
+    },
+    {
+      "value": "0.2531232746206605",
+      "kind": "cited",
+      "source": "sources/v2/pr301-comments.json",
+      "new_bound": false,
+      "note": "Checked arhancanli’s comment 6628606867 and pinned c82/results/pr301.txt / pr301a.txt at 087d768de15d74095bfc8f00ee9b35677e87b106. The four decimals are their reported enclosing endpoints; 4.5 and 3.8 are coefficients of rounded margins ×10^-10, not standalone bounds. Public replay evidence is not a v2 hash-bound REPLAY.json receipt."
+    },
+    {
+      "value": "4.5",
+      "kind": "cited",
+      "source": "sources/v2/pr301-comments.json",
+      "new_bound": false,
+      "note": "Checked arhancanli’s comment 6628606867 and pinned c82/results/pr301.txt / pr301a.txt at 087d768de15d74095bfc8f00ee9b35677e87b106. The four decimals are their reported enclosing endpoints; 4.5 and 3.8 are coefficients of rounded margins ×10^-10, not standalone bounds. Public replay evidence is not a v2 hash-bound REPLAY.json receipt."
+    },
+    {
+      "value": "3.8",
+      "kind": "cited",
+      "source": "sources/v2/pr301-comments.json",
+      "new_bound": false,
+      "note": "Checked arhancanli’s comment 6628606867 and pinned c82/results/pr301.txt / pr301a.txt at 087d768de15d74095bfc8f00ee9b35677e87b106. The four decimals are their reported enclosing endpoints; 4.5 and 3.8 are coefficients of rounded margins ×10^-10, not standalone bounds. Public replay evidence is not a v2 hash-bound REPLAY.json receipt."
+    },
+    {
+      "value": "0.253123275",
+      "kind": "rigorous",
+      "producer": "../degree44-denominators/verify_exact.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Read the earlier sibling verifier and its certificate/README: this is its already filed strict threshold. It is historical, not a new bound in the current packet."
+    }
+  ]
+}

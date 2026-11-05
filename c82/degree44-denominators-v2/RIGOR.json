@@ -1,0 +1,10 @@
+{
+  "steps": [
+    {
+      "document": "README.md",
+      "statement": "The rigorous upper endpoint is 0.25309183355151 from `verify_exact.py` at 256 bits.",
+      "producer": "verify_exact.py",
+      "arithmetic": "interval"
+    }
+  ]
+}

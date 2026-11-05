@@ -1,0 +1,10 @@
+{
+  "steps": [
+    {
+      "document": "PROOF.md",
+      "statement": "Thus the finite certificate proves exp(mean log W)>z*(1+|d|²).",
+      "producer": "verify_row.py",
+      "arithmetic": "interval"
+    }
+  ]
+}

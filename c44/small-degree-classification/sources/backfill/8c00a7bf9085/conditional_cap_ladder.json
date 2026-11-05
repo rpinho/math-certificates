@@ -1,0 +1,176 @@
+{
+  "status": "Exact CONDITIONAL arithmetic; no additional cap is proved by a ladder",
+  "horizon": 72,
+  "ladders": {
+    "inherited_caps": [
+      {
+        "cap4": "31/16",
+        "conditional_bound": "9734054368586347385997/2361183241434822606848",
+        "decimal": 4.1225323802786455,
+        "conditional_gain_over_this_baseline": "0",
+        "cap4_status": "proved in round4"
+      },
+      {
+        "cap4": "15/8",
+        "conditional_bound": "9734054368586347385997/2361183241434822606848",
+        "decimal": 4.1225323802786455,
+        "conditional_gain_over_this_baseline": "0",
+        "cap4_status": "proved in round4"
+      },
+      {
+        "cap4": "29/16",
+        "conditional_bound": "9734054368586347385997/2361183241434822606848",
+        "decimal": 4.1225323802786455,
+        "conditional_gain_over_this_baseline": "0",
+        "cap4_status": "proved in round4"
+      },
+      {
+        "cap4": "7/4",
+        "conditional_bound": "9734054368586347385997/2361183241434822606848",
+        "decimal": 4.1225323802786455,
+        "conditional_gain_over_this_baseline": "0",
+        "cap4_status": "proved in round4"
+      },
+      {
+        "cap4": "27/16",
+        "conditional_bound": "9734054368586347385997/2361183241434822606848",
+        "decimal": 4.1225323802786455,
+        "conditional_gain_over_this_baseline": "0",
+        "cap4_status": "proved in round4"
+      },
+      {
+        "cap4": "13/8",
+        "conditional_bound": "9734054368586347385997/2361183241434822606848",
+        "decimal": 4.1225323802786455,
+        "conditional_gain_over_this_baseline": "0",
+        "cap4_status": "proved in round4"
+      },
+      {
+        "cap4": "25/16",
+        "conditional_bound": "9734054368586347385997/2361183241434822606848",
+        "decimal": 4.1225323802786455,
+        "conditional_gain_over_this_baseline": "0",
+        "cap4_status": "proved in round4"
+      },
+      {
+        "cap4": "3/2",
+        "conditional_bound": "9734054368586347385997/2361183241434822606848",
+        "decimal": 4.1225323802786455,
+        "conditional_gain_over_this_baseline": "0",
+        "cap4_status": "UNPROVED here"
+      },
+      {
+        "cap4": "23/16",
+        "conditional_bound": "9660267392291509179533/2361183241434822606848",
+        "decimal": 4.0912823802786455,
+        "conditional_gain_over_this_baseline": "1/32",
+        "cap4_status": "UNPROVED here"
+      },
+      {
+        "cap4": "11/8",
+        "conditional_bound": "9660267392291509179533/2361183241434822606848",
+        "decimal": 4.0912823802786455,
+        "conditional_gain_over_this_baseline": "1/32",
+        "cap4_status": "UNPROVED here"
+      }
+    ],
+    "certified_round4_caps": [
+      {
+        "cap4": "31/16",
+        "conditional_bound": "9531140183775542318221/2361183241434822606848",
+        "decimal": 4.0365948802786455,
+        "conditional_gain_over_this_baseline": "-7/128",
+        "cap4_status": "proved in round4"
+      },
+      {
+        "cap4": "15/8",
+        "conditional_bound": "9531140183775542318221/2361183241434822606848",
+        "decimal": 4.0365948802786455,
+        "conditional_gain_over_this_baseline": "-7/128",
+        "cap4_status": "proved in round4"
+      },
+      {
+        "cap4": "29/16",
+        "conditional_bound": "9531140183775542318221/2361183241434822606848",
+        "decimal": 4.0365948802786455,
+        "conditional_gain_over_this_baseline": "-7/128",
+        "cap4_status": "proved in round4"
+      },
+      {
+        "cap4": "7/4",
+        "conditional_bound": "9531140183775542318221/2361183241434822606848",
+        "decimal": 4.0365948802786455,
+        "conditional_gain_over_this_baseline": "-7/128",
+        "cap4_status": "proved in round4"
+      },
+      {
+        "cap4": "27/16",
+        "conditional_bound": "9475799951554413663373/2361183241434822606848",
+        "decimal": 4.0131573802786455,
+        "conditional_gain_over_this_baseline": "-1/32",
+        "cap4_status": "proved in round4"
+      },
+      {
+        "cap4": "13/8",
+        "conditional_bound": "9402012975259575456909/2361183241434822606848",
+        "decimal": 3.9819073802786455,
+        "conditional_gain_over_this_baseline": "0",
+        "cap4_status": "proved in round4"
+      },
+      {
+        "cap4": "25/16",
+        "conditional_bound": "9402012975259575456909/2361183241434822606848",
+        "decimal": 3.9819073802786455,
+        "conditional_gain_over_this_baseline": "0",
+        "cap4_status": "proved in round4"
+      },
+      {
+        "cap4": "3/2",
+        "conditional_bound": "9402012975259575456909/2361183241434822606848",
+        "decimal": 3.9819073802786455,
+        "conditional_gain_over_this_baseline": "0",
+        "cap4_status": "UNPROVED here"
+      },
+      {
+        "cap4": "23/16",
+        "conditional_bound": "9402012975259575456909/2361183241434822606848",
+        "decimal": 3.9819073802786455,
+        "conditional_gain_over_this_baseline": "0",
+        "cap4_status": "UNPROVED here"
+      },
+      {
+        "cap4": "11/8",
+        "conditional_bound": "9346672743038446802061/2361183241434822606848",
+        "decimal": 3.9584698802786455,
+        "conditional_gain_over_this_baseline": "3/128",
+        "cap4_status": "UNPROVED here"
+      }
+    ]
+  },
+  "proved_cap_ablations": {
+    "baseline": {
+      "bound": "9734054368586347385997/2361183241434822606848",
+      "decimal": 4.1225323802786455
+    },
+    "quartic_only": {
+      "bound": "9734054368586347385997/2361183241434822606848",
+      "decimal": 4.1225323802786455
+    },
+    "quintic_only": {
+      "bound": "9660267392291509179533/2361183241434822606848",
+      "decimal": 4.0912823802786455
+    },
+    "sextic_only": {
+      "bound": "9660267392291509179533/2361183241434822606848",
+      "decimal": 4.0912823802786455
+    },
+    "quintic_and_sextic": {
+      "bound": "9531140183775542318221/2361183241434822606848",
+      "decimal": 4.0365948802786455
+    },
+    "round4_all": {
+      "bound": "9402012975259575456909/2361183241434822606848",
+      "decimal": 3.9819073802786455
+    }
+  }
+}

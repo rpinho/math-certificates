@@ -1,0 +1,29 @@
+{
+  "target": "teorth/optimizationproblems#299",
+  "new_bound": true,
+  "producer_author": "UNESTABLISHED: obtain the original producer session identity before a replay attestation",
+  "producer_model": "gpt-6.1-sol",
+  "replay_inputs": {
+    "PROOF.md": "proof",
+    "CONTACT_ROW_LEMMA.md": "proof",
+    "INPUT_GREEN_FLUX.md": "proof",
+    "INPUT_ANGULAR.md": "proof",
+    "certificates/certificate-0447.json": "certificate",
+    "certificates/row-cover.json": "certificate",
+    "baseline/nearby-candidate.json": "certificate"
+  },
+  "linked_trees": {
+    "rpinho/math-certificates@09c84234137d3fadee1620dbc1c2ca58d2756ce2": "sources/publish-trees/rpinho__math-certificates@09c84234137d3fadee1620dbc1c2ca58d2756ce2.json",
+    "rpinho/math-certificates@59eeb7097f806da05187b5f234445be3589204d4": "sources/publish-trees/rpinho__math-certificates@59eeb7097f806da05187b5f234445be3589204d4.json",
+    "rpinho/math-certificates@848f899c973666f64b73fb6f37760849a600285f": "sources/publish-trees/rpinho__math-certificates@848f899c973666f64b73fb6f37760849a600285f.json"
+  },
+  "pr_number": 299,
+  "publication_commit": "b2ebc4564be427617c91a052937edab3a2a7cb28",
+  "publication_tree": "sources/publish-trees/teorth__optimizationproblems@b2ebc4564be427617c91a052937edab3a2a7cb28.json",
+  "publication_author_evidence": "Ricardo Pinho",
+  "publication_author_login": "rpinho",
+  "producer_model_evidence": "**Models:** GPT-6.1 Sol via Codex (search, proof drafting, certificates, checkers, packaging); GPT-6 Astra (adversarial referee and review); Claude Opus 5.5 via Claude Science (review); Claude Code with Claude Opus 5.5 (coordination).",
+  "producer_identity_status": "Model explicitly declared for producer work in the original body; original AI-session identity is not supplied. Do not infer isolation from a model label.",
+  "live_body": "sources/live_pr299.json",
+  "submitter": "rpinho"
+}

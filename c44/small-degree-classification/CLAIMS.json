@@ -1,0 +1,298 @@
+{
+  "claims": [
+    {
+      "value": "1.9916994577",
+      "kind": "rigorous",
+      "producer": "round11/frozen_parity/verify_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": "39449672077327653986659243787/19807040628566084398385987584",
+      "kind": "rigorous",
+      "producer": "round11/frozen_parity/verify_b.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "note": "Original main mathematical claim; independently authored/model clean-room replay remains required."
+    },
+    {
+      "value": "50",
+      "kind": "rigorous",
+      "producer": "round11/frozen_parity/verify_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": "107",
+      "kind": "rigorous",
+      "producer": "round11/frozen_parity/verify_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": "227",
+      "kind": "rigorous",
+      "producer": "round11/frozen_parity/verify_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": "474",
+      "kind": "rigorous",
+      "producer": "round11/frozen_parity/verify_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": "2.0808959614",
+      "kind": "rigorous",
+      "producer": "round7/verify_scalar_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": "2.0417086280",
+      "kind": "rigorous",
+      "producer": "round8/verify_completion_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": "2.0209645587",
+      "kind": "rigorous",
+      "producer": "round9/frozen/verify_packet_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": "2.0111998311",
+      "kind": "rigorous",
+      "producer": "round10/frozen_final/verify_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": "1.99169945763793704666",
+      "kind": "rigorous",
+      "producer": "round11/frozen_parity/verify_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Read lines deriving tail=Fraction(9508,2**96), bound=Fraction(counts[96],2**96)+tail. Exact bound is 39449672077327653986659243787/19807040628566084398385987584; exact long division verifies the twenty-place decimal prefix 1.99169945763793704666… . Tail/full decimal expansion only, not another new bound. Complete exponent expression is registered, not the scanner fragment 9508/2."
+    },
+    {
+      "value": "9508/2^96",
+      "kind": "rigorous",
+      "producer": "round11/frozen_parity/verify_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Read lines deriving tail=Fraction(9508,2**96), bound=Fraction(counts[96],2**96)+tail. Exact bound is 39449672077327653986659243787/19807040628566084398385987584; exact long division verifies the twenty-place decimal prefix 1.99169945763793704666… . Tail/full decimal expansion only, not another new bound. Complete exponent expression is registered, not the scanner fragment 9508/2."
+    },
+    {
+      "value": "2.1974348818",
+      "kind": "rigorous",
+      "producer": "../reed-muller-caps/verify_caps_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Read historical verify_caps_b.py: independently recomputes the 96-degree rational caps/tail and checks candidate.json. The historical exact fraction is 174098727923678791596986402933/2^96, below 2.1974348818. 2.1974 is the coarse four-place shorthand for that earlier argument, not a strict upper endpoint and not a new bound."
+    },
+    {
+      "value": "2.1974",
+      "kind": "rigorous",
+      "producer": "../reed-muller-caps/verify_caps_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Read historical verify_caps_b.py: independently recomputes the 96-degree rational caps/tail and checks candidate.json. The historical exact fraction is 174098727923678791596986402933/2^96, below 2.1974348818. 2.1974 is the coarse four-place shorthand for that earlier argument, not a strict upper endpoint and not a new bound."
+    },
+    {
+      "value": "3/2",
+      "kind": "rigorous",
+      "producer": "r4-exact/verify_packet.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Read verify_packet.py: exact lower_recursion limit (22+2)/2^4 = 3/2 and scalar propagation reports R5_upper=53. The 3/2 occurrences also include a normalized-weight parameter used by the later checkers. Historical lower bound/parameter or earlier cap only; the producer does not reprove the external cubic classification premise."
+    },
+    {
+      "value": "53",
+      "kind": "rigorous",
+      "producer": "r4-exact/verify_packet.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Read verify_packet.py: exact lower_recursion limit (22+2)/2^4 = 3/2 and scalar propagation reports R5_upper=53. The 3/2 occurrences also include a normalized-weight parameter used by the later checkers. Historical lower bound/parameter or earlier cap only; the producer does not reprove the external cubic classification premise."
+    },
+    {
+      "value": "22",
+      "kind": "rigorous",
+      "producer": "round11/frozen_parity/verify_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Read counts base {1:1,2:4,3:10,4:22}; this is the inherited R4 exact count, not an additional new claim from the final scalar recurrence. Its attainment and upper cap are checked by r4-exact/verify_packet.py subject to published premises."
+    },
+    {
+      "value": "51",
+      "kind": "rigorous",
+      "producer": "round7/verify_scalar_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Read optimize(): exact integer candidate grid and classified d=6 lambda=3/2 h<=12 cap; the classified rows give R5<=51,R6<=110. Earlier-round cap/parameter only, not a separate new bound."
+    },
+    {
+      "value": "110",
+      "kind": "rigorous",
+      "producer": "round7/verify_scalar_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Read optimize(): exact integer candidate grid and classified d=6 lambda=3/2 h<=12 cap; the classified rows give R5<=51,R6<=110. Earlier-round cap/parameter only, not a separate new bound."
+    },
+    {
+      "value": "12",
+      "kind": "rigorous",
+      "producer": "round7/verify_scalar_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Read optimize(): exact integer candidate grid and classified d=6 lambda=3/2 h<=12 cap; the classified rows give R5<=51,R6<=110. Earlier-round cap/parameter only, not a separate new bound."
+    },
+    {
+      "value": "201/4",
+      "kind": "rigorous",
+      "producer": "round8/verify_completion_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Read the independent integer optimizer and completion_certificate.json sharp row d=5: its feasible/worst budget is 201/4=50.25 exactly, with floor 50; sharp propagation gives R6<=109. This is the corrected real budget/earlier cap, not a new bound. The number 109 also occurs in later cited ablations."
+    },
+    {
+      "value": "50.25",
+      "kind": "rigorous",
+      "producer": "round8/verify_completion_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Read the independent integer optimizer and completion_certificate.json sharp row d=5: its feasible/worst budget is 201/4=50.25 exactly, with floor 50; sharp propagation gives R6<=109. This is the corrected real budget/earlier cap, not a new bound. The number 109 also occurs in later cited ablations."
+    },
+    {
+      "value": "109",
+      "kind": "rigorous",
+      "producer": "round8/verify_completion_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Read the independent integer optimizer and completion_certificate.json sharp row d=5: its feasible/worst budget is 201/4=50.25 exactly, with floor 50; sharp propagation gives R6<=109. This is the corrected real budget/earlier cap, not a new bound. The number 109 also occurs in later cited ablations."
+    },
+    {
+      "value": "7/4",
+      "kind": "rigorous",
+      "producer": "round9/frozen/verify_packet_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Read scalar section and finite catalogue checks: d=6,4*z=7*G uses ceiling h<=13, with exact 189-case packet premises. Normalized weight 7/4 and cap 13 are inputs/consequences of the original main bound, not additional new bounds."
+    },
+    {
+      "value": "13",
+      "kind": "rigorous",
+      "producer": "round9/frozen/verify_packet_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Read scalar section and finite catalogue checks: d=6,4*z=7*G uses ceiling h<=13, with exact 189-case packet premises. Normalized weight 7/4 and cap 13 are inputs/consequences of the original main bound, not additional new bounds."
+    },
+    {
+      "value": "229",
+      "kind": "rigorous",
+      "producer": "round10/frozen_final/verify_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Read the final assertion (previous[5],previous[6],previous[7])==(50,107,229), after integer maxima and degree-96 propagation. Historical round-10 cap, not a separate new bound."
+    },
+    {
+      "value": "2.0365511974",
+      "kind": "rigorous",
+      "producer": "publication_recurrence.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "publication_recurrence.py adapts the pinned round-10 integer recurrence, explicitly switching the two degree-six ceilings. It recomputes full/fallback/partial scalar bounds and exact rounding. Fallback is 161352209230323853459003893907/2^96, upward ten-place 2.0365511974; approximate renderings 2.0366 and 2.03655 are not upper endpoints. Full and partial nearest five-place renderings are 2.01120 and 2.02611, partial R6=108. Conditional scalar sensitivity only: no finite classification, external theorem, or new bound is established. Register the complete denominator 2^96, not scanner fragment /2."
+    },
+    {
+      "value": "161352209230323853459003893907/2^96",
+      "kind": "rigorous",
+      "producer": "publication_recurrence.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "publication_recurrence.py adapts the pinned round-10 integer recurrence, explicitly switching the two degree-six ceilings. It recomputes full/fallback/partial scalar bounds and exact rounding. Fallback is 161352209230323853459003893907/2^96, upward ten-place 2.0365511974; approximate renderings 2.0366 and 2.03655 are not upper endpoints. Full and partial nearest five-place renderings are 2.01120 and 2.02611, partial R6=108. Conditional scalar sensitivity only: no finite classification, external theorem, or new bound is established. Register the complete denominator 2^96, not scanner fragment /2."
+    },
+    {
+      "value": "2.0366",
+      "kind": "rigorous",
+      "producer": "publication_recurrence.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "publication_recurrence.py adapts the pinned round-10 integer recurrence, explicitly switching the two degree-six ceilings. It recomputes full/fallback/partial scalar bounds and exact rounding. Fallback is 161352209230323853459003893907/2^96, upward ten-place 2.0365511974; approximate renderings 2.0366 and 2.03655 are not upper endpoints. Full and partial nearest five-place renderings are 2.01120 and 2.02611, partial R6=108. Conditional scalar sensitivity only: no finite classification, external theorem, or new bound is established. Register the complete denominator 2^96, not scanner fragment /2."
+    },
+    {
+      "value": "2.01120",
+      "kind": "rigorous",
+      "producer": "publication_recurrence.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "publication_recurrence.py adapts the pinned round-10 integer recurrence, explicitly switching the two degree-six ceilings. It recomputes full/fallback/partial scalar bounds and exact rounding. Fallback is 161352209230323853459003893907/2^96, upward ten-place 2.0365511974; approximate renderings 2.0366 and 2.03655 are not upper endpoints. Full and partial nearest five-place renderings are 2.01120 and 2.02611, partial R6=108. Conditional scalar sensitivity only: no finite classification, external theorem, or new bound is established. Register the complete denominator 2^96, not scanner fragment /2."
+    },
+    {
+      "value": "2.03655",
+      "kind": "rigorous",
+      "producer": "publication_recurrence.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "publication_recurrence.py adapts the pinned round-10 integer recurrence, explicitly switching the two degree-six ceilings. It recomputes full/fallback/partial scalar bounds and exact rounding. Fallback is 161352209230323853459003893907/2^96, upward ten-place 2.0365511974; approximate renderings 2.0366 and 2.03655 are not upper endpoints. Full and partial nearest five-place renderings are 2.01120 and 2.02611, partial R6=108. Conditional scalar sensitivity only: no finite classification, external theorem, or new bound is established. Register the complete denominator 2^96, not scanner fragment /2."
+    },
+    {
+      "value": "2.02611",
+      "kind": "rigorous",
+      "producer": "publication_recurrence.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "publication_recurrence.py adapts the pinned round-10 integer recurrence, explicitly switching the two degree-six ceilings. It recomputes full/fallback/partial scalar bounds and exact rounding. Fallback is 161352209230323853459003893907/2^96, upward ten-place 2.0365511974; approximate renderings 2.0366 and 2.03655 are not upper endpoints. Full and partial nearest five-place renderings are 2.01120 and 2.02611, partial R6=108. Conditional scalar sensitivity only: no finite classification, external theorem, or new bound is established. Register the complete denominator 2^96, not scanner fragment /2."
+    },
+    {
+      "value": "108",
+      "kind": "rigorous",
+      "producer": "publication_recurrence.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "publication_recurrence.py adapts the pinned round-10 integer recurrence, explicitly switching the two degree-six ceilings. It recomputes full/fallback/partial scalar bounds and exact rounding. Fallback is 161352209230323853459003893907/2^96, upward ten-place 2.0365511974; approximate renderings 2.0366 and 2.03655 are not upper endpoints. Full and partial nearest five-place renderings are 2.01120 and 2.02611, partial R6=108. Conditional scalar sensitivity only: no finite classification, external theorem, or new bound is established. Register the complete denominator 2^96, not scanner fragment /2."
+    },
+    {
+      "value": "231",
+      "kind": "cited",
+      "source": "https://github.com/rpinho/math-certificates/blob/e46570da41325d4dd2850de81439dfa633cea95b/c44/small-degree-classification/round11/review/cs/cs.md",
+      "new_bound": false,
+      "note": "Checked the published round-eleven Claude Science review: dropping either required ceiling gives R6<=109 and R7<=231. This is a reviewer-reported sensitivity, not an output of the unchanged final producer; no new bound is claimed. The byte-inspected local file round11/review/cs/cs.md remains in the pinned packet; use its published URL because the current linter accepts local cited paths only under sources/."
+    },
+    {
+      "value": "5.5",
+      "kind": "cited",
+      "source": "https://github.com/rpinho/math-certificates/blob/e46570da41325d4dd2850de81439dfa633cea95b/c44/small-degree-classification/round11/review/probes/README.md",
+      "new_bound": false,
+      "note": "Checked published review probe identity: “Claude Science (Claude Opus 5.5) round-11 review”. This is a model-version name in review attribution, not a mathematical bound. The byte-inspected local file round11/review/probes/README.md remains in the pinned packet; use its published URL because the current linter accepts local cited paths only under sources/."
+    },
+    {
+      "value": "2",
+      "kind": "rigorous",
+      "producer": "round11/frozen_parity/verify_b.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Base 2 in r(f)<=C*2^deg(f), and dyadic powers in the exact recurrence/tail; read the integer shifts and Fraction denominator construction. Definition/parameter, not a new bound."
+    },
+    {
+      "value": "4",
+      "kind": "rigorous",
+      "producer": "r4-exact/verify_packet.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Read verify_packet.py: w[degree]==4 and R4=22 are checked in the exact witness/catalogue argument; 4 is the degree index in the exact-value statement, not another bound."
+    }
+  ]
+}

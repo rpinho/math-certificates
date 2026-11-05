@@ -1,0 +1,236 @@
+{
+  "claims": [
+    {
+      "value": "0.447",
+      "kind": "rigorous",
+      "producer": "verify_measure.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": "447/1000",
+      "kind": "rigorous",
+      "producer": "verify_measure.py",
+      "arithmetic": "interval",
+      "new_bound": true,
+      "note": "Original main mathematical claim; independently authored/model clean-room replay remains required."
+    },
+    {
+      "value": "23/200",
+      "kind": "rigorous",
+      "producer": "verify_row.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": "0.115",
+      "kind": "rigorous",
+      "producer": "verify_row.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": ".115",
+      "kind": "rigorous",
+      "producer": "verify_row.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": "7.86562e-6",
+      "kind": "rigorous",
+      "producer": "verify_measure.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": "7.68082e-6",
+      "kind": "rigorous",
+      "producer": "verify_measure.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": "33/200000",
+      "kind": "rigorous",
+      "producer": "verify_measure.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": "8.88107e-10",
+      "kind": "rigorous",
+      "producer": "verify_measure.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": "2.04388e-5",
+      "kind": "rigorous",
+      "producer": "verify_row.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": "0.01616841",
+      "kind": "rigorous",
+      "producer": "verify_row.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": "-0.00003324623828",
+      "kind": "rigorous",
+      "producer": "verify_measure.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": "0.000003854649777",
+      "kind": "rigorous",
+      "producer": "verify_measure.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": "0.1044575940727006",
+      "kind": "estimate",
+      "producer": "verify_retained.py",
+      "arithmetic": "float",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation. The underlying code uses exact/Arb arithmetic; this row qualifies only the displayed diagnostic scalar and does not label it a rigorous endpoint."
+    },
+    {
+      "value": "0.6668411467973089",
+      "kind": "estimate",
+      "producer": "verify_retained.py",
+      "arithmetic": "float",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation. The underlying code uses exact/Arb arithmetic; this row qualifies only the displayed diagnostic scalar and does not label it a rigorous endpoint."
+    },
+    {
+      "value": "-1/100",
+      "kind": "rigorous",
+      "producer": "verify_retained.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": ".447",
+      "kind": "rigorous",
+      "producer": "verify_measure.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Existing packet value: historical bound, exact decimal rendering, finite arithmetic component or parameter of the main claim; not an additional new mathematical bound. Producer scope is retained and is not a clean-room replay attestation."
+    },
+    {
+      "value": "0.44685",
+      "kind": "rigorous",
+      "producer": "publication_arithmetic.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "publication_arithmetic.py reads current c=447/1000 and the earlier signed-contact certificate c=8937/20000, computes old radius and difference 3/20000 exactly. This value is a historical rendering or derived gain, not another new bound; the helper does not prove either analytic implication."
+    },
+    {
+      "value": "8937/20000",
+      "kind": "rigorous",
+      "producer": "publication_arithmetic.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "publication_arithmetic.py reads current c=447/1000 and the earlier signed-contact certificate c=8937/20000, computes old radius and difference 3/20000 exactly. This value is a historical rendering or derived gain, not another new bound; the helper does not prove either analytic implication."
+    },
+    {
+      "value": "3/20000",
+      "kind": "rigorous",
+      "producer": "publication_arithmetic.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "publication_arithmetic.py reads current c=447/1000 and the earlier signed-contact certificate c=8937/20000, computes old radius and difference 3/20000 exactly. This value is a historical rendering or derived gain, not another new bound; the helper does not prove either analytic implication."
+    },
+    {
+      "value": "19/200",
+      "kind": "rigorous",
+      "producer": "../signed-contact/verify_measure.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Read the preceding signed-contact verifier: it enforces zeta=19/200 and constructs this rational as Arb in the moment weights. Decimal 0.095 is exact. It is the old coefficient parameter, including in the comparison on the frozen measure, not a new bound."
+    },
+    {
+      "value": "0.095",
+      "kind": "rigorous",
+      "producer": "../signed-contact/verify_measure.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Read the preceding signed-contact verifier: it enforces zeta=19/200 and constructs this rational as Arb in the moment weights. Decimal 0.095 is exact. It is the old coefficient parameter, including in the comparison on the frozen measure, not a new bound."
+    },
+    {
+      "value": ".095",
+      "kind": "rigorous",
+      "producer": "../signed-contact/verify_measure.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Read the preceding signed-contact verifier: it enforces zeta=19/200 and constructs this rational as Arb in the moment weights. Decimal 0.095 is exact. It is the old coefficient parameter, including in the comparison on the frozen measure, not a new bound."
+    },
+    {
+      "value": ".105",
+      "kind": "rigorous",
+      "producer": "verify_retained.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Read verify_retained.py: capped_energy is compared with exact Arb 21/200, and the nearby candidate stores zeta=21/200. This is the rejected relaxed coefficient threshold, not a certified claim at that threshold; its decimal is exact."
+    },
+    {
+      "value": "0.105",
+      "kind": "rigorous",
+      "producer": "verify_retained.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Read verify_retained.py: capped_energy is compared with exact Arb 21/200, and the nearby candidate stores zeta=21/200. This is the rejected relaxed coefficient threshold, not a certified claim at that threshold; its decimal is exact."
+    },
+    {
+      "value": "0",
+      "kind": "rigorous",
+      "producer": "verify_measure.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Read verify_measure.py: rational radius/domain and nonnegativity endpoints are 0 and 1; first_tail_k=6000 and second_tail_k=1800 are read from the certificate and used in the full tail inequalities. Context/domain/tail parameter only; not a separate new bound."
+    },
+    {
+      "value": "1",
+      "kind": "rigorous",
+      "producer": "verify_measure.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Read verify_measure.py: rational radius/domain and nonnegativity endpoints are 0 and 1; first_tail_k=6000 and second_tail_k=1800 are read from the certificate and used in the full tail inequalities. Context/domain/tail parameter only; not a separate new bound."
+    },
+    {
+      "value": "6000",
+      "kind": "rigorous",
+      "producer": "verify_measure.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Read verify_measure.py: rational radius/domain and nonnegativity endpoints are 0 and 1; first_tail_k=6000 and second_tail_k=1800 are read from the certificate and used in the full tail inequalities. Context/domain/tail parameter only; not a separate new bound."
+    },
+    {
+      "value": "1800",
+      "kind": "rigorous",
+      "producer": "verify_measure.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Read verify_measure.py: rational radius/domain and nonnegativity endpoints are 0 and 1; first_tail_k=6000 and second_tail_k=1800 are read from the certificate and used in the full tail inequalities. Context/domain/tail parameter only; not a separate new bound."
+    }
+  ]
+}

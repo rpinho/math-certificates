@@ -1,0 +1,82 @@
+{
+  "status": "PASS both exact verifiers, shared finite72 and all common bounds agree",
+  "pid": 8140,
+  "certified_bound": "163310332697516761417555720251/39614081257132168796771975168",
+  "bound_decimal": "4.1225323802786456043644901056378273301713240025220070985451092938",
+  "claim": "4.1225323803",
+  "target": "4.1225332506",
+  "target_margin": "336689266141074497473880053917/386856262276681335905976320000000000",
+  "previous_bound": "163310367171833318599813838907/39614081257132168796771975168",
+  "exact_gain": "1913709/2199023255552",
+  "gain_decimal": "8.7025409811758436262607574462890625E-7",
+  "degree_changes": [
+    {
+      "degree": 31,
+      "previous_B": 486,
+      "new_B": 470,
+      "conditional_linear_gain": "15/134217728"
+    },
+    {
+      "degree": 32,
+      "previous_B": 596,
+      "new_B": 501,
+      "conditional_linear_gain": "2945/8589934592"
+    },
+    {
+      "degree": 33,
+      "previous_B": 634,
+      "new_B": 533,
+      "conditional_linear_gain": "101/536870912"
+    },
+    {
+      "degree": 34,
+      "previous_B": 673,
+      "new_B": 565,
+      "conditional_linear_gain": "891/8589934592"
+    },
+    {
+      "degree": 35,
+      "previous_B": 713,
+      "new_B": 597,
+      "conditional_linear_gain": "493/8589934592"
+    },
+    {
+      "degree": 36,
+      "previous_B": 755,
+      "new_B": 630,
+      "conditional_linear_gain": "4375/137438953472"
+    },
+    {
+      "degree": 37,
+      "previous_B": 797,
+      "new_B": 665,
+      "conditional_linear_gain": "297/17179869184"
+    },
+    {
+      "degree": 38,
+      "previous_B": 841,
+      "new_B": 701,
+      "conditional_linear_gain": "1295/137438953472"
+    },
+    {
+      "degree": 39,
+      "previous_B": 886,
+      "new_B": 738,
+      "conditional_linear_gain": "703/137438953472"
+    },
+    {
+      "degree": 40,
+      "previous_B": 932,
+      "new_B": 777,
+      "conditional_linear_gain": "6045/2199023255552"
+    }
+  ],
+  "finite72": "1216756796073293397895/295147905179352825856",
+  "files": {
+    "candidate.json": "7cc5e0be182809869dde1b1fa6e0f7bc0f1f047881aea1da6c639e3ce35cf747",
+    "spectral_certificate_round3.json": "1020ed20d078ec1fece41c643007426bc452fc3aeafc81761901b32ded4495ed",
+    "verify_spectral.py": "0ab675c689a8bc124ff4654139c003f0c09ce4336b835a07c606826b34d4726b",
+    "verify_bound.py": "8e8a9f13e374ed4522a10e7f6c3968d07e1fb7aea91fbc000aba6f655c127ccd",
+    "verify_column.py": "e69b1c682c92d17770a98612a7f4b5c605e820994fa42bc62c0c2670b3a80f80"
+  }
+}

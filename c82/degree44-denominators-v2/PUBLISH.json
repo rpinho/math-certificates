@@ -1,0 +1,22 @@
+{
+  "target": "teorth/optimizationproblems#301",
+  "new_bound": true,
+  "producer_author": "UNESTABLISHED: obtain the original producer session identity before a replay attestation",
+  "producer_model": "UNESTABLISHED: recover original producer-model evidence; do not infer it from this backfill agent",
+  "replay_inputs": {
+    "../degree44-denominators/PROOF.md": "proof",
+    "certificate.json": "certificate"
+  },
+  "linked_trees": {
+    "arhancanli/quantavane-replays@087d768de15d74095bfc8f00ee9b35677e87b106": "sources/publish-trees/arhancanli__quantavane-replays@087d768de15d74095bfc8f00ee9b35677e87b106.json",
+    "rpinho/math-certificates@59eeb7097f806da05187b5f234445be3589204d4": "sources/publish-trees/rpinho__math-certificates@59eeb7097f806da05187b5f234445be3589204d4.json",
+    "rpinho/math-certificates@c356b145e936c6d121a1319ae5ece97c716e0bff": "sources/publish-trees/rpinho__math-certificates@c356b145e936c6d121a1319ae5ece97c716e0bff.json"
+  },
+  "pr_number": 301,
+  "publication_commit": "53da48fdbff594a136bd0f7ae96966e27f48fe2c",
+  "publication_tree": "sources/publish-trees/teorth__optimizationproblems@53da48fdbff594a136bd0f7ae96966e27f48fe2c.json",
+  "publication_author_evidence": "Ricardo Pinho",
+  "publication_author_login": "rpinho",
+  "live_body": "sources/live_pr301.json",
+  "submitter": "rpinho"
+}
