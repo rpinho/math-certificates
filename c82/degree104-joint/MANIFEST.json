@@ -1,6 +1,6 @@
 {
   "format": "math-certificates-c82-degree104-joint-release-v1",
-  "sealed_utc": "2026-11-05T15:51:59.379120+00:00",
+  "sealed_utc": "2026-11-05T15:52:03.571293+00:00",
   "claim": "0.2519923410",
   "qualification": "candidate, unrefereed; verification level L0 for the bound as a whole",
   "upstream_main": "87b4ebbd426ff8db597a2004cc45da17903bdcf2",
@@ -79,8 +79,8 @@
     },
     {
       "path": "PUBLISH.json",
-      "bytes": 2300,
-      "sha256": "4ccce2a4f9c39d003ec3dae9d9d025d827c2feaa9e97351ea85698ef98bba59c"
+      "bytes": 2470,
+      "sha256": "e7426d45237dd0aef18ebd2ea5179ef0bd0e3a25226bf1ca9c8cafaece6b74f0"
     },
     {
       "path": "PYTHON_BLOBS.json",
@@ -726,6 +726,11 @@
       "path": "sources/publish-trees/rpinho__math-certificates@98208a40e043e578d35183b418452f316112a658.json",
       "bytes": 911112,
       "sha256": "49394282a49305f0853c6f82f7f604101de066c7e0a8f4a02645c0a2145772a9"
+    },
+    {
+      "path": "sources/publish-trees/rpinho__math-certificates@a12c3622120c39af776902dbe49b6eff97a4d189.json",
+      "bytes": 918593,
+      "sha256": "390d0ecc1fb1e09fea737ec046ae36f00232086e4673acb103b8032dafb32c81"
     },
     {
       "path": "sources/source-refresh.json",
