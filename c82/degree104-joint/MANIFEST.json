@@ -1,6 +1,6 @@
 {
   "format": "math-certificates-c82-degree104-joint-release-v1",
-  "sealed_utc": "2026-11-05T13:44:37.681589+00:00",
+  "sealed_utc": "2026-11-05T13:55:19.272070+00:00",
   "claim": "0.2519964890",
   "qualification": "candidate, unrefereed; verification level L0 for the bound as a whole",
   "upstream_main": "87b4ebbd426ff8db597a2004cc45da17903bdcf2",
@@ -14,7 +14,7 @@
     "Only final num-16-1 round files and restricted-16.json are retained. The duplicate round certificate and three evidence/corrupt-*.json copies containing the restricted P3 encoding are omitted; historical per-round hash pins remain archival.",
     "NUMERICS.md corrects the inherited verifier filename; REPRODUCE.md adds release commands and retains the finished producer section with the historical search bar.",
     "README.md, PROOF.md, METHOD.md, CLAIMS.json and RIGOR.json state the final certificate facts, bound and comparison gaps. certificate_facts.py recomputes exact facts and gaps from the release certificate and receipt.",
-    "No previous certificate review/ or REPLAY.json is reused. Final-certificate referee pending; Ricardo will add its report and reseal."
+    "No previous certificate review/ or REPLAY.json is reused; review/ and REPLAY.json are the final certificate referee archive."
   ],
   "files": [
     {
@@ -69,8 +69,8 @@
     },
     {
       "path": "PROOF.md",
-      "bytes": 7449,
-      "sha256": "8bada3af54737391a4395dc6672825d0ddcb8c21858d7ef1da56f7f2d1c0f04d"
+      "bytes": 7422,
+      "sha256": "63f1654dcd1395919990a3a34e08ae81c299dce079681f05de8a45bd5c41ee75"
     },
     {
       "path": "PUBLISH.json",
@@ -80,12 +80,12 @@
     {
       "path": "PYTHON_BLOBS.json",
       "bytes": 9655,
-      "sha256": "c462a590b39ec5b09c1ab06df4b9b4b203214dcba216216f4cc941cbfea57aae"
+      "sha256": "d06559fccc2f45cd71e2f854f1cb9f5115f7edc23a4b5a77210875e7bbbaa387"
     },
     {
       "path": "README.md",
-      "bytes": 8690,
-      "sha256": "c42331968328de99dfe24c5a960432aac26d4106c141ca0d54cc22c5c23cbbad"
+      "bytes": 8811,
+      "sha256": "b6d6ca56e08bef485db9ab9c5007ccf08c8f04d0d4356dd1732503adcb049b42"
     },
     {
       "path": "REPLAY.json",
@@ -99,8 +99,8 @@
     },
     {
       "path": "REPRODUCE.md",
-      "bytes": 5974,
-      "sha256": "534268e1cbb1bce9c8ac33718fc8bb559b518bdcb52bd9edf3f999daf50ded5a"
+      "bytes": 5975,
+      "sha256": "7802ca18b07daa4fd498b2d8441312065effeeee2161bd359a1eff2de5ecaafe"
     },
     {
       "path": "RESULT.json",
@@ -374,8 +374,8 @@
     },
     {
       "path": "prior_sources/pr280-v3-certificate.json",
-      "bytes": 17244,
-      "sha256": "29e8de7e3139e572601b8d7c3ed7a86fcd2c3e99bebf3e499283846a0b0ee68d"
+      "bytes": 13947,
+      "sha256": "00125f6984ad2646a79d8782ee38f5161bd24c17d4899e4af74ff3e529ba1dbe"
     },
     {
       "path": "prior_sources/pr280.json",
@@ -589,8 +589,8 @@
     },
     {
       "path": "seal.py",
-      "bytes": 6898,
-      "sha256": "8f9de33045e0e5894247304b8af6b51f0e93be59011f49e3c03bc5ece0a9a88e"
+      "bytes": 6890,
+      "sha256": "b123037513688f2be945a7be8040cad3dc7e484cdb83e929f1a1908aaeea672d"
     },
     {
       "path": "source_inventory.py",
