@@ -6,7 +6,7 @@
       "producer": "verify_exact.py",
       "arithmetic": "interval",
       "new_bound": true,
-      "note": "Original main mathematical claim; independently authored/model clean-room replay remains required."
+      "note": "Original main mathematical claim; arhancanli's independent replay (PR #301 thread) reproduces it; no clean-room replay by our own lane is attached."
     },
     {
       "value": "0.25309183355151",
