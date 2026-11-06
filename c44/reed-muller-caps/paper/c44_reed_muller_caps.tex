@@ -27,7 +27,7 @@
 \allowdisplaybreaks[1]
 \title{Ternary derivative controls and Reed-Muller weight caps: C44 < 2.1974348818}
 \author{Ricardo Pinho\\\small ORCID \href{https://orcid.org/0009-0006-2744-2599}{0009-0006-2744-2599}}
-\date{4 November 2026}
+\date{4 November 2026; Section 4 opening expanded 6 November 2026}
 \begin{document}
 \maketitle
 \begin{center}
@@ -51,6 +51,8 @@ argument at the rational endpoint is supplied here. Since the rational is
 strictly below $2.1974348818$, the decimal bound $C_{44}<2.1974348818$ holds either way.
 \end{editorial}
 The seven numbered sections below transcribe the frozen \path{PROOF.md}.
+The exception is the opening of Section 4, which was expanded step by step on
+6 November 2026 and is marked there.
 Marked corrections reproduce the supplied errata without silently changing
 the original argument. Supplemental material follows Section 7.
 
@@ -315,47 +317,106 @@ that every low-weight derivative has the same normal form.\label{src-end-p041}\p
 % SOURCE P042, PROOF.md lines 171--171
 \section{Exact energy grid and the higher low-weight spectrum}\label{src-p042}\label{src-end-p042}
 
-% SOURCE P043, PROOF.md lines 173--175
-\leavevmode\label{src-p043}We give the degree-to-lattice bridge explicitly. For a Boolean bit-output
-function $g=(1-f)/2$, its unique real bit polynomial has integer coefficients:
-the coefficient of a mask $T$ is\label{src-end-p043}\par
+% EXPANDED 6 November 2026: replaces the transcription of PROOF.md lines 173--197 (P043--P049)
+\begin{editorial}
+Revised 6 November 2026. In the first version, this section opened with a short paragraph
+(frozen \path{PROOF.md}, lines 173--197). Steps 1--7 below write out every step of it.
+The conclusions are unchanged: equation (6), and the fact that the
+support of $A_i$ is a Reed--Muller codeword of normalized weight $\lambda$.
+The paragraph that combines (6) and (7) also gains one line of arithmetic and the
+case $d=2$, which the first version left implicit.
+\end{editorial}
+\phantomsection\label{src-p043}\label{src-end-p043}\label{src-p044}\label{src-end-p044}\label{src-p045}\label{src-end-p045}%
+\leavevmode Throughout this section, $f$ is a sign Boolean function of real degree at most $d$
+with $d\ge2$, $i$ is a relevant coordinate, $k=d-1\ge1$, $M=2^k=2^{d-1}$ and
+$\lambda=Mp_i$, as in Section 3. We use two coordinate systems on the cube: sign
+coordinates $x_t\in\{+1,-1\}$ and bit coordinates $b_t\in\{0,1\}$, related by
+\[
+b_t=\frac{1-x_t}{2},\qquad x_t=1-2b_t ,
+\]
+so $x_t=+1$ corresponds to $b_t=0$. For a set $T$ of coordinates write
+$x^T=\prod_{t\in T}x_t$ and $b^T=\prod_{t\in T}b_t$, with $x^\emptyset=b^\emptyset=1$.
 
-% SOURCE P044, PROOF.md lines 177--177
-\begin{equation}
-\sum_{U\subseteq T}(-1)^{|T|-|U|}g(1_U),\tag*{}
-\label{src-p044}
-\end{equation}
+\textbf{Step 1 (integer bit coefficients).} Every real function $u$ on $\{0,1\}^n$
+has a unique multilinear expansion $u(b)=\sum_T c_T\,b^T$. For a set $U$, let
+$1_U$ be the bit vector equal to 1 exactly on $U$. Then $b^T=1$ at $1_U$ if
+$T\subseteq U$ and $b^T=0$ otherwise, so
+\[
+u(1_U)=\sum_{T\subseteq U}c_T\qquad\text{for every }U .
+\]
+M\"obius inversion on the subset lattice solves this triangular system:
+\[
+c_T=\sum_{U\subseteq T}(-1)^{|T|-|U|}\,u(1_U).
+\]
+(Substituting the first identity into the right side gives
+$\sum_{V\subseteq T}c_V\sum_{V\subseteq U\subseteq T}(-1)^{|T|-|U|}$, and the inner sum
+is $1$ if $V=T$ and $0$ otherwise.) Consequently, if $u$ takes only integer values,
+every $c_T$ is an integer. This applies to the bit-output function
+$g=(1-f)/2$, whose values are $0$ and $1$, and to $A_i$, whose values are $0,+1,-1$.
 
-% SOURCE P045, PROOF.md lines 179--183
-\leavevmode\label{src-p045}where other bits are zero. Substituting $\text{bit}=(1-\text{sign})/2$ shows every Fourier
-coefficient of the sign Boolean $f$ is an integer multiple of $2^{1-d}=1/M$.
-Indeed a term of bit degree $t\le d$ contributes a multiple of $2^{1-t}$ to $f$;
-the constant term is also on this grid. The derivative $A_i$ inherits this
-grid. Write its coefficients $z_S/M$ with integers $z_S$. Parseval gives\label{src-end-p045}\par
+\textbf{Step 2 (the two degrees agree).} Substituting $b_t=(1-x_t)/2$ into $b^T$ gives
+$\prod_{t\in T}(1-x_t)/2$, a multilinear polynomial in the $x_t$ of degree $|T|$.
+So a multilinear bit polynomial of degree at most $e$ becomes a multilinear sign
+polynomial of degree at most $e$. Substituting $x_t=1-2b_t$ shows the converse in the
+same way. Multilinear expansions are unique in both coordinate systems, so the bit
+degree and the real (Fourier) degree of any function on the cube are equal. In
+particular $g=(1-f)/2$ has bit degree at most $d$, because its Fourier expansion is
+$\tfrac12-\tfrac12 f$ and therefore has degree at most $d$.
 
-% SOURCE P046, PROOF.md lines 185--185
-\begin{equation}
-\lambda=M\mathbb E A_i^2=\frac{\sum_S z_S^2}{M}.\tag*{}
-\label{src-p046}
-\end{equation}
+\textbf{Step 3 (the Fourier grid of $f$).} Write $g=\sum_T c_T\,b^T$ with integer
+$c_T$ (Step 1) and $c_T=0$ whenever $|T|>d$ (Step 2). For $S\subseteq T$, the coefficient
+of $x^S$ in $b^T=2^{-|T|}\prod_{t\in T}(1-x_t)$ is $(-1)^{|S|}2^{-|T|}$. Since $f=1-2g$,
+\[
+\widehat f(S)=[S=\emptyset]-\sum_{T\supseteq S}(-1)^{|S|}\,c_T\,2^{1-|T|},
+\]
+where $[S=\emptyset]$ is $1$ for the empty set and $0$ otherwise. Each nonzero term has $|T|\le d$, so $2^{1-|T|}=2^{d-|T|}\cdot2^{1-d}$ is an integer
+multiple of $2^{1-d}=1/M$. The constant $1=2^{d-1}\cdot 2^{1-d}$ is also a multiple of
+$1/M$. Hence $M\widehat f(S)$ is an integer for every $S$.
 
-% SOURCE P047, PROOF.md lines 187--189
-\leavevmode\label{src-p047}At the $\text{all-}{+1}$ input, $\sum z_S=MA_i(+1)$, an integer multiple of $M$. For $d\ge2$,
-$M$ is even. Since $z^2=z$ modulo two for every integer $z$, $\sum z_S^2$ is even.
-Therefore\label{src-end-p047}\par
+\textbf{Step 4 (the grid of $A_i$).} Put the expansion $f=\sum_S\widehat f(S)x^S$ into
+$A_i=\bigl(f(i{=}+1)-f(i{=}-1)\bigr)/2$. Terms with $i\notin S$ cancel. A term with
+$i\in S$ becomes $\widehat f(S)\,x^{S\setminus\{i\}}$, since $(1-(-1))/2=1$. So
+\[
+\widehat{A_i}(S')=\widehat f\bigl(S'\cup\{i\}\bigr)\qquad(i\notin S'),
+\]
+and $\widehat{A_i}(S')=0$ when $i\in S'$. By Step 3, $z_{S'}=M\widehat{A_i}(S')$ is an
+integer for every $S'$.
 
-% SOURCE P048, PROOF.md lines 191--191
+\textbf{Step 5 ($\lambda$ in terms of the $z_S$).} By Parseval,
+\[
+\lambda=M\,\mathbb E A_i^2=M\sum_S\widehat{A_i}(S)^2=\frac{\sum_S z_S^2}{M}.\tag*{}
+\]
+\phantomsection\label{src-p046}\label{src-end-p046}\label{src-p047}\label{src-end-p047}%
+\textbf{Step 6 (parity).} At the all-$(+1)$ sign input every $x^S$ equals $1$, so
+$A_i(+1,\ldots,+1)=\sum_S\widehat{A_i}(S)=\sum_S z_S/M$. The left side is $0$, $+1$ or
+$-1$, so $\sum_S z_S=M\,A_i(+1,\ldots,+1)$ is an integer multiple of $M$. Because
+$d\ge2$, $M=2^{d-1}$ is even, so $\sum_S z_S$ is even. For every integer $z$,
+$z^2-z=z(z-1)$ is even, so $\sum_S z_S^2\equiv\sum_S z_S\equiv0\pmod 2$. Write
+$\sum_S z_S^2=2m$ with $m$ an integer. Step 5 gives $\lambda=2m/M$, that is,
 \begin{equation}
 \lambda\in\frac2M\mathbb Z.\tag{6}
 \label{src-p048}
 \end{equation}
+\phantomsection\label{src-end-p048}%
 
-% SOURCE P049, PROOF.md lines 193--197
-\leavevmode\label{src-p049}Independently, $A_i$ itself has integer coefficients in bit variables, by
-the same finite-difference formula, since its values are integers. Reduce
-those coefficients modulo two. The result has $\mathbb F_2$ degree at most $k$ and
-value 1 exactly on the support of $A_i$, since both signs reduce to 1.
-We do not reduce $A_i$ squared, whose real degree could be $2k$.\label{src-end-p049}\par
+\phantomsection\label{src-p049}\label{src-end-p049}%
+\textbf{Step 7 (the support of $A_i$ is a Reed--Muller codeword).} Regard $A_i$ as a
+function on $n$ bit coordinates, adjoining unused coordinates if necessary so that
+$n\ge k+2$. This leaves $p_i$, $\lambda$ and the degree bounds unchanged, because each
+value is repeated equally often. Write $A_i$ in bit
+coordinates, $A_i=\sum_T a_T\,b^T$. Its values are integers, so every $a_T$ is an integer
+(Step 1). Its real degree is $d_i-1\le k$ (Section 1), so $a_T=0$ for $|T|>k$ (Step 2).
+Reduce each $a_T$ modulo two. The result $\bar A=\sum_T(a_T\bmod 2)\,b^T$ is a
+polynomial over $\mathbb F_2$ of degree at most $k$. At any bit input, evaluating an
+integer polynomial and then reducing modulo two gives the same result as reducing the
+coefficients first and then evaluating. So $\bar A(b)\equiv A_i(b)\pmod 2$. Since
+$0\equiv0$ and $\pm1\equiv1$, $\bar A(b)=1$ exactly when $A_i(b)\ne0$. Thus the
+indicator of the support of $A_i$ is a word of the binary Reed--Muller code
+$\operatorname{RM}(k,n)$. It is nonzero because $i$ is relevant. Its weight is
+$w=2^n\Pr(A_i\ne0)=2^n\,\mathbb E A_i^2=2^np_i$, using $A_i^2=1$ on the support.
+Relative to the minimum distance $2^{n-k}$ of $\operatorname{RM}(k,n)$, its
+normalized weight is $w/2^{n-k}=2^kp_i=\lambda$. We reduce $A_i$ itself, not $A_i^2$,
+whose real degree could be $2k$.
 
 % SOURCE P050, PROOF.md lines 199--201
 \leavevmode\label{src-p050}The external below-twice-minimum Reed–Muller theorem states: for order
@@ -370,7 +431,7 @@ $2\cdot2^{n-k}$ has normalized weight\label{src-end-p050}\par
 
 % SOURCE P052, PROOF.md lines 205--213
 \leavevmode\label{src-p052}Only necessity is used, so all parameter-dependent restrictions on $j$ may
-be dropped. Append unused coordinates if necessary to have $n\ge k+2$;
+be dropped. As in Step 7, we have $n\ge k+2$ (append unused coordinates if necessary);
 normalized weight and degree bounds do not change. The statement applies
 to degree at most $k$; if the algebraic degree is smaller, a weight below
 twice this minimum is already impossible by the support bound. This
@@ -380,7 +441,7 @@ normal forms appear in Carlet (2024), section 2, p.10613,
 \url{https://www.aimspress.com/aimspress-data/math/2024/5/PDF/math-09-05-518.pdf} .\label{src-end-p052}\par
 
 % SOURCE P053, PROOF.md lines 215--216
-\leavevmode\label{src-p053}Combine (6),(7). For $j\ge k$ the value $M(2-2^{-j})$ is either nonintegral
+\leavevmode\label{src-p053}When $k=1$, $M=2$, so (6) and relevance give $\lambda\in\mathbb Z_{>0}$; therefore $\lambda<2$ forces $\lambda=1$, again giving (8) below. For $k\ge2$, combine (6),(7). By (6), $M\lambda$ is an even integer, and by (7), $M\lambda=M(2-2^{-j})=2^{k+1}-2^{k-j}$. For $j\le k-1$ this is even. For $j\ge k$ the value $M(2-2^{-j})$ is either nonintegral
 ($j>k$) or odd ($j=k$). Hence the safe finite list below 2 is exactly\label{src-end-p053}\par
 
 % SOURCE P054, PROOF.md lines 218--218
