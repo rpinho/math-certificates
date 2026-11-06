@@ -51,8 +51,8 @@ argument at the rational endpoint is supplied here. Since the rational is
 strictly below $2.1974348818$, the decimal bound $C_{44}<2.1974348818$ holds either way.
 \end{editorial}
 The seven numbered sections below transcribe the frozen \path{PROOF.md}.
-The exception is the opening of Section 4, which was expanded step by step on
-6 November 2026 and is marked there.
+The exception is Section 4, which was expanded step by step and reworded for
+clarity on 6 November 2026, as marked there.
 Marked corrections reproduce the supplied errata without silently changing
 the original argument. Supplemental material follows Section 7.
 
@@ -323,9 +323,16 @@ Revised 6 November 2026. In the first version, this section opened with a short 
 (frozen \path{PROOF.md}, lines 173--197). Steps 1--7 below write out every step of it.
 The conclusions are unchanged: equation (6), and the fact that the
 support of $A_i$ is a Reed--Muller codeword of normalized weight $\lambda$.
-The paragraph that combines (6) and (7) also gains one line of arithmetic and the
-case $d=2$, which the first version left implicit.
+The paragraphs after Step 7 are reworded for clarity. They now treat the case $d=2$,
+which the first version left implicit, and no mathematical claim is changed.
 \end{editorial}
+Section 3 bounds $N$ in terms of the real parameter $\lambda\ge1$ of one chosen
+derivative. This section shows that $\lambda$ can take only special values.
+Equation (6) puts $\lambda$ on the grid $(2/M)\mathbb Z$. The Reed--Muller weight
+theorem then limits the values below $2$ to the finite list (8). Section 5
+checks the values in (8) below $2$ and the necessary grid representatives (9) at
+and above $2$.
+
 \phantomsection\label{src-p043}\label{src-end-p043}\label{src-p044}\label{src-end-p044}\label{src-p045}\label{src-end-p045}%
 \leavevmode Throughout this section, $f$ is a sign Boolean function of real degree at most $d$
 with $d\ge2$, $i$ is a relevant coordinate, $k=d-1\ge1$, $M=2^k=2^{d-1}$ and
@@ -405,7 +412,8 @@ function on $n$ bit coordinates, adjoining unused coordinates if necessary so th
 $n\ge k+2$. This leaves $p_i$, $\lambda$ and the degree bounds unchanged, because each
 value is repeated equally often. Write $A_i$ in bit
 coordinates, $A_i=\sum_T a_T\,b^T$. Its values are integers, so every $a_T$ is an integer
-(Step 1). Its real degree is $d_i-1\le k$ (Section 1), so $a_T=0$ for $|T|>k$ (Step 2).
+(Step 1). By Step 4, $\widehat{A_i}(S')$ is nonzero only when $\widehat f(S'\cup\{i\})$ is,
+so the real degree of $A_i$ is $d_i-1\le k$. Hence $a_T=0$ for $|T|>k$ (Step 2).
 Reduce each $a_T$ modulo two. The result $\bar A=\sum_T(a_T\bmod 2)\,b^T$ is a
 polynomial over $\mathbb F_2$ of degree at most $k$. At any bit input, evaluating an
 integer polynomial and then reducing modulo two gives the same result as reducing the
@@ -415,13 +423,15 @@ indicator of the support of $A_i$ is a word of the binary Reed--Muller code
 $\operatorname{RM}(k,n)$. It is nonzero because $i$ is relevant. Its weight is
 $w=2^n\Pr(A_i\ne0)=2^n\,\mathbb E A_i^2=2^np_i$, using $A_i^2=1$ on the support.
 Relative to the minimum distance $2^{n-k}$ of $\operatorname{RM}(k,n)$, its
-normalized weight is $w/2^{n-k}=2^kp_i=\lambda$. We reduce $A_i$ itself, not $A_i^2$,
-whose real degree could be $2k$.
+normalized weight is $w/2^{n-k}=2^kp_i=\lambda$. We reduce $A_i$ itself. Using only the real-degree bound $\deg(A_i^2)\le2k$ would give
+membership in $\operatorname{RM}(\min\{2k,n\},n)$; reducing $A_i$ directly gives the
+required order-$k$ bound.
 
 % SOURCE P050, PROOF.md lines 199--201
-\leavevmode\label{src-p050}The external below-twice-minimum Reed–Muller theorem states: for order
-$k\ge2$, any nonzero binary $\operatorname{RM}(k,n)$ word of weight strictly below
-$2\cdot2^{n-k}$ has normalized weight\label{src-end-p050}\par
+\leavevmode\label{src-p050}We use the Kasami--Tokura theorem on Reed--Muller codewords of weight
+less than twice the minimum distance (references below). For $k\ge2$, any nonzero
+word of $\operatorname{RM}(k,n)$ with weight strictly below $2\cdot2^{n-k}$ has
+normalized weight\label{src-end-p050}\par
 
 % SOURCE P051, PROOF.md lines 203--203
 \begin{equation}
@@ -430,19 +440,24 @@ $2\cdot2^{n-k}$ has normalized weight\label{src-end-p050}\par
 \end{equation}
 
 % SOURCE P052, PROOF.md lines 205--213
-\leavevmode\label{src-p052}Only necessity is used, so all parameter-dependent restrictions on $j$ may
-be dropped. As in Step 7, we have $n\ge k+2$ (append unused coordinates if necessary);
-normalized weight and degree bounds do not change. The statement applies
-to degree at most $k$; if the algebraic degree is smaller, a weight below
-twice this minimum is already impossible by the support bound. This
-statement is due to Berlekamp–Sloane / Kasami–Tokura (1970), DOI
+\leavevmode\label{src-p052}Since $w<2\cdot2^{n-k}$ is the same as $\lambda<2$, (7) applies exactly
+when $\lambda<2$. The theorem also says which $j$ occur for given $n$ and $k$. We use
+only the fact that $\lambda$ has the form (7), so we allow every $j\ge0$. As in Step 7,
+we have $n\ge k+2$. The theorem applies to words of algebraic degree at most $k$. A
+nonzero word of algebraic degree at most $k-1$ lies in $\operatorname{RM}(k-1,n)$, so
+its weight is at least $2^{n-k+1}$, twice the minimum distance of
+$\operatorname{RM}(k,n)$. The theorem is due to Kasami--Tokura (1970), with Berlekamp--Sloane, DOI
 10.1109/TIT.1970.1054545. A published explicit statement and the two
 normal forms appear in Carlet (2024), section 2, p.10613,
 \url{https://www.aimspress.com/aimspress-data/math/2024/5/PDF/math-09-05-518.pdf} .\label{src-end-p052}\par
 
 % SOURCE P053, PROOF.md lines 215--216
-\leavevmode\label{src-p053}When $k=1$, $M=2$, so (6) and relevance give $\lambda\in\mathbb Z_{>0}$; therefore $\lambda<2$ forces $\lambda=1$, again giving (8) below. For $k\ge2$, combine (6),(7). By (6), $M\lambda$ is an even integer, and by (7), $M\lambda=M(2-2^{-j})=2^{k+1}-2^{k-j}$. For $j\le k-1$ this is even. For $j\ge k$ the value $M(2-2^{-j})$ is either nonintegral
-($j>k$) or odd ($j=k$). Hence the safe finite list below 2 is exactly\label{src-end-p053}\par
+\leavevmode\label{src-p053}For $k\ge2$, combine (6) and (7). By (6), $M\lambda$ is an even integer, and by (7),
+$M\lambda=M(2-2^{-j})=2^{k+1}-2^{k-j}$. For $j\le k-1$ this is even. For $j\ge k$ it is
+either nonintegral ($j>k$) or odd ($j=k$). When $k=1$ ($d=2$), (6) says $\lambda$ is a
+positive integer, so $\lambda<2$ forces $\lambda=1$, which is (8) below with $k=1$. (The
+certificate in Section 5 starts at $d=4$, so this case is recorded only for completeness.)
+Hence, for every $k\ge1$, every possible value of $\lambda$ below $2$ lies in the finite set\label{src-end-p053}\par
 
 % SOURCE P054, PROOF.md lines 218--218
 \begin{equation}
@@ -451,26 +466,14 @@ normal forms appear in Carlet (2024), section 2, p.10613,
 \end{equation}
 
 % SOURCE P055, PROOF.md lines 220--226
-\leavevmode\label{src-p055}The first terms are $1,3/2,7/4,15/8,31/16,\ldots$ . Thus third and higher
-weights are used, rather than replacing the sharp $3/2$ factor by a false
-uniform gap. We allow ALL grid values $\lambda\ge2$. In particular we do
-not silently use the uncorrected final KTA table for $2\mathinner{.\,.}2.5$. The reason
-and an exact counterexample are in \path{KTA_AUDIT.md}. Our proof does not depend
-on reconstructing the inaccessible full 1974 preprint or assuming its
-published final table is complete.\label{src-end-p055}\par
+\leavevmode\label{src-p055}The first terms are $1,3/2,7/4,15/8,31/16,\ldots$ . For $\lambda\ge2$ we use
+only the grid (6). No further information about Reed--Muller weights in $[2,2.5)$
+(Kasami--Tokura--Azumi) is used.\footnote{The attribution to third and higher below-two
+weights is open. An AI referee's ablation finds that, given the grid (6), excluding
+normalized weights in $(1,3/2)$ alone already gives the same rational, while the
+ablation numbers in Section 5 disagree. The bound does not depend on that
+attribution. See Correction 2, printed at the end of Section 5.}\label{src-end-p055}\par
 
-\begin{correction}\label{correction-4}
-The attribution to third and higher below-two weights is open. The referee's
-ablation finds that, given the energy grid, the single fact that no normalized
-weight lies in $(1,3/2)$ already gives the same rational. Section 5's ablation
-numbers disagree, and this has not been resolved; the bound does not depend
-on that attribution. This is correction 2 in \path{CORRECTIONS.md}.
-\end{correction}
-\begin{editorial}
-\path{CORRECTIONS.md} additionally marks the table-omission claim in
-\path{KTA_AUDIT.md} as unverified. The original paragraph's wording above is
-retained; it should be read subject to that caveat.
-\end{editorial}
 % SOURCE P056, PROOF.md lines 228--228
 \section{Finite scalar optimization, with the floor treated correctly}\label{src-p056}\label{src-end-p056}
 
