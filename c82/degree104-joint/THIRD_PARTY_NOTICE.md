@@ -8,7 +8,7 @@ This packet redistributes data, not code, from [vidigoat/optimization-records](h
 | prior_sources/pr280-v4-certificate.json | #280 v4 coefficient JSON at 79ce0df; byte-for-byte copy, release weights re-optimized here |
 | prior_sources/factor-bank.json | Earlier public coefficient archive at 3a7a84f; coefficient data unchanged |
 | prior_sources/union-factor-bank.json, union-input.json, prior_sources/round5-certificate.json and historical evidence/control certificate JSON | Derived coefficient collections including #280 v3 and earlier public-bank data; exact comparisons in FACTOR_PROVENANCE.json; weights and selection changed |
-| prior_sources/vidigoat-tree-197962c.json and prior_sources/vidigoat-tree-3a7a84f.json | Complete GitHub tree metadata only; no source blobs downloaded, used for PYTHON_BLOBS.json |
+| prior_sources/vidigoat-tree-79ce0df.json, prior_sources/vidigoat-tree-197962c.json and prior_sources/vidigoat-tree-3a7a84f.json | Complete GitHub tree metadata only; no source blobs downloaded, used for PYTHON_BLOBS.json |
 
 Doche's P-factors and #301 MS360 retain their original mathematical credit in README.md even though they also occur in Patankar's public coefficient collections. Grinsztajn and Épi are credited for earlier factor libraries. A first local coefficient match is not an authorship attribution.
 

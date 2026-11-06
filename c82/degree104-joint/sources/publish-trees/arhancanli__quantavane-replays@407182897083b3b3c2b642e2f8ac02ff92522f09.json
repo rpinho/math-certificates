@@ -1,0 +1,1246 @@
+{
+  "commit": "407182897083b3b3c2b642e2f8ac02ff92522f09",
+  "truncated": false,
+  "tree": [
+    {
+      "path": ".gitignore",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ASTERISK_INDEX.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "autocorr_check.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c16",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c16/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c16/c16_check.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c16/fetch.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c16/results",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c16/results/julsgaard_319.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c16/results/vid.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c16/results/vid2.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c16/run_all.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c3a",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c3a/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c3a/c3a_check.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c3a/c3a_hist.c",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c3a/fetch.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c3a/results",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c3a/results/syl2.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c3a/run_all.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c44",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c44/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c44/c44_check.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c44/fetch.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c44/results",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c44/results/pin.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c44/run_all.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c49",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c49/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/fetch.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c49/results",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c49/results/cla_F.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/results/cla_FH.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/results/irsi_degkm.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/results/irsi_v10.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/results/irsi_v11.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/results/irsi_v12.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/results/kos.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/results/lemma.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/results/selftest.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/results/syl_Bprime.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/results/syl_unit.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c49/run_all.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c49/sunflower_check.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c68",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c68/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c68/c68_check.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c68/fetch.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c68/results",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c68/results/pin.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c68/results/vid0446.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c68/results/vid044605.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c68/run_all.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c70",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c70/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c70/c70_check.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c70/fetch.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c70/results",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c70/results/pin.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c70/run_all.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c82",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c82/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/c82_check.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/fetch.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c82/results",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c82/results/doche.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/epi.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/pin.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/pr280.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/pr280b.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/pr280c.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/pr280d.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/pr301.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/pr301a.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/pr330.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/pr330b.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/pr330c.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/pr330d.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/results/selftest.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c82/run_all.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c86",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c86/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c86/c86_check.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c86/c86_lower.c",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c86/c86_lower.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c86/fetch.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c86/results",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c86/results/kos.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c86/results/ng.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c86/results/p298.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c86/results/pin.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c86/results/vid.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c86/results/vid2.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c86/results/vid3.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c86/run_all.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c89",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c89/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c89/c89_check.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c89/c89_multiset.c",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c89/c89_refine.c",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c89/c89b_check.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c89/c89b_count.c",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c89/c89b_general.c",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c89/fetch.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "c89/results",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "c89/results/ppss.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c89/results/pr277.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c89/results/pr307.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c89/results/sciel2026.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c89/results/selftest.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c89/results/selftest_b.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c89/results/sk2026.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "c89/run_all.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "fetch.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "ramsey-rev19",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "ramsey-rev19/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/check_one.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "ramsey-rev19/checkers",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "ramsey-rev19/checkers/ramsey_check.c",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/checkers/ramsey_indep.c",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/controls.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/fetch.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "ramsey-rev19/nbhd.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/recursions.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/relabel.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_24_n150.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_24_n150.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_24_n150.nbhd0.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_24_n150.nbhd1.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_25_n159.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_25_n159.nbhd0.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_25_n159.nbhd1.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_26_n162.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_26_n162.nbhd0.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_26_n162.nbhd1.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_28_n180.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_28_n180.nbhd0.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_28_n180.nbhd1.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_29_n193.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_29_n193.nbhd0.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_29_n193.nbhd1.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_30_n198.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_30_n198.nbhd0.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_30_n198.nbhd1.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_31_n209.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_31_n209.nbhd0.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_31_n209.nbhd1.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_32_n218.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_32_n218.nbhd0.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_32_n218.nbhd1.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_33_n229.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_33_n229.nbhd0.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_33_n229.nbhd1.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_34_n238.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_34_n238.nbhd0.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/coniglio_R3_34_n238.nbhd1.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/convert.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/convert_yu.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/cremer_R6_8_n134.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/cremer_R6_8_n134.ctrl_blue.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/cremer_R6_8_n134.ctrl_blue.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/cremer_R6_8_n134.ctrl_red.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/cremer_R6_8_n134.ctrl_red.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/cremer_R6_8_n134.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/cremer_R8_10_n344_1.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/cremer_R8_10_n344_1.ctrl_blue.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/cremer_R8_10_n344_1.ctrl_blue.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/cremer_R8_10_n344_1.ctrl_red.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/cremer_R8_10_n344_1.ctrl_red.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/cremer_R8_10_n344_1.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/cremer_R8_10_n344_2.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/cremer_R8_10_n344_2.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R10_12_n855.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R3_17_n92.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R3_17_n92.ctrl_blue.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R3_17_n92.ctrl_blue.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R3_17_n92.ctrl_red.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R3_17_n92.ctrl_red.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R3_17_n92.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_15_n162.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_15_n162.ctrl_blue.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_15_n162.ctrl_blue.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_15_n162.ctrl_red.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_15_n162.ctrl_red.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_15_n162.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_16_n173.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_16_n173.ctrl_blue.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_16_n173.ctrl_blue.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_16_n173.ctrl_red.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_16_n173.ctrl_red.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_16_n173.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_16_n173.perm.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_18_n208.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_18_n208.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_19_n218.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_19_n218.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_19_n218.perm.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_20_n236.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_20_n236.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_20_n236.perm.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_21_n243.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R4_21_n243.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R7_13_n512.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R8_12_n510.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R8_18_n1051.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/nart_R9_11_n616.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/qv_R5_15_n278.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/qv_R5_15_n278.ctrl_blue.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/qv_R5_15_n278.ctrl_blue.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/qv_R5_15_n278.ctrl_red.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/qv_R5_15_n278.ctrl_red.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/qv_R5_15_n278.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/qv_R5_15_n278.perm.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/qv_R8_12_n518.2026-11-03.check.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/qv_R8_12_n518.2026-11-03.indep.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/recursions.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/tatarevic_R12_12_n1640.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/yu_R4_20_n251.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/yu_R4_20_n251.ctrl_blue.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/yu_R4_20_n251.ctrl_blue.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/yu_R4_20_n251.ctrl_red.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/yu_R4_20_n251.ctrl_red.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/yu_R4_20_n251.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/yu_R4_20_n251.perm.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/yu_R4_20_n251_Gprime.check.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/results/yu_R4_20_n251_Gprime.indep.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/run_all.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "ramsey-rev19/summarize.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/to_matrix.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "ramsey-rev19/yu_gprime.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "results",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "results/echul_c_f10240.json.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "results/huiihao_construction.json.decimal.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "results/huiihao_construction.json.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "results/julsgaard_c1c_K98304.json.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "results/julsgaard_certificate.json.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "results/kerem_c1d_n40960_1.4556234448.json.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "results/koshta_K24576_0.4103333.json.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "results/vidigoat_c1a_n131072.json.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "results/vidigoat_c1a_n262144.json.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "results/vidigoat_c1c_K98304_v2.json.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "results/vidigoat_c1c_K98304_v3.json.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "run_all.sh",
+      "type": "blob",
+      "mode": "100755"
+    }
+  ]
+}

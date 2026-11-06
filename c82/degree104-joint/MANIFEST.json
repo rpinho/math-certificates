@@ -1,6 +1,6 @@
 {
   "format": "math-certificates-c82-degree104-joint-release-v1",
-  "sealed_utc": "2026-11-05T15:52:03.571293+00:00",
+  "sealed_utc": "2026-11-06T17:13:03.459846+00:00",
   "claim": "0.2519923410",
   "qualification": "candidate, unrefereed; verification level L0 for the bound as a whole",
   "upstream_main": "87b4ebbd426ff8db597a2004cc45da17903bdcf2",
@@ -79,8 +79,8 @@
     },
     {
       "path": "PUBLISH.json",
-      "bytes": 2470,
-      "sha256": "e7426d45237dd0aef18ebd2ea5179ef0bd0e3a25226bf1ca9c8cafaece6b74f0"
+      "bytes": 2650,
+      "sha256": "bf6ebc488018f475b344710317205b90ee6290df0735e1d60776cf7955053667"
     },
     {
       "path": "PYTHON_BLOBS.json",
@@ -114,8 +114,8 @@
     },
     {
       "path": "RIGOR.json",
-      "bytes": 1724,
-      "sha256": "859c21f03f7b325433ab9f4ce1dcd8f54033635ab84d708cad1237a9770761bd"
+      "bytes": 1716,
+      "sha256": "d225f54a4e5e7de42714da2929d3e331e53dbecb5347d66578b0c0b164d6040e"
     },
     {
       "path": "SEARCH_SUMMARY.json",
@@ -129,8 +129,8 @@
     },
     {
       "path": "THIRD_PARTY_NOTICE.md",
-      "bytes": 2926,
-      "sha256": "d470180714181cf0c28b8a6cd9c7511ea356819c72ac4f8ae70dd1fbb2e57741"
+      "bytes": 2968,
+      "sha256": "670ee621c29c47a9f3e7f4868c5e34fa40989ec2ac80858fbf73f623e9145968"
     },
     {
       "path": "add_columns.py",
@@ -686,6 +686,11 @@
       "path": "sources/publish-trees/arhancanli__quantavane-replays@2b7475fb6e9186973de44c1f2b0db4cb1d0ae6bf.json",
       "bytes": 9345,
       "sha256": "e65d2cfca178ca18c5caaa19a90e37761936df51c4bfdb7bac85d4b328c7570d"
+    },
+    {
+      "path": "sources/publish-trees/arhancanli__quantavane-replays@407182897083b3b3c2b642e2f8ac02ff92522f09.json",
+      "bytes": 26867,
+      "sha256": "26a0eb00ca890c4924ff301d62e0e5b6f5d785a7f9df53beee79964a3f6d2a9f"
     },
     {
       "path": "sources/publish-trees/arhancanli__quantavane-replays@7696576f41b418a5eacaed423b7b2078a521e26e.json",
