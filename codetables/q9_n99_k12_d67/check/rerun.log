@@ -1,0 +1,69 @@
+witness weight=78 tested=1 seconds=0.00167846
+witness weight=76 tested=3 seconds=0.00173925
+witness weight=75 tested=5 seconds=0.00174858
+stage support=1 block=0 lower=8 best=75 tested=12 seconds=0.00175596
+witness weight=73 tested=18 seconds=0.00176238
+stage support=1 block=1 lower=9 best=73 tested=24 seconds=0.00177012
+stage support=1 block=2 lower=10 best=73 tested=36 seconds=0.00177746
+stage support=1 block=3 lower=11 best=73 tested=48 seconds=0.00178458
+stage support=1 block=4 lower=12 best=73 tested=60 seconds=0.00179133
+stage support=1 block=5 lower=13 best=73 tested=72 seconds=0.00179833
+stage support=1 block=6 lower=14 best=73 tested=84 seconds=0.00180475
+witness weight=71 tested=85 seconds=0.00181054
+stage support=1 block=7 lower=14 best=71 tested=96 seconds=0.00181667
+stage support=2 block=0 lower=15 best=71 tested=624 seconds=0.00182967
+witness weight=70 tested=1082 seconds=0.0018415
+stage support=2 block=1 lower=16 best=70 tested=1152 seconds=0.00184842
+stage support=2 block=2 lower=17 best=70 tested=1680 seconds=0.00186092
+stage support=2 block=3 lower=18 best=70 tested=2208 seconds=0.00187417
+stage support=2 block=4 lower=19 best=70 tested=2736 seconds=0.00188675
+stage support=2 block=5 lower=20 best=70 tested=3264 seconds=0.00189912
+stage support=2 block=6 lower=21 best=70 tested=3792 seconds=0.00191162
+witness weight=69 tested=3836 seconds=0.00191788
+witness weight=67 tested=3914 seconds=0.00192458
+stage support=2 block=7 lower=22 best=67 tested=4320 seconds=0.00193538
+stage support=3 block=0 lower=23 best=67 tested=18400 seconds=0.00209458
+stage support=3 block=1 lower=24 best=67 tested=32480 seconds=0.00224767
+stage support=3 block=2 lower=25 best=67 tested=46560 seconds=0.00238967
+stage support=3 block=3 lower=26 best=67 tested=60640 seconds=0.00252967
+stage support=3 block=4 lower=27 best=67 tested=74720 seconds=0.00266892
+stage support=3 block=5 lower=28 best=67 tested=88800 seconds=0.00280771
+stage support=3 block=6 lower=29 best=67 tested=102880 seconds=0.00295004
+stage support=3 block=7 lower=30 best=67 tested=116960 seconds=0.00312262
+stage support=4 block=0 lower=31 best=67 tested=370400 seconds=0.00575083
+stage support=4 block=1 lower=32 best=67 tested=623840 seconds=0.00845442
+stage support=4 block=2 lower=33 best=67 tested=877280 seconds=0.0109075
+stage support=4 block=3 lower=34 best=67 tested=1130720 seconds=0.0140482
+stage support=4 block=4 lower=35 best=67 tested=1384160 seconds=0.0169245
+stage support=4 block=5 lower=36 best=67 tested=1637600 seconds=0.0193729
+stage support=4 block=6 lower=37 best=67 tested=1891040 seconds=0.021821
+stage support=4 block=7 lower=38 best=67 tested=2144480 seconds=0.0245831
+stage support=5 block=0 lower=39 best=67 tested=5388512 seconds=0.0719041
+stage support=5 block=1 lower=40 best=67 tested=8632544 seconds=0.124503
+stage support=5 block=2 lower=41 best=67 tested=11876576 seconds=0.167948
+stage support=5 block=3 lower=42 best=67 tested=15120608 seconds=0.206833
+stage support=5 block=4 lower=43 best=67 tested=18364640 seconds=0.248135
+stage support=5 block=5 lower=44 best=67 tested=21608672 seconds=0.289436
+stage support=5 block=6 lower=45 best=67 tested=24852704 seconds=0.333273
+stage support=5 block=7 lower=46 best=67 tested=28096736 seconds=0.37762
+stage support=6 block=0 lower=47 best=67 tested=58374368 seconds=0.778587
+stage support=6 block=1 lower=48 best=67 tested=88652000 seconds=1.16639
+stage support=6 block=2 lower=49 best=67 tested=118929632 seconds=1.53691
+stage support=6 block=3 lower=50 best=67 tested=149207264 seconds=1.90715
+stage support=6 block=4 lower=51 best=67 tested=179484896 seconds=2.32418
+stage support=6 block=5 lower=52 best=67 tested=209762528 seconds=2.80784
+stage support=6 block=6 lower=53 best=67 tested=240040160 seconds=3.26269
+stage support=6 block=7 lower=54 best=67 tested=270317792 seconds=4.06404
+stage support=7 block=0 lower=55 best=67 tested=477935840 seconds=7.4952
+stage support=7 block=1 lower=56 best=67 tested=685553888 seconds=9.96442
+stage support=7 block=2 lower=57 best=67 tested=893171936 seconds=12.3738
+stage support=7 block=3 lower=58 best=67 tested=1100789984 seconds=14.9488
+stage support=7 block=4 lower=59 best=67 tested=1308408032 seconds=17.4102
+stage support=7 block=5 lower=60 best=67 tested=1516026080 seconds=19.9615
+stage support=7 block=6 lower=61 best=67 tested=1723644128 seconds=22.6985
+stage support=7 block=7 lower=62 best=67 tested=1931262176 seconds=25.4263
+stage support=8 block=0 lower=63 best=67 tested=2969352416 seconds=39.5398
+stage support=8 block=1 lower=64 best=67 tested=4007442656 seconds=52.4828
+stage support=8 block=2 lower=65 best=67 tested=5045532896 seconds=65.097
+stage support=8 block=3 lower=66 best=67 tested=6083623136 seconds=77.5464
+stage support=8 block=4 lower=67 best=67 tested=7121713376 seconds=89.2287

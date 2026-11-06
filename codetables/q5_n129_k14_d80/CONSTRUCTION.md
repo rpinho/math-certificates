@@ -1,0 +1,1 @@
+Construction XX: cyclic [124,14,75], subcodes [124,13,76] and [124,13,82], intersection [124,12,83], tails [1,1,1] and [4,1,4]; also last-coordinate puncturing of [130,14,81]. min(83, 76+4, 82+1, 75+1+4) = 80.

@@ -1,0 +1,10 @@
+{"event":"start","n":92,"k":13,"sets":7,"threads":4,"packed_tests":"passed"}
+{"weight_layer":1,"enumerated":91,"total":91,"upper":67,"unseen_lower":14,"seconds":0.00129313}
+{"weight_layer":2,"enumerated":4368,"total":4459,"upper":64,"unseen_lower":21,"seconds":0.00148017}
+{"weight_layer":3,"enumerated":128128,"total":132587,"upper":61,"unseen_lower":28,"seconds":0.00211888}
+{"weight_layer":4,"enumerated":2562560,"total":2695147,"upper":61,"unseen_lower":35,"seconds":0.00645758}
+{"weight_layer":5,"enumerated":36900864,"total":39596011,"upper":61,"unseen_lower":42,"seconds":0.0445883}
+{"weight_layer":6,"enumerated":393609216,"total":433205227,"upper":61,"unseen_lower":49,"seconds":0.459335}
+{"weight_layer":7,"enumerated":3148873728,"total":3582078955,"upper":61,"unseen_lower":56,"seconds":4.3911}
+{"weight_layer":8,"enumerated":18893242368,"total":22475321323,"upper":61,"unseen_lower":63,"seconds":32.807}
+{"event":"complete","minimum_distance":61,"seconds":32.8075}

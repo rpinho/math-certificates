@@ -1,0 +1,9 @@
+{
+  "n": 5, "rank": 3, "threads": 1,
+  "projective_messages": 31, "expected": 31,
+  "minimum_distance": 3, "minimum_codewords": 40,
+  "elapsed_seconds": 0.000345708,
+  "witness_message": [1,0,1],
+  "witness_codeword": [1,2,0,0,2],
+  "weight_enumerator": {"0": 1, "3": 40, "4": 40, "5": 44}
+}

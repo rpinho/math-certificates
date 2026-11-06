@@ -1,0 +1,81 @@
+{
+  "q5_n129_k14_d80": {
+    "rank": 14,
+    "block_ranks": [
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      1,
+      1,
+      1
+    ],
+    "zero_columns": [],
+    "sha256": "bb96d4e9febe40026f4be68c31d38bd76a7c4a4bc0bab39fdcd50fdf063f2f8f"
+  },
+  "q5_n130_k14_d81": {
+    "rank": 14,
+    "block_ranks": [
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      1,
+      1,
+      1,
+      1
+    ],
+    "zero_columns": [],
+    "sha256": "2a7a069ae0d51c43486861e85e73e0d8a29b803aa1a825adba58566deae5cbc2"
+  },
+  "q5_n130_k16_d77": {
+    "rank": 16,
+    "block_ranks": [
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      2
+    ],
+    "zero_columns": [],
+    "sha256": "9628ad7e9e92e9081acf954e5b55adca0f16031c422ebf739c0c505fbc9d9e57"
+  },
+  "q9_n99_k12_d67": {
+    "rank": 12,
+    "block_ranks": [
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      10,
+      3,
+      2
+    ],
+    "zero_columns": [],
+    "sha256": "28ecb953bcf0ef3921a333dc3b47f642388c6c00eadb1e0f8c0ac7c202c8ec29"
+  },
+  "puncturing_130_14_to_129_14_zero_based_columns": [
+    125,
+    126,
+    127,
+    128,
+    129
+  ]
+}

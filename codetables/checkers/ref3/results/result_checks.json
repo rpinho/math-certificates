@@ -1,0 +1,31 @@
+{
+  "q5_n129_k14_d80": {
+    "witness_original_row_space": true,
+    "disjoint_pivots_and_bases": true,
+    "expected_enumeration_count": 553047114,
+    "proven_lower": 80,
+    "witness_weight": 80
+  },
+  "q5_n130_k14_d81": {
+    "witness_original_row_space": true,
+    "disjoint_pivots_and_bases": true,
+    "expected_enumeration_count": 602248266,
+    "proven_lower": 81,
+    "witness_weight": 81
+  },
+  "q5_n130_k16_d77": {
+    "witness_original_row_space": true,
+    "disjoint_pivots_and_bases": true,
+    "expected_enumeration_count": 5885976448,
+    "proven_lower": 77,
+    "witness_weight": 77
+  },
+  "q9_n99_k12_d67": {
+    "witness_original_row_space": true,
+    "disjoint_pivots_and_bases": true,
+    "expected_enumeration_count": 7121713376,
+    "proven_lower": 67,
+    "witness_weight": 67
+  },
+  "rank_stacked_130_k14_k16": 24
+}
