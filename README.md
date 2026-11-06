@@ -8,7 +8,7 @@ Start with the [short retro](RETRO.md): what we did, what broke, what I would do
 
 On Tao's optimization-constants table, 6 of my pull requests are merged (#227, #229, #239, #251, #258, #259) and 16 are open, as of 5 November 2026. The merged values are the older ones; most rows below are newer candidates in open PRs.
 
-Verification levels are defined in [VERIFICATION_LEVELS.md](VERIFICATION_LEVELS.md). Every bound below is L0 as a whole: AI-written proofs, checkers by the same AI agent unless a row says otherwise, AI reviews, no human referee. The C91 finite certificate is L1 (checked by code from a different model), and the C30 finite parts are L1-same-agent. External replays by a different party are linked in the C44, C70, C82 and C86 rows.
+Verification levels are defined in [VERIFICATION_LEVELS.md](VERIFICATION_LEVELS.md). Every bound below is L0 as a whole: AI-written proofs, checkers by the same AI agent unless a row says otherwise, AI reviews, no human referee. The C91 finite certificate is L1 (checked by code from a different model), and the C30 finite parts have exact checks written by the same agent, which is L0 under these definitions. External replays by a different party are linked in the C44, C70, C82 and C86 rows.
 
 | Problem | Bound | Previous best | Status | Repository |
 | --- | --- | --- | --- | --- |
