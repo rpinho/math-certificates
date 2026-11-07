@@ -1,5 +1,8 @@
 # Math certificates
 
+Part of my AI-for-science work: [biology](https://github.com/rpinho/ai-biology) ·
+[physics](https://github.com/rpinho/ai-physics).
+
 Explicit, machine-checkable bounds on open optimization constants. Each result comes with an exact certificate
 and at least one separately written exact checker (written by the same AI agent unless a row says otherwise). Each constant has its own folder here. The older repositories are archived, so links
 already in pull requests, issues and emails keep working.
@@ -45,6 +48,9 @@ All the certificates now live here, one folder per constant. The old repositorie
 | [c70](c70/) | [c70-certificate](https://github.com/rpinho/c70-certificate) | `820249e` |
 | [c10a](c10a/) | [c10a-certificate-replay](https://github.com/rpinho/c10a-certificate-replay) | `f62e496` |
 | [tetrahedron-cover](tetrahedron-cover/) | [tetrahedron-cylinder-cover](https://github.com/rpinho/tetrahedron-cylinder-cover) | `9a8438d` |
+
+Results for other people's published papers — exact optima, settled open cases and certificates for
+numbers that were only conjectured — are in [friends/](friends/README.md), in the same format.
 
 ## How to check a result
 

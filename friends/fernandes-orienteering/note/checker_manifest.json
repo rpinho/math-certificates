@@ -1,0 +1,1581 @@
+{
+  "hash_scope": "Embedded inputs only; no external authentication.",
+  "pagination": "arXiv:2011.03647v2",
+  "instances": [
+    {
+      "name": "t201",
+      "optimum": 191,
+      "paper_bks": 185,
+      "paper_neural_columns": {
+        "B.7 global+ft": 183,
+        "B.1 model": 183,
+        "B.1 model+as": 191
+      },
+      "raw_sha256": "879301afd07ba012b353a21d25f401522f1d9bd2085ce75d515dd0acb4b8bcaf",
+      "cover_sha256": "768e2a2246481d3c4bd3deb82056c4bf578d9466774b7adfe22b2caaab726e25",
+      "labels": 15056,
+      "permitted_extensions": 662147,
+      "truncated_route": [
+        0,
+        13,
+        22,
+        101,
+        68,
+        75,
+        40,
+        25,
+        38,
+        58,
+        82,
+        77,
+        0
+      ],
+      "unrounded_route": [
+        0,
+        13,
+        22,
+        101,
+        68,
+        75,
+        40,
+        25,
+        38,
+        58,
+        82,
+        77,
+        0
+      ],
+      "truncated_completes_by_close": true,
+      "truncated_schedule_hundredths": [
+        {
+          "vertex": 13,
+          "start_hundredths": 84726,
+          "finish_hundredths": 86926,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 22,
+          "start_hundredths": 88965,
+          "finish_hundredths": 89165,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 101,
+          "start_hundredths": 90120,
+          "finish_hundredths": 90120,
+          "closing_hundredths": 93000
+        },
+        {
+          "vertex": 68,
+          "start_hundredths": 91225,
+          "finish_hundredths": 91225,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 75,
+          "start_hundredths": 92035,
+          "finish_hundredths": 99735,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 40,
+          "start_hundredths": 100557,
+          "finish_hundredths": 100957,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 25,
+          "start_hundredths": 101451,
+          "finish_hundredths": 102251,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 38,
+          "start_hundredths": 102676,
+          "finish_hundredths": 102876,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 58,
+          "start_hundredths": 103446,
+          "finish_hundredths": 104246,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 82,
+          "start_hundredths": 105101,
+          "finish_hundredths": 110801,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 77,
+          "start_hundredths": 111857,
+          "finish_hundredths": 112257,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 0,
+          "start_hundredths": 113970,
+          "finish_hundredths": 113970,
+          "closing_hundredths": 114000
+        }
+      ]
+    },
+    {
+      "name": "t202",
+      "optimum": 193,
+      "paper_bks": 193,
+      "paper_neural_columns": {
+        "B.7 global+ft": 191,
+        "B.1 model": 188,
+        "B.1 model+as": 193
+      },
+      "raw_sha256": "3f1ef50afa0aee205ad8e808d2ff143861dc5943500e6741590dae9e81fada55",
+      "cover_sha256": "437572c4cead1533d9f5a559948dfea5a6b01c843085689a84a6a4ac9bbb5345",
+      "labels": 14292,
+      "permitted_extensions": 578739,
+      "truncated_route": [
+        0,
+        63,
+        82,
+        24,
+        137,
+        78,
+        76,
+        71,
+        67,
+        91,
+        0
+      ],
+      "unrounded_route": [
+        0,
+        63,
+        82,
+        24,
+        137,
+        78,
+        76,
+        71,
+        67,
+        91,
+        0
+      ],
+      "truncated_completes_by_close": true,
+      "truncated_schedule_hundredths": [
+        {
+          "vertex": 63,
+          "start_hundredths": 86035,
+          "finish_hundredths": 86235,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 82,
+          "start_hundredths": 86881,
+          "finish_hundredths": 87281,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 24,
+          "start_hundredths": 87510,
+          "finish_hundredths": 92610,
+          "closing_hundredths": 93000
+        },
+        {
+          "vertex": 137,
+          "start_hundredths": 92865,
+          "finish_hundredths": 93865,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 78,
+          "start_hundredths": 95208,
+          "finish_hundredths": 98508,
+          "closing_hundredths": 99000
+        },
+        {
+          "vertex": 76,
+          "start_hundredths": 99262,
+          "finish_hundredths": 101162,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 71,
+          "start_hundredths": 101617,
+          "finish_hundredths": 108617,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 67,
+          "start_hundredths": 109774,
+          "finish_hundredths": 110774,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 91,
+          "start_hundredths": 112263,
+          "finish_hundredths": 112663,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 0,
+          "start_hundredths": 113318,
+          "finish_hundredths": 113318,
+          "closing_hundredths": 114000
+        }
+      ],
+      "stored_comparison_route": [
+        0,
+        63,
+        82,
+        24,
+        137,
+        78,
+        76,
+        71,
+        67,
+        91,
+        0
+      ]
+    },
+    {
+      "name": "t203",
+      "optimum": 182,
+      "paper_bks": 179,
+      "paper_neural_columns": {
+        "B.7 global+ft": 179,
+        "B.1 model": 181,
+        "B.1 model+as": 181
+      },
+      "raw_sha256": "f7be9990d2bc9e8a2c360f7e056ee85a867f26d39d85d6950290de7234921af3",
+      "cover_sha256": "8466e852d04415818851e4e1ca5e051249e94d0895bc2e9587e552d13abae028",
+      "labels": 20678,
+      "permitted_extensions": 841183,
+      "truncated_route": [
+        0,
+        57,
+        77,
+        83,
+        79,
+        76,
+        17,
+        4,
+        56,
+        60,
+        7,
+        50,
+        0
+      ],
+      "unrounded_route": [
+        0,
+        57,
+        77,
+        83,
+        79,
+        76,
+        17,
+        4,
+        56,
+        60,
+        7,
+        50,
+        0
+      ],
+      "truncated_completes_by_close": false,
+      "truncated_schedule_hundredths": [
+        {
+          "vertex": 57,
+          "start_hundredths": 85416,
+          "finish_hundredths": 87116,
+          "closing_hundredths": 99000
+        },
+        {
+          "vertex": 77,
+          "start_hundredths": 88638,
+          "finish_hundredths": 93438,
+          "closing_hundredths": 99000
+        },
+        {
+          "vertex": 83,
+          "start_hundredths": 93807,
+          "finish_hundredths": 94407,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 79,
+          "start_hundredths": 94627,
+          "finish_hundredths": 95927,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 76,
+          "start_hundredths": 98208,
+          "finish_hundredths": 99008,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 17,
+          "start_hundredths": 100778,
+          "finish_hundredths": 105178,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 4,
+          "start_hundredths": 105900,
+          "finish_hundredths": 106100,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 56,
+          "start_hundredths": 108574,
+          "finish_hundredths": 108974,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 60,
+          "start_hundredths": 109587,
+          "finish_hundredths": 109787,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 7,
+          "start_hundredths": 111560,
+          "finish_hundredths": 111760,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 50,
+          "start_hundredths": 112405,
+          "finish_hundredths": 113005,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 0,
+          "start_hundredths": 113869,
+          "finish_hundredths": 113869,
+          "closing_hundredths": 114000
+        }
+      ]
+    },
+    {
+      "name": "t204",
+      "optimum": 179,
+      "paper_bks": 171,
+      "paper_neural_columns": {
+        "B.7 global+ft": 176,
+        "B.1 model": 174,
+        "B.1 model+as": 174
+      },
+      "raw_sha256": "2ce30548535276a2fa58df8f737a1e68b6dea07c9b10b9b42b70f83b28e70b6a",
+      "cover_sha256": "cd4690d70e6037f1a3dc93cee6bbd1861b3b15d850a9d10f7832427d37857cc4",
+      "labels": 14200,
+      "permitted_extensions": 744639,
+      "truncated_route": [
+        0,
+        16,
+        24,
+        28,
+        58,
+        51,
+        81,
+        59,
+        121,
+        44,
+        119,
+        40,
+        0
+      ],
+      "unrounded_route": [
+        0,
+        16,
+        24,
+        28,
+        58,
+        51,
+        81,
+        59,
+        121,
+        44,
+        119,
+        40,
+        0
+      ],
+      "truncated_completes_by_close": true,
+      "truncated_schedule_hundredths": [
+        {
+          "vertex": 16,
+          "start_hundredths": 84851,
+          "finish_hundredths": 87951,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 24,
+          "start_hundredths": 89714,
+          "finish_hundredths": 91214,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 28,
+          "start_hundredths": 92830,
+          "finish_hundredths": 93030,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 58,
+          "start_hundredths": 94407,
+          "finish_hundredths": 95007,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 51,
+          "start_hundredths": 95407,
+          "finish_hundredths": 98007,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 81,
+          "start_hundredths": 99036,
+          "finish_hundredths": 99036,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 59,
+          "start_hundredths": 100932,
+          "finish_hundredths": 101732,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 121,
+          "start_hundredths": 102819,
+          "finish_hundredths": 103419,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 44,
+          "start_hundredths": 104305,
+          "finish_hundredths": 110205,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 119,
+          "start_hundredths": 111342,
+          "finish_hundredths": 111742,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 40,
+          "start_hundredths": 112839,
+          "finish_hundredths": 112939,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 0,
+          "start_hundredths": 113845,
+          "finish_hundredths": 113845,
+          "closing_hundredths": 114000
+        }
+      ]
+    },
+    {
+      "name": "t207",
+      "optimum": 201,
+      "paper_bks": 201,
+      "paper_neural_columns": {
+        "B.7 global+ft": 200
+      },
+      "raw_sha256": "c719900cc4695107976f0c2070e5d40ba19b612325831570e181747eb3391c1e",
+      "cover_sha256": "9423afba3bc5dcd24f9ac717c7a3ee25f1abf3c48e30c4fdef1fd6fe2be7ee62",
+      "labels": 16311,
+      "permitted_extensions": 793808,
+      "truncated_route": [
+        0,
+        109,
+        31,
+        136,
+        133,
+        102,
+        128,
+        35,
+        86,
+        94,
+        0
+      ],
+      "unrounded_route": [
+        0,
+        109,
+        31,
+        136,
+        133,
+        102,
+        128,
+        35,
+        86,
+        94,
+        0
+      ],
+      "truncated_completes_by_close": true,
+      "truncated_schedule_hundredths": [
+        {
+          "vertex": 109,
+          "start_hundredths": 85868,
+          "finish_hundredths": 88868,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 31,
+          "start_hundredths": 91657,
+          "finish_hundredths": 95357,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 136,
+          "start_hundredths": 96053,
+          "finish_hundredths": 98853,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 133,
+          "start_hundredths": 99218,
+          "finish_hundredths": 99418,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 102,
+          "start_hundredths": 99971,
+          "finish_hundredths": 101471,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 128,
+          "start_hundredths": 102287,
+          "finish_hundredths": 105387,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 35,
+          "start_hundredths": 106202,
+          "finish_hundredths": 106402,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 86,
+          "start_hundredths": 109385,
+          "finish_hundredths": 112885,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 94,
+          "start_hundredths": 113305,
+          "finish_hundredths": 113505,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 0,
+          "start_hundredths": 113754,
+          "finish_hundredths": 113754,
+          "closing_hundredths": 114000
+        }
+      ]
+    },
+    {
+      "name": "t208",
+      "optimum": 176,
+      "paper_bks": 176,
+      "paper_neural_columns": {
+        "B.7 global+ft": 176
+      },
+      "raw_sha256": "890b1b1bf5c1440e73a0eebfeee0e4a102e8e24238e4b03ee1109320e6c2abe2",
+      "cover_sha256": "0da44988ff4103c32a134d35e51fc1b892f15af041f498bb1bd0c48128492d98",
+      "labels": 13195,
+      "permitted_extensions": 810719,
+      "truncated_route": [
+        0,
+        116,
+        68,
+        108,
+        126,
+        24,
+        65,
+        104,
+        134,
+        0
+      ],
+      "unrounded_route": [
+        0,
+        116,
+        68,
+        108,
+        126,
+        24,
+        65,
+        104,
+        134,
+        0
+      ],
+      "truncated_completes_by_close": true,
+      "truncated_schedule_hundredths": [
+        {
+          "vertex": 116,
+          "start_hundredths": 85676,
+          "finish_hundredths": 87176,
+          "closing_hundredths": 93000
+        },
+        {
+          "vertex": 68,
+          "start_hundredths": 87456,
+          "finish_hundredths": 88556,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 108,
+          "start_hundredths": 89028,
+          "finish_hundredths": 89628,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 126,
+          "start_hundredths": 91056,
+          "finish_hundredths": 91256,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 24,
+          "start_hundredths": 91944,
+          "finish_hundredths": 94144,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 65,
+          "start_hundredths": 94778,
+          "finish_hundredths": 98278,
+          "closing_hundredths": 99000
+        },
+        {
+          "vertex": 104,
+          "start_hundredths": 98679,
+          "finish_hundredths": 106179,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 134,
+          "start_hundredths": 108057,
+          "finish_hundredths": 113357,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 0,
+          "start_hundredths": 113813,
+          "finish_hundredths": 113813,
+          "closing_hundredths": 114000
+        }
+      ],
+      "stored_comparison_route": [
+        0,
+        116,
+        108,
+        104,
+        65,
+        126,
+        24,
+        35,
+        134,
+        0
+      ]
+    },
+    {
+      "name": "t218",
+      "optimum": 155,
+      "paper_bks": 155,
+      "paper_neural_columns": {
+        "B.7 global+ft": 152
+      },
+      "raw_sha256": "e2772872ace8a77806981d9960b4d64bcbfa2200638f7dd56b0b2f5f73983f4d",
+      "cover_sha256": "a11505d7ed1aa9339ef22ed31474cfd6172aed75999f30c1e4ea68f6875016e5",
+      "labels": 3225,
+      "permitted_extensions": 155456,
+      "truncated_route": [
+        0,
+        99,
+        32,
+        29,
+        66,
+        70,
+        64,
+        0
+      ],
+      "unrounded_route": [
+        0,
+        99,
+        32,
+        29,
+        66,
+        70,
+        64,
+        0
+      ],
+      "truncated_completes_by_close": false,
+      "truncated_schedule_hundredths": [
+        {
+          "vertex": 99,
+          "start_hundredths": 85280,
+          "finish_hundredths": 85380,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 32,
+          "start_hundredths": 85962,
+          "finish_hundredths": 87462,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 29,
+          "start_hundredths": 87713,
+          "finish_hundredths": 93713,
+          "closing_hundredths": 99000
+        },
+        {
+          "vertex": 66,
+          "start_hundredths": 95804,
+          "finish_hundredths": 96604,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 70,
+          "start_hundredths": 97538,
+          "finish_hundredths": 105738,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 64,
+          "start_hundredths": 105898,
+          "finish_hundredths": 113198,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 0,
+          "start_hundredths": 113701,
+          "finish_hundredths": 113701,
+          "closing_hundredths": 114000
+        }
+      ],
+      "stored_comparison_route": [
+        0,
+        70,
+        29,
+        32,
+        99,
+        55,
+        0
+      ]
+    },
+    {
+      "name": "t223",
+      "optimum": 229,
+      "paper_bks": 229,
+      "paper_neural_columns": {
+        "B.7 global+ft": 228
+      },
+      "raw_sha256": "c796707cbe08ff44c37f3ba021e9c10985c2c86ec99bf47133e70349b2bebdfe",
+      "cover_sha256": "4a2f3448a7181ac7a00969d7f527e7f27ca522ebc815ad0209a247938c2f6fa3",
+      "labels": 23187,
+      "permitted_extensions": 1348146,
+      "truncated_route": [
+        0,
+        141,
+        124,
+        152,
+        128,
+        45,
+        100,
+        46,
+        73,
+        154,
+        143,
+        36,
+        37,
+        0
+      ],
+      "unrounded_route": [
+        0,
+        141,
+        124,
+        152,
+        128,
+        45,
+        100,
+        46,
+        73,
+        154,
+        143,
+        36,
+        37,
+        0
+      ],
+      "truncated_completes_by_close": false,
+      "truncated_schedule_hundredths": [
+        {
+          "vertex": 141,
+          "start_hundredths": 86051,
+          "finish_hundredths": 88451,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 124,
+          "start_hundredths": 89214,
+          "finish_hundredths": 90514,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 152,
+          "start_hundredths": 90916,
+          "finish_hundredths": 91516,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 128,
+          "start_hundredths": 91604,
+          "finish_hundredths": 96404,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 45,
+          "start_hundredths": 96845,
+          "finish_hundredths": 96845,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 100,
+          "start_hundredths": 96952,
+          "finish_hundredths": 97152,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 46,
+          "start_hundredths": 98250,
+          "finish_hundredths": 98450,
+          "closing_hundredths": 99000
+        },
+        {
+          "vertex": 73,
+          "start_hundredths": 98744,
+          "finish_hundredths": 100944,
+          "closing_hundredths": 99000
+        },
+        {
+          "vertex": 154,
+          "start_hundredths": 101817,
+          "finish_hundredths": 105517,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 143,
+          "start_hundredths": 106000,
+          "finish_hundredths": 109300,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 36,
+          "start_hundredths": 109912,
+          "finish_hundredths": 109912,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 37,
+          "start_hundredths": 111121,
+          "finish_hundredths": 111521,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 0,
+          "start_hundredths": 113621,
+          "finish_hundredths": 113621,
+          "closing_hundredths": 114000
+        }
+      ]
+    },
+    {
+      "name": "t227",
+      "optimum": 159,
+      "paper_bks": 159,
+      "paper_neural_columns": {
+        "B.7 global+ft": 156
+      },
+      "raw_sha256": "9f1cfe4ade090cca42f9ebb998c71488b96e5b6187c678dfd19df3915a2bc575",
+      "cover_sha256": "21fa1e7452b11c530c3a832440542d26a87ca8d04070a519bffc4446a825cc75",
+      "labels": 8312,
+      "permitted_extensions": 419880,
+      "truncated_route": [
+        0,
+        100,
+        50,
+        89,
+        20,
+        18,
+        75,
+        0
+      ],
+      "unrounded_route": [
+        0,
+        100,
+        50,
+        89,
+        20,
+        18,
+        75,
+        0
+      ],
+      "truncated_completes_by_close": false,
+      "truncated_schedule_hundredths": [
+        {
+          "vertex": 100,
+          "start_hundredths": 85056,
+          "finish_hundredths": 90056,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 50,
+          "start_hundredths": 90601,
+          "finish_hundredths": 91201,
+          "closing_hundredths": 99000
+        },
+        {
+          "vertex": 89,
+          "start_hundredths": 92228,
+          "finish_hundredths": 97228,
+          "closing_hundredths": 99000
+        },
+        {
+          "vertex": 20,
+          "start_hundredths": 98262,
+          "finish_hundredths": 99062,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 18,
+          "start_hundredths": 101611,
+          "finish_hundredths": 106911,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 75,
+          "start_hundredths": 107317,
+          "finish_hundredths": 110417,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 0,
+          "start_hundredths": 111512,
+          "finish_hundredths": 111512,
+          "closing_hundredths": 114000
+        }
+      ],
+      "stored_comparison_route": [
+        0,
+        100,
+        50,
+        89,
+        20,
+        18,
+        75,
+        0
+      ]
+    },
+    {
+      "name": "t229",
+      "optimum": 182,
+      "paper_bks": 178,
+      "paper_neural_columns": {
+        "B.7 global+ft": 182
+      },
+      "raw_sha256": "996a6d859a4f1374c92e211dabda9d41884581adf296f737b91180a6d4396ce7",
+      "cover_sha256": "49615eb44cc85a40561774cdc27ceed3e426bcb00bb1243a6b5b85bcb291ef3b",
+      "labels": 16017,
+      "permitted_extensions": 990568,
+      "truncated_route": [
+        0,
+        176,
+        147,
+        181,
+        146,
+        143,
+        158,
+        148,
+        140,
+        77,
+        124,
+        179,
+        0
+      ],
+      "unrounded_route": [
+        0,
+        176,
+        147,
+        181,
+        146,
+        143,
+        158,
+        148,
+        140,
+        77,
+        124,
+        179,
+        0
+      ],
+      "truncated_completes_by_close": false,
+      "truncated_schedule_hundredths": [
+        {
+          "vertex": 176,
+          "start_hundredths": 84481,
+          "finish_hundredths": 88881,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 147,
+          "start_hundredths": 90265,
+          "finish_hundredths": 93265,
+          "closing_hundredths": 93000
+        },
+        {
+          "vertex": 181,
+          "start_hundredths": 94821,
+          "finish_hundredths": 95021,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 146,
+          "start_hundredths": 96350,
+          "finish_hundredths": 97350,
+          "closing_hundredths": 99000
+        },
+        {
+          "vertex": 143,
+          "start_hundredths": 97941,
+          "finish_hundredths": 100941,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 158,
+          "start_hundredths": 101750,
+          "finish_hundredths": 101850,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 148,
+          "start_hundredths": 104873,
+          "finish_hundredths": 106873,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 140,
+          "start_hundredths": 107141,
+          "finish_hundredths": 107541,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 77,
+          "start_hundredths": 108749,
+          "finish_hundredths": 108849,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 124,
+          "start_hundredths": 110133,
+          "finish_hundredths": 111833,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 179,
+          "start_hundredths": 113241,
+          "finish_hundredths": 113641,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 0,
+          "start_hundredths": 113983,
+          "finish_hundredths": 113983,
+          "closing_hundredths": 114000
+        }
+      ]
+    },
+    {
+      "name": "t236",
+      "optimum": 180,
+      "paper_bks": 175,
+      "paper_neural_columns": {
+        "B.7 global+ft": 177
+      },
+      "raw_sha256": "815d4de7cff8ae706ad6d3bf8148dc54e8cffb60d0d97d7bedf6d3e88947727c",
+      "cover_sha256": "246a33395fcebd6fab6f084a4f9a01fd4d8fafd5fafc5f2d2aef26befd90d9f8",
+      "labels": 13906,
+      "permitted_extensions": 749786,
+      "truncated_route": [
+        0,
+        13,
+        39,
+        147,
+        45,
+        68,
+        79,
+        111,
+        0
+      ],
+      "unrounded_route": [
+        0,
+        13,
+        39,
+        147,
+        45,
+        68,
+        79,
+        111,
+        0
+      ],
+      "truncated_completes_by_close": false,
+      "truncated_schedule_hundredths": [
+        {
+          "vertex": 13,
+          "start_hundredths": 84321,
+          "finish_hundredths": 85621,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 39,
+          "start_hundredths": 88074,
+          "finish_hundredths": 88274,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 147,
+          "start_hundredths": 88662,
+          "finish_hundredths": 88762,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 45,
+          "start_hundredths": 89116,
+          "finish_hundredths": 93516,
+          "closing_hundredths": 93000
+        },
+        {
+          "vertex": 68,
+          "start_hundredths": 94474,
+          "finish_hundredths": 97274,
+          "closing_hundredths": 99000
+        },
+        {
+          "vertex": 79,
+          "start_hundredths": 101391,
+          "finish_hundredths": 103991,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 111,
+          "start_hundredths": 104422,
+          "finish_hundredths": 112622,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 0,
+          "start_hundredths": 113959,
+          "finish_hundredths": 113959,
+          "closing_hundredths": 114000
+        }
+      ]
+    },
+    {
+      "name": "t241",
+      "optimum": 172,
+      "paper_bks": 172,
+      "paper_neural_columns": {
+        "B.7 global+ft": 171
+      },
+      "raw_sha256": "c4d40d00f4f835a9ae7f38b9c8609d52e774637754a6b555440ee8e45c9ae0d1",
+      "cover_sha256": "7cd8241b34c18cf743400d4a85c25b0ecd5dcb4e3dcb86684582e8b44d48e4d9",
+      "labels": 9195,
+      "permitted_extensions": 394751,
+      "truncated_route": [
+        0,
+        95,
+        111,
+        44,
+        115,
+        48,
+        112,
+        24,
+        0
+      ],
+      "unrounded_route": [
+        0,
+        95,
+        111,
+        44,
+        115,
+        48,
+        112,
+        24,
+        0
+      ],
+      "truncated_completes_by_close": false,
+      "truncated_schedule_hundredths": [
+        {
+          "vertex": 95,
+          "start_hundredths": 84957,
+          "finish_hundredths": 88957,
+          "closing_hundredths": 93000
+        },
+        {
+          "vertex": 111,
+          "start_hundredths": 89161,
+          "finish_hundredths": 89761,
+          "closing_hundredths": 99000
+        },
+        {
+          "vertex": 44,
+          "start_hundredths": 92029,
+          "finish_hundredths": 93029,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 115,
+          "start_hundredths": 93855,
+          "finish_hundredths": 99155,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 48,
+          "start_hundredths": 101420,
+          "finish_hundredths": 102720,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 112,
+          "start_hundredths": 103088,
+          "finish_hundredths": 103288,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 24,
+          "start_hundredths": 104144,
+          "finish_hundredths": 112344,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 0,
+          "start_hundredths": 113551,
+          "finish_hundredths": 113551,
+          "closing_hundredths": 114000
+        }
+      ]
+    },
+    {
+      "name": "t242",
+      "optimum": 180,
+      "paper_bks": 180,
+      "paper_neural_columns": {
+        "B.7 global+ft": 180
+      },
+      "raw_sha256": "391e5511a466ddaf3fbdb8c6b86bcbcbc3586ab9d89cb632186fab6f80a47b0f",
+      "cover_sha256": "06828e7788756193c5b557560018ff47b2e816a5e2836ba19da98ed152c62aa4",
+      "labels": 21664,
+      "permitted_extensions": 906407,
+      "truncated_route": [
+        0,
+        48,
+        71,
+        35,
+        15,
+        69,
+        78,
+        42,
+        22,
+        82,
+        0
+      ],
+      "unrounded_route": [
+        0,
+        48,
+        71,
+        35,
+        15,
+        69,
+        78,
+        42,
+        22,
+        82,
+        0
+      ],
+      "truncated_completes_by_close": false,
+      "truncated_schedule_hundredths": [
+        {
+          "vertex": 48,
+          "start_hundredths": 84561,
+          "finish_hundredths": 87361,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 71,
+          "start_hundredths": 89302,
+          "finish_hundredths": 89502,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 35,
+          "start_hundredths": 89569,
+          "finish_hundredths": 93969,
+          "closing_hundredths": 99000
+        },
+        {
+          "vertex": 15,
+          "start_hundredths": 95403,
+          "finish_hundredths": 95803,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 69,
+          "start_hundredths": 96263,
+          "finish_hundredths": 96463,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 78,
+          "start_hundredths": 97573,
+          "finish_hundredths": 97573,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 42,
+          "start_hundredths": 98697,
+          "finish_hundredths": 104197,
+          "closing_hundredths": 99000
+        },
+        {
+          "vertex": 22,
+          "start_hundredths": 105237,
+          "finish_hundredths": 110237,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 82,
+          "start_hundredths": 110705,
+          "finish_hundredths": 111305,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 0,
+          "start_hundredths": 113764,
+          "finish_hundredths": 113764,
+          "closing_hundredths": 114000
+        }
+      ]
+    },
+    {
+      "name": "t243",
+      "optimum": 204,
+      "paper_bks": 199,
+      "paper_neural_columns": {
+        "B.7 global+ft": 201
+      },
+      "raw_sha256": "7c9d570af453844c0666fafc6b7d123854904f9d07cba7f8bc4dbcf3cdc8cc31",
+      "cover_sha256": "cb7daabc8e0601b500863afd4ee8aaeb8833bcdac1e310ec88991f0012c76b7d",
+      "labels": 18542,
+      "permitted_extensions": 1009371,
+      "truncated_route": [
+        0,
+        151,
+        101,
+        86,
+        16,
+        63,
+        29,
+        93,
+        111,
+        136,
+        5,
+        0
+      ],
+      "unrounded_route": [
+        0,
+        151,
+        101,
+        86,
+        16,
+        63,
+        29,
+        93,
+        111,
+        136,
+        5,
+        0
+      ],
+      "truncated_completes_by_close": false,
+      "truncated_schedule_hundredths": [
+        {
+          "vertex": 151,
+          "start_hundredths": 85142,
+          "finish_hundredths": 89942,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 101,
+          "start_hundredths": 90954,
+          "finish_hundredths": 91154,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 86,
+          "start_hundredths": 92697,
+          "finish_hundredths": 94697,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 16,
+          "start_hundredths": 95751,
+          "finish_hundredths": 95851,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 63,
+          "start_hundredths": 97805,
+          "finish_hundredths": 98205,
+          "closing_hundredths": 99000
+        },
+        {
+          "vertex": 29,
+          "start_hundredths": 99405,
+          "finish_hundredths": 100505,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 93,
+          "start_hundredths": 101813,
+          "finish_hundredths": 102613,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 111,
+          "start_hundredths": 103384,
+          "finish_hundredths": 104184,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 136,
+          "start_hundredths": 106017,
+          "finish_hundredths": 108617,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 5,
+          "start_hundredths": 112659,
+          "finish_hundredths": 112759,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 0,
+          "start_hundredths": 113746,
+          "finish_hundredths": 113746,
+          "closing_hundredths": 114000
+        }
+      ]
+    },
+    {
+      "name": "t250",
+      "optimum": 201,
+      "paper_bks": 200,
+      "paper_neural_columns": {
+        "B.7 global+ft": 201
+      },
+      "raw_sha256": "b509f8c90929956e06d5024d7b4361a2f3067b91e496097eda2f70b90722cb6b",
+      "cover_sha256": "e0d02da01ead29d40baad1027a98a926b36e1f4a953bc0c1669240ef6e22f1b6",
+      "labels": 18130,
+      "permitted_extensions": 1033864,
+      "truncated_route": [
+        0,
+        21,
+        200,
+        116,
+        177,
+        137,
+        7,
+        98,
+        50,
+        135,
+        0
+      ],
+      "unrounded_route": [
+        0,
+        21,
+        200,
+        116,
+        177,
+        137,
+        7,
+        98,
+        50,
+        135,
+        0
+      ],
+      "truncated_completes_by_close": false,
+      "truncated_schedule_hundredths": [
+        {
+          "vertex": 21,
+          "start_hundredths": 86499,
+          "finish_hundredths": 86599,
+          "closing_hundredths": 93000
+        },
+        {
+          "vertex": 200,
+          "start_hundredths": 87613,
+          "finish_hundredths": 88713,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 116,
+          "start_hundredths": 88877,
+          "finish_hundredths": 88877,
+          "closing_hundredths": 99000
+        },
+        {
+          "vertex": 177,
+          "start_hundredths": 90271,
+          "finish_hundredths": 93071,
+          "closing_hundredths": 93000
+        },
+        {
+          "vertex": 137,
+          "start_hundredths": 94017,
+          "finish_hundredths": 94617,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 7,
+          "start_hundredths": 95022,
+          "finish_hundredths": 100022,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 98,
+          "start_hundredths": 101292,
+          "finish_hundredths": 103492,
+          "closing_hundredths": 102000
+        },
+        {
+          "vertex": 50,
+          "start_hundredths": 104160,
+          "finish_hundredths": 104360,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 135,
+          "start_hundredths": 104672,
+          "finish_hundredths": 109972,
+          "closing_hundredths": 143900
+        },
+        {
+          "vertex": 0,
+          "start_hundredths": 113974,
+          "finish_hundredths": 113974,
+          "closing_hundredths": 114000
+        }
+      ]
+    }
+  ]
+}

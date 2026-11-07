@@ -1,0 +1,234 @@
+{
+  "standard": {
+    "integer_cost": 1619800,
+    "routes": 15,
+    "route_receipts": [
+      {
+        "load": 169,
+        "distance_integer": 116400,
+        "min_window_slack_integer": 700
+      },
+      {
+        "load": 110,
+        "distance_integer": 162500,
+        "min_window_slack_integer": 7400
+      },
+      {
+        "load": 93,
+        "distance_integer": 90000,
+        "min_window_slack_integer": 300
+      },
+      {
+        "load": 150,
+        "distance_integer": 121400,
+        "min_window_slack_integer": 200
+      },
+      {
+        "load": 120,
+        "distance_integer": 138600,
+        "min_window_slack_integer": 2000
+      },
+      {
+        "load": 91,
+        "distance_integer": 83000,
+        "min_window_slack_integer": 4700
+      },
+      {
+        "load": 122,
+        "distance_integer": 127900,
+        "min_window_slack_integer": 1800
+      },
+      {
+        "load": 107,
+        "distance_integer": 125600,
+        "min_window_slack_integer": 4000
+      },
+      {
+        "load": 97,
+        "distance_integer": 90700,
+        "min_window_slack_integer": 1800
+      },
+      {
+        "load": 178,
+        "distance_integer": 132900,
+        "min_window_slack_integer": 2700
+      },
+      {
+        "load": 86,
+        "distance_integer": 104000,
+        "min_window_slack_integer": 2300
+      },
+      {
+        "load": 163,
+        "distance_integer": 116300,
+        "min_window_slack_integer": 3400
+      },
+      {
+        "load": 6,
+        "distance_integer": 8400,
+        "min_window_slack_integer": 30000
+      },
+      {
+        "load": 128,
+        "distance_integer": 124400,
+        "min_window_slack_integer": 6800
+      },
+      {
+        "load": 104,
+        "distance_integer": 77700,
+        "min_window_slack_integer": 5400
+      }
+    ]
+  },
+  "printed_witness": {
+    "integer_cost": 1619800,
+    "routes": 15,
+    "route_receipts": [
+      {
+        "load": 169,
+        "distance_integer": 116400,
+        "min_window_slack_integer": 700
+      },
+      {
+        "load": 110,
+        "distance_integer": 162500,
+        "min_window_slack_integer": 7400
+      },
+      {
+        "load": 93,
+        "distance_integer": 90000,
+        "min_window_slack_integer": 300
+      },
+      {
+        "load": 150,
+        "distance_integer": 121400,
+        "min_window_slack_integer": 200
+      },
+      {
+        "load": 120,
+        "distance_integer": 138600,
+        "min_window_slack_integer": 2000
+      },
+      {
+        "load": 91,
+        "distance_integer": 83000,
+        "min_window_slack_integer": 4700
+      },
+      {
+        "load": 122,
+        "distance_integer": 127900,
+        "min_window_slack_integer": 1800
+      },
+      {
+        "load": 107,
+        "distance_integer": 125600,
+        "min_window_slack_integer": 4000
+      },
+      {
+        "load": 97,
+        "distance_integer": 90700,
+        "min_window_slack_integer": 1800
+      },
+      {
+        "load": 178,
+        "distance_integer": 132900,
+        "min_window_slack_integer": 2700
+      },
+      {
+        "load": 86,
+        "distance_integer": 104000,
+        "min_window_slack_integer": 2300
+      },
+      {
+        "load": 163,
+        "distance_integer": 116300,
+        "min_window_slack_integer": 3400
+      },
+      {
+        "load": 6,
+        "distance_integer": 8400,
+        "min_window_slack_integer": 30000
+      },
+      {
+        "load": 128,
+        "distance_integer": 124400,
+        "min_window_slack_integer": 6800
+      },
+      {
+        "load": 104,
+        "distance_integer": 77700,
+        "min_window_slack_integer": 5400
+      }
+    ]
+  },
+  "native_matrix_vs_exact_tenths": {
+    "different_directed_arcs": 82,
+    "examples": [
+      [
+        0,
+        12,
+        32299,
+        32300
+      ],
+      [
+        1,
+        74,
+        65099,
+        65100
+      ],
+      [
+        2,
+        51,
+        64099,
+        64100
+      ],
+      [
+        2,
+        82,
+        32299,
+        32300
+      ],
+      [
+        6,
+        20,
+        64599,
+        64600
+      ],
+      [
+        11,
+        50,
+        64099,
+        64100
+      ],
+      [
+        12,
+        0,
+        32299,
+        32300
+      ],
+      [
+        14,
+        39,
+        65099,
+        65100
+      ],
+      [
+        14,
+        76,
+        64099,
+        64100
+      ],
+      [
+        16,
+        62,
+        65099,
+        65100
+      ]
+    ]
+  },
+  "standard_classical_integer_cost": 1619800,
+  "printed_classical_integer_cost": 1619800,
+  "forgeries_rejected": 5,
+  "matrix_sha256": "ff48702ce5867559a7c21786a72b82a92ed4170a63f8e110f582fdb02a76a66d",
+  "note": "Feasibility/cost replay only; historical optimality is prior art, not a certificate proved by this script."
+}
