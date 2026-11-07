@@ -42,6 +42,20 @@ in the paper (reading the displayed sum's index as j = k gives only 1.0019).
 We claimed no optimality. The replay checks the arithmetic; the geometric
 reduction and limiting theorem remain prose arguments. It is not a peer review.
 
+Also on 4 November, Brendan Byrne (GitHub user presence1) opened
+[Tao-table PR #326](https://github.com/teorth/optimizationproblems/pull/326),
+which records AI-assisted replays of six asterisked rows, this one included,
+and keeps every asterisk. Using only the parameters in
+`certificates/c70_candidate.json` @ `680e074`, it evaluates the retained
+Steiner term two ways, in Arb ball arithmetic and in closed form with mpmath
+intervals, and gets [1.2019433684431505669948027797355241 ± 3.8 · 10⁻³⁵].
+The PR says this is conditional on Patankar's cube–ball criterion, which the
+replay re-derives without human review, and that the limit exp(1/(2e)) was not
+checked. On 6 November arhancanli posted a
+[second-party confirmation](https://github.com/teorth/optimizationproblems/pull/326#issuecomment-6684850769)
+on that PR; for this row it points to their 4 November replay above, whose
+enclosure lies inside both of PR #326's. PR #326 is open, not merged.
+
 ## Reproduce
 
 The recorded environment is Python 3.12.13, python-flint 0.9.0 and mpmath 1.3.0.
