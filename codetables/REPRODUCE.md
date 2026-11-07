@@ -1,6 +1,6 @@
-# Reproducing the seven exact checks
+# Reproducing the eight exact checks
 
-All seven copied checkers were built from source inside this package and rerun successfully on 2026-11-06T20:35:26.562449+00:00. All ranks and exact minimum distances match the saved referee outputs. No candidate disagreement or incomplete search occurred. The original referee outputs remain in each check/result.json and check/run.log; the package reruns use rerun_result.json and rerun.log.
+The checkers for the first seven codes (referees 2–4) were built from source inside this package and rerun successfully on 2026-11-06T20:35:26.562449+00:00. All ranks and exact minimum distances match the saved referee outputs. No candidate disagreement or incomplete search occurred. The original referee outputs remain in each check/result.json and check/run.log; the package reruns use rerun_result.json and rerun.log; for [106,12,72] they are check/result.txt and check/rerun_result.txt.
 
 The run used Python 3.12.13 and Apple clang 21.0.0 on ARM64. Referee 2 has a scalar fallback; referees 3 and 4 require ARM64 NEON. All Python support files use only the standard library. Set PYTHONDONTWRITEBYTECODE=1 (or use python3 -B) to avoid creating bytecode caches. The commands below use python3 for portability; the executed Python was the shared research environment.
 
@@ -15,6 +15,7 @@ At most four enumeration workers ran concurrently: each referee 2 candidate used
 | [130,16,77] GF(5) | 16 | 77 | 77 | 65.796800 | 65.818849 |
 | [99,12,67] GF(9) | 12 | 67 | 67 | 89.229100 | 89.249746 |
 | [92,13,61] GF(9) | 13 | 61 | 61 | 34.741800 | 34.758886 |
+| [106,12,72] GF(9) | 12 | 72 | 72 | 27.9225 | 28.237 |
 
 Checker time is the program’s own elapsed measurement; wall time additionally includes process launch/exit. The four concurrent referee 3 wall times overlap and should not be summed as total wall time.
 
@@ -157,3 +158,19 @@ shasum -a 256 -c SHA256SUMS
 ```
 
 SHA256SUMS lists every other file and excludes itself. A fresh rerun changes timing and process IDs, and multithreaded witness selection may change; ranks, minimum distances, completeness bounds and enumerator counts are the mathematical results to compare.
+
+## [106,12,72] over GF(9) (referee 5, added 2026-11-07)
+
+Referee 5's checker was built from the packaged source and rerun on 2026-11-07 with Apple clang 21.0.0 on ARM64, four threads, nice 10. Rank 12 and exact minimum distance 72 match the referee output, and so does the full projective weight distribution, line for line. The printed minimum-weight witness can differ between runs because of thread scheduling.
+
+**build ref5** — compile warnings: none (build.log and build.stderr.log are empty).
+
+```sh
+(cd checkers/ref5 && nice -n 10 clang++ -O3 -std=c++17 -pthread -Wall -Wextra checker.cpp -o checker) > checkers/ref5/build.log 2> checkers/ref5/build.stderr.log
+```
+
+**q9_n106_k12_d72** — checker 27.9225 s, wall 28.237 s. The same run also executes the field-axiom checks and both Reed–Solomon controls.
+
+```sh
+nice -n 10 checkers/ref5/checker q9_n106_k12_d72/generator.txt > q9_n106_k12_d72/check/rerun_result.txt 2> q9_n106_k12_d72/check/rerun.log
+```
