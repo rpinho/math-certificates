@@ -232,6 +232,12 @@ Both `python -O independent_radii.py --negative-control endpoint` and
 `python -O independent_radii.py --negative-control partition` must exit 1:
 they reject an invalid endpoint estimate and a missing tilt interval.
 
+## References
+
+- Problem 100 of the OpenAI math release, *Finite angular cylinder covers below the half-area bound* — [openai/math](https://github.com/openai/math), [lean/docs/100.md](https://github.com/openai/math/blob/main/lean/docs/100.md): the problem statement, and the angular-sector family this construction reuses at a finite tilt.
+- The construction note: [Hexagon 2610.00304v2](https://hexagonmath.org/2610.00304?version=2) and [Zenodo](https://doi.org/10.5281/zenodo.23483539), unrefereed.
+- Alexander Richard Towell (@queelius), with OpenAI Codex — the structural lower-bound proof and its independent checker ([PR #1](https://github.com/rpinho/tetrahedron-cylinder-cover/pull/1)), extended to arbitrary positive node radii in [PR #2](https://github.com/rpinho/tetrahedron-cylinder-cover/pull/2) and recorded in `REPORT.md` and `INDEPENDENT_RADII.md`.
+
 ## AI assistance
 
 The search, the certificate and both checkers were developed with AI coding assistants (OpenAI Codex and Claude) under the
