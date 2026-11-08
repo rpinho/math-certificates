@@ -1,6 +1,6 @@
 # Clean-room referee: C47 ≥ 1.7040280575
 
-The lower bound holds. The recomputed by its own checks periodic ratio is exactly the claimed fraction, and the supplied finite L1 construction proves the printed decimal strictly. The earlier half-open-cell wording issue is fixed. There are no mathematical caveats or unchecked items in (a)–(d).
+The lower bound holds. The periodic ratio recomputed by its own checks is exactly the claimed fraction, and the supplied finite L1 construction proves the printed decimal strictly. The earlier half-open-cell wording issue is fixed. There are no mathematical caveats or unchecked items in (a)–(d).
 
 I read only the supplied producer proof, report, prior-art note, certificate and finite receipt, and two earlier referee reports. No producer or earlier referee code was read, copied, imported, or run; no Tomar or Doldrums checker was used. The new checker is [independent_check.py](independent_check.py). Its mathematical comparisons use Python integers and `fractions.Fraction`; decimal arithmetic is only for display. Copies of the two supplied JSON inputs are retained in `sources/`, with the same line numbering as the originals.
 
@@ -110,7 +110,7 @@ It occurs at witness **297** (zero-based), `sources/final.json:4959`; the corres
 
 To compute the union area, I partitioned at the **2265 distinct x endpoints**, giving 2264 vertical slabs. Within each open slab, the active rectangles are constant. Sorting and merging their y intervals gives the covered height; summing slab width times covered height gives the area. Boundary lines have area zero. This direct exact integration, implemented at `independent_check.py:30–47`, counts overlaps only once.
 
-The obtained by its own checks quantities are
+The quantities obtained by its own checks are
 
 \[
 m_0=\mu(C)=\frac{528259641268587}{100000000000000},

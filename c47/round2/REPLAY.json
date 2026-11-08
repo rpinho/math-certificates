@@ -15,6 +15,6 @@
   "checker": "referee/independent_check.py",
   "checker_sha256": "cd062277973d833ecb88eeb5abaeb2e1d39f28a77f467e806beb52adb3506b5a",
   "report": "referee/REFEREE.md",
-  "report_sha256": "7397c65da73040984dc163ecfc97caf95491098c2fd5dccbdeab98bd9de2291b",
+  "report_sha256": "eb58e05857806ff7207e0168841a3f587ed3cee0470477a745018467da918ff7",
   "note": "Transcribed from the supplied actual clean-room referee run and its report, not a newly commissioned replay or a signed identity attestation. The original mathematical proof, certificate and finite receipt bytes are retained. The release PROOF.md changes attribution and adds a Corrections note; its argument is unchanged. The referee also read the producer report and prior-art note and two earlier referee reports; these are context, not mathematical checker inputs. Report citations and review wording were edited for portable publication; the checker and its data inputs are unchanged. The checker was freshly replayed from its own release folder and reached the same q and finite fraction."
 }
