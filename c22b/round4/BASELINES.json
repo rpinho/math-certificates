@@ -1,0 +1,6 @@
+{
+  "applicable": false,
+  "reason": "Deterministic geometric bound; no predictive metric or data split.",
+  "reproduced_starting_bound": "7.087580303 (unpublished round 3)",
+  "public_comparison": "7.087662112 (Doldrums / SCiEL, PR #342); exact certificate unavailable to the producer"
+}

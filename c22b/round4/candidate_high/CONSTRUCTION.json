@@ -1,0 +1,93 @@
+{
+  "kind": "c22b_even_fourier_superhelix_v1",
+  "status": "candidate and unrefereed",
+  "parameters": {
+    "N": "331/6",
+    "R": "586482106879/200000000000",
+    "outer_radius": "483102633599/250000000000",
+    "inner_radius": "15545425963/200000000000",
+    "reference_pitch": "40523356633/125000000000",
+    "scale": "1000001/1000000",
+    "cap_radius": "15/2",
+    "inner_cap_radius": "63/2",
+    "core_periods": 6
+  },
+  "claim": {
+    "coefficient": "7.087581",
+    "bar": "36/5",
+    "additive": "150",
+    "crossings_slope": 1324,
+    "crossings_intercept": 3,
+    "n_min": 1,
+    "components": 1
+  },
+  "certificate_domains": {
+    "body_phase": [
+      "0",
+      "44/7"
+    ],
+    "outer_difference": [
+      "3/2",
+      "9"
+    ],
+    "cross_difference": [
+      "-9",
+      "9"
+    ],
+    "body_interface_phase": [
+      "-8",
+      "0"
+    ],
+    "connector_length": [
+      "0",
+      "16"
+    ]
+  },
+  "credits": [
+    "Youhua Li",
+    "Claude",
+    "Huh\u2013Kim\u2013Oh",
+    "Olsen\u2013Bohr",
+    "Klotz\u2013Maldonado",
+    "Kim\u2013Oh\u2013Huh",
+    "Diao",
+    "Cantarella\u2013Kusner\u2013Sullivan",
+    "Litherland\u2013Simon\u2013Durumeric\u2013Rawdon",
+    "Kauffman\u2013Lambropoulou",
+    "Murasugi",
+    "Kauffman",
+    "Thistlethwaite",
+    "Doldrums / SCiEL / CPIL lab MBZUAI (even radius modulation)"
+  ],
+  "closure": {
+    "lower": "nested_semicircles",
+    "upper": "swapped_parallel_semicircles",
+    "vertical_clearance": "21/10"
+  },
+  "modulation": {
+    "outer_cos": [
+      "1931566317919/1000000000000",
+      "856026859/1000000000000",
+      "276591/200000000000",
+      "-8283669/1000000000000",
+      "-791183/125000000000",
+      "286361/200000000000",
+      "-12009/1000000000000"
+    ],
+    "inner_cos": [
+      "39141104299/500000000000",
+      "-229157223/500000000000",
+      "-28104853/1000000000000",
+      "-38357531/1000000000000",
+      "-27421237/1000000000000",
+      "-3084633/1000000000000",
+      "203917/1000000000000"
+    ],
+    "phase_sin": [
+      "-48416661/40000000000",
+      "561411/15625000000",
+      "71834467/1000000000000",
+      "122280043/500000000000"
+    ]
+  }
+}

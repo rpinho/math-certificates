@@ -1,0 +1,123 @@
+{
+  "verdict": "ALL_REQUESTED_RELEASE_REPLAYS_PASS",
+  "commands": [
+    {
+      "name": "candidate_high_contact",
+      "command": "python check_contact.py candidate_high",
+      "cwd": ".",
+      "pid": 51594,
+      "returncode": 0,
+      "seconds": 0.098,
+      "log": "candidate_high_contact.log"
+    },
+    {
+      "name": "candidate_high_controls",
+      "command": "python controls.py candidate_high",
+      "cwd": ".",
+      "pid": 51524,
+      "returncode": 0,
+      "seconds": 18.354,
+      "log": "candidate_high_controls.log"
+    },
+    {
+      "name": "candidate_high_determinant",
+      "command": "python check_determinant.py candidate_high",
+      "cwd": ".",
+      "pid": 51595,
+      "returncode": 0,
+      "seconds": 0.112,
+      "log": "candidate_high_determinant.log"
+    },
+    {
+      "name": "candidate_high_result",
+      "command": "python verify_result.py candidate_high",
+      "cwd": ".",
+      "pid": 51523,
+      "returncode": 0,
+      "seconds": 144.061,
+      "log": "candidate_high_result.log"
+    },
+    {
+      "name": "original_controls",
+      "command": "python original/run_controls.py original",
+      "cwd": ".",
+      "pid": 51525,
+      "returncode": 0,
+      "seconds": 25.569,
+      "log": "original_controls.log"
+    },
+    {
+      "name": "referee_body",
+      "command": "python covers.py body",
+      "cwd": "referee",
+      "pid": 51529,
+      "returncode": 0,
+      "seconds": 37.245,
+      "log": "referee_body.log"
+    },
+    {
+      "name": "referee_caps",
+      "command": "python caps_contact.py",
+      "cwd": "referee",
+      "pid": 51729,
+      "returncode": 0,
+      "seconds": 0.073,
+      "log": "referee_caps.log"
+    },
+    {
+      "name": "referee_curvature",
+      "command": "python covers.py curvature",
+      "cwd": "referee",
+      "pid": 51528,
+      "returncode": 0,
+      "seconds": 0.145,
+      "log": "referee_curvature.log"
+    },
+    {
+      "name": "referee_interfaces",
+      "command": "python covers.py interfaces",
+      "cwd": "referee",
+      "pid": 51726,
+      "returncode": 0,
+      "seconds": 0.237,
+      "log": "referee_interfaces.log"
+    },
+    {
+      "name": "referee_lower",
+      "command": "python covers.py lower",
+      "cwd": "referee",
+      "pid": 51728,
+      "returncode": 0,
+      "seconds": 0.061,
+      "log": "referee_lower.log"
+    },
+    {
+      "name": "referee_scalar_length",
+      "command": "python scalar.py",
+      "cwd": "referee",
+      "pid": 51526,
+      "returncode": 0,
+      "seconds": 0.862,
+      "log": "referee_scalar_length.log"
+    },
+    {
+      "name": "referee_topology",
+      "command": "python topology.py",
+      "cwd": "referee",
+      "pid": 51730,
+      "returncode": 0,
+      "seconds": 5.063,
+      "log": "referee_topology.log"
+    }
+  ],
+  "threads_per_library": 1,
+  "maximum_simultaneous_check_processes": 4,
+  "nice": 10,
+  "python_version": "3.12.13",
+  "packages": {
+    "python-flint": "0.9.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "sympy": "1.14.0"
+  }
+}

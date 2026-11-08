@@ -1,0 +1,34 @@
+{
+  "verdict": "PHYSICAL_WORD_CAP_DETERMINANTS_PASS",
+  "verifier": "separately written (same agent)",
+  "cases": [
+    {
+      "n": 1,
+      "relations_after_constant_color_quotient": [
+        -1327,
+        -1327
+      ],
+      "determinant": 1327,
+      "expected": 1327
+    },
+    {
+      "n": 2,
+      "relations_after_constant_color_quotient": [
+        -2651,
+        -2651
+      ],
+      "determinant": 2651,
+      "expected": 2651
+    },
+    {
+      "n": 3,
+      "relations_after_constant_color_quotient": [
+        -3975,
+        -3975
+      ],
+      "determinant": 3975,
+      "expected": 3975
+    }
+  ],
+  "qualification": "cap identifications use inherited prose; determinant alone does not identify knot type"
+}

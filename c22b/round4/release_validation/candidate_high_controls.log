@@ -1,0 +1,93 @@
+{"kind": "body_cross", "j": 0, "k": 0, "bounds": ["0", "11/56", "-9", "-63/8"], "reason": "short_arc"}
+{
+  "verdict": "NEW_MODULATION_CORRUPTIONS_REJECTED",
+  "verifier": "separately written (same agent)",
+  "controls": [
+    {
+      "name": "wrong rational period",
+      "rejection": "E_PERIODS"
+    },
+    {
+      "name": "false length claim",
+      "rejection": "E_LENGTH_COEFFICIENT"
+    },
+    {
+      "name": "different comparison bar",
+      "rejection": "E_BAR"
+    },
+    {
+      "name": "wrong crossing slope",
+      "rejection": "E_CROSSING_FORMULA"
+    },
+    {
+      "name": "wrong crossing intercept",
+      "rejection": "E_CROSSING_FORMULA"
+    },
+    {
+      "name": "wrong component count",
+      "rejection": "E_COMPONENT_COUNT"
+    },
+    {
+      "name": "inconsistent endpoint radius",
+      "rejection": "E_ENDPOINT_RADII"
+    },
+    {
+      "name": "scale below schema range",
+      "rejection": "E_PARAMETER_RANGE"
+    },
+    {
+      "name": "too short cap allowance",
+      "rejection": "E_ADDITIVE_LENGTH"
+    },
+    {
+      "name": "insufficient upper clearance",
+      "rejection": "E_UPPER_CLEARANCE"
+    },
+    {
+      "name": "wrong geometry binding",
+      "rejection": "E_ARTIFACT_HASH"
+    },
+    {
+      "name": "cover gap",
+      "rejection": "E_COVER_GAP"
+    },
+    {
+      "name": "duplicate cover leaf",
+      "rejection": "E_DUPLICATE_OR_PREFIX"
+    },
+    {
+      "name": "invalid leaf path",
+      "rejection": "E_PATH"
+    },
+    {
+      "name": "wrong leaf rationale",
+      "rejection": "E_LEAF_REASON"
+    },
+    {
+      "name": "unexpanded false unit-thickness contact",
+      "rejection": "E_DISTANCE_LEAF"
+    },
+    {
+      "name": "inner curvature corruption",
+      "rejection": "E_CURVATURE_LEAF"
+    },
+    {
+      "name": "wrong projection binding",
+      "rejection": "E_PROJECTION_HASH"
+    },
+    {
+      "name": "wrong projection direction",
+      "rejection": "E_PROJECTION_VECTOR"
+    },
+    {
+      "name": "inverse bracket corruption",
+      "rejection": "E_INVERSE_BRACKET"
+    },
+    {
+      "name": "physical braid crossing sign",
+      "rejection": "E_WORD_MISMATCH"
+    }
+  ],
+  "count": 21,
+  "seconds": 18.169615030288696
+}

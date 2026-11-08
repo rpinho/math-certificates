@@ -1,0 +1,147 @@
+{
+  "verdict": "CERTIFIED_CANDIDATE_C22B_UPPER_BOUND",
+  "qualification": "candidate, unverified by a third party; new modulated-radius proof steps are prose with no outside review",
+  "verifier": "separately written (same agent)",
+  "construction_sha256": "98ebe816e90e3898029e8019ef769518d003cedc98e0462f79d8659f0e0f160c",
+  "upper_bound_exact": "442972439/62500000",
+  "upper_bound_decimal": "7.087559024",
+  "target_exact": "7087580303/1000000000",
+  "margin_exact": "21279/1000000000",
+  "family": "T(2,1324n+3), n>=1, up to mirror",
+  "thickness_lower_exact": "1",
+  "length_per_crossing_interval": "[7.087559023364 +/- 3.23e-13]",
+  "length_taylor_remainder_interval": "[+/- 8.31e-14]",
+  "cap_length_upper_exact": "150",
+  "geometry": {
+    "verdict": "MODULATED_GEOMETRY_PASS_CANDIDATE_UNREFEREED",
+    "verifier": "separately written (same agent)",
+    "precision_bits": 180,
+    "covers": 22,
+    "leaves": 1006199,
+    "scalars": {
+      "length_coefficient_upper": "[7.087559023364 +/- 3.23e-13]",
+      "length_remainder_upper": "[+/- 8.31e-14]",
+      "cap_total_length": "[134.481173616860188596610679772 +/- 2.41e-28]",
+      "upper_plane_distance": "[5.36435565200946332070155228878 +/- 4.81e-30]",
+      "cross_bundle_clearance": "[2.00000197343538495429991268897 +/- 1.37e-30]",
+      "speeds": [
+        "[0.33196398708969354630 +/- 4.84e-21]",
+        "[1.9373778142035007477 +/- 1.94e-20]",
+        "[1.9373778142035007477 +/- 1.94e-20]",
+        "[0.33196398708969354630 +/- 4.84e-21]"
+      ],
+      "height_derivative_lower": [
+        "[1.9551309760230696286e-6 +/- 2.82e-27]",
+        "[0.30531691206203527466 +/- 3.46e-22]"
+      ]
+    },
+    "topology": {
+      "body_matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          1324,
+          1
+        ]
+      ],
+      "nilpotent_increment": [
+        [
+          0,
+          0
+        ],
+        [
+          1324,
+          0
+        ]
+      ],
+      "closure_constant_matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "closure_n_coefficient": [
+        [
+          0,
+          0
+        ],
+        [
+          1324,
+          0
+        ]
+      ],
+      "crossings": "4*P*n+3",
+      "knot": "T(2,4*P*n+3), up to mirror",
+      "components": 1,
+      "qualification": "expected body action and cap algebra; the actual physical word is checked by verify_projection.py, with the rational tangle argument in PROOF.md"
+    }
+  },
+  "physical_braid": {
+    "verdict": "PHYSICAL_BRAID_PROJECTION_PASS_CANDIDATE_UNREFEREED",
+    "verifier": "separately written (same agent)",
+    "projection": [
+      7,
+      1
+    ],
+    "inverse_witnesses": 32229,
+    "leaves": 52668,
+    "root_events": 1088,
+    "roots_by_function": {
+      "m": 650,
+      "p": 130,
+      "a": 296,
+      "i": 12
+    },
+    "raw_crossings": 1868,
+    "body_matrix": [
+      [
+        1,
+        0
+      ],
+      [
+        1324,
+        1
+      ]
+    ],
+    "permutation": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "qualification": "complete physical body braid check; full bound also requires geometry/caps and PROOF.md"
+  },
+  "example_alternating_diagrams": [
+    {
+      "m": 2,
+      "repeat": 1327,
+      "crossings": 1327,
+      "components": 1,
+      "alternating": true,
+      "no_self_loops_or_cut_vertices": true
+    },
+    {
+      "m": 2,
+      "repeat": 2651,
+      "crossings": 2651,
+      "components": 1,
+      "alternating": true,
+      "no_self_loops_or_cut_vertices": true
+    },
+    {
+      "m": 2,
+      "repeat": 3975,
+      "crossings": 3975,
+      "components": 1,
+      "alternating": true,
+      "no_self_loops_or_cut_vertices": true
+    }
+  ],
+  "seconds": 133.0589690208435
+}
