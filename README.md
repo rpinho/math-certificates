@@ -1,5 +1,7 @@
 # Math certificates
 
+![Terence Tao's optimization constants: new bounds](assets/banner.png)
+
 Part of my AI-for-science work: [biology](https://github.com/rpinho/ai-biology) ·
 [physics](https://github.com/rpinho/ai-physics).
 
