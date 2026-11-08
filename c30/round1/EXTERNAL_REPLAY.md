@@ -21,3 +21,11 @@ profile, not that the profile is achieved. It is not a peer review.
 Code: [arhancanli/quantavane-replays @ 367e97d](https://github.com/arhancanli/quantavane-replays/tree/367e97d01f678aa561d181884bd70a0fc4929731/c30) (`c30/`).
 They report no connection with the author and disclose AI assistance (Claude, Anthropic).
 This file is outside this packet's SHA256SUMS and MANIFEST.json, which stay as frozen.
+
+Erratum (8 November 2026): arhancanli
+[corrected](https://github.com/teorth/optimizationproblems/pull/317#issuecomment-6724941484)
+their interval class, whose unary minus and abs() had rounded to Python's default
+28-digit Decimal context. The fix is
+[quantavane-replays @ 77ebb85](https://github.com/arhancanli/quantavane-replays/commit/77ebb859d0e12b81d0ee642ac4eb77ade05dbded);
+every results file is byte-identical after it, and every comparison has a margin
+above 10^-13, so no conclusion changes.
