@@ -1,0 +1,530 @@
+{
+  "sha": "debf7c92f93bae64486e6302e565a2d3b1290f9c",
+  "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/trees/debf7c92f93bae64486e6302e565a2d3b1290f9c",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2348c91f7a198200e6bba5fdbb4386917bbb542b",
+      "size": 29,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/2348c91f7a198200e6bba5fdbb4386917bbb542b"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2179c78c75959e4eafed16a12a33163f727619e6",
+      "size": 1821,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/2179c78c75959e4eafed16a12a33163f727619e6"
+    },
+    {
+      "path": "code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "57aa478af3f038bb0b4cd72cc57e5f81324f796b",
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/trees/57aa478af3f038bb0b4cd72cc57e5f81324f796b"
+    },
+    {
+      "path": "code/capaxis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b0c07960189c625777805b462ff49f8fc2314b2",
+      "size": 5598,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/3b0c07960189c625777805b462ff49f8fc2314b2"
+    },
+    {
+      "path": "code/design.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45a192485050cb9a09c4d9ebc4ceb57d13fa30c3",
+      "size": 4065,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/45a192485050cb9a09c4d9ebc4ceb57d13fa30c3"
+    },
+    {
+      "path": "code/explore",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "81cb158f2f65bd076e78e96fab7846bf01b90ac7",
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/trees/81cb158f2f65bd076e78e96fab7846bf01b90ac7"
+    },
+    {
+      "path": "code/explore/alt_starts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "742750383d5724b9365bdfb197e052243e0caa7c",
+      "size": 1455,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/742750383d5724b9365bdfb197e052243e0caa7c"
+    },
+    {
+      "path": "code/explore/analyse.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25d6408e4ce81441beac7eec284d07126dc9d30a",
+      "size": 1395,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/25d6408e4ce81441beac7eec284d07126dc9d30a"
+    },
+    {
+      "path": "code/explore/coaxial_phase.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1cadd1616404541a5ef2c8ec34d327ededc72a5",
+      "size": 1482,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/d1cadd1616404541a5ef2c8ec34d327ededc72a5"
+    },
+    {
+      "path": "code/explore/dbg.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f31b5273a49348a8104f5dc9578098bf92582557",
+      "size": 1334,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/f31b5273a49348a8104f5dc9578098bf92582557"
+    },
+    {
+      "path": "code/explore/fourier_pattern.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f91dcecf1a783e2aa66b03b7db77304b34c4c329",
+      "size": 14970,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/f91dcecf1a783e2aa66b03b7db77304b34c4c329"
+    },
+    {
+      "path": "code/explore/scheduler.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d885ce348e41f60d8ea26f29298bfd9caf4d19e2",
+      "size": 633,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/d885ce348e41f60d8ea26f29298bfd9caf4d19e2"
+    },
+    {
+      "path": "code/helix_optimum.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "183a0339f109fcbce11a979480a8bb8cccad6255",
+      "size": 2575,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/183a0339f109fcbce11a979480a8bb8cccad6255"
+    },
+    {
+      "path": "code/ia.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11ac5b83348890736d205657cd0ad4c85f085fe6",
+      "size": 8297,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/11ac5b83348890736d205657cd0ad4c85f085fe6"
+    },
+    {
+      "path": "code/knot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5736f822c1a7d356989470440c99fc5f6cdadea0",
+      "size": 7702,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/5736f822c1a7d356989470440c99fc5f6cdadea0"
+    },
+    {
+      "path": "code/make_figures.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98be29923ac82606723bcbc85776c4fc98eb199c",
+      "size": 5651,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/98be29923ac82606723bcbc85776c4fc98eb199c"
+    },
+    {
+      "path": "code/opt_bottom.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a22c1374d4dac6ebd89b3290c9ada5ab0e3ed9af",
+      "size": 2260,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/a22c1374d4dac6ebd89b3290c9ada5ab0e3ed9af"
+    },
+    {
+      "path": "code/opt_cap.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "020c3779ae6074c9c494c2d3d0dd2141ee19327c",
+      "size": 1616,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/020c3779ae6074c9c494c2d3d0dd2141ee19327c"
+    },
+    {
+      "path": "code/verify_all.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "108af88fdbe53ed354a28fa3a686732c75d479e5",
+      "size": 10522,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/108af88fdbe53ed354a28fa3a686732c75d479e5"
+    },
+    {
+      "path": "code/verify_convex.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edb7919042cd89277713ec56b0cd86f5e9ef5198",
+      "size": 1098,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/edb7919042cd89277713ec56b0cd86f5e9ef5198"
+    },
+    {
+      "path": "code/verify_helix.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6533360f7cb23595d30eb9dbf426a94ac5134d30",
+      "size": 3778,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/6533360f7cb23595d30eb9dbf426a94ac5134d30"
+    },
+    {
+      "path": "code/verify_zones.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec4f7ae7bc69ffedd4b1cdbc4e9b34188620b262",
+      "size": 13171,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/ec4f7ae7bc69ffedd4b1cdbc4e9b34188620b262"
+    },
+    {
+      "path": "code/zones.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0f6cd40d84f2c06dc96ae2ced0f3a43407a5d50",
+      "size": 2608,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/e0f6cd40d84f2c06dc96ae2ced0f3a43407a5d50"
+    },
+    {
+      "path": "design.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "503230d7a47eebf1636c67e18abe3ed1c0478a1c",
+      "size": 255,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/503230d7a47eebf1636c67e18abe3ed1c0478a1c"
+    },
+    {
+      "path": "figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4eada8ad06191b8341cb14080bbb0376cbb33f06",
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/trees/4eada8ad06191b8341cb14080bbb0376cbb33f06"
+    },
+    {
+      "path": "figures/fig_helix.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c250a750c6fdfe1b78a38898a0a1b7a6b2ccabc3",
+      "size": 2153998,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/c250a750c6fdfe1b78a38898a0a1b7a6b2ccabc3"
+    },
+    {
+      "path": "figures/fig_helix.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5162368e228a4b793787845e12aa1db9902f3c47",
+      "size": 244523,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/5162368e228a4b793787845e12aa1db9902f3c47"
+    },
+    {
+      "path": "figures/fig_knot.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5138e0cf3591aa316b70324b33e954ca254d0549",
+      "size": 8075798,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/5138e0cf3591aa316b70324b33e954ca254d0549"
+    },
+    {
+      "path": "figures/fig_knot.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b643c3f2e6ee636190d1a8b95340f9a27f265db",
+      "size": 145688,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/8b643c3f2e6ee636190d1a8b95340f9a27f265db"
+    },
+    {
+      "path": "figures/fig_scan.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d0849741571558030813f14b3642ff59a8336cc",
+      "size": 30112,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/0d0849741571558030813f14b3642ff59a8336cc"
+    },
+    {
+      "path": "figures/fig_scan.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35536cd3dd7cc78e26c3ad67dc7b70702dc6a843",
+      "size": 54816,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/35536cd3dd7cc78e26c3ad67dc7b70702dc6a843"
+    },
+    {
+      "path": "paper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d56927e5e369767e971c140974ea6c13f94ef15a",
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/trees/d56927e5e369767e971c140974ea6c13f94ef15a"
+    },
+    {
+      "path": "paper/intro_zh.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c70fa98c13f6b6de523fe60c4ffdb9e4133223f9",
+      "size": 702685,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/c70fa98c13f6b6de523fe60c4ffdb9e4133223f9"
+    },
+    {
+      "path": "paper/intro_zh.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "735fd6832ff891135e357682b46bd370bd4c5f78",
+      "size": 28476,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/735fd6832ff891135e357682b46bd370bd4c5f78"
+    },
+    {
+      "path": "paper/main.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32707c65cb2675bef85f78091ef0c8f6a8bb50ea",
+      "size": 515823,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/32707c65cb2675bef85f78091ef0c8f6a8bb50ea"
+    },
+    {
+      "path": "paper/main.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d60a9488bc04f55e465bf716acc9f6550d7afac",
+      "size": 27243,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/6d60a9488bc04f55e465bf716acc9f6550d7afac"
+    },
+    {
+      "path": "paper/numbers.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "404df00577c26f392a118ca583173f7a22dd66df",
+      "size": 2488,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/404df00577c26f392a118ca583173f7a22dd66df"
+    },
+    {
+      "path": "results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fc7675b8bd5bd40b942063dbf3661b3880996c81",
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/trees/fc7675b8bd5bd40b942063dbf3661b3880996c81"
+    },
+    {
+      "path": "results/bottom_opt.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50317a5f7740aec28d757401e988b864b4408107",
+      "size": 171,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/50317a5f7740aec28d757401e988b864b4408107"
+    },
+    {
+      "path": "results/cap_opt.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce04d28f995d2c0e8550e5cab4385570016f5969",
+      "size": 62,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/ce04d28f995d2c0e8550e5cab4385570016f5969"
+    },
+    {
+      "path": "results/explore",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b4144ef0b9d8a473c700e63d88d0c9571d7d5ea5",
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/trees/b4144ef0b9d8a473c700e63d88d0c9571d7d5ea5"
+    },
+    {
+      "path": "results/explore/SUMMARY.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39f23fd544dc0fd3b441568f95cc1fbb788ad1f5",
+      "size": 1168,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/39f23fd544dc0fd3b441568f95cc1fbb788ad1f5"
+    },
+    {
+      "path": "results/explore/alt_q0.005_K4_T1.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14aada1de1575c40b924c97086ead03d92e29022",
+      "size": 568,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/14aada1de1575c40b924c97086ead03d92e29022"
+    },
+    {
+      "path": "results/explore/alt_q0.2_K4_T1.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f862387dc831eadc4fd1db4eb2039631ffda03f7",
+      "size": 567,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/f862387dc831eadc4fd1db4eb2039631ffda03f7"
+    },
+    {
+      "path": "results/explore/alt_q1.0_K3_T2.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "398e5f7f3fb3c16f8bc76355667d822c448b65e4",
+      "size": 275,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/398e5f7f3fb3c16f8bc76355667d822c448b65e4"
+    },
+    {
+      "path": "results/explore/alt_q1.0_K4_T1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8b28912768e2590ae7d10edff13961d22c5a949",
+      "size": 4112,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/c8b28912768e2590ae7d10edff13961d22c5a949"
+    },
+    {
+      "path": "results/explore/alt_q1.0_K4_T1.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "900173a52e22aa7155b5bbc5dee2e48d92d4f96d",
+      "size": 719,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/900173a52e22aa7155b5bbc5dee2e48d92d4f96d"
+    },
+    {
+      "path": "results/explore/coaxial_phase.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2972f273829515c2a85633247d6dc8021ac1fc7",
+      "size": 1235,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/d2972f273829515c2a85633247d6dc8021ac1fc7"
+    },
+    {
+      "path": "results/explore/fourier_K2_T1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5f25e9b5df84f6c44f6e822a02bd5493dc13dc8",
+      "size": 10951,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/a5f25e9b5df84f6c44f6e822a02bd5493dc13dc8"
+    },
+    {
+      "path": "results/explore/fourier_K3_T2_a0.03.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2f4553d4b045da35a99b00f1b95f26bde55a5dd",
+      "size": 52090,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/f2f4553d4b045da35a99b00f1b95f26bde55a5dd"
+    },
+    {
+      "path": "results/explore/fourier_K4_T1_a0.03.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3605624aaf31420fb07ffcea69f90d067b769ecb",
+      "size": 34949,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/3605624aaf31420fb07ffcea69f90d067b769ecb"
+    },
+    {
+      "path": "results/explore/fourier_K4_T1_a0.1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf6cab80ef92a7ab2f34e5e540ebcc6b0e40d8e6",
+      "size": 22567,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/bf6cab80ef92a7ab2f34e5e540ebcc6b0e40d8e6"
+    },
+    {
+      "path": "results/explore/fourier_K6_T1_a0.03.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e24786ea7410df99d0ded83f5dec08e6b03b5b2",
+      "size": 29804,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/1e24786ea7410df99d0ded83f5dec08e6b03b5b2"
+    },
+    {
+      "path": "results/explore/run_K3_T2_a0.03.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06387152ed4120cb1a7615ddb238d06257fe4706",
+      "size": 1569,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/06387152ed4120cb1a7615ddb238d06257fe4706"
+    },
+    {
+      "path": "results/explore/run_K4_T1_a0.03.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "112917ca5096e0577277571980c8b5024156da1b",
+      "size": 1567,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/112917ca5096e0577277571980c8b5024156da1b"
+    },
+    {
+      "path": "results/explore/run_K4_T1_a0.1.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5577489ebee2471faef9bf48f3b034380d3b3e1",
+      "size": 1567,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/a5577489ebee2471faef9bf48f3b034380d3b3e1"
+    },
+    {
+      "path": "results/explore/run_K4_T2_a0.06.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6cf82309d1b8187fc7682768a1f79935e62092c",
+      "size": 789,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/a6cf82309d1b8187fc7682768a1f79935e62092c"
+    },
+    {
+      "path": "results/explore/run_K6_T1_a0.03.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43a946fb9a0ceec42d03626aee59652d8b3a710c",
+      "size": 1570,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/43a946fb9a0ceec42d03626aee59652d8b3a710c"
+    },
+    {
+      "path": "results/explore/run_K8_T1_a0.03.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7151d95b794ca9c2fe8cb1edfe1deb6aa9bcedba",
+      "size": 1064,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/7151d95b794ca9c2fe8cb1edfe1deb6aa9bcedba"
+    },
+    {
+      "path": "results/explore/scheduler.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "004b7b4656efa4074a4665932a5483cfbfc01d96",
+      "size": 115,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/004b7b4656efa4074a4665932a5483cfbfc01d96"
+    },
+    {
+      "path": "results/helix_scan.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f219f9d62157edaf50dd6e6f0ebe61c1e3c9aeea",
+      "size": 3143,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/f219f9d62157edaf50dd6e6f0ebe61c1e3c9aeea"
+    },
+    {
+      "path": "results/opt_bottom.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a73ceff1178d6ec5dd5e2e09d3b6bbdeb01670d",
+      "size": 16427,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/9a73ceff1178d6ec5dd5e2e09d3b6bbdeb01670d"
+    },
+    {
+      "path": "results/verification.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eddc5edf15977ad5920888668edd4e8bd7bb1469",
+      "size": 1113,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/eddc5edf15977ad5920888668edd4e8bd7bb1469"
+    },
+    {
+      "path": "results/verification_log.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78d208604a35df4c868b9d563d154ef49e572a7d",
+      "size": 5293,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/78d208604a35df4c868b9d563d154ef49e572a7d"
+    },
+    {
+      "path": "results/verification_log_full.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78d208604a35df4c868b9d563d154ef49e572a7d",
+      "size": 5293,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/78d208604a35df4c868b9d563d154ef49e572a7d"
+    },
+    {
+      "path": "results/verify_run.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78d208604a35df4c868b9d563d154ef49e572a7d",
+      "size": 5293,
+      "url": "https://api.github.com/repos/YouhuaLi/tight-alternating-knot-constant/git/blobs/78d208604a35df4c868b9d563d154ef49e572a7d"
+    }
+  ],
+  "truncated": false,
+  "commit": "debf7c92f93bae64486e6302e565a2d3b1290f9c"
+}

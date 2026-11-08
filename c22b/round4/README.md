@@ -53,7 +53,7 @@ All coefficients are exact rationals in
 [CONSTRUCTION.json](candidate_high/CONSTRUCTION.json); the authoritative
 tighter final bound is [BOUND.json](candidate_high/BOUND.json).
 Construction SHA-256: `98ebe816e90e3898029e8019ef769518d003cedc98e0462f79d8659f0e0f160c`.
-The auxiliary coefficient in CONSTRUCTION.json is a looser intermediate
+The auxiliary coefficient in candidate_high/CONSTRUCTION.json is a looser intermediate
 claim; verify_result.py checks the tighter BOUND.json value separately.
 
 Use N=331/6, R=2.932410534395, b=0.324186853064,
@@ -133,7 +133,7 @@ of these prose steps remains needed.
 BOUND.json is authoritative for the final coefficient and binds it to
 construction SHA-256
 `98ebe816e90e3898029e8019ef769518d003cedc98e0462f79d8659f0e0f160c`.
-CONSTRUCTION.json preserves its earlier looser 7.087581 coefficient and
+candidate_high/CONSTRUCTION.json preserves its earlier looser 7.087581 coefficient and
 source-time status. The selected contact certifies a thickness upper
 bound at specified points, not a global contact minimum. The referee
 corrects an obsolete separation value from its instructions: the selected

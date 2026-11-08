@@ -1,0 +1,158 @@
+{
+  "claims": [
+    {
+      "value": "7.087559024",
+      "kind": "rigorous",
+      "producer": "verify_result.py",
+      "arithmetic": "interval",
+      "new_bound": true
+    },
+    {
+      "value": "148967627309/20734375000",
+      "kind": "rigorous",
+      "producer": "sources/claim_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Exact finite-n=1 consequence or displayed equivalent of the family coefficient; derived from the proved length inequality, not a separately optimized bound. Decimal ellipsis values are prefixes, not exact equality endpoints."
+    },
+    {
+      "value": "7.18457283178296910324",
+      "kind": "rigorous",
+      "producer": "sources/claim_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Exact finite-n=1 consequence or displayed equivalent of the family coefficient; derived from the proved length inequality, not a separately optimized bound. Decimal ellipsis values are prefixes, not exact equality endpoints."
+    },
+    {
+      "value": "7.184572831782969",
+      "kind": "rigorous",
+      "producer": "sources/claim_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Exact finite-n=1 consequence or displayed equivalent of the family coefficient; derived from the proved length inequality, not a separately optimized bound. Decimal ellipsis values are prefixes, not exact equality endpoints."
+    },
+    {
+      "value": "7.184572832",
+      "kind": "rigorous",
+      "producer": "sources/claim_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Exact finite-n=1 consequence or displayed equivalent of the family coefficient; derived from the proved length inequality, not a separately optimized bound. Decimal ellipsis values are prefixes, not exact equality endpoints."
+    },
+    {
+      "value": "442972439/62500000",
+      "kind": "rigorous",
+      "producer": "sources/claim_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Exact finite-n=1 consequence or displayed equivalent of the family coefficient; derived from the proved length inequality, not a separately optimized bound. Decimal ellipsis values are prefixes, not exact equality endpoints."
+    },
+    {
+      "value": "1",
+      "kind": "rigorous",
+      "producer": "verify_result.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Thickness lower bound / uniform cap allowance checked by the geometry and length verifier."
+    },
+    {
+      "value": "150",
+      "kind": "rigorous",
+      "producer": "verify_result.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Thickness lower bound / uniform cap allowance checked by the geometry and length verifier."
+    },
+    {
+      "value": "1.000001",
+      "kind": "rigorous",
+      "producer": "referee/scalar.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Exact scale or cross-bundle separation computed by the independent referee."
+    },
+    {
+      "value": "2.000001999997999998",
+      "kind": "rigorous",
+      "producer": "referee/scalar.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Exact scale or cross-bundle separation computed by the independent referee."
+    },
+    {
+      "value": "7.087662112",
+      "kind": "cited",
+      "source": "https://github.com/teorth/optimizationproblems/pull/342",
+      "new_bound": false
+    },
+    {
+      "value": "7.090412",
+      "kind": "cited",
+      "source": "https://github.com/teorth/optimizationproblems/pull/324",
+      "new_bound": false
+    },
+    {
+      "value": "0.000103088",
+      "kind": "rigorous",
+      "producer": "sources/claim_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Exact rational subtraction 7.087662112 - 7.087559024; comparator from PR #342, not a new optimized value."
+    },
+    {
+      "value": "7.087581",
+      "kind": "cited",
+      "source": "https://github.com/rpinho/math-certificates/blob/e4e7b4b8bfc3654d5a4eb5e6e83491dab24b5a77/c22b/round4/candidate_high/CONSTRUCTION.json",
+      "new_bound": false,
+      "note": "Historical looser auxiliary coefficient explicitly retained in the construction."
+    },
+    {
+      "value": "T(2,1327)",
+      "kind": "rigorous",
+      "producer": "verify_result.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Complete displayed knot identifier, not the scalar 21327. The finite alternating diagram check and physical projection support it; knot identification additionally uses PROOF.md and the referee all-n argument."
+    },
+    {
+      "value": "7.087559023364",
+      "kind": "rigorous",
+      "producer": "verify.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Body-coefficient enclosure center/radius or cap-length upper endpoint reported by the producer, not an additional optimized bound."
+    },
+    {
+      "value": "3.23e-13",
+      "kind": "rigorous",
+      "producer": "verify.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Body-coefficient enclosure center/radius or cap-length upper endpoint reported by the producer, not an additional optimized bound."
+    },
+    {
+      "value": "134.481173616861",
+      "kind": "rigorous",
+      "producer": "verify.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Body-coefficient enclosure center/radius or cap-length upper endpoint reported by the producer, not an additional optimized bound."
+    },
+    {
+      "value": "7.08755902336373937805",
+      "kind": "rigorous",
+      "producer": "referee/check_scalar_standalone.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Outward endpoint of the referee coefficient enclosure."
+    },
+    {
+      "value": "7.08755902336373937815",
+      "kind": "rigorous",
+      "producer": "referee/check_scalar_standalone.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Outward endpoint of the referee coefficient enclosure."
+    }
+  ]
+}

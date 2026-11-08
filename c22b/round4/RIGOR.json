@@ -1,0 +1,193 @@
+{
+  "steps": [
+    {
+      "document": "README.md",
+      "statement": "This uses the certified uniform cap allowance 150, rather than estimating\nthe finite value from a limiting coefficient.",
+      "producer": "verify.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "PROOF.md",
+      "statement": "This is a rigorous Taylor integral bound, not an estimate\nfrom ordinary quadrature.",
+      "producer": "verify.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "PROOF.md",
+      "statement": "Every distance leaf proves squared distance >4, either by natural Arb evaluation, or by the midpoint plus the full interval gradient times the rectangle displacement.",
+      "producer": "verify.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "PROOF.md",
+      "statement": "Every curvature leaf proves",
+      "producer": "verify.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "PROOF.md",
+      "statement": "Every other leaf proves distance>2.",
+      "producer": "verify.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "PROOF.md",
+      "statement": "## Rigorous length",
+      "producer": "verify.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "PROOF.md",
+      "statement": "This works because all arithmetic, trig operations and the positive square root are differentiated by rigorous series operations; the cell's speed norm interval is checked positive.",
+      "producer": "verify.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "PROOF.md",
+      "statement": "The global height-derivative lower bound proves H'_r>0 everywhere.",
+      "producer": "verify.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "PROOF.md",
+      "statement": "This extension removes no geometric hypothesis: the numerical height floor was reduced from 0.00002 to 0.000002, while the checker still proves strictly positive height derivative on complete intervals.",
+      "producer": "verify.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "README.md",
+      "statement": "The selected contact certifies a thickness upper bound at specified points, not a global contact minimum.",
+      "producer": "check_contact.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "../round1/PROOF.md",
+      "statement": "The physical length coefficient below is slightly larger; AppendixF divides it by the certified thickness margin.",
+      "producer": "../round1/verify.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "../round1/PROOF.md",
+      "statement": "The rational interval [0,44/7] covers a full period; the checker proves 44/7>2pi.",
+      "producer": "../round1/verify.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "../round1/PROOF.md",
+      "statement": "A rigorous length estimate without numerical quadrature",
+      "producer": "../round1/verify.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "../round1/PROOF.md",
+      "statement": "The checker proves 0<c_r<1, p_a>0, p_-i<0.",
+      "producer": "../round1/verify.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "../round1/PROOF.md",
+      "statement": "The checker proves",
+      "producer": "../round1/verify.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "../round1/PROOF.md",
+      "statement": "The checker reconstructs each complete rational binary partition and proves f_j>4 on every leaf.",
+      "producer": "../round1/verify.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "../round1/PROOF.md",
+      "statement": "For connector l>=16, either 16c_r>2 proves vertical separation, or the checked inequality",
+      "producer": "../round1/verify.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "../round1/PROOF.md",
+      "statement": "proves horizontal separation, whenever the connector length exceeds16.",
+      "producer": "../round1/verify.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "../round1/PROOF.md",
+      "statement": "The checker proves the stronger one-axis-turn inequality lambda2pi h>2; Q n>=1 gives H_n>2.",
+      "producer": "../round1/verify.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "../round1/PROOF.md",
+      "statement": "Certified physical braid, cap tangles, and crossing number",
+      "producer": "../round1/verify_projection.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "../round1/PROOF.md",
+      "statement": "The separately written (same agent) verifier recomputes the inverse-height brackets, proves all zero/nonzero leaves, orders the root events and derives the over/under word.",
+      "producer": "../round1/verify_projection.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "../round1/PROOF.md",
+      "statement": "The checker verifies these inverses and the braid relation UVU=VUV exactly, then multiplies the actions along the certified 1560-crossing physical word.",
+      "producer": "../round1/verify_projection.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "../round1/PROOF.md",
+      "statement": "All24849 stored inverse brackets are verified this way.",
+      "producer": "../round1/verify_projection.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "../round1/PROOF.md",
+      "statement": "It proves each participating pair is adjacent and uses the interval sign of the depth difference to decide over/under.",
+      "producer": "../round1/verify_projection.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "../round1/PROOF.md",
+      "statement": "This is a certified margin for the closed family, not a sampled estimate.",
+      "producer": "../round1/verify_margin.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "../round1/PROOF.md",
+      "statement": "Scaling alone leaves ropelength unchanged; the sharper bound comes from tighter global thickness checking and explicit use of that verified margin.",
+      "producer": "../round1/verify_margin.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "../round1/PROOF.md",
+      "statement": "The checker proves D,V and DV-Q^2 positive.",
+      "producer": "../round1/verify_contact.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "../round1/PROOF.md",
+      "statement": "Arb proves t0<R<1000099/1000000.",
+      "producer": "../round1/verify_contact.py",
+      "arithmetic": "interval"
+    },
+    {
+      "document": "README.md",
+      "statement": "Computation certifies finite interval inequalities, full partition coverage,\nTaylor remainders, physical block projections and exact algebra.",
+      "producer": "verify.py",
+      "arithmetic": "interval",
+      "note": "Geometry, partition and Taylor components; physical projection and algebra are provided by the companion entry, not claimed from geometry alone."
+    },
+    {
+      "document": "README.md",
+      "statement": "Computation certifies finite interval inequalities, full partition coverage,\nTaylor remainders, physical block projections and exact algebra.",
+      "producer": "verify_projection.py",
+      "arithmetic": "interval",
+      "note": "Physical projection and exact algebra component; this entry does not substitute for the prose knot-type proof."
+    },
+    {
+      "document": "../round1/PROOF.md",
+      "statement": "This justifies using the physically certified body color action with the cap\ncolor actions in Section5.",
+      "producer": "../round1/verify_projection.py",
+      "arithmetic": "interval",
+      "note": "Maps only the computed physical body color action. The projection-alignment isotopy remains the analytic argument in this paragraph."
+    }
+  ]
+}

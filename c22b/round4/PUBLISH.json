@@ -1,0 +1,24 @@
+{
+  "target": "teorth/optimizationproblems",
+  "new_bound": true,
+  "producer_author": "codex math_c22br4_1108",
+  "producer_model": "gpt-6.1-sol",
+  "replay_inputs": {
+    "PROOF.md": "proof",
+    "../round1/PROOF.md": "proof",
+    "candidate_high/CONSTRUCTION.json": "certificate",
+    "candidate_high/BOUND.json": "certificate",
+    "candidate_high/CONTACT_POINT.json": "certificate"
+  },
+  "publication_commit": "323c12b1a7bbc8c416ea52ae8abdee0176395609",
+  "publication_tree": "sources/publish-trees/rpinho__optimizationproblems@323c12b1a7bbc8c416ea52ae8abdee0176395609.json",
+  "linked_trees": {
+    "YouhuaLi/tight-alternating-knot-constant@debf7c92f93bae64486e6302e565a2d3b1290f9c": "sources/publish-trees/YouhuaLi__tight-alternating-knot-constant@debf7c92f93bae64486e6302e565a2d3b1290f9c.json",
+    "rpinho/math-certificates@59eeb7097f806da05187b5f234445be3589204d4": "sources/publish-trees/rpinho__math-certificates@59eeb7097f806da05187b5f234445be3589204d4.json",
+    "rpinho/math-certificates@e4e7b4b8bfc3654d5a4eb5e6e83491dab24b5a77": "sources/publish-trees/rpinho__math-certificates@e4e7b4b8bfc3654d5a4eb5e6e83491dab24b5a77.json",
+    "rpinho/math-certificates@e8460e5af62ae1a579de3e3889a8021311905e64": "sources/publish-trees/rpinho__math-certificates@e8460e5af62ae1a579de3e3889a8021311905e64.json",
+    "rpinho/optimizationproblems@323c12b1a7bbc8c416ea52ae8abdee0176395609": "sources/publish-trees/rpinho__optimizationproblems@323c12b1a7bbc8c416ea52ae8abdee0176395609.json"
+  },
+  "submitter": "rpinho",
+  "destination": "c22b/round4"
+}

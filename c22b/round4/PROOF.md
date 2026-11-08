@@ -17,7 +17,7 @@ replace that review.
 
 ## Exact body and closure
 
-Each CONSTRUCTION.json contains exact rational parameters. Write N=P/Q in
+Each of candidate_high/CONSTRUCTION.json and original/CONSTRUCTION.json contains exact rational parameters. Write N=P/Q in
 lowest terms, h=(N-1)b, s=sqrt(R^2+h^2), and lambda for the uniform body
 scale. Let the signed radius r(u) be a(u)>0 on the outer strand and -i(u)<0
 on the inner strand, where a and i are the cosine polynomials in

@@ -1,0 +1,26 @@
+{
+  "number": 342,
+  "author": {
+    "login": "Doldrums",
+    "id": 38398999,
+    "node_id": "MDQ6VXNlcjM4Mzk4OTk5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/38398999?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Doldrums",
+    "html_url": "https://github.com/Doldrums",
+    "followers_url": "https://api.github.com/users/Doldrums/followers",
+    "following_url": "https://api.github.com/users/Doldrums/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Doldrums/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Doldrums/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Doldrums/subscriptions",
+    "organizations_url": "https://api.github.com/users/Doldrums/orgs",
+    "repos_url": "https://api.github.com/users/Doldrums/repos",
+    "events_url": "https://api.github.com/users/Doldrums/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Doldrums/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "body": "## What changed\n\nImproves the candidate upper bound on C22b from 7.090412* (#324) to **7.087662112***. Adds its row and reference to `constants/22b.md`, updates the README table cell and \"Recent progress\". Markdown only. Stacked on #324, which adds the 7.090412 row and whose proof we reuse; we will rebase once it is merged.\n\n## Evidence\n\n- Construction: the four-strand superhelix family T(2,1104n+3) of #324, n >= 1, same P/Q=276/5, same caps, with even radii a(u), i(u) carrying cos u and cos 2u terms. Exact rationals in `construction.json`.\n- Certified by interval arithmetic (mpmath): length per crossing at most 7.0895361607 (Cauchy-Schwarz on 4096 cells with the exact integral of the squared speed), thickness at least 100026441/100000000, so C22b <= 7.08766211189, rounded up. All geometry covers, cap inequalities and the 210 piece pairs pass (`run.log`).\n- Knot type: an interval computation of the physical braid of one block gives action [[1,0],[1104,1]] and identity permutation. The same code on #324's parameters returns its published 908 events, 1560 crossings and matrix, and the candidate's word equals that word. A checked straight-line isotopy from #324's body to ours is a second route.\n- Corruption controls: see `controls.log`.\n- Certificate: https://doi.org/10.5281/zenodo.24038188.\n  SHA-256 `construction.json`: `41e5f626aac87323d8036a821d8801fee3680c8a4ecfef04b3af49c8e4505df5`\n  SHA-256 `verify.py`: `7bf0043c3af90099f1b1e02e1fac3dcbf66459c3e34c42961ad347e3cf1d2ef0`\n  SHA-256 `PROOF.md`: `9be3229e6941813e8010c9beedf6b797577cb3e3e5085a3f7a737796621c0e40`\n  SHA-256 `run.log`: `354454555348420846ec4d660a4135250b1246909e2cec5269b1d1ddb83f5001`\n  SHA-256 `controls.log`: `3e333b7c266e1c0acb4ad79deb0a1d737d9cc4cfabfcdf899aa8e708c6ffcb03`\n\n## Please read before relying on this\n\n- The proof is `PROOF.md`. It reuses #324's cap algebra, tangle identification, piece exhaustion and crossing-number argument, and #324's proof is itself open and unrefereed. The new steps for modulated radii (even radii, speed supremum, length by Cauchy-Schwarz on cells, monotone height inversion and isotopy) have had no outside review.\n- The program checks finite inequalities and the block action. The analytic reductions, the assignment of piece pairs to checks, and the use of the thickness, rational tangle and crossing-minimality theorems are prose.\n- `verify.py` and `PROOF.md` were written together with the search, by the same team, so `verify.py` checks the implementation and is not an independent check of the mathematics. It uses mpmath intervals, not Arb. No human has verified it line by line, and no independent referee has checked it.\n- This is a small refinement of #324's structure, not a new structure.\n\n## Context\n\n| Step | Upper bound | Gain |\n| --- | --- | --- |\n| [Kim2024] | 7.31 | |\n| [Claude2026] | 7.2012719* | 1.49% |\n| #324 | 7.090412* | 1.54% |\n| this PR | 7.087662112* | 0.039% over #324 |\n\nRadius modulation was put into the task family by us, not discovered by the search; the search refined it. As a baseline, order-2 harmonics by plain simplex polish reached 7.088143, about 83% of this gain. A longer or richer polish may do better.\n\n## Use of AI\n\nThe parameters were found by [SCiEL](https://sciel-rsi-cpil.github.io/), a recursive self-improvement (RSI) system built on cultural transmission, running an open language model (Qwen3.8-27B) that writes and refines search programs scored by a certified thickness and length bound. We then set the small sine terms to zero, which the caps require, and re-certified.\n\nAuthors: Arina Kharlamova, Jikun Kang, Yusheng Zhao, Xue Liu, Bowei He (CPIL lab, MBZUAI).\n",
+  "url": "https://github.com/teorth/optimizationproblems/pull/342"
+}

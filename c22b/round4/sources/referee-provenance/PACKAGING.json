@@ -1,0 +1,17 @@
+{
+  "original_job": "math_c22bref4_1108",
+  "original_model": "GPT-6 Astra via Codex",
+  "checker_components": {
+    "referee/geometry.py": "433fc3adb8c1e63dfc1eb32c871d6e66c7c82e49802dc18f43953c86a9164dcb",
+    "referee/scalar.py": "4416a34b3e3ad5088f2739e371788fa9d135e5eae7deb2d13fafe3d1c718e793"
+  },
+  "transformation": "Concatenate geometry.py, newline, scalar.py with its initial from geometry import * removed; prepend two explanatory comments. No mathematical expression changed.",
+  "standalone_checker": "referee/check_scalar_standalone.py",
+  "standalone_checker_sha256": "d99f04d37bdd414da004c32b5ea224a236ad8c4a894155b50a8b92e25f549aa3",
+  "rerun_exit_code": 0,
+  "rerun_output_equals_published_scalar_json": true,
+  "original_scalar_sha256": "56c5c5d946d38de65572e6456178f99d7e2ada486ff74aa7551fe57fae577f69",
+  "rerun_scalar_sha256": "56c5c5d946d38de65572e6456178f99d7e2ada486ff74aa7551fe57fae577f69",
+  "attestation_source": "REFEREE.original.md, paragraph 3; STATUS.original.md identifies the actual referee job and conclusion. Hashes do not authenticate historical model identity or prove isolation.",
+  "published_input_hashes_are_reconstructed": true
+}

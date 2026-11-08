@@ -1,0 +1,22 @@
+{
+  "model": "GPT-6 Astra via Codex",
+  "author": "codex math_c22bref4_1108 (clean-room)",
+  "status": "PASS",
+  "value": "7.087559024",
+  "arithmetic": "interval",
+  "inputs": {
+    "PROOF.md": "e9123fafcbec6337bef0c1b652bb879f72022788e12e0ef9e9250f676dca086d",
+    "../round1/PROOF.md": "3b3a4025cea47c5e1a8b2a213bb889c74c42ddc70ea0824e20a8eb737e713df7",
+    "candidate_high/CONSTRUCTION.json": "98ebe816e90e3898029e8019ef769518d003cedc98e0462f79d8659f0e0f160c",
+    "candidate_high/BOUND.json": "3d3649cc311bc0458affaae7ed4d3ddef071a1ee2828df2a2e3e334121f667f8",
+    "candidate_high/CONTACT_POINT.json": "9dac35542e91aee6b7454c31553139bc444cceb0fb426cd7e124816cd118d7a1"
+  },
+  "inputs_hash": "1a811a8d74f0c405a2f803e65660139b88b890293124943bed8fff90ebb44b44",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/check_scalar_standalone.py",
+  "checker_sha256": "d99f04d37bdd414da004c32b5ea224a236ad8c4a894155b50a8b92e25f549aa3",
+  "report": "referee/REFEREE.md",
+  "report_sha256": "170a347689f9bf019261122518fa3d3358bf22712c91904b029e291df6a2a3c7",
+  "note": "Reconstructed from the real math_c22bref4_1108 referee run, not a newly commissioned clean-room run. Original attestations and scalar checker provenance are retained in sources/referee-provenance/. The published checker is a mechanical concatenation of the referee's unchanged geometry.py and scalar.py, removing only the redundant local import. The same scalar computation was successfully rerun during manifest packaging, with its result and log retained there. Authorship/model/no-code-access describe the original referee, not the packaging operator. The complete referee also ran covers.py, caps_contact.py and topology.py, as REFEREE.md and release_validation attest. This scalar checker reproduces the displayed family coefficient; it does not replace those other checks or the prose proof. Inputs and report hash the published, release-remapped bytes, not an unrecorded historical hash receipt. 2026-11-08: PROOF.md changed only by a path qualification in one sentence (\"Each CONSTRUCTION.json\" -> \"Each of candidate_high/CONSTRUCTION.json and original/CONSTRUCTION.json\"), to remove an ambiguous file citation; its input hash and inputs_hash were updated for that wording change only."
+}
