@@ -1,0 +1,5 @@
+M 5869 D 52193 kappa built 2.3
+distinct r1 tuples 27022 distinct r2 tuples 25962
+distinct (A0,A1) 31803755
+distinct delta keys 27411
+(killed after ~40 min: the final stage (31.8M (A0,A1) pairs x 27k delta histograms) is too slow in pure Python; replaced by exact low-cost enumeration and random-residue sampling, see k3_partial_check.py)

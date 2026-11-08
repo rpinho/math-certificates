@@ -1,0 +1,28 @@
+{
+ "baseline": {
+  "PASS": true,
+  "theta_lo": "1.192815557092986248",
+  "numerator_positive": true
+ },
+ "claim_raised_to_1.19281556": {
+  "PASS": false,
+  "theta_lo": "1.192815557092986248",
+  "numerator_positive": true
+ },
+ "x_scaled_by_(1-1e-4)": {
+  "PASS": false,
+  "theta_lo": "1.181781956347559187",
+  "numerator_positive": true
+ },
+ "ell_1e9": {
+  "PASS": false,
+  "theta_lo": "1.018428859987180436",
+  "numerator_positive": true
+ },
+ "hist_multiplicity_plus1": {
+  "rejected_by": "AssertionError: "
+ },
+ "hist_move_one_unit_between_classes": {
+  "rejected_by": "AssertionError: odd classes"
+ }
+}

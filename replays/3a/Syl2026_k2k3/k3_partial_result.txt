@@ -1,0 +1,15 @@
+T 17500 ordered triples with sum <=T: 21907345
+enumerated in 12.1 s; residues hit 21907335
+costs <= T compared: 1306 mismatches: 0 []
+Lemma0 (automaton) vs exact enumeration on 20000 residues: mismatches 0
+sample size 300000
+  quantile 0.001: threshold cost 29802  hist F=0.00100  sample F=0.00099  z=-0.18
+  quantile 0.010: threshold cost 35534  hist F=0.01000  sample F=0.00988  z=-0.66
+  quantile 0.050: threshold cost 40384  hist F=0.05002  sample F=0.05022  z=0.52
+  quantile 0.100: threshold cost 42801  hist F=0.10001  sample F=0.09962  z=-0.71
+  quantile 0.250: threshold cost 46622  hist F=0.25000  sample F=0.24986  z=-0.18
+  quantile 0.500: threshold cost 50413  hist F=0.50006  sample F=0.49970  z=-0.39
+  quantile 0.750: threshold cost 53742  hist F=0.75007  sample F=0.75030  z=0.28
+  quantile 0.900: threshold cost 56428  hist F=0.90000  sample F=0.90009  z=0.16
+  quantile 0.990: threshold cost 60565  hist F=0.99001  sample F=0.99014  z=0.74
+max |z| = 0.74

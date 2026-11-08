@@ -1,0 +1,18 @@
+{
+ "baseline": {
+  "PASS": true,
+  "theta_lo": "1.192302540705685029"
+ },
+ "claim_1.1923025408": {
+  "PASS": false,
+  "theta_lo": "1.192302540705685029"
+ },
+ "x_times_(1-1e-4)": {
+  "PASS": false,
+  "theta_lo": "1.185847932068995087"
+ },
+ "ell_1e9": {
+  "PASS": false,
+  "theta_lo": "1.192286337995122451"
+ }
+}
