@@ -1,0 +1,42 @@
+{
+  "utc_finished": "2026-11-08T00:58:11.117182+00:00",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "python": "3.12.13",
+  "max_threads": 4,
+  "stages": [
+    {
+      "stage": "compile",
+      "seconds": 0.4661964580009226
+    },
+    {
+      "stage": "field_rank_BCH",
+      "seconds": 0.03313324999908218
+    },
+    {
+      "stage": "subcode_information_sets_RS_control",
+      "seconds": 0.06552079199900618
+    },
+    {
+      "stage": "RS_BZ",
+      "seconds": 0.05540462500357535
+    },
+    {
+      "stage": "candidate_BZ",
+      "seconds": 4.4499907919962425
+    },
+    {
+      "stage": "BCH_cases_and_assemble",
+      "seconds": 1.3046597920038039
+    }
+  ],
+  "total_seconds": 6.386021291997167,
+  "all_children_exited": true,
+  "pids": [
+    15189,
+    15197,
+    15198,
+    15199,
+    15200,
+    15226
+  ]
+}

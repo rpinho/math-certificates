@@ -1,6 +1,6 @@
-# Reproducing the eight exact checks
+# Reproducing the nine exact checks
 
-The checkers for the first seven codes (referees 2–4) were built from source inside this package and rerun successfully on 2026-11-06T20:35:26.562449+00:00. All ranks and exact minimum distances match the saved referee outputs. No candidate disagreement or incomplete search occurred. The original referee outputs remain in each check/result.json and check/run.log; the package reruns use rerun_result.json and rerun.log; for [106,12,72] they are check/result.txt and check/rerun_result.txt.
+The checkers for the first seven codes (referees 2–4) were built from source inside this package and rerun successfully on 2026-11-06T20:35:26.562449+00:00. All ranks and exact minimum distances match the saved referee outputs. No candidate disagreement or incomplete search occurred. The original referee outputs remain in each check/result.json and check/run.log; the package reruns use rerun_result.json and rerun.log; for [106,12,72] they are check/result.txt and check/rerun_result.txt; for [85,15,54] the originals are check/distance_result.json and the other unprefixed files, and the reruns are check/rerun_*.
 
 The run used Python 3.12.13 and Apple clang 21.0.0 on ARM64. Referee 2 has a scalar fallback; referees 3 and 4 require ARM64 NEON. All Python support files use only the standard library. Set PYTHONDONTWRITEBYTECODE=1 (or use python3 -B) to avoid creating bytecode caches. The commands below use python3 for portability; the executed Python was the shared research environment.
 
@@ -16,6 +16,7 @@ At most four enumeration workers ran concurrently: each referee 2 candidate used
 | [99,12,67] GF(9) | 12 | 67 | 67 | 89.229100 | 89.249746 |
 | [92,13,61] GF(9) | 13 | 61 | 61 | 34.741800 | 34.758886 |
 | [106,12,72] GF(9) | 12 | 72 | 72 | 27.9225 | 28.237 |
+| [85,15,54] GF(9) | 15 | 54 | 54 | 4.024 (candidate enumeration only) | not measured |
 
 Checker time is the program’s own elapsed measurement; wall time additionally includes process launch/exit. The four concurrent referee 3 wall times overlap and should not be summed as total wall time.
 
@@ -174,3 +175,7 @@ Referee 5's checker was built from the packaged source and rerun on 2026-11-07 w
 ```sh
 nice -n 10 checkers/ref5/checker q9_n106_k12_d72/generator.txt > q9_n106_k12_d72/check/rerun_result.txt 2> q9_n106_k12_d72/check/rerun.log
 ```
+
+## [85,15,54] over GF(9) (referee 6, added 2026-11-08 UTC)
+
+The referee's Python and C++ sources are in [checkers/ref6](checkers/ref6/README.md). They write into their working directory, so the replay runs in a fresh temporary directory; [q9_n85_k15_d54/check/COMMAND.md](q9_n85_k15_d54/check/COMMAND.md) has the commands. The package replay (Python 3.9.6; the referee used Python 3.12.13) gave rank 15 and d = 54 in 7.7 s including compilation, with the candidate enumeration taking 4.024 s, matching the referee outputs apart from timing fields and thread output order ([RERUN.md](q9_n85_k15_d54/check/RERUN.md)).

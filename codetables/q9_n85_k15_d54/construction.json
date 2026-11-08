@@ -1,0 +1,152 @@
+{
+ "q": 9,
+ "n": 85,
+ "k": 15,
+ "base_n": 80,
+ "a": 1,
+ "h1": [
+  7,
+  5,
+  2,
+  8,
+  4,
+  5,
+  8,
+  8,
+  4,
+  5,
+  2,
+  1,
+  0,
+  7,
+  2,
+  1
+ ],
+ "h2": [
+  5,
+  0,
+  1,
+  5,
+  1,
+  8,
+  0,
+  4,
+  0,
+  7,
+  8,
+  7,
+  7,
+  0,
+  1
+ ],
+ "h3": [
+  6,
+  0,
+  4,
+  2,
+  4,
+  8,
+  4,
+  1,
+  4,
+  7,
+  4,
+  3,
+  1
+ ],
+ "h0": [
+  3,
+  3,
+  2,
+  0,
+  8,
+  0,
+  8,
+  7,
+  3,
+  8,
+  4,
+  1
+ ],
+ "aux": [
+  [
+   1,
+   1,
+   1
+  ],
+  [
+   4,
+   3,
+   2
+  ]
+ ],
+ "auxiliary_matrices": [
+  [
+   [
+    1
+   ]
+  ],
+  [
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    2,
+    3
+   ],
+   [
+    0,
+    1,
+    1,
+    2
+   ]
+  ]
+ ],
+ "guaranteed_d": 54,
+ "field_encoding": "GF(9)=GF(3)[t]/(t^2+1), a+3*b encodes a+b*t",
+ "construction": "Construction XX (Alltop) on cyclic codes of length 80 over GF(9)",
+ "components": {
+  "C1": [
+   80,
+   15,
+   51
+  ],
+  "C2": [
+   80,
+   14,
+   52
+  ],
+  "C3": [
+   80,
+   12,
+   53
+  ],
+  "C0_intersection": [
+   80,
+   11,
+   54
+  ],
+  "note": "51 and 52 are BCH lower bounds; 53 and 54 were computed exactly by the producer"
+ },
+ "tails": {
+  "aux1": [
+   1,
+   1,
+   1
+  ],
+  "aux2": [
+   4,
+   3,
+   2
+  ]
+ },
+ "guarantee_formula": "min(d0, d2+delta3, d3+delta2, d1+delta2+delta3)",
+ "guarantee_evaluation": "min(54, 52+2, 53+1, 51+1+2) = 54",
+ "producer_checks": "two complete methods by the producing agent (polynomial construction proof with projective kernel enumeration; matrix-kernel Brouwer-Zimmermann with Vandermonde constraints), both exact distance 54",
+ "third_party_verified": false
+}
