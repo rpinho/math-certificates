@@ -1,0 +1,135 @@
+{
+  "claims": [
+    {
+      "value": "1.7040280575",
+      "kind": "rigorous",
+      "producer": "referee/independent_check.py",
+      "arithmetic": "exact",
+      "new_bound": true
+    },
+    {
+      "value": "1771220457083239070854869084751983500209800598673/1039431510074799032049552767561236480000000000000",
+      "kind": "rigorous",
+      "producer": "verify_exact.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Exact periodic ratio; same construction as the new printed claim, not a separately optimized value."
+    },
+    {
+      "value": "81179170702072811560461937774649547472268267876630428381100034109236137/47639573975778160894755636560089704255253920609263650078720000000000000",
+      "kind": "rigorous",
+      "producer": "referee/independent_check.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Exact finite consequence of the periodic ratio, not a separate optimized bound."
+    },
+    {
+      "value": "0.0008189839",
+      "kind": "rigorous",
+      "producer": "comparison.py",
+      "arithmetic": "exact",
+      "new_bound": false
+    },
+    {
+      "value": "0.0009180575",
+      "kind": "rigorous",
+      "producer": "comparison.py",
+      "arithmetic": "exact",
+      "new_bound": false
+    },
+    {
+      "value": "1.70402805756367672706384135011685550657560332493166213",
+      "kind": "rigorous",
+      "producer": "sources/claim_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "A downward decimal prefix followed by an ellipsis in prose, not an asserted exact decimal equality. The exact rational is authoritative."
+    },
+    {
+      "value": "1.70402805750000000000102915424912982456718329505136590703",
+      "kind": "rigorous",
+      "producer": "sources/claim_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "A downward decimal prefix followed by an ellipsis in prose, not an asserted exact decimal equality. The exact rational is authoritative."
+    },
+    {
+      "value": "1.704028057500000000001029154249",
+      "kind": "rigorous",
+      "producer": "sources/claim_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "A downward decimal prefix followed by an ellipsis in prose, not an asserted exact decimal equality. The exact rational is authoritative."
+    },
+    {
+      "value": "1.704028057563676727063841350116",
+      "kind": "rigorous",
+      "producer": "sources/claim_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "A downward decimal prefix followed by an ellipsis in prose, not an asserted exact decimal equality. The exact rational is authoritative."
+    },
+    {
+      "value": "1.7032090736",
+      "kind": "cited",
+      "source": "https://github.com/teorth/optimizationproblems/pull/341",
+      "new_bound": false
+    },
+    {
+      "value": "1.70311",
+      "kind": "cited",
+      "source": "https://github.com/teorth/optimizationproblems/pull/321",
+      "new_bound": false
+    },
+    {
+      "value": "1.7032218573",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false
+    },
+    {
+      "value": "1.7033053786",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false
+    },
+    {
+      "value": "1.7033694707",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false
+    },
+    {
+      "value": "2",
+      "kind": "rigorous",
+      "producer": "referee/independent_check.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Definition dimension, certificate count or finite construction parameter; not a new numerical bound."
+    },
+    {
+      "value": "98",
+      "kind": "rigorous",
+      "producer": "referee/independent_check.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Definition dimension, certificate count or finite construction parameter; not a new numerical bound."
+    },
+    {
+      "value": "1500",
+      "kind": "rigorous",
+      "producer": "referee/independent_check.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Definition dimension, certificate count or finite construction parameter; not a new numerical bound."
+    },
+    {
+      "value": "214084879817",
+      "kind": "rigorous",
+      "producer": "referee/independent_check.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Definition dimension, certificate count or finite construction parameter; not a new numerical bound."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "result": "PASS",
+  "commands": [
+    {
+      "name": "exact",
+      "command": "python3 verify_exact.py certificates/final.json --claim 1771220457083239070854869084751983500209800598673/1039431510074799032049552767561236480000000000000 --out release_validation/exact.json",
+      "cwd": ".",
+      "pid": 21726,
+      "returncode": 0,
+      "seconds": 0.747
+    },
+    {
+      "name": "controls",
+      "command": "python3 rejection_controls.py certificates/final.json 1771220457083239070854869084751983500209800598673/1039431510074799032049552767561236480000000000000",
+      "cwd": ".",
+      "pid": 21728,
+      "returncode": 0,
+      "seconds": 0.947
+    },
+    {
+      "name": "finite",
+      "command": "python3 finite_instance.py certificates/final.json release_validation/exact.json release_validation/finite.json --claim 681611223/400000000",
+      "cwd": ".",
+      "pid": 21736,
+      "returncode": 0,
+      "seconds": 0.022
+    },
+    {
+      "name": "referee",
+      "command": "python3 independent_check.py",
+      "cwd": "referee",
+      "pid": 21737,
+      "returncode": 0,
+      "seconds": 2.232
+    },
+    {
+      "name": "comparison",
+      "command": "python3 comparison.py",
+      "cwd": ".",
+      "pid": 21741,
+      "returncode": 0,
+      "seconds": 0.015
+    },
+    {
+      "name": "claim_facts",
+      "command": "python3 sources/claim_facts.py",
+      "cwd": ".",
+      "pid": 21742,
+      "returncode": 0,
+      "seconds": 0.014
+    }
+  ],
+  "nice": 20,
+  "maximum_simultaneous_processes": 1,
+  "python": "3.12.13",
+  "generated_witness_tsv_sha256": "9314c749c0e73db083b290f8b0b986ed3d0179ac395af914cd00de9df729f54d",
+  "generated_witness_tsv": "Regenerated and inspected; omitted from public packet and trashed after replay."
+}

@@ -1,0 +1,20 @@
+{
+  "model": "GPT-6 Astra via Codex",
+  "author": "separate commissioned clean-room referee session",
+  "status": "PASS",
+  "value": "1.7040280575",
+  "arithmetic": "exact",
+  "inputs": {
+    "referee/sources/producer-proof.md": "72226760991855177614278160c85b7938876be5e33b7ea79c5dfd88a9691752",
+    "certificates/final.json": "bc342d18f9fe219828856bcaa9531669a1051c2685394e41dfbeb3e794e818eb",
+    "referee/sources/final-finite.json": "c1444264d096d87ae7863b7de9fa77dca8c1c51b8f89f616c531b40c469fd3ed"
+  },
+  "inputs_hash": "482c5c4af8bb8a6f433f09d0db91570cc36480ddb134fcc1c6de1e65132d5f51",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/independent_check.py",
+  "checker_sha256": "cd062277973d833ecb88eeb5abaeb2e1d39f28a77f467e806beb52adb3506b5a",
+  "report": "referee/REFEREE.md",
+  "report_sha256": "7397c65da73040984dc163ecfc97caf95491098c2fd5dccbdeab98bd9de2291b",
+  "note": "Transcribed from the supplied actual clean-room referee run and its report, not a newly commissioned replay or a signed identity attestation. The original mathematical proof, certificate and finite receipt bytes are retained. The release PROOF.md changes attribution and adds a Corrections note; its argument is unchanged. The referee also read the producer report and prior-art note and two earlier referee reports; these are context, not mathematical checker inputs. Report citations and review wording were edited for portable publication; the checker and its data inputs are unchanged. The checker was freshly replayed from its own release folder and reached the same q and finite fraction."
+}

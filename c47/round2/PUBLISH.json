@@ -1,0 +1,26 @@
+{
+  "target": "teorth/optimizationproblems",
+  "new_bound": true,
+  "producer_author": "producer search-and-checker session",
+  "producer_model": "GPT-6.1 Sol via Codex",
+  "replay_inputs": {
+    "referee/sources/producer-proof.md": "proof",
+    "certificates/final.json": "certificate",
+    "referee/sources/final-finite.json": "certificate"
+  },
+  "publication_commit": "b2925204970588f719a01e3520d9ff112f07b53b",
+  "publication_tree": "sources/publish-trees/SCiEL-RSI-CPIL__optimizationproblems@b2925204970588f719a01e3520d9ff112f07b53b.json",
+  "linked_trees": {
+    "SCiEL-RSI-CPIL/optimizationproblems@b2925204970588f719a01e3520d9ff112f07b53b": "sources/publish-trees/SCiEL-RSI-CPIL__optimizationproblems@b2925204970588f719a01e3520d9ff112f07b53b.json",
+    "rpinho/math-certificates@59eeb7097f806da05187b5f234445be3589204d4": "sources/publish-trees/rpinho__math-certificates@59eeb7097f806da05187b5f234445be3589204d4.json",
+    "CoolRmal/centered-maximal-constant@72c022ba09032b522c878cca2f9b6c68217d77ea": "sources/publish-trees/CoolRmal__centered-maximal-constant@72c022ba09032b522c878cca2f9b6c68217d77ea.json"
+  },
+  "submitter": "rpinho",
+  "destination": "c47/round2",
+  "stacked_on": 341,
+  "stack_history": [
+    321,
+    341
+  ],
+  "publication_links": "COMMIT_SHA is intentionally unresolved until a public certificate commit exists; this local draft cannot receive a pinned publication receipt."
+}
