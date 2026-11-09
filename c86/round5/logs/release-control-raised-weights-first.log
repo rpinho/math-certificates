@@ -1,0 +1,44 @@
+E1-E4 and E6 pass bound 1.80549399628009 min integral 9.999628196720546e-11
+cells 100 / 6308 pieces 105 seconds 8.1
+cells 200 / 6308 pieces 246 seconds 14.1
+cells 300 / 6308 pieces 385 seconds 19.9
+cells 400 / 6308 pieces 538 seconds 25.7
+cells 500 / 6308 pieces 653 seconds 31.5
+cells 600 / 6308 pieces 794 seconds 37.3
+cells 700 / 6308 pieces 933 seconds 43.3
+cells 800 / 6308 pieces 1054 seconds 49.2
+cells 900 / 6308 pieces 1188 seconds 54.9
+cells 1000 / 6308 pieces 1315 seconds 60.8
+cells 1100 / 6308 pieces 1460 seconds 66.7
+cells 1200 / 6308 pieces 1561 seconds 72.4
+cells 1300 / 6308 pieces 1707 seconds 78.2
+cells 1400 / 6308 pieces 1847 seconds 84.4
+cells 1500 / 6308 pieces 1981 seconds 90.2
+cells 1600 / 6308 pieces 2094 seconds 96.0
+cells 1700 / 6308 pieces 2242 seconds 101.7
+cells 1800 / 6308 pieces 2376 seconds 107.6
+cells 1900 / 6308 pieces 2531 seconds 113.3
+cells 2000 / 6308 pieces 2674 seconds 119.1
+cells 2100 / 6308 pieces 2794 seconds 124.8
+cells 2200 / 6308 pieces 2946 seconds 130.6
+cells 2300 / 6308 pieces 3065 seconds 136.4
+cells 2400 / 6308 pieces 3177 seconds 142.1
+cells 2500 / 6308 pieces 3342 seconds 147.8
+cells 2600 / 6308 pieces 3508 seconds 153.6
+cells 2700 / 6308 pieces 3650 seconds 159.3
+cells 2800 / 6308 pieces 3792 seconds 164.9
+cells 2900 / 6308 pieces 3923 seconds 170.6
+cells 3000 / 6308 pieces 4083 seconds 176.2
+cells 3100 / 6308 pieces 4241 seconds 182.2
+cells 3200 / 6308 pieces 4416 seconds 187.8
+cells 3300 / 6308 pieces 4544 seconds 193.4
+cells 3400 / 6308 pieces 4746 seconds 199.0
+cells 3500 / 6308 pieces 4967 seconds 204.6
+Traceback (most recent call last):
+  File "verify_linear.py", line 147, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "verify_linear.py", line 139, in main
+    assert not point<0,('E5 counterexample',str(m),str(point))
+           ^^^^^^^^^^^
+AssertionError: ('E5 counterexample', '318243228196687210611/147573952589676412928', '[-8.5615209649771597789492465856152e-8 +/- 6.46e-40]')

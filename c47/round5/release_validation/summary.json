@@ -1,0 +1,51 @@
+{
+  "result": "PASS",
+  "commands": [
+    {
+      "name": "exact",
+      "command": "nice -n 10 python3 verify_exact.py certificates/final.json --claim 57160787529186565434927719505838181711244340833364808847853/33528886534937259000645393217902994011665203200000000000000 --out release_validation/exact.json",
+      "cwd": ".",
+      "pid": 80360,
+      "returncode": 0,
+      "seconds": 12.117
+    },
+    {
+      "name": "controls",
+      "command": "nice -n 10 python3 rejection_controls.py certificates/final.json 57160787529186565434927719505838181711244340833364808847853/33528886534937259000645393217902994011665203200000000000000",
+      "cwd": ".",
+      "pid": 80421,
+      "returncode": 0,
+      "seconds": 12.518
+    },
+    {
+      "name": "finite",
+      "command": "nice -n 10 python3 finite_instance.py certificates/final.json release_validation/exact.json release_validation/finite.json --claim 17048221231/10000000000",
+      "cwd": ".",
+      "pid": 80456,
+      "returncode": 0,
+      "seconds": 0.046
+    },
+    {
+      "name": "referee",
+      "command": "nice -n 10 python3 check_certificate.py --certificate ../certificates/final.json --finite ../producer_logs/final-finite.json --out ../release_validation/referee-results.json",
+      "cwd": "referee",
+      "pid": 80457,
+      "returncode": 0,
+      "seconds": 12.218
+    }
+  ],
+  "nice": 20,
+  "maximum_simultaneous_compute_processes": 1,
+  "python": "3.12.13",
+  "regenerable_outputs": "omitted-generated.json",
+  "portable_referee_replay": {
+    "result": "PASS",
+    "cwd": "referee",
+    "command": "python3 check_certificate.py --certificate ../certificates/final.json --finite ../producer_logs/final-finite.json --out ../release_validation/referee-results.json",
+    "log": "referee-final.log",
+    "nice": 15,
+    "seconds": 15.860876082995674,
+    "checker_sha256": "0b745faa7dfbaac719e441ae5ab8638564944a8e62dc24c3f9e01356873fe4f2",
+    "all_original_result_fields_except_elapsed_seconds_match": true
+  }
+}

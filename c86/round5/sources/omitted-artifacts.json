@@ -1,0 +1,53 @@
+[
+  {
+    "role": "producer cover",
+    "original_basename": "polish128_positive-second.json.cover.json",
+    "sha256": "a38784915e9c55273d293f8ad002c7d3af81f72b78ad5249a8f2aabec13395c6",
+    "bytes": 7672074,
+    "regenerate": "python parallel_verify.py certificate.json --workers 4 --output release_validation/second.json",
+    "note": "Historical source-run bytes; the referee JSONL scheduling and timing fields are nondeterministic."
+  },
+  {
+    "role": "referee cover",
+    "original_basename": "cover.jsonl",
+    "sha256": "3b54d1ac93de098c4b4707f96a60e43f0e0cee34df9b9a5c175308effe6e3eb7",
+    "bytes": 24501095,
+    "regenerate": "cd referee && python cover_check.py ../certificate.json --workers 4 --output ../release_validation/referee-cover.jsonl",
+    "note": "Historical source-run bytes; the referee JSONL scheduling and timing fields are nondeterministic."
+  },
+  {
+    "role": "fresh producer cover",
+    "release_path": "release_validation/second.json.cover.json",
+    "sha256": "a38784915e9c55273d293f8ad002c7d3af81f72b78ad5249a8f2aabec13395c6",
+    "bytes": 7672074,
+    "regenerate": "python parallel_verify.py certificate.json --workers 4 --output release_validation/second.json"
+  },
+  {
+    "role": "fresh referee cover",
+    "release_path": "release_validation/referee-cover.jsonl",
+    "sha256": "e1414e2036b3f30aeff15e04af48b987eb8e9d7b8c5c44bdbd47ccfe55660981",
+    "bytes": 24501197,
+    "regenerate": "cd referee && python cover_check.py ../certificate.json --workers 4 --output ../release_validation/referee-cover.jsonl"
+  },
+  {
+    "role": "regenerable corruption witness",
+    "release_path": "controls/release-negative-integral.json",
+    "sha256": "3159ebdf651e43dde13db21e272b7600c86f556e0f353535ea495bf67e1e41e8",
+    "bytes": 620953,
+    "regenerate": "python negative_integral_control.py certificate.json release"
+  },
+  {
+    "role": "regenerable corruption witness",
+    "release_path": "controls/release-raised-weights.json",
+    "sha256": "3b2f8bc5709a26ffb67efbfcf5dd14b32b755c95ab7d39affc71db14d6d15d48",
+    "bytes": 621132,
+    "regenerate": "python negative_controls.py certificate.json release"
+  },
+  {
+    "role": "regenerable corruption witness",
+    "release_path": "controls/release-wrong-bound.json",
+    "sha256": "498b6ad7f2e65234a2b9c8f89e577383101d096b8e6f0da51e382abe8c721648",
+    "bytes": 620957,
+    "regenerate": "python negative_controls.py certificate.json release"
+  }
+]

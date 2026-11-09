@@ -1,0 +1,77 @@
+E1-E4 and E6 pass bound 1.80549399628009 min integral 9.999628196720546e-11
+cells 100 / 6308 pieces 490 seconds 8.0
+cells 200 / 6308 pieces 1032 seconds 13.6
+cells 300 / 6308 pieces 1624 seconds 19.2
+cells 400 / 6308 pieces 2275 seconds 24.9
+cells 500 / 6308 pieces 2773 seconds 30.5
+cells 600 / 6308 pieces 3303 seconds 36.1
+cells 700 / 6308 pieces 3840 seconds 41.8
+cells 800 / 6308 pieces 4311 seconds 47.5
+cells 900 / 6308 pieces 4800 seconds 52.9
+cells 1000 / 6308 pieces 5359 seconds 58.7
+cells 1100 / 6308 pieces 6021 seconds 64.2
+cells 1200 / 6308 pieces 6455 seconds 69.8
+cells 1300 / 6308 pieces 7012 seconds 75.5
+cells 1400 / 6308 pieces 7663 seconds 80.9
+cells 1500 / 6308 pieces 8234 seconds 86.5
+cells 1600 / 6308 pieces 8685 seconds 92.1
+cells 1700 / 6308 pieces 9305 seconds 97.7
+cells 1800 / 6308 pieces 9827 seconds 103.2
+cells 1900 / 6308 pieces 10449 seconds 108.7
+cells 2000 / 6308 pieces 10958 seconds 114.7
+cells 2100 / 6308 pieces 11567 seconds 120.4
+cells 2200 / 6308 pieces 12198 seconds 126.1
+cells 2300 / 6308 pieces 12767 seconds 131.6
+cells 2400 / 6308 pieces 13278 seconds 137.2
+cells 2500 / 6308 pieces 13902 seconds 143.2
+cells 2600 / 6308 pieces 14498 seconds 148.8
+cells 2700 / 6308 pieces 15070 seconds 154.4
+cells 2800 / 6308 pieces 15592 seconds 159.9
+cells 2900 / 6308 pieces 16188 seconds 165.5
+cells 3000 / 6308 pieces 16724 seconds 171.0
+cells 3100 / 6308 pieces 17283 seconds 176.6
+cells 3200 / 6308 pieces 17857 seconds 182.3
+cells 3300 / 6308 pieces 18332 seconds 187.9
+cells 3400 / 6308 pieces 18968 seconds 193.5
+cells 3500 / 6308 pieces 19517 seconds 199.1
+cells 3600 / 6308 pieces 20077 seconds 204.5
+cells 3700 / 6308 pieces 20621 seconds 210.2
+cells 3800 / 6308 pieces 21163 seconds 215.9
+cells 3900 / 6308 pieces 21736 seconds 221.4
+cells 4000 / 6308 pieces 22337 seconds 227.1
+cells 4100 / 6308 pieces 22790 seconds 232.9
+cells 4200 / 6308 pieces 23251 seconds 238.6
+cells 4300 / 6308 pieces 23770 seconds 244.2
+cells 4400 / 6308 pieces 24308 seconds 250.0
+cells 4500 / 6308 pieces 24751 seconds 255.7
+cells 4600 / 6308 pieces 25350 seconds 261.2
+cells 4700 / 6308 pieces 25903 seconds 266.8
+cells 4800 / 6308 pieces 26344 seconds 272.2
+cells 4900 / 6308 pieces 26917 seconds 277.8
+cells 5000 / 6308 pieces 27390 seconds 283.3
+cells 5100 / 6308 pieces 27867 seconds 288.9
+cells 5200 / 6308 pieces 28370 seconds 294.4
+cells 5300 / 6308 pieces 28757 seconds 299.8
+cells 5400 / 6308 pieces 29174 seconds 305.3
+cells 5500 / 6308 pieces 29626 seconds 310.9
+cells 5600 / 6308 pieces 30222 seconds 316.5
+cells 5700 / 6308 pieces 30723 seconds 322.1
+cells 5800 / 6308 pieces 31336 seconds 327.6
+cells 5900 / 6308 pieces 31832 seconds 333.1
+cells 6000 / 6308 pieces 32439 seconds 338.5
+cells 6100 / 6308 pieces 33024 seconds 343.9
+cells 6200 / 6308 pieces 33434 seconds 349.3
+cells 6300 / 6308 pieces 33729 seconds 354.9
+{
+  "valid": true,
+  "certificate_sha256": "e5fb93f6c31d2e3b38c986ac71c1d076414d680429fb2cbb91db77fb2e12c9d8",
+  "bound": "1561194641062402479525057156208744733/864691128455135125642991200018366464",
+  "bound_float": 1.80549399628009,
+  "beats": true,
+  "threshold": "1.8054956",
+  "min_E4": 9.999628196720546e-11,
+  "pieces": 33865,
+  "min_E5_lower": 1.8843127169375721e-13,
+  "maxdepth": 12,
+  "seconds": 355.71474504470825
+}

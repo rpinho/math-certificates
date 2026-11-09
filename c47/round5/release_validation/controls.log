@@ -1,0 +1,7 @@
+raised-claim 1 {'result': 'FAIL', 'error': 'ratio 57160787529186565434927719505838181711244340833364808847853/33528886534937259000645393217902994011665203200000000000000 is below claim 8722043995542383641804156418742631621975597853449318579264969328920237/5116102071371041717627776064743498842112000000000000000000000000000000', 'seconds': 12.03764009475708}
+changed-heavy-mass 1 {'result': 'FAIL', 'error': 'witness lacks strict mass margin', 'seconds': 0.008813142776489258}
+oversized-radius 1 {'result': 'FAIL', 'error': 'witness lacks strict mass margin', 'seconds': 0.008514881134033203}
+expanded-rectangle 1 {'result': 'FAIL', 'error': 'rectangle not inside witness', 'seconds': 0.008635997772216797}
+atom-outside-cell 1 {'result': 'FAIL', 'error': 'invalid atom', 'seconds': 0.005785703659057617}
+zero-mass 1 {'result': 'FAIL', 'error': 'invalid atom', 'seconds': 0.0058078765869140625}
+duplicate-atom 1 {'result': 'FAIL', 'error': 'duplicate atom', 'seconds': 0.007288217544555664}

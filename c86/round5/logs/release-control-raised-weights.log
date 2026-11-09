@@ -1,0 +1,9 @@
+EXACT {'mass': '999999999999999877/1000000000000000000', 'trace': '1561194641062402479525057156208744733/864691128455135232000000000000000000', 'bound': '1561194641062402479525057156208744733/864691128455135125642991200018366464', 'degree': '8996850258290972077/10000000000000000000', 'sha256': '3b2f8bc5709a26ffb67efbfcf5dd14b32b755c95ab7d39affc71db14d6d15d48', 'nodes': 7418, 'support_cells': 6308}
+WITNESS 5 [-0.000911950920139554790838335623839206868515576537 +/- 6.21e-49]
+Traceback (most recent call last):
+  File "independent_verify.py", line 249, in <module>
+    verify(args.certificate,args.output,args.order,args.maxdepth,args.integrals_only,args.witness)
+  File "independent_verify.py", line 202, in verify
+    assert value>0, 'nonpositive potential witness'
+           ^^^^^^^
+AssertionError: nonpositive potential witness

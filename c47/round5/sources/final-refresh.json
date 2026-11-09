@@ -1,0 +1,40 @@
+{
+  "utc": "2026-11-09T19:50:15.571578+00:00",
+  "open_pr_count": 85,
+  "live_main": "87b4ebbd426ff8db597a2004cc45da17903bdcf2",
+  "touching47a": [
+    321,
+    341,
+    350
+  ],
+  "other_prs_based_on_350": [],
+  "current_350_body_unchanged": true,
+  "named_result_heads": [
+    {
+      "repo": "BakeLab/Epi-results",
+      "head": "97fa6a420f417458e11723c8bceb70f1529e447a",
+      "unchanged": true
+    },
+    {
+      "repo": "google-deepmind/alphaevolve_results",
+      "head": "4226acbf237ff9ad10ba7673a2af127a2d8a5971",
+      "unchanged": true
+    },
+    {
+      "repo": "openai/math",
+      "head": "4eaee87548250b2682affda7d05d947c05554bae",
+      "unchanged": true
+    },
+    {
+      "repo": "plasma-ai/erdos",
+      "head": "17c86a0d4ebe1487a087ceb8c14952a10ec2f2bd",
+      "unchanged": true
+    },
+    {
+      "repo": "kisonecat/openai-math",
+      "head": "77bce8d6471b3ede2fb7364539bb7bee37f6452b",
+      "unchanged": true
+    }
+  ],
+  "result": "REFRESHED; C47 CONTEXT UNCHANGED"
+}

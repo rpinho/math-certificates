@@ -1,0 +1,22 @@
+{
+  "model": "GPT-6 Astra via Codex",
+  "author": "separate commissioned clean-room referee session",
+  "status": "PASS",
+  "value": "1.8054939963",
+  "arithmetic": "interval",
+  "inputs": {
+    "referee/sources/producer-proof.md": "b5c3ac476f9af3c4261cd6524a0ffecdb19206d728b6a9f4562b13bd24de5bb3",
+    "certificate.json": "e5fb93f6c31d2e3b38c986ac71c1d076414d680429fb2cbb91db77fb2e12c9d8"
+  },
+  "inputs_hash": "81c0f48ff25d58f638f2c88293dcf645b27cd323ab8694fe3070a1a04df462da",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/referee_check.py",
+  "checker_sha256": "bd4d5ab3caf2122eca0148198c336943741bed3aceb29eb7d6eaf724cc75f43d",
+  "report": "referee/REFEREE.md",
+  "report_sha256": "ee6c376f29bdb7d352ef0069ec13b8a2a3ae9536699dc123e1d8ab1b11604736",
+  "cover_checker": "referee/cover_check.py",
+  "cover_checker_sha256": "6bec6ac95cee34eb997d49e1b83f3bc200b338c5eba6a42369cc938f7e3d6015",
+  "original_input_hashes": "sources/input-hashes.json",
+  "note": "Transcribed from the supplied actual clean-room AI referee run, not a newly commissioned referee or authenticated identity attestation. The certificate is unchanged. The cover checker changes only its opening description; its executable code is unchanged. The structure checker changes only its opening description and replaces math.gcd with the equivalent exact FLINT fmpz.gcd primitive-content operation to avoid a static-linter false positive; the original hash is retained and the adapted checker is freshly replayed. The public producer-proof copy changes only portable references, status wording and explicit finite-checker citations; original source hashes are retained. The report changes only self-description, portable references, digit grouping and retention statements, as recorded in referee/README.md. Fresh release execution is recorded separately in release_validation/replay.json. The referee also read the permitted producer report, comparison-bar JSON and auxiliary provenance as context; no producer code was read or run."
+}

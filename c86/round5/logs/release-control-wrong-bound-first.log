@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "verify_linear.py", line 147, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "verify_linear.py", line 55, in main
+    assert trace/mass==rat(c['bound']);assert sum(b*(len(q)-1) for b,q in zip(B,A))<mass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

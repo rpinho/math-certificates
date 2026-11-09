@@ -1,0 +1,25 @@
+{
+  "source_sha256": "e5fb93f6c31d2e3b38c986ac71c1d076414d680429fb2cbb91db77fb2e12c9d8",
+  "corrupted_file": "controls/polish128_positive-negative-integral.json",
+  "corrupted_sha256": "3159ebdf651e43dde13db21e272b7600c86f556e0f353535ea495bf67e1e41e8",
+  "modified_node": 5538,
+  "multiplier": "99/100",
+  "bound_recomputed": true,
+  "exact_mass": "99997370610728686559/100000000000000000000",
+  "direct_log_x_integral": "[-3.2569198748319115979657153152208462757543339e-5 +/- 1.57e-49]",
+  "jump_crosscheck": "[-3.25691987483191159796571531522084627575433390e-5 +/- 3.73e-50]",
+  "results": [
+    {
+      "verifier": "independent",
+      "exit_code": 1,
+      "rejected": true,
+      "log": "logs/polish128_positive-control-integral-independent.log"
+    },
+    {
+      "verifier": "linear",
+      "exit_code": 1,
+      "rejected": true,
+      "log": "logs/polish128_positive-control-integral-linear.log"
+    }
+  ]
+}

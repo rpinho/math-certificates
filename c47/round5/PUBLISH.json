@@ -1,0 +1,29 @@
+{
+  "target": "teorth/optimizationproblems#350",
+  "new_bound": true,
+  "producer_author": "producer search-and-checker session",
+  "producer_model": "GPT-6.1 Sol via Codex",
+  "replay_inputs": {
+    "referee/sources/producer-proof.md": "proof",
+    "certificates/final.json": "certificate",
+    "producer_logs/final-finite.json": "certificate"
+  },
+  "publication_commit": "67cb9a7d909138343d4bceee4bbef36e72e63859",
+  "publication_tree": "sources/publish-trees/rpinho__optimizationproblems@67cb9a7d909138343d4bceee4bbef36e72e63859.json",
+  "linked_trees": {
+    "SCiEL-RSI-CPIL/optimizationproblems@b2925204970588f719a01e3520d9ff112f07b53b": "sources/publish-trees/SCiEL-RSI-CPIL__optimizationproblems@b2925204970588f719a01e3520d9ff112f07b53b.json",
+    "rpinho/math-certificates@59eeb7097f806da05187b5f234445be3589204d4": "sources/publish-trees/rpinho__math-certificates@59eeb7097f806da05187b5f234445be3589204d4.json",
+    "CoolRmal/centered-maximal-constant@72c022ba09032b522c878cca2f9b6c68217d77ea": "sources/publish-trees/CoolRmal__centered-maximal-constant@72c022ba09032b522c878cca2f9b6c68217d77ea.json",
+    "rpinho/math-certificates@7273e97ad18bad296571ce55b1378459fe10fc19": "sources/publish-trees/rpinho__math-certificates@7273e97ad18bad296571ce55b1378459fe10fc19.json",
+    "rpinho/optimizationproblems@67cb9a7d909138343d4bceee4bbef36e72e63859": "sources/publish-trees/rpinho__optimizationproblems@67cb9a7d909138343d4bceee4bbef36e72e63859.json"
+  },
+  "submitter": "rpinho",
+  "destination": "c47/round5",
+  "stacked_on": 341,
+  "stack_history": [
+    321,
+    341
+  ],
+  "pr_number": 350,
+  "publication_links": "COMMIT_SHA is unresolved until the release is committed publicly; this local draft is uncommitted. The publication tree identifies the current PR head, not proposed bytes."
+}

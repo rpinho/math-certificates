@@ -1,0 +1,124 @@
+[
+  {
+    "step": "first",
+    "cwd": ".",
+    "command": [
+      "python",
+      "-u",
+      "verify_linear.py",
+      "certificate.json",
+      "--beat",
+      "1.8054956",
+      "--output",
+      "release_validation/first.json"
+    ],
+    "exit_code": 0,
+    "seconds": 355.98712611198425,
+    "log": "release_validation/first.log"
+  },
+  {
+    "step": "second",
+    "cwd": ".",
+    "command": [
+      "python",
+      "-u",
+      "parallel_verify.py",
+      "certificate.json",
+      "--workers",
+      "4",
+      "--output",
+      "release_validation/second.json"
+    ],
+    "exit_code": 0,
+    "seconds": 2188.3664610385895,
+    "log": "release_validation/second.log"
+  },
+  {
+    "step": "cover-audit",
+    "cwd": ".",
+    "command": [
+      "python",
+      "-u",
+      "audit_artifact.py",
+      "certificate.json",
+      "release_validation/second.json",
+      "--output",
+      "release_validation/cover-audit.json"
+    ],
+    "exit_code": 0,
+    "seconds": 0.8990919589996338,
+    "log": "release_validation/cover-audit.log"
+  },
+  {
+    "step": "producer-corruptions",
+    "cwd": ".",
+    "command": [
+      "python",
+      "-u",
+      "negative_controls.py",
+      "certificate.json",
+      "release"
+    ],
+    "exit_code": 0,
+    "seconds": 206.54721212387085,
+    "log": "release_validation/producer-corruptions.log"
+  },
+  {
+    "step": "producer-integral-control",
+    "cwd": ".",
+    "command": [
+      "python",
+      "-u",
+      "negative_integral_control.py",
+      "certificate.json",
+      "release"
+    ],
+    "exit_code": 0,
+    "seconds": 0.8381919860839844,
+    "log": "release_validation/producer-integral-control.log"
+  },
+  {
+    "step": "referee-structure",
+    "cwd": "referee",
+    "command": [
+      "python",
+      "-u",
+      "referee_check.py",
+      "../certificate.json",
+      "--output",
+      "../release_validation/referee-structure.json"
+    ],
+    "exit_code": 0,
+    "seconds": 1.922971248626709,
+    "log": "release_validation/referee-structure.log"
+  },
+  {
+    "step": "referee-cover",
+    "cwd": "referee",
+    "command": [
+      "python",
+      "-u",
+      "cover_check.py",
+      "../certificate.json",
+      "--workers",
+      "4",
+      "--output",
+      "../release_validation/referee-cover.jsonl"
+    ],
+    "exit_code": 0,
+    "seconds": 107.04473972320557,
+    "log": "release_validation/referee-cover.log"
+  },
+  {
+    "step": "referee-corruptions",
+    "cwd": "referee",
+    "command": [
+      "python",
+      "-u",
+      "corruption_controls.py"
+    ],
+    "exit_code": 0,
+    "seconds": 2.397402286529541,
+    "log": "release_validation/referee-corruptions.log"
+  }
+]

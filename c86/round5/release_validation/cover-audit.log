@@ -1,0 +1,34 @@
+{
+  "original": {
+    "cells": 6308,
+    "pieces": 47486,
+    "left": "7602076171001397/144115188075855872",
+    "right": "6325868626595283/1125899906842624"
+  },
+  "controls": [
+    {
+      "name": "deleted-leaf",
+      "rejected": true,
+      "reason": "wrong right endpoint"
+    },
+    {
+      "name": "shifted-endpoint",
+      "rejected": true,
+      "reason": "wrong left endpoint"
+    },
+    {
+      "name": "wrong-parent",
+      "rejected": true,
+      "reason": "leaf outside parent or reversed"
+    },
+    {
+      "name": "nonpositive-lower",
+      "rejected": true,
+      "reason": "nonpositive saved lower bound"
+    }
+  ],
+  "certificate_sha256": "e5fb93f6c31d2e3b38c986ac71c1d076414d680429fb2cbb91db77fb2e12c9d8",
+  "coverage_sha256": "a38784915e9c55273d293f8ad002c7d3af81f72b78ad5249a8f2aabec13395c6",
+  "auditor_sha256": "91e10efb1e28cebf464293f1d3c83d249e7d6d97e64bde18c186461da8adca98",
+  "valid": true
+}

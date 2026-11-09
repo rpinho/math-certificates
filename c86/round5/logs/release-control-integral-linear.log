@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "verify_linear.py", line 147, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "verify_linear.py", line 76, in main
+    assert val>0,('E4 failed',val);moments.append(float(val.lower()))
+           ^^^^^
+AssertionError: ('E4 failed', [-3.25691987483191159796571531522084628e-5 +/- 8.91e-41])

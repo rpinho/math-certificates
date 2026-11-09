@@ -1,0 +1,32 @@
+[
+  {
+    "control": "raised_bound",
+    "result": "REJECT",
+    "detail": {
+      "increment": "1/1000000"
+    },
+    "reason": "declared bound differs from normalized first moment"
+  },
+  {
+    "control": "raised_weight",
+    "result": "REJECT",
+    "detail": {
+      "auxiliary": 0,
+      "increment": "1/1000",
+      "degree_slack": "100213760410492177/1000000000000000000"
+    },
+    "reason": "potential at x=3 is negative or unresolved: [-0.0010968345264709833068173688513248962296441681873 +/- 7.84e-50]"
+  },
+  {
+    "control": "perturbed_density_node",
+    "result": "REJECT",
+    "detail": {
+      "node": 4475,
+      "x": "5206724119193715/2251799813685248",
+      "old_height": "17674785082170592284639232/2147483647998809814453125",
+      "new_height": "437450930783722159044820992/53687091199970245361328125",
+      "bound_recomputed": "39028837536533145764838327138080012885/21616833410847762410411369011643154432"
+    },
+    "reason": "nonpositive or unresolved log integral Q0: [-1.72472692348227489735615670062670094315095516e-5 +/- 4.48e-50]"
+  }
+]

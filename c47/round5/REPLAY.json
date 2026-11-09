@@ -1,0 +1,23 @@
+{
+  "model": "GPT-6 Astra via Codex",
+  "author": "separate commissioned clean-room referee session",
+  "status": "PASS",
+  "value": "1.7048221231",
+  "arithmetic": "exact",
+  "inputs": {
+    "referee/sources/producer-proof.md": "e24482713a337b1ff9b673085abfc42e6dd354fca9726ba1ae9636dc25af8740",
+    "certificates/final.json": "c37382e18f55d07f442fe65b259d4e04d195f696d7ef06aed698143cfbe00ae3",
+    "producer_logs/final-finite.json": "26b7fe81149c1eb1587bb6e7ae6e95ba09f75276a684c5f28111019d172984a3"
+  },
+  "inputs_hash": "9afdf291939a846b4de5d106eb3e8f23ad18fcd921bdcc2064d8397dd4fe2695",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/check_certificate.py",
+  "checker_sha256": "0b745faa7dfbaac719e441ae5ab8638564944a8e62dc24c3f9e01356873fe4f2",
+  "report": "referee/REFEREE.md",
+  "report_sha256": "99421f4ce4fb2a9cd31c2af90b002fdbd322fc69418f08c34c36d38df61586e4",
+  "note": "Transcribed from the supplied actual clean-room AI referee report and run, not a new commissioned review or authenticated identity attestation. Certificate and finite receipt are retained byte-for-byte. The proof copy changes only comma grouping of one period numerator; original_input_hashes identifies its historical bytes. Portable source citations and review wording are documented in referee/README.md. The publication copy changes review wording and input defaults, explicitly casts five rational divisions with Fraction, uses Decimal Context.divide for displays, and replaces math.ceil/floor/lcm with equivalent exact integer formulas. Checking algorithms and decisions are unchanged; the original checker hash and changes are documented in referee/README.md. Fresh replay from its own release folder reached the same q and finite fraction. The producer report and prior-art note were additional prose context read by the referee; they are not computational inputs.",
+  "original_input_hashes": {
+    "referee/sources/producer-proof.md": "767566e0837d432eefb3b1a0fd6e30bf58c3fb16b138ed605d65e05d1ef1e110"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "selected_indices": [
+    27,
+    28,
+    29
+  ],
+  "method": "own dual-weighted LLL, followed by exact factorization and certified certificate checks",
+  "seed": 8611091,
+  "degree_range": [
+    22,
+    30
+  ],
+  "generator_sha256": "3a6c89e88c468d63d78a71bebbf846400a307b6389b95848363b6d9cc099e25b",
+  "generator_dependency_sha256": "8e5f23cafff0a129a783e9f773613204dbf326353d3cd4063a1a7e434d53467f",
+  "dual_sha256": "a94deba84b38aeea3264d32e14bdfcb25ea4a2b7c8f2ff2e85c96eae86566106",
+  "pool_sha256": "3cd79cac8a0b7ca0d7d08b15a3e5c865a02cc2452fbd148c785000c4dfad17b6",
+  "output_sha256": "72f14677ceb5bf86ca3b859f07f4492eca4e5a19d223f7854f86ae749963b8e8",
+  "note": "Generation provenance only. Search scripts, full search pool, dual array and per-witness search output are not required to replay the certificate and are not redistributed. The selected coefficient arrays are present in the certificate and checked exactly. No claim of deterministic timed-search byte reproduction."
+}

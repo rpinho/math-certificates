@@ -1,0 +1,99 @@
+{
+  "consulted": [
+    {
+      "name": "live47a-page",
+      "url": "https://teorth.github.io/optimizationproblems/constants/47a.html",
+      "http_status": "200",
+      "returncode": 0,
+      "bytes": 13882,
+      "utc": "2026-11-09T19:42:59.680820+00:00",
+      "sha256": "80a9f2ec1a22c6d123d0ead5e6d7242c79d2aa16dc986c5fa719d632739d5947",
+      "disposition": "omitted; read-only source capture"
+    },
+    {
+      "name": "repository-search",
+      "url": "https://api.github.com/search/repositories?q=centered+maximal&sort=updated&order=desc&per_page=100",
+      "http_status": "200",
+      "returncode": 0,
+      "bytes": 41291,
+      "utc": "2026-11-09T19:43:00.112409+00:00",
+      "sha256": "409a90a2453c0c39328a54d936c94e452157bd0af81b2cc69af5e769e22149ce",
+      "disposition": "omitted; read-only source capture"
+    },
+    {
+      "name": "repository-search-2026",
+      "url": "https://api.github.com/search/repositories?q=square+maximal+2026&sort=updated&order=desc&per_page=100",
+      "http_status": "200",
+      "returncode": 0,
+      "bytes": 73,
+      "utc": "2026-11-09T19:42:59.807193+00:00",
+      "sha256": "08c082fdf7ca87ba911a2aabb0f0cf2d3e482a6feeaac9713e4578c20b2600b2",
+      "disposition": "omitted; read-only source capture"
+    },
+    {
+      "name": "awesome-search",
+      "url": "https://api.github.com/search/repositories?q=awesome+mathematics&sort=updated&order=desc&per_page=20",
+      "http_status": "200",
+      "returncode": 0,
+      "bytes": 136790,
+      "utc": "2026-11-09T19:43:00.781938+00:00",
+      "sha256": "35971c37f4c70e1d642aafdca7e317b8ee511465429e629c3e211037c7c7e56a",
+      "disposition": "omitted; read-only source capture"
+    },
+    {
+      "name": "open-issues",
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/issues?state=open&sort=updated&direction=desc&per_page=100",
+      "http_status": "200",
+      "returncode": 0,
+      "bytes": 629599,
+      "utc": "2026-11-09T19:43:00.855992+00:00",
+      "sha256": "286a25eddceda8b543def099383bd786b6e28cebd962971147856ad044f6fb19",
+      "disposition": "omitted; read-only source capture"
+    },
+    {
+      "name": "zenodo-v5",
+      "url": "https://zenodo.org/api/records/23716077",
+      "http_status": "200",
+      "returncode": 0,
+      "bytes": 5765,
+      "utc": "2026-11-09T19:43:00.673289+00:00",
+      "sha256": "95df6053e507428c46a1c3bd277a3f5e5f17f0d76c3c5bcdb58a9533f4a60959",
+      "disposition": "omitted; read-only source capture"
+    },
+    {
+      "name": "paper-page",
+      "url": "https://www.mefyi.com/papers/weak-type-squares/",
+      "http_status": "200",
+      "returncode": 0,
+      "bytes": 16128,
+      "utc": "2026-11-09T19:43:00.963435+00:00",
+      "sha256": "5e7179724594e1de940a29ebea164b702fbc79564f7072204903b4b2b09b4c9a",
+      "disposition": "omitted; read-only source capture"
+    },
+    {
+      "name": "einstein-arena",
+      "url": "https://einsteinarena.com/",
+      "http_status": "200",
+      "returncode": 0,
+      "bytes": 92104,
+      "utc": "2026-11-09T19:43:01.176533+00:00",
+      "sha256": "ef2d5563e514726790dab548194f610e24c2b86b5c4b5234ac7b0996550ea814",
+      "disposition": "omitted; read-only source capture"
+    }
+  ],
+  "indexed_search": {
+    "date": "2026-11-09",
+    "queries": [
+      "\"Hardy\" \"squares\" \"weak type\" \"2026\" lower bound",
+      "\"1.7048221231\" OR \"1.7040280575\"",
+      "site:arxiv.org \"maximal\" \"squares\" \"2026\"",
+      "\"maximal\" \"Tomar\" site:x.com OR site:reddit.com"
+    ],
+    "primary_results": [
+      "https://www.mefyi.com/papers/weak-type-squares/",
+      "https://arxiv.org/abs/2609.31493",
+      "https://coolrmal.github.io/repositories/"
+    ],
+    "result": "No stronger applicable C47 lower claim located in returned results; bounded indexed search."
+  }
+}

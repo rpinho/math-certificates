@@ -1,0 +1,33 @@
+{
+  "command": "nice -n 10 python3 rejection_controls.py certificates/final.json 57160787529186565434927719505838181711244340833364808847853/33528886534937259000645393217902994011665203200000000000000",
+  "files": [
+    {
+      "file": "certificates/controls/final/atom-outside-cell.json",
+      "sha256": "253a84d4c651bd1e590fba50e62868ba4a420429273a81887e16229920e1f742"
+    },
+    {
+      "file": "certificates/controls/final/changed-heavy-mass.json",
+      "sha256": "e17b56740b6fa22d27e1181fbdb1664fa9e417643774e21e145f79ceb4fa1626"
+    },
+    {
+      "file": "certificates/controls/final/duplicate-atom.json",
+      "sha256": "153cfff0c51816037d1c7fe7f520a184fcacf73b5e1485d8307bcd949d691855"
+    },
+    {
+      "file": "certificates/controls/final/expanded-rectangle.json",
+      "sha256": "abee0406ddcf8a446ec4815aa44ca647d8b78d587810546ee1d6895a85e22734"
+    },
+    {
+      "file": "certificates/controls/final/oversized-radius.json",
+      "sha256": "289707a574b7c4f913453235ac05ef1dfc32fb10e16148481a78af6aae37cc3e"
+    },
+    {
+      "file": "certificates/controls/final/raised-claim.json",
+      "sha256": "aaa29cb1a53bd14c0fa2d009ce5d331bc52cfb74640e5e898afd1bf5c33889ca"
+    },
+    {
+      "file": "certificates/controls/final/zero-mass.json",
+      "sha256": "aaa57a5ba61a194b67c6ade9b0e0f5d21adc1e4520189f8e7a557ebc0b5d6e4c"
+    }
+  ]
+}

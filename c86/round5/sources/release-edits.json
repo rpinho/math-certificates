@@ -1,0 +1,12 @@
+{
+  "normalized_log_paths": [
+    "logs/release-control-integral-independent.log",
+    "logs/release-control-integral-linear.log",
+    "logs/release-control-raised-weights-first.log",
+    "logs/release-control-raised-weights.log",
+    "logs/release-control-wrong-bound-first.log",
+    "logs/release-control-wrong-bound.log"
+  ],
+  "referee_report_edits": "referee/README.md",
+  "note": "Path normalization affects only stack-trace display strings. Certificate and numerical receipt values are unchanged."
+}

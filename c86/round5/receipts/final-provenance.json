@@ -1,0 +1,1801 @@
+{
+  "certificate": "polish128_positive.json",
+  "sha256": "e5fb93f6c31d2e3b38c986ac71c1d076414d680429fb2cbb91db77fb2e12c9d8",
+  "active": [
+    {
+      "index": 0,
+      "coefficients": [
+        0,
+        1
+      ],
+      "degree": 1,
+      "weight": "6234769750467/156250000000000",
+      "nonreal_roots": 0,
+      "log_integral_lower": "[9.99991860450913377833717643249074779970279629628044368858e-11 +/- 3.92e-68]",
+      "sources": [
+        {
+          "source": "Tomar public A22",
+          "entry": 1
+        },
+        {
+          "source": "McKee 2011 Table 1",
+          "row": 1
+        },
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 1
+        },
+        {
+          "source": "Flammang 2009 Table 1",
+          "row": 1
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 1,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2019",
+          "list": 2,
+          "row": 1,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2019",
+          "list": 3,
+          "row": 1,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2024",
+          "list": 1,
+          "row": 1,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Flammang2024",
+          "list": "sector",
+          "row": 1,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Flammang2024",
+          "list": "sector",
+          "row": 15,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Flammang2024",
+          "list": "sector",
+          "row": 19,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Flammang2024",
+          "list": "sector",
+          "row": 28,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Flammang2024",
+          "list": "sector",
+          "row": 37,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Flammang2024",
+          "list": "sector",
+          "row": 47,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Flammang2024",
+          "list": "sector",
+          "row": 54,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Flammang2024",
+          "list": "sector",
+          "row": 58,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Flammang2024",
+          "list": "sector",
+          "row": 65,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 1
+        },
+        {
+          "source": "Aguirre--Peral 2007 Table 2",
+          "row": 1
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 1
+        },
+        {
+          "source": "Aguirre\u2013Peral 2007 Table 2",
+          "row": 1
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "coefficients": [
+        -1,
+        1
+      ],
+      "degree": 1,
+      "weight": "320579733556009/10000000000000000",
+      "nonreal_roots": 0,
+      "log_integral_lower": "[1.00000533786004447300468418779824273070203638439311811928e-10 +/- 2.29e-67]",
+      "sources": [
+        {
+          "source": "Tomar public A22",
+          "entry": 2
+        },
+        {
+          "source": "McKee 2011 Table 1",
+          "row": 2
+        },
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 2
+        },
+        {
+          "source": "Flammang 2009 Table 1",
+          "row": 2
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 2,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2019",
+          "list": 2,
+          "row": 2,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2019",
+          "list": 3,
+          "row": 2,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2024",
+          "list": 1,
+          "row": 2,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Flammang2024",
+          "list": "sector",
+          "row": 2,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Flammang2024",
+          "list": "sector",
+          "row": 16,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Flammang2024",
+          "list": "sector",
+          "row": 20,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Flammang2024",
+          "list": "sector",
+          "row": 29,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Flammang2024",
+          "list": "sector",
+          "row": 38,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 2
+        },
+        {
+          "source": "Aguirre--Peral 2007 Table 2",
+          "row": 2
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 2
+        },
+        {
+          "source": "Aguirre\u2013Peral 2007 Table 2",
+          "row": 2
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "coefficients": [
+        -2,
+        1
+      ],
+      "degree": 1,
+      "weight": "95603495557957/5000000000000000",
+      "nonreal_roots": 0,
+      "log_integral_lower": "[1.00000308271709444602705332632474200086249535509791183950e-10 +/- 2.05e-67]",
+      "sources": [
+        {
+          "source": "Tomar public A22",
+          "entry": 3
+        },
+        {
+          "source": "McKee 2011 Table 1",
+          "row": 3
+        },
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 3
+        },
+        {
+          "source": "Flammang 2009 Table 1",
+          "row": 3
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 3,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2019",
+          "list": 2,
+          "row": 3,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2019",
+          "list": 3,
+          "row": 3,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2024",
+          "list": 1,
+          "row": 3,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 3
+        },
+        {
+          "source": "Aguirre--Peral 2007 Table 2",
+          "row": 3
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 3
+        },
+        {
+          "source": "Aguirre\u2013Peral 2007 Table 2",
+          "row": 3
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "coefficients": [
+        1,
+        -3,
+        1
+      ],
+      "degree": 2,
+      "weight": "26623593314633/1250000000000000",
+      "nonreal_roots": 0,
+      "log_integral_lower": "[1.00000283565988873362399321454409129273398900198237863537e-10 +/- 3.99e-67]",
+      "sources": [
+        {
+          "source": "Tomar public A22",
+          "entry": 4
+        },
+        {
+          "source": "McKee 2011 Table 1",
+          "row": 4
+        },
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 4
+        },
+        {
+          "source": "Flammang 2009 Table 1",
+          "row": 4
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 4,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2019",
+          "list": 2,
+          "row": 4,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2019",
+          "list": 3,
+          "row": 5,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2024",
+          "list": 1,
+          "row": 4,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Flammang2024",
+          "list": "sector",
+          "row": 3,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 4
+        },
+        {
+          "source": "Aguirre--Peral 2007 Table 2",
+          "row": 4
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 4
+        },
+        {
+          "source": "Aguirre\u2013Peral 2007 Table 2",
+          "row": 4
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "coefficients": [
+        -1,
+        6,
+        -5,
+        1
+      ],
+      "degree": 3,
+      "weight": "58677979602683/5000000000000000",
+      "nonreal_roots": 0,
+      "log_integral_lower": "[1.00000443522088514865222016421501616909795273886004011068e-10 +/- 4.11e-67]",
+      "sources": [
+        {
+          "source": "Tomar public A22",
+          "entry": 5
+        },
+        {
+          "source": "McKee 2011 Table 1",
+          "row": 7
+        },
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 7
+        },
+        {
+          "source": "Flammang 2009 Table 1",
+          "row": 7
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 7,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2019",
+          "list": 2,
+          "row": 6,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2019",
+          "list": 3,
+          "row": 8,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2024",
+          "list": 1,
+          "row": 7,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 7
+        },
+        {
+          "source": "Aguirre--Peral 2007 Table 2",
+          "row": 7
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 7
+        },
+        {
+          "source": "Aguirre\u2013Peral 2007 Table 2",
+          "row": 7
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "coefficients": [
+        1,
+        -7,
+        13,
+        -7,
+        1
+      ],
+      "degree": 4,
+      "weight": "82007373033751/10000000000000000",
+      "nonreal_roots": 0,
+      "log_integral_lower": "[1.00000057875557178458095795618051276144021666787820830113e-10 +/- 2.10e-67]",
+      "sources": [
+        {
+          "source": "Tomar public A22",
+          "entry": 6
+        },
+        {
+          "source": "McKee 2011 Table 1",
+          "row": 11
+        },
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 11
+        },
+        {
+          "source": "Flammang 2009 Table 1",
+          "row": 11
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 11,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2024",
+          "list": 1,
+          "row": 8,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 11
+        },
+        {
+          "source": "Aguirre--Peral 2007 Table 2",
+          "row": 11
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 11
+        },
+        {
+          "source": "Aguirre\u2013Peral 2007 Table 2",
+          "row": 11
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "coefficients": [
+        1,
+        -8,
+        14,
+        -7,
+        1
+      ],
+      "degree": 4,
+      "weight": "16874132497017/2000000000000000",
+      "nonreal_roots": 0,
+      "log_integral_lower": "[1.00000358619714425387827815253760182493789670469649958393e-10 +/- 1.79e-67]",
+      "sources": [
+        {
+          "source": "Tomar public A22",
+          "entry": 7
+        },
+        {
+          "source": "McKee 2011 Table 1",
+          "row": 12
+        },
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 12
+        },
+        {
+          "source": "Flammang 2009 Table 1",
+          "row": 12
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 12,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2019",
+          "list": 2,
+          "row": 9,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2024",
+          "list": 1,
+          "row": 9,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 12
+        },
+        {
+          "source": "Aguirre--Peral 2007 Table 2",
+          "row": 12
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 12
+        },
+        {
+          "source": "Aguirre\u2013Peral 2007 Table 2",
+          "row": 12
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "coefficients": [
+        -1,
+        15,
+        -35,
+        28,
+        -9,
+        1
+      ],
+      "degree": 5,
+      "weight": "40114062658883/10000000000000000",
+      "nonreal_roots": 0,
+      "log_integral_lower": "[9.99986624981822014813816701350650136121056879026295446106e-11 +/- 3.23e-68]",
+      "sources": [
+        {
+          "source": "Tomar public A22",
+          "entry": 8
+        },
+        {
+          "source": "McKee 2011 Table 1",
+          "row": 14
+        },
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 15
+        },
+        {
+          "source": "Flammang 2009 Table 1",
+          "row": 16
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 15,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2019",
+          "list": 2,
+          "row": 13,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2019",
+          "list": 3,
+          "row": 11,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2024",
+          "list": 1,
+          "row": 11,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 16
+        },
+        {
+          "source": "Aguirre--Peral 2007 Table 2",
+          "row": 17
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 16
+        },
+        {
+          "source": "Aguirre\u2013Peral 2007 Table 2",
+          "row": 17
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "coefficients": [
+        -1,
+        11,
+        -29,
+        26,
+        -9,
+        1
+      ],
+      "degree": 5,
+      "weight": "6000772835327/1250000000000000",
+      "nonreal_roots": 0,
+      "log_integral_lower": "[1.00000181597423502241767011390465345468125513561913141001e-10 +/- 2.53e-67]",
+      "sources": [
+        {
+          "source": "Tomar public A22",
+          "entry": 9
+        },
+        {
+          "source": "McKee 2011 Table 1",
+          "row": 15
+        },
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 16
+        },
+        {
+          "source": "Flammang 2009 Table 1",
+          "row": 13
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 16,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 13
+        },
+        {
+          "source": "Aguirre--Peral 2007 Table 2",
+          "row": 14
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 13
+        },
+        {
+          "source": "Aguirre\u2013Peral 2007 Table 2",
+          "row": 14
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "coefficients": [
+        -1,
+        13,
+        -32,
+        27,
+        -9,
+        1
+      ],
+      "degree": 5,
+      "weight": "19393015927477/10000000000000000",
+      "nonreal_roots": 0,
+      "log_integral_lower": "[9.99987501467006311504452341914472604681544472238636300586e-11 +/- 7.70e-69]",
+      "sources": [
+        {
+          "source": "Tomar public A22",
+          "entry": 10
+        },
+        {
+          "source": "McKee 2011 Table 1",
+          "row": 16
+        },
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 13
+        },
+        {
+          "source": "Flammang 2009 Table 1",
+          "row": 15
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 13,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2019",
+          "list": 2,
+          "row": 14,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 15
+        },
+        {
+          "source": "Aguirre--Peral 2007 Table 2",
+          "row": 16
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 15
+        },
+        {
+          "source": "Aguirre\u2013Peral 2007 Table 2",
+          "row": 16
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "coefficients": [
+        -1,
+        12,
+        -31,
+        27,
+        -9,
+        1
+      ],
+      "degree": 5,
+      "weight": "56555045423073/10000000000000000",
+      "nonreal_roots": 0,
+      "log_integral_lower": "[1.00000981066827890117738061574464673858032289107552989070e-10 +/- 1.88e-67]",
+      "sources": [
+        {
+          "source": "Tomar public A22",
+          "entry": 12
+        },
+        {
+          "source": "McKee 2011 Table 1",
+          "row": 13
+        },
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 14
+        },
+        {
+          "source": "Flammang 2009 Table 1",
+          "row": 14
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 14,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2019",
+          "list": 2,
+          "row": 12,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2019",
+          "list": 3,
+          "row": 12,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 14
+        },
+        {
+          "source": "Aguirre--Peral 2007 Table 2",
+          "row": 15
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 14
+        },
+        {
+          "source": "Aguirre\u2013Peral 2007 Table 2",
+          "row": 15
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "coefficients": [
+        1,
+        -24,
+        194,
+        -743,
+        1526,
+        -1798,
+        1265,
+        -537,
+        134,
+        -18,
+        1
+      ],
+      "degree": 10,
+      "weight": "43136630913737/10000000000000000",
+      "nonreal_roots": 0,
+      "log_integral_lower": "[9.99962819672054641408118821620390400867524925114933158833e-11 +/- 4.30e-68]",
+      "sources": [
+        {
+          "source": "Tomar public A22",
+          "entry": 13
+        },
+        {
+          "source": "McKee 2011 Table 1",
+          "row": 27
+        },
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 28
+        },
+        {
+          "source": "Flammang 2009 Table 1",
+          "row": 27
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 28,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 29
+        },
+        {
+          "source": "Aguirre--Peral 2007 Table 2",
+          "row": 36
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 29
+        },
+        {
+          "source": "Aguirre\u2013Peral 2007 Table 2",
+          "row": 36
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "coefficients": [
+        1,
+        -24,
+        206,
+        -813,
+        1662,
+        -1920,
+        1320,
+        -549,
+        135,
+        -18,
+        1
+      ],
+      "degree": 10,
+      "weight": "14993265284203/5000000000000000",
+      "nonreal_roots": 0,
+      "log_integral_lower": "[1.00000761971300703226740529028293908895967919033717983228e-10 +/- 1.04e-67]",
+      "sources": [
+        {
+          "source": "Tomar public A22",
+          "entry": 14
+        },
+        {
+          "source": "McKee 2011 Table 1",
+          "row": 25
+        },
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 30
+        },
+        {
+          "source": "Flammang 2009 Table 1",
+          "row": 29
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 30,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2019",
+          "list": 2,
+          "row": 32,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 31
+        },
+        {
+          "source": "Aguirre--Peral 2007 Table 2",
+          "row": 38
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 31
+        },
+        {
+          "source": "Aguirre\u2013Peral 2007 Table 2",
+          "row": 38
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "coefficients": [
+        1,
+        -24,
+        200,
+        -766,
+        1560,
+        -1822,
+        1273,
+        -538,
+        134,
+        -18,
+        1
+      ],
+      "degree": 10,
+      "weight": "11201415865187/5000000000000000",
+      "nonreal_roots": 0,
+      "log_integral_lower": "[1.00000137359582577003838050319862003942545573301142202426e-10 +/- 2.36e-67]",
+      "sources": [
+        {
+          "source": "Tomar public A22",
+          "entry": 15
+        },
+        {
+          "source": "McKee 2011 Table 1",
+          "row": 26
+        },
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 29
+        },
+        {
+          "source": "Flammang 2009 Table 1",
+          "row": 28
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 29,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 30
+        },
+        {
+          "source": "Aguirre--Peral 2007 Table 2",
+          "row": 37
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 30
+        },
+        {
+          "source": "Aguirre\u2013Peral 2007 Table 2",
+          "row": 37
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "coefficients": [
+        3,
+        -42,
+        200,
+        -428,
+        467,
+        -277,
+        90,
+        -15,
+        1
+      ],
+      "degree": 8,
+      "weight": "2084779942869/625000000000000",
+      "nonreal_roots": 0,
+      "log_integral_lower": "[1.00001285908706280045397022482766738790189644798694280118e-10 +/- 4.63e-67]",
+      "sources": [
+        {
+          "source": "Tomar public A22",
+          "entry": 16
+        },
+        {
+          "source": "McKee 2011 Table 1",
+          "row": 20
+        },
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 24
+        },
+        {
+          "source": "Flammang 2009 Table 1",
+          "row": 25
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 24,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2019",
+          "list": 2,
+          "row": 23,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 25
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 25
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "coefficients": [
+        3,
+        -40,
+        187,
+        -402,
+        445,
+        -269,
+        89,
+        -15,
+        1
+      ],
+      "degree": 8,
+      "weight": "441378712113/200000000000000",
+      "nonreal_roots": 0,
+      "log_integral_lower": "[1.00000213090881150454956395239357229497044459109105318629e-10 +/- 3.31e-67]",
+      "sources": [
+        {
+          "source": "Tomar public A22",
+          "entry": 17
+        },
+        {
+          "source": "McKee 2011 Table 1",
+          "row": 22
+        },
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 23
+        },
+        {
+          "source": "Flammang 2009 Table 1",
+          "row": 24
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 23,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 24
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 24
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "coefficients": [
+        -1,
+        16,
+        -78,
+        157,
+        -143,
+        63,
+        -13,
+        1
+      ],
+      "degree": 7,
+      "weight": "22930634261769/10000000000000000",
+      "nonreal_roots": 0,
+      "log_integral_lower": "[9.99996132867410589665356839236562768002711098176661671312e-11 +/- 2.87e-68]",
+      "sources": [
+        {
+          "source": "Tomar public A22",
+          "entry": 18
+        },
+        {
+          "source": "McKee 2011 Table 1",
+          "row": 19
+        },
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 20
+        },
+        {
+          "source": "Flammang 2009 Table 1",
+          "row": 21
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 20,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 21
+        },
+        {
+          "source": "Aguirre--Peral 2007 Table 2",
+          "row": 31
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 21
+        },
+        {
+          "source": "Aguirre\u2013Peral 2007 Table 2",
+          "row": 31
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "coefficients": [
+        2,
+        -4,
+        1
+      ],
+      "degree": 2,
+      "weight": "39528074436539/5000000000000000",
+      "nonreal_roots": 0,
+      "log_integral_lower": "[1.00000444532966527277164077806319391218611517820004439830e-10 +/- 4.71e-67]",
+      "sources": [
+        {
+          "source": "Tomar public A22",
+          "entry": 19
+        },
+        {
+          "source": "McKee 2011 Table 1",
+          "row": 5
+        },
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 6
+        },
+        {
+          "source": "Flammang 2009 Table 1",
+          "row": 6
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 6,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2019",
+          "list": 2,
+          "row": 5,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2019",
+          "list": 3,
+          "row": 6,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2024",
+          "list": 1,
+          "row": 6,
+          "source_sha256": "2198cf72b59e16e71c66ca683d7432630ba0f6063966a7058a28ec04d242dc2b"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 6
+        },
+        {
+          "source": "Aguirre--Peral 2007 Table 2",
+          "row": 6
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 6
+        },
+        {
+          "source": "Aguirre\u2013Peral 2007 Table 2",
+          "row": 6
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "coefficients": [
+        -3,
+        9,
+        -6,
+        1
+      ],
+      "degree": 3,
+      "weight": "22174717/5000000000000000",
+      "nonreal_roots": 0,
+      "log_integral_lower": "[0.0988175657364395802507277667449078237399418193604483400478 +/- 4.24e-60]",
+      "sources": [
+        {
+          "source": "McKee 2011 Table 1",
+          "row": 9
+        },
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 8
+        },
+        {
+          "source": "Flammang 2009 Table 1",
+          "row": 10
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 8,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2019",
+          "list": 2,
+          "row": 8,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 9
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "coefficients": [
+        1,
+        -21,
+        120,
+        -289,
+        345,
+        -222,
+        78,
+        -14,
+        1
+      ],
+      "degree": 8,
+      "weight": "21581298302833/10000000000000000",
+      "nonreal_roots": 2,
+      "log_integral_lower": "[1.00031752968758362408366848542779789262808984724007912778e-10 +/- 1.63e-67]",
+      "sources": [
+        {
+          "source": "McKee 2011 Table 1",
+          "row": 23
+        },
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 26
+        },
+        {
+          "source": "Flammang 2009 Table 1",
+          "row": 23
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 26,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Flammang2019",
+          "list": 2,
+          "row": 21,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 23
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 23
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "coefficients": [
+        1,
+        -27,
+        283,
+        -1483,
+        4372,
+        -7789,
+        8780,
+        -6439,
+        3103,
+        -972,
+        190,
+        -21,
+        1
+      ],
+      "degree": 12,
+      "weight": "68032205277937/10000000000000000",
+      "nonreal_roots": 4,
+      "log_integral_lower": "[1.00001269106195968604656192556517720446450896900900259496e-10 +/- 3.49e-67]",
+      "sources": [
+        {
+          "source": "McKee 2011 Table 1",
+          "row": 29
+        },
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 33
+        },
+        {
+          "source": "Flammang 2009 Table 1",
+          "row": 33
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 33,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 35
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 35
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "coefficients": [
+        1,
+        -27,
+        281,
+        -1470,
+        4336,
+        -7742,
+        8750,
+        -6430,
+        3102,
+        -972,
+        190,
+        -21,
+        1
+      ],
+      "degree": 12,
+      "weight": "55050453782297/10000000000000000",
+      "nonreal_roots": 4,
+      "log_integral_lower": "[1.00000197635380932868896386872568721944714104550257556175e-10 +/- 2.12e-67]",
+      "sources": [
+        {
+          "source": "McKee 2011 Table 1",
+          "row": 30
+        },
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 35
+        },
+        {
+          "source": "Flammang 2009 Table 1",
+          "row": 32
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 35,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 34
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 34
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "coefficients": [
+        1,
+        -32,
+        406,
+        -2701,
+        10625,
+        -26404,
+        43221,
+        -47907,
+        36573,
+        -19355,
+        7060,
+        -1736,
+        274,
+        -25,
+        1
+      ],
+      "degree": 14,
+      "weight": "2456478340843/625000000000000",
+      "nonreal_roots": 4,
+      "log_integral_lower": "[1.00001999586419569902000692084628769192376598590513086743e-10 +/- 4.09e-67]",
+      "sources": [
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 47
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 47,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 49
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 49
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "coefficients": [
+        1,
+        -33,
+        424,
+        -2816,
+        10964,
+        -26937,
+        43704,
+        -48167,
+        36655,
+        -19369,
+        7061,
+        -1736,
+        274,
+        -25,
+        1
+      ],
+      "degree": 14,
+      "weight": "33965908274817/10000000000000000",
+      "nonreal_roots": 2,
+      "log_integral_lower": "[9.99995452444582677199750483390122923430436767446432117496e-11 +/- 1.56e-68]",
+      "sources": [
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 48
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 48,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 46
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 46
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "coefficients": [
+        1,
+        -31,
+        387,
+        -2568,
+        10155,
+        -25460,
+        42081,
+        -47058,
+        36183,
+        -19248,
+        7044,
+        -1735,
+        274,
+        -25,
+        1
+      ],
+      "degree": 14,
+      "weight": "29914773051193/10000000000000000",
+      "nonreal_roots": 4,
+      "log_integral_lower": "[1.00049428889888706373617402799730958855917782007757044212e-10 +/- 3.80e-67]",
+      "sources": [
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 54
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 54,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "coefficients": [
+        -3,
+        103,
+        -1469,
+        11605,
+        -57190,
+        187693,
+        -427515,
+        694870,
+        -821490,
+        715331,
+        -461883,
+        221279,
+        -78141,
+        20016,
+        -3608,
+        433,
+        -31,
+        1
+      ],
+      "degree": 17,
+      "weight": "26370879922467/10000000000000000",
+      "nonreal_roots": 2,
+      "log_integral_lower": "[1.00001145090023605271192695611052510824383125060441050805e-10 +/- 3.87e-67]",
+      "sources": [
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 72
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 72,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 61
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 61
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "coefficients": [
+        -1,
+        45,
+        -878,
+        9906,
+        -72717,
+        370329,
+        -1361262,
+        3707186,
+        -7616692,
+        11961174,
+        -14494118,
+        13642521,
+        -10012934,
+        5735638,
+        -2557644,
+        881750,
+        -232062,
+        45656,
+        -6488,
+        628,
+        -37,
+        1
+      ],
+      "degree": 21,
+      "weight": "13173823606147/5000000000000000",
+      "nonreal_roots": 4,
+      "log_integral_lower": "[0.0286510686921115036828693023390675345002463262117723230350 +/- 1.97e-59]",
+      "sources": [
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 83
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 83,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        },
+        {
+          "source": "Liang--Wu 2011 Table 1",
+          "row": 77
+        },
+        {
+          "source": "Liang\u2013Wu 2011 Table 1",
+          "row": 77
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "coefficients": [
+        1,
+        -37,
+        494,
+        -3288,
+        12629,
+        -30394,
+        48183,
+        -51903,
+        38685,
+        -20081,
+        7216,
+        -1755,
+        275,
+        -25,
+        1
+      ],
+      "degree": 14,
+      "weight": "9028531/10000000000000000",
+      "nonreal_roots": 2,
+      "log_integral_lower": "[0.221231891501983856229449469921801173073530273687034590561 +/- 1.03e-58]",
+      "sources": [
+        {
+          "source": "own dual-weighted LLL",
+          "file": "lll22_30_initial.json",
+          "seed": 8611091,
+          "dual": "inherited-cuts.npz"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "coefficients": [
+        1,
+        -50,
+        1035,
+        -11875,
+        85265,
+        -410272,
+        1383131,
+        -3371077,
+        6078552,
+        -8248947,
+        8530158,
+        -6777225,
+        4154231,
+        -1964326,
+        712881,
+        -196335,
+        40224,
+        -5928,
+        593,
+        -36,
+        1
+      ],
+      "degree": 20,
+      "weight": "1627952347/10000000000000000",
+      "nonreal_roots": 6,
+      "log_integral_lower": "[0.188848099729176002420510498830460311855323589899129588077 +/- 3.86e-58]",
+      "sources": [
+        {
+          "source": "own dual-weighted LLL",
+          "file": "lll22_30_initial.json",
+          "seed": 8611091,
+          "dual": "inherited-cuts.npz"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "coefficients": [
+        1,
+        -40,
+        626,
+        -5133,
+        25239,
+        -80310,
+        173311,
+        -261419,
+        281040,
+        -217851,
+        122302,
+        -49557,
+        14301,
+        -2858,
+        375,
+        -29,
+        1
+      ],
+      "degree": 16,
+      "weight": "76637/1250000000000000",
+      "nonreal_roots": 0,
+      "log_integral_lower": "[0.186392120225169968854541429206072434045199981489011124082 +/- 2.68e-58]",
+      "sources": [
+        {
+          "source": "own dual-weighted LLL",
+          "file": "lll22_30_initial.json",
+          "seed": 8611091,
+          "dual": "inherited-cuts.npz"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "coefficients": [
+        -1,
+        28,
+        -310,
+        1798,
+        -6143,
+        13193,
+        -18505,
+        17323,
+        -10930,
+        4637,
+        -1298,
+        229,
+        -23,
+        1
+      ],
+      "degree": 13,
+      "weight": "1020657/10000000000000000",
+      "nonreal_roots": 2,
+      "log_integral_lower": "[0.151601070962462518742608908585390800044297859598488034030 +/- 1.97e-58]",
+      "sources": [
+        {
+          "source": "Flammang arXiv1907.09407v1 first trace list",
+          "entry": 40
+        },
+        {
+          "source": "Flammang2019",
+          "list": 1,
+          "row": 40,
+          "source_sha256": "350d2a28112b1a051270c9c6c18e0f2a3d27d99543f5a40cfad88e9b3e2ced25"
+        }
+      ]
+    }
+  ]
+}

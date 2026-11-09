@@ -1,0 +1,72 @@
+{
+  "claims": [
+    {
+      "value": "1.8054939963",
+      "kind": "rigorous",
+      "producer": "verify_linear.py",
+      "arithmetic": "interval",
+      "new_bound": true
+    },
+    {
+      "value": "1561194641062402479525057156208744733/864691128455135125642991200018366464",
+      "kind": "rigorous",
+      "producer": "verify_linear.py",
+      "arithmetic": "interval",
+      "new_bound": false
+    },
+    {
+      "value": "0.0000016037",
+      "kind": "rigorous",
+      "producer": "comparison.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Strict lower bound on a comparison margin, not a new C86 claim."
+    },
+    {
+      "value": "0.0001154037",
+      "kind": "rigorous",
+      "producer": "comparison.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Strict lower bound on a comparison margin, not a new C86 claim."
+    },
+    {
+      "value": "0.0030050037",
+      "kind": "rigorous",
+      "producer": "comparison.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Strict lower bound on a comparison margin, not a new C86 claim."
+    },
+    {
+      "value": "1.8054956",
+      "kind": "cited",
+      "source": "https://github.com/teorth/optimizationproblems/pull/270",
+      "new_bound": false
+    },
+    {
+      "value": "1.80560940",
+      "kind": "cited",
+      "source": "https://github.com/teorth/optimizationproblems/pull/298",
+      "new_bound": false
+    },
+    {
+      "value": "1.80697883",
+      "kind": "cited",
+      "source": "https://github.com/teorth/optimizationproblems/pull/298",
+      "new_bound": false
+    },
+    {
+      "value": "1.80580911",
+      "kind": "cited",
+      "source": "https://github.com/teorth/optimizationproblems/pull/298",
+      "new_bound": false
+    },
+    {
+      "value": "1.8084990",
+      "kind": "cited",
+      "source": "https://teorth.github.io/optimizationproblems/constants/86a.html",
+      "new_bound": false
+    }
+  ]
+}

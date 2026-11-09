@@ -1,0 +1,21 @@
+{
+  "target": "teorth/optimizationproblems#298",
+  "pr_number": 298,
+  "new_bound": true,
+  "producer_author": "producer search-and-checker session",
+  "producer_model": "gpt-6.1-sol via Codex (job model-selection record)",
+  "replay_inputs": {
+    "referee/sources/producer-proof.md": "proof",
+    "certificate.json": "certificate"
+  },
+  "publication_commit": "c6c8b62608c386e0ab154b4bf55343f82feb18ab",
+  "publication_tree": "sources/publish-trees/rpinho__optimizationproblems@c6c8b62608c386e0ab154b4bf55343f82feb18ab.json",
+  "linked_trees": {
+    "rpinho/math-certificates@59eeb7097f806da05187b5f234445be3589204d4": "sources/publish-trees/rpinho__math-certificates@59eeb7097f806da05187b5f234445be3589204d4.json",
+    "rpinho/optimizationproblems@c6c8b62608c386e0ab154b4bf55343f82feb18ab": "sources/publish-trees/rpinho__optimizationproblems@c6c8b62608c386e0ab154b4bf55343f82feb18ab.json"
+  },
+  "destination": "c86/round5",
+  "submitter": "rpinho",
+  "pending_publication_commit": "COMMIT_SHA",
+  "note": "COMMIT_SHA is the publication placeholder. Replace it in the proposed PR files and body after publication, then add the complete linked-tree evidence for that actual commit. No placeholder tree is invented."
+}

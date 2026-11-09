@@ -1,0 +1,72 @@
+{
+  "sources": [
+    {
+      "source": "Smith, arXiv:2111.12660v2; Annals of Mathematics 200 (2024)",
+      "url": "https://arxiv.org/html/2111.12660v2",
+      "sha256": "d673af5a2e7a7520f57c9b4ce3738c9fded6e7838b8b24e821862d74397ab3ed",
+      "hash_scope": "original source bytes read by referee; not redistributed"
+    },
+    {
+      "source": "live page, referee fetch 2026-11-09",
+      "url": "https://teorth.github.io/optimizationproblems/constants/86a.html",
+      "sha256": "3b6e72d62d1d851672567f4540320e48938eb6ca4128761fa9385c739579a1d0",
+      "hash_scope": "original source bytes read by referee; not redistributed"
+    },
+    {
+      "source": "Flammang 2019 v1; three trace lists",
+      "url": "https://arxiv.org/abs/1907.09407v1",
+      "sha256": "ed4c012cd58e4a5c212dcda58d5de486ec60e887e4f2959ca2006762978317b2",
+      "hash_scope": "original fetched HTML bytes; not redistributed"
+    },
+    {
+      "source": "Flammang 2024 v1; Rhin and sector lists",
+      "url": "https://arxiv.org/abs/2401.12951v1",
+      "sha256": "21ecb13695f20f16414caf941d4533052a1ed69900099379d55ee157adbee074",
+      "hash_scope": "original fetched HTML bytes; not redistributed"
+    },
+    {
+      "source": "Orloski–Talebizadeh Sardari preprint v2",
+      "url": "https://arxiv.org/abs/2304.10021v2",
+      "sha256": "9cd0a0c342eb6e9476da38cb91e7dedc3bdb06c41d03e9ce1f4630b18f0a01e3",
+      "hash_scope": "original fetched HTML bytes; not redistributed"
+    },
+    {
+      "source": "Flammang 2009, Table 1",
+      "url": "https://doi.org/10.1090/S0025-5718-08-02120-0",
+      "sha256": "737c9f4c7ca63b980925975a7ddffdc0be26e4a8d759e302a53c7d9aeee62d70",
+      "hash_scope": "inherited own list transcription used for matching, not a hash of the publisher PDF; original paper bytes are not available in supplied inputs"
+    },
+    {
+      "source": "McKee 2011, Table 1",
+      "url": "https://doi.org/10.1090/S0025-5718-2010-02424-X",
+      "sha256": "1cb3d86ffd5d4b459cf518a95b5fd7e0d0bb337b8d50114fa7e097280c7d22a1",
+      "hash_scope": "inherited own list transcription used for matching, not a hash of the publisher PDF; original paper bytes are not available in supplied inputs"
+    },
+    {
+      "source": "Liang–Wu 2011, Table 1",
+      "url": "https://doi.org/10.1017/S1446788711001030",
+      "sha256": "27f48956f9d1ab29b70e431a3e3e9fb76cce3c54b5aef70619a9889a1037032c",
+      "hash_scope": "inherited own list transcription used for matching, not a hash of the publisher PDF; original paper bytes are not available in supplied inputs"
+    },
+    {
+      "source": "Aguirre–Peral 2007, Table 2",
+      "url": "https://doi.org/10.5565/publmat_pjtn05_01",
+      "sha256": "18046b7dd37067b80c3863c228f132c8aa8879d1505d8e5ed5ee72eefffa1fd3",
+      "hash_scope": "inherited own list transcription used for matching, not a hash of the publisher PDF; original paper bytes are not available in supplied inputs"
+    },
+    {
+      "source": "V. Patankar, PR #270 comparison and starting-density source",
+      "url": "https://github.com/teorth/optimizationproblems/pull/270",
+      "version": "C86 update of 5 November 2026; certificate commit 9e2b86ca420ab00390cf9b81b4002da0a0248001",
+      "sha256": "182e76bfa2289c31ba262fbd4e515eee734ebd0c78a5c23f40f70db18072d397",
+      "hash_scope": "original comparison certificate bytes used by producer; not redistributed"
+    },
+    {
+      "source": "Tomar public A22 pool",
+      "url": "https://www.mefyi.com/papers/schur-siegel-smyth-trace-bounds/",
+      "version": "2026 preprint and inherited source occurrence map",
+      "sha256": "12acc62da4cf6b0b0991d419708838e6b0629bb705a64483166616922a9e53d7",
+      "hash_scope": "own inherited polynomial occurrence record, not publisher PDF"
+    }
+  ]
+}

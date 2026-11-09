@@ -1,0 +1,39 @@
+[
+  {
+    "name": "wrong-bound",
+    "file": "controls/release-wrong-bound.json",
+    "sha256": "498b6ad7f2e65234a2b9c8f89e577383101d096b8e6f0da51e382abe8c721648",
+    "exit_code": 1,
+    "log": "logs/release-control-wrong-bound.log",
+    "rejected": true
+  },
+  {
+    "name": "raised-weights",
+    "file": "controls/release-raised-weights.json",
+    "sha256": "3b2f8bc5709a26ffb67efbfcf5dd14b32b755c95ab7d39affc71db14d6d15d48",
+    "exit_code": 1,
+    "log": "logs/release-control-raised-weights.log",
+    "rejected": true,
+    "certified_negative_witness": {
+      "x": "5",
+      "enclosure": "[-0.000911950920139554790838335623839206868515576537 +/- 6.21e-49]",
+      "upper": "[-0.000911950920139554790838335623839206868515576537363459411078 +/- 2.25e-61]"
+    }
+  },
+  {
+    "name": "wrong-bound",
+    "verifier": "first",
+    "file": "controls/release-wrong-bound.json",
+    "exit_code": 1,
+    "log": "logs/release-control-wrong-bound-first.log",
+    "rejected": true
+  },
+  {
+    "name": "raised-weights",
+    "verifier": "first",
+    "file": "controls/release-raised-weights.json",
+    "exit_code": 1,
+    "log": "logs/release-control-raised-weights-first.log",
+    "rejected": true
+  }
+]
