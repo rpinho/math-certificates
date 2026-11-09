@@ -27,7 +27,7 @@
 \allowdisplaybreaks[1]
 \title{Ternary derivative controls and Reed-Muller weight caps: C44 < 2.1974348818}
 \author{Ricardo Pinho\\\small ORCID \href{https://orcid.org/0009-0006-2744-2599}{0009-0006-2744-2599}}
-\date{4 November 2026; Section 4 opening expanded 6 November 2026}
+\date{4 November 2026; bit-convention revision 9 November 2026}
 \begin{document}
 \maketitle
 \begin{center}
@@ -50,9 +50,10 @@ proof's equation (12). The source README states it as strict; no strictness
 argument at the rational endpoint is supplied here. Since the rational is
 strictly below $2.1974348818$, the decimal bound $C_{44}<2.1974348818$ holds either way.
 \end{editorial}
-The seven numbered sections below transcribe the frozen \path{PROOF.md}.
-The exception is Section 4, which was expanded step by step and reworded for
-clarity on 6 November 2026, as marked there.
+The seven numbered sections below follow the frozen \path{PROOF.md}, which uses
+the $\pm1$ convention. On 9 November 2026 the write-up was converted to the
+$\{0,1\}$ convention, and Section 4 was rewritten and shortened following
+Alexandr Valyuzhenich's suggestion, with all conclusions unchanged.
 Marked corrections reproduce the supplied errata without silently changing
 the original argument. Supplemental material follows Section 7.
 
@@ -72,11 +73,13 @@ low binary weights are due to Berlekamp–Sloane and Kasami–Tokura.\label{src-
 \section{Definitions, support, and extremizers}\label{src-p003}\label{src-end-p003}
 
 % SOURCE P004, PROOF.md lines 12--16
-\leavevmode\label{src-p004}The cube has independent uniform sign coordinates. Every real function has
-a unique multilinear Fourier expansion $f=\sum_S\widehat f(S)\prod_{i\in S}x_i$.
-Its real degree is the largest $|S|$ with nonzero coefficient. A coordinate
-is relevant precisely when some such $S$ contains it. Its local degree $d_i$
-is the largest $|S|$ containing it. Set\label{src-end-p004}\par
+\leavevmode\label{src-p004}The cube $\{0,1\}^n$ has independent uniform bit coordinates, and Boolean
+functions take values in $\{0,1\}$. Every real function has a unique
+multilinear real expansion $f(x)=\sum_S c_S x^S$, where
+$x^S=\prod_{i\in S}x_i$ and $x^\emptyset=1$.
+Its real degree is the largest $|S|$ with $c_S\ne0$ (constants have degree zero).
+A coordinate is relevant precisely when some such $S$ contains it. Its local
+degree $d_i$ is the largest $|S|$ containing it. Set\label{src-end-p004}\par
 
 % SOURCE P005, PROOF.md lines 18--20
 \begin{equation}
@@ -94,31 +97,45 @@ at least a $2^{-k}$ fraction of the cube. Here is an induction proof. The case
 $k=0$ is constant. For a nonconstant polynomial choose a coordinate $j$ and
 write $P=x_jA+B$ with $A$ nonzero and degree at most $k-1$. The induction
 hypothesis gives support density of $A$ at least $2^{-(k-1)}$. For each input
-in that support, the two values $B+A$ and $B-A$ cannot both vanish. Averaging
+in that support, the two values $B+A$ and $B$ cannot both vanish. Averaging
 the two $j$ branches gives support density at least $2^{-k}$. This also handles
 polynomials whose degree is strictly below the stated upper bound.\label{src-end-p006}\par
 
 % SOURCE P007, PROOF.md lines 31--31
-\leavevmode\label{src-p007}For a sign Boolean $f$, write\label{src-end-p007}\par
+\leavevmode\label{src-p007}For a Boolean $f:\{0,1\}^n\to\{0,1\}$, write\label{src-end-p007}\par
 
 % SOURCE P008, PROOF.md lines 33--33
 \begin{equation}
-A_i=\frac{f(i=+1)-f(i=-1)}{2}.\tag*{}
+A_i=f(x_i{=}1)-f(x_i{=}0),\tag*{}
 \label{src-p008}
 \end{equation}
 
 % SOURCE P009, PROOF.md lines 35--36
-\leavevmode\label{src-p009}Its values are $0,+1,-1$, its real degree is $d_i-1$, and $p_i=\mathbb E A_i^2=\operatorname{Inf}_i(f)$.
-The support lemma gives $p_i\ge 2^{1-d_i}$. Parseval gives\label{src-end-p009}\par
+\leavevmode\label{src-p009}where $f(x_i{=}a)$ denotes $f$ evaluated with coordinate $i$ set to $a$.
+For relevant $i$, its values are $0,+1,-1$, its real degree is $d_i-1$, and
+$p_i=\Pr(A_i\ne0)=\mathbb E A_i^2=\operatorname{Inf}_i(f)$.
+The support lemma gives $p_i\ge 2^{1-d_i}$.
+For the energy bounds here and in Section 2 only, use the orthonormal Walsh
+characters $\chi_S(x)=\prod_{j\in S}(1-2x_j)$ and coefficients
+$\widehat u(S)=\mathbb E[u\chi_S]$. Orthogonality follows from independence
+and $\mathbb E(1-2x_j)=0$, so these $2^n$ characters form a basis and
+Parseval applies. The substitutions $y_j=1-2x_j$ and $x_j=(1-y_j)/2$
+do not increase multilinear degree, in either direction; thus the largest
+Walsh mask size equals real degree. The same holds for local degree by
+applying these substitutions to the nonzero derivative in that coordinate.
+Taking a bit difference of $\chi_S$ gives $-2\chi_{S\setminus\{i\}}$
+if $i\in S$ and zero otherwise. Hence Parseval gives\label{src-end-p009}\par
 
 % SOURCE P010, PROOF.md lines 38--38
 \begin{equation}
-I(f)=\sum_i p_i=\sum_S |S|\widehat f(S)^2\le\deg(f).\tag*{}
+I(f)=\sum_i p_i=4\sum_S |S|\widehat f(S)^2
+\le4\deg(f)\operatorname{Var}(f)\le\deg(f).\tag*{}
 \label{src-p010}
 \end{equation}
 
 % SOURCE P011, PROOF.md lines 40--43
-\leavevmode\label{src-p011}Consequently $D(f)\le I(f)/2\le d/2$ and every relevant variable has influence
+\leavevmode\label{src-p011}Here $\operatorname{Var}(f)=\mathbb E f(1-\mathbb E f)\le1/4$ because $f^2=f$.
+Consequently $D(f)\le I(f)/2\le d/2$ and every relevant variable has influence
 at least $2^{1-d}$. Thus $R_d\le d\,2^{d-1}$. After removing dummy variables and
 relabeling, only finitely many Boolean functions need be considered. The
 two displayed maxima therefore exist.\label{src-end-p011}\par
@@ -127,12 +144,12 @@ two displayed maxima therefore exist.\label{src-end-p011}\par
 \leavevmode\label{src-p012}We use the CHS identity $W_d=R_d/2^d$, and include its proof because its
 extremal reduction matters here. Choose $f$ maximizing $D$ at degree at most $d$.
 Let $L$ be its relevant coordinates of local degree below $d$, and $Y$ the
-others. If $L$ is nonempty, take a disjoint copy $L'$ and a fresh sign selector $z$,
+others. If $L$ is nonempty, take a disjoint copy $L'$ and a fresh bit selector $z$,
 and form\label{src-end-p012}\par
 
 % SOURCE P013, PROOF.md lines 51--51
 \begin{equation}
-h=\frac{1+z}{2}f(x_L,Y)+\frac{1-z}{2}f(x_{L'},Y).\tag*{}
+h=z f(x_L,Y)+(1-z)f(x_{L'},Y).\tag*{}
 \label{src-p013}
 \end{equation}
 
@@ -140,7 +157,7 @@ h=\frac{1+z}{2}f(x_L,Y)+\frac{1-z}{2}f(x_{L'},Y).\tag*{}
 \leavevmode\label{src-p014}This is Boolean. All degree-$d$ terms of the two $f$ copies involve only $Y$,
 so those terms cancel in the coefficient of $z$. Hence $\deg(h)\le d$. Every $Y$
 coordinate retains local degree $d$. Each original $L$ coordinate and its
-copy have local degree exactly one more than before: a largest Fourier
+copy have local degree exactly one more than before: a largest multilinear
 term containing that coordinate gives a noncanceling term also containing $z$.
 Their two weights sum to the original weight. The selector is relevant
 because the two copies differ for some inputs whenever $L$ is nonempty.
@@ -150,7 +167,7 @@ an $R_d$ extremizer has $D\ge R_d/2^d$. This proves the identity.\label{src-end-
 
 % SOURCE P015, PROOF.md lines 64--73
 \leavevmode\label{src-p015}We also need every coordinate of an $R_d$ extremizer to have local degree $d$.
-In bit coordinates, replace a coordinate of smaller local degree by the
+Replace a coordinate of smaller local degree by the
 AND of two fresh bits. The new polynomial has degree at most $d$, since
 terms using that coordinate increase degree by at most one, and other
 terms keep their degrees. Both fresh coordinates are relevant: fix the
@@ -180,7 +197,7 @@ relevant coordinates. Put $p=\mathbb E A^2$. For a relevant coordinate $j$,\labe
 
 % SOURCE P019, PROOF.md lines 90--90
 \begin{equation}
-\Delta_jA=\frac{A(j=+1)-A(j=-1)}{2}\tag*{}
+\Delta_jA=\frac{A(x_j{=}1)-A(x_j{=}0)}{2}\tag*{}
 \label{src-p019}
 \end{equation}
 
@@ -196,8 +213,9 @@ By the support lemma,\label{src-end-p020}\par
 \end{equation}
 
 % SOURCE P022, PROOF.md lines 98--99
-\leavevmode\label{src-p022}On the other hand Fourier orthogonality, first for each derivative and
-then summed over coordinates, gives\label{src-end-p022}\par
+\leavevmode\label{src-p022}For the Walsh characters defined in Section 1, $\Delta_j\chi_S$ is
+$-\chi_{S\setminus\{j\}}$ if $j\in S$ and zero otherwise. Orthogonality,
+first for each half-difference and then summed over coordinates, gives\label{src-end-p022}\par
 
 % SOURCE P023, PROOF.md lines 101--102
 \begin{equation}
@@ -249,7 +267,7 @@ D(f)\le\sum_{j\in H}2^{-d_j(f)}+\mathbb E_\alpha D(f_\alpha).\tag{3}
 \leavevmode\label{src-p032}To prove it for one fixed coordinate $j$, consider another relevant
 coordinate $i$. If $i$ survives in both branches, its local degrees cannot
 increase, so both branch weights are at least its original weight. If it
-survives in exactly one branch, its derivative factors as $(1\pm x_j)/2$ times
+survives in exactly one branch, its derivative factors as $x_j$ or $1-x_j$ times
 the nonzero branch derivative. Its original local degree is exactly one
 larger than its surviving branch local degree. Half that branch weight
 therefore equals the original weight. A relevant $i$ cannot disappear in
@@ -267,17 +285,20 @@ direction. This is correction 1 in \path{CORRECTIONS.md}, reproduced below.
 % SOURCE P033, PROOF.md lines 139--144
 \leavevmode\label{src-p033}Choose a count extremizer $f$ with $N=R_d$ and all local degrees $d$. Choose
 one of its coordinates $i$ and let $H$ be the full relevant-coordinate set of
-$A_i$; write $h=|H|$. Decompose $f=x_iA_i(x_H)+B(x_H,x_Y)$. On any control input
-$\alpha$ with $A_i(\alpha)=\pm1$, both $x_i$ branches being Boolean forces $B=0$
-for every $Y$. Thus $f_\alpha$ is a signed dictator and has $D=1/2$. The fraction
-of such control assignments is exactly $p_i$.\label{src-end-p033}\par
+$A_i$; write $h=|H|$. Decompose $f=x_iA_i(x_H)+B(x_H,x_Y)$, where
+$B=f(x_i{=}0)$. On a control input $\alpha$ with $A_i(\alpha)=1$,
+the two bit-valued branches are $B$ and $B+1$, forcing $B=0$ for every $Y$.
+If $A_i(\alpha)=-1$, they are $B$ and $B-1$, forcing $B=1$ for every $Y$.
+Thus $B=(1-A_i(\alpha))/2$ on either active control input, and $f_\alpha$
+is $x_i$ or $1-x_i$, with $D=1/2$. The fraction of active control assignments
+is exactly $p_i$.\label{src-end-p033}\par
 
 % SOURCE P034, PROOF.md lines 146--152
-\leavevmode\label{src-p034}Every degree-$d$ monomial meets $H$. For a monomial in $B$ disjoint from $H$, its
-coefficient cannot change on restricting $H$, since every larger monomial
-containing it would have degree above $d$. But that coefficient must vanish
-on any active control assignment, since $B$ vanishes identically there. This
-is a contradiction. A degree-$d$ monomial involving $i$ contains a nonempty
+\leavevmode\label{src-p034}Every degree-$d$ monomial meets $H$ for $d\ge2$. For a degree-$d$ monomial
+in $B$ disjoint from $H$, its coefficient cannot change on restricting $H$,
+since every larger monomial containing it would have degree above $d$.
+It is a nonconstant monomial in $Y$, but on any active control assignment
+$B$ is constant in $Y$, so that coefficient must vanish. This is a contradiction. A degree-$d$ monomial involving $i$ contains a nonempty
 mask of $A_i$ (of size $d-1$), hence also meets $H$ for $d\ge2$. Consequently every
 $f_\alpha$ has degree at most $d-1$.\label{src-end-p034}\par
 
@@ -317,14 +338,12 @@ that every low-weight derivative has the same normal form.\label{src-end-p041}\p
 % SOURCE P042, PROOF.md lines 171--171
 \section{Exact energy grid and the higher low-weight spectrum}\label{src-p042}\label{src-end-p042}
 
-% EXPANDED 6 November 2026: replaces the transcription of PROOF.md lines 173--197 (P043--P049)
+% REWRITTEN 9 November 2026: bit-convention proof replacing old Steps 1--7
 \begin{editorial}
-Revised 6 November 2026. In the first version, this section opened with a short paragraph
-(frozen \path{PROOF.md}, lines 173--197). Steps 1--7 below write out every step of it.
-The conclusions are unchanged: equation (6), and the fact that the
-support of $A_i$ is a Reed--Muller codeword of normalized weight $\lambda$.
-The paragraphs after Step 7 are reworded for clarity. They now treat the case $d=2$,
-which the first version left implicit, and no mathematical claim is changed.
+Rewritten 9 November 2026 in the $\{0,1\}$ convention (see the note at the
+start). The conclusions are unchanged. The previous version
+is at commit \href{https://github.com/rpinho/math-certificates/tree/206a6c7}{\texttt{206a6c7}}
+of \texttt{rpinho/math-certificates}.
 \end{editorial}
 Section 3 bounds $N$ in terms of the real parameter $\lambda\ge1$ of one chosen
 derivative. This section shows that $\lambda$ can take only special values.
@@ -334,72 +353,41 @@ checks the values in (8) below $2$ and the necessary grid representatives (9) at
 and above $2$.
 
 \phantomsection\label{src-p043}\label{src-end-p043}\label{src-p044}\label{src-end-p044}\label{src-p045}\label{src-end-p045}%
-\leavevmode Throughout this section, $f$ is a sign Boolean function of real degree at most $d$
-with $d\ge2$, $i$ is a relevant coordinate, $k=d-1\ge1$, $M=2^k=2^{d-1}$ and
-$\lambda=Mp_i$, as in Section 3. We use two coordinate systems on the cube: sign
-coordinates $x_t\in\{+1,-1\}$ and bit coordinates $b_t\in\{0,1\}$, related by
-\[
-b_t=\frac{1-x_t}{2},\qquad x_t=1-2b_t ,
-\]
-so $x_t=+1$ corresponds to $b_t=0$. For a set $T$ of coordinates write
-$x^T=\prod_{t\in T}x_t$ and $b^T=\prod_{t\in T}b_t$, with $x^\emptyset=b^\emptyset=1$.
+\leavevmode Throughout this section, $f:\{0,1\}^n\to\{0,1\}$ has real degree at most
+$d\ge2$, $i$ is relevant, $k=d-1\ge1$, $M=2^k=2^{d-1}$ and $\lambda=Mp_i$.
 
-\textbf{Step 1 (integer bit coefficients).} Every real function $u$ on $\{0,1\}^n$
-has a unique multilinear expansion $u(b)=\sum_T c_T\,b^T$. For a set $U$, let
-$1_U$ be the bit vector equal to 1 exactly on $U$. Then $b^T=1$ at $1_U$ if
-$T\subseteq U$ and $b^T=0$ otherwise, so
+\textbf{Integer coefficients.} Write $f(x)=\sum_T c_Tx^T$. If $1_U$ is the
+bit vector equal to one exactly on $U$, then $f(1_U)=\sum_{T\subseteq U}c_T$.
+Consequently
 \[
-u(1_U)=\sum_{T\subseteq U}c_T\qquad\text{for every }U .
+c_T=\sum_{U\subseteq T}(-1)^{|T|-|U|}f(1_U)\in\mathbb Z.
 \]
-M\"obius inversion on the subset lattice solves this triangular system:
+Indeed, substituting the preceding identity into this sum gives
+$\sum_{V\subseteq T}c_V\sum_{V\subseteq U\subseteq T}(-1)^{|T|-|U|}$;
+the inner sum is $(1-1)^{|T\setminus V|}$, hence one for $V=T$ and zero otherwise.
+The bit difference therefore has the expansion
 \[
-c_T=\sum_{U\subseteq T}(-1)^{|T|-|U|}\,u(1_U).
+A_i=\sum_{T\ni i}c_Tx^{T\setminus\{i\}}=\sum_T a_Tx^T,
+\qquad a_T\in\mathbb Z,\quad a_T=0\ \text{if }|T|>k.
 \]
-(Substituting the first identity into the right side gives
-$\sum_{V\subseteq T}c_V\sum_{V\subseteq U\subseteq T}(-1)^{|T|-|U|}$, and the inner sum
-is $1$ if $V=T$ and $0$ otherwise.) Consequently, if $u$ takes only integer values,
-every $c_T$ is an integer. This applies to the bit-output function
-$g=(1-f)/2$, whose values are $0$ and $1$, and to $A_i$, whose values are $0,+1,-1$.
+Here and below the masks in the final sum omit $i$; the bound follows
+because $c_T=0$ for $|T|>d$.
 
-\textbf{Step 2 (the two degrees agree).} Substituting $b_t=(1-x_t)/2$ into $b^T$ gives
-$\prod_{t\in T}(1-x_t)/2$, a multilinear polynomial in the $x_t$ of degree $|T|$.
-So a multilinear bit polynomial of degree at most $e$ becomes a multilinear sign
-polynomial of degree at most $e$. Substituting $x_t=1-2b_t$ shows the converse in the
-same way. Multilinear expansions are unique in both coordinate systems, so the bit
-degree and the real (Fourier) degree of any function on the cube are equal. In
-particular $g=(1-f)/2$ has bit degree at most $d$, because its Fourier expansion is
-$\tfrac12-\tfrac12 f$ and therefore has degree at most $d$.
-
-\textbf{Step 3 (the Fourier grid of $f$).} Write $g=\sum_T c_T\,b^T$ with integer
-$c_T$ (Step 1) and $c_T=0$ whenever $|T|>d$ (Step 2). For $S\subseteq T$, the coefficient
-of $x^S$ in $b^T=2^{-|T|}\prod_{t\in T}(1-x_t)$ is $(-1)^{|S|}2^{-|T|}$. Since $f=1-2g$,
-\[
-\widehat f(S)=[S=\emptyset]-\sum_{T\supseteq S}(-1)^{|S|}\,c_T\,2^{1-|T|},
-\]
-where $[S=\emptyset]$ is $1$ for the empty set and $0$ otherwise. Each nonzero term has $|T|\le d$, so $2^{1-|T|}=2^{d-|T|}\cdot2^{1-d}$ is an integer
-multiple of $2^{1-d}=1/M$. The constant $1=2^{d-1}\cdot 2^{1-d}$ is also a multiple of
-$1/M$. Hence $M\widehat f(S)$ is an integer for every $S$.
-
-\textbf{Step 4 (the grid of $A_i$).} Put the expansion $f=\sum_S\widehat f(S)x^S$ into
-$A_i=\bigl(f(i{=}+1)-f(i{=}-1)\bigr)/2$. Terms with $i\notin S$ cancel. A term with
-$i\in S$ becomes $\widehat f(S)\,x^{S\setminus\{i\}}$, since $(1-(-1))/2=1$. So
-\[
-\widehat{A_i}(S')=\widehat f\bigl(S'\cup\{i\}\bigr)\qquad(i\notin S'),
-\]
-and $\widehat{A_i}(S')=0$ when $i\in S'$. By Step 3, $z_{S'}=M\widehat{A_i}(S')$ is an
-integer for every $S'$.
-
-\textbf{Step 5 ($\lambda$ in terms of the $z_S$).} By Parseval,
-\[
-\lambda=M\,\mathbb E A_i^2=M\sum_S\widehat{A_i}(S)^2=\frac{\sum_S z_S^2}{M}.\tag*{}
-\]
 \phantomsection\label{src-p046}\label{src-end-p046}\label{src-p047}\label{src-end-p047}%
-\textbf{Step 6 (parity).} At the all-$(+1)$ sign input every $x^S$ equals $1$, so
-$A_i(+1,\ldots,+1)=\sum_S\widehat{A_i}(S)=\sum_S z_S/M$. The left side is $0$, $+1$ or
-$-1$, so $\sum_S z_S=M\,A_i(+1,\ldots,+1)$ is an integer multiple of $M$. Because
-$d\ge2$, $M=2^{d-1}$ is even, so $\sum_S z_S$ is even. For every integer $z$,
-$z^2-z=z(z-1)$ is even, so $\sum_S z_S^2\equiv\sum_S z_S\equiv0\pmod 2$. Write
-$\sum_S z_S^2=2m$ with $m$ an integer. Step 5 gives $\lambda=2m/M$, that is,
+\textbf{Energy grid.} For uniform bits, $(x^T)(x^U)=x^{T\cup U}$ and
+$\mathbb E x^{T\cup U}=2^{-|T\cup U|}$, by independence. Thus
+\[
+p_i=\mathbb E A_i^2
+=\sum_T a_T^2\,2^{-|T|}
+ +2\sum_{T<U}a_Ta_U\,2^{-|T\cup U|},
+\]
+where $<$ is any fixed ordering of the masks, so each distinct pair is
+counted once in the second sum. Every diagonal term is an integer multiple
+of $2^{1-2k}$: its ratio to this number is
+$a_T^2 2^{2k-1-|T|}$, an integer since $|T|\le k$ and $k\ge1$.
+Every off-diagonal term is also such a multiple: its ratio is
+$a_Ta_U2^{2k-|T\cup U|}$, an integer since $|T\cup U|\le2k$.
+It follows that $p_i\in2^{1-2k}\mathbb Z$. Multiplying by $M=2^k$ proves
 \begin{equation}
 \lambda\in\frac2M\mathbb Z.\tag{6}
 \label{src-p048}
@@ -407,25 +395,24 @@ $\sum_S z_S^2=2m$ with $m$ an integer. Step 5 gives $\lambda=2m/M$, that is,
 \phantomsection\label{src-end-p048}%
 
 \phantomsection\label{src-p049}\label{src-end-p049}%
-\textbf{Step 7 (the support of $A_i$ is a Reed--Muller codeword).} Regard $A_i$ as a
-function on $n$ bit coordinates, adjoining unused coordinates if necessary so that
-$n\ge k+2$. This leaves $p_i$, $\lambda$ and the degree bounds unchanged, because each
-value is repeated equally often. Write $A_i$ in bit
-coordinates, $A_i=\sum_T a_T\,b^T$. Its values are integers, so every $a_T$ is an integer
-(Step 1). By Step 4, $\widehat{A_i}(S')$ is nonzero only when $\widehat f(S'\cup\{i\})$ is,
-so the real degree of $A_i$ is $d_i-1\le k$. Hence $a_T=0$ for $|T|>k$ (Step 2).
-Reduce each $a_T$ modulo two. The result $\bar A=\sum_T(a_T\bmod 2)\,b^T$ is a
-polynomial over $\mathbb F_2$ of degree at most $k$. At any bit input, evaluating an
-integer polynomial and then reducing modulo two gives the same result as reducing the
-coefficients first and then evaluating. So $\bar A(b)\equiv A_i(b)\pmod 2$. Since
-$0\equiv0$ and $\pm1\equiv1$, $\bar A(b)=1$ exactly when $A_i(b)\ne0$. Thus the
-indicator of the support of $A_i$ is a word of the binary Reed--Muller code
-$\operatorname{RM}(k,n)$. It is nonzero because $i$ is relevant. Its weight is
-$w=2^n\Pr(A_i\ne0)=2^n\,\mathbb E A_i^2=2^np_i$, using $A_i^2=1$ on the support.
-Relative to the minimum distance $2^{n-k}$ of $\operatorname{RM}(k,n)$, its
-normalized weight is $w/2^{n-k}=2^kp_i=\lambda$. We reduce $A_i$ itself. Using only the real-degree bound $\deg(A_i^2)\le2k$ would give
-membership in $\operatorname{RM}(\min\{2k,n\},n)$; reducing $A_i$ directly gives the
-required order-$k$ bound.
+\textbf{Support word.} Reduce the integer coefficients $a_T$ modulo two.
+Evaluation at a bit input commutes with this reduction, so the resulting
+polynomial over $\mathbb F_2$ has degree at most $k$ and value
+$A_i(x)\bmod2$. Because $A_i$ takes values $0,+1,-1$, this value is one
+exactly on its support. By definition $\operatorname{RM}(k,n)$ consists of the evaluation vectors
+of multilinear $\mathbb F_2$ polynomials of degree at most $k$ on $\{0,1\}^n$.
+Thus this support indicator is a word of $\operatorname{RM}(k,n)$; it is
+nonzero because $i$ is relevant. We may append unused
+coordinates until $n\ge k+2$: each value is repeated equally often, leaving
+$p_i$, $\lambda$ and the degree bounds unchanged.
+For completeness the minimum distance of this code is $2^{n-k}$.
+The support induction in Section 1 also works over $\mathbb F_2$: writing
+$P=x_jA+B$, the values $B$ and $B+A$ cannot both vanish when $A\ne0$.
+It gives weight at least $2^{n-k}$ for a nonzero polynomial of degree at
+most $k$; the monomial $x_1\cdots x_k$ attains it.
+The support word has weight $w=2^n\Pr(A_i\ne0)=2^np_i$, so its weight
+normalized by this minimum distance is $w/2^{n-k}=2^kp_i=\lambda$.
+We reduce $A_i$ itself, rather than $A_i^2$, whose real degree could be $2k$.
 
 % SOURCE P050, PROOF.md lines 199--201
 \leavevmode\label{src-p050}We use the Kasami--Tokura theorem on Reed--Muller codewords of weight
@@ -442,7 +429,7 @@ normalized weight\label{src-end-p050}\par
 % SOURCE P052, PROOF.md lines 205--213
 \leavevmode\label{src-p052}Since $w<2\cdot2^{n-k}$ is the same as $\lambda<2$, (7) applies exactly
 when $\lambda<2$. The theorem also says which $j$ occur for given $n$ and $k$. We use
-only the fact that $\lambda$ has the form (7), so we allow every $j\ge0$. As in Step 7,
+only the fact that $\lambda$ has the form (7), so we allow every $j\ge0$. As above,
 we have $n\ge k+2$. The theorem applies to words of algebraic degree at most $k$. A
 nonzero word of algebraic degree at most $k-1$ lies in $\operatorname{RM}(k-1,n)$, so
 its weight is at least $2^{n-k+1}$, twice the minimum distance of
@@ -580,18 +567,23 @@ on that attribution. This is correction 2 in \path{CORRECTIONS.md}.
 
 % SOURCE P070, PROOF.md lines 296--297
 \leavevmode\label{src-p070}We need a global bound, not just a horizon calculation. The CHS/Shinkar–Tal
-lower family starts with $\Xi_1=x$ and, on disjoint variables, uses\label{src-end-p070}\par
+lower family starts with $\Xi_1(x)=x$ and, on disjoint bit variables, uses\label{src-end-p070}\par
 
 % SOURCE P071, PROOF.md lines 299--299
 \begin{equation}
-\Xi_d=\frac{s+t}{2}\Xi_{d-1}(x)+\frac{s-t}{2}\Xi_{d-1}(y).\tag*{}
+\Xi_d=s+(1-s-t)\Xi_{d-1}(x)+(t-s)\Xi_{d-1}(y).\tag*{}
 \label{src-p071}
 \end{equation}
 
 % SOURCE P072, PROOF.md lines 301--304
-\leavevmode\label{src-p072}On a sign input exactly one summand is active, proving Booleanity by
-induction. Its nonzero Fourier masks have size $d$. The two input copies
-and the two fresh selectors remain relevant, so its count $L_d$ satisfies
+\leavevmode\label{src-p072}For $(s,t)=(0,0),(0,1),(1,0),(1,1)$ the output is respectively
+$\Xi_{d-1}(x)$, $\Xi_{d-1}(y)$, $1-\Xi_{d-1}(y)$, $1-\Xi_{d-1}(x)$,
+so induction proves Booleanity. Its degree is $d$: the formula has degree
+at most $d$, and a degree-$(d-1)$ monomial in the first copy produces a
+noncanceling degree-$d$ term containing $s$. Each input copy remains relevant
+by selecting it. Both selectors remain relevant: choosing both copy outputs
+zero makes the result $s$, while choosing the first zero and the second one
+makes it $t$. Thus its count $L_d$ satisfies
 $L_1=1$ and $L_d=2L_{d-1}+2$. Solving this recursion gives\label{src-end-p072}\par
 
 % SOURCE P073, PROOF.md lines 306--306
@@ -731,7 +723,7 @@ scalar sequence exists, is nondecreasing, and its limit lies in\label{src-end-p0
 \leavevmode\label{src-p093}This pins its limit to $2.197434881723198\ldots$ with interval width
 $9508/2^{96}<1.3\cdot10^{-25}$. It quantifies the end of this particular energy and
 weight-spectrum relaxation. It is not an optimality theorem for all uses
-of Reed–Muller structure. Full signed real-degree compatibility, sharper
+of Reed–Muller structure. Full ternary real-degree compatibility, sharper
 control sets for actual higher-weight derivatives, correlations between
 derivatives, or new block bounds crossing the saturation thresholds could
 improve it. The known lower bound is $3/2$ from the family above, leaving a
@@ -830,6 +822,9 @@ lemmas and external premises, not those universal statements themselves.
 \section*{Credit and later work}
 \addcontentsline{toc}{section}{Credit and later work}
 \label{credit}
+Thanks to Alexandr Valyuzhenich for suggesting the $\{0,1\}$ convention,
+which shortens Section 4 without changing its conclusions.
+
 Following the source README and prior-art note, credit goes to Chiarelli,
 Hatami and Saks for the weighted framework (including the corrected
 duplication in Chiarelli's thesis); Wellens for the recurrence; Berlekamp
