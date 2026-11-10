@@ -1,0 +1,55 @@
+{
+  "result": "PASS",
+  "commands": [
+    {
+      "name": "exact",
+      "command": "python3 verify_exact.py certificates/final.json --claim 28587164107974856086021451670774323985081039148875463526401/16766169836386813382037844357636904350593843200000000000000 --out release_validation/exact.json",
+      "cwd": ".",
+      "pid": 78045,
+      "returncode": 0,
+      "seconds": 19.999
+    },
+    {
+      "name": "controls",
+      "command": "python3 rejection_controls.py certificates/final.json 28587164107974856086021451670774323985081039148875463526401/16766169836386813382037844357636904350593843200000000000000",
+      "cwd": ".",
+      "pid": 78155,
+      "returncode": 0,
+      "seconds": 22.116
+    },
+    {
+      "name": "finite",
+      "command": "python3 finite_instance.py certificates/final.json release_validation/exact.json release_validation/finite.json --claim 8525251857/5000000000",
+      "cwd": ".",
+      "pid": 78485,
+      "returncode": 0,
+      "seconds": 0.082
+    },
+    {
+      "name": "referee",
+      "command": "python3 referee_check.py --certificate ../certificates/final.json --finite ../producer_logs/final-finite.json --output ../release_validation/referee-results.json --witness-output ../release_validation/witness_checks.csv",
+      "cwd": "referee",
+      "pid": 78489,
+      "returncode": 0,
+      "seconds": 22.515
+    }
+  ],
+  "nice": 20,
+  "maximum_simultaneous_compute_processes": 2,
+  "python": "3.12.13",
+  "regenerable_outputs": "omitted-generated.json",
+  "portable_referee": {
+    "result": "PASS",
+    "pid": 78968,
+    "seconds": 32.363,
+    "exact_fields_match_original": true,
+    "excluded_volatile_fields": [
+      "runtime_seconds",
+      "pid",
+      "nice",
+      "priority_note"
+    ],
+    "witness_table_byte_identical": true,
+    "nice": 15
+  }
+}

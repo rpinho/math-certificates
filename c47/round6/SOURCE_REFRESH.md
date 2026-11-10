@@ -1,0 +1,7 @@
+# Release source refresh
+
+Refreshed 2026-11-10T01:51:34.315201+00:00. The official source matches main `87b4ebbd426ff8db597a2004cc45da17903bdcf2`; the served page still shows Lin’s preceding bounds. All 85 open PR heads were fetched and inspected by full changed-file lists. Only #321, #341 and #350 touch constants/47a.md, at their unchanged heads. No other head contains #350. This supports updating the existing Pinho2026b row while retaining its predecessors.
+
+PR bodies and C47 diffs were read. Public repository searches, named result-repository metadata and root READMEs, the Zenodo v5 record, author paper page and EinsteinArena landing page were refreshed. All five successful named repository heads match the previous release’s tree screen; three were confirmed by public Git fetch after the final API requests were rate-limited. Earlier successful root-README reads supplied the prose screen. repository_of_problems remains unavailable. Recent-paper and community queries found no stronger applicable C47 claim in returned results. PRIOR_ART.md gives URLs, scope and limits.
+
+Local source captures are outside the publishable packet. The packet contains compact PR attribution snapshots, refresh metadata and complete linked-commit tree evidence, with no copied third-party papers or source files. referee/sources/SOURCES.md records the omitted consulted files with URL, version and SHA-256. The supplied round-5 commit identifier is absent from the read-only object store; no tree evidence or public-availability claim is manufactured for it.

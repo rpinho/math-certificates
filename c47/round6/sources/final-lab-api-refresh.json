@@ -1,0 +1,143 @@
+{
+  "utc": "2026-11-10T01:51:31.271394+00:00",
+  "repos": [
+    {
+      "repo": "BakeLab/Epi-results",
+      "reads": [
+        {
+          "url": "https://api.github.com/repos/BakeLab/Epi-results",
+          "status": 200,
+          "file": "sources/BakeLab__Epi-results-meta.json",
+          "sha256": "c00c29832918ecb1b8ec1bbec7c941353dee220990096cb6b12a68053beb0b2d"
+        },
+        {
+          "url": "https://api.github.com/repos/BakeLab/Epi-results/commits?per_page=1",
+          "status": 200,
+          "file": "sources/BakeLab__Epi-results-head.json",
+          "sha256": "80182b492fbc0f0e545febc4be88644caaff70e5a7591472f0665a0b6fe23da1"
+        },
+        {
+          "url": "https://api.github.com/repos/BakeLab/Epi-results/readme",
+          "status": 200,
+          "file": "sources/BakeLab__Epi-results-readme.json",
+          "sha256": "dc23259d0fef59bb59890d545abf080ea05cc67fc988684e61b6c6a7e3ae3bcc"
+        }
+      ]
+    },
+    {
+      "repo": "google-deepmind/alphaevolve_results",
+      "reads": [
+        {
+          "url": "https://api.github.com/repos/google-deepmind/alphaevolve_results",
+          "status": 200,
+          "file": "sources/google-deepmind__alphaevolve_results-meta.json",
+          "sha256": "56fdfe1730408d1cb8730e4f6401adc5f7a61ce0afaa1d3c889b0cf81fbc29ae"
+        },
+        {
+          "url": "https://api.github.com/repos/google-deepmind/alphaevolve_results/commits?per_page=1",
+          "status": 200,
+          "file": "sources/google-deepmind__alphaevolve_results-head.json",
+          "sha256": "1910ec6a22dcd2bc8fcef733b342442f5908b4006cb92fb26d709e65b3871371"
+        },
+        {
+          "url": "https://api.github.com/repos/google-deepmind/alphaevolve_results/readme",
+          "status": 200,
+          "file": "sources/google-deepmind__alphaevolve_results-readme.json",
+          "sha256": "0a627271601c5ca0ce9a9795afbe57b0bb3a2f685c4bb53470a016234d32f3ca"
+        }
+      ]
+    },
+    {
+      "repo": "google-deepmind/repository_of_problems",
+      "reads": [
+        {
+          "url": "https://api.github.com/repos/google-deepmind/repository_of_problems",
+          "status": 404,
+          "file": "sources/google-deepmind__repository_of_problems-meta.json",
+          "sha256": "a298fd3d1a255b0eb21a952212460852e05ba9721d3445fb42d7ad054d88f94a"
+        },
+        {
+          "url": "https://api.github.com/repos/google-deepmind/repository_of_problems/commits?per_page=1",
+          "status": 404,
+          "file": "sources/google-deepmind__repository_of_problems-head.json",
+          "sha256": "98645dbdbe00e2b21cf97cb5d869d88faab42576f23cf06f1f5b839d6e017e6e"
+        },
+        {
+          "url": "https://api.github.com/repos/google-deepmind/repository_of_problems/readme",
+          "status": 404,
+          "file": "sources/google-deepmind__repository_of_problems-readme.json",
+          "sha256": "4fa9919c63591cbc2e36052668278be9cc26303ca2e8ab2dcb47cc6e585ef010"
+        }
+      ]
+    },
+    {
+      "repo": "openai/math",
+      "reads": [
+        {
+          "url": "https://api.github.com/repos/openai/math",
+          "status": 200,
+          "file": "sources/openai__math-meta.json",
+          "sha256": "f311e4dbcdfdf3b3f09445935d7a97cf292e67fce4210d27957702f1238162f8"
+        },
+        {
+          "url": "https://api.github.com/repos/openai/math/commits?per_page=1",
+          "status": 403,
+          "file": "sources/openai__math-head.json",
+          "sha256": "8928c865e50fc83b5e114819a695ea3bf20bdee467b8fad99666532bdc4b3889"
+        },
+        {
+          "url": "https://api.github.com/repos/openai/math/readme",
+          "status": 403,
+          "file": "sources/openai__math-readme.json",
+          "sha256": "8928c865e50fc83b5e114819a695ea3bf20bdee467b8fad99666532bdc4b3889"
+        }
+      ]
+    },
+    {
+      "repo": "plasma-ai/erdos",
+      "reads": [
+        {
+          "url": "https://api.github.com/repos/plasma-ai/erdos",
+          "status": 200,
+          "file": "sources/plasma-ai__erdos-meta.json",
+          "sha256": "b64b9cce3b829b1266649c7e24d06ad3cb08d0787b3537f3b5488b7da116e508"
+        },
+        {
+          "url": "https://api.github.com/repos/plasma-ai/erdos/commits?per_page=1",
+          "status": 403,
+          "file": "sources/plasma-ai__erdos-head.json",
+          "sha256": "8928c865e50fc83b5e114819a695ea3bf20bdee467b8fad99666532bdc4b3889"
+        },
+        {
+          "url": "https://api.github.com/repos/plasma-ai/erdos/readme",
+          "status": 403,
+          "file": "sources/plasma-ai__erdos-readme.json",
+          "sha256": "8928c865e50fc83b5e114819a695ea3bf20bdee467b8fad99666532bdc4b3889"
+        }
+      ]
+    },
+    {
+      "repo": "kisonecat/openai-math",
+      "reads": [
+        {
+          "url": "https://api.github.com/repos/kisonecat/openai-math",
+          "status": 403,
+          "file": "sources/kisonecat__openai-math-meta.json",
+          "sha256": "8928c865e50fc83b5e114819a695ea3bf20bdee467b8fad99666532bdc4b3889"
+        },
+        {
+          "url": "https://api.github.com/repos/kisonecat/openai-math/commits?per_page=1",
+          "status": 403,
+          "file": "sources/kisonecat__openai-math-head.json",
+          "sha256": "8928c865e50fc83b5e114819a695ea3bf20bdee467b8fad99666532bdc4b3889"
+        },
+        {
+          "url": "https://api.github.com/repos/kisonecat/openai-math/readme",
+          "status": 403,
+          "file": "sources/kisonecat__openai-math-readme.json",
+          "sha256": "8928c865e50fc83b5e114819a695ea3bf20bdee467b8fad99666532bdc4b3889"
+        }
+      ]
+    }
+  ]
+}

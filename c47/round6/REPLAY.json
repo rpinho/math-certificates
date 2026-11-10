@@ -1,0 +1,20 @@
+{
+  "model": "GPT-6 Astra via Codex",
+  "author": "separate commissioned clean-room referee session",
+  "status": "PASS",
+  "value": "1.7050503714",
+  "arithmetic": "exact",
+  "inputs": {
+    "referee/sources/producer-proof.md": "d00d5b74561ac1014fde8ede992ee148ad0be789b32c08a48bf785411b4645ac",
+    "certificates/final.json": "5a9baac31ca5e4875e9495a81469402018bf2cccb8889f9d85f396d4d38f32c4",
+    "producer_logs/final-finite.json": "374ea01c737f4b413a79dab11cecbe9425f17ea8a1f66073a5c96a9c9262177e"
+  },
+  "inputs_hash": "8e63b76a59cca3c8101f6d14c2ab77ae86cf1945f27b5af95bdb7655a3652275",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/referee_check.py",
+  "checker_sha256": "0ebd38c83a9c11746a9abffebff3d1173a5005d4f5343d03cb49a045a77e3c62",
+  "report": "referee/REFEREE.md",
+  "report_sha256": "bfd55ef477cd852bfab89489f5000a434a87c69c801169038d5cf163bdc48c22",
+  "note": "Transcribed from the supplied actual clean-room AI referee report and run, not a new review or authenticated model-identity attestation. Certificate, original producer proof and finite receipt are byte-for-byte inputs. The referee also read producer report and prior-art prose, without accessing producer code. Publication edits are recorded in referee/README.md. Hashes do not establish historical isolation. The checker publication copy has algebraically equivalent exact-type forms documented in referee/README.md."
+}

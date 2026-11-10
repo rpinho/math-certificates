@@ -1,0 +1,15 @@
+{
+  "date_utc": "2026-11-10",
+  "method": "Public indexed web search; GitHub reads in this job use curl api.github.com and public git fetch only",
+  "queries": [
+    "\"1.7050503714\" C47 maximal squares",
+    "Hardy Littlewood centered squares weak type lower bound arxiv 2026",
+    "site:x.com Tomar maximal squares 2026 OR site:reddit.com maximal squares 2026"
+  ],
+  "primary_results": [
+    {"url": "https://arxiv.org/abs/2609.05377", "scope": "Euclidean-ball dimension-growth upper bound; different quantity"},
+    {"url": "https://arxiv.org/abs/2609.12440", "scope": "Real-line strong-type norm; different quantity"},
+    {"url": "https://doi.org/10.5281/zenodo.23716077", "scope": "Tomar v5, planar squares; primary record separately refreshed by curl"}
+  ],
+  "conclusion": "No stronger applicable C47 lower claim located in returned results; bounded coverage, not exhaustive priority. No private communities accessed."
+}

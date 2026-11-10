@@ -1,0 +1,1220 @@
+{
+  "sha": "72c022ba09032b522c878cca2f9b6c68217d77ea",
+  "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/trees/72c022ba09032b522c878cca2f9b6c68217d77ea",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "668bb157b0c85de6442cdf7cd77c34e7e76dec72",
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/trees/668bb157b0c85de6442cdf7cd77c34e7e76dec72"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "469dd18408fe49d78cf366e1a7d986cca3289c04",
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/trees/469dd18408fe49d78cf366e1a7d986cca3289c04"
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ef371cd585f79c5a5d9c8afa11412b91a9d35fd",
+      "size": 3723,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/6ef371cd585f79c5a5d9c8afa11412b91a9d35fd"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b1b1f7d298bc5cfc40d825c6861e9be27cd913e",
+      "size": 17,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/5b1b1f7d298bc5cfc40d825c6861e9be27cd913e"
+    },
+    {
+      "path": ".mathlib-quality",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e23358caf11c27113c6854d3bd66914294ef51e4",
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/trees/e23358caf11c27113c6854d3bd66914294ef51e4"
+    },
+    {
+      "path": ".mathlib-quality/b2_log.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": ".mathlib-quality/decomposition.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5048e7d925956cbc6470e4b0fc1d4763a0ab7084",
+      "size": 11541,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/5048e7d925956cbc6470e4b0fc1d4763a0ab7084"
+    },
+    {
+      "path": ".mathlib-quality/plan.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60b43e43f37d9d66e81ec388ae33087124a10151",
+      "size": 5442,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/60b43e43f37d9d66e81ec388ae33087124a10151"
+    },
+    {
+      "path": ".mathlib-quality/tickets.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6050a752f3c7331695241ab87892e13fdb68590",
+      "size": 2609,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/a6050a752f3c7331695241ab87892e13fdb68590"
+    },
+    {
+      "path": "CenteredMaximal.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53bf97d9eee533c9409adb80f3ebd267c7b97b72",
+      "size": 2453,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/53bf97d9eee533c9409adb80f3ebd267c7b97b72"
+    },
+    {
+      "path": "CenteredMaximal",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bba6995f219abdb6e11db0c4f0be66ad0d7a3c78",
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/trees/bba6995f219abdb6e11db0c4f0be66ad0d7a3c78"
+    },
+    {
+      "path": "CenteredMaximal/Analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "36ed0dd2a49f20abd03dc4950a018bceaa69ddec",
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/trees/36ed0dd2a49f20abd03dc4950a018bceaa69ddec"
+    },
+    {
+      "path": "CenteredMaximal/Analysis/BoundedFunctional.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac4bab53b1c2ccfa50dc896d524d5fa5c90e9613",
+      "size": 24743,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/ac4bab53b1c2ccfa50dc896d524d5fa5c90e9613"
+    },
+    {
+      "path": "CenteredMaximal/Analysis/EnergyDensity.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5407ff404668eb0dec4a0248b6e97f313bc7616",
+      "size": 45970,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/f5407ff404668eb0dec4a0248b6e97f313bc7616"
+    },
+    {
+      "path": "CenteredMaximal/Analysis/EnergySpace.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fc1419de38f38ea7a7e4d8e3f9c7e731ae6984d",
+      "size": 27142,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/9fc1419de38f38ea7a7e4d8e3f9c7e731ae6984d"
+    },
+    {
+      "path": "CenteredMaximal/Analysis/Gagliardo.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c96daae57ba2f87df0c136b2ebdc9ae9e6695719",
+      "size": 35017,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/c96daae57ba2f87df0c136b2ebdc9ae9e6695719"
+    },
+    {
+      "path": "CenteredMaximal/Analysis/JumpEnergy.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9857ad456112470ae16381921566e04aae765bef",
+      "size": 19341,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/9857ad456112470ae16381921566e04aae765bef"
+    },
+    {
+      "path": "CenteredMaximal/Analysis/JumpGenerator.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a40741bd1cd55e87d1eab989a27e876ff3780141",
+      "size": 25849,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/a40741bd1cd55e87d1eab989a27e876ff3780141"
+    },
+    {
+      "path": "CenteredMaximal/Analysis/Pairing.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82171c4fce6d5e5f7f4dbc2308e9d6d07eca9626",
+      "size": 33848,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/82171c4fce6d5e5f7f4dbc2308e9d6d07eca9626"
+    },
+    {
+      "path": "CenteredMaximal/Analysis/WeakCompact.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8350b70fc1d6b67f03ced836d54556c1b685877f",
+      "size": 9322,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/8350b70fc1d6b67f03ced836d54556c1b685877f"
+    },
+    {
+      "path": "CenteredMaximal/Ball",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d164e2f577c59fbd8a9ef114ea3f0f4c42e250a1",
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/trees/d164e2f577c59fbd8a9ef114ea3f0f4c42e250a1"
+    },
+    {
+      "path": "CenteredMaximal/Ball/AEChallengeReduction.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f6d0143470737b819a53249fc038e10fa6dc464",
+      "size": 2208,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/4f6d0143470737b819a53249fc038e10fa6dc464"
+    },
+    {
+      "path": "CenteredMaximal/Ball/AEGreenFromMollifiers.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de9b1b12f1cca5364584836f26321ebcca846eec",
+      "size": 5722,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/de9b1b12f1cca5364584836f26321ebcca846eec"
+    },
+    {
+      "path": "CenteredMaximal/Ball/AEObstacleTransfer.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74ee82002927e393a5c989f49ed8f19befb4624c",
+      "size": 7523,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/74ee82002927e393a5c989f49ed8f19befb4624c"
+    },
+    {
+      "path": "CenteredMaximal/Ball/AERealCertificate.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "115911dd495431b354ff9fb6c5fd1f6938fdce23",
+      "size": 2417,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/115911dd495431b354ff9fb6c5fd1f6938fdce23"
+    },
+    {
+      "path": "CenteredMaximal/Ball/BallComplementCertificate.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a05d544bf6fbbcbdb5b49191867f25c6e9d9f331",
+      "size": 9074,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/a05d544bf6fbbcbdb5b49191867f25c6e9d9f331"
+    },
+    {
+      "path": "CenteredMaximal/Ball/BallComplementGreenPairing.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1baae17c949acba80916f86fba48de7eec016f68",
+      "size": 11759,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/1baae17c949acba80916f86fba48de7eec016f68"
+    },
+    {
+      "path": "CenteredMaximal/Ball/BallComplementKernelComparison.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23d665092d296bafde8b83bf55c1f5f982413f98",
+      "size": 10462,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/23d665092d296bafde8b83bf55c1f5f982413f98"
+    },
+    {
+      "path": "CenteredMaximal/Ball/BallComplementSourceBound.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03fe5e61efe2e302d87e273bc6aefba94d180cfe",
+      "size": 6851,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/03fe5e61efe2e302d87e273bc6aefba94d180cfe"
+    },
+    {
+      "path": "CenteredMaximal/Ball/BallDensityExtension.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfb9223d4a59bade09f13deffd26c7988b448a0e",
+      "size": 3928,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/dfb9223d4a59bade09f13deffd26c7988b448a0e"
+    },
+    {
+      "path": "CenteredMaximal/Ball/BallFlux.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95e5795fd43afaa47d1edee5f50229e53f8d2df5",
+      "size": 12346,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/95e5795fd43afaa47d1edee5f50229e53f8d2df5"
+    },
+    {
+      "path": "CenteredMaximal/Ball/BallGreenCertificates.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44f71b23fcc64abf4a3cac785b65023ef3d59d5a",
+      "size": 5018,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/44f71b23fcc64abf4a3cac785b65023ef3d59d5a"
+    },
+    {
+      "path": "CenteredMaximal/Ball/BallKernelSupport.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2915e44a21f7f48776c2d212f6999a0ac3c7586",
+      "size": 9592,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/d2915e44a21f7f48776c2d212f6999a0ac3c7586"
+    },
+    {
+      "path": "CenteredMaximal/Ball/BallPenalized.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17eb7214425695125cf06d18ecf70058c5676097",
+      "size": 1824,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/17eb7214425695125cf06d18ecf70058c5676097"
+    },
+    {
+      "path": "CenteredMaximal/Ball/BallPenaltyCap.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "912708f55e47f4f63e3612c1d67f75b10902c7e5",
+      "size": 5169,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/912708f55e47f4f63e3612c1d67f75b10902c7e5"
+    },
+    {
+      "path": "CenteredMaximal/Ball/BallPenaltyLimit.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c16b49dccd9e9d1dfe5dd076452df4e96056b7a8",
+      "size": 9143,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/c16b49dccd9e9d1dfe5dd076452df4e96056b7a8"
+    },
+    {
+      "path": "CenteredMaximal/Ball/BallPenaltyObstacle.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06300abf84ec2fb377b3161b16b62150734ab534",
+      "size": 7332,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/06300abf84ec2fb377b3161b16b62150734ab534"
+    },
+    {
+      "path": "CenteredMaximal/Ball/BallPenaltyVariational.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32521e1f5a8de2ab5a35078f4e55e37e274f9ff8",
+      "size": 4635,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/32521e1f5a8de2ab5a35078f4e55e37e274f9ff8"
+    },
+    {
+      "path": "CenteredMaximal/Ball/BallPositiveMollifierPackage.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be1d3d3db092574f99f25c07947a507206d73d32",
+      "size": 12246,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/be1d3d3db092574f99f25c07947a507206d73d32"
+    },
+    {
+      "path": "CenteredMaximal/Ball/BallPositiveRepresentative.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c79f5faf981853888f6e14737a2abdb17472d6a4",
+      "size": 4716,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/c79f5faf981853888f6e14737a2abdb17472d6a4"
+    },
+    {
+      "path": "CenteredMaximal/Ball/BallSmoothObstacle.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d670a3a1d919475e990d0ead9bbea6863a4f3d0",
+      "size": 2539,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/3d670a3a1d919475e990d0ead9bbea6863a4f3d0"
+    },
+    {
+      "path": "CenteredMaximal/Ball/BallSourceL2.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e43e2d1da08a509eeb17ef6edf1575cc797505e5",
+      "size": 2852,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/e43e2d1da08a509eeb17ef6edf1575cc797505e5"
+    },
+    {
+      "path": "CenteredMaximal/Ball/BallWeakDistribution.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a167395364695fe8460abaac796203d1ba2fe5a",
+      "size": 7842,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/7a167395364695fe8460abaac796203d1ba2fe5a"
+    },
+    {
+      "path": "CenteredMaximal/Ball/Basic.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39b0e2afc96bae760ebc5c945c574d3fa649a6a0",
+      "size": 2147,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/39b0e2afc96bae760ebc5c945c574d3fa649a6a0"
+    },
+    {
+      "path": "CenteredMaximal/Ball/BoundedConvolution.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4abf7a5f063ec5574ed075f172fd635e76eebbeb",
+      "size": 2634,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/4abf7a5f063ec5574ed075f172fd635e76eebbeb"
+    },
+    {
+      "path": "CenteredMaximal/Ball/CenterLimits.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a2a6f3878c1c1cf6b3e5806382a7c130de6afa6",
+      "size": 8192,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/8a2a6f3878c1c1cf6b3e5806382a7c130de6afa6"
+    },
+    {
+      "path": "CenteredMaximal/Ball/ChallengeReduction.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a71b80985696223bcbc624dd2087be75cfb5f2c2",
+      "size": 3868,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/a71b80985696223bcbc624dd2087be75cfb5f2c2"
+    },
+    {
+      "path": "CenteredMaximal/Ball/CompactSupportIBP.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ad1e9f635ae2625e0651cfa7599d75831e60640",
+      "size": 8994,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/5ad1e9f635ae2625e0651cfa7599d75831e60640"
+    },
+    {
+      "path": "CenteredMaximal/Ball/Comparison.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aef4b789fa9947e98339c6c295fdde902df33c59",
+      "size": 4404,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/aef4b789fa9947e98339c6c295fdde902df33c59"
+    },
+    {
+      "path": "CenteredMaximal/Ball/ComplementDistributionAdapter.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cc0c5fbeb070edcde8bd26160695565a0020a14",
+      "size": 4105,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/1cc0c5fbeb070edcde8bd26160695565a0020a14"
+    },
+    {
+      "path": "CenteredMaximal/Ball/Constants.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43885864c818078e87acc6e41eac21563a8c8909",
+      "size": 3393,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/43885864c818078e87acc6e41eac21563a8c8909"
+    },
+    {
+      "path": "CenteredMaximal/Ball/ContactTruncation.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a4d5b8364959b25a60a1ddb8e9e7e979889a283",
+      "size": 5869,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/8a4d5b8364959b25a60a1ddb8e9e7e979889a283"
+    },
+    {
+      "path": "CenteredMaximal/Ball/DirectCertificate.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6c58bfeebd226887cf2eae9ffaca1c1eac65316",
+      "size": 4693,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/e6c58bfeebd226887cf2eae9ffaca1c1eac65316"
+    },
+    {
+      "path": "CenteredMaximal/Ball/DirichletForm.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf51394f420594f661f9bb4889d7c3870f68673d",
+      "size": 12213,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/cf51394f420594f661f9bb4889d7c3870f68673d"
+    },
+    {
+      "path": "CenteredMaximal/Ball/DirichletH01.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c29b1659639baa144cc3dbb1884ba2b37cf21555",
+      "size": 17226,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/c29b1659639baa144cc3dbb1884ba2b37cf21555"
+    },
+    {
+      "path": "CenteredMaximal/Ball/DirichletLattice.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41d67ed0dbc71d5c6c90b93e8748f47c5b0224c8",
+      "size": 9665,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/41d67ed0dbc71d5c6c90b93e8748f47c5b0224c8"
+    },
+    {
+      "path": "CenteredMaximal/Ball/DirichletPoincareBounded.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46610bde3007ff151329ae7cd707142b7ff4ba38",
+      "size": 9595,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/46610bde3007ff151329ae7cd707142b7ff4ba38"
+    },
+    {
+      "path": "CenteredMaximal/Ball/DirichletPoincareBoxSlice.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cff6aa6eff161be89f4cda458d7575c10084198",
+      "size": 13524,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/3cff6aa6eff161be89f4cda458d7575c10084198"
+    },
+    {
+      "path": "CenteredMaximal/Ball/DirichletPoincareDensity.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7acea60c137082322c3c1764668c4f5c85756231",
+      "size": 3213,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/7acea60c137082322c3c1764668c4f5c85756231"
+    },
+    {
+      "path": "CenteredMaximal/Ball/DirichletPoincareDomain.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "098a111213261ba8e49010910c575e696f7980a7",
+      "size": 2738,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/098a111213261ba8e49010910c575e696f7980a7"
+    },
+    {
+      "path": "CenteredMaximal/Ball/DirichletPoincareFubini.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f848eafe7266b5fd896f2d22343a759888a61170",
+      "size": 12502,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/f848eafe7266b5fd896f2d22343a759888a61170"
+    },
+    {
+      "path": "CenteredMaximal/Ball/DirichletPoincareGeometry.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbf7e59f83c056e0a24b110ca27c6dd51fcbba79",
+      "size": 5417,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/fbf7e59f83c056e0a24b110ca27c6dd51fcbba79"
+    },
+    {
+      "path": "CenteredMaximal/Ball/DirichletPoincareOneDim.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d6d76608d03533ddb2d75bc05fb8539b0eeb724",
+      "size": 9194,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/3d6d76608d03533ddb2d75bc05fb8539b0eeb724"
+    },
+    {
+      "path": "CenteredMaximal/Ball/DirichletPositivePart.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81e3c77854a1dfd9a5a296c6c17bc03db171e35e",
+      "size": 16282,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/81e3c77854a1dfd9a5a296c6c17bc03db171e35e"
+    },
+    {
+      "path": "CenteredMaximal/Ball/DirichletShiftedPart.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69e99a6517f6f0c8cf7a94aaf6b94241a5d07418",
+      "size": 14956,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/69e99a6517f6f0c8cf7a94aaf6b94241a5d07418"
+    },
+    {
+      "path": "CenteredMaximal/Ball/DirichletSmoothComposition.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe104016baa39dc0a9683fb7c20b3dcd9d280ac8",
+      "size": 14747,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/fe104016baa39dc0a9683fb7c20b3dcd9d280ac8"
+    },
+    {
+      "path": "CenteredMaximal/Ball/FinalReduction.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b560ceb0d7192d2c07a2eefbb21ca311af93b74",
+      "size": 2971,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/4b560ceb0d7192d2c07a2eefbb21ca311af93b74"
+    },
+    {
+      "path": "CenteredMaximal/Ball/GreenIdentity.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04dc54de1e880ab738b5dba141f5c7823539daec",
+      "size": 26103,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/04dc54de1e880ab738b5dba141f5c7823539daec"
+    },
+    {
+      "path": "CenteredMaximal/Ball/GreenKernel.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc14cb84150f1e3a8df36d396a51d4fb4b68041f",
+      "size": 5903,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/dc14cb84150f1e3a8df36d396a51d4fb4b68041f"
+    },
+    {
+      "path": "CenteredMaximal/Ball/GreenPairing.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27f8441bf5a863944fe627b890c5e4db38ca5d9d",
+      "size": 13147,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/27f8441bf5a863944fe627b890c5e4db38ca5d9d"
+    },
+    {
+      "path": "CenteredMaximal/Ball/KernelComparisonOnSupport.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f648f07760f598f1fa1481a0cd7754631a380b0",
+      "size": 7042,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/0f648f07760f598f1fa1481a0cd7754631a380b0"
+    },
+    {
+      "path": "CenteredMaximal/Ball/KernelScaling.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98830b09af0a20de026c7acd1cae3dde5dc0cfae",
+      "size": 4227,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/98830b09af0a20de026c7acd1cae3dde5dc0cfae"
+    },
+    {
+      "path": "CenteredMaximal/Ball/L2Penalty.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27b5910777465b5fcc158e4e498fda507bbda8b7",
+      "size": 5352,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/27b5910777465b5fcc158e4e498fda507bbda8b7"
+    },
+    {
+      "path": "CenteredMaximal/Ball/L2PenaltyCap.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65fcec80962ee340da525b90ad8e494a8acc54a5",
+      "size": 2004,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/65fcec80962ee340da525b90ad8e494a8acc54a5"
+    },
+    {
+      "path": "CenteredMaximal/Ball/LocalDistributionAdapter.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4419b1ba1003f475019015d67212f330c0187b64",
+      "size": 7314,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/4419b1ba1003f475019015d67212f330c0187b64"
+    },
+    {
+      "path": "CenteredMaximal/Ball/LocalMollifier.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a8ba15f844f556a159c59d67c872f7de214eef0",
+      "size": 2943,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/1a8ba15f844f556a159c59d67c872f7de214eef0"
+    },
+    {
+      "path": "CenteredMaximal/Ball/LocalMollifierDistribution.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "497f0c581b1b659dd725dcd610930fe322e7a8ba",
+      "size": 7006,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/497f0c581b1b659dd725dcd610930fe322e7a8ba"
+    },
+    {
+      "path": "CenteredMaximal/Ball/LocalMollifierLaplacian.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fabbd78496490b5c026ff22e87a5116a0a7ed94f",
+      "size": 4340,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/fabbd78496490b5c026ff22e87a5116a0a7ed94f"
+    },
+    {
+      "path": "CenteredMaximal/Ball/LocalWeakPairing.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85aeaa6f4c958ee20064ce01593c1fb4b2fb8e0d",
+      "size": 25146,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/85aeaa6f4c958ee20064ce01593c1fb4b2fb8e0d"
+    },
+    {
+      "path": "CenteredMaximal/Ball/MonotoneSurjectivity.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2c9c71d311123d5077e278c2a00e71a8654f320",
+      "size": 5929,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/f2c9c71d311123d5077e278c2a00e71a8654f320"
+    },
+    {
+      "path": "CenteredMaximal/Ball/NewtonianMass.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70c8687bfeb31488adb39b45b6d1b59500749191",
+      "size": 11158,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/70c8687bfeb31488adb39b45b6d1b59500749191"
+    },
+    {
+      "path": "CenteredMaximal/Ball/ObstacleContact.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22cb260f8ea2e2477679a115eec7b95b5b8318d9",
+      "size": 7183,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/22cb260f8ea2e2477679a115eec7b95b5b8318d9"
+    },
+    {
+      "path": "CenteredMaximal/Ball/ObstacleCriterion.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6861bb3bc3d0d56a7e49352be26bff9cc261b3f8",
+      "size": 4531,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/6861bb3bc3d0d56a7e49352be26bff9cc261b3f8"
+    },
+    {
+      "path": "CenteredMaximal/Ball/ObstacleExistence.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8374c058f19e2eddcc83bbd956aa113a6cfa28e5",
+      "size": 22648,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/8374c058f19e2eddcc83bbd956aa113a6cfa28e5"
+    },
+    {
+      "path": "CenteredMaximal/Ball/ObstacleTransfer.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f733c12713380329f1ef4cce6a9c86bd8287fae4",
+      "size": 14870,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/f733c12713380329f1ef4cce6a9c86bd8287fae4"
+    },
+    {
+      "path": "CenteredMaximal/Ball/PairingComparison.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f49a87eae3fb8200288de250809f5125fc26f75",
+      "size": 6125,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/5f49a87eae3fb8200288de250809f5125fc26f75"
+    },
+    {
+      "path": "CenteredMaximal/Ball/PenaltyCapSource.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd65103f10a4e3ef15d2b0063a111bafd98f477e",
+      "size": 2365,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/bd65103f10a4e3ef15d2b0063a111bafd98f477e"
+    },
+    {
+      "path": "CenteredMaximal/Ball/PenaltyCompactness.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c56deae406fe478ec8ef9cd786b9d827be1dccc9",
+      "size": 8514,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/c56deae406fe478ec8ef9cd786b9d827be1dccc9"
+    },
+    {
+      "path": "CenteredMaximal/Ball/PenaltyEnergyBound.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d27a01a0880daa91bef0c3712128f3f1f3b721d",
+      "size": 3595,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/7d27a01a0880daa91bef0c3712128f3f1f3b721d"
+    },
+    {
+      "path": "CenteredMaximal/Ball/PenaltyVariationalLimit.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3411fd4efd61f132d563f0235925bda144784f4a",
+      "size": 7131,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/3411fd4efd61f132d563f0235925bda144784f4a"
+    },
+    {
+      "path": "CenteredMaximal/Ball/PlanarGreenPairing.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "890be1e63579bb242a915dfcd0a5af08369d0167",
+      "size": 13946,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/890be1e63579bb242a915dfcd0a5af08369d0167"
+    },
+    {
+      "path": "CenteredMaximal/Ball/PlanarMass.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "156aafc73d02f8947529bcbd02add7c3228c376b",
+      "size": 4347,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/156aafc73d02f8947529bcbd02add7c3228c376b"
+    },
+    {
+      "path": "CenteredMaximal/Ball/PlanarNormalized.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "383bba97e0967998fb10e66fc2be73bd9e8f2a17",
+      "size": 1529,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/383bba97e0967998fb10e66fc2be73bd9e8f2a17"
+    },
+    {
+      "path": "CenteredMaximal/Ball/PolarSwap.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9edab48d8b767228c08b6b19a736feb60930dde7",
+      "size": 16314,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/9edab48d8b767228c08b6b19a736feb60930dde7"
+    },
+    {
+      "path": "CenteredMaximal/Ball/RadialGreenCalculus.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edeb93329330ea59b9eafddfd07bb736619dcb7e",
+      "size": 5347,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/edeb93329330ea59b9eafddfd07bb736619dcb7e"
+    },
+    {
+      "path": "CenteredMaximal/Ball/RadialGreenLimit.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b16caebd386203532c7456223c2b8c6800e068df",
+      "size": 8823,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/b16caebd386203532c7456223c2b8c6800e068df"
+    },
+    {
+      "path": "CenteredMaximal/Ball/RadialMassDerivative.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0eea8d947502edcc28f6ab409e4d886eb5ac71a",
+      "size": 10991,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/a0eea8d947502edcc28f6ab409e4d886eb5ac71a"
+    },
+    {
+      "path": "CenteredMaximal/Ball/ScaledGreenPairing.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e23fc6a3df0cf4852671b6a0993364dc6dab9dd7",
+      "size": 20299,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/e23fc6a3df0cf4852671b6a0993364dc6dab9dd7"
+    },
+    {
+      "path": "CenteredMaximal/Ball/ShellLimit.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8847c6493ce866434801333405364ac5c3cb912",
+      "size": 4279,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/a8847c6493ce866434801333405364ac5c3cb912"
+    },
+    {
+      "path": "CenteredMaximal/Ball/SmoothBallCutoff.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c87cb7f37df7a03e68f3fe9b7b9bcf54112530ab",
+      "size": 16920,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/c87cb7f37df7a03e68f3fe9b7b9bcf54112530ab"
+    },
+    {
+      "path": "CenteredMaximal/Ball/SmoothReduction.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20a770e39a6f40ddc237ea7b343a749a5b514d18",
+      "size": 13343,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/20a770e39a6f40ddc237ea7b343a749a5b514d18"
+    },
+    {
+      "path": "CenteredMaximal/Ball/WeakGreenPairing.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "744e7137b53051a950905c698a4e3427be7643ec",
+      "size": 11808,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/744e7137b53051a950905c698a4e3427be7643ec"
+    },
+    {
+      "path": "CenteredMaximal/Ball/WeakLaplacianTests.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dd59ced5e6344d775fef0ef7c92deeaf895b196",
+      "size": 15150,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/9dd59ced5e6344d775fef0ef7c92deeaf895b196"
+    },
+    {
+      "path": "CenteredMaximal/Ball/WeakPairingDensity.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3ac98b29b43d81d80702e27e16257a80b1a3a51",
+      "size": 13936,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/b3ac98b29b43d81d80702e27e16257a80b1a3a51"
+    },
+    {
+      "path": "CenteredMaximal/Basic.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "257fd3b31a89eee947c9279c9adaca6fadc82b9f",
+      "size": 2573,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/257fd3b31a89eee947c9279c9adaca6fadc82b9f"
+    },
+    {
+      "path": "CenteredMaximal/Cauchy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c05366e253bd6c14ba81383e3e3c07608c8af380",
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/trees/c05366e253bd6c14ba81383e3e3c07608c8af380"
+    },
+    {
+      "path": "CenteredMaximal/Cauchy/Assembly.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71902ed7b7480239e33baabdbd5d36e9ee97523e",
+      "size": 17030,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/71902ed7b7480239e33baabdbd5d36e9ee97523e"
+    },
+    {
+      "path": "CenteredMaximal/Cauchy/BaseDensity.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bfa2af4f0fec74cc5e26f2a13e0e6638d866dd8",
+      "size": 36750,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/7bfa2af4f0fec74cc5e26f2a13e0e6638d866dd8"
+    },
+    {
+      "path": "CenteredMaximal/Cauchy/BumpGenerator.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f517d2d0945b4b14e798dff340812936d0f45817",
+      "size": 21542,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/f517d2d0945b4b14e798dff340812936d0f45817"
+    },
+    {
+      "path": "CenteredMaximal/Cauchy/Certificate.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e4e724e21dfb925be5d2056a27248a1087f991a",
+      "size": 19983,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/9e4e724e21dfb925be5d2056a27248a1087f991a"
+    },
+    {
+      "path": "CenteredMaximal/Cauchy/Delta.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0de6229e121ea538d972c30e98677e7326e107b5",
+      "size": 78010,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/0de6229e121ea538d972c30e98677e7326e107b5"
+    },
+    {
+      "path": "CenteredMaximal/Cauchy/Generator.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0936540480447454be9e8fb35f19480461de59d",
+      "size": 16566,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/e0936540480447454be9e8fb35f19480461de59d"
+    },
+    {
+      "path": "CenteredMaximal/Cauchy/Harmonic.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ef00e49d4dce6e6d469b28ce3c48a6e1a2cc35a",
+      "size": 23338,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/2ef00e49d4dce6e6d469b28ce3c48a6e1a2cc35a"
+    },
+    {
+      "path": "CenteredMaximal/Cauchy/LooseKernel.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bf915168c9d802755087488291928065fa06715",
+      "size": 19757,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/2bf915168c9d802755087488291928065fa06715"
+    },
+    {
+      "path": "CenteredMaximal/Cauchy/PairingBound.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fc452021fbbc2c6b9e0809e8a012c9ce15b519f",
+      "size": 49114,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/5fc452021fbbc2c6b9e0809e8a012c9ce15b519f"
+    },
+    {
+      "path": "CenteredMaximal/Cauchy/Potential.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1e9a4d5084a4428dfdd3759ff3ac9c3c6598e00",
+      "size": 19871,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/e1e9a4d5084a4428dfdd3759ff3ac9c3c6598e00"
+    },
+    {
+      "path": "CenteredMaximal/Cauchy/Representation.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f74f7d1029d671c6d467842fda2ede6c6d881f7",
+      "size": 32279,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/9f74f7d1029d671c6d467842fda2ede6c6d881f7"
+    },
+    {
+      "path": "CenteredMaximal/Cauchy/Semigroup.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa40406749cd02300a505fe15dfde1d3f1fafee6",
+      "size": 37553,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/aa40406749cd02300a505fe15dfde1d3f1fafee6"
+    },
+    {
+      "path": "CenteredMaximal/Cauchy/Symbol.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "235afaa02e66d95f0e381b432a810ff8104ab995",
+      "size": 26543,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/235afaa02e66d95f0e381b432a810ff8104ab995"
+    },
+    {
+      "path": "CenteredMaximal/Cauchy/TentGenerator.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6df61b57d4d69b982adc7a763dc8f90530e0e423",
+      "size": 38743,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/6df61b57d4d69b982adc7a763dc8f90530e0e423"
+    },
+    {
+      "path": "CenteredMaximal/Comparison",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4a095e67b2fe49092d58e19f7ceffe6e50d7b7e0",
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/trees/4a095e67b2fe49092d58e19f7ceffe6e50d7b7e0"
+    },
+    {
+      "path": "CenteredMaximal/Comparison/Reduction.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e5ed81ee16ec82e5f5bb68d13fff9b406fe5c41",
+      "size": 7812,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/9e5ed81ee16ec82e5f5bb68d13fff9b406fe5c41"
+    },
+    {
+      "path": "CenteredMaximal/Lattice",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6d80abae04297556fd08114fdc3dfb3ac11ef92b",
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/trees/6d80abae04297556fd08114fdc3dfb3ac11ef92b"
+    },
+    {
+      "path": "CenteredMaximal/Lattice/Constants.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba4687f05ef234148dcfb4fd1ec9fa696b1c8776",
+      "size": 10256,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/ba4687f05ef234148dcfb4fd1ec9fa696b1c8776"
+    },
+    {
+      "path": "CenteredMaximal/Lattice/LowerBound.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78fcb77e745e4c38ae694801faa8aec3e06029ae",
+      "size": 12628,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/78fcb77e745e4c38ae694801faa8aec3e06029ae"
+    },
+    {
+      "path": "CenteredMaximal/Lattice/Smear.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd419e1b31da9dbcc8cf1f68533325f29c609bec",
+      "size": 9570,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/dd419e1b31da9dbcc8cf1f68533325f29c609bec"
+    },
+    {
+      "path": "CenteredMaximal/Lattice/Witness.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84dbd47269875b23ba3abf72d87000329c005208",
+      "size": 11749,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/84dbd47269875b23ba3abf72d87000329c005208"
+    },
+    {
+      "path": "CenteredMaximal/Numerics.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eedb9f637ede190069caec37c06bd59d10fb6142",
+      "size": 2584,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/eedb9f637ede190069caec37c06bd59d10fb6142"
+    },
+    {
+      "path": "CenteredMaximal/Obstacle",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a717e03d27d967b69de3052ad5e8644375641e1e",
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/trees/a717e03d27d967b69de3052ad5e8644375641e1e"
+    },
+    {
+      "path": "CenteredMaximal/Obstacle/Complementarity.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "633902b98bb6946086d5b9f6c9a3fb1fc1a4db62",
+      "size": 42780,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/633902b98bb6946086d5b9f6c9a3fb1fc1a4db62"
+    },
+    {
+      "path": "CenteredMaximal/Obstacle/Functional.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d43794e79949af08b2663895513e66d178bc9679",
+      "size": 37781,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/d43794e79949af08b2663895513e66d178bc9679"
+    },
+    {
+      "path": "CenteredMaximal/Obstacle/Main.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "167d7196c95ffa90275b31c9c6e59ef826d61a1b",
+      "size": 5059,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/167d7196c95ffa90275b31c9c6e59ef826d61a1b"
+    },
+    {
+      "path": "CenteredMaximal/Obstacle/Variational.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef4ad9bd7e48eedcf499911108cca13a9c6429fc",
+      "size": 38721,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/ef4ad9bd7e48eedcf499911108cca13a9c6429fc"
+    },
+    {
+      "path": "CenteredMaximal/Statement.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59dd27e9a5bac3df84fcc4c105a7f4e79f783527",
+      "size": 3659,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/59dd27e9a5bac3df84fcc4c105a7f4e79f783527"
+    },
+    {
+      "path": "CenteredMaximal/Transfer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ab6c4c522314d89a348fe59d914d51c914a4c2f8",
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/trees/ab6c4c522314d89a348fe59d914d51c914a4c2f8"
+    },
+    {
+      "path": "CenteredMaximal/Transfer/AllScales.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7eff4a90b16abbf53b79eaee32e2b35b0a0d7bfa",
+      "size": 31417,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/7eff4a90b16abbf53b79eaee32e2b35b0a0d7bfa"
+    },
+    {
+      "path": "CenteredMaximal/Transfer/Commutation.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fb56bcff83bbd45d61112484bdb1cf7f3b361d2",
+      "size": 31055,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/3fb56bcff83bbd45d61112484bdb1cf7f3b361d2"
+    },
+    {
+      "path": "CenteredMaximal/Transfer/Scaling.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a3a9591fcdb132a047bef735df083306d75a072",
+      "size": 18552,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/5a3a9591fcdb132a047bef735df083306d75a072"
+    },
+    {
+      "path": "CenteredMaximal/UpperBound.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a07da29fa47d7656b1cd445ff0fe991c7e43e6a",
+      "size": 8060,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/1a07da29fa47d7656b1cd445ff0fe991c7e43e6a"
+    },
+    {
+      "path": "Challenge.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b49691ddf9d0f2570f2a3d89c25f80480fbe01ea",
+      "size": 6551,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/b49691ddf9d0f2570f2a3d89c25f80480fbe01ea"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dada3edaf50dbc082c9a125058f25def75e625a",
+      "size": 11357,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/8dada3edaf50dbc082c9a125058f25def75e625a"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fea760a26e3b30c22548e3d1cd1d057a7354054f",
+      "size": 17581,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/fea760a26e3b30c22548e3d1cd1d057a7354054f"
+    },
+    {
+      "path": "Solution.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09666ad8a773a4f39b42b5a0eebc4cb8a0914e41",
+      "size": 2434,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/09666ad8a773a4f39b42b5a0eebc4cb8a0914e41"
+    },
+    {
+      "path": "comparator.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0cb1f90a6f14f718372b8e6ad8930b3f582c9d2",
+      "size": 536,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/b0cb1f90a6f14f718372b8e6ad8930b3f582c9d2"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f48bdabf7357cf3e46814756e4f78aa641659302",
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/trees/f48bdabf7357cf3e46814756e4f78aa641659302"
+    },
+    {
+      "path": "docs/HISTORY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa966066f3395c3e51d1a53872786fe6ccab5b7d",
+      "size": 4114,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/fa966066f3395c3e51d1a53872786fe6ccab5b7d"
+    },
+    {
+      "path": "docs/PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87a557a9ce6a3d59b931cb3fb391337abc6b96ee",
+      "size": 9317,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/87a557a9ce6a3d59b931cb3fb391337abc6b96ee"
+    },
+    {
+      "path": "docs/coverage.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c1dad6f6969bde30254b9c55078a57178cca466",
+      "size": 12066,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/3c1dad6f6969bde30254b9c55078a57178cca466"
+    },
+    {
+      "path": "docs/lattice.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9477b9dd2ef302210316d21d7a8baeff7f1e255c",
+      "size": 8017,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/9477b9dd2ef302210316d21d7a8baeff7f1e255c"
+    },
+    {
+      "path": "formalization.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a616c22d5283ea0776c637d724f39da208e7492",
+      "size": 15817,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/1a616c22d5283ea0776c637d724f39da208e7492"
+    },
+    {
+      "path": "lake-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cada2e3d51b52319f85f74e1f7f22bdf03429633",
+      "size": 3180,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/cada2e3d51b52319f85f74e1f7f22bdf03429633"
+    },
+    {
+      "path": "lakefile.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fe60343f3349eeb36e87bc33305f8797f3692f2",
+      "size": 419,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/4fe60343f3349eeb36e87bc33305f8797f3692f2"
+    },
+    {
+      "path": "lean-toolchain",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0e00b3338bac0d6f050d9a64e277314a9f7830f",
+      "size": 29,
+      "url": "https://api.github.com/repos/CoolRmal/centered-maximal-constant/git/blobs/f0e00b3338bac0d6f050d9a64e277314a9f7830f"
+    }
+  ],
+  "truncated": false,
+  "commit": "72c022ba09032b522c878cca2f9b6c68217d77ea"
+}

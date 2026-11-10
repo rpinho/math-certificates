@@ -1,0 +1,22 @@
+{
+  "steps": [
+    {
+      "printed": "1.7041210969",
+      "atoms": 102
+    },
+    {
+      "printed": "1.7042062561",
+      "atoms": 117
+    },
+    {
+      "printed": "1.7045113243",
+      "atoms": 214
+    },
+    {
+      "printed": "1.7048221231",
+      "atoms": 392
+    }
+  ],
+  "referee_verdict": "HOLDS for all three",
+  "status": "supplied local predecessors; context only"
+}
