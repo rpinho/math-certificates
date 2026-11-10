@@ -1,0 +1,14 @@
+{
+  "status": "candidate, unrefereed",
+  "artifact_sha256": "1afaf5d5c8968fffd3f98cf77de4d462dd1070b9dea4ec1456dd5a91087bfb44",
+  "claim": "4263755563/2500000000",
+  "boundary_cells": 2,
+  "block_side_cells": 708844255899,
+  "smear_radius": "648464387435490448162039/54604958511434414859528008769942323200000000000000",
+  "maximum_witness_radius": "12850077540310281447/4611686018427387904",
+  "finite_function_L1_norm": "265846120998961322852534371318637571747/100000000000000",
+  "finite_atom_count": 221082478813243078371208440,
+  "finite_ratio_lower_bound": "2299016964454535926164008318906010429285009516613200633736490794747466283233740859/1347999979410719285506487968385821088532379413340370461131840304447488000000000000",
+  "finite_ratio_float": 1.7055022252,
+  "proof": "For each witness, smearing adds at most 4*lambda*(2*Rmax+1)*eps < minimum strict mass slack to its required mass. Inner cells are retained. The finite ratio is q*((N-2k)/N)^2 > claim."
+}

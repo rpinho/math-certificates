@@ -1,0 +1,53 @@
+{
+  "result": "PASS",
+  "commands": [
+    {
+      "name": "exact",
+      "command": "/usr/bin/time -l python3 verify_exact.py certificates/final.json --claim 114388018195906255044427129545533845966664904690010061034899/67069990589546886330812144279013633721316147200000000000000 --out release_validation/exact.json",
+      "cwd": ".",
+      "pid": 42596,
+      "returncode": 0,
+      "seconds": 21.132,
+      "maximum_resident_set_size_bytes": 53346304,
+      "observed_maximum_single_process_rss_bytes": 53280768,
+      "stopped_for_8GB": false
+    },
+    {
+      "name": "controls",
+      "command": "/usr/bin/time -l python3 rejection_controls.py certificates/final.json 114388018195906255044427129545533845966664904690010061034899/67069990589546886330812144279013633721316147200000000000000",
+      "cwd": ".",
+      "pid": 44087,
+      "returncode": 0,
+      "seconds": 21.786,
+      "maximum_resident_set_size_bytes": 63979520,
+      "observed_maximum_single_process_rss_bytes": 63602688,
+      "stopped_for_8GB": false
+    },
+    {
+      "name": "finite",
+      "command": "/usr/bin/time -l python3 finite_instance.py certificates/final.json release_validation/exact.json release_validation/finite.json --claim 4263755563/2500000000",
+      "cwd": ".",
+      "pid": 44912,
+      "returncode": 0,
+      "seconds": 0.339,
+      "maximum_resident_set_size_bytes": 39288832,
+      "observed_maximum_single_process_rss_bytes": 1228800,
+      "stopped_for_8GB": false
+    },
+    {
+      "name": "referee",
+      "command": "/usr/bin/time -l python3 referee_check.py",
+      "cwd": "referee",
+      "pid": 55067,
+      "returncode": 0,
+      "seconds": 14.847,
+      "maximum_resident_set_size_bytes": 65454080,
+      "observed_maximum_single_process_rss_bytes": 51740672,
+      "stopped_for_8GB": false
+    }
+  ],
+  "nice": 15,
+  "maximum_simultaneous_replays": 1,
+  "python": "3.12.13",
+  "referee_publication_spelling_replayed": true
+}

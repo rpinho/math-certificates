@@ -1,0 +1,66 @@
+[
+  {
+    "name": "live47a-page",
+    "url": "https://teorth.github.io/optimizationproblems/constants/47a.html",
+    "http_status": "200",
+    "returncode": 0,
+    "bytes": 13882,
+    "utc": "2026-11-10T13:50:23.101676+00:00"
+  },
+  {
+    "name": "repository-search",
+    "url": "https://api.github.com/search/repositories?q=centered+maximal&sort=updated&order=desc&per_page=100",
+    "http_status": "200",
+    "returncode": 0,
+    "bytes": 41291,
+    "utc": "2026-11-10T13:50:23.626975+00:00"
+  },
+  {
+    "name": "repository-search-2026",
+    "url": "https://api.github.com/search/repositories?q=square+maximal+2026&sort=updated&order=desc&per_page=100",
+    "http_status": "200",
+    "returncode": 0,
+    "bytes": 73,
+    "utc": "2026-11-10T13:50:23.332655+00:00"
+  },
+  {
+    "name": "awesome-search",
+    "url": "https://api.github.com/search/repositories?q=awesome+mathematics&sort=updated&order=desc&per_page=20",
+    "http_status": "200",
+    "returncode": 0,
+    "bytes": 138790,
+    "utc": "2026-11-10T13:50:24.134564+00:00"
+  },
+  {
+    "name": "open-issues",
+    "url": "https://api.github.com/repos/teorth/optimizationproblems/issues?state=open&sort=updated&direction=desc&per_page=100",
+    "http_status": "200",
+    "returncode": 0,
+    "bytes": 645008,
+    "utc": "2026-11-10T13:50:24.485986+00:00"
+  },
+  {
+    "name": "zenodo-v5",
+    "url": "https://zenodo.org/api/records/23716077",
+    "http_status": "200",
+    "returncode": 0,
+    "bytes": 5765,
+    "utc": "2026-11-10T13:50:24.196908+00:00"
+  },
+  {
+    "name": "paper-page",
+    "url": "https://www.mefyi.com/papers/weak-type-squares/",
+    "http_status": "200",
+    "returncode": 0,
+    "bytes": 16174,
+    "utc": "2026-11-10T13:50:24.425747+00:00"
+  },
+  {
+    "name": "einstein-arena",
+    "url": "https://einsteinarena.com/",
+    "http_status": "200",
+    "returncode": 0,
+    "bytes": 91290,
+    "utc": "2026-11-10T13:50:24.668702+00:00"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "steps": [
+    {
+      "printed": "1.7041210969",
+      "atoms": 102
+    },
+    {
+      "printed": "1.7042062561",
+      "atoms": 117
+    },
+    {
+      "printed": "1.7045113243",
+      "atoms": 214
+    },
+    {
+      "printed": "1.7048221231",
+      "atoms": 392
+    },
+    {
+      "printed": "1.7050503714",
+      "atoms": 474
+    },
+    {
+      "printed": "1.7052517050",
+      "atoms": 454
+    }
+  ],
+  "referee_verdict": "HOLDS for supplied predecessors",
+  "status": "Cited predecessors; later packets published at 2f2f12bfcfb3dd3fc11ed2ee01c75eb86604a138",
+  "first_filing": {
+    "printed": "1.7040280575",
+    "atoms": 98
+  },
+  "round_labels": [
+    1,
+    2,
+    5,
+    6,
+    7,
+    8
+  ]
+}

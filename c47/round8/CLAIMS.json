@@ -1,0 +1,368 @@
+{
+  "claims": [
+    {
+      "value": "1.7055022252",
+      "kind": "rigorous",
+      "producer": "referee/referee_check.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Finite C47 bound; producer referee/referee_check.py"
+    },
+    {
+      "value": "114388018195906255044427129545533845966664904690010061034899/67069990589546886330812144279013633721316147200000000000000",
+      "kind": "rigorous",
+      "producer": "verify_exact.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "PR numerical value; producer verify_exact.py"
+    },
+    {
+      "value": "2299016964454535926164008318906010429285009516613200633736490794747466283233740859/1347999979410719285506487968385821088532379413340370461131840304447488000000000000",
+      "kind": "rigorous",
+      "producer": "referee/referee_check.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "PR numerical value; producer referee/referee_check.py"
+    },
+    {
+      "value": "0.0014741677",
+      "kind": "rigorous",
+      "producer": "comparison.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "PR numerical value; producer comparison.py"
+    },
+    {
+      "value": "0.0022931516",
+      "kind": "rigorous",
+      "producer": "comparison.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "PR numerical value; producer comparison.py"
+    },
+    {
+      "value": "0.0023922252",
+      "kind": "rigorous",
+      "producer": "comparison.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "PR numerical value; producer comparison.py"
+    },
+    {
+      "value": "1.705502225219",
+      "kind": "rigorous",
+      "producer": "sources/claim_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Downward decimal prefix with ellipsis; exact rational is authoritative.",
+      "label": "PR numerical value; producer sources/claim_facts.py"
+    },
+    {
+      "value": "1.705502225200",
+      "kind": "rigorous",
+      "producer": "sources/claim_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Downward decimal prefix with ellipsis; exact rational is authoritative.",
+      "label": "PR numerical value; producer sources/claim_facts.py"
+    },
+    {
+      "value": "1.7040280575",
+      "kind": "cited",
+      "source": "https://github.com/teorth/optimizationproblems/pull/350",
+      "new_bound": false,
+      "label": "PR numerical value; producer https://github.com/teorth/optimizationproblems/pull/350"
+    },
+    {
+      "value": "1.7032090736",
+      "kind": "cited",
+      "source": "https://github.com/teorth/optimizationproblems/pull/341",
+      "new_bound": false,
+      "label": "PR numerical value; producer https://github.com/teorth/optimizationproblems/pull/341"
+    },
+    {
+      "value": "1.70311",
+      "kind": "cited",
+      "source": "https://github.com/teorth/optimizationproblems/pull/321",
+      "new_bound": false,
+      "label": "PR numerical value; producer https://github.com/teorth/optimizationproblems/pull/321"
+    },
+    {
+      "value": "1.7041210969",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false,
+      "label": "PR numerical value; producer sources/intermediate-history.json"
+    },
+    {
+      "value": "1.7042062561",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false,
+      "label": "PR numerical value; producer sources/intermediate-history.json"
+    },
+    {
+      "value": "1.7045113243",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false,
+      "label": "PR numerical value; producer sources/intermediate-history.json"
+    },
+    {
+      "value": "2",
+      "kind": "rigorous",
+      "producer": "referee/referee_check.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Definition dimension, certificate count or finite-construction parameter.",
+      "label": "PR numerical value; producer referee/referee_check.py"
+    },
+    {
+      "value": "440",
+      "kind": "rigorous",
+      "producer": "referee/referee_check.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Definition dimension, certificate count or finite-construction parameter.",
+      "label": "Base atoms; producer referee/referee_check.py"
+    },
+    {
+      "value": "7806",
+      "kind": "rigorous",
+      "producer": "referee/referee_check.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Definition dimension, certificate count or finite-construction parameter.",
+      "label": "Rectangle witnesses; producer referee/referee_check.py"
+    },
+    {
+      "value": "708844255899",
+      "kind": "rigorous",
+      "producer": "referee/referee_check.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Definition dimension, certificate count or finite-construction parameter.",
+      "label": "Finite block side N; producer referee/referee_check.py"
+    },
+    {
+      "value": "0.0006801021",
+      "kind": "rigorous",
+      "producer": "comparison.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "PR numerical value; producer comparison.py"
+    },
+    {
+      "value": "1.7048221231",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false,
+      "label": "PR numerical value; producer sources/intermediate-history.json"
+    },
+    {
+      "value": "0.0004518538",
+      "kind": "rigorous",
+      "producer": "comparison.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "PR numerical value; producer comparison.py"
+    },
+    {
+      "value": "1.7050503714",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false,
+      "label": "PR numerical value; producer sources/intermediate-history.json"
+    },
+    {
+      "value": "0.0002505202",
+      "kind": "rigorous",
+      "producer": "comparison.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "PR numerical value; producer comparison.py"
+    },
+    {
+      "value": "1.7052517050",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false,
+      "label": "PR numerical value; producer sources/intermediate-history.json"
+    },
+    {
+      "value": "98",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false,
+      "label": "First-filing atom count; cited historical producer record"
+    },
+    {
+      "value": "102",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false,
+      "label": "Intermediate atom count; cited historical producer record"
+    },
+    {
+      "value": "117",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false,
+      "label": "Intermediate atom count; cited historical producer record"
+    },
+    {
+      "value": "214",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false,
+      "label": "Intermediate atom count; cited historical producer record"
+    },
+    {
+      "value": "392",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false,
+      "label": "Round-5 atom count; cited historical producer record"
+    },
+    {
+      "value": "474",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false,
+      "label": "Round-6 atom count; cited historical producer record"
+    },
+    {
+      "value": "454",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false,
+      "label": "Round-7 atom count; cited historical producer record"
+    },
+    {
+      "value": "321",
+      "kind": "cited",
+      "source": "sources/pr321.json",
+      "new_bound": false,
+      "label": "Public PR identifier; GitHub API"
+    },
+    {
+      "value": "341",
+      "kind": "cited",
+      "source": "sources/pr341.json",
+      "new_bound": false,
+      "label": "Public PR identifier; GitHub API"
+    },
+    {
+      "value": "350",
+      "kind": "cited",
+      "source": "sources/pr350.json",
+      "new_bound": false,
+      "label": "This PR identifier; GitHub API"
+    },
+    {
+      "value": "10",
+      "kind": "cited",
+      "source": "sources/refresh.json",
+      "new_bound": false,
+      "label": "UTC refresh day; source refresh"
+    },
+    {
+      "value": "2026",
+      "kind": "cited",
+      "source": "sources/refresh.json",
+      "new_bound": false,
+      "label": "UTC refresh year; source refresh"
+    },
+    {
+      "value": "86",
+      "kind": "cited",
+      "source": "sources/refresh.json",
+      "new_bound": false,
+      "label": "Open PR count; source refresh"
+    },
+    {
+      "value": "47",
+      "kind": "cited",
+      "source": "https://teorth.github.io/optimizationproblems/constants/47a.html",
+      "new_bound": false,
+      "label": "C47/page 47a identifier; official definition"
+    },
+    {
+      "value": "0",
+      "kind": "cited",
+      "source": "sources/prose-facts.json",
+      "new_bound": false,
+      "label": "L0 verification-level label"
+    },
+    {
+      "value": "1",
+      "kind": "cited",
+      "source": "sources/prose-facts.json",
+      "new_bound": false,
+      "label": "Weak-type parameters and cell origin; written definition"
+    },
+    {
+      "value": "4",
+      "kind": "cited",
+      "source": "sources/prose-facts.json",
+      "new_bound": false,
+      "label": "Finite boundary loss 2h; written proof"
+    },
+    {
+      "value": "5",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false,
+      "label": "Round-5 label and Tomar version v5; cited history and DOI"
+    },
+    {
+      "value": "6",
+      "kind": "cited",
+      "source": "sources/prose-facts.json",
+      "new_bound": false,
+      "label": "Model version GPT-6 and round-6/section-6 labels; credits and history"
+    },
+    {
+      "value": "7",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false,
+      "label": "Round-7 historical label"
+    },
+    {
+      "value": "6.1",
+      "kind": "cited",
+      "source": "sources/prose-facts.json",
+      "new_bound": false,
+      "label": "Producer model GPT-6.1; supplied credits"
+    },
+    {
+      "value": "5.5",
+      "kind": "cited",
+      "source": "sources/prose-facts.json",
+      "new_bound": false,
+      "label": "Coordination model Opus 5.5; supplied credits"
+    },
+    {
+      "value": "6.2",
+      "kind": "cited",
+      "source": "sources/prose-facts.json",
+      "new_bound": false,
+      "label": "Tomar lemma identifier; supplied citation"
+    },
+    {
+      "value": "50",
+      "kind": "cited",
+      "source": "sources/prose-facts.json",
+      "new_bound": false,
+      "label": "Tomar atom count; cited credits"
+    },
+    {
+      "value": "256",
+      "kind": "cited",
+      "source": "sources/prose-facts.json",
+      "new_bound": false,
+      "label": "SHA-256 digest bit length; Python hashlib.sha256"
+    }
+  ]
+}
