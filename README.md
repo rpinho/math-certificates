@@ -61,6 +61,10 @@ rigorous interval arithmetic (Arb/FLINT), and the checkers are written separatel
 the construction. None of these results claims optimality. Credits for the methods each construction builds on
 are in the individual READMEs.
 
+## License
+
+MIT, see [LICENSE](LICENSE). Third-party files keep their own terms; each is listed in the THIRD_PARTY_NOTICE.md or THIRD_PARTY_NOTICES.md file next to it.
+
 ## Layout for new results
 
 ```
