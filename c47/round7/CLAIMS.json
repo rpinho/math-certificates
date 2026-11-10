@@ -1,0 +1,156 @@
+{
+  "claims": [
+    {
+      "value": "1.7052517050",
+      "kind": "rigorous",
+      "producer": "referee/referee_check.py",
+      "arithmetic": "exact",
+      "new_bound": true
+    },
+    {
+      "value": "11436840446775366245825984602005252649658962678483718696299/6706834195253218266545949032739264680888893440000000000000",
+      "kind": "rigorous",
+      "producer": "verify_exact.py",
+      "arithmetic": "exact",
+      "new_bound": false
+    },
+    {
+      "value": "13327900225475061974800945466043839770149633691825540982064004325933564036861539/7815796451864601404869911741078304796710014829470292952639078400000000000000000",
+      "kind": "rigorous",
+      "producer": "referee/referee_check.py",
+      "arithmetic": "exact",
+      "new_bound": false
+    },
+    {
+      "value": "0.0012236475",
+      "kind": "rigorous",
+      "producer": "comparison.py",
+      "arithmetic": "exact",
+      "new_bound": false
+    },
+    {
+      "value": "0.0020426314",
+      "kind": "rigorous",
+      "producer": "comparison.py",
+      "arithmetic": "exact",
+      "new_bound": false
+    },
+    {
+      "value": "0.0021417050",
+      "kind": "rigorous",
+      "producer": "comparison.py",
+      "arithmetic": "exact",
+      "new_bound": false
+    },
+    {
+      "value": "1.705251705024",
+      "kind": "rigorous",
+      "producer": "sources/claim_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Downward decimal prefix with ellipsis; exact rational is authoritative."
+    },
+    {
+      "value": "1.705251705000",
+      "kind": "rigorous",
+      "producer": "sources/claim_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Downward decimal prefix with ellipsis; exact rational is authoritative."
+    },
+    {
+      "value": "1.7040280575",
+      "kind": "cited",
+      "source": "https://github.com/teorth/optimizationproblems/pull/350",
+      "new_bound": false
+    },
+    {
+      "value": "1.7032090736",
+      "kind": "cited",
+      "source": "https://github.com/teorth/optimizationproblems/pull/341",
+      "new_bound": false
+    },
+    {
+      "value": "1.70311",
+      "kind": "cited",
+      "source": "https://github.com/teorth/optimizationproblems/pull/321",
+      "new_bound": false
+    },
+    {
+      "value": "1.7041210969",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false
+    },
+    {
+      "value": "1.7042062561",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false
+    },
+    {
+      "value": "1.7045113243",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false
+    },
+    {
+      "value": "2",
+      "kind": "rigorous",
+      "producer": "referee/referee_check.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Definition dimension, certificate count or finite-construction parameter."
+    },
+    {
+      "value": "454",
+      "kind": "rigorous",
+      "producer": "referee/referee_check.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Definition dimension, certificate count or finite-construction parameter."
+    },
+    {
+      "value": "6920",
+      "kind": "rigorous",
+      "producer": "referee/referee_check.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Definition dimension, certificate count or finite-construction parameter."
+    },
+    {
+      "value": "546195122900",
+      "kind": "rigorous",
+      "producer": "referee/referee_check.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Definition dimension, certificate count or finite-construction parameter."
+    },
+    {
+      "value": "0.0004295819",
+      "kind": "rigorous",
+      "producer": "comparison.py",
+      "arithmetic": "exact",
+      "new_bound": false
+    },
+    {
+      "value": "1.7048221231",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false
+    },
+    {
+      "value": "0.0002013336",
+      "kind": "rigorous",
+      "producer": "comparison.py",
+      "arithmetic": "exact",
+      "new_bound": false
+    },
+    {
+      "value": "1.7050503714",
+      "kind": "cited",
+      "source": "sources/intermediate-history.json",
+      "new_bound": false
+    }
+  ]
+}

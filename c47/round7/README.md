@@ -1,0 +1,19 @@
+# C47: centred Hardy–Littlewood maximal constant over squares
+
+C47 is the optimal weak-type (1,1) constant of the centred Hardy–Littlewood maximal operator over axis-parallel squares in dimension d = 2, as defined on [Tao page 47a](https://teorth.github.io/optimizationproblems/constants/47a.html).
+
+This packet gives **C47 ≥ 1.7052517050** (rigorous exact arithmetic, finite_instance.py with verify_exact.py; L0 for the bound as a whole). The printed improvement is **0.0002013336** over our round-6 **1.7050503714**, **0.0004295819** over our round-5 **1.7048221231**, **0.0012236475** over our round-2 **1.7040280575** in [this PR (#350)](https://github.com/teorth/optimizationproblems/pull/350) as first filed, **0.0020426314** over Doldrums / SCiEL’s **1.7032090736** in [#341](https://github.com/teorth/optimizationproblems/pull/341), and **0.0021417050** over our round-1 **1.70311** in [#321](https://github.com/teorth/optimizationproblems/pull/321) (rigorous decimal subtraction, comparison.py; prior printed values are cited comparisons). The asterisk remains appropriate: a commissioned AI referee is not a human review or a second-party confirmation in the Tao PR.
+
+The exact periodic ratio is **q = 11436840446775366245825984602005252649658962678483718696299/6706834195253218266545949032739264680888893440000000000000** (rigorous, verify_exact.py). Its decimal expansion begins 1.705251705024… (rigorous downward prefix, sources/claim_facts.py). This is the periodic limit proved by the truncation-and-smearing argument in [PROOF.md](PROOF.md).
+
+The directly checkable finite lower value is **13327900225475061974800945466043839770149633691825540982064004325933564036861539/7815796451864601404869911741078304796710014829470292952639078400000000000000000** (rigorous, finite_instance.py and referee/referee_check.py), with decimal prefix 1.705251705000… (rigorous downward prefix, sources/claim_facts.py). It strictly exceeds the printed bound. The finite construction has h = 2 and N = 546195122900, with its exact positive rational smear radius in [the finite receipt](release_validation/finite.json); the enormous finite block is specified by formula without expanding it.
+
+The certificate has 454 positive rational atoms and 6920 rectangle witnesses. Certificate SHA-256: `0cd5cc0954f8cc01ac1184b7cf095ce22bb3cdaa9a602fe25c20d8c1bd2bfe04`.
+
+Unpublished steps: **1.7041210969** (102 atoms), **1.7042062561** (117 atoms) and **1.7045113243** (214 atoms), all clean-room AI referee verdict HOLDS; history, not separate public table entries.
+
+The exact verifier was separately written by the same AI agent. A clean-room AI referee on a different model, GPT-6 Astra via Codex, used its own checks, reached the same exact q and finite fraction, and concluded **HOLDS**. It did not read or run producer code. This is AI review, not a human review; see [the report](referee/REFEREE.md) and [scope and publication edits](referee/README.md). The programs check finite rational inequalities; the written proof supplies the planar L1 reduction. No optimality or exhaustive priority claim is made.
+
+Credit: **Doldrums / SCiEL** for the moves/insertions/removals idea in #341; our **#321 and #350**, by rpinho, as starting measures; **T. S. Tomar (Tejasvi Singh Tomar)** for the 50-atom measure and [v5, Section 6, Lemma 6.2](https://doi.org/10.5281/zenodo.23716077), following **Yongxi Lin**. No Tomar or Doldrums code was used for this continuation, its verification or this release. The historical round-1 packet used Tomar’s unchanged checker. See [CREDITS.md](CREDITS.md) and [PRIOR_ART.md](PRIOR_ART.md).
+
+Replay commands are in [REPRODUCE.md](REPRODUCE.md), with outputs in [release_validation/summary.json](release_validation/summary.json). [MANIFEST.json](MANIFEST.json) and [SHA256SUMS](SHA256SUMS) inventory the packet. Publication manifests retain claims, credit and the supplied clean-room referee’s input hashes.

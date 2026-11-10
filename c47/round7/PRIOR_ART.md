@@ -1,0 +1,26 @@
+# Prior art and release comparison scope
+
+Did this packaging job find something new? **No.** It packages the supplied 454-atom construction and its supplied clean-room AI referee verdict HOLDS. The construction improves the named printed C47 lower bounds under the same definition; this job contributes no new construction. No optimality or exhaustive priority claim is made.
+
+The [live source](https://api.github.com/repos/teorth/optimizationproblems/contents/constants/47a.md?ref=main) and [served page](https://teorth.github.io/optimizationproblems/constants/47a.html) were refreshed on 10 November 2026 UTC. Source bytes match fresh main `87b4ebbd426ff8db597a2004cc45da17903bdcf2`, table blob `3023e21af6852f5bf1b7a20ab5c3da98b0706b8a`. The merged table still displays Lin’s 1.6855099933 lower and 3.879 upper bounds.
+
+The [open-PR inventory](https://api.github.com/repos/teorth/optimizationproblems/pulls?state=open&per_page=100&page=1) returned all 86 open PRs (fewer than the page size). Every head was fetched and matched to its API SHA. Complete changed-file lists against each head’s merge base with live main found only [#321](https://github.com/teorth/optimizationproblems/pull/321), [#341](https://github.com/teorth/optimizationproblems/pull/341), and [this PR (#350)](https://github.com/teorth/optimizationproblems/pull/350) touching constants/47a.md. Their C47 diffs and PR bodies were inspected. Their heads remain `9e02ef230d600bf792918eb36b9bc4fd94136f4f`, `b2925204970588f719a01e3520d9ff112f07b53b`, and `67cb9a7d909138343d4bceee4bbef36e72e63859`. No other open PR contains this PR’s head. Existing historical rows and references are preserved.
+
+The largest applicable public printed lower claim located remains our first filing’s 1.7040280575 (98 atoms). Doldrums / SCiEL’s #341 proposes 1.7032090736; our round-1 #321 prints 1.70311. Our supplied round-6 474-atom certificate gives 1.7050503714, and round 5 gives 1.7048221231; both remain local at certificate-repository commit `5cc8cc70808bf9f2e2c5eeeca041db0232602aa2`. These are cited comparisons, not competing-certificate reproductions. The final stronger certificate and referee checker are replayed on the release copy. Numerical search is outside this job.
+
+The standard method is periodic positive atomic measures, exact rectangle coverage, finite truncation and smearing: [T. S. Tomar, Zenodo v5, Section 6, Lemma 6.2](https://doi.org/10.5281/zenodo.23716077), following Yongxi Lin. The refreshed Zenodo record confirms version 5. The [author’s paper page](https://www.mefyi.com/papers/weak-type-squares/) prints the 50-atom 1.7027237335 result. The supplied referee read the lemma and Lin’s proof notes; consulted source bytes are omitted and identified by URL, version and SHA-256 in [the source inventory](referee/sources/SOURCES.md).
+
+Recently updated public repository searches covered “centered maximal”, “square maximal 2026” and “awesome mathematics”. The second returned zero repositories. The first found Lin’s repository and a ball-operator endpoint-gradient repository, a different question; no stronger applicable square weak-type lower bound was located. Named lab/agent result repositories were refreshed through public API metadata, latest commits and root READMEs:
+
+- [BakeLab/Epi-results](https://github.com/BakeLab/Epi-results): head `97fa6a420f417458e11723c8bceb70f1529e447a`; root README screen found 0 C47/47a/Hardy/maximal keyword lines.
+- [google-deepmind/alphaevolve_results](https://github.com/google-deepmind/alphaevolve_results): head `4226acbf237ff9ad10ba7673a2af127a2d8a5971`; root README screen found 0 C47/47a/Hardy/maximal keyword lines.
+- [google-deepmind/repository_of_problems](https://github.com/google-deepmind/repository_of_problems): HTTP 404; no absence claim.
+- [openai/math](https://github.com/openai/math): head `4eaee87548250b2682affda7d05d947c05554bae`; root README screen found 0 C47/47a/Hardy/maximal keyword lines.
+- [plasma-ai/erdos](https://github.com/plasma-ai/erdos): head `17c86a0d4ebe1487a087ceb8c14952a10ec2f2bd`; root README screen found 0 C47/47a/Hardy/maximal keyword lines.
+- [kisonecat/openai-math](https://github.com/kisonecat/openai-math): head `77bce8d6471b3ede2fb7364539bb7bee37f6452b`; root README screen found 0 C47/47a/Hardy/maximal keyword lines.
+
+These are bounded metadata and root-README screens, not full reviews of all repository contents. The [EinsteinArena public landing page](https://einsteinarena.com/) was refreshed; no stronger C47 claim was located there. The producer and referee prior-art records also document earlier full path screens and recent-paper/community checks.
+
+Fresh indexed discovery queried the two candidate decimals, centered-square weak-type lower bounds in 2026, arXiv papers over the last twelve months, and X/Reddit. Returned relevant primary material was Lin’s [research account](https://coolrmal.github.io/repositories/) and the already cited Tomar construction. Other returned papers concerned different constants; no stronger applicable claim appeared in returned results. Private and unindexed community channels were not accessed. The query record is retained outside the publishable packet. Coverage is scoped, not exhaustive.
+
+Predictive-model baselines and SBS do not apply to an exact mathematical certificate; BASELINES.json records this scope.

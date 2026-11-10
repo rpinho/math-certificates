@@ -1,0 +1,53 @@
+{
+  "result": "PASS",
+  "commands": [
+    {
+      "name": "exact",
+      "command": "python3 verify_exact.py certificates/final.json --claim 11436840446775366245825984602005252649658962678483718696299/6706834195253218266545949032739264680888893440000000000000 --out release_validation/exact.json",
+      "cwd": ".",
+      "pid": 58395,
+      "returncode": 0,
+      "seconds": 24.121
+    },
+    {
+      "name": "controls",
+      "command": "python3 rejection_controls.py certificates/final.json 11436840446775366245825984602005252649658962678483718696299/6706834195253218266545949032739264680888893440000000000000",
+      "cwd": ".",
+      "pid": 58617,
+      "returncode": 0,
+      "seconds": 27.658
+    },
+    {
+      "name": "finite",
+      "command": "python3 finite_instance.py certificates/final.json release_validation/exact.json release_validation/finite.json --claim 341050341/200000000",
+      "cwd": ".",
+      "pid": 58732,
+      "returncode": 0,
+      "seconds": 0.057
+    },
+    {
+      "name": "referee",
+      "command": "python3 referee_check.py",
+      "cwd": "referee",
+      "pid": 58733,
+      "returncode": 0,
+      "seconds": 2.865,
+      "version": "normal portable checker before algebraically equivalent publication spelling changes"
+    }
+  ],
+  "nice": 15,
+  "maximum_simultaneous_compute_processes": 2,
+  "python": "3.12.13",
+  "regenerable_outputs": "omitted-generated.json",
+  "final_referee_replay": {
+    "command": "python3 referee_check.py",
+    "cwd": "referee",
+    "pid": 58977,
+    "seconds": 2.779062125016935,
+    "nice": 15,
+    "returncode": 0,
+    "per_witness_table_sha256_matches_normal_replay": true,
+    "original_mathematical_fields_match": true
+  },
+  "scheduling_note": "The shell inherited nice 15 and denied setting absolute nice 10. The initial additive nice launch was stopped and reverted; completed replays inherited nice 15, a lower CPU priority than requested."
+}

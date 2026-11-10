@@ -1,0 +1,34 @@
+[
+  {
+    "name": "exact",
+    "command": "python3 verify_exact.py certificates/final.json --claim 11436840446775366245825984602005252649658962678483718696299/6706834195253218266545949032739264680888893440000000000000 --out release_validation/exact.json",
+    "cwd": ".",
+    "pid": 58395,
+    "returncode": 0,
+    "seconds": 24.121
+  },
+  {
+    "name": "controls",
+    "command": "python3 rejection_controls.py certificates/final.json 11436840446775366245825984602005252649658962678483718696299/6706834195253218266545949032739264680888893440000000000000",
+    "cwd": ".",
+    "pid": 58617,
+    "returncode": 0,
+    "seconds": 27.658
+  },
+  {
+    "name": "finite",
+    "command": "python3 finite_instance.py certificates/final.json release_validation/exact.json release_validation/finite.json --claim 341050341/200000000",
+    "cwd": ".",
+    "pid": 58732,
+    "returncode": 0,
+    "seconds": 0.057
+  },
+  {
+    "name": "referee",
+    "command": "python3 referee_check.py",
+    "cwd": "referee",
+    "pid": 58733,
+    "returncode": 0,
+    "seconds": 2.865
+  }
+]
