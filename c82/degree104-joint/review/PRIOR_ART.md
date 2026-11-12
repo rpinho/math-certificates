@@ -1,14 +1,18 @@
-# Prior art and comparison scope — 2026-11-05
+# Prior art and clean-room scope — 2026-11-12
 
-This is a clean-room referee/replay, not a search for a new construction. The specific input restrictions override the broader repository/code-search requirements in RULES.md. No linked certificate packet or producer/replayer code has been accessed.
+This is a referee replay, not a search for a new construction. The job-specific clean-room restrictions take precedence over the generic broad repository survey in RULES.md. Only the supplied CLAIM.md, PROOF.md and certificate are construction inputs. No linked code or certificate packets are accessed.
 
-Allowed public sources read before implementation:
-- https://github.com/teorth/optimizationproblems/blob/main/constants/82a.md — live definition uses logarithmic absolute height h(alpha)+h(1-alpha), and the supremum of finite-sublevel thresholds. The merged table lists 0.2534449* as its smallest upper bound.
-- https://github.com/teorth/optimizationproblems/pull/280 — current v4 bound 0.2520079724*, V. Patankar, weighted closest-vector denominators and LLL numerator search. Body states rigorous upper endpoint 0.25200797232846; comments report an independent replay. Earlier v3 enclosure wording was corrected: an upper-bound quadrature tolerance is not a two-sided radius.
-- https://github.com/teorth/optimizationproblems/pull/301 — 0.253091834*, R. Pinho, residue-class/LP method; earlier certificate and independent replay described in text.
-- https://github.com/teorth/optimizationproblems/pull/330 — current bound 0.2519964890*, R. Pinho, joint degree-104 certificate built on Patankar v3; producer enclosure [0.2519964889882011564383,0.2519964889882011727026], independently replayed according to comments. This is the best of the allowed live PR texts.
-- C. Doche, Zhang-Zagier heights of perturbed polynomials, JTNB 13 (2001), 103–110, https://www.numdam.org/item/JTNB_2001__13_1_103_0/ — primary construction and averaging lemma.
+The live teorth/optimizationproblems constants/82a.md defines the logarithmic essential minimum of h(alpha)+h(1-alpha). Its merged upper entries are 0.2536331090204145 (Grinsztajn) and asterisked 0.2534449 (Pinho), following Doche and Épi. The strongest inspected open upper bound is Patankar's #280 v5, 0.2519889614*, updated November 9; #330 is 0.2519923410*. #301 is 0.253091834*. Bodies and comments were read using the specified gh binary and saved in sources/. Their linked code/packets were not read. The permitted sources credit Doche's limit-point construction, weighted lattice numerator searches, CVP denominator searches and joint optimization.
 
-Bodies/comments and live definition are saved in sources/. Prior certificates cannot be reproduced here without violating the exclusive certificate-input rule. Comparison is therefore with their printed values, not a new replay of those certificates. The supplied new certificate alone will be replayed. No global priority claim is intended. Predictive-model baselines and SBS do not apply to a deterministic mathematical certificate.
+Sources:
+- https://github.com/teorth/optimizationproblems/blob/main/constants/82a.md
+- https://github.com/teorth/optimizationproblems/pull/280
+- https://github.com/teorth/optimizationproblems/pull/330
+- https://github.com/teorth/optimizationproblems/pull/301
+- Doche (2001), https://www.numdam.org/item/JTNB_2001__13_1_103_0/
 
-Final scoped recheck: PR #280 and #330 bodies/comments were fetched again with the prescribed gh executable. Both were byte-equivalent as parsed JSON to the initial snapshots (updatedAt 2026-11-05T14:07:16Z and 2026-11-05T15:14:40Z respectively). Their printed comparison values remain 0.2520079724* and 0.2519964890*. No linked packet or code was read.
+Public literature search for Zhang–Zagier essential minimum and 2026 upper bounds found no stronger upper bound than #280 v5. It also returned 2026 lower-bound work and Burgos Gil–Menares–Qu–Sombra's convergence theorem; these do not replace the upper-bound comparison. This is not an exhaustive priority survey. The generic request to clone/reproduce other public methods is incompatible with this job's clean-room scope: old certificates cannot be replayed here. Their printed bounds are comparisons, not independently certified by this run. No predictive model is being evaluated, so predictive baseline/SBS requirements do not apply.
+
+Novelty: the replay itself is not a new mathematical method. If it succeeds, the supplied candidate beats the inspected printed numbers under the same definition; credit for that construction remains with its producer.
+
+Final live re-check at 2026-11-12T15:14:09Z: raw constants/82a.md and the complete #280/#330 body/comment snapshots are byte-for-byte unchanged from the initial reads. #280's latest activity is the independent v5 replay comment of November 10; #330's latest activity is November 8. The compared printed values remain 0.2519889614* and 0.2519923410*. Final snapshots are sources/82a-final.md, sources/pr280-final.json and sources/pr330-final.json. No linked code or packet was opened in the re-check.

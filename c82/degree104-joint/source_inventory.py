@@ -1,4 +1,4 @@
-"""Compare every local Python git blob with three public metadata-only trees."""
+"""Compare every local Python git blob with four public metadata-only trees."""
 import ast
 import hashlib
 import json
@@ -10,7 +10,7 @@ if __name__=='__main__':
     with open('evidence/pids.jsonl','a') as f:f.write(json.dumps({'pid':os.getpid(),'kind':'source_inventory'})+'\n')
     trees={}
     foreign_stems=set()
-    for commit in ['197962c','3a7a84f','79ce0df']:
+    for commit in ['197962c','3a7a84f','79ce0df','191064e']:
         tree=json.loads(Path('prior_sources/vidigoat-tree-'+commit+'.json').read_text())
         assert not tree.get('truncated')
         trees[commit]={r['sha'] for r in tree['tree'] if r['type']=='blob'}
@@ -27,8 +27,8 @@ if __name__=='__main__':
         records.append({'file':str(path),'git_blob_sha1':sha,'foreign_blob_matches':matches,'imports':sorted(set(imported)),'foreign_module_name_matches':prohibited})
         assert not matches,(path,matches)
         assert not prohibited,(path,prohibited)
-    result={'complete_trees':['197962c9610f583e9bc56efe37bfb994c1eeb834','3a7a84fec9c64ae426f06a5f52597c84b3453ba0','79ce0dfb211a67ff7e387b58b0d19ff1d6accfba'],
-        'all_python_blobs_distinct_from_every_blob_in_three_trees':True,'none_imports_foreign_modules':True,'files':records,
-        'note':'Tree metadata only was downloaded. Our reused files came from ../c82r6 and ../c82r5; no third-party Python was downloaded.'}
+    result={'complete_trees':['197962c9610f583e9bc56efe37bfb994c1eeb834','3a7a84fec9c64ae426f06a5f52597c84b3453ba0','79ce0dfb211a67ff7e387b58b0d19ff1d6accfba','191064e7ccd88718853fe239dfd3890a8dc0fa37'],
+        'all_python_blobs_distinct_from_every_blob_in_four_trees':True,'none_imports_foreign_modules':True,'files':records,
+        'note':'Tree metadata only was downloaded. Our reused files came from ../c82r8 (itself our round-5/6/7 lineage); new files were written here; no third-party Python was downloaded.'}
     Path('PYTHON_BLOBS.json').write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps({'python_files':len(records),'all_distinct':True,'no_foreign_imports':True}))

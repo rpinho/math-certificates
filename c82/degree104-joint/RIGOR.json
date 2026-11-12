@@ -2,13 +2,13 @@
   "steps": [
     {
       "document": "PROOF.md",
-      "statement": "These exact hypotheses and all 144 active gcd pairs are checked by verify_best.py",
+      "statement": "These exact hypotheses and all 240 active gcd pairs are checked by verify_best.py",
       "producer": "verify_best.py",
       "arithmetic": "exact"
     },
     {
       "document": "PROOF.md",
-      "statement": "The exact dyadic upper endpoint is strictly below the exact rational target 0.2519923410 (rigorous, verify_best.py).",
+      "statement": "The exact dyadic upper endpoint is strictly below the exact rational target 0.2519744488 (rigorous, verify_best.py).",
       "producer": "verify_best.py",
       "arithmetic": "interval"
     },
@@ -20,17 +20,17 @@
     },
     {
       "document": "review/inputs/PROOF.md",
-      "statement": "The claim is C82 <= B < 0.252404806 (rigorous interval enclosure, verify_interval.py), conditional on the mathematical argument below and the trusted exact/ball arithmetic backend.",
-      "producer": "../degree104-cvp/verify_interval.py",
+      "statement": "The claim is C82 <= B, with the strict numerical upper bound recorded in RESULT.json and REPORT.md and certified by verify_best.py.",
+      "producer": "verify_best.py",
       "arithmetic": "interval",
-      "note": "archived referee input: statement about the earlier certificate in ../degree104-cvp; row retained for supplied review inputs; the referee report is review/REFEREE.md"
+      "note": "Preserved round-9 referee input; the independently written referee checker is review/replay/check.py and its result is review/replay/result.json."
     },
     {
       "document": "review/inputs/PROOF.md",
-      "statement": "The exact dyadic upper endpoint is strictly below the exact rational target 0.252404806 (rigorous, verify_interval.py).",
-      "producer": "../degree104-cvp/verify_interval.py",
-      "arithmetic": "interval",
-      "note": "archived referee input: statement about the earlier certificate in ../degree104-cvp; row retained for supplied review inputs; the referee report is review/REFEREE.md"
+      "statement": "Its exact finite hypotheses are checked by verify_best.py, separately written by the same agent lineage as the search.",
+      "producer": "verify_best.py",
+      "arithmetic": "exact",
+      "note": "Preserved round-9 referee input; the independently written referee checker is review/replay/check.py and its result is review/replay/result.json."
     }
   ]
 }

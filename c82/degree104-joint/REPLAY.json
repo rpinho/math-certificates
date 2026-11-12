@@ -1,20 +1,20 @@
 {
-  "model": "GPT-6-based Codex (exact serving-model ID not exposed)",
-  "author": "codex math_c82r7ref_1105 (clean-room)",
+  "model": "GPT-6 (Codex; exact serving model ID unavailable)",
+  "author": "codex math_c82r9ref_1112 (clean-room)",
   "status": "PASS",
-  "value": "0.2519923410",
+  "value": "0.2519744488",
   "arithmetic": "interval",
   "inputs": {
-    "review/inputs/CLAIM.md": "b6cb4998d8aaaedc1bd0db4f59a386a20db1d83760997c5708df6f50302b2a2e",
-    "review/inputs/PROOF.md": "6633baac5a1747a3beb0b2de2128ec8df9d3bef5f75d0892393667cd73c2ec7d",
-    "review/inputs/certificates/certificate.json": "ee9622b5e141489ad6fbf98b0ec5c43ac3e1b657f8876b435e65c536f359fdd5"
+    "review/inputs/CLAIM.md": "c7a171013d214370c2817a5a89701a51bff6480cbe6fc889a585e983e53dddbb",
+    "review/inputs/PROOF.md": "0d8d1422f0df61e6579136144d9f0ce3b0c14d3bd057174ffdac3b7f75a55b2a",
+    "review/inputs/certificates/certificate.json": "1e5af10142c7223df4cd56a4279727a7610137dab8e5f2d95dcb19b3030ac67e"
   },
-  "inputs_hash": "71a871c2ff0fb98088b287f2b592e9f374d02d13e2726c406178968b775fd475",
+  "inputs_hash": "3355094fa7b07c49606a30b703577d9bdbcfd35bd0eb8e8264ca820157cde499",
   "read_producer_code": false,
   "ran_producer_code": false,
   "checker": "review/replay/check.py",
-  "checker_sha256": "66ccac4bbdd139dc64de98e60c2703229e4b1b3693725f4ee2e3e3bab6ca0199",
+  "checker_sha256": "9faae75a638a6babd47a304e579824bbc9475b35de67fe13f9515f170aba65f4",
   "report": "review/replay/report.md",
-  "report_sha256": "9ca6f1db40b246119f1a36fca97330ae130d4a15210c832aa3f4d572dddbd496",
-  "note": "Path-only re-keying for release layout. Original referee receipt is review/replay/REPLAY.original.json; input bytes, checker, report, and model attestation are unchanged."
+  "report_sha256": "f6972ef46ea87953e55906ede9afe832bf974549a8ead2eef2aad7a9eaae7429",
+  "note": "Path-only re-keying for release layout. Original referee receipt is review/replay/REPLAY.original.json; input bytes, checker, report and model attestation are unchanged."
 }

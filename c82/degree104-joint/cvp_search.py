@@ -114,7 +114,13 @@ class Search:
         self.price_points=transformed_points(self.t[positive]);self.price_mass=self.nu[positive]
         self.cdf=np.cumsum(np.maximum(1/len(self.t)-self.nu,0));self.cdf/=self.cdf[-1]
         self.bank=json.loads(Path(a.bank).read_text())
-        self.warm=[polynomial(r['coeffs']) for r in self.state['denominator'] if len(r['coeffs'])==105]
+        ordered=sorted(zip(self.state['denominator'],self.state['mu']),key=lambda pair:-pair[1])
+        active=[r for r,w in ordered if w>1e-13 and len(r['coeffs'])==105]
+        inactive=[r for r,w in ordered if w<=1e-13 and len(r['coeffs'])==105]
+        if active:
+            offset=int(self.rng.integers(len(active)))
+            active=active[offset:]+active[:offset]
+        self.warm=[polynomial(r['coeffs']) for r in active+inactive]
         self.archive=[polynomial(r['coeffs']) for r in self.bank['denominator']]
         self.numerators=[polynomial(r['coeffs']) for r in self.state['numerator']]
         self.known={tuple(r['coeffs']) for r in self.state['denominator']}
@@ -144,7 +150,7 @@ class Search:
         if rc< -2e-8 and c not in self.known:
             fs=p.factor()[1]
             record={'coeffs':list(c),'rc':float(rc),'trial':self.trials,
-                'name':'C82r7_'+hashlib.sha256(str(c).encode()).hexdigest()[:12],
+                'name':'C82r9_'+hashlib.sha256(str(c).encode()).hexdigest()[:12],
                 'factors':[{'coeffs':list(descending(f)),'multiplicity':int(m)} for f,m in fs]}
             self.found.append(record);self.emit('negative',rc=float(rc),factor_degrees=[f.degree() for f,m in fs]);self.save()
         return float(rc)

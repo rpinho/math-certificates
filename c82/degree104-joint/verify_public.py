@@ -16,7 +16,7 @@ import time
 import flint
 from flint import acb, arb, ctx, fmpz_poly
 
-EXPECTED = 'b71150bb7c1a7ac34e86b447e565cdd6c6d33bb225fa910f0acced4136f74171'
+EXPECTED = '8a5f363c29f02fca71e99dcedfdae0bd8969cd02bbed560484d1da726175a909'
 
 def ball(q):
     q = Fraction(q)

@@ -1,0 +1,1127 @@
+{
+  "recorded_child_cpu_seconds_plus_v5": 46909.776119999995,
+  "recorded_core_hours": 13.030493366666665,
+  "estimated_total_core_hours_with_setup_controller_allowance": 13.137907018058197,
+  "unmeasured_cpu_allowance_core_hours": 0.10741365139153268,
+  "wall_hours_since_setup": 9.741365139153269,
+  "accounting": "Sum disjoint run/batch RUSAGE_CHILDREN deltas, including resource-sampling ps calls; add separately timed initial v5 replay. No nested wrapper duplication. Unmeasured setup/controller/reporting allowance: 0.01 core-hour plus 0.01 core-hour per wall hour; estimated total, not an exact measurement.",
+  "largest_sampled_aggregate_rss": 2850127872,
+  "worker_peaks": [
+    {
+      "file": "logs/num-merge-8.log.time",
+      "worker_maximum_resident_set_size": 1124057088
+    },
+    {
+      "file": "logs/num-merge-9.log.time",
+      "worker_maximum_resident_set_size": 1074806784
+    },
+    {
+      "file": "logs/archive-num-11-1.log.time",
+      "worker_maximum_resident_set_size": 254001152
+    },
+    {
+      "file": "logs/archive-num-11-0.log.time",
+      "worker_maximum_resident_set_size": 298958848
+    },
+    {
+      "file": "logs/num-search-15-0.log.time",
+      "worker_maximum_resident_set_size": 110886912
+    },
+    {
+      "file": "logs/num-search-15-1.log.time",
+      "worker_maximum_resident_set_size": 110428160
+    },
+    {
+      "file": "logs/den-search-4-0.log.time",
+      "worker_maximum_resident_set_size": 411025408
+    },
+    {
+      "file": "logs/den-search-4-1.log.time",
+      "worker_maximum_resident_set_size": 412811264
+    },
+    {
+      "file": "logs/union-streamed.log.time",
+      "worker_maximum_resident_set_size": 662290432
+    },
+    {
+      "file": "logs/num-merge-2.log.time",
+      "worker_maximum_resident_set_size": 1178042368
+    },
+    {
+      "file": "logs/num-merge-3.log.time",
+      "worker_maximum_resident_set_size": 811843584
+    },
+    {
+      "file": "logs/archive-num-2-0.log.time",
+      "worker_maximum_resident_set_size": 443596800
+    },
+    {
+      "file": "logs/archive-num-2-1.log.time",
+      "worker_maximum_resident_set_size": 79380480
+    },
+    {
+      "file": "logs/num-search-6-0.log.time",
+      "worker_maximum_resident_set_size": 113328128
+    },
+    {
+      "file": "logs/num-search-6-1.log.time",
+      "worker_maximum_resident_set_size": 112492544
+    },
+    {
+      "file": "logs/den-search-12-1.log.time",
+      "worker_maximum_resident_set_size": 456704000
+    },
+    {
+      "file": "logs/den-search-12-0.log.time",
+      "worker_maximum_resident_set_size": 455213056
+    },
+    {
+      "file": "logs/den-search-9-0.log.time",
+      "worker_maximum_resident_set_size": 440516608
+    },
+    {
+      "file": "logs/den-search-9-1.log.time",
+      "worker_maximum_resident_set_size": 442187776
+    },
+    {
+      "file": "logs/archive-num-10-2.log.time",
+      "worker_maximum_resident_set_size": 129384448
+    },
+    {
+      "file": "logs/rejection-controls.log.time",
+      "worker_maximum_resident_set_size": 42336256
+    },
+    {
+      "file": "logs/num-search-18-0.log.time",
+      "worker_maximum_resident_set_size": 107462656
+    },
+    {
+      "file": "logs/num-search-18-1.log.time",
+      "worker_maximum_resident_set_size": 107184128
+    },
+    {
+      "file": "logs/den-search-20-0.log.time",
+      "worker_maximum_resident_set_size": 453771264
+    },
+    {
+      "file": "logs/den-search-20-1.log.time",
+      "worker_maximum_resident_set_size": 463437824
+    },
+    {
+      "file": "logs/den-search-17-1.log.time",
+      "worker_maximum_resident_set_size": 457424896
+    },
+    {
+      "file": "logs/den-search-17-0.log.time",
+      "worker_maximum_resident_set_size": 450035712
+    },
+    {
+      "file": "logs/num-search-3-0.log.time",
+      "worker_maximum_resident_set_size": 108216320
+    },
+    {
+      "file": "logs/num-search-3-1.log.time",
+      "worker_maximum_resident_set_size": 108822528
+    },
+    {
+      "file": "logs/num-merge-15.log.time",
+      "worker_maximum_resident_set_size": 613957632
+    },
+    {
+      "file": "logs/num-merge-14.log.time",
+      "worker_maximum_resident_set_size": 980533248
+    },
+    {
+      "file": "logs/archive-den-5-1.log.time",
+      "worker_maximum_resident_set_size": 83492864
+    },
+    {
+      "file": "logs/archive-num-7-0.log.time",
+      "worker_maximum_resident_set_size": 622444544
+    },
+    {
+      "file": "logs/archive-num-7-1.log.time",
+      "worker_maximum_resident_set_size": 305872896
+    },
+    {
+      "file": "logs/archive-den-5-0.log.time",
+      "worker_maximum_resident_set_size": 876478464
+    },
+    {
+      "file": "logs/den-merge-7.log.time",
+      "worker_maximum_resident_set_size": 221626368
+    },
+    {
+      "file": "logs/archive-num-15-2.log.time",
+      "worker_maximum_resident_set_size": 150781952
+    },
+    {
+      "file": "logs/archive-num-19-1.log.time",
+      "worker_maximum_resident_set_size": 306561024
+    },
+    {
+      "file": "logs/archive-num-19-0.log.time",
+      "worker_maximum_resident_set_size": 375341056
+    },
+    {
+      "file": "logs/archive-den-4-3.log.time",
+      "worker_maximum_resident_set_size": 217825280
+    },
+    {
+      "file": "logs/archive-num-6-2.log.time",
+      "worker_maximum_resident_set_size": 254099456
+    },
+    {
+      "file": "logs/archive-num-6-3.log.time",
+      "worker_maximum_resident_set_size": 92553216
+    },
+    {
+      "file": "logs/archive-den-4-2.log.time",
+      "worker_maximum_resident_set_size": 381222912
+    },
+    {
+      "file": "logs/first-best-controls.log.time",
+      "worker_maximum_resident_set_size": 42303488
+    },
+    {
+      "file": "logs/archive-num-12-4.log.time",
+      "worker_maximum_resident_set_size": 144523264
+    },
+    {
+      "file": "logs/den-search-1-0.log.time",
+      "worker_maximum_resident_set_size": 412139520
+    },
+    {
+      "file": "logs/num-search-10-0.log.time",
+      "worker_maximum_resident_set_size": 108756992
+    },
+    {
+      "file": "logs/num-search-10-1.log.time",
+      "worker_maximum_resident_set_size": 110739456
+    },
+    {
+      "file": "logs/archive-num-14-1.log.time",
+      "worker_maximum_resident_set_size": 316555264
+    },
+    {
+      "file": "logs/num-merge-21.log.time",
+      "worker_maximum_resident_set_size": 661602304
+    },
+    {
+      "file": "logs/num-merge-20.log.time",
+      "worker_maximum_resident_set_size": 633487360
+    },
+    {
+      "file": "logs/archive-num-14-0.log.time",
+      "worker_maximum_resident_set_size": 541360128
+    },
+    {
+      "file": "logs/archive-num-18-3.log.time",
+      "worker_maximum_resident_set_size": 134889472
+    },
+    {
+      "file": "logs/archive-num-18-2.log.time",
+      "worker_maximum_resident_set_size": 279625728
+    },
+    {
+      "file": "logs/num-search-17-1.log.time",
+      "worker_maximum_resident_set_size": 108167168
+    },
+    {
+      "file": "logs/num-search-17-0.log.time",
+      "worker_maximum_resident_set_size": 107020288
+    },
+    {
+      "file": "logs/archive-num-13-0.log.time",
+      "worker_maximum_resident_set_size": 769146880
+    },
+    {
+      "file": "logs/num-search-20-0.log.time",
+      "worker_maximum_resident_set_size": 114065408
+    },
+    {
+      "file": "logs/archive-num-13-1.log.time",
+      "worker_maximum_resident_set_size": 418660352
+    },
+    {
+      "file": "logs/num-search-20-1.log.time",
+      "worker_maximum_resident_set_size": 107347968
+    },
+    {
+      "file": "logs/num-merge-12.log.time",
+      "worker_maximum_resident_set_size": 1211187200
+    },
+    {
+      "file": "logs/num-merge-13.log.time",
+      "worker_maximum_resident_set_size": 936165376
+    },
+    {
+      "file": "logs/den-search-6-1.log.time",
+      "worker_maximum_resident_set_size": 421593088
+    },
+    {
+      "file": "logs/den-search-6-0.log.time",
+      "worker_maximum_resident_set_size": 447741952
+    },
+    {
+      "file": "logs/den-merge-11.log.time",
+      "worker_maximum_resident_set_size": 875446272
+    },
+    {
+      "file": "logs/final-replay.log.time",
+      "worker_maximum_resident_set_size": 39043072
+    },
+    {
+      "file": "logs/den5-controls.log.time",
+      "worker_maximum_resident_set_size": 42008576
+    },
+    {
+      "file": "logs/num-search-9-1.log.time",
+      "worker_maximum_resident_set_size": 109232128
+    },
+    {
+      "file": "logs/num-search-9-0.log.time",
+      "worker_maximum_resident_set_size": 108920832
+    },
+    {
+      "file": "logs/archive-num-1-2.log.time",
+      "worker_maximum_resident_set_size": 78790656
+    },
+    {
+      "file": "logs/archive-den-4-4.log.time",
+      "worker_maximum_resident_set_size": 79921152
+    },
+    {
+      "file": "logs/archive-num-12-2.log.time",
+      "worker_maximum_resident_set_size": 297533440
+    },
+    {
+      "file": "logs/archive-num-12-3.log.time",
+      "worker_maximum_resident_set_size": 270909440
+    },
+    {
+      "file": "logs/num-merge-18.log.time",
+      "worker_maximum_resident_set_size": 489881600
+    },
+    {
+      "file": "logs/num-merge-19.log.time",
+      "worker_maximum_resident_set_size": 471810048
+    },
+    {
+      "file": "logs/num-search-4-1.log.time",
+      "worker_maximum_resident_set_size": 108527616
+    },
+    {
+      "file": "logs/num-search-4-0.log.time",
+      "worker_maximum_resident_set_size": 108658688
+    },
+    {
+      "file": "logs/den-search-10-0.log.time",
+      "worker_maximum_resident_set_size": 442531840
+    },
+    {
+      "file": "logs/den-search-10-1.log.time",
+      "worker_maximum_resident_set_size": 440467456
+    },
+    {
+      "file": "logs/archive-num-17-2.log.time",
+      "worker_maximum_resident_set_size": 300646400
+    },
+    {
+      "file": "logs/archive-num-17-3.log.time",
+      "worker_maximum_resident_set_size": 134594560
+    },
+    {
+      "file": "logs/den-search-15-0.log.time",
+      "worker_maximum_resident_set_size": 462946304
+    },
+    {
+      "file": "logs/den-search-15-1.log.time",
+      "worker_maximum_resident_set_size": 463290368
+    },
+    {
+      "file": "logs/num-search-1-0.log.time",
+      "worker_maximum_resident_set_size": 108625920
+    },
+    {
+      "file": "logs/archive-num-5-1.log.time",
+      "worker_maximum_resident_set_size": 270417920
+    },
+    {
+      "file": "logs/archive-den-7-0.log.time",
+      "worker_maximum_resident_set_size": 120766464
+    },
+    {
+      "file": "logs/archive-num-5-0.log.time",
+      "worker_maximum_resident_set_size": 717258752
+    },
+    {
+      "file": "logs/archive-num-9-2.log.time",
+      "worker_maximum_resident_set_size": 129105920
+    },
+    {
+      "file": "logs/den-search-3-1.log.time",
+      "worker_maximum_resident_set_size": 411222016
+    },
+    {
+      "file": "logs/den-search-3-0.log.time",
+      "worker_maximum_resident_set_size": 411451392
+    },
+    {
+      "file": "logs/num-merge-5.log.time",
+      "worker_maximum_resident_set_size": 1360363520
+    },
+    {
+      "file": "logs/num-merge-4.log.time",
+      "worker_maximum_resident_set_size": 917962752
+    },
+    {
+      "file": "logs/archive-num-16-0.log.time",
+      "worker_maximum_resident_set_size": 431390720
+    },
+    {
+      "file": "logs/archive-num-16-1.log.time",
+      "worker_maximum_resident_set_size": 306413568
+    },
+    {
+      "file": "logs/archive-num-21-1.log.time",
+      "worker_maximum_resident_set_size": 325910528
+    },
+    {
+      "file": "logs/num-search-12-1.log.time",
+      "worker_maximum_resident_set_size": 122617856
+    },
+    {
+      "file": "logs/archive-num-21-0.log.time",
+      "worker_maximum_resident_set_size": 320356352
+    },
+    {
+      "file": "logs/num-search-12-0.log.time",
+      "worker_maximum_resident_set_size": 120963072
+    },
+    {
+      "file": "logs/archive-den-11-0.log.time",
+      "worker_maximum_resident_set_size": 976748544
+    },
+    {
+      "file": "logs/archive-den-11-1.log.time",
+      "worker_maximum_resident_set_size": 757923840
+    },
+    {
+      "file": "logs/archive-num-4-3.log.time",
+      "worker_maximum_resident_set_size": 79904768
+    },
+    {
+      "file": "logs/archive-num-4-2.log.time",
+      "worker_maximum_resident_set_size": 238714880
+    },
+    {
+      "file": "logs/archive-num-8-1.log.time",
+      "worker_maximum_resident_set_size": 329826304
+    },
+    {
+      "file": "logs/archive-num-8-0.log.time",
+      "worker_maximum_resident_set_size": 736526336
+    },
+    {
+      "file": "logs/den-search-18-0.log.time",
+      "worker_maximum_resident_set_size": 454524928
+    },
+    {
+      "file": "logs/den-search-18-1.log.time",
+      "worker_maximum_resident_set_size": 451559424
+    },
+    {
+      "file": "logs/archive-den-4-0.log.time",
+      "worker_maximum_resident_set_size": 938704896
+    },
+    {
+      "file": "logs/archive-num-6-1.log.time",
+      "worker_maximum_resident_set_size": 487325696
+    },
+    {
+      "file": "logs/archive-num-6-0.log.time",
+      "worker_maximum_resident_set_size": 608452608
+    },
+    {
+      "file": "logs/archive-den-4-1.log.time",
+      "worker_maximum_resident_set_size": 425951232
+    },
+    {
+      "file": "logs/den-search-21-1.log.time",
+      "worker_maximum_resident_set_size": 450019328
+    },
+    {
+      "file": "logs/den-search-21-0.log.time",
+      "worker_maximum_resident_set_size": 454705152
+    },
+    {
+      "file": "logs/den-search-16-0.log.time",
+      "worker_maximum_resident_set_size": 465207296
+    },
+    {
+      "file": "logs/den-search-16-1.log.time",
+      "worker_maximum_resident_set_size": 460947456
+    },
+    {
+      "file": "logs/num-search-2-1.log.time",
+      "worker_maximum_resident_set_size": 108265472
+    },
+    {
+      "file": "logs/num-search-2-0.log.time",
+      "worker_maximum_resident_set_size": 109658112
+    },
+    {
+      "file": "logs/archive-num-14-2.log.time",
+      "worker_maximum_resident_set_size": 150388736
+    },
+    {
+      "file": "logs/archive-num-18-0.log.time",
+      "worker_maximum_resident_set_size": 525025280
+    },
+    {
+      "file": "logs/archive-num-18-1.log.time",
+      "worker_maximum_resident_set_size": 295583744
+    },
+    {
+      "file": "logs/num-merge-16.log.time",
+      "worker_maximum_resident_set_size": 645513216
+    },
+    {
+      "file": "logs/num-merge-17.log.time",
+      "worker_maximum_resident_set_size": 532217856
+    },
+    {
+      "file": "logs/den-merge-5.log.time",
+      "worker_maximum_resident_set_size": 964591616
+    },
+    {
+      "file": "logs/den-merge-4.log.time",
+      "worker_maximum_resident_set_size": 448757760
+    },
+    {
+      "file": "logs/union-standard.log.time",
+      "worker_maximum_resident_set_size": 2827091968
+    },
+    {
+      "file": "logs/archive-num-7-2.log.time",
+      "worker_maximum_resident_set_size": 120586240
+    },
+    {
+      "file": "logs/num-search-11-1.log.time",
+      "worker_maximum_resident_set_size": 108429312
+    },
+    {
+      "file": "logs/num-search-11-0.log.time",
+      "worker_maximum_resident_set_size": 108396544
+    },
+    {
+      "file": "logs/archive-num-15-0.log.time",
+      "worker_maximum_resident_set_size": 286605312
+    },
+    {
+      "file": "logs/archive-num-15-1.log.time",
+      "worker_maximum_resident_set_size": 272793600
+    },
+    {
+      "file": "logs/archive-num-19-2.log.time",
+      "worker_maximum_resident_set_size": 134643712
+    },
+    {
+      "file": "logs/num-merge-1.log.time",
+      "worker_maximum_resident_set_size": 2708045824
+    },
+    {
+      "file": "logs/den-search-5-1.log.time",
+      "worker_maximum_resident_set_size": 412631040
+    },
+    {
+      "file": "logs/den-search-5-0.log.time",
+      "worker_maximum_resident_set_size": 413515776
+    },
+    {
+      "file": "logs/archive-num-8-4.log.time",
+      "worker_maximum_resident_set_size": 127647744
+    },
+    {
+      "file": "logs/archive-num-10-0.log.time",
+      "worker_maximum_resident_set_size": 321765376
+    },
+    {
+      "file": "logs/archive-num-10-1.log.time",
+      "worker_maximum_resident_set_size": 275398656
+    },
+    {
+      "file": "logs/num-search-14-1.log.time",
+      "worker_maximum_resident_set_size": 111968256
+    },
+    {
+      "file": "logs/num-search-14-0.log.time",
+      "worker_maximum_resident_set_size": 108969984
+    },
+    {
+      "file": "logs/num-search-7-1.log.time",
+      "worker_maximum_resident_set_size": 246169600
+    },
+    {
+      "file": "logs/num-search-7-0.log.time",
+      "worker_maximum_resident_set_size": 274628608
+    },
+    {
+      "file": "logs/den-search-13-0.log.time",
+      "worker_maximum_resident_set_size": 460406784
+    },
+    {
+      "file": "logs/den-search-13-1.log.time",
+      "worker_maximum_resident_set_size": 458719232
+    },
+    {
+      "file": "logs/archive-num-3-1.log.time",
+      "worker_maximum_resident_set_size": 79331328
+    },
+    {
+      "file": "logs/archive-num-3-0.log.time",
+      "worker_maximum_resident_set_size": 498647040
+    },
+    {
+      "file": "logs/archive-num-11-2.log.time",
+      "worker_maximum_resident_set_size": 129466368
+    },
+    {
+      "file": "logs/num-search-19-1.log.time",
+      "worker_maximum_resident_set_size": 107757568
+    },
+    {
+      "file": "logs/num-search-19-0.log.time",
+      "worker_maximum_resident_set_size": 109199360
+    },
+    {
+      "file": "logs/den-search-8-1.log.time",
+      "worker_maximum_resident_set_size": 442073088
+    },
+    {
+      "file": "logs/den-search-8-0.log.time",
+      "worker_maximum_resident_set_size": 444514304
+    },
+    {
+      "file": "logs/num-merge-6.log.time",
+      "worker_maximum_resident_set_size": 993984512
+    },
+    {
+      "file": "logs/num-merge-7.log.time",
+      "worker_maximum_resident_set_size": 1374568448
+    },
+    {
+      "file": "logs/archive-num-16-3.log.time",
+      "worker_maximum_resident_set_size": 150798336
+    },
+    {
+      "file": "logs/archive-num-16-2.log.time",
+      "worker_maximum_resident_set_size": 272171008
+    },
+    {
+      "file": "logs/archive-num-21-2.log.time",
+      "worker_maximum_resident_set_size": 135118848
+    },
+    {
+      "file": "logs/archive-num-4-0.log.time",
+      "worker_maximum_resident_set_size": 550207488
+    },
+    {
+      "file": "logs/archive-num-4-1.log.time",
+      "worker_maximum_resident_set_size": 268664832
+    },
+    {
+      "file": "logs/archive-den-11-3.log.time",
+      "worker_maximum_resident_set_size": 130007040
+    },
+    {
+      "file": "logs/archive-den-11-2.log.time",
+      "worker_maximum_resident_set_size": 598786048
+    },
+    {
+      "file": "logs/archive-num-8-2.log.time",
+      "worker_maximum_resident_set_size": 320045056
+    },
+    {
+      "file": "logs/archive-num-8-3.log.time",
+      "worker_maximum_resident_set_size": 218202112
+    },
+    {
+      "file": "logs/den-search-14-1.log.time",
+      "worker_maximum_resident_set_size": 460341248
+    },
+    {
+      "file": "logs/den-search-14-0.log.time",
+      "worker_maximum_resident_set_size": 462110720
+    },
+    {
+      "file": "logs/archive-num-17-1.log.time",
+      "worker_maximum_resident_set_size": 357236736
+    },
+    {
+      "file": "logs/archive-num-17-0.log.time",
+      "worker_maximum_resident_set_size": 525828096
+    },
+    {
+      "file": "logs/num-search-13-0.log.time",
+      "worker_maximum_resident_set_size": 107888640
+    },
+    {
+      "file": "logs/archive-num-20-0.log.time",
+      "worker_maximum_resident_set_size": 293601280
+    },
+    {
+      "file": "logs/num-search-13-1.log.time",
+      "worker_maximum_resident_set_size": 110182400
+    },
+    {
+      "file": "logs/archive-num-20-1.log.time",
+      "worker_maximum_resident_set_size": 135036928
+    },
+    {
+      "file": "logs/den-search-2-0.log.time",
+      "worker_maximum_resident_set_size": 411009024
+    },
+    {
+      "file": "logs/den-search-2-1.log.time",
+      "worker_maximum_resident_set_size": 410910720
+    },
+    {
+      "file": "logs/den-search-19-1.log.time",
+      "worker_maximum_resident_set_size": 456114176
+    },
+    {
+      "file": "logs/den-search-19-0.log.time",
+      "worker_maximum_resident_set_size": 453689344
+    },
+    {
+      "file": "logs/archive-num-5-2.log.time",
+      "worker_maximum_resident_set_size": 83836928
+    },
+    {
+      "file": "logs/archive-num-9-0.log.time",
+      "worker_maximum_resident_set_size": 479428608
+    },
+    {
+      "file": "logs/archive-num-9-1.log.time",
+      "worker_maximum_resident_set_size": 269615104
+    },
+    {
+      "file": "logs/den-search-7-0.log.time",
+      "worker_maximum_resident_set_size": 435716096
+    },
+    {
+      "file": "logs/den-search-7-1.log.time",
+      "worker_maximum_resident_set_size": 436699136
+    },
+    {
+      "file": "logs/num-search-16-0.log.time",
+      "worker_maximum_resident_set_size": 108462080
+    },
+    {
+      "file": "logs/num-search-16-1.log.time",
+      "worker_maximum_resident_set_size": 108625920
+    },
+    {
+      "file": "logs/num-search-21-1.log.time",
+      "worker_maximum_resident_set_size": 111624192
+    },
+    {
+      "file": "logs/archive-num-12-1.log.time",
+      "worker_maximum_resident_set_size": 462389248
+    },
+    {
+      "file": "logs/num-search-21-0.log.time",
+      "worker_maximum_resident_set_size": 107855872
+    },
+    {
+      "file": "logs/archive-num-12-0.log.time",
+      "worker_maximum_resident_set_size": 660586496
+    },
+    {
+      "file": "logs/num-search-8-0.log.time",
+      "worker_maximum_resident_set_size": 112672768
+    },
+    {
+      "file": "logs/num-search-8-1.log.time",
+      "worker_maximum_resident_set_size": 109182976
+    },
+    {
+      "file": "logs/num-merge-11.log.time",
+      "worker_maximum_resident_set_size": 773734400
+    },
+    {
+      "file": "logs/num-merge-10.log.time",
+      "worker_maximum_resident_set_size": 722616320
+    },
+    {
+      "file": "logs/archive-num-13-3.log.time",
+      "worker_maximum_resident_set_size": 147996672
+    },
+    {
+      "file": "logs/archive-num-13-2.log.time",
+      "worker_maximum_resident_set_size": 281067520
+    },
+    {
+      "file": "logs/num-search-5-0.log.time",
+      "worker_maximum_resident_set_size": 108871680
+    },
+    {
+      "file": "logs/num-search-5-1.log.time",
+      "worker_maximum_resident_set_size": 109363200
+    },
+    {
+      "file": "logs/den-search-11-1.log.time",
+      "worker_maximum_resident_set_size": 444022784
+    },
+    {
+      "file": "logs/den-search-11-0.log.time",
+      "worker_maximum_resident_set_size": 441647104
+    },
+    {
+      "file": "logs/archive-num-1-0.log.time",
+      "worker_maximum_resident_set_size": 512065536
+    },
+    {
+      "file": "logs/archive-num-1-1.log.time",
+      "worker_maximum_resident_set_size": 242565120
+    },
+    {
+      "file": "rounds/archive-den-11-2-verify.log.time",
+      "worker_maximum_resident_set_size": 37699584
+    },
+    {
+      "file": "rounds/archive-num-12-2-verify.log.time",
+      "worker_maximum_resident_set_size": 38486016
+    },
+    {
+      "file": "rounds/archive-den-4-2-verify.log.time",
+      "worker_maximum_resident_set_size": 38617088
+    },
+    {
+      "file": "rounds/den-7-verify.log.time",
+      "worker_maximum_resident_set_size": 38387712
+    },
+    {
+      "file": "rounds/archive-num-17-2-verify.log.time",
+      "worker_maximum_resident_set_size": 38895616
+    },
+    {
+      "file": "rounds/archive-num-6-2-verify.log.time",
+      "worker_maximum_resident_set_size": 37601280
+    },
+    {
+      "file": "rounds/archive-num-8-1-verify.log.time",
+      "worker_maximum_resident_set_size": 38649856
+    },
+    {
+      "file": "rounds/archive-num-19-1-verify.log.time",
+      "worker_maximum_resident_set_size": 39239680
+    },
+    {
+      "file": "rounds/num-4-verify.log.time",
+      "worker_maximum_resident_set_size": 38862848
+    },
+    {
+      "file": "rounds/num-14-verify.log.time",
+      "worker_maximum_resident_set_size": 38141952
+    },
+    {
+      "file": "rounds/num-13-verify.log.time",
+      "worker_maximum_resident_set_size": 38436864
+    },
+    {
+      "file": "rounds/num-3-verify.log.time",
+      "worker_maximum_resident_set_size": 38354944
+    },
+    {
+      "file": "rounds/archive-num-13-2-verify.log.time",
+      "worker_maximum_resident_set_size": 39092224
+    },
+    {
+      "file": "rounds/archive-num-16-2-verify.log.time",
+      "worker_maximum_resident_set_size": 38502400
+    },
+    {
+      "file": "rounds/archive-num-9-1-verify.log.time",
+      "worker_maximum_resident_set_size": 39239680
+    },
+    {
+      "file": "rounds/archive-num-18-1-verify.log.time",
+      "worker_maximum_resident_set_size": 39092224
+    },
+    {
+      "file": "rounds/num-21-verify.log.time",
+      "worker_maximum_resident_set_size": 38993920
+    },
+    {
+      "file": "rounds/num-12-verify.log.time",
+      "worker_maximum_resident_set_size": 37994496
+    },
+    {
+      "file": "rounds/num-2-verify.log.time",
+      "worker_maximum_resident_set_size": 38436864
+    },
+    {
+      "file": "rounds/archive-num-4-2-verify.log.time",
+      "worker_maximum_resident_set_size": 38617088
+    },
+    {
+      "file": "rounds/archive-num-9-0-verify.log.time",
+      "worker_maximum_resident_set_size": 39387136
+    },
+    {
+      "file": "rounds/archive-num-18-0-verify.log.time",
+      "worker_maximum_resident_set_size": 38895616
+    },
+    {
+      "file": "rounds/num-20-verify.log.time",
+      "worker_maximum_resident_set_size": 38748160
+    },
+    {
+      "file": "rounds/archive-den-4-3-verify.log.time",
+      "worker_maximum_resident_set_size": 38584320
+    },
+    {
+      "file": "rounds/archive-num-12-3-verify.log.time",
+      "worker_maximum_resident_set_size": 38584320
+    },
+    {
+      "file": "rounds/num-5-verify.log.time",
+      "worker_maximum_resident_set_size": 38223872
+    },
+    {
+      "file": "rounds/num-15-verify.log.time",
+      "worker_maximum_resident_set_size": 38830080
+    },
+    {
+      "file": "rounds/archive-num-8-0-verify.log.time",
+      "worker_maximum_resident_set_size": 38699008
+    },
+    {
+      "file": "rounds/archive-num-19-0-verify.log.time",
+      "worker_maximum_resident_set_size": 39075840
+    },
+    {
+      "file": "rounds/archive-num-1-0-verify.log.time",
+      "worker_maximum_resident_set_size": 37978112
+    },
+    {
+      "file": "rounds/archive-num-10-0-verify.log.time",
+      "worker_maximum_resident_set_size": 38879232
+    },
+    {
+      "file": "rounds/num-10-verify.log.time",
+      "worker_maximum_resident_set_size": 38895616
+    },
+    {
+      "file": "rounds/archive-num-13-1-verify.log.time",
+      "worker_maximum_resident_set_size": 38797312
+    },
+    {
+      "file": "rounds/archive-num-21-0-verify.log.time",
+      "worker_maximum_resident_set_size": 39501824
+    },
+    {
+      "file": "rounds/archive-num-18-2-verify.log.time",
+      "worker_maximum_resident_set_size": 39141376
+    },
+    {
+      "file": "rounds/archive-num-15-0-verify.log.time",
+      "worker_maximum_resident_set_size": 38912000
+    },
+    {
+      "file": "rounds/archive-num-4-0-verify.log.time",
+      "worker_maximum_resident_set_size": 38469632
+    },
+    {
+      "file": "rounds/archive-num-16-1-verify.log.time",
+      "worker_maximum_resident_set_size": 38617088
+    },
+    {
+      "file": "rounds/archive-num-7-1-verify.log.time",
+      "worker_maximum_resident_set_size": 38289408
+    },
+    {
+      "file": "rounds/union-verify.log.time",
+      "worker_maximum_resident_set_size": 38027264
+    },
+    {
+      "file": "rounds/num-18-verify.log.time",
+      "worker_maximum_resident_set_size": 38699008
+    },
+    {
+      "file": "rounds/num-8-verify.log.time",
+      "worker_maximum_resident_set_size": 38387712
+    },
+    {
+      "file": "rounds/archive-num-11-0-verify.log.time",
+      "worker_maximum_resident_set_size": 38830080
+    },
+    {
+      "file": "rounds/den-4-verify.log.time",
+      "worker_maximum_resident_set_size": 38633472
+    },
+    {
+      "file": "rounds/archive-den-4-1-verify.log.time",
+      "worker_maximum_resident_set_size": 38469632
+    },
+    {
+      "file": "rounds/archive-num-12-1-verify.log.time",
+      "worker_maximum_resident_set_size": 38371328
+    },
+    {
+      "file": "rounds/archive-den-11-1-verify.log.time",
+      "worker_maximum_resident_set_size": 37666816
+    },
+    {
+      "file": "rounds/archive-num-20-0-verify.log.time",
+      "worker_maximum_resident_set_size": 39026688
+    },
+    {
+      "file": "rounds/num-7-verify.log.time",
+      "worker_maximum_resident_set_size": 37781504
+    },
+    {
+      "file": "rounds/num-17-verify.log.time",
+      "worker_maximum_resident_set_size": 38830080
+    },
+    {
+      "file": "rounds/archive-num-8-2-verify.log.time",
+      "worker_maximum_resident_set_size": 38387712
+    },
+    {
+      "file": "rounds/archive-num-14-0-verify.log.time",
+      "worker_maximum_resident_set_size": 38584320
+    },
+    {
+      "file": "rounds/archive-num-5-0-verify.log.time",
+      "worker_maximum_resident_set_size": 38125568
+    },
+    {
+      "file": "rounds/archive-num-17-1-verify.log.time",
+      "worker_maximum_resident_set_size": 38895616
+    },
+    {
+      "file": "rounds/archive-num-6-1-verify.log.time",
+      "worker_maximum_resident_set_size": 37535744
+    },
+    {
+      "file": "rounds/den-11-verify.log.time",
+      "worker_maximum_resident_set_size": 38076416
+    },
+    {
+      "file": "rounds/archive-num-3-0-verify.log.time",
+      "worker_maximum_resident_set_size": 38764544
+    },
+    {
+      "file": "rounds/archive-num-12-0-verify.log.time",
+      "worker_maximum_resident_set_size": 38518784
+    },
+    {
+      "file": "rounds/archive-den-4-0-verify.log.time",
+      "worker_maximum_resident_set_size": 38617088
+    },
+    {
+      "file": "rounds/archive-den-11-0-verify.log.time",
+      "worker_maximum_resident_set_size": 37634048
+    },
+    {
+      "file": "rounds/num-19-verify.log.time",
+      "worker_maximum_resident_set_size": 38944768
+    },
+    {
+      "file": "rounds/num-9-verify.log.time",
+      "worker_maximum_resident_set_size": 38649856
+    },
+    {
+      "file": "rounds/den-5-verify.log.time",
+      "worker_maximum_resident_set_size": 37666816
+    },
+    {
+      "file": "rounds/archive-num-11-1-verify.log.time",
+      "worker_maximum_resident_set_size": 38830080
+    },
+    {
+      "file": "rounds/archive-num-8-3-verify.log.time",
+      "worker_maximum_resident_set_size": 38780928
+    },
+    {
+      "file": "rounds/num-6-verify.log.time",
+      "worker_maximum_resident_set_size": 37371904
+    },
+    {
+      "file": "rounds/num-16-verify.log.time",
+      "worker_maximum_resident_set_size": 38830080
+    },
+    {
+      "file": "rounds/archive-num-17-0-verify.log.time",
+      "worker_maximum_resident_set_size": 38682624
+    },
+    {
+      "file": "rounds/archive-num-6-0-verify.log.time",
+      "worker_maximum_resident_set_size": 37289984
+    },
+    {
+      "file": "rounds/archive-num-14-1-verify.log.time",
+      "worker_maximum_resident_set_size": 38780928
+    },
+    {
+      "file": "rounds/archive-num-5-1-verify.log.time",
+      "worker_maximum_resident_set_size": 38649856
+    },
+    {
+      "file": "rounds/num-11-verify.log.time",
+      "worker_maximum_resident_set_size": 39059456
+    },
+    {
+      "file": "rounds/archive-num-2-0-verify.log.time",
+      "worker_maximum_resident_set_size": 38404096
+    },
+    {
+      "file": "rounds/archive-den-5-0-verify.log.time",
+      "worker_maximum_resident_set_size": 37355520
+    },
+    {
+      "file": "rounds/num-1-verify.log.time",
+      "worker_maximum_resident_set_size": 38109184
+    },
+    {
+      "file": "rounds/archive-num-13-0-verify.log.time",
+      "worker_maximum_resident_set_size": 38584320
+    },
+    {
+      "file": "rounds/archive-num-1-1-verify.log.time",
+      "worker_maximum_resident_set_size": 38141952
+    },
+    {
+      "file": "rounds/archive-num-10-1-verify.log.time",
+      "worker_maximum_resident_set_size": 39026688
+    },
+    {
+      "file": "rounds/archive-num-21-1-verify.log.time",
+      "worker_maximum_resident_set_size": 39124992
+    },
+    {
+      "file": "rounds/archive-num-16-0-verify.log.time",
+      "worker_maximum_resident_set_size": 38371328
+    },
+    {
+      "file": "rounds/archive-num-7-0-verify.log.time",
+      "worker_maximum_resident_set_size": 38109184
+    },
+    {
+      "file": "rounds/archive-num-15-1-verify.log.time",
+      "worker_maximum_resident_set_size": 39043072
+    },
+    {
+      "file": "rounds/archive-num-4-1-verify.log.time",
+      "worker_maximum_resident_set_size": 38600704
+    }
+  ],
+  "max_parallel_numerical_workers": 2,
+  "single_threaded_blas_highs_flint": true,
+  "nice_command": "nice -n 10",
+  "effective_worker_nice": 20
+}

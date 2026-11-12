@@ -3,19 +3,43 @@
     {
       "value": "0.2520591386",
       "kind": "cited",
-      "source": "https://github.com/teorth/optimizationproblems/pull/280",
+      "source": "https://github.com/vidigoat/optimization-records/blob/197962c9610f583e9bc56efe37bfb994c1eeb834/tao/certificates/c82/v3/README.md",
+      "new_bound": false
+    },
+    {
+      "value": "0.2520079724",
+      "kind": "cited",
+      "source": "https://github.com/vidigoat/optimization-records/blob/79ce0dfb211a67ff7e387b58b0d19ff1d6accfba/tao/certificates/c82/v4/README.md",
+      "new_bound": false
+    },
+    {
+      "value": "0.2519889614",
+      "kind": "cited",
+      "source": "https://github.com/vidigoat/optimization-records/blob/191064e7ccd88718853fe239dfd3890a8dc0fa37/tao/certificates/c82/v5/README.md",
+      "new_bound": false
+    },
+    {
+      "value": "0.2519923410",
+      "kind": "cited",
+      "source": "https://github.com/rpinho/math-certificates/blob/a12c3622120c39af776902dbe49b6eff97a4d189/c82/degree104-joint/README.md",
+      "new_bound": false
+    },
+    {
+      "value": "0.2519964890",
+      "kind": "cited",
+      "source": "https://github.com/rpinho/math-certificates/blob/3be6b2f133db43374ea30767b58c62ce2d39686a/c82/degree104-joint/README.md",
       "new_bound": false
     },
     {
       "value": "0.2520179248",
       "kind": "cited",
-      "source": "https://github.com/teorth/optimizationproblems/pull/330",
+      "source": "https://github.com/rpinho/math-certificates/blob/98208a40e043e578d35183b418452f316112a658/c82/degree104-joint/README.md",
       "new_bound": false
     },
     {
       "value": "0.252404806",
       "kind": "cited",
-      "source": "https://github.com/teorth/optimizationproblems/pull/330",
+      "source": "https://github.com/rpinho/math-certificates/blob/5461d490552a518667c3fd3fceff33ebdb4d347c/c82/degree104-cvp/README.md",
       "new_bound": false
     },
     {
@@ -25,10 +49,76 @@
       "new_bound": false
     },
     {
-      "value": "0.2520079724",
-      "kind": "cited",
-      "source": "https://github.com/teorth/optimizationproblems/pull/280",
-      "new_bound": false
+      "value": "0.2519744488",
+      "kind": "rigorous",
+      "producer": "verify_best.py",
+      "arithmetic": "interval",
+      "new_bound": true,
+      "note": "strict upper bound"
+    },
+    {
+      "value": "0.2519744487408958476234",
+      "kind": "rigorous",
+      "producer": "verify_best.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "lower enclosure endpoint"
+    },
+    {
+      "value": "0.2519744487408958502183",
+      "kind": "rigorous",
+      "producer": "verify_best.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "upper enclosure endpoint"
+    },
+    {
+      "value": "0.0000846898591041497817",
+      "kind": "rigorous",
+      "producer": "certificate_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_280_v3_at_least"
+    },
+    {
+      "value": "0.0000335236591041497817",
+      "kind": "rigorous",
+      "producer": "certificate_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_280_v4_at_least"
+    },
+    {
+      "value": "0.0000145126591041497817",
+      "kind": "rigorous",
+      "producer": "certificate_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_280_v5_at_least"
+    },
+    {
+      "value": "0.0000178922591041497817",
+      "kind": "rigorous",
+      "producer": "certificate_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_previous_330_at_least"
+    },
+    {
+      "value": "0.0000013729591041497817",
+      "kind": "rigorous",
+      "producer": "certificate_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_round8_printed_at_least"
+    },
+    {
+      "value": "0.0000013728967610172567",
+      "kind": "rigorous",
+      "producer": "certificate_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_round8_endpoint_at_least"
     },
     {
       "value": "0.25200797232842968",
@@ -47,59 +137,20 @@
       "note": "radius of our interval replay of the public #280 v4 certificate (evidence/pr280-v4-replay.json)"
     },
     {
-      "value": "0.2519964890",
-      "kind": "cited",
-      "source": "https://github.com/teorth/optimizationproblems/pull/330",
-      "packet_source": "https://github.com/rpinho/math-certificates/blob/3be6b2f133db43374ea30767b58c62ce2d39686a/c82/degree104-joint/README.md",
-      "new_bound": false
-    },
-    {
-      "value": "0.2519923410",
+      "value": "0.25197444874089584903007645293157",
       "kind": "rigorous",
-      "producer": "verify_best.py",
-      "arithmetic": "interval",
-      "new_bound": true,
-      "note": "strict upper bound"
-    },
-    {
-      "value": "0.2519923409720083869767",
-      "kind": "rigorous",
-      "producer": "verify_best.py",
+      "producer": "review/replay/check.py",
       "arithmetic": "interval",
       "new_bound": false,
-      "note": "lower enclosure endpoint"
+      "note": "referee outward lower enclosure endpoint"
     },
     {
-      "value": "0.2519923409720083953971",
+      "value": "0.25197444874089584903007646836791",
       "kind": "rigorous",
-      "producer": "verify_best.py",
+      "producer": "review/replay/check.py",
       "arithmetic": "interval",
       "new_bound": false,
-      "note": "upper enclosure endpoint"
-    },
-    {
-      "value": "0.0000156314279916046029",
-      "kind": "rigorous",
-      "producer": "certificate_facts.py",
-      "arithmetic": "exact",
-      "new_bound": false,
-      "note": "Exact printed comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_280_v4_at_least"
-    },
-    {
-      "value": "0.0000041480279916046029",
-      "kind": "rigorous",
-      "producer": "certificate_facts.py",
-      "arithmetic": "exact",
-      "new_bound": false,
-      "note": "Exact printed comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_previous_330_at_least"
-    },
-    {
-      "value": "0.0000667976279916046029",
-      "kind": "rigorous",
-      "producer": "certificate_facts.py",
-      "arithmetic": "exact",
-      "new_bound": false,
-      "note": "Exact printed comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_280_v3_at_least"
+      "note": "referee outward upper enclosure endpoint"
     }
   ]
 }

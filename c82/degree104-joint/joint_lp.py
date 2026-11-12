@@ -23,18 +23,14 @@ class JointLP:
         self.n=n or cert.get('N',524288)
         self.t=grid(self.n); self.z=transformed_points(self.t)
         self.h=np.array([mahler_T(r['coeffs']) for r in self.den])
-        # Column-contiguous fill avoids an 8 GB transient strided concatenation.
-        self.logs=np.empty((self.n,len(self.den)+len(self.num)),dtype=float,order='F')
-        for j,r in enumerate(self.den+self.num):
-            self.logs[:,j]=root_logs(r['coeffs'],self.z)
-            if j%100==0:print(json.dumps({'event':'evaluated_columns','done':j+1,'total':len(self.den)+len(self.num)}),flush=True)
+        # Stream complete-grid sums; all columns stay in the same master LP.
         self.deg=np.array([len(r['coeffs'])-1 for r in self.den+self.num],float)
         self.nd=len(self.den); self.nf=len(self.deg)
         if 'mu' in cert:
             self.weights=np.r_[cert['mu'],cert['w']]
         else:
             _,mu,w=certificate_weights(cert); self.weights=np.r_[mu,w]
-        g=self.logs[:,self.nd:]@self.weights[self.nd:]-self.logs[:,:self.nd]@self.weights[:self.nd]
+        g=self.full_integrand(self.weights)
         # Positive atoms have u>0; retain a band around their boundaries as well.
         self.active=np.zeros(self.n,bool)
         self.idx=np.array([],dtype=np.int64)
@@ -51,6 +47,12 @@ class JointLP:
         first=np.union1d(first,np.arange(0,self.n,max(1,self.n//2048)))
         self.add_atoms(first)
 
+    def full_integrand(self,weights):
+        g=np.zeros(self.n)
+        for j,(r,w) in enumerate(zip(self.den+self.num,weights)):
+            if w!=0:g+=(-w if j<self.nd else w)*root_logs(r['coeffs'],self.z)
+        return g
+
     def add_matrix_rows(self,a,lo,hi):
         a=sparse.csr_matrix(a)
         self.model.addRows(len(lo),lo,hi,a.nnz,a.indptr.astype(np.int32),a.indices.astype(np.int32),a.data)
@@ -62,7 +64,8 @@ class JointLP:
         prev=self.model.getNumCol(); m=len(indices)
         self.model.addCols(m,np.full(m,1/self.n),np.zeros(m),np.full(m,highspy.kHighsInf),0,
                            np.zeros(m+1,np.int32),np.array([],np.int32),np.array([],float))
-        rows=self.logs[indices]/self.deg
+        points=self.z[indices]
+        rows=np.column_stack([root_logs(r['coeffs'],points) for r in self.den+self.num])/self.deg
         rows[:,:self.nd]*=-1
         data=sparse.hstack([sparse.csr_matrix(rows),
                             sparse.csr_matrix((m,prev-self.nf)), -sparse.eye(m)],format='csr')
@@ -84,7 +87,7 @@ class JointLP:
                     raise RuntimeError(str(status))
             sol=self.model.getSolution(); x=np.array(sol.col_value[:self.nf])
             weights=x/self.deg
-            g=self.logs[:,self.nd:]@weights[self.nd:]-self.logs[:,:self.nd]@weights[:self.nd]
+            g=self.full_integrand(weights)
             missing=np.flatnonzero((~self.active)&(g>1e-11))
             history.append({'step':step,'active':len(self.idx),'missing':len(missing),
                             'lp':self.model.getObjectiveValue(),'seconds':time.monotonic()-stamp})
@@ -95,8 +98,9 @@ class JointLP:
         nu=np.zeros(self.n);nu[self.idx]=-np.array(sol.row_dual[2:])
         lam=float(sol.row_dual[0]); eta=-float(sol.row_dual[1])
         H=float(self.h@weights[:self.nd]); J=float(np.maximum(g,0).mean())
-        den_rc=self.h-self.logs[:,:self.nd].T@nu-lam*self.deg[:self.nd]
-        num_rc=self.logs[:,self.nd:].T@nu+eta*self.deg[self.nd:]
+        support=nu!=0; points=self.z[support];mass=nu[support]
+        den_rc=self.h-np.array([root_logs(r['coeffs'],points)@mass for r in self.den])-lam*self.deg[:self.nd]
+        num_rc=np.array([root_logs(r['coeffs'],points)@mass for r in self.num])+eta*self.deg[self.nd:]
         audit={'H':H,'J':J,'objective':H+J,'highs_objective':self.model.getObjectiveValue(),
                'lambda':lam,'eta':eta,'dual_objective':lam-eta*(1-1e-9),
                'gap':H+J-(lam-eta*(1-1e-9)),'denominator_reduced_costs':den_rc.tolist(),
@@ -131,7 +135,7 @@ def freeze(state,path):
                     f.write(f'\n{path}: {r["name"]}: {q} encoded as {text} (equal rational).\n')
             num.append({'name':r['name'],'coeffs':r['coeffs'],'q_rational':text})
     assert sum((len(r['coeffs'])-1)*Fraction(r['q_rational']) for r in num)<D
-    cert={'description':'Candidate, unrefereed. Doche construction; Patankar PR280 weighted CVP method, Pinho PR301 residue/pricing method; our own c82r5/c82r6 search and helpers reused in c82r7. Separately written (same agent) interval verification required.',
+    cert={'description':'Candidate, unrefereed. Doche construction; Patankar PR280 weighted CVP method, Pinho PR301 residue/pricing method; our own c82r5/c82r6 search and helpers reused through c82r8 in c82r9. Separately written (same agent) interval verification required.',
           'numeric_unverified':state['lp'],'N':state['N'],'denominator':den,'numerator':num}
     write_json(path,cert)
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()

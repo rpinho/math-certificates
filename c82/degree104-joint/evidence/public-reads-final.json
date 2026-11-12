@@ -1,0 +1,89 @@
+{
+  "epoch": 1794493862.7400079,
+  "sources": [
+    {
+      "file": "prior_sources/current-final-pr280.json.gz",
+      "endpoint": "repos/teorth/optimizationproblems/pulls/280",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "file": "prior_sources/current-final-pr330.json.gz",
+      "endpoint": "repos/teorth/optimizationproblems/pulls/330",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "file": "prior_sources/current-final-official.json.gz",
+      "endpoint": "repos/teorth/optimizationproblems/contents/constants/82a.md?ref=main",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "file": "prior_sources/current-final-open-prs.json.gz",
+      "endpoint": "repos/teorth/optimizationproblems/pulls?state=open&sort=updated&direction=desc&per_page=100",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "file": "prior_sources/current-final-repos.json.gz",
+      "endpoint": "search/repositories?q=Zhang+Zagier&sort=updated&order=desc&per_page=30",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "file": "prior_sources/current-final-repos-2026.json.gz",
+      "endpoint": "search/repositories?q=Zhang+Zagier+2026&sort=updated&order=desc&per_page=30",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "file": "prior_sources/current-final-awesome.json.gz",
+      "endpoint": "search/repositories?q=awesome+optimization+math&sort=updated&order=desc&per_page=30",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "file": "prior_sources/current-final-BakeLab_Epi-results.json.gz",
+      "endpoint": "repos/BakeLab/Epi-results/readme",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "file": "prior_sources/current-final-google-deepmind_alphaevolve_results.json.gz",
+      "endpoint": "repos/google-deepmind/alphaevolve_results/readme",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "file": "prior_sources/current-final-google-deepmind_alphaevolve_repository_of_problems.json.gz",
+      "endpoint": "repos/google-deepmind/alphaevolve_repository_of_problems/readme",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "file": "prior_sources/current-final-openai_math.json.gz",
+      "endpoint": "repos/openai/math/readme",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "file": "prior_sources/current-final-kisonecat_openai-math.json.gz",
+      "endpoint": "repos/kisonecat/openai-math/readme",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "file": "prior_sources/current-final-plasma-ai_erdos.json.gz",
+      "endpoint": "repos/plasma-ai/erdos/readme",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "file": "prior_sources/current-final-togethercomputer_EinsteinArena-new-SOTA.json.gz",
+      "endpoint": "repos/togethercomputer/EinsteinArena-new-SOTA/readme",
+      "exit_code": 0,
+      "stderr": ""
+    }
+  ]
+}

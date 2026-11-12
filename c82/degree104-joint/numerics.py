@@ -20,10 +20,11 @@ def register(kind):
         f.write(json.dumps({'pid':os.getpid(),'kind':kind,'time':time.time(),
                             'nice':os.getpriority(os.PRIO_PROCESS,0)})+'\n')
 
-def write_json(path, data):
+def write_json(path, data, *, compact=False):
     path = Path(path)
     temp = path.with_suffix(path.suffix+'.tmp')
-    temp.write_text(json.dumps(data,indent=2)+'\n')
+    payload=json.dumps(data,separators=(',',':')) if compact else json.dumps(data,indent=2)
+    temp.write_text(payload+'\n')
     temp.replace(path)
 
 @lru_cache(maxsize=4096)

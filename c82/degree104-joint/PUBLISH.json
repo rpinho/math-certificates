@@ -1,7 +1,7 @@
 {
   "target": "teorth/optimizationproblems#330",
   "new_bound": true,
-  "producer_author": "codex math_c82r7_1105",
+  "producer_author": "codex math_c82r9_1112",
   "producer_model": "gpt-6.1-sol",
   "replay_inputs": {
     "review/inputs/CLAIM.md": "proof",
@@ -23,7 +23,11 @@
     "arhancanli/quantavane-replays@2b7475fb6e9186973de44c1f2b0db4cb1d0ae6bf": "sources/publish-trees/arhancanli__quantavane-replays@2b7475fb6e9186973de44c1f2b0db4cb1d0ae6bf.json",
     "rpinho/math-certificates@844437c9c58118d1c62750b70129b6ba37627853": "sources/publish-trees/rpinho__math-certificates@844437c9c58118d1c62750b70129b6ba37627853.json",
     "rpinho/math-certificates@a12c3622120c39af776902dbe49b6eff97a4d189": "sources/publish-trees/rpinho__math-certificates@a12c3622120c39af776902dbe49b6eff97a4d189.json",
-    "arhancanli/quantavane-replays@407182897083b3b3c2b642e2f8ac02ff92522f09": "sources/publish-trees/arhancanli__quantavane-replays@407182897083b3b3c2b642e2f8ac02ff92522f09.json"
+    "arhancanli/quantavane-replays@407182897083b3b3c2b642e2f8ac02ff92522f09": "sources/publish-trees/arhancanli__quantavane-replays@407182897083b3b3c2b642e2f8ac02ff92522f09.json",
+    "vidigoat/optimization-records@197962c9610f583e9bc56efe37bfb994c1eeb834": "sources/publish-trees/vidigoat__optimization-records@197962c9610f583e9bc56efe37bfb994c1eeb834.json",
+    "vidigoat/optimization-records@3a7a84fec9c64ae426f06a5f52597c84b3453ba0": "sources/publish-trees/vidigoat__optimization-records@3a7a84fec9c64ae426f06a5f52597c84b3453ba0.json",
+    "vidigoat/optimization-records@79ce0dfb211a67ff7e387b58b0d19ff1d6accfba": "sources/publish-trees/vidigoat__optimization-records@79ce0dfb211a67ff7e387b58b0d19ff1d6accfba.json",
+    "vidigoat/optimization-records@191064e7ccd88718853fe239dfd3890a8dc0fa37": "sources/publish-trees/vidigoat__optimization-records@191064e7ccd88718853fe239dfd3890a8dc0fa37.json"
   },
   "submitter": "rpinho",
   "destination": "c82/degree104-joint"

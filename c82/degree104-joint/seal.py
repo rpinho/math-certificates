@@ -23,7 +23,7 @@ def digest(path):
 def inventory():
     trees={}
     tree_sources=[]
-    for short in ['197962c','3a7a84f','79ce0df']:
+    for short in ['197962c','3a7a84f','79ce0df','191064e']:
         name=f'prior_sources/vidigoat-tree-{short}.json'
         path=P/name
         tree=json.loads(path.read_text())
@@ -54,7 +54,7 @@ def inventory():
                 grep.append(dict(line=lineno,text=line.strip()))
         records.append(dict(file=str(path.relative_to(P)),git_blob_sha1=blob,foreign_blob_matches=matches,imports=sorted(set(imports)),prohibited_imports=prohibited,grep_import_matches=grep))
     blocked=any(r['foreign_blob_matches'] or r['prohibited_imports'] or r['grep_import_matches'] for r in records)
-    js('PYTHON_BLOBS.json',dict(status='BLOCKED' if blocked else 'PASS',complete_trees=['197962c9610f583e9bc56efe37bfb994c1eeb834','3a7a84fec9c64ae426f06a5f52597c84b3453ba0','79ce0dfb211a67ff7e387b58b0d19ff1d6accfba'],tree_sources=tree_sources,files=records,all_python_blobs_distinct_from_every_blob_in_all_trees=not any(r['foreign_blob_matches'] for r in records),none_imports_core_or_wlp=not any(r['prohibited_imports'] or r['grep_import_matches'] for r in records),note='Metadata-only full-tree comparison against every blob, not only .py blobs. This check does not establish authorship. No source blobs from these trees were downloaded or executed.'))
+    js('PYTHON_BLOBS.json',dict(status='BLOCKED' if blocked else 'PASS',complete_trees=['197962c9610f583e9bc56efe37bfb994c1eeb834','3a7a84fec9c64ae426f06a5f52597c84b3453ba0','79ce0dfb211a67ff7e387b58b0d19ff1d6accfba','191064e7ccd88718853fe239dfd3890a8dc0fa37'],tree_sources=tree_sources,files=records,all_python_blobs_distinct_from_every_blob_in_all_trees=not any(r['foreign_blob_matches'] for r in records),none_imports_core_or_wlp=not any(r['prohibited_imports'] or r['grep_import_matches'] for r in records),note='Metadata-only full-tree comparison against every blob, not only .py blobs. This check does not establish authorship. No source blobs from these trees were downloaded or executed.'))
     if blocked:raise ValueError('BLOCKER: Python blob or import match; see PYTHON_BLOBS.json')
     return len(records)
 
@@ -62,7 +62,7 @@ def main():
     python_files=inventory()
     cert_sha=digest(P/'certificate.json')
     receipt=json.loads((P/'receipts/release-verifier.json').read_text())
-    if receipt['status']!='PASS' or receipt['certificate_sha256']!=cert_sha or receipt['source_sha256']!=digest(P/'verify_best.py') or receipt['target']!='0.2519923410':
+    if receipt['status']!='PASS' or receipt['certificate_sha256']!=cert_sha or receipt['source_sha256']!=digest(P/'verify_best.py') or receipt['target']!='0.2519744488':
         raise ValueError('Release verifier receipt does not match the packet')
     refresh=json.loads((P/'sources/source-refresh.json').read_text())
     files=[]
@@ -71,7 +71,7 @@ def main():
         if path.is_symlink():raise ValueError('Symlink not supported: '+rel)
         if path.is_file() and rel not in ['MANIFEST.json','SHA256SUMS']:
             files.append(dict(path=rel,bytes=path.stat().st_size,sha256=digest(path)))
-    js('MANIFEST.json',dict(format='math-certificates-c82-degree104-joint-release-v1',sealed_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),claim='0.2519923410',qualification='candidate, unrefereed; verification level L0 for the bound as a whole',upstream_main=refresh['main'],certificate_sha256=cert_sha,release_verification='receipts/release-verifier.json',review_status='Clean-room AI referee: HOLDS WITH CAVEATS (review/REFEREE.md, REPLAY.json); candidate, unrefereed',egress_status_at_packaging='PASS (egress-gate scan of the packet after the certificate encoding change)',source_transformations=['certificate.json, verify_best.py and FACTOR_PROVENANCE.json are copied byte-for-byte from c82r7_release. Producer equal-fraction encoding is retained unchanged; restricted lowest-terms exponent numerators are never printed.', 'Finished c82r7 producer documents, own scripts, evidence and data-only prior_sources replace the round-6 payload. Local home paths are relative. Retained third-party data files are copied byte-for-byte, never reserialized. Three raw historical PR-body metadata snapshots containing obsolete unfinished-status text are omitted whole (see README).', 'Only final den-5 round files, its master, finished.json and final restricted-9.json are retained. The duplicate round certificate is omitted.', 'REPRODUCE.md adds packet release commands and retains the finished producer section, including the unmet historical frozen target 0.2519900000.', 'README.md, PROOF.md, METHOD.md, CLAIMS.json and RIGOR.json state the round-7 facts. certificate_facts.py recomputes certificate facts, exact gaps and full coefficient overlap with the preserved #280 v4 data.', 'The previous review/ and root REPLAY.json are not reused; review/ and REPLAY.json are the round-7 referee archive.'],files=files))
+    js('MANIFEST.json',dict(format='math-certificates-c82-degree104-joint-release-v1',sealed_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),claim='0.2519744488',qualification='candidate, unrefereed; verification level L0 for the bound as a whole',upstream_main=refresh['main'],certificate_sha256=cert_sha,release_verification='receipts/release-verifier.json',review_status='Clean-room AI referee: HOLDS WITH CAVEATS (review/REFEREE.md, REPLAY.json); candidate, unrefereed',egress_status_at_packaging='PASS (egress-gate scan of the sealed round-9 packet)',source_transformations=['certificate.json, verify_best.py and FACTOR_PROVENANCE.json are copied byte-for-byte from c82r9. Producer equal-fraction encoding is retained unchanged.', 'Round-9 producer records, scripts, evidence and data-only prior_sources replace the round-7 payload. Authored local paths are relative. Third-party data files are copied byte-for-byte, never reserialized; omitted historical metadata is listed in NOTE.md.', 'Only final archive-num-51-1 round files, its restricted master and finished.json are retained; the duplicate certificate is omitted. Round 9 continued round 8 warm; the superseded round-8 standalone certificate is omitted.', 'REPRODUCE.md adds packet commands and retains the producer section with scoped archival-path notes.', 'README.md, PROOF.md, METHOD.md, CLAIMS.json and RIGOR.json state round-9 facts. certificate_facts.py recomputes exact gaps and full coefficient overlaps with #280 v3/v4/v5.', 'review/ and root REPLAY.json contain the round-9 referee archive, with original receipt and path-adapted input hash. Earlier Arhan Canli credits apply only to earlier versions.'],files=files))
     lines=[]
     for path in sorted(P.rglob('*')):
         rel=str(path.relative_to(P))

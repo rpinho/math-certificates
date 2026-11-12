@@ -1,89 +1,427 @@
 {
   "history": [
     {
-      "round": 1,
-      "old_lp": 0.2519933831279051,
-      "new_lp": 0.25199337827284685,
-      "negative_candidates": 1,
-      "gain": 4.855058244324084e-09,
+      "round": 22,
+      "old_lp": 0.25197582156501663,
+      "new_lp": 0.25197581143918496,
+      "gain": 1.0125831673146735e-08,
+      "certified_gain": "1164984211320734737822805931259126172632385987925406019125361389845747/115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "negative_candidates": {
+        "num": 4,
+        "den": 0
+      },
       "empty_rounds": 0,
-      "state": "rounds/den-1.json",
-      "dual": "rounds/den-1-dual.npz"
+      "state": "rounds/restricted-archive-num-22-1.json",
+      "dual": "rounds/archive-num-22-1-dual.npz"
     },
     {
-      "round": 2,
-      "old_lp": 0.25199337827284685,
-      "new_lp": 0.25199337827284685,
-      "negative_candidates": 0,
+      "round": 23,
+      "old_lp": 0.25197581143918496,
+      "new_lp": 0.25197570069133535,
+      "gain": 1.1074784961317974e-07,
+      "certified_gain": "12829508937747782055522031601955452378340708261929537844172703704238847/115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "negative_candidates": {
+        "num": 22,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-23-1.json",
+      "dual": "rounds/archive-num-23-1-dual.npz"
+    },
+    {
+      "round": 24,
+      "old_lp": 0.25197570069133535,
+      "new_lp": 0.25197567461195775,
+      "gain": 2.6079377601906373e-08,
+      "certified_gain": "3014302182613366749195661859954173923133843898624189351063620418470759/115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "negative_candidates": {
+        "num": 7,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-24-1.json",
+      "dual": "rounds/archive-num-24-1-dual.npz"
+    },
+    {
+      "round": 25,
+      "old_lp": 0.25197567461195775,
+      "new_lp": 0.2519756556039317,
+      "gain": 1.9008026042044435e-08,
+      "certified_gain": "2206089439535282563649229215574798523935749778077551966459829129160043/115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "negative_candidates": {
+        "num": 11,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-25-0.json",
+      "dual": "rounds/archive-num-25-0-dual.npz"
+    },
+    {
+      "round": 26,
+      "old_lp": 0.2519756556039317,
+      "new_lp": 0.2519756478067755,
+      "gain": 7.797156198474653e-09,
+      "certified_gain": "1803265136722018620489578778459057159179531351995365967537677819452135/231584178474632390847141970017375815706539969331281128078915168015826259279872",
+      "negative_candidates": {
+        "num": 3,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-26-0.json",
+      "dual": "rounds/archive-num-26-0-dual.npz"
+    },
+    {
+      "round": 27,
+      "old_lp": 0.2519756478067755,
+      "new_lp": 0.2519756189774596,
+      "gain": 2.882931587899762e-08,
+      "certified_gain": "6680856515277883349326762433723971386232995143738582310997949018627071/231584178474632390847141970017375815706539969331281128078915168015826259279872",
+      "negative_candidates": {
+        "num": 13,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-27-0.json",
+      "dual": "rounds/archive-num-27-0-dual.npz"
+    },
+    {
+      "round": 28,
+      "old_lp": 0.2519756189774596,
+      "new_lp": 0.2519756068447218,
+      "gain": 1.2132737814418704e-08,
+      "certified_gain": "2816320903448242953649903584575089821480488825271045636991276719245717/231584178474632390847141970017375815706539969331281128078915168015826259279872",
+      "negative_candidates": {
+        "num": 9,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-28-0.json",
+      "dual": "rounds/archive-num-28-0-dual.npz"
+    },
+    {
+      "round": 29,
+      "old_lp": 0.2519756068447218,
+      "new_lp": 0.25197559153889837,
+      "gain": 1.5305823442002264e-08,
+      "certified_gain": "3535269617095576824360129711709749402656392641438494984901669666342421/231584178474632390847141970017375815706539969331281128078915168015826259279872",
+      "negative_candidates": {
+        "num": 7,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-29-0.json",
+      "dual": "rounds/archive-num-29-0-dual.npz"
+    },
+    {
+      "round": 30,
+      "old_lp": 0.25197559153889837,
+      "new_lp": 0.25197555154923856,
+      "gain": 3.998965980578362e-08,
+      "certified_gain": "2315315437546960633622930533339669924623366382152374293609973620814731/57896044618658097711785492504343953926634992332820282019728792003956564819968",
+      "negative_candidates": {
+        "num": 10,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-30-1.json",
+      "dual": "rounds/archive-num-30-1-dual.npz"
+    },
+    {
+      "round": 31,
+      "old_lp": 0.25197555154923856,
+      "new_lp": 0.2519755444221206,
+      "gain": 7.127117951366557e-09,
+      "certified_gain": "411747933519291981821807169957943513303900148865390378542698746475779/57896044618658097711785492504343953926634992332820282019728792003956564819968",
+      "negative_candidates": {
+        "num": 8,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-31-2.json",
+      "dual": "rounds/archive-num-31-2-dual.npz"
+    },
+    {
+      "round": 32,
+      "old_lp": 0.2519755444221206,
+      "new_lp": 0.2519754854829777,
+      "gain": 5.893914289956115e-08,
+      "certified_gain": "13647841525534178458124736893083625972644930852887240928330872510545965/231584178474632390847141970017375815706539969331281128078915168015826259279872",
+      "negative_candidates": {
+        "num": 15,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-32-1.json",
+      "dual": "rounds/archive-num-32-1-dual.npz"
+    },
+    {
+      "round": 33,
+      "old_lp": 0.2519754854829777,
+      "new_lp": 0.2519754847094788,
+      "gain": 7.734989315721919e-10,
+      "certified_gain": "88532078569368843140325072393342881435964794193609218468900270719463/115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "negative_candidates": {
+        "num": 1,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-num-33.json",
+      "dual": "rounds/num-33-dual.npz"
+    },
+    {
+      "round": 34,
+      "old_lp": 0.2519754847094788,
+      "new_lp": 0.2519754847094788,
       "gain": 0.0,
+      "certified_gain": "0",
+      "negative_candidates": {
+        "num": 0,
+        "den": 0
+      },
       "empty_rounds": 1,
-      "state": "rounds/restricted-2.json",
-      "dual": "rounds/den-1-dual.npz"
+      "state": "rounds/restricted-num-33.json",
+      "dual": "rounds/num-33-dual.npz"
     },
     {
-      "round": 3,
-      "old_lp": 0.25199337827284685,
-      "new_lp": 0.25199328040154245,
-      "negative_candidates": 1,
-      "gain": 9.787130439420366e-08,
+      "round": 35,
+      "old_lp": 0.2519754847094788,
+      "new_lp": 0.2519754805318069,
+      "gain": 4.1776718751052044e-09,
+      "certified_gain": "974576331985650344669172850711816015152575786995701831843231149268735/231584178474632390847141970017375815706539969331281128078915168015826259279872",
+      "negative_candidates": {
+        "num": 3,
+        "den": 0
+      },
       "empty_rounds": 0,
-      "state": "rounds/num-3-0.json",
-      "dual": "rounds/num-3-0-dual.npz"
+      "state": "rounds/restricted-archive-num-35-0.json",
+      "dual": "rounds/archive-num-35-0-dual.npz"
     },
     {
-      "round": 4,
-      "old_lp": 0.25199328040154245,
-      "new_lp": 0.2519924501984266,
-      "negative_candidates": 1,
-      "gain": 8.302031158646805e-07,
+      "round": 36,
+      "old_lp": 0.2519754805318069,
+      "new_lp": 0.25197547718400504,
+      "gain": 3.3478018690580313e-09,
+      "certified_gain": "765137725861885409742126011842499144913078980801323439669409579813163/231584178474632390847141970017375815706539969331281128078915168015826259279872",
+      "negative_candidates": {
+        "num": 3,
+        "den": 0
+      },
       "empty_rounds": 0,
-      "state": "rounds/num-4-1.json",
-      "dual": "rounds/num-4-1-dual.npz"
+      "state": "rounds/restricted-archive-num-36-1.json",
+      "dual": "rounds/archive-num-36-1-dual.npz"
     },
     {
-      "round": 5,
-      "old_lp": 0.2519924501984266,
-      "new_lp": 0.25199234090902256,
-      "negative_candidates": 1,
-      "gain": 1.0928940402665788e-07,
+      "round": 37,
+      "old_lp": 0.25197547718400504,
+      "new_lp": 0.25197539406116887,
+      "gain": 8.312283616973559e-08,
+      "certified_gain": "19262132120400089497985166353451997961583435530470442131807817475049901/231584178474632390847141970017375815706539969331281128078915168015826259279872",
+      "negative_candidates": {
+        "num": 2,
+        "den": 0
+      },
       "empty_rounds": 0,
-      "state": "rounds/den-5.json",
-      "dual": "rounds/den-5-dual.npz"
+      "state": "rounds/restricted-archive-num-37-1.json",
+      "dual": "rounds/archive-num-37-1-dual.npz"
     },
     {
-      "round": 6,
-      "old_lp": 0.25199234090902256,
-      "new_lp": 0.25199234090902256,
-      "negative_candidates": 0,
-      "gain": 0.0,
-      "empty_rounds": 1,
-      "state": "rounds/restricted-6.json",
-      "dual": "rounds/den-5-dual.npz"
+      "round": 38,
+      "old_lp": 0.25197539406116887,
+      "new_lp": 0.2519753776494466,
+      "gain": 1.6411722258968808e-08,
+      "certified_gain": "3810104302751265882821235744025859196114567557797668774724976181017599/231584178474632390847141970017375815706539969331281128078915168015826259279872",
+      "negative_candidates": {
+        "num": 13,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-38-2.json",
+      "dual": "rounds/archive-num-38-2-dual.npz"
     },
     {
-      "round": 7,
-      "old_lp": 0.25199234090902256,
-      "new_lp": 0.25199234090902256,
-      "negative_candidates": 0,
-      "gain": 0.0,
-      "empty_rounds": 2,
-      "state": "rounds/restricted-7.json",
-      "dual": "rounds/den-5-dual.npz"
+      "round": 39,
+      "old_lp": 0.2519753776494466,
+      "new_lp": 0.25197527635329914,
+      "gain": 1.0129614747000915e-07,
+      "certified_gain": "23447102643796512100451400302297601451599517816504497709171460446868223/231584178474632390847141970017375815706539969331281128078915168015826259279872",
+      "negative_candidates": {
+        "num": 14,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-39-2.json",
+      "dual": "rounds/archive-num-39-2-dual.npz"
     },
     {
-      "round": 8,
-      "old_lp": 0.25199234090902256,
-      "new_lp": 0.25199234090902256,
-      "negative_candidates": 0,
-      "gain": 0.0,
-      "empty_rounds": 3,
-      "state": "rounds/restricted-8.json",
-      "dual": "rounds/den-5-dual.npz"
+      "round": 40,
+      "old_lp": 0.25197527635329914,
+      "new_lp": 0.2519747805338462,
+      "gain": 4.958194529391946e-07,
+      "certified_gain": "114827706149209409913751315286964116685120687545761884958799343151785105/231584178474632390847141970017375815706539969331281128078915168015826259279872",
+      "negative_candidates": {
+        "num": 25,
+        "den": 1
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-den-40-3.json",
+      "dual": "rounds/archive-den-40-3-dual.npz"
+    },
+    {
+      "round": 41,
+      "old_lp": 0.2519747805338462,
+      "new_lp": 0.25197469152880103,
+      "gain": 8.900504516740071e-08,
+      "certified_gain": "20602472811200269395762693527689989656300480403628114230138426958557785/231584178474632390847141970017375815706539969331281128078915168015826259279872",
+      "negative_candidates": {
+        "num": 221,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-41-2.json",
+      "dual": "rounds/archive-num-41-2-dual.npz"
+    },
+    {
+      "round": 42,
+      "old_lp": 0.25197469152880103,
+      "new_lp": 0.25197459034703096,
+      "gain": 1.0118177007356621e-07,
+      "certified_gain": "23441204713068642302693408493267263680596537841411900952989930006233463/231584178474632390847141970017375815706539969331281128078915168015826259279872",
+      "negative_candidates": {
+        "num": 399,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-42-1.json",
+      "dual": "rounds/archive-num-42-1-dual.npz"
+    },
+    {
+      "round": 43,
+      "old_lp": 0.25197459034703096,
+      "new_lp": 0.2519745423580893,
+      "gain": 4.798894165380929e-08,
+      "certified_gain": "5551829305256563326240899312104601739032351529414571252096976752707033/115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "negative_candidates": {
+        "num": 39,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-43-2.json",
+      "dual": "rounds/archive-num-43-2-dual.npz"
+    },
+    {
+      "round": 44,
+      "old_lp": 0.2519745423580893,
+      "new_lp": 0.25197452830338707,
+      "gain": 1.4054702235366534e-08,
+      "certified_gain": "1619661966398647491282771695287946704975817302752375610265274140088125/115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "negative_candidates": {
+        "num": 21,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-44-1.json",
+      "dual": "rounds/archive-num-44-1-dual.npz"
+    },
+    {
+      "round": 45,
+      "old_lp": 0.25197452830338707,
+      "new_lp": 0.25197450742539096,
+      "gain": 2.087799610972496e-08,
+      "certified_gain": "4854435220111988841814114118427301481611656907298723469506302614721251/231584178474632390847141970017375815706539969331281128078915168015826259279872",
+      "negative_candidates": {
+        "num": 15,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-45-1.json",
+      "dual": "rounds/archive-num-45-1-dual.npz"
+    },
+    {
+      "round": 46,
+      "old_lp": 0.25197450742539096,
+      "new_lp": 0.25197449514856657,
+      "gain": 1.2276824390422547e-08,
+      "certified_gain": "1424382733036411948211741836263237072719402677069734189030441789012145/115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "negative_candidates": {
+        "num": 7,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-46-1.json",
+      "dual": "rounds/archive-num-46-1-dual.npz"
+    },
+    {
+      "round": 47,
+      "old_lp": 0.25197449514856657,
+      "new_lp": 0.25197448248324855,
+      "gain": 1.266531801658033e-08,
+      "certified_gain": "1460420287380783935869223370118028127156882114184762108620027119529169/115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "negative_candidates": {
+        "num": 11,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-47-1.json",
+      "dual": "rounds/archive-num-47-1-dual.npz"
+    },
+    {
+      "round": 48,
+      "old_lp": 0.25197448248324855,
+      "new_lp": 0.2519744740695891,
+      "gain": 8.413659435824172e-09,
+      "certified_gain": "979884182368491537228387475960145645411659268244316916861469634099109/115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "negative_candidates": {
+        "num": 5,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-48-3.json",
+      "dual": "rounds/archive-num-48-3-dual.npz"
+    },
+    {
+      "round": 49,
+      "old_lp": 0.2519744740695891,
+      "new_lp": 0.2519744660556423,
+      "gain": 8.0139468394691e-09,
+      "certified_gain": "938210173139094368489776154545723574853182854329006367752625390570587/115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "negative_candidates": {
+        "num": 10,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-49-1.json",
+      "dual": "rounds/archive-num-49-1-dual.npz"
+    },
+    {
+      "round": 50,
+      "old_lp": 0.2519744660556423,
+      "new_lp": 0.251974454185727,
+      "gain": 1.1869915272910703e-08,
+      "certified_gain": "2737457346909939618236501943523743304162716147734530692314956552336175/231584178474632390847141970017375815706539969331281128078915168015826259279872",
+      "negative_candidates": {
+        "num": 10,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-50-0.json",
+      "dual": "rounds/archive-num-50-0-dual.npz"
+    },
+    {
+      "round": 51,
+      "old_lp": 0.251974454185727,
+      "new_lp": 0.25197444859878654,
+      "gain": 5.586940465818202e-09,
+      "certified_gain": "635710494146740344290018102519235965091760815292142563394715244092835/115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "negative_candidates": {
+        "num": 7,
+        "den": 0
+      },
+      "empty_rounds": 0,
+      "state": "rounds/restricted-archive-num-51-1.json",
+      "dual": "rounds/archive-num-51-1-dual.npz"
     }
   ],
-  "state": "rounds/restricted-9.json",
-  "dual": "rounds/den-5-dual.npz",
-  "elapsed": 2380.2321082919952,
-  "stop": "three no-gain rounds",
-  "resumed_from_round_one_search_checkpoints": true
+  "state": "rounds/restricted-archive-num-51-1.json",
+  "dual": "rounds/archive-num-51-1-dual.npz",
+  "stop": "wall time budget: no new round started after 9.5 hours; the last complete round finished before 10 hours"
 }

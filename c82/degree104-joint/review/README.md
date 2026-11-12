@@ -1,13 +1,15 @@
-# Clean-room referee archive
+# Clean-room round-9 referee archive
 
-A separate AI referee was given only review/inputs/: CLAIM.md, the released PROOF.md of the earlier degree-104 certificate (../degree104-cvp) and this packet's certificate.json, which is byte-identical to the root certificate.json. CLAIM.md told it that the proof's certificate-specific statements refer to the earlier certificate. It was asked to attack the reduction, check every exact hypothesis for this certificate and write its own interval checker. It did not read or run producer code. The release PROOF.md at the packet root replaces those certificate-specific statements with this certificate's values; its mathematical argument is unchanged.
+The referee received only review/inputs/CLAIM.md, review/inputs/PROOF.md and review/inputs/certificates/certificate.json. The input certificate is byte-identical to the packet root certificate. It attacked the reduction and exact hypotheses and wrote its own interval checker without reading or running producer code. INPUTS_SHA256SUMS verifies from review/inputs/.
 
-Verdict: HOLDS WITH CAVEATS. The referee's interval, at 384 bits, is B in [0.251992340972008391240902200131, 0.251992340972008391240904220544], inside the producer's interval. The caveat is provenance: the session did not expose an exact serving-model identifier, so it cannot authenticate the model difference from the producer. According to the launcher record it ran on GPT-6 Astra; the receipt does not establish that. This is an AI review, not a human referee report or a formal proof, and it does not remove the candidate/unrefereed asterisk.
+Verdict: HOLDS WITH CAVEATS. B is enclosed in [0.25197444874089584903007645293157, 0.25197444874089584903007646836791], inside the producer enclosure. The caveats are that the exact serving-model ID is unavailable, so model separation cannot be authenticated, and that a resource-estimate line in its job specification said 37 numerators/4,132 roots although the hashed certificate has 48 numerators/5,370 roots. The stale line is documentation only. AI review does not remove the candidate/unrefereed asterisk.
 
-The original receipt is replay/REPLAY.original.json (also preserved as replay/REPLAY.json). The packet-root REPLAY.json changes only path keys, their canonical inputs_hash and the checker/report paths, and adds a note.
+replay/REPLAY.original.json and replay/REPLAY.json preserve the original receipt. Root REPLAY.json changes input path keys, canonical inputs_hash and checker/report paths, and adds a note. Hashes of input bytes, checker and replay report are unchanged. The preserved logs include development attempts and both completed replays; only the final checker is used for reproduction.
 
-To rerun from the packet root with python-flint installed:
+From the packet root, with an installed Python and python-flint:
 
 ```sh
-OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 nice -n 10 python3 review/replay/check.py review/inputs/certificates/certificate.json --controls --output referee-reproduced.json
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 nice -n 10 python3 review/replay/check.py review/inputs/certificates/certificate.json --prec 256 --tol 1e-22 --order 16 --target 0.2519744488 --output ../final-referee.json
 ```
+
+Earlier Arhan Canli replays concern earlier versions, as credited in the root README.md. He has not replayed this certificate.

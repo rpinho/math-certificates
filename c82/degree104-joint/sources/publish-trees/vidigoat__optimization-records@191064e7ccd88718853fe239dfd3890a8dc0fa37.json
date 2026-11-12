@@ -1,0 +1,1691 @@
+{
+  "commit": "191064e7ccd88718853fe239dfd3890a8dc0fa37",
+  "truncated": false,
+  "tree": [
+    {
+      "path": ".gitignore",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "CITATION.cff",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "check.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "codetables",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "codetables/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "codetables/check_all.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "codetables/gf5_27_10.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "codetables/gf5_64_10.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "codetables/gf5_67_12.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "codetables/gf5_68_12.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "codetables/gf5_69_12.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "codetables/gf5_81_10.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "codetables/gf5_82_10.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "codetables/mindist.c",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "codetables/verify.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "packomania",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "packomania/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "packomania/SUMMARY.tsv",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "packomania/optimiser.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "packomania/tools",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "packomania/tools/harvest.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "packomania/tools/package.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "packomania/tools/sweep.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "packomania/tools/table.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "packomania/verify.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "packomania/verify_all.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "requirements.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "search",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "search/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "search/budget.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "search/chain.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "search/llm.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "search/sandbox.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "submissions",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "submissions/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "submissions/codetables",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "submissions/codetables/EMAIL.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "submissions/packomania",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "submissions/packomania/EMAIL.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "submissions/tao-pr",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "submissions/tao-pr/PR_DESCRIPTION.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "submissions/tao-pr/files",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "submissions/tao-pr/files/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "submissions/tao-pr/files/constants",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "submissions/tao-pr/files/constants/16a.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "submissions/tao-pr/files/constants/20a.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "submissions/tao-pr/files/constants/20c.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "submissions/tao-pr/files/constants/23b.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "submissions/tao-pr/files/constants/70a.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "submissions/tao-pr/tao-pr.patch",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/PROOFS.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/bgw.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/bgw_exact",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/bgw_exact/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/bgw_exact/combine.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/bgw_exact/exact.c",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/bgw_exact/run.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "tao/certificates/bgw_exact/sums_K40000.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c16_pinned",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c16_pinned/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c16_pinned/build.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c16_pinned/certificate.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c16_pinned/gsum.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c16_pinned/lower.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c16_pinned/lower_output.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c16_pinned/verify.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c16_pinned/verify_output.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c16_pinned_v2",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c16_pinned_v2/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c16_pinned_v2/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c16_pinned_v2/build2.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c16_pinned_v2/certificate.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c16_pinned_v2/gsum.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c16_pinned_v2/lower.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c16_pinned_v2/lower2.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c16_pinned_v2/lower2_output.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c16_pinned_v2/verify2.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c16_pinned_v2/verify2_output.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1a",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c1a/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1a/c1a_n131072.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1a/c1a_n262144.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1a/exact_ab.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1a/refine_ab.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1c",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c1c/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1c/c1c_K98304.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1c/exact.c",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1c/exact2.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1c/refine.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1c_v2",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c1c_v2/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1c_v2/c1c_K98304_v2.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1c_v2/exact.c",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1c_v2/exact2.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1c_v2/exact2_output.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1c_v2/exact_c_output.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1c_v2/push.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1c_v2/refine.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1c_v3",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c1c_v3/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1c_v3/c1c_K98304_v3.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1c_v3/exact.c",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1c_v3/exact2.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1c_v3/exact2_output.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1c_v3/exact_c_output.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1c_v3/push.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c1c_v3/refine.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c45/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/checkerA",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c45/checkerA/basedp3.cpp",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/checkerA/brute.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/checkerA/exact_eval_a.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/checkerB",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c45/checkerB/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/checkerB/evalB.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/checkerB/histB.cpp",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/data",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c45/data/base_20.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/data/base_final.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/data/base_griego13.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/data/base_yoo14.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/logs",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c45/logs/checkerA_eval_all.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/logs/checkerA_final_full.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/logs/checkerA_hist_base20.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/logs/checkerA_hist_final.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/logs/checkerB_eval_all.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/logs/checkerB_hist_base20.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/logs/checkerB_hist_final.log",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/run_checkerA.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "tao/certificates/c45/run_checkerB.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "tao/certificates/c45/specs",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c45/specs/A_base20.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/specs/A_final.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/specs/A_griego.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/specs/A_yoo.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/specs/B_base20.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/specs/B_final.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/specs/B_griego.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/specs/B_yoo.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/specs/order_final.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/specs/primes_final_base.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v2",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c45/v2/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v2/c45eval.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v2/c45x.cpp",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v2/data",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c45/v2/data/x54.txt.S.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v2/data/xA3.txt.S.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v2/data/xA3.txt.xz",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v2/logs",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c45/v2/logs/x21.err",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v2/logs/x54.err",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v2/logs/xA3.err",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v2/mkspec.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v2/specs",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c45/v2/specs/spec21.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v2/specs/spec54.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v2/specs/specA3.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v3",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c45/v3/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v3/c45eval.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v3/c45x.cpp",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v3/data",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c45/v3/data/xA5.txt.S.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v3/data/xA5.txt.xz",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v3/logs",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c45/v3/logs/xA5.err",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v3/logs/xA5.eval.local",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v3/logs/xA5.eval.remote",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v3/mkspec.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v3/specs",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c45/v3/specs/spec54.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c45/v3/specs/specA5.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c68",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c68/PROOF.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c68/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c68/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c68/certificate-c0446.check-arb.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c68/certificate-c0446.check-mpmath.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c68/certificate-c0446.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c68/certificate-c044605.check-arb.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c68/certificate-c044605.check-mpmath.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c68/certificate-c044605.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c68/check2_c68.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c68/check_c68.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c68/exploratory",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c68/exploratory/build_cert.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c68/exploratory/refine_cert.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c68/exploratory/sanity_enclosing.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c68/exploratory/sanity_green.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c68/exploratory/sanity_outer.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c68/mutation_tests.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c68/pinho-certificate-jung-0432.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c68/replay-pinho-0432.check-arb.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c68/replay-pinho-0432.check-mpmath.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c68/reproduce.sh",
+      "type": "blob",
+      "mode": "100755"
+    },
+    {
+      "path": "tao/certificates/c82",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c82/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/certificate.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/crosscheck_pinho_independent_check_tol1e-8.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/crosscheck_pinho_verify_py_tol1e-9.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/search",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c82/search/cg.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/search/core.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/search/dcg.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/search/finalize.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/search/gen2.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/search/irls.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/search/state_lp_2e17.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/search/wlp.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c82/v2/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/certificate.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/checkers",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c82/v2/checkers/pinho_audit_algebra_pins_updated.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/checkers/pinho_verify_exact.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/checkers/vcheck.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/receipts",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c82/v2/receipts/pinho_audit_algebra.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/receipts/pinho_audit_roots.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/receipts/pinho_check_verifier_controls.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/receipts/pinho_integrate_gauss_prec256_tol1e-14.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/receipts/pinho_verify_exact_prec256_tol1e-11.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/receipts/vcheck_negative_controls.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/receipts/vcheck_on_pinho_v2_reproduction.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/receipts/vcheck_tol1e-11_prec192.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/search",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c82/v2/search/alt.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/search/cg.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/search/core.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/search/dsearch.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/search/final_state_lp.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/search/finalize2.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/search/gen2.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/search/irls.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/search/prune.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/search/sunion.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/search/union.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v2/search/wlp.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v3",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c82/v3/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v3/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v3/certificate.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v3/checkers",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c82/v3/checkers/vcheck.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v3/receipts",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c82/v3/receipts/vcheck_tol1e-11_prec192.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v4",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c82/v4/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v4/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v4/certificate.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v4/checkers",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c82/v4/checkers/vcheck.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v4/receipts",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c82/v4/receipts/vcheck_tol1e-11_prec192.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v5",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c82/v5/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v5/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v5/certificate.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v5/checkers",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c82/v5/checkers/vcheck.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/v5/receipts",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c82/v5/receipts/vcheck_tol1e-11_prec192.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/vcheck.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/vcheck_certificate_tol1e-10.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/vcheck_certificate_tol1e-11_prec192.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c82/vcheck_pinho_certificate_tol1e-11.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c86/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86/c86_deg8_1.808109995748.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86/c86_deg8_h400_1.807768536863.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86/deg1to7.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86/deg8.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86/enum.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86/lp.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v2",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c86_v2/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v2/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v2/certificate.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v2/checkers",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c86_v2/checkers/check86.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v2/checkers/fcheck86.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v2/checkers/pl.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v2/receipts",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c86_v2/receipts/check86.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v2/receipts/search_log.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v2/search",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c86_v2/search/auxsearch.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v2/search/denselp.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v2/search/export86.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v2/search/extra_polys.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v2/search/pl.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v2/search/run_dense.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v3",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c86_v3/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v3/SHA256SUMS",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v3/certificate.json",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v3/checkers",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c86_v3/checkers/check86.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v3/checkers/fcheck86.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v3/checkers/pl.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v3/receipts",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c86_v3/receipts/check86.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v3/receipts/search_log_part1.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v3/receipts/search_log_part2.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v3/search",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c86_v3/search/auxsearch.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v3/search/denselp.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v3/search/export86.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v3/search/pl.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c86_v3/search/run_dense.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c89",
+      "type": "tree",
+      "mode": "040000"
+    },
+    {
+      "path": "tao/certificates/c89/README.md",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c89/c89_stepgraphon_D30.json.gz",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c89/c89_stepgraphon_D30_round2.json.gz",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c89/cand_part0.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c89/cand_part1.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c89/cand_part2.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c89/cand_part3.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c89/exact89.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c89/refine_lbfgs.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c89/round2_part0.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c89/round2_part1.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c89/round2_part2.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/c89/round2_part3.txt",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/elementary.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/rbm.py",
+      "type": "blob",
+      "mode": "100644"
+    },
+    {
+      "path": "tao/certificates/rbm_cube.py",
+      "type": "blob",
+      "mode": "100644"
+    }
+  ]
+}

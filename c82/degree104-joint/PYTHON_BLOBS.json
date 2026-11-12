@@ -3,7 +3,8 @@
   "complete_trees": [
     "197962c9610f583e9bc56efe37bfb994c1eeb834",
     "3a7a84fec9c64ae426f06a5f52597c84b3453ba0",
-    "79ce0dfb211a67ff7e387b58b0d19ff1d6accfba"
+    "79ce0dfb211a67ff7e387b58b0d19ff1d6accfba",
+    "191064e7ccd88718853fe239dfd3890a8dc0fa37"
   ],
   "tree_sources": [
     {
@@ -26,12 +27,19 @@
       "root_tree_sha": "79ce0dfb211a67ff7e387b58b0d19ff1d6accfba",
       "truncated": false,
       "blob_count": 224
+    },
+    {
+      "file": "prior_sources/vidigoat-tree-191064e.json",
+      "sha256": "a71f833b71ae71afc84c528cbf71edc7687fe474be5e9233e1171080e8ea03d0",
+      "root_tree_sha": "191064e7ccd88718853fe239dfd3890a8dc0fa37",
+      "truncated": false,
+      "blob_count": 244
     }
   ],
   "files": [
     {
       "file": "add_columns.py",
-      "git_blob_sha1": "22df19de98187dd8f877e1cf8a78a1bea81a34ac",
+      "git_blob_sha1": "954a0a349cb80eca0f5949445de10f264d0a5da2",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
@@ -48,15 +56,13 @@
     },
     {
       "file": "bootstrap.py",
-      "git_blob_sha1": "6ab6627d93d028f39af0ae09cb0561a7d6d4e2b7",
+      "git_blob_sha1": "f4435a4e2ffbf2893a76cf57e49eefd6c6c4038a",
       "foreign_blob_matches": [],
       "imports": [
-        "checkpoint",
         "json",
-        "numerics",
+        "os",
         "pathlib",
-        "resource",
-        "run_cg",
+        "shutil",
         "time"
       ],
       "prohibited_imports": [],
@@ -64,7 +70,7 @@
     },
     {
       "file": "certificate_facts.py",
-      "git_blob_sha1": "e8e570d382bb92f5b93d57a86427a6252f9f30fa",
+      "git_blob_sha1": "c9a8d77ac956f0f5a418640c8c44f512cfb9df29",
       "foreign_blob_matches": [],
       "imports": [
         "decimal",
@@ -79,7 +85,7 @@
     },
     {
       "file": "checkpoint.py",
-      "git_blob_sha1": "0d9b8aade195b7ac74d2ce26cd7972591b442634",
+      "git_blob_sha1": "cc67c6e706938276698fb1e305eca663d409ed45",
       "foreign_blob_matches": [],
       "imports": [
         "decimal",
@@ -88,14 +94,45 @@
         "json",
         "numerics",
         "pathlib",
-        "shutil"
+        "shutil",
+        "sys",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "cleanup.py",
+      "git_blob_sha1": "7296c99f33b2ad901ad191ca43fae8289702d5b9",
+      "foreign_blob_matches": [],
+      "imports": [
+        "json",
+        "os",
+        "pathlib",
+        "subprocess",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "compact_history.py",
+      "git_blob_sha1": "40f8c1be76843d9b3bf94c219912bd180f3d4d49",
+      "foreign_blob_matches": [],
+      "imports": [
+        "gzip",
+        "json",
+        "numerics",
+        "pathlib",
+        "re",
+        "subprocess"
       ],
       "prohibited_imports": [],
       "grep_import_matches": []
     },
     {
       "file": "cvp_search.py",
-      "git_blob_sha1": "b045f425a20c27825d7e88df3e563906401dcdf3",
+      "git_blob_sha1": "bfd81a9458ca44bcb039da392675205dadcadcc9",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
@@ -117,7 +154,7 @@
     },
     {
       "file": "evidence/control-shared_factor-verifier.py",
-      "git_blob_sha1": "fb5f07a9595ddf6baa5a3daaefc5ea305a787fa9",
+      "git_blob_sha1": "c17e2a1c1cbf1306d66b600779dd2877b9a465a5",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
@@ -135,7 +172,7 @@
     },
     {
       "file": "evidence/control-zero_multiplicity-verifier.py",
-      "git_blob_sha1": "7b89d4b72b0454fd902e803d9ef7b0c4ceeafde2",
+      "git_blob_sha1": "a27992f9f77a9189aa26895b6216f28c7db6e757",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
@@ -152,47 +189,36 @@
       "grep_import_matches": []
     },
     {
-      "file": "evidence/failed-bootstrap.py",
-      "git_blob_sha1": "6ab6627d93d028f39af0ae09cb0561a7d6d4e2b7",
+      "file": "evidence/numerator_search_serial.py",
+      "git_blob_sha1": "eea1b90b1e77f716afc6a292cca4070a6e1d3927",
       "foreign_blob_matches": [],
       "imports": [
-        "checkpoint",
+        "argparse",
+        "flint",
+        "hashlib",
+        "joint_lp",
         "json",
         "numerics",
+        "numpy",
         "pathlib",
-        "resource",
-        "run_cg",
         "time"
       ],
       "prohibited_imports": [],
       "grep_import_matches": []
     },
     {
-      "file": "evidence/failed-prepare_union.py",
-      "git_blob_sha1": "6ba9fb13cabf2caaa9d8bfd7c3605e4894365798",
-      "foreign_blob_matches": [],
-      "imports": [
-        "json",
-        "numerics",
-        "pathlib"
-      ],
-      "prohibited_imports": [],
-      "grep_import_matches": []
-    },
-    {
-      "file": "evidence/pre-memory-joint_lp.py",
-      "git_blob_sha1": "bda9033e6557138a5be49c1cbe0ef380fc06ea54",
+      "file": "evidence/round8-verifier.py",
+      "git_blob_sha1": "44b903322bd7d4b2e4af908573bcfef4dc5bef3f",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
+        "collections",
+        "flint",
         "fractions",
         "hashlib",
-        "highspy",
         "json",
-        "numerics",
-        "numpy",
+        "os",
         "pathlib",
-        "scipy",
         "time"
       ],
       "prohibited_imports": [],
@@ -217,28 +243,19 @@
       "grep_import_matches": []
     },
     {
-      "file": "finalize_provenance.py",
-      "git_blob_sha1": "7fce4b4148d43cf06975e3bcf5cee89bf0bdbf58",
-      "foreign_blob_matches": [],
-      "imports": [
-        "json",
-        "numerics",
-        "pathlib"
-      ],
-      "prohibited_imports": [],
-      "grep_import_matches": []
-    },
-    {
       "file": "finish_report.py",
-      "git_blob_sha1": "6fc3184c7dc405d9d4e8bd5106cec232740fa17b",
+      "git_blob_sha1": "f6ca93f4d00bff948c85d58ed0a912830a9e0f02",
       "foreign_blob_matches": [],
       "imports": [
         "checkpoint",
+        "csv",
         "fractions",
+        "gzip",
+        "hashlib",
         "json",
         "numerics",
-        "os",
         "pathlib",
+        "re",
         "time"
       ],
       "prohibited_imports": [],
@@ -246,7 +263,7 @@
     },
     {
       "file": "joint_lp.py",
-      "git_blob_sha1": "00206c74890cf295ef3034d48230d564a7ae326b",
+      "git_blob_sha1": "b8fe4afefa9ab9fa4fd501c29f6868e1e1beecec",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
@@ -264,11 +281,46 @@
       "grep_import_matches": []
     },
     {
-      "file": "numerator_search.py",
-      "git_blob_sha1": "eea1b90b1e77f716afc6a292cca4070a6e1d3927",
+      "file": "lll_numerators.py",
+      "git_blob_sha1": "2dc00b396f7fbbdf05ce66bbc06b96ce673a2646",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
+        "flint",
+        "hashlib",
+        "json",
+        "math",
+        "mpmath",
+        "numerics",
+        "numpy",
+        "pathlib",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "merge_numerators.py",
+      "git_blob_sha1": "c66a535e6f25e7851363c8d5a11e361a47fb1dec",
+      "foreign_blob_matches": [],
+      "imports": [
+        "argparse",
+        "flint",
+        "joint_lp",
+        "json",
+        "numerics",
+        "pathlib"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "numerator_search.py",
+      "git_blob_sha1": "939c565869070dda1023cff73523145c974d27f3",
+      "foreign_blob_matches": [],
+      "imports": [
+        "argparse",
+        "concurrent.futures",
         "flint",
         "hashlib",
         "joint_lp",
@@ -283,7 +335,7 @@
     },
     {
       "file": "numerics.py",
-      "git_blob_sha1": "a96a3151b340594e07bb28cfc3d149d0c6bd274f",
+      "git_blob_sha1": "42f1d669f5aa1ff1bd8badb2300d5007482fde92",
       "foreign_blob_matches": [],
       "imports": [
         "flint",
@@ -299,13 +351,36 @@
       "grep_import_matches": []
     },
     {
-      "file": "prepare_union.py",
-      "git_blob_sha1": "3cc09fbe4d0f930e8c1be9594d0352f898af9ba5",
+      "file": "plot_curve.py",
+      "git_blob_sha1": "de1bc13ce8064f3e4d36deeb652e115360302ccc",
       "foreign_blob_matches": [],
       "imports": [
         "json",
+        "matplotlib",
+        "matplotlib.pyplot",
+        "matplotlib.ticker",
         "numerics",
-        "pathlib"
+        "os",
+        "pathlib",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "public_reads.py",
+      "git_blob_sha1": "40fe79eb7956508fd85207a0c3a672e2226357c4",
+      "foreign_blob_matches": [],
+      "imports": [
+        "base64",
+        "concurrent.futures",
+        "gzip",
+        "json",
+        "os",
+        "pathlib",
+        "subprocess",
+        "sys",
+        "time"
       ],
       "prohibited_imports": [],
       "grep_import_matches": []
@@ -327,28 +402,17 @@
       "grep_import_matches": []
     },
     {
-      "file": "resume_cg.py",
-      "git_blob_sha1": "94d62e4769d251e1e1270ab18d8dfc97c61185bf",
+      "file": "review/replay/check.integration.py",
+      "git_blob_sha1": "e105c5e0cb7ff31bd9dd1e4f1754e01d6a66aaf3",
       "foreign_blob_matches": [],
       "imports": [
+        "argparse",
+        "flint",
+        "fractions",
+        "hashlib",
         "json",
-        "numerics",
-        "pathlib",
-        "run_cg",
-        "subprocess",
+        "os",
         "sys",
-        "time"
-      ],
-      "prohibited_imports": [],
-      "grep_import_matches": []
-    },
-    {
-      "file": "resume_union.py",
-      "git_blob_sha1": "46b9c62635541187cc5dbd2fc60139bd7ecfe919",
-      "foreign_blob_matches": [],
-      "imports": [
-        "numerics",
-        "run_cg",
         "time"
       ],
       "prohibited_imports": [],
@@ -356,16 +420,17 @@
     },
     {
       "file": "review/replay/check.py",
-      "git_blob_sha1": "0f0752733f473c789bea6f4d3e4d06b56383d799",
+      "git_blob_sha1": "0b7ef74c94f8b97bcbbec0e8c49054935f0b77d0",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
         "copy",
         "flint",
+        "fractions",
         "hashlib",
         "json",
         "os",
-        "pathlib",
+        "resource",
         "sys",
         "time"
       ],
@@ -373,8 +438,25 @@
       "grep_import_matches": []
     },
     {
-      "file": "rounds/den-5-verifier.py",
-      "git_blob_sha1": "bb7c7e48ca2255cf43c492ee54a55e0e38272b3b",
+      "file": "review/replay/check.roots.py",
+      "git_blob_sha1": "83974224fd0e4df2ae83381b5fd610cd553bbba3",
+      "foreign_blob_matches": [],
+      "imports": [
+        "argparse",
+        "flint",
+        "fractions",
+        "hashlib",
+        "json",
+        "os",
+        "sys",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "rounds/archive-num-51-1-verifier.py",
+      "git_blob_sha1": "a6ac8f4c8421ef1b6784f011857997e404163999",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
@@ -392,18 +474,21 @@
     },
     {
       "file": "run_cg.py",
-      "git_blob_sha1": "c93b4ddbf0e2f4471e805612f41c3c7141282ce3",
+      "git_blob_sha1": "a0cfb8cd5e3b39bda26ed4186e3d886c1df8bb8d",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
         "checkpoint",
+        "fractions",
         "hashlib",
         "json",
         "numerics",
         "os",
         "pathlib",
+        "re",
         "resource",
         "subprocess",
+        "supervise",
         "sys",
         "time"
       ],
@@ -412,7 +497,7 @@
     },
     {
       "file": "seal.py",
-      "git_blob_sha1": "ce88d9fabec40424da99fa6b4650f6521568cb7e",
+      "git_blob_sha1": "6c1e21824d6fc3e40cd5a128879f2de44d6888d3",
       "foreign_blob_matches": [],
       "imports": [
         "ast",
@@ -427,22 +512,8 @@
       "grep_import_matches": []
     },
     {
-      "file": "setup_local.py",
-      "git_blob_sha1": "ec2e495c2ee656b6b434a0dac637541d882fab98",
-      "foreign_blob_matches": [],
-      "imports": [
-        "hashlib",
-        "json",
-        "pathlib",
-        "shutil",
-        "time"
-      ],
-      "prohibited_imports": [],
-      "grep_import_matches": []
-    },
-    {
       "file": "source_inventory.py",
-      "git_blob_sha1": "d610492a68af0ef4dc0c807ad0dab6a3b47eb337",
+      "git_blob_sha1": "b1f1132c80f843af694c54259308ab0dac2ca743",
       "foreign_blob_matches": [],
       "imports": [
         "ast",
@@ -456,26 +527,24 @@
       "grep_import_matches": []
     },
     {
-      "file": "verify_best.py",
-      "git_blob_sha1": "bb7c7e48ca2255cf43c492ee54a55e0e38272b3b",
+      "file": "supervise.py",
+      "git_blob_sha1": "638766176bd0657262fe6e2350feaf271570800d",
       "foreign_blob_matches": [],
       "imports": [
-        "argparse",
-        "collections",
-        "flint",
-        "fractions",
-        "hashlib",
         "json",
         "os",
         "pathlib",
+        "resource",
+        "subprocess",
+        "sys",
         "time"
       ],
       "prohibited_imports": [],
       "grep_import_matches": []
     },
     {
-      "file": "verify_pr280_v4.py",
-      "git_blob_sha1": "62f29451588b1c5fec96149c459260617cfe9637",
+      "file": "verify_best.py",
+      "git_blob_sha1": "a6ac8f4c8421ef1b6784f011857997e404163999",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
@@ -493,7 +562,7 @@
     },
     {
       "file": "verify_public.py",
-      "git_blob_sha1": "7c75c7b7ad26cd147539eda98bdf62032e2bdb70",
+      "git_blob_sha1": "b394c507c0849244c98e55d4125232f8cdafd23a",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
@@ -510,8 +579,8 @@
       "grep_import_matches": []
     },
     {
-      "file": "verify_round6.py",
-      "git_blob_sha1": "7c75c7b7ad26cd147539eda98bdf62032e2bdb70",
+      "file": "verify_v5.py",
+      "git_blob_sha1": "b394c507c0849244c98e55d4125232f8cdafd23a",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",

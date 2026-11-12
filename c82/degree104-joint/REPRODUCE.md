@@ -1,73 +1,52 @@
 # Release verification from the packet root
 
-Requires Python 3 and python-flint 0.9.0. Choose an installed interpreter as C82_PYTHON; search additionally needs numpy, scipy, highspy and fpylll.
+Requires Python 3 and python-flint 0.9.0. Set C82_PYTHON to an installed interpreter; the original search additionally used numpy, scipy, highspy and fpylll.
 
 ```sh
 export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
 export VECLIB_MAXIMUM_THREADS=1 BLIS_NUM_THREADS=1 NUMBA_NUM_THREADS=1
 export PYTHONDONTWRITEBYTECODE=1
 C82_PYTHON=python3
-nice -n 10 "$C82_PYTHON" verify_best.py --certificate certificate.json --target 0.2519923410 --precision 256 --tol 1e-13 --out receipts/release-verifier.json
-nice -n 10 "$C82_PYTHON" certificate_facts.py
-nice -n 10 "$C82_PYTHON" seal.py
-egress-gate scan .
+nice -n 10 "$C82_PYTHON" verify_best.py --certificate certificate.json --target 0.2519744488 --precision 256 --tol 1e-13 --out ../final-verifier.json
+nice -n 10 "$C82_PYTHON" review/replay/check.py review/inputs/certificates/certificate.json --prec 256 --tol 1e-22 --order 16 --target 0.2519744488 --output ../final-referee.json
+shasum -a 256 -c SHA256SUMS
 ```
 
-The certificate, verifier and FACTOR_PROVENANCE.json are unchanged release bytes. Certificate SHA256 is ee9622b5e141489ad6fbf98b0ec5c43ac3e1b657f8876b435e65c536f359fdd5. CERTIFICATE_ENCODING.md lists the released equal fractions without restricted numerators. receipts/frozen-release-verifier.json is the producer's final stated-bound replay. receipts/release-verifier.log gives the actual packet replay command and environment. certificate_facts.py computes exact facts, all README comparison gaps, and full coefficient overlap with #280 v4.
+To regenerate the packet receipt instead, use --out receipts/release-verifier.json, then run certificate_facts.py and seal.py at nice 10, followed by `egress-gate scan .`. receipts/release-verifier.log records the original packet replay command and environment. Any change to an included file requires resealing. Final replay outputs above are outside the sealed packet.
 
-seal.py recomputes PYTHON_BLOBS.json, MANIFEST.json and SHA256SUMS, including any subsequently added review/ and REPLAY.json. The round-7 referee archive is review/, with its receipt REPLAY.json. A verifier rerun that overwrites an included receipt must likewise be followed by resealing; for a final check use --out ../final-verifier.json and capture stdout outside the packet.
+The root certificate SHA256 is 1e5af10142c7223df4cd56a4279727a7610137dab8e5f2d95dcb19b3030ac67e. Certificate, verify_best.py and FACTOR_PROVENANCE.json retain the producer bytes unchanged. receipts/frozen-release-verifier.json is the producer's final replay. certificate_facts.py recomputes exact certificate facts, every README gap, and full coefficient overlaps with #280 v3/v4/v5.
 
-The finished producer section follows. Its 0.2519900000 target is the historical frozen search bar and was not met. To replay the delivered bound, use 0.2519923410 as above. Only den-5 round files, their master and the final restricted-9 master are retained; earlier search paths below are archival references. A full fresh search requires omitted round-6 historical inputs in a separate working copy. The two-worker commands describe the producer run; use --workers 1 for a one-core search. run_local.sh uses C82_PYTHON (default python3), with relative paths and single-threaded settings.
+seal.py retains the template conventions and recomputes PYTHON_BLOBS.json, MANIFEST.json and SHA256SUMS, including review/ and root REPLAY.json. Its metadata-only blob comparison includes vidigoat's 191064e tree. The round-9 referee receipt is adapted only for release paths and canonical inputs_hash; the original remains review/replay/REPLAY.original.json.
+
+The producer section below is archival. Round 9 continued round 8 warm and met its frozen search bar. Only final archive-num-51-1 files, its restricted master/dual and finished.json are retained in rounds/. Earlier paths in the producer records are archival references; restoring a full historical search requires the producer directories, including the superseded round-8 certificate, in a separate workspace. The standalone round-8 certificate and historical encoding note are omitted. The producer's multiworker commands describe its completed run; they are not commands used in this one-core packaging job. run_local.sh accepts C82_PYTHON and uses relative paths and single-threaded numerical settings.
 
 ---
 
-# Reproduction
+Run from this job directory using the shared venv via run_local.sh (nice 10, all numerical thread counts one). Own round-8 scripts and full state/dual were copied by bootstrap.py; do not rerun bootstrap over a completed result.
 
-All commands run from this job directory; run_local.sh sets single-threaded BLAS and invokes our shared Python at nice 10. Code is reused from our own c82r6/c82r5; third-party inputs are coefficient JSON and GitHub tree metadata only.
-
-Replay the input certificates and solve the complete initial union:
+Warm baseline replay:
 
 ```sh
-./run_local.sh bootstrap.py
+./run_local.sh evidence/round8-verifier.py --certificate prior_sources/round8-certificate.json --target 0.2519758217 --precision 256 --tol 1e-13 --out evidence/reproduced-warm.json
 ```
 
-Run the inherited degree-104 weighted-CVP column generation, with two 240-second search workers per dual, complete numerator-bank pricing, exact weight freezing and separately written interval replay after each solve:
+The baseline command uses round 8's copied, unchanged pinned verifier; verify_best.py is pinned to this continuation's best packet.
+
+Search command used:
 
 ```sh
-./run_local.sh run_cg.py --state rounds/union.json --dual rounds/union-dual.npz --first 1 --rounds 100 --seconds 240 --workers 2
+./run_local.sh run_cg.py --state rounds/warm.json --dual rounds/warm-dual.npz --first 22 --measure-first --workers 4 --den-workers 2 --seconds 240 > logs/cg.log 2>&1
 ```
 
-The initial union certificate has already been replayed by bootstrap, so --first 1 skips a duplicate replay. The memory-efficient full-union implementation retains the same grid, constraints and solver, with a single column-contiguous evaluation matrix.
+Full-bank numerator pricing uses four single-threaded processes from round 23; its original serial code is retained in evidence/numerator_search_serial.py. The complete-bank reduced-cost formulas and order are unchanged.
 
-The loop stops after three consecutive rounds whose LP gain is below 1e-10, or at 7.5 hours from evidence/start.json. It leaves the best interval-certified certificate in certificate.json and its hash-pinned verifier in verify_best.py. The 8-hour job ceiling allows final reporting. The 1e-10 no-gain criterion is the inherited numerical tolerance, applied to actual LP gain.
-
-Replay the final certificate against the frozen bar (returns failure if the bar is unmet):
-
-```sh
-./run_local.sh verify_best.py --certificate certificate.json --target 0.2519900000 --precision 256 --tol 1e-13 --out evidence/reproduced-best.json
-```
-
-To verify a certificate that misses the bar, use the explicitly reported rational in RESULT.json instead. The exact dyadic endpoint/rational comparison is recorded there.
-
-Run the specified rejection controls and Python blob/import inventory:
+Each accepted solve is frozen and passed through a separately written (same agent) interval verifier. The exact replay command for the final packet is in REPORT.md. Timed stochastic search is not claimed to be bit-identical; all seeds and settings are saved. Resume from rounds/finished.json's state/dual with --first equal to its last round plus one. The full mutable bank is prior_sources/union-factor-bank.json.
 
 ```sh
 ./run_local.sh rejection_controls.py --certificate certificate.json --verifier verify_best.py
 ./run_local.sh source_inventory.py
 ```
 
-The interrupted first round was resumed with `./run_local.sh resume_cg.py`:
-its saved search checkpoints were merged without rerunning them, then rounds
-2 onward used the inherited loop. That resume script consumes a specific saved
-checkpoint; use the main loop command above for a new run. The finished job's
-state and dual are named in rounds/finished.json. To continue that state on a
-future explicitly authorized job, start at the next unused round number and
-account for the existing consecutive no-gain count; this job stopped at three.
+Older history can be stored as JSON/log gzip files. Restore with `gzip -dc PATH.json.gz > PATH.json`. Retired duals are regenerable with `./run_local.sh joint_lp.py --input rounds/STATE.json --prefix rounds/recomputed-STATE`; an LP dual on a degenerate face may differ. Current final state and dual remain uncompressed. Complete standalone best certificates and exact replays are retained in certificates/.
 
-PROOF.md gives the inherited Doche construction and extraction argument.
-evidence/final-stated-bound-replay.json is the final replay at the stated
-rational; RESULT.json gives the exact upper-endpoint comparison. The
-provenance report uses actual round-6 source files, rather than attributing
-everything in the mixed r7 union to round 6.
-
-NUMERICS.md describes the inherited verifier enclosure formulas. The verifier imports only stdlib and python-flint and shares no search helper. It was separately written by the same agent lineage, and is not an independent checker.
+To keep the packet below 50 MB, old compressed floating LP master caches were moved to macOS Trash. The initial rounds/warm.json.gz and the current final master/dual are retained; certificate/replay records and every certificates/best_*.json remain. Old floating states/duals can be reconstructed approximately with joint_lp.py from the corresponding exact certificate; degenerate LP duals and timed searches need not be bit-identical. Restore warm.json from its gzip file before the warm search command if required.

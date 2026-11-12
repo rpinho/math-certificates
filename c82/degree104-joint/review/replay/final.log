@@ -1,0 +1,89 @@
+PID 5621 precision 256
+{"factor": "analytic_X_minus_3", "degree": 2, "possible_unit_roots": 0, "milliseconds": 0}
+{"factor": "analytic_constant_10", "degree": 0, "possible_unit_roots": 0, "milliseconds": 0}
+H [1.09861228866810969139524523692252570464749055782274945173469 +/- 4.34e-60]
+controls_initial [{"control": "one_denominator_constant_coefficient", "result": "REJECTED", "reason": "active numerator and denominator not coprime", "change": "1 -> 0"}, {"control": "one_positive_exponent", "result": "REJECTED", "reason": "strict degree condition failed", "change": "5804369311853526/32768 -> 19286184656975339/16384"}, {"control": "analytic_B_log_10", "result": "PASS", "B": {"ball": "[2.30258509299404568401799 +/- 6.68e-24]", "lower": "2.30258509299404568401798632545319", "upper": "2.30258509299404568401799667270787", "lower_exact": "33327642320560068527781608186348642697065551260193329002715685474909901247493/14474011154664524427946373126085988481658748083205070504932198000989141204992", "upper_exact": "33327642320560068527781757952628163398342622624530358549880201592662049379333/14474011154664524427946373126085988481658748083205070504932198000989141204992"}, "J": {"ball": "[1.20397280432593599262275 +/- 8.92e-24]", "lower": "1.20397280432593599262274108853068", "upper": "1.20397280432593599262275143578533", "lower_exact": "69705263198905305391077197890943671602905617418462275322044661984190346605903/57896044618658097711785492504343953926634992332820282019728792003956564819968", "upper_exact": "69705263198905305391077796956060327160321196915929335224733276960062556386639/57896044618658097711785492504343953926634992332820282019728792003956564819968"}, "quadrature": {"visited": 69, "negative_series": 0, "negative_distance": 0, "positive": 35, "unresolved_bounded": 0, "max_depth": 6}}, {"control": "analytic_singular_crossing", "result": "PASS", "J": {"ball": "[0.32306594721945051409364 +/- 9.22e-24]", "lower": "0.32306594721945051409363078074733", "upper": "0.32306594721945051409364208977824", "lower_exact": "74816961979945395848115274358872940806977001795195844535036444505790444946215/231584178474632390847141970017375815706539969331281128078915168015826259279872", "upper_exact": "74816961979945395848117893351504013373745193283724612841987342307935115232039/231584178474632390847141970017375815706539969331281128078915168015826259279872"}, "expected": {"ball": "[0.323065947219450514093636510723806394072241840780587016130868 +/- 4.71e-61]", "lower": "0.32306594721945051409363651072380", "upper": "0.32306594721945051409363651072381", "lower_exact": "9352120247493174481014575166345891858150624645452293644982735532068253778409/28948022309329048855892746252171976963317496166410141009864396001978282409984", "upper_exact": "37408480989972697924058300665383567432602498581809174579930942128273015113641/115792089237316195423570985008687907853269984665640564039457584007913129639936"}, "formula": "Im Li_2(exp(i*pi/3))/pi", "quadrature": {"visited": 171, "negative_series": 35, "negative_distance": 1, "positive": 49, "unresolved_bounded": 1, "max_depth": 73}}]
+{"factor": "Pin330c_C82r6_083ca9b3950a", "degree": 208, "possible_unit_roots": 0, "milliseconds": 580}
+{"factor": "C82r8_b4ce16615ae6", "degree": 208, "possible_unit_roots": 0, "milliseconds": 572}
+{"factor": "C82r8_fcd3a4b2d94d", "degree": 208, "possible_unit_roots": 0, "milliseconds": 578}
+{"factor": "C82r8_1f8710f82b1d", "degree": 208, "possible_unit_roots": 0, "milliseconds": 565}
+{"factor": "C82r9_923bd2177a3d", "degree": 208, "possible_unit_roots": 0, "milliseconds": 573}
+{"factor": "P1", "degree": 2, "possible_unit_roots": 1, "milliseconds": 0}
+{"factor": "P2", "degree": 2, "possible_unit_roots": 2, "milliseconds": 0}
+{"factor": "P3", "degree": 6, "possible_unit_roots": 0, "milliseconds": 0}
+{"factor": "P4", "degree": 8, "possible_unit_roots": 4, "milliseconds": 0}
+{"factor": "P6", "degree": 16, "possible_unit_roots": 0, "milliseconds": 1}
+{"factor": "N82r8_85867779a275", "degree": 44, "possible_unit_roots": 0, "milliseconds": 7}
+{"factor": "N82r9_2c00bf0e341e", "degree": 72, "possible_unit_roots": 0, "milliseconds": 34}
+{"factor": "N82r9_a49c3746e570", "degree": 56, "possible_unit_roots": 0, "milliseconds": 20}
+{"factor": "N82r9_e0da03871ae5", "degree": 78, "possible_unit_roots": 0, "milliseconds": 27}
+{"factor": "N82r9_8baddd1649e6", "degree": 76, "possible_unit_roots": 0, "milliseconds": 38}
+{"factor": "N82r9_1aa3601f1b5c", "degree": 72, "possible_unit_roots": 0, "milliseconds": 35}
+{"factor": "n51_13_1", "degree": 42, "possible_unit_roots": 0, "milliseconds": 7}
+{"factor": "N82r9_fe071196d7dd", "degree": 64, "possible_unit_roots": 0, "milliseconds": 28}
+{"factor": "cg2_4_0_c2", "degree": 60, "possible_unit_roots": 0, "milliseconds": 15}
+{"factor": "N82r9_6698cb93cd1c", "degree": 134, "possible_unit_roots": 0, "milliseconds": 190}
+{"factor": "N82r9_0737d1d42b6d", "degree": 124, "possible_unit_roots": 0, "milliseconds": 155}
+{"factor": "N82r8_3cc45c82e976", "degree": 64, "possible_unit_roots": 0, "milliseconds": 17}
+{"factor": "N82r9_85ec5b3f21c1", "degree": 128, "possible_unit_roots": 0, "milliseconds": 175}
+{"factor": "N82r9_ba647f7a4380", "degree": 124, "possible_unit_roots": 0, "milliseconds": 159}
+{"factor": "N82r9_a3dfda9dd5f0", "degree": 110, "possible_unit_roots": 0, "milliseconds": 121}
+{"factor": "N82r9_85763e6df88f", "degree": 128, "possible_unit_roots": 0, "milliseconds": 178}
+{"factor": "N82r9_23ee45262ec6", "degree": 128, "possible_unit_roots": 0, "milliseconds": 177}
+{"factor": "N82r8_37e4ca116338", "degree": 64, "possible_unit_roots": 0, "milliseconds": 30}
+{"factor": "N82r9_c597af50c459", "degree": 130, "possible_unit_roots": 0, "milliseconds": 194}
+{"factor": "N82r9_ada2a3a91f42", "degree": 100, "possible_unit_roots": 0, "milliseconds": 77}
+{"factor": "N82r9_258c33a01a61", "degree": 126, "possible_unit_roots": 0, "milliseconds": 161}
+{"factor": "N82r9_85d0b14b7d1d", "degree": 124, "possible_unit_roots": 0, "milliseconds": 153}
+{"factor": "N82r9_3eb80a5662af", "degree": 128, "possible_unit_roots": 0, "milliseconds": 167}
+{"factor": "N82r9_e2abadd25522", "degree": 128, "possible_unit_roots": 0, "milliseconds": 170}
+{"factor": "N82r9_640e5f44db82", "degree": 130, "possible_unit_roots": 0, "milliseconds": 175}
+{"factor": "N82r9_146f079dbce9", "degree": 134, "possible_unit_roots": 0, "milliseconds": 186}
+{"factor": "N82r9_7f35ecdc039c", "degree": 128, "possible_unit_roots": 0, "milliseconds": 170}
+{"factor": "N82r9_514c188deccd", "degree": 136, "possible_unit_roots": 0, "milliseconds": 208}
+{"factor": "N82r9_fefd10f7c8e3", "degree": 134, "possible_unit_roots": 0, "milliseconds": 189}
+{"factor": "N82r9_91a55a3e7602", "degree": 128, "possible_unit_roots": 0, "milliseconds": 176}
+{"factor": "N82r9_4336f6c43520", "degree": 66, "possible_unit_roots": 0, "milliseconds": 19}
+{"factor": "N82r9_1bb3ceb743ce", "degree": 124, "possible_unit_roots": 0, "milliseconds": 161}
+{"factor": "N82r9_6eca741db878", "degree": 122, "possible_unit_roots": 0, "milliseconds": 153}
+{"factor": "N82r9_29576912e082", "degree": 68, "possible_unit_roots": 0, "milliseconds": 30}
+{"factor": "N82r9_5ea607b75cb3", "degree": 116, "possible_unit_roots": 0, "milliseconds": 135}
+{"factor": "N82r9_37e84d89d686", "degree": 68, "possible_unit_roots": 0, "milliseconds": 20}
+{"factor": "N82r9_f238e50b138e", "degree": 58, "possible_unit_roots": 0, "milliseconds": 14}
+{"factor": "N82r8_e01dea931ba8", "degree": 60, "possible_unit_roots": 0, "milliseconds": 22}
+{"factor": "N82r9_5ede55618598", "degree": 78, "possible_unit_roots": 0, "milliseconds": 42}
+{"factor": "n11_6_21", "degree": 64, "possible_unit_roots": 0, "milliseconds": 30}
+{"factor": "N82r9_2a6a4ee12708", "degree": 126, "possible_unit_roots": 0, "milliseconds": 180}
+{"factor": "N82r9_63b99020f1c6", "degree": 126, "possible_unit_roots": 0, "milliseconds": 171}
+{"factor": "N82r9_0b5e81317eb6", "degree": 126, "possible_unit_roots": 0, "milliseconds": 170}
+H [0.251974367083400600318006507057428581989052041550939701571884 +/- 3.51e-61]
+{"D": "1000000000064", "a": "233913093063931949/262144", "a_over_D": "233913093063931949/262144000016777216", "active_gcd_pairs": 240, "active_numerators": 48, "b": "1048576", "composed_roots": 5370, "degree_gap": "28230906952845267/262144", "denominators": 5}
+probe 1 [-0.6567085171492511461239471 +/- 1.36e-26] [-0.6567085171492511461239471 +/- 1.36e-26] overlap True
+probe 7 [-0.3046475129569824661540442 +/- 8.26e-27] [-0.3046475129569824661540442 +/- 8.26e-27] overlap True
+probe 17 [-0.06995298744728036386669228 +/- 2.32e-27] [-0.0699529874473 +/- 3.19e-14] overlap True
+probe 37 [-0.2317695538778895890025524 +/- 2.70e-26] [-0.23176955387789 +/- 3.52e-15] overlap True
+probe 71 [-0.0007460845078877404953435901 +/- 3.40e-29] [-0.0007460845078877404953435901 +/- 3.40e-29] overlap True
+probe 127 [-0.05275078435069887994248554 +/- 5.96e-28] [-0.05275078435069887994248554 +/- 5.96e-28] overlap True
+quadrature {"visited": 784, "negative_series": 198, "negative_distance": 1, "positive": 183, "unresolved_bounded": 5, "max_depth": 77} elapsed_seconds 30 pending 11 J_partial [9.212144916712762182e-9 +/- 2.69e-28]
+quadrature {"visited": 1610, "negative_series": 435, "negative_distance": 5, "positive": 348, "unresolved_bounded": 11, "max_depth": 79} elapsed_seconds 60 pending 13 J_partial [1.1562803692994005701e-8 +/- 1.67e-28]
+quadrature {"visited": 2367, "negative_series": 588, "negative_distance": 9, "positive": 551, "unresolved_bounded": 15, "max_depth": 79} elapsed_seconds 90 pending 42 J_partial [1.234994251797673135e-8 +/- 4.02e-27]
+quadrature {"visited": 3109, "negative_series": 834, "negative_distance": 10, "positive": 683, "unresolved_bounded": 21, "max_depth": 79} elapsed_seconds 120 pending 14 J_partial [1.250580066517386899e-8 +/- 4.19e-27]
+quadrature {"visited": 3866, "negative_series": 983, "negative_distance": 14, "positive": 904, "unresolved_bounded": 25, "max_depth": 79} elapsed_seconds 150 pending 15 J_partial [4.285421353103611179e-8 +/- 4.92e-27]
+quadrature {"visited": 4617, "negative_series": 1220, "negative_distance": 24, "positive": 1026, "unresolved_bounded": 30, "max_depth": 79} elapsed_seconds 180 pending 18 J_partial [4.340859958959005537e-8 +/- 4.98e-27]
+quadrature {"visited": 5449, "negative_series": 1443, "negative_distance": 25, "positive": 1218, "unresolved_bounded": 36, "max_depth": 79} elapsed_seconds 210 pending 6 J_partial [4.552131393546103892e-8 +/- 6.16e-27]
+quadrature {"visited": 6268, "negative_series": 1613, "negative_distance": 25, "positive": 1449, "unresolved_bounded": 42, "max_depth": 79} elapsed_seconds 240 pending 11 J_partial [4.593924724222059768e-8 +/- 2.09e-27]
+quadrature {"visited": 6997, "negative_series": 1796, "negative_distance": 26, "positive": 1613, "unresolved_bounded": 46, "max_depth": 79} elapsed_seconds 270 pending 36 J_partial [4.793709485923617370e-8 +/- 6.32e-27]
+quadrature {"visited": 7737, "negative_series": 1993, "negative_distance": 32, "positive": 1783, "unresolved_bounded": 52, "max_depth": 79} elapsed_seconds 300 pending 18 J_partial [4.909791029834722683e-8 +/- 3.75e-27]
+quadrature {"visited": 8520, "negative_series": 2212, "negative_distance": 35, "positive": 1945, "unresolved_bounded": 56, "max_depth": 79} elapsed_seconds 330 pending 25 J_partial [5.467514597584675457e-8 +/- 5.01e-27]
+quadrature {"visited": 9309, "negative_series": 2458, "negative_distance": 39, "positive": 2093, "unresolved_bounded": 62, "max_depth": 79} elapsed_seconds 360 pending 6 J_partial [5.598246412570861138e-8 +/- 7.08e-27]
+quadrature {"visited": 10151, "negative_series": 2734, "negative_distance": 40, "positive": 2216, "unresolved_bounded": 68, "max_depth": 79} elapsed_seconds 390 pending 36 J_partial [5.601057043695392024e-8 +/- 5.61e-27]
+quadrature {"visited": 10993, "negative_series": 2972, "negative_distance": 44, "positive": 2392, "unresolved_bounded": 74, "max_depth": 79} elapsed_seconds 420 pending 30 J_partial [5.612420391634349078e-8 +/- 6.83e-27]
+quadrature {"visited": 11726, "negative_series": 3218, "negative_distance": 44, "positive": 2511, "unresolved_bounded": 80, "max_depth": 79} elapsed_seconds 450 pending 21 J_partial [5.659094354719335536e-8 +/- 3.55e-27]
+quadrature {"visited": 12457, "negative_series": 3408, "negative_distance": 47, "positive": 2685, "unresolved_bounded": 86, "max_depth": 79} elapsed_seconds 480 pending 6 J_partial [5.688043076904830825e-8 +/- 5.80e-27]
+quadrature {"visited": 13215, "negative_series": 3609, "negative_distance": 51, "positive": 2852, "unresolved_bounded": 91, "max_depth": 79} elapsed_seconds 510 pending 10 J_partial [7.76079781246453562e-8 +/- 5.18e-26]
+quadrature {"visited": 14058, "negative_series": 3861, "negative_distance": 63, "positive": 3006, "unresolved_bounded": 96, "max_depth": 79} elapsed_seconds 540 pending 7 J_partial [7.893646944471648681e-8 +/- 7.58e-27]
+quadrature {"visited": 14919, "negative_series": 4092, "negative_distance": 68, "positive": 3195, "unresolved_bounded": 102, "max_depth": 79} elapsed_seconds 570 pending 6 J_partial [8.16005449078034741e-8 +/- 2.57e-26]
+J [8.16574952487120700e-8 +/- 5.42e-26]
+B [0.25197444874089584903007646 +/- 8.37e-27]
+quadrature_final {"visited": 15189, "negative_series": 4167, "negative_distance": 70, "positive": 3254, "unresolved_bounded": 104, "max_depth": 79}
+PASS
