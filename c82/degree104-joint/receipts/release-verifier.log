@@ -1,102 +1,101 @@
 Run from the packet root with C82_PYTHON set to an installed Python with python-flint 0.9.0.
 Environment: OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 BLIS_NUM_THREADS=1 NUMBA_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1
-Command: nice -n 10 "$C82_PYTHON" verify_best.py --certificate certificate.json --target 0.2519744488 --precision 256 --tol 1e-13 --out receipts/release-verifier.json
-{"event": "start", "pid": 77883, "nice": 20, "settings": {"certificate": "certificate.json", "precision": 256, "tol": "1e-13", "target": "0.2519744488", "offset": "0", "out": "receipts/release-verifier.json"}}
-{"event": "initialized", "audit": {"D": 1000000000064, "degree_A": "233913093063931949/262144", "coprimality_pairs": 240, "composed_roots": 5370, "denominator_factors": 5, "numerator_factors": 48}, "mahler": "[0.251974367083400600318006507057428581989052041550939701571884350756166139552 +/- 8.10e-76]", "seconds": 7.961048167024273}
-{"event": "progress", "visited": 1732, "counts": {"negative": 533, "clipped_affine": 25, "gauss_positive": 302}, "t": 0.10401248931884766, "max_depth": 34}
-{"event": "progress", "visited": 3435, "counts": {"negative": 1003, "clipped_affine": 54, "gauss_positive": 659}, "t": 0.12279891967773438, "max_depth": 34}
-{"event": "progress", "visited": 5195, "counts": {"negative": 1584, "clipped_affine": 82, "gauss_positive": 928}, "t": 0.3375244140625, "max_depth": 34}
+Command: /usr/bin/time -l nice -n 10 "$C82_PYTHON" verify_best.py --certificate certificate.json --target 0.2519696460 --precision 256 --tol 1e-13 --out receipts/release-verifier.json
+{"event": "start", "pid": 80977, "nice": 20, "settings": {"certificate": "certificate.json", "precision": 256, "tol": "1e-13", "target": "0.2519696460", "offset": "0", "out": "receipts/release-verifier.json"}}
+{"event": "initialized", "audit": {"D": 999999999960, "degree_A": "469303044808512511/524288", "coprimality_pairs": 240, "composed_roots": 4198, "denominator_factors": 6, "numerator_factors": 40}, "mahler": "[0.25196955526780724993541647061135219293385331783076011116095267955483712855 +/- 2.36e-75]", "seconds": 6.050938499975018}
+{"event": "progress", "visited": 2040, "counts": {"negative": 666, "clipped_affine": 36, "gauss_positive": 316}, "t": 0.10888671875, "max_depth": 31}
+{"event": "progress", "visited": 4191, "counts": {"negative": 1324, "clipped_affine": 71, "gauss_positive": 694}, "t": 0.266754150390625, "max_depth": 32}
 {
   "status": "PASS",
   "candidate_unrefereed": true,
   "artificial_integrand_offset": "0",
-  "certificate_sha256": "1e5af10142c7223df4cd56a4279727a7610137dab8e5f2d95dcb19b3030ac67e",
-  "source_sha256": "1ab1b268d5bdcbf119b87fc9715565454b89683cd13a218b01ec32103a9728cd",
+  "certificate_sha256": "0c4df95ec7a422943176ab560b961531a41f5f7f83adeb8daae24878de643077",
+  "source_sha256": "be999411290ff09e07e643cee987d80bde08ca44fab3e130c3a68e9c947b1bd9",
   "precision_bits": 256,
   "tolerance": "1e-13",
-  "target": "0.2519744488",
-  "pid": 77883,
+  "target": "0.2519696460",
+  "pid": 80977,
   "python_flint": "0.9.0",
   "audit": {
-    "D": 1000000000064,
-    "degree_A": "233913093063931949/262144",
+    "D": 999999999960,
+    "degree_A": "469303044808512511/524288",
     "coprimality_pairs": 240,
-    "composed_roots": 5370,
-    "denominator_factors": 5,
-    "numerator_factors": 48
+    "composed_roots": 4198,
+    "denominator_factors": 6,
+    "numerator_factors": 40
   },
   "panels": {
-    "visited": 6777,
+    "visited": 6205,
     "counts": {
-      "negative": 2114,
-      "clipped_affine": 109,
-      "gauss_positive": 1166
+      "negative": 1990,
+      "clipped_affine": 107,
+      "gauss_positive": 1006
     },
-    "max_depth": 34
+    "max_depth": 32
   },
   "mahler_normalized": {
-    "ball": "[0.251974367083400600318006507057428581989052041550939701571884350756166139552 +/- 8.10e-76]",
+    "ball": "[0.25196955526780724993541647061135219293385331783076011116095267955483712855 +/- 2.36e-75]",
     "lower": {
-      "mantissa": "1823539899927336929698184172400918264114103000637792115167357156677122514403",
-      "exponent": -252
+      "mantissa": "58352162457313624276184406964337508007278019212362874814947663812891111577493",
+      "exponent": -257
     },
     "upper": {
-      "mantissa": "29176638398837390875170946758414692225825648010204673842677714506833960230595",
-      "exponent": -256
+      "mantissa": "58352162457313624276184406964337508007278019212362874814947663812891111577815",
+      "exponent": -257
     }
   },
   "integral_normalized": {
-    "ball": "[8.165749525e-8 +/- 2.70e-18]",
+    "ball": "[9.071944185e-8 +/- 2.17e-18]",
     "lower": {
-      "mantissa": "39658368958502635520612132663352472925413197590957111327198971881837718570527",
-      "exponent": -278
+      "mantissa": "88118918798934927210880595171684314181409384000325519944956898712210070482357",
+      "exponent": -279
     },
     "upper": {
-      "mantissa": "39658368959762858242835898088571512928700323689465051724404009049821441066527",
-      "exponent": -278
+      "mantissa": "88118918801179539473997343866733860650113293858650888382533841206481575128501",
+      "exponent": -279
     }
   },
   "integral_unnormalized": {
-    "ball": "[81657.49525 +/- 5.13e-6]",
+    "ball": "[90719.44185 +/- 5.80e-6]",
     "lower": {
-      "mantissa": "72138152902045060058132312091643247936746906844959944413384450617378788002577",
+      "mantissa": "80143689770384453783736007485576248011973228064849894795269558516498787764139",
       "exponent": -239
     },
     "upper": {
-      "mantissa": "72138152904337391843562095392648375144618664961795649909273546649566798334737",
+      "mantissa": "80143689772425916747845931700698016335971790739130580639250639284378439813035",
       "exponent": -239
     }
   },
   "bound": {
-    "ball": "[0.25197444874089585 +/- 2.38e-18]",
+    "ball": "[0.25196964598724910 +/- 2.23e-18]",
     "lower": {
-      "mantissa": "58353295708258734893764744622928145774532391169568891273609748764159549452031",
+      "mantissa": "58352183466501036284214155819462054056151395937437950136547322994896276195681",
       "exponent": -257
     },
     "upper": {
-      "mantissa": "58353295708258735494685767687692308273187894063503527442935389087900933107455",
+      "mantissa": "58352183466501036819371423722277498629607977181834942231787642647286264793441",
       "exponent": -257
     }
   },
   "margin": {
-    "ball": "[5.910415e-11 +/- 2.38e-18]",
+    "ball": "[1.275090e-11 +/- 2.23e-18]",
     "lower": {
-      "mantissa": "3421896492912248722159417538801687550942905556805752560731886812325",
+      "mantissa": "738226670629144550149720086554747928818875790342204817443317288239",
       "exponent": -255
     },
     "upper": {
-      "mantissa": "3421896643142504675422667741821136804498223186821389157626598227109",
+      "mantissa": "738226804418461712925790808274466769989782401836511246500179938607",
       "exponent": -255
     }
   },
-  "seconds": 125.5879148330423
+  "seconds": 93.7152940420201
 }
-      125.66 real       124.84 user         0.32 sys
-            40239104  maximum resident set size
+       93.77 real        91.89 user         0.38 sys
+            39616512  maximum resident set size
                    0  average shared memory size
                    0  average unshared data size
                    0  average unshared stack size
-                4022  page reclaims
+                3986  page reclaims
                    1  page faults
                    0  swaps
                    0  block input operations
@@ -105,7 +104,7 @@ Command: nice -n 10 "$C82_PYTHON" verify_best.py --certificate certificate.json 
                    0  messages received
                    0  signals received
                    0  voluntary context switches
-               68268  involuntary context switches
-       2438039728920  instructions retired
-        434394484199  cycles elapsed
-            22970920  peak memory footprint
+               77011  involuntary context switches
+       1742223124302  instructions retired
+        360501107345  cycles elapsed
+            22315560  peak memory footprint

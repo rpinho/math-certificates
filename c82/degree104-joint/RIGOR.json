@@ -8,7 +8,7 @@
     },
     {
       "document": "PROOF.md",
-      "statement": "The exact dyadic upper endpoint is strictly below the exact rational target 0.2519744488 (rigorous, verify_best.py).",
+      "statement": "The exact dyadic upper endpoint is strictly below the exact rational target 0.2519696460 (rigorous, verify_best.py).",
       "producer": "verify_best.py",
       "arithmetic": "interval"
     },
@@ -23,14 +23,14 @@
       "statement": "The claim is C82 <= B, with the strict numerical upper bound recorded in RESULT.json and REPORT.md and certified by verify_best.py.",
       "producer": "verify_best.py",
       "arithmetic": "interval",
-      "note": "Preserved round-9 referee input; the independently written referee checker is review/replay/check.py and its result is review/replay/result.json."
+      "note": "Preserved round-10 referee input; the independently written referee checker is review/replay/check.py and its result is review/replay/result.json."
     },
     {
       "document": "review/inputs/PROOF.md",
       "statement": "Its exact finite hypotheses are checked by verify_best.py, separately written by the same agent lineage as the search.",
       "producer": "verify_best.py",
       "arithmetic": "exact",
-      "note": "Preserved round-9 referee input; the independently written referee checker is review/replay/check.py and its result is review/replay/result.json."
+      "note": "Preserved round-10 referee input; the independently written referee checker is review/replay/check.py and its result is review/replay/result.json."
     }
   ]
 }

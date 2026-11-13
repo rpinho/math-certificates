@@ -135,7 +135,7 @@ def freeze(state,path):
                     f.write(f'\n{path}: {r["name"]}: {q} encoded as {text} (equal rational).\n')
             num.append({'name':r['name'],'coeffs':r['coeffs'],'q_rational':text})
     assert sum((len(r['coeffs'])-1)*Fraction(r['q_rational']) for r in num)<D
-    cert={'description':'Candidate, unrefereed. Doche construction; Patankar PR280 weighted CVP method, Pinho PR301 residue/pricing method; our own c82r5/c82r6 search and helpers reused through c82r8 in c82r9. Separately written (same agent) interval verification required.',
+    cert={'description':'Candidate, unrefereed. Doche construction; Patankar PR280 weighted CVP method, Pinho PR301 residue/pricing method; our own c82r5/c82r6 search and helpers reused through c82r9 in c82r10. Separately written (same agent) interval verification required.',
           'numeric_unverified':state['lp'],'N':state['N'],'denominator':den,'numerator':num}
     write_json(path,cert)
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()

@@ -49,7 +49,7 @@
       "new_bound": false
     },
     {
-      "value": "0.2519744488",
+      "value": "0.2519696460",
       "kind": "rigorous",
       "producer": "verify_best.py",
       "arithmetic": "interval",
@@ -57,7 +57,7 @@
       "note": "strict upper bound"
     },
     {
-      "value": "0.2519744487408958476234",
+      "value": "0.2519696459872490977703",
       "kind": "rigorous",
       "producer": "verify_best.py",
       "arithmetic": "interval",
@@ -65,7 +65,7 @@
       "note": "lower enclosure endpoint"
     },
     {
-      "value": "0.2519744487408958502183",
+      "value": "0.2519696459872491000812",
       "kind": "rigorous",
       "producer": "verify_best.py",
       "arithmetic": "interval",
@@ -73,7 +73,7 @@
       "note": "upper enclosure endpoint"
     },
     {
-      "value": "0.0000846898591041497817",
+      "value": "0.0000894926127508999188",
       "kind": "rigorous",
       "producer": "certificate_facts.py",
       "arithmetic": "exact",
@@ -81,7 +81,7 @@
       "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_280_v3_at_least"
     },
     {
-      "value": "0.0000335236591041497817",
+      "value": "0.0000383264127508999188",
       "kind": "rigorous",
       "producer": "certificate_facts.py",
       "arithmetic": "exact",
@@ -89,7 +89,7 @@
       "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_280_v4_at_least"
     },
     {
-      "value": "0.0000145126591041497817",
+      "value": "0.0000193154127508999188",
       "kind": "rigorous",
       "producer": "certificate_facts.py",
       "arithmetic": "exact",
@@ -97,7 +97,7 @@
       "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_280_v5_at_least"
     },
     {
-      "value": "0.0000178922591041497817",
+      "value": "0.0000226950127508999188",
       "kind": "rigorous",
       "producer": "certificate_facts.py",
       "arithmetic": "exact",
@@ -105,7 +105,7 @@
       "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_previous_330_at_least"
     },
     {
-      "value": "0.0000013729591041497817",
+      "value": "0.0000061757127508999188",
       "kind": "rigorous",
       "producer": "certificate_facts.py",
       "arithmetic": "exact",
@@ -113,7 +113,7 @@
       "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_round8_printed_at_least"
     },
     {
-      "value": "0.0000013728967610172567",
+      "value": "0.0000061756504077673938",
       "kind": "rigorous",
       "producer": "certificate_facts.py",
       "arithmetic": "exact",
@@ -137,7 +137,7 @@
       "note": "radius of our interval replay of the public #280 v4 certificate (evidence/pr280-v4-replay.json)"
     },
     {
-      "value": "0.25197444874089584903007645293157",
+      "value": "0.2519696459872490990419691935079545",
       "kind": "rigorous",
       "producer": "review/replay/check.py",
       "arithmetic": "interval",
@@ -145,12 +145,42 @@
       "note": "referee outward lower enclosure endpoint"
     },
     {
-      "value": "0.25197444874089584903007646836791",
+      "value": "0.2519696459872490990419691935079546",
       "kind": "rigorous",
       "producer": "review/replay/check.py",
       "arithmetic": "interval",
       "new_bound": false,
       "note": "referee outward upper enclosure endpoint"
+    },
+    {
+      "value": "0.2519744488",
+      "kind": "cited",
+      "source": "https://github.com/rpinho/math-certificates/blob/dadec7353c435a081befca73888e3ab6cef3134a/c82/degree104-joint/README.md",
+      "new_bound": false
+    },
+    {
+      "value": "0.0000048028127508999188",
+      "kind": "rigorous",
+      "producer": "certificate_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_round9_printed_at_least"
+    },
+    {
+      "value": "0.2519889613870203560855",
+      "kind": "rigorous",
+      "producer": "verify_v5.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Outward lower endpoint of our earlier #280 v5 replay; evidence/pr280-v5-replay.json, preserved from the template; not a new replay in this packaging job"
+    },
+    {
+      "value": "0.2519889613870203621210",
+      "kind": "rigorous",
+      "producer": "verify_v5.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "Outward upper endpoint of our earlier #280 v5 replay; evidence/pr280-v5-replay.json, preserved from the template; not a new replay in this packaging job"
     }
   ]
 }

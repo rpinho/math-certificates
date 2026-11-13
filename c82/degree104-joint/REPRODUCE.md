@@ -7,46 +7,45 @@ export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
 export VECLIB_MAXIMUM_THREADS=1 BLIS_NUM_THREADS=1 NUMBA_NUM_THREADS=1
 export PYTHONDONTWRITEBYTECODE=1
 C82_PYTHON=python3
-nice -n 10 "$C82_PYTHON" verify_best.py --certificate certificate.json --target 0.2519744488 --precision 256 --tol 1e-13 --out ../final-verifier.json
-nice -n 10 "$C82_PYTHON" review/replay/check.py review/inputs/certificates/certificate.json --prec 256 --tol 1e-22 --order 16 --target 0.2519744488 --output ../final-referee.json
+nice -n 10 "$C82_PYTHON" verify_best.py --certificate certificate.json --target 0.2519696460 --precision 256 --tol 1e-13 --out ../final-verifier.json
+nice -n 10 "$C82_PYTHON" review/replay/check.py --certificate review/inputs/certificates/certificate.json --prec 384 --eps 1e-22 --target 0.2519696460 --output ../final-referee.json
 shasum -a 256 -c SHA256SUMS
 ```
 
 To regenerate the packet receipt instead, use --out receipts/release-verifier.json, then run certificate_facts.py and seal.py at nice 10, followed by `egress-gate scan .`. receipts/release-verifier.log records the original packet replay command and environment. Any change to an included file requires resealing. Final replay outputs above are outside the sealed packet.
 
-The root certificate SHA256 is 1e5af10142c7223df4cd56a4279727a7610137dab8e5f2d95dcb19b3030ac67e. Certificate, verify_best.py and FACTOR_PROVENANCE.json retain the producer bytes unchanged. receipts/frozen-release-verifier.json is the producer's final replay. certificate_facts.py recomputes exact certificate facts, every README gap, and full coefficient overlaps with #280 v3/v4/v5.
+The root certificate SHA256 is 0c4df95ec7a422943176ab560b961531a41f5f7f83adeb8daae24878de643077. Certificate, verify_best.py and FACTOR_PROVENANCE.json retain the producer bytes unchanged. receipts/frozen-release-verifier.json is the producer's final replay. certificate_facts.py recomputes exact certificate facts, every README gap, and full coefficient overlaps with #280 v3/v4/v5.
 
-seal.py retains the template conventions and recomputes PYTHON_BLOBS.json, MANIFEST.json and SHA256SUMS, including review/ and root REPLAY.json. Its metadata-only blob comparison includes vidigoat's 191064e tree. The round-9 referee receipt is adapted only for release paths and canonical inputs_hash; the original remains review/replay/REPLAY.original.json.
+seal.py retains the template conventions and recomputes PYTHON_BLOBS.json, MANIFEST.json and SHA256SUMS, including review/ and root REPLAY.json. Its metadata-only blob comparison includes vidigoat's 191064e tree. The round-10 referee receipt is adapted only for release paths and canonical inputs_hash; the original remains review/replay/REPLAY.original.json.
 
-The producer section below is archival. Round 9 continued round 8 warm and met its frozen search bar. Only final archive-num-51-1 files, its restricted master/dual and finished.json are retained in rounds/. Earlier paths in the producer records are archival references; restoring a full historical search requires the producer directories, including the superseded round-8 certificate, in a separate workspace. The standalone round-8 certificate and historical encoding note are omitted. The producer's multiworker commands describe its completed run; they are not commands used in this one-core packaging job. run_local.sh accepts C82_PYTHON and uses relative paths and single-threaded numerical settings.
+The producer section below is archival. Rounds 9 and 10 continued round 8 warm and met their frozen search bars. Only final archive-num-77-0 files, its restricted master/dual and finished.json are retained in rounds/. Earlier paths in producer records are archival references; restoring a full historical search requires the producer directories, including the superseded round-8 and round-9 certificates, in a separate workspace. The producer's multiworker commands describe its completed run; they are not commands used in this one-core packaging job. run_local.sh accepts C82_PYTHON and uses relative paths and single-threaded numerical settings. The retained coefficient banks are gzip-compressed; restore as described in the producer section before any search reconstruction.
 
 ---
 
-Run from this job directory using the shared venv via run_local.sh (nice 10, all numerical thread counts one). Own round-8 scripts and full state/dual were copied by bootstrap.py; do not rerun bootstrap over a completed result.
+Our own round-9 scripts and warm data are copied and reused. Do not rerun bootstrap over results. run_local.sh selects the shared venv, nice -n 10, and single-thread BLAS/FLINT/HiGHS.
 
-Warm baseline replay:
-
-```sh
-./run_local.sh evidence/round8-verifier.py --certificate prior_sources/round8-certificate.json --target 0.2519758217 --precision 256 --tol 1e-13 --out evidence/reproduced-warm.json
-```
-
-The baseline command uses round 8's copied, unchanged pinned verifier; verify_best.py is pinned to this continuation's best packet.
-
-Search command used:
+Baseline replay:
 
 ```sh
-./run_local.sh run_cg.py --state rounds/warm.json --dual rounds/warm-dual.npz --first 22 --measure-first --workers 4 --den-workers 2 --seconds 240 > logs/cg.log 2>&1
+./run_local.sh evidence/round9-verifier.py --certificate prior_sources/round9-certificate.json --target 0.2519744488 --precision 256 --tol 1e-13 --out evidence/reproduced-warm.json
 ```
 
-Full-bank numerator pricing uses four single-threaded processes from round 23; its original serial code is retained in evidence/numerator_search_serial.py. The complete-bank reduced-cost formulas and order are unchanged.
+Warm search (restore compressed warm/provenance data first if needed):
 
-Each accepted solve is frozen and passed through a separately written (same agent) interval verifier. The exact replay command for the final packet is in REPORT.md. Timed stochastic search is not claimed to be bit-identical; all seeds and settings are saved. Resume from rounds/finished.json's state/dual with --first equal to its last round plus one. The full mutable bank is prior_sources/union-factor-bank.json.
+```sh
+for f in rounds/warm.json prior_sources/round8-bank.json prior_sources/round9-bank.json prior_sources/union-factor-bank.json; do
+  if [ ! -f "$f" ]; then gzip -dc "$f.gz" > "$f"; fi
+done
+./run_local.sh run_cg.py --state rounds/warm.json --dual rounds/warm-dual.npz --first 52 --measure-first --workers 4 --den-workers 2 --seconds 240 > logs/cg.log 2>&1
+```
+
+Timed search is stochastic; all seeds/settings are saved, but runtime differences need not reproduce identical factors. Exact certificates replay deterministically. The full union bank is prior_sources/union-factor-bank.json. Resume using rounds/finished.json's state/dual and the next round index. Only active numerator columns are compacted; all denominator columns and all bank numerator factors remain available.
 
 ```sh
 ./run_local.sh rejection_controls.py --certificate certificate.json --verifier verify_best.py
 ./run_local.sh source_inventory.py
 ```
 
-Older history can be stored as JSON/log gzip files. Restore with `gzip -dc PATH.json.gz > PATH.json`. Retired duals are regenerable with `./run_local.sh joint_lp.py --input rounds/STATE.json --prefix rounds/recomputed-STATE`; an LP dual on a degenerate face may differ. Current final state and dual remain uncompressed. Complete standalone best certificates and exact replays are retained in certificates/.
+Completed historical JSON/log files may be gzip-compressed. Restore with `gzip -dc FILE.json.gz > FILE.json`. The final LP state/dual remain uncompressed. Every new best and exact replay remain in certificates/.
 
-To keep the packet below 50 MB, old compressed floating LP master caches were moved to macOS Trash. The initial rounds/warm.json.gz and the current final master/dual are retained; certificate/replay records and every certificates/best_*.json remain. Old floating states/duals can be reconstructed approximately with joint_lp.py from the corresponding exact certificate; degenerate LP duals and timed searches need not be bit-identical. Restore warm.json from its gzip file before the warm search command if required.
+Redundant old floating LP state archives were moved to reversible macOS Trash at closure. The initial warm state and final state/dual remain. Older floating solutions can be approximately reconstructed from their exact certificate and the full coefficient bank using joint_lp.py; degenerate LP duals and timed stochastic searches need not be identical. Every certified best and exact replay remains in certificates/.

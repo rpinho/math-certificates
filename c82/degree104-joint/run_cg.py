@@ -10,7 +10,7 @@ def verify(prefix):
     cert=prefix+'-certificate.json';sha=hashlib.sha256(Path(cert).read_bytes()).hexdigest()
     source=''.join("EXPECTED = '"+sha+"'\n" if l.startswith('EXPECTED = ') else l for l in Path('verify_public.py').read_text().splitlines(True))
     verifier=prefix+'-verifier.py';Path(verifier).write_text(source)
-    run([verifier,'--certificate',cert,'--target','0.2519758217','--precision','256','--tol','1e-13','--out',prefix+'-replay.json'],prefix+'-verify.log')
+    run([verifier,'--certificate',cert,'--target','0.2519744488','--precision','256','--tol','1e-13','--out',prefix+'-replay.json'],prefix+'-verify.log')
     checkpoint(cert,verifier,prefix+'-replay.json')
 
 def compact(state,out):
@@ -44,8 +44,8 @@ def batch(jobs):
     if any(codes):raise RuntimeError('search failed: '+str(codes))
 
 if __name__=='__main__':
-    ap=argparse.ArgumentParser();ap.add_argument('--state',default='rounds/warm.json');ap.add_argument('--dual',default='rounds/warm-dual.npz');ap.add_argument('--first',type=int,default=22);ap.add_argument('--empty',type=int,default=0);ap.add_argument('--seconds',type=int,default=240);ap.add_argument('--workers',type=int,default=4);ap.add_argument('--den-workers',type=int,default=2);ap.add_argument('--rounds',type=int,default=100);ap.add_argument('--measure-first',action='store_true');a=ap.parse_args();register('alternating_cg')
-    state=a.state;dual=a.dual;empty=a.empty;history=[];start=json.loads(Path('evidence/start.json').read_text())['start_epoch']
+    ap=argparse.ArgumentParser();ap.add_argument('--state',default='rounds/warm.json');ap.add_argument('--dual',default='rounds/warm-dual.npz');ap.add_argument('--first',type=int,default=52);ap.add_argument('--empty',type=int,default=0);ap.add_argument('--seconds',type=int,default=240);ap.add_argument('--workers',type=int,default=4);ap.add_argument('--den-workers',type=int,default=2);ap.add_argument('--rounds',type=int,default=100);ap.add_argument('--measure-first',action='store_true');a=ap.parse_args();register('alternating_cg')
+    state=a.state;dual=a.dual;empty=a.empty;history=json.loads(Path('rounds/progress.json').read_text())['history'] if Path('rounds/progress.json').exists() and a.first>53 else [];start=json.loads(Path('evidence/start.json').read_text())['start_epoch']
     if a.first==1:verify(state.removesuffix('.json'))
     state=compact(state,f'rounds/restricted-{a.first}.json')
     for k in range(a.first,a.first+a.rounds):

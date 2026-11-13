@@ -20,7 +20,7 @@ for path in sorted(Path('rounds').glob('*.json')):
     with gzip.open(str(path)+'.gz','wb') as out:out.write(path.read_bytes())
     compressed.append(path)
 for path in sorted([*Path('logs').glob('*.log'),*Path('rounds').glob('*-verify.log')]):
-    if path.name=='cg.log' or path.stat().st_size<8192:continue
+    if path.name.startswith('cg') or path.stat().st_size<8192:continue
     digits=re.findall(r'\d+',path.stem);k=int(digits[0]) if digits else 0
     if k>limit:continue
     with gzip.open(str(path)+'.gz','wb') as out:out.write(path.read_bytes())
@@ -29,6 +29,8 @@ for path in sorted(Path('rounds').glob('*-dual.npz')):
     digits=re.findall(r'\d+',path.stem);k=int(digits[0]) if digits else 0
     if k<=limit and path not in keep_dual:retired.append(path)
 if compressed or retired:
-    subprocess.run(['/usr/bin/trash',*[str(p.resolve()) for p in compressed+retired]],check=True)
-    with open('STATUS.md','a') as f:f.write(f'\nRetained <50 MB: gzip-compressed {len(compressed)} completed historical JSON/log files and moved {len(retired)} old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.\n')
+    for path in compressed+retired:
+        quoted=str(path.resolve()).replace('\\','\\\\').replace(chr(34),'\\'+chr(34))
+        subprocess.run(['/usr/bin/trash', str(path.resolve())], check=True)
+    with open('STATUS.md','a') as f:f.write(f'\nCompressed completed history: gzip-compressed {len(compressed)} completed historical JSON/log files and moved {len(retired)} old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.\n')
 print(json.dumps({'compressed_history_files':len(compressed),'retired_dual_caches':len(retired)}))

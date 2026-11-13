@@ -1,427 +1,419 @@
-You asked: push the certified C82 upper bound further below round 8's 0.2519758217, continuing its warm search. I will: reuse round 8's scripts and full union bank, continue LLL numerator pricing and closest-vector denominator generation, and ship a candidate, unrefereed certificate below 0.2519758216 or the best certified value and why it stopped.
+You asked: push the certified C82 upper bound below round 9's 0.2519744488, warm from its final LP state, with frozen bar B < 0.2519744487. I will: reuse our round 9 scripts and full rounds 8–9 bank, alternate LLL numerator pricing and CVP denominator generation, certify each new best, and ship REPORT.md with the best certified value and why search stopped.
 
-Started 2026-11-12. Read the machine-wide RULES.md. Limits: 10 hours, 6 cores, 3 GB total RSS; nice 10 and single-threaded BLAS. No external writes or messages. No novelty judgment.
+2026-11-12: Read machine rules first. Preparing inherited state and prior-art context; no search started. Job limit: 10 hours, at most 6 cores, aggregate RSS 3 GB. No novelty judgment, external writes, or third-party Python reuse.
 
-Copied and reused our round-8 numerical helpers, joint LP, LLL numerator search, CVP search, mergers, controller, separately written verifier, rejection controls and source-inventory method, plus full union bank and final LP state/dual. Inherited public data only; no third-party Python. Four numerator workers and two denominator workers, alternating, with sequential LP/verification.
+Copied and reused our round-9 joint LP, numerical helpers, LLL numerator pricing, CVP denominator search, full-bank pricing, mergers, controller, checkpoint code, separately written verifier, controls and source inventory. Warm final LP/dual and full rounds 8–9 coefficient bank retained. Four numerator workers and two CVP workers alternate; sequential solve/verification.
 
-Setup failure: ./run_local.sh public_reads.py initial exited 126 (permission denied). Restored the inherited wrapper before investigating: copyfile had preserved contents but not its executable bit. Apply chmod +x, as round 8's setup did; numerical scripts and method unchanged.
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519744487408958502183; frozen target not yet met. Source certificate.json
 
-The no-gain stop counts actual certified endpoint improvements over a complete alternating round. Round 8's inherited LP cutoff of 1e-10 is larger than the new frozen-bar margin (3.77e-11), so it is not used to discard certified gains here. The search, LP tolerances and verifier are unchanged. Solo first-round measurements precede scaling to 4 numerator / 2 denominator workers; at most 4 numerical workers run at once.
+2026-11-12 09:58:07 Round 52: num new-column search on rounds/restricted-52.json, dual rounds/warm-dual.npz.
 
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519758216376568674750; frozen target not yet met. Source certificate.json
+Baseline replay passed: B upper endpoint 0.2519744487408958502183. Baseline worker peak RSS from logs/baseline-replay.log.time is retained, sampled aggregate 62,930,944 bytes. Search starts at round 52 using the unchanged inherited alternation and 240-second generation budgets. The effective niceness inherits the launcher; run_local.sh adds nice -n 10.
 
-Warm baseline replay passed: B in [0.2519758216376568634394, 0.2519758216376568674750], unchanged from round 8. Solo verifier /usr/bin/time -l peak RSS: 38,764,544 bytes; 73.09 seconds wall. The baseline does not meet 0.2519758216. Begin round 22 with inherited full LP state and dual.
+Measured solo num worker: maximum resident set size 108478464 bytes; times planned 4 workers = 433913856 bytes. Aggregate RSS in evidence/compute.jsonl.
 
-2026-11-12 00:13:46 Round 22: num new-column search on rounds/restricted-22.json, dual rounds/warm-dual.npz.
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519744483636100482926; frozen target met. Source rounds/num-52-certificate.json
 
-Measured solo num worker: see logs/num-search-22-0.log.time and aggregate RSS in evidence/compute.jsonl; planned subsequent worker count 4.
+2026-11-12 10:06:26 Round 52: den new-column search on rounds/restricted-num-52.json, dual rounds/num-52-dual.npz.
 
-Solo round-22 numerator worker measured 108,412,928 bytes maximum resident set size; four times this is 433,651,712 bytes, below 3 GB. Continue planned four-worker numerator batches after solo denominator measurement.
+Measured solo den worker: maximum resident set size 458342400 bytes; times planned 2 workers = 916684800 bytes. Aggregate RSS in evidence/compute.jsonl.
 
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519758125556973843153; frozen target met. Source rounds/num-22-certificate.json
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519721993911815707394; frozen target met. Source rounds/den-52-certificate.json
 
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519758117536014522265; frozen target met. Source rounds/archive-num-22-0-certificate.json
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519715086773613875439; frozen target met. Source rounds/archive-den-52-0-certificate.json
 
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519758115766568544853; frozen target met. Source rounds/archive-num-22-1-certificate.json
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519708914329409044822; frozen target met. Source rounds/archive-den-52-1-certificate.json
 
-2026-11-12 00:40:41 Round 22: den new-column search on rounds/restricted-archive-num-22-1.json, dual rounds/archive-num-22-1-dual.npz.
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519708758817242415556; frozen target met. Source rounds/archive-den-52-2-certificate.json
 
-Measured solo den worker: see logs/den-search-22-0.log.time and aggregate RSS in evidence/compute.jsonl; planned subsequent worker count 4.
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519708745781637779896; frozen target met. Source rounds/archive-den-52-3-certificate.json
 
-{"round": 22, "old_lp": 0.25197582156501663, "new_lp": 0.25197581143918496, "gain": 1.0125831673146735e-08, "certified_gain": "1164984211320734737822805931259126172632385987925406019125361389845747/115792089237316195423570985008687907853269984665640564039457584007913129639936", "negative_candidates": {"num": 4, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-22-1.json", "dual": "rounds/archive-num-22-1-dual.npz"}
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519708741876694861411; frozen target met. Source rounds/archive-den-52-4-certificate.json
 
-2026-11-12 00:44:47 Round 23: num new-column search on rounds/restricted-archive-num-22-1.json, dual rounds/archive-num-22-1-dual.npz.
+{"round": 52, "old_lp": 0.25197444859878654, "new_lp": 0.25197087410122315, "gain": 3.5744975633855702e-06, "certified_gain": "827809972341371498426864208412224353272550894573244380655366559136585025/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 1, "den": 1}, "empty_rounds": 0, "state": "rounds/restricted-archive-den-52-4.json", "dual": "rounds/archive-den-52-4-dual.npz"}
 
-Solo round-22 CVP worker measured 451,559,424 bytes maximum resident set size; two planned CVP workers total 903,118,848 bytes before controller overhead, below 3 GB. The inherited controller's preceding generic “planned worker count 4” line refers to numerator workers; denominator batches use --den-workers 2. Round 23 starts the planned 4 numerator / 2 denominator allocation, in alternating batches.
+2026-11-12 10:27:14 Round 53: num new-column search on rounds/restricted-archive-den-52-4.json, dual rounds/archive-den-52-4-dual.npz.
 
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519757068257903981497; frozen target met. Source rounds/num-23-certificate.json
+Retained <50 MB: gzip-compressed 54 completed historical JSON/log files and moved 6 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
 
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519757008027238753495; frozen target met. Source rounds/archive-num-23-0-certificate.json
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519706569734291206548; frozen target met. Source rounds/num-53-certificate.json
 
-Execution allocation: serial complete-bank numerator pricing ran normally and exposed additional gains, but now takes 6–7 minutes per moved dual (logs/archive-num-23-1.log). Assign four single-threaded workers to the independent per-factor gcd/root-log/reduced-cost calculations, retaining the full bank, original order, original formulas and sequential LP. This changes CPU allocation, not the mathematical search method. Original serial code is saved as evidence/numerator_search_serial.py for immediate reversion. The first complete parallel pass remains supervised under /usr/bin/time -l and the 3 GB aggregate guard.
+Storage maintenance: completed-history compression alone left 54,640 KiB after round 53 generated thousands of factors. Compressing the immutable round-8/9 provenance bank copies; checkpoint reader will accept gzip. Exact coefficients and live search bank/state remain unchanged.
 
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519757007788551890048; frozen target met. Source rounds/archive-num-23-1-certificate.json
+Controller exited with error after compressed-provenance reader change. Reverted that reader change and restored the exact original bank bytes before investigating. Latest interval-certified packet remains saved.
 
-2026-11-12 01:09:04 Round 23: den new-column search on rounds/restricted-archive-num-23-1.json, dual rounds/archive-num-23-1-dual.npz.
+Failure identified: logs/cg.log, checkpoint() after rounds/archive-num-53-0 interval replay, FileNotFoundError prior_sources/round9-bank.json. The running controller had imported the original checkpoint module before the gzip-reader edit, so it still required the uncompressed bank. Revert restored the original reader and exact bank bytes. Continuing with uncompressed immutable banks until search ends; storage compression will occur only after the last checkpoint reader exits. No numerical method or certificate arithmetic changes. Resume round 53 after its already-certified archive numerator pass 0, then complete its CVP phase and continue round 54. One reverted storage change, no chain of forward fixes.
 
-First four-worker full-bank pass completed normally (rounds/archive-num-23-2-screen.json): 104.89 wall seconds, 425.58 recorded CPU seconds including supervision, sampled aggregate RSS 559,382,528 bytes. No additional negative column. This preserves complete bank coverage and ordered reduced-cost evaluation; degree-104 CVP now runs with two workers on the latest dual.
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519705568922036187138; frozen target met. Source rounds/archive-num-53-0-certificate.json
 
-{"round": 23, "old_lp": 0.25197581143918496, "new_lp": 0.25197570069133535, "gain": 1.1074784961317974e-07, "certified_gain": "12829508937747782055522031601955452378340708261929537844172703704238847/115792089237316195423570985008687907853269984665640564039457584007913129639936", "negative_candidates": {"num": 22, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-23-1.json", "dual": "rounds/archive-num-23-1-dual.npz"}
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519705331588041200670; frozen target met. Source rounds/archive-num-53-1-certificate.json
 
-2026-11-12 01:13:09 Round 24: num new-column search on rounds/restricted-archive-num-23-1.json, dual rounds/archive-num-23-1-dual.npz.
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519705208689315963103; frozen target met. Source rounds/archive-num-53-2-certificate.json
 
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519756801294185915884; frozen target met. Source rounds/num-24-certificate.json
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519705206196310184723; frozen target met. Source rounds/archive-num-53-3-certificate.json
 
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519756748558874032218; frozen target met. Source rounds/archive-num-24-0-certificate.json
+2026-11-12 10:52:20 Round 53: den new-column search on rounds/restricted-archive-num-53-3.json, dual rounds/archive-num-53-3-dual.npz.
 
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519756747468334639667; frozen target met. Source rounds/archive-num-24-1-certificate.json
+{"round": 53, "old_lp": 0.25197087410122315, "new_lp": 0.2519705205687971, "gain": 3.5353242605618007e-07, "certified_gain": "81880763723422287920083306711205364411574754464859422039831545598996325/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 6381, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-53-3.json", "dual": "rounds/archive-num-53-3-dual.npz", "interruption": "storage-reader revert; resumed after archive-num-53-0"}
 
-2026-11-12 01:26:38 Round 24: den new-column search on rounds/restricted-archive-num-24-1.json, dual rounds/archive-num-24-1-dual.npz.
-
-{"round": 24, "old_lp": 0.25197570069133535, "new_lp": 0.25197567461195775, "gain": 2.6079377601906373e-08, "certified_gain": "3014302182613366749195661859954173923133843898624189351063620418470759/115792089237316195423570985008687907853269984665640564039457584007913129639936", "negative_candidates": {"num": 7, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-24-1.json", "dual": "rounds/archive-num-24-1-dual.npz"}
-
-2026-11-12 01:30:41 Round 25: num new-column search on rounds/restricted-archive-num-24-1.json, dual rounds/archive-num-24-1-dual.npz.
-
-Retained <50 MB: gzip-compressed 93 completed historical JSON/log files and moved 8 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519756557935080371234; frozen target met. Source rounds/num-25-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519756556946732165262; frozen target met. Source rounds/archive-num-25-0-certificate.json
-
-2026-11-12 01:41:32 Round 25: den new-column search on rounds/restricted-archive-num-25-0.json, dual rounds/archive-num-25-0-dual.npz.
-
-{"round": 25, "old_lp": 0.25197567461195775, "new_lp": 0.2519756556039317, "gain": 1.9008026042044435e-08, "certified_gain": "2206089439535282563649229215574798523935749778077551966459829129160043/115792089237316195423570985008687907853269984665640564039457584007913129639936", "negative_candidates": {"num": 11, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-25-0.json", "dual": "rounds/archive-num-25-0-dual.npz"}
-
-2026-11-12 01:45:35 Round 26: num new-column search on rounds/restricted-archive-num-25-0.json, dual rounds/archive-num-25-0-dual.npz.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519756481745235770197; frozen target met. Source rounds/num-26-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519756479080223813978; frozen target met. Source rounds/archive-num-26-0-certificate.json
-
-2026-11-12 01:56:34 Round 26: den new-column search on rounds/restricted-archive-num-26-0.json, dual rounds/archive-num-26-0-dual.npz.
-
-{"round": 26, "old_lp": 0.2519756556039317, "new_lp": 0.2519756478067755, "gain": 7.797156198474653e-09, "certified_gain": "1803265136722018620489578778459057159179531351995365967537677819452135/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 3, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-26-0.json", "dual": "rounds/archive-num-26-0-dual.npz"}
-
-2026-11-12 02:00:35 Round 27: num new-column search on rounds/restricted-archive-num-26-0.json, dual rounds/archive-num-26-0-dual.npz.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519756193606640932567; frozen target met. Source rounds/num-27-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519756190595209022274; frozen target met. Source rounds/archive-num-27-0-certificate.json
-
-2026-11-12 02:11:23 Round 27: den new-column search on rounds/restricted-archive-num-27-0.json, dual rounds/archive-num-27-0-dual.npz.
-
-{"round": 27, "old_lp": 0.2519756478067755, "new_lp": 0.2519756189774596, "gain": 2.882931587899762e-08, "certified_gain": "6680856515277883349326762433723971386232995143738582310997949018627071/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 13, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-27-0.json", "dual": "rounds/archive-num-27-0-dual.npz"}
-
-2026-11-12 02:15:25 Round 28: num new-column search on rounds/restricted-archive-num-27-0.json, dual rounds/archive-num-27-0-dual.npz.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519756069540503236489; frozen target met. Source rounds/num-28-certificate.json
-
-Retained <50 MB: gzip-compressed 83 completed historical JSON/log files and moved 6 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519756068984098885200; frozen target met. Source rounds/archive-num-28-0-certificate.json
-
-2026-11-12 02:26:38 Round 28: den new-column search on rounds/restricted-archive-num-28-0.json, dual rounds/archive-num-28-0-dual.npz.
-
-{"round": 28, "old_lp": 0.2519756189774596, "new_lp": 0.2519756068447218, "gain": 1.2132737814418704e-08, "certified_gain": "2816320903448242953649903584575089821480488825271045636991276719245717/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 9, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-28-0.json", "dual": "rounds/archive-num-28-0-dual.npz"}
-
-2026-11-12 02:30:43 Round 29: num new-column search on rounds/restricted-archive-num-28-0.json, dual rounds/archive-num-28-0-dual.npz.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519755916525379614194; frozen target met. Source rounds/num-29-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519755916328177380492; frozen target met. Source rounds/archive-num-29-0-certificate.json
-
-2026-11-12 02:41:39 Round 29: den new-column search on rounds/restricted-archive-num-29-0.json, dual rounds/archive-num-29-0-dual.npz.
-
-{"round": 29, "old_lp": 0.2519756068447218, "new_lp": 0.25197559153889837, "gain": 1.5305823442002264e-08, "certified_gain": "3535269617095576824360129711709749402656392641438494984901669666342421/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 7, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-29-0.json", "dual": "rounds/archive-num-29-0-dual.npz"}
-
-2026-11-12 02:45:39 Round 30: num new-column search on rounds/restricted-archive-num-29-0.json, dual rounds/archive-num-29-0-dual.npz.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519755583505470508310; frozen target met. Source rounds/num-30-certificate.json
-
-Retained <50 MB: gzip-compressed 54 completed historical JSON/log files and moved 4 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519755517636076710567; frozen target met. Source rounds/archive-num-30-0-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519755516419089843136; frozen target met. Source rounds/archive-num-30-1-certificate.json
-
-2026-11-12 03:00:07 Round 30: den new-column search on rounds/restricted-archive-num-30-1.json, dual rounds/archive-num-30-1-dual.npz.
-
-{"round": 30, "old_lp": 0.25197559153889837, "new_lp": 0.25197555154923856, "gain": 3.998965980578362e-08, "certified_gain": "2315315437546960633622930533339669924623366382152374293609973620814731/57896044618658097711785492504343953926634992332820282019728792003956564819968", "negative_candidates": {"num": 10, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-30-1.json", "dual": "rounds/archive-num-30-1-dual.npz"}
-
-2026-11-12 03:04:10 Round 31: num new-column search on rounds/restricted-archive-num-30-1.json, dual rounds/archive-num-30-1-dual.npz.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519755447751923149066; frozen target met. Source rounds/num-31-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519755445399234998198; frozen target met. Source rounds/archive-num-31-0-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519755445300598721447; frozen target met. Source rounds/archive-num-31-1-certificate.json
-
-Retained <50 MB: gzip-compressed 34 completed historical JSON/log files and moved 3 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
-
-2026-11-12 03:22:37 Round 31: den new-column search on rounds/restricted-archive-num-31-2.json, dual rounds/archive-num-31-2-dual.npz.
-
-{"round": 31, "old_lp": 0.25197555154923856, "new_lp": 0.2519755444221206, "gain": 7.127117951366557e-09, "certified_gain": "411747933519291981821807169957943513303900148865390378542698746475779/57896044618658097711785492504343953926634992332820282019728792003956564819968", "negative_candidates": {"num": 8, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-31-2.json", "dual": "rounds/archive-num-31-2-dual.npz"}
-
-2026-11-12 03:26:42 Round 32: num new-column search on rounds/restricted-archive-num-31-2.json, dual rounds/archive-num-31-2-dual.npz.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519754894616937182643; frozen target met. Source rounds/num-32-certificate.json
-
-Retained <50 MB: gzip-compressed 41 completed historical JSON/log files and moved 4 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519754858009415858806; frozen target met. Source rounds/archive-num-32-0-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519754855975299582795; frozen target met. Source rounds/archive-num-32-1-certificate.json
-
-2026-11-12 03:41:29 Round 32: den new-column search on rounds/restricted-archive-num-32-1.json, dual rounds/archive-num-32-1-dual.npz.
-
-{"round": 32, "old_lp": 0.2519755444221206, "new_lp": 0.2519754854829777, "gain": 5.893914289956115e-08, "certified_gain": "13647841525534178458124736893083625972644930852887240928330872510545965/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 15, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-32-1.json", "dual": "rounds/archive-num-32-1-dual.npz"}
-
-2026-11-12 03:45:33 Round 33: num new-column search on rounds/restricted-archive-num-32-1.json, dual rounds/archive-num-32-1-dual.npz.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519754848329520052216; frozen target met. Source rounds/num-33-certificate.json
-
-Retained <50 MB: gzip-compressed 34 completed historical JSON/log files and moved 3 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
-
-2026-11-12 03:53:21 Round 33: den new-column search on rounds/restricted-num-33.json, dual rounds/num-33-dual.npz.
-
-{"round": 33, "old_lp": 0.2519754854829777, "new_lp": 0.2519754847094788, "gain": 7.734989315721919e-10, "certified_gain": "88532078569368843140325072393342881435964794193609218468900270719463/115792089237316195423570985008687907853269984665640564039457584007913129639936", "negative_candidates": {"num": 1, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-num-33.json", "dual": "rounds/num-33-dual.npz"}
-
-2026-11-12 03:57:25 Round 34: num new-column search on rounds/restricted-num-33.json, dual rounds/num-33-dual.npz.
-
-2026-11-12 04:01:26 Round 34: den new-column search on rounds/restricted-num-33.json, dual rounds/num-33-dual.npz.
-
-{"round": 34, "old_lp": 0.2519754847094788, "new_lp": 0.2519754847094788, "gain": 0.0, "certified_gain": "0", "negative_candidates": {"num": 0, "den": 0}, "empty_rounds": 1, "state": "rounds/restricted-num-33.json", "dual": "rounds/num-33-dual.npz"}
-
-2026-11-12 04:05:29 Round 35: num new-column search on rounds/restricted-num-33.json, dual rounds/num-33-dual.npz.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519754806606503392866; frozen target met. Source rounds/num-35-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519754806246492688047; frozen target met. Source rounds/archive-num-35-0-certificate.json
-
-Retained <50 MB: gzip-compressed 32 completed historical JSON/log files and moved 1 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
-
-2026-11-12 04:16:51 Round 35: den new-column search on rounds/restricted-archive-num-35-0.json, dual rounds/archive-num-35-0-dual.npz.
-
-{"round": 35, "old_lp": 0.2519754847094788, "new_lp": 0.2519754805318069, "gain": 4.1776718751052044e-09, "certified_gain": "974576331985650344669172850711816015152575786995701831843231149268735/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 3, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-35-0.json", "dual": "rounds/archive-num-35-0-dual.npz"}
-
-2026-11-12 04:20:55 Round 36: num new-column search on rounds/restricted-archive-num-35-0.json, dual rounds/archive-num-35-0-dual.npz.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519754778395081456327; frozen target met. Source rounds/num-36-certificate.json
-
-Retained <50 MB: gzip-compressed 27 completed historical JSON/log files and moved 2 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519754773256954499739; frozen target met. Source rounds/archive-num-36-0-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519754773207200846022; frozen target met. Source rounds/archive-num-36-1-certificate.json
-
-2026-11-12 04:35:04 Round 36: den new-column search on rounds/restricted-archive-num-36-1.json, dual rounds/archive-num-36-1-dual.npz.
-
-{"round": 36, "old_lp": 0.2519754805318069, "new_lp": 0.25197547718400504, "gain": 3.3478018690580313e-09, "certified_gain": "765137725861885409742126011842499144913078980801323439669409579813163/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 3, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-36-1.json", "dual": "rounds/archive-num-36-1-dual.npz"}
-
-2026-11-12 04:39:10 Round 37: num new-column search on rounds/restricted-archive-num-36-1.json, dual rounds/archive-num-36-1-dual.npz.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519754249846646812583; frozen target met. Source rounds/num-37-certificate.json
-
-Retained <50 MB: gzip-compressed 34 completed historical JSON/log files and moved 3 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519753943998049659379; frozen target met. Source rounds/archive-num-37-0-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519753941452102234653; frozen target met. Source rounds/archive-num-37-1-certificate.json
-
-2026-11-12 04:52:49 Round 37: den new-column search on rounds/restricted-archive-num-37-1.json, dual rounds/archive-num-37-1-dual.npz.
-
-{"round": 37, "old_lp": 0.25197547718400504, "new_lp": 0.25197539406116887, "gain": 8.312283616973559e-08, "certified_gain": "19262132120400089497985166353451997961583435530470442131807817475049901/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 2, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-37-1.json", "dual": "rounds/archive-num-37-1-dual.npz"}
-
-2026-11-12 04:56:54 Round 38: num new-column search on rounds/restricted-archive-num-37-1.json, dual rounds/archive-num-37-1-dual.npz.
-
-Retained <50 MB: gzip-compressed 32 completed historical JSON/log files and moved 3 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519753794609831952451; frozen target met. Source rounds/num-38-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519753777227970820186; frozen target met. Source rounds/archive-num-38-0-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519753776928587379400; frozen target met. Source rounds/archive-num-38-1-certificate.json
-
-2026-11-12 05:13:57 Round 38: den new-column search on rounds/restricted-archive-num-38-2.json, dual rounds/archive-num-38-2-dual.npz.
-
-{"round": 38, "old_lp": 0.25197539406116887, "new_lp": 0.2519753776494466, "gain": 1.6411722258968808e-08, "certified_gain": "3810104302751265882821235744025859196114567557797668774724976181017599/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 13, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-38-2.json", "dual": "rounds/archive-num-38-2-dual.npz"}
-
-2026-11-12 05:18:04 Round 39: num new-column search on rounds/restricted-archive-num-38-2.json, dual rounds/archive-num-38-2-dual.npz.
-
-Retained <50 MB: gzip-compressed 41 completed historical JSON/log files and moved 4 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519752868352606523623; frozen target met. Source rounds/num-39-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519752765150925342784; frozen target met. Source rounds/archive-num-39-0-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519752764462934577264; frozen target met. Source rounds/archive-num-39-1-certificate.json
-
-Retained packet reached 45 MB. Moved 84 old compressed floating LP caches (6,791,339 bytes) to macOS Trash; their old dual caches had already been retired. Warm state, current state/dual, complete factor bank, every best certificate, all certificate/replay records and all Python remain. Bound reproduction uses the standalone exact certificates and verifier.
-
-2026-11-12 05:36:40 Round 39: den new-column search on rounds/restricted-archive-num-39-2.json, dual rounds/archive-num-39-2-dual.npz.
-
-{"round": 39, "old_lp": 0.2519753776494466, "new_lp": 0.25197527635329914, "gain": 1.0129614747000915e-07, "certified_gain": "23447102643796512100451400302297601451599517816504497709171460446868223/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 14, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-39-2.json", "dual": "rounds/archive-num-39-2-dual.npz"}
-
-2026-11-12 05:40:45 Round 40: num new-column search on rounds/restricted-archive-num-39-2.json, dual rounds/archive-num-39-2-dual.npz.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519752409309729003823; frozen target met. Source rounds/num-40-certificate.json
-
-Retained <50 MB: gzip-compressed 43 completed historical JSON/log files and moved 4 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519752387003503386237; frozen target met. Source rounds/archive-num-40-0-certificate.json
-
-2026-11-12 05:51:48 Round 40: den new-column search on rounds/restricted-archive-num-40-0.json, dual rounds/archive-num-40-0-dual.npz.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519749220891971145117; frozen target met. Source rounds/den-40-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519747921404401885183; frozen target met. Source rounds/archive-den-40-0-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519747817061537509278; frozen target met. Source rounds/archive-den-40-1-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519747806254432357571; frozen target met. Source rounds/archive-den-40-2-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519747806105809080127; frozen target met. Source rounds/archive-den-40-3-certificate.json
-
-{"round": 40, "old_lp": 0.25197527635329914, "new_lp": 0.2519747805338462, "gain": 4.958194529391946e-07, "certified_gain": "114827706149209409913751315286964116685120687545761884958799343151785105/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 25, "den": 1}, "empty_rounds": 0, "state": "rounds/restricted-archive-den-40-3.json", "dual": "rounds/archive-den-40-3-dual.npz"}
-
-2026-11-12 06:11:59 Round 41: num new-column search on rounds/restricted-archive-den-40-3.json, dual rounds/archive-den-40-3-dual.npz.
-
-Retained <50 MB: gzip-compressed 61 completed historical JSON/log files and moved 7 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519747169284980306825; frozen target met. Source rounds/num-41-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519746944962311012419; frozen target met. Source rounds/archive-num-41-0-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519746920810862792909; frozen target met. Source rounds/archive-num-41-1-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519746916473669833747; frozen target met. Source rounds/archive-num-41-2-certificate.json
-
-2026-11-12 06:30:17 Round 41: den new-column search on rounds/restricted-archive-num-41-2.json, dual rounds/archive-num-41-2-dual.npz.
-
-{"round": 41, "old_lp": 0.2519747805338462, "new_lp": 0.25197469152880103, "gain": 8.900504516740071e-08, "certified_gain": "20602472811200269395762693527689989656300480403628114230138426958557785/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 221, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-41-2.json", "dual": "rounds/archive-num-41-2-dual.npz"}
-
-2026-11-12 06:34:22 Round 42: num new-column search on rounds/restricted-archive-num-41-2.json, dual rounds/archive-num-41-2-dual.npz.
-
-Retained <50 MB: gzip-compressed 41 completed historical JSON/log files and moved 4 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519746255527689625549; frozen target met. Source rounds/num-42-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519745906924629447561; frozen target met. Source rounds/archive-num-42-0-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519745904262694651072; frozen target met. Source rounds/archive-num-42-1-certificate.json
-
-2026-11-12 06:48:27 Round 42: den new-column search on rounds/restricted-archive-num-42-1.json, dual rounds/archive-num-42-1-dual.npz.
-
-{"round": 42, "old_lp": 0.25197469152880103, "new_lp": 0.25197459034703096, "gain": 1.0118177007356621e-07, "certified_gain": "23441204713068642302693408493267263680596537841411900952989930006233463/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 399, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-42-1.json", "dual": "rounds/archive-num-42-1-dual.npz"}
-
-2026-11-12 06:52:32 Round 43: num new-column search on rounds/restricted-archive-num-42-1.json, dual rounds/archive-num-42-1-dual.npz.
-
-Retained <50 MB: gzip-compressed 34 completed historical JSON/log files and moved 3 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519745440628156078764; frozen target met. Source rounds/num-43-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519745426343467702732; frozen target met. Source rounds/archive-num-43-0-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519745424908702794659; frozen target met. Source rounds/archive-num-43-1-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519745424797357957986; frozen target met. Source rounds/archive-num-43-2-certificate.json
-
-2026-11-12 07:10:45 Round 43: den new-column search on rounds/restricted-archive-num-43-2.json, dual rounds/archive-num-43-2-dual.npz.
-
-{"round": 43, "old_lp": 0.25197459034703096, "new_lp": 0.2519745423580893, "gain": 4.798894165380929e-08, "certified_gain": "5551829305256563326240899312104601739032351529414571252096976752707033/115792089237316195423570985008687907853269984665640564039457584007913129639936", "negative_candidates": {"num": 39, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-43-2.json", "dual": "rounds/archive-num-43-2-dual.npz"}
-
-2026-11-12 07:14:48 Round 44: num new-column search on rounds/restricted-archive-num-43-2.json, dual rounds/archive-num-43-2-dual.npz.
-
-Retained <50 MB: gzip-compressed 41 completed historical JSON/log files and moved 4 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519745289258011211607; frozen target met. Source rounds/num-44-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519745284920620517042; frozen target met. Source rounds/archive-num-44-0-certificate.json
-
-2026-11-12 07:29:18 Round 44: den new-column search on rounds/restricted-archive-num-44-1.json, dual rounds/archive-num-44-1-dual.npz.
-
-{"round": 44, "old_lp": 0.2519745423580893, "new_lp": 0.25197452830338707, "gain": 1.4054702235366534e-08, "certified_gain": "1619661966398647491282771695287946704975817302752375610265274140088125/115792089237316195423570985008687907853269984665640564039457584007913129639936", "negative_candidates": {"num": 21, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-44-1.json", "dual": "rounds/archive-num-44-1-dual.npz"}
-
-2026-11-12 07:33:25 Round 45: num new-column search on rounds/restricted-archive-num-44-1.json, dual rounds/archive-num-44-1-dual.npz.
-
-Retained <50 MB: gzip-compressed 34 completed historical JSON/log files and moved 3 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519745077480290575307; frozen target met. Source rounds/num-45-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519745075307625806976; frozen target met. Source rounds/archive-num-45-0-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519745075302016513671; frozen target met. Source rounds/archive-num-45-1-certificate.json
-
-2026-11-12 07:48:33 Round 45: den new-column search on rounds/restricted-archive-num-45-1.json, dual rounds/archive-num-45-1-dual.npz.
-
-{"round": 45, "old_lp": 0.25197452830338707, "new_lp": 0.25197450742539096, "gain": 2.087799610972496e-08, "certified_gain": "4854435220111988841814114118427301481611656907298723469506302614721251/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 15, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-45-1.json", "dual": "rounds/archive-num-45-1-dual.npz"}
-
-2026-11-12 07:52:39 Round 46: num new-column search on rounds/restricted-archive-num-45-1.json, dual rounds/archive-num-45-1-dual.npz.
-
-Retained <50 MB: gzip-compressed 34 completed historical JSON/log files and moved 3 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519744957651570195342; frozen target met. Source rounds/num-46-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519744952515796401594; frozen target met. Source rounds/archive-num-46-0-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519744952289922818985; frozen target met. Source rounds/archive-num-46-1-certificate.json
-
-2026-11-12 08:07:46 Round 46: den new-column search on rounds/restricted-archive-num-46-1.json, dual rounds/archive-num-46-1-dual.npz.
-
-{"round": 46, "old_lp": 0.25197450742539096, "new_lp": 0.25197449514856657, "gain": 1.2276824390422547e-08, "certified_gain": "1424382733036411948211741836263237072719402677069734189030441789012145/115792089237316195423570985008687907853269984665640564039457584007913129639936", "negative_candidates": {"num": 7, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-46-1.json", "dual": "rounds/archive-num-46-1-dual.npz"}
-
-2026-11-12 08:11:50 Round 47: num new-column search on rounds/restricted-archive-num-46-1.json, dual rounds/archive-num-46-1-dual.npz.
-
-Retained <50 MB: gzip-compressed 34 completed historical JSON/log files and moved 3 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519744829177648826996; frozen target met. Source rounds/num-47-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519744826182606977012; frozen target met. Source rounds/archive-num-47-0-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519744826165565187986; frozen target met. Source rounds/archive-num-47-1-certificate.json
-
-2026-11-12 08:26:35 Round 47: den new-column search on rounds/restricted-archive-num-47-1.json, dual rounds/archive-num-47-1-dual.npz.
-
-Retained packet reached 47 MB. Moved 62 old compressed floating LP caches (5,095,789 bytes) to macOS Trash. Warm/current states, current dual, full bank, all certificates/replays and all Python remain; exact bound reproduction is unchanged.
-
-{"round": 47, "old_lp": 0.25197449514856657, "new_lp": 0.25197448248324855, "gain": 1.266531801658033e-08, "certified_gain": "1460420287380783935869223370118028127156882114184762108620027119529169/115792089237316195423570985008687907853269984665640564039457584007913129639936", "negative_candidates": {"num": 11, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-47-1.json", "dual": "rounds/archive-num-47-1-dual.npz"}
-
-2026-11-12 08:30:39 Round 48: num new-column search on rounds/restricted-archive-num-47-1.json, dual rounds/archive-num-47-1-dual.npz.
-
-Retained <50 MB: gzip-compressed 34 completed historical JSON/log files and moved 3 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519744755581594321244; frozen target met. Source rounds/num-48-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519744744370187468537; frozen target met. Source rounds/archive-num-48-0-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519744742005745220853; frozen target met. Source rounds/archive-num-48-1-certificate.json
-
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519744741541115553934; frozen target met. Source rounds/archive-num-48-2-certificate.json
-
-2026-11-12 08:51:56 Round 48: den new-column search on rounds/restricted-archive-num-48-3.json, dual rounds/archive-num-48-3-dual.npz.
-
-{"round": 48, "old_lp": 0.25197448248324855, "new_lp": 0.2519744740695891, "gain": 8.413659435824172e-09, "certified_gain": "979884182368491537228387475960145645411659268244316916861469634099109/115792089237316195423570985008687907853269984665640564039457584007913129639936", "negative_candidates": {"num": 5, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-48-3.json", "dual": "rounds/archive-num-48-3-dual.npz"}
-
-2026-11-12 08:56:02 Round 49: num new-column search on rounds/restricted-archive-num-48-3.json, dual rounds/archive-num-48-3-dual.npz.
+2026-11-12 10:56:58 Round 54: num new-column search on rounds/restricted-54.json, dual rounds/archive-num-53-3-dual.npz.
 
 Retained <50 MB: gzip-compressed 48 completed historical JSON/log files and moved 5 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
 
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519744679410232353184; frozen target met. Source rounds/num-49-certificate.json
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519704432678604366337; frozen target met. Source rounds/num-54-certificate.json
 
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519744660885903951223; frozen target met. Source rounds/archive-num-49-0-certificate.json
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519704111419974982724; frozen target met. Source rounds/archive-num-54-0-certificate.json
 
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519744660515703600599; frozen target met. Source rounds/archive-num-49-1-certificate.json
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519704092542053585435; frozen target met. Source rounds/archive-num-54-1-certificate.json
 
-2026-11-12 09:10:22 Round 49: den new-column search on rounds/restricted-archive-num-49-1.json, dual rounds/archive-num-49-1-dual.npz.
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519704092525472903622; frozen target met. Source rounds/archive-num-54-2-certificate.json
 
-{"round": 49, "old_lp": 0.2519744740695891, "new_lp": 0.2519744660556423, "gain": 8.0139468394691e-09, "certified_gain": "938210173139094368489776154545723574853182854329006367752625390570587/115792089237316195423570985008687907853269984665640564039457584007913129639936", "negative_candidates": {"num": 10, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-49-1.json", "dual": "rounds/archive-num-49-1-dual.npz"}
+2026-11-12 11:16:33 Round 54: den new-column search on rounds/restricted-archive-num-54-2.json, dual rounds/archive-num-54-2-dual.npz.
 
-2026-11-12 09:14:23 Round 50: num new-column search on rounds/restricted-archive-num-49-1.json, dual rounds/archive-num-49-1-dual.npz.
+{"round": 54, "old_lp": 0.2519705205687971, "new_lp": 0.25197040912346774, "gain": 1.114453293538098e-07, "certified_gain": "25790854594289984352912522786154211200263386395143202570882063236470077/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 173, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-54-2.json", "dual": "rounds/archive-num-54-2-dual.npz"}
+
+2026-11-12 11:20:34 Round 55: num new-column search on rounds/restricted-archive-num-54-2.json, dual rounds/archive-num-54-2-dual.npz.
+
+Retained <50 MB: gzip-compressed 43 completed historical JSON/log files and moved 4 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519703266576892167280; frozen target met. Source rounds/num-55-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519703134699978231328; frozen target met. Source rounds/archive-num-55-0-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519703134638784807905; frozen target met. Source rounds/archive-num-55-1-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519703134635521491442; frozen target met. Source rounds/archive-num-55-2-certificate.json
+
+2026-11-12 11:38:28 Round 55: den new-column search on rounds/restricted-archive-num-55-2.json, dual rounds/archive-num-55-2-dual.npz.
+
+{"round": 55, "old_lp": 0.25197040912346774, "new_lp": 0.25197031339704146, "gain": 9.572642628574712e-08, "certified_gain": "22183215746689514033394724998905969195461804250362738711343070392677027/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 140, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-55-2.json", "dual": "rounds/archive-num-55-2-dual.npz"}
+
+2026-11-12 11:42:33 Round 56: num new-column search on rounds/restricted-archive-num-55-2.json, dual rounds/archive-num-55-2-dual.npz.
+
+Retained <50 MB: gzip-compressed 41 completed historical JSON/log files and moved 4 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519702549356610143481; frozen target met. Source rounds/num-56-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519702418294985013197; frozen target met. Source rounds/archive-num-56-0-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519702406448529829683; frozen target met. Source rounds/archive-num-56-1-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519702402431479415521; frozen target met. Source rounds/archive-num-56-2-certificate.json
+
+2026-11-12 12:00:31 Round 56: den new-column search on rounds/restricted-archive-num-56-2.json, dual rounds/archive-num-56-2-dual.npz.
+
+{"round": 56, "old_lp": 0.25197031339704146, "new_lp": 0.2519702402056662, "gain": 7.319137523831287e-08, "certified_gain": "16956687155995733166207459378020753370544631488660590052676219606754317/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 60, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-56-2.json", "dual": "rounds/archive-num-56-2-dual.npz"}
+
+2026-11-12 12:04:35 Round 57: num new-column search on rounds/restricted-archive-num-56-2.json, dual rounds/archive-num-56-2-dual.npz.
+
+Retained <50 MB: gzip-compressed 41 completed historical JSON/log files and moved 4 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519701810491955385478; frozen target met. Source rounds/num-57-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519701671089259256032; frozen target met. Source rounds/archive-num-57-0-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519701646401094087763; frozen target met. Source rounds/archive-num-57-1-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519701646225972651800; frozen target met. Source rounds/archive-num-57-2-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519701646163025007679; frozen target met. Source rounds/archive-num-57-3-certificate.json
+
+2026-11-12 12:26:40 Round 57: den new-column search on rounds/restricted-archive-num-57-3.json, dual rounds/archive-num-57-3-dual.npz.
+
+{"round": 57, "old_lp": 0.2519702402056662, "new_lp": 0.25197016455080873, "gain": 7.565485748983747e-08, "certified_gain": "8756990436016006923718703044239895973729778206851682982657867601082099/115792089237316195423570985008687907853269984665640564039457584007913129639936", "negative_candidates": {"num": 45, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-57-3.json", "dual": "rounds/archive-num-57-3-dual.npz"}
+
+2026-11-12 12:30:45 Round 58: num new-column search on rounds/restricted-archive-num-57-3.json, dual rounds/archive-num-57-3-dual.npz.
+
+Retained <50 MB: gzip-compressed 48 completed historical JSON/log files and moved 5 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519701409711713477963; frozen target met. Source rounds/num-58-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519701378249042539103; frozen target met. Source rounds/archive-num-58-0-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519701376820479644017; frozen target met. Source rounds/archive-num-58-1-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519701376742646491579; frozen target met. Source rounds/archive-num-58-2-certificate.json
+
+2026-11-12 12:52:19 Round 58: den new-column search on rounds/restricted-archive-num-58-3.json, dual rounds/archive-num-58-3-dual.npz.
+
+{"round": 58, "old_lp": 0.25197016455080873, "new_lp": 0.2519701376078788, "gain": 2.6942929942652682e-08, "certified_gain": "779918712787194052151740918783426976050694581750414654013137189714191/28948022309329048855892746252171976963317496166410141009864396001978282409984", "negative_candidates": {"num": 15, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-58-3.json", "dual": "rounds/archive-num-58-3-dual.npz"}
+
+2026-11-12 12:56:25 Round 59: num new-column search on rounds/restricted-archive-num-58-3.json, dual rounds/archive-num-58-3-dual.npz.
+
+Retained <50 MB: gzip-compressed 48 completed historical JSON/log files and moved 5 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519701198684158519709; frozen target met. Source rounds/num-59-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519701082100713963646; frozen target met. Source rounds/archive-num-59-0-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519701080949901588044; frozen target met. Source rounds/archive-num-59-1-certificate.json
+
+2026-11-12 13:11:03 Round 59: den new-column search on rounds/restricted-archive-num-59-1.json, dual rounds/archive-num-59-1-dual.npz.
+
+{"round": 59, "old_lp": 0.2519701376078788, "new_lp": 0.2519701080495717, "gain": 2.9558307079735613e-08, "certified_gain": "3425045991362081292290007853134211291664973520854583108143789076075055/115792089237316195423570985008687907853269984665640564039457584007913129639936", "negative_candidates": {"num": 5, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-59-1.json", "dual": "rounds/archive-num-59-1-dual.npz"}
+
+2026-11-12 13:15:09 Round 60: num new-column search on rounds/restricted-archive-num-59-1.json, dual rounds/archive-num-59-1-dual.npz.
 
 Retained <50 MB: gzip-compressed 34 completed historical JSON/log files and moved 3 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
 
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519744557953114964140; frozen target met. Source rounds/num-50-certificate.json
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519701033860790817734; frozen target met. Source rounds/num-60-certificate.json
 
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519744542309988299119; frozen target met. Source rounds/archive-num-50-0-certificate.json
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519701019879526459950; frozen target met. Source rounds/archive-num-60-0-certificate.json
 
-2026-11-12 09:25:31 Round 50: den new-column search on rounds/restricted-archive-num-50-0.json, dual rounds/archive-num-50-0-dual.npz.
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519701019146864158811; frozen target met. Source rounds/archive-num-60-1-certificate.json
 
-{"round": 50, "old_lp": 0.2519744660556423, "new_lp": 0.251974454185727, "gain": 1.1869915272910703e-08, "certified_gain": "2737457346909939618236501943523743304162716147734530692314956552336175/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 10, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-50-0.json", "dual": "rounds/archive-num-50-0-dual.npz"}
+2026-11-12 13:30:55 Round 60: den new-column search on rounds/restricted-archive-num-60-1.json, dual rounds/archive-num-60-1-dual.npz.
 
-2026-11-12 09:29:35 Round 51: num new-column search on rounds/restricted-archive-num-50-0.json, dual rounds/archive-num-50-0-dual.npz.
+{"round": 60, "old_lp": 0.2519701080495717, "new_lp": 0.2519701018881778, "gain": 6.161393895087741e-09, "certified_gain": "1431260565028597218700948588027386163747603430988381808530514250111891/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 25, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-60-1.json", "dual": "rounds/archive-num-60-1-dual.npz"}
+
+2026-11-12 13:34:59 Round 61: num new-column search on rounds/restricted-archive-num-60-1.json, dual rounds/archive-num-60-1-dual.npz.
+
+Retained <50 MB: gzip-compressed 34 completed historical JSON/log files and moved 3 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519701003089294512529; frozen target met. Source rounds/num-61-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519700995590095248089; frozen target met. Source rounds/archive-num-61-0-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519700995255770827495; frozen target met. Source rounds/archive-num-61-1-certificate.json
+
+2026-11-12 13:51:18 Round 61: den new-column search on rounds/restricted-archive-num-61-1.json, dual rounds/archive-num-61-1-dual.npz.
+
+{"round": 61, "old_lp": 0.2519701018881778, "new_lp": 0.2519700993758037, "gain": 2.5123740865495847e-09, "certified_gain": "553279922199343971980314974040625052476185439320889504974996905262995/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 8, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-61-1.json", "dual": "rounds/archive-num-61-1-dual.npz"}
+
+2026-11-12 13:55:28 Round 62: num new-column search on rounds/restricted-archive-num-61-1.json, dual rounds/archive-num-61-1-dual.npz.
+
+Retained <50 MB: gzip-compressed 34 completed historical JSON/log files and moved 3 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519700771508652344623; frozen target met. Source rounds/num-62-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519700697445381351414; frozen target met. Source rounds/archive-num-62-0-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519700693676131732153; frozen target met. Source rounds/archive-num-62-1-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519700693297235469357; frozen target met. Source rounds/archive-num-62-2-certificate.json
+
+2026-11-12 14:21:30 Round 62: den new-column search on rounds/restricted-archive-num-62-2.json, dual rounds/archive-num-62-2-dual.npz.
+
+{"round": 62, "old_lp": 0.2519700993758037, "new_lp": 0.2519700692323277, "gain": 3.0143476048571927e-08, "certified_gain": "6992881934431769068368049454836431161791818556667696835397719429503723/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 8, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-62-2.json", "dual": "rounds/archive-num-62-2-dual.npz"}
+
+2026-11-12 14:25:33 Round 63: num new-column search on rounds/restricted-archive-num-62-2.json, dual rounds/archive-num-62-2-dual.npz.
+
+Retained <50 MB: gzip-compressed 41 completed historical JSON/log files and moved 4 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519700478466489598357; frozen target met. Source rounds/num-63-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519700466524985479611; frozen target met. Source rounds/archive-num-63-0-certificate.json
+
+2026-11-12 14:40:46 Round 63: den new-column search on rounds/restricted-archive-num-63-1.json, dual rounds/archive-num-63-1-dual.npz.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519699550370236792876; frozen target met. Source rounds/den-63-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519699306108476293157; frozen target met. Source rounds/archive-den-63-0-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519699209755793776153; frozen target met. Source rounds/archive-den-63-1-certificate.json
+
+{"round": 63, "old_lp": 0.2519700692323277, "new_lp": 0.2519699209239473, "gain": 1.4830838035440053e-07, "certified_gain": "8589118150189814042506963127195075329877017552175626797475839750756309/57896044618658097711785492504343953926634992332820282019728792003956564819968", "negative_candidates": {"num": 6, "den": 1}, "empty_rounds": 0, "state": "rounds/restricted-archive-den-63-1.json", "dual": "rounds/archive-den-63-1-dual.npz"}
+
+2026-11-12 14:55:03 Round 64: num new-column search on rounds/restricted-archive-den-63-1.json, dual rounds/archive-den-63-1-dual.npz.
+
+Retained <50 MB: gzip-compressed 56 completed historical JSON/log files and moved 6 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519699039526871287723; frozen target met. Source rounds/num-64-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519698975649027384446; frozen target met. Source rounds/archive-num-64-0-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519698972319870586830; frozen target met. Source rounds/archive-num-64-1-certificate.json
+
+2026-11-12 15:11:10 Round 64: den new-column search on rounds/restricted-archive-num-64-1.json, dual rounds/archive-num-64-1-dual.npz.
+
+{"round": 64, "old_lp": 0.2519699209239473, "new_lp": 0.25196989714812645, "gain": 2.3775820867655284e-08, "certified_gain": "5498640321216515634706430043712457980485649472372973600239997657730803/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 62, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-64-1.json", "dual": "rounds/archive-num-64-1-dual.npz"}
+
+2026-11-12 15:15:17 Round 65: num new-column search on rounds/restricted-archive-num-64-1.json, dual rounds/archive-num-64-1-dual.npz.
+
+Retained <50 MB: gzip-compressed 34 completed historical JSON/log files and moved 3 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519698801657834857450; frozen target met. Source rounds/num-65-certificate.json
+
+Restored active logs/cg54.log from Trash before investigating a retention failure: inherited compact_history.py excluded only cg.log, whereas the resumed controller writes cg54.log. Restoring the moved open file preserves ongoing writes. Excluding all cg-prefixed controller logs from history compression; numerical search is unaffected.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519698756064185768273; frozen target met. Source rounds/archive-num-65-0-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519698744301589656438; frozen target met. Source rounds/archive-num-65-1-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519698744039141917153; frozen target met. Source rounds/archive-num-65-2-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519698743853822661150; frozen target met. Source rounds/archive-num-65-3-certificate.json
+
+2026-11-12 15:39:42 Round 65: den new-column search on rounds/restricted-archive-num-65-3.json, dual rounds/archive-num-65-3-dual.npz.
+
+{"round": 65, "old_lp": 0.25196989714812645, "new_lp": 0.2519698742611721, "gain": 2.2886954331724496e-08, "certified_gain": "5290912201821472020771774575790035726221231707378272900263319069995889/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 28, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-65-3.json", "dual": "rounds/archive-num-65-3-dual.npz"}
+
+2026-11-12 15:43:48 Round 66: num new-column search on rounds/restricted-archive-num-65-3.json, dual rounds/archive-num-65-3-dual.npz.
+
+Retained <50 MB: gzip-compressed 48 completed historical JSON/log files and moved 5 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519698376397044015599; frozen target met. Source rounds/num-66-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519698362884997030401; frozen target met. Source rounds/archive-num-66-0-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519698362382866261034; frozen target met. Source rounds/archive-num-66-1-certificate.json
+
+2026-11-12 16:00:56 Round 66: den new-column search on rounds/restricted-archive-num-66-1.json, dual rounds/archive-num-66-1-dual.npz.
+
+{"round": 66, "old_lp": 0.2519698742611721, "new_lp": 0.2519698361030846, "gain": 3.815808752305472e-08, "certified_gain": "8834263804985307382004911780873250885783670806739332735667400255457239/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 18, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-66-1.json", "dual": "rounds/archive-num-66-1-dual.npz"}
+
+2026-11-12 16:04:58 Round 67: num new-column search on rounds/restricted-archive-num-66-1.json, dual rounds/archive-num-66-1-dual.npz.
+
+Retained <50 MB: gzip-compressed 34 completed historical JSON/log files and moved 3 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519697802682457170610; frozen target met. Source rounds/num-67-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519697795470309756543; frozen target met. Source rounds/archive-num-67-0-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519697795448715583932; frozen target met. Source rounds/archive-num-67-1-certificate.json
+
+2026-11-12 16:20:01 Round 67: den new-column search on rounds/restricted-archive-num-67-1.json, dual rounds/archive-num-67-1-dual.npz.
+
+{"round": 67, "old_lp": 0.2519698361030846, "new_lp": 0.2519697794268419, "gain": 5.6676242699005286e-08, "certified_gain": "6564648976688502897420574313123657356629854420633243360586496576540563/115792089237316195423570985008687907853269984665640564039457584007913129639936", "negative_candidates": {"num": 28, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-67-1.json", "dual": "rounds/archive-num-67-1-dual.npz"}
+
+2026-11-12 16:24:04 Round 68: num new-column search on rounds/restricted-archive-num-67-1.json, dual rounds/archive-num-67-1-dual.npz.
+
+Retained <50 MB: gzip-compressed 34 completed historical JSON/log files and moved 3 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519697700435811365310; frozen target met. Source rounds/num-68-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519697688862358922029; frozen target met. Source rounds/archive-num-68-0-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519697687058445278919; frozen target met. Source rounds/archive-num-68-1-certificate.json
+
+2026-11-12 16:39:30 Round 68: den new-column search on rounds/restricted-archive-num-68-1.json, dual rounds/archive-num-68-1-dual.npz.
+
+{"round": 68, "old_lp": 0.2519697794268419, "new_lp": 0.251969768636683, "gain": 1.0790158877505007e-08, "certified_gain": "2510147170322977106583402314096070531344971945267386497402762061256023/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 14, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-68-1.json", "dual": "rounds/archive-num-68-1-dual.npz"}
+
+2026-11-12 16:43:36 Round 69: num new-column search on rounds/restricted-archive-num-68-1.json, dual rounds/archive-num-68-1-dual.npz.
+
+Retained <50 MB: gzip-compressed 34 completed historical JSON/log files and moved 3 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519697566295345487509; frozen target met. Source rounds/num-69-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519697447849513001516; frozen target met. Source rounds/archive-num-69-0-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519697444787321183747; frozen target met. Source rounds/archive-num-69-1-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519697444309899492717; frozen target met. Source rounds/archive-num-69-2-certificate.json
+
+2026-11-12 17:02:48 Round 69: den new-column search on rounds/restricted-archive-num-69-2.json, dual rounds/archive-num-69-2-dual.npz.
+
+{"round": 69, "old_lp": 0.251969768636683, "new_lp": 0.25196974434941527, "gain": 2.4287267752498565e-08, "certified_gain": "2810836127590467697887750219031159372465575816297520510033346308201217/115792089237316195423570985008687907853269984665640564039457584007913129639936", "negative_candidates": {"num": 13, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-69-2.json", "dual": "rounds/archive-num-69-2-dual.npz"}
+
+2026-11-12 17:06:51 Round 70: num new-column search on rounds/restricted-archive-num-69-2.json, dual rounds/archive-num-69-2-dual.npz.
+
+Retained <50 MB: gzip-compressed 41 completed historical JSON/log files and moved 4 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519697399423353042115; frozen target met. Source rounds/num-70-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519697397710727986431; frozen target met. Source rounds/archive-num-70-0-certificate.json
+
+2026-11-12 17:22:28 Round 70: den new-column search on rounds/restricted-archive-num-70-1.json, dual rounds/archive-num-70-1-dual.npz.
+
+{"round": 70, "old_lp": 0.25196974434941527, "new_lp": 0.25196973972722847, "gain": 4.6221867999740596e-09, "certified_gain": "539581542544080730547711322736237095454043188963974027219359034591829/115792089237316195423570985008687907853269984665640564039457584007913129639936", "negative_candidates": {"num": 3, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-70-1.json", "dual": "rounds/archive-num-70-1-dual.npz"}
+
+2026-11-12 17:26:34 Round 71: num new-column search on rounds/restricted-archive-num-70-1.json, dual rounds/archive-num-70-1-dual.npz.
+
+Retained <50 MB: gzip-compressed 34 completed historical JSON/log files and moved 3 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519697074934228303978; frozen target met. Source rounds/num-71-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519697074695009521597; frozen target met. Source rounds/archive-num-71-0-certificate.json
+
+2026-11-12 17:38:16 Round 71: den new-column search on rounds/restricted-archive-num-71-0.json, dual rounds/archive-num-71-0-dual.npz.
+
+{"round": 71, "old_lp": 0.25196973972722847, "new_lp": 0.25196970742035274, "gain": 3.230687573019253e-08, "certified_gain": "7480532979507190840047455486393595704035669021891273854803915439293877/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 12, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-71-0.json", "dual": "rounds/archive-num-71-0-dual.npz"}
+
+2026-11-12 17:42:22 Round 72: num new-column search on rounds/restricted-archive-num-71-0.json, dual rounds/archive-num-71-0-dual.npz.
 
 Retained <50 MB: gzip-compressed 27 completed historical JSON/log files and moved 2 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
 
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519744490533681078501; frozen target met. Source rounds/num-51-certificate.json
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519696923919829443641; frozen target met. Source rounds/num-72-certificate.json
 
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519744487551640730707; frozen target met. Source rounds/archive-num-51-0-certificate.json
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519696919492684037895; frozen target met. Source rounds/archive-num-72-0-certificate.json
 
-Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519744487408958502183; frozen target met. Source rounds/archive-num-51-1-certificate.json
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519696918668373583289; frozen target met. Source rounds/archive-num-72-1-certificate.json
 
-2026-11-12 09:45:14 Round 51: den new-column search on rounds/restricted-archive-num-51-1.json, dual rounds/archive-num-51-1-dual.npz.
+2026-11-12 17:59:22 Round 72: den new-column search on rounds/restricted-archive-num-72-1.json, dual rounds/archive-num-72-1-dual.npz.
 
-{"round": 51, "old_lp": 0.251974454185727, "new_lp": 0.25197444859878654, "gain": 5.586940465818202e-09, "certified_gain": "635710494146740344290018102519235965091760815292142563394715244092835/115792089237316195423570985008687907853269984665640564039457584007913129639936", "negative_candidates": {"num": 7, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-51-1.json", "dual": "rounds/archive-num-51-1-dual.npz"}
+{"round": 72, "old_lp": 0.25196970742035274, "new_lp": 0.25196969178617656, "gain": 1.56341761758938e-08, "certified_gain": "451666253799167873491544909899142028854271551194903068466519874958591/28948022309329048855892746252171976963317496166410141009864396001978282409984", "negative_candidates": {"num": 7, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-72-1.json", "dual": "rounds/archive-num-72-1-dual.npz"}
+
+2026-11-12 18:03:28 Round 73: num new-column search on rounds/restricted-archive-num-72-1.json, dual rounds/archive-num-72-1-dual.npz.
 
 Retained <50 MB: gzip-compressed 34 completed historical JSON/log files and moved 3 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
 
-2026-11-12 09:52:41 Shipped: candidate, unrefereed C82 < 0.2519744488; the exact certified upper endpoint is below the frozen 0.2519758216 bar. Stop: wall time budget: no new round started after 9.5 hours; the last complete round finished before 10 hours; 25.3227 recorded core-hours.
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519696855073195027914; frozen target met. Source rounds/num-73-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519696838485545427829; frozen target met. Source rounds/archive-num-73-0-certificate.json
+
+2026-11-12 18:19:01 Round 73: den new-column search on rounds/restricted-archive-num-73-1.json, dual rounds/archive-num-73-1-dual.npz.
+
+{"round": 73, "old_lp": 0.25196969178617656, "new_lp": 0.2519696837272746, "gain": 8.058901990182221e-09, "certified_gain": "232113429826936272032332890778909098365565670781326254155560713511135/28948022309329048855892746252171976963317496166410141009864396001978282409984", "negative_candidates": {"num": 2, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-73-1.json", "dual": "rounds/archive-num-73-1-dual.npz"}
+
+2026-11-12 18:23:08 Round 74: num new-column search on rounds/restricted-archive-num-73-1.json, dual rounds/archive-num-73-1-dual.npz.
+
+Retained <50 MB: gzip-compressed 34 completed historical JSON/log files and moved 3 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519696838407989711246; frozen target met. Source rounds/num-74-certificate.json
+
+2026-11-12 18:30:53 Round 74: den new-column search on rounds/restricted-num-74.json, dual rounds/num-74-dual.npz.
+
+{"round": 74, "old_lp": 0.2519696837272746, "new_lp": 0.25196968372239653, "gain": 4.8780424144467815e-12, "certified_gain": "1796067691084601814277724045360370090649845212884564538651627674657/231584178474632390847141970017375815706539969331281128078915168015826259279872", "negative_candidates": {"num": 1, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-num-74.json", "dual": "rounds/num-74-dual.npz"}
+
+2026-11-12 18:34:59 Round 75: num new-column search on rounds/restricted-num-74.json, dual rounds/num-74-dual.npz.
+
+Retained <50 MB: gzip-compressed 20 completed historical JSON/log files and moved 1 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519696713893781389883; frozen target met. Source rounds/num-75-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519696641205468018945; frozen target met. Source rounds/archive-num-75-0-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519696634558014924161; frozen target met. Source rounds/archive-num-75-1-certificate.json
+
+2026-11-12 18:54:13 Round 75: den new-column search on rounds/restricted-archive-num-75-2.json, dual rounds/archive-num-75-2-dual.npz.
+
+{"round": 75, "old_lp": 0.25196968372239653, "new_lp": 0.2519696633733395, "gain": 2.0349057050506048e-08, "certified_gain": "18440792555914682022020759081994996585723828267772608793423151711915/904625697166532776746648320380374280103671755200316906558262375061821325312", "negative_candidates": {"num": 4, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-75-2.json", "dual": "rounds/archive-num-75-2-dual.npz"}
+
+2026-11-12 18:58:19 Round 76: num new-column search on rounds/restricted-archive-num-75-2.json, dual rounds/archive-num-75-2-dual.npz.
+
+Retained <50 MB: gzip-compressed 41 completed historical JSON/log files and moved 4 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519696622782126203691; frozen target met. Source rounds/num-76-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519696621614668879326; frozen target met. Source rounds/archive-num-76-0-certificate.json
+
+2026-11-12 19:10:19 Round 76: den new-column search on rounds/restricted-archive-num-76-0.json, dual rounds/archive-num-76-0-dual.npz.
+
+{"round": 76, "old_lp": 0.2519696633733395, "new_lp": 0.2519696621037062, "gain": 1.269633287392935e-09, "certified_gain": "149873708025303220426357517532140300419691567873988954028544617958395/115792089237316195423570985008687907853269984665640564039457584007913129639936", "negative_candidates": {"num": 4, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-76-0.json", "dual": "rounds/archive-num-76-0-dual.npz"}
+
+2026-11-12 19:14:25 Round 77: num new-column search on rounds/restricted-archive-num-76-0.json, dual rounds/archive-num-76-0-dual.npz.
+
+Retained <50 MB: gzip-compressed 27 completed historical JSON/log files and moved 2 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
+
+Retention wording correction: the inherited compactor message “Retained <50 MB” described its intended limit, not a measured current packet size. Final logical size will be measured after compressing the immutable banks with search stopped. All certified best packets and replays remain retained.
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519696461145342816245; frozen target met. Source rounds/num-77-certificate.json
+
+Certified checkpoint: Shipped: candidate, unrefereed C82 < 0.2519696459872491000812; frozen target met. Source rounds/archive-num-77-0-certificate.json
+
+2026-11-12 19:26:17 Round 77: den new-column search on rounds/restricted-archive-num-77-0.json, dual rounds/archive-num-77-0-dual.npz.
+
+{"round": 77, "old_lp": 0.2519696621037062, "new_lp": 0.2519696459222134, "gain": 1.6181492812350484e-08, "certified_gain": "1872846469434676362936651226130133419081644534543144337540822752449509/115792089237316195423570985008687907853269984665640564039457584007913129639936", "negative_candidates": {"num": 6, "den": 0}, "empty_rounds": 0, "state": "rounds/restricted-archive-num-77-0.json", "dual": "rounds/archive-num-77-0-dual.npz"}
+
+Compressed completed history: gzip-compressed 27 completed historical JSON/log files and moved 2 old regenerable dual caches to macOS Trash. The live master/dual, complete coefficient bank, standalone best certificate/replay and every Python/verifier remain uncompressed; older round certificate/replay metadata may also be gzip-compressed. Compressed originals were also moved to Trash.
+
+2026-11-12 19:32:32 Shipped: candidate, unrefereed C82 < 0.2519696460; the exact certified upper endpoint is below the frozen 0.2519744487 bar. Stop: wall time budget: no new round started after 9.5 hours; final packet time reserved; 27.7740 recorded core-hours.
+
+Search and finalizer have exited. Compressing the immutable provenance banks and final mutable union bank only now, after every checkpoint reader has stopped. Restore commands for warm/resumed search are in REPRODUCE.md.
+
+Final retained packet size measured: 53,828,989 bytes; wall time 9.642 hours.
+
+Final retention: ordinary history and bank compression left 53,828,989 bytes, above the 50,000,000-byte packet limit. Reusing round 9’s final cleanup method: retire redundant compressed floating LP master caches to reversible Trash, preserving warm and final LP states/duals, the complete coefficient banks, every best certificate/replay and all Python sources. Exact bounds and certificates are unaffected.
+
+Retired 189 redundant floating state archives to reversible macOS Trash. Measured retained packet: 38,483,326 bytes (38.5 MB); warm/final states and every certified best retained.

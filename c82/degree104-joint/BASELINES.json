@@ -1,4 +1,4 @@
 {
   "applicable": false,
-  "reason": "No predictive score or claim: this packaging job replays a mathematical upper-bound certificate. Exact mathematical comparator gaps are in receipts/certificate-facts.json."
+  "reason": "Deterministic mathematical upper-bound construction, no predictive score. Baseline: exact local replay of round 9 certificate."
 }

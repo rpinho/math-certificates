@@ -17,8 +17,9 @@ def checkpoint(certificate,verifier,replay):
     if Path('RESULT.json').exists() and hi>=Fraction(json.loads(Path('RESULT.json').read_text())['exact_upper']):return False
     for src,dst in [(certificate,'certificate.json'),(verifier,'verify_best.py'),(replay,'evidence/best-replay.json')]:
         if Path(src).resolve()!=Path(dst).resolve():shutil.copyfile(src,dst)
-    bar=Fraction('0.2519758216');ours=Fraction('0.2519923410');public=Fraction('0.2519889614')
+    bar=Fraction('0.2519744487');ours=Fraction('0.2519923410');public=Fraction('0.2519889614')
     data={'candidate_unrefereed':True,'interval_lower':decimal_out(lo,False),'interval_upper':decimal_out(hi),'exact_lower':str(lo),'exact_upper':str(hi),'target':str(bar),'below_frozen_bar':hi<bar,'ours_comparator':str(ours),'gap_to_ours_at_least':decimal_out(ours-hi,False),'public_comparator':str(public),'gap_to_pr280_v5_at_least':decimal_out(public-hi,False),'certificate_sha256':r['certificate_sha256'],'replay_source':replay,'verification':'separately written (same agent), stdlib + python-flint only'}
+    data['gap_to_round9_printed_at_least']=decimal_out(Fraction('0.2519744488')-hi,False)
     data['gap_to_round8_printed_at_least']=decimal_out(Fraction('0.2519758217')-hi,False)
     data['gap_to_round8_endpoint_at_least']=decimal_out(Fraction('0.2519758216376568674750')-hi,False)
     data['stated_decimal']=decimal_out(hi,True,10)
@@ -32,6 +33,7 @@ def checkpoint(certificate,verifier,replay):
         import time
         f.write(json.dumps({'epoch':time.time(),'upper':decimal_out(hi),'exact_upper':str(hi),'certificate':archive,'replay_source':replay})+'\n')
     sources=[(label,json.loads(Path(file).read_text())) for label,file in [('ours from round 7','prior_sources/round7-certificate.json'),('ours from round 6','prior_sources/round6-certificate.json'),('ours from round 5 or earlier','prior_sources/round5-certificate.json'),('#280 v5','prior_sources/pr280-v5-certificate.json'),('#280 v4','prior_sources/pr280-v4-certificate.json'),('#280 v3','prior_sources/pr280-v3-certificate.json'),('earlier bank','prior_sources/factor-bank.json'),('initial coefficient union (including v5)','union-input.json')]]
+    sources+=[('ours from round 9','prior_sources/round9-certificate.json'),('full rounds 8–9 union bank','prior_sources/round9-bank.json'),('round-9 final LP master','prior_sources/round9-master.json')]
     sources+=[('ours from round 8','prior_sources/round8-certificate.json'),('full round-8 union bank','prior_sources/round8-bank.json')]
     sources=[(label,json.loads(Path(obj).read_text()) if isinstance(obj,str) else obj) for label,obj in sources]
     cert=json.loads(Path(certificate).read_text());provenance={}

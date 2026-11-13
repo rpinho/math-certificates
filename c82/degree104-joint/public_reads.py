@@ -15,7 +15,7 @@ for repo in ['BakeLab/Epi-results','google-deepmind/alphaevolve_results','google
     items[repo.replace('/','_')]='repos/'+repo+'/readme'
 def read(item):
     name,url=item
-    p=subprocess.Popen(['~/.local/bin/gh','api',url],stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True)
+    p=subprocess.Popen(['./.local/bin/gh','api',url],stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True)
     with open('evidence/pids.jsonl','a') as f:f.write(json.dumps({'pid':p.pid,'kind':'public_metadata_read','endpoint':url})+'\n')
     out,err=p.communicate(timeout=60)
     filename=f'prior_sources/current-{phase}-{name}.json.gz'

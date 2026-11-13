@@ -1,12 +1,12 @@
-{"event": "start", "pid": 24453, "nice": 20, "settings": {"certificate": "evidence/corrupt-shared_factor.json", "precision": 256, "tol": "1e-17", "target": "0.2524", "offset": "0", "out": "evidence/control-shared_factor-result.json"}}
+{"event": "start", "pid": 49704, "nice": 20, "settings": {"certificate": "evidence/corrupt-shared_factor.json", "precision": 256, "tol": "1e-17", "target": "0.2524", "offset": "0", "out": "evidence/control-shared_factor-result.json"}}
 Traceback (most recent call last):
-  File "evidence/control-shared_factor-verifier.py", line 250, in <module>
+  File "./evidence/control-shared_factor-verifier.py", line 250, in <module>
     raise SystemExit(main())
                      ^^^^^^
-  File "evidence/control-shared_factor-verifier.py", line 227, in main
+  File "./evidence/control-shared_factor-verifier.py", line 227, in main
     r = Replay(a.certificate,a.precision,a.offset)
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "evidence/control-shared_factor-verifier.py", line 65, in __init__
+  File "./evidence/control-shared_factor-verifier.py", line 65, in __init__
     assert p.gcd(r).degree() == 0
            ^^^^^^^^^^^^^^^^^^^^^^
 AssertionError

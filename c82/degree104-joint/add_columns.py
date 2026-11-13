@@ -18,7 +18,7 @@ if __name__=='__main__':
             # Factorization is exact. Price the complete monic polynomial as found.
             c=tuple(r['coeffs'])
             if c in known:continue
-            name='C82r9_'+hashlib.sha256(str(c).encode()).hexdigest()[:12]
+            name='C82r10_'+hashlib.sha256(str(c).encode()).hexdigest()[:12]
             assert c[0]==1
             p=fmpz_poly(list(c)[::-1]);assert p.degree()==104
             assert all(p.gcd(fmpz_poly(q['coeffs'][::-1])).degree()==0 for q in state['numerator'])

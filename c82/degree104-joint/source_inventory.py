@@ -29,6 +29,6 @@ if __name__=='__main__':
         assert not prohibited,(path,prohibited)
     result={'complete_trees':['197962c9610f583e9bc56efe37bfb994c1eeb834','3a7a84fec9c64ae426f06a5f52597c84b3453ba0','79ce0dfb211a67ff7e387b58b0d19ff1d6accfba','191064e7ccd88718853fe239dfd3890a8dc0fa37'],
         'all_python_blobs_distinct_from_every_blob_in_four_trees':True,'none_imports_foreign_modules':True,'files':records,
-        'note':'Tree metadata only was downloaded. Our reused files came from ../c82r8 (itself our round-5/6/7 lineage); new files were written here; no third-party Python was downloaded.'}
+        'note':'Tree metadata only was downloaded. Our reused files came from ../c82r9 (itself our round-5/6/7 lineage); new files were written here; no third-party Python was downloaded.'}
     Path('PYTHON_BLOBS.json').write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps({'python_files':len(records),'all_distinct':True,'no_foreign_imports':True}))

@@ -40,7 +40,7 @@ class Search:
         rc=float(self.mass@root_logs(c,self.points)+self.eta*p.degree());self.priced+=1;self.cache[c]=rc
         if c not in self.known and (self.best is None or rc<self.best['rc']):self.best={'coeffs':list(c),'rc':rc}
         if c not in self.known and rc< -1e-9 and c not in self.found:
-            row={'name':'N82r9_'+hashlib.sha256(str(c).encode()).hexdigest()[:12],'coeffs':list(c),'rc':rc,'trial':self.trials}
+            row={'name':'N82r10_'+hashlib.sha256(str(c).encode()).hexdigest()[:12],'coeffs':list(c),'rc':rc,'trial':self.trials}
             self.found[c]=row;self.save();print(json.dumps({'event':'negative','name':row['name'],'degree':p.degree(),'rc':rc}),flush=True)
         return rc
     def initial(self):

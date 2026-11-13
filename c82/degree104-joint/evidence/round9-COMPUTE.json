@@ -1,0 +1,1563 @@
+{
+  "recorded_cpu_seconds": 91161.809316,
+  "recorded_core_hours": 25.32272481,
+  "estimated_total_core_hours": 25.429799382235345,
+  "unmeasured_allowance_core_hours": 0.10707457223534585,
+  "wall_hours": 9.707457223534584,
+  "largest_sampled_aggregate_rss_bytes": 1015513088,
+  "worker_peaks": [
+    {
+      "file": "logs/num-search-50-2.log.time",
+      "peak_rss_bytes": 108593152
+    },
+    {
+      "file": "logs/num-search-50-3.log.time",
+      "peak_rss_bytes": 111607808
+    },
+    {
+      "file": "logs/archive-num-36-2.log.time",
+      "peak_rss_bytes": 134053888
+    },
+    {
+      "file": "logs/num-search-32-3.log.time",
+      "peak_rss_bytes": 109772800
+    },
+    {
+      "file": "logs/num-search-32-2.log.time",
+      "peak_rss_bytes": 106905600
+    },
+    {
+      "file": "logs/den-search-28-0.log.time",
+      "peak_rss_bytes": 457555968
+    },
+    {
+      "file": "logs/den-search-28-1.log.time",
+      "peak_rss_bytes": 464175104
+    },
+    {
+      "file": "logs/num-search-22-0.log.time",
+      "peak_rss_bytes": 108412928
+    },
+    {
+      "file": "logs/archive-num-26-0.log.time",
+      "peak_rss_bytes": 293666816
+    },
+    {
+      "file": "logs/archive-num-26-1.log.time",
+      "peak_rss_bytes": 133742592
+    },
+    {
+      "file": "logs/archive-num-48-3.log.time",
+      "peak_rss_bytes": 226181120
+    },
+    {
+      "file": "logs/archive-num-48-2.log.time",
+      "peak_rss_bytes": 269139968
+    },
+    {
+      "file": "logs/den-search-34-0.log.time",
+      "peak_rss_bytes": 456245248
+    },
+    {
+      "file": "logs/num-search-40-0.log.time",
+      "peak_rss_bytes": 111017984
+    },
+    {
+      "file": "logs/den-search-34-1.log.time",
+      "peak_rss_bytes": 458997760
+    },
+    {
+      "file": "logs/num-search-40-1.log.time",
+      "peak_rss_bytes": 107937792
+    },
+    {
+      "file": "logs/archive-num-44-1.log.time",
+      "peak_rss_bytes": 256966656
+    },
+    {
+      "file": "logs/archive-num-44-0.log.time",
+      "peak_rss_bytes": 282198016
+    },
+    {
+      "file": "logs/num-search-51-0.log.time",
+      "peak_rss_bytes": 108199936
+    },
+    {
+      "file": "logs/den-search-25-0.log.time",
+      "peak_rss_bytes": 456835072
+    },
+    {
+      "file": "logs/num-search-51-1.log.time",
+      "peak_rss_bytes": 108478464
+    },
+    {
+      "file": "logs/den-search-25-1.log.time",
+      "peak_rss_bytes": 454033408
+    },
+    {
+      "file": "logs/num-merge-41.log.time",
+      "peak_rss_bytes": 537231360
+    },
+    {
+      "file": "logs/archive-num-37-0.log.time",
+      "peak_rss_bytes": 417169408
+    },
+    {
+      "file": "logs/archive-num-37-1.log.time",
+      "peak_rss_bytes": 296452096
+    },
+    {
+      "file": "logs/num-merge-40.log.time",
+      "peak_rss_bytes": 445087744
+    },
+    {
+      "file": "logs/den-search-47-1.log.time",
+      "peak_rss_bytes": 473153536
+    },
+    {
+      "file": "logs/num-search-33-1.log.time",
+      "peak_rss_bytes": 111329280
+    },
+    {
+      "file": "logs/den-search-47-0.log.time",
+      "peak_rss_bytes": 458244096
+    },
+    {
+      "file": "logs/num-search-33-0.log.time",
+      "peak_rss_bytes": 111034368
+    },
+    {
+      "file": "logs/num-merge-36.log.time",
+      "peak_rss_bytes": 313688064
+    },
+    {
+      "file": "logs/num-merge-37.log.time",
+      "peak_rss_bytes": 323518464
+    },
+    {
+      "file": "logs/den-search-39-0.log.time",
+      "peak_rss_bytes": 450035712
+    },
+    {
+      "file": "logs/den-search-39-1.log.time",
+      "peak_rss_bytes": 451182592
+    },
+    {
+      "file": "logs/archive-num-49-1.log.time",
+      "peak_rss_bytes": 273580032
+    },
+    {
+      "file": "logs/archive-num-49-0.log.time",
+      "peak_rss_bytes": 325304320
+    },
+    {
+      "file": "logs/num-search-23-3.log.time",
+      "peak_rss_bytes": 107839488
+    },
+    {
+      "file": "logs/num-search-23-2.log.time",
+      "peak_rss_bytes": 106840064
+    },
+    {
+      "file": "logs/num-search-41-2.log.time",
+      "peak_rss_bytes": 111575040
+    },
+    {
+      "file": "logs/num-search-41-3.log.time",
+      "peak_rss_bytes": 108118016
+    },
+    {
+      "file": "logs/archive-num-45-2.log.time",
+      "peak_rss_bytes": 137232384
+    },
+    {
+      "file": "logs/archive-num-50-1.log.time",
+      "peak_rss_bytes": 137396224
+    },
+    {
+      "file": "logs/archive-num-50-0.log.time",
+      "peak_rss_bytes": 303104000
+    },
+    {
+      "file": "logs/num-search-36-1.log.time",
+      "peak_rss_bytes": 109019136
+    },
+    {
+      "file": "logs/den-search-42-1.log.time",
+      "peak_rss_bytes": 452952064
+    },
+    {
+      "file": "logs/num-search-36-0.log.time",
+      "peak_rss_bytes": 108331008
+    },
+    {
+      "file": "logs/den-search-42-0.log.time",
+      "peak_rss_bytes": 453443584
+    },
+    {
+      "file": "logs/archive-num-32-0.log.time",
+      "peak_rss_bytes": 399556608
+    },
+    {
+      "file": "logs/archive-num-32-1.log.time",
+      "peak_rss_bytes": 282722304
+    },
+    {
+      "file": "logs/warm-replay.log.time",
+      "peak_rss_bytes": 38764544
+    },
+    {
+      "file": "logs/archive-num-22-2.log.time",
+      "peak_rss_bytes": 136118272
+    },
+    {
+      "file": "logs/num-search-26-3.log.time",
+      "peak_rss_bytes": 109166592
+    },
+    {
+      "file": "logs/num-search-26-2.log.time",
+      "peak_rss_bytes": 108167168
+    },
+    {
+      "file": "logs/num-search-48-0.log.time",
+      "peak_rss_bytes": 108314624
+    },
+    {
+      "file": "logs/num-search-48-1.log.time",
+      "peak_rss_bytes": 110018560
+    },
+    {
+      "file": "logs/num-search-44-2.log.time",
+      "peak_rss_bytes": 107511808
+    },
+    {
+      "file": "logs/num-search-44-3.log.time",
+      "peak_rss_bytes": 109920256
+    },
+    {
+      "file": "logs/archive-num-51-2.log.time",
+      "peak_rss_bytes": 137543680
+    },
+    {
+      "file": "logs/num-search-37-3.log.time",
+      "peak_rss_bytes": 116260864
+    },
+    {
+      "file": "logs/num-search-37-2.log.time",
+      "peak_rss_bytes": 111624192
+    },
+    {
+      "file": "logs/archive-den-40-4.log.time",
+      "peak_rss_bytes": 134283264
+    },
+    {
+      "file": "logs/num-search-49-2.log.time",
+      "peak_rss_bytes": 108838912
+    },
+    {
+      "file": "logs/num-search-49-3.log.time",
+      "peak_rss_bytes": 115064832
+    },
+    {
+      "file": "logs/archive-num-23-0.log.time",
+      "peak_rss_bytes": 449019904
+    },
+    {
+      "file": "logs/archive-num-23-1.log.time",
+      "peak_rss_bytes": 275103744
+    },
+    {
+      "file": "logs/num-search-27-1.log.time",
+      "peak_rss_bytes": 110657536
+    },
+    {
+      "file": "logs/num-search-27-0.log.time",
+      "peak_rss_bytes": 108756992
+    },
+    {
+      "file": "logs/archive-num-41-1.log.time",
+      "peak_rss_bytes": 306905088
+    },
+    {
+      "file": "logs/archive-num-41-0.log.time",
+      "peak_rss_bytes": 580927488
+    },
+    {
+      "file": "logs/num-search-45-0.log.time",
+      "peak_rss_bytes": 112394240
+    },
+    {
+      "file": "logs/den-search-31-0.log.time",
+      "peak_rss_bytes": 453656576
+    },
+    {
+      "file": "logs/num-search-45-1.log.time",
+      "peak_rss_bytes": 107118592
+    },
+    {
+      "file": "logs/den-search-31-1.log.time",
+      "peak_rss_bytes": 453001216
+    },
+    {
+      "file": "logs/archive-num-24-1.log.time",
+      "peak_rss_bytes": 274087936
+    },
+    {
+      "file": "logs/archive-num-24-0.log.time",
+      "peak_rss_bytes": 363823104
+    },
+    {
+      "file": "logs/archive-num-46-0.log.time",
+      "peak_rss_bytes": 301645824
+    },
+    {
+      "file": "logs/archive-num-46-1.log.time",
+      "peak_rss_bytes": 269074432
+    },
+    {
+      "file": "logs/num-search-42-1.log.time",
+      "peak_rss_bytes": 106151936
+    },
+    {
+      "file": "logs/den-search-36-1.log.time",
+      "peak_rss_bytes": 449937408
+    },
+    {
+      "file": "logs/num-search-42-0.log.time",
+      "peak_rss_bytes": 109035520
+    },
+    {
+      "file": "logs/den-search-36-0.log.time",
+      "peak_rss_bytes": 457605120
+    },
+    {
+      "file": "logs/den-search-48-0.log.time",
+      "peak_rss_bytes": 461111296
+    },
+    {
+      "file": "logs/final-replay.log.time",
+      "peak_rss_bytes": 39698432
+    },
+    {
+      "file": "logs/den-search-48-1.log.time",
+      "peak_rss_bytes": 460521472
+    },
+    {
+      "file": "logs/archive-num-38-1.log.time",
+      "peak_rss_bytes": 276299776
+    },
+    {
+      "file": "logs/archive-num-38-0.log.time",
+      "peak_rss_bytes": 307085312
+    },
+    {
+      "file": "logs/num-search-30-2.log.time",
+      "peak_rss_bytes": 110198784
+    },
+    {
+      "file": "logs/num-search-30-3.log.time",
+      "peak_rss_bytes": 109281280
+    },
+    {
+      "file": "logs/num-merge-51.log.time",
+      "peak_rss_bytes": 329646080
+    },
+    {
+      "file": "logs/num-merge-50.log.time",
+      "peak_rss_bytes": 387694592
+    },
+    {
+      "file": "logs/archive-num-29-1.log.time",
+      "peak_rss_bytes": 133677056
+    },
+    {
+      "file": "logs/archive-num-29-0.log.time",
+      "peak_rss_bytes": 261816320
+    },
+    {
+      "file": "logs/archive-num-47-2.log.time",
+      "peak_rss_bytes": 137412608
+    },
+    {
+      "file": "logs/num-search-43-3.log.time",
+      "peak_rss_bytes": 113049600
+    },
+    {
+      "file": "logs/num-search-43-2.log.time",
+      "peak_rss_bytes": 111869952
+    },
+    {
+      "file": "logs/archive-den-40-2.log.time",
+      "peak_rss_bytes": 293617664
+    },
+    {
+      "file": "logs/archive-den-40-3.log.time",
+      "peak_rss_bytes": 263143424
+    },
+    {
+      "file": "logs/archive-num-39-3.log.time",
+      "peak_rss_bytes": 134070272
+    },
+    {
+      "file": "logs/archive-num-39-2.log.time",
+      "peak_rss_bytes": 260685824
+    },
+    {
+      "file": "logs/den-search-27-1.log.time",
+      "peak_rss_bytes": 456982528
+    },
+    {
+      "file": "logs/den-search-27-0.log.time",
+      "peak_rss_bytes": 479412224
+    },
+    {
+      "file": "logs/num-search-31-0.log.time",
+      "peak_rss_bytes": 105971712
+    },
+    {
+      "file": "logs/den-search-45-0.log.time",
+      "peak_rss_bytes": 456720384
+    },
+    {
+      "file": "logs/num-search-31-1.log.time",
+      "peak_rss_bytes": 107528192
+    },
+    {
+      "file": "logs/den-search-45-1.log.time",
+      "peak_rss_bytes": 459358208
+    },
+    {
+      "file": "logs/archive-num-35-1.log.time",
+      "peak_rss_bytes": 134365184
+    },
+    {
+      "file": "logs/num-merge-26.log.time",
+      "peak_rss_bytes": 422412288
+    },
+    {
+      "file": "logs/archive-num-35-0.log.time",
+      "peak_rss_bytes": 271499264
+    },
+    {
+      "file": "logs/num-merge-27.log.time",
+      "peak_rss_bytes": 485605376
+    },
+    {
+      "file": "logs/num-search-24-2.log.time",
+      "peak_rss_bytes": 109150208
+    },
+    {
+      "file": "logs/num-search-24-3.log.time",
+      "peak_rss_bytes": 112214016
+    },
+    {
+      "file": "logs/num-search-46-3.log.time",
+      "peak_rss_bytes": 110723072
+    },
+    {
+      "file": "logs/num-search-46-2.log.time",
+      "peak_rss_bytes": 107347968
+    },
+    {
+      "file": "logs/archive-num-42-2.log.time",
+      "peak_rss_bytes": 136953856
+    },
+    {
+      "file": "logs/num-search-28-0.log.time",
+      "peak_rss_bytes": 111722496
+    },
+    {
+      "file": "logs/num-search-28-1.log.time",
+      "peak_rss_bytes": 109756416
+    },
+    {
+      "file": "logs/den-search-22-0.log.time",
+      "peak_rss_bytes": 451559424
+    },
+    {
+      "file": "logs/num-search-38-2.log.time",
+      "peak_rss_bytes": 112607232
+    },
+    {
+      "file": "logs/num-search-38-3.log.time",
+      "peak_rss_bytes": 109576192
+    },
+    {
+      "file": "logs/archive-num-30-1.log.time",
+      "peak_rss_bytes": 291373056
+    },
+    {
+      "file": "logs/archive-num-30-0.log.time",
+      "peak_rss_bytes": 408469504
+    },
+    {
+      "file": "logs/den-search-40-0.log.time",
+      "peak_rss_bytes": 460881920
+    },
+    {
+      "file": "logs/num-search-34-0.log.time",
+      "peak_rss_bytes": 106889216
+    },
+    {
+      "file": "logs/den-search-40-1.log.time",
+      "peak_rss_bytes": 449871872
+    },
+    {
+      "file": "logs/num-search-34-1.log.time",
+      "peak_rss_bytes": 114655232
+    },
+    {
+      "file": "logs/archive-num-48-4.log.time",
+      "peak_rss_bytes": 137314304
+    },
+    {
+      "file": "logs/num-search-25-0.log.time",
+      "peak_rss_bytes": 112476160
+    },
+    {
+      "file": "logs/den-search-51-0.log.time",
+      "peak_rss_bytes": 452476928
+    },
+    {
+      "file": "logs/num-merge-46.log.time",
+      "peak_rss_bytes": 350781440
+    },
+    {
+      "file": "logs/num-search-25-1.log.time",
+      "peak_rss_bytes": 108789760
+    },
+    {
+      "file": "logs/num-merge-47.log.time",
+      "peak_rss_bytes": 336609280
+    },
+    {
+      "file": "logs/den-search-51-1.log.time",
+      "peak_rss_bytes": 458276864
+    },
+    {
+      "file": "logs/num-search-29-2.log.time",
+      "peak_rss_bytes": 115130368
+    },
+    {
+      "file": "logs/num-search-29-3.log.time",
+      "peak_rss_bytes": 110346240
+    },
+    {
+      "file": "logs/den-search-33-1.log.time",
+      "peak_rss_bytes": 450723840
+    },
+    {
+      "file": "logs/num-search-47-1.log.time",
+      "peak_rss_bytes": 107806720
+    },
+    {
+      "file": "logs/den-search-33-0.log.time",
+      "peak_rss_bytes": 456310784
+    },
+    {
+      "file": "logs/num-search-47-0.log.time",
+      "peak_rss_bytes": 108527616
+    },
+    {
+      "file": "logs/archive-num-43-0.log.time",
+      "peak_rss_bytes": 313196544
+    },
+    {
+      "file": "logs/archive-num-43-1.log.time",
+      "peak_rss_bytes": 281067520
+    },
+    {
+      "file": "logs/num-merge-31.log.time",
+      "peak_rss_bytes": 473956352
+    },
+    {
+      "file": "logs/num-merge-30.log.time",
+      "peak_rss_bytes": 419266560
+    },
+    {
+      "file": "logs/num-search-39-0.log.time",
+      "peak_rss_bytes": 110034944
+    },
+    {
+      "file": "logs/num-search-39-1.log.time",
+      "peak_rss_bytes": 105070592
+    },
+    {
+      "file": "logs/archive-num-31-3.log.time",
+      "peak_rss_bytes": 133840896
+    },
+    {
+      "file": "logs/archive-num-31-2.log.time",
+      "peak_rss_bytes": 259162112
+    },
+    {
+      "file": "logs/num-search-35-2.log.time",
+      "peak_rss_bytes": 111771648
+    },
+    {
+      "file": "logs/num-search-35-3.log.time",
+      "peak_rss_bytes": 110804992
+    },
+    {
+      "file": "logs/archive-num-51-0.log.time",
+      "peak_rss_bytes": 276283392
+    },
+    {
+      "file": "logs/archive-num-51-1.log.time",
+      "peak_rss_bytes": 271564800
+    },
+    {
+      "file": "logs/den-search-43-0.log.time",
+      "peak_rss_bytes": 458620928
+    },
+    {
+      "file": "logs/num-search-37-0.log.time",
+      "peak_rss_bytes": 109936640
+    },
+    {
+      "file": "logs/den-search-43-1.log.time",
+      "peak_rss_bytes": 457506816
+    },
+    {
+      "file": "logs/num-search-37-1.log.time",
+      "peak_rss_bytes": 106430464
+    },
+    {
+      "file": "logs/archive-num-33-0.log.time",
+      "peak_rss_bytes": 133906432
+    },
+    {
+      "file": "logs/archive-num-23-2.log.time",
+      "peak_rss_bytes": 133627904
+    },
+    {
+      "file": "logs/num-search-27-2.log.time",
+      "peak_rss_bytes": 116359168
+    },
+    {
+      "file": "logs/num-merge-22.log.time",
+      "peak_rss_bytes": 470827008
+    },
+    {
+      "file": "logs/num-search-27-3.log.time",
+      "peak_rss_bytes": 107724800
+    },
+    {
+      "file": "logs/num-merge-23.log.time",
+      "peak_rss_bytes": 599506944
+    },
+    {
+      "file": "logs/num-search-49-1.log.time",
+      "peak_rss_bytes": 108396544
+    },
+    {
+      "file": "logs/num-search-49-0.log.time",
+      "peak_rss_bytes": 107921408
+    },
+    {
+      "file": "logs/archive-num-41-2.log.time",
+      "peak_rss_bytes": 287539200
+    },
+    {
+      "file": "logs/archive-num-41-3.log.time",
+      "peak_rss_bytes": 135168000
+    },
+    {
+      "file": "logs/num-search-45-3.log.time",
+      "peak_rss_bytes": 113197056
+    },
+    {
+      "file": "logs/num-search-45-2.log.time",
+      "peak_rss_bytes": 114982912
+    },
+    {
+      "file": "logs/num-search-36-2.log.time",
+      "peak_rss_bytes": 109346816
+    },
+    {
+      "file": "logs/num-search-36-3.log.time",
+      "peak_rss_bytes": 114540544
+    },
+    {
+      "file": "logs/archive-num-32-2.log.time",
+      "peak_rss_bytes": 134184960
+    },
+    {
+      "file": "logs/num-search-48-3.log.time",
+      "peak_rss_bytes": 109510656
+    },
+    {
+      "file": "logs/num-search-48-2.log.time",
+      "peak_rss_bytes": 108445696
+    },
+    {
+      "file": "logs/archive-num-22-1.log.time",
+      "peak_rss_bytes": 297795584
+    },
+    {
+      "file": "logs/archive-num-22-0.log.time",
+      "peak_rss_bytes": 325222400
+    },
+    {
+      "file": "logs/num-search-26-0.log.time",
+      "peak_rss_bytes": 108953600
+    },
+    {
+      "file": "logs/num-search-26-1.log.time",
+      "peak_rss_bytes": 111804416
+    },
+    {
+      "file": "logs/archive-num-40-0.log.time",
+      "peak_rss_bytes": 320569344
+    },
+    {
+      "file": "logs/archive-num-40-1.log.time",
+      "peak_rss_bytes": 133955584
+    },
+    {
+      "file": "logs/den-search-30-1.log.time",
+      "peak_rss_bytes": 457474048
+    },
+    {
+      "file": "logs/num-search-44-1.log.time",
+      "peak_rss_bytes": 105791488
+    },
+    {
+      "file": "logs/num-merge-28.log.time",
+      "peak_rss_bytes": 510279680
+    },
+    {
+      "file": "logs/den-search-30-0.log.time",
+      "peak_rss_bytes": 450232320
+    },
+    {
+      "file": "logs/num-merge-29.log.time",
+      "peak_rss_bytes": 448692224
+    },
+    {
+      "file": "logs/num-search-44-0.log.time",
+      "peak_rss_bytes": 106430464
+    },
+    {
+      "file": "logs/den-merge-40.log.time",
+      "peak_rss_bytes": 583483392
+    },
+    {
+      "file": "logs/num-search-51-3.log.time",
+      "peak_rss_bytes": 108789760
+    },
+    {
+      "file": "logs/num-search-51-2.log.time",
+      "peak_rss_bytes": 115818496
+    },
+    {
+      "file": "logs/num-merge-42.log.time",
+      "peak_rss_bytes": 603471872
+    },
+    {
+      "file": "logs/archive-num-37-2.log.time",
+      "peak_rss_bytes": 133939200
+    },
+    {
+      "file": "logs/num-merge-43.log.time",
+      "peak_rss_bytes": 421773312
+    },
+    {
+      "file": "logs/num-search-33-2.log.time",
+      "peak_rss_bytes": 109920256
+    },
+    {
+      "file": "logs/num-search-33-3.log.time",
+      "peak_rss_bytes": 110231552
+    },
+    {
+      "file": "logs/den-search-29-1.log.time",
+      "peak_rss_bytes": 458588160
+    },
+    {
+      "file": "logs/den-search-29-0.log.time",
+      "peak_rss_bytes": 454819840
+    },
+    {
+      "file": "logs/num-merge-35.log.time",
+      "peak_rss_bytes": 329154560
+    },
+    {
+      "file": "logs/num-search-23-0.log.time",
+      "peak_rss_bytes": 108085248
+    },
+    {
+      "file": "logs/num-search-23-1.log.time",
+      "peak_rss_bytes": 109051904
+    },
+    {
+      "file": "logs/archive-num-27-1.log.time",
+      "peak_rss_bytes": 133611520
+    },
+    {
+      "file": "logs/archive-num-27-0.log.time",
+      "peak_rss_bytes": 297566208
+    },
+    {
+      "file": "logs/archive-num-49-2.log.time",
+      "peak_rss_bytes": 137510912
+    },
+    {
+      "file": "logs/num-search-41-1.log.time",
+      "peak_rss_bytes": 105267200
+    },
+    {
+      "file": "logs/den-search-35-1.log.time",
+      "peak_rss_bytes": 452657152
+    },
+    {
+      "file": "logs/num-search-41-0.log.time",
+      "peak_rss_bytes": 107118592
+    },
+    {
+      "file": "logs/den-search-35-0.log.time",
+      "peak_rss_bytes": 478576640
+    },
+    {
+      "file": "logs/archive-num-45-0.log.time",
+      "peak_rss_bytes": 285523968
+    },
+    {
+      "file": "logs/archive-num-45-1.log.time",
+      "peak_rss_bytes": 265306112
+    },
+    {
+      "file": "logs/num-merge-48.log.time",
+      "peak_rss_bytes": 348143616
+    },
+    {
+      "file": "logs/num-merge-49.log.time",
+      "peak_rss_bytes": 353320960
+    },
+    {
+      "file": "logs/den-search-24-1.log.time",
+      "peak_rss_bytes": 455917568
+    },
+    {
+      "file": "logs/num-search-50-1.log.time",
+      "peak_rss_bytes": 107397120
+    },
+    {
+      "file": "logs/den-search-24-0.log.time",
+      "peak_rss_bytes": 457113600
+    },
+    {
+      "file": "logs/num-search-50-0.log.time",
+      "peak_rss_bytes": 107479040
+    },
+    {
+      "file": "logs/archive-num-36-1.log.time",
+      "peak_rss_bytes": 256032768
+    },
+    {
+      "file": "logs/archive-num-36-0.log.time",
+      "peak_rss_bytes": 299499520
+    },
+    {
+      "file": "logs/num-search-32-0.log.time",
+      "peak_rss_bytes": 109789184
+    },
+    {
+      "file": "logs/den-search-46-0.log.time",
+      "peak_rss_bytes": 455606272
+    },
+    {
+      "file": "logs/num-search-32-1.log.time",
+      "peak_rss_bytes": 110166016
+    },
+    {
+      "file": "logs/den-search-46-1.log.time",
+      "peak_rss_bytes": 460324864
+    },
+    {
+      "file": "logs/den-search-38-1.log.time",
+      "peak_rss_bytes": 455819264
+    },
+    {
+      "file": "logs/den-search-38-0.log.time",
+      "peak_rss_bytes": 453951488
+    },
+    {
+      "file": "logs/archive-num-48-0.log.time",
+      "peak_rss_bytes": 308658176
+    },
+    {
+      "file": "logs/archive-num-48-1.log.time",
+      "peak_rss_bytes": 281542656
+    },
+    {
+      "file": "logs/num-search-40-3.log.time",
+      "peak_rss_bytes": 109772800
+    },
+    {
+      "file": "logs/num-search-40-2.log.time",
+      "peak_rss_bytes": 104464384
+    },
+    {
+      "file": "logs/archive-num-44-2.log.time",
+      "peak_rss_bytes": 137330688
+    },
+    {
+      "file": "logs/num-merge-45.log.time",
+      "peak_rss_bytes": 321961984
+    },
+    {
+      "file": "logs/num-search-25-3.log.time",
+      "peak_rss_bytes": 110002176
+    },
+    {
+      "file": "logs/num-merge-44.log.time",
+      "peak_rss_bytes": 353828864
+    },
+    {
+      "file": "logs/num-search-25-2.log.time",
+      "peak_rss_bytes": 111640576
+    },
+    {
+      "file": "logs/num-search-47-2.log.time",
+      "peak_rss_bytes": 109051904
+    },
+    {
+      "file": "logs/num-search-47-3.log.time",
+      "peak_rss_bytes": 108560384
+    },
+    {
+      "file": "logs/archive-num-43-3.log.time",
+      "peak_rss_bytes": 137216000
+    },
+    {
+      "file": "logs/archive-num-43-2.log.time",
+      "peak_rss_bytes": 258457600
+    },
+    {
+      "file": "logs/num-search-29-1.log.time",
+      "peak_rss_bytes": 107249664
+    },
+    {
+      "file": "logs/num-search-29-0.log.time",
+      "peak_rss_bytes": 109821952
+    },
+    {
+      "file": "logs/num-merge-32.log.time",
+      "peak_rss_bytes": 435617792
+    },
+    {
+      "file": "logs/num-merge-33.log.time",
+      "peak_rss_bytes": 325386240
+    },
+    {
+      "file": "logs/den-search-23-0.log.time",
+      "peak_rss_bytes": 457883648
+    },
+    {
+      "file": "logs/den-search-23-1.log.time",
+      "peak_rss_bytes": 455786496
+    },
+    {
+      "file": "logs/num-search-39-3.log.time",
+      "peak_rss_bytes": 109101056
+    },
+    {
+      "file": "logs/num-search-39-2.log.time",
+      "peak_rss_bytes": 104824832
+    },
+    {
+      "file": "logs/archive-num-31-0.log.time",
+      "peak_rss_bytes": 303988736
+    },
+    {
+      "file": "logs/archive-num-31-1.log.time",
+      "peak_rss_bytes": 268386304
+    },
+    {
+      "file": "logs/num-search-35-1.log.time",
+      "peak_rss_bytes": 107184128
+    },
+    {
+      "file": "logs/den-search-41-1.log.time",
+      "peak_rss_bytes": 456540160
+    },
+    {
+      "file": "logs/num-search-35-0.log.time",
+      "peak_rss_bytes": 109117440
+    },
+    {
+      "file": "logs/den-search-41-0.log.time",
+      "peak_rss_bytes": 466796544
+    },
+    {
+      "file": "logs/den-search-50-1.log.time",
+      "peak_rss_bytes": 459997184
+    },
+    {
+      "file": "logs/num-search-24-1.log.time",
+      "peak_rss_bytes": 111099904
+    },
+    {
+      "file": "logs/den-search-50-0.log.time",
+      "peak_rss_bytes": 459751424
+    },
+    {
+      "file": "logs/num-search-24-0.log.time",
+      "peak_rss_bytes": 109772800
+    },
+    {
+      "file": "logs/num-search-28-3.log.time",
+      "peak_rss_bytes": 107773952
+    },
+    {
+      "file": "logs/num-search-28-2.log.time",
+      "peak_rss_bytes": 112476160
+    },
+    {
+      "file": "logs/num-search-46-0.log.time",
+      "peak_rss_bytes": 107069440
+    },
+    {
+      "file": "logs/den-search-32-0.log.time",
+      "peak_rss_bytes": 454606848
+    },
+    {
+      "file": "logs/num-search-46-1.log.time",
+      "peak_rss_bytes": 108331008
+    },
+    {
+      "file": "logs/den-search-32-1.log.time",
+      "peak_rss_bytes": 458407936
+    },
+    {
+      "file": "logs/archive-num-42-1.log.time",
+      "peak_rss_bytes": 298811392
+    },
+    {
+      "file": "logs/archive-num-42-0.log.time",
+      "peak_rss_bytes": 438796288
+    },
+    {
+      "file": "logs/final-rejection-controls.log.time",
+      "peak_rss_bytes": 42532864
+    },
+    {
+      "file": "logs/num-search-38-1.log.time",
+      "peak_rss_bytes": 108511232
+    },
+    {
+      "file": "logs/num-search-38-0.log.time",
+      "peak_rss_bytes": 104759296
+    },
+    {
+      "file": "logs/archive-num-30-2.log.time",
+      "peak_rss_bytes": 133677056
+    },
+    {
+      "file": "logs/num-search-34-3.log.time",
+      "peak_rss_bytes": 114049024
+    },
+    {
+      "file": "logs/num-search-34-2.log.time",
+      "peak_rss_bytes": 106627072
+    },
+    {
+      "file": "logs/num-merge-38.log.time",
+      "peak_rss_bytes": 453672960
+    },
+    {
+      "file": "logs/num-merge-39.log.time",
+      "peak_rss_bytes": 441434112
+    },
+    {
+      "file": "logs/archive-num-25-0.log.time",
+      "peak_rss_bytes": 294223872
+    },
+    {
+      "file": "logs/archive-num-25-1.log.time",
+      "peak_rss_bytes": 133562368
+    },
+    {
+      "file": "logs/archive-num-47-1.log.time",
+      "peak_rss_bytes": 266059776
+    },
+    {
+      "file": "logs/archive-num-47-0.log.time",
+      "peak_rss_bytes": 300924928
+    },
+    {
+      "file": "logs/den-search-37-0.log.time",
+      "peak_rss_bytes": 452689920
+    },
+    {
+      "file": "logs/num-search-43-0.log.time",
+      "peak_rss_bytes": 106627072
+    },
+    {
+      "file": "logs/den-search-37-1.log.time",
+      "peak_rss_bytes": 453312512
+    },
+    {
+      "file": "logs/num-search-43-1.log.time",
+      "peak_rss_bytes": 105742336
+    },
+    {
+      "file": "logs/archive-den-40-1.log.time",
+      "peak_rss_bytes": 422248448
+    },
+    {
+      "file": "logs/archive-den-40-0.log.time",
+      "peak_rss_bytes": 879280128
+    },
+    {
+      "file": "logs/den-search-49-1.log.time",
+      "peak_rss_bytes": 457768960
+    },
+    {
+      "file": "logs/den-search-49-0.log.time",
+      "peak_rss_bytes": 460079104
+    },
+    {
+      "file": "logs/archive-num-39-0.log.time",
+      "peak_rss_bytes": 427720704
+    },
+    {
+      "file": "logs/archive-num-39-1.log.time",
+      "peak_rss_bytes": 279625728
+    },
+    {
+      "file": "logs/num-search-31-3.log.time",
+      "peak_rss_bytes": 108625920
+    },
+    {
+      "file": "logs/num-search-31-2.log.time",
+      "peak_rss_bytes": 111476736
+    },
+    {
+      "file": "logs/num-merge-25.log.time",
+      "peak_rss_bytes": 484147200
+    },
+    {
+      "file": "logs/num-merge-24.log.time",
+      "peak_rss_bytes": 505397248
+    },
+    {
+      "file": "logs/archive-num-24-2.log.time",
+      "peak_rss_bytes": 133398528
+    },
+    {
+      "file": "logs/archive-num-28-0.log.time",
+      "peak_rss_bytes": 279166976
+    },
+    {
+      "file": "logs/archive-num-28-1.log.time",
+      "peak_rss_bytes": 133726208
+    },
+    {
+      "file": "logs/archive-num-46-2.log.time",
+      "peak_rss_bytes": 137379840
+    },
+    {
+      "file": "logs/num-search-42-2.log.time",
+      "peak_rss_bytes": 110837760
+    },
+    {
+      "file": "logs/num-search-42-3.log.time",
+      "peak_rss_bytes": 109527040
+    },
+    {
+      "file": "logs/archive-num-38-2.log.time",
+      "peak_rss_bytes": 227295232
+    },
+    {
+      "file": "logs/archive-num-38-3.log.time",
+      "peak_rss_bytes": 134103040
+    },
+    {
+      "file": "logs/den-search-26-0.log.time",
+      "peak_rss_bytes": 453427200
+    },
+    {
+      "file": "logs/den-search-26-1.log.time",
+      "peak_rss_bytes": 458047488
+    },
+    {
+      "file": "logs/den-search-44-1.log.time",
+      "peak_rss_bytes": 453263360
+    },
+    {
+      "file": "logs/num-search-30-1.log.time",
+      "peak_rss_bytes": 108969984
+    },
+    {
+      "file": "logs/den-search-44-0.log.time",
+      "peak_rss_bytes": 453574656
+    },
+    {
+      "file": "logs/num-search-30-0.log.time",
+      "peak_rss_bytes": 112934912
+    },
+    {
+      "file": "rounds/num-26-verify.log.time",
+      "peak_rss_bytes": 39157760
+    },
+    {
+      "file": "rounds/archive-den-40-3-verify.log.time",
+      "peak_rss_bytes": 38895616
+    },
+    {
+      "file": "rounds/archive-num-37-0-verify.log.time",
+      "peak_rss_bytes": 38567936
+    },
+    {
+      "file": "rounds/archive-num-51-0-verify.log.time",
+      "peak_rss_bytes": 40058880
+    },
+    {
+      "file": "rounds/num-45-verify.log.time",
+      "peak_rss_bytes": 38961152
+    },
+    {
+      "file": "rounds/num-30-verify.log.time",
+      "peak_rss_bytes": 38846464
+    },
+    {
+      "file": "rounds/archive-num-48-0-verify.log.time",
+      "peak_rss_bytes": 39469056
+    },
+    {
+      "file": "rounds/archive-num-32-0-verify.log.time",
+      "peak_rss_bytes": 38846464
+    },
+    {
+      "file": "rounds/archive-num-31-1-verify.log.time",
+      "peak_rss_bytes": 39157760
+    },
+    {
+      "file": "rounds/num-29-verify.log.time",
+      "peak_rss_bytes": 39059456
+    },
+    {
+      "file": "rounds/archive-num-36-0-verify.log.time",
+      "peak_rss_bytes": 38895616
+    },
+    {
+      "file": "rounds/archive-num-41-2-verify.log.time",
+      "peak_rss_bytes": 39157760
+    },
+    {
+      "file": "rounds/archive-num-50-0-verify.log.time",
+      "peak_rss_bytes": 40009728
+    },
+    {
+      "file": "rounds/num-37-verify.log.time",
+      "peak_rss_bytes": 38600704
+    },
+    {
+      "file": "rounds/archive-num-49-0-verify.log.time",
+      "peak_rss_bytes": 39632896
+    },
+    {
+      "file": "rounds/num-42-verify.log.time",
+      "peak_rss_bytes": 38715392
+    },
+    {
+      "file": "rounds/num-38-verify.log.time",
+      "peak_rss_bytes": 38420480
+    },
+    {
+      "file": "rounds/archive-num-30-1-verify.log.time",
+      "peak_rss_bytes": 38830080
+    },
+    {
+      "file": "rounds/archive-num-29-0-verify.log.time",
+      "peak_rss_bytes": 39223296
+    },
+    {
+      "file": "rounds/archive-num-38-2-verify.log.time",
+      "peak_rss_bytes": 39026688
+    },
+    {
+      "file": "rounds/archive-num-35-0-verify.log.time",
+      "peak_rss_bytes": 39272448
+    },
+    {
+      "file": "rounds/num-36-verify.log.time",
+      "peak_rss_bytes": 38879232
+    },
+    {
+      "file": "rounds/archive-num-36-1-verify.log.time",
+      "peak_rss_bytes": 38846464
+    },
+    {
+      "file": "rounds/num-39-verify.log.time",
+      "peak_rss_bytes": 38895616
+    },
+    {
+      "file": "rounds/archive-num-49-1-verify.log.time",
+      "peak_rss_bytes": 39616512
+    },
+    {
+      "file": "rounds/num-43-verify.log.time",
+      "peak_rss_bytes": 39026688
+    },
+    {
+      "file": "rounds/archive-num-30-0-verify.log.time",
+      "peak_rss_bytes": 38551552
+    },
+    {
+      "file": "rounds/num-27-verify.log.time",
+      "peak_rss_bytes": 39010304
+    },
+    {
+      "file": "rounds/archive-num-39-2-verify.log.time",
+      "peak_rss_bytes": 39583744
+    },
+    {
+      "file": "rounds/archive-num-28-0-verify.log.time",
+      "peak_rss_bytes": 39469056
+    },
+    {
+      "file": "rounds/archive-num-51-1-verify.log.time",
+      "peak_rss_bytes": 40124416
+    },
+    {
+      "file": "rounds/num-44-verify.log.time",
+      "peak_rss_bytes": 38977536
+    },
+    {
+      "file": "rounds/archive-num-43-2-verify.log.time",
+      "peak_rss_bytes": 38912000
+    },
+    {
+      "file": "rounds/archive-den-40-2-verify.log.time",
+      "peak_rss_bytes": 38895616
+    },
+    {
+      "file": "rounds/archive-num-37-1-verify.log.time",
+      "peak_rss_bytes": 38699008
+    },
+    {
+      "file": "rounds/num-31-verify.log.time",
+      "peak_rss_bytes": 38797312
+    },
+    {
+      "file": "rounds/archive-num-48-1-verify.log.time",
+      "peak_rss_bytes": 39370752
+    },
+    {
+      "file": "rounds/archive-num-31-0-verify.log.time",
+      "peak_rss_bytes": 39239680
+    },
+    {
+      "file": "rounds/num-28-verify.log.time",
+      "peak_rss_bytes": 38944768
+    },
+    {
+      "file": "rounds/archive-num-32-1-verify.log.time",
+      "peak_rss_bytes": 39288832
+    },
+    {
+      "file": "rounds/archive-num-41-1-verify.log.time",
+      "peak_rss_bytes": 39141376
+    },
+    {
+      "file": "rounds/archive-num-24-0-verify.log.time",
+      "peak_rss_bytes": 38731776
+    },
+    {
+      "file": "rounds/archive-num-42-0-verify.log.time",
+      "peak_rss_bytes": 38649856
+    },
+    {
+      "file": "rounds/archive-num-38-0-verify.log.time",
+      "peak_rss_bytes": 38961152
+    },
+    {
+      "file": "rounds/archive-num-44-1-verify.log.time",
+      "peak_rss_bytes": 39174144
+    },
+    {
+      "file": "rounds/archive-num-22-1-verify.log.time",
+      "peak_rss_bytes": 39026688
+    },
+    {
+      "file": "rounds/num-22-verify.log.time",
+      "peak_rss_bytes": 38780928
+    },
+    {
+      "file": "rounds/archive-num-47-0-verify.log.time",
+      "peak_rss_bytes": 39534592
+    },
+    {
+      "file": "rounds/num-41-verify.log.time",
+      "peak_rss_bytes": 39108608
+    },
+    {
+      "file": "rounds/archive-num-25-0-verify.log.time",
+      "peak_rss_bytes": 39206912
+    },
+    {
+      "file": "rounds/num-46-verify.log.time",
+      "peak_rss_bytes": 39649280
+    },
+    {
+      "file": "rounds/archive-den-40-0-verify.log.time",
+      "peak_rss_bytes": 38420480
+    },
+    {
+      "file": "rounds/archive-num-43-0-verify.log.time",
+      "peak_rss_bytes": 38731776
+    },
+    {
+      "file": "rounds/num-25-verify.log.time",
+      "peak_rss_bytes": 38830080
+    },
+    {
+      "file": "rounds/archive-num-39-0-verify.log.time",
+      "peak_rss_bytes": 39075840
+    },
+    {
+      "file": "rounds/archive-num-31-2-verify.log.time",
+      "peak_rss_bytes": 39354368
+    },
+    {
+      "file": "rounds/archive-num-45-1-verify.log.time",
+      "peak_rss_bytes": 39419904
+    },
+    {
+      "file": "rounds/archive-num-23-1-verify.log.time",
+      "peak_rss_bytes": 38715392
+    },
+    {
+      "file": "rounds/num-50-verify.log.time",
+      "peak_rss_bytes": 39649280
+    },
+    {
+      "file": "rounds/archive-num-46-0-verify.log.time",
+      "peak_rss_bytes": 39469056
+    },
+    {
+      "file": "rounds/num-49-verify.log.time",
+      "peak_rss_bytes": 39534592
+    },
+    {
+      "file": "rounds/archive-num-48-3-verify.log.time",
+      "peak_rss_bytes": 39665664
+    },
+    {
+      "file": "rounds/num-33-verify.log.time",
+      "peak_rss_bytes": 39043072
+    },
+    {
+      "file": "rounds/archive-den-40-1-verify.log.time",
+      "peak_rss_bytes": 38797312
+    },
+    {
+      "file": "rounds/archive-num-43-1-verify.log.time",
+      "peak_rss_bytes": 38748160
+    },
+    {
+      "file": "rounds/archive-num-26-0-verify.log.time",
+      "peak_rss_bytes": 39272448
+    },
+    {
+      "file": "rounds/archive-num-40-0-verify.log.time",
+      "peak_rss_bytes": 38600704
+    },
+    {
+      "file": "rounds/num-47-verify.log.time",
+      "peak_rss_bytes": 39501824
+    },
+    {
+      "file": "rounds/archive-num-39-1-verify.log.time",
+      "peak_rss_bytes": 39141376
+    },
+    {
+      "file": "rounds/num-24-verify.log.time",
+      "peak_rss_bytes": 38682624
+    },
+    {
+      "file": "rounds/archive-num-23-0-verify.log.time",
+      "peak_rss_bytes": 38912000
+    },
+    {
+      "file": "rounds/num-51-verify.log.time",
+      "peak_rss_bytes": 39583744
+    },
+    {
+      "file": "rounds/den-40-verify.log.time",
+      "peak_rss_bytes": 38223872
+    },
+    {
+      "file": "rounds/archive-num-46-1-verify.log.time",
+      "peak_rss_bytes": 39567360
+    },
+    {
+      "file": "rounds/archive-num-45-0-verify.log.time",
+      "peak_rss_bytes": 39256064
+    },
+    {
+      "file": "rounds/archive-num-48-2-verify.log.time",
+      "peak_rss_bytes": 39600128
+    },
+    {
+      "file": "rounds/num-32-verify.log.time",
+      "peak_rss_bytes": 38895616
+    },
+    {
+      "file": "rounds/num-48-verify.log.time",
+      "peak_rss_bytes": 39469056
+    },
+    {
+      "file": "rounds/archive-num-42-1-verify.log.time",
+      "peak_rss_bytes": 38813696
+    },
+    {
+      "file": "rounds/archive-num-27-0-verify.log.time",
+      "peak_rss_bytes": 39108608
+    },
+    {
+      "file": "rounds/archive-num-41-0-verify.log.time",
+      "peak_rss_bytes": 38993920
+    },
+    {
+      "file": "rounds/num-35-verify.log.time",
+      "peak_rss_bytes": 39141376
+    },
+    {
+      "file": "rounds/archive-num-24-1-verify.log.time",
+      "peak_rss_bytes": 38928384
+    },
+    {
+      "file": "rounds/archive-num-38-1-verify.log.time",
+      "peak_rss_bytes": 39108608
+    },
+    {
+      "file": "rounds/archive-num-22-0-verify.log.time",
+      "peak_rss_bytes": 38699008
+    },
+    {
+      "file": "rounds/archive-num-47-1-verify.log.time",
+      "peak_rss_bytes": 39501824
+    },
+    {
+      "file": "rounds/num-23-verify.log.time",
+      "peak_rss_bytes": 39108608
+    },
+    {
+      "file": "rounds/archive-num-44-0-verify.log.time",
+      "peak_rss_bytes": 39059456
+    },
+    {
+      "file": "rounds/num-40-verify.log.time",
+      "peak_rss_bytes": 38912000
+    }
+  ],
+  "accounting": "Sum of disjoint run/batch RUSAGE_CHILDREN deltas, including ps sampling. Estimate adds .01 core-hour setup plus .01 per elapsed hour for controller/setup/reporting.",
+  "single_threaded_blas_highs_flint": true,
+  "maximum_simultaneous_numerical_workers": 4,
+  "allocation": "4 numerator generation and full-bank pricing, 2 denominator; alternating batches; measured solo generation first round; sequential LP and verifier",
+  "nice_command": "nice -n 10"
+}

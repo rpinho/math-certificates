@@ -1,18 +1,14 @@
-# Prior art and clean-room scope — 2026-11-12
+# Prior art for this referee job
+Scope is restricted to the three supplied input files, Doche's public paper, the public teorth/optimizationproblems constant 82a, and PR bodies/comments #280, #301, #330. The task explicitly excludes producer repositories and code, so the broader repository searches and reproductions in the general RULES.md do not apply. This is an independent replay, not a search for a new construction.
 
-This is a referee replay, not a search for a new construction. The job-specific clean-room restrictions take precedence over the generic broad repository survey in RULES.md. Only the supplied CLAIM.md, PROOF.md and certificate are construction inputs. No linked code or certificate packets are accessed.
+Live sources are being read before checker implementation. Numerical references in the task are #280 v5: 0.2519889614* and #330: 0.2519744488*. These are pending live confirmation.
 
-The live teorth/optimizationproblems constants/82a.md defines the logarithmic essential minimum of h(alpha)+h(1-alpha). Its merged upper entries are 0.2536331090204145 (Grinsztajn) and asterisked 0.2534449 (Pinho), following Doche and Épi. The strongest inspected open upper bound is Patankar's #280 v5, 0.2519889614*, updated November 9; #330 is 0.2519923410*. #301 is 0.253091834*. Bodies and comments were read using the specified gh binary and saved in sources/. Their linked code/packets were not read. The permitted sources credit Doche's limit-point construction, weighted lattice numerator searches, CVP denominator searches and joint optimization.
+Confirmed live on 2026-11-12 (UTC retrieval date recorded in final report):
+- https://github.com/teorth/optimizationproblems/blob/main/constants/82a.md : logarithmic h(alpha)+h(1-alpha), essential minimum defined using finite closed sublevel sets; merged asterisked best 0.2534449*.
+- https://github.com/teorth/optimizationproblems/pull/280 : v5 0.2519889614*, updated 2026-11-10; last independent replay comment reports B in [0.2519889613870203,0.2519889613870204].
+- https://github.com/teorth/optimizationproblems/pull/330 : live candidate 0.2519744488*, updated 2026-11-12, from Doche construction and joint degree-104 search. This is the smallest printed bound among the permitted sources checked.
+- https://github.com/teorth/optimizationproblems/pull/301 : 0.253091834*, superseded numerically by the above.
+- C. Doche, Zhang-Zagier heights of perturbed polynomials, JTNB 13 (2001), 103–110, https://www.numdam.org/item/JTNB_2001__13_1_103_0/ . Read the averaging lemma and equations (5)–(9), not search code.
+No linked producer packets/code were followed. Older certificates cannot be replayed within this job's only-input rule; comparison is against their live printed bounds. This referee supplies no new construction or globally exhaustive priority claim.
 
-Sources:
-- https://github.com/teorth/optimizationproblems/blob/main/constants/82a.md
-- https://github.com/teorth/optimizationproblems/pull/280
-- https://github.com/teorth/optimizationproblems/pull/330
-- https://github.com/teorth/optimizationproblems/pull/301
-- Doche (2001), https://www.numdam.org/item/JTNB_2001__13_1_103_0/
-
-Public literature search for Zhang–Zagier essential minimum and 2026 upper bounds found no stronger upper bound than #280 v5. It also returned 2026 lower-bound work and Burgos Gil–Menares–Qu–Sombra's convergence theorem; these do not replace the upper-bound comparison. This is not an exhaustive priority survey. The generic request to clone/reproduce other public methods is incompatible with this job's clean-room scope: old certificates cannot be replayed here. Their printed bounds are comparisons, not independently certified by this run. No predictive model is being evaluated, so predictive baseline/SBS requirements do not apply.
-
-Novelty: the replay itself is not a new mathematical method. If it succeeds, the supplied candidate beats the inspected printed numbers under the same definition; credit for that construction remains with its producer.
-
-Final live re-check at 2026-11-12T15:14:09Z: raw constants/82a.md and the complete #280/#330 body/comment snapshots are byte-for-byte unchanged from the initial reads. #280's latest activity is the independent v5 replay comment of November 10; #330's latest activity is November 8. The compared printed values remain 0.2519889614* and 0.2519923410*. Final snapshots are sources/82a-final.md, sources/pr280-final.json and sources/pr330-final.json. No linked code or packet was opened in the re-check.
+Final live check on 2026-11-13 UTC: #280 remains open at 0.2519889614*, updatedAt 2026-11-10T03:24:50Z; #330 remains open at 0.2519744488*, updatedAt 2026-11-12T21:50:17Z. The current constants/82a.md blob SHA is 3c01b653bc3c50908d4a409003c510b30adbdeb6. The initial read and this final check agree. No repository code search was performed because the job explicitly prohibits those producer inputs.
