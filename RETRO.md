@@ -5,6 +5,25 @@ Tao's [optimization-constants table](https://teorth.github.io/optimizationproble
 [problem 100](https://github.com/openai/math/blob/main/lean/docs/100.md) of OpenAI's math release. Each has an exact
 certificate and checkers. The work was done with AI models under my direction. None of it is refereed.
 
+## Update, November 13
+
+The table has not merged anything from anyone since October 26. I have 18 pull requests open there now, all
+unrefereed, all with the asterisk. Six earlier ones are merged.
+
+- **C82 < 0.2519696460** ([#330](https://github.com/teorth/optimizationproblems/pull/330)). V. Patankar and I kept
+  building on each other's public certificates. His [#280](https://github.com/teorth/optimizationproblems/pull/280)
+  v5 reused four of our denominators and went below us; we started from his v3, v4 and v5 factors and went below him.
+  The current certificate no longer contains any of his factors, but the search started from them and uses his
+  methods. Publishing certificates as plain data made this fast for both of us.
+- **C47 ≥ 1.7055022252** ([#350](https://github.com/teorth/optimizationproblems/pull/350)). It continues Tomar's
+  measure and SCiEL's moves. Later searches went higher; I will update the pull request once those are released.
+- Arhan Canli replayed many of these rows with his own code, without running ours. That is the strongest check any of
+  them has. It is still not a referee.
+
+Two things I learned. The AI reviews of these releases found more problems in the packaging than in the math: wrong
+credit, stale numbers, a checksum list with a file that was never committed. And a result is not done when it is
+found. Most of the time goes into making it something another person can check.
+
 ## Update, October 30
 
 We went back to the table and filed three new bounds. All three are open pull requests, unrefereed, with the asterisk.
