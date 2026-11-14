@@ -14,7 +14,7 @@
   "read_producer_code": false,
   "ran_producer_code": false,
   "checker": "release_validation/adapted/exact_checker_gmp.cpp",
-  "checker_sha256": "ca08ad1ae51a7aae5b085787b637075f79e6a34e9e876880a5bb2eb6967ddfe8",
+  "checker_sha256": "d5cb4f5c8aa49227afa63f3a3679bae9b1c2623c6c7e2bf87580edf199eb891b",
   "report": "referee/REFEREE.md",
   "report_sha256": "beed872aaa9d55289bf0a8ba2a07f38e20cfaaef47e3e83f62f748848699b0b9",
   "note": "Transcribed from the supplied referee report, not a new referee review or model-identity attestation. Hashes identify the supplied publication inputs and do not prove historical isolation. Both REFEREE.md and PRIOR_ART.md are byte-for-byte originals. Sole caveat: use the exact expression or 1.5678643845 rounded down. Producer REPORT.md and SOURCE_STATEMENTS.md are retained source prose; see referee/README.md.",
