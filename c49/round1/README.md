@@ -16,7 +16,7 @@ The exact margin is \(R-R_0\), strictly between
 `0.0000044821482170935091180159147830749067693242554392250907328019176417`
 and
 `0.0000044821482170935091180159147830749067693242554392250907328019176419`.
-These bounds are certified by integer surd comparisons in `release_validation/adapted/exact_rates_integer.py` (the packaging job's integer-only adaptation of the referee's `referee/exact_rates.py`, same comparisons) and its retained and fresh outputs; no floating-point comparison decides the claim.
+These bounds are certified by integer surd comparisons in `release_validation/adapted/exact_rates_integer.py` (the release-lint job's integer-only adaptation of the referee's `referee/exact_rates.py`, same comparisons) and its retained and fresh outputs; no floating-point comparison decides the claim.
 
 | Block | Members | N00 | N01 | N10 | N11 |
 |---|---:|---:|---:|---:|---:|

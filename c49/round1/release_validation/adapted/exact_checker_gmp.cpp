@@ -1,4 +1,4 @@
-// Exact checker adapted for release by the packaging job (GPT-6.1 Sol), not by the referee: merged binary trie, tuple-counting dynamic programs.
+// Exact checker adapted for release by the release-lint job (GPT-6.1 Sol), not by the referee: merged binary trie, tuple-counting dynamic programs.
 // The algorithm is the clean-room referee's (GPT-6 Astra), in referee/independent.cpp, which is unchanged.
 // Mechanical release adaptation: GMP counts replace fixed-width tuple counts;
 // elapsed time uses integer nanoseconds. No recurrence or acceptance rule changes.
