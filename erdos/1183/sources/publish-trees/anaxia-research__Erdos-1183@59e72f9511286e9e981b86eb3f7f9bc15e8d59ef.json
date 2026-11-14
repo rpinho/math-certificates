@@ -1,0 +1,600 @@
+{
+  "sha": "59e72f9511286e9e981b86eb3f7f9bc15e8d59ef",
+  "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/trees/59e72f9511286e9e981b86eb3f7f9bc15e8d59ef",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "95b5eccb002e7cbedcccf1d0793960f95e9a6c71",
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/trees/95b5eccb002e7cbedcccf1d0793960f95e9a6c71"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7998cb961e48f2a05ca3c0d3b7114d9e430075d6",
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/trees/7998cb961e48f2a05ca3c0d3b7114d9e430075d6"
+    },
+    {
+      "path": ".github/workflows/lean.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f4784e1d7cf1089a3ee62e8901defcf18549328",
+      "size": 589,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/6f4784e1d7cf1089a3ee62e8901defcf18549328"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "046c9d9fbda7f8b223e051b7984be98e58c7b485",
+      "size": 164,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/046c9d9fbda7f8b223e051b7984be98e58c7b485"
+    },
+    {
+      "path": ".zenodo.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1c36c2e47ee51f1f35188b48a1c8ca5a002828d",
+      "size": 2958,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/d1c36c2e47ee51f1f35188b48a1c8ca5a002828d"
+    },
+    {
+      "path": "CITATION.cff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2caa265ab5d2d5ef53090c7fc111513df5ddb6db",
+      "size": 1282,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/2caa265ab5d2d5ef53090c7fc111513df5ddb6db"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "376c3d842750f1ba5acabf4707d14cab0c9eab88",
+      "size": 3416,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/376c3d842750f1ba5acabf4707d14cab0c9eab88"
+    },
+    {
+      "path": "code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5c27eb02758a5575b1a4ab3b51c89225bf275680",
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/trees/5c27eb02758a5575b1a4ab3b51c89225bf275680"
+    },
+    {
+      "path": "code/F7_old.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15c861be87214d1aebbb065e253ad9c85a7d122b",
+      "size": 38,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/15c861be87214d1aebbb065e253ad9c85a7d122b"
+    },
+    {
+      "path": "code/README.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "354c7ce2615495616dbba541dacb02cbd674fcaa",
+      "size": 3014,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/354c7ce2615495616dbba541dacb02cbd674fcaa"
+    },
+    {
+      "path": "code/VERIFICATION_NOTES.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efb7fc9f615f33406c49efb78c8edd0513631a2c",
+      "size": 1955,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/efb7fc9f615f33406c49efb78c8edd0513631a2c"
+    },
+    {
+      "path": "code/brute_small.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f5fcd985e476c7e83b7627256d322f52765d988",
+      "size": 1167,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/5f5fcd985e476c7e83b7627256d322f52765d988"
+    },
+    {
+      "path": "code/f9_old.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c08b458c0a913a2c54f765ce630f6cd834e5de2d",
+      "size": 37,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/c08b458c0a913a2c54f765ce630f6cd834e5de2d"
+    },
+    {
+      "path": "code/f_card_search_sat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44cf5aa69890757f605e36f6c3ff3d43702440bd",
+      "size": 2064,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/44cf5aa69890757f605e36f6c3ff3d43702440bd"
+    },
+    {
+      "path": "code/fcard9.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fffaf4439c5101a7cf67408e3a6b641269ac9ced",
+      "size": 161,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/fffaf4439c5101a7cf67408e3a6b641269ac9ced"
+    },
+    {
+      "path": "code/fcardsat10.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2d502c0a44dce212496d21bebe424e4026ac108",
+      "size": 166,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/c2d502c0a44dce212496d21bebe424e4026ac108"
+    },
+    {
+      "path": "code/sizebased.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10805d26fbda5be2c5f3cefd1f83322086c3680a",
+      "size": 1279,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/10805d26fbda5be2c5f3cefd1f83322086c3680a"
+    },
+    {
+      "path": "code/small_values.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ba54939f9125e4a7bcc365a3f118ae5304f3639",
+      "size": 4046,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/5ba54939f9125e4a7bcc365a3f118ae5304f3639"
+    },
+    {
+      "path": "code/verify_g.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82844b23cebfc8bbb4f51b9a703ba14668960606",
+      "size": 687,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/82844b23cebfc8bbb4f51b9a703ba14668960606"
+    },
+    {
+      "path": "code/witness_F_3.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a7db0b199feb8b7c334c4e685835ff89dd115da",
+      "size": 9,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/7a7db0b199feb8b7c334c4e685835ff89dd115da"
+    },
+    {
+      "path": "code/witness_F_4.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64a8c495f00ad1948f62f9dd3cdc594ac742b781",
+      "size": 17,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/64a8c495f00ad1948f62f9dd3cdc594ac742b781"
+    },
+    {
+      "path": "code/witness_F_5.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "734ca26076c687344c062882b5f62a22ae298779",
+      "size": 33,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/734ca26076c687344c062882b5f62a22ae298779"
+    },
+    {
+      "path": "code/witness_F_6.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6118ddc01640a197c33fdb376e859a1cb1dd8734",
+      "size": 65,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/6118ddc01640a197c33fdb376e859a1cb1dd8734"
+    },
+    {
+      "path": "code/witness_F_7.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "049c4400dc375d9c5f8adb4f2501f05c329624f7",
+      "size": 129,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/049c4400dc375d9c5f8adb4f2501f05c329624f7"
+    },
+    {
+      "path": "code/witness_f_3.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bcafe440f891c5d78277c7a043e2c861b7979e3",
+      "size": 9,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/0bcafe440f891c5d78277c7a043e2c861b7979e3"
+    },
+    {
+      "path": "code/witness_f_4.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64a8c495f00ad1948f62f9dd3cdc594ac742b781",
+      "size": 17,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/64a8c495f00ad1948f62f9dd3cdc594ac742b781"
+    },
+    {
+      "path": "code/witness_f_5.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bde06375ef0d5930f1f24d1d8ae3e13d8bab317f",
+      "size": 33,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/bde06375ef0d5930f1f24d1d8ae3e13d8bab317f"
+    },
+    {
+      "path": "code/witness_f_6.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0698eb320c16167ec9c061ac6bc86365c33a79fd",
+      "size": 65,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/0698eb320c16167ec9c061ac6bc86365c33a79fd"
+    },
+    {
+      "path": "code/witness_f_7.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc72aa01a3c7ac9a3bc55724a606484d1fcb87c0",
+      "size": 129,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/dc72aa01a3c7ac9a3bc55724a606484d1fcb87c0"
+    },
+    {
+      "path": "code/witness_f_8.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cdac9d197746024ca0a944316da5b21bc81bf69",
+      "size": 257,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/3cdac9d197746024ca0a944316da5b21bc81bf69"
+    },
+    {
+      "path": "code/witness_f_9.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00d87cc4a7a04412ff695eb3573781f20fee827a",
+      "size": 513,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/00d87cc4a7a04412ff695eb3573781f20fee827a"
+    },
+    {
+      "path": "code/witnesses.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e49870604363dcf79b6818d09ad43232c98102b8",
+      "size": 588,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/e49870604363dcf79b6818d09ad43232c98102b8"
+    },
+    {
+      "path": "code/witnesses.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45facea8e5c2b1ae4113bd6e6a6768f684954b5d",
+      "size": 3036,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/45facea8e5c2b1ae4113bd6e6a6768f684954b5d"
+    },
+    {
+      "path": "lean",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "536b4225c4f14134a312292508412c1c57208d88",
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/trees/536b4225c4f14134a312292508412c1c57208d88"
+    },
+    {
+      "path": "lean/Check.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "975d26be73204933204cc8c5eaa707ad1a61b8cc",
+      "size": 943,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/975d26be73204933204cc8c5eaa707ad1a61b8cc"
+    },
+    {
+      "path": "lean/Erdos1183.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56687e14d98f13bfb8c345b896fa119acf855719",
+      "size": 141,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/56687e14d98f13bfb8c345b896fa119acf855719"
+    },
+    {
+      "path": "lean/Erdos1183",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9e955215d332df27bd0a176c0a725566c016ae1d",
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/trees/9e955215d332df27bd0a176c0a725566c016ae1d"
+    },
+    {
+      "path": "lean/Erdos1183/Asymptotic.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fb514fa519003c626f05c19094f3c514fc020a3",
+      "size": 4566,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/5fb514fa519003c626f05c19094f3c514fc020a3"
+    },
+    {
+      "path": "lean/Erdos1183/Basic.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8577e87d3aeff8b3f6fe6527a2a1259660b030d",
+      "size": 17098,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/b8577e87d3aeff8b3f6fe6527a2a1259660b030d"
+    },
+    {
+      "path": "lean/Erdos1183/Chain.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14ab753cc9fb2a3ca7fdb3a0846fc4b519d51b52",
+      "size": 14622,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/14ab753cc9fb2a3ca7fdb3a0846fc4b519d51b52"
+    },
+    {
+      "path": "lean/Erdos1183/Cube.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d1b589f8562e4e6e972b186b1c1e815d7dab132",
+      "size": 14328,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/7d1b589f8562e4e6e972b186b1c1e815d7dab132"
+    },
+    {
+      "path": "lean/Erdos1183/Lower.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30043f6937ff2226b6708b0bff21b86fc2b72ad6",
+      "size": 15962,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/30043f6937ff2226b6708b0bff21b86fc2b72ad6"
+    },
+    {
+      "path": "lean/Erdos1183/Main.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e37a183350c7feb570ec5dd32d021970953bae9",
+      "size": 5680,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/2e37a183350c7feb570ec5dd32d021970953bae9"
+    },
+    {
+      "path": "lean/lake-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3072f5020f4a44651542e955444855003903b67e",
+      "size": 3123,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/3072f5020f4a44651542e955444855003903b67e"
+    },
+    {
+      "path": "lean/lakefile.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad8744b24737832e117b22e043c5bd8d177938b0",
+      "size": 186,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/ad8744b24737832e117b22e043c5bd8d177938b0"
+    },
+    {
+      "path": "lean/lean-toolchain",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba8ebf2dbaf6a668cd2a0e086186d6d569b69ff5",
+      "size": 25,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/ba8ebf2dbaf6a668cd2a0e086186d6d569b69ff5"
+    },
+    {
+      "path": "paper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1fe9e8ed73202beef84525079f4f8557d1eddf08",
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/trees/1fe9e8ed73202beef84525079f4f8557d1eddf08"
+    },
+    {
+      "path": "paper/Erdos.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0b824ff838ab0e38889545da62ff932f5dc962d",
+      "size": 819871,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/d0b824ff838ab0e38889545da62ff932f5dc962d"
+    },
+    {
+      "path": "paper/Erdos.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdd9d3394ea143b5eae6499faf131b48d17019c2",
+      "size": 63348,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/cdd9d3394ea143b5eae6499faf131b48d17019c2"
+    },
+    {
+      "path": "paper/figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "16e41dfb68853dcd434db834ea80745eca3d2e92",
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/trees/16e41dfb68853dcd434db834ea80745eca3d2e92"
+    },
+    {
+      "path": "paper/figures/build.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b0f3a438a4a57495fe1bc31450ddef725d1c8e6c",
+      "size": 517,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/b0f3a438a4a57495fe1bc31450ddef725d1c8e6c"
+    },
+    {
+      "path": "paper/figures/fig-chain.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46b94eb5669f200a461e802f579c39cd46c2af01",
+      "size": 77173,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/46b94eb5669f200a461e802f579c39cd46c2af01"
+    },
+    {
+      "path": "paper/figures/fig-chain.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0e38370fdb87fc05585b6e14b96d5da16d2b649",
+      "size": 61128,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/f0e38370fdb87fc05585b6e14b96d5da16d2b649"
+    },
+    {
+      "path": "paper/figures/fig-chain.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "514f57ff8727759ce1080e0423fbd2a038326520",
+      "size": 3118,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/514f57ff8727759ce1080e0423fbd2a038326520"
+    },
+    {
+      "path": "paper/figures/fig-hilbert.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ae362edfc172e0432e495b4141e5caf81bdd540",
+      "size": 86185,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/7ae362edfc172e0432e495b4141e5caf81bdd540"
+    },
+    {
+      "path": "paper/figures/fig-hilbert.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b93c031af46d68e5639d9e7667fe84c73dad11a",
+      "size": 49757,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/6b93c031af46d68e5639d9e7667fe84c73dad11a"
+    },
+    {
+      "path": "paper/figures/fig-hilbert.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0993e21e50ab21607fbabe36ab81083f350b628f",
+      "size": 1782,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/0993e21e50ab21607fbabe36ab81083f350b628f"
+    },
+    {
+      "path": "paper/figures/fig-holecube.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45d2151feec904d54f75afc6535f91b8b0324632",
+      "size": 52248,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/45d2151feec904d54f75afc6535f91b8b0324632"
+    },
+    {
+      "path": "paper/figures/fig-holecube.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2abd8735e684ef42b58cabd159dddc3ee3257bd4",
+      "size": 44211,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/2abd8735e684ef42b58cabd159dddc3ee3257bd4"
+    },
+    {
+      "path": "paper/figures/fig-holecube.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "123a3669bad900dfaa2f3c3a585083479325817a",
+      "size": 1982,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/123a3669bad900dfaa2f3c3a585083479325817a"
+    },
+    {
+      "path": "paper/figures/fig-lattice.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6046b810a50a6f3ad420b7fca2c65bacd47cb24",
+      "size": 27401,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/c6046b810a50a6f3ad420b7fca2c65bacd47cb24"
+    },
+    {
+      "path": "paper/figures/fig-lattice.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4828797c39c2b997d749c1a943f056a512f7a195",
+      "size": 31545,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/4828797c39c2b997d749c1a943f056a512f7a195"
+    },
+    {
+      "path": "paper/figures/fig-lattice.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ad863f02be472ef6bd6d759a86cb1f81bcd18e1",
+      "size": 1994,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/7ad863f02be472ef6bd6d759a86cb1f81bcd18e1"
+    },
+    {
+      "path": "paper/figures/fig-proofmap.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe4a07b63d20fae7292a69b34fcf256cb23918d9",
+      "size": 142225,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/fe4a07b63d20fae7292a69b34fcf256cb23918d9"
+    },
+    {
+      "path": "paper/figures/fig-proofmap.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55dc0dee3cf4e7e802961d1b8652e43843693f83",
+      "size": 168954,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/55dc0dee3cf4e7e802961d1b8652e43843693f83"
+    },
+    {
+      "path": "paper/figures/fig-proofmap.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba74842322d0ecfab3d3e907034912f6c4ae1121",
+      "size": 1767,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/ba74842322d0ecfab3d3e907034912f6c4ae1121"
+    },
+    {
+      "path": "paper/figures/fig-surface.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4fad11e9c56876d735aaa53232458170ca9eee9",
+      "size": 289001,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/c4fad11e9c56876d735aaa53232458170ca9eee9"
+    },
+    {
+      "path": "paper/figures/fig-surface.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be5e85e956f785583f2d0a5c343ce6e4be24cec4",
+      "size": 228010,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/be5e85e956f785583f2d0a5c343ce6e4be24cec4"
+    },
+    {
+      "path": "paper/figures/fig-surface.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff5a54a984c57e18161ae31ceca532b1b8e282e2",
+      "size": 5170,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/ff5a54a984c57e18161ae31ceca532b1b8e282e2"
+    },
+    {
+      "path": "paper/figures/fig-union.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfaa715f2766affd6fd5de15f578062a354cd422",
+      "size": 87000,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/cfaa715f2766affd6fd5de15f578062a354cd422"
+    },
+    {
+      "path": "paper/figures/fig-union.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2162fa0d53b4b65ea6a144a87132fe2f94c76286",
+      "size": 27736,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/2162fa0d53b4b65ea6a144a87132fe2f94c76286"
+    },
+    {
+      "path": "paper/figures/fig-union.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "653ba181ee881d7b0837f189b5513288e3ef2ea2",
+      "size": 1075,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/653ba181ee881d7b0837f189b5513288e3ef2ea2"
+    },
+    {
+      "path": "paper/figures/standalone-wrap.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80b166671a6d51e621b727c5a8328a4d90eff0ca",
+      "size": 340,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/80b166671a6d51e621b727c5a8328a4d90eff0ca"
+    },
+    {
+      "path": "submission",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "352361c0ea87eb53b7b4c5e2bb077dc182ebd975",
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/trees/352361c0ea87eb53b7b4c5e2bb077dc182ebd975"
+    },
+    {
+      "path": "submission/erdosproblems-1183.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00fb328f7577d42db7f75b89c9cf04ac78b46010",
+      "size": 3229,
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/blobs/00fb328f7577d42db7f75b89c9cf04ac78b46010"
+    }
+  ],
+  "truncated": false,
+  "commit": "59e72f9511286e9e981b86eb3f7f9bc15e8d59ef"
+}

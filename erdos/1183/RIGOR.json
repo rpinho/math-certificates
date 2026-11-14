@@ -1,0 +1,11 @@
+{
+  "steps": [
+    {
+      "document": "PROOF.md",
+      "statement": "The DFS stops growing a branch once it has at least eight ideals; such a branch already disproves the desired upper bound.",
+      "producer": "referee/n12/ref.py",
+      "arithmetic": "exact"
+    }
+  ],
+  "scope": "Integer/set computations, exact Boolean clauses and conventional DRAT checks; unformalized mathematical translation, candidate, no human review."
+}

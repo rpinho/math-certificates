@@ -1,0 +1,6 @@
+colouring depends only on |S|; rank word r=0..12: 1100101100011
+colour 0: ranks [2, 3, 5, 8, 9, 10], 1859 sets
+colour 1: ranks [0, 1, 4, 6, 7, 11, 12], 2237 sets
+7-member colour-1 sublattice (masks): [0, 1, 15, 63, 127, 2047, 4095]
+  as sets: [[], [1], [1, 2, 3, 4], [1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 5, 6, 7], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]]
+min over all 8192 colourings of a 13-member chain of the larger class: 7

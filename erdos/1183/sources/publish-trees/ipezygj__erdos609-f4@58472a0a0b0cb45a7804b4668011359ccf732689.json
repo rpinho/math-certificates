@@ -1,0 +1,204 @@
+{
+  "sha": "58472a0a0b0cb45a7804b4668011359ccf732689",
+  "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/trees/58472a0a0b0cb45a7804b4668011359ccf732689",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa1385d99a319b43c06f5309d1aae9fdd3adea46",
+      "size": 8,
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/blobs/fa1385d99a319b43c06f5309d1aae9fdd3adea46"
+    },
+    {
+      "path": "PLAN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5bd3467ff14de1ee69540f98e8b6f6e86f79c16",
+      "size": 15402,
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/blobs/d5bd3467ff14de1ee69540f98e8b6f6e86f79c16"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2d25a19b90bf63fb0d140b8ca51153c6e85fbe0",
+      "size": 10512,
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/blobs/f2d25a19b90bf63fb0d140b8ca51153c6e85fbe0"
+    },
+    {
+      "path": "RESULT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bac056a4103dc6729a282a1896066655a9bd118",
+      "size": 5203,
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/blobs/0bac056a4103dc6729a282a1896066655a9bd118"
+    },
+    {
+      "path": "cloud",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b467ccce8a401eb755e7f43591c6f8b2ff354e58",
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/trees/b467ccce8a401eb755e7f43591c6f8b2ff354e58"
+    },
+    {
+      "path": "cloud/fetch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e35aafa8b3642bea8b34484f38bf627c4b77622a",
+      "size": 1294,
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/blobs/e35aafa8b3642bea8b34484f38bf627c4b77622a"
+    },
+    {
+      "path": "cloud/launch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8cecee020285c1aaecc80668ce5fa86d84e432a",
+      "size": 6073,
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/blobs/f8cecee020285c1aaecc80668ce5fa86d84e432a"
+    },
+    {
+      "path": "cloud/tests.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63b03ce587629006e34bbc15692b7e1e763e339f",
+      "size": 3305,
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/blobs/63b03ce587629006e34bbc15692b7e1e763e339f"
+    },
+    {
+      "path": "cloud/userdata.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bb088fa337425be03049c1c3ba995653349bc9d",
+      "size": 3970,
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/blobs/6bb088fa337425be03049c1c3ba995653349bc9d"
+    },
+    {
+      "path": "results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c2ac359ebd9135e0a2b269f8610ba2f3dc298d3f",
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/trees/c2ac359ebd9135e0a2b269f8610ba2f3dc298d3f"
+    },
+    {
+      "path": "results/full1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "690bdb26d682e435a1cfcbf5202b7db8459073c9",
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/trees/690bdb26d682e435a1cfcbf5202b7db8459073c9"
+    },
+    {
+      "path": "results/full1/checktree.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f905383ca74816f08d3735dfda71a9e53cf3cd9",
+      "size": 200,
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/blobs/3f905383ca74816f08d3735dfda71a9e53cf3cd9"
+    },
+    {
+      "path": "results/full1/summary.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b752899bffc601d1bf1a22515e687edb72a92f45",
+      "size": 2033,
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/blobs/b752899bffc601d1bf1a22515e687edb72a92f45"
+    },
+    {
+      "path": "results/full1/tests.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1181e5443e682cf491d37d69093a91265697e3e1",
+      "size": 516,
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/blobs/1181e5443e682cf491d37d69093a91265697e3e1"
+    },
+    {
+      "path": "results/full1/tree.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10f0185b86372f43d5e1b24de4402fed832be661",
+      "size": 3608066,
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/blobs/10f0185b86372f43d5e1b24de4402fed832be661"
+    },
+    {
+      "path": "results/full1/versions.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc7aeaa71f219334486fd3f70ada598615fb6354",
+      "size": 327,
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/blobs/dc7aeaa71f219334486fd3f70ada598615fb6354"
+    },
+    {
+      "path": "results/witness_K17_oddgirth7.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04980f835f0f293c83f7092c73176a88373cdfdf",
+      "size": 1670,
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/blobs/04980f835f0f293c83f7092c73176a88373cdfdf"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a23e260b8a59629c921abda95b2d69f9f62a3958",
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/trees/a23e260b8a59629c921abda95b2d69f9f62a3958"
+    },
+    {
+      "path": "scripts/c609.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37a22bb343d73b8b718ab38bd7d29294c16f5709",
+      "size": 19044,
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/blobs/37a22bb343d73b8b718ab38bd7d29294c16f5709"
+    },
+    {
+      "path": "scripts/check609.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "706d3400a37622ee0f6adaeb9779822e719c238b",
+      "size": 2560,
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/blobs/706d3400a37622ee0f6adaeb9779822e719c238b"
+    },
+    {
+      "path": "scripts/checktree.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8e513f20bb3aa15a222ac8c952c022ad7b2ace7",
+      "size": 4595,
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/blobs/d8e513f20bb3aa15a222ac8c952c022ad7b2ace7"
+    },
+    {
+      "path": "scripts/local_shim_cadical.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb6851e22abdd8f202b65dcfcf3801d4b37c0330",
+      "size": 1024,
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/blobs/bb6851e22abdd8f202b65dcfcf3801d4b37c0330"
+    },
+    {
+      "path": "scripts/math_cap.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ece1677df4a459ede78a301ca7e4be5867a263f",
+      "size": 395,
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/blobs/7ece1677df4a459ede78a301ca7e4be5867a263f"
+    },
+    {
+      "path": "scripts/math_drat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb4ad3cf849aaeef621cef1eab9564b459e90c37",
+      "size": 908,
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/blobs/cb4ad3cf849aaeef621cef1eab9564b459e90c37"
+    },
+    {
+      "path": "scripts/math_w2_oc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e66c80572f6af6b8401a12e7e32e810cae5f5a6",
+      "size": 11895,
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/blobs/2e66c80572f6af6b8401a12e7e32e810cae5f5a6"
+    }
+  ],
+  "truncated": false,
+  "commit": "58472a0a0b0cb45a7804b4668011359ccf732689"
+}

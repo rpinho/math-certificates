@@ -1,0 +1,241 @@
+{
+  "proofs": [
+    {
+      "n": 11,
+      "origin": "referee",
+      "original_path": "certificates/corrupt.drat",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "in_packet": true
+    },
+    {
+      "n": 12,
+      "origin": "referee",
+      "original_path": "proofs/c0_iv7_2_10.drat",
+      "sha256": "0ad2b01bd611c5b61fdef84fe21b741aa8284aec1f0a7b93d655c5122132c02d",
+      "in_packet": true
+    },
+    {
+      "n": 12,
+      "origin": "referee",
+      "original_path": "proofs/c0_iv_2_10.drat",
+      "sha256": "667967ad0838b1d423b867854bc7351cb303cb28020a0b01e0b245550100ba18",
+      "in_packet": true
+    },
+    {
+      "n": 12,
+      "origin": "referee",
+      "original_path": "proofs/c0_iv_2_5.drat",
+      "sha256": "37909ddd4fa1e8cb0a337f872083c64b25f6db481d529fe6d6720fa3054489a9",
+      "in_packet": true
+    },
+    {
+      "n": 12,
+      "origin": "referee",
+      "original_path": "proofs/c0_iv_2_8.drat",
+      "sha256": "9335f993a5ce3df27057e7ccb7419b0a6a6ddc5ba75b089aa05fe30977861324",
+      "in_packet": true
+    },
+    {
+      "n": 12,
+      "origin": "referee",
+      "original_path": "proofs/c0_iv_2_9.drat",
+      "sha256": "869aaa542756a153d7807a926332c1fd2e4f8950a2261adb7a2f266404c3710c",
+      "in_packet": true
+    },
+    {
+      "n": 12,
+      "origin": "referee",
+      "original_path": "proofs/c0_iv_3_10.drat",
+      "sha256": "b545565f48ffb05f9e9d170b539164cd8f35b92513fcca156c9a3b4799a43e30",
+      "in_packet": true
+    },
+    {
+      "n": 12,
+      "origin": "referee",
+      "original_path": "proofs/c0_iv_3_8.drat",
+      "sha256": "a9ea8b1f0086098736fcac215629e8837e2ccd4d5862e096a676de885396e994",
+      "in_packet": true
+    },
+    {
+      "n": 12,
+      "origin": "referee",
+      "original_path": "proofs/c0_iv_3_9.drat",
+      "sha256": "29c6156488178dd99caf21fb643533cbf06504df4e5e2943b897527549379407",
+      "in_packet": true
+    },
+    {
+      "n": 12,
+      "origin": "referee",
+      "original_path": "proofs/c0_iv_5_10.drat",
+      "sha256": "a54dc5bac5aa5df0364e89c13a864a3f66772a637351455d3c545efc34e35df4",
+      "in_packet": true
+    },
+    {
+      "n": 12,
+      "origin": "referee",
+      "original_path": "proofs/c0_iv_5_8.drat",
+      "sha256": "32f8eb5b409e3fbf503a14f2e8c3b3576458fe5c5e93b653c0fe701dee279e22",
+      "in_packet": true
+    },
+    {
+      "n": 12,
+      "origin": "referee",
+      "original_path": "proofs/c0_iv_5_9.drat",
+      "sha256": "e906138ceb71f79dad8111af3368b10af366d7f0fe75146c3b0d7e773a4f5ddb",
+      "in_packet": true
+    },
+    {
+      "n": 12,
+      "origin": "referee",
+      "original_path": "proofs/c1_k8.drat",
+      "sha256": "2b4beae15d9ee5c9722f1a40d3da50b0ec9e3f481ffcdb8da2d18f03b4426182",
+      "in_packet": false
+    },
+    {
+      "n": 12,
+      "origin": "referee",
+      "original_path": "proofs/c0_k8.drat",
+      "sha256": "adb6d3f14e71bdb6e6f6dbd2229609f33c47beb9d70961f9f638036a6cf3b7b3",
+      "in_packet": false
+    },
+    {
+      "n": 11,
+      "origin": "referee",
+      "original_path": "certificates/c0_k8.drat",
+      "sha256": "705d018b0d4fb61b1f83ae711d886b9786958b50137a34a9dc9172353ec18a7d",
+      "bytes": 401008334,
+      "in_packet": false
+    },
+    {
+      "n": 11,
+      "origin": "referee",
+      "original_path": "certificates/c1_k8.drat",
+      "sha256": "b5e21456a206e1df45855e1558d1894b742c1e1b56d971f6ef58d99a0c5836fc",
+      "bytes": 153624504,
+      "in_packet": false
+    },
+    {
+      "n": 11,
+      "origin": "producer",
+      "original_path": "1183_n11_c0.drat",
+      "sha256": "dce1f1791eadb73a6871b01d2c652cf36b8db766f1c0e41efbc3a3cf8af89315",
+      "bytes": 603094524,
+      "release_asset": "n11_c0.drat.xz"
+    },
+    {
+      "n": 11,
+      "origin": "producer",
+      "original_path": "1183_n11_c1.drat",
+      "sha256": "70617484b4ead1e271a2ae36087cb9b705a3ab881334e5b76d34276cfce1a68a",
+      "bytes": 198649885,
+      "release_asset": "n11_c1.drat.xz"
+    },
+    {
+      "n": 12,
+      "origin": "producer",
+      "original_path": "n12_1100101100011_c0_lex.drat",
+      "sha256": "11535464965a26295643177fc7c50e867759c979c0312f69ba0dc8633ad89a8d",
+      "bytes": 22398707,
+      "release_asset": "n12_c0_lex.drat.xz"
+    },
+    {
+      "n": 12,
+      "origin": "producer",
+      "original_path": "n12_1100101100011_c1.drat",
+      "sha256": "0f11a34b914f1c7a9149461271726943542122d3ae3adc180cf54dd8ffcaad94",
+      "bytes": 1162120960,
+      "release_asset": "n12_c1.drat.xz"
+    },
+    {
+      "packet_path": "referee/n12/proofs/c0_iv_3_9.drat",
+      "sha256": "29c6156488178dd99caf21fb643533cbf06504df4e5e2943b897527549379407",
+      "bytes": 774,
+      "role": "historical referee proof or rejection control; see original report"
+    },
+    {
+      "packet_path": "referee/n12/proofs/c0_iv_3_8.drat",
+      "sha256": "a9ea8b1f0086098736fcac215629e8837e2ccd4d5862e096a676de885396e994",
+      "bytes": 211,
+      "role": "historical referee proof or rejection control; see original report"
+    },
+    {
+      "packet_path": "referee/n12/proofs/c0_iv_5_9.drat",
+      "sha256": "e906138ceb71f79dad8111af3368b10af366d7f0fe75146c3b0d7e773a4f5ddb",
+      "bytes": 53,
+      "role": "historical referee proof or rejection control; see original report"
+    },
+    {
+      "packet_path": "referee/n12/proofs/c0_iv_3_10.drat",
+      "sha256": "b545565f48ffb05f9e9d170b539164cd8f35b92513fcca156c9a3b4799a43e30",
+      "bytes": 12162,
+      "role": "historical referee proof or rejection control; see original report"
+    },
+    {
+      "packet_path": "referee/n12/proofs/c0_iv_2_10.drat",
+      "sha256": "667967ad0838b1d423b867854bc7351cb303cb28020a0b01e0b245550100ba18",
+      "bytes": 164294,
+      "role": "historical referee proof or rejection control; see original report"
+    },
+    {
+      "packet_path": "referee/n12/proofs/c0_iv_5_8.drat",
+      "sha256": "32f8eb5b409e3fbf503a14f2e8c3b3576458fe5c5e93b653c0fe701dee279e22",
+      "bytes": 13,
+      "role": "historical referee proof or rejection control; see original report"
+    },
+    {
+      "packet_path": "referee/n12/proofs/c0_iv_2_9.drat",
+      "sha256": "869aaa542756a153d7807a926332c1fd2e4f8950a2261adb7a2f266404c3710c",
+      "bytes": 5132,
+      "role": "historical referee proof or rejection control; see original report"
+    },
+    {
+      "packet_path": "referee/n12/proofs/c0_iv_2_5.drat",
+      "sha256": "37909ddd4fa1e8cb0a337f872083c64b25f6db481d529fe6d6720fa3054489a9",
+      "bytes": 33,
+      "role": "historical referee proof or rejection control; see original report"
+    },
+    {
+      "packet_path": "referee/n12/proofs/c0_iv_2_8.drat",
+      "sha256": "9335f993a5ce3df27057e7ccb7419b0a6a6ddc5ba75b089aa05fe30977861324",
+      "bytes": 1216,
+      "role": "historical referee proof or rejection control; see original report"
+    },
+    {
+      "packet_path": "referee/n12/proofs/c0_iv7_2_10.drat",
+      "sha256": "0ad2b01bd611c5b61fdef84fe21b741aa8284aec1f0a7b93d655c5122132c02d",
+      "bytes": 8961,
+      "role": "historical referee proof or rejection control; see original report"
+    },
+    {
+      "packet_path": "referee/n12/proofs/c0_iv_5_10.drat",
+      "sha256": "a54dc5bac5aa5df0364e89c13a864a3f66772a637351455d3c545efc34e35df4",
+      "bytes": 472,
+      "role": "historical referee proof or rejection control; see original report"
+    },
+    {
+      "packet_path": "referee/n12/controls/text.drat",
+      "sha256": "6c0f8069f7f38208726b49d4514afb3fcd47280042469c56b625b1f36ac08de5",
+      "bytes": 343833,
+      "role": "historical referee proof or rejection control; see original report"
+    },
+    {
+      "packet_path": "referee/n12/controls/corrupt_middle.drat",
+      "sha256": "968b6fd0b9d5af2c1fa00981ba5feb851700c89c22f2e9f751a737c733f27b65",
+      "bytes": 148901,
+      "role": "historical referee proof or rejection control; see original report"
+    },
+    {
+      "packet_path": "referee/n12/controls/corrupt_emptyonly.drat",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "bytes": 2,
+      "role": "historical referee proof or rejection control; see original report"
+    },
+    {
+      "packet_path": "referee/n11/certificates/corrupt.drat",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "bytes": 2,
+      "role": "historical referee proof or rejection control; see original report"
+    }
+  ],
+  "note": "Rejection controls and SAT/unfinished traces are not UNSAT certificates. Only the four complete producer theorem proofs are release assets."
+}

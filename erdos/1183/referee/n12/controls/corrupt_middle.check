@@ -1,0 +1,552 @@
+c parsing input formula with 502 variables and 8413 clauses
+c WARNING: deleted clause on proof line 11831 does not occur: [0] -473 -355 90 92 96 97 99 442 0
+c WARNING: deleted clause on proof line 11833 does not occur: [0] -491 -331 -22 90 97 322 376 420 0
+c WARNING: deleted clause on proof line 11835 does not occur: [0] 16 90 92 93 97 99 121 145 200 224 249 331 349 357 360 427 442 481 0
+c WARNING: deleted clause on proof line 11837 does not occur: [0] -246 -36 44 0
+c WARNING: deleted clause on proof line 11839 does not occur: [0] -246 -30 44 0
+c WARNING: deleted clause on proof line 11841 does not occur: [0] -246 -38 44 0
+c WARNING: deleted clause on proof line 11843 does not occur: [0] -246 -37 44 0
+c WARNING: deleted clause on proof line 11845 does not occur: [0] -246 -32 44 0
+c WARNING: deleted clause on proof line 11847 does not occur: [0] -246 -18 43 0
+c WARNING: deleted clause on proof line 11849 does not occur: [0] 46 90 92 97 99 121 145 224 249 260 331 349 357 360 427 481 0
+c WARNING: deleted clause on proof line 11851 does not occur: [0] 16 46 90 92 97 99 121 145 197 249 260 331 349 357 360 427 481 0
+c WARNING: deleted clause on proof line 11853 does not occur: [0] -492 -409 -384 73 84 90 92 96 97 99 332 349 357 362 401 416 442 0
+c WARNING: deleted clause on proof line 11855 does not occur: [0] -124 -22 17 90 97 206 211 249 255 301 361 409 0
+c WARNING: deleted clause on proof line 11857 does not occur: [0] -333 58 60 306 322 0
+c WARNING: deleted clause on proof line 11858 does not occur: [0] -137 -13 12 115 0
+c WARNING: deleted clause on proof line 11859 does not occur: [0] -339 -294 -87 5 18 121 172 197 200 275 0
+c WARNING: deleted clause on proof line 11861 does not occur: [0] -339 -30 87 0
+c WARNING: deleted clause on proof line 11862 does not occur: [0] -224 -13 40 0
+c WARNING: deleted clause on proof line 11864 does not occur: [0] -33 16 44 73 121 145 189 197 233 241 331 346 357 401 427 472 481 0
+c WARNING: deleted clause on proof line 11866 does not occur: [0] -275 4 13 15 16 18 29 73 76 86 106 108 115 121 130 161 166 197 239 246 257 262 269 286 331 346 350 357 401 409 414 472 0
+c WARNING: deleted clause on proof line 11868 does not occur: [0] -275 4 13 15 16 18 29 73 76 86 106 115 121 130 137 161 166 197 239 246 257 262 269 286 331 346 350 357 401 409 414 472 0
+c WARNING: deleted clause on proof line 11869 does not occur: [0] -401 -43 80 82 391 0
+c WARNING: deleted clause on proof line 11870 does not occur: [0] -124 -44 -11 82 189 224 383 391 416 473 0
+c WARNING: deleted clause on proof line 11871 does not occur: [0] -480 -124 -43 -11 82 331 349 357 391 416 0
+c WARNING: deleted clause on proof line 11873 does not occur: [0] -124 42 49 73 90 93 97 99 224 241 249 331 349 357 383 393 420 442 459 473 0
+c WARNING: deleted clause on proof line 11875 does not occur: [0] -124 39 42 49 72 73 88 90 93 97 99 100 224 246 331 349 383 393 420 442 459 0
+c WARNING: deleted clause on proof line 11877 does not occur: [0] -124 39 42 49 61 62 72 73 88 90 93 97 99 100 224 246 309 317 349 383 393 420 442 459 0
+c WARNING: deleted clause on proof line 11878 does not occur: [0] -481 -124 -58 81 97 393 421 445 461 0
+c WARNING: deleted clause on proof line 11880 does not occur: [0] -409 -124 -11 90 92 99 283 349 442 0
+c WARNING: deleted clause on proof line 11882 does not occur: [0] -491 -11 87 331 349 401 409 473 0
+c WARNING: deleted clause on proof line 11883 does not occur: [0] -244 -195 -11 0
+c WARNING: deleted clause on proof line 11884 does not occur: [0] -124 -44 -11 331 0
+c WARNING: deleted clause on proof line 11885 does not occur: [0] -244 -124 -11 331 0
+c WARNING: deleted clause on proof line 11886 does not occur: [0] -43 -11 246 0
+c WARNING: deleted clause on proof line 11887 does not occur: [0] -357 -58 72 0
+c WARNING: deleted clause on proof line 11889 does not occur: [0] -11 63 90 92 99 124 231 246 260 341 416 442 0
+c WARNING: deleted clause on proof line 11891 does not occur: [0] -481 -74 -11 77 90 99 420 442 473 0
+c WARNING: deleted clause on proof line 11893 does not occur: [0] -11 81 82 90 92 99 249 331 357 360 393 420 473 0
+c WARNING: deleted clause on proof line 11895 does not occur: [0] -11 81 90 92 99 189 249 331 357 360 393 420 473 0
+c WARNING: deleted clause on proof line 11897 does not occur: [0] -11 81 90 99 124 249 331 357 393 420 473 0
+c WARNING: deleted clause on proof line 11899 does not occur: [0] -11 81 90 99 124 246 331 357 416 473 0
+c WARNING: deleted clause on proof line 11900 does not occur: [0] -489 -44 -11 90 99 331 393 420 0
+c WARNING: deleted clause on proof line 11901 does not occur: [0] -244 -11 90 99 331 393 420 0
+c WARNING: deleted clause on proof line 11902 does not occur: [0] -244 -90 -11 0
+c WARNING: deleted clause on proof line 11903 does not occur: [0] -244 -44 -11 0
+c WARNING: deleted clause on proof line 11904 does not occur: [0] -60 -44 322 0
+c WARNING: deleted clause on proof line 11906 does not occur: [0] -97 3 6 10 16 18 80 82 86 90 92 115 121 145 172 197 200 224 255 383 393 409 442 0
+c WARNING: deleted clause on proof line 11908 does not occur: [0] -483 80 82 90 92 97 99 393 409 412 442 0
+c WARNING: deleted clause on proof line 11910 does not occur: [0] -481 -268 49 50 80 82 90 92 97 99 255 393 420 442 0
+c WARNING: deleted clause on proof line 11912 does not occur: [0] -481 -268 49 50 80 82 90 92 97 99 255 393 409 442 0
+c WARNING: deleted clause on proof line 11914 does not occur: [0] -309 -17 304 0
+c WARNING: deleted clause on proof line 11915 does not occur: [0] -301 -44 53 179 310 375 0
+c WARNING: deleted clause on proof line 11916 does not occur: [0] -44 97 99 0
+c WARNING: deleted clause on proof line 11918 does not occur: [0] -483 -451 -401 189 231 239 244 268 383 396 428 445 462 0
+c WARNING: deleted clause on proof line 11920 does not occur: [0] -483 -451 189 231 239 244 268 383 396 402 420 445 462 0
+c WARNING: deleted clause on proof line 11922 does not occur: [0] -491 -97 90 189 231 268 383 0
+c WARNING: deleted clause on proof line 11924 does not occur: [0] -69 79 82 189 231 239 244 268 384 416 475 0
+c WARNING: deleted clause on proof line 11926 does not occur: [0] -349 68 77 79 82 189 231 239 244 268 331 341 368 396 416 420 475 0
+c WARNING: deleted clause on proof line 11928 does not occur: [0] -491 -97 90 189 231 268 331 0
+c WARNING: deleted clause on proof line 11930 does not occur: [0] -491 -189 -97 90 331 0
+c WARNING: deleted clause on proof line 11932 does not occur: [0] -80 5 14 16 18 19 24 28 33 45 47 56 58 59 67 68 75 87 121 124 200 216 241 264 299 320 357 360 402 409 414 475 0
+c WARNING: deleted clause on proof line 11934 does not occur: [0] -491 -231 -97 90 145 268 383 420 0
+c WARNING: deleted clause on proof line 11936 does not occur: [0] -80 5 14 16 18 24 28 33 45 47 53 56 58 59 63 68 75 87 93 121 200 216 239 264 357 360 402 409 414 475 0
+c WARNING: deleted clause on proof line 11938 does not occur: [0] -97 90 331 0
+c WARNING: deleted clause on proof line 11940 does not occur: [0] -325 -46 58 59 61 63 0
+c WARNING: deleted clause on proof line 11942 does not occur: [0] -325 58 59 72 75 322 0
+c WARNING: deleted clause on proof line 11944 does not occur: [0] -293 4 5 16 17 106 121 124 145 150 172 231 241 244 268 0
+c WARNING: deleted clause on proof line 11946 does not occur: [0] -97 90 309 0
+c WARNING: deleted clause on proof line 11948 does not occur: [0] -483 -62 90 97 0
+c WARNING: deleted clause on proof line 11950 does not occur: [0] -492 -368 70 86 90 92 97 332 349 364 401 417 442 0
+c WARNING: deleted clause on proof line 11952 does not occur: [0] -473 -73 -62 90 97 0
+c WARNING: deleted clause on proof line 11954 does not occur: [0] -481 -360 -62 82 90 97 420 0
+c WARNING: deleted clause on proof line 11956 does not occur: [0] -492 -62 63 90 97 332 0
+c WARNING: deleted clause on proof line 11958 does not occur: [0] -481 -268 46 49 50 80 82 90 92 97 99 393 409 442 445 0
+c WARNING: deleted clause on proof line 11960 does not occur: [0] -481 -268 46 49 50 80 90 92 97 99 393 409 442 445 451 0
+c WARNING: deleted clause on proof line 11962 does not occur: [0] -62 63 90 309 0
+c WARNING: deleted clause on proof line 11964 does not occur: [0] -18 16 46 67 68 70 90 92 99 121 145 197 241 260 309 317 320 341 357 360 427 481 0
+c WARNING: deleted clause on proof line 11966 does not occur: [0] 16 46 90 92 97 99 121 145 189 197 241 260 331 349 357 360 375 427 480 481 0
+c WARNING: deleted clause on proof line 11968 does not occur: [0] -268 46 50 63 80 90 92 99 255 264 309 393 420 445 451 481 0
+c WARNING: deleted clause on proof line 11970 does not occur: [0] -473 -79 88 90 97 0
+c WARNING: deleted clause on proof line 11972 does not occur: [0] -473 -442 -357 90 91 94 97 99 0
+c WARNING: deleted clause on proof line 11974 does not occur: [0] -401 -94 58 121 224 309 320 368 391 396 0
+c WARNING: deleted clause on proof line 11976 does not occur: [0] -94 10 13 15 18 19 48 53 67 81 84 86 89 93 96 110 115 121 168 172 197 200 224 231 246 257 262 299 304 306 325 401 462 0
+c WARNING: deleted clause on proof line 11978 does not occur: [0] -493 -65 90 97 350 427 442 0
+c WARNING: deleted clause on proof line 11980 does not occur: [0] -493 -492 -65 90 97 283 351 427 0
+c WARNING: deleted clause on proof line 11982 does not occur: [0] -309 -292 16 18 19 106 108 124 145 168 197 200 224 275 299 304 306 0
+c WARNING: deleted clause on proof line 11984 does not occur: [0] -310 -3 304 0
+c WARNING: deleted clause on proof line 11986 does not occur: [0] -333 -310 -68 58 304 0
+c WARNING: deleted clause on proof line 11988 does not occur: [0] -68 18 58 108 115 121 153 172 283 304 325 377 481 0
+c WARNING: deleted clause on proof line 11990 does not occur: [0] -310 -68 17 58 304 325 377 0
+c WARNING: deleted clause on proof line 11992 does not occur: [0] -350 -310 -68 304 0
+c WARNING: deleted clause on proof line 11994 does not occur: [0] -332 -68 304 325 0
+c WARNING: deleted clause on proof line 11996 does not occur: [0] -493 -482 -299 73 77 78 80 82 88 92 98 99 304 325 346 357 420 442 459 0
+c WARNING: deleted clause on proof line 11998 does not occur: [0] -493 -420 -299 63 80 82 88 92 97 99 304 325 346 357 394 416 442 459 0
+c WARNING: deleted clause on proof line 11999 does not occur: [0] -493 -482 -420 -299 -54 304 325 346 357 442 0
+c WARNING: deleted clause on proof line 12000 does not occur: [0] -482 -54 97 393 442 473 0
+c WARNING: deleted clause on proof line 12001 does not occur: [0] -473 -54 89 97 442 0
+c WARNING: deleted clause on proof line 12002 does not occur: [0] -224 -74 -54 0
+c WARNING: deleted clause on proof line 12003 does not occur: [0] -293 -54 -34 179 232 268 0
+c WARNING: deleted clause on proof line 12004 does not occur: [0] -293 -231 -54 179 205 268 0
+c WARNING: deleted clause on proof line 12005 does not occur: [0] -293 -54 145 268 0
+c WARNING: deleted clause on proof line 12006 does not occur: [0] -480 -70 -54 97 393 442 0
+c WARNING: deleted clause on proof line 12007 does not occur: [0] -54 97 325 393 442 473 0
+c WARNING: deleted clause on proof line 12008 does not occur: [0] -310 -292 -54 197 224 275 0
+c WARNING: deleted clause on proof line 12009 does not occur: [0] -492 -442 -54 197 268 325 357 393 0
+c WARNING: deleted clause on proof line 12010 does not occur: [0] -442 -54 145 393 0
+c WARNING: deleted clause on proof line 12011 does not occur: [0] -54 89 393 0
+c WARNING: deleted clause on proof line 12013 does not occur: [0] -473 -427 -57 88 90 97 0
+c WARNING: deleted clause on proof line 12015 does not occur: [0] -483 -427 80 81 84 86 90 92 93 97 99 216 231 393 412 459 0
+c WARNING: deleted clause on proof line 12016 does not occur: [0] -483 -87 -55 442 0
+c WARNING: deleted clause on proof line 12018 does not occur: [0] -483 -55 90 442 0
+c WARNING: deleted clause on proof line 12019 does not occur: [0] -427 -90 80 82 86 393 0
+c WARNING: deleted clause on proof line 12021 does not occur: [0] -483 -428 -427 80 84 86 89 90 93 97 99 216 231 393 401 442 459 0
+c WARNING: deleted clause on proof line 12023 does not occur: [0] -493 -483 -299 63 216 231 304 325 346 357 393 442 0
+c WARNING: deleted clause on proof line 12025 does not occur: [0] -493 -55 68 216 231 304 325 357 360 0
+c WARNING: deleted clause on proof line 12027 does not occur: [0] -493 -349 -332 -310 231 304 325 357 360 0
+c WARNING: deleted clause on proof line 12028 does not occur: [0] -493 -344 -304 333 368 0
+c WARNING: deleted clause on proof line 12030 does not occur: [0] -492 -332 -310 -74 304 325 357 360 427 0
+c WARNING: deleted clause on proof line 12031 does not occur: [0] -310 -304 56 88 90 92 93 94 96 97 99 153 224 275 333 368 427 0
+c WARNING: deleted clause on proof line 12033 does not occur: [0] -56 -52 67 80 82 88 89 90 92 93 94 96 97 99 114 153 224 275 333 357 393 420 427 0
+c WARNING: deleted clause on proof line 12034 does not occur: [0] -310 -304 -74 153 224 275 333 357 409 0
+c WARNING: deleted clause on proof line 12035 does not occur: [0] -360 -310 -304 145 224 275 325 357 409 0
+c WARNING: deleted clause on proof line 12037 does not occur: [0] -357 -325 -57 58 0
+c WARNING: deleted clause on proof line 12038 does not occur: [0] -304 -56 -13 0
+c WARNING: deleted clause on proof line 12039 does not occur: [0] -384 -304 -38 0
+c WARNING: deleted clause on proof line 12040 does not occur: [0] -304 -268 357 0
+c WARNING: deleted clause on proof line 12041 does not occur: [0] -304 -255 -97 268 0
+c WARNING: deleted clause on proof line 12042 does not occur: [0] -304 -257 357 0
+c WARNING: deleted clause on proof line 12043 does not occur: [0] -304 -47 97 357 0
+c WARNING: deleted clause on proof line 12044 does not occur: [0] -304 124 268 0
+c WARNING: deleted clause on proof line 12046 does not occur: [0] -490 -268 -20 49 50 63 67 68 73 82 90 92 94 97 99 255 299 306 317 341 368 393 420 442 0
+c WARNING: deleted clause on proof line 12048 does not occur: [0] -383 61 63 67 68 90 309 317 341 368 0
+c WARNING: deleted clause on proof line 12050 does not occur: [0] -296 -246 43 166 197 0
+c WARNING: deleted clause on proof line 12052 does not occur: [0] -383 15 16 18 61 67 68 90 96 115 121 124 143 172 189 197 200 224 239 309 317 318 321 341 368 375 401 409 456 481 0
+c WARNING: deleted clause on proof line 12053 does not occur: [0] -58 -42 18 124 145 200 224 255 309 0
+c WARNING: deleted clause on proof line 12054 does not occur: [0] -483 -90 -42 0
+c WARNING: deleted clause on proof line 12056 does not occur: [0] -491 -284 -42 58 61 197 200 224 268 309 375 0
+c WARNING: deleted clause on proof line 12058 does not occur: [0] -483 -42 97 438 0
+c WARNING: deleted clause on proof line 12060 does not occur: [0] -383 -246 -42 18 50 58 61 63 90 124 145 368 0
+c WARNING: deleted clause on proof line 12062 does not occur: [0] -491 -481 -246 -42 18 50 58 61 124 145 368 0
+c WARNING: deleted clause on proof line 12063 does not occur: [0] -268 -90 49 255 0
+c WARNING: deleted clause on proof line 12065 does not occur: [0] -246 43 197 0
+c WARNING: deleted clause on proof line 12067 does not occur: [0] -294 -246 90 197 276 317 368 481 0
+c WARNING: deleted clause on proof line 12069 does not occur: [0] -246 -45 90 197 317 368 481 0
+c WARNING: deleted clause on proof line 12070 does not occur: [0] -268 -53 -43 0
+c WARNING: deleted clause on proof line 12071 does not occur: [0] -244 -124 12 90 99 309 349 393 420 421 0
+c WARNING: deleted clause on proof line 12073 does not occur: [0] -246 90 99 197 317 318 401 416 442 456 481 0
+c WARNING: deleted clause on proof line 12075 does not occur: [0] -315 -246 60 90 99 197 420 442 481 0
+c WARNING: deleted clause on proof line 12077 does not occur: [0] -246 60 90 99 197 416 442 481 0
+c WARNING: deleted clause on proof line 12079 does not occur: [0] -246 -99 60 90 197 368 481 0
+c WARNING: deleted clause on proof line 12080 does not occur: [0] -315 -90 52 0
+c WARNING: deleted clause on proof line 12082 does not occur: [0] -483 -474 81 84 93 216 231 401 438 466 0
+c WARNING: deleted clause on proof line 12083 does not occur: [0] -484 -462 -43 401 0
+c WARNING: deleted clause on proof line 12084 does not occur: [0] -484 -483 -43 82 216 231 0
+c WARNING: deleted clause on proof line 12085 does not occur: [0] -246 -87 -43 383 428 0
+c WARNING: deleted clause on proof line 12086 does not occur: [0] -483 -43 82 401 412 466 0
+c WARNING: deleted clause on proof line 12087 does not occur: [0] -474 -414 -43 0
+c WARNING: deleted clause on proof line 12088 does not occur: [0] -474 -89 -43 0
+c WARNING: deleted clause on proof line 12089 does not occur: [0] -474 -446 -43 90 93 309 427 0
+c WARNING: deleted clause on proof line 12090 does not occur: [0] -294 -90 -43 0
+c WARNING: deleted clause on proof line 12091 does not occur: [0] -294 -99 -43 0
+c WARNING: deleted clause on proof line 12092 does not occur: [0] -294 -43 145 276 383 412 0
+c WARNING: deleted clause on proof line 12093 does not occur: [0] -268 -121 -43 99 145 383 0
+c WARNING: deleted clause on proof line 12094 does not occur: [0] -481 -268 -45 -43 99 0
+c WARNING: deleted clause on proof line 12095 does not occur: [0] -481 -294 -268 -43 121 145 309 427 0
+c WARNING: deleted clause on proof line 12096 does not occur: [0] -491 -43 63 90 99 309 427 0
+c WARNING: deleted clause on proof line 12097 does not occur: [0] -383 -43 63 90 309 332 368 483 0
+c WARNING: deleted clause on proof line 12098 does not occur: [0] -357 -294 -43 0
+c WARNING: deleted clause on proof line 12099 does not occur: [0] -325 -71 -43 62 0
+c WARNING: deleted clause on proof line 12100 does not occur: [0] -383 -43 62 63 90 309 368 483 0
+c WARNING: deleted clause on proof line 12102 does not occur: [0] -484 -82 90 99 420 453 0
+c WARNING: deleted clause on proof line 12104 does not occur: [0] -484 -429 90 96 97 99 100 420 453 0
+c WARNING: deleted clause on proof line 12106 does not occur: [0] -416 -79 87 0
+c WARNING: deleted clause on proof line 12108 does not occur: [0] -416 -398 86 87 88 0
+c WARNING: deleted clause on proof line 12110 does not occur: [0] -416 -402 87 0
+c WARNING: deleted clause on proof line 12112 does not occur: [0] -484 -429 90 97 99 100 420 453 456 0
+c WARNING: deleted clause on proof line 12114 does not occur: [0] -484 82 90 421 442 465 0
+c WARNING: deleted clause on proof line 12116 does not occur: [0] -484 -442 -409 90 97 421 443 461 0
+c WARNING: deleted clause on proof line 12118 does not occur: [0] -484 -429 -420 87 90 97 99 421 441 453 461 465 0
+c WARNING: deleted clause on proof line 12120 does not occur: [0] -484 -421 -420 90 416 465 0
+c WARNING: deleted clause on proof line 12122 does not occur: [0] -416 -84 87 0
+c WARNING: deleted clause on proof line 12124 does not occur: [0] -421 -416 86 87 0
+c WARNING: deleted clause on proof line 12126 does not occur: [0] -484 -429 -401 87 90 97 99 100 441 453 456 461 465 0
+c WARNING: deleted clause on proof line 12128 does not occur: [0] -421 -416 -401 87 0
+c WARNING: deleted clause on proof line 12130 does not occur: [0] -484 -429 -421 -401 87 90 97 99 100 465 0
+c WARNING: deleted clause on proof line 12132 does not occur: [0] -484 -96 90 421 465 0
+c WARNING: deleted clause on proof line 12134 does not occur: [0] -484 -429 -401 87 90 97 99 100 383 441 456 461 0
+c WARNING: deleted clause on proof line 12136 does not occur: [0] -484 -453 -429 90 96 97 99 100 416 421 442 0
+c WARNING: deleted clause on proof line 12138 does not occur: [0] -484 -453 -429 -401 87 90 97 99 100 383 0
+c WARNING: deleted clause on proof line 12140 does not occur: [0] -474 -453 -401 87 94 96 97 383 438 462 0
+c WARNING: deleted clause on proof line 12142 does not occur: [0] -484 -401 87 90 94 97 99 100 383 456 0
+c WARNING: deleted clause on proof line 12144 does not occur: [0] -484 -429 -401 -100 87 90 96 97 442 461 0
+c WARNING: deleted clause on proof line 12146 does not occur: [0] -484 -401 87 90 96 97 99 383 438 442 461 0
+c WARNING: deleted clause on proof line 12148 does not occur: [0] -429 87 403 409 421 0
+c WARNING: deleted clause on proof line 12150 does not occur: [0] -484 78 79 87 409 421 442 466 0
+c WARNING: deleted clause on proof line 12152 does not occur: [0] -484 79 87 409 414 442 466 0
+c WARNING: deleted clause on proof line 12154 does not occur: [0] -484 -79 87 88 97 409 0
+c WARNING: deleted clause on proof line 12156 does not occur: [0] -473 -81 90 97 442 0
+c WARNING: deleted clause on proof line 12158 does not occur: [0] -484 79 90 97 420 442 0
+c WARNING: deleted clause on proof line 12160 does not occur: [0] -484 79 87 409 420 0
+c WARNING: deleted clause on proof line 12162 does not occur: [0] -383 -292 -86 5 16 90 124 145 168 197 275 368 0
+c WARNING: deleted clause on proof line 12164 does not occur: [0] -412 -293 -86 5 15 16 90 121 124 143 275 483 0
+c WARNING: deleted clause on proof line 12166 does not occur: [0] -412 -293 -86 5 12 15 16 90 121 143 249 483 0
+c WARNING: deleted clause on proof line 12168 does not occur: [0] -412 -86 5 12 15 16 90 121 143 249 428 442 466 0
+c WARNING: deleted clause on proof line 12170 does not occur: [0] -292 -86 5 16 90 121 124 145 168 197 275 368 484 0
+c WARNING: deleted clause on proof line 12172 does not occur: [0] -412 12 87 97 121 249 409 414 428 442 0
+c WARNING: deleted clause on proof line 12174 does not occur: [0] -412 87 93 239 409 414 428 442 0
+c WARNING: deleted clause on proof line 12176 does not occur: [0] -86 13 14 26 28 58 59 61 63 67 68 72 90 97 99 121 124 168 239 268 317 346 357 360 391 398 422 474 0
+c WARNING: deleted clause on proof line 12178 does not occur: [0] -5 28 61 63 67 68 90 121 124 168 275 317 357 360 391 398 421 474 0
+c WARNING: deleted clause on proof line 12179 does not occur: [0] -87 115 145 168 172 283 383 428 0
+c WARNING: deleted clause on proof line 12180 does not occur: [0] -190 -87 115 129 145 172 0
+c WARNING: deleted clause on proof line 12182 does not occur: [0] -154 -145 16 61 63 68 90 137 172 283 309 317 331 341 357 360 384 401 428 472 0
+c WARNING: deleted clause on proof line 12184 does not occur: [0] -145 5 16 90 97 99 121 143 172 197 224 275 276 384 401 428 442 445 0
+c WARNING: deleted clause on proof line 12186 does not occur: [0] -143 14 16 90 92 97 99 137 172 283 384 428 442 0
+c WARNING: deleted clause on proof line 12188 does not occur: [0] -145 5 16 61 63 90 92 99 121 172 197 224 275 276 309 317 341 357 360 384 401 428 442 0
+c WARNING: deleted clause on proof line 12190 does not occur: [0] -145 5 16 61 63 90 92 99 121 172 197 200 224 275 276 309 317 357 360 384 401 428 442 0
+c WARNING: deleted clause on proof line 12192 does not occur: [0] -482 -473 -442 90 92 93 97 99 100 121 216 224 231 257 260 309 341 344 437 451 0
+c WARNING: deleted clause on proof line 12193 does not occur: [0] -384 -195 -13 0
+c WARNING: deleted clause on proof line 12194 does not occur: [0] -384 -28 -13 0
+c WARNING: deleted clause on proof line 12195 does not occur: [0] -491 -376 -13 92 331 349 428 442 445 0
+c WARNING: deleted clause on proof line 12196 does not occur: [0] -491 -384 -145 -13 283 331 428 442 0
+c WARNING: deleted clause on proof line 12198 does not occur: [0] -268 28 50 61 68 90 190 231 249 257 260 309 317 341 482 0
+c WARNING: deleted clause on proof line 12199 does not occur: [0] -489 -47 -13 357 0
+c WARNING: deleted clause on proof line 12200 does not occur: [0] -357 -13 309 0
+c WARNING: deleted clause on proof line 12201 does not occur: [0] -283 -13 231 357 384 442 0
+c WARNING: deleted clause on proof line 12203 does not occur: [0] -63 50 74 90 168 385 393 396 421 442 453 456 0
+c WARNING: deleted clause on proof line 12205 does not occur: [0] -325 50 61 74 90 309 317 375 393 396 421 442 453 456 0
+c WARNING: deleted clause on proof line 12207 does not occur: [0] -325 -315 58 59 75 322 0
+c WARNING: deleted clause on proof line 12209 does not occur: [0] -325 -317 58 59 75 322 0
+c WARNING: deleted clause on proof line 12211 does not occur: [0] -268 45 49 50 80 82 84 90 97 99 189 232 249 255 262 384 393 442 0
+c WARNING: deleted clause on proof line 12213 does not occur: [0] -325 -317 50 63 75 82 84 90 99 172 309 322 375 393 396 421 442 473 0
+c WARNING: deleted clause on proof line 12214 does not occur: [0] -58 -24 309 375 0
+c WARNING: deleted clause on proof line 12215 does not occur: [0] -482 -58 84 90 401 416 466 0
+c WARNING: deleted clause on proof line 12216 does not occur: [0] -58 -47 46 124 172 0
+c WARNING: deleted clause on proof line 12217 does not occur: [0] -58 84 90 99 189 255 384 393 0
+c WARNING: deleted clause on proof line 12218 does not occur: [0] -58 90 124 172 384 393 0
+c WARNING: deleted clause on proof line 12219 does not occur: [0] -58 124 309 375 393 0
+c WARNING: deleted clause on proof line 12220 does not occur: [0] -90 -58 255 475 0
+c WARNING: deleted clause on proof line 12221 does not occur: [0] -483 -58 90 99 393 0
+c WARNING: deleted clause on proof line 12222 does not occur: [0] -416 -375 -58 0
+c WARNING: deleted clause on proof line 12223 does not occur: [0] -414 -375 -58 0
+c WARNING: deleted clause on proof line 12224 does not occur: [0] -375 -89 -58 0
+c WARNING: deleted clause on proof line 12225 does not occur: [0] -493 -375 -58 90 368 0
+c WARNING: deleted clause on proof line 12226 does not occur: [0] -368 -68 -58 74 0
+c WARNING: deleted clause on proof line 12227 does not occur: [0] -493 -368 -58 90 349 364 401 416 0
+c WARNING: deleted clause on proof line 12228 does not occur: [0] -493 -368 -58 74 90 401 416 466 0
+c WARNING: deleted clause on proof line 12229 does not occur: [0] -493 -386 -58 90 92 99 376 428 0
+c WARNING: deleted clause on proof line 12230 does not occur: [0] -493 -376 -58 84 90 99 349 357 401 416 0
+c WARNING: deleted clause on proof line 12231 does not occur: [0] -493 -376 -58 84 90 92 99 357 393 401 416 0
+c WARNING: deleted clause on proof line 12232 does not occur: [0] -391 -385 -58 0
+c WARNING: deleted clause on proof line 12233 does not occur: [0] -349 -58 74 90 137 333 393 416 0
+c WARNING: deleted clause on proof line 12234 does not occur: [0] -385 -292 -58 74 326 349 0
+c WARNING: deleted clause on proof line 12235 does not occur: [0] -385 -292 -58 74 90 0
+c WARNING: deleted clause on proof line 12236 does not occur: [0] -385 -322 -292 -58 90 0
+c WARNING: deleted clause on proof line 12237 does not occur: [0] -309 -292 -58 18 124 200 224 275 0
+c WARNING: deleted clause on proof line 12238 does not occur: [0] -73 -58 18 84 99 124 283 386 393 416 445 0
+c WARNING: deleted clause on proof line 12239 does not occur: [0] -385 -292 -58 18 84 99 124 200 224 275 326 349 416 445 0
+c WARNING: deleted clause on proof line 12240 does not occur: [0] -124 -74 -58 0
+c WARNING: deleted clause on proof line 12241 does not occur: [0] -416 -58 124 309 0
+c WARNING: deleted clause on proof line 12242 does not occur: [0] -124 -58 153 0
+c WARNING: deleted clause on proof line 12243 does not occur: [0] -292 -90 -52 0
+c WARNING: deleted clause on proof line 12244 does not occur: [0] -220 -90 35 52 145 391 0
+c WARNING: deleted clause on proof line 12245 does not occur: [0] -90 14 124 172 331 346 368 482 0
+c WARNING: deleted clause on proof line 12246 does not occur: [0] -293 -90 -65 106 129 179 0
+c WARNING: deleted clause on proof line 12247 does not occur: [0] -189 -90 179 283 384 391 0
+c WARNING: deleted clause on proof line 12248 does not occur: [0] -153 -124 -90 0
+c WARNING: deleted clause on proof line 12249 does not occur: [0] -384 -90 52 0
+c WARNING: deleted clause on proof line 12250 does not occur: [0] -90 -24 124 283 325 483 0
+c WARNING: deleted clause on proof line 12251 does not occur: [0] -294 -90 124 145 172 0
+c WARNING: deleted clause on proof line 12252 does not occur: [0] -341 -332 -90 0
+c WARNING: deleted clause on proof line 12253 does not occur: [0] -332 -90 -65 0
+c WARNING: deleted clause on proof line 12254 does not occur: [0] -385 -90 -66 0
+c WARNING: deleted clause on proof line 12255 does not occur: [0] -492 -332 -90 145 224 325 0
+c WARNING: deleted clause on proof line 12258 does not occur: [0] -489 -488 -383 -264 49 50 73 76 80 309 320 349 357 360 393 420 445 451 461 0
+c WARNING: deleted clause on proof line 12259 does not occur: [0] -294 -200 5 16 18 73 106 121 124 172 207 239 331 346 357 401 407 472 0
+c WARNING: deleted clause on proof line 12261 does not occur: [0] -269 -211 16 34 50 73 121 145 189 197 233 239 331 346 357 401 407 416 472 0
+c WARNING: deleted clause on proof line 12262 does not occur: [0] -294 -284 16 18 115 121 124 145 172 197 200 224 384 401 409 472 0
+c WARNING: deleted clause on proof line 12265 does not occur: [0] -488 -383 -264 50 73 76 331 349 357 360 420 445 451 461 0
+c WARNING: deleted clause on proof line 12266 does not occur: [0] -292 -68 4 5 17 19 106 108 121 153 224 268 275 331 0
+c WARNING: deleted clause on proof line 12267 does not occur: [0] -296 49 50 99 189 197 200 255 309 320 420 445 451 0
+c WARNING: deleted clause on proof line 12268 does not occur: [0] -489 -260 49 73 76 80 309 320 349 357 393 420 472 0
+c WARNING: deleted clause on proof line 12270 does not occur: [0] -268 -45 50 61 70 106 121 138 172 231 255 260 277 317 332 420 0
+c WARNING: deleted clause on proof line 12271 does not occur: [0] -489 -275 -30 73 239 246 331 346 357 401 409 472 0
+c WARNING: deleted clause on proof line 12274 does not occur: [0] -481 -474 -69 68 73 92 96 97 99 121 231 268 331 341 350 357 393 0
+c WARNING: deleted clause on proof line 12275 does not occur: [0] -45 46 70 106 115 121 172 260 286 309 317 320 325 357 375 427 481 0
+c WARNING: deleted clause on proof line 12276 does not occur: [0] -294 -66 73 86 121 200 239 331 346 357 384 401 409 472 0
+c WARNING: deleted clause on proof line 12277 does not occur: [0] -66 73 84 86 121 239 331 346 357 384 401 472 0
+c WARNING: deleted clause on proof line 12278 does not occur: [0] -442 -440 -94 99 121 231 268 309 317 349 384 427 0
+c WARNING: deleted clause on proof line 12280 does not occur: [0] -59 16 50 82 172 309 322 375 393 396 421 473 0
+c WARNING: deleted clause on proof line 12281 does not occur: [0] -124 -11 99 189 331 349 357 383 420 442 473 0
+c WARNING: deleted clause on proof line 12282 does not occur: [0] -492 -332 -310 63 74 145 224 275 325 357 375 0
+c WARNING: deleted clause on proof line 12284 does not occur: [0] -275 4 15 16 18 73 76 106 115 121 130 146 172 197 206 249 257 262 269 331 350 357 401 409 472 481 0
+c WARNING: deleted clause on proof line 12285 does not occur: [0] -268 -45 46 50 61 70 72 121 138 172 232 255 260 269 420 0
+c WARNING: deleted clause on proof line 12286 does not occur: [0] -268 -45 4 46 50 70 72 121 129 172 255 260 269 420 0
+c WARNING: deleted clause on proof line 12287 does not occur: [0] -350 -68 4 5 17 106 121 224 241 268 331 341 481 0
+c WARNING: deleted clause on proof line 12288 does not occur: [0] -268 -45 5 50 61 106 121 172 255 285 317 332 420 0
+c WARNING: deleted clause on proof line 12289 does not occur: [0] -231 -97 -69 124 145 172 241 268 331 350 483 0
+c WARNING: deleted clause on proof line 12297 does not occur: [0] -268 -45 46 50 70 72 121 129 172 255 260 264 269 420 451 0
+c WARNING: deleted clause on proof line 12298 does not occur: [0] -296 -47 29 70 124 129 138 172 269 331 349 357 383 420 465 0
+c WARNING: deleted clause on proof line 12299 does not occur: [0] -275 -66 73 121 161 197 239 286 331 346 350 357 401 472 0
+c WARNING: deleted clause on proof line 12300 does not occur: [0] -268 -45 -19 46 50 61 70 72 255 260 269 420 0
+c WARNING: deleted clause on proof line 12301 does not occur: [0] -488 -34 73 331 349 357 401 407 416 472 0
+c WARNING: deleted clause on proof line 12302 does not occur: [0] -491 -325 -124 -11 -10 376 391 421 445 461 0
+c WARNING: deleted clause on proof line 12303 does not occur: [0] -442 -440 -94 99 121 202 224 268 309 349 0
+c WARNING: deleted clause on proof line 12304 does not occur: [0] -45 5 17 106 121 172 285 332 368 420 0
+c WARNING: deleted clause on proof line 12307 does not occur: [0] -310 63 74 145 224 275 325 375 483 0
+c WARNING: deleted clause on proof line 12308 does not occur: [0] -268 -257 46 50 51 70 255 260 262 0
+c WARNING: deleted clause on proof line 12309 does not occur: [0] -489 3 16 18 34 36 67 68 73 138 145 172 197 218 249 255 264 309 317 320 341 357 362 385 480 0
+c WARNING: deleted clause on proof line 12314 does not occur: [0] -296 -295 -47 70 124 129 138 172 269 331 349 357 383 420 465 0
+c WARNING: deleted clause on proof line 12315 does not occur: [0] -268 -45 46 50 70 72 121 126 255 260 264 269 420 451 0
+c WARNING: deleted clause on proof line 12316 does not occur: [0] -285 -124 97 99 224 249 260 331 349 357 420 445 0
+c WARNING: deleted clause on proof line 12317 does not occur: [0] -489 -28 72 96 97 331 349 365 427 435 442 461 0
+c WARNING: deleted clause on proof line 12319 does not occur: [0] -483 -429 -416 80 97 99 391 394 399 421 442 0
+c WARNING: deleted clause on proof line 12320 does not occur: [0] -296 -202 -51 189 197 200 331 420 445 451 461 0
+c WARNING: deleted clause on proof line 12322 does not occur: [0] -492 -11 63 331 349 350 416 445 461 484 0
+c WARNING: deleted clause on proof line 12323 does not occur: [0] -231 -124 189 224 275 383 403 416 473 0
+c WARNING: deleted clause on proof line 12324 does not occur: [0] -268 -11 189 231 246 257 260 349 473 0
+c WARNING: deleted clause on proof line 12326 does not occur: [0] -376 66 73 331 346 357 401 472 0
+c WARNING: deleted clause on proof line 12327 does not occur: [0] -260 -124 -11 99 249 331 349 427 0
+c WARNING: deleted clause on proof line 12329 does not occur: [0] -310 -302 63 145 224 275 375 483 0
+c WARNING: deleted clause on proof line 12339 does not occur: [0] -412 -293 -145 -86 15 16 136 143 0
+c WARNING: deleted clause on proof line 12340 does not occur: [0] -401 -331 5 11 16 18 30 45 47 53 60 67 68 121 143 195 211 216 241 264 306 320 322 357 360 393 396 409 414 475 0
+c WARNING: deleted clause on proof line 12342 does not occur: [0] -493 -440 -331 -93 16 18 121 143 241 264 391 0
+c WARNING: deleted clause on proof line 12343 does not occur: [0] -493 -331 -95 -93 16 18 121 143 241 264 391 0
+c WARNING: deleted clause on proof line 12344 does not occur: [0] -493 -385 -331 -93 16 18 121 143 241 264 391 0
+c WARNING: deleted clause on proof line 12345 does not occur: [0] -401 -98 -97 383 396 428 442 466 0
+c WARNING: deleted clause on proof line 12346 does not occur: [0] -440 -401 -98 84 383 416 446 0
+c WARNING: deleted clause on proof line 12347 does not occur: [0] -493 -384 -95 94 302 322 333 346 357 360 393 416 443 461 0
+c WARNING: deleted clause on proof line 12348 does not occur: [0] -493 -473 -440 -427 -95 80 302 322 393 416 443 461 0
+c WARNING: deleted clause on proof line 12353 does not occur: [0] -493 -473 -440 78 93 283 427 0
+c WARNING: deleted clause on proof line 12357 does not occur: [0] -440 -412 -19 16 18 82 93 94 97 121 145 181 283 325 346 357 360 391 414 0
+c WARNING: deleted clause on proof line 12358 does not occur: [0] -189 3 16 18 19 108 110 121 124 129 145 168 181 283 331 349 357 360 483 0
+c WARNING: deleted clause on proof line 12359 does not occur: [0] -490 -325 61 62 67 69 77 78 309 317 339 357 362 398 420 442 451 456 0
+c WARNING: deleted clause on proof line 12360 does not occur: [0] -440 -110 16 91 93 94 96 121 143 154 172 285 383 427 451 461 0
+c WARNING: deleted clause on proof line 12361 does not occur: [0] -440 -5 10 12 93 94 97 115 121 179 283 299 306 325 375 429 0
+c WARNING: deleted clause on proof line 12362 does not occur: [0] -440 91 93 94 96 106 129 179 285 383 427 451 461 0
+c WARNING: deleted clause on proof line 12363 does not occur: [0] -246 -188 -94 129 137 179 231 268 309 317 320 368 401 0
+c WARNING: deleted clause on proof line 12367 does not occur: [0] 139 153 161 283 383 427 442 446 451 456 466 0
+c WARNING: deleted clause on proof line 12370 does not occur: [0] -493 -427 -302 -95 84 322 333 391 416 443 461 0
+c WARNING: deleted clause on proof line 12371 does not occur: [0] -493 -473 -440 -427 -95 -53 322 391 416 443 461 0
+c WARNING: deleted clause on proof line 12372 does not occur: [0] -493 -473 -440 -427 -376 -95 322 391 416 443 461 0
+c WARNING: deleted clause on proof line 12377 does not occur: [0] -246 -94 189 231 268 331 368 401 0
+c WARNING: deleted clause on proof line 12379 does not occur: [0] -385 -95 59 322 333 346 357 360 0
+c WARNING: deleted clause on proof line 12380 does not occur: [0] -493 -440 -427 -95 -94 78 93 283 0
+c WARNING: deleted clause on proof line 12382 does not occur: [0] -385 -299 322 333 346 357 360 0
+c WARNING: deleted clause on proof line 12383 does not occur: [0] -386 -325 -93 311 322 346 368 0
+c WARNING: deleted clause on proof line 12384 does not occur: [0] -493 -473 -440 -299 93 427 451 0
+c WARNING: deleted clause on proof line 12385 does not occur: [0] -493 -473 -440 93 94 302 427 0
+c WARNING: deleted clause on proof line 12391 does not occur: [0] -385 -95 -93 -80 322 333 0
+c WARNING: deleted clause on proof line 12393 does not occur: [0] -486 -98 -97 91 93 0
+c WARNING: deleted clause on proof line 12394 does not occur: [0] -486 -98 91 93 99 0
+c WARNING: deleted clause on proof line 12395 does not occur: [0] -190 -95 -20 110 150 0
+c WARNING: deleted clause on proof line 12396 does not occur: [0] -190 -110 -95 -20 115 0
+c WARNING: deleted clause on proof line 12400 does not occur: [0] -58 -36 0
+c WARNING: deleted clause on proof line 12401 does not occur: [0] -54 -39 0
+c WARNING: deleted clause on proof line 12432 does not occur: [0] -282 251 0
+c WARNING: deleted clause on proof line 12435 does not occur: [0] -282 274 0
+c WARNING: deleted clause on proof line 12449 does not occur: [0] -54 -48 0
+c WARNING: deleted clause on proof line 12451 does not occur: [0] -304 56 0
+c WARNING: deleted clause on proof line 12455 does not occur: [0] -424 418 0
+c WARNING: deleted clause on proof line 12459 does not occur: [0] -185 158 0
+c WARNING: deleted clause on proof line 12464 does not occur: [0] -448 438 0
+c WARNING: deleted clause on proof line 12471 does not occur: [0] -282 252 0
+c WARNING: deleted clause on proof line 12472 does not occur: [0] -185 156 0
+c WARNING: deleted clause on proof line 12473 does not occur: [0] -185 157 0
+c WARNING: deleted clause on proof line 12633 does not occur: [0] -87 -14 0
+c WARNING: deleted clause on proof line 12816 does not occur: [0] -54 -18 0
+c WARNING: deleted clause on proof line 12825 does not occur: [0] -54 -14 0
+c WARNING: deleted clause on proof line 12858 does not occur: [0] -54 -24 0
+c WARNING: deleted clause on proof line 12873 does not occur: [0] -54 -7 0
+c WARNING: deleted clause on proof line 12874 does not occur: [0] -54 -11 0
+c WARNING: deleted clause on proof line 12875 does not occur: [0] -54 -30 0
+c WARNING: deleted clause on proof line 12876 does not occur: [0] -54 -33 0
+c WARNING: deleted clause on proof line 12877 does not occur: [0] -54 -36 0
+c WARNING: deleted clause on proof line 12878 does not occur: [0] -299 -90 0
+c WARNING: deleted clause on proof line 12879 does not occur: [0] -440 -58 0
+c WARNING: deleted clause on proof line 12880 does not occur: [0] -442 -90 0
+c WARNING: deleted clause on proof line 12881 does not occur: [0] -362 -54 0
+c WARNING: deleted clause on proof line 12883 does not occur: [0] -407 -87 0
+c WARNING: deleted clause on proof line 12884 does not occur: [0] -200 -13 0
+c WARNING: deleted clause on proof line 12885 does not occur: [0] -195 -44 0
+c WARNING: deleted clause on proof line 12886 does not occur: [0] -357 -90 0
+c WARNING: deleted clause on proof line 12887 does not occur: [0] -90 -32 0
+c WARNING: deleted clause on proof line 12888 does not occur: [0] -244 -78 0
+c WARNING: deleted clause on proof line 12889 does not occur: [0] -244 -77 0
+c WARNING: deleted clause on proof line 12890 does not occur: [0] -309 -44 0
+c WARNING: deleted clause on proof line 12891 does not occur: [0] -357 -44 0
+c WARNING: deleted clause on proof line 12892 does not occur: [0] -70 -44 0
+c WARNING: deleted clause on proof line 12893 does not occur: [0] -44 6 0
+c WARNING: deleted clause on proof line 12894 does not occur: [0] -90 -44 0
+c WARNING: deleted clause on proof line 12895 does not occur: [0] -99 -44 0
+c WARNING: deleted clause on proof line 12896 does not occur: [0] -161 -43 0
+c WARNING: deleted clause on proof line 12897 does not occur: [0] -310 -58 0
+c WARNING: deleted clause on proof line 12898 does not occur: [0] -402 -54 0
+c WARNING: deleted clause on proof line 12899 does not occur: [0] -416 -54 0
+c WARNING: deleted clause on proof line 12900 does not occur: [0] -68 -54 0
+c WARNING: deleted clause on proof line 12901 does not occur: [0] -79 -54 0
+c WARNING: deleted clause on proof line 12902 does not occur: [0] -304 -299 0
+c WARNING: deleted clause on proof line 12903 does not occur: [0] -304 -53 0
+c WARNING: deleted clause on proof line 12904 does not occur: [0] -304 -67 0
+c WARNING: deleted clause on proof line 12905 does not occur: [0] -304 -45 0
+c WARNING: deleted clause on proof line 12906 does not occur: [0] -304 -58 0
+c WARNING: deleted clause on proof line 12907 does not occur: [0] -325 -304 0
+c WARNING: deleted clause on proof line 12908 does not occur: [0] -304 -145 0
+c WARNING: deleted clause on proof line 12909 does not occur: [0] -304 -56 0
+c WARNING: deleted clause on proof line 12910 does not occur: [0] -304 -224 0
+c WARNING: deleted clause on proof line 12911 does not occur: [0] -492 -304 0
+c WARNING: deleted clause on proof line 12912 does not occur: [0] -310 -304 0
+c WARNING: deleted clause on proof line 12913 does not occur: [0] -304 218 0
+c WARNING: deleted clause on proof line 12914 does not occur: [0] -60 -43 0
+c WARNING: deleted clause on proof line 12915 does not occur: [0] -417 -43 0
+c WARNING: deleted clause on proof line 12916 does not occur: [0] -475 -43 0
+c WARNING: deleted clause on proof line 12917 does not occur: [0] -43 401 0
+c WARNING: deleted clause on proof line 12918 does not occur: [0] -414 -87 0
+c WARNING: deleted clause on proof line 12919 does not occur: [0] -413 -401 0
+c WARNING: deleted clause on proof line 12920 does not occur: [0] -87 -16 0
+c WARNING: deleted clause on proof line 12921 does not occur: [0] -246 -87 0
+c WARNING: deleted clause on proof line 12922 does not occur: [0] -87 145 0
+c WARNING: deleted clause on proof line 12923 does not occur: [0] -40 -13 0
+c WARNING: deleted clause on proof line 12924 does not occur: [0] -13 331 0
+c WARNING: deleted clause on proof line 12925 does not occur: [0] -58 90 0
+c WARNING: deleted clause on proof line 12926 does not occur: [0] -376 -90 0
+c WARNING: deleted clause on proof line 12927 does not occur: [0] -90 391 0
+c WARNING: deleted clause on proof line 13552 does not occur: [0] -325 -11 246 0
+c WARNING: deleted clause on proof line 13597 does not occur: [0] -442 -11 99 331 0
+c WARNING: deleted clause on proof line 13615 does not occur: [0] -67 -11 386 0
+c WARNING: deleted clause on proof line 13699 does not occur: [0] -336 309 0
+c WARNING: deleted clause on proof line 13704 does not occur: [0] -417 414 0
+c WARNING: deleted clause on proof line 13720 does not occur: [0] -246 42 0
+c WARNING: deleted clause on proof line 13728 does not occur: [0] -336 325 0
+c WARNING: deleted clause on proof line 13735 does not occur: [0] -251 241 0
+c WARNING: deleted clause on proof line 13736 does not occur: [0] -251 242 0
+c WARNING: deleted clause on proof line 13738 does not occur: [0] -246 -46 0
+c WARNING: deleted clause on proof line 13739 does not occur: [0] -311 301 0
+c WARNING: deleted clause on proof line 13740 does not occur: [0] -311 306 0
+c WARNING: deleted clause on proof line 13764 does not occur: [0] -423 417 0
+c WARNING: deleted clause on proof line 13765 does not occur: [0] -236 206 0
+c WARNING: deleted clause on proof line 13773 does not occur: [0] -184 172 0
+c WARNING: deleted clause on proof line 13780 does not occur: [0] -183 154 0
+c WARNING: deleted clause on proof line 13782 does not occur: [0] -182 154 0
+c WARNING: deleted clause on proof line 13784 does not occur: [0] -156 151 0
+c WARNING: deleted clause on proof line 13788 does not occur: [0] -328 323 0
+c WARNING: deleted clause on proof line 13790 does not occur: [0] -338 327 0
+c WARNING: deleted clause on proof line 13791 does not occur: [0] -337 327 0
+c WARNING: deleted clause on proof line 13792 does not occur: [0] -336 327 0
+c WARNING: deleted clause on proof line 13794 does not occur: [0] -155 150 0
+c WARNING: deleted clause on proof line 13797 does not occur: [0] -182 153 0
+c WARNING: deleted clause on proof line 13799 does not occur: [0] -145 143 0
+c WARNING: deleted clause on proof line 13804 does not occur: [0] -146 144 0
+c WARNING: deleted clause on proof line 13810 does not occur: [0] -337 310 0
+c WARNING: deleted clause on proof line 13812 does not occur: [0] -311 302 0
+c WARNING: deleted clause on proof line 13814 does not occur: [0] -337 326 0
+c WARNING: deleted clause on proof line 13815 does not occur: [0] -336 326 0
+c WARNING: deleted clause on proof line 13816 does not occur: [0] -423 410 0
+c WARNING: deleted clause on proof line 13820 does not occur: [0] -318 316 0
+c WARNING: deleted clause on proof line 13830 does not occur: [0] -184 157 0
+c WARNING: deleted clause on proof line 13831 does not occur: [0] -183 156 0
+c WARNING: deleted clause on proof line 13832 does not occur: [0] -182 155 0
+c WARNING: deleted clause on proof line 13835 does not occur: [0] -141 116 0
+c WARNING: deleted clause on proof line 13839 does not occur: [0] -433 402 0
+c WARNING: deleted clause on proof line 13840 does not occur: [0] -404 394 0
+c WARNING: deleted clause on proof line 13844 does not occur: [0] -338 311 0
+c WARNING: deleted clause on proof line 13855 does not occur: [0] -236 209 0
+c WARNING: deleted clause on proof line 13857 does not occur: [0] -382 370 0
+c WARNING: deleted clause on proof line 13858 does not occur: [0] -372 366 0
+c WARNING: deleted clause on proof line 13859 does not occur: [0] -404 399 0
+c WARNING: deleted clause on proof line 13860 does not occur: [0] -131 127 0
+c WARNING: deleted clause on proof line 13862 does not occur: [0] -434 403 0
+c WARNING: deleted clause on proof line 13863 does not occur: [0] -433 403 0
+c WARNING: deleted clause on proof line 13864 does not occur: [0] -227 215 0
+c WARNING: deleted clause on proof line 13866 does not occur: [0] -227 222 0
+c WARNING: deleted clause on proof line 13868 does not occur: [0] -382 371 0
+c WARNING: deleted clause on proof line 13871 does not occur: [0] -434 422 0
+c WARNING: deleted clause on proof line 13872 does not occur: [0] -433 421 0
+c WARNING: deleted clause on proof line 13873 does not occur: [0] -434 423 0
+c WARNING: deleted clause on proof line 13874 does not occur: [0] -433 422 0
+c WARNING: deleted clause on proof line 13875 does not occur: [0] -434 404 0
+c WARNING: deleted clause on proof line 13877 does not occur: [0] -382 350 0
+c WARNING: deleted clause on proof line 13878 does not occur: [0] -382 351 0
+c WARNING: deleted clause on proof line 13879 does not occur: [0] -382 372 0
+c WARNING: deleted clause on proof line 13880 does not occur: [0] -372 367 0
+c WARNING: deleted clause on proof line 13881 does not occur: [0] -338 329 0
+c WARNING: deleted clause on proof line 13883 does not occur: [0] -338 328 0
+c WARNING: deleted clause on proof line 13884 does not occur: [0] -337 328 0
+c WARNING: deleted clause on proof line 13886 does not occur: [0] -329 324 0
+c WARNING: deleted clause on proof line 13889 does not occur: [0] -236 224 0
+c WARNING: deleted clause on proof line 13890 does not occur: [0] -236 208 0
+c WARNING: deleted clause on proof line 13892 does not occur: [0] -209 199 0
+c WARNING: deleted clause on proof line 13894 does not occur: [0] -184 155 0
+c WARNING: deleted clause on proof line 13895 does not occur: [0] -184 156 0
+c WARNING: deleted clause on proof line 13896 does not occur: [0] -183 155 0
+c WARNING: deleted clause on proof line 13897 does not occur: [0] -157 152 0
+c WARNING: deleted clause on proof line 13898 does not occur: [0] -142 117 0
+c WARNING: deleted clause on proof line 13996 does not occur: [0] -61 -33 0
+c WARNING: deleted clause on proof line 14109 does not occur: [0] -236 205 0
+c WARNING: deleted clause on proof line 14146 does not occur: [0] -66 -30 0
+c WARNING: deleted clause on proof line 14149 does not occur: [0] -66 -34 0
+c WARNING: deleted clause on proof line 14156 does not occur: [0] -299 -61 0
+c WARNING: deleted clause on proof line 14157 does not occur: [0] -442 -99 0
+c WARNING: deleted clause on proof line 14158 does not occur: [0] -145 -29 0
+c WARNING: deleted clause on proof line 14159 does not occur: [0] -246 -200 0
+c WARNING: deleted clause on proof line 14160 does not occur: [0] -202 -145 0
+c WARNING: deleted clause on proof line 14161 does not occur: [0] -391 -73 0
+c WARNING: deleted clause on proof line 14162 does not occur: [0] -357 -99 0
+c WARNING: deleted clause on proof line 14169 does not occur: [0] -145 -24 0
+c WARNING: deleted clause on proof line 14170 does not occur: [0] -394 79 0
+c WARNING: deleted clause on proof line 14171 does not occur: [0] -318 60 0
+c WARNING: deleted clause on proof line 14172 does not occur: [0] -417 -65 0
+c WARNING: deleted clause on proof line 14174 does not occur: [0] -246 -52 0
+c WARNING: deleted clause on proof line 14175 does not occur: [0] -391 -20 0
+c WARNING: deleted clause on proof line 14176 does not occur: [0] -391 -80 0
+c WARNING: deleted clause on proof line 14177 does not occur: [0] -391 -81 0
+c WARNING: deleted clause on proof line 14178 does not occur: [0] -391 -51 0
+c WARNING: deleted clause on proof line 14179 does not occur: [0] -391 -93 0
+c WARNING: deleted clause on proof line 14180 does not occur: [0] -145 -91 0
+c WARNING: deleted clause on proof line 14181 does not occur: [0] -417 442 0
+c WARNING: deleted clause on proof line 14182 does not occur: [0] -417 -401 0
+c WARNING: deleted clause on proof line 14183 does not occur: [0] -404 82 0
+c WARNING: deleted clause on proof line 14184 does not occur: [0] -145 -124 0
+c WARNING: deleted clause on proof line 14185 does not occur: [0] -145 -57 0
+c WARNING: deleted clause on proof line 14186 does not occur: [0] -145 -92 0
+c WARNING: deleted clause on proof line 14187 does not occur: [0] -246 -26 0
+c WARNING: deleted clause on proof line 14188 does not occur: [0] -161 -61 0
+c WARNING: deleted clause on proof line 14189 does not occur: [0] -161 -99 0
+c WARNING: deleted clause on proof line 14190 does not occur: [0] -417 -40 0
+c WARNING: deleted clause on proof line 14260 does not occur: [0] -96 -5 0
+c WARNING: deleted clause on proof line 14266 does not occur: [0] -370 364 0
+c WARNING: deleted clause on proof line 14267 does not occur: [0] -370 365 0
+c WARNING: deleted clause on proof line 14269 does not occur: [0] -370 -95 0
+c WARNING: deleted clause on proof line 14270 does not occur: [0] -440 -370 0
+c WARNING: deleted clause on proof line 14271 does not occur: [0] -370 366 0
+c WARNING: deleted clause on proof line 14272 does not occur: [0] -381 371 0
+c WARNING: deleted clause on proof line 14276 does not occur: [0] -371 365 0
+c WARNING: deleted clause on proof line 14277 does not occur: [0] -371 366 0
+c WARNING: deleted clause on proof line 14283 does not occur: [0] -381 349 0
+c WARNING: deleted clause on proof line 14284 does not occur: [0] -381 369 0
+c WARNING: deleted clause on proof line 14285 does not occur: [0] -381 370 0
+c WARNING: deleted clause on proof line 14286 does not occur: [0] -381 350 0
+c WARNING: deleted clause on proof line 14288 does not occur: [0] -380 368 0
+c WARNING: deleted clause on proof line 14289 does not occur: [0] -380 349 0
+c WARNING: deleted clause on proof line 14290 does not occur: [0] -380 369 0
+c WARNING: deleted clause on proof line 14291 does not occur: [0] -380 370 0
+c WARNING: deleted clause on proof line 14795 does not occur: [0] -190 16 18 121 137 145 0
+c finished parsing
+c detected empty clause; start verification via backward checking
+c WARNING: RAT check on proof pivot failed : [21835] 97 420 80 393 401 0
+c RAT check failed on all possible pivots
+c failed at proof line 6215 (modulo deletion errors)
+
+s NOT VERIFIED
+c verification time: 0.019 seconds

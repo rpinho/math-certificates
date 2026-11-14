@@ -1,0 +1,17 @@
+[
+  {
+    "path": "certificates/c0_k8.drat",
+    "bytes": 401008334,
+    "sha256": "705d018b0d4fb61b1f83ae711d886b9786958b50137a34a9dc9172353ec18a7d"
+  },
+  {
+    "path": "certificates/c1_k8.drat",
+    "bytes": 153624504,
+    "sha256": "b5e21456a206e1df45855e1558d1894b742c1e1b56d971f6ef58d99a0c5836fc"
+  },
+  {
+    "path": "certificates/corrupt.drat",
+    "bytes": 2,
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  }
+]

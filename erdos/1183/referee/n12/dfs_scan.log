@@ -1,0 +1,13 @@
+n=1: min over rank words = 1; chain bound 1; attained by 2 words, e.g. ['10', '01']
+n=2: min over rank words = 2; chain bound 2; attained by 6 words, e.g. ['100', '010', '110', '001']
+n=3: min over rank words = 2; chain bound 2; attained by 6 words, e.g. ['1100', '1010', '0110', '1001']
+n=4: min over rank words = 3; chain bound 3; attained by 12 words, e.g. ['10100', '01100', '10010', '11010']
+n=5: min over rank words = 3; chain bound 3; attained by 12 words, e.g. ['110100', '101100', '110010', '011010']
+n=6: min over rank words = 4; chain bound 4; attained by 28 words, e.g. ['1100100', '0110100', '1001100', '0101100']
+n=7: min over rank words = 4; chain bound 4; attained by 18 words, e.g. ['10110100', '11001100', '11010010', '10110010']
+n=8: min over rank words = 5; chain bound 5; attained by 36 words, e.g. ['011100100', '100110100', '010110100', '001110100']
+n=9: min over rank words = 5; chain bound 5; attained by 12 words, e.g. ['1100110100', '1101001100', '1100101100', '1010011010']
+n=10: min over rank words = 6; chain bound 6; attained by 24 words, e.g. ['10011100100', '01011100100', '01100110100', '01001110100']
+n=11: min over rank words = 7; chain bound 6; attained by 244 words, e.g. ['110111001000', '111001101000', '110101101000', '110011101000']
+n=12: min over rank words = 7; chain bound 7; attained by 24 words, e.g. ['1010011100100', '1001011100100', '0011100110100', '0011101001100']
+RRBRBBRRBR red: 8

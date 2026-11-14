@@ -1,0 +1,19 @@
+{"result": "CNF EXACT", "ranks": "1100101100011", "color": 0, "target": 8, "variables": 16703, "clauses": 3135748, "symmetry_breaking": "none", "argument": "closure of selected sets plus backwards sequential at-least counter"}
+        6.53 real         6.39 user         0.10 sys
+          1358839808  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               83440  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                2763  involuntary context switches
+         86322925663  instructions retired
+         24759230900  cycles elapsed
+          1350338000  peak memory footprint

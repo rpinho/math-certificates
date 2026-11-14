@@ -1,0 +1,72 @@
+{
+  "proofs": [
+    {
+      "asset": "n11_c0.drat.xz",
+      "exit_code": 0,
+      "verified": true,
+      "seconds": 77.18,
+      "uncompressed_sha256": "dce1f1791eadb73a6871b01d2c652cf36b8db766f1c0e41efbc3a3cf8af89315",
+      "maximum_resident_set_size_bytes": 856719360
+    },
+    {
+      "asset": "n11_c1.drat.xz",
+      "exit_code": 0,
+      "verified": true,
+      "seconds": 23.82,
+      "uncompressed_sha256": "70617484b4ead1e271a2ae36087cb9b705a3ab881334e5b76d34276cfce1a68a",
+      "maximum_resident_set_size_bytes": 380141568
+    },
+    {
+      "asset": "n12_c0_lex.drat.xz",
+      "exit_code": 0,
+      "verified": true,
+      "seconds": 3.882,
+      "uncompressed_sha256": "11535464965a26295643177fc7c50e867759c979c0312f69ba0dc8633ad89a8d",
+      "maximum_resident_set_size_bytes": 494665728
+    },
+    {
+      "asset": "n12_c1.drat.xz",
+      "exit_code": 0,
+      "verified": true,
+      "seconds": 118.656,
+      "uncompressed_sha256": "0f11a34b914f1c7a9149461271726943542122d3ae3adc180cf54dd8ffcaad94",
+      "maximum_resident_set_size_bytes": 1948450816
+    }
+  ],
+  "cnf_regeneration": [
+    {
+      "n": 11,
+      "stem": "1183_n11_c0",
+      "bytes": 17975196,
+      "sha256": "e09d9503ac563b03403276ba0fb9679f53cf18b35835fcc16d3e2886ca6c87fb"
+    },
+    {
+      "n": 11,
+      "stem": "1183_n11_c1",
+      "bytes": 9595549,
+      "sha256": "2fb846bcf95511f0079c5912d91c46631147a686506ebd3cdb869054ff6825a7"
+    },
+    {
+      "n": 12,
+      "stem": "n12_1100101100011_c0",
+      "bytes": 47296679,
+      "sha256": "1a47a8e02766840c52f36da61c2409be41c1620dce2d1cd7402c985e4eae225f"
+    },
+    {
+      "n": 12,
+      "stem": "n12_1100101100011_c0_lex",
+      "bytes": 49283351,
+      "sha256": "869b076ec7f8f963fb5ac6786d1b5326167189bccdd9301e33c6d2c8afba1a28"
+    },
+    {
+      "n": 12,
+      "stem": "n12_1100101100011_c1",
+      "bytes": 68904407,
+      "sha256": "7d7e98e52b7467d6bb55af13a8a11d59eeeaa38e4bb9f6d6671ed5614fc74911"
+    }
+  ],
+  "colouring_checks": "Both original producer colouring checkers passed from inside the packet.",
+  "referee_reruns": "n11 check_data.py, published_lower.py and rank_lattices.py; n12 ref.py colour/dfs, dfs_control.py; generic unchanged n12 DFS also checked both dimensions.",
+  "compression_maximum_rss_bytes": 100024320,
+  "note": "This records packaging reruns, not a new independent referee review. Only integer/set computations and default backward DRAT checks support the finite results."
+}

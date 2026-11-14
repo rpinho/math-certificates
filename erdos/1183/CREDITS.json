@@ -1,0 +1,34 @@
+{
+  "credits": [],
+  "contributors": [
+    {
+      "name": "Erdős and Ulam",
+      "role": "original question"
+    },
+    {
+      "name": "Deep Bhattacharjee, Priyabrata Mandal and Ushashi Bhattacharya",
+      "role": "published lower bound and closure-SAT method"
+    },
+    {
+      "name": "the omega institute",
+      "role": "lower-bound note and open cases"
+    },
+    {
+      "name": "ipezygj",
+      "role": "SAT + DRAT approach for #609"
+    },
+    {
+      "name": "A. Biere et al.",
+      "role": "CaDiCaL"
+    },
+    {
+      "name": "M. Heule et al.",
+      "role": "drat-trim"
+    },
+    {
+      "name": "AI agents",
+      "role": "producer constructions, separate producer checkers, independent clean-room referees, and packaging"
+    }
+  ],
+  "note": "No credit to another PR is claimed. See CREDITS.md and pinned references in README.md."
+}

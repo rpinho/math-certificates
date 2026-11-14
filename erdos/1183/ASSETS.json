@@ -1,0 +1,70 @@
+{
+  "assets": [
+    {
+      "asset": "n11_c0.drat.xz",
+      "uncompressed_bytes": 603094524,
+      "uncompressed_sha256": "dce1f1791eadb73a6871b01d2c652cf36b8db766f1c0e41efbc3a3cf8af89315",
+      "compressed_bytes": 31949752,
+      "compressed_sha256": "602a7860c09429f24f356b9ef66ad57736bc8dcc37e8d0eeaff0d982f816f053",
+      "n": 11,
+      "colour": 0,
+      "cnf": "1183_n11_c0.cnf",
+      "cnf_sha256": "e09d9503ac563b03403276ba0fb9679f53cf18b35835fcc16d3e2886ca6c87fb",
+      "cnf_bytes": 17975196,
+      "producer_proof": "1183_n11_c0.drat",
+      "asset_parts": [
+        "n11_c0.drat.xz"
+      ]
+    },
+    {
+      "asset": "n11_c1.drat.xz",
+      "uncompressed_bytes": 198649885,
+      "uncompressed_sha256": "70617484b4ead1e271a2ae36087cb9b705a3ab881334e5b76d34276cfce1a68a",
+      "compressed_bytes": 11380832,
+      "compressed_sha256": "b9c6f8e41e59af8975ba3bf1e6d7307b0ad4f625a1d3387b2ed8c168f985a3c7",
+      "n": 11,
+      "colour": 1,
+      "cnf": "1183_n11_c1.cnf",
+      "cnf_sha256": "2fb846bcf95511f0079c5912d91c46631147a686506ebd3cdb869054ff6825a7",
+      "cnf_bytes": 9595549,
+      "producer_proof": "1183_n11_c1.drat",
+      "asset_parts": [
+        "n11_c1.drat.xz"
+      ]
+    },
+    {
+      "asset": "n12_c0_lex.drat.xz",
+      "uncompressed_bytes": 22398707,
+      "uncompressed_sha256": "11535464965a26295643177fc7c50e867759c979c0312f69ba0dc8633ad89a8d",
+      "compressed_bytes": 3148204,
+      "compressed_sha256": "06d23907cf6a6069f469d6817c566d899e5ffd32ce2224a28abf21da380841fe",
+      "n": 12,
+      "colour": 0,
+      "cnf": "n12_1100101100011_c0_lex.cnf",
+      "cnf_sha256": "869b076ec7f8f963fb5ac6786d1b5326167189bccdd9301e33c6d2c8afba1a28",
+      "cnf_bytes": 49283351,
+      "producer_proof": "n12_1100101100011_c0_lex.drat",
+      "asset_parts": [
+        "n12_c0_lex.drat.xz"
+      ]
+    },
+    {
+      "asset": "n12_c1.drat.xz",
+      "uncompressed_bytes": 1162120960,
+      "uncompressed_sha256": "0f11a34b914f1c7a9149461271726943542122d3ae3adc180cf54dd8ffcaad94",
+      "compressed_bytes": 43756096,
+      "compressed_sha256": "083042e9645476a3b8f0b558506551b558852a9fae393fdbc7c65580acdfb3f6",
+      "n": 12,
+      "colour": 1,
+      "cnf": "n12_1100101100011_c1.cnf",
+      "cnf_sha256": "7d7e98e52b7467d6bb55af13a8a11d59eeeaa38e4bb9f6d6671ed5614fc74911",
+      "cnf_bytes": 68904407,
+      "producer_proof": "n12_1100101100011_c1.drat",
+      "asset_parts": [
+        "n12_c1.drat.xz"
+      ]
+    }
+  ],
+  "provenance": "Complete retained producer DRAT proofs only. Original clean-room referee large proofs were deleted after checking and are not these assets. The unfinished n12 colour-zero base proof is excluded.",
+  "compression": "xz -T1 -c (default preset 6); each asset is below 1.9 GB, so no parts are needed."
+}

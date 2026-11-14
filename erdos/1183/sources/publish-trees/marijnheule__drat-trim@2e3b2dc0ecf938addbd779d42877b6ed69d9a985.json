@@ -1,0 +1,375 @@
+{
+  "sha": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+  "url": "https://api.github.com/repos/marijnheule/drat-trim/git/trees/2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+  "tree": [
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9859ca161d5c7d1e2959621b9b3860c3148b05c0",
+      "size": 1184,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/9859ca161d5c7d1e2959621b9b3860c3148b05c0"
+    },
+    {
+      "path": "Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c3d881d55ef4dae9a7136f710d715b1949d5f14",
+      "size": 493,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/9c3d881d55ef4dae9a7136f710d715b1949d5f14"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb6ffcc4a85ff1c74a5995b6caae4372381dcd47",
+      "size": 12939,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/eb6ffcc4a85ff1c74a5995b6caae4372381dcd47"
+    },
+    {
+      "path": "compress.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d0f01c3028d6c11ed516ba3e7d37e754106f8c0",
+      "size": 5146,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/9d0f01c3028d6c11ed516ba3e7d37e754106f8c0"
+    },
+    {
+      "path": "decompress.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67eba11b63ebf4418568ab63befb9ff037fad3d0",
+      "size": 3034,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/67eba11b63ebf4418568ab63befb9ff037fad3d0"
+    },
+    {
+      "path": "drat-trim.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf8a676ffcc7ef5a47124bbafc9b680a2df333e0",
+      "size": 59546,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/cf8a676ffcc7ef5a47124bbafc9b680a2df333e0"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d9b79f4c41da3fdf007fec8b72a1343b772491c8",
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/trees/d9b79f4c41da3fdf007fec8b72a1343b772491c8"
+    },
+    {
+      "path": "examples/R_4_4_18.clrat.bz2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51d510b6a8495d14636bbd8305022246b092312f",
+      "size": 4388531,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/51d510b6a8495d14636bbd8305022246b092312f"
+    },
+    {
+      "path": "examples/R_4_4_18.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "622672712f596977d6fcb10ce3b7a9f7190b0ff3",
+      "size": 151575,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/622672712f596977d6fcb10ce3b7a9f7190b0ff3"
+    },
+    {
+      "path": "examples/R_4_4_18.drat.bz2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaf21847c911303ebe1fa952226f382388ef306c",
+      "size": 2779243,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/eaf21847c911303ebe1fa952226f382388ef306c"
+    },
+    {
+      "path": "examples/example-4-vars.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78888478dee9c0d636d4fb3e8ee90f27bb646044",
+      "size": 106,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/78888478dee9c0d636d4fb3e8ee90f27bb646044"
+    },
+    {
+      "path": "examples/example-4-vars.drat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "343424c63732ebb1fa020a76f3cf6f11c0212d75",
+      "size": 78,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/343424c63732ebb1fa020a76f3cf6f11c0212d75"
+    },
+    {
+      "path": "examples/example-4-vars.lrat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7326c50ca99a8a86c072b6aa4fcb0b0fd02a7a05",
+      "size": 94,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/7326c50ca99a8a86c072b6aa4fcb0b0fd02a7a05"
+    },
+    {
+      "path": "examples/example-5-vars.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42350665bcad375368cd6fc54ebbd7713c6c0f98",
+      "size": 103,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/42350665bcad375368cd6fc54ebbd7713c6c0f98"
+    },
+    {
+      "path": "examples/example-5-vars.drat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04a4972e2e1598b29434c2fcfa635870ca7a7eef",
+      "size": 117,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/04a4972e2e1598b29434c2fcfa635870ca7a7eef"
+    },
+    {
+      "path": "examples/example-5-vars.lrat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2dee3513fcbd3a34387455e3d8618183c397b02f",
+      "size": 176,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/2dee3513fcbd3a34387455e3d8618183c397b02f"
+    },
+    {
+      "path": "examples/example-Schur.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b951c7a8766a45ba59f2ee2b7213685534c3352",
+      "size": 486,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/0b951c7a8766a45ba59f2ee2b7213685534c3352"
+    },
+    {
+      "path": "examples/example-Schur.drat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ba943c44316c28fabab3e6e5c7e603724f86a4c",
+      "size": 32,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/3ba943c44316c28fabab3e6e5c7e603724f86a4c"
+    },
+    {
+      "path": "examples/example-Schur.drup",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e62d740dc2f584fb0ca4ab846fa0fd132d398485",
+      "size": 72,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/e62d740dc2f584fb0ca4ab846fa0fd132d398485"
+    },
+    {
+      "path": "examples/uuf-100-1.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22cca9a0188921ac7bada6f396325e1e275a8dcd",
+      "size": 5272,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/22cca9a0188921ac7bada6f396325e1e275a8dcd"
+    },
+    {
+      "path": "examples/uuf-100-1.drat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54d11bbb101b1df73611523cd427063a7f537e8e",
+      "size": 17019,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/54d11bbb101b1df73611523cd427063a7f537e8e"
+    },
+    {
+      "path": "examples/uuf-100-1.lrat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "962f832249210629847172290a8fb2a1b5eb994e",
+      "size": 45346,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/962f832249210629847172290a8fb2a1b5eb994e"
+    },
+    {
+      "path": "examples/uuf-100-2.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed6a4ee1bcd74d0ccc2a71da2ac66347bd84563c",
+      "size": 5304,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/ed6a4ee1bcd74d0ccc2a71da2ac66347bd84563c"
+    },
+    {
+      "path": "examples/uuf-100-2.drat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1499264de482881179daf8c387d56c288b91f162",
+      "size": 10959,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/1499264de482881179daf8c387d56c288b91f162"
+    },
+    {
+      "path": "examples/uuf-100-2.lrat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ede3217aca94e2e54c2c0cc70115587837db5258",
+      "size": 27687,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/ede3217aca94e2e54c2c0cc70115587837db5258"
+    },
+    {
+      "path": "examples/uuf-100-3.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa422734cfcb210c0eba37d5cf78c451c4635d5c",
+      "size": 5292,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/fa422734cfcb210c0eba37d5cf78c451c4635d5c"
+    },
+    {
+      "path": "examples/uuf-100-3.drat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e111a983090d7d1547185f0b5483c1e960647a7",
+      "size": 21562,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/4e111a983090d7d1547185f0b5483c1e960647a7"
+    },
+    {
+      "path": "examples/uuf-100-3.lrat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "361b67af72c1219d63c2aa695abe5130b4f1f975",
+      "size": 55442,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/361b67af72c1219d63c2aa695abe5130b4f1f975"
+    },
+    {
+      "path": "examples/uuf-100-4.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c734ed30678a4f3e5fe4a7537a95be45cbb1ccf2",
+      "size": 5241,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/c734ed30678a4f3e5fe4a7537a95be45cbb1ccf2"
+    },
+    {
+      "path": "examples/uuf-100-4.drat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93bc9f56ecaf73aee12da6ab53a3a67920f995ac",
+      "size": 17577,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/93bc9f56ecaf73aee12da6ab53a3a67920f995ac"
+    },
+    {
+      "path": "examples/uuf-100-4.lrat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7584616fc7faf0145762cd8dfde74a97cd68824a",
+      "size": 43522,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/7584616fc7faf0145762cd8dfde74a97cd68824a"
+    },
+    {
+      "path": "examples/uuf-100-5.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9804e4ba0589464b1b9e78927f8d4ce4ef62cf0b",
+      "size": 5279,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/9804e4ba0589464b1b9e78927f8d4ce4ef62cf0b"
+    },
+    {
+      "path": "examples/uuf-100-5.drat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95abc7c8132ee9353bdbd3e07667a0efcb77663a",
+      "size": 18171,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/95abc7c8132ee9353bdbd3e07667a0efcb77663a"
+    },
+    {
+      "path": "examples/uuf-100-5.lrat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d5e3b3a1a36e602665bd4a74c794c13a59395ab",
+      "size": 46733,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/8d5e3b3a1a36e602665bd4a74c794c13a59395ab"
+    },
+    {
+      "path": "examples/uuf-30-1.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c22b30b3d3f895b69b457cdde3a97daa5fcfd54c",
+      "size": 1480,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/c22b30b3d3f895b69b457cdde3a97daa5fcfd54c"
+    },
+    {
+      "path": "examples/uuf-30-1.drat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4ebda1f47046e14300f77e9f32665f9f1f6de64",
+      "size": 83,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/d4ebda1f47046e14300f77e9f32665f9f1f6de64"
+    },
+    {
+      "path": "examples/uuf-30-1.lrat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1865236a5d61a4265defaff818094dc9b707c736",
+      "size": 1352,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/1865236a5d61a4265defaff818094dc9b707c736"
+    },
+    {
+      "path": "examples/uuf-50-2.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f21e4acaff77f1ab1f50493a8b55e7379dc12ddd",
+      "size": 2521,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/f21e4acaff77f1ab1f50493a8b55e7379dc12ddd"
+    },
+    {
+      "path": "examples/uuf-50-2.drat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20c7f8284ee289a1903fd6cb9d08391df23a379a",
+      "size": 2825,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/20c7f8284ee289a1903fd6cb9d08391df23a379a"
+    },
+    {
+      "path": "examples/uuf-50-2.lrat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da320fd837026b5a6a0e0b7d87369a827deb3a2b",
+      "size": 5014,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/da320fd837026b5a6a0e0b7d87369a827deb3a2b"
+    },
+    {
+      "path": "examples/uuf-50-3.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f0e6815ba0377bf64edb2c2b467ebf344d17586",
+      "size": 2509,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/3f0e6815ba0377bf64edb2c2b467ebf344d17586"
+    },
+    {
+      "path": "examples/uuf-50-3.drat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c88d5ab62c25bf50717f69894927ad3c7463b986",
+      "size": 2384,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/c88d5ab62c25bf50717f69894927ad3c7463b986"
+    },
+    {
+      "path": "examples/uuf-50-3.lrat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "994ede3eb31963b0897bff4f6260a4fa7faa41ba",
+      "size": 4382,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/994ede3eb31963b0897bff4f6260a4fa7faa41ba"
+    },
+    {
+      "path": "gapless.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae9e5415373c4644c701102abc5be6fc6d4c585a",
+      "size": 4260,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/ae9e5415373c4644c701102abc5be6fc6d4c585a"
+    },
+    {
+      "path": "lrat-check.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fe998a14efa91daccc85404ceb5e871a86d99e4",
+      "size": 17682,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/8fe998a14efa91daccc85404ceb5e871a86d99e4"
+    },
+    {
+      "path": "run-examples",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0d76ef71e735960a4f6de2b881bc3ad98d6f2650",
+      "size": 666,
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/blobs/0d76ef71e735960a4f6de2b881bc3ad98d6f2650"
+    }
+  ],
+  "truncated": false,
+  "commit": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985"
+}

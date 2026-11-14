@@ -1,0 +1,95 @@
+{
+  "cnfs": [
+    {
+      "n": 11,
+      "original_path": "data/c0_k7.cnf",
+      "sha256": "0bad1838671768d0022fe557773ea86007007e876c5948647b4ef34ca1737011"
+    },
+    {
+      "n": 11,
+      "original_path": "data/c0_k8.cnf",
+      "sha256": "c4b50c38e39f2dd0be2c0d474cd4d7e7e7ba704cfb0dfa8a4d7ed20de6de9148"
+    },
+    {
+      "n": 11,
+      "original_path": "data/c1_k8.cnf",
+      "sha256": "a5cc277ee6b6f82ab962f531c6224063450c97ffd6e10d90935efa45c830621f"
+    },
+    {
+      "n": 12,
+      "original_path": "cnf/c0_iv7_2_10.cnf",
+      "sha256": "ddc1536aa8308bb794ed68b1e4de8d40ed091e0bc1c750ace7e312cfee85e96c"
+    },
+    {
+      "n": 12,
+      "original_path": "cnf/c0_iv_2_10.cnf",
+      "sha256": "26be860499cb2fcf73c31bd1e69df5654f003fff088fa6b1b76f10859e993043"
+    },
+    {
+      "n": 12,
+      "original_path": "cnf/c0_iv_2_5.cnf",
+      "sha256": "ac2ed4a639b2d117a2c3d7487b1f9025b70c29b4a2575ecf93e4c2b800d351a3"
+    },
+    {
+      "n": 12,
+      "original_path": "cnf/c0_iv_2_8.cnf",
+      "sha256": "0b4d8dc1f7979b0088ffc2e1cc14b950a36a059f7834cae0b91d9f709012fe72"
+    },
+    {
+      "n": 12,
+      "original_path": "cnf/c0_iv_2_9.cnf",
+      "sha256": "39e0d27a038f5499c725e8caa739d7a4738c81e857e7bd68b878e7de6d332c12"
+    },
+    {
+      "n": 12,
+      "original_path": "cnf/c0_iv_3_10.cnf",
+      "sha256": "be235c980ff95ec109c71aa6de20ac015c71079f759840b8bfcb7b01d40aaa6b"
+    },
+    {
+      "n": 12,
+      "original_path": "cnf/c0_iv_3_8.cnf",
+      "sha256": "0661158d73eabd0b7631d7a7374d2eae1e7f1389893660217e0ed84b92b9bd1b"
+    },
+    {
+      "n": 12,
+      "original_path": "cnf/c0_iv_3_9.cnf",
+      "sha256": "4c7968b887df8bf41c3a06d740ecaadff391914b430aed56d4797983f4a75a80"
+    },
+    {
+      "n": 12,
+      "original_path": "cnf/c0_iv_5_10.cnf",
+      "sha256": "6fddf9b68329610d25fe21317673d619de01d514f1894a97d5eddeca0e8cbfad"
+    },
+    {
+      "n": 12,
+      "original_path": "cnf/c0_iv_5_8.cnf",
+      "sha256": "c5557df0addff32887d0d2bca0bc0fa16974be41ccd2d0215ce44fec5e8ee1da"
+    },
+    {
+      "n": 12,
+      "original_path": "cnf/c0_iv_5_9.cnf",
+      "sha256": "795d842a7a8ca1cc104bf07d86d3938e206caea704512899439cece2816599b4"
+    },
+    {
+      "n": 12,
+      "original_path": "cnf/c0_k7.cnf",
+      "sha256": "16af2288339cb47abd994d4552be037323ef9d2dcbda51924667aaac53991be5"
+    },
+    {
+      "n": 12,
+      "original_path": "cnf/c0_k8.cnf",
+      "sha256": "fbb969f22d6476e5cc2a98c29cdd996527696282e00f34422074feb941475d47"
+    },
+    {
+      "n": 12,
+      "original_path": "cnf/c1_k7.cnf",
+      "sha256": "e049bfb572b1a6b2a29e0cf918260053d2632b9a12b70f1de61a4d12a9aa368f"
+    },
+    {
+      "n": 12,
+      "original_path": "cnf/c1_k8.cnf",
+      "sha256": "fb56c1086fccb21afc330fb9f402dc852d641fa0d020bb257ce2bd2b13179217"
+    }
+  ],
+  "note": "Historical hashes of original referee queries, including files removed by their authors; use REPRODUCE.md to regenerate."
+}

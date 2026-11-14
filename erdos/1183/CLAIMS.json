@@ -1,0 +1,94 @@
+{
+  "claims": [
+    {
+      "value": "7",
+      "kind": "rigorous",
+      "producer": "referee/n12/ref.py",
+      "source": "REPLAY_NOTES.md",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Both supplied finite equalities f(11)=7 and f(12)=7; upper checks plus published/chain lower arguments in PROOF.md, with two original HOLDS reports"
+    },
+    {
+      "value": "0",
+      "kind": "rigorous",
+      "producer": "referee/n12/ref.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "colour label, rank origin and mask bit origin"
+    },
+    {
+      "value": "1",
+      "kind": "rigorous",
+      "producer": "referee/n12/ref.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "colour label, index convention and set element origin"
+    },
+    {
+      "value": "2",
+      "kind": "rigorous",
+      "producer": "referee/n12/ref.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "number of colours"
+    },
+    {
+      "value": "8",
+      "kind": "rigorous",
+      "producer": "referee/n12/ref.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "counterexample cardinality threshold"
+    },
+    {
+      "value": "11",
+      "kind": "rigorous",
+      "producer": "referee/n12/ref.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "first ground-set size"
+    },
+    {
+      "value": "12",
+      "kind": "rigorous",
+      "producer": "referee/n12/ref.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "second ground-set size"
+    },
+    {
+      "value": "13",
+      "kind": "rigorous",
+      "producer": "referee/n12/ref.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "maximal-chain length at n=12"
+    },
+    {
+      "value": "66",
+      "kind": "rigorous",
+      "producer": "referee/n12/ref.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "number of coordinate transpositions at n=12"
+    },
+    {
+      "value": "100010011101",
+      "kind": "rigorous",
+      "producer": "referee/n12/ref.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "n=11 rank word as a bit string"
+    },
+    {
+      "value": "1100101100011",
+      "kind": "rigorous",
+      "producer": "referee/n12/ref.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "n=12 rank word as a bit string"
+    }
+  ],
+  "scope": "The principal numerical value is seven for both exact finite equalities. Other entries label construction parameters, not additional new results."
+}

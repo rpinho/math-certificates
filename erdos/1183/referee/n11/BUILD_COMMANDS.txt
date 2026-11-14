@@ -1,0 +1,7 @@
+# Official repositories; all builds local, sequential, at most four compilers.
+nice -n 10 git clone https://github.com/arminbiere/cadical.git tools/cadical
+nice -n 10 git -C tools/cadical checkout c60730422e758ef1cebe7aeddf2dda31c996bf04
+(cd tools/cadical && nice -n 10 ./configure && nice -n 10 make -j4)
+nice -n 10 git clone https://github.com/marijnheule/drat-trim.git tools/drat-trim
+nice -n 10 git -C tools/drat-trim checkout 2e3b2dc0ecf938addbd779d42877b6ed69d9a985
+(cd tools/drat-trim && nice -n 10 make -j1)

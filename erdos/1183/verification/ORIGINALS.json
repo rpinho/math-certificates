@@ -1,0 +1,56 @@
+{
+  "byte_identical": [
+    {
+      "file": "referee/n11/published_lower.py",
+      "sha256": "fdf600ff2e30243af459abb965dbaadd8fef8de3da1f41d0dd6beb7a639fad62"
+    },
+    {
+      "file": "referee/n11/encode.py",
+      "sha256": "6d5ceaadf9929d7405bedf154102386b73d40a6de1f4b1d3a540dd4bfbc5dcfe"
+    },
+    {
+      "file": "referee/n11/PRIOR_ART.md",
+      "sha256": "06aae591a5dd69fc3bfb1cb2335768e4e903361955b5aeac1de29ea81b5703d2"
+    },
+    {
+      "file": "referee/n11/REFEREE.md",
+      "sha256": "fdee040e16bf5e5a107b86c863d1c7594575e2084a9eed3f1652fad0b292c8f4"
+    },
+    {
+      "file": "referee/n11/REPRODUCE.sh",
+      "sha256": "395c723bc5a44613f9933b18ac7c114cfcf6037b3e0c6b8fee6b9bcc36e96629"
+    },
+    {
+      "file": "referee/n11/rank_lattices.py",
+      "sha256": "a41d8bffe640eeb302e8a89a710440d5a162ced78cee3b9d0360525ce6ee611f"
+    },
+    {
+      "file": "referee/n11/check_data.py",
+      "sha256": "5cbc6f7b247bd72663c9ba3467481dc4582559faedc98c53f351cd7ff5a57dec"
+    },
+    {
+      "file": "referee/n12/dfs_control.py",
+      "sha256": "500c09991a2eb659cd09419e057130af0da843561131f78d3654bb471af91d47"
+    },
+    {
+      "file": "referee/n12/solve.sh",
+      "sha256": "6a6c74df3d73ac94813007c79fe491dbf1d3fb946b4c2f576e586cf22a07d52a"
+    },
+    {
+      "file": "referee/n12/REFEREE.md",
+      "sha256": "1b5f29aec6d018b5290af47de0a00ead631fec835b521b5495eca25644621a5d"
+    },
+    {
+      "file": "referee/n12/ref.py",
+      "sha256": "65bd234f7e9b479991cbb091959ce3f10d74176e0d49b797c0dd6d00b97a6784"
+    },
+    {
+      "file": "referee/n12/dfs_scan.py",
+      "sha256": "cc25f00dc14b1229805403c1c932a8fb95edd6da437b0e1f7acfe71584b0156e"
+    }
+  ],
+  "missing_supplied_originals": [
+    "n12/PRIOR_ART.md",
+    "n12/VERDICT_for_ledger.txt"
+  ]
+}

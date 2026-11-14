@@ -1,0 +1,30 @@
+VALID SEVEN-MEMBER LATTICE: masks 1,3,5,7,31,63,1023, all colour 0
+VALID COMPLETE COLOURING: all 2048 subsets; matches both no-eight-set lattice CNFs
+VALID COMPLETE COLOURING: all 4096 subsets, matching both no-at-least-eight CNF memberships
+VALID SEVEN-MEMBER WITNESS: [0, 1, 15, 63, 127, 2047, 4095]
+VALID LOWER BOUND 7: every colouring of a 13-set maximal chain has a closed majority family of at least seven
+colouring depends only on |S|; rank word r=0..12: 1100101100011
+colour 0: ranks [2, 3, 5, 8, 9, 10], 1859 sets
+colour 1: ranks [0, 1, 4, 6, 7, 11, 12], 2237 sets
+7-member colour-1 sublattice (masks): [0, 1, 15, 63, 127, 2047, 4095]
+  as sets: [[], [1], [1, 2, 3, 4], [1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 5, 6, 7], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]]
+min over all 8192 colourings of a 13-member chain of the larger class: 7
+colour 0: largest monochromatic sublattice size 7; example offset 2, member sizes [2, 5, 5, 8, 9, 9, 10]
+colour 1: largest monochromatic sublattice size 7; example offset 0, member sizes [0, 1, 6, 6, 7, 11, 12]
+COLOURING VALID [1166, 882]
+EXPLICIT SEVEN [1, 3, 5, 7, 31, 63, 1023] [[1], [1, 2], [1, 3], [1, 2, 3], [1, 2, 3, 4, 5], [1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]]
+LOWER DATA VALID 1254 closed families; all 4096 rank words covered
+LOWER FAMILY SIZE RANGE 7 11
+OMEGA BASE CASE VERIFIED: 924 balanced words; 874 diamond; 50 ten-family cover
+BMB EIGHT-GADGET BASE CASE VERIFIED: 8 gadgets; 4096 rank words; red-blue total >= 13
+poset_size 0 natural_posets 1 cumulative_assignments 12 maxima [1, 1]
+poset_size 1 natural_posets 1 cumulative_assignments 78 maxima [2, 2]
+poset_size 2 natural_posets 2 cumulative_assignments 518 maxima [4, 4]
+poset_size 3 natural_posets 7 cumulative_assignments 3983 maxima [6, 6]
+poset_size 4 natural_posets 40 cumulative_assignments 35663 maxima [7, 6]
+poset_size 5 natural_posets 357 cumulative_assignments 365531 maxima [7, 7]
+INDEPENDENT WEIGHTED-POSET UPPER BOUND VERIFIED [7, 7]
+sublattices of 2^[4]: 731
+words x colours compared: 64, mismatches: 0
+Generic referee DFS n=11: {0: 7, 1: 7}
+Generic referee DFS n=12: {0: 7, 1: 7}

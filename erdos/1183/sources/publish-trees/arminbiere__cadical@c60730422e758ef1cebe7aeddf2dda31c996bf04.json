@@ -1,0 +1,3829 @@
+{
+  "sha": "c60730422e758ef1cebe7aeddf2dda31c996bf04",
+  "url": "https://api.github.com/repos/arminbiere/cadical/git/trees/c60730422e758ef1cebe7aeddf2dda31c996bf04",
+  "tree": [
+    {
+      "path": ".clang-format",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "300836e63424e861ad483b6e4bb788474db7a787",
+      "size": 101,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/300836e63424e861ad483b6e4bb788474db7a787"
+    },
+    {
+      "path": ".dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94143827ed065ca0d7d5be1b765d255c5c32cd9a",
+      "size": 11,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/94143827ed065ca0d7d5be1b765d255c5c32cd9a"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2af26a9fc7e785f8626c8f6ce86fcd9940570315",
+      "size": 26,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/2af26a9fc7e785f8626c8f6ce86fcd9940570315"
+    },
+    {
+      "path": "BUILD.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c7af7ec90c104cc6a26f85362477fbfc2e6fe18",
+      "size": 4430,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/5c7af7ec90c104cc6a26f85362477fbfc2e6fe18"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc31b78bc98a72842020acbc3a060a69399d0b3e",
+      "size": 1904,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/fc31b78bc98a72842020acbc3a060a69399d0b3e"
+    },
+    {
+      "path": "Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d270e3fb4000de00029c93519c6a6df3366dd18",
+      "size": 944,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/2d270e3fb4000de00029c93519c6a6df3366dd18"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "014079db683e9cd032a03c320df86a42ffed9ed4",
+      "size": 1643,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/014079db683e9cd032a03c320df86a42ffed9ed4"
+    },
+    {
+      "path": "NEWS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e06eed82baa61d5bb794d3e5a791cce465e98e2",
+      "size": 19919,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/6e06eed82baa61d5bb794d3e5a791cce465e98e2"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ebe4db86d628bac87e290389a6a18aea102a5a6",
+      "size": 2938,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/6ebe4db86d628bac87e290389a6a18aea102a5a6"
+    },
+    {
+      "path": "VERSION",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb2b00e4f7a7b959305c611112b7aac6ac4e9de7",
+      "size": 6,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/cb2b00e4f7a7b959305c611112b7aac6ac4e9de7"
+    },
+    {
+      "path": "configure",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "122e1b95391783226ac08a945b8524d09a722ef7",
+      "size": 18525,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/122e1b95391783226ac08a945b8524d09a722ef7"
+    },
+    {
+      "path": "contrib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fea7ee3eb8dcd2c89990ec4eec1b6d2d48ca39b5",
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/trees/fea7ee3eb8dcd2c89990ec4eec1b6d2d48ca39b5"
+    },
+    {
+      "path": "contrib/craigtracer.LICENSE.APACHE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "171a7efd9e4bfa23e5797ad7a9aa29415db540a2",
+      "size": 617,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/171a7efd9e4bfa23e5797ad7a9aa29415db540a2"
+    },
+    {
+      "path": "contrib/craigtracer.LICENSE.MIT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1132ccda6a5a56878eb37d62fac0a4c5b3db97d4",
+      "size": 1127,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/1132ccda6a5a56878eb37d62fac0a4c5b3db97d4"
+    },
+    {
+      "path": "contrib/craigtracer.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cb5dd9fbdfcb16dbff0c7843a11e76e4e31e05e",
+      "size": 35256,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/6cb5dd9fbdfcb16dbff0c7843a11e76e4e31e05e"
+    },
+    {
+      "path": "contrib/craigtracer.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "326e92aee0fcfbc0fd223ecfcf758e0bd27f75e9",
+      "size": 6238,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/326e92aee0fcfbc0fd223ecfcf758e0bd27f75e9"
+    },
+    {
+      "path": "contrib/craigtracer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa09f41dfaaca25d816c6eb22810f0a7b2e7754f",
+      "size": 7807,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/aa09f41dfaaca25d816c6eb22810f0a7b2e7754f"
+    },
+    {
+      "path": "makefile.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa6618c3eb2344e0d5fff40cf1a4789467120c0b",
+      "size": 3802,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/fa6618c3eb2344e0d5fff40cf1a4789467120c0b"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "08cce6ffbcc15693fbf76388ba71df99cde6043d",
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/trees/08cce6ffbcc15693fbf76388ba71df99cde6043d"
+    },
+    {
+      "path": "scripts/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc7bb5aab7b557d9b2d0588efc0d6efd5114e5ed",
+      "size": 1595,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/bc7bb5aab7b557d9b2d0588efc0d6efd5114e5ed"
+    },
+    {
+      "path": "scripts/build-and-test-all-configurations.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8af71a6df91fc076c01f88ca98245d16be205e03",
+      "size": 6596,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/8af71a6df91fc076c01f88ca98245d16be205e03"
+    },
+    {
+      "path": "scripts/check-options-occur.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e83ef4e2b54e66dd6d1aec11ba649acde3d8a8ac",
+      "size": 233,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/e83ef4e2b54e66dd6d1aec11ba649acde3d8a8ac"
+    },
+    {
+      "path": "scripts/colors.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d65b919e088179e744939cadf2e3a8d9c8010cc7",
+      "size": 487,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/d65b919e088179e744939cadf2e3a8d9c8010cc7"
+    },
+    {
+      "path": "scripts/extend-solution.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "44d8e8e89788f6d909b1be11f9b099b93ceabba9",
+      "size": 1294,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/44d8e8e89788f6d909b1be11f9b099b93ceabba9"
+    },
+    {
+      "path": "scripts/generate-cubes.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7b936ac632d9922703280738963f7f5a6c0db32a",
+      "size": 684,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/7b936ac632d9922703280738963f7f5a6c0db32a"
+    },
+    {
+      "path": "scripts/generate-embedded-options-default-list.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "15b44d1c7291a9d6b1a87b6954cad37d67b995d6",
+      "size": 288,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/15b44d1c7291a9d6b1a87b6954cad37d67b995d6"
+    },
+    {
+      "path": "scripts/generate-options-range-list.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d5c864d8099af6976b907364f04bec1f21ffbf6e",
+      "size": 515,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/d5c864d8099af6976b907364f04bec1f21ffbf6e"
+    },
+    {
+      "path": "scripts/get-git-id.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "69b1d1fa2a94f0e1fb10e659c054985a9791f31d",
+      "size": 124,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/69b1d1fa2a94f0e1fb10e659c054985a9791f31d"
+    },
+    {
+      "path": "scripts/make-build-header.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9e3d49ce5f6464aca6d34057c882c33f595bc28e",
+      "size": 2969,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/9e3d49ce5f6464aca6d34057c882c33f595bc28e"
+    },
+    {
+      "path": "scripts/make-src-release.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ca2ee393199c45a819f6bfcc1bfe952bde8671d1",
+      "size": 1182,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/ca2ee393199c45a819f6bfcc1bfe952bde8671d1"
+    },
+    {
+      "path": "scripts/normalize-white-space.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "eb513c39b6a518acbf98ec620ea179f1e042b503",
+      "size": 138,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/eb513c39b6a518acbf98ec620ea179f1e042b503"
+    },
+    {
+      "path": "scripts/prepare-sc2021-submission.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b8f16aa2492bba0fa5a0c6e14c4ae0536f4c9846",
+      "size": 1187,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/b8f16aa2492bba0fa5a0c6e14c4ae0536f4c9846"
+    },
+    {
+      "path": "scripts/run-cadical-and-check-proof.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2465c34eed332c4be0a17b02a751783fdf3abbc4",
+      "size": 1333,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/2465c34eed332c4be0a17b02a751783fdf3abbc4"
+    },
+    {
+      "path": "scripts/run-mobical-in-parallel.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5be71382ab51dbbf4d533fb3f84df29782afd076",
+      "size": 897,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/5be71382ab51dbbf4d533fb3f84df29782afd076"
+    },
+    {
+      "path": "scripts/run-simplifier-and-extend-solution.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "945f22f7e43033debaaf75e1d27aa497a48afb1c",
+      "size": 1826,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/945f22f7e43033debaaf75e1d27aa497a48afb1c"
+    },
+    {
+      "path": "scripts/update-example-in-cadical-header-file.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b447b522c4c06f9022e2eca94d7b4fcd124c3597",
+      "size": 543,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/b447b522c4c06f9022e2eca94d7b4fcd124c3597"
+    },
+    {
+      "path": "scripts/update-version.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "efa9b39ed4fa1394c70b508e165fb736717b8443",
+      "size": 1227,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/efa9b39ed4fa1394c70b508e165fb736717b8443"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1c598c22f4c651d30c05f2182ccee7f0e2adc8e2",
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/trees/1c598c22f4c651d30c05f2182ccee7f0e2adc8e2"
+    },
+    {
+      "path": "src/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f17395f77c743727e0f5c6357762331ea4ff7233",
+      "size": 541,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f17395f77c743727e0f5c6357762331ea4ff7233"
+    },
+    {
+      "path": "src/analyze.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f325bf9bf9b3d43a1872bc7f983359f6c4c8a888",
+      "size": 45725,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f325bf9bf9b3d43a1872bc7f983359f6c4c8a888"
+    },
+    {
+      "path": "src/arena.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b00a44f00decd8d96eb15632013e9915470f3335",
+      "size": 610,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/b00a44f00decd8d96eb15632013e9915470f3335"
+    },
+    {
+      "path": "src/arena.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dbd5112120aba68062f7bd0e534062246a6387e",
+      "size": 3691,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/6dbd5112120aba68062f7bd0e534062246a6387e"
+    },
+    {
+      "path": "src/assume.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "943878cb6bc01bc25caecb936fa3c113f0b0c153",
+      "size": 18277,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/943878cb6bc01bc25caecb936fa3c113f0b0c153"
+    },
+    {
+      "path": "src/averages.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "971598bd8a251f0551bf3355203763eca4266c88",
+      "size": 869,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/971598bd8a251f0551bf3355203763eca4266c88"
+    },
+    {
+      "path": "src/averages.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f259509daa9b2c65e051c6d1b3a773530cdab3e",
+      "size": 799,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/9f259509daa9b2c65e051c6d1b3a773530cdab3e"
+    },
+    {
+      "path": "src/backbone.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73f0d1c06652a0259f00d06a060e85820506ca60",
+      "size": 18023,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/73f0d1c06652a0259f00d06a060e85820506ca60"
+    },
+    {
+      "path": "src/backtrack.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3deb100e45c6b890a5d5858b020a780a5d57e5dc",
+      "size": 5292,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/3deb100e45c6b890a5d5858b020a780a5d57e5dc"
+    },
+    {
+      "path": "src/backward.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7228c52119f1fbc577357322824441c618938a3",
+      "size": 6785,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/e7228c52119f1fbc577357322824441c618938a3"
+    },
+    {
+      "path": "src/bins.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "406074eff5efae4daf417bc35529a757b22fde63",
+      "size": 481,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/406074eff5efae4daf417bc35529a757b22fde63"
+    },
+    {
+      "path": "src/bins.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec0f0f1dc07b22dfc1290e86eadb3c74440f83ab",
+      "size": 368,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/ec0f0f1dc07b22dfc1290e86eadb3c74440f83ab"
+    },
+    {
+      "path": "src/block.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11721d8bdbab441e7cf2a90d979d82ec0f291c32",
+      "size": 22917,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/11721d8bdbab441e7cf2a90d979d82ec0f291c32"
+    },
+    {
+      "path": "src/block.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c56707563b3a7240f2946f854887362eb3319811",
+      "size": 715,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/c56707563b3a7240f2946f854887362eb3319811"
+    },
+    {
+      "path": "src/cadical.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "413fe9cf77e1c33ca2a76d1d5c4989f60fa4625b",
+      "size": 34428,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/413fe9cf77e1c33ca2a76d1d5c4989f60fa4625b"
+    },
+    {
+      "path": "src/cadical.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b7f1f380d478005edfabd28a5ff344874a12295",
+      "size": 56809,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/6b7f1f380d478005edfabd28a5ff344874a12295"
+    },
+    {
+      "path": "src/ccadical.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "377e505b0e67c4219cf82696db31a4c84c09f1b9",
+      "size": 5436,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/377e505b0e67c4219cf82696db31a4c84c09f1b9"
+    },
+    {
+      "path": "src/ccadical.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "256bd1cb54cadb11d1ee079cc48b8c9403da4def",
+      "size": 2565,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/256bd1cb54cadb11d1ee079cc48b8c9403da4def"
+    },
+    {
+      "path": "src/checker.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78bb4aaa230035dd27fc14ae240709b2577ce613",
+      "size": 17742,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/78bb4aaa230035dd27fc14ae240709b2577ce613"
+    },
+    {
+      "path": "src/checker.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c10f3ad84a5ab470feb406742b9f1009a94c7597",
+      "size": 5941,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/c10f3ad84a5ab470feb406742b9f1009a94c7597"
+    },
+    {
+      "path": "src/clause.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4576622cef6e2e48dd3743ce4755bc9cce1b2932",
+      "size": 20002,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/4576622cef6e2e48dd3743ce4755bc9cce1b2932"
+    },
+    {
+      "path": "src/clause.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "375d4b549b1e941dc099270cbce36cedc9face6d",
+      "size": 8727,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/375d4b549b1e941dc099270cbce36cedc9face6d"
+    },
+    {
+      "path": "src/collect.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e583c9c2049023532dff83383989e2fd60c3b87",
+      "size": 16290,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/2e583c9c2049023532dff83383989e2fd60c3b87"
+    },
+    {
+      "path": "src/compact.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4346f03ae6dce351d051c41a3189a0ba04db375e",
+      "size": 16553,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/4346f03ae6dce351d051c41a3189a0ba04db375e"
+    },
+    {
+      "path": "src/condition.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c33667363b2185e30fbf40cf541077656ddb40d",
+      "size": 33617,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/1c33667363b2185e30fbf40cf541077656ddb40d"
+    },
+    {
+      "path": "src/config.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f63d1e4b73e19d1d29ce2ca73636fa317f03991a",
+      "size": 2564,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f63d1e4b73e19d1d29ce2ca73636fa317f03991a"
+    },
+    {
+      "path": "src/config.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5510ce0ebd618edff33f6e7c000579a9b6a09648",
+      "size": 314,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/5510ce0ebd618edff33f6e7c000579a9b6a09648"
+    },
+    {
+      "path": "src/configure",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "c9d4efb4fd0baf110930458c282ea190974877a3",
+      "size": 12,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/c9d4efb4fd0baf110930458c282ea190974877a3"
+    },
+    {
+      "path": "src/congruence.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a8a3a57c3379d30516ea1d2125e4bd6b08f193f",
+      "size": 260238,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/2a8a3a57c3379d30516ea1d2125e4bd6b08f193f"
+    },
+    {
+      "path": "src/congruence.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7797e2e58694c5beb045ef3e60d1bdf72d5205d",
+      "size": 30735,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/b7797e2e58694c5beb045ef3e60d1bdf72d5205d"
+    },
+    {
+      "path": "src/constrain.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7f7b7ef9433ebc10b80781b64e562304ffedc84",
+      "size": 1799,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/e7f7b7ef9433ebc10b80781b64e562304ffedc84"
+    },
+    {
+      "path": "src/contract.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8547d030690ca24268abe5396bbfd3be5564c738",
+      "size": 641,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/8547d030690ca24268abe5396bbfd3be5564c738"
+    },
+    {
+      "path": "src/contract.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdba3b6c27730cbc9453dcf800ed0ceefcf249f1",
+      "size": 5204,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/fdba3b6c27730cbc9453dcf800ed0ceefcf249f1"
+    },
+    {
+      "path": "src/cover.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd878163001f15a4c3bbc1e6af2443323e8974c7",
+      "size": 21442,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/bd878163001f15a4c3bbc1e6af2443323e8974c7"
+    },
+    {
+      "path": "src/cover.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67e1bea77a61dddabcb9c00e0ee8ca7fe104a0bd",
+      "size": 1222,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/67e1bea77a61dddabcb9c00e0ee8ca7fe104a0bd"
+    },
+    {
+      "path": "src/decide.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc8f8e09fd1c995c5bcd03144c3de45331c3dcb6",
+      "size": 10146,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/fc8f8e09fd1c995c5bcd03144c3de45331c3dcb6"
+    },
+    {
+      "path": "src/decompose.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85f84b5a1067f613b17f6a1f20dcd6e59dfa42e2",
+      "size": 22787,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/85f84b5a1067f613b17f6a1f20dcd6e59dfa42e2"
+    },
+    {
+      "path": "src/decompose.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d62b6ba4a0939f393e3fdb9148fde0aa90a602ba",
+      "size": 730,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/d62b6ba4a0939f393e3fdb9148fde0aa90a602ba"
+    },
+    {
+      "path": "src/deduplicate.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78238180714d61bde932947b8db48c5b37e1dd4b",
+      "size": 8318,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/78238180714d61bde932947b8db48c5b37e1dd4b"
+    },
+    {
+      "path": "src/definition.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b704b2b97ace4182b978ba5187c7f17a6167134",
+      "size": 9112,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/1b704b2b97ace4182b978ba5187c7f17a6167134"
+    },
+    {
+      "path": "src/delay.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1e10ec8285aecaad4108818ba1fb5e4728ebdec",
+      "size": 570,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/e1e10ec8285aecaad4108818ba1fb5e4728ebdec"
+    },
+    {
+      "path": "src/drattracer.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a5a28e735466f52f8b7fd7fd9a5fa6b10ced064",
+      "size": 3481,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/4a5a28e735466f52f8b7fd7fd9a5fa6b10ced064"
+    },
+    {
+      "path": "src/drattracer.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fb6750b6fa9945e7f09af03a1b15d576bf674a8",
+      "size": 1321,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/6fb6750b6fa9945e7f09af03a1b15d576bf674a8"
+    },
+    {
+      "path": "src/elim.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c401152c7a733803d0b407d98e8a295ab44f7e99",
+      "size": 35099,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/c401152c7a733803d0b407d98e8a295ab44f7e99"
+    },
+    {
+      "path": "src/elim.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f5fb63ac6d5791c8a42540c2058808f520d24e9",
+      "size": 1002,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/3f5fb63ac6d5791c8a42540c2058808f520d24e9"
+    },
+    {
+      "path": "src/elimfast.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d6c00897acb6fe73c8cb4028e2c9bb309683535",
+      "size": 17132,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/0d6c00897acb6fe73c8cb4028e2c9bb309683535"
+    },
+    {
+      "path": "src/ema.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef658148212a866e28b74d07089b0816dceb1ea4",
+      "size": 3381,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/ef658148212a866e28b74d07089b0816dceb1ea4"
+    },
+    {
+      "path": "src/ema.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39eba390aec912f925508d1e18b3ae61e465f4f6",
+      "size": 1599,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/39eba390aec912f925508d1e18b3ae61e465f4f6"
+    },
+    {
+      "path": "src/extend.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02e1fcb38e5818dd8d87839397dc237f11e6d60f",
+      "size": 8593,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/02e1fcb38e5818dd8d87839397dc237f11e6d60f"
+    },
+    {
+      "path": "src/external.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ae7c67edb5b4f2fb55980ba972f0c3d0695f64b",
+      "size": 30893,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/8ae7c67edb5b4f2fb55980ba972f0c3d0695f64b"
+    },
+    {
+      "path": "src/external.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f897af73b5be7c757ecfb84cd4a68bfc4b04570",
+      "size": 16891,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/9f897af73b5be7c757ecfb84cd4a68bfc4b04570"
+    },
+    {
+      "path": "src/external_propagate.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ebf20c2ff6fbf967b1c0a4994a1e96c0ce0fff3",
+      "size": 52898,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/7ebf20c2ff6fbf967b1c0a4994a1e96c0ce0fff3"
+    },
+    {
+      "path": "src/factor.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2dac4786b426aea688ca9af04cddc7627bd3b09d",
+      "size": 29804,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/2dac4786b426aea688ca9af04cddc7627bd3b09d"
+    },
+    {
+      "path": "src/factor.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac01d35c551423430f59d126f7ffb237f50c7db5",
+      "size": 985,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/ac01d35c551423430f59d126f7ffb237f50c7db5"
+    },
+    {
+      "path": "src/file.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f8a82dea753ed03aa3d0fbac307de47fc8457fb",
+      "size": 13599,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/7f8a82dea753ed03aa3d0fbac307de47fc8457fb"
+    },
+    {
+      "path": "src/file.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "488210d783b0ab5f6ee6e0a13295283b0b75c5f0",
+      "size": 5346,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/488210d783b0ab5f6ee6e0a13295283b0b75c5f0"
+    },
+    {
+      "path": "src/flags.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71dfc389452e11e52273fc7d9ec1a5f6d674731d",
+      "size": 3236,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/71dfc389452e11e52273fc7d9ec1a5f6d674731d"
+    },
+    {
+      "path": "src/flags.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fef90f940febcc13eee9666d394a2b562dad9bde",
+      "size": 3015,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/fef90f940febcc13eee9666d394a2b562dad9bde"
+    },
+    {
+      "path": "src/flip.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c5f076ae30901b52246afb78096f58f8c62ccb6",
+      "size": 6399,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/0c5f076ae30901b52246afb78096f58f8c62ccb6"
+    },
+    {
+      "path": "src/format.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87421a0fbcc97294642a32dc837f3558bb810ed4",
+      "size": 1830,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/87421a0fbcc97294642a32dc837f3558bb810ed4"
+    },
+    {
+      "path": "src/format.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d98001f2d75d9e206e7019c3ca6875cbc716df54",
+      "size": 887,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/d98001f2d75d9e206e7019c3ca6875cbc716df54"
+    },
+    {
+      "path": "src/frattracer.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2805e242eb9d19827c1ac9fa1c5f4d38e14cfb14",
+      "size": 6840,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/2805e242eb9d19827c1ac9fa1c5f4d38e14cfb14"
+    },
+    {
+      "path": "src/frattracer.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "180f7bec59858c2f028fc86e06a0d09110f8980c",
+      "size": 1768,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/180f7bec59858c2f028fc86e06a0d09110f8980c"
+    },
+    {
+      "path": "src/gates.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78c6d0a098a1f3f387a16b0de0e007773928391b",
+      "size": 19156,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/78c6d0a098a1f3f387a16b0de0e007773928391b"
+    },
+    {
+      "path": "src/heap.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3f0ab0e47e95083a712fe038b2e9fca9f0aab97",
+      "size": 5625,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f3f0ab0e47e95083a712fe038b2e9fca9f0aab97"
+    },
+    {
+      "path": "src/idruptracer.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcc021273decde28ff27babe878d4c60c89b59f8",
+      "size": 13940,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/dcc021273decde28ff27babe878d4c60c89b59f8"
+    },
+    {
+      "path": "src/idruptracer.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d58304dbb66e31f6fbe479c373bfd0ce88c499f4",
+      "size": 3694,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/d58304dbb66e31f6fbe479c373bfd0ce88c499f4"
+    },
+    {
+      "path": "src/instantiate.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "494686b81b1da02986653426b5a8034039b09d5a",
+      "size": 10492,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/494686b81b1da02986653426b5a8034039b09d5a"
+    },
+    {
+      "path": "src/instantiate.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fef7532e7aa98df29ed48bbfeb8402dc25c5b114",
+      "size": 1303,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/fef7532e7aa98df29ed48bbfeb8402dc25c5b114"
+    },
+    {
+      "path": "src/internal.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "485c33addfc522d146b64fd1b01c1ce1708f80ff",
+      "size": 36399,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/485c33addfc522d146b64fd1b01c1ce1708f80ff"
+    },
+    {
+      "path": "src/internal.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a396a2d425bc850cec57a4425139e0acb207146",
+      "size": 68364,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/1a396a2d425bc850cec57a4425139e0acb207146"
+    },
+    {
+      "path": "src/inttypes.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3fbf8578cda504ffae08921b60df5dd6eb71002",
+      "size": 1113,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/d3fbf8578cda504ffae08921b60df5dd6eb71002"
+    },
+    {
+      "path": "src/ipasir.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dce8309c484ca32a63f145a4ff0295db2321ff75",
+      "size": 1187,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/dce8309c484ca32a63f145a4ff0295db2321ff75"
+    },
+    {
+      "path": "src/ipasir.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0da79fe149cc2bc74f483f3116deb107add1d3de",
+      "size": 1366,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/0da79fe149cc2bc74f483f3116deb107add1d3de"
+    },
+    {
+      "path": "src/kitten.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6a2f38352548ceeea9cad4f50bd2b926db0bb08",
+      "size": 74342,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/a6a2f38352548ceeea9cad4f50bd2b926db0bb08"
+    },
+    {
+      "path": "src/kitten.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3132cda4d6cab09149240255ad9da1f98220426e",
+      "size": 3527,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/3132cda4d6cab09149240255ad9da1f98220426e"
+    },
+    {
+      "path": "src/level.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf20a77b1a00ab24b93b1cd28313cd25aa9a9938",
+      "size": 740,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/cf20a77b1a00ab24b93b1cd28313cd25aa9a9938"
+    },
+    {
+      "path": "src/lidruptracer.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97055ec3fac942522d3a2341f97e88ef179396bd",
+      "size": 16419,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/97055ec3fac942522d3a2341f97e88ef179396bd"
+    },
+    {
+      "path": "src/lidruptracer.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5778fdfb7242375d9e1e4c0eb979bb0ae8ddca3",
+      "size": 4143,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/b5778fdfb7242375d9e1e4c0eb979bb0ae8ddca3"
+    },
+    {
+      "path": "src/limit.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a94d33c15bce2394c90a2c5b0e38c62668b8ac7",
+      "size": 3729,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/4a94d33c15bce2394c90a2c5b0e38c62668b8ac7"
+    },
+    {
+      "path": "src/limit.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57203ec1c98037412a8ea1e48c7d2850a5758d04",
+      "size": 4725,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/57203ec1c98037412a8ea1e48c7d2850a5758d04"
+    },
+    {
+      "path": "src/logging.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "278d65d03714f2dd389862406dfdf94a7fa68db5",
+      "size": 5475,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/278d65d03714f2dd389862406dfdf94a7fa68db5"
+    },
+    {
+      "path": "src/logging.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46b0e07bfe30446186968277767d1bc1da269502",
+      "size": 3157,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/46b0e07bfe30446186968277767d1bc1da269502"
+    },
+    {
+      "path": "src/lookahead.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d60a9a01ecf091e4d30bfeba545c2406ecb9c88",
+      "size": 13730,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/3d60a9a01ecf091e4d30bfeba545c2406ecb9c88"
+    },
+    {
+      "path": "src/lratchecker.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddcf585f31db8c55bd82c4d759817a58625cf9af",
+      "size": 24596,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/ddcf585f31db8c55bd82c4d759817a58625cf9af"
+    },
+    {
+      "path": "src/lratchecker.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b96aeae904b45db8d0ca9a5a9d4b9e4a0357b133",
+      "size": 5661,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/b96aeae904b45db8d0ca9a5a9d4b9e4a0357b133"
+    },
+    {
+      "path": "src/lrattracer.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "662280201b88ae461505a5d3254298f92a9a312e",
+      "size": 4569,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/662280201b88ae461505a5d3254298f92a9a312e"
+    },
+    {
+      "path": "src/lrattracer.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "678066d7de8907fc47e6314fdba44fc789d692b6",
+      "size": 1450,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/678066d7de8907fc47e6314fdba44fc789d692b6"
+    },
+    {
+      "path": "src/lucky.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "756a234fb3a1aaf03c6132b4bcd629a744f9d84c",
+      "size": 14072,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/756a234fb3a1aaf03c6132b4bcd629a744f9d84c"
+    },
+    {
+      "path": "src/message.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ca481c8a51033ab6043cd4c72be4f7b1e504be7",
+      "size": 4660,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/6ca481c8a51033ab6043cd4c72be4f7b1e504be7"
+    },
+    {
+      "path": "src/message.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca2c00587a48e3ddba6a8e47dcb419d029b3c92a",
+      "size": 1125,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/ca2c00587a48e3ddba6a8e47dcb419d029b3c92a"
+    },
+    {
+      "path": "src/minimize.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff9b89df42e47068cb72523a332a28408e95d007",
+      "size": 7037,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/ff9b89df42e47068cb72523a332a28408e95d007"
+    },
+    {
+      "path": "src/mobical.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fc678e207654bfafd1def96f8276fb2ec847389",
+      "size": 171566,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/9fc678e207654bfafd1def96f8276fb2ec847389"
+    },
+    {
+      "path": "src/occs.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1d9874162fcbf0ac5ac96a7a0be145b5be840ee",
+      "size": 1177,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/c1d9874162fcbf0ac5ac96a7a0be145b5be840ee"
+    },
+    {
+      "path": "src/occs.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6988725d618f461fd3f43e29dced0b980ef091f8",
+      "size": 807,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/6988725d618f461fd3f43e29dced0b980ef091f8"
+    },
+    {
+      "path": "src/options.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26dcc3d5423cf042a50ca6f814f009d6410f1110",
+      "size": 10492,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/26dcc3d5423cf042a50ca6f814f009d6410f1110"
+    },
+    {
+      "path": "src/options.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9aae072800fd54f5be0e2662b79534242ac916a9",
+      "size": 25827,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/9aae072800fd54f5be0e2662b79534242ac916a9"
+    },
+    {
+      "path": "src/parse.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc96f03b4073a2d9cf2905de9567f6173a65d2ec",
+      "size": 13063,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/bc96f03b4073a2d9cf2905de9567f6173a65d2ec"
+    },
+    {
+      "path": "src/parse.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7798be35d89b36f533e0b391f1d6eb8a467d123c",
+      "size": 2649,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/7798be35d89b36f533e0b391f1d6eb8a467d123c"
+    },
+    {
+      "path": "src/phases.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53bd11dab7e30ac23f8d19b5786ebd81aa337d20",
+      "size": 1346,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/53bd11dab7e30ac23f8d19b5786ebd81aa337d20"
+    },
+    {
+      "path": "src/phases.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d88f8463d8f65b6eda11e585fac7e4b3061d23d8",
+      "size": 478,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/d88f8463d8f65b6eda11e585fac7e4b3061d23d8"
+    },
+    {
+      "path": "src/probe.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2942702647595ff32de5429bbc188729c8a7d0b",
+      "size": 31129,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/c2942702647595ff32de5429bbc188729c8a7d0b"
+    },
+    {
+      "path": "src/profile.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68d80cbed30e81352c64d28556fa1b19d93da7f1",
+      "size": 2867,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/68d80cbed30e81352c64d28556fa1b19d93da7f1"
+    },
+    {
+      "path": "src/profile.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a44a612b594e8547a636aa595d375b2e0a27aa04",
+      "size": 9978,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/a44a612b594e8547a636aa595d375b2e0a27aa04"
+    },
+    {
+      "path": "src/proof.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c09400c2f549654992f6433d9e6574fde9d2a58",
+      "size": 19126,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/0c09400c2f549654992f6433d9e6574fde9d2a58"
+    },
+    {
+      "path": "src/proof.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1340ee8fedc4188b0289b35202162b9877f255d2",
+      "size": 4327,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/1340ee8fedc4188b0289b35202162b9877f255d2"
+    },
+    {
+      "path": "src/propagate.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12948b054dd3fb1668a1b4ccfafdda4b0ae8a61b",
+      "size": 18336,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/12948b054dd3fb1668a1b4ccfafdda4b0ae8a61b"
+    },
+    {
+      "path": "src/queue.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd2b1949198b5c8230bd2f7322248563159308e5",
+      "size": 2622,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/cd2b1949198b5c8230bd2f7322248563159308e5"
+    },
+    {
+      "path": "src/queue.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83431adf76d2f40c36a174b80e3e17a793021090",
+      "size": 1838,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/83431adf76d2f40c36a174b80e3e17a793021090"
+    },
+    {
+      "path": "src/radix.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a28a80aeed93442cc5be4ff1d5bd7eb0531521f1",
+      "size": 5484,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/a28a80aeed93442cc5be4ff1d5bd7eb0531521f1"
+    },
+    {
+      "path": "src/random.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9903230450e2fb411a82eb4f6e06d2fd38b89773",
+      "size": 5940,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/9903230450e2fb411a82eb4f6e06d2fd38b89773"
+    },
+    {
+      "path": "src/random.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f00fbf9906d5d2f4afb279f8617ead6719525d2",
+      "size": 1137,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/7f00fbf9906d5d2f4afb279f8617ead6719525d2"
+    },
+    {
+      "path": "src/random.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c57c03bef1fd24d0d76a64e8edf473033fc6952b",
+      "size": 2226,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/c57c03bef1fd24d0d76a64e8edf473033fc6952b"
+    },
+    {
+      "path": "src/range.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d575bbdc270a429d978f6b4f53ce6fe9de846e6",
+      "size": 4195,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/9d575bbdc270a429d978f6b4f53ce6fe9de846e6"
+    },
+    {
+      "path": "src/reap.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c383cb660d4d3739e058b20a808cbd2adf2233d",
+      "size": 2814,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/8c383cb660d4d3739e058b20a808cbd2adf2233d"
+    },
+    {
+      "path": "src/reap.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9986b95b98930fb1afe1633a47e5961739e926d5",
+      "size": 468,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/9986b95b98930fb1afe1633a47e5961739e926d5"
+    },
+    {
+      "path": "src/reduce.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ed9570b03fd2b76eb09aaeae20aa64591ccf048",
+      "size": 8836,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/7ed9570b03fd2b76eb09aaeae20aa64591ccf048"
+    },
+    {
+      "path": "src/reluctant.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0448672e4ad51ac23f171660517d65bb958735e7",
+      "size": 2338,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/0448672e4ad51ac23f171660517d65bb958735e7"
+    },
+    {
+      "path": "src/rephase.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f68431207b11e82a91c4f9bfaff87f46c30154b7",
+      "size": 10061,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f68431207b11e82a91c4f9bfaff87f46c30154b7"
+    },
+    {
+      "path": "src/report.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c50b647f1d657bd58256369739d94ae78295112",
+      "size": 8695,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/9c50b647f1d657bd58256369739d94ae78295112"
+    },
+    {
+      "path": "src/resources.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5dbed63e855ddb00ca8360fb40c76308ade47fed",
+      "size": 4043,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/5dbed63e855ddb00ca8360fb40c76308ade47fed"
+    },
+    {
+      "path": "src/resources.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "377c95f3d27bca8e13da742103dbb43b092c3efe",
+      "size": 314,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/377c95f3d27bca8e13da742103dbb43b092c3efe"
+    },
+    {
+      "path": "src/restart.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c991de77347f276f2aeaef8a03bba8125d5b403",
+      "size": 6036,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/4c991de77347f276f2aeaef8a03bba8125d5b403"
+    },
+    {
+      "path": "src/restore.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58ef06bd442b8c3d8613333e4016f7dfa9425c3e",
+      "size": 8750,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/58ef06bd442b8c3d8613333e4016f7dfa9425c3e"
+    },
+    {
+      "path": "src/score.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "578d553a8c6e62a097ea572126502718c1626115",
+      "size": 1319,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/578d553a8c6e62a097ea572126502718c1626115"
+    },
+    {
+      "path": "src/score.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fde98af33e27bb9bdfd2085178ae6dd2c3488e5",
+      "size": 294,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/9fde98af33e27bb9bdfd2085178ae6dd2c3488e5"
+    },
+    {
+      "path": "src/shrink.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b924b2da05c42287b07c2d775ba25eb8a2329f37",
+      "size": 14415,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/b924b2da05c42287b07c2d775ba25eb8a2329f37"
+    },
+    {
+      "path": "src/signal.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "984ce7f5848d8042e50d6a2a05d7d1765b3708a7",
+      "size": 3078,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/984ce7f5848d8042e50d6a2a05d7d1765b3708a7"
+    },
+    {
+      "path": "src/signal.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d343ef4afd689f826f6ed4c17b8bd43e3b60a16f",
+      "size": 634,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/d343ef4afd689f826f6ed4c17b8bd43e3b60a16f"
+    },
+    {
+      "path": "src/solution.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8427d14e3473191b1e62e037b343a08ff084c1b7",
+      "size": 1615,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/8427d14e3473191b1e62e037b343a08ff084c1b7"
+    },
+    {
+      "path": "src/solver.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90d7807b61c2d47776e4a521bb02ac7c6f6f4607",
+      "size": 57717,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/90d7807b61c2d47776e4a521bb02ac7c6f6f4607"
+    },
+    {
+      "path": "src/stable.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44c9d1021c776236dd4198b2e69407a37426afcf",
+      "size": 481,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/44c9d1021c776236dd4198b2e69407a37426afcf"
+    },
+    {
+      "path": "src/stack.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21082e525c14e0e0886d2c45e2cd71851c17e2cb",
+      "size": 2563,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/21082e525c14e0e0886d2c45e2cd71851c17e2cb"
+    },
+    {
+      "path": "src/stats.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b405e21a8230c2ad1776fb4ddfcdd0d1e4a9c2b",
+      "size": 47897,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/7b405e21a8230c2ad1776fb4ddfcdd0d1e4a9c2b"
+    },
+    {
+      "path": "src/stats.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0c1e472c1fe902a94f3bc0cd065680ce4408e38",
+      "size": 17404,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/e0c1e472c1fe902a94f3bc0cd065680ce4408e38"
+    },
+    {
+      "path": "src/subsume.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99399d1a167dc013dc1665542d068283cf7b9492",
+      "size": 21629,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/99399d1a167dc013dc1665542d068283cf7b9492"
+    },
+    {
+      "path": "src/sweep.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cf6fe3083b76ca2996aac97bbef6e4175a82026",
+      "size": 56686,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/2cf6fe3083b76ca2996aac97bbef6e4175a82026"
+    },
+    {
+      "path": "src/sweep.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04d40ead1c2c76903e5bffa42ed48fc600335781",
+      "size": 1184,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/04d40ead1c2c76903e5bffa42ed48fc600335781"
+    },
+    {
+      "path": "src/terminal.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "919d81c9a825bebe8b357da0bd7d39864b540fe7",
+      "size": 762,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/919d81c9a825bebe8b357da0bd7d39864b540fe7"
+    },
+    {
+      "path": "src/terminal.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce4972244b8c2d387e2e7e1405eb4122f68063bb",
+      "size": 2716,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/ce4972244b8c2d387e2e7e1405eb4122f68063bb"
+    },
+    {
+      "path": "src/ternary.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f90b29ebdacda0466b15987db0f76345a4f492cb",
+      "size": 13600,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f90b29ebdacda0466b15987db0f76345a4f492cb"
+    },
+    {
+      "path": "src/testing.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16dabb4b487f6104a9da67a73c19bab3a8db3aae",
+      "size": 535,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/16dabb4b487f6104a9da67a73c19bab3a8db3aae"
+    },
+    {
+      "path": "src/tier.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49c7a5e1b184ff8d0d7b79a897a49522325c46c7",
+      "size": 6029,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/49c7a5e1b184ff8d0d7b79a897a49522325c46c7"
+    },
+    {
+      "path": "src/tracer.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a5cdfa959f64a7cf152c020e9ea88f92fbc3adb",
+      "size": 6375,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/3a5cdfa959f64a7cf152c020e9ea88f92fbc3adb"
+    },
+    {
+      "path": "src/transred.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9dc0cafa8dddf0e3b24ea9da881a97eb7c8a5e7",
+      "size": 7650,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f9dc0cafa8dddf0e3b24ea9da881a97eb7c8a5e7"
+    },
+    {
+      "path": "src/unstable.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b23164bed591d36d1bc43d13e548d5204648097",
+      "size": 491,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/5b23164bed591d36d1bc43d13e548d5204648097"
+    },
+    {
+      "path": "src/util.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b7c52f30f85d03e3f6995ed3e1dd7dcd6b01d0c",
+      "size": 3501,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/5b7c52f30f85d03e3f6995ed3e1dd7dcd6b01d0c"
+    },
+    {
+      "path": "src/util.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b9486513b06ec29bfb39493626c842b6b507e85",
+      "size": 5313,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/9b9486513b06ec29bfb39493626c842b6b507e85"
+    },
+    {
+      "path": "src/var.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0baa0b291cc7847da15faf19f331a5d3d0f49e26",
+      "size": 976,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/0baa0b291cc7847da15faf19f331a5d3d0f49e26"
+    },
+    {
+      "path": "src/var.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38b52c81186151b4b4925f26b9866e2c1806cda7",
+      "size": 488,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/38b52c81186151b4b4925f26b9866e2c1806cda7"
+    },
+    {
+      "path": "src/veripbtracer.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac8961bd40816782ba7855bc52ff19dd0d5b04af",
+      "size": 10808,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/ac8961bd40816782ba7855bc52ff19dd0d5b04af"
+    },
+    {
+      "path": "src/veripbtracer.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44dfa794a8cb77e022b021107d0bf47bdb94f1c9",
+      "size": 3220,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/44dfa794a8cb77e022b021107d0bf47bdb94f1c9"
+    },
+    {
+      "path": "src/version.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "685cc109764eefd18daf157e5f7f0b202ae0d139",
+      "size": 2947,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/685cc109764eefd18daf157e5f7f0b202ae0d139"
+    },
+    {
+      "path": "src/version.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aaa07788e43164c0ab0f2f855ba4caae130bc403",
+      "size": 269,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/aaa07788e43164c0ab0f2f855ba4caae130bc403"
+    },
+    {
+      "path": "src/vivify.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe37a00a407f9a951a823a8d92874c968943cc53",
+      "size": 61608,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/fe37a00a407f9a951a823a8d92874c968943cc53"
+    },
+    {
+      "path": "src/vivify.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93459a682057a8037f28441332cb7ceb30da5a5c",
+      "size": 1236,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/93459a682057a8037f28441332cb7ceb30da5a5c"
+    },
+    {
+      "path": "src/walk.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ee4748ae2b9bdd1dab3528a0b8332f7450045c5",
+      "size": 32246,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/1ee4748ae2b9bdd1dab3528a0b8332f7450045c5"
+    },
+    {
+      "path": "src/walk.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acbfb922434f232387735bfbed1a044eb210ddd5",
+      "size": 1984,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/acbfb922434f232387735bfbed1a044eb210ddd5"
+    },
+    {
+      "path": "src/walk_full_occs.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fc21b717fc70d0d6628af6343b0f42b44bab338",
+      "size": 29041,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/9fc21b717fc70d0d6628af6343b0f42b44bab338"
+    },
+    {
+      "path": "src/warmup.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f43f166da73bc3c54e88d7ed0c68f6f2f94bbb58",
+      "size": 12128,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f43f166da73bc3c54e88d7ed0c68f6f2f94bbb58"
+    },
+    {
+      "path": "src/watch.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90fc05bf11a851ec05a579f4124ae1ed02d37766",
+      "size": 2845,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/90fc05bf11a851ec05a579f4124ae1ed02d37766"
+    },
+    {
+      "path": "src/watch.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68e96959ef54750993428b02c75dcda0dca8d2f1",
+      "size": 2259,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/68e96959ef54750993428b02c75dcda0dca8d2f1"
+    },
+    {
+      "path": "test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ff47b05e5d05f24282cd29ac2f447fb33a2f2245",
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/trees/ff47b05e5d05f24282cd29ac2f447fb33a2f2245"
+    },
+    {
+      "path": "test/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d488c0b930b1111d9b1948d5a5d7711183dac16",
+      "size": 1881,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/0d488c0b930b1111d9b1948d5a5d7711183dac16"
+    },
+    {
+      "path": "test/api",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d39bde25cf429abc07c2a89831c6316d14cc7b8a",
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/trees/d39bde25cf429abc07c2a89831c6316d14cc7b8a"
+    },
+    {
+      "path": "test/api/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea38b928a0c5bc0b1bd4afa28a6a72bcab62b0be",
+      "size": 381,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/ea38b928a0c5bc0b1bd4afa28a6a72bcab62b0be"
+    },
+    {
+      "path": "test/api/apitrace.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12bbf31e029f3cffafb3a5e8ee841d64223d76bf",
+      "size": 1734,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/12bbf31e029f3cffafb3a5e8ee841d64223d76bf"
+    },
+    {
+      "path": "test/api/cfreeze.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e76a6f0878dc8a37262d7d0e561674919623feec",
+      "size": 2611,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/e76a6f0878dc8a37262d7d0e561674919623feec"
+    },
+    {
+      "path": "test/api/cipasir.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06925da2f536d3981bf4557aac802f548f054b27",
+      "size": 3106,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/06925da2f536d3981bf4557aac802f548f054b27"
+    },
+    {
+      "path": "test/api/ctest.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0dc83e2678c7848a59ccd9c3c97cad5b136ce57",
+      "size": 948,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/e0dc83e2678c7848a59ccd9c3c97cad5b136ce57"
+    },
+    {
+      "path": "test/api/example.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30beb05ba01e72ddcf21c526ffa8f42460f5c797",
+      "size": 2215,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/30beb05ba01e72ddcf21c526ffa8f42460f5c797"
+    },
+    {
+      "path": "test/api/example_constraint.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f77f8749eabf46ea75d7854b556e657e0dfd7a30",
+      "size": 2582,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f77f8749eabf46ea75d7854b556e657e0dfd7a30"
+    },
+    {
+      "path": "test/api/example_declare_one_more_variable.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb8f087c1b53991d0f91cf06ab5155539bddf608",
+      "size": 2302,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/eb8f087c1b53991d0f91cf06ab5155539bddf608"
+    },
+    {
+      "path": "test/api/example_propagators.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4d4f216a565780aac7943995f2272be6cc999dd",
+      "size": 28907,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/c4d4f216a565780aac7943995f2272be6cc999dd"
+    },
+    {
+      "path": "test/api/example_tracer.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5aea1a2416f9ff199af38efb651b91959e5571f",
+      "size": 2839,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/e5aea1a2416f9ff199af38efb651b91959e5571f"
+    },
+    {
+      "path": "test/api/incproof.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab0793f3f107049ee6ee46995cb68446bc55b035",
+      "size": 1827,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/ab0793f3f107049ee6ee46995cb68446bc55b035"
+    },
+    {
+      "path": "test/api/learn.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f31419bf56714aac370a7482797a44cddbef9216",
+      "size": 1918,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f31419bf56714aac370a7482797a44cddbef9216"
+    },
+    {
+      "path": "test/api/makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c4f4decb9b7d4c858dd9b26bdfd641cb92655c2",
+      "size": 99,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/9c4f4decb9b7d4c858dd9b26bdfd641cb92655c2"
+    },
+    {
+      "path": "test/api/morenmore.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9739a65241c1060af1021314920b1c02f6dd76b3",
+      "size": 476,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/9739a65241c1060af1021314920b1c02f6dd76b3"
+    },
+    {
+      "path": "test/api/newdelete.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cccddfad20aca6dddf5bb575d340b7d1d33f67ab",
+      "size": 130,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/cccddfad20aca6dddf5bb575d340b7d1d33f67ab"
+    },
+    {
+      "path": "test/api/parcompwrite.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1615c8a121e20c785d69f09a49283c2f29317ee0",
+      "size": 6214,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/1615c8a121e20c785d69f09a49283c2f29317ee0"
+    },
+    {
+      "path": "test/api/propagate_assumptions.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd378386b595b95d3ce377e418c5e583a1c5e248",
+      "size": 5482,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/bd378386b595b95d3ce377e418c5e583a1c5e248"
+    },
+    {
+      "path": "test/api/run.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7ac63ec817046c448f0445a7b73d34c6a06a20db",
+      "size": 3314,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/7ac63ec817046c448f0445a7b73d34c6a06a20db"
+    },
+    {
+      "path": "test/api/terminate.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "739db625a31ebc9ac654ffbc735c22004b3dfa6f",
+      "size": 960,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/739db625a31ebc9ac654ffbc735c22004b3dfa6f"
+    },
+    {
+      "path": "test/api/traverse.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed6b42b54bcd43d6f7c1a6671491113ca1ad8aac",
+      "size": 3409,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/ed6b42b54bcd43d6f7c1a6671491113ca1ad8aac"
+    },
+    {
+      "path": "test/api/unit.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f1ab0e0dcb907987a26982430c4991e7b042a46",
+      "size": 656,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/6f1ab0e0dcb907987a26982430c4991e7b042a46"
+    },
+    {
+      "path": "test/cnf",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dbabb503dc79ae0438b672794ad165e812bf8879",
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/trees/dbabb503dc79ae0438b672794ad165e812bf8879"
+    },
+    {
+      "path": "test/cnf/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d228604548b54af2a6b8674d68d65b9ee235619b",
+      "size": 1006,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/d228604548b54af2a6b8674d68d65b9ee235619b"
+    },
+    {
+      "path": "test/cnf/add128.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "046af627b004718e4441bcd614ce62e894e4edd5",
+      "size": 100440,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/046af627b004718e4441bcd614ce62e894e4edd5"
+    },
+    {
+      "path": "test/cnf/add16.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42ef93a52f49cd4746622805a17ea82da616b4b0",
+      "size": 10945,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/42ef93a52f49cd4746622805a17ea82da616b4b0"
+    },
+    {
+      "path": "test/cnf/add32.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "304d5333d388d318d14995ae0faf11367ba590df",
+      "size": 23896,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/304d5333d388d318d14995ae0faf11367ba590df"
+    },
+    {
+      "path": "test/cnf/add4.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "971b45b9754ada42d1bf84ebe486097632d7d68c",
+      "size": 1646,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/971b45b9754ada42d1bf84ebe486097632d7d68c"
+    },
+    {
+      "path": "test/cnf/add64.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c8c9dd72dcaa3f3c1bbbd2d2f448e28799e4d78",
+      "size": 52651,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/4c8c9dd72dcaa3f3c1bbbd2d2f448e28799e4d78"
+    },
+    {
+      "path": "test/cnf/add8.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e966cc170bad72b68d478572e973c22a862aabd",
+      "size": 4533,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/5e966cc170bad72b68d478572e973c22a862aabd"
+    },
+    {
+      "path": "test/cnf/block0.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b80f1969805086e3d1a7e382f89d30758eb4129a",
+      "size": 64,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/b80f1969805086e3d1a7e382f89d30758eb4129a"
+    },
+    {
+      "path": "test/cnf/dimocheck.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3bbd06f8ddf5a516a94083a893e7fb7c56ba9c6",
+      "size": 37655,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/b3bbd06f8ddf5a516a94083a893e7fb7c56ba9c6"
+    },
+    {
+      "path": "test/cnf/drat-trim.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64eead79ee3c318485366d1558c17b23e275def8",
+      "size": 65015,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/64eead79ee3c318485366d1558c17b23e275def8"
+    },
+    {
+      "path": "test/cnf/elimclash.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c408815c01fa8d092021f3076a4e28a042d6afdf",
+      "size": 105,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/c408815c01fa8d092021f3076a4e28a042d6afdf"
+    },
+    {
+      "path": "test/cnf/elimredundant.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31e2b371a8fccd35c2c9c95a25711db0c8ca43f1",
+      "size": 103,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/31e2b371a8fccd35c2c9c95a25711db0c8ca43f1"
+    },
+    {
+      "path": "test/cnf/empty.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deab3c3add9f1ca5028199b2d545fc386417f7ef",
+      "size": 10,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/deab3c3add9f1ca5028199b2d545fc386417f7ef"
+    },
+    {
+      "path": "test/cnf/empty.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9eab33c9d380d1e8524478a000ea463b25c0827",
+      "size": 18,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f9eab33c9d380d1e8524478a000ea463b25c0827"
+    },
+    {
+      "path": "test/cnf/factor2708413neg.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d903a8e61e7f4b7c957b4b0d9eca7a50186c26a3",
+      "size": 38510,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/d903a8e61e7f4b7c957b4b0d9eca7a50186c26a3"
+    },
+    {
+      "path": "test/cnf/factor2708413pos.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74f8a2b707c3376184ea79ecb73ab7fba4543bd2",
+      "size": 38267,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/74f8a2b707c3376184ea79ecb73ab7fba4543bd2"
+    },
+    {
+      "path": "test/cnf/false.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d89b30366d080b7fe5b0921569fccb840994a70",
+      "size": 12,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/1d89b30366d080b7fe5b0921569fccb840994a70"
+    },
+    {
+      "path": "test/cnf/full1.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d2e2932a31da956951abbb2b9fedb170aaed2c5",
+      "size": 19,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/3d2e2932a31da956951abbb2b9fedb170aaed2c5"
+    },
+    {
+      "path": "test/cnf/full2.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0cf6301c4a60316137518f045c248b32e338b21",
+      "size": 38,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/a0cf6301c4a60316137518f045c248b32e338b21"
+    },
+    {
+      "path": "test/cnf/full3.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0af212f7b42e38854809461d068833d8609c4c4d",
+      "size": 86,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/0af212f7b42e38854809461d068833d8609c4c4d"
+    },
+    {
+      "path": "test/cnf/full4.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bd1100d6d4d3e8aaf27ff24de72a6a5c2b3d915",
+      "size": 203,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/4bd1100d6d4d3e8aaf27ff24de72a6a5c2b3d915"
+    },
+    {
+      "path": "test/cnf/full5.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdb343f6e68e03d09c11af9246d4eb17862607f2",
+      "size": 475,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/cdb343f6e68e03d09c11af9246d4eb17862607f2"
+    },
+    {
+      "path": "test/cnf/full6.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c6a76f1c1254bfc523ba7f1fa35f8222ea93ade",
+      "size": 1099,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/1c6a76f1c1254bfc523ba7f1fa35f8222ea93ade"
+    },
+    {
+      "path": "test/cnf/full7.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac1e96998e65eee589e62d920e8801014125a300",
+      "size": 2508,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/ac1e96998e65eee589e62d920e8801014125a300"
+    },
+    {
+      "path": "test/cnf/lrat-trim.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30f7be52d04feff43e6c7f88943713afb17bc808",
+      "size": 83818,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/30f7be52d04feff43e6c7f88943713afb17bc808"
+    },
+    {
+      "path": "test/cnf/makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "370c9ebec7e82d3b565cbbab15cdf2f0f7db04e2",
+      "size": 91,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/370c9ebec7e82d3b565cbbab15cdf2f0f7db04e2"
+    },
+    {
+      "path": "test/cnf/ph2.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c147241a7e677a8dc7be766b41baebddef0ddae8",
+      "size": 76,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/c147241a7e677a8dc7be766b41baebddef0ddae8"
+    },
+    {
+      "path": "test/cnf/ph3.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e5f72e8a70322b2032a261d41d383b162f8cc23",
+      "size": 200,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/4e5f72e8a70322b2032a261d41d383b162f8cc23"
+    },
+    {
+      "path": "test/cnf/ph4.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ff2ae6104f6f9c54d408e24207e9d6312017f66",
+      "size": 437,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/6ff2ae6104f6f9c54d408e24207e9d6312017f66"
+    },
+    {
+      "path": "test/cnf/ph5.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "543d8aa7545e7edb97cd31089f63b79f1d93a482",
+      "size": 810,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/543d8aa7545e7edb97cd31089f63b79f1d93a482"
+    },
+    {
+      "path": "test/cnf/ph6.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01ec4c7aec44a1c688acad19e5adbcb64e97e8f3",
+      "size": 1350,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/01ec4c7aec44a1c688acad19e5adbcb64e97e8f3"
+    },
+    {
+      "path": "test/cnf/prime121.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c35bd032c5ee08da5e53ecf81c71ec4322d3af6",
+      "size": 11322,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/0c35bd032c5ee08da5e53ecf81c71ec4322d3af6"
+    },
+    {
+      "path": "test/cnf/prime121.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5ca8fe45e0522497a1d2110fed46920f9846e16",
+      "size": 1469,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f5ca8fe45e0522497a1d2110fed46920f9846e16"
+    },
+    {
+      "path": "test/cnf/prime1369.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23d30a5237de2d947d21f39e72f104eb03bad0b6",
+      "size": 35909,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/23d30a5237de2d947d21f39e72f104eb03bad0b6"
+    },
+    {
+      "path": "test/cnf/prime1369.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f44cbdf784c6e89d038755eedb6cb0918e775ec0",
+      "size": 4619,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f44cbdf784c6e89d038755eedb6cb0918e775ec0"
+    },
+    {
+      "path": "test/cnf/prime1681.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7abb8b1ea5cd2189bf7ff47740eacd6e93a46009",
+      "size": 35909,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/7abb8b1ea5cd2189bf7ff47740eacd6e93a46009"
+    },
+    {
+      "path": "test/cnf/prime1681.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b3637cd39b6807d1c1a88e33801233dfca86aff",
+      "size": 4622,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/5b3637cd39b6807d1c1a88e33801233dfca86aff"
+    },
+    {
+      "path": "test/cnf/prime169.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80b5245a92a7deccac55c0d779af4394377c116b",
+      "size": 16229,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/80b5245a92a7deccac55c0d779af4394377c116b"
+    },
+    {
+      "path": "test/cnf/prime169.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "747ef819c4c410f6fc74edd29f30c6f7dce9057a",
+      "size": 2097,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/747ef819c4c410f6fc74edd29f30c6f7dce9057a"
+    },
+    {
+      "path": "test/cnf/prime1849.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a116d3086839e1dc70d239286f31510fb705a671",
+      "size": 35909,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/a116d3086839e1dc70d239286f31510fb705a671"
+    },
+    {
+      "path": "test/cnf/prime1849.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e695fdc0ad495d4263f95f15a8adef6618c943d",
+      "size": 4617,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/2e695fdc0ad495d4263f95f15a8adef6618c943d"
+    },
+    {
+      "path": "test/cnf/prime2209.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7f91e59a811f53422bb9bd0438ac5b6b2ce4e07",
+      "size": 45445,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/d7f91e59a811f53422bb9bd0438ac5b6b2ce4e07"
+    },
+    {
+      "path": "test/cnf/prime2209.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ceb5b4e2bfbbbf117739a5bc98c6dc7e0c2935a",
+      "size": 5864,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/3ceb5b4e2bfbbbf117739a5bc98c6dc7e0c2935a"
+    },
+    {
+      "path": "test/cnf/prime25.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0270547eda5bca0066376962b75f002b4b162e95",
+      "size": 4006,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/0270547eda5bca0066376962b75f002b4b162e95"
+    },
+    {
+      "path": "test/cnf/prime25.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9fb287b75628e735b4d4d17a4615cba34e23d51",
+      "size": 527,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f9fb287b75628e735b4d4d17a4615cba34e23d51"
+    },
+    {
+      "path": "test/cnf/prime289.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a328fb745536443d6d455eb50a478179351c6a9",
+      "size": 21959,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/4a328fb745536443d6d455eb50a478179351c6a9"
+    },
+    {
+      "path": "test/cnf/prime289.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abe3fbad88366c940687c273484ec9a3c1eac473",
+      "size": 2835,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/abe3fbad88366c940687c273484ec9a3c1eac473"
+    },
+    {
+      "path": "test/cnf/prime361.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09ca90f2185dbe1e354c721b5bd1ae2dcd4f500f",
+      "size": 21959,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/09ca90f2185dbe1e354c721b5bd1ae2dcd4f500f"
+    },
+    {
+      "path": "test/cnf/prime361.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10bf663775a34ad6a79536ea9af11147817b65c9",
+      "size": 2834,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/10bf663775a34ad6a79536ea9af11147817b65c9"
+    },
+    {
+      "path": "test/cnf/prime4.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1e5c330fd223c6b141d64eb6fefd4509f1854ee",
+      "size": 502,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/b1e5c330fd223c6b141d64eb6fefd4509f1854ee"
+    },
+    {
+      "path": "test/cnf/prime4.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a7a8d54e9b8e5c553dc4e8c111d4aa88ea60e06",
+      "size": 80,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/2a7a8d54e9b8e5c553dc4e8c111d4aa88ea60e06"
+    },
+    {
+      "path": "test/cnf/prime4294967297.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "677b7281f6d2835167e755fdb81e7538db57640f",
+      "size": 85837,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/677b7281f6d2835167e755fdb81e7538db57640f"
+    },
+    {
+      "path": "test/cnf/prime49.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd8e488c624cf48e715ffd9359bcbb82227fd041",
+      "size": 7250,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/bd8e488c624cf48e715ffd9359bcbb82227fd041"
+    },
+    {
+      "path": "test/cnf/prime49.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24f085370429053cfbcdd1e0979b3125708ca744",
+      "size": 939,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/24f085370429053cfbcdd1e0979b3125708ca744"
+    },
+    {
+      "path": "test/cnf/prime529.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebb20454532316b9b5513cd854acf4b039b7607e",
+      "size": 28525,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/ebb20454532316b9b5513cd854acf4b039b7607e"
+    },
+    {
+      "path": "test/cnf/prime529.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1e8f7c3048f73edb3727a23f440b7b1e3620912",
+      "size": 3665,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f1e8f7c3048f73edb3727a23f440b7b1e3620912"
+    },
+    {
+      "path": "test/cnf/prime65537.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c05868ace5d05ea5b2c3f2315d932ba86425500d",
+      "size": 88805,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/c05868ace5d05ea5b2c3f2315d932ba86425500d"
+    },
+    {
+      "path": "test/cnf/prime841.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56a3923aced2f69746281e08a4b9ac952cd2bb50",
+      "size": 28525,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/56a3923aced2f69746281e08a4b9ac952cd2bb50"
+    },
+    {
+      "path": "test/cnf/prime841.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cfa7cf15244a11f9bc56055f157089dfef4857d",
+      "size": 3669,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/9cfa7cf15244a11f9bc56055f157089dfef4857d"
+    },
+    {
+      "path": "test/cnf/prime9.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b063bdc6ec70304b523225fbbe65a4939437e50",
+      "size": 1844,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/9b063bdc6ec70304b523225fbbe65a4939437e50"
+    },
+    {
+      "path": "test/cnf/prime9.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ad9eb1ddbeab48406f3e423065358c26145ff44",
+      "size": 245,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/7ad9eb1ddbeab48406f3e423065358c26145ff44"
+    },
+    {
+      "path": "test/cnf/prime961.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54427cbc330067709e45d80235aede5b3a024ebe",
+      "size": 28525,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/54427cbc330067709e45d80235aede5b3a024ebe"
+    },
+    {
+      "path": "test/cnf/prime961.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5ace6295cf4b03d544ab8b2c823f7ed6ebdf91f",
+      "size": 3650,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/c5ace6295cf4b03d544ab8b2c823f7ed6ebdf91f"
+    },
+    {
+      "path": "test/cnf/regr000.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11644fa2dd90d9daab5158361624a91e09cf9f29",
+      "size": 16,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/11644fa2dd90d9daab5158361624a91e09cf9f29"
+    },
+    {
+      "path": "test/cnf/regr000.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a793b84bbb6420b2aea7df7e721e2a14f281bebd",
+      "size": 48,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/a793b84bbb6420b2aea7df7e721e2a14f281bebd"
+    },
+    {
+      "path": "test/cnf/run.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f8074d6d4a08fa93196de0fcdf9e8c05fb3f5bef",
+      "size": 7279,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f8074d6d4a08fa93196de0fcdf9e8c05fb3f5bef"
+    },
+    {
+      "path": "test/cnf/sat0.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ee625970c9d8a7fe6c37d2022f93efb9e5cec86",
+      "size": 38,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/3ee625970c9d8a7fe6c37d2022f93efb9e5cec86"
+    },
+    {
+      "path": "test/cnf/sat1.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea0e737333641121b175637b4757e8e335aaab60",
+      "size": 39,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/ea0e737333641121b175637b4757e8e335aaab60"
+    },
+    {
+      "path": "test/cnf/sat1.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4904b6482a11c4c258d7f6b77864b20eedc6573d",
+      "size": 22,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/4904b6482a11c4c258d7f6b77864b20eedc6573d"
+    },
+    {
+      "path": "test/cnf/sat10.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ee8a1f988cfb99243e356dff3c24fef9631094b",
+      "size": 87,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/2ee8a1f988cfb99243e356dff3c24fef9631094b"
+    },
+    {
+      "path": "test/cnf/sat10.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf21d8c48692058a22fe45487eb14511838ca73c",
+      "size": 25,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/cf21d8c48692058a22fe45487eb14511838ca73c"
+    },
+    {
+      "path": "test/cnf/sat11.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd0b0b79c8145b450be721ce5a35c33e5a64af0a",
+      "size": 87,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/cd0b0b79c8145b450be721ce5a35c33e5a64af0a"
+    },
+    {
+      "path": "test/cnf/sat11.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e6dc6250d6d0872ad12a449562af045e68f5cc8",
+      "size": 26,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/0e6dc6250d6d0872ad12a449562af045e68f5cc8"
+    },
+    {
+      "path": "test/cnf/sat12.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11246a6dcf26230c8b6882d18c15ffc994d03a59",
+      "size": 87,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/11246a6dcf26230c8b6882d18c15ffc994d03a59"
+    },
+    {
+      "path": "test/cnf/sat12.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "280ec0634e8806b05bdb5caa6e30740f0d5dab12",
+      "size": 26,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/280ec0634e8806b05bdb5caa6e30740f0d5dab12"
+    },
+    {
+      "path": "test/cnf/sat13.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16828b792b40fa915ed2034d54bc4e8c95230a37",
+      "size": 87,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/16828b792b40fa915ed2034d54bc4e8c95230a37"
+    },
+    {
+      "path": "test/cnf/sat13.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dab49085321f39b6059cfa3bc85fdd0b18168fae",
+      "size": 27,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/dab49085321f39b6059cfa3bc85fdd0b18168fae"
+    },
+    {
+      "path": "test/cnf/sat2.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "388744318eb99c542bbf25ed6d3f8c5f7ccbd806",
+      "size": 39,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/388744318eb99c542bbf25ed6d3f8c5f7ccbd806"
+    },
+    {
+      "path": "test/cnf/sat2.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9aa456a79e9edc47696408c6cad82e35d97d0f97",
+      "size": 23,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/9aa456a79e9edc47696408c6cad82e35d97d0f97"
+    },
+    {
+      "path": "test/cnf/sat3.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6aa3ee4ec25c4555a32d1d7e4a9005e7c9ae4795",
+      "size": 39,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/6aa3ee4ec25c4555a32d1d7e4a9005e7c9ae4795"
+    },
+    {
+      "path": "test/cnf/sat3.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "543c85e3477f9171b6fe4999d1dd3ef50555c82e",
+      "size": 23,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/543c85e3477f9171b6fe4999d1dd3ef50555c82e"
+    },
+    {
+      "path": "test/cnf/sat4.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13a2ad78d21965fd666a0127a5c93732d5756f98",
+      "size": 39,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/13a2ad78d21965fd666a0127a5c93732d5756f98"
+    },
+    {
+      "path": "test/cnf/sat4.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8aafa1715b7b7efd5b318964ebd332bb0b4bd850",
+      "size": 24,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/8aafa1715b7b7efd5b318964ebd332bb0b4bd850"
+    },
+    {
+      "path": "test/cnf/sat5.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0af212f7b42e38854809461d068833d8609c4c4d",
+      "size": 86,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/0af212f7b42e38854809461d068833d8609c4c4d"
+    },
+    {
+      "path": "test/cnf/sat6.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0c25f321dff83bcadee1198ec4ce1fc0c790833",
+      "size": 87,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/e0c25f321dff83bcadee1198ec4ce1fc0c790833"
+    },
+    {
+      "path": "test/cnf/sat6.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "272b0bc537258896bf687af4a3465e6f0be7ebab",
+      "size": 24,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/272b0bc537258896bf687af4a3465e6f0be7ebab"
+    },
+    {
+      "path": "test/cnf/sat7.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddaf57ef3db90b6d2bcee7f8a3924c109ef281e7",
+      "size": 87,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/ddaf57ef3db90b6d2bcee7f8a3924c109ef281e7"
+    },
+    {
+      "path": "test/cnf/sat7.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c542e1d627f9618f330aa9045ec7753de5c2a3e8",
+      "size": 25,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/c542e1d627f9618f330aa9045ec7753de5c2a3e8"
+    },
+    {
+      "path": "test/cnf/sat8.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9b04f54b37c2c1b243cc9e7bfc410df28a07e19",
+      "size": 87,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f9b04f54b37c2c1b243cc9e7bfc410df28a07e19"
+    },
+    {
+      "path": "test/cnf/sat8.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65863b6f4940a21a8060134ccef93fb5389af48f",
+      "size": 25,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/65863b6f4940a21a8060134ccef93fb5389af48f"
+    },
+    {
+      "path": "test/cnf/sat9.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4c215749c873d16c626d6c8f5b67a6d4933814d",
+      "size": 87,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f4c215749c873d16c626d6c8f5b67a6d4933814d"
+    },
+    {
+      "path": "test/cnf/sat9.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c94ff9a2ab02a2624fb4c8655576769c80b78c24",
+      "size": 26,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/c94ff9a2ab02a2624fb4c8655576769c80b78c24"
+    },
+    {
+      "path": "test/cnf/sqrt10201.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f5059ee10e8ac8b95f5f336b590ded13bd72113",
+      "size": 9783,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/7f5059ee10e8ac8b95f5f336b590ded13bd72113"
+    },
+    {
+      "path": "test/cnf/sqrt10201.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5386d089710d46a0e3a173c91e0423fc5d5b2738",
+      "size": 1331,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/5386d089710d46a0e3a173c91e0423fc5d5b2738"
+    },
+    {
+      "path": "test/cnf/sqrt1042441.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a8c43c7f8d199cbaba0aaf2a2a23c8ecc307c27",
+      "size": 22747,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/6a8c43c7f8d199cbaba0aaf2a2a23c8ecc307c27"
+    },
+    {
+      "path": "test/cnf/sqrt1042441.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce082fc1020a7025d12a6eeffaded9a7f60278a2",
+      "size": 3037,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/ce082fc1020a7025d12a6eeffaded9a7f60278a2"
+    },
+    {
+      "path": "test/cnf/sqrt10609.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "310f2b0b1d94ec3111f97da1f4ab7320242fba08",
+      "size": 9783,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/310f2b0b1d94ec3111f97da1f4ab7320242fba08"
+    },
+    {
+      "path": "test/cnf/sqrt10609.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73d5757e03340f54057af93d36d9e7fa1b125be9",
+      "size": 1338,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/73d5757e03340f54057af93d36d9e7fa1b125be9"
+    },
+    {
+      "path": "test/cnf/sqrt11449.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd09d30db56193c9318413bdb28c337aadeaa55d",
+      "size": 9782,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/dd09d30db56193c9318413bdb28c337aadeaa55d"
+    },
+    {
+      "path": "test/cnf/sqrt11449.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8c7c7e9265a4e34ead525c709137c89d2b0624a",
+      "size": 1337,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/d8c7c7e9265a4e34ead525c709137c89d2b0624a"
+    },
+    {
+      "path": "test/cnf/sqrt11881.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6f0b619244c94a5c6dee310e96aca250fb142a5",
+      "size": 9784,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f6f0b619244c94a5c6dee310e96aca250fb142a5"
+    },
+    {
+      "path": "test/cnf/sqrt11881.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "804b0f7f71af70d402ecc4be41170a173294cfcf",
+      "size": 1339,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/804b0f7f71af70d402ecc4be41170a173294cfcf"
+    },
+    {
+      "path": "test/cnf/sqrt12769.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c9dbd464a72f9bf9904af04ae0122387c61a09b",
+      "size": 9760,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/9c9dbd464a72f9bf9904af04ae0122387c61a09b"
+    },
+    {
+      "path": "test/cnf/sqrt12769.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "233f78c7ba4fe35221e672d2574ab8248a43ede8",
+      "size": 1329,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/233f78c7ba4fe35221e672d2574ab8248a43ede8"
+    },
+    {
+      "path": "test/cnf/sqrt16129.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06f7867fbae43e714407332a0370740b2a9f3681",
+      "size": 9766,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/06f7867fbae43e714407332a0370740b2a9f3681"
+    },
+    {
+      "path": "test/cnf/sqrt16129.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edf19dc59b921b2a0c89e3be590880b153f69cbd",
+      "size": 1340,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/edf19dc59b921b2a0c89e3be590880b153f69cbd"
+    },
+    {
+      "path": "test/cnf/sqrt259081.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8afaada2e464fe1fe106f7054e51c742483a9b43",
+      "size": 17850,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/8afaada2e464fe1fe106f7054e51c742483a9b43"
+    },
+    {
+      "path": "test/cnf/sqrt259081.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a5b008487d9d56463fa40cbf3a0f13e9efc1e8e",
+      "size": 2397,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/9a5b008487d9d56463fa40cbf3a0f13e9efc1e8e"
+    },
+    {
+      "path": "test/cnf/sqrt2809.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "115941b09ab89e3bebbba4ebbfa99a8e76110670",
+      "size": 6591,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/115941b09ab89e3bebbba4ebbfa99a8e76110670"
+    },
+    {
+      "path": "test/cnf/sqrt2809.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fbbe3d0fb1e8a012e1ea7b39c664abaaa5d255c",
+      "size": 914,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/2fbbe3d0fb1e8a012e1ea7b39c664abaaa5d255c"
+    },
+    {
+      "path": "test/cnf/sqrt3481.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e726b3aa5b8c7586b71a2be98111875446f45b0f",
+      "size": 6571,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/e726b3aa5b8c7586b71a2be98111875446f45b0f"
+    },
+    {
+      "path": "test/cnf/sqrt3481.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a8e3210298975d760fa9a592a93e1092b4b8f32",
+      "size": 912,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/5a8e3210298975d760fa9a592a93e1092b4b8f32"
+    },
+    {
+      "path": "test/cnf/sqrt3721.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8eeaaee0011d4515a74600d271fcc95cbdee4fa",
+      "size": 6572,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/b8eeaaee0011d4515a74600d271fcc95cbdee4fa"
+    },
+    {
+      "path": "test/cnf/sqrt3721.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21b4adffd5dc1eca8831837e69cb1313c04e2151",
+      "size": 913,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/21b4adffd5dc1eca8831837e69cb1313c04e2151"
+    },
+    {
+      "path": "test/cnf/sqrt4489.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ec47fc88050fc213d45867ca4466d68dfaf5e42",
+      "size": 9762,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/9ec47fc88050fc213d45867ca4466d68dfaf5e42"
+    },
+    {
+      "path": "test/cnf/sqrt4489.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7da087bcac52713f3019e5cbd1621288c3d27930",
+      "size": 1328,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/7da087bcac52713f3019e5cbd1621288c3d27930"
+    },
+    {
+      "path": "test/cnf/sqrt5041.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c672ffc62f78de0f863773f20bb0cfbbba87c28b",
+      "size": 9762,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/c672ffc62f78de0f863773f20bb0cfbbba87c28b"
+    },
+    {
+      "path": "test/cnf/sqrt5041.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b70499106adaff28f0caf984ca8aa26553d50191",
+      "size": 1328,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/b70499106adaff28f0caf984ca8aa26553d50191"
+    },
+    {
+      "path": "test/cnf/sqrt5329.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf838ec1e37d7633aaa83f1f902fa2f34d4fe917",
+      "size": 9761,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/bf838ec1e37d7633aaa83f1f902fa2f34d4fe917"
+    },
+    {
+      "path": "test/cnf/sqrt5329.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77abcf716948e2fa72aabdf9350149749a8919f0",
+      "size": 1328,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/77abcf716948e2fa72aabdf9350149749a8919f0"
+    },
+    {
+      "path": "test/cnf/sqrt6241.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52e95624d2e6b35ded94b31d63fb3555336d2d61",
+      "size": 9762,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/52e95624d2e6b35ded94b31d63fb3555336d2d61"
+    },
+    {
+      "path": "test/cnf/sqrt6241.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bb2c7ca301d8c37913a603533a6593f372144c0",
+      "size": 1336,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/8bb2c7ca301d8c37913a603533a6593f372144c0"
+    },
+    {
+      "path": "test/cnf/sqrt63001.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c9d14a6a3de78aa2eee92e139590d0667fabb98",
+      "size": 13522,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/7c9d14a6a3de78aa2eee92e139590d0667fabb98"
+    },
+    {
+      "path": "test/cnf/sqrt63001.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39839879bd77afaf6c02fec20fe2a36a49dc1f2a",
+      "size": 1830,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/39839879bd77afaf6c02fec20fe2a36a49dc1f2a"
+    },
+    {
+      "path": "test/cnf/sqrt6889.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "415d9484582041553cf029a4c5a90796393c57e5",
+      "size": 9761,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/415d9484582041553cf029a4c5a90796393c57e5"
+    },
+    {
+      "path": "test/cnf/sqrt6889.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2544373a71a04fec54544ef74b895e91c03980cf",
+      "size": 1330,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/2544373a71a04fec54544ef74b895e91c03980cf"
+    },
+    {
+      "path": "test/cnf/sqrt7921.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "affad91316054e28c6fd58aebe70ba3a8287c66b",
+      "size": 9762,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/affad91316054e28c6fd58aebe70ba3a8287c66b"
+    },
+    {
+      "path": "test/cnf/sqrt7921.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3acceaa56b8a9470b8caff384efb971590eacc0c",
+      "size": 1328,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/3acceaa56b8a9470b8caff384efb971590eacc0c"
+    },
+    {
+      "path": "test/cnf/sqrt9409.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81d7b3747def88f447466e64b00b36b878b61789",
+      "size": 9783,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/81d7b3747def88f447466e64b00b36b878b61789"
+    },
+    {
+      "path": "test/cnf/sqrt9409.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4250adbb78e8de420a17cbb518d8fd53482c4e92",
+      "size": 1333,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/4250adbb78e8de420a17cbb518d8fd53482c4e92"
+    },
+    {
+      "path": "test/cnf/sub0.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04123e3ab6a9c8af0613ca9e8c8e0a7902268a81",
+      "size": 24,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/04123e3ab6a9c8af0613ca9e8c8e0a7902268a81"
+    },
+    {
+      "path": "test/cnf/unit0.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "accb90541c47b8ef29a79ae1d931366a1a4ba981",
+      "size": 14,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/accb90541c47b8ef29a79ae1d931366a1a4ba981"
+    },
+    {
+      "path": "test/cnf/unit0.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "697c38f292c92a311b82b4a94d730c1e8021b89b",
+      "size": 20,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/697c38f292c92a311b82b4a94d730c1e8021b89b"
+    },
+    {
+      "path": "test/cnf/unit1.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b72bcd78059fef29648763a10bedbda80f6a1c8",
+      "size": 15,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/6b72bcd78059fef29648763a10bedbda80f6a1c8"
+    },
+    {
+      "path": "test/cnf/unit1.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca75ebf161b00024ac8d1717e643124e0f25dea9",
+      "size": 21,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/ca75ebf161b00024ac8d1717e643124e0f25dea9"
+    },
+    {
+      "path": "test/cnf/unit2.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cc223c0d56930caa084daaf5dd84901691255fe",
+      "size": 21,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/0cc223c0d56930caa084daaf5dd84901691255fe"
+    },
+    {
+      "path": "test/cnf/unit2.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4904b6482a11c4c258d7f6b77864b20eedc6573d",
+      "size": 22,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/4904b6482a11c4c258d7f6b77864b20eedc6573d"
+    },
+    {
+      "path": "test/cnf/unit3.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "045997a8e7c624eb723036f5b60dec738aa94483",
+      "size": 22,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/045997a8e7c624eb723036f5b60dec738aa94483"
+    },
+    {
+      "path": "test/cnf/unit3.sol",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8aafa1715b7b7efd5b318964ebd332bb0b4bd850",
+      "size": 24,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/8aafa1715b7b7efd5b318964ebd332bb0b4bd850"
+    },
+    {
+      "path": "test/cnf/unit4.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68d25bd8258af209fd9bbad67b34a49e4e451c22",
+      "size": 28,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/68d25bd8258af209fd9bbad67b34a49e4e451c22"
+    },
+    {
+      "path": "test/cnf/unit5.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e049d6d8c9aa6dc3f21c5a2e9e1a43c37c5aecd",
+      "size": 63,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/0e049d6d8c9aa6dc3f21c5a2e9e1a43c37c5aecd"
+    },
+    {
+      "path": "test/cnf/unit6.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec0716cc4e7900fbd16caee2b2570a9d751a4b49",
+      "size": 39,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/ec0716cc4e7900fbd16caee2b2570a9d751a4b49"
+    },
+    {
+      "path": "test/cnf/unit7.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2f5fe551eac5fef07983deb0796f797c75dec8d",
+      "size": 52,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/c2f5fe551eac5fef07983deb0796f797c75dec8d"
+    },
+    {
+      "path": "test/contrib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "92d421c075ee46c1d2e6165195b9f16acb2f42c8",
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/trees/92d421c075ee46c1d2e6165195b9f16acb2f42c8"
+    },
+    {
+      "path": "test/contrib/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b7453536813b398c264fef9691f8786cd396e9c",
+      "size": 382,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/9b7453536813b398c264fef9691f8786cd396e9c"
+    },
+    {
+      "path": "test/contrib/craigtracer.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41e57643fcc702613c6d3b579e10cd27810830db",
+      "size": 1260,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/41e57643fcc702613c6d3b579e10cd27810830db"
+    },
+    {
+      "path": "test/contrib/craigtracer_incremental.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcd93729fb3c29561636a9d2ee81ae65fbb0ff89",
+      "size": 2589,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/fcd93729fb3c29561636a9d2ee81ae65fbb0ff89"
+    },
+    {
+      "path": "test/contrib/makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89d0266640dc32fdab0abb6117f63284b73b84ee",
+      "size": 107,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/89d0266640dc32fdab0abb6117f63284b73b84ee"
+    },
+    {
+      "path": "test/contrib/run.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c83b5b9e755763b7c4c72e9619b1337d6e34650c",
+      "size": 2878,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/c83b5b9e755763b7c4c72e9619b1337d6e34650c"
+    },
+    {
+      "path": "test/icnf",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a5cfd3a009083c134c19ebf4149ec70878f7d6a2",
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/trees/a5cfd3a009083c134c19ebf4149ec70878f7d6a2"
+    },
+    {
+      "path": "test/icnf/empty.icnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2c9f087309fcbb73f47cade78b2116a2a2d4b5a",
+      "size": 9,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/a2c9f087309fcbb73f47cade78b2116a2a2d4b5a"
+    },
+    {
+      "path": "test/icnf/false.icnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3fb377075ca30240b95085443d3bafb21299c44",
+      "size": 11,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/d3fb377075ca30240b95085443d3bafb21299c44"
+    },
+    {
+      "path": "test/icnf/makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fc6b0620c0190a096c8e3d7164d10eff0639938",
+      "size": 93,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/5fc6b0620c0190a096c8e3d7164d10eff0639938"
+    },
+    {
+      "path": "test/icnf/prime49.icnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5badba22fe349344721abbb8d25cb724491c4fa6",
+      "size": 7213,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/5badba22fe349344721abbb8d25cb724491c4fa6"
+    },
+    {
+      "path": "test/icnf/run.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "082ef203e4835d36a56607c0e0434f8376e6c87f",
+      "size": 2020,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/082ef203e4835d36a56607c0e0434f8376e6c87f"
+    },
+    {
+      "path": "test/icnf/two1.icnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e45ae5803260e13821afb6582429ba0d0a968aa6",
+      "size": 65,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/e45ae5803260e13821afb6582429ba0d0a968aa6"
+    },
+    {
+      "path": "test/icnf/two2.icnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c03414c0616109e22ccd0a9c8dd38417df8570fc",
+      "size": 64,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/c03414c0616109e22ccd0a9c8dd38417df8570fc"
+    },
+    {
+      "path": "test/icnf/unit1.icnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df8ff929af5937f84227e43f48913fdf67a74a88",
+      "size": 20,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/df8ff929af5937f84227e43f48913fdf67a74a88"
+    },
+    {
+      "path": "test/icnf/unit2.icnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d550bda73f93ba38d0b8f2c1fec604b36b4569a",
+      "size": 19,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/3d550bda73f93ba38d0b8f2c1fec604b36b4569a"
+    },
+    {
+      "path": "test/makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae0a749029d1c06c044ed61c9d510b0d8204035e",
+      "size": 237,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/ae0a749029d1c06c044ed61c9d510b0d8204035e"
+    },
+    {
+      "path": "test/mbt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "188e15688f5737f34e1f800d2d9602b2743d09e8",
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/trees/188e15688f5737f34e1f800d2d9602b2743d09e8"
+    },
+    {
+      "path": "test/mbt/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "673bdd0ad973138d87488f7d54451e2a42ef085d",
+      "size": 314,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/673bdd0ad973138d87488f7d54451e2a42ef085d"
+    },
+    {
+      "path": "test/mbt/makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccbb0f1b9e417812020466accf2fc10a3561a90b",
+      "size": 101,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/ccbb0f1b9e417812020466accf2fc10a3561a90b"
+    },
+    {
+      "path": "test/mbt/run.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "33354c5fa3354b53a2598393f399fbe81fe3e170",
+      "size": 1485,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/33354c5fa3354b53a2598393f399fbe81fe3e170"
+    },
+    {
+      "path": "test/trace",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0daf4d5d42c6449987aadfc4815ce5e8e2f5f364",
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/trees/0daf4d5d42c6449987aadfc4815ce5e8e2f5f364"
+    },
+    {
+      "path": "test/trace/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "475bdbd6222f4d0760a6f5419c9983fb976e30ff",
+      "size": 254,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/475bdbd6222f4d0760a6f5419c9983fb976e30ff"
+    },
+    {
+      "path": "test/trace/makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f94d33c045d9ce9f2bf0e54b8e05d0cf229f8b6",
+      "size": 81,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/3f94d33c045d9ce9f2bf0e54b8e05d0cf229f8b6"
+    },
+    {
+      "path": "test/trace/reg0000.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a39f616503cc2a6954576bb8e7714833e53d72c",
+      "size": 179,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/3a39f616503cc2a6954576bb8e7714833e53d72c"
+    },
+    {
+      "path": "test/trace/reg0001.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5cbf2d9fa6f549dff28cf5ebf785c3364d050a8",
+      "size": 23,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f5cbf2d9fa6f549dff28cf5ebf785c3364d050a8"
+    },
+    {
+      "path": "test/trace/reg0002.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a593df6c872bb97be66a678c3dbb01220fdb9c9f",
+      "size": 48,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/a593df6c872bb97be66a678c3dbb01220fdb9c9f"
+    },
+    {
+      "path": "test/trace/reg0003.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0277dff151431a00a9a70e304c7d67e1387622a9",
+      "size": 54,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/0277dff151431a00a9a70e304c7d67e1387622a9"
+    },
+    {
+      "path": "test/trace/reg0004.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c2cb4d4c46bca294df5f4a6be286d0881284547",
+      "size": 73,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/8c2cb4d4c46bca294df5f4a6be286d0881284547"
+    },
+    {
+      "path": "test/trace/reg0005.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a395c96ebc35e0bcf3e30815a4a59683133b81f",
+      "size": 67,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/2a395c96ebc35e0bcf3e30815a4a59683133b81f"
+    },
+    {
+      "path": "test/trace/reg0006.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4618535f3dbc5a409cabf53155930a3aaf99b2b6",
+      "size": 100,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/4618535f3dbc5a409cabf53155930a3aaf99b2b6"
+    },
+    {
+      "path": "test/trace/reg0007.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46192acc40db0a55c1ec6950020ae01c2bd26e66",
+      "size": 65,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/46192acc40db0a55c1ec6950020ae01c2bd26e66"
+    },
+    {
+      "path": "test/trace/reg0008.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44f659e5c80f10c543e1ce90a6f3b3e88b57f63a",
+      "size": 373,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/44f659e5c80f10c543e1ce90a6f3b3e88b57f63a"
+    },
+    {
+      "path": "test/trace/reg0009.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05f2574335d3a88ad3a81016857226e05a62b66d",
+      "size": 73,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/05f2574335d3a88ad3a81016857226e05a62b66d"
+    },
+    {
+      "path": "test/trace/reg0010.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b5eb2f30212298e25eeea05c55d0b4ac40a1617",
+      "size": 98,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/2b5eb2f30212298e25eeea05c55d0b4ac40a1617"
+    },
+    {
+      "path": "test/trace/reg0011.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b77b04244d4f0d6ab2b03d563bc3fed8720df2f",
+      "size": 85,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/1b77b04244d4f0d6ab2b03d563bc3fed8720df2f"
+    },
+    {
+      "path": "test/trace/reg0012.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "144e4246b442d955321f8d86cac8e2713b6afdb6",
+      "size": 100,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/144e4246b442d955321f8d86cac8e2713b6afdb6"
+    },
+    {
+      "path": "test/trace/reg0013.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbe86dbd3149486b58bcc79ce8ae24ccb5f200df",
+      "size": 82,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/dbe86dbd3149486b58bcc79ce8ae24ccb5f200df"
+    },
+    {
+      "path": "test/trace/reg0014.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b90f8b780e38723200af4b9151a87ec77bc673d",
+      "size": 109,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/4b90f8b780e38723200af4b9151a87ec77bc673d"
+    },
+    {
+      "path": "test/trace/reg0015.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79270d85bf9792924f3d39a751871ef93aa6be28",
+      "size": 166,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/79270d85bf9792924f3d39a751871ef93aa6be28"
+    },
+    {
+      "path": "test/trace/reg0016.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "081d2a1dfbb07abb4b008eba016a932dd524bc6a",
+      "size": 174,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/081d2a1dfbb07abb4b008eba016a932dd524bc6a"
+    },
+    {
+      "path": "test/trace/reg0017.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8c2ce570d161ab3e13b428fcdb03ee5813ca6ef",
+      "size": 209,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/e8c2ce570d161ab3e13b428fcdb03ee5813ca6ef"
+    },
+    {
+      "path": "test/trace/reg0018.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50844e64ab5d660699842a66c993f3ed95a7122f",
+      "size": 149,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/50844e64ab5d660699842a66c993f3ed95a7122f"
+    },
+    {
+      "path": "test/trace/reg0019.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4e795a6d9b3f41c37dcc4298f39d6edf4d4dc81",
+      "size": 150,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/a4e795a6d9b3f41c37dcc4298f39d6edf4d4dc81"
+    },
+    {
+      "path": "test/trace/reg0020.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae393b282e366c198270a2f357d223b115b499e8",
+      "size": 162,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/ae393b282e366c198270a2f357d223b115b499e8"
+    },
+    {
+      "path": "test/trace/reg0021.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5de97c775d2c8d6d3d5e8461ff571ec874c517f4",
+      "size": 102,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/5de97c775d2c8d6d3d5e8461ff571ec874c517f4"
+    },
+    {
+      "path": "test/trace/reg0022.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61267ef61b0b24088f4cabc7d964904c42ca9b8c",
+      "size": 54,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/61267ef61b0b24088f4cabc7d964904c42ca9b8c"
+    },
+    {
+      "path": "test/trace/reg0023.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0d20ab10f7a5135227c4bd2573546716ba91fc9",
+      "size": 79,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f0d20ab10f7a5135227c4bd2573546716ba91fc9"
+    },
+    {
+      "path": "test/trace/reg0024.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e881cfa1969e4bc90d87bb32468e3f2a4d40f3a",
+      "size": 174,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/8e881cfa1969e4bc90d87bb32468e3f2a4d40f3a"
+    },
+    {
+      "path": "test/trace/reg0025.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65fb70fa3fdc36ebb9794273a728d92aa049d0ea",
+      "size": 45,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/65fb70fa3fdc36ebb9794273a728d92aa049d0ea"
+    },
+    {
+      "path": "test/trace/reg0026.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d5ef7fef2472cb3a0038099fbc8dcc4b685e3ee",
+      "size": 284,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/5d5ef7fef2472cb3a0038099fbc8dcc4b685e3ee"
+    },
+    {
+      "path": "test/trace/reg0027.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59487280d84b111f094c2b29a12cf9a25bbd3653",
+      "size": 863,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/59487280d84b111f094c2b29a12cf9a25bbd3653"
+    },
+    {
+      "path": "test/trace/reg0028.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d913ca9fa5fa9e36c655237c222686215818f5f0",
+      "size": 112,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/d913ca9fa5fa9e36c655237c222686215818f5f0"
+    },
+    {
+      "path": "test/trace/reg0029.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8096ebd7a82886bd17336949d0c02b6cb4839c3d",
+      "size": 636,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/8096ebd7a82886bd17336949d0c02b6cb4839c3d"
+    },
+    {
+      "path": "test/trace/reg0030.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a874285679767c7b5de7639d986cc0de49aaf18e",
+      "size": 298,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/a874285679767c7b5de7639d986cc0de49aaf18e"
+    },
+    {
+      "path": "test/trace/reg0031.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b48a9dba64ca779e974069569f839d44f635c45",
+      "size": 380,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/3b48a9dba64ca779e974069569f839d44f635c45"
+    },
+    {
+      "path": "test/trace/reg0032.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dfca828028e876248081395d8825b294fcedc53",
+      "size": 119,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/9dfca828028e876248081395d8825b294fcedc53"
+    },
+    {
+      "path": "test/trace/reg0033.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd5d7cfabae67099b26d4d06fe604326f4fe9184",
+      "size": 208,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/bd5d7cfabae67099b26d4d06fe604326f4fe9184"
+    },
+    {
+      "path": "test/trace/reg0034.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0c03c4af244c05bef56867e9deb269dc3b56a5e",
+      "size": 106,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/b0c03c4af244c05bef56867e9deb269dc3b56a5e"
+    },
+    {
+      "path": "test/trace/reg0035.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11e4bc12f028755680047c7bae9e2582754a3a06",
+      "size": 199,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/11e4bc12f028755680047c7bae9e2582754a3a06"
+    },
+    {
+      "path": "test/trace/reg0036.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33888cce1754c1b78982c9e265d0326730f1211f",
+      "size": 95,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/33888cce1754c1b78982c9e265d0326730f1211f"
+    },
+    {
+      "path": "test/trace/reg0037.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29fad881fe2ca3d258114e1e891fa861cf2c818a",
+      "size": 194,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/29fad881fe2ca3d258114e1e891fa861cf2c818a"
+    },
+    {
+      "path": "test/trace/reg0038.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11ea43b5e2237be1997545ada2991338d65153a9",
+      "size": 252,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/11ea43b5e2237be1997545ada2991338d65153a9"
+    },
+    {
+      "path": "test/trace/reg0039.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dfe5100549677377b25555a922af4c62bf66b1d",
+      "size": 110,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/4dfe5100549677377b25555a922af4c62bf66b1d"
+    },
+    {
+      "path": "test/trace/reg0040.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a561ea4afdaf3a4f70bf980e0b66acaff6eed2ba",
+      "size": 283,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/a561ea4afdaf3a4f70bf980e0b66acaff6eed2ba"
+    },
+    {
+      "path": "test/trace/reg0041.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abdd7cc2574d7f5a4a6495066db025d3b7fec287",
+      "size": 595,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/abdd7cc2574d7f5a4a6495066db025d3b7fec287"
+    },
+    {
+      "path": "test/trace/reg0042.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1542c6cebd106fbb427755f51e81cc0f8f4a580c",
+      "size": 284,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/1542c6cebd106fbb427755f51e81cc0f8f4a580c"
+    },
+    {
+      "path": "test/trace/reg0043.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2911e6788c1988ba4461f9a1856713a0c88deb7a",
+      "size": 192,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/2911e6788c1988ba4461f9a1856713a0c88deb7a"
+    },
+    {
+      "path": "test/trace/reg0044.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d11e205b3134eda2ac2a317a3ef8721ea3eb82f",
+      "size": 94,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/1d11e205b3134eda2ac2a317a3ef8721ea3eb82f"
+    },
+    {
+      "path": "test/trace/reg0045.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b20a7c8a85bb020d22a8fc1901d408e6f32de073",
+      "size": 118,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/b20a7c8a85bb020d22a8fc1901d408e6f32de073"
+    },
+    {
+      "path": "test/trace/reg0046.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0edc6736042e870bd7f5769c61c99ae87ecd86de",
+      "size": 109,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/0edc6736042e870bd7f5769c61c99ae87ecd86de"
+    },
+    {
+      "path": "test/trace/reg0047.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0caeab6a14ff43723959703ae7863ee3e3ba4b7",
+      "size": 107,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f0caeab6a14ff43723959703ae7863ee3e3ba4b7"
+    },
+    {
+      "path": "test/trace/reg0048.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49411a280f241925a7d2ef63e3593268c73de82e",
+      "size": 504,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/49411a280f241925a7d2ef63e3593268c73de82e"
+    },
+    {
+      "path": "test/trace/reg0049.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05b066e6b237b35f4d831052cfc534d3a0b23d7e",
+      "size": 345,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/05b066e6b237b35f4d831052cfc534d3a0b23d7e"
+    },
+    {
+      "path": "test/trace/reg0050.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05b066e6b237b35f4d831052cfc534d3a0b23d7e",
+      "size": 345,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/05b066e6b237b35f4d831052cfc534d3a0b23d7e"
+    },
+    {
+      "path": "test/trace/reg0051.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ca1f9433f668f8c94baf01609690ddf26c8b684",
+      "size": 297,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/4ca1f9433f668f8c94baf01609690ddf26c8b684"
+    },
+    {
+      "path": "test/trace/reg0052.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2945b16ce0e5fba43e7331cc8017a18e65b3cb6",
+      "size": 700,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f2945b16ce0e5fba43e7331cc8017a18e65b3cb6"
+    },
+    {
+      "path": "test/trace/reg0053.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8acf01efdc1c342142d7dfa8afd699b94e929250",
+      "size": 35,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/8acf01efdc1c342142d7dfa8afd699b94e929250"
+    },
+    {
+      "path": "test/trace/reg0054.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da9bd655ff04e2c1200923d419740152709c6c9f",
+      "size": 45,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/da9bd655ff04e2c1200923d419740152709c6c9f"
+    },
+    {
+      "path": "test/trace/reg0055.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80ec7aeab4677102479b9df3cb21c1adcb62d15f",
+      "size": 125,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/80ec7aeab4677102479b9df3cb21c1adcb62d15f"
+    },
+    {
+      "path": "test/trace/reg0056.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62277d42b48059819d59c0a752de9b775c7fefec",
+      "size": 5260,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/62277d42b48059819d59c0a752de9b775c7fefec"
+    },
+    {
+      "path": "test/trace/reg0057.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbb033e1f2086bfcc92bfc675e1816e3fe59f51f",
+      "size": 544,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/bbb033e1f2086bfcc92bfc675e1816e3fe59f51f"
+    },
+    {
+      "path": "test/trace/reg0058.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6b2504a4c95613a77989a778c6440e8d89435f0",
+      "size": 542,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/b6b2504a4c95613a77989a778c6440e8d89435f0"
+    },
+    {
+      "path": "test/trace/reg0059.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3200a4b8bed574fc6f2e157a5cc58cc4eec070f",
+      "size": 112,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/b3200a4b8bed574fc6f2e157a5cc58cc4eec070f"
+    },
+    {
+      "path": "test/trace/reg0060.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d6a27a8881456229911fec00606f4e182d3cbc3",
+      "size": 504,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/5d6a27a8881456229911fec00606f4e182d3cbc3"
+    },
+    {
+      "path": "test/trace/reg0061.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a162317300d81440bdeb93940179b693e8eeb55",
+      "size": 133,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/1a162317300d81440bdeb93940179b693e8eeb55"
+    },
+    {
+      "path": "test/trace/reg0062.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8345494021f07ac65ecdf60e74eee21e0b835c20",
+      "size": 228,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/8345494021f07ac65ecdf60e74eee21e0b835c20"
+    },
+    {
+      "path": "test/trace/reg0063.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aeb44158f3d161be56d621b838859301f690a55d",
+      "size": 336,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/aeb44158f3d161be56d621b838859301f690a55d"
+    },
+    {
+      "path": "test/trace/reg0064.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b24308fbdd680ab5a0abf0f64a9dab1697f53cbc",
+      "size": 182,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/b24308fbdd680ab5a0abf0f64a9dab1697f53cbc"
+    },
+    {
+      "path": "test/trace/reg0065.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b24308fbdd680ab5a0abf0f64a9dab1697f53cbc",
+      "size": 182,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/b24308fbdd680ab5a0abf0f64a9dab1697f53cbc"
+    },
+    {
+      "path": "test/trace/reg0066.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "393fee30274c608e712bb9abea23aba235898ffd",
+      "size": 500,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/393fee30274c608e712bb9abea23aba235898ffd"
+    },
+    {
+      "path": "test/trace/reg0067.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b200348ede971b37e1f0980705f393cac31e7fc0",
+      "size": 114,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/b200348ede971b37e1f0980705f393cac31e7fc0"
+    },
+    {
+      "path": "test/trace/reg0068.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7460dccab0c4a7ab9d5e4c45949a55dc598fda13",
+      "size": 213,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/7460dccab0c4a7ab9d5e4c45949a55dc598fda13"
+    },
+    {
+      "path": "test/trace/reg0069.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31269020adf060ec148755f261d469942aae9482",
+      "size": 136,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/31269020adf060ec148755f261d469942aae9482"
+    },
+    {
+      "path": "test/trace/reg0070.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ab6163ccf85807c664088dc303cc45c98a8e8bd",
+      "size": 769,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/5ab6163ccf85807c664088dc303cc45c98a8e8bd"
+    },
+    {
+      "path": "test/trace/reg0071.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fa577c874a46b701fe4b068b37b981b1fb1e0fb",
+      "size": 634,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/3fa577c874a46b701fe4b068b37b981b1fb1e0fb"
+    },
+    {
+      "path": "test/trace/reg0072.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "354467763745baf5bf5c12ba5a727af57ef1ef4a",
+      "size": 1629,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/354467763745baf5bf5c12ba5a727af57ef1ef4a"
+    },
+    {
+      "path": "test/trace/reg0073.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1c8ee66748e04067c8546692c0589b09471d392",
+      "size": 769,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f1c8ee66748e04067c8546692c0589b09471d392"
+    },
+    {
+      "path": "test/trace/reg0074.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a717cf64db6f4048d95ad2adf3594c6eb10a0a02",
+      "size": 411,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/a717cf64db6f4048d95ad2adf3594c6eb10a0a02"
+    },
+    {
+      "path": "test/trace/reg0075.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be88b8c625d7f85260212f4249ea91f2adbe0788",
+      "size": 197,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/be88b8c625d7f85260212f4249ea91f2adbe0788"
+    },
+    {
+      "path": "test/trace/reg0076.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c240e2710ef59f6257114c450d43fd4968630564",
+      "size": 76,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/c240e2710ef59f6257114c450d43fd4968630564"
+    },
+    {
+      "path": "test/trace/reg0077.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc5983d35e7fd3c2f85b848a41b67cdb4bdff5a0",
+      "size": 62,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/fc5983d35e7fd3c2f85b848a41b67cdb4bdff5a0"
+    },
+    {
+      "path": "test/trace/reg0078.trace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10d23d9aea0407ee1a01e463147d1bcfdd81e88a",
+      "size": 56,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/10d23d9aea0407ee1a01e463147d1bcfdd81e88a"
+    },
+    {
+      "path": "test/trace/run.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "de15ef8dba8649349f4e97a5c1cf89438c40e6bd",
+      "size": 2033,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/de15ef8dba8649349f4e97a5c1cf89438c40e6bd"
+    },
+    {
+      "path": "test/usage",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "56104159179201f041583b3d3419556931af7fd8",
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/trees/56104159179201f041583b3d3419556931af7fd8"
+    },
+    {
+      "path": "test/usage/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84ea1a883d0d70de1f9b92456c6faa81dfad3472",
+      "size": 472,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/84ea1a883d0d70de1f9b92456c6faa81dfad3472"
+    },
+    {
+      "path": "test/usage/makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f93291c3b4166106804aaa0c543c82f70c7c1402",
+      "size": 95,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/f93291c3b4166106804aaa0c543c82f70c7c1402"
+    },
+    {
+      "path": "test/usage/missing-clause.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6977ba44cb6fbe8ff0716f91ca79a491be2a474",
+      "size": 14,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/a6977ba44cb6fbe8ff0716f91ca79a491be2a474"
+    },
+    {
+      "path": "test/usage/relaxed-header.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5947ada94c37864652ea4e79a7f218f7f041cdf",
+      "size": 43,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/c5947ada94c37864652ea4e79a7f218f7f041cdf"
+    },
+    {
+      "path": "test/usage/run.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "03b1f1d983cc56a4504de1aead8a646c42dffb81",
+      "size": 3633,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/03b1f1d983cc56a4504de1aead8a646c42dffb81"
+    },
+    {
+      "path": "test/usage/variable-too-large.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fbbf48d5391366518cf830a5c7d7904e9d14f1a",
+      "size": 14,
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/blobs/1fbbf48d5391366518cf830a5c7d7904e9d14f1a"
+    }
+  ],
+  "truncated": false,
+  "commit": "c60730422e758ef1cebe7aeddf2dda31c996bf04"
+}

@@ -1,0 +1,3 @@
+# Earlier problem #609 reproduction
+
+Before searching #1183, the first producer reproduced the SAT + DRAT workflow motivated by ipezygj's public #609 result f(4)=7. Its own encoder produced UNSAT for the three-colour K9 query avoiding odd cycles through length five, with a DRAT proof checked by drat-trim. For four colours on K17, a SAT witness avoiding odd cycles through length five was checked directly, and the published larger avoidance witness was also checked. These were baseline reproductions, not new results. This packet includes no #609 code, witness data or proofs. This note transcribes the first producer's retained report; it is not a fresh replay.

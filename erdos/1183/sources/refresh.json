@@ -1,0 +1,147 @@
+{
+  "fetched_utc_range": [
+    "2026-11-14T23:02:31.375101+00:00",
+    "2026-11-14T23:02:38.497830+00:00"
+  ],
+  "reads": [
+    {
+      "name": "site",
+      "url": "https://www.erdosproblems.com/1183",
+      "ok": true,
+      "sha256": "b20df4c8b04b6dd8cdeb47c03dea0633d528152e46b3e92d33506e8f23d26b09"
+    },
+    {
+      "name": "forum",
+      "url": "https://www.erdosproblems.com/forum/discuss/1183",
+      "ok": true,
+      "sha256": "44d96e04d87b6e7c50fb56dde47719346db620c78ab512fe946fadcb4f55b019"
+    },
+    {
+      "name": "claims",
+      "url": "https://www.erdosproblems.com/forum/thread/1183/proof-claims",
+      "ok": true,
+      "sha256": "f0f2c82300ec59d1d26ed68c8487330a68b0f2cc4830cbbe40c141b593a19f1c"
+    },
+    {
+      "name": "repos",
+      "url": "https://api.github.com/search/repositories?q=erdos+1183&sort=updated",
+      "ok": true,
+      "sha256": "439f9a3667eb5fb1c6c07c660ee6e40ca0dd5a57362629b65a40ec5917b1648a"
+    },
+    {
+      "name": "paper_head",
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/commits?per_page=1",
+      "ok": true,
+      "sha256": "149dbcbee3ccfe9555fcaecb891e74670a63b51401a997078514e23d4b50bd03"
+    },
+    {
+      "name": "paper_issues",
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/issues?state=all&per_page=100",
+      "ok": true,
+      "sha256": "cdbcaa924bf6eac5c6af6a122e6a4f5ea1e5a2b610e2edb79c27d53776b6267a"
+    },
+    {
+      "name": "paper",
+      "url": "https://raw.githubusercontent.com/anaxia-research/Erdos-1183/587d4b9cf88575a474777743ed71e2863c7c2cf6/paper/Erdos.tex",
+      "ok": true,
+      "sha256": "dd6dbb0971c4d9a86123edd5223c431168b2fe14a1076380bb73de0f95ccc81c"
+    },
+    {
+      "name": "omega",
+      "url": "https://raw.githubusercontent.com/the-omega-institute/trureturing/c0bb36be76f99139a5068f434597476d4682e29b/Problems/bhattacharjee-mandal-bhattacharya-2026-sublattice-chain-bound-refutation.md",
+      "ok": true,
+      "sha256": "ea6e7ab8b35b3f770dc9ff95f99321bf273bbfc32cff9ab40331ab58a0289af6"
+    },
+    {
+      "name": "arxiv",
+      "url": "https://arxiv.org/abs/2610.02833",
+      "ok": true,
+      "sha256": "f83c116b08cb430d664aeba1c4d0bc33b955349de822c01fc58ea2d699197a04"
+    },
+    {
+      "name": "arxiv_search",
+      "url": "https://export.arxiv.org/api/query?search_query=all:monochromatic+AND+all:sublattice&sortBy=submittedDate&sortOrder=descending&max_results=20",
+      "ok": true,
+      "sha256": "26251862427783516fdd8d5fd76eec8f98c0dc49417d1a8dc9c63c81edf9f9cd"
+    },
+    {
+      "name": "tao_table",
+      "url": "https://raw.githubusercontent.com/teorth/erdosproblems/main/data/problems.yaml",
+      "ok": true,
+      "sha256": "e880861cbfc37b1bc9bb857766b8a24fe3af3903c43c5677fb549263dc163018"
+    },
+    {
+      "name": "open_prs",
+      "url": "https://api.github.com/repos/teorth/erdosproblems/pulls?state=open&per_page=100",
+      "ok": true,
+      "sha256": "0d4f8d47c07a8561c02c031323ee999c4715ca378cd616fe393dba4d608ab231"
+    },
+    {
+      "name": "epi",
+      "url": "https://api.github.com/repos/BakeLab/Epi-results/git/trees/HEAD?recursive=1",
+      "ok": true,
+      "sha256": "773973a599221f8e5c7c4be205d4fd71377d7fa057497c51c9cf183abb9d49bd"
+    },
+    {
+      "name": "alpha",
+      "url": "https://api.github.com/repos/google-deepmind/alphaevolve_results/git/trees/HEAD?recursive=1",
+      "ok": true,
+      "sha256": "966312f9080ce79718c2bb0db8877a220241fb15f3b985e49f89de09f5b197d3"
+    },
+    {
+      "name": "openai",
+      "url": "https://api.github.com/repos/openai/math/git/trees/HEAD?recursive=1",
+      "ok": true,
+      "sha256": "404ca717563f550f58718f4b9d3bb54ee989a27d9b38a6f4b53f43c87fa5315d"
+    },
+    {
+      "name": "kisonecat",
+      "url": "https://api.github.com/repos/kisonecat/openai-math/git/trees/HEAD?recursive=1",
+      "ok": true,
+      "sha256": "32793bf6be709045e338d063d82e90c56b6a6b99fa4b85dba2c20854bf5a088f"
+    },
+    {
+      "name": "plasma",
+      "url": "https://api.github.com/repos/plasma-ai/erdos/git/trees/HEAD?recursive=1",
+      "ok": true,
+      "sha256": "324c9c86362e0fe735189d51459f1e15990f6ed4fee088a92c8f9bd4239ddcfd"
+    },
+    {
+      "name": "anaxia-research__Erdos-1183@587d4b9cf88575a474777743ed71e2863c7c2cf6",
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/trees/587d4b9cf88575a474777743ed71e2863c7c2cf6?recursive=1",
+      "ok": true,
+      "sha256": "9e13c72b4ff4d4ac4c7321d5a64b2cc6a9b9205e00285cace2fb2894d3d314d1"
+    },
+    {
+      "name": "anaxia-research__Erdos-1183@59e72f9511286e9e981b86eb3f7f9bc15e8d59ef",
+      "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/git/trees/59e72f9511286e9e981b86eb3f7f9bc15e8d59ef?recursive=1",
+      "ok": true,
+      "sha256": "58ba88d5fe627b12520d084f9c7a8a5957c31a590a34f4327a8cdbcf959e9d0f"
+    },
+    {
+      "name": "the-omega-institute__trureturing@c0bb36be76f99139a5068f434597476d4682e29b",
+      "url": "https://api.github.com/repos/the-omega-institute/trureturing/git/trees/c0bb36be76f99139a5068f434597476d4682e29b?recursive=1",
+      "ok": true,
+      "sha256": "5eb963304849d7017f83ac5cfea154a68420d17f563b44281708e38871aba652"
+    },
+    {
+      "name": "ipezygj__erdos609-f4@58472a0a0b0cb45a7804b4668011359ccf732689",
+      "url": "https://api.github.com/repos/ipezygj/erdos609-f4/git/trees/58472a0a0b0cb45a7804b4668011359ccf732689?recursive=1",
+      "ok": true,
+      "sha256": "5872376637950cf6f7f5be3781a69017bb382af222c502c0fd36958b4e918c25"
+    },
+    {
+      "name": "arminbiere__cadical@c60730422e758ef1cebe7aeddf2dda31c996bf04",
+      "url": "https://api.github.com/repos/arminbiere/cadical/git/trees/c60730422e758ef1cebe7aeddf2dda31c996bf04?recursive=1",
+      "ok": true,
+      "sha256": "7604f6593a29fa6775e3557789d0a003b34dcbc06ec4be6f45fa2f0aed9ba438"
+    },
+    {
+      "name": "marijnheule__drat-trim@2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+      "url": "https://api.github.com/repos/marijnheule/drat-trim/git/trees/2e3b2dc0ecf938addbd779d42877b6ed69d9a985?recursive=1",
+      "ok": true,
+      "sha256": "12f07302cad4dd70ad6469a301d68ec647fa455a11af7d7de4abf42e4c6b87eb"
+    }
+  ],
+  "scope": "Read-only public-source refresh for packaging. Full raw responses remain in job working files; no private source was queried. Complete recursive source-tree inventories were used where available. OpenAI tree was truncated; overview read separately. Omega path evidence uses complete non-recursive trees, not a complete recursive inventory."
+}
