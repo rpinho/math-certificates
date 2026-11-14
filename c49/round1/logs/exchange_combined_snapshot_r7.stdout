@@ -1,0 +1,11 @@
+{"started_pid": 11966, "command": ["python3", "combine_exchanges.py", "--radius", "7", "--suffix", "_snapshot_r7", "--certificate", "certificates/search_snapshot_r7.json"], "utc": "2026-11-14T03:45:45.708392+00:00"}
+{
+  "radius": 7,
+  "candidates": 1198,
+  "minimal_covers": 1200,
+  "removal_regions": 147630,
+  "exactly_excluded_by_monotone_count_bound": 147522,
+  "promising": 108,
+  "seconds": 36.148341833031736
+}
+{"pid": 11966, "returncode": 0, "wall_seconds": 37.08541933295783, "peak_worker_aggregate_rss_bytes": 2116665344, "stop_reason": "completed", "child_cpu_seconds": 36.885234}

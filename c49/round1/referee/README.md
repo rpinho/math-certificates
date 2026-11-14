@@ -1,0 +1,5 @@
+# Clean-room AI referee archive
+
+REFEREE.md and PRIOR_ART.md are byte-for-byte originals from the commissioned clean-room AI referee on a different model (GPT-6 Astra). Their historical headings and terminology, GitHub discussion/repository links, and the rounded-up numeral discussed as a rejected lower bound remain intact for fidelity. Release claims and pinned references are in the packet README.md. These archived reports are not new publication prose. The sole caveat is decimal rounding; use the exact surd or the rounded-down 1.5678643845.
+
+The source scripts and scientific logs are copied from that job. `independent.cpp` is the referee's own code; its filename is historical. The archive does not redistribute the referee's third-party source snapshots or process inventories. Data needed for replay are supplied by the packet certificate, delta and MIT baseline; REPRODUCE.md stages them in a scratch directory. The original 1997 PDF was not inspected; REFEREE.md proves the operative gluing statement explicitly. Hashes identify the supplied reports and inputs; they do not attest historical isolation or model identity.

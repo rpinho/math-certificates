@@ -1,0 +1,21 @@
+{
+  "model": "gpt-6-astra",
+  "author": "commissioned clean-room AI referee session on a different model (GPT-6 Astra)",
+  "status": "HOLDS WITH CAVEATS",
+  "value": "(64728+sqrt(3019700660))^(1/26)",
+  "arithmetic": "exact",
+  "inputs": {
+    "certificates/best_1.5678643845728069793620.json": "53381b5f52264c43d56343ab27d698c598462d5abfd83c043365afbae9efb1e8",
+    "certificates/best_delta.json": "95a9523b177dc74f1d6ed76f6aee7ca8a081824111d9d8456062a20978f2daf4",
+    "producer/REPORT.md": "a7892e16f1d6b0db0c125332e59f3517322f11bce5ebcd9a32d0d995d162fc7c",
+    "SOURCE_STATEMENTS.md": "9a2f25d1de2fd54a4ba99597b33a1b11b5c39e63490382fe75b2ba4c8122a298"
+  },
+  "inputs_hash": "9184c5ad952f98bcb12603c42744ffac623f2289dacb635eff7082d6423eca37",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/independent.cpp",
+  "checker_sha256": "f7e94392270f0493c502262d8ee434814c94d39a45044b44b2f4dfaff02fbc54",
+  "report": "referee/REFEREE.md",
+  "report_sha256": "beed872aaa9d55289bf0a8ba2a07f38e20cfaaef47e3e83f62f748848699b0b9",
+  "note": "Transcribed from the supplied referee report, not a new referee review or model-identity attestation. Hashes identify the supplied publication inputs and do not prove historical isolation. Both REFEREE.md and PRIOR_ART.md are byte-for-byte originals. Sole caveat: use the exact expression or 1.5678643845 rounded down. Producer REPORT.md and SOURCE_STATEMENTS.md are retained source prose; see referee/README.md."
+}

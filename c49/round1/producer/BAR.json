@@ -1,0 +1,32 @@
+{
+  "frozen_utc": "2026-11-14T03:04:14.201077+00:00",
+  "constant": "C49, 3-sunflower-free capacity",
+  "baseline": {
+    "n": 28,
+    "ports": [
+      0,
+      1
+    ],
+    "N00": 33969,
+    "N01": 64728,
+    "N10": 64728,
+    "N11": 88867,
+    "transfer_matrix": [
+      [
+        64728,
+        88867
+      ],
+      [
+        33969,
+        64728
+      ]
+    ],
+    "rho": "64728+sqrt(3018723123)",
+    "exponent_denominator": 26,
+    "rate_decimal": "1.56785990242458988585"
+  },
+  "hit": "Distinct Sperner 3-sunflower-free complete mask family with two distinct ports and positive port counts, for which exact rational root isolation proves rate strictly above the exact baseline surd root, not merely its truncated decimal.",
+  "rate_definition": "Perron([[N10,N11],[N00,N01]])^(1/(n-2))",
+  "mathematical_input": "DEGKM1997 Lemma 4.4, positive transfer-matrix chain construction as in IRSI and the live C49 page",
+  "scope": "Same theorem; a changed n requires its own exponent. No predictive metric is used."
+}

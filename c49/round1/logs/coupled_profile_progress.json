@@ -1,0 +1,74 @@
+{
+  "start_utc": "2026-11-14T03:11:37.443313+00:00",
+  "universe_boxes": 2325,
+  "baseline_boxes": 126,
+  "variables": 2325,
+  "containment_clauses": 233966,
+  "threads": 4,
+  "improvements": [],
+  "rounds": [
+    {
+      "iteration": 1,
+      "radius_core_deletions": 2,
+      "status": "OPTIMAL",
+      "solve_seconds": 1.1605237920302898,
+      "utc": "2026-11-14T03:11:38.638158+00:00",
+      "selected_boxes": 262,
+      "port_counts": [
+        52566,
+        155340,
+        155340,
+        219688
+      ],
+      "uncertified_rate": 1.6160219954933286,
+      "new_clauses": 4129,
+      "total_sunflower_clauses": 4129,
+      "objective": 265763391014.0,
+      "best_objective_bound": 265763391014.0
+    },
+    {
+      "iteration": 2,
+      "radius_core_deletions": 2,
+      "status": "OPTIMAL",
+      "solve_seconds": 1.3525828330311924,
+      "utc": "2026-11-14T03:11:40.131885+00:00",
+      "selected_boxes": 236,
+      "port_counts": [
+        64847,
+        104371,
+        104371,
+        108775
+      ],
+      "uncertified_rate": 1.595452792574628,
+      "new_clauses": 2723,
+      "total_sunflower_clauses": 6852,
+      "objective": 190439763859.0,
+      "best_objective_bound": 190439763859.0
+    },
+    {
+      "iteration": 3,
+      "radius_core_deletions": 2,
+      "status": "FEASIBLE",
+      "solve_seconds": 56.34114554198459,
+      "utc": "2026-11-14T03:12:36.585511+00:00",
+      "selected_boxes": 151,
+      "port_counts": [
+        52314,
+        72052,
+        72127,
+        89026
+      ],
+      "uncertified_rate": 1.5774943060554534,
+      "new_clauses": 879,
+      "total_sunflower_clauses": 7731,
+      "objective": 141917551816.0,
+      "best_objective_bound": 146154614345.0
+    }
+  ],
+  "end_utc": "2026-11-14T03:12:36.616647+00:00",
+  "wall_seconds": 60.0330570419319,
+  "cpu_seconds": 60.417455,
+  "peak_rss_bytes": 523943936,
+  "stop_reason": "allocated search time reached",
+  "sunflower_clauses": 7731
+}

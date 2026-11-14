@@ -1,0 +1,329 @@
+{
+  "claims": [
+    {
+      "value": "(64728+sqrt(3019700660))^(1/26)",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "release_validation/checker.json",
+      "arithmetic": "exact surd comparison",
+      "new_bound": true,
+      "label": "Exact C49 lower bound; finite checker plus PROOF.md gluing argument"
+    },
+    {
+      "value": "1.5678643845",
+      "kind": "rigorous",
+      "producer": "referee/exact_rates.py",
+      "source": "release_validation/exact_rates.json",
+      "arithmetic": "exact integer surd comparison",
+      "new_bound": false,
+      "label": "Ten-place lower bound rounded down"
+    },
+    {
+      "value": "(64728+sqrt(3019700660))^(1/26) - (64728+sqrt(3018723123))^(1/26)",
+      "kind": "rigorous",
+      "producer": "referee/exact_rates.py",
+      "source": "release_validation/exact_rates.json",
+      "arithmetic": "exact surd comparison",
+      "new_bound": false,
+      "label": "Exact margin over Koshta"
+    },
+    {
+      "value": "0.0000044821482170935091180159147830749067693242554392250907328019176417",
+      "kind": "rigorous",
+      "producer": "referee/exact_rates.py",
+      "source": "release_validation/exact_rates.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Strict margin gain_lower"
+    },
+    {
+      "value": "0.0000044821482170935091180159147830749067693242554392250907328019176419",
+      "kind": "rigorous",
+      "producer": "referee/exact_rates.py",
+      "source": "release_validation/exact_rates.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Strict margin gain_upper"
+    },
+    {
+      "value": "(64728+sqrt(3018723123))^(1/26)",
+      "kind": "cited",
+      "source": "https://github.com/DennisKoshta/sunflower3-49a-certificate/blob/c4ee81737f9f6a4ae9793586a27004553a12d5c0/PROOF.md",
+      "new_bound": false,
+      "label": "Koshta exact incumbent"
+    },
+    {
+      "value": "1.5678599024",
+      "kind": "rigorous",
+      "producer": "referee/exact_rates.py",
+      "source": "release_validation/exact_rates.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Koshta rate downward decimal prefix"
+    },
+    {
+      "value": "28",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "release_validation/checker.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Block ground-set size"
+    },
+    {
+      "value": "0",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "certificates/best_1.5678643845728069793620.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "First port index"
+    },
+    {
+      "value": "1",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "certificates/best_1.5678643845728069793620.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Second port index"
+    },
+    {
+      "value": "252292",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "release_validation/baseline.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Baseline members"
+    },
+    {
+      "value": "33969",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "release_validation/baseline.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Baseline N00"
+    },
+    {
+      "value": "252303",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "release_validation/checker.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Candidate members"
+    },
+    {
+      "value": "33980",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "release_validation/checker.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Candidate N00"
+    },
+    {
+      "value": "64728",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "release_validation/checker.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "N01=N10, both blocks; matrix diagonal and Perron rational term"
+    },
+    {
+      "value": "88867",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "release_validation/checker.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "N11, both blocks; matrix upper-right entry"
+    },
+    {
+      "value": "3019700660",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "release_validation/exact_rates.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Candidate radicand"
+    },
+    {
+      "value": "3018723123",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "release_validation/exact_rates.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Baseline radicand"
+    },
+    {
+      "value": "26",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "PROOF.md",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Points added per chain block and root exponent denominator"
+    },
+    {
+      "value": "21",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "release_validation/delta.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Removed exceptional members"
+    },
+    {
+      "value": "32",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "release_validation/delta.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Added exceptional members"
+    },
+    {
+      "value": "7",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "release_validation/delta.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Every added member has seven elements"
+    },
+    {
+      "value": "16",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "release_validation/delta.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Added members per pendant"
+    },
+    {
+      "value": "11",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "certificates/best_delta.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "N00 and total cardinality increase"
+    },
+    {
+      "value": "252271",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "release_validation/delta.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Common members"
+    },
+    {
+      "value": "250659",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "release_validation/delta.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Common product members"
+    },
+    {
+      "value": "806",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "release_validation/delta.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Complete lifted augmentation members per pendant"
+    },
+    {
+      "value": "15",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "release_validation/delta.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Core fibers per pendant, not fifteen actual members"
+    },
+    {
+      "value": "2",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "PROOF.md",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Two ports; boundary term in 26k+2"
+    },
+    {
+      "value": "3",
+      "kind": "rigorous",
+      "producer": "checker.py",
+      "source": "PROOF.md",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Three distinct members define forbidden sunflowers"
+    },
+    {
+      "value": "49",
+      "kind": "cited",
+      "source": "SOURCE_STATEMENTS.md",
+      "new_bound": false,
+      "label": "Constant identifier"
+    },
+    {
+      "value": "260",
+      "kind": "cited",
+      "source": "sources/refresh.json",
+      "new_bound": false,
+      "label": "Merged incumbent PR identifier"
+    },
+    {
+      "value": "4.4",
+      "kind": "cited",
+      "source": "https://doi.org/10.1006/jcta.1997.2778",
+      "new_bound": false,
+      "label": "DEGKM gluing lemma identifier"
+    },
+    {
+      "value": "1997",
+      "kind": "cited",
+      "source": "https://doi.org/10.1006/jcta.1997.2778",
+      "new_bound": false,
+      "label": "DEGKM publication year"
+    },
+    {
+      "value": "79",
+      "kind": "cited",
+      "source": "https://doi.org/10.1006/jcta.1997.2778",
+      "new_bound": false,
+      "label": "DEGKM journal volume"
+    },
+    {
+      "value": "118\u2013132",
+      "kind": "cited",
+      "source": "https://doi.org/10.1006/jcta.1997.2778",
+      "new_bound": false,
+      "label": "DEGKM page range"
+    },
+    {
+      "value": "6",
+      "kind": "cited",
+      "source": "REPLAY.json",
+      "new_bound": false,
+      "label": "GPT-6 Astra model label"
+    },
+    {
+      "value": "A second round found no improvement.",
+      "kind": "cited",
+      "source": "sources/round2_summary.json",
+      "new_bound": false,
+      "label": "Requested round-two negative-result statement"
+    }
+  ],
+  "scope": "All substantive numbers in README.md are mapped above, including finite counts, algebraic constants, decimal endpoints and reference identifiers. Commit hashes and DOI strings identify sources rather than numerical results. The new_bound flag belongs to the supplied round-one result, not this packaging session."
+}

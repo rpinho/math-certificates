@@ -1,0 +1,404 @@
+{
+  "start_utc": "2026-11-14T04:25:59.229994+00:00",
+  "universe_boxes": 2648,
+  "baseline_boxes": 137,
+  "variables": 2648,
+  "containment_clauses": 237648,
+  "threads": 4,
+  "improvements": [],
+  "rounds": [
+    {
+      "iteration": 1,
+      "radius_core_deletions": 16,
+      "status": "UNKNOWN",
+      "solve_seconds": 300.00757929100655,
+      "utc": "2026-11-14T04:31:02.002911+00:00",
+      "new_clauses": 0
+    },
+    {
+      "iteration": 2,
+      "radius_core_deletions": 16,
+      "status": "UNKNOWN",
+      "solve_seconds": 300.00475112500135,
+      "utc": "2026-11-14T04:36:02.011942+00:00",
+      "new_clauses": 0
+    },
+    {
+      "iteration": 3,
+      "radius_core_deletions": 16,
+      "status": "UNKNOWN",
+      "solve_seconds": 300.00188895803876,
+      "utc": "2026-11-14T04:41:02.016972+00:00",
+      "new_clauses": 0
+    },
+    {
+      "iteration": 4,
+      "radius_core_deletions": 16,
+      "status": "UNKNOWN",
+      "solve_seconds": 300.0028497920139,
+      "utc": "2026-11-14T04:46:02.022738+00:00",
+      "new_clauses": 0
+    },
+    {
+      "iteration": 5,
+      "radius_core_deletions": 75,
+      "status": "FEASIBLE",
+      "solve_seconds": 300.01105912495404,
+      "utc": "2026-11-14T04:51:02.037113+00:00",
+      "selected_boxes": 486,
+      "port_counts": [
+        252848,
+        223289,
+        232260,
+        129784
+      ],
+      "uncertified_rate": 1.6437460799060875,
+      "new_clauses": 50000,
+      "total_sunflower_clauses": 436763,
+      "objective": 472378189205.0,
+      "best_objective_bound": 480529926349.0
+    },
+    {
+      "iteration": 6,
+      "radius_core_deletions": 75,
+      "status": "FEASIBLE",
+      "solve_seconds": 300.0102475830354,
+      "utc": "2026-11-14T04:56:02.907107+00:00",
+      "selected_boxes": 394,
+      "port_counts": [
+        157947,
+        219240,
+        236176,
+        192940
+      ],
+      "uncertified_rate": 1.6427337415285155,
+      "new_clauses": 50000,
+      "total_sunflower_clauses": 486763,
+      "objective": 415086641878.0,
+      "best_objective_bound": 485872202771.0
+    },
+    {
+      "iteration": 7,
+      "radius_core_deletions": 75,
+      "status": "FEASIBLE",
+      "solve_seconds": 300.0108365420019,
+      "utc": "2026-11-14T05:01:03.897638+00:00",
+      "selected_boxes": 376,
+      "port_counts": [
+        187909,
+        148168,
+        158322,
+        75935
+      ],
+      "uncertified_rate": 1.6183455452078963,
+      "new_clauses": 50000,
+      "total_sunflower_clauses": 536763,
+      "objective": 328684796241.0,
+      "best_objective_bound": 485957968503.0
+    },
+    {
+      "iteration": 8,
+      "radius_core_deletions": 75,
+      "status": "FEASIBLE",
+      "solve_seconds": 300.0132411249215,
+      "utc": "2026-11-14T05:06:04.860607+00:00",
+      "selected_boxes": 415,
+      "port_counts": [
+        201939,
+        107117,
+        105463,
+        34824
+      ],
+      "uncertified_rate": 1.5960350797928915,
+      "new_clauses": 50000,
+      "total_sunflower_clauses": 586763,
+      "objective": 280367513523.0,
+      "best_objective_bound": 486006396050.0
+    },
+    {
+      "iteration": 9,
+      "radius_core_deletions": 75,
+      "status": "FEASIBLE",
+      "solve_seconds": 300.0254224999808,
+      "utc": "2026-11-14T05:11:05.771766+00:00",
+      "selected_boxes": 303,
+      "port_counts": [
+        136647,
+        123000,
+        103589,
+        68559
+      ],
+      "uncertified_rate": 1.602308150206006,
+      "new_clauses": 42283,
+      "total_sunflower_clauses": 629046,
+      "objective": 244997482107.0,
+      "best_objective_bound": 485944873931.0
+    },
+    {
+      "iteration": 10,
+      "radius_core_deletions": 75,
+      "status": "FEASIBLE",
+      "solve_seconds": 300.0117187909782,
+      "utc": "2026-11-14T05:16:06.712639+00:00",
+      "selected_boxes": 434,
+      "port_counts": [
+        215772,
+        107980,
+        114924,
+        31399
+      ],
+      "uncertified_rate": 1.5972130142717231,
+      "new_clauses": 50000,
+      "total_sunflower_clauses": 679046,
+      "objective": 295657785112.0,
+      "best_objective_bound": 486371708157.0
+    },
+    {
+      "iteration": 11,
+      "radius_core_deletions": 75,
+      "status": "FEASIBLE",
+      "solve_seconds": 300.01017045788467,
+      "utc": "2026-11-14T05:21:07.484631+00:00",
+      "selected_boxes": 248,
+      "port_counts": [
+        87728,
+        125746,
+        111009,
+        95267
+      ],
+      "uncertified_rate": 1.6021685437304352,
+      "new_clauses": 23829,
+      "total_sunflower_clauses": 702875,
+      "objective": 218774888207.0,
+      "best_objective_bound": 486395607862.0
+    },
+    {
+      "iteration": 12,
+      "radius_core_deletions": 75,
+      "status": "FEASIBLE",
+      "solve_seconds": 300.4289570830297,
+      "utc": "2026-11-14T05:26:08.673097+00:00",
+      "selected_boxes": 193,
+      "port_counts": [
+        66585,
+        81867,
+        78264,
+        53732
+      ],
+      "uncertified_rate": 1.5773093844709385,
+      "new_clauses": 14816,
+      "total_sunflower_clauses": 717691,
+      "objective": 150493377309.0,
+      "best_objective_bound": 485747609499.0
+    },
+    {
+      "iteration": 13,
+      "radius_core_deletions": 75,
+      "status": "FEASIBLE",
+      "solve_seconds": 300.012830749969,
+      "utc": "2026-11-14T05:31:09.294316+00:00",
+      "selected_boxes": 382,
+      "port_counts": [
+        187791,
+        108288,
+        102726,
+        8107
+      ],
+      "uncertified_rate": 1.579322442793789,
+      "new_clauses": 50000,
+      "total_sunflower_clauses": 767691,
+      "objective": 259759301937.0,
+      "best_objective_bound": 485922015788.0
+    },
+    {
+      "iteration": 14,
+      "radius_core_deletions": 75,
+      "status": "FEASIBLE",
+      "solve_seconds": 300.0131578340661,
+      "utc": "2026-11-14T05:36:10.098429+00:00",
+      "selected_boxes": 231,
+      "port_counts": [
+        69825,
+        81645,
+        59759,
+        58345
+      ],
+      "uncertified_rate": 1.5753513696566637,
+      "new_clauses": 33934,
+      "total_sunflower_clauses": 801625,
+      "objective": 145175157298.0,
+      "best_objective_bound": 485732992063.0
+    },
+    {
+      "iteration": 15,
+      "radius_core_deletions": 75,
+      "status": "FEASIBLE",
+      "solve_seconds": 300.01198491698597,
+      "utc": "2026-11-14T05:41:11.000198+00:00",
+      "selected_boxes": 239,
+      "port_counts": [
+        79849,
+        87863,
+        69679,
+        39546
+      ],
+      "uncertified_rate": 1.5754562067912832,
+      "new_clauses": 39637,
+      "total_sunflower_clauses": 841262,
+      "objective": 155527849489.0,
+      "best_objective_bound": 486333092077.0
+    },
+    {
+      "iteration": 16,
+      "radius_core_deletions": 75,
+      "status": "FEASIBLE",
+      "solve_seconds": 300.0166203749832,
+      "utc": "2026-11-14T05:46:11.822124+00:00",
+      "selected_boxes": 178,
+      "port_counts": [
+        88137,
+        59548,
+        55169,
+        42669
+      ],
+      "uncertified_rate": 1.5673800485643181,
+      "new_clauses": 15252,
+      "total_sunflower_clauses": 856514,
+      "objective": 141778666935.0,
+      "best_objective_bound": 486326482148.0
+    },
+    {
+      "iteration": 17,
+      "radius_core_deletions": 75,
+      "status": "FEASIBLE",
+      "solve_seconds": 300.02006366697606,
+      "utc": "2026-11-14T05:51:12.679674+00:00",
+      "selected_boxes": 181,
+      "port_counts": [
+        62741,
+        71936,
+        59848,
+        69959
+      ],
+      "uncertified_rate": 1.5739758884640966,
+      "new_clauses": 14308,
+      "total_sunflower_clauses": 870822,
+      "objective": 138234175205.0,
+      "best_objective_bound": 485770876327.0
+    },
+    {
+      "iteration": 18,
+      "radius_core_deletions": 75,
+      "status": "FEASIBLE",
+      "solve_seconds": 300.0161732500419,
+      "utc": "2026-11-14T05:56:13.440909+00:00",
+      "selected_boxes": 166,
+      "port_counts": [
+        61128,
+        64141,
+        65561,
+        56459
+      ],
+      "uncertified_rate": 1.5698103635551008,
+      "new_clauses": 6306,
+      "total_sunflower_clauses": 877128,
+      "objective": 131713060834.0,
+      "best_objective_bound": 485730377307.0
+    },
+    {
+      "iteration": 19,
+      "radius_core_deletions": 75,
+      "status": "FEASIBLE",
+      "solve_seconds": 300.01251620799303,
+      "utc": "2026-11-14T06:01:14.224576+00:00",
+      "selected_boxes": 167,
+      "port_counts": [
+        54347,
+        65689,
+        81534,
+        49530
+      ],
+      "uncertified_rate": 1.5710165375948666,
+      "new_clauses": 6970,
+      "total_sunflower_clauses": 884098,
+      "objective": 132850441942.0,
+      "best_objective_bound": 486122146571.0
+    },
+    {
+      "iteration": 20,
+      "radius_core_deletions": 75,
+      "status": "FEASIBLE",
+      "solve_seconds": 300.0311886250274,
+      "utc": "2026-11-14T06:06:14.903825+00:00",
+      "selected_boxes": 210,
+      "port_counts": [
+        92338,
+        54934,
+        73077,
+        20782
+      ],
+      "uncertified_rate": 1.5620949475077015,
+      "new_clauses": 42763,
+      "total_sunflower_clauses": 926861,
+      "objective": 145048707967.0,
+      "best_objective_bound": 485728761211.0
+    },
+    {
+      "iteration": 21,
+      "radius_core_deletions": 75,
+      "status": "FEASIBLE",
+      "solve_seconds": 300.01440837502014,
+      "utc": "2026-11-14T06:11:15.800621+00:00",
+      "selected_boxes": 171,
+      "port_counts": [
+        62312,
+        59397,
+        76320,
+        47487
+      ],
+      "uncertified_rate": 1.569470942910995,
+      "new_clauses": 5918,
+      "total_sunflower_clauses": 932779,
+      "objective": 132901463342.0,
+      "best_objective_bound": 485730377307.0
+    },
+    {
+      "iteration": 22,
+      "radius_core_deletions": 75,
+      "status": "FEASIBLE",
+      "solve_seconds": 300.01656637492124,
+      "utc": "2026-11-14T06:16:16.592579+00:00",
+      "selected_boxes": 162,
+      "port_counts": [
+        69279,
+        57000,
+        61080,
+        44254
+      ],
+      "uncertified_rate": 1.5651711650148945,
+      "new_clauses": 5607,
+      "total_sunflower_clauses": 938386,
+      "objective": 128712381770.0,
+      "best_objective_bound": 488339629661.0
+    },
+    {
+      "iteration": 23,
+      "radius_core_deletions": 75,
+      "status": "FEASIBLE",
+      "solve_seconds": 300.017052375013,
+      "utc": "2026-11-14T06:21:17.293895+00:00",
+      "selected_boxes": 166,
+      "port_counts": [
+        59674,
+        76771,
+        72145,
+        57570
+      ],
+      "uncertified_rate": 1.5742938607923793,
+      "new_clauses": 6146,
+      "total_sunflower_clauses": 944532,
+      "objective": 140488889081.0,
+      "best_objective_bound": 486090037058.0
+    }
+  ]
+}

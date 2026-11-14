@@ -1,0 +1,50 @@
+{
+  "H_members": 121,
+  "root_avoiding": 46,
+  "root_containing": 75,
+  "both_pendant_fibers_complete": true,
+  "pendants": [
+    {
+      "empty_pendant_first_point": 8,
+      "other_pendant_first_point": 18,
+      "core_fibers": {
+        "63": "46 avoiding root",
+        "105": "46 avoiding root",
+        "126": "46 avoiding root",
+        "127": "75 containing root (root removed)",
+        "142": "46 avoiding root",
+        "179": "75 containing root (root removed)",
+        "189": "46 avoiding root",
+        "219": "46 avoiding root",
+        "221": "46 avoiding root",
+        "223": "75 containing root (root removed)",
+        "231": "46 avoiding root",
+        "239": "75 containing root (root removed)",
+        "245": "46 avoiding root",
+        "246": "46 avoiding root",
+        "250": "46 avoiding root"
+      }
+    },
+    {
+      "empty_pendant_first_point": 18,
+      "other_pendant_first_point": 8,
+      "core_fibers": {
+        "179": "75 containing root (root removed)",
+        "239": "75 containing root (root removed)",
+        "127": "75 containing root (root removed)",
+        "223": "75 containing root (root removed)",
+        "90": "46 avoiding root",
+        "125": "46 avoiding root",
+        "189": "46 avoiding root",
+        "190": "46 avoiding root",
+        "197": "46 avoiding root",
+        "235": "46 avoiding root",
+        "238": "46 avoiding root",
+        "249": "46 avoiding root",
+        "246": "46 avoiding root",
+        "119": "46 avoiding root",
+        "159": "46 avoiding root"
+      }
+    }
+  ]
+}

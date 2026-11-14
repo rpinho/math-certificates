@@ -1,0 +1,201 @@
+{
+  "start_utc": "2026-11-14T03:13:44.213461+00:00",
+  "universe_boxes": 2325,
+  "baseline_boxes": 126,
+  "variables": 2325,
+  "containment_clauses": 233966,
+  "threads": 4,
+  "improvements": [],
+  "rounds": [
+    {
+      "iteration": 1,
+      "radius_core_deletions": 2,
+      "status": "OPTIMAL",
+      "solve_seconds": 1.075664791977033,
+      "utc": "2026-11-14T03:13:45.319562+00:00",
+      "selected_boxes": 262,
+      "port_counts": [
+        52566,
+        155340,
+        155340,
+        219688
+      ],
+      "uncertified_rate": 1.6160219954933286,
+      "new_clauses": 4129,
+      "total_sunflower_clauses": 4129,
+      "objective": 265763391014.0,
+      "best_objective_bound": 265763391014.0
+    },
+    {
+      "iteration": 2,
+      "radius_core_deletions": 2,
+      "status": "OPTIMAL",
+      "solve_seconds": 1.2332048329990357,
+      "utc": "2026-11-14T03:13:46.690362+00:00",
+      "selected_boxes": 236,
+      "port_counts": [
+        64847,
+        104371,
+        104371,
+        108775
+      ],
+      "uncertified_rate": 1.595452792574628,
+      "new_clauses": 2723,
+      "total_sunflower_clauses": 6852,
+      "objective": 190439763859.0,
+      "best_objective_bound": 190439763859.0
+    },
+    {
+      "iteration": 3,
+      "radius_core_deletions": 2,
+      "status": "FEASIBLE",
+      "solve_seconds": 90.00241162499879,
+      "utc": "2026-11-14T03:15:16.805775+00:00",
+      "selected_boxes": 154,
+      "port_counts": [
+        52314,
+        72127,
+        72173,
+        89072
+      ],
+      "uncertified_rate": 1.5775280729210925,
+      "new_clauses": 936,
+      "total_sunflower_clauses": 7788,
+      "objective": 141992271795.0,
+      "best_objective_bound": 146154614345.0
+    },
+    {
+      "iteration": 4,
+      "radius_core_deletions": 2,
+      "status": "FEASIBLE",
+      "solve_seconds": 90.00255937501788,
+      "utc": "2026-11-14T03:16:46.845892+00:00",
+      "selected_boxes": 150,
+      "port_counts": [
+        34244,
+        83178,
+        83195,
+        99937
+      ],
+      "uncertified_rate": 1.5780763482834792,
+      "new_clauses": 575,
+      "total_sunflower_clauses": 8363,
+      "objective": 141773875084.0,
+      "best_objective_bound": 143364525851.0
+    },
+    {
+      "iteration": 5,
+      "radius_core_deletions": 2,
+      "status": "FEASIBLE",
+      "solve_seconds": 90.0370815419592,
+      "utc": "2026-11-14T03:18:16.925574+00:00",
+      "selected_boxes": 158,
+      "port_counts": [
+        34060,
+        65045,
+        65121,
+        118470
+      ],
+      "uncertified_rate": 1.5722078617740902,
+      "new_clauses": 531,
+      "total_sunflower_clauses": 8894,
+      "objective": 129250676276.0,
+      "best_objective_bound": 130908700074.0
+    },
+    {
+      "iteration": 6,
+      "radius_core_deletions": 2,
+      "status": "FEASIBLE",
+      "solve_seconds": 90.00243579200469,
+      "utc": "2026-11-14T03:19:46.970054+00:00",
+      "selected_boxes": 148,
+      "port_counts": [
+        34060,
+        65028,
+        64953,
+        99742
+      ],
+      "uncertified_rate": 1.5696507695706423,
+      "new_clauses": 362,
+      "total_sunflower_clauses": 9256,
+      "objective": 123368790015.0,
+      "best_objective_bound": 124998474643.0
+    },
+    {
+      "iteration": 7,
+      "radius_core_deletions": 2,
+      "status": "FEASIBLE",
+      "solve_seconds": 90.00201145897154,
+      "utc": "2026-11-14T03:21:17.010225+00:00",
+      "selected_boxes": 113,
+      "port_counts": [
+        34207,
+        64804,
+        64787,
+        88777
+      ],
+      "uncertified_rate": 1.5679765549620504,
+      "new_clauses": 107,
+      "total_sunflower_clauses": 9363,
+      "objective": 119903061826.0,
+      "best_objective_bound": 122054749559.0
+    },
+    {
+      "iteration": 8,
+      "radius_core_deletions": 2,
+      "status": "FEASIBLE",
+      "solve_seconds": 90.00235166598577,
+      "utc": "2026-11-14T03:22:47.031698+00:00",
+      "selected_boxes": 112,
+      "port_counts": [
+        34282,
+        64729,
+        64682,
+        88868
+      ],
+      "uncertified_rate": 1.567975876254056,
+      "new_clauses": 107,
+      "total_sunflower_clauses": 9470,
+      "objective": 119901846752.0,
+      "best_objective_bound": 121874146019.0
+    },
+    {
+      "iteration": 9,
+      "radius_core_deletions": 2,
+      "status": "FEASIBLE",
+      "solve_seconds": 90.20409766607918,
+      "utc": "2026-11-14T03:24:17.254758+00:00",
+      "selected_boxes": 115,
+      "port_counts": [
+        34069,
+        64878,
+        64954,
+        88692
+      ],
+      "uncertified_rate": 1.5679679574593344,
+      "new_clauses": 113,
+      "total_sunflower_clauses": 9583,
+      "objective": 119885682239.0,
+      "best_objective_bound": 122017548379.0
+    },
+    {
+      "iteration": 10,
+      "radius_core_deletions": 2,
+      "status": "FEASIBLE",
+      "solve_seconds": 90.00275991705712,
+      "utc": "2026-11-14T03:25:47.279631+00:00",
+      "selected_boxes": 136,
+      "port_counts": [
+        34060,
+        64954,
+        64970,
+        88765
+      ],
+      "uncertified_rate": 1.5679988062849228,
+      "new_clauses": 145,
+      "total_sunflower_clauses": 9728,
+      "objective": 119946970229.0,
+      "best_objective_bound": 121994548379.0
+    }
+  ]
+}

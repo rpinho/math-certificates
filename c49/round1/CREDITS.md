@@ -1,0 +1,7 @@
+# Credits and AI disclosure
+
+D. Koshta with Claude supplied the incumbent two-pendant augmented block. This candidate improves that block's exceptional members. Aspect5 / IRSI supplied the exact transfer construction; joshua17-create with Claude supplied the F/H families; Sylla supplied pendant augmentation; DEGKM1997 Lemma 4.4 supplies the underlying gluing statement. References and immutable pins are in README.md.
+
+The producer search and separately written checker (same agent) used gpt-6.1-sol via Codex. A clean-room AI referee on a different model (GPT-6 Astra, gpt-6-astra) wrote its own decision-diagram checker and gluing argument from the permitted prose and data. Its report records that it did not read or run the producer's code. This packaging session assembles the existing result; it does not constitute another referee review. No human review or optimality is claimed.
+
+All executable source included here is ours. No third-party code is included. The compressed baseline, its reconstructed mask data, and the mathematical PROOF/FORMAT text needed to replay our reconstruction originate with Dennis Koshta at the pinned commit, under MIT; LICENSE_KOSHTA is copied byte-for-byte beside these data. Aspect5's unlicensed repository is cited; no material from it is copied. SOURCE_STATEMENTS.md contains the producer's table extracts and mathematical statements; the table's Apache-2.0 text is covered by sources/TEORTH_LICENSE.

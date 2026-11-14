@@ -1,0 +1,14 @@
+# Release prior art
+
+This job packages the supplied round-one result. It performs no new construction search. The producer's earlier search is archived in producer/PRIOR_ART.md; the referee's prior-art report is preserved byte-for-byte in referee/PRIOR_ART.md.
+
+On 2026-11-14T09:58:34.463066+00:00, the fresh raw table source at `2d8eba58ea108f8cf746dbab8712ad317202d6c5` still lists Koshta's exact `(64728+sqrt(3018723123))^(1/26)` as the best printed lower bound. GitHub confirms PR #260 merged at that commit. The current open sunflower issue/PR query returned four discussions (#235, #309, #326, #322); their bodies concern replay or formalization, and give no higher numerical bound. A repository search sorted by update returned the known capacity repositories. The named AI-result code search returned an authorization error; it is incomplete, not evidence of absence. The earlier producer/referee reports record broader bounded searches, relevant arXiv papers, and PR #322's 806-lifted-member clarification. Public raw responses are retained in the local packaging workspace; the specific release facts and limits are in sources/refresh.json.
+
+The pinned baseline is reproduced locally with our prepare.py and checked before the candidate. The finite-to-asymptotic statement is proved in PROOF.md and the referee report. This package introduces no new result. The supplied candidate strictly beats the exact printed incumbent; unrestricted worldwide priority and global optimality are not asserted.
+
+- D. Koshta with Claude, incumbent two-pendant block: [certificate and mathematical proof](https://github.com/DennisKoshta/sunflower3-49a-certificate/blob/c4ee81737f9f6a4ae9793586a27004553a12d5c0/PROOF.md), commit `c4ee81737f9f6a4ae9793586a27004553a12d5c0`. Its table contribution was merged as teorth PR #260 at [commit `2d8eba58ea108f8cf746dbab8712ad317202d6c5`](https://github.com/teorth/optimizationproblems/commit/2d8eba58ea108f8cf746dbab8712ad317202d6c5).
+- Aspect5 / Institute for Recursive Self Improvement (IRSI), [exact transfer construction](https://github.com/Aspect5/sunflower-free-capacity/tree/e478c81d8b57eba956fdaf621643eb6f0781f820). Cited only; no content from that unlicensed repository is included.
+- joshua17-create with Claude, [F/H families](https://github.com/joshua17-create/sunflower-lower-bound/tree/6e34d78ab482f4cfd5a5ece62a6d06141e3e8c8d).
+- Sylla, [pendant augmentation](https://github.com/xSyllaa/sunflower-pendant-chain/tree/8e21d0287711b4f0bfc23e9443523e2aa472cca1).
+- W. A. Deuber, P. Erdős, D. S. Gunderson, A. V. Kostochka and A. G. Meyer, *Intersection statements for systems of sets*, J. Combin. Theory Ser. A 79 (1997), 118–132, Lemma 4.4. [DOI](https://doi.org/10.1006/jcta.1997.2778).
+- [Tao table, pinned C49 definition and incumbent](https://github.com/teorth/optimizationproblems/blob/2d8eba58ea108f8cf746dbab8712ad317202d6c5/constants/49a.md).

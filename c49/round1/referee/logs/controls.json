@@ -1,0 +1,25 @@
+{
+  "sunflower": {
+    "added_mask": 218556764,
+    "witness": [
+      257280847,
+      229432812,
+      218556764
+    ],
+    "intersection": 218417484,
+    "search_attempt": 2,
+    "proper_containments": 0,
+    "distinct_sunflowers": 6123,
+    "exit_code": 1
+  },
+  "sperner": {
+    "added_mask": 0,
+    "witness": [
+      0,
+      16255
+    ],
+    "proper_containments": 252303,
+    "exit_code": 1
+  },
+  "random_seed": 491114
+}

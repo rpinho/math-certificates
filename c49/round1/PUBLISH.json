@@ -1,0 +1,18 @@
+{
+  "target": "teorth/optimizationproblems",
+  "new_bound": true,
+  "producer_author": "producer search-and-checker session",
+  "producer_model": "gpt-6.1-sol",
+  "referee_model": "gpt-6-astra",
+  "submitter": "rpinho",
+  "destination": "c49/round1",
+  "certificate_repository": "rpinho/math-certificates",
+  "replay_inputs": {
+    "certificates/best_1.5678643845728069793620.json": "certificate",
+    "certificates/best_delta.json": "certificate",
+    "producer/REPORT.md": "proof",
+    "SOURCE_STATEMENTS.md": "proof"
+  },
+  "publication_status": "Local sealed packet; no publication action performed.",
+  "baseline_commit": "c4ee81737f9f6a4ae9793586a27004553a12d5c0"
+}

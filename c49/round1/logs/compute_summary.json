@@ -1,0 +1,242 @@
+{
+  "timed_compute_core_seconds": 34249.89,
+  "timed_compute_core_hours": 9.513858333333333,
+  "maximum_measured_aggregate_job_rss_bytes": 2435252224,
+  "timings": [
+    {
+      "file": "logs/baseline_check.time",
+      "wall_seconds": 0.18,
+      "user_seconds": 0.17,
+      "system_seconds": 0.0
+    },
+    {
+      "file": "logs/best_check.time",
+      "wall_seconds": 0.19,
+      "user_seconds": 0.18,
+      "system_seconds": 0.01
+    },
+    {
+      "file": "logs/coupled.time",
+      "wall_seconds": 773.16,
+      "user_seconds": 771.7,
+      "system_seconds": 12.86
+    },
+    {
+      "file": "logs/coupled_current.time",
+      "wall_seconds": 3562.61,
+      "user_seconds": 3561.01,
+      "system_seconds": 57.17
+    },
+    {
+      "file": "logs/coupled_improve.time",
+      "wall_seconds": 7105.92,
+      "user_seconds": 7111.98,
+      "system_seconds": 110.02
+    },
+    {
+      "file": "logs/coupled_profile.time",
+      "wall_seconds": 62.72,
+      "user_seconds": 60.39,
+      "system_seconds": 1.23
+    },
+    {
+      "file": "logs/exchange_combined_snapshot_r7.time",
+      "wall_seconds": 37.11,
+      "user_seconds": 36.31,
+      "system_seconds": 0.66
+    },
+    {
+      "file": "logs/exchange_exact.time",
+      "wall_seconds": 0.13,
+      "user_seconds": 0.03,
+      "system_seconds": 0.0
+    },
+    {
+      "file": "logs/exchange_exact_current_r2.time",
+      "wall_seconds": 0.17,
+      "user_seconds": 0.04,
+      "system_seconds": 0.0
+    },
+    {
+      "file": "logs/exchange_exact_current_r6.time",
+      "wall_seconds": 10.71,
+      "user_seconds": 10.65,
+      "system_seconds": 0.02
+    },
+    {
+      "file": "logs/exchange_exact_r3.time",
+      "wall_seconds": 0.12,
+      "user_seconds": 0.04,
+      "system_seconds": 0.0
+    },
+    {
+      "file": "logs/exchange_exact_r4.time",
+      "wall_seconds": 0.29,
+      "user_seconds": 0.29,
+      "system_seconds": 0.0
+    },
+    {
+      "file": "logs/exchange_exact_r5.time",
+      "wall_seconds": 2.54,
+      "user_seconds": 2.53,
+      "system_seconds": 0.0
+    },
+    {
+      "file": "logs/exchange_exact_r6.time",
+      "wall_seconds": 9.8,
+      "user_seconds": 9.75,
+      "system_seconds": 0.02
+    },
+    {
+      "file": "logs/exchange_exact_snapshot_r7.time",
+      "wall_seconds": 33.73,
+      "user_seconds": 33.59,
+      "system_seconds": 0.07
+    },
+    {
+      "file": "logs/exchange_screen.time",
+      "wall_seconds": 0.75,
+      "user_seconds": 0.67,
+      "system_seconds": 0.0
+    },
+    {
+      "file": "logs/exchange_screen_current_r2.time",
+      "wall_seconds": 0.71,
+      "user_seconds": 0.68,
+      "system_seconds": 0.0
+    },
+    {
+      "file": "logs/exchange_screen_current_r6.time",
+      "wall_seconds": 0.66,
+      "user_seconds": 0.65,
+      "system_seconds": 0.01
+    },
+    {
+      "file": "logs/exchange_screen_r3.time",
+      "wall_seconds": 0.63,
+      "user_seconds": 0.56,
+      "system_seconds": 0.0
+    },
+    {
+      "file": "logs/exchange_screen_r4.time",
+      "wall_seconds": 0.61,
+      "user_seconds": 0.6,
+      "system_seconds": 0.0
+    },
+    {
+      "file": "logs/exchange_screen_r5.time",
+      "wall_seconds": 0.58,
+      "user_seconds": 0.57,
+      "system_seconds": 0.0
+    },
+    {
+      "file": "logs/exchange_screen_r6.time",
+      "wall_seconds": 0.6,
+      "user_seconds": 0.58,
+      "system_seconds": 0.0
+    },
+    {
+      "file": "logs/exchange_screen_snapshot_r7.time",
+      "wall_seconds": 0.65,
+      "user_seconds": 0.63,
+      "system_seconds": 0.01
+    },
+    {
+      "file": "logs/extension.time",
+      "wall_seconds": 0.16,
+      "user_seconds": 0.08,
+      "system_seconds": 0.0
+    },
+    {
+      "file": "logs/extension_best.time",
+      "wall_seconds": 0.1,
+      "user_seconds": 0.09,
+      "system_seconds": 0.0
+    },
+    {
+      "file": "logs/extension_current.time",
+      "wall_seconds": 0.1,
+      "user_seconds": 0.08,
+      "system_seconds": 0.0
+    },
+    {
+      "file": "logs/final_best_check.time",
+      "wall_seconds": 0.18,
+      "user_seconds": 0.16,
+      "system_seconds": 0.01
+    },
+    {
+      "file": "logs/free_extras.time",
+      "wall_seconds": 0.08,
+      "user_seconds": 0.07,
+      "system_seconds": 0.0
+    },
+    {
+      "file": "logs/free_extras_long.time",
+      "wall_seconds": 10807.95,
+      "user_seconds": 21579.86,
+      "system_seconds": 182.54
+    },
+    {
+      "file": "logs/free_extras_search.time",
+      "wall_seconds": 67.8,
+      "user_seconds": 67.06,
+      "system_seconds": 1.13
+    },
+    {
+      "file": "logs/free_extras_threshold33.time",
+      "wall_seconds": 607.92,
+      "user_seconds": 606.62,
+      "system_seconds": 10.28
+    },
+    {
+      "file": "logs/pool_search_current_r6.time",
+      "wall_seconds": 0.82,
+      "user_seconds": 0.75,
+      "system_seconds": 0.06
+    },
+    {
+      "file": "logs/pool_search_r6.time",
+      "wall_seconds": 10.15,
+      "user_seconds": 9.96,
+      "system_seconds": 0.11
+    },
+    {
+      "file": "logs/pool_search_snapshot_r7.time",
+      "wall_seconds": 4.44,
+      "user_seconds": 4.35,
+      "system_seconds": 0.07
+    },
+    {
+      "file": "logs/prepare_reproduction.time",
+      "wall_seconds": 0.6,
+      "user_seconds": 0.57,
+      "system_seconds": 0.01
+    },
+    {
+      "file": "logs/template_swaps.time",
+      "wall_seconds": 0.09,
+      "user_seconds": 0.07,
+      "system_seconds": 0.01
+    },
+    {
+      "file": "logs/template_swaps2.time",
+      "wall_seconds": 0.08,
+      "user_seconds": 0.07,
+      "system_seconds": 0.0
+    },
+    {
+      "file": "logs/template_swaps_r3.time",
+      "wall_seconds": 0.09,
+      "user_seconds": 0.08,
+      "system_seconds": 0.0
+    },
+    {
+      "file": "logs/template_swaps_r4.time",
+      "wall_seconds": 0.13,
+      "user_seconds": 0.12,
+      "system_seconds": 0.0
+    }
+  ],
+  "scope": "sum of nonoverlapping /usr/bin/time -l command measurements; excludes small untimed setup and interactive overhead"
+}

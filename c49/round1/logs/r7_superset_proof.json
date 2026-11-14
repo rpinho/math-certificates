@@ -1,0 +1,210 @@
+{
+  "explanation": "For any deletion set R with |R|<=7, choose one minimal individual deletion cover for each introduced candidate, with union U subset R. All introduced candidates lie in C(U). The exact monotone count bound excludes the 147522 nonpromising U. If |U|=7, R=U and the fixed-removal SAT solves exclude improvement. The remaining twelve U have six N00 removals and seven N00 candidates, including a distinct sunflower triple entirely among those seven. Thus at most six can be introduced regardless of any additional old deletion; this cannot increase any port count relative to the incumbent, and an additional old deletion only decreases a count. These twelve regions and all their supersets are excluded.",
+  "regions": [
+    {
+      "region": 2,
+      "removed": [
+        64768,
+        93952,
+        184064,
+        194816,
+        240384,
+        257024
+      ],
+      "new_only_sunflower": [
+        60160,
+        60672,
+        63744
+      ],
+      "valid_new_count_at_most": 6
+    },
+    {
+      "region": 18,
+      "removed": [
+        112384,
+        179712,
+        236800,
+        240384,
+        257024,
+        259072
+      ],
+      "new_only_sunflower": [
+        238848,
+        239104,
+        240640
+      ],
+      "valid_new_count_at_most": 6
+    },
+    {
+      "region": 27,
+      "removed": [
+        163328,
+        179712,
+        194816,
+        226048,
+        240384,
+        252416
+      ],
+      "new_only_sunflower": [
+        146176,
+        146944,
+        162304
+      ],
+      "valid_new_count_at_most": 6
+    },
+    {
+      "region": 30,
+      "removed": [
+        165412864,
+        192413696,
+        225705984,
+        228327424,
+        238813184,
+        256638976
+      ],
+      "new_only_sunflower": [
+        154927104,
+        157024256,
+        161218560
+      ],
+      "valid_new_count_at_most": 6
+    },
+    {
+      "region": 55,
+      "removed": [
+        129499136,
+        228327424,
+        238813184,
+        248774656,
+        262406144,
+        265289728
+      ],
+      "new_only_sunflower": [
+        244580352,
+        244842496,
+        246415360
+      ],
+      "valid_new_count_at_most": 6
+    },
+    {
+      "region": 68,
+      "removed": [
+        93952,
+        163328,
+        184064,
+        186112,
+        220416,
+        226048
+      ],
+      "new_only_sunflower": [
+        151296,
+        153344,
+        157440
+      ],
+      "valid_new_count_at_most": 6
+    },
+    {
+      "region": 76,
+      "removed": [
+        50069504,
+        99876864,
+        216793088,
+        225705984,
+        238813184,
+        248774656
+      ],
+      "new_only_sunflower": [
+        75235328,
+        83099648,
+        91488256
+      ],
+      "valid_new_count_at_most": 6
+    },
+    {
+      "region": 80,
+      "removed": [
+        129499136,
+        130809856,
+        192413696,
+        233308160,
+        256638976,
+        265289728
+      ],
+      "new_only_sunflower": [
+        122421248,
+        123207680,
+        124256256
+      ],
+      "valid_new_count_at_most": 6
+    },
+    {
+      "region": 81,
+      "removed": [
+        50069504,
+        99876864,
+        129499136,
+        130809856,
+        199491584,
+        262406144
+      ],
+      "new_only_sunflower": [
+        61603840,
+        62128128,
+        65273856
+      ],
+      "valid_new_count_at_most": 6
+    },
+    {
+      "region": 85,
+      "removed": [
+        112384,
+        122368,
+        186112,
+        226048,
+        252416,
+        259072
+      ],
+      "new_only_sunflower": [
+        119552,
+        120320,
+        121344
+      ],
+      "valid_new_count_at_most": 6
+    },
+    {
+      "region": 94,
+      "removed": [
+        50069504,
+        165412864,
+        192413696,
+        199491584,
+        216793088,
+        233308160
+      ],
+      "new_only_sunflower": [
+        149684224,
+        150470656,
+        166199296
+      ],
+      "valid_new_count_at_most": 6
+    },
+    {
+      "region": 102,
+      "removed": [
+        64768,
+        93952,
+        112384,
+        122368,
+        220416,
+        236800
+      ],
+      "new_only_sunflower": [
+        73472,
+        81152,
+        89344
+      ],
+      "valid_new_count_at_most": 6
+    }
+  ],
+  "all_108_residual_regions_use_only_N00_removals_and_additions": true
+}

@@ -1,0 +1,64 @@
+{
+  "checked_utc": "2026-11-14T09:58:34.463066+00:00",
+  "table_commit": "2d8eba58ea108f8cf746dbab8712ad317202d6c5",
+  "table_source": "https://github.com/teorth/optimizationproblems/blob/2d8eba58ea108f8cf746dbab8712ad317202d6c5/constants/49a.md",
+  "printed_best_exact": "(64728+sqrt(3018723123))^(1/26)",
+  "pr260": {
+    "number": 260,
+    "state": "closed",
+    "merged": true,
+    "merged_at": "2026-10-26T03:51:25Z",
+    "merge_commit_sha": "2d8eba58ea108f8cf746dbab8712ad317202d6c5"
+  },
+  "open_sunflower_items": [
+    {
+      "number": 235,
+      "title": "Remove the asterisks from C49: the five lower bounds independently replayed"
+    },
+    {
+      "number": 309,
+      "title": "Lean 4 kernel-checked files for the 1d [STEPS2026], 1d [AER2026], 1c [R2026] and 49a [Cla2026] entries"
+    },
+    {
+      "number": 326,
+      "title": "Record independent replays of six asterisked rows on 1d, 16a, 49a and 70a (asterisks kept)"
+    },
+    {
+      "number": 322,
+      "title": "49a: state the per-pendant count in the [Kos2026] row"
+    }
+  ],
+  "repository_search": {
+    "total_count": 5,
+    "items": [
+      {
+        "title": "DennisKoshta/sunflower3-49a-certificate",
+        "body": null,
+        "repository": "DennisKoshta/sunflower3-49a-certificate"
+      },
+      {
+        "title": "xSyllaa/sunflower-pendant-chain",
+        "body": null,
+        "repository": "xSyllaa/sunflower-pendant-chain"
+      },
+      {
+        "title": "clavis-systems/c49-sunflower-replay",
+        "body": null,
+        "repository": "clavis-systems/c49-sunflower-replay"
+      },
+      {
+        "title": "Aspect5/sunflower-free-capacity",
+        "body": null,
+        "repository": "Aspect5/sunflower-free-capacity"
+      },
+      {
+        "title": "jfairfaxball-348/alphabet-uniform-sunflower-capacity",
+        "body": null,
+        "repository": "jfairfaxball-348/alphabet-uniform-sunflower-capacity"
+      }
+    ]
+  },
+  "named_lab_search": {
+    "error": "HTTP Error 401: Unauthorized"
+  }
+}

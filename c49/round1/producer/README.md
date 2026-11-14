@@ -1,0 +1,3 @@
+# Producer archive
+
+REPORT.md, PRIOR_ART.md, BAR.json, CODE_BLOBS.json and ENVIRONMENT.json are historical producer records. Relative paths in the original texts are relative to the original job root, represented here by the packet root; SEARCH_NOTES.md and SOURCE_STATEMENTS.md are also at that root. Scientific search logs are in ../logs/. Historical CODE_BLOBS.json records original local source/binary hashes, not the release manifest. Omitted original process inventories, PID/guard receipts, failed backups and upstream snapshots are not needed to verify this bound. The release reproduction uses one CPU worker; historical search allocations in these documents describe the original search, not this packaging job.

@@ -1,0 +1,23 @@
+{
+  "duplicate": {
+    "rejected": true,
+    "reason": "duplicate mask"
+  },
+  "Sperner": {
+    "rejected": true,
+    "reason": "Sperner inside box 0"
+  },
+  "added_sunflower": {
+    "rejected": true,
+    "reason": "sunflower [93696, 47972608, 220201087]"
+  },
+  "raised_claimed_rate": {
+    "rejected": true,
+    "reason": "raised claimed rate"
+  },
+  "brute_force_definition_checks": {
+    "cases": 500,
+    "matched": true
+  },
+  "wall_seconds": 0.2900764170335606
+}

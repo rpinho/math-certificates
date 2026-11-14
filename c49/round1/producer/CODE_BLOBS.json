@@ -1,0 +1,218 @@
+{
+  "method": "git hash-object for all local code files, including backups and compiled executables; compare with every blob SHA in the saved recursive GitHub tree API responses, without fetching third-party code",
+  "repositories": {
+    "koshta": {
+      "commit_or_tree_read": "c4ee81737f9f6a4ae9793586a27004553a12d5c0",
+      "blobs": {
+        "FORMAT.md": "9305c3c2bee9d1fc7ed51e8a27f14f41014fe750",
+        "LICENSE": "fd35099886eee9f518d7cbcae53fd8e190ee4ad1",
+        "PROOF.md": "6af7e61cfc24ef9e030d18431c58319ce70a3b01",
+        "README.md": "4dc0e9a1b0315e5a6de9743b0a90bff5237bb0a4",
+        "SHA256SUMS": "8a27402ffd92780c0a3154b70c141de5eb7ed2d9",
+        "check.c": "742ee3becec0630ed17d9baed1941c224da581cd",
+        "two_pendant_extra_1.5678599.txt.xz": "9e0c05b4e38e41a24f56e13f8519b9323129118b",
+        "verify.py": "5e9f60693f2105888625cd1ac41513c4a038d0c2",
+        "verify_independent.py": "c88cf307c2145829d644eadb246b2dc35324701c"
+      }
+    },
+    "irsi": {
+      "commit_or_tree_read": "e478c81d8b57eba956fdaf621643eb6f0781f820",
+      "blobs": {
+        "README.md": "34b305b7f121ee9b7503378823cd0fc22583d067",
+        "REPORT_openai_v12.md": "024db1a392c86a255d6aef221c3ce88fdb1dc4ad",
+        "cert_c49_chain20.json": "83f5fd4c8eb19f321684c8a87eb3e22b0ff449a0",
+        "cert_c49_chain20_s17.json": "62eeb4c15266346c3fd7e1fb7fe8f9b15d8a2af3",
+        "cert_c49_chain20_v12.json": "1d981494015842296f5d95a5a5d87986f4ade7c9",
+        "cert_degkm_control.json": "44839c5966f6c693c33ff999162f97f4fbba43fb",
+        "check_c49.py": "6465d2f861841a73b62ae815dedf5e810cbbde08",
+        "check_openai_v12.py": "fc5815e336820cea54d17ce98df604d3d2c59903",
+        "recheck_c49.py": "210d5331e79aa1c5a476eccba16d09499e5d713d",
+        "sunflower_scan.c": "ccd7f040095a671e906403d248efaeae49b917bb"
+      }
+    },
+    "joshua": {
+      "commit_or_tree_read": "6e34d78ab482f4cfd5a5ece62a6d06141e3e8c8d",
+      "blobs": {
+        "PROOF.md": "47a7dd34afa2e8ba603e6ae077c0cd88146bf1e2",
+        "README.md": "8be7da1b309ab2c5c448eb43335a6cdc719379d4",
+        "k5_family_masks.txt": "7023f213784355a725fccf3209f04b837fa2131d",
+        "proof_checks.py": "f4150d75441b765008522f14dd17df4a6547f970",
+        "verify.py": "041f5fd222b7e532e874e73aba53974794aeb52e",
+        "z11_family_masks.txt": "31fe169056d25169b52074ceac23813c8293ceb5"
+      }
+    },
+    "sylla": {
+      "commit_or_tree_read": "8e21d0287711b4f0bfc23e9443523e2aa472cca1",
+      "blobs": {
+        ".gitignore": "eaa59eeceef4a772f004fbc904c9de36e9a648c3",
+        "LICENSE": "27594e6a540c3626850100f7ec50ffe0ed9c19d6",
+        "README.md": "2dbddf5f267d094caf02492e26d13f1754d303cf",
+        "SHA256SUMS": "b3d02b7e1918f17448de004c248e4159c3dc1716",
+        "data/B.txt": "045e8ea7b380bb0a7a48d2a3474b30c7e09877b3",
+        "data/Bprime.txt": "a6bd2d1990c4a656424227a22e73077ceaace952",
+        "data/F.txt": "4e186dda8b6a63d23bc40424822ed3bdbee666bc",
+        "data/H.txt": "95e41baf1cc0f60d10d8a8bf73a1382598b8b54c",
+        "extra/sf_tri.c": "3189143364245a0284a6ffaea4da9ceb7da35e92",
+        "extra/sf_tri_output.txt": "5cce0020bb90bd609e5f01dc27c0266e82d1bd1f",
+        "gadget.py": "e1ba0aec4b4b4f4da04bfe27cfc2fbd5ba8e9734",
+        "verify.py": "2b8dfb6805cfcb8937a5fde51ac02d76930fed34",
+        "verify_bprime.py": "c3e37e6cc3c2aacc089a27e3c47f9646700ef816",
+        "verify_bprime_output.txt": "777b4eed30a001d77d4f595d8e5770a4abbaef43",
+        "verify_output.txt": "1aaa61f241d7b140721cd99ce02ccf71418ab553"
+      }
+    }
+  },
+  "local_code": [
+    {
+      "path": "__pycache__/checker.cpython-312.pyc",
+      "git_blob_sha1": "af8e00edb5edfba2dc091cd8811f06dc7ec058d9",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "blob_comparison.py",
+      "git_blob_sha1": "9872fb9590e5041d1bcbfe6e01b13b48031dd5d5",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "checker.py",
+      "git_blob_sha1": "c85b75004eaa9062b70c101312c46bc07ba5949f",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "combine_exchanges.py",
+      "git_blob_sha1": "7676dfd390cb6b5545b9ada74baa57d456e55026",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "controls.py",
+      "git_blob_sha1": "7439a8f09212f4e21c76ea3d955bf0fec2814ed4",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "coupled.py",
+      "git_blob_sha1": "d8a6aee3e4b599c8be0f50f41533825af3c27b33",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "coupled_current.py",
+      "git_blob_sha1": "a494b5cafe1eb6c7239da7334af9036db0420e45",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "coupled_improve.py",
+      "git_blob_sha1": "566991f32549bc772db77fb32f4e1a346e38cc72",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "exchange",
+      "git_blob_sha1": "cc2a9cedbb3b1cb8451f59394965c39a6722eaa2",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "exchange.cpp",
+      "git_blob_sha1": "26221177749dd4f921a857c7d8452c9855e88897",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "exchange_exact",
+      "git_blob_sha1": "32689e6b5843d9bcc2785ed30a714e03d3a62dd6",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "exchange_exact.cpp",
+      "git_blob_sha1": "54937ca2ee382e3665b453778216a8dacfcb0ad4",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "exchange_exact_wide",
+      "git_blob_sha1": "b13a5e3a4061ade2bcfa648b2212f8fcd3533da9",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "exchange_exact_wide.cpp",
+      "git_blob_sha1": "8f3a01efec2c58fe81737316aa239f732ab4bdf3",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "exchange_wide",
+      "git_blob_sha1": "669e044cc83330c5e384f1a396c47d0a654259a5",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "exchange_wide.cpp",
+      "git_blob_sha1": "eef6ca24d7e46d289219e11f7abcb0c1a307af8c",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "extension",
+      "git_blob_sha1": "e6da0f16685be6cbf487999c4bf5e9b8f0cdd69f",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "extension.cpp",
+      "git_blob_sha1": "3a455606b5716536775dacac9774c73e3a8cccb0",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "free_extras.py",
+      "git_blob_sha1": "ce1a6c43b69e070962aa912e67256660a7eb02c9",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "free_extras_threshold.py",
+      "git_blob_sha1": "4cd9c752ed1e16e167cb5050c95cc50710681ec9",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "guard.py",
+      "git_blob_sha1": "118972d2369cbd1ebae69421ce5a1c38e4ee6d78",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "logs/checker.failed.py",
+      "git_blob_sha1": "007de53e4501476c5ec3e9b4e5d874638d213a4a",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "logs/prepare.failed.py",
+      "git_blob_sha1": "7d2760ada3479b86113431ae4dd2480391606936",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "monitor_once.py",
+      "git_blob_sha1": "2bd0e36c7e70a3465aa25f5953e6445e9117efa5",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "pool_search.py",
+      "git_blob_sha1": "acdb1efc416c38a3aa338c67f7aa676057a08401",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "ports.py",
+      "git_blob_sha1": "57ba7b751bdfbbcb58fad6fbad572d69531f292d",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "prepare.py",
+      "git_blob_sha1": "37f9e9e83ff097ae551827d0ab876d49e6d97827",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "template_swaps.py",
+      "git_blob_sha1": "2236e96a68b4f4b6001d63ccb8a79f9c7ea1a91c",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "template_swaps2.py",
+      "git_blob_sha1": "0f33593538bbec724e7708bea0e99988affd69ca",
+      "matches_any_restricted_repository_blob": false
+    },
+    {
+      "path": "template_swaps_wide.py",
+      "git_blob_sha1": "995d38baba138dd2b31abde8af7f4ed2fc8c672e",
+      "matches_any_restricted_repository_blob": false
+    }
+  ],
+  "all_distinct_from_restricted_repository_blobs": true
+}
