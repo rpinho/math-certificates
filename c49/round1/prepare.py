@@ -28,7 +28,7 @@ assert list(map(len,h))==[46,75]
 p1,p2=eindex['03'],eindex['04']
 kept=[i for i in range(10) if i not in (p1,p2)]
 def core(c):return sum(((c>>i)&1)<<j for j,i in enumerate(kept))
-proof=Path('sources/koshta_PROOF.md').read_text()
+proof=Path('sources/historical/koshta_PROOF.md').read_text()
 sections=proof.split('```')
 def edge_templates(s):
     return [sum(1<<eindex[e] for e in line.split()) for line in re.split(r'[|\n]',s) if line.strip()]

@@ -25,9 +25,10 @@ Rebuild the baseline from Koshta's MIT data and mathematical description with ou
 
 ```sh
 packet_root="$PWD"
-mkdir -p "$scratch/certificates" "$scratch/sources" "$scratch/logs"
+mkdir -p "$scratch/certificates" "$scratch/sources/historical" "$scratch/logs"
 cp prepare.py "$scratch/"
-cp sources/koshta_PROOF.md sources/two_pendant_extra_1.5678599.txt.xz "$scratch/sources/"
+cp sources/historical/koshta_PROOF.md "$scratch/sources/historical/"
+cp sources/two_pendant_extra_1.5678599.txt.xz "$scratch/sources/"
 (cd "$scratch" && nice -n 10 python3 prepare.py)
 nice -n 10 python3 checker.py "$scratch/certificates/baseline.json"
 cp certificates/best_1.5678643845728069793620.json "$scratch/candidate.json"
@@ -57,3 +58,15 @@ nice -n 10 "$scratch/independent" "$scratch/exceptions21.masks" literal
 The last command enumerates the original exceptional-region pivot triples and takes several minutes. Its original output is retained in referee/logs/. The fresh release replay reran the producer baseline/candidate checks and controls, the referee full baseline/candidate checker, exact rates and exact delta inspection; it did not rerun that optional historical literal scan.
 
 The search sources and original logs document how the family was found. For optional optimizer reproduction use the producer report's commands from a working copy, set every `--threads` argument to `1`, and run only one solver process at once. Search outcomes may vary; only the supplied complete certificate fixes the claimed object. Optimization-exclusion claims in the historical reports are not part of the release's mathematical lower-bound claim.
+
+Publication-lint arithmetic replay uses two mechanical adaptations of the original referee sources, which remain unchanged. `exact_rates_integer.py` uses integer Newton square root in place of the exact standard-library isqrt; `independent_exact.cpp` uses GMP arbitrary-precision tuple counts and integer diagnostic elapsed nanoseconds. Their recurrences, acceptance rules and mathematical outputs agree with the originals. They are release adaptations, not another clean-room referee review. GMP is an additional dependency only for this adapted C++ replay. With GMP installed and its include/library paths available to the compiler:
+
+```sh
+nice -n 10 clang++ -O3 -std=c++17 referee/independent_exact.cpp -lgmpxx -lgmp -o "$scratch/independent_exact"
+nice -n 10 "$scratch/independent_exact" "$scratch/baseline.masks" > "$scratch/logs/baseline_check.json"
+nice -n 10 "$scratch/independent_exact" "$scratch/candidate.masks" > "$scratch/logs/candidate_check.json"
+cp referee/exact_rates_integer.py "$scratch/"
+(cd "$scratch" && nice -n 10 python3 exact_rates_integer.py)
+```
+
+Expected: both adapted finite checks report valid; every mathematical field agrees with the original checks, and the exact-rates JSON is byte-identical. On macOS with Homebrew, add `-I"$(brew --prefix)/include" -L"$(brew --prefix)/lib"` to the adapted compiler command.

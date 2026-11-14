@@ -1,4 +1,11 @@
 {
-  "steps": [],
+  "steps": [
+    {
+      "document": "README.md",
+      "statement": "These bounds are certified by integer surd comparisons in `referee/exact_rates_integer.py` and its retained and fresh outputs; no floating-point comparison decides the claim.",
+      "producer": "referee/exact_rates_integer.py",
+      "arithmetic": "exact"
+    }
+  ],
   "scope": "Exact finite checks and integer/rational surd comparison; finite-to-asymptotic gluing and transfer proof in PROOF.md and the clean-room AI referee report. Candidate, no human review, no mechanical formalization and no optimality claim. The referee decimal caveat is resolved by the exact expression and a rounded-down printed lower bound."
 }

@@ -4,8 +4,9 @@ This packet establishes the candidate lower bound
 
 \[
 C_{49}\ge R=(64728+\sqrt{3019700660})^{1/26}
->\mathbf{1.5678643845}.
+>\mathbf{1.5678643845}
 \]
+(rigorous, `referee/exact_rates_integer.py`).
 
 The displayed ten-place decimal is **ROUNDED DOWN**. The exact expression is authoritative. Here C49 is the asymptotic capacity of families of subsets with no sunflower of three distinct members, as defined in the pinned table reference below.
 
@@ -15,7 +16,7 @@ The exact margin is \(R-R_0\), strictly between
 `0.0000044821482170935091180159147830749067693242554392250907328019176417`
 and
 `0.0000044821482170935091180159147830749067693242554392250907328019176419`.
-These bounds are certified by integer surd comparisons in `referee/exact_rates.py` and its retained and fresh outputs; no floating-point comparison decides the claim.
+These bounds are certified by integer surd comparisons in `referee/exact_rates_integer.py` and its retained and fresh outputs; no floating-point comparison decides the claim.
 
 | Block | Members | N00 | N01 | N10 | N11 |
 |---|---:|---:|---:|---:|---:|
@@ -28,7 +29,7 @@ For port counts N_ab (first index: port 0, second: port 1), the transfer matrix 
 `[[64728,88867],[33980,64728]]`, with Perron root `64728+sqrt(3019700660)`.
 The DEGKM1997 Lemma 4.4 gluing statement pairs opposite port memberships in two Sperner, sunflower-free families on disjoint ground sets, then removes both glued points. The glued family remains Sperner and sunflower-free, and the retained-pair map is injective. Iterating fresh relabelled copies adds 26 points per block, giving at least c rho^k members on 26k+2 points for some c>0. Thus C49 is at least rho^(1/26). `PROOF.md` checks the hypotheses and supplies the argument from the producer's source statements and the referee's proof.
 
-Our `checker.py` is **separately written (same agent)** from the search code. Its Cartesian-box check exhausts the actual certificate. The referee is **a clean-room AI referee on a different model (GPT-6 Astra)**, using its own decision-diagram checker. Its verdict is **HOLDS WITH CAVEATS**: the only caveat concerns rounding the decimal upward; the exact expression and the rounded-down decimal here resolve it. The referee's `REFEREE.md` and `PRIOR_ART.md` are preserved byte-for-byte, including their original historical terminology. See `referee/README.md` for archival scope.
+Our `checker.py` is **separately written (same agent)** from the search code. Its Cartesian-box check exhausts the actual certificate. The referee is **a clean-room AI referee on a different model (GPT-6 Astra)**, using its own decision-diagram checker. Its verdict is **HOLDS WITH CAVEATS**: the only caveat concerns rounding the decimal upward; the exact expression and the rounded-down decimal here resolve it. The referee's `REFEREE.md` and `PRIOR_ART.md` are preserved byte-for-byte, including their original historical terminology. See `referee/README.md` for archival scope. The release also includes transparent exact-arithmetic adaptations of the referee sources for the publishing lint; the original sources and report remain unchanged, and this is no additional referee review. `REPRODUCE.md` describes the adaptations and their output comparison.
 
 This is a **candidate**, with **no human review**; **optimality not claimed**. It is a numerical improvement within the existing construction and gluing method. Did this packaging job find something new? **No.** The supplied round-one candidate beats the printed exact incumbent under the same definition; this job packages that result and makes no new-method or unrestricted priority claim. A second round found no improvement.
 

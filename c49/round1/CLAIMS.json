@@ -5,32 +5,32 @@
       "kind": "rigorous",
       "producer": "checker.py",
       "source": "release_validation/checker.json",
-      "arithmetic": "exact surd comparison",
+      "arithmetic": "exact",
       "new_bound": true,
       "label": "Exact C49 lower bound; finite checker plus PROOF.md gluing argument"
     },
     {
       "value": "1.5678643845",
       "kind": "rigorous",
-      "producer": "referee/exact_rates.py",
+      "producer": "referee/exact_rates_integer.py",
       "source": "release_validation/exact_rates.json",
-      "arithmetic": "exact integer surd comparison",
+      "arithmetic": "exact",
       "new_bound": false,
       "label": "Ten-place lower bound rounded down"
     },
     {
       "value": "(64728+sqrt(3019700660))^(1/26) - (64728+sqrt(3018723123))^(1/26)",
       "kind": "rigorous",
-      "producer": "referee/exact_rates.py",
+      "producer": "referee/exact_rates_integer.py",
       "source": "release_validation/exact_rates.json",
-      "arithmetic": "exact surd comparison",
+      "arithmetic": "exact",
       "new_bound": false,
       "label": "Exact margin over Koshta"
     },
     {
       "value": "0.0000044821482170935091180159147830749067693242554392250907328019176417",
       "kind": "rigorous",
-      "producer": "referee/exact_rates.py",
+      "producer": "referee/exact_rates_integer.py",
       "source": "release_validation/exact_rates.json",
       "arithmetic": "exact",
       "new_bound": false,
@@ -39,7 +39,7 @@
     {
       "value": "0.0000044821482170935091180159147830749067693242554392250907328019176419",
       "kind": "rigorous",
-      "producer": "referee/exact_rates.py",
+      "producer": "referee/exact_rates_integer.py",
       "source": "release_validation/exact_rates.json",
       "arithmetic": "exact",
       "new_bound": false,
@@ -55,7 +55,7 @@
     {
       "value": "1.5678599024",
       "kind": "rigorous",
-      "producer": "referee/exact_rates.py",
+      "producer": "referee/exact_rates_integer.py",
       "source": "release_validation/exact_rates.json",
       "arithmetic": "exact",
       "new_bound": false,
@@ -271,7 +271,7 @@
     {
       "value": "49",
       "kind": "cited",
-      "source": "SOURCE_STATEMENTS.md",
+      "source": "https://github.com/teorth/optimizationproblems/blob/2d8eba58ea108f8cf746dbab8712ad317202d6c5/constants/49a.md",
       "new_bound": false,
       "label": "Constant identifier"
     },
@@ -304,7 +304,7 @@
       "label": "DEGKM journal volume"
     },
     {
-      "value": "118\u2013132",
+      "value": "118–132",
       "kind": "cited",
       "source": "https://doi.org/10.1006/jcta.1997.2778",
       "new_bound": false,
@@ -323,7 +323,25 @@
       "source": "sources/round2_summary.json",
       "new_bound": false,
       "label": "Requested round-two negative-result statement"
+    },
+    {
+      "value": "1.5678643",
+      "kind": "rigorous",
+      "producer": "referee/exact_rates_integer.py",
+      "source": "release_validation/exact_rates.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Seven-place lower bound rounded down from the exact candidate enclosure; PR row"
+    },
+    {
+      "value": "4.48",
+      "kind": "rigorous",
+      "producer": "referee/exact_rates_integer.py",
+      "source": "release_validation/exact_rates.json",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Two-place downward decimal prefix of the gain mantissa in units of 10^-6, used with about in the PR; not an equality to the exact gain"
     }
   ],
-  "scope": "All substantive numbers in README.md are mapped above, including finite counts, algebraic constants, decimal endpoints and reference identifiers. Commit hashes and DOI strings identify sources rather than numerical results. The new_bound flag belongs to the supplied round-one result, not this packaging session."
+  "scope": "All substantive numbers in README.md are mapped above, including finite counts, algebraic constants, decimal endpoints and reference identifiers. Commit hashes and DOI strings identify sources rather than numerical results. The new_bound flag belongs to the supplied round-one result, not this packaging session. The PR row decimal and explicitly approximate gain mantissa are mapped too."
 }

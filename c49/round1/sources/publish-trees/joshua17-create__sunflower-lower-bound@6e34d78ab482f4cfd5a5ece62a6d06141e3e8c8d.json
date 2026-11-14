@@ -1,0 +1,56 @@
+{
+  "sha": "6e34d78ab482f4cfd5a5ece62a6d06141e3e8c8d",
+  "url": "https://api.github.com/repos/joshua17-create/sunflower-lower-bound/git/trees/6e34d78ab482f4cfd5a5ece62a6d06141e3e8c8d",
+  "tree": [
+    {
+      "path": "PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47a7dd34afa2e8ba603e6ae077c0cd88146bf1e2",
+      "size": 14117,
+      "url": "https://api.github.com/repos/joshua17-create/sunflower-lower-bound/git/blobs/47a7dd34afa2e8ba603e6ae077c0cd88146bf1e2"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8be7da1b309ab2c5c448eb43335a6cdc719379d4",
+      "size": 9000,
+      "url": "https://api.github.com/repos/joshua17-create/sunflower-lower-bound/git/blobs/8be7da1b309ab2c5c448eb43335a6cdc719379d4"
+    },
+    {
+      "path": "k5_family_masks.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7023f213784355a725fccf3209f04b837fa2131d",
+      "size": 302,
+      "url": "https://api.github.com/repos/joshua17-create/sunflower-lower-bound/git/blobs/7023f213784355a725fccf3209f04b837fa2131d"
+    },
+    {
+      "path": "proof_checks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4150d75441b765008522f14dd17df4a6547f970",
+      "size": 5305,
+      "url": "https://api.github.com/repos/joshua17-create/sunflower-lower-bound/git/blobs/f4150d75441b765008522f14dd17df4a6547f970"
+    },
+    {
+      "path": "verify.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "041f5fd222b7e532e874e73aba53974794aeb52e",
+      "size": 9042,
+      "url": "https://api.github.com/repos/joshua17-create/sunflower-lower-bound/git/blobs/041f5fd222b7e532e874e73aba53974794aeb52e"
+    },
+    {
+      "path": "z11_family_masks.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31fe169056d25169b52074ceac23813c8293ceb5",
+      "size": 565,
+      "url": "https://api.github.com/repos/joshua17-create/sunflower-lower-bound/git/blobs/31fe169056d25169b52074ceac23813c8293ceb5"
+    }
+  ],
+  "truncated": false,
+  "commit": "6e34d78ab482f4cfd5a5ece62a6d06141e3e8c8d"
+}

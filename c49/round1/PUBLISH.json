@@ -14,5 +14,15 @@
     "SOURCE_STATEMENTS.md": "proof"
   },
   "publication_status": "Local sealed packet; no publication action performed.",
-  "baseline_commit": "c4ee81737f9f6a4ae9793586a27004553a12d5c0"
+  "baseline_commit": "c4ee81737f9f6a4ae9793586a27004553a12d5c0",
+  "linked_trees": {
+    "Aspect5/sunflower-free-capacity@e478c81d8b57eba956fdaf621643eb6f0781f820": "sources/publish-trees/Aspect5__sunflower-free-capacity@e478c81d8b57eba956fdaf621643eb6f0781f820.json",
+    "DennisKoshta/sunflower3-49a-certificate@c4ee81737f9f6a4ae9793586a27004553a12d5c0": "sources/publish-trees/DennisKoshta__sunflower3-49a-certificate@c4ee81737f9f6a4ae9793586a27004553a12d5c0.json",
+    "joshua17-create/sunflower-lower-bound@6e34d78ab482f4cfd5a5ece62a6d06141e3e8c8d": "sources/publish-trees/joshua17-create__sunflower-lower-bound@6e34d78ab482f4cfd5a5ece62a6d06141e3e8c8d.json",
+    "rpinho/math-certificates@59eeb7097f806da05187b5f234445be3589204d4": "sources/publish-trees/rpinho__math-certificates@59eeb7097f806da05187b5f234445be3589204d4.json",
+    "teorth/optimizationproblems@2d8eba58ea108f8cf746dbab8712ad317202d6c5": "sources/publish-trees/teorth__optimizationproblems@2d8eba58ea108f8cf746dbab8712ad317202d6c5.json",
+    "xSyllaa/sunflower-pendant-chain@8e21d0287711b4f0bfc23e9443523e2aa472cca1": "sources/publish-trees/xSyllaa__sunflower-pendant-chain@8e21d0287711b4f0bfc23e9443523e2aa472cca1.json"
+  },
+  "publication_commit": "2d8eba58ea108f8cf746dbab8712ad317202d6c5",
+  "publication_tree": "sources/publish-trees/teorth__optimizationproblems@2d8eba58ea108f8cf746dbab8712ad317202d6c5.json"
 }
