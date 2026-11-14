@@ -6,7 +6,7 @@ This packet establishes the candidate lower bound
 C_{49}\ge R=(64728+\sqrt{3019700660})^{1/26}
 >\mathbf{1.5678643845}
 \]
-(rigorous, `referee/exact_rates_integer.py`).
+(rigorous, `release_validation/adapted/exact_rates_integer.py`).
 
 The displayed ten-place decimal is **ROUNDED DOWN**. The exact expression is authoritative. Here C49 is the asymptotic capacity of families of subsets with no sunflower of three distinct members, as defined in the pinned table reference below.
 
@@ -16,7 +16,7 @@ The exact margin is \(R-R_0\), strictly between
 `0.0000044821482170935091180159147830749067693242554392250907328019176417`
 and
 `0.0000044821482170935091180159147830749067693242554392250907328019176419`.
-These bounds are certified by integer surd comparisons in `referee/exact_rates_integer.py` and its retained and fresh outputs; no floating-point comparison decides the claim.
+These bounds are certified by integer surd comparisons in `release_validation/adapted/exact_rates_integer.py` (the packaging job's integer-only adaptation of the referee's `referee/exact_rates.py`, same comparisons) and its retained and fresh outputs; no floating-point comparison decides the claim.
 
 | Block | Members | N00 | N01 | N10 | N11 |
 |---|---:|---:|---:|---:|---:|

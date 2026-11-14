@@ -1,5 +1,5 @@
-// Independent exact checker: merged binary trie, tuple-counting dynamic programs.
-// Algorithm by the original clean-room referee; independent.cpp is unchanged.
+// Exact checker adapted for release by the packaging job (GPT-6.1 Sol), not by the referee: merged binary trie, tuple-counting dynamic programs.
+// The algorithm is the clean-room referee's (GPT-6 Astra), in referee/independent.cpp, which is unchanged.
 // Mechanical release adaptation: GMP counts replace fixed-width tuple counts;
 // elapsed time uses integer nanoseconds. No recurrence or acceptance rule changes.
 #include <gmpxx.h>

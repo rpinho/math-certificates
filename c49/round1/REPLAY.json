@@ -13,14 +13,14 @@
   "inputs_hash": "9184c5ad952f98bcb12603c42744ffac623f2289dacb635eff7082d6423eca37",
   "read_producer_code": false,
   "ran_producer_code": false,
-  "checker": "referee/independent_exact.cpp",
+  "checker": "release_validation/adapted/exact_checker_gmp.cpp",
   "checker_sha256": "ca08ad1ae51a7aae5b085787b637075f79e6a34e9e876880a5bb2eb6967ddfe8",
   "report": "referee/REFEREE.md",
   "report_sha256": "beed872aaa9d55289bf0a8ba2a07f38e20cfaaef47e3e83f62f748848699b0b9",
   "note": "Transcribed from the supplied referee report, not a new referee review or model-identity attestation. Hashes identify the supplied publication inputs and do not prove historical isolation. Both REFEREE.md and PRIOR_ART.md are byte-for-byte originals. Sole caveat: use the exact expression or 1.5678643845 rounded down. Producer REPORT.md and SOURCE_STATEMENTS.md are retained source prose; see referee/README.md.",
   "original_status": "HOLDS WITH CAVEATS",
-  "status_interpretation": "PASS applies to the exact algebraic bound and its rounded-down printed decimal 1.5678643845. The archived referee verdict remains HOLDS WITH CAVEATS: its only caveat rejects rounding upward to 1.5678643846. The exact integer comparisons in referee/exact_rates.py (also replayed via its integer-only adaptation referee/exact_rates_integer.py) and release_validation/exact_rates.json establish the printed lower bound. This is a normalization of the supplied review for the corrected release claim, not a new referee review.",
+  "status_interpretation": "PASS applies to the exact algebraic bound and its rounded-down printed decimal 1.5678643845. The archived referee verdict remains HOLDS WITH CAVEATS: its only caveat rejects rounding upward to 1.5678643846. The exact integer comparisons in referee/exact_rates.py (also replayed via its integer-only adaptation release_validation/adapted/exact_rates_integer.py) and release_validation/exact_rates.json establish the printed lower bound. This is a normalization of the supplied review for the corrected release claim, not a new referee review.",
   "original_checker": "referee/independent.cpp",
   "original_checker_sha256": "f7e94392270f0493c502262d8ee434814c94d39a45044b44b2f4dfaff02fbc54",
-  "checker_adaptation": "The checker algorithm is the supplied clean-room referee algorithm. independent.cpp remains byte-for-byte original and is bound above as original_checker. independent_exact.cpp is a mechanical packaging adaptation using genuine GMP arbitrary-precision tuple counters and integer diagnostic elapsed nanoseconds. The recurrence and acceptance rule are unchanged; this is not a new clean-room review or model attestation. Both original and adapted checkers were replayed on the same baseline and candidate and their scientific outputs compared."
+  "checker_adaptation": "The checker algorithm is the supplied clean-room referee algorithm. independent.cpp remains byte-for-byte original and is bound above as original_checker. exact_checker_gmp.cpp is a mechanical packaging adaptation using genuine GMP arbitrary-precision tuple counters and integer diagnostic elapsed nanoseconds. The recurrence and acceptance rule are unchanged; this is not a new clean-room review or model attestation. Both original and adapted checkers were replayed on the same baseline and candidate and their scientific outputs compared."
 }

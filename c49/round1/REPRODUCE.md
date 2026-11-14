@@ -59,13 +59,13 @@ The last command enumerates the original exceptional-region pivot triples and ta
 
 The search sources and original logs document how the family was found. For optional optimizer reproduction use the producer report's commands from a working copy, set every `--threads` argument to `1`, and run only one solver process at once. Search outcomes may vary; only the supplied complete certificate fixes the claimed object. Optimization-exclusion claims in the historical reports are not part of the release's mathematical lower-bound claim.
 
-Publication-lint arithmetic replay uses two mechanical adaptations of the original referee sources, which remain unchanged. `exact_rates_integer.py` uses integer Newton square root in place of the exact standard-library isqrt; `independent_exact.cpp` uses GMP arbitrary-precision tuple counts and integer diagnostic elapsed nanoseconds. Their recurrences, acceptance rules and mathematical outputs agree with the originals. They are release adaptations, not another clean-room referee review. GMP is an additional dependency only for this adapted C++ replay. With GMP installed and its include/library paths available to the compiler:
+Publication-lint arithmetic replay uses two mechanical adaptations of the original referee sources, made by the packaging job (GPT-6.1 Sol), not by the referee, and kept in release_validation/adapted/; the referee's own sources in referee/ remain unchanged. `exact_rates_integer.py` uses integer Newton square root in place of the exact standard-library isqrt; `exact_checker_gmp.cpp` uses GMP arbitrary-precision tuple counts and integer diagnostic elapsed nanoseconds. Their recurrences, acceptance rules and mathematical outputs agree with the originals. They are release adaptations, not another clean-room referee review. GMP is an additional dependency only for this adapted C++ replay. With GMP installed and its include/library paths available to the compiler:
 
 ```sh
-nice -n 10 clang++ -O3 -std=c++17 referee/independent_exact.cpp -lgmpxx -lgmp -o "$scratch/independent_exact"
-nice -n 10 "$scratch/independent_exact" "$scratch/baseline.masks" > "$scratch/logs/baseline_check.json"
-nice -n 10 "$scratch/independent_exact" "$scratch/candidate.masks" > "$scratch/logs/candidate_check.json"
-cp referee/exact_rates_integer.py "$scratch/"
+nice -n 10 clang++ -O3 -std=c++17 release_validation/adapted/exact_checker_gmp.cpp -lgmpxx -lgmp -o "$scratch/exact_checker_gmp"
+nice -n 10 "$scratch/exact_checker_gmp" "$scratch/baseline.masks" > "$scratch/logs/baseline_check.json"
+nice -n 10 "$scratch/exact_checker_gmp" "$scratch/candidate.masks" > "$scratch/logs/candidate_check.json"
+cp release_validation/adapted/exact_rates_integer.py "$scratch/"
 (cd "$scratch" && nice -n 10 python3 exact_rates_integer.py)
 ```
 

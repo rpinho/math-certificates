@@ -1,6 +1,6 @@
 """All enclosures below are integer proofs, not floating-point estimates."""
 import json
-# Mechanical release adaptation: the archived exact_rates.py is unchanged.
+# Adapted for release by the packaging job (GPT-6.1 Sol), not by the referee; the referee's referee/exact_rates.py is unchanged.
 # Integer Newton iteration computes the same floor square root as math.isqrt;
 # it avoids the publication heuristic classifying a math import as floating point.
 def isqrt(n):

@@ -2,8 +2,8 @@
   "steps": [
     {
       "document": "README.md",
-      "statement": "These bounds are certified by integer surd comparisons in `referee/exact_rates_integer.py` and its retained and fresh outputs; no floating-point comparison decides the claim.",
-      "producer": "referee/exact_rates_integer.py",
+      "statement": "These bounds are certified by integer surd comparisons in `release_validation/adapted/exact_rates_integer.py` and its retained and fresh outputs; no floating-point comparison decides the claim.",
+      "producer": "release_validation/adapted/exact_rates_integer.py",
       "arithmetic": "exact"
     }
   ],

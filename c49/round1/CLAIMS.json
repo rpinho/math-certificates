@@ -12,7 +12,7 @@
     {
       "value": "1.5678643845",
       "kind": "rigorous",
-      "producer": "referee/exact_rates_integer.py",
+      "producer": "release_validation/adapted/exact_rates_integer.py",
       "source": "release_validation/exact_rates.json",
       "arithmetic": "exact",
       "new_bound": false,
@@ -21,7 +21,7 @@
     {
       "value": "(64728+sqrt(3019700660))^(1/26) - (64728+sqrt(3018723123))^(1/26)",
       "kind": "rigorous",
-      "producer": "referee/exact_rates_integer.py",
+      "producer": "release_validation/adapted/exact_rates_integer.py",
       "source": "release_validation/exact_rates.json",
       "arithmetic": "exact",
       "new_bound": false,
@@ -30,7 +30,7 @@
     {
       "value": "0.0000044821482170935091180159147830749067693242554392250907328019176417",
       "kind": "rigorous",
-      "producer": "referee/exact_rates_integer.py",
+      "producer": "release_validation/adapted/exact_rates_integer.py",
       "source": "release_validation/exact_rates.json",
       "arithmetic": "exact",
       "new_bound": false,
@@ -39,7 +39,7 @@
     {
       "value": "0.0000044821482170935091180159147830749067693242554392250907328019176419",
       "kind": "rigorous",
-      "producer": "referee/exact_rates_integer.py",
+      "producer": "release_validation/adapted/exact_rates_integer.py",
       "source": "release_validation/exact_rates.json",
       "arithmetic": "exact",
       "new_bound": false,
@@ -55,7 +55,7 @@
     {
       "value": "1.5678599024",
       "kind": "rigorous",
-      "producer": "referee/exact_rates_integer.py",
+      "producer": "release_validation/adapted/exact_rates_integer.py",
       "source": "release_validation/exact_rates.json",
       "arithmetic": "exact",
       "new_bound": false,
@@ -327,7 +327,7 @@
     {
       "value": "1.5678643",
       "kind": "rigorous",
-      "producer": "referee/exact_rates_integer.py",
+      "producer": "release_validation/adapted/exact_rates_integer.py",
       "source": "release_validation/exact_rates.json",
       "arithmetic": "exact",
       "new_bound": false,
@@ -336,7 +336,7 @@
     {
       "value": "4.48",
       "kind": "rigorous",
-      "producer": "referee/exact_rates_integer.py",
+      "producer": "release_validation/adapted/exact_rates_integer.py",
       "source": "release_validation/exact_rates.json",
       "arithmetic": "exact",
       "new_bound": false,
