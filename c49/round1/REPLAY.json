@@ -13,8 +13,8 @@
   "inputs_hash": "9184c5ad952f98bcb12603c42744ffac623f2289dacb635eff7082d6423eca37",
   "read_producer_code": false,
   "ran_producer_code": false,
-  "checker": "referee/independent.cpp",
-  "checker_sha256": "f7e94392270f0493c502262d8ee434814c94d39a45044b44b2f4dfaff02fbc54",
+  "checker": "release_validation/adapted/exact_checker_gmp.cpp",
+  "checker_sha256": "dae6556fc6f9e029f14097ff0adf5364d27c487e397c8ded8335409ea76a8d35",
   "report": "referee/REFEREE.md",
   "report_sha256": "beed872aaa9d55289bf0a8ba2a07f38e20cfaaef47e3e83f62f748848699b0b9",
   "note": "Transcribed from the supplied referee report, not a new referee review or model-identity attestation. Hashes identify the supplied publication inputs and do not prove historical isolation. Both REFEREE.md and PRIOR_ART.md are byte-for-byte originals. Sole caveat: use the exact expression or 1.5678643845 rounded down. Producer REPORT.md and SOURCE_STATEMENTS.md are retained source prose; see referee/README.md.",
@@ -23,7 +23,5 @@
   "original_checker": "referee/independent.cpp",
   "original_checker_sha256": "f7e94392270f0493c502262d8ee434814c94d39a45044b44b2f4dfaff02fbc54",
   "checker_adaptation": "The checker algorithm is the supplied clean-room referee algorithm. independent.cpp remains byte-for-byte original and is bound above as original_checker. exact_checker_gmp.cpp is a mechanical packaging adaptation using genuine GMP arbitrary-precision tuple counters and integer diagnostic elapsed nanoseconds. The recurrence and acceptance rule are unchanged; this is not a new clean-room review or model attestation. Both original and adapted checkers were replayed on the same baseline and candidate and their scientific outputs compared.",
-  "adapted_checker": "release_validation/adapted/exact_checker_gmp.cpp",
-  "adapted_checker_author": "release-lint job (GPT-6.1 Sol), adapting the referee algorithm in referee/independent.cpp",
-  "adapted_checker_sha256": "dae6556fc6f9e029f14097ff0adf5364d27c487e397c8ded8335409ea76a8d35"
+  "checker_author": "release-lint job (GPT-6.1 Sol), adapting the referee algorithm in referee/independent.cpp; the referee (GPT-6 Astra) wrote original_checker and the verdict"
 }
