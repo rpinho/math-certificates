@@ -1,0 +1,55 @@
+{
+  "n": 23,
+  "word": "001001110010110001101101",
+  "upper": 14,
+  "lower": 13,
+  "colours": [
+    {
+      "colour": 0,
+      "maximum": 14,
+      "witness": [
+        0,
+        1,
+        14,
+        15,
+        2033,
+        2047,
+        63502,
+        63503,
+        65535,
+        460785,
+        460799,
+        524287,
+        3735551,
+        4194303
+      ],
+      "proof": "producer/n21n24/certificates/search_001001110010110001101101_c0_t15.tree.gz",
+      "nodes": 19170
+    },
+    {
+      "colour": 1,
+      "maximum": 14,
+      "witness": [
+        3,
+        31,
+        995,
+        1023,
+        3103,
+        4095,
+        130079,
+        131071,
+        135167,
+        262143,
+        1966079,
+        2097151,
+        6553599,
+        8388607
+      ],
+      "proof": "producer/n21n24/certificates/search_001001110010110001101101_c1_t15.tree.gz",
+      "nodes": 19757
+    }
+  ],
+  "extensions_tested": 4,
+  "seconds": 1.917367935180664,
+  "encoding": "rank word: colour(S) = int(word[popcount(S)]), ranks 0 through n; masks use bit i for element i+1"
+}

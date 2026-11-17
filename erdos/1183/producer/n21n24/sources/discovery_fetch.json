@@ -1,0 +1,58 @@
+[
+  {
+    "name": "d7_tree",
+    "url": "https://api.github.com/repos/anaxia-research/D7/git/trees/HEAD?recursive=1",
+    "utc": "2026-11-17T16:33:38.081790+00:00",
+    "status": 200,
+    "bytes": 40394,
+    "sha256": "18c573af50de48e744298f3d7a983c7358bea87ef99038f2e15976af80d6ae93"
+  },
+  {
+    "name": "d7_readme",
+    "url": "https://raw.githubusercontent.com/anaxia-research/D7/HEAD/README.md",
+    "utc": "2026-11-17T16:33:38.082125+00:00",
+    "status": 200,
+    "bytes": 1010,
+    "sha256": "395682a1df4b84482f7837e51cc545072108c1bde77b50fe50be65fae9696d9d"
+  },
+  {
+    "name": "ebllm_tree",
+    "url": "https://api.github.com/repos/anaxia-research/eBLLM/git/trees/HEAD?recursive=1",
+    "utc": "2026-11-17T16:33:38.082256+00:00",
+    "status": 200,
+    "bytes": 212482,
+    "sha256": "9b3be39346bf9e72987ec3cd72bec8512a0fc67fdec04b6908932dc81e404333"
+  },
+  {
+    "name": "ebllm_readme",
+    "url": "https://raw.githubusercontent.com/anaxia-research/eBLLM/HEAD/README.md",
+    "utc": "2026-11-17T16:33:38.082352+00:00",
+    "status": 200,
+    "bytes": 115024,
+    "sha256": "21dac80fd848dcb8dbca0e03ade192ee1d1cd5e9727c47f077214040056be433"
+  },
+  {
+    "name": "openai_contents",
+    "url": "https://raw.githubusercontent.com/openai/math/HEAD/CONTENTS.md",
+    "utc": "2026-11-17T16:33:38.324126+00:00",
+    "status": 200,
+    "bytes": 640943,
+    "sha256": "080badcb677fb80be0e695c21a8ec88bcb3a46dd3e3078ca10061e6b289be175"
+  },
+  {
+    "name": "deepmind7902",
+    "url": "https://api.github.com/repos/google-deepmind/formal-conjectures/pulls/7902",
+    "utc": "2026-11-17T16:33:38.468604+00:00",
+    "status": 200,
+    "bytes": 18512,
+    "sha256": "1bf36b3a18ffb967f4da7a077c9524f90b72d0ce912f7f8ee6c493d8f6072900"
+  },
+  {
+    "name": "alpha_readme",
+    "url": "https://raw.githubusercontent.com/google-deepmind/alphaevolve_results/HEAD/README.md",
+    "utc": "2026-11-17T16:33:38.571605+00:00",
+    "status": 200,
+    "bytes": 2904,
+    "sha256": "6705252d42fb27af57cbe604421f7d0cca70058bc71067f9b0aed4c097800f5a"
+  }
+]

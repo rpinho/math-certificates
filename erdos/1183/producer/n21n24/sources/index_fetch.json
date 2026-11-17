@@ -1,0 +1,34 @@
+[
+  {
+    "name": "alpha_notebook",
+    "url": "https://raw.githubusercontent.com/google-deepmind/alphaevolve_results/HEAD/mathematical_results.ipynb",
+    "utc": "2026-11-17T18:10:34.774850+00:00",
+    "status": 200,
+    "bytes": 1311048,
+    "sha256": "2cce2543e48c89aa3e91614272a698a0147dd2548ea11cf92f1292b7435d38ff"
+  },
+  {
+    "name": "epi_readme",
+    "url": "https://raw.githubusercontent.com/BakeLab/Epi-results/HEAD/README.md",
+    "utc": "2026-11-17T18:10:34.775183+00:00",
+    "status": 200,
+    "bytes": 6888,
+    "sha256": "c40cb95444e4893fb75c46ba6f1f76763d25b3b9434011457ba4a905a84c72e6"
+  },
+  {
+    "name": "kisonecat_readme",
+    "url": "https://raw.githubusercontent.com/kisonecat/openai-math/HEAD/README.md",
+    "utc": "2026-11-17T18:10:34.775306+00:00",
+    "status": 200,
+    "bytes": 2528,
+    "sha256": "fa56f3cef7fa08e3109a1d8c0a083c5e960865c20efa6fbcd1b8f072ce075666"
+  },
+  {
+    "name": "einstein_readme",
+    "url": "https://raw.githubusercontent.com/togethercomputer/EinsteinArena-new-SOTA/HEAD/README.md",
+    "utc": "2026-11-17T18:10:34.775435+00:00",
+    "status": 200,
+    "bytes": 3141,
+    "sha256": "07f97c0058df21f6a6c5913f5f6d54d97f45222a5a4314187be32de951ad110e"
+  }
+]

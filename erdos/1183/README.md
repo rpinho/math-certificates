@@ -1,6 +1,8 @@
-# Erdős #1183: candidate values f(11)..f(20), with a dependency at f(20)
+# Erdős #1183: candidate values through f(24), with dependencies at f(20) and f(22)
 
-The original packet gives the four finite equalities **f(11)=7**, **f(12)=7**, **f(13)=8** and **f(14)=8**, with explicit colourings, regenerable SAT queries and checkable DRAT certificates. The supplied clean-room AI agents acting as referees conclude **HOLDS** for all four values. These are candidate results with **no human review**. The extension gives **f(15)=9, f(16)=9, f(17)=10, f(18)=10, f(19)=11** and **f(20)≤12**. The equality **f(20)=12** uses BMB `lem:window20` via `thm:f20`; without that dependency, **11≤f(20)≤12**. The extension’s clean-room referee concludes **HOLDS WITH CAVEATS**. These finite results do not settle the asymptotic problem.
+The original packet gives the four finite equalities **f(11)=7**, **f(12)=7**, **f(13)=8** and **f(14)=8**, with explicit colourings, regenerable SAT queries and checkable DRAT certificates. The supplied clean-room AI agents acting as referees conclude **HOLDS** for all four values. These are candidate results with **no human review**. The extension gives **f(15)=9, f(16)=9, f(17)=10, f(18)=10, f(19)=11** and **f(20)≤12**. The equality **f(20)=12** uses BMB `lem:window20` via `thm:f20`; without that dependency, **11≤f(20)≤12**. The extension’s clean-room referee concludes **HOLDS WITH CAVEATS**. Round 5 adds **f(21)=12**, **f(24)=14**, **f(22)≤13** (equality given BMB `lem:window20`) and **13≤f(23)≤14**. Unconditionally **12≤f(22)≤13**; the rank-colouring minimum at n=23 is exactly **14**. These finite results do not settle the asymptotic problem.
+
+**Priority.** The exact values of f(n) for every n up to twenty were already stated by Deep Bhattacharjee and Ushashi Bhattacharya in their BLLM manuscript (Theorem `fvalues`, using the same weighted-poset reduction as its Lemma `levelposet`), [public in creelie/eBLLM](https://github.com/creelie/eBLLM/blob/241326bbba4726afde74ae1858265878b2176c59/paper/bllm/paper/sections/sec10d_crossing.tex) and present in that file since its commit of 19 October 2026. We missed it in our earlier searches. Our values from eleven to twenty are therefore reproductions, found separately and published with certificates (SAT/DRAT proofs from eleven to fourteen, replayable proof trees from fifteen to twenty); earlier versions of this packet wrongly said that exact values were known only up to ten. The values from twenty-one to twenty-four go beyond that manuscript. The odd-n lower bound used here is also proved in Lean 4 by the OpenRefute project, as BLLM cites.
 
 ## Definition
 
@@ -34,6 +36,10 @@ For each construction, colour a set S by the bit at position |S| of the rank wor
 | 18 | `0010110011101001100` | 10: the nineteen-set maximal chain | Both colour maxima are at most 10; f(18)≤10 |
 | 19 | `00110010111000101101` | 11: chain-exchange lemma plus all 184,756 balanced words; also BMB `prop:flower` | Both colour maxima are at most 11; f(19)≤11 |
 | 20 | `110010110001101100110` | 11: chain (also `prop:flower`); 12 given BMB `thm:f20` through computer-assisted `lem:window20` | Both colour maxima are at most 12; f(20)≤12 |
+| 21 | `0010011100101100011011` | 12: chain-exchange lemma plus all balanced words; also BMB `prop:flower` | Exact colour maxima 12/12; f(21)≤12 |
+| 22 | `00100111010011100110100` | 12 unconditionally; 13 from BMB `thm:f20` via computer-assisted `lem:window20` | Exact colour maxima 13/13; f(22)≤13 |
+| 23 | `001001110010110001101101` | 13: chain-exchange lemma plus all balanced words; also BMB `prop:flower` | Exact colour maxima 14/14; f(23)≤14 |
+| 24 | `0011010011101001101010010` | 14: BMB `prop:flower`, without `lem:window20` | Exact colour maxima 14/14; f(24)≤14 |
 
 For n=11..14 the producer supplies one UNSAT proof for each colour at each dimension. The second construction uses ordinary lexicographic symmetry clauses in colour zero; its colour-one query and both first-construction queries use no symmetry clauses. The CNFs are SAT encodings whose correspondence to the statement is argued in [PROOF.md](PROOF.md). An UNSAT log alone is insufficient: check the DRAT proof against the exact regenerated CNF.
 
@@ -53,11 +59,23 @@ The byte-preserved [clean-room referee report](referee/n15n20/REFEREE.md) conclu
 
 The referee’s own scripts and outputs are in [referee/n15n20](referee/n15n20). The authors’ third-party window checker and lists are not bundled: see the pinned references and recorded replay in [WINDOW20.md](referee/n15n20/WINDOW20.md). The ordinary maximal-chain argument proves the even lower bounds; the chain-exchange lemma and complete balanced-word witness lists prove the odd lower bounds. Those lower bounds were already published; the matching finite upper bounds are the supplied contribution. These remain **candidate** results with **no human review**.
 
+## Extension to n=21..24
+
+The four colourings are encoded exactly by their rank words in [n21](certificates/n21_coloring.json), [n22](certificates/n22_coloring.json), [n23](certificates/n23_coloring.json) and [n24](certificates/n24_coloring.json). A set's colour is the bit at its cardinality; these compact encodings specify every set without a redundant mask-indexed array. Both maximum families and links to both exhaustive no-trees are included in each file. Exact maxima are **12/12, 13/13, 14/14, 14/14**, respectively. All eight headline trees are in [producer/n21n24/certificates](producer/n21n24/certificates), each below 20 MB. The [search](producer/n21n24/src/poset.cpp), [separately written tree checker](producer/n21n24/src/check.py), [coverage checker](producer/n21n24/src/coverage.py), complete segmented rank screens, and saved G_L(T) word lists are included. These lists are inputs for later work; no non-rank search is claimed here.
+
+The lower bounds at n=21 and n=23 follow from our chain-exchange lemma plus concrete closed families for **705,432** and **2,704,156** balanced words, respectively; BMB `prop:flower` and the omega note also supply them. At n=22, BMB `thm:f20` gives 13 using its computer-assisted `lem:window20`. The referee replayed the authors' checker and its three corruption controls but did not reimplement its mixed-level logic. Thus **f(22)=13 given that lemma; without it, 12≤f(22)≤13**. At n=24, BMB `prop:flower` gives 14 using the twelve-level window and separated stacking; it does **not** use `lem:window20`. The dependency trace is in [PROOF.md](PROOF.md).
+
+At n=23, **13≤f(23)≤14**, while the rank-colouring minimum is **exactly 14**. This is the first n where size-only colourings miss the stated best lower bound. Every optimal n=22 rank word has a 13-member family in both colours; appending the full 23-set in its colour forces a 14-member family. The complete rank screen confirms this directly. This proves no unrestricted lower bound of 14. The unrestricted gap remains open; no non-rank construction was searched.
+
+The byte-preserved [clean-room referee report](referee/n21n24/REFEREE.md) concludes **HOLDS WITH CAVEATS**: all four upper bounds, the odd lower bounds and the n=24 flower argument hold as stated; n=22 equality retains the external computational dependency, and n=23 remains open. The n=24 lower bound is in the revised GitHub manuscript, not arXiv v1; its cited Lean formalisation was not rerun. The referee used its own exact weighted-poset search, checked against brute force through n=6 and known n=11..20 values; it did not replay the producer's trees. Both implementations use the same enumeration method. Packaging replays the producer's trees and every delivered new witness with its packaged checker. All are **candidate** results with **no human review**. The original report's historical terminology is retained verbatim; our description of that review is clean-room.
+
+The referee's [scripts and outputs](referee/n21n24/) include the raw [window20 replay output](referee/n21n24/out/window20_replay.txt). Authors' code and lists are cited by pinned URLs in [WINDOW20.md](referee/n21n24/WINDOW20.md), not bundled. The oversized n=23 balanced-witness list is a release asset at **erdos1183-v4**; [VERIFY.md](VERIFY.md) gives the exact download, hash and replay commands. Headline upper-bound checks need no release download.
+
 ## Checking
 
 Start with [REPRODUCE.md](REPRODUCE.md). It gives the source-build pins, byte-for-byte CNF regeneration commands, lightweight colouring checks, referee computations and proof checks. [ASSETS.json](ASSETS.json) identifies the eight producer proofs, including the four new round-3 assets, their compressed release assets and all hashes. [VERIFY.md](VERIFY.md) explains downloading and checking those assets. Large CNFs and DRAT proofs are deliberately separate from the source packet.
 
-The priority searches found these finite questions open; this is bounded evidence, not a guarantee of priority. See [PRIOR_ART.md](PRIOR_ART.md).
+The current public BLLM manuscript already gives exact values through n=20 by the same weighted-poset method. The supplied round-5 searches found no n=21..24 upper bounds in the material read; this is bounded evidence, not a guarantee of priority. Packaging itself claims no new mathematics. See [PRIOR_ART.md](PRIOR_ART.md).
 
 ## Credit and references
 
@@ -70,7 +88,8 @@ Credit Erdős and Ulam for the question; Bhattacharjee–Mandal–Bhattacharya f
 - A. Biere et al., [CaDiCaL source](https://github.com/arminbiere/cadical/tree/c60730422e758ef1cebe7aeddf2dda31c996bf04).
 - A. Biere et al., [kissat source](https://github.com/arminbiere/kissat/tree/8af8e56f174b778aef3aa45af9f739b2a5f492c2).
 - Crawford, Ginsberg, Luks and Roy, “Symmetry-Breaking Predicates for Search Problems,” KR 1996, pp. 148–159.
+- Deep Bhattacharjee and Ushashi Bhattacharya, [BLLM finite-value theorem and weighted-poset method through n=20](https://github.com/creelie/eBLLM/blob/241326bbba4726afde74ae1858265878b2176c59/paper/bllm/paper/sections/sec10d_crossing.tex).
 - Garrett Birkhoff, “Rings of sets,” Duke Mathematical Journal 3 (1937), pp. 443–454 (finite distributive-lattice representation).
 - M. Heule et al., [drat-trim source](https://github.com/marijnheule/drat-trim/tree/2e3b2dc0ecf938addbd779d42877b6ed69d9a985).
 
-Models (from the launcher records): GPT-6.1 Sol via Codex (producer: search, encodings, proofs, checkers and packaging); GPT-6 Astra via Codex (n=11 referee); Claude Opus 5.5 via Claude Code (n=12, n=13/n=14 and n=15..20 referees).
+Models (from the launcher records): GPT-6.1 Sol via Codex (producer: search, encodings, proofs, checkers and packaging); GPT-6 Astra via Codex (n=11 referee); Claude Opus 5.5 via Claude Code (n=12, n=13/n=14, n=15..20 and n=21..24 referees).

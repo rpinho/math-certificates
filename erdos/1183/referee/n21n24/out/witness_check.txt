@@ -1,0 +1,32 @@
+n=21 word=0010011100101100011011 colour=0 claimed_max=12 members=12 ok
+   corrupt(flip a bit): mask 2045 rank 10 wrong colour
+   drop top member: not closed at 63502,460785 (members=11)
+   word with last letter flipped: ok
+n=21 word=0010011100101100011011 colour=1 claimed_max=12 members=12 ok
+   corrupt(flip a bit): not closed at 130079,2080767
+   drop top member: not closed at 135167,1966079 (members=11)
+   word with last letter flipped: mask 2097151 rank 21 wrong colour
+n=22 word=00100111010011100110100 colour=0 claimed_max=13 members=13 ok
+   corrupt(flip a bit): mask 1049607 rank 5 wrong colour
+   drop top member: ok (members=12)
+   word with last letter flipped: mask 4194303 rank 22 wrong colour
+n=22 word=00100111010011100110100 colour=1 claimed_max=13 members=13 ok
+   corrupt(flip a bit): mask 131067 rank 16 wrong colour
+   drop top member: ok (members=12)
+   word with last letter flipped: ok
+n=23 word=001001110010110001101101 colour=0 claimed_max=14 members=14 ok
+   corrupt(flip a bit): mask 4194175 rank 21 wrong colour
+   drop top member: not closed at 460785,3735551 (members=13)
+   word with last letter flipped: ok
+n=23 word=001001110010110001101101 colour=1 claimed_max=14 members=14 ok
+   corrupt(flip a bit): mask 23 rank 4 wrong colour
+   drop top member: not closed at 1966079,6553599 (members=13)
+   word with last letter flipped: mask 8388607 rank 23 wrong colour
+n=24 word=0011010011101001101010010 colour=0 claimed_max=14 members=14 ok
+   corrupt(flip a bit): not closed at 1,4194430
+   drop top member: not closed at 1703935,15204351 (members=13)
+   word with last letter flipped: mask 16777215 rank 24 wrong colour
+n=24 word=0011010011101001101010010 colour=1 claimed_max=14 members=14 ok
+   corrupt(flip a bit): mask 2327039 rank 13 wrong colour
+   drop top member: ok (members=13)
+   word with last letter flipped: ok

@@ -1,6 +1,6 @@
 # Prior art and scope
 
-This packaging job found no new result. It packages two supplied, previously produced and independently refereed candidate equalities. The strongest earlier finite lower bound relevant to the first is f(11)≥7, due to Bhattacharjee–Mandal–Bhattacharya and also established in the omega note. For n=12, seven is the elementary chain bound. The BMB earlier finite table gives exact values only through n=10. The omega note explicitly asks whether f(11)=7 and lists exact even-dimensional values among the open cases. The best established computational method found is the published membership-closure SAT method, with conventional symmetry breaking and independently checked DRAT certificates. This packet supplies finite constructions using that method; it claims no new general method.
+This packaging job found no new result. It packages two supplied, previously produced and reviewed by clean-room referees as candidate equalities. The strongest earlier finite lower bound relevant to the first is f(11)≥7, due to Bhattacharjee–Mandal–Bhattacharya and also established in the omega note. For n=12, seven is the elementary chain bound. The BMB earlier finite table gives exact values only through n=10. The omega note explicitly asks whether f(11)=7 and lists exact even-dimensional values among the open cases. The best established computational method found is the published membership-closure SAT method, with conventional symmetry breaking and checked DRAT certificates. This packet supplies finite constructions using that method; it claims no new general method.
 
 ## Supplied records
 
@@ -25,7 +25,7 @@ Did this job find something new? No. The two supplied finite constructions were 
 
 ## Round-3 packet refresh, 17 November 2026
 
-This extension adds the supplied f(13)=8 and f(14)=8 candidates, not a discovery by the packaging session. Their strongest relevant prior lower bound is already eight: BMB Proposition prop:flower (and thm:f20) at both dimensions, the omega institute odd-n bound at n=13, and the fifteen-set chain at n=14. The contribution supplied by the producer is the matching finite upper bound. The clean-room referee confirms both and independently re-derives the n=13 lower bound using chain exchange and all 3,432 balanced words. Its original REFEREE.md and PRIOR_ART.md are preserved in referee/n13n14, and the producer's original survey and report in producer/n13n14. None is a new general method.
+This extension adds the supplied f(13)=8 and f(14)=8 candidates, not a discovery by the packaging session. Their strongest relevant prior lower bound is already eight: BMB Proposition prop:flower (and thm:f20) at both dimensions, the omega institute odd-n bound at n=13, and the fifteen-set chain at n=14. The contribution supplied by the producer is the matching finite upper bound. The clean-room referee confirms both and separately re-derives the n=13 lower bound using chain exchange and all 3,432 balanced words. Its original REFEREE.md and PRIOR_ART.md are preserved in referee/n13n14, and the producer's original survey and report in producer/n13n14. None is a new general method.
 
 Fresh public reads are recorded with exact URLs, UTC timestamps and response hashes in sources/n13n14/refresh.json and followup.json. They confirmed:
 
@@ -39,3 +39,8 @@ These reads support the supplied bounded priority account; they do not guarantee
 ## n=15..20 packaging provenance (17 November 2026)
 
 This extension packages supplied producer results and a clean-room referee; it makes no new mathematical discovery. Their bounded priority surveys and exact source distinctions are preserved in `producer/n15n20/PRIOR_ART.md` and `referee/n15n20/REFEREE.md`. The producer prior-art file has one private capture-path field removed; its public URLs, capture hash, dates and conclusions are unchanged. The original referee report is byte-preserved. The revised BMB manuscript, not arXiv v1, supplies `prop:flower`, `thm:f20` and `lem:window20` at the pinned commit already cited above. The public packet was freshly fetched and remains c763c6a. A fresh problem-page read returned HTTP 403; the referee’s same-day captured statement remains the supplied source. No new priority claim is made by this packaging job.
+
+
+## Round 5 packaging, 17 November 2026
+
+The public baseline is exact values through n=20 in the BLLM finite-value theorem, using the same weighted-poset method. This supersedes earlier historical statements that only n≤10 was public. See the pinned BLLM reference in README.md, producer/n21n24/PRIOR_ART.md and referee/n21n24/REFEREE.md for the bounded same-day source searches. The packaging job fetched origin/main, which remained a0af345, and read the pinned BMB and BLLM sources. No new mathematical result is claimed by packaging.

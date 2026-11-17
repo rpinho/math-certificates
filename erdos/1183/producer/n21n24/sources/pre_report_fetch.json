@@ -1,0 +1,74 @@
+[
+  {
+    "name": "problem",
+    "url": "https://www.erdosproblems.com/1183",
+    "utc": "2026-11-17T19:27:21.838157+00:00",
+    "status": 200,
+    "bytes": 32750,
+    "sha256": "b377d3c1428ca807ee97bb82a96d258d6bfc240051ae2fabc9fd7d26d84a3d6d"
+  },
+  {
+    "name": "forum",
+    "url": "https://www.erdosproblems.com/forum/thread/1183",
+    "utc": "2026-11-17T19:27:21.838535+00:00",
+    "status": 200,
+    "bytes": 56789,
+    "sha256": "ca3cf9290c7efed9df27ed8f8b3c81ae35672c1dcba60d9e142f5d05c8d9e2bb"
+  },
+  {
+    "name": "proof_claims",
+    "url": "https://www.erdosproblems.com/forum/thread/1183/proof-claims",
+    "utc": "2026-11-17T19:27:21.838604+00:00",
+    "status": 200,
+    "bytes": 40980,
+    "sha256": "f379811dfb515a405d358bd47a06f97598245ef07c056a804886e1528170a893"
+  },
+  {
+    "name": "paper",
+    "url": "https://raw.githubusercontent.com/anaxia-research/Erdos-1183/HEAD/paper/Erdos.tex",
+    "utc": "2026-11-17T19:27:21.838646+00:00",
+    "status": 200,
+    "bytes": 103533,
+    "sha256": "dd6dbb0971c4d9a86123edd5223c431168b2fe14a1076380bb73de0f95ccc81c"
+  },
+  {
+    "name": "issues",
+    "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/issues?state=all&per_page=100",
+    "utc": "2026-11-17T19:27:22.063288+00:00",
+    "status": 200,
+    "bytes": 150209,
+    "sha256": "f0394ae98025c0d03f21423b15fe76a8c491506c27edfd5cd4dbf19a7eb6c0c2"
+  },
+  {
+    "name": "issue20_comments",
+    "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/issues/20/comments",
+    "utc": "2026-11-17T19:27:22.623099+00:00",
+    "status": 200,
+    "bytes": 2480,
+    "sha256": "6ef79916ededd79629c3b21b6d499720c23152c51cca559ddb3752ccbdc80328"
+  },
+  {
+    "name": "bllm",
+    "url": "https://raw.githubusercontent.com/creelie/eBLLM/HEAD/paper/bllm/paper/sections/sec10d_crossing.tex",
+    "utc": "2026-11-17T19:27:22.744808+00:00",
+    "status": 200,
+    "bytes": 13822,
+    "sha256": "d46598090936b1adde6ad4a090949d14ce9f51c0d4f307161b39e942035399a4"
+  },
+  {
+    "name": "arxiv",
+    "url": "https://arxiv.org/abs/2610.02833",
+    "utc": "2026-11-17T19:27:22.852363+00:00",
+    "status": 200,
+    "bytes": 38322,
+    "sha256": "f83c116b08cb430d664aeba1c4d0bc33b955349de822c01fc58ea2d699197a04"
+  },
+  {
+    "name": "arxiv_union",
+    "url": "https://arxiv.org/search/?query=monochromatic+union&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+    "utc": "2026-11-17T19:27:22.867764+00:00",
+    "status": 200,
+    "bytes": 160974,
+    "sha256": "37826c4566aa963726a8457cc0e96963d48f476f336f1e13b48d647a0babeded"
+  }
+]

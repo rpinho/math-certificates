@@ -1,6 +1,6 @@
 {
-  "model": "Clean-room referees from launcher records: GPT-6 Astra via Codex (n=11); Claude Opus 5.5 via Claude Code (n=12, n=13/14, n=15..20)",
-  "author": "Original clean-room referee sessions (four reports, ten finite dimensions)",
+  "model": "Clean-room referees from launcher records: GPT-6 Astra via Codex (n=11); Claude Opus 5.5 via Claude Code (n=12, n=13/14, n=15..20, n=21..24)",
+  "author": "Original clean-room referee sessions (five reports, fourteen finite dimensions)",
   "status": "PASS",
   "arithmetic": "exact",
   "inputs": {
@@ -19,15 +19,20 @@
     "certificates/n17_coloring.json": "00e6ae66c2638e1818914a6ccc41e828241c8fe58e556aa5b8986333db7bc4a0",
     "certificates/n18_coloring.json": "29672c632123010aa7976f0b46828d78c4422002a577d144ae14d9b5179ca1d7",
     "certificates/n19_coloring.json": "0ceba3666575d094d26ea1320ede041ecfd6ec6f5fd76ac001d2f034acdb5eab",
-    "certificates/n20_coloring.json": "9fd81497cfc471d1f8210558299eb5a050af91caf145749c0abc8a0763e3efed"
+    "certificates/n20_coloring.json": "9fd81497cfc471d1f8210558299eb5a050af91caf145749c0abc8a0763e3efed",
+    "certificates/n21_coloring.json": "602c68cae37ee315e976db5398bfd4c8ef3cb8cf3300733560ac9dbbd8b5939e",
+    "certificates/n22_coloring.json": "1968b770847bd8f078f52ba80a068b08d63c75f20ef62fd769722409d1417c36",
+    "certificates/n23_coloring.json": "90134292eb619bbbe2e33721200f17cf277ecfa81fdae471f23a8e4659117657",
+    "certificates/n24_coloring.json": "9ed2d54bf9780a99e6ab4f42eaf4aafecfffc04670808e24f342abec16a92d01",
+    "producer/n21n24/PROOF.md": "1e6126c3ca1a4330530cce249e3805eb0b5f54c613278b9e3eedefd6d2dd5dda"
   },
-  "inputs_hash": "9de7c2fdf63dd9229cee78a2d83e9c8f68471de22008ec71a6614d974b535235",
+  "inputs_hash": "de1e23e7a6d654321cb4d0a4c6f02df72d033c1115d91c6bb8de06d2584044d3",
   "read_producer_code": false,
   "ran_producer_code": false,
-  "checker": "referee/n15n20/src/wps.c",
-  "checker_sha256": "1233137e61a4816a9226edaa63c18de3422992a64135a1618defc87fa925da06",
-  "report": "referee/n15n20/REFEREE.md",
-  "report_sha256": "9702e1bb7738c7d95acaac2aede5b7f75a8c18ad85ffe9bec03d8d94c7d9faf3",
+  "checker": "referee/n21n24/src/check_witnesses.py",
+  "checker_sha256": "8ffe3d0821f679da689643eee4d03ce4470c26c613dbbc72627f153453a3ec56",
+  "report": "referee/n21n24/REFEREE.md",
+  "report_sha256": "c5b910bfa8ec0a37644dcfca725c47e09b21afa24b8215ab8dd56562ade4b93b",
   "records": [
     {
       "n": 11,
@@ -40,7 +45,7 @@
       "prior_art": "referee/n11/PRIOR_ART.md",
       "read_producer_code": false,
       "ran_producer_code": false,
-      "provenance": "Transcribed from the supplied clean-room referee report; packaging is not a new independent review."
+      "provenance": "Transcribed from the supplied clean-room referee report; packaging is not a new clean-room review."
     },
     {
       "n": 12,
@@ -53,7 +58,7 @@
       "prior_art": "referee/n12/REFEREE.md, section (e)",
       "read_producer_code": false,
       "ran_producer_code": false,
-      "provenance": "Transcribed from the supplied clean-room referee report; packaging is not a new independent review."
+      "provenance": "Transcribed from the supplied clean-room referee report; packaging is not a new clean-room review."
     },
     {
       "n": 13,
@@ -66,7 +71,7 @@
       "prior_art": "referee/n13n14/PRIOR_ART.md",
       "read_producer_code": false,
       "ran_producer_code": false,
-      "provenance": "Transcribed from the supplied original clean-room referee report; packaging read producer code and is not an additional independent review.",
+      "provenance": "Transcribed from the supplied original clean-room referee report; packaging read producer code and is not an additional clean-room review.",
       "lower_bound_checker": "referee/n13n14/src/balanced.py"
     },
     {
@@ -80,7 +85,7 @@
       "prior_art": "referee/n13n14/PRIOR_ART.md",
       "read_producer_code": false,
       "ran_producer_code": false,
-      "provenance": "Transcribed from the supplied original clean-room referee report; packaging read producer code and is not an additional independent review.",
+      "provenance": "Transcribed from the supplied original clean-room referee report; packaging read producer code and is not an additional clean-room review.",
       "lower_bound_checker": "15-set maximal-chain argument in PROOF.md"
     },
     {
@@ -160,15 +165,73 @@
       "ran_producer_code": false,
       "provenance": "Original clean-room referee report. Packaging replay is by the producer model, not a new clean-room review.",
       "caveat": "Same enumeration algorithm, validated against brute force through n=6. Lower bound twelve depends on BMB lem:window20; otherwise eleven to twelve."
+    },
+    {
+      "n": 21,
+      "value": 12,
+      "status": "HOLDS WITH CAVEATS",
+      "report": "referee/n21n24/REFEREE.md",
+      "report_sha256": "c5b910bfa8ec0a37644dcfca725c47e09b21afa24b8215ab8dd56562ade4b93b",
+      "checker": "referee/n21n24/src/wp.c",
+      "checker_sha256": "26ee0e68e900d96e1ea6a4321608e379ce159e4c00fa6a55d614391e21e5d675",
+      "read_producer_code": false,
+      "ran_producer_code": false,
+      "provenance": "Transcribed from supplied original clean-room report; packaging is same-lane replay.",
+      "caveat": "Candidate, no human review; same weighted-poset method in both searches."
+    },
+    {
+      "n": 22,
+      "value": 13,
+      "status": "HOLDS WITH CAVEATS",
+      "report": "referee/n21n24/REFEREE.md",
+      "report_sha256": "c5b910bfa8ec0a37644dcfca725c47e09b21afa24b8215ab8dd56562ade4b93b",
+      "checker": "referee/n21n24/src/wp.c",
+      "checker_sha256": "26ee0e68e900d96e1ea6a4321608e379ce159e4c00fa6a55d614391e21e5d675",
+      "read_producer_code": false,
+      "ran_producer_code": false,
+      "provenance": "Transcribed from supplied original clean-room report; packaging is same-lane replay.",
+      "caveat": "Equality needs BMB window20; otherwise 12≤f(22)≤13."
+    },
+    {
+      "n": 23,
+      "value": 14,
+      "status": "HOLDS WITH CAVEATS",
+      "report": "referee/n21n24/REFEREE.md",
+      "report_sha256": "c5b910bfa8ec0a37644dcfca725c47e09b21afa24b8215ab8dd56562ade4b93b",
+      "checker": "referee/n21n24/src/wp.c",
+      "checker_sha256": "26ee0e68e900d96e1ea6a4321608e379ce159e4c00fa6a55d614391e21e5d675",
+      "read_producer_code": false,
+      "ran_producer_code": false,
+      "provenance": "Transcribed from supplied original clean-room report; packaging is same-lane replay.",
+      "caveat": "13≤f(23)≤14; only rank minimum settled at 14."
+    },
+    {
+      "n": 24,
+      "value": 14,
+      "status": "HOLDS WITH CAVEATS",
+      "report": "referee/n21n24/REFEREE.md",
+      "report_sha256": "c5b910bfa8ec0a37644dcfca725c47e09b21afa24b8215ab8dd56562ade4b93b",
+      "checker": "referee/n21n24/src/wp.c",
+      "checker_sha256": "26ee0e68e900d96e1ea6a4321608e379ce159e4c00fa6a55d614391e21e5d675",
+      "read_producer_code": false,
+      "ran_producer_code": false,
+      "provenance": "Transcribed from supplied original clean-room report; packaging is same-lane replay.",
+      "caveat": "Lower bound uses revised-manuscript flower, not window20; cited Lean not rerun."
     }
   ],
-  "note": "Aggregated historical clean-room records, not a single historical session reading every input. The new referee read results.json as data and the mathematical argument, wrote its own weighted-poset enumeration and direct witness checks, and concluded HOLDS WITH CAVEATS. It replayed the authors’ window20 checker, did not reimplement mixed-level logic. No human review. Packaging read and ran producer code and is not a clean-room review.",
+  "note": "Aggregated historical clean-room records, not a single historical session reading every input. The new referee read results.json as data and the mathematical argument, wrote its own weighted-poset enumeration and direct witness checks, and concluded HOLDS WITH CAVEATS. It replayed the authors’ window20 checker, did not reimplement mixed-level logic. No human review. Packaging read and ran producer code and is not a clean-room review. Round 5 referee uses its own exact search and did not replay producer trees. Packaging does replay those trees; it is not a new clean-room review. The aggregate checker entry identifies the original Python direct-closure witness checker. Nonexistence/maximality and rank screens are checked by the original C upper_bound_checker, with its own recorded and rerun output; the Python witness checker alone does not prove an upper bound. The C source uses integer/set arithmetic; the publication source heuristic does not classify C integer arithmetic, so both real original implementations are named explicitly.",
   "values": [
     "7",
     "11",
     "12",
     "8",
     "9",
-    "10"
-  ]
+    "10",
+    "12",
+    "13",
+    "14",
+    "14"
+  ],
+  "upper_bound_checker": "referee/n21n24/src/wp.c",
+  "upper_bound_checker_sha256": "26ee0e68e900d96e1ea6a4321608e379ce159e4c00fa6a55d614391e21e5d675"
 }

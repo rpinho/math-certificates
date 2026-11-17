@@ -1,0 +1,41 @@
+{
+  "n": 3,
+  "T": 2,
+  "counts": {
+    "reject": 4,
+    "good": 9,
+    "lifted": 0
+  },
+  "trees_checked": 18,
+  "coverage": [
+    {
+      "length": 1,
+      "words": 2,
+      "orbits": 1,
+      "good_words": 2,
+      "good_orbits": 1
+    },
+    {
+      "length": 2,
+      "words": 4,
+      "orbits": 2,
+      "good_words": 4,
+      "good_orbits": 2
+    },
+    {
+      "length": 3,
+      "words": 8,
+      "orbits": 3,
+      "good_words": 6,
+      "good_orbits": 2
+    },
+    {
+      "length": 4,
+      "words": 16,
+      "orbits": 6,
+      "good_words": 6,
+      "good_orbits": 3
+    }
+  ],
+  "seconds": 0.06848692893981934
+}

@@ -1,0 +1,53 @@
+{
+  "n": 22,
+  "word": "00100111010011100110100",
+  "upper": 13,
+  "lower": 12,
+  "colours": [
+    {
+      "colour": 0,
+      "maximum": 13,
+      "witness": [
+        0,
+        1,
+        7,
+        1017,
+        1023,
+        1031,
+        2047,
+        31751,
+        32767,
+        493567,
+        524287,
+        2097151,
+        4194303
+      ],
+      "proof": "producer/n21n24/certificates/search_00100111010011100110100_c0_t14.tree.gz",
+      "nodes": 13422
+    },
+    {
+      "colour": 1,
+      "maximum": 13,
+      "witness": [
+        3,
+        31,
+        483,
+        511,
+        7711,
+        8191,
+        122911,
+        123391,
+        130591,
+        131071,
+        139263,
+        262143,
+        1048575
+      ],
+      "proof": "producer/n21n24/certificates/search_00100111010011100110100_c1_t14.tree.gz",
+      "nodes": 9133
+    }
+  ],
+  "encoding": "rank word: colour(S) = int(word[popcount(S)]), ranks 0 through n; masks use bit i for element i+1",
+  "conditional_lower": 13,
+  "lower_dependency": "BMB thm:f20 through computer-assisted lem:window20; authors checker replayed by clean-room referee, mixed-level logic not reimplemented"
+}

@@ -1,0 +1,18 @@
+BRUTE 0 1 all 2 allowed rank sets agree
+BRUTE 1 3 all 4 allowed rank sets agree
+BRUTE 2 12 all 8 allowed rank sets agree
+BRUTE 3 73 all 16 allowed rank sets agree
+BRUTE 4 731 all 32 allowed rank sets agree
+BRUTE 5 12084 all 64 allowed rank sets agree
+BRUTE 6 319987 all 128 allowed rank sets agree
+REFEREE 11 1000 random words, both colours agree 0.9
+REFEREE 12 1000 random words, both colours agree 1.59
+REFEREE 13 1000 random words, both colours agree 2.5
+REFEREE 14 1000 random words, both colours agree 3.61
+REFEREE 15 1000 random words, both colours agree 4.7
+REFEREE 16 1000 random words, both colours agree 6.19
+PLANTED 21 100 passed
+PLANTED 22 100 passed
+PLANTED 23 100 passed
+PLANTED 24 100 passed
+{'brute_mismatches': 0, 'referee_words': 6000, 'planted': 400, 'corruptions_rejected': ['delete_subtree', 'change_weight', 'flip_word'], 'no_trees_checked': 3040, 'positive_queries_checked': 9756, 'wall_seconds': 6.209553241729736}

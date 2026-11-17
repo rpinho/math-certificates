@@ -1,0 +1,189 @@
+{
+  "n": 24,
+  "T": 13,
+  "counts": {
+    "reject": 52645,
+    "good": 52644,
+    "lifted": 9444
+  },
+  "trees_checked": 0,
+  "tree_scope": "terminal survivors; intermediate trees checked by Runner during production",
+  "coverage": [
+    {
+      "length": 1,
+      "words": 2,
+      "orbits": 1,
+      "good_words": 2,
+      "good_orbits": 1
+    },
+    {
+      "length": 2,
+      "words": 4,
+      "orbits": 2,
+      "good_words": 4,
+      "good_orbits": 2
+    },
+    {
+      "length": 3,
+      "words": 8,
+      "orbits": 3,
+      "good_words": 8,
+      "good_orbits": 3
+    },
+    {
+      "length": 4,
+      "words": 16,
+      "orbits": 6,
+      "good_words": 16,
+      "good_orbits": 6
+    },
+    {
+      "length": 5,
+      "words": 32,
+      "orbits": 10,
+      "good_words": 30,
+      "good_orbits": 9
+    },
+    {
+      "length": 6,
+      "words": 64,
+      "orbits": 20,
+      "good_words": 58,
+      "good_orbits": 18
+    },
+    {
+      "length": 7,
+      "words": 128,
+      "orbits": 36,
+      "good_words": 112,
+      "good_orbits": 31
+    },
+    {
+      "length": 8,
+      "words": 256,
+      "orbits": 72,
+      "good_words": 216,
+      "good_orbits": 61
+    },
+    {
+      "length": 9,
+      "words": 512,
+      "orbits": 136,
+      "good_words": 398,
+      "good_orbits": 104
+    },
+    {
+      "length": 10,
+      "words": 1024,
+      "orbits": 272,
+      "good_words": 730,
+      "good_orbits": 195
+    },
+    {
+      "length": 11,
+      "words": 2048,
+      "orbits": 528,
+      "good_words": 1344,
+      "good_orbits": 342
+    },
+    {
+      "length": 12,
+      "words": 4096,
+      "orbits": 1056,
+      "good_words": 2402,
+      "good_orbits": 622
+    },
+    {
+      "length": 13,
+      "words": 8192,
+      "orbits": 2080,
+      "good_words": 4024,
+      "good_orbits": 1014
+    },
+    {
+      "length": 14,
+      "words": 16384,
+      "orbits": 4160,
+      "good_words": 6430,
+      "good_orbits": 1641
+    },
+    {
+      "length": 15,
+      "words": 32768,
+      "orbits": 8256,
+      "good_words": 9820,
+      "good_orbits": 2466
+    },
+    {
+      "length": 16,
+      "words": 65536,
+      "orbits": 16512,
+      "good_words": 13964,
+      "good_orbits": 3540
+    },
+    {
+      "length": 17,
+      "words": 131072,
+      "orbits": 32896,
+      "good_words": 16970,
+      "good_orbits": 4249
+    },
+    {
+      "length": 18,
+      "words": 262144,
+      "orbits": 65792,
+      "good_words": 18058,
+      "good_orbits": 4563
+    },
+    {
+      "length": 19,
+      "words": 524288,
+      "orbits": 131328,
+      "good_words": 15276,
+      "good_orbits": 3824
+    },
+    {
+      "length": 20,
+      "words": 1048576,
+      "orbits": 262656,
+      "good_words": 9766,
+      "good_orbits": 2472
+    },
+    {
+      "length": 21,
+      "words": 2097152,
+      "orbits": 524800,
+      "good_words": 4434,
+      "good_orbits": 1109
+    },
+    {
+      "length": 22,
+      "words": 4194304,
+      "orbits": 1049600,
+      "good_words": 1198,
+      "good_orbits": 306
+    },
+    {
+      "length": 23,
+      "words": 8388608,
+      "orbits": 2098176,
+      "good_words": 28,
+      "good_orbits": 7
+    },
+    {
+      "length": 24,
+      "words": 16777216,
+      "orbits": 4196352,
+      "good_words": 0,
+      "good_orbits": 0
+    },
+    {
+      "length": 25,
+      "words": 33554432,
+      "orbits": 8390656,
+      "good_words": 0,
+      "good_orbits": 0
+    }
+  ],
+  "seconds": 3.4634780883789062
+}

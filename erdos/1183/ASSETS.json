@@ -132,16 +132,29 @@
   "provenance": "Complete retained producer DRAT proofs only. Original clean-room referee large proofs were deleted after checking and are not these assets. The unfinished n12 colour-zero base proof is excluded. The four new assets are the round-3 n=13/n=14 producer proofs, excluding the unfinished non-plain n14 colour-1 trace and zero-byte colour-0 CaDiCaL file.",
   "compression": "xz -T1 -c (default preset 6); each asset is below 1.9 GB, so no parts are needed.",
   "n15n20_release": {
-    "tag": "erdos1183-v3",
+    "tag": "erdos1183-v4",
     "assets": [
       {
         "name": "no_trees.tar.xz",
         "bytes": 42546176,
         "sha256": "2836261e0dccd620be50fb277ec33fb0598bd69864a6c6a6c6f9cab19b9f6f42",
-        "release_url": "https://github.com/rpinho/math-certificates/releases/download/erdos1183-v3/no_trees.tar.xz"
+        "release_url": "https://github.com/rpinho/math-certificates/releases/download/erdos1183-v4/no_trees.tar.xz"
       }
     ],
     "guide": "VERIFY.md",
     "note": "Only the optional exhaustive tree archive exceeds 20 MB. All delivered witness lists and headline trees are in packet."
+  },
+  "n21n24_release": {
+    "tag": "erdos1183-v4",
+    "assets": [
+      {
+        "name": "n23_balanced.txt.xz",
+        "bytes": 22564008,
+        "sha256": "29b3aa237c9a2582e37a78113f132773a1d8e2ddbcab85acc1dd1ee6da6a6fba",
+        "release_url": "https://github.com/rpinho/math-certificates/releases/download/erdos1183-v4/n23_balanced.txt.xz"
+      }
+    ],
+    "guide": "VERIFY.md",
+    "note": "All eight new headline trees and other retained n21..24 trees are in packet; only the n23 balanced-word witness list exceeds 20 MB."
   }
 }

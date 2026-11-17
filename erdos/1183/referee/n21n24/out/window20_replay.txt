@@ -1,0 +1,27 @@
+-- certs_11.txt
+m=11 K=13 band=: 288 certificates, 4096 patterns, 0 settled by pivots, 0 word choices, least pair 13
+PASS: every 2-colouring of 2^[11] has a red and a blue sublattice with at least 13 members in total
+real 0.07
+user 0.00
+sys 0.00
+-- certs_19_22.txt
+m=19 K=22 band=8,9,10,11: 63272 certificates, 5308416 patterns, 242 settled by pivots, 708872 word choices, least pair 22
+PASS: every 2-colouring of 2^[19] has a red and a blue sublattice with at least 22 members in total
+real 0.21
+user 0.20
+sys 0.00
+-- mut_target.txt
+FAIL: level outside the band not settled
+real 0.00
+user 0.00
+sys 0.00
+-- mut_pivots.txt
+FAIL: pattern below the bound
+real 0.13
+user 0.12
+sys 0.00
+-- mut_member.txt
+FAIL: not a sublattice
+real 0.00
+user 0.00
+sys 0.00

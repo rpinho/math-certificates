@@ -1,0 +1,18 @@
+length 12 words without a forbidden block: 0
+length 11 words without one: 4 RRBRBBRRBBR among them: True
+GADGET 2 000 3
+GADGET 4 01010 3
+GADGET 6 0110110 3
+GADGET 8 001100110 5
+GADGET 8 010010110 5
+GADGET 9 0010110010 6
+GADGET 9 0100110010 6
+GADGET 9 0110010110 5
+000 red=3 max=4
+01010 red=3 max=4
+0110110 red=3 max=4
+001100110 red=5 max=6
+010010110 red=5 max=6
+0010110010 red=6 max=8
+0100110010 red=6 max=8
+0110010110 red=5 max=8

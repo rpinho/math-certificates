@@ -1,0 +1,296 @@
+{
+  "metered_core_hours": 9.306413888888889,
+  "max_process_rss_bytes": 311689216,
+  "sampled_job_rss_peak_bytes": 1685274624,
+  "stages": [
+    {
+      "file": "logs/public_baseline20.time",
+      "wall": 0.32,
+      "cpu": 0.31,
+      "rss": 21118976
+    },
+    {
+      "file": "logs/prefix22_12.time",
+      "wall": 2.08,
+      "cpu": 0.28,
+      "rss": 39895040
+    },
+    {
+      "file": "logs/n21_upper_find.time",
+      "wall": 101.1,
+      "cpu": 101.02000000000001,
+      "rss": 63651840
+    },
+    {
+      "file": "logs/final_packing.time",
+      "wall": 2.08,
+      "cpu": 1.86,
+      "rss": 276135936
+    },
+    {
+      "file": "logs/prefix23_13.time",
+      "wall": 2.1,
+      "cpu": 2.0700000000000003,
+      "rss": 130187264
+    },
+    {
+      "file": "logs/finish22.time",
+      "wall": 2.09,
+      "cpu": 0.96,
+      "rss": 22675456
+    },
+    {
+      "file": "logs/upper21.time",
+      "wall": 1.99,
+      "cpu": 1.9000000000000001,
+      "rss": 23429120
+    },
+    {
+      "file": "logs/prefix22_13.time",
+      "wall": 1102.3,
+      "cpu": 5064.45,
+      "rss": 139198464
+    },
+    {
+      "file": "logs/final_packing_initial.time",
+      "wall": 12.23,
+      "cpu": 11.58,
+      "rss": 138641408
+    },
+    {
+      "file": "logs/coverage24_14.time",
+      "wall": 10.22,
+      "cpu": 9.870000000000001,
+      "rss": 28098560
+    },
+    {
+      "file": "logs/prefix21_12.time",
+      "wall": 1340.64,
+      "cpu": 1343.91,
+      "rss": 144850944
+    },
+    {
+      "file": "logs/coverage24_13.time",
+      "wall": 4.14,
+      "cpu": 3.6,
+      "rss": 27295744
+    },
+    {
+      "file": "logs/coverage21_11.time",
+      "wall": 161.69,
+      "cpu": 162.23000000000002,
+      "rss": 32800768
+    },
+    {
+      "file": "logs/crosschecks.time",
+      "wall": 1.88,
+      "cpu": 1.81,
+      "rss": 44695552
+    },
+    {
+      "file": "logs/brute.time",
+      "wall": 0.91,
+      "cpu": 0.81,
+      "rss": 2097152
+    },
+    {
+      "file": "logs/best21.time",
+      "wall": 0.98,
+      "cpu": 0.9500000000000001,
+      "rss": 22265856
+    },
+    {
+      "file": "logs/upper23_T14.time",
+      "wall": 4.09,
+      "cpu": 2.13,
+      "rss": 75055104
+    },
+    {
+      "file": "logs/balanced21.time",
+      "wall": 2.88,
+      "cpu": 2.7399999999999998,
+      "rss": 2736128
+    },
+    {
+      "file": "logs/prefix23_14.time",
+      "wall": 4947.78,
+      "cpu": 23499.23,
+      "rss": 234405888
+    },
+    {
+      "file": "logs/prefix24_13.time",
+      "wall": 2.09,
+      "cpu": 0.25,
+      "rss": 21315584
+    },
+    {
+      "file": "logs/upper24.time",
+      "wall": 4.13,
+      "cpu": 3.06,
+      "rss": 137641984
+    },
+    {
+      "file": "logs/final_packing_window32.time",
+      "wall": 12.2,
+      "cpu": 11.68,
+      "rss": 284377088
+    },
+    {
+      "file": "logs/coverage21_12.time",
+      "wall": 2.06,
+      "cpu": 1.6500000000000001,
+      "rss": 26689536
+    },
+    {
+      "file": "logs/balanced_packing.time",
+      "wall": 6.08,
+      "cpu": 6.05,
+      "rss": 35405824
+    },
+    {
+      "file": "logs/coverage23_14.time",
+      "wall": 303.84,
+      "cpu": 303.45,
+      "rss": 28377088
+    },
+    {
+      "file": "logs/baseline20.time",
+      "wall": 0.33,
+      "cpu": 0.32,
+      "rss": 21856256
+    },
+    {
+      "file": "logs/balanced_packing32.time",
+      "wall": 5.64,
+      "cpu": 5.62,
+      "rss": 275709952
+    },
+    {
+      "file": "logs/n22_colour_maxima.time",
+      "wall": 0.06,
+      "cpu": 0.05,
+      "rss": 18415616
+    },
+    {
+      "file": "logs/prefix21_11.time",
+      "wall": 303.36,
+      "cpu": 303.14,
+      "rss": 80691200
+    },
+    {
+      "file": "logs/balanced23_check.time",
+      "wall": 43.52,
+      "cpu": 43.089999999999996,
+      "rss": 35586048
+    },
+    {
+      "file": "logs/validation.time",
+      "wall": 6.23,
+      "cpu": 6.13,
+      "rss": 35487744
+    },
+    {
+      "file": "logs/prefix22_13.serial.time",
+      "wall": 614.54,
+      "cpu": 565.32,
+      "rss": 116408320
+    },
+    {
+      "file": "logs/n22_upper_find.time",
+      "wall": 121.3,
+      "cpu": 121.42999999999999,
+      "rss": 99909632
+    },
+    {
+      "file": "logs/balanced23.time",
+      "wall": 17.67,
+      "cpu": 15.7,
+      "rss": 2752512
+    },
+    {
+      "file": "logs/coverage22_12.time",
+      "wall": 2.08,
+      "cpu": 1.21,
+      "rss": 26607616
+    },
+    {
+      "file": "logs/final_replay.time",
+      "wall": 81.0,
+      "cpu": 80.89,
+      "rss": 135970816
+    },
+    {
+      "file": "logs/coverage23_13.time",
+      "wall": 3.88,
+      "cpu": 3.77,
+      "rss": 27295744
+    },
+    {
+      "file": "logs/cost20_replay.time",
+      "wall": 24.36,
+      "cpu": 22.44,
+      "rss": 26804224
+    },
+    {
+      "file": "logs/upper22.time",
+      "wall": 10.15,
+      "cpu": 8.4,
+      "rss": 44515328
+    },
+    {
+      "file": "logs/n23_upper_find.time",
+      "wall": 315.57,
+      "cpu": 304.11999999999995,
+      "rss": 163954688
+    },
+    {
+      "file": "logs/crosschecks_final.time",
+      "wall": 6.44,
+      "cpu": 6.42,
+      "rss": 137478144
+    },
+    {
+      "file": "logs/upper23.time",
+      "wall": 14.26,
+      "cpu": 14.17,
+      "rss": 74973184
+    },
+    {
+      "file": "logs/prefix24_14.time",
+      "wall": 8.19,
+      "cpu": 15.930000000000001,
+      "rss": 244006912
+    },
+    {
+      "file": "logs/coverage22_13.time",
+      "wall": 12.21,
+      "cpu": 10.35,
+      "rss": 27459584
+    },
+    {
+      "file": "logs/balanced21_check.time",
+      "wall": 8.89,
+      "cpu": 8.889999999999999,
+      "rss": 23003136
+    },
+    {
+      "file": "logs/cost20/logs/prefix20_12.time",
+      "wall": 1412.44,
+      "cpu": 1406.6,
+      "rss": 127352832
+    },
+    {
+      "file": "logs/retention_repacking.time",
+      "wall": 19.96,
+      "cpu": 19.93,
+      "rss": 311689216
+    },
+    {
+      "file": "logs/source_packing.time",
+      "wall": 1.41,
+      "cpu": 1.32,
+      "rss": 111935488
+    }
+  ],
+  "utc": "2026-11-17T19:36:01.225960+00:00"
+}

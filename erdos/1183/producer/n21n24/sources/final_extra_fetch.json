@@ -1,0 +1,50 @@
+[
+  {
+    "name": "bllm",
+    "url": "https://raw.githubusercontent.com/creelie/eBLLM/HEAD/paper/bllm/paper/sections/sec10d_crossing.tex",
+    "utc": "2026-11-17T19:05:26.608082+00:00",
+    "status": 200,
+    "bytes": 13822,
+    "sha256": "d46598090936b1adde6ad4a090949d14ce9f51c0d4f307161b39e942035399a4"
+  },
+  {
+    "name": "bllm_commit",
+    "url": "https://api.github.com/repos/creelie/eBLLM/commits?per_page=1",
+    "utc": "2026-11-17T19:05:26.608682+00:00",
+    "status": 200,
+    "bytes": 3301,
+    "sha256": "9865e5e827afd3d30ff821a885e243d28f589ba98b7f5351e095356c17512596"
+  },
+  {
+    "name": "pulls",
+    "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/pulls?state=all&per_page=100",
+    "utc": "2026-11-17T19:05:26.608772+00:00",
+    "status": 200,
+    "bytes": 355400,
+    "sha256": "95bcb7b211dfdb8100d828e8793a3c4eb4c2d30d3b7696393078b09cce521c9b"
+  },
+  {
+    "name": "issue_search",
+    "url": "https://api.github.com/search/issues?q=1183+sublattice+in%3Atitle%2Cbody&sort=updated&per_page=100",
+    "utc": "2026-11-17T19:05:26.608816+00:00",
+    "status": 200,
+    "bytes": 105877,
+    "sha256": "7d8cede99ef72364fad53b4483b573113b13fcd76f7eb74e0b306931669ef384"
+  },
+  {
+    "name": "arxiv_union",
+    "url": "https://arxiv.org/search/?query=monochromatic+union&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+    "utc": "2026-11-17T19:05:26.880098+00:00",
+    "status": 200,
+    "bytes": 160974,
+    "sha256": "37826c4566aa963726a8457cc0e96963d48f476f336f1e13b48d647a0babeded"
+  },
+  {
+    "name": "plasma_index",
+    "url": "https://raw.githubusercontent.com/plasma-ai/erdos/HEAD/wiki/problems/ramsey_theory/E1183/_index.md",
+    "utc": "2026-11-17T19:05:27.136066+00:00",
+    "status": 200,
+    "bytes": 16478,
+    "sha256": "8fc687f2949fa9b65d8e1a8efb4b01c6a56d7c552df4145a7e9deb9f8383a099"
+  }
+]

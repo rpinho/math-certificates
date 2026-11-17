@@ -1,0 +1,24 @@
+[
+  {
+    "name": "bllm_casesfull",
+    "url": "https://raw.githubusercontent.com/creelie/eBLLM/HEAD/paper/bllm/paper/sections/sec10_cases.tex",
+    "utc": "2026-11-17T16:35:15.248046+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "bllm_opt",
+    "url": "https://raw.githubusercontent.com/creelie/eBLLM/HEAD/experiments/erdos1183/level_opt_19_20.log",
+    "utc": "2026-11-17T16:35:15.424607+00:00",
+    "status": 200,
+    "bytes": 1704,
+    "sha256": "5640ce6c547dd482c02be9f4ba3f207fb221458abf82454536c49f0c2e4f5185"
+  },
+  {
+    "name": "publicpacket",
+    "url": "https://raw.githubusercontent.com/rpinho/math-certificates/HEAD/erdos/1183/CLAIMS.json",
+    "utc": "2026-11-17T16:35:15.627898+00:00",
+    "status": 200,
+    "bytes": 8198,
+    "sha256": "f967b55cde549d32d0e5ed43b81d9ff299db24411086fc9bddd2b200cd6f9677"
+  }
+]

@@ -1,0 +1,35 @@
+HEADLINE 15 upper 9 both trees and witnesses PASS
+HEADLINE 16 upper 9 both trees and witnesses PASS
+HEADLINE 17 upper 10 both trees and witnesses PASS
+HEADLINE 18 upper 10 both trees and witnesses PASS
+HEADLINE 19 upper 11 both trees and witnesses PASS
+HEADLINE 20 upper 12 both trees and witnesses PASS
+WITNESSES n11_T6_screen.jsonl.xz 1056 PASS
+WITNESSES n12_T6_screen.jsonl.xz 2080 PASS
+WITNESSES n13_T7_screen.jsonl.xz 4160 PASS
+WITNESSES n14_T7_screen.jsonl.xz 8256 PASS
+WITNESSES n14_T8_screen.jsonl.xz 8248 PASS
+WITNESSES n15_T8_screen.jsonl.xz 16512 PASS
+WITNESSES n15_T9_screen.jsonl.xz 16436 PASS
+WITNESSES n16_T8_screen.jsonl.xz 32896 PASS
+WITNESSES n16_T9_screen.jsonl.xz 32893 PASS
+WITNESSES n17_T9_screen.jsonl.xz 65792 PASS
+WITNESSES n18_T10_screen.jsonl.xz 131326 PASS
+WITNESSES n18_T9_screen.jsonl.xz 131328 PASS
+WITNESSES n19_T10_screen.jsonl.xz 262656 PASS
+WITNESSES n19_T11_screen.jsonl.xz 262646 PASS
+WITNESSES n20_T11_screen.jsonl.xz 524800 PASS
+WITNESSES n14_T8_prefix.jsonl.xz 1342 PASS
+WITNESSES n15_T9_prefix.jsonl.xz 2657 PASS
+WITNESSES n16_T9_prefix.jsonl.xz 2937 PASS
+WITNESSES n17_T9_prefix.jsonl.xz 2949 PASS
+WITNESSES n18_T9_prefix.jsonl.xz 2949 PASS
+WITNESSES n19_T10_prefix.jsonl.xz 6525 PASS
+WITNESSES n20_T11_prefix.jsonl.xz 13064 PASS
+BALANCED producer 15 12870 PASS
+BALANCED referee 15 12870 PASS
+BALANCED producer 17 48620 PASS
+BALANCED referee 17 48620 PASS
+BALANCED producer 19 184756 PASS
+BALANCED referee 19 184756 PASS
+PACKET REPLAY PASS; 1533508 screen/prefix witnesses;

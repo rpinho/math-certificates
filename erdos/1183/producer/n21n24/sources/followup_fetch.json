@@ -1,0 +1,50 @@
+[
+  {
+    "name": "alpha_root",
+    "url": "https://api.github.com/repos/google-deepmind/alphaevolve_results/contents",
+    "utc": "2026-11-17T16:32:36.578275+00:00",
+    "bytes": 4432,
+    "sha256": "828b6292a584d96f39add622806f8e10dfd270560c0fb9fdd3347ca905311d63",
+    "status": 200
+  },
+  {
+    "name": "openai_root",
+    "url": "https://api.github.com/repos/openai/math/git/trees/HEAD",
+    "utc": "2026-11-17T16:32:36.979688+00:00",
+    "bytes": 2263,
+    "sha256": "705cd19617e3ea3fc532b91dbca7661d32295103d67fa04cfa91d76c6237fd8c",
+    "status": 200
+  },
+  {
+    "name": "einstein_results",
+    "url": "https://api.github.com/repos/togethercomputer/EinsteinArena-new-SOTA/git/trees/HEAD?recursive=1",
+    "utc": "2026-11-17T16:32:37.266287+00:00",
+    "bytes": 30542,
+    "sha256": "d4264ac96054cf53c98353c2e7f296c2b10526756171f8a66e0ec32b9955ec8c",
+    "status": 200
+  },
+  {
+    "name": "other1183_english",
+    "url": "https://raw.githubusercontent.com/QuanyuTang/erdos-problem-1183/HEAD/Erdos%231183_translate.pdf",
+    "utc": "2026-11-17T16:32:37.670386+00:00",
+    "bytes": 1096871,
+    "sha256": "9af2832ab0a239647368a74caceada6f7f16b87458827e37d6ece83537c8be49",
+    "status": 200
+  },
+  {
+    "name": "arxiv_union",
+    "url": "https://arxiv.org/search/?query=monochromatic+union&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+    "utc": "2026-11-17T16:32:38.167823+00:00",
+    "bytes": 160974,
+    "sha256": "37826c4566aa963726a8457cc0e96963d48f476f336f1e13b48d647a0babeded",
+    "status": 200
+  },
+  {
+    "name": "issue_search_body",
+    "url": "https://api.github.com/search/issues?q=1183+sublattice+in%3Atitle%2Cbody&sort=updated&per_page=100",
+    "utc": "2026-11-17T16:32:41.366086+00:00",
+    "bytes": 105877,
+    "sha256": "7d8cede99ef72364fad53b4483b573113b13fcd76f7eb74e0b306931669ef384",
+    "status": 200
+  }
+]

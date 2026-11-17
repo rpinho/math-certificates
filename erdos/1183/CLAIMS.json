@@ -260,7 +260,79 @@
       "arithmetic": "exact",
       "new_bound": false,
       "label": "n=20 rank word, from rank zero"
+    },
+    {
+      "value": "12",
+      "kind": "rigorous",
+      "producer": "producer/n21n24/src/check.py",
+      "source": "referee/n21n24/REFEREE.md",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "f(21)=12; chain exchange and every balanced word; also BMB flower"
+    },
+    {
+      "value": "21",
+      "kind": "rigorous",
+      "producer": "producer/n21n24/src/check.py",
+      "source": "referee/n21n24/REFEREE.md",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "dimension n=21"
+    },
+    {
+      "value": "13",
+      "kind": "rigorous",
+      "producer": "producer/n21n24/src/check.py",
+      "source": "referee/n21n24/REFEREE.md",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "12≤f(22)≤13; equality 13 given BMB thm:f20 via computer-assisted window20, replayed but not reimplemented for mixed levels"
+    },
+    {
+      "value": "22",
+      "kind": "rigorous",
+      "producer": "producer/n21n24/src/check.py",
+      "source": "referee/n21n24/REFEREE.md",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "dimension n=22"
+    },
+    {
+      "value": "14",
+      "kind": "rigorous",
+      "producer": "producer/n21n24/src/check.py",
+      "source": "referee/n21n24/REFEREE.md",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "13≤f(23)≤14; rank minimum exactly 14; unrestricted gap open"
+    },
+    {
+      "value": "23",
+      "kind": "rigorous",
+      "producer": "producer/n21n24/src/check.py",
+      "source": "referee/n21n24/REFEREE.md",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "dimension n=23"
+    },
+    {
+      "value": "14",
+      "kind": "rigorous",
+      "producer": "producer/n21n24/src/check.py",
+      "source": "referee/n21n24/REFEREE.md",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "f(24)=14 via BMB flower; no window20 dependency"
+    },
+    {
+      "value": "24",
+      "kind": "rigorous",
+      "producer": "producer/n21n24/src/check.py",
+      "source": "referee/n21n24/REFEREE.md",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "dimension n=24"
     }
   ],
-  "scope": "Supplied finite candidates through n=20; twelve is an upper bound and equality is explicitly conditional on BMB window20. No new discovery by packaging."
+  "scope": "Supplied finite candidates through n=24; n=20 and n=22 equalities conditional on BMB window20. n=23 interval 13 to 14, rank minimum 14. No discovery by packaging."
 }

@@ -3,7 +3,7 @@
   "new_bound": true,
   "producer_author": "original fixed-colouring producer AI sessions",
   "producer_model": "GPT-6.1 Sol via Codex (launcher records)",
-  "referee_model": "Clean-room referees from launcher records: GPT-6 Astra via Codex (n=11); Claude Opus 5.5 via Claude Code (n=12, n=13/14, n=15..20)",
+  "referee_model": "Clean-room referees from launcher records: GPT-6 Astra via Codex (n=11); Claude Opus 5.5 via Claude Code (n=12, n=13/14, n=15..20, n=21..24)",
   "submitter": "rpinho",
   "destination": "erdos/1183",
   "certificate_repository": "rpinho/math-certificates",
@@ -23,7 +23,12 @@
     "certificates/n17_coloring.json": "certificate",
     "certificates/n18_coloring.json": "certificate",
     "certificates/n19_coloring.json": "certificate",
-    "certificates/n20_coloring.json": "certificate"
+    "certificates/n20_coloring.json": "certificate",
+    "certificates/n21_coloring.json": "certificate",
+    "certificates/n22_coloring.json": "certificate",
+    "certificates/n23_coloring.json": "certificate",
+    "certificates/n24_coloring.json": "certificate",
+    "producer/n21n24/PROOF.md": "proof"
   },
   "publication_status": "Local sealed candidate packet. No upload, post, push or public release performed.",
   "linked_trees": {
@@ -34,7 +39,8 @@
     "ipezygj/erdos609-f4@58472a0a0b0cb45a7804b4668011359ccf732689": "sources/publish-trees/ipezygj__erdos609-f4@58472a0a0b0cb45a7804b4668011359ccf732689.json",
     "arminbiere/cadical@c60730422e758ef1cebe7aeddf2dda31c996bf04": "sources/publish-trees/arminbiere__cadical@c60730422e758ef1cebe7aeddf2dda31c996bf04.json",
     "arminbiere/kissat@8af8e56f174b778aef3aa45af9f739b2a5f492c2": "sources/n13n14/arminbiere__kissat@8af8e56f174b778aef3aa45af9f739b2a5f492c2.json",
-    "anaxia-research/Erdos-1183@2842ef3a58604a8f4b35271d5753c2bf9bdecd0b": "sources/n13n14/anaxia-research__Erdos-1183@2842ef3a58604a8f4b35271d5753c2bf9bdecd0b.json"
+    "anaxia-research/Erdos-1183@2842ef3a58604a8f4b35271d5753c2bf9bdecd0b": "sources/n13n14/anaxia-research__Erdos-1183@2842ef3a58604a8f4b35271d5753c2bf9bdecd0b.json",
+    "creelie/eBLLM@241326bbba4726afde74ae1858265878b2176c59": "sources/n21n24/creelie__eBLLM@241326bbba4726afde74ae1858265878b2176c59.json"
   },
-  "scope": "Finite candidate results through n=20. f(20) upper bound twelve; equality given BMB lem:window20, otherwise eleven to twelve. Local packet and erdos1183-v3 release assets await publication."
+  "scope": "Finite candidate results through n=24: f(21)=12, f(24)=14, f(22)≤13 (equality given BMB window20, otherwise 12≤f(22)≤13), 13≤f(23)≤14; rank minimum at n=23 exactly 14. Existing f(20) caveat remains. Release tag erdos1183-v4."
 }

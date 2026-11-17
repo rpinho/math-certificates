@@ -1,0 +1,146 @@
+[
+  {
+    "name": "problem",
+    "url": "https://www.erdosproblems.com/1183",
+    "utc": "2026-11-17T19:04:34.291955+00:00",
+    "status": 200,
+    "bytes": 32750,
+    "sha256": "b24bb61971b143a1be8974d241c64f5b2e7119f7e051098f2a3f561299091af8"
+  },
+  {
+    "name": "forum",
+    "url": "https://www.erdosproblems.com/forum/thread/1183",
+    "utc": "2026-11-17T19:04:34.292350+00:00",
+    "status": 200,
+    "bytes": 56789,
+    "sha256": "1c71625c733228c6666435116eb8d98d7de5a3fdf895552706cb7521305b1a34"
+  },
+  {
+    "name": "paper",
+    "url": "https://raw.githubusercontent.com/anaxia-research/Erdos-1183/HEAD/paper/Erdos.tex",
+    "utc": "2026-11-17T19:04:34.292480+00:00",
+    "status": 200,
+    "bytes": 103533,
+    "sha256": "dd6dbb0971c4d9a86123edd5223c431168b2fe14a1076380bb73de0f95ccc81c"
+  },
+  {
+    "name": "readme",
+    "url": "https://raw.githubusercontent.com/anaxia-research/Erdos-1183/HEAD/README.md",
+    "utc": "2026-11-17T19:04:34.292545+00:00",
+    "status": 200,
+    "bytes": 8891,
+    "sha256": "5284ad7429a3fa0dcf77483ca4c559ce2b95b6b256a4b34013958ae154a97902"
+  },
+  {
+    "name": "issues",
+    "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/issues?state=all&per_page=100",
+    "utc": "2026-11-17T19:04:34.292703+00:00",
+    "status": 200,
+    "bytes": 150209,
+    "sha256": "f0394ae98025c0d03f21423b15fe76a8c491506c27edfd5cd4dbf19a7eb6c0c2"
+  },
+  {
+    "name": "issue20",
+    "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/issues/20",
+    "utc": "2026-11-17T19:04:34.292765+00:00",
+    "status": 200,
+    "bytes": 3344,
+    "sha256": "361ed5d94105b4c561b830b784ad23df4e0583a0431d12978d4646881b1374ef"
+  },
+  {
+    "name": "issue20_comments",
+    "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/issues/20/comments",
+    "utc": "2026-11-17T19:04:34.528955+00:00",
+    "status": 200,
+    "bytes": 2480,
+    "sha256": "6ef79916ededd79629c3b21b6d499720c23152c51cca559ddb3752ccbdc80328"
+  },
+  {
+    "name": "commits",
+    "url": "https://api.github.com/repos/anaxia-research/Erdos-1183/commits?per_page=1",
+    "utc": "2026-11-17T19:04:34.569251+00:00",
+    "status": 200,
+    "bytes": 4721,
+    "sha256": "c96c27596436eb453aaa2e1cf6edef70ec6a6a4fd74506f856b8551ed2a7c2be"
+  },
+  {
+    "name": "github_search",
+    "url": "https://api.github.com/search/repositories?q=Erdos+1183&sort=updated&order=desc&per_page=30",
+    "utc": "2026-11-17T19:04:34.633317+00:00",
+    "status": 200,
+    "bytes": 11069,
+    "sha256": "b78f7c1306def588be6635cbf43293c8e97e3247b4e76bf61a474ae5d3d8f50c"
+  },
+  {
+    "name": "omega",
+    "url": "https://raw.githubusercontent.com/the-omega-institute/trureturing/HEAD/Problems/bhattacharjee-mandal-bhattacharya-2026-sublattice-chain-bound-refutation.md",
+    "utc": "2026-11-17T19:04:34.776125+00:00",
+    "status": 200,
+    "bytes": 7393,
+    "sha256": "ea6e7ab8b35b3f770dc9ff95f99321bf273bbfc32cff9ab40331ab58a0289af6"
+  },
+  {
+    "name": "arxiv",
+    "url": "https://arxiv.org/abs/2610.02833",
+    "utc": "2026-11-17T19:04:34.813754+00:00",
+    "status": 200,
+    "bytes": 38322,
+    "sha256": "f83c116b08cb430d664aeba1c4d0bc33b955349de822c01fc58ea2d699197a04"
+  },
+  {
+    "name": "arxiv_search",
+    "url": "https://arxiv.org/search/?query=monochromatic+sublattice&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+    "utc": "2026-11-17T19:04:34.945523+00:00",
+    "status": 200,
+    "bytes": 23336,
+    "sha256": "d93b81683c21145fba9a50487377144d091a513ae00ad23d0fc018344acd4be7"
+  },
+  {
+    "name": "certificate_tree",
+    "url": "https://api.github.com/repos/rpinho/math-certificates/git/trees/HEAD?recursive=1",
+    "utc": "2026-11-17T19:04:34.951794+00:00",
+    "status": 200,
+    "bytes": 2286441,
+    "sha256": "780ae1448b6a8bcaacc208afec346a1c5f2f0e5f6edfed69ae6189c768ac894b"
+  },
+  {
+    "name": "epi_tree",
+    "url": "https://api.github.com/repos/BakeLab/Epi-results/git/trees/HEAD?recursive=1",
+    "utc": "2026-11-17T19:04:34.996822+00:00",
+    "status": 200,
+    "bytes": 126921,
+    "sha256": "eca8f3cf26fcfd66cbfce1d2ba9d7567c8fbfa25046787c77c2909570c43fb88"
+  },
+  {
+    "name": "alpha_tree",
+    "url": "https://api.github.com/repos/google-deepmind/alphaevolve_results/git/trees/HEAD?recursive=1",
+    "utc": "2026-11-17T19:04:35.014921+00:00",
+    "status": 200,
+    "bytes": 1405,
+    "sha256": "9ed379961d29fda6cb13eeb814a1552418dc6f311c7b77bc1fec7a48c6e4921c"
+  },
+  {
+    "name": "openai_tree",
+    "url": "https://api.github.com/repos/openai/math/git/trees/HEAD?recursive=1",
+    "utc": "2026-11-17T19:04:35.017376+00:00",
+    "status": 200,
+    "bytes": 15132650,
+    "sha256": "fca656ebd3f56dd32fb611dabc64a19e19b866866c11f58f2799b72b0fe77882"
+  },
+  {
+    "name": "kisonecat_tree",
+    "url": "https://api.github.com/repos/kisonecat/openai-math/git/trees/HEAD?recursive=1",
+    "utc": "2026-11-17T19:04:35.193511+00:00",
+    "status": 200,
+    "bytes": 3836,
+    "sha256": "d01a413263fb6ebc5086039d3ab31d58c7ec7532940fc9a4ca9eb97048b43417"
+  },
+  {
+    "name": "plasma_tree",
+    "url": "https://api.github.com/repos/plasma-ai/erdos/git/trees/HEAD?recursive=1",
+    "utc": "2026-11-17T19:04:35.211709+00:00",
+    "status": 200,
+    "bytes": 7340484,
+    "sha256": "e6304d768f25723d7199b6474e77a6e9b2fd5752be70edfe07cacf31b3cad84d"
+  }
+]

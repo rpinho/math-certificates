@@ -105,20 +105,20 @@ nice -n 10 tools/drat-trim/drat-trim work/n14_110010110001101_c1_lex.cnf work/n1
 
 These CNFs ask for **at least nine** closed members, rather than the original dimensions’ threshold eight. SAT-encoding correspondence, the transposition lex-leader proof and lower bounds are conventional arguments in PROOF.md. A DRAT check proves UNSAT of the specified CNF; it does not by itself establish that correspondence. The clean-room referee checked its own different encodings and supplied the exact weighted-poset argument without SAT. Candidate, no human review.
 
-## n=15..20: erdos1183-v3 release archive
+## n=15..20: erdos1183-v4 release archive
 
-The release is [erdos1183-v3](https://github.com/rpinho/math-certificates/releases/tag/erdos1183-v3). Earlier n=11..14 release links above remain historical and unchanged. All twelve headline trees, full colourings and all compressed witness lists already fit below 20 MB each and are in the packet. Only this optional exhaustive rank-screen archive is separate:
+The release is [erdos1183-v4](https://github.com/rpinho/math-certificates/releases/tag/erdos1183-v4). Earlier n=11..14 release links above remain historical and unchanged. All twelve headline trees, full colourings and all compressed witness lists already fit below 20 MB each and are in the packet. Only this optional exhaustive rank-screen archive is separate:
 
 | Asset | Bytes | SHA-256 |
 |---|---:|---|
-| [no_trees.tar.xz](https://github.com/rpinho/math-certificates/releases/download/erdos1183-v3/no_trees.tar.xz) | 42546176 | `2836261e0dccd620be50fb277ec33fb0598bd69864a6c6a6c6f9cab19b9f6f42` |
+| [no_trees.tar.xz](https://github.com/rpinho/math-certificates/releases/download/erdos1183-v4/no_trees.tar.xz) | 42546176 | `2836261e0dccd620be50fb277ec33fb0598bd69864a6c6a6c6f9cab19b9f6f42` |
 
-Download into a fresh directory from the packet root (after the owner publishes the release):
+Download into a fresh directory from the packet root (for the erdos1183-v4 release):
 
 ```sh
-mkdir -p downloaded-v3
-gh release download erdos1183-v3 --repo rpinho/math-certificates --pattern no_trees.tar.xz --pattern ASSETS.json --pattern VERIFY.md --pattern SHA256SUMS --dir downloaded-v3
-(cd downloaded-v3 && shasum -a 256 -c SHA256SUMS)
+mkdir -p downloaded-v4
+gh release download erdos1183-v4 --repo rpinho/math-certificates --pattern no_trees.tar.xz --pattern n23_balanced.txt.xz --pattern MANIFEST.json --pattern ASSETS.json --pattern VERIFY.md --pattern SHA256SUMS --dir downloaded-v4
+(cd downloaded-v4 && shasum -a 256 -c SHA256SUMS)
 ```
 
 The release SHA256SUMS binds its archive and metadata; it is separate from the packet seal. Confirm the archive hash above, then copy the downloaded archive into `producer/n15n20/certificates/no_trees.tar.xz`. From `producer/n15n20/`:
@@ -155,3 +155,44 @@ assert count == 55684
 print("ARCHIVE REPLAY PASS", count)
 PY
 ```
+
+
+## n=21..24: erdos1183-v4 witnesses and replay
+
+All eight headline no-trees, four exact rank-word colourings and both colours' explicit maximum families are inside the packet. No download is needed to replay them from the packet root:
+
+```sh
+nice -n 10 python3 -B producer/n21n24/replay_packet.py --headline-only --work-dir ../headline-replay
+```
+
+The complete n=23 balanced-word list is over 20 MB and is a release asset. Its families prove the lower bound 13 via chain exchange; they do not prove a lower bound 14. Download it together with release metadata:
+
+```sh
+mkdir -p downloaded-v4
+gh release download erdos1183-v4 --repo rpinho/math-certificates --pattern n23_balanced.txt.xz --pattern no_trees.tar.xz --pattern ASSETS.json --pattern MANIFEST.json --pattern VERIFY.md --pattern SHA256SUMS --dir downloaded-v4
+(cd downloaded-v4 && shasum -a 256 -c SHA256SUMS)
+```
+
+| Asset | Bytes | SHA-256 |
+|---|---:|---|
+| [n23_balanced.txt.xz](https://github.com/rpinho/math-certificates/releases/download/erdos1183-v4/n23_balanced.txt.xz) | 22564008 | `29b3aa237c9a2582e37a78113f132773a1d8e2ddbcab85acc1dd1ee6da6a6fba` |
+
+For the complete new replay, run from the packet root (C++ compiler and Python 3.10+ required):
+
+```sh
+nice -n 10 python3 -B producer/n21n24/replay_packet.py --work-dir ../n21n24-replay --balanced-n23 downloaded-v4/n23_balanced.txt.xz
+```
+
+The work directory must be new. The driver copies inputs there, builds only the coverage enumerator, and invokes the packaged original final_replay.py and separately written checkers. It checks 42 retained no-trees (including all eight headline trees), every retained maximum/classification/restriction family, every segmented positive factor rejection and its coordinate lift, full-word coverage at both thresholds for all four dimensions, and every balanced-word witness at n=21 and n=23. It also compares regenerated word lists with all saved G_L(T) lists by their decoded bytes. It never reruns the mathematical search or changes the sealed packet. The n=21 balanced list and the small n=21..24 tree archive are already in producer/n21n24/certificates/; no repacking or multi-gigabyte extraction is needed.
+
+For an individual tree, change to producer/n21n24 and run, for example:
+
+```sh
+nice -n 10 python3 -B src/check.py certificates/search_0010011100101100011011_c0_t13.tree.gz 0010011100101100011011 0 13
+```
+
+The n=21 and n=23 balanced lists retain their producer whitespace format. The checker's row_check(n,line) accepts arbitrary whitespace; each row supplies a balanced word, a colour and a closed family of coordinate masks. Full coverage is checked against the exact binomial word count. The release hash above binds the original compressed n=23 bytes.
+
+The n=21..24 original clean-room referee report, own source and outputs are in referee/n21n24/. Its raw window20 replay output is preserved; the authors' code and lists are excluded and pinned separately in referee/n21n24/WINDOW20.md. f(22)=13 depends on that computer-assisted lemma; without it, 12≤f(22)≤13. f(24)=14 uses prop:flower, which has no window20 dependency. At n=23 only the rank minimum is 14; 13≤f(23)≤14 remains open. Candidate, no human review.
+
+Historical n=11..14 assets remain at their existing v1/v2 release URLs above; the additional packet assets use erdos1183-v4. Verify the packet itself with `shasum -a 256 -c SHA256SUMS` from its root. Release SHA256SUMS is a separate seal and includes release MANIFEST.json.

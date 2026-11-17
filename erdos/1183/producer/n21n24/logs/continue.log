@@ -1,0 +1,11 @@
+FINISHED {"label": "upper23_T14", "wall_seconds": 4.097167730331421, "returncode": 0}
+FINISHED {"label": "prefix23_13", "wall_seconds": 2.106260061264038, "returncode": 0}
+FINISHED {"label": "prefix23_14", "wall_seconds": 4947.789530038834, "returncode": 0}
+FINISHED {"label": "coverage23_14", "wall_seconds": 303.8457860946655, "returncode": 0}
+COST {'n20_prefix_core_seconds': 1406.6, 'n22_prefix_core_seconds': 5629.7699999999995, 'n22_prefix_wall_seconds': 1712.5548903942108, 'parallel_workers': 5, 'g_per_orbit_per_dimension': 1.0002994361870428, 'n20_check_seconds': 22.51944613456726, 'n22_check_seconds': 10.261841058731079, 'prefix_ratio': 4.002395848144462, 'checker_ratio': 0.4556879861702812, 'forecast_n24_seconds': 8019.649715045237, 'remaining_seconds': 18704.875877141953, 'run': True}
+FINISHED {"label": "upper24", "wall_seconds": 4.137509107589722, "returncode": 0}
+FINISHED {"label": "prefix24_13", "wall_seconds": 2.0971131324768066, "returncode": 0}
+FINISHED {"label": "prefix24_14", "wall_seconds": 8.199191808700562, "returncode": 0}
+FINISHED {"label": "coverage24_13", "wall_seconds": 4.147599935531616, "returncode": 0}
+FINISHED {"label": "coverage24_14", "wall_seconds": 10.222918033599854, "returncode": 0}
+REQUESTED SCIENTIFIC STAGES COMPLETE

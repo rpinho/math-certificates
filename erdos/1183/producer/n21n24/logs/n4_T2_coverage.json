@@ -1,0 +1,49 @@
+{
+  "n": 4,
+  "T": 2,
+  "counts": {
+    "reject": 10,
+    "good": 9,
+    "lifted": 1
+  },
+  "trees_checked": 0,
+  "tree_scope": "terminal survivors; intermediate trees checked by Runner during production",
+  "coverage": [
+    {
+      "length": 1,
+      "words": 2,
+      "orbits": 1,
+      "good_words": 2,
+      "good_orbits": 1
+    },
+    {
+      "length": 2,
+      "words": 4,
+      "orbits": 2,
+      "good_words": 4,
+      "good_orbits": 2
+    },
+    {
+      "length": 3,
+      "words": 8,
+      "orbits": 3,
+      "good_words": 6,
+      "good_orbits": 2
+    },
+    {
+      "length": 4,
+      "words": 16,
+      "orbits": 6,
+      "good_words": 6,
+      "good_orbits": 3
+    },
+    {
+      "length": 5,
+      "words": 32,
+      "orbits": 10,
+      "good_words": 0,
+      "good_orbits": 0
+    }
+  ],
+  "seconds": 0.019587993621826172
+}

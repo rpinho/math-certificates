@@ -425,7 +425,71 @@
       "sha256": "0ac1a6b4c1434708e50556e8f56fcf9e44f935cfe8c9ee9c24bc2ca410acf5fa",
       "bytes": 44281,
       "role": "exhaustive weighted-poset no-tree at exact colour maximum plus one; expected word in results.json"
+    },
+    {
+      "n": 21,
+      "colour": 0,
+      "packet_path": "producer/n21n24/certificates/search_0010011100101100011011_c0_t13.tree.gz",
+      "sha256": "2c93734b0d16ba350c98524193ab13fa0c946f0b7eb2b74eac88a0094210e6ef",
+      "bytes": 63817,
+      "role": "exhaustive weighted-poset no-tree; bound externally to word, colour and maximum+1"
+    },
+    {
+      "n": 21,
+      "colour": 1,
+      "packet_path": "producer/n21n24/certificates/search_0010011100101100011011_c1_t13.tree.gz",
+      "sha256": "0096b2af8d24b94a9c6ce4cddc29eb7cd955f9419c7761ea64e324c987bc76ec",
+      "bytes": 16525,
+      "role": "exhaustive weighted-poset no-tree; bound externally to word, colour and maximum+1"
+    },
+    {
+      "n": 22,
+      "colour": 0,
+      "packet_path": "producer/n21n24/certificates/search_00100111010011100110100_c0_t14.tree.gz",
+      "sha256": "dbde94eade533266f32e3217ed4c052f6a43982ed3eeb8fdb081470bc3507947",
+      "bytes": 38909,
+      "role": "exhaustive weighted-poset no-tree; bound externally to word, colour and maximum+1"
+    },
+    {
+      "n": 22,
+      "colour": 1,
+      "packet_path": "producer/n21n24/certificates/search_00100111010011100110100_c1_t14.tree.gz",
+      "sha256": "9a73b9deb3d266f1841ae1d22c68c4dbdc326468c46759f5fa39f813dc9caea7",
+      "bytes": 81163,
+      "role": "exhaustive weighted-poset no-tree; bound externally to word, colour and maximum+1"
+    },
+    {
+      "n": 23,
+      "colour": 0,
+      "packet_path": "producer/n21n24/certificates/search_001001110010110001101101_c0_t15.tree.gz",
+      "sha256": "dcd761b3663e297c413849f3f434966f7e84dd1e690fbf236f85de6ab4e40f59",
+      "bytes": 144405,
+      "role": "exhaustive weighted-poset no-tree; bound externally to word, colour and maximum+1"
+    },
+    {
+      "n": 23,
+      "colour": 1,
+      "packet_path": "producer/n21n24/certificates/search_001001110010110001101101_c1_t15.tree.gz",
+      "sha256": "b49dcb35bf1b38c1abdecdc53bfc79452c85b84ed492930de2a6a3b61e8d6ee1",
+      "bytes": 56789,
+      "role": "exhaustive weighted-poset no-tree; bound externally to word, colour and maximum+1"
+    },
+    {
+      "n": 24,
+      "colour": 0,
+      "packet_path": "producer/n21n24/certificates/search_0011010011101001101010010_c0_t15.tree.gz",
+      "sha256": "0a8e0e8c2844d0da66792f6fc003bae6ad19042793498cbabdbad0ee3f70125d",
+      "bytes": 113478,
+      "role": "exhaustive weighted-poset no-tree; bound externally to word, colour and maximum+1"
+    },
+    {
+      "n": 24,
+      "colour": 1,
+      "packet_path": "producer/n21n24/certificates/search_0011010011101001101010010_c1_t15.tree.gz",
+      "sha256": "9951170139bcf632342f8c34ce2112b84e76f89f4a77fd2f1541228e04310ab0",
+      "bytes": 164447,
+      "role": "exhaustive weighted-poset no-tree; bound externally to word, colour and maximum+1"
     }
   ],
-  "note": "Rejection controls and SAT/unfinished traces are not UNSAT certificates. The eight complete producer theorem proofs have release asset identities; four old assets remain in the previous release and four new streams are prepared for a new release. The unfinished n14 colour-1 non-plain trace and empty colour-0 file are excluded. The twelve n=15..20 headline certificates are weighted-poset trees, not DRAT proofs. The optional no_trees archive holds additional rank-screen trees."
+  "note": "Rejection controls and SAT/unfinished traces are not UNSAT certificates. The eight complete producer theorem proofs have release asset identities; four old assets remain in the previous release and four new streams are prepared for a new release. The unfinished n14 colour-1 non-plain trace and empty colour-0 file are excluded. The twelve n=15..20 headline certificates are weighted-poset trees, not DRAT proofs. The optional no_trees archive holds additional rank-screen trees. Round 5 adds eight direct headline no-trees; no SAT at n=21..24."
 }

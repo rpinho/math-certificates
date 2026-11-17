@@ -1,0 +1,17 @@
+{
+  "n": 4,
+  "T": 3,
+  "stack": [],
+  "segment": 3,
+  "visited": 23,
+  "rejected": 6,
+  "good": 17,
+  "survivors": [
+    "00101",
+    "00110",
+    "01001"
+  ],
+  "seconds": 0.050263166427612305,
+  "parallel_child_core_seconds": 0.057843,
+  "parallel_workers": 2
+}

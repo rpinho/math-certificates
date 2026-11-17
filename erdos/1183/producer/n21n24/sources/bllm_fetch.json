@@ -1,0 +1,34 @@
+[
+  {
+    "name": "erdos_levels",
+    "url": "https://raw.githubusercontent.com/creelie/eBLLM/HEAD/experiments/erdos1183/sublattice_levels.json",
+    "utc": "2026-11-17T16:34:56.091230+00:00",
+    "status": 200,
+    "bytes": 1535,
+    "sha256": "097c42c57ef58346a13de14a9825508b1573c8fa6ca38366e1687c644c01d1cb"
+  },
+  {
+    "name": "erdos_notes",
+    "url": "https://raw.githubusercontent.com/creelie/eBLLM/HEAD/experiments/erdos1183/mseq/NOTES.md",
+    "utc": "2026-11-17T16:34:56.326677+00:00",
+    "status": 200,
+    "bytes": 2248,
+    "sha256": "e94a8e000973464882b84ed8d27b3c8d6a6bf83fd7f52d449d69f04472c9e868"
+  },
+  {
+    "name": "bllm_results",
+    "url": "https://raw.githubusercontent.com/creelie/eBLLM/HEAD/paper/bllm/paper/sections/sec10c_headline.tex",
+    "utc": "2026-11-17T16:34:56.536772+00:00",
+    "status": 200,
+    "bytes": 29654,
+    "sha256": "7f74505f4307578e2f5f796ad04d92f0c98e32402497bf5e8e0f4a9edd7df4e0"
+  },
+  {
+    "name": "bllm_cases",
+    "url": "https://raw.githubusercontent.com/creelie/eBLLM/HEAD/paper/bllm/paper/sections/sec10c_benchmark.tex",
+    "utc": "2026-11-17T16:34:56.765937+00:00",
+    "status": 200,
+    "bytes": 14879,
+    "sha256": "e8d5ca134038bf3ad475452ebdf341d3368c2a7abbcb0a9d72f6e1398ea7328d"
+  }
+]
