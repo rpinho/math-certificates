@@ -1,0 +1,9 @@
+../erdos_sat3/certificates/n13_coloring.json: sha256=37d1752560c968b3e4df210c6eb2465989194c0386ac8d80d928a78db874510e n=13 entries=8192 values=[0, 1] size-only=True derived_word=11001011000110 matches_claimed=True
+keys: ['colors', 'explicit_optimal_family', 'mask_convention', 'monochromatic_chain', 'n', 'rank_word']
+family [3, 227, 1795, 2019, 4067, 6115, 8163, 8191]: distinct=8 closed=True colours=[0] sizes=[2, 5, 5, 8, 9, 9, 10, 13]
+family [3, 7, 31, 255, 511, 767, 1023, 8191]: distinct=8 closed=True colours=[0] sizes=[2, 3, 5, 8, 9, 9, 10, 13]
+../erdos_sat3/certificates/n14_coloring.json: sha256=b2fc8bb8161d17f5d79cbe2ffbde3e97e961ced7384e1105d877e16291562934 n=14 entries=16384 values=[0, 1] size-only=True derived_word=110010110001101 matches_claimed=True
+keys: ['colors', 'explicit_optimal_family', 'mask_convention', 'monochromatic_chain', 'n', 'rank_word']
+family [0, 1, 15, 63, 127, 2047, 4095, 16383]: distinct=8 closed=True colours=[1] sizes=[0, 1, 4, 6, 7, 11, 12, 14]
+family [3, 7, 31, 255, 511, 767, 1023, 8191]: distinct=8 closed=True colours=[0] sizes=[2, 3, 5, 8, 9, 9, 10, 13]
+family [0, 1, 15, 113, 127, 2047, 4095, 16383]: distinct=8 closed=True colours=[1] sizes=[0, 1, 4, 4, 7, 11, 12, 14]

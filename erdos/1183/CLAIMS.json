@@ -34,14 +34,6 @@
       "label": "number of colours"
     },
     {
-      "value": "8",
-      "kind": "rigorous",
-      "producer": "referee/n12/ref.py",
-      "arithmetic": "exact",
-      "new_bound": false,
-      "label": "counterexample cardinality threshold"
-    },
-    {
       "value": "11",
       "kind": "rigorous",
       "producer": "referee/n12/ref.py",
@@ -88,7 +80,88 @@
       "arithmetic": "exact",
       "new_bound": false,
       "label": "n=12 rank word as a bit string"
+    },
+    {
+      "value": "8",
+      "kind": "rigorous",
+      "producer": "referee/n13n14/src/poset_search.py",
+      "source": "referee/n13n14/REFEREE.md",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Both supplied round-3 candidate finite equalities f(13)=8 and f(14)=8; weighted-poset upper checks and chain-exchange/balanced or chain lower arguments in PROOF.md; original HOLDS report"
+    },
+    {
+      "value": "9",
+      "kind": "rigorous",
+      "producer": "producer/n13n14/check_statement.py",
+      "source": "referee/n13n14/REFEREE.md",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "New SAT query threshold: at least nine members, excluding every larger family too"
+    },
+    {
+      "value": "14",
+      "kind": "rigorous",
+      "producer": "referee/n13n14/src/poset_search.py",
+      "source": "referee/n13n14/REFEREE.md",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Fourth ground-set size and balanced rank-word length at n=13"
+    },
+    {
+      "value": "15",
+      "kind": "rigorous",
+      "producer": "referee/n13n14/src/poset_search.py",
+      "source": "referee/n13n14/REFEREE.md",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Maximal-chain length at n=14"
+    },
+    {
+      "value": "3432",
+      "kind": "rigorous",
+      "producer": "referee/n13n14/src/balanced.py",
+      "source": "referee/n13n14/REFEREE.md",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "All balanced length-fourteen rank words rejected for an upper bound seven"
+    },
+    {
+      "value": "78",
+      "kind": "rigorous",
+      "producer": "producer/n13n14/check_statement.py",
+      "source": "referee/n13n14/REFEREE.md",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Coordinate transpositions at n=13"
+    },
+    {
+      "value": "91",
+      "kind": "rigorous",
+      "producer": "producer/n13n14/check_statement.py",
+      "source": "referee/n13n14/REFEREE.md",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Coordinate transpositions at n=14"
+    },
+    {
+      "value": "11001011000110",
+      "kind": "rigorous",
+      "producer": "producer/n13n14/check_coloring.py",
+      "source": "referee/n13n14/REFEREE.md",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "n=13 rank word as a bit string"
+    },
+    {
+      "value": "110010110001101",
+      "kind": "rigorous",
+      "producer": "producer/n13n14/check_coloring.py",
+      "source": "referee/n13n14/REFEREE.md",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "n=14 rank word as a bit string"
     }
   ],
-  "scope": "The principal numerical value is seven for both exact finite equalities. Other entries label construction parameters, not additional new results."
+  "scope": "Finite equalities seven at n=11/n=12 and eight at n=13/n=14. Other entries describe construction parameters or exact enumeration, not additional new results. This packaging job originates no new value."
 }

@@ -1,0 +1,4314 @@
+{
+  "sha": "8af8e56f174b778aef3aa45af9f739b2a5f492c2",
+  "url": "https://api.github.com/repos/arminbiere/kissat/git/trees/8af8e56f174b778aef3aa45af9f739b2a5f492c2",
+  "tree": [
+    {
+      "path": ".clang-format",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "300836e63424e861ad483b6e4bb788474db7a787",
+      "size": 101,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/300836e63424e861ad483b6e4bb788474db7a787"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f63dae3a08ae7ae5b98cff43acb40d87c7b2477b",
+      "size": 78,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/f63dae3a08ae7ae5b98cff43acb40d87c7b2477b"
+    },
+    {
+      "path": "CONTRIBUTING",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0750b1900821b0bce62aa2a00854067780a1c16f",
+      "size": 244,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0750b1900821b0bce62aa2a00854067780a1c16f"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6626569da3541baf54a4f1d6d0b4a96bd19c135a",
+      "size": 1316,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/6626569da3541baf54a4f1d6d0b4a96bd19c135a"
+    },
+    {
+      "path": "NEWS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c489dec95446bd5b80b70de60de98d251045cd1",
+      "size": 6967,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/2c489dec95446bd5b80b70de60de98d251045cd1"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e2fbf17831f5b57fdd85f335b074ab12856f9ff",
+      "size": 2152,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/6e2fbf17831f5b57fdd85f335b074ab12856f9ff"
+    },
+    {
+      "path": "VERSION",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5106e6d139660aa3d6d1c041bc24eb50ea88512",
+      "size": 6,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/c5106e6d139660aa3d6d1c041bc24eb50ea88512"
+    },
+    {
+      "path": "configure",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "38a25a07538d02a7820488ff30cafea97e5e00c6",
+      "size": 19807,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/38a25a07538d02a7820488ff30cafea97e5e00c6"
+    },
+    {
+      "path": "makefile.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c51830536c40e3c415f31ef410bd5c6b803ae804",
+      "size": 1738,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/c51830536c40e3c415f31ef410bd5c6b803ae804"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2add667004183c80e18e7713d5512a06a985314d",
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/trees/2add667004183c80e18e7713d5512a06a985314d"
+    },
+    {
+      "path": "scripts/build-and-test-all-configurations.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2095568986108912d054f1de1a84a593d6bf259b",
+      "size": 7922,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/2095568986108912d054f1de1a84a593d6bf259b"
+    },
+    {
+      "path": "scripts/determine-coverage.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "83d29ed2adad5572ad5b71ed13571356e345c7bb",
+      "size": 255,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/83d29ed2adad5572ad5b71ed13571356e345c7bb"
+    },
+    {
+      "path": "scripts/filter-coverage-output.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5d9390a8666a05de412cb5d3d2adcff5b8b3af11",
+      "size": 501,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/5d9390a8666a05de412cb5d3d2adcff5b8b3af11"
+    },
+    {
+      "path": "scripts/generate-build-header.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "eb9cb670cb7ff5180d70ea26cbe5b1cc2d89b0f8",
+      "size": 1088,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/eb9cb670cb7ff5180d70ea26cbe5b1cc2d89b0f8"
+    },
+    {
+      "path": "scripts/make-source-release.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "74e3c36eec4da26ad8e10d50889facd5d44acf65",
+      "size": 2828,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/74e3c36eec4da26ad8e10d50889facd5d44acf65"
+    },
+    {
+      "path": "scripts/prepare-competition.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b2397a3729e814305986dbe5a03878be4187af2d",
+      "size": 2441,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/b2397a3729e814305986dbe5a03878be4187af2d"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6791cbe806453cd30c57ad2a550a48a6b21d08e4",
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/trees/6791cbe806453cd30c57ad2a550a48a6b21d08e4"
+    },
+    {
+      "path": "src/allocate.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68bb68a8841b7958341b0905ea8ab38196e6e8bc",
+      "size": 4210,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/68bb68a8841b7958341b0905ea8ab38196e6e8bc"
+    },
+    {
+      "path": "src/allocate.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db24fd5f8ce376fb5802e9821abf991831886817",
+      "size": 970,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/db24fd5f8ce376fb5802e9821abf991831886817"
+    },
+    {
+      "path": "src/analyze.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d21b0a74b50d48dd2c9b31bf5f76332d203e544d",
+      "size": 18172,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d21b0a74b50d48dd2c9b31bf5f76332d203e544d"
+    },
+    {
+      "path": "src/analyze.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be4393c76e27995db85e722f512cfc5eded877b2",
+      "size": 233,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/be4393c76e27995db85e722f512cfc5eded877b2"
+    },
+    {
+      "path": "src/ands.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51bff792a7f81448680dfacb8f71cae9f386dad9",
+      "size": 2377,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/51bff792a7f81448680dfacb8f71cae9f386dad9"
+    },
+    {
+      "path": "src/ands.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "606c41d6e7f3629d9474c662538cdadd236623ba",
+      "size": 202,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/606c41d6e7f3629d9474c662538cdadd236623ba"
+    },
+    {
+      "path": "src/application.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21cfa76f23283534252f919dd96f1b430949ea91",
+      "size": 28287,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/21cfa76f23283534252f919dd96f1b430949ea91"
+    },
+    {
+      "path": "src/application.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4a5b12f7b93a5664e4d7394cf378277dde8ff44",
+      "size": 154,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/f4a5b12f7b93a5664e4d7394cf378277dde8ff44"
+    },
+    {
+      "path": "src/arena.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8324f95f3e313d6aeceec05a1a70d3e1980ef64b",
+      "size": 3755,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/8324f95f3e313d6aeceec05a1a70d3e1980ef64b"
+    },
+    {
+      "path": "src/arena.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da83c7e399d8e501514cf2f0e4bd87cd26ee0ede",
+      "size": 859,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/da83c7e399d8e501514cf2f0e4bd87cd26ee0ede"
+    },
+    {
+      "path": "src/array.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ae23f90b992a2d38bbb3854cb292d703fcd5454",
+      "size": 1215,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/3ae23f90b992a2d38bbb3854cb292d703fcd5454"
+    },
+    {
+      "path": "src/assign.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a34f3529e6c7f5ba5d4568bc0b4c9c86f9ebf7a",
+      "size": 1999,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/6a34f3529e6c7f5ba5d4568bc0b4c9c86f9ebf7a"
+    },
+    {
+      "path": "src/assign.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64ac2027dfe168bc55ee47f9d078785f54400155",
+      "size": 1209,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/64ac2027dfe168bc55ee47f9d078785f54400155"
+    },
+    {
+      "path": "src/attribute.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ec5f40ab007032050780287f3b496aa08a375b0",
+      "size": 296,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/9ec5f40ab007032050780287f3b496aa08a375b0"
+    },
+    {
+      "path": "src/averages.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03c96a73ffb7b013fcf509f7c1ae96982a15180a",
+      "size": 543,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/03c96a73ffb7b013fcf509f7c1ae96982a15180a"
+    },
+    {
+      "path": "src/averages.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8cd03045fe7f3d55b23db147fa7a0bd876150d8",
+      "size": 614,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d8cd03045fe7f3d55b23db147fa7a0bd876150d8"
+    },
+    {
+      "path": "src/backbone.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a774efcea426e18c42cd9ffccd9076a69563c42",
+      "size": 19770,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/6a774efcea426e18c42cd9ffccd9076a69563c42"
+    },
+    {
+      "path": "src/backbone.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ddf87c99aec800456fff4bb27dc191a61bf187e",
+      "size": 159,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0ddf87c99aec800456fff4bb27dc191a61bf187e"
+    },
+    {
+      "path": "src/backtrack.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09ba8df701c3c7d45761988570019146e622769a",
+      "size": 5686,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/09ba8df701c3c7d45761988570019146e622769a"
+    },
+    {
+      "path": "src/backtrack.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a9b93bf744473d4e6e14056386e4a209735c637",
+      "size": 364,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/7a9b93bf744473d4e6e14056386e4a209735c637"
+    },
+    {
+      "path": "src/build.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0426854a278a009e3fdf3611d7b2ffc1e0cf4211",
+      "size": 1590,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0426854a278a009e3fdf3611d7b2ffc1e0cf4211"
+    },
+    {
+      "path": "src/bump.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5771db4acaa9d2f4647c42917d28cd70822649e3",
+      "size": 3747,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/5771db4acaa9d2f4647c42917d28cd70822649e3"
+    },
+    {
+      "path": "src/bump.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55d541562244ed632a65ef38603b4bc6cb60d994",
+      "size": 369,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/55d541562244ed632a65ef38603b4bc6cb60d994"
+    },
+    {
+      "path": "src/check.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0245a086699842ac31735f30f87b04208ed44505",
+      "size": 33474,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0245a086699842ac31735f30f87b04208ed44505"
+    },
+    {
+      "path": "src/check.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7eaf27a1cf2b34d2ab0ee3512e78b83ae2a6fa3",
+      "size": 4474,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/f7eaf27a1cf2b34d2ab0ee3512e78b83ae2a6fa3"
+    },
+    {
+      "path": "src/classify.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4514fb7bbffc5a301bd348f4de36b702b97f2c4c",
+      "size": 1064,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/4514fb7bbffc5a301bd348f4de36b702b97f2c4c"
+    },
+    {
+      "path": "src/classify.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1f9b84d71ab00ea229353295cb5b072960fe805",
+      "size": 249,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/f1f9b84d71ab00ea229353295cb5b072960fe805"
+    },
+    {
+      "path": "src/clause.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d485919367ff0b6a7abacd6c5bafa4c734d1e38",
+      "size": 5752,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/8d485919367ff0b6a7abacd6c5bafa4c734d1e38"
+    },
+    {
+      "path": "src/clause.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d926a6cc2bea0f9be0615c26858ec5a7002caa4b",
+      "size": 2342,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d926a6cc2bea0f9be0615c26858ec5a7002caa4b"
+    },
+    {
+      "path": "src/collect.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77d45319ea18697a8ea78ac038778d6fd3883825",
+      "size": 22463,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/77d45319ea18697a8ea78ac038778d6fd3883825"
+    },
+    {
+      "path": "src/collect.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a9c8c4ef9df14e2aead15b9e300f50aa50c995c",
+      "size": 994,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/6a9c8c4ef9df14e2aead15b9e300f50aa50c995c"
+    },
+    {
+      "path": "src/colors.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3f2e6db9af04219ae97769fde726dd6584dfa50",
+      "size": 428,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a3f2e6db9af04219ae97769fde726dd6584dfa50"
+    },
+    {
+      "path": "src/colors.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe981e505bbd636004963b7bc888f845dba219b7",
+      "size": 1622,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/fe981e505bbd636004963b7bc888f845dba219b7"
+    },
+    {
+      "path": "src/compact.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d27fa9cac581c85a7c2369e623fec16c5701822",
+      "size": 11839,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/2d27fa9cac581c85a7c2369e623fec16c5701822"
+    },
+    {
+      "path": "src/compact.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89d5ecd317bba7e5e9bbb61630d0c3d39bbea5a7",
+      "size": 270,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/89d5ecd317bba7e5e9bbb61630d0c3d39bbea5a7"
+    },
+    {
+      "path": "src/config.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c79f7a1eba4cef5a90faf96fb14f25ca8fd4cea",
+      "size": 2414,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/3c79f7a1eba4cef5a90faf96fb14f25ca8fd4cea"
+    },
+    {
+      "path": "src/config.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16eac8c0552870c20df33e9b46a3627e2a44441f",
+      "size": 127,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/16eac8c0552870c20df33e9b46a3627e2a44441f"
+    },
+    {
+      "path": "src/configure",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "c9d4efb4fd0baf110930458c282ea190974877a3",
+      "size": 12,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/c9d4efb4fd0baf110930458c282ea190974877a3"
+    },
+    {
+      "path": "src/congruence.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98bc29c716a71b749ab5fe142e31143c2767c60f",
+      "size": 141971,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/98bc29c716a71b749ab5fe142e31143c2767c60f"
+    },
+    {
+      "path": "src/congruence.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84e1eb643908871f65e7ad93e35a17b02bece0fb",
+      "size": 150,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/84e1eb643908871f65e7ad93e35a17b02bece0fb"
+    },
+    {
+      "path": "src/cover.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5a82b71e85208f20bafa02c26cfaba86828d9f9",
+      "size": 549,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/f5a82b71e85208f20bafa02c26cfaba86828d9f9"
+    },
+    {
+      "path": "src/decide.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "522930e26521bc45654dbd97e1782b0ccb794a0f",
+      "size": 6250,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/522930e26521bc45654dbd97e1782b0ccb794a0f"
+    },
+    {
+      "path": "src/decide.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9864ae2e18f3d782fa0893c7da49977ab2292dcc",
+      "size": 399,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/9864ae2e18f3d782fa0893c7da49977ab2292dcc"
+    },
+    {
+      "path": "src/deduce.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be1235f6911098234c2aef9874113f8083fe39a7",
+      "size": 5845,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/be1235f6911098234c2aef9874113f8083fe39a7"
+    },
+    {
+      "path": "src/deduce.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38a5ec4c0e03783f9a74708016590ccb0a352a83",
+      "size": 316,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/38a5ec4c0e03783f9a74708016590ccb0a352a83"
+    },
+    {
+      "path": "src/definition.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "759a4f90644f51bad8f9c063adf34943682139ee",
+      "size": 7462,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/759a4f90644f51bad8f9c063adf34943682139ee"
+    },
+    {
+      "path": "src/definition.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fea782c031c1fd16af44155f9d01b6a1b5e9b19",
+      "size": 170,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/2fea782c031c1fd16af44155f9d01b6a1b5e9b19"
+    },
+    {
+      "path": "src/dense.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7592419a421fc62cc94dfde983ec3074a84d06d",
+      "size": 6845,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d7592419a421fc62cc94dfde983ec3074a84d06d"
+    },
+    {
+      "path": "src/dense.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "171e4e5acb88a64552730a54678d6500cd0950b1",
+      "size": 321,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/171e4e5acb88a64552730a54678d6500cd0950b1"
+    },
+    {
+      "path": "src/dump.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8598b1305e5e9420b2153a4c2104217f6f266a1",
+      "size": 8724,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/e8598b1305e5e9420b2153a4c2104217f6f266a1"
+    },
+    {
+      "path": "src/eliminate.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b7164c830d6ad1d5d0429a220a1db7e61d72adc",
+      "size": 18823,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/9b7164c830d6ad1d5d0429a220a1db7e61d72adc"
+    },
+    {
+      "path": "src/eliminate.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d6cfe9a51f7fa219d60f0f650c8a008b4bf35ef",
+      "size": 493,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0d6cfe9a51f7fa219d60f0f650c8a008b4bf35ef"
+    },
+    {
+      "path": "src/equivalences.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c06215d240f7c6107a64335a7d0a822d0275dcbc",
+      "size": 1120,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/c06215d240f7c6107a64335a7d0a822d0275dcbc"
+    },
+    {
+      "path": "src/equivalences.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad9c14d5798e11164e2aced37f79f8017a7b6631",
+      "size": 168,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/ad9c14d5798e11164e2aced37f79f8017a7b6631"
+    },
+    {
+      "path": "src/error.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4c55d18d12ef0cca69ce664cc17217114967653",
+      "size": 1307,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/c4c55d18d12ef0cca69ce664cc17217114967653"
+    },
+    {
+      "path": "src/error.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69ee50706e7a158f399ecd425fd647cb747224f5",
+      "size": 387,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/69ee50706e7a158f399ecd425fd647cb747224f5"
+    },
+    {
+      "path": "src/extend.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd0dfa006b7bd892bfa536bb7d8dc429a8142d0c",
+      "size": 5147,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/cd0dfa006b7bd892bfa536bb7d8dc429a8142d0c"
+    },
+    {
+      "path": "src/extend.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "049028b2537efd1babe8656fb22deba506132687",
+      "size": 528,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/049028b2537efd1babe8656fb22deba506132687"
+    },
+    {
+      "path": "src/factor.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07ca58042438ee896e8831f74d89bf9f35cc0a05",
+      "size": 38427,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/07ca58042438ee896e8831f74d89bf9f35cc0a05"
+    },
+    {
+      "path": "src/factor.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0223186cf554735ff1f4f2f0b5f54c69fade06ce",
+      "size": 138,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0223186cf554735ff1f4f2f0b5f54c69fade06ce"
+    },
+    {
+      "path": "src/fastassign.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6951ed893d0b8172f13b3cdd995a12f70bb141b4",
+      "size": 1427,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/6951ed893d0b8172f13b3cdd995a12f70bb141b4"
+    },
+    {
+      "path": "src/fastel.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64ddccf3a978a5eef22e70fe0a719df88816751a",
+      "size": 28968,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/64ddccf3a978a5eef22e70fe0a719df88816751a"
+    },
+    {
+      "path": "src/fastel.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2a5cfcd54e9d941c38622c199489cd70f361a04",
+      "size": 108,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a2a5cfcd54e9d941c38622c199489cd70f361a04"
+    },
+    {
+      "path": "src/fifo.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "508989aa5060bd8b1bb2b80c396730d18995a6ca",
+      "size": 2663,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/508989aa5060bd8b1bb2b80c396730d18995a6ca"
+    },
+    {
+      "path": "src/file.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6bda097bcb5a5b20f045b17166eaa915af79cfb",
+      "size": 7664,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/b6bda097bcb5a5b20f045b17166eaa915af79cfb"
+    },
+    {
+      "path": "src/file.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "300cdb138a79d04e3972207be832c624c0bbb317",
+      "size": 2818,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/300cdb138a79d04e3972207be832c624c0bbb317"
+    },
+    {
+      "path": "src/flags.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7189350eb2e7d609b6fdc337d4c726f00494645",
+      "size": 3616,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/b7189350eb2e7d609b6fdc337d4c726f00494645"
+    },
+    {
+      "path": "src/flags.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd73b2f5bff6793d173d4b4124cc8a4a3494d1b8",
+      "size": 932,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/fd73b2f5bff6793d173d4b4124cc8a4a3494d1b8"
+    },
+    {
+      "path": "src/format.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8e247d1a844ad3c72e55bb285c247d0b76a176f",
+      "size": 3664,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d8e247d1a844ad3c72e55bb285c247d0b76a176f"
+    },
+    {
+      "path": "src/format.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d52e93d712c4f6d890f6be67e0ed0ae1e5f9923d",
+      "size": 1202,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d52e93d712c4f6d890f6be67e0ed0ae1e5f9923d"
+    },
+    {
+      "path": "src/forward.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2bbbab47eb26dcb0a5a1ef838726f951cfa66ea",
+      "size": 19868,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d2bbbab47eb26dcb0a5a1ef838726f951cfa66ea"
+    },
+    {
+      "path": "src/forward.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95a8dc5d36926b7a18e3e06fbc2f5ed804557a1d",
+      "size": 169,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/95a8dc5d36926b7a18e3e06fbc2f5ed804557a1d"
+    },
+    {
+      "path": "src/frames.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "088877b2a0a987d5f117de904d78c399def263d1",
+      "size": 462,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/088877b2a0a987d5f117de904d78c399def263d1"
+    },
+    {
+      "path": "src/gates.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7da5601814a119d78722ce7d23383f7e60371722",
+      "size": 3053,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/7da5601814a119d78722ce7d23383f7e60371722"
+    },
+    {
+      "path": "src/gates.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5ce18a90096d7968d49931d13d189d8aa5f486a",
+      "size": 508,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/f5ce18a90096d7968d49931d13d189d8aa5f486a"
+    },
+    {
+      "path": "src/handle.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb9288d4509e54a471291fc369094fc053fc49b1",
+      "size": 1760,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/cb9288d4509e54a471291fc369094fc053fc49b1"
+    },
+    {
+      "path": "src/handle.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "132fc3b6832fabf377eeb8d91b4229271cfa6c32",
+      "size": 748,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/132fc3b6832fabf377eeb8d91b4229271cfa6c32"
+    },
+    {
+      "path": "src/heap.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12deaad756f95bb54fd8554ef3475c9cc7c3a967",
+      "size": 3201,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/12deaad756f95bb54fd8554ef3475c9cc7c3a967"
+    },
+    {
+      "path": "src/heap.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a9736ee2aa0e7e486f948c0002ded341452faf3",
+      "size": 1972,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/8a9736ee2aa0e7e486f948c0002ded341452faf3"
+    },
+    {
+      "path": "src/ifthenelse.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db4031f68811d4f9014c0e6eabad18ac1282693a",
+      "size": 5418,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/db4031f68811d4f9014c0e6eabad18ac1282693a"
+    },
+    {
+      "path": "src/ifthenelse.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82097883e0e407a67c9d57f318abe8fc3c07b821",
+      "size": 232,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/82097883e0e407a67c9d57f318abe8fc3c07b821"
+    },
+    {
+      "path": "src/import.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38ca379c0bb74f6534bcff4e60ac328bb681ed27",
+      "size": 3184,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/38ca379c0bb74f6534bcff4e60ac328bb681ed27"
+    },
+    {
+      "path": "src/import.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b82a5f3c591cc9b4bd3d2d72717fa969dc4c7db",
+      "size": 199,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/4b82a5f3c591cc9b4bd3d2d72717fa969dc4c7db"
+    },
+    {
+      "path": "src/inline.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1f9b789f78e59ca6c0c8fb08efa175fb57f2987",
+      "size": 10115,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d1f9b789f78e59ca6c0c8fb08efa175fb57f2987"
+    },
+    {
+      "path": "src/inlineassign.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8d3b88a15819dadddd6de094102cb5e4b34e96d",
+      "size": 2369,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/b8d3b88a15819dadddd6de094102cb5e4b34e96d"
+    },
+    {
+      "path": "src/inlineframes.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75c5186a6c17ddad0edec07edf9fa64b8d7e8df0",
+      "size": 449,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/75c5186a6c17ddad0edec07edf9fa64b8d7e8df0"
+    },
+    {
+      "path": "src/inlineheap.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bc8c122de25a69a079dd7055c4432575b138b64",
+      "size": 5230,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0bc8c122de25a69a079dd7055c4432575b138b64"
+    },
+    {
+      "path": "src/inlinequeue.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01752267947393d3a7aa080dd054e5aa77f6ea86",
+      "size": 3510,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/01752267947393d3a7aa080dd054e5aa77f6ea86"
+    },
+    {
+      "path": "src/inlinevector.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7adbbf7e36fd80f8aa95b8f58f42e325622f70a",
+      "size": 4807,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/b7adbbf7e36fd80f8aa95b8f58f42e325622f70a"
+    },
+    {
+      "path": "src/internal.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c00020191098ed9f59a65d1298e4777cf69e98b",
+      "size": 15766,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/1c00020191098ed9f59a65d1298e4777cf69e98b"
+    },
+    {
+      "path": "src/internal.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a4b46c80b04379f4654e77e80d50bcad238a559",
+      "size": 5353,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/8a4b46c80b04379f4654e77e80d50bcad238a559"
+    },
+    {
+      "path": "src/keatures.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0652be9921a7e37b51e289ccf89c0fc3293fdd8",
+      "size": 355,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d0652be9921a7e37b51e289ccf89c0fc3293fdd8"
+    },
+    {
+      "path": "src/kimits.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fe4dcf05ca54d8be6ade2bfacde335e67eb3965",
+      "size": 5118,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/9fe4dcf05ca54d8be6ade2bfacde335e67eb3965"
+    },
+    {
+      "path": "src/kimits.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93339b3b5374826cd0b91d3f54629048fe7d7b4f",
+      "size": 4781,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/93339b3b5374826cd0b91d3f54629048fe7d7b4f"
+    },
+    {
+      "path": "src/kissat.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eec38056644de9bcfd9dd95a79dd65fbc980b3c1",
+      "size": 1331,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/eec38056644de9bcfd9dd95a79dd65fbc980b3c1"
+    },
+    {
+      "path": "src/kitten.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "656cb0cf5e80579a978afaef452d9ee34445c812",
+      "size": 77147,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/656cb0cf5e80579a978afaef452d9ee34445c812"
+    },
+    {
+      "path": "src/kitten.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7ead94dc5f8f4fc66b52920a120b7d4d992749b",
+      "size": 1711,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/e7ead94dc5f8f4fc66b52920a120b7d4d992749b"
+    },
+    {
+      "path": "src/krite.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85d91d9d9bfa7fc8652a12aeecffdc94707b5fbe",
+      "size": 1487,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/85d91d9d9bfa7fc8652a12aeecffdc94707b5fbe"
+    },
+    {
+      "path": "src/krite.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8af42c9c3c09a8e7fbdeb2f5e39321846d0f128",
+      "size": 148,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a8af42c9c3c09a8e7fbdeb2f5e39321846d0f128"
+    },
+    {
+      "path": "src/learn.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36a25be8905b835d1fa38a42449c2e4a785c5ccf",
+      "size": 6298,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/36a25be8905b835d1fa38a42449c2e4a785c5ccf"
+    },
+    {
+      "path": "src/learn.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b11923966df06673e0456ad36a73e5a42a4892b8",
+      "size": 267,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/b11923966df06673e0456ad36a73e5a42a4892b8"
+    },
+    {
+      "path": "src/literal.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75d7814c6a89daa9e52d7a3aa9b3792ba8afaba3",
+      "size": 990,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/75d7814c6a89daa9e52d7a3aa9b3792ba8afaba3"
+    },
+    {
+      "path": "src/logging.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36abd33ce5f7f65b99c1453575b61300ee4e4516",
+      "size": 13599,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/36abd33ce5f7f65b99c1453575b61300ee4e4516"
+    },
+    {
+      "path": "src/logging.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb2b5321878a2177b0f4d49196a299c700e85b0e",
+      "size": 11167,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/bb2b5321878a2177b0f4d49196a299c700e85b0e"
+    },
+    {
+      "path": "src/lucky.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74219b095e1fa23b72ced37f8e8cce2c7238b86f",
+      "size": 11271,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/74219b095e1fa23b72ced37f8e8cce2c7238b86f"
+    },
+    {
+      "path": "src/lucky.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef97c67dcd6bb5f4e6406c37418199c7e09030c9",
+      "size": 112,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/ef97c67dcd6bb5f4e6406c37418199c7e09030c9"
+    },
+    {
+      "path": "src/main.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ff4552ccb593bd52a5b5241c865fa4d5594369a",
+      "size": 1173,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/2ff4552ccb593bd52a5b5241c865fa4d5594369a"
+    },
+    {
+      "path": "src/minimize.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94dcb63d5c50791a884f98659e6a115253b26ee3",
+      "size": 6553,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/94dcb63d5c50791a884f98659e6a115253b26ee3"
+    },
+    {
+      "path": "src/minimize.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae06fb9adf463abaa556c86a25a1b680be73d616",
+      "size": 307,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/ae06fb9adf463abaa556c86a25a1b680be73d616"
+    },
+    {
+      "path": "src/mode.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1390eca1e660355c878f1c0f9f1d8a9804891bf",
+      "size": 6225,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/b1390eca1e660355c878f1c0f9f1d8a9804891bf"
+    },
+    {
+      "path": "src/mode.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "915e746e4fd2c1d137a534a19ce3eb98e8c1305d",
+      "size": 415,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/915e746e4fd2c1d137a534a19ce3eb98e8c1305d"
+    },
+    {
+      "path": "src/options.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "748a59d913fef34ee9bb4d48f357ece7a8171648",
+      "size": 9475,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/748a59d913fef34ee9bb4d48f357ece7a8171648"
+    },
+    {
+      "path": "src/options.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b213e9a5f96b337251bc73e02efe51e683955578",
+      "size": 13809,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/b213e9a5f96b337251bc73e02efe51e683955578"
+    },
+    {
+      "path": "src/parse.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "573d996cd50dc67a9f011dd586020457a1ede532",
+      "size": 10014,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/573d996cd50dc67a9f011dd586020457a1ede532"
+    },
+    {
+      "path": "src/parse.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6653712594bf43e1fd4041447ef1df1f77dc2bd8",
+      "size": 367,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/6653712594bf43e1fd4041447ef1df1f77dc2bd8"
+    },
+    {
+      "path": "src/phases.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fb84c20d9ed9f8b5575df82e1ac9d7f2fd29fbd",
+      "size": 1916,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/5fb84c20d9ed9f8b5575df82e1ac9d7f2fd29fbd"
+    },
+    {
+      "path": "src/phases.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a2456fecd3083726b3d65f71a764cec6b308bcf",
+      "size": 730,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/4a2456fecd3083726b3d65f71a764cec6b308bcf"
+    },
+    {
+      "path": "src/preprocess.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96a0beee03db00c2d713db941b9873a64f1c720e",
+      "size": 6786,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/96a0beee03db00c2d713db941b9873a64f1c720e"
+    },
+    {
+      "path": "src/preprocess.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "056b5ecde97d853b2f658e8c73aa53b477cb9a50",
+      "size": 208,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/056b5ecde97d853b2f658e8c73aa53b477cb9a50"
+    },
+    {
+      "path": "src/print.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "454b8f34375ffebe5d7578e3006129f808da256b",
+      "size": 3804,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/454b8f34375ffebe5d7578e3006129f808da256b"
+    },
+    {
+      "path": "src/print.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6f8a329f50646aca9bccc859f9d4f955413b5f6",
+      "size": 1581,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d6f8a329f50646aca9bccc859f9d4f955413b5f6"
+    },
+    {
+      "path": "src/probe.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6067105774efc31bb5b665839203f4989966afbc",
+      "size": 3033,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/6067105774efc31bb5b665839203f4989966afbc"
+    },
+    {
+      "path": "src/probe.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a788918f3ebf6fad1901dd40de0799245dcbd498",
+      "size": 220,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a788918f3ebf6fad1901dd40de0799245dcbd498"
+    },
+    {
+      "path": "src/profile.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01cd655731888b8166d5b739b5329fbf3ac006bb",
+      "size": 4725,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/01cd655731888b8166d5b739b5329fbf3ac006bb"
+    },
+    {
+      "path": "src/profile.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62d03cf714003114e02d430538ef806f824e5192",
+      "size": 3101,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/62d03cf714003114e02d430538ef806f824e5192"
+    },
+    {
+      "path": "src/promote.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "152cfed4c9eac8438ca6c0fc7e87a5fc0e35a658",
+      "size": 1392,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/152cfed4c9eac8438ca6c0fc7e87a5fc0e35a658"
+    },
+    {
+      "path": "src/promote.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a6073cf6c1398734d5ac6a780543d2635f70da8",
+      "size": 873,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/3a6073cf6c1398734d5ac6a780543d2635f70da8"
+    },
+    {
+      "path": "src/proof.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c819906b92d9438484358bc1485eb01dd2a8545",
+      "size": 11505,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/5c819906b92d9438484358bc1485eb01dd2a8545"
+    },
+    {
+      "path": "src/proof.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a87e60de5eb13892917804318306a29408344843",
+      "size": 4120,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a87e60de5eb13892917804318306a29408344843"
+    },
+    {
+      "path": "src/propbeyond.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b42192b05e3c54ff7173c5d05be01ad86cf1cef9",
+      "size": 1427,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/b42192b05e3c54ff7173c5d05be01ad86cf1cef9"
+    },
+    {
+      "path": "src/propbeyond.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09eaf1b4e11544ddbae2b1d4dba50a6e674f9bd5",
+      "size": 154,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/09eaf1b4e11544ddbae2b1d4dba50a6e674f9bd5"
+    },
+    {
+      "path": "src/propdense.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48ccecb4f1e5d3a8e375af15bd9ef165488370fc",
+      "size": 3313,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/48ccecb4f1e5d3a8e375af15bd9ef165488370fc"
+    },
+    {
+      "path": "src/propdense.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adbaae1cd71d0f30545cbd61490c10374ae74708",
+      "size": 174,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/adbaae1cd71d0f30545cbd61490c10374ae74708"
+    },
+    {
+      "path": "src/propinitially.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f66db3d1c951493398d4460131632cd3fc43190",
+      "size": 1562,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/5f66db3d1c951493398d4460131632cd3fc43190"
+    },
+    {
+      "path": "src/propinitially.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d53f84c9a1049f920663994b1df7a04d1810c9b5",
+      "size": 166,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d53f84c9a1049f920663994b1df7a04d1810c9b5"
+    },
+    {
+      "path": "src/proplit.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8ae9c1cb396f164ab631668b4b9dabe0a9e0ec6",
+      "size": 6637,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/c8ae9c1cb396f164ab631668b4b9dabe0a9e0ec6"
+    },
+    {
+      "path": "src/proprobe.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9587331753744713d1cbfa2778c8065de2614e6",
+      "size": 1665,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/e9587331753744713d1cbfa2778c8065de2614e6"
+    },
+    {
+      "path": "src/proprobe.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fbebe8cc7bdf82cdacd94c574fa7af051709fdb",
+      "size": 249,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/9fbebe8cc7bdf82cdacd94c574fa7af051709fdb"
+    },
+    {
+      "path": "src/propsearch.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1265301c5445d58e6fd6975e7ed14f6e5e3953d",
+      "size": 2107,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/c1265301c5445d58e6fd6975e7ed14f6e5e3953d"
+    },
+    {
+      "path": "src/propsearch.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a774d9c5b26c552fd74275c80dd9cc652ec0e723",
+      "size": 160,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a774d9c5b26c552fd74275c80dd9cc652ec0e723"
+    },
+    {
+      "path": "src/queue.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c399b4cf892cd9460457913c7800d3809912cf2",
+      "size": 1701,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0c399b4cf892cd9460457913c7800d3809912cf2"
+    },
+    {
+      "path": "src/queue.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "271e7e567ed6c90e15ace1cbe00faa0bac6d8097",
+      "size": 737,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/271e7e567ed6c90e15ace1cbe00faa0bac6d8097"
+    },
+    {
+      "path": "src/random.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f00fbf9906d5d2f4afb279f8617ead6719525d2",
+      "size": 1137,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/7f00fbf9906d5d2f4afb279f8617ead6719525d2"
+    },
+    {
+      "path": "src/rank.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2835365361b7f7e7260cdf4fd0aa7cc6c06c0e69",
+      "size": 3942,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/2835365361b7f7e7260cdf4fd0aa7cc6c06c0e69"
+    },
+    {
+      "path": "src/reduce.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "027798520fdc7517afe08911a964ee33c9efb2c9",
+      "size": 6531,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/027798520fdc7517afe08911a964ee33c9efb2c9"
+    },
+    {
+      "path": "src/reduce.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c82c0481dc517743282b26b026d03d1e87b5ce4a",
+      "size": 178,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/c82c0481dc517743282b26b026d03d1e87b5ce4a"
+    },
+    {
+      "path": "src/reference.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "028fc4b5f35dd7869455f8a4ecdaacd7ec71da62",
+      "size": 320,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/028fc4b5f35dd7869455f8a4ecdaacd7ec71da62"
+    },
+    {
+      "path": "src/reluctant.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54b4558e5926db1be3f2ee2c3ed7502414aae803",
+      "size": 1630,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/54b4558e5926db1be3f2ee2c3ed7502414aae803"
+    },
+    {
+      "path": "src/reluctant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93513aabeff9737936c31f64cda3bf27e6ccd162",
+      "size": 665,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/93513aabeff9737936c31f64cda3bf27e6ccd162"
+    },
+    {
+      "path": "src/reorder.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1d4fe8c5a21d332b50ae92512e5891130d55ad1",
+      "size": 6814,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/e1d4fe8c5a21d332b50ae92512e5891130d55ad1"
+    },
+    {
+      "path": "src/reorder.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24351927e3db2af8e45a240e36a9e02634c80e99",
+      "size": 184,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/24351927e3db2af8e45a240e36a9e02634c80e99"
+    },
+    {
+      "path": "src/rephase.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33783f675d04a8c82bbc35968962b8aefb6f1f24",
+      "size": 3509,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/33783f675d04a8c82bbc35968962b8aefb6f1f24"
+    },
+    {
+      "path": "src/rephase.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b59382e4ea814b67657e0e39b600038cb5741cf2",
+      "size": 183,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/b59382e4ea814b67657e0e39b600038cb5741cf2"
+    },
+    {
+      "path": "src/report.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9fc092b5b01a056b1f6bc4f6fb6984da513536b",
+      "size": 3953,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a9fc092b5b01a056b1f6bc4f6fb6984da513536b"
+    },
+    {
+      "path": "src/report.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "744aea32a4e76457cdbd630ac9b83c849968dad1",
+      "size": 308,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/744aea32a4e76457cdbd630ac9b83c849968dad1"
+    },
+    {
+      "path": "src/require.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9325c9b3f1c1babbc02c9eb31a0c8e0d403ff0a7",
+      "size": 881,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/9325c9b3f1c1babbc02c9eb31a0c8e0d403ff0a7"
+    },
+    {
+      "path": "src/resize.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "593d813c8cc61ac9de1c9b000cc59cad87a88d05",
+      "size": 4202,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/593d813c8cc61ac9de1c9b000cc59cad87a88d05"
+    },
+    {
+      "path": "src/resize.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "089fe939457de54308cc202e1a65e5733c37e1ed",
+      "size": 262,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/089fe939457de54308cc202e1a65e5733c37e1ed"
+    },
+    {
+      "path": "src/resolve.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49567b7685a745c8a79f757c13c82b33fcca9007",
+      "size": 10338,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/49567b7685a745c8a79f757c13c82b33fcca9007"
+    },
+    {
+      "path": "src/resolve.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26bf7a0e98fe6422026bebedb7b7e6027e88208c",
+      "size": 220,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/26bf7a0e98fe6422026bebedb7b7e6027e88208c"
+    },
+    {
+      "path": "src/resources.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31c0378afb8d5f7fa67883f1655e33980b2daeea",
+      "size": 2588,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/31c0378afb8d5f7fa67883f1655e33980b2daeea"
+    },
+    {
+      "path": "src/resources.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9bce7853fa422d1d8c3b4b131397ce0e7dfb3da",
+      "size": 418,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d9bce7853fa422d1d8c3b4b131397ce0e7dfb3da"
+    },
+    {
+      "path": "src/restart.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc4edf63480ef3de7fd7ba48f7f8c8a34e49b654",
+      "size": 3979,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/dc4edf63480ef3de7fd7ba48f7f8c8a34e49b654"
+    },
+    {
+      "path": "src/restart.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c17ab649986756d67658690f13b7e8e7876f6935",
+      "size": 245,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/c17ab649986756d67658690f13b7e8e7876f6935"
+    },
+    {
+      "path": "src/search.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77f44ad993dcaf726802f2498003b4a70ce97a2a",
+      "size": 6247,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/77f44ad993dcaf726802f2498003b4a70ce97a2a"
+    },
+    {
+      "path": "src/search.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7f17f89428da566789737d5d74a7deee8b43a6c",
+      "size": 116,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/b7f17f89428da566789737d5d74a7deee8b43a6c"
+    },
+    {
+      "path": "src/shrink.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0614df9746e24bcbc5888aaadfb137b2bc15b73",
+      "size": 11574,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d0614df9746e24bcbc5888aaadfb137b2bc15b73"
+    },
+    {
+      "path": "src/shrink.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "662df06eeb5a4b60425b53ba64847d224ea84447",
+      "size": 124,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/662df06eeb5a4b60425b53ba64847d224ea84447"
+    },
+    {
+      "path": "src/smooth.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "487680f06205668dc38cb910d789ec46ba20651a",
+      "size": 1968,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/487680f06205668dc38cb910d789ec46ba20651a"
+    },
+    {
+      "path": "src/smooth.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11f2efe9f40f4ae6bf838e5671194e2adcb93a35",
+      "size": 422,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/11f2efe9f40f4ae6bf838e5671194e2adcb93a35"
+    },
+    {
+      "path": "src/sort.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba1ea32b250a342728edd52f79271a3f365ccc7b",
+      "size": 2348,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/ba1ea32b250a342728edd52f79271a3f365ccc7b"
+    },
+    {
+      "path": "src/sort.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e0e6ee945e98774a26c3dc9c7cce76b844117d6",
+      "size": 4362,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/9e0e6ee945e98774a26c3dc9c7cce76b844117d6"
+    },
+    {
+      "path": "src/stack.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "854292d768658a3adf94bdfb14f735ad94769abe",
+      "size": 4498,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/854292d768658a3adf94bdfb14f735ad94769abe"
+    },
+    {
+      "path": "src/statistics.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad4bfa0685e13830a4535313e9c13e8c4be4c1f0",
+      "size": 9289,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/ad4bfa0685e13830a4535313e9c13e8c4be4c1f0"
+    },
+    {
+      "path": "src/statistics.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c04f4d3301b4d0d0a9e98aa969f20214f6a7530",
+      "size": 23579,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/8c04f4d3301b4d0d0a9e98aa969f20214f6a7530"
+    },
+    {
+      "path": "src/strengthen.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5107d7f5353b92eb94c339e8dcc5a5dfa5986ea",
+      "size": 5533,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d5107d7f5353b92eb94c339e8dcc5a5dfa5986ea"
+    },
+    {
+      "path": "src/strengthen.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e6a395fc7220511c335b0127253bf943490c3fd",
+      "size": 456,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/1e6a395fc7220511c335b0127253bf943490c3fd"
+    },
+    {
+      "path": "src/substitute.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f95efe7467ea6e6e163c7b1145e9695557cc42d8",
+      "size": 20348,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/f95efe7467ea6e6e163c7b1145e9695557cc42d8"
+    },
+    {
+      "path": "src/substitute.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63a464ee97656e0011027ab2d03dbf24f0f3e340",
+      "size": 166,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/63a464ee97656e0011027ab2d03dbf24f0f3e340"
+    },
+    {
+      "path": "src/sweep.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "866867112653037304b3bcc782591a614df1350a",
+      "size": 53480,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/866867112653037304b3bcc782591a614df1350a"
+    },
+    {
+      "path": "src/sweep.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0f81b8b0158232a0efbc02020a7f94269ab999b",
+      "size": 135,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a0f81b8b0158232a0efbc02020a7f94269ab999b"
+    },
+    {
+      "path": "src/terminate.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1cfe75494515d76d5fbe8d4a952fc5d8c77bd54",
+      "size": 422,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/c1cfe75494515d76d5fbe8d4a952fc5d8c77bd54"
+    },
+    {
+      "path": "src/terminate.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "731f584b842e719c9b0dcda34ebb053613fec320",
+      "size": 2499,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/731f584b842e719c9b0dcda34ebb053613fec320"
+    },
+    {
+      "path": "src/tiers.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fb49e10419b48a6c7caae1793ee1265f7d893ce",
+      "size": 5323,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/3fb49e10419b48a6c7caae1793ee1265f7d893ce"
+    },
+    {
+      "path": "src/tiers.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b7acb28436afe4b18aa75ceca144958bd76996d",
+      "size": 277,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/3b7acb28436afe4b18aa75ceca144958bd76996d"
+    },
+    {
+      "path": "src/trail.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b1882f53134f196dd06661b7d0640a7b6c8c1d6",
+      "size": 2611,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/8b1882f53134f196dd06661b7d0640a7b6c8c1d6"
+    },
+    {
+      "path": "src/trail.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca84203f2f6d0373ca9168bf4f98863b66dc057d",
+      "size": 425,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/ca84203f2f6d0373ca9168bf4f98863b66dc057d"
+    },
+    {
+      "path": "src/transitive.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c06ff5e568d2b72f86c862d49f945826f745db1",
+      "size": 11763,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/2c06ff5e568d2b72f86c862d49f945826f745db1"
+    },
+    {
+      "path": "src/transitive.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec00114605388eec349a5825d109587456bfe482",
+      "size": 139,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/ec00114605388eec349a5825d109587456bfe482"
+    },
+    {
+      "path": "src/utilities.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ea4e0b8fec3601cb55d7b38f50430f94b564139",
+      "size": 299,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/4ea4e0b8fec3601cb55d7b38f50430f94b564139"
+    },
+    {
+      "path": "src/utilities.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "392aaafefc73d039a9e9411e5a6f319d82b99169",
+      "size": 3420,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/392aaafefc73d039a9e9411e5a6f319d82b99169"
+    },
+    {
+      "path": "src/value.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efea7391af29a4c6666b3c078d7cfcb4113dcace",
+      "size": 303,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/efea7391af29a4c6666b3c078d7cfcb4113dcace"
+    },
+    {
+      "path": "src/vector.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9ba7ba43a8e6a81a3f552fac70b4d403527e20a",
+      "size": 10082,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/b9ba7ba43a8e6a81a3f552fac70b4d403527e20a"
+    },
+    {
+      "path": "src/vector.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55ff2ac1d6371683449dca40bf78c438adb27aa7",
+      "size": 1096,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/55ff2ac1d6371683449dca40bf78c438adb27aa7"
+    },
+    {
+      "path": "src/vivify.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6627c640eaf95ffa2deceb85974fe34bc36bac41",
+      "size": 45915,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/6627c640eaf95ffa2deceb85974fe34bc36bac41"
+    },
+    {
+      "path": "src/vivify.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a83ac9303a665fdbb21fbc7fdd9dbd235a9873f4",
+      "size": 117,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a83ac9303a665fdbb21fbc7fdd9dbd235a9873f4"
+    },
+    {
+      "path": "src/walk.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88974ee7a1101cc2ecf872d4abeb26f8b3021d4a",
+      "size": 29581,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/88974ee7a1101cc2ecf872d4abeb26f8b3021d4a"
+    },
+    {
+      "path": "src/walk.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0acc191930aeb27891ac186c9c35d35084e08fe5",
+      "size": 172,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0acc191930aeb27891ac186c9c35d35084e08fe5"
+    },
+    {
+      "path": "src/warmup.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9fa9f5344df8ece78658d781f294b1472c6a4f5",
+      "size": 1625,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d9fa9f5344df8ece78658d781f294b1472c6a4f5"
+    },
+    {
+      "path": "src/warmup.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0fd4712232a1cd886d5f27fc2c891b2ad696e5d",
+      "size": 117,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/e0fd4712232a1cd886d5f27fc2c891b2ad696e5d"
+    },
+    {
+      "path": "src/watch.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39ceace6e3072f338590c6229d01a13c3ef7a4cb",
+      "size": 5901,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/39ceace6e3072f338590c6229d01a13c3ef7a4cb"
+    },
+    {
+      "path": "src/watch.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50afdb083af3733d62cd04e34a752b8bba6c4946",
+      "size": 4620,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/50afdb083af3733d62cd04e34a752b8bba6c4946"
+    },
+    {
+      "path": "src/weaken.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "149616546106a0e1c73a602ac30651fd42f8b6be",
+      "size": 1937,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/149616546106a0e1c73a602ac30651fd42f8b6be"
+    },
+    {
+      "path": "src/weaken.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "beabcb0ce75f79e97b7ac17c3510ace06579bddd",
+      "size": 302,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/beabcb0ce75f79e97b7ac17c3510ace06579bddd"
+    },
+    {
+      "path": "src/witness.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45a9c4e5c785137748c88961b3ddb80271a2086c",
+      "size": 1018,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/45a9c4e5c785137748c88961b3ddb80271a2086c"
+    },
+    {
+      "path": "src/witness.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b0fdea639fbbb66f9acd7eb41e56e665ac7d984",
+      "size": 175,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/2b0fdea639fbbb66f9acd7eb41e56e665ac7d984"
+    },
+    {
+      "path": "test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d5eb32cea5ad3463c17846e36639b00160b81240",
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/trees/d5eb32cea5ad3463c17846e36639b00160b81240"
+    },
+    {
+      "path": "test/big",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0e616ba1039d1f6a4bc7e1b1c916505719dca8d6",
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/trees/0e616ba1039d1f6a4bc7e1b1c916505719dca8d6"
+    },
+    {
+      "path": "test/big/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1a6177ac65aca152e76c14a7c49f056949fca7c",
+      "size": 10,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/e1a6177ac65aca152e76c14a7c49f056949fca7c"
+    },
+    {
+      "path": "test/big/genbigand.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5c3565a601c9567d709857c76c37b4740411c64",
+      "size": 2363,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a5c3565a601c9567d709857c76c37b4740411c64"
+    },
+    {
+      "path": "test/big/makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a2a03831b2f5b94d2050c7317d74d33ea52cb33",
+      "size": 59,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/4a2a03831b2f5b94d2050c7317d74d33ea52cb33"
+    },
+    {
+      "path": "test/cnf",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "50ed6b38ee78b72821f4c6872a525b9a1089af76",
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/trees/50ed6b38ee78b72821f4c6872a525b9a1089af76"
+    },
+    {
+      "path": "test/cnf/add128.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52ec4b448eee41217f40616563345e02243595e3",
+      "size": 96737,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/52ec4b448eee41217f40616563345e02243595e3"
+    },
+    {
+      "path": "test/cnf/add16.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d20597830bab2d39ee7c40ab6745f4b5b80a9f8b",
+      "size": 10622,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d20597830bab2d39ee7c40ab6745f4b5b80a9f8b"
+    },
+    {
+      "path": "test/cnf/add32.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66de70f94c37ecf3753678a62e88b00debc3b6d6",
+      "size": 23221,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/66de70f94c37ecf3753678a62e88b00debc3b6d6"
+    },
+    {
+      "path": "test/cnf/add4.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0827d57892920d158932b86d67cb7187bfb637ad",
+      "size": 1574,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0827d57892920d158932b86d67cb7187bfb637ad"
+    },
+    {
+      "path": "test/cnf/add64.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8938f44308b43894dbcc2f8acfa30e4d94fcb99b",
+      "size": 51243,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/8938f44308b43894dbcc2f8acfa30e4d94fcb99b"
+    },
+    {
+      "path": "test/cnf/add8.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b8d4e6e84331b6900c36c7213cf7f679a15692a",
+      "size": 4382,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/2b8d4e6e84331b6900c36c7213cf7f679a15692a"
+    },
+    {
+      "path": "test/cnf/and1.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3052cc4e7b3c665f32a598b4754394a444ca706",
+      "size": 111,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/e3052cc4e7b3c665f32a598b4754394a444ca706"
+    },
+    {
+      "path": "test/cnf/and2.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ac2beae6194828a17fbfcca67b05a11c2ffedcf",
+      "size": 116,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/4ac2beae6194828a17fbfcca67b05a11c2ffedcf"
+    },
+    {
+      "path": "test/cnf/and3.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f18242b752f75aa09c7b3f8f3d8f0dc507240c07",
+      "size": 68,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/f18242b752f75aa09c7b3f8f3d8f0dc507240c07"
+    },
+    {
+      "path": "test/cnf/bin1.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff3d7081d5d2f72d5eed57d8626ace1d1558c37b",
+      "size": 16,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/ff3d7081d5d2f72d5eed57d8626ace1d1558c37b"
+    },
+    {
+      "path": "test/cnf/bin2.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f4c98e8857e132f4a7c6518e487d1c20acde2b6",
+      "size": 18,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/3f4c98e8857e132f4a7c6518e487d1c20acde2b6"
+    },
+    {
+      "path": "test/cnf/bin3.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d75243f2eb54f407c2fa098043fe520512ddf40e",
+      "size": 25,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d75243f2eb54f407c2fa098043fe520512ddf40e"
+    },
+    {
+      "path": "test/cnf/congr1.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b587890c6d40c2d54a6607bf1106c9edad6da43d",
+      "size": 88,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/b587890c6d40c2d54a6607bf1106c9edad6da43d"
+    },
+    {
+      "path": "test/cnf/congr2.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2de75186808890f0761de397948e1e03a9831f42",
+      "size": 189,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/2de75186808890f0761de397948e1e03a9831f42"
+    },
+    {
+      "path": "test/cnf/congr3.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ed59042da5b9df533321228480b920fc934fd02",
+      "size": 73,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/5ed59042da5b9df533321228480b920fc934fd02"
+    },
+    {
+      "path": "test/cnf/congr4.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6512a76919b946e76ae213b267a0ad7da425019b",
+      "size": 83,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/6512a76919b946e76ae213b267a0ad7da425019b"
+    },
+    {
+      "path": "test/cnf/congr5.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fbcb0a37d9f18f86d4a6e5fe8592d9754d3b8f8",
+      "size": 107,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/6fbcb0a37d9f18f86d4a6e5fe8592d9754d3b8f8"
+    },
+    {
+      "path": "test/cnf/congr6.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20a31b9e9d361d83cba756548e0a9901bd84ebe0",
+      "size": 68,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/20a31b9e9d361d83cba756548e0a9901bd84ebe0"
+    },
+    {
+      "path": "test/cnf/congr7.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e758f2b270179b2025b619f39e274af4275937c",
+      "size": 77,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/7e758f2b270179b2025b619f39e274af4275937c"
+    },
+    {
+      "path": "test/cnf/def1.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca1348bde4f49bb7177b0468606901bd13db2331",
+      "size": 481,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/ca1348bde4f49bb7177b0468606901bd13db2331"
+    },
+    {
+      "path": "test/cnf/diamond1.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f56c8724385d96c532b6291df2a5e37cea4171b",
+      "size": 128,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/6f56c8724385d96c532b6291df2a5e37cea4171b"
+    },
+    {
+      "path": "test/cnf/diamond2.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "412fa4e47f56a61b49c51fd906a81b8781d74d3f",
+      "size": 147,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/412fa4e47f56a61b49c51fd906a81b8781d74d3f"
+    },
+    {
+      "path": "test/cnf/diamond3.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca13523e791f4b578ce05d2f2d9e1058f4eadc0d",
+      "size": 175,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/ca13523e791f4b578ce05d2f2d9e1058f4eadc0d"
+    },
+    {
+      "path": "test/cnf/eq1.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3dfdd0090c17013e23af410ebf3ab45ec268e224",
+      "size": 24,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/3dfdd0090c17013e23af410ebf3ab45ec268e224"
+    },
+    {
+      "path": "test/cnf/eq2.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "960c95b12e71e903616203e36020c5b10567cab2",
+      "size": 45,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/960c95b12e71e903616203e36020c5b10567cab2"
+    },
+    {
+      "path": "test/cnf/eq3.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47e7b68d780fa36a3f90e694a207f820f326f8b3",
+      "size": 23,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/47e7b68d780fa36a3f90e694a207f820f326f8b3"
+    },
+    {
+      "path": "test/cnf/factor1.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33a52ea14bf54568efdc997b2538049b1a182de9",
+      "size": 46,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/33a52ea14bf54568efdc997b2538049b1a182de9"
+    },
+    {
+      "path": "test/cnf/factor2.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a7a8c712090340b2e3bce56cb3d0e7f6073f4d7",
+      "size": 64,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/4a7a8c712090340b2e3bce56cb3d0e7f6073f4d7"
+    },
+    {
+      "path": "test/cnf/factor3.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2f62795c71858b97b9f65aa72f778d49d159ed1",
+      "size": 58,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/c2f62795c71858b97b9f65aa72f778d49d159ed1"
+    },
+    {
+      "path": "test/cnf/factor4.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "423c1338b454a24088ba482986f9bbaf43fe4fb2",
+      "size": 58,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/423c1338b454a24088ba482986f9bbaf43fe4fb2"
+    },
+    {
+      "path": "test/cnf/factor5.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "052e14891e5a187c6a158ea6ffdf2ca2f2974cf8",
+      "size": 89,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/052e14891e5a187c6a158ea6ffdf2ca2f2974cf8"
+    },
+    {
+      "path": "test/cnf/false.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d89b30366d080b7fe5b0921569fccb840994a70",
+      "size": 12,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/1d89b30366d080b7fe5b0921569fccb840994a70"
+    },
+    {
+      "path": "test/cnf/full2.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "797e89efcd2b521b584bd53f4e07ce6eb54224c8",
+      "size": 38,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/797e89efcd2b521b584bd53f4e07ce6eb54224c8"
+    },
+    {
+      "path": "test/cnf/full3.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4162e416fe37d2c1f3bd98013908cc75874dbe8e",
+      "size": 86,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/4162e416fe37d2c1f3bd98013908cc75874dbe8e"
+    },
+    {
+      "path": "test/cnf/full4.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4efb3a53172031c647c4391f3faf3daab8820480",
+      "size": 203,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/4efb3a53172031c647c4391f3faf3daab8820480"
+    },
+    {
+      "path": "test/cnf/hard.cnf",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "b367e13207549ab725ec436f3c6b0b21a3ae23cc",
+      "size": 8,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/b367e13207549ab725ec436f3c6b0b21a3ae23cc"
+    },
+    {
+      "path": "test/cnf/ite0.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44cb6ecb51b2a1cf42dfc6fa0f1c8f59ef4ff901",
+      "size": 48,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/44cb6ecb51b2a1cf42dfc6fa0f1c8f59ef4ff901"
+    },
+    {
+      "path": "test/cnf/ite1.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9753f19d985be9e430943480af9b79012a078a4",
+      "size": 145,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d9753f19d985be9e430943480af9b79012a078a4"
+    },
+    {
+      "path": "test/cnf/ite10.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dca1d703c3b3477c56fafd9055acbe7cc66296bb",
+      "size": 100,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/dca1d703c3b3477c56fafd9055acbe7cc66296bb"
+    },
+    {
+      "path": "test/cnf/ite11.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "235cd432fc59eb51e3f25955459d0d786246b396",
+      "size": 94,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/235cd432fc59eb51e3f25955459d0d786246b396"
+    },
+    {
+      "path": "test/cnf/ite12.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cbc18e7155f8f593a4f8d36ca0cca11f6373d29",
+      "size": 76,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/8cbc18e7155f8f593a4f8d36ca0cca11f6373d29"
+    },
+    {
+      "path": "test/cnf/ite13.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a725f607797e8269495a9001feca48d63509134",
+      "size": 80,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0a725f607797e8269495a9001feca48d63509134"
+    },
+    {
+      "path": "test/cnf/ite14.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36e19c112cef07f5252f20438f528a170aecfac8",
+      "size": 145,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/36e19c112cef07f5252f20438f528a170aecfac8"
+    },
+    {
+      "path": "test/cnf/ite15.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e64986d93bfcab9b6dddb7dfd8a99cb3985c820",
+      "size": 126,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/4e64986d93bfcab9b6dddb7dfd8a99cb3985c820"
+    },
+    {
+      "path": "test/cnf/ite16.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2d893cfce20d01376b70b39a8fe5df20d3afae5",
+      "size": 86,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/f2d893cfce20d01376b70b39a8fe5df20d3afae5"
+    },
+    {
+      "path": "test/cnf/ite17.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cbba1e2c8428d45e54e5d600fc683945f8e2962",
+      "size": 62,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/4cbba1e2c8428d45e54e5d600fc683945f8e2962"
+    },
+    {
+      "path": "test/cnf/ite18.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90d2d632288ccb607f72206d68bce320521ff659",
+      "size": 62,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/90d2d632288ccb607f72206d68bce320521ff659"
+    },
+    {
+      "path": "test/cnf/ite19.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d78539699d4d697e0429798f80bce1f1234f1546",
+      "size": 62,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d78539699d4d697e0429798f80bce1f1234f1546"
+    },
+    {
+      "path": "test/cnf/ite2.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4467cc8e8e9d73a2d86f95277670286e370dfc24",
+      "size": 72,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/4467cc8e8e9d73a2d86f95277670286e370dfc24"
+    },
+    {
+      "path": "test/cnf/ite20.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84f97566be3ee8dc1929c09b94d4e4c0431090b8",
+      "size": 62,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/84f97566be3ee8dc1929c09b94d4e4c0431090b8"
+    },
+    {
+      "path": "test/cnf/ite21.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa8f338d928172682121d8e39d667a13fecd2ef1",
+      "size": 62,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/aa8f338d928172682121d8e39d667a13fecd2ef1"
+    },
+    {
+      "path": "test/cnf/ite22.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03d6a0216f31896647a5d90c16f0c04f88962eb3",
+      "size": 62,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/03d6a0216f31896647a5d90c16f0c04f88962eb3"
+    },
+    {
+      "path": "test/cnf/ite23.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7673401aeac229f3c8fa1e1bf417cb8f7ed56ac",
+      "size": 70,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d7673401aeac229f3c8fa1e1bf417cb8f7ed56ac"
+    },
+    {
+      "path": "test/cnf/ite24.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5a90533e8cfd783cf3cd6429f732cd819d7365d",
+      "size": 62,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d5a90533e8cfd783cf3cd6429f732cd819d7365d"
+    },
+    {
+      "path": "test/cnf/ite25.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20eea5ca032a3fe39f6400da0bcdcb0369a38287",
+      "size": 101,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/20eea5ca032a3fe39f6400da0bcdcb0369a38287"
+    },
+    {
+      "path": "test/cnf/ite26.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a503a0ff113ae816f63dfad6d6d83bb43d917847",
+      "size": 79,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a503a0ff113ae816f63dfad6d6d83bb43d917847"
+    },
+    {
+      "path": "test/cnf/ite27.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ee4fde8a63bece746317375c2927088fbc38b77",
+      "size": 101,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/8ee4fde8a63bece746317375c2927088fbc38b77"
+    },
+    {
+      "path": "test/cnf/ite28.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a6e807f8bdd1d78c9ea894254e45a1e264ba49a",
+      "size": 62,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0a6e807f8bdd1d78c9ea894254e45a1e264ba49a"
+    },
+    {
+      "path": "test/cnf/ite29.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "424f25e4d7f6879a0b453f1b5ceb3cac9f47be1b",
+      "size": 62,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/424f25e4d7f6879a0b453f1b5ceb3cac9f47be1b"
+    },
+    {
+      "path": "test/cnf/ite3.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d30f3a45f66c88bb9bd5f02cc234c2a27fe7cf0",
+      "size": 48,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/7d30f3a45f66c88bb9bd5f02cc234c2a27fe7cf0"
+    },
+    {
+      "path": "test/cnf/ite30.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cce6e982b3d292bdec71565f1bda969e10beda6",
+      "size": 85,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/5cce6e982b3d292bdec71565f1bda969e10beda6"
+    },
+    {
+      "path": "test/cnf/ite31.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "136e8d882912139d873b810e51e550af1c2ff78f",
+      "size": 108,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/136e8d882912139d873b810e51e550af1c2ff78f"
+    },
+    {
+      "path": "test/cnf/ite32.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "755a4f30bd6508b505a4a172e5ebd784819867ba",
+      "size": 177,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/755a4f30bd6508b505a4a172e5ebd784819867ba"
+    },
+    {
+      "path": "test/cnf/ite33.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55959cff8a823a6ae9a3caeac73e8de3c3808d4a",
+      "size": 62,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/55959cff8a823a6ae9a3caeac73e8de3c3808d4a"
+    },
+    {
+      "path": "test/cnf/ite34.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a76cda85bac6361c1918995d688d7ed57b683bda",
+      "size": 76,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a76cda85bac6361c1918995d688d7ed57b683bda"
+    },
+    {
+      "path": "test/cnf/ite4.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3d36bef29ddc554a3701002b22c41a3c889bc1d",
+      "size": 76,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a3d36bef29ddc554a3701002b22c41a3c889bc1d"
+    },
+    {
+      "path": "test/cnf/ite5.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "637beefb062105461d5c9198342c1e0ec62d8656",
+      "size": 61,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/637beefb062105461d5c9198342c1e0ec62d8656"
+    },
+    {
+      "path": "test/cnf/ite6.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e3e247fe2b14aaaf290ee4a11659621efdab434",
+      "size": 63,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/9e3e247fe2b14aaaf290ee4a11659621efdab434"
+    },
+    {
+      "path": "test/cnf/ite7.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd2b26cce4739ec2e337893e7d0236f65e89c30d",
+      "size": 63,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/fd2b26cce4739ec2e337893e7d0236f65e89c30d"
+    },
+    {
+      "path": "test/cnf/ite8.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c2010d9cd06cfe0fa4ade0160b946449e569982",
+      "size": 69,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0c2010d9cd06cfe0fa4ade0160b946449e569982"
+    },
+    {
+      "path": "test/cnf/ite9.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a71af891c59fb9b0a9adc701bfb77b646850e7f",
+      "size": 63,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/4a71af891c59fb9b0a9adc701bfb77b646850e7f"
+    },
+    {
+      "path": "test/cnf/miter1.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0495f719609341a828652f14180a337fbc8b4db2",
+      "size": 29452,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0495f719609341a828652f14180a337fbc8b4db2"
+    },
+    {
+      "path": "test/cnf/ph11.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "954c60fc1c52c4904ba3e7e4dd6d72e2598eea09",
+      "size": 9423,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/954c60fc1c52c4904ba3e7e4dd6d72e2598eea09"
+    },
+    {
+      "path": "test/cnf/ph2.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c147241a7e677a8dc7be766b41baebddef0ddae8",
+      "size": 76,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/c147241a7e677a8dc7be766b41baebddef0ddae8"
+    },
+    {
+      "path": "test/cnf/ph3.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e5f72e8a70322b2032a261d41d383b162f8cc23",
+      "size": 200,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/4e5f72e8a70322b2032a261d41d383b162f8cc23"
+    },
+    {
+      "path": "test/cnf/ph4.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ff2ae6104f6f9c54d408e24207e9d6312017f66",
+      "size": 437,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/6ff2ae6104f6f9c54d408e24207e9d6312017f66"
+    },
+    {
+      "path": "test/cnf/ph5.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "543d8aa7545e7edb97cd31089f63b79f1d93a482",
+      "size": 810,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/543d8aa7545e7edb97cd31089f63b79f1d93a482"
+    },
+    {
+      "path": "test/cnf/ph6.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01ec4c7aec44a1c688acad19e5adbcb64e97e8f3",
+      "size": 1350,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/01ec4c7aec44a1c688acad19e5adbcb64e97e8f3"
+    },
+    {
+      "path": "test/cnf/prime121.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "702b3a9c06b0c4bccd82ed141e70efdc160d2653",
+      "size": 11199,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/702b3a9c06b0c4bccd82ed141e70efdc160d2653"
+    },
+    {
+      "path": "test/cnf/prime1369.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "716df3688d613b4bc3e33c31cbe2e08e61c46748",
+      "size": 35698,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/716df3688d613b4bc3e33c31cbe2e08e61c46748"
+    },
+    {
+      "path": "test/cnf/prime1681.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "707c444fab23972e6b5512e3c1e1ced742cd0874",
+      "size": 35698,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/707c444fab23972e6b5512e3c1e1ced742cd0874"
+    },
+    {
+      "path": "test/cnf/prime169.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8954b1a42a84c50199f8f0ebc77f1b1900e7d43",
+      "size": 16084,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/b8954b1a42a84c50199f8f0ebc77f1b1900e7d43"
+    },
+    {
+      "path": "test/cnf/prime1849.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5b7d712c16bd2ef907e452cd97f2e669afd2635",
+      "size": 35698,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/f5b7d712c16bd2ef907e452cd97f2e669afd2635"
+    },
+    {
+      "path": "test/cnf/prime2209.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b926d6a9821964f0694629518aedf287f91a8ca1",
+      "size": 45210,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/b926d6a9821964f0694629518aedf287f91a8ca1"
+    },
+    {
+      "path": "test/cnf/prime25.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26b14f492499729c24a3ea4a6e19cb5c91042653",
+      "size": 3926,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/26b14f492499729c24a3ea4a6e19cb5c91042653"
+    },
+    {
+      "path": "test/cnf/prime289.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dd417dce981e97b64dede71e37ac785e58e4d88",
+      "size": 21792,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/6dd417dce981e97b64dede71e37ac785e58e4d88"
+    },
+    {
+      "path": "test/cnf/prime361.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26a5ca40aee5b7cda3b927c02908c4cd609f5bf0",
+      "size": 21792,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/26a5ca40aee5b7cda3b927c02908c4cd609f5bf0"
+    },
+    {
+      "path": "test/cnf/prime4.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bd6b68eb39735826a28950b3d6cf337a22d3522",
+      "size": 462,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/7bd6b68eb39735826a28950b3d6cf337a22d3522"
+    },
+    {
+      "path": "test/cnf/prime4294967297.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "677b7281f6d2835167e755fdb81e7538db57640f",
+      "size": 85837,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/677b7281f6d2835167e755fdb81e7538db57640f"
+    },
+    {
+      "path": "test/cnf/prime49.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "459dbe103e4ff683538a8801f885f7ec552bf3d4",
+      "size": 7149,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/459dbe103e4ff683538a8801f885f7ec552bf3d4"
+    },
+    {
+      "path": "test/cnf/prime529.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4616828cc4eccc080b160469c14e4ab549cd818a",
+      "size": 28336,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/4616828cc4eccc080b160469c14e4ab549cd818a"
+    },
+    {
+      "path": "test/cnf/prime65537.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c05868ace5d05ea5b2c3f2315d932ba86425500d",
+      "size": 88805,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/c05868ace5d05ea5b2c3f2315d932ba86425500d"
+    },
+    {
+      "path": "test/cnf/prime841.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b783da29b4a015bd7f43274417acd1f33d2b53c1",
+      "size": 28336,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/b783da29b4a015bd7f43274417acd1f33d2b53c1"
+    },
+    {
+      "path": "test/cnf/prime9.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7829f6ab592bbb557f13d88e7cfa27394043dd19",
+      "size": 1784,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/7829f6ab592bbb557f13d88e7cfa27394043dd19"
+    },
+    {
+      "path": "test/cnf/prime961.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "736a0dd49accb2f7cbab127aee7eefaa48e5245b",
+      "size": 28336,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/736a0dd49accb2f7cbab127aee7eefaa48e5245b"
+    },
+    {
+      "path": "test/cnf/probe1.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bbe6d012d511322c56d83bb0131c78f38cb3733",
+      "size": 65,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/6bbe6d012d511322c56d83bb0131c78f38cb3733"
+    },
+    {
+      "path": "test/cnf/sqrt10201.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f5059ee10e8ac8b95f5f336b590ded13bd72113",
+      "size": 9783,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/7f5059ee10e8ac8b95f5f336b590ded13bd72113"
+    },
+    {
+      "path": "test/cnf/sqrt1042441.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a8c43c7f8d199cbaba0aaf2a2a23c8ecc307c27",
+      "size": 22747,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/6a8c43c7f8d199cbaba0aaf2a2a23c8ecc307c27"
+    },
+    {
+      "path": "test/cnf/sqrt10609.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "310f2b0b1d94ec3111f97da1f4ab7320242fba08",
+      "size": 9783,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/310f2b0b1d94ec3111f97da1f4ab7320242fba08"
+    },
+    {
+      "path": "test/cnf/sqrt11449.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd09d30db56193c9318413bdb28c337aadeaa55d",
+      "size": 9782,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/dd09d30db56193c9318413bdb28c337aadeaa55d"
+    },
+    {
+      "path": "test/cnf/sqrt11881.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6f0b619244c94a5c6dee310e96aca250fb142a5",
+      "size": 9784,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/f6f0b619244c94a5c6dee310e96aca250fb142a5"
+    },
+    {
+      "path": "test/cnf/sqrt12769.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c9dbd464a72f9bf9904af04ae0122387c61a09b",
+      "size": 9760,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/9c9dbd464a72f9bf9904af04ae0122387c61a09b"
+    },
+    {
+      "path": "test/cnf/sqrt16129.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06f7867fbae43e714407332a0370740b2a9f3681",
+      "size": 9766,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/06f7867fbae43e714407332a0370740b2a9f3681"
+    },
+    {
+      "path": "test/cnf/sqrt259081.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8afaada2e464fe1fe106f7054e51c742483a9b43",
+      "size": 17850,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/8afaada2e464fe1fe106f7054e51c742483a9b43"
+    },
+    {
+      "path": "test/cnf/sqrt2809.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "115941b09ab89e3bebbba4ebbfa99a8e76110670",
+      "size": 6591,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/115941b09ab89e3bebbba4ebbfa99a8e76110670"
+    },
+    {
+      "path": "test/cnf/sqrt3481.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e726b3aa5b8c7586b71a2be98111875446f45b0f",
+      "size": 6571,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/e726b3aa5b8c7586b71a2be98111875446f45b0f"
+    },
+    {
+      "path": "test/cnf/sqrt3721.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8eeaaee0011d4515a74600d271fcc95cbdee4fa",
+      "size": 6572,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/b8eeaaee0011d4515a74600d271fcc95cbdee4fa"
+    },
+    {
+      "path": "test/cnf/sqrt4489.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ec47fc88050fc213d45867ca4466d68dfaf5e42",
+      "size": 9762,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/9ec47fc88050fc213d45867ca4466d68dfaf5e42"
+    },
+    {
+      "path": "test/cnf/sqrt5041.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c672ffc62f78de0f863773f20bb0cfbbba87c28b",
+      "size": 9762,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/c672ffc62f78de0f863773f20bb0cfbbba87c28b"
+    },
+    {
+      "path": "test/cnf/sqrt5329.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf838ec1e37d7633aaa83f1f902fa2f34d4fe917",
+      "size": 9761,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/bf838ec1e37d7633aaa83f1f902fa2f34d4fe917"
+    },
+    {
+      "path": "test/cnf/sqrt6241.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52e95624d2e6b35ded94b31d63fb3555336d2d61",
+      "size": 9762,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/52e95624d2e6b35ded94b31d63fb3555336d2d61"
+    },
+    {
+      "path": "test/cnf/sqrt63001.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c9d14a6a3de78aa2eee92e139590d0667fabb98",
+      "size": 13522,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/7c9d14a6a3de78aa2eee92e139590d0667fabb98"
+    },
+    {
+      "path": "test/cnf/sqrt6889.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "415d9484582041553cf029a4c5a90796393c57e5",
+      "size": 9761,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/415d9484582041553cf029a4c5a90796393c57e5"
+    },
+    {
+      "path": "test/cnf/sqrt7921.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "affad91316054e28c6fd58aebe70ba3a8287c66b",
+      "size": 9762,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/affad91316054e28c6fd58aebe70ba3a8287c66b"
+    },
+    {
+      "path": "test/cnf/sqrt9409.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81d7b3747def88f447466e64b00b36b878b61789",
+      "size": 9783,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/81d7b3747def88f447466e64b00b36b878b61789"
+    },
+    {
+      "path": "test/cnf/strash1.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2784ecdf4fc63a91aa636dbbdbd64e769c4e653",
+      "size": 119,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/c2784ecdf4fc63a91aa636dbbdbd64e769c4e653"
+    },
+    {
+      "path": "test/cnf/strash2.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41080993c929f2e092238c1b9d85e0eefe74ab9d",
+      "size": 175,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/41080993c929f2e092238c1b9d85e0eefe74ab9d"
+    },
+    {
+      "path": "test/cnf/strash3.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cedd10c69f7c31e02a21354bb2339fd8095d952d",
+      "size": 87,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/cedd10c69f7c31e02a21354bb2339fd8095d952d"
+    },
+    {
+      "path": "test/cnf/tieshirt.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "600be97f29048d1a55779f6b07988ee7804d2c16",
+      "size": 49,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/600be97f29048d1a55779f6b07988ee7804d2c16"
+    },
+    {
+      "path": "test/cnf/tph6.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cce01bafb6c1843de461da1795634f617ff0a183",
+      "size": 24529,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/cce01bafb6c1843de461da1795634f617ff0a183"
+    },
+    {
+      "path": "test/cnf/true.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deab3c3add9f1ca5028199b2d545fc386417f7ef",
+      "size": 10,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/deab3c3add9f1ca5028199b2d545fc386417f7ef"
+    },
+    {
+      "path": "test/cnf/twocores1.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "908e31239c7afc38b5772b5cce31ef38ed7a3096",
+      "size": 28,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/908e31239c7afc38b5772b5cce31ef38ed7a3096"
+    },
+    {
+      "path": "test/cnf/twocores2.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3263d399e9031a9ad36880626bfad21e5c10ccd",
+      "size": 66,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/e3263d399e9031a9ad36880626bfad21e5c10ccd"
+    },
+    {
+      "path": "test/cnf/twocores3.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bebb7114c807a2cde5dcd473e59bf5ab4a215cf",
+      "size": 163,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/9bebb7114c807a2cde5dcd473e59bf5ab4a215cf"
+    },
+    {
+      "path": "test/cnf/unit1.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d2e2932a31da956951abbb2b9fedb170aaed2c5",
+      "size": 19,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/3d2e2932a31da956951abbb2b9fedb170aaed2c5"
+    },
+    {
+      "path": "test/cnf/unit2.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3768515f4aade56acc9a6759f52ff2d75063ba99",
+      "size": 19,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/3768515f4aade56acc9a6759f52ff2d75063ba99"
+    },
+    {
+      "path": "test/cnf/unit3.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2540ccbbeeed2f5bd9a7fddb3f963334b6bea9f",
+      "size": 19,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d2540ccbbeeed2f5bd9a7fddb3f963334b6bea9f"
+    },
+    {
+      "path": "test/cnf/unit4.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e564d9b2d60a18b53db5e54013f32c0d440b9fc",
+      "size": 51,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/4e564d9b2d60a18b53db5e54013f32c0d440b9fc"
+    },
+    {
+      "path": "test/cnf/unit5.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8606b7bc919812ce6109369c95eefd4c4ca4e8ca",
+      "size": 28,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/8606b7bc919812ce6109369c95eefd4c4ca4e8ca"
+    },
+    {
+      "path": "test/cnf/unit6.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7466492bfd359cfd848d8dd60fdc3b1ea270f826",
+      "size": 87,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/7466492bfd359cfd848d8dd60fdc3b1ea270f826"
+    },
+    {
+      "path": "test/cnf/xor0.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "284f3960e91b3cd6a182effefd665c86ca692b88",
+      "size": 48,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/284f3960e91b3cd6a182effefd665c86ca692b88"
+    },
+    {
+      "path": "test/cnf/xor1.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14e4f1e6b9a013a19304ad13a7e242790f095a3a",
+      "size": 150,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/14e4f1e6b9a013a19304ad13a7e242790f095a3a"
+    },
+    {
+      "path": "test/cnf/xor2.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9cef3e74b6a39fbac636763180eaef2f0fe153f",
+      "size": 148,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/f9cef3e74b6a39fbac636763180eaef2f0fe153f"
+    },
+    {
+      "path": "test/cnf/xor3.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f71a31f06a1eeeedb9b2dffaf74a6285c47fe20",
+      "size": 283,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/8f71a31f06a1eeeedb9b2dffaf74a6285c47fe20"
+    },
+    {
+      "path": "test/cnf/xor4.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a064af75cd806db30964632bf1fca9446444aeef",
+      "size": 363,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a064af75cd806db30964632bf1fca9446444aeef"
+    },
+    {
+      "path": "test/cnf/xor5.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2f1b2a9c8b6e31094834909f7b42561fdeab397",
+      "size": 111,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/f2f1b2a9c8b6e31094834909f7b42561fdeab397"
+    },
+    {
+      "path": "test/cnf/xor6.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fe6456a02e6b2e319d6e7aac45bd173f20bec98",
+      "size": 64,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/9fe6456a02e6b2e319d6e7aac45bd173f20bec98"
+    },
+    {
+      "path": "test/configure",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "c9d4efb4fd0baf110930458c282ea190974877a3",
+      "size": 12,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/c9d4efb4fd0baf110930458c282ea190974877a3"
+    },
+    {
+      "path": "test/cover",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "654ae90cdcf042f5df764ebef30cf077a162c470",
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/trees/654ae90cdcf042f5df764ebef30cf077a162c470"
+    },
+    {
+      "path": "test/cover/cover0000.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "915cc873eb22fd12c6254fb2e211e110a7c3c966",
+      "size": 22,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/915cc873eb22fd12c6254fb2e211e110a7c3c966"
+    },
+    {
+      "path": "test/cover/cover0001.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a81b53a60a56d075fc95ddcc834fdc9b110393f8",
+      "size": 90,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a81b53a60a56d075fc95ddcc834fdc9b110393f8"
+    },
+    {
+      "path": "test/cover/cover0002.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db9cc47d238ee90bb4867fc8f71de9153d9d92d5",
+      "size": 2265,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/db9cc47d238ee90bb4867fc8f71de9153d9d92d5"
+    },
+    {
+      "path": "test/cover/cover0003.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dba6e49dec66c8a7e440abb26efc97cb35319729",
+      "size": 99,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/dba6e49dec66c8a7e440abb26efc97cb35319729"
+    },
+    {
+      "path": "test/cover/cover0004.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f096fb0ab4a1465622f916bc84a2985a9349a5e",
+      "size": 104,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0f096fb0ab4a1465622f916bc84a2985a9349a5e"
+    },
+    {
+      "path": "test/cover/cover0005.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fec4daac8d73af7992696a5b1c3828913e8e64e",
+      "size": 60,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/1fec4daac8d73af7992696a5b1c3828913e8e64e"
+    },
+    {
+      "path": "test/cover/cover0006.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f11f8bd82b9d978254755dab86dc52fb1c84cbea",
+      "size": 112,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/f11f8bd82b9d978254755dab86dc52fb1c84cbea"
+    },
+    {
+      "path": "test/cover/cover0007.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "092ee4f7f8880eebd909ba746f39ec8426d2f353",
+      "size": 114,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/092ee4f7f8880eebd909ba746f39ec8426d2f353"
+    },
+    {
+      "path": "test/cover/cover0009.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "411b2ff37866880e672a830cbda2837b54b4d568",
+      "size": 112,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/411b2ff37866880e672a830cbda2837b54b4d568"
+    },
+    {
+      "path": "test/cover/cover0010.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "637bea31db75ba7f8cc9ccae6174266e22d6d5ae",
+      "size": 162,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/637bea31db75ba7f8cc9ccae6174266e22d6d5ae"
+    },
+    {
+      "path": "test/cover/cover0011.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01ad9ce04bc87ebf9d67c1e0031e795cb9feca08",
+      "size": 360,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/01ad9ce04bc87ebf9d67c1e0031e795cb9feca08"
+    },
+    {
+      "path": "test/cover/cover0012.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "667c5c0a979ed41801a7053e79370c08b54b2826",
+      "size": 606,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/667c5c0a979ed41801a7053e79370c08b54b2826"
+    },
+    {
+      "path": "test/cover/cover0013.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fcd86b6f8063fa00d2e489b149315153682eb59",
+      "size": 75,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0fcd86b6f8063fa00d2e489b149315153682eb59"
+    },
+    {
+      "path": "test/cover/cover0014.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc853169992f1971077f890fb10d712f7c1ac905",
+      "size": 107,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/dc853169992f1971077f890fb10d712f7c1ac905"
+    },
+    {
+      "path": "test/cover/cover0015.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d537008b7e1b6e35eecc291b3d399129b206d82b",
+      "size": 6114,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d537008b7e1b6e35eecc291b3d399129b206d82b"
+    },
+    {
+      "path": "test/cover/cover0016.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70d27cd8d7dc7d2055a405cc06f06b12fa13c520",
+      "size": 257,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/70d27cd8d7dc7d2055a405cc06f06b12fa13c520"
+    },
+    {
+      "path": "test/cover/cover0017.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acfd9ff99892c712618c517c202375de746ae2a1",
+      "size": 97,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/acfd9ff99892c712618c517c202375de746ae2a1"
+    },
+    {
+      "path": "test/cover/cover0018.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0761c5bf888c005761f6b8139010d3e7fb73e707",
+      "size": 2753,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0761c5bf888c005761f6b8139010d3e7fb73e707"
+    },
+    {
+      "path": "test/cover/cover0019.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63621e9c7f892f11de78960e0ae4b42256cd7cc0",
+      "size": 98,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/63621e9c7f892f11de78960e0ae4b42256cd7cc0"
+    },
+    {
+      "path": "test/cover/cover0020.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a65c9b6ccd3beffe846c1bb2bc342282e0034b1",
+      "size": 1490,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/7a65c9b6ccd3beffe846c1bb2bc342282e0034b1"
+    },
+    {
+      "path": "test/cover/cover0021.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29b2b7451e67c9237fe8d973bb671e710b0c84d0",
+      "size": 165,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/29b2b7451e67c9237fe8d973bb671e710b0c84d0"
+    },
+    {
+      "path": "test/cover/cover0022.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fd4d203425c7e3c06036d4bb3e60034b97e0926",
+      "size": 482,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/6fd4d203425c7e3c06036d4bb3e60034b97e0926"
+    },
+    {
+      "path": "test/cover/cover0023.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0518630168831e20e1e138873150f6b04a1f39bc",
+      "size": 453,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0518630168831e20e1e138873150f6b04a1f39bc"
+    },
+    {
+      "path": "test/cover/cover0024.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b8af6b906f7378b7f75275d4e9f878ae088bd49",
+      "size": 227,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/1b8af6b906f7378b7f75275d4e9f878ae088bd49"
+    },
+    {
+      "path": "test/cover/cover0025.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c93aacdff169dcbc0dcf368b9c9fef51fadbc3eb",
+      "size": 508,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/c93aacdff169dcbc0dcf368b9c9fef51fadbc3eb"
+    },
+    {
+      "path": "test/cover/cover0026.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6f7ce7aba9ac5d028e7f7b8516631cbc022ac4c",
+      "size": 128,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/e6f7ce7aba9ac5d028e7f7b8516631cbc022ac4c"
+    },
+    {
+      "path": "test/cover/cover0027.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "825d266e0d4e4cc27d2f6f4c35e12c3b976330a5",
+      "size": 83,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/825d266e0d4e4cc27d2f6f4c35e12c3b976330a5"
+    },
+    {
+      "path": "test/cover/cover0028.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "187c5ed58db7a520dc691a19443f626b5ff64ba5",
+      "size": 146,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/187c5ed58db7a520dc691a19443f626b5ff64ba5"
+    },
+    {
+      "path": "test/cover/cover0029.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0b584415fa56140f4894eac0656e49b5eb78271",
+      "size": 96,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d0b584415fa56140f4894eac0656e49b5eb78271"
+    },
+    {
+      "path": "test/cover/cover0030.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "218c0d15dfa6588cd157a48d6cca0afb95aeb9a3",
+      "size": 124,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/218c0d15dfa6588cd157a48d6cca0afb95aeb9a3"
+    },
+    {
+      "path": "test/cover/cover0031.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "455f5d716308f557ed77f74c0100d7344ac62bfd",
+      "size": 68,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/455f5d716308f557ed77f74c0100d7344ac62bfd"
+    },
+    {
+      "path": "test/cover/cover0032.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "169e9833b10f100bc8ddb356daad131a913828bf",
+      "size": 132,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/169e9833b10f100bc8ddb356daad131a913828bf"
+    },
+    {
+      "path": "test/cover/cover0033.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d41d6b3d707f05f80d04df67b6f02ae095b6c9f",
+      "size": 68,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/3d41d6b3d707f05f80d04df67b6f02ae095b6c9f"
+    },
+    {
+      "path": "test/cover/cover0034.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b74c24258d4b410f930108b12d2501e88d9714ea",
+      "size": 80,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/b74c24258d4b410f930108b12d2501e88d9714ea"
+    },
+    {
+      "path": "test/cover/cover0035.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a67a6213bc0770877e1e641fad2d7e556d66cd1c",
+      "size": 357,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a67a6213bc0770877e1e641fad2d7e556d66cd1c"
+    },
+    {
+      "path": "test/cover/cover0036.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78b3973f8dd1c6e0f00cfb3755bc0728a4f88f47",
+      "size": 373,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/78b3973f8dd1c6e0f00cfb3755bc0728a4f88f47"
+    },
+    {
+      "path": "test/cover/cover0037.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb183bd9ebbb827d3c785d856fdee7320f8a2772",
+      "size": 72,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/cb183bd9ebbb827d3c785d856fdee7320f8a2772"
+    },
+    {
+      "path": "test/cover/cover0038.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f20d1cf10cd7207d321a0422fdb0c0bf12435361",
+      "size": 110,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/f20d1cf10cd7207d321a0422fdb0c0bf12435361"
+    },
+    {
+      "path": "test/cover/cover0039.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "028762cdc71f2ea1945399ca92aed0da6ed27c5f",
+      "size": 1099,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/028762cdc71f2ea1945399ca92aed0da6ed27c5f"
+    },
+    {
+      "path": "test/cover/cover0040.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2271fee320adff9bc1b25a3a40b192720c5d8f78",
+      "size": 280,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/2271fee320adff9bc1b25a3a40b192720c5d8f78"
+    },
+    {
+      "path": "test/cover/cover0041.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c72b8a7cb007f6ce62ff6f2c8f4b10f4eafd91e",
+      "size": 161,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/1c72b8a7cb007f6ce62ff6f2c8f4b10f4eafd91e"
+    },
+    {
+      "path": "test/cover/cover0042.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "721f4ee83899249ea4b8e7d2e8fb621ac748c83f",
+      "size": 354,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/721f4ee83899249ea4b8e7d2e8fb621ac748c83f"
+    },
+    {
+      "path": "test/cover/cover0043.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5edbb3bb7c3624402f0d29f4fe40dc5a02e7a9e",
+      "size": 434,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a5edbb3bb7c3624402f0d29f4fe40dc5a02e7a9e"
+    },
+    {
+      "path": "test/cover/cover0044.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1c938b71b2ff20b9e958760c7fc308498b6f2d2",
+      "size": 124,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/e1c938b71b2ff20b9e958760c7fc308498b6f2d2"
+    },
+    {
+      "path": "test/cover/cover0045.cnf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9fcd32584f26de249e0319a061bc2cb1315e498",
+      "size": 175,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/c9fcd32584f26de249e0319a061bc2cb1315e498"
+    },
+    {
+      "path": "test/file",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3728bbee0238979c011527fdfb7cd0ea14735cca",
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/trees/3728bbee0238979c011527fdfb7cd0ea14735cca"
+    },
+    {
+      "path": "test/file/0",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deab3c3add9f1ca5028199b2d545fc386417f7ef",
+      "size": 10,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/deab3c3add9f1ca5028199b2d545fc386417f7ef"
+    },
+    {
+      "path": "test/file/1.bz2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12b8306ab97fede71fdfb74b98a4fccdfc85ea18",
+      "size": 51,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/12b8306ab97fede71fdfb74b98a4fccdfc85ea18"
+    },
+    {
+      "path": "test/file/2.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06e7a0a2caec145951b35322b150d8f53b154f2a",
+      "size": 32,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/06e7a0a2caec145951b35322b150d8f53b154f2a"
+    },
+    {
+      "path": "test/file/3.lzma",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b509606fbe718499f07f41900c2e77ca80f45854",
+      "size": 34,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/b509606fbe718499f07f41900c2e77ca80f45854"
+    },
+    {
+      "path": "test/file/4.7z",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3805b5ebb73de60c130332cb333027df1c4f726d",
+      "size": 120,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/3805b5ebb73de60c130332cb333027df1c4f726d"
+    },
+    {
+      "path": "test/file/5.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94d4e5f29f10a18d5cfdc7cb9f9756f624fb5680",
+      "size": 68,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/94d4e5f29f10a18d5cfdc7cb9f9756f624fb5680"
+    },
+    {
+      "path": "test/file/uncompressed.7z",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deab3c3add9f1ca5028199b2d545fc386417f7ef",
+      "size": 10,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/deab3c3add9f1ca5028199b2d545fc386417f7ef"
+    },
+    {
+      "path": "test/file/uncompressed.bz2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deab3c3add9f1ca5028199b2d545fc386417f7ef",
+      "size": 10,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/deab3c3add9f1ca5028199b2d545fc386417f7ef"
+    },
+    {
+      "path": "test/file/uncompressed.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deab3c3add9f1ca5028199b2d545fc386417f7ef",
+      "size": 10,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/deab3c3add9f1ca5028199b2d545fc386417f7ef"
+    },
+    {
+      "path": "test/file/uncompressed.lzma",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deab3c3add9f1ca5028199b2d545fc386417f7ef",
+      "size": 10,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/deab3c3add9f1ca5028199b2d545fc386417f7ef"
+    },
+    {
+      "path": "test/file/uncompressed.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deab3c3add9f1ca5028199b2d545fc386417f7ef",
+      "size": 10,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/deab3c3add9f1ca5028199b2d545fc386417f7ef"
+    },
+    {
+      "path": "test/file/writable",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "test/makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb7ebc91063ce8793c481fe2039b9b2d476eafd1",
+      "size": 158,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/bb7ebc91063ce8793c481fe2039b9b2d476eafd1"
+    },
+    {
+      "path": "test/parse",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3f394cd5494625594fd1e981e7251d00ae11d9d7",
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/trees/3f394cd5494625594fd1e981e7251d00ae11d9d7"
+    },
+    {
+      "path": "test/parse/anainsteadoflit",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fbf8c1f4e56806d414779fcc3ae9228d8047d27",
+      "size": 16,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/2fbf8c1f4e56806d414779fcc3ae9228d8047d27"
+    },
+    {
+      "path": "test/parse/comments",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a82fde22f8696202c11ccdd24e673cd784148eeb",
+      "size": 125,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a82fde22f8696202c11ccdd24e673cd784148eeb"
+    },
+    {
+      "path": "test/parse/crnl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6e4d6ef982dee07ba5c204b9e550d24d0373782",
+      "size": 18,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d6e4d6ef982dee07ba5c204b9e550d24d0373782"
+    },
+    {
+      "path": "test/parse/crnlfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88e1cd7deecb35e832b9ace899ac1fd8f1f89406",
+      "size": 37,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/88e1cd7deecb35e832b9ace899ac1fd8f1f89406"
+    },
+    {
+      "path": "test/parse/embeddedcoverage",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dae6584ab3ad42083376dc05d4913b47bb0582f9",
+      "size": 130,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/dae6584ab3ad42083376dc05d4913b47bb0582f9"
+    },
+    {
+      "path": "test/parse/embeddedcrmissingnl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fa1fece5ab72e720f3edd456741b2ce954cdca1",
+      "size": 25,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/9fa1fece5ab72e720f3edd456741b2ce954cdca1"
+    },
+    {
+      "path": "test/parse/embeddednegative",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12ce89b2c6278f02040bf7fbc2173c0469c26539",
+      "size": 22,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/12ce89b2c6278f02040bf7fbc2173c0469c26539"
+    },
+    {
+      "path": "test/parse/embeddedoptiocrnl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dad24ea276a10e0000c4249d23973581f3f06700",
+      "size": 20,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/dad24ea276a10e0000c4249d23973581f3f06700"
+    },
+    {
+      "path": "test/parse/embeddedoptionametoolong",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4b9617e322c0bcc6edeb37cd09a0501d21c58e5",
+      "size": 88,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d4b9617e322c0bcc6edeb37cd09a0501d21c58e5"
+    },
+    {
+      "path": "test/parse/embeddedoptioneqmissing",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fd9bf3ca0535809ab3930ba8053285572cf575d",
+      "size": 19,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/7fd9bf3ca0535809ab3930ba8053285572cf575d"
+    },
+    {
+      "path": "test/parse/emptyfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "test/parse/emptyheadercrnl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "254a9a655baa51ee83f30b730822863218a7864d",
+      "size": 48,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/254a9a655baa51ee83f30b730822863218a7864d"
+    },
+    {
+      "path": "test/parse/emptyheaderline",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a5ad425e61a8bd0869244f99c4d81a250570b05",
+      "size": 97,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/4a5ad425e61a8bd0869244f99c4d81a250570b05"
+    },
+    {
+      "path": "test/parse/emptyline",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+    },
+    {
+      "path": "test/parse/eofafterlit",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1641235dadacdffa558adc7ccafeaed6b4c469d8",
+      "size": 15,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/1641235dadacdffa558adc7ccafeaed6b4c469d8"
+    },
+    {
+      "path": "test/parse/eofafterlitcomment",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ae9a7aa6e12d0d0b2b1d88f6b0abaabdf14b518",
+      "size": 18,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/1ae9a7aa6e12d0d0b2b1d88f6b0abaabdf14b518"
+    },
+    {
+      "path": "test/parse/eofafterzero",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d00b09778df39191c5b41b64d110bd6fed29fb4",
+      "size": 15,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/3d00b09778df39191c5b41b64d110bd6fed29fb4"
+    },
+    {
+      "path": "test/parse/eofbeforeheader",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f0c7c8b2ea2ed45b3c24e275cc7e8c4e5137a87",
+      "size": 20,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/2f0c7c8b2ea2ed45b3c24e275cc7e8c4e5137a87"
+    },
+    {
+      "path": "test/parse/eofbodycomment",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5f3a95a2287dc482d288a83ea0249d382ea1f3e",
+      "size": 15,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/e5f3a95a2287dc482d288a83ea0249d382ea1f3e"
+    },
+    {
+      "path": "test/parse/eofheadercomment",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9f6f1ddbe2519a118c01aaaffd1debd6881ef22",
+      "size": 31,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a9f6f1ddbe2519a118c01aaaffd1debd6881ef22"
+    },
+    {
+      "path": "test/parse/eofinclauses",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33838cadef53ece7d4eb4a6da06af06635b9a395",
+      "size": 9,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/33838cadef53ece7d4eb4a6da06af06635b9a395"
+    },
+    {
+      "path": "test/parse/eofincommmentafterliteral",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "936b0199c0144f52fc5abff396658f18d4793dcc",
+      "size": 30,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/936b0199c0144f52fc5abff396658f18d4793dcc"
+    },
+    {
+      "path": "test/parse/eofinheaderafterc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e27939072893bb2fed81c254d210a4a2765c9965",
+      "size": 2,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/e27939072893bb2fed81c254d210a4a2765c9965"
+    },
+    {
+      "path": "test/parse/eofinmaxvar",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfa652c287dbd6cfd6f6babbd82b18e8e22ccf29",
+      "size": 7,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/cfa652c287dbd6cfd6f6babbd82b18e8e22ccf29"
+    },
+    {
+      "path": "test/parse/headerspaces",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94e30913896fc25cae02f6716831b88a828fe509",
+      "size": 34,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/94e30913896fc25cae02f6716831b88a828fe509"
+    },
+    {
+      "path": "test/parse/invalidembeddedoption",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a07f2e3cc20ab607683a77504da88e6c0af89ab6",
+      "size": 21,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a07f2e3cc20ab607683a77504da88e6c0af89ab6"
+    },
+    {
+      "path": "test/parse/nlafterp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a9cc2b7fbfa834924f4c03780d767ccbecf0c9c",
+      "size": 2,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/1a9cc2b7fbfa834924f4c03780d767ccbecf0c9c"
+    },
+    {
+      "path": "test/parse/nlaftersign",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2206d0d146c5e43cb784fc6bb4ad0cb6d1c1aff6",
+      "size": 13,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/2206d0d146c5e43cb784fc6bb4ad0cb6d1c1aff6"
+    },
+    {
+      "path": "test/parse/nlaftervars",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9574d07fd91a88078504bb4990ab68ad6cd3b5b7",
+      "size": 8,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/9574d07fd91a88078504bb4990ab68ad6cd3b5b7"
+    },
+    {
+      "path": "test/parse/nocafterpspace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04d7630d66de64978de5407ee720eb0760340cef",
+      "size": 11,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/04d7630d66de64978de5407ee720eb0760340cef"
+    },
+    {
+      "path": "test/parse/nocnorp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78981922613b2afb6025042ff6bd878ac1994e85",
+      "size": 2,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/78981922613b2afb6025042ff6bd878ac1994e85"
+    },
+    {
+      "path": "test/parse/nodigitafterpcnfspace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4836bb22f383451fa31d8caea9898c6788344408",
+      "size": 16,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/4836bb22f383451fa31d8caea9898c6788344408"
+    },
+    {
+      "path": "test/parse/nodigitaftersign",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b24b582a9a5fe9069ea341fdbfdedfe995df8ab",
+      "size": 22,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/7b24b582a9a5fe9069ea341fdbfdedfe995df8ab"
+    },
+    {
+      "path": "test/parse/nodigitaftervarsnspace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06f454b9ecad9dd979bf2c1640ff13be54f18e01",
+      "size": 16,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/06f454b9ecad9dd979bf2c1640ff13be54f18e01"
+    },
+    {
+      "path": "test/parse/nofaftern",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dc38af07cb454e4b918e3521e754e61e8de7c6d",
+      "size": 12,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/4dc38af07cb454e4b918e3521e754e61e8de7c6d"
+    },
+    {
+      "path": "test/parse/nonafterc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38f9e36c162c68accc2bede1beb5ca2848169abf",
+      "size": 4,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/38f9e36c162c68accc2bede1beb5ca2848169abf"
+    },
+    {
+      "path": "test/parse/nonlaftercrafterheaderline",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca6be7ee60c5d209d04a8c2061ce20a536e78150",
+      "size": 15,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/ca6be7ee60c5d209d04a8c2061ce20a536e78150"
+    },
+    {
+      "path": "test/parse/nonlaftercrafterheadliner",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6089bf412832b776b6e677be540be4812663347a",
+      "size": 13,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/6089bf412832b776b6e677be540be4812663347a"
+    },
+    {
+      "path": "test/parse/nonlaftercrafterlit",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6845ea1e5a84495906bf3215b90fedb393f0a952",
+      "size": 13,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/6845ea1e5a84495906bf3215b90fedb393f0a952"
+    },
+    {
+      "path": "test/parse/nonlaftercrinbody",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8154ff8731a3a0b74b15b55c94374037b1aef4e9",
+      "size": 11,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/8154ff8731a3a0b74b15b55c94374037b1aef4e9"
+    },
+    {
+      "path": "test/parse/nonlafterheaderline",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a6cf10094d3cf2a6f9c73810d7e3202c65d21b2",
+      "size": 14,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/3a6cf10094d3cf2a6f9c73810d7e3202c65d21b2"
+    },
+    {
+      "path": "test/parse/nonlafterinvalidembeddedoption",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b064e7dbca8b13cabc7496dd7789d265a108d1e",
+      "size": 13,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0b064e7dbca8b13cabc7496dd7789d265a108d1e"
+    },
+    {
+      "path": "test/parse/nospaceafterf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fecaf27b01be237a9e347db284bd9be3e22e27be",
+      "size": 6,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/fecaf27b01be237a9e347db284bd9be3e22e27be"
+    },
+    {
+      "path": "test/parse/nospaceafterp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8a238fcb70180cba81a3a04696d56b25ba686d5",
+      "size": 3,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/f8a238fcb70180cba81a3a04696d56b25ba686d5"
+    },
+    {
+      "path": "test/parse/nospaceaftervars",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e84e1428758f0cf66b0d2c6952651c9595fe171e",
+      "size": 21,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/e84e1428758f0cf66b0d2c6952651c9595fe171e"
+    },
+    {
+      "path": "test/parse/notrailingzero",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e76970246d07477b8761136853494e36df245e2",
+      "size": 12,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/8e76970246d07477b8761136853494e36df245e2"
+    },
+    {
+      "path": "test/parse/nowsafterlit",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "927fa7c34580820a4c07fbe10dc9b7f25b76df53",
+      "size": 23,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/927fa7c34580820a4c07fbe10dc9b7f25b76df53"
+    },
+    {
+      "path": "test/parse/oneclausemissing",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "335e672176925cfbcd6e6caa34e8032ac3d7f2ff",
+      "size": 10,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/335e672176925cfbcd6e6caa34e8032ac3d7f2ff"
+    },
+    {
+      "path": "test/parse/onlycomments",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2486e52caac90db08fe5db7165f4af524ebf08c",
+      "size": 30,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d2486e52caac90db08fe5db7165f4af524ebf08c"
+    },
+    {
+      "path": "test/parse/onlycr",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67c3297611451bb352bbda488b0cd7cb2528a0d3",
+      "size": 1,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/67c3297611451bb352bbda488b0cd7cb2528a0d3"
+    },
+    {
+      "path": "test/parse/onlycraftervars",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12620ffd0a9b79e0653da3c885f4324e425684a3",
+      "size": 8,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/12620ffd0a9b79e0653da3c885f4324e425684a3"
+    },
+    {
+      "path": "test/parse/othercharafterheaderline",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86d8c4eeb2f253d2f586070f0ae520de56fdb3dc",
+      "size": 18,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/86d8c4eeb2f253d2f586070f0ae520de56fdb3dc"
+    },
+    {
+      "path": "test/parse/signedunit",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b72bcd78059fef29648763a10bedbda80f6a1c8",
+      "size": 15,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/6b72bcd78059fef29648763a10bedbda80f6a1c8"
+    },
+    {
+      "path": "test/parse/signeof",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05b1c7fcb1d12170bb96f74b9394566f0076f182",
+      "size": 11,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/05b1c7fcb1d12170bb96f74b9394566f0076f182"
+    },
+    {
+      "path": "test/parse/tabs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bbdd45a25302fe8d94134d59e96533451dfa415",
+      "size": 27,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/1bbdd45a25302fe8d94134d59e96533451dfa415"
+    },
+    {
+      "path": "test/parse/toolargeclauses1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea2270442597536839eef1f6c13fa5e1a8c3671b",
+      "size": 33,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/ea2270442597536839eef1f6c13fa5e1a8c3671b"
+    },
+    {
+      "path": "test/parse/toolargeclauses2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22e0daa74b3ed8988dd0e25968f22d35da3e1f1b",
+      "size": 33,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/22e0daa74b3ed8988dd0e25968f22d35da3e1f1b"
+    },
+    {
+      "path": "test/parse/toolargevars1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a266dca570137528949022b681e66dc40c85174",
+      "size": 19,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/6a266dca570137528949022b681e66dc40c85174"
+    },
+    {
+      "path": "test/parse/toolargevars2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "975299f8ddaa1e81ccb3b098c5a242c9bce42717",
+      "size": 19,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/975299f8ddaa1e81ccb3b098c5a242c9bce42717"
+    },
+    {
+      "path": "test/parse/toomanyclauses",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1025afda13ec76ca5b97ac94bbee85d2f5012d08",
+      "size": 14,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/1025afda13ec76ca5b97ac94bbee85d2f5012d08"
+    },
+    {
+      "path": "test/parse/twoclausesmissing",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7b073097c04a98850a81227ca83baeeca47376f",
+      "size": 10,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/c7b073097c04a98850a81227ca83baeeca47376f"
+    },
+    {
+      "path": "test/parse/varidxexceeded",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b95091a98a64a08afbb0df9fc4f927c5eb9f6c9",
+      "size": 16,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/1b95091a98a64a08afbb0df9fc4f927c5eb9f6c9"
+    },
+    {
+      "path": "test/parse/varidxtoolarge1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08ca4c3a0f2ffb4110eb20c628c5e7c594bd5162",
+      "size": 28,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/08ca4c3a0f2ffb4110eb20c628c5e7c594bd5162"
+    },
+    {
+      "path": "test/parse/varidxtoolarge2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a637730f7645da1bcbb47bd9e1f29d56fec5771a",
+      "size": 28,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a637730f7645da1bcbb47bd9e1f29d56fec5771a"
+    },
+    {
+      "path": "test/parse/zeroaftersign",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76b88c09e2b0cbcf367aab37a7b61a73859a9b7c",
+      "size": 13,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/76b88c09e2b0cbcf367aab37a7b61a73859a9b7c"
+    },
+    {
+      "path": "test/test.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "216618a17c650ce2cc7d7914ebf28eaf284494e2",
+      "size": 13651,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/216618a17c650ce2cc7d7914ebf28eaf284494e2"
+    },
+    {
+      "path": "test/test.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d470b0e8e8ed6404c95255151b6cf3e7e0f3585",
+      "size": 1927,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/5d470b0e8e8ed6404c95255151b6cf3e7e0f3585"
+    },
+    {
+      "path": "test/testadd.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02a83c6db886e50b3361102f5ceee65c88525f85",
+      "size": 1009,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/02a83c6db886e50b3361102f5ceee65c88525f85"
+    },
+    {
+      "path": "test/testallocate.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf6b3e901348aa73ebdf4f47c2f8b697118a7e42",
+      "size": 2934,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/cf6b3e901348aa73ebdf4f47c2f8b697118a7e42"
+    },
+    {
+      "path": "test/testapplication.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d80362b4009d7157323026cf1bfc7f93814ef84",
+      "size": 1678,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/7d80362b4009d7157323026cf1bfc7f93814ef84"
+    },
+    {
+      "path": "test/testapplication.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb7de570c3e911dd6b00970d8e32ae92a5973bfc",
+      "size": 466,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/bb7de570c3e911dd6b00970d8e32ae92a5973bfc"
+    },
+    {
+      "path": "test/testarena.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae547def7075fabad22cfa2612bbe641a3b12c3f",
+      "size": 4214,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/ae547def7075fabad22cfa2612bbe641a3b12c3f"
+    },
+    {
+      "path": "test/testarray.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c921d2ad9e8c01307510c57c49267c6195e8742a",
+      "size": 1454,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/c921d2ad9e8c01307510c57c49267c6195e8742a"
+    },
+    {
+      "path": "test/testbump.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d198d12c4a23d2dd227554c695ff494a358bb98f",
+      "size": 1583,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d198d12c4a23d2dd227554c695ff494a358bb98f"
+    },
+    {
+      "path": "test/testceil.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e30c69be74e71bcfe22f627854a9e69a5c246afe",
+      "size": 2647,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/e30c69be74e71bcfe22f627854a9e69a5c246afe"
+    },
+    {
+      "path": "test/testcnfs.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c95a57c095753524393aac030e60af18c2cbd63",
+      "size": 3432,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0c95a57c095753524393aac030e60af18c2cbd63"
+    },
+    {
+      "path": "test/testcollect.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99357ecbd2ee84644ca8728553309bc015d98846",
+      "size": 4462,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/99357ecbd2ee84644ca8728553309bc015d98846"
+    },
+    {
+      "path": "test/testconfig.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f90578e517d1d1f6a5347ee442d90d6749e3b7d6",
+      "size": 1233,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/f90578e517d1d1f6a5347ee442d90d6749e3b7d6"
+    },
+    {
+      "path": "test/testcoverage.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90d9ae72b7747b7f3396ff8c6e47f4653a9979bb",
+      "size": 2215,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/90d9ae72b7747b7f3396ff8c6e47f4653a9979bb"
+    },
+    {
+      "path": "test/testdivert.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ad5fafdb390dd39654a8b55e7d7f93ad382d426",
+      "size": 1784,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/6ad5fafdb390dd39654a8b55e7d7f93ad382d426"
+    },
+    {
+      "path": "test/testdivert.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a50573110ec63308b7fe08b207451bd62fed213",
+      "size": 256,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0a50573110ec63308b7fe08b207451bd62fed213"
+    },
+    {
+      "path": "test/testdump.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b62cd4cc2cd2229dd4be9c59dad6ef7eff13880e",
+      "size": 1011,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/b62cd4cc2cd2229dd4be9c59dad6ef7eff13880e"
+    },
+    {
+      "path": "test/testendianness.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5615c6243f856f99e2d3eb6d17d2e2007de0bddc",
+      "size": 1700,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/5615c6243f856f99e2d3eb6d17d2e2007de0bddc"
+    },
+    {
+      "path": "test/testerror.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adf4351e35a69fb4742e524df16657c42a07a4a8",
+      "size": 2178,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/adf4351e35a69fb4742e524df16657c42a07a4a8"
+    },
+    {
+      "path": "test/testfifo.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "688dde18007aedd40d8f49fe1c0dffce5dfaaa49",
+      "size": 1144,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/688dde18007aedd40d8f49fe1c0dffce5dfaaa49"
+    },
+    {
+      "path": "test/testfile.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd9fb9af97a678562c88b3b8482998b236ba2cfc",
+      "size": 8849,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/bd9fb9af97a678562c88b3b8482998b236ba2cfc"
+    },
+    {
+      "path": "test/testformat.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4b71dd893cd6e4b511e56db406c9d6f17bb43ef",
+      "size": 4217,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a4b71dd893cd6e4b511e56db406c9d6f17bb43ef"
+    },
+    {
+      "path": "test/testheap.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45a60c8289bfde5b3991885c353dc07bc587ce36",
+      "size": 3675,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/45a60c8289bfde5b3991885c353dc07bc587ce36"
+    },
+    {
+      "path": "test/testinit.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87c6b9d581ba5f5c999d9a827b01c41dc61b3101",
+      "size": 3337,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/87c6b9d581ba5f5c999d9a827b01c41dc61b3101"
+    },
+    {
+      "path": "test/testkitten.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b88497c17cbf5cbabe9fd50a31eff774c943732",
+      "size": 3678,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0b88497c17cbf5cbabe9fd50a31eff774c943732"
+    },
+    {
+      "path": "test/testmain.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc67af3413d2cef03c8fcb8f8fe67dbbad41aad7",
+      "size": 4511,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/bc67af3413d2cef03c8fcb8f8fe67dbbad41aad7"
+    },
+    {
+      "path": "test/testmessages.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d97a2e9697a808f9d6633b394ad599b41f10e067",
+      "size": 2623,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d97a2e9697a808f9d6633b394ad599b41f10e067"
+    },
+    {
+      "path": "test/testmessages.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "812cdc68b3fe7161c2ec245d44da086c427e984d",
+      "size": 495,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/812cdc68b3fe7161c2ec245d44da086c427e984d"
+    },
+    {
+      "path": "test/testoptions.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6e4f255a59c8d76c73398c369c76bc9e183c952",
+      "size": 5764,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/f6e4f255a59c8d76c73398c369c76bc9e183c952"
+    },
+    {
+      "path": "test/testparse.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b38332687ee7b2f2cc88db63a3d91ba59bb6906",
+      "size": 4577,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/2b38332687ee7b2f2cc88db63a3d91ba59bb6906"
+    },
+    {
+      "path": "test/testprove.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "561d2cad4da7f7613707570ba8ea4bd9c1d982d4",
+      "size": 4052,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/561d2cad4da7f7613707570ba8ea4bd9c1d982d4"
+    },
+    {
+      "path": "test/testqueue.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4594f236d52318504a63e5205426f9f66d31b31",
+      "size": 2401,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/e4594f236d52318504a63e5205426f9f66d31b31"
+    },
+    {
+      "path": "test/testrandom.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8e7f387a0feed54b466283698c73541b0a7d954",
+      "size": 3509,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a8e7f387a0feed54b466283698c73541b0a7d954"
+    },
+    {
+      "path": "test/testrank.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe34ced7bee3961ddda2351a93965f9e32a19547",
+      "size": 2733,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/fe34ced7bee3961ddda2351a93965f9e32a19547"
+    },
+    {
+      "path": "test/testreferences.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13c3357744c75425387f8d144ed9c534ee1f84c7",
+      "size": 5365,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/13c3357744c75425387f8d144ed9c534ee1f84c7"
+    },
+    {
+      "path": "test/testreluctant.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b44c79e18259cf659c94c0b5461b2a68f4f6a2a",
+      "size": 1079,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/1b44c79e18259cf659c94c0b5461b2a68f4f6a2a"
+    },
+    {
+      "path": "test/testscheduler.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d219ef017a3461e88436ed1f78825b94c0851813",
+      "size": 8866,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/d219ef017a3461e88436ed1f78825b94c0851813"
+    },
+    {
+      "path": "test/testscheduler.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0fc871c9e96b30d03642a930c64c0878105ef1e",
+      "size": 565,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/e0fc871c9e96b30d03642a930c64c0878105ef1e"
+    },
+    {
+      "path": "test/testsizes.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ad6ead2a43ef3c98c667b59da41506fcc2979c8",
+      "size": 575,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/9ad6ead2a43ef3c98c667b59da41506fcc2979c8"
+    },
+    {
+      "path": "test/testsolve.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f993ceebe62d463f087b2a6921aeae2a9e646ee7",
+      "size": 1521,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/f993ceebe62d463f087b2a6921aeae2a9e646ee7"
+    },
+    {
+      "path": "test/testsort.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb37f90fb016be40097ba0295d629fbfdfbaad47",
+      "size": 1950,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/bb37f90fb016be40097ba0295d629fbfdfbaad47"
+    },
+    {
+      "path": "test/teststack.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35fa9bd82a217c44a97d8453dfcf07b646974b44",
+      "size": 1698,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/35fa9bd82a217c44a97d8453dfcf07b646974b44"
+    },
+    {
+      "path": "test/testterminate.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c33f8235471606e50827ac047621ea6684f87db",
+      "size": 3346,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/0c33f8235471606e50827ac047621ea6684f87db"
+    },
+    {
+      "path": "test/testusage.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f5a251f38071854814b5b35035420478275a9d4",
+      "size": 3425,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/4f5a251f38071854814b5b35035420478275a9d4"
+    },
+    {
+      "path": "test/testutilities.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "581693311f36c0e01a1c00b93a06446622dbd067",
+      "size": 1112,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/581693311f36c0e01a1c00b93a06446622dbd067"
+    },
+    {
+      "path": "test/testvector.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2c6e9328c649ed20ab048122b5c60a8c3c3cb4f",
+      "size": 3524,
+      "url": "https://api.github.com/repos/arminbiere/kissat/git/blobs/a2c6e9328c649ed20ab048122b5c60a8c3c3cb4f"
+    }
+  ],
+  "truncated": false,
+  "commit": "8af8e56f174b778aef3aa45af9f739b2a5f492c2",
+  "response_sha256": "daf58a5f984467784993b0fb043372c40b7e6b10856ba0fcd353a00be031552d",
+  "snapshot_note": "Complete pinned GitHub tree response with its requested commit explicitly labelled for publication lint. response_sha256 identifies the original raw response."
+}

@@ -1,0 +1,118 @@
+{
+  "data/n13_11001011000110_c0.cnf": {
+    "sha256": "5081db668592748036daf5522791772972022bca35324dd41a304e418af05908",
+    "bytes": 227510445
+  },
+  "data/n13_11001011000110_c0_lex.cnf": {
+    "sha256": "6dfa65c62cdc04fef32a4d08209f5c87fc594e710bb066ba124f88d370846e86",
+    "bytes": 232767831
+  },
+  "certificates/n13_11001011000110_c0_lex.drat.xz": {
+    "sha256": "547d375af2065d39572307554b5463d871fab2c582ed150264800793d6505dac",
+    "bytes": 12887576
+  },
+  "data/n13_11001011000110_c1.cnf": {
+    "sha256": "9331d9995a42be5e281e267e4912159736e66934a8c2dae734a75975aade159d",
+    "bytes": 260096724
+  },
+  "data/n13_11001011000110_c1_lex.cnf": {
+    "sha256": "dcd199ef02063665c693662669db382875cb34d09fd783e8459fcce22c4782f0",
+    "bytes": 266296176
+  },
+  "certificates/n13_11001011000110_c1_lex.drat.xz": {
+    "sha256": "20790502a710a4105dd6cc0b0bd58a1c2fcea2e75d09bd79ca58f53776004719",
+    "bytes": 22163952
+  },
+  "data/n14_110010110001101_c0.cnf": {
+    "sha256": "8c9a5442a44a6b0a40e7cf0f0a2f2d921b8d63a514028e987ad8888128b3f553",
+    "bytes": 1095987968
+  },
+  "data/n14_110010110001101_c0_lex.cnf": {
+    "sha256": "e17cc779134fc56128b956a223695b28b8f20e1d43befa927c59dfc0bb8c4813",
+    "bytes": 1110354998
+  },
+  "certificates/n14_110010110001101_c0_lex_kissat.drat.xz": {
+    "sha256": "cf83c2ae9cc27d9e1f35c8fcda06942316845f571b02f0b01cee511f6a421e64",
+    "bytes": 68698972
+  },
+  "data/n14_110010110001101_c1.cnf": {
+    "sha256": "27ee9711805a5ffd5e8425875a823259418426253af036cfa8d07829078c0231",
+    "bytes": 923920874
+  },
+  "data/n14_110010110001101_c1_lex.cnf": {
+    "sha256": "4ef13fb01b49058199649ddc58887421f382c0108019078d6c3e3ce9c793cd99",
+    "bytes": 937785191
+  },
+  "certificates/n14_110010110001101_c1_lex_kissat_plain.drat.xz": {
+    "sha256": "9abcb772cf46e854888fbd2db7531170ea40285fda144183bd6d4bba8f907a84",
+    "bytes": 36520456
+  },
+  "data/n13_deleted.cnf": {
+    "sha256": "79d51383bc262a827185002ec550324c16d64e078a638d21304177f0cf7432e4",
+    "bytes": 232767817
+  },
+  "certificates/n13_corrupt.drat": {
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "bytes": 2
+  },
+  "logs/n13_deleted.solve": {
+    "sha256": "ebfe8ac14fbe909ba4c4cfae0a646b40251d3c9ca659306848b8aef3a0dcd50d",
+    "bytes": 751507
+  },
+  "data/n13_deletion_witness.json": {
+    "sha256": "9f04708ce3137036ed9376da9f1f8a636e1f84caa5ecbd519a9b13a485967ec8",
+    "bytes": 286
+  },
+  "data/n14_deleted.cnf": {
+    "sha256": "47c772242c69401b0142fb79c75d9ddf99674d3a33961e16d82fc021dd1d2949",
+    "bytes": 937785177
+  },
+  "certificates/n14_corrupt.drat": {
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "bytes": 2
+  },
+  "logs/n14_deleted.solve": {
+    "sha256": "e013179ff7714c8613dbbabdaab41f9f5ab1640dcca29c43f33daa18d6db284b",
+    "bytes": 1834983
+  },
+  "data/n14_deletion_witness.json": {
+    "sha256": "e144712833d256e93a720d4fd849737f8e13deb05a76c1cf2a6f82e1f95a69f6",
+    "bytes": 290
+  },
+  "certificates/n13_coloring.json": {
+    "sha256": "37d1752560c968b3e4df210c6eb2465989194c0386ac8d80d928a78db874510e",
+    "bytes": 57663
+  },
+  "certificates/n14_coloring.json": {
+    "sha256": "b2fc8bb8161d17f5d79cbe2ffbde3e97e961ced7384e1105d877e16291562934",
+    "bytes": 115013
+  },
+  "encode_family.py": {
+    "sha256": "4592864ec8a7c9ff14dc32b1041ec7bc451997f8da60f5b72a0f9b51d05e4e06",
+    "bytes": 1658
+  },
+  "encode_family_stream.py": {
+    "sha256": "36aaf831d2461dfbeed041f1ae8be52f05479c3ae80e85ac54bf82bc2c4fdd79",
+    "bytes": 1840
+  },
+  "add_lex.py": {
+    "sha256": "d24f3f386a095a5b1f4dca6a9f0bfa9f3d7ccb6446d59a28b99ae7ae19178276",
+    "bytes": 1272
+  },
+  "check_statement.py": {
+    "sha256": "a860e9f84ba4b00114585ff85dec97ad35765ff820f11a5f0bd8c2f9248cd666",
+    "bytes": 3766
+  },
+  "check_rank_screen.py": {
+    "sha256": "94c9abeeec7327379a7eb74cf96d5e35355520896f550dc7a319b85247db57a1",
+    "bytes": 1390
+  },
+  "check_coloring.py": {
+    "sha256": "4622a5bdb88a6bb5969edf3b4847026cbfcd18d2dd6f57763fd86350b6cfdc95",
+    "bytes": 1434
+  },
+  "check_control.py": {
+    "sha256": "f6d15eab428a2d0c2f235e6be8628425d53ea153450d9f24a1a223e2e0ab6e8e",
+    "bytes": 2707
+  }
+}

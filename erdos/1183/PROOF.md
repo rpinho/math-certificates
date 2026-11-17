@@ -1,6 +1,6 @@
 # Proof of the finite equalities
 
-Write M(χ) for the largest cardinality of a nonempty monochromatic family of subsets closed under binary union and intersection. Then f(n)=minχ M(χ). The minimum includes every colouring of all subsets. Rank colourings below are particular constructions giving upper bounds, not a restriction on that minimum. Families of more than eight members must also be excluded; the queries therefore ask for at least eight, not exactly eight.
+Write M(χ) for the largest cardinality of a nonempty monochromatic family of subsets closed under binary union and intersection. Then f(n)=minχ M(χ). The minimum includes every colouring of all subsets. Rank colourings below are particular constructions giving upper bounds, not a restriction on that minimum. The n=11 and n=12 queries ask for at least eight members; the n=13 and n=14 queries ask for at least nine. These thresholds exclude every larger closed family as well, without assuming that a larger lattice contains a sublattice of exactly the threshold size.
 
 ## Lower bounds
 
@@ -12,7 +12,7 @@ If a colouring had no monochromatic closed family of seven members, each twelve-
 
 The referee verifies the omega note's explicit construction for all balanced words: 924 possibilities, of which 874 admit a diamond on three consecutive occurrences of one colour with equally spaced ranks; ten explicit closed families cover the remaining 50. If a<b<c are such consecutive ranks and a+c=2b, let P_r={0,...,r−1}. Add P_a∪{b,...,c−1} to the six prefixes of that colour. It has rank b, forms a diamond with P_a,P_b,P_c, and is comparable with the remaining prefixes. This is a closed seven-member family. The residual families in the script are separately checked by set operations. The same script also checks the current BMB paper's eight product-of-chains gadgets against all 4096 rank words. Thus the lower bound is for arbitrary colourings, not only rank colourings. These are reproductions of published lower bounds.
 
-## Producer membership CNF, both dimensions
+## Producer membership CNF, n=11 and n=12
 
 The two retained copies of encode_family.py implement the same construction. Enumerate, in increasing mask order, all subsets S of the chosen colour, with Boolean variable y_S. A true variable means S belongs to the family. For each incomparable pair S,T impose
 
@@ -58,6 +58,45 @@ The DFS enumerates the offset |B| and builds every such weighted poset by adding
 
 The second referee's controls compare all rank words at n=4 with brute-force sublattice enumeration and scan dimensions through twelve. The scan is only over rank colourings; it is not an unrestricted lower-bound proof. The chain lower bound supplies the unrestricted n=12 conclusion.
 
+## The n=13 and n=14 membership queries
+
+The round-3 source is in [producer/n13n14](producer/n13n14). For each colour the increasing-mask member list is exactly the sets of that colour in the full colouring. The n=13 encoder is `encode_family.py`; the n=14 `encode_family_stream.py` emits the same clause scheme and order while streaming its output. `add_lex.py` adds the transposition comparisons. The separately written same-producer `check_statement.py` reconstructs every clause directly from frozenset operations without importing either encoder; it covers closure, the counter and the lex clauses. It is a separate implementation, not an independent referee.
+
+Put K=9. For each incomparable pair S,T of the chosen colour emit both closure clauses from the earlier section, deleting the positive literal if the operation has the other colour. Every selected pair must therefore have both results selected and in the colour class. Conversely any closed family satisfies these clauses. Comparable pairs already contain their union and intersection. Duplicate binary clauses are retained for exact regeneration.
+
+For each 1≤i≤N and 1≤j≤min(i,9), the counter node A(i,j) has the two backwards implications given above, with the j=1 clause only and missing predecessors omitted. Assert A(N,9). Induction on i shows that a true A(i,j) requires at least j selected members in that prefix. In the reverse direction set each node to the truth of its actual prefix count being at least j. This extends every selection of at least nine members to a satisfying counter assignment. Thus each base CNF is satisfiable **exactly when its colour class contains a union-and-intersection-closed family of at least nine sets**. No ambient endpoints are imposed.
+
+Both colours use all coordinate-transposition lex comparisons: 78 at n=13 and 91 at n=14. The recurrence and orbit-minimum proof in the n=12 section apply verbatim, since both new colourings depend only on set size. Any coordinate permutation preserves colour, cardinality and the two operations. The lexicographically least membership vector in a solution's entire permutation orbit satisfies every comparison; its prefix-count variables can be recomputed. Comparing only transpositions need not fully break symmetry; soundness only needs the orbit minimum to survive. Therefore the extended CNF is satisfiable exactly when such a closed family exists. This is the standard lex-leader technique of Crawford et al., credited in README.md.
+
+| n | Colour | Variables | Clauses | Matching retained proof |
+|---|---|---:|---:|---|
+| 13 | 0 | 113152 | 14751865 | [n=13 colour-zero asset](ASSETS.json) |
+| 13 | 1 | 128440 | 17916013 | [n=13 colour-one asset](ASSETS.json) |
+| 14 | 0 | 274105 | 69563843 | [n=14 colour-zero asset](ASSETS.json) |
+| 14 | 1 | 262399 | 61463499 | [n=14 colour-one plain asset](ASSETS.json) |
+
+All four original producer proofs passed default backward drat-trim; their original check logs and hash records are in `producer/n13n14`. The packaging reruns the n=13 colour-0 and smaller n=14 colour-0 proof from the compressed release streams against fresh byte-identical CNFs. Exact CNF commands and hashes are in REPRODUCE.md, N13N14_CNF_SHA256SUMS and ASSETS.json. Default n=14 solvers hit recorded resource limits in the producer job; the successful colour-0 proof uses kissat, and colour 1 uses kissat `--plain`. The unfinished non-plain colour-1 trace and zero-byte colour-0 CaDiCaL file are not certificates and are excluded.
+
+## Chain-exchange lemma and the new lower bounds
+
+Let n be odd and suppose every monochromatic closed family has at most (n+1)/2 members. Each maximal chain has n+1 sets. The sets of either colour on that chain form a closed subchain, so every maximal chain must have exactly (n+1)/2 of each colour. For two k-sets T,T′ with |T∩T′|=k−1, choose chains agreeing below T∩T′ and above T∪T′, and differing only in their rank-k member T or T′. The equal colour counts force χ(T)=χ(T′). Single-element exchanges connect the k-sets, so each rank is monochromatic. The endpoints have only one set each. Thus **an odd-n colouring attaining the chain bound depends only on set size**, and its rank word is balanced.
+
+For n=13, an upper bound seven would therefore require a balanced word of length fourteen. The referee's [balanced.py](referee/n13n14/src/balanced.py) enumerates all binomial(14,7)=3,432 such words and uses its exact poset search with threshold eight. Each rejection has an actual monochromatic family of at least eight masks, checked directly for union/intersection closure. The [per-word output](referee/n13n14/logs/n13_balanced_words.txt) and [summary](referee/n13n14/logs/n13_balanced_summary.log) record 3,432 rejected, zero remaining (3,318 in colour zero and 114 in colour one). Together with the lemma this proves f(13)≥8 for arbitrary colourings, independently of the published lower-bound proof. The producer's separately written rank-screen checker and its witness list reproduce the same known lower bound.
+
+This bound is already published: Bhattacharjee–Mandal–Bhattacharya Proposition `prop:flower` gives f(n)≥ceil((n+1+floor((n+1)/12))/2), which is eight at n=13. The omega institute note gives f(n)≥(n+3)/2 for odd n≥11. The pinned sources are linked in README.md; the referee's original report discusses both. The packet does not claim these lower bounds as new.
+
+At n=14 every maximal chain has fifteen sets, so at least eight share a colour. Any subchain is closed under union and intersection. This proves f(14)≥8 for every colouring.
+
+## The new referee's exact weighted-poset argument
+
+The byte-preserved [REFEREE.md](referee/n13n14/REFEREE.md) supplies a clean-room [encoder](referee/n13n14/src/enc.c), its own solver/proof checks and an independent upper-bound argument in [poset_search.py](referee/n13n14/src/poset_search.py). Its counter uses all nine thresholds even on short prefixes, with impossible nodes at the first prefix set false. Closure binaries are deduplicated when both results have the other colour. Hence its CNFs differ from the producer's. Its own large proofs were discarded after verification and are not the release assets; the original hashes and check logs are preserved.
+
+The weighted-poset reduction above is Birkhoff's representation theorem in this concrete setting. For a finite closed family L with minimum A and maximum B, each coordinate x∈B\A has a least member m(x) containing it. This member is join-irreducible: in a union decomposition one part contains x, so minimality forces that part to be m(x). Every join-irreducible arises this way: it is the union of the m(x) it contains, so join-irreducibility forces equality with one. Assign to each join-irreducible J the positive integer weight w(J)=#{x:m(x)=J}. Under the isomorphism with ideals D of the poset P of join-irreducibles, the corresponding set has rank |A|+sum(J∈D)w(J), and |A|+sum w≤n. Conversely use disjoint coordinate blocks with these weights and a common base of size |A| to realize every such weighted poset as a closed family in 2^[n].
+
+For a size-only colouring it therefore suffices to enumerate a base size a, a finite poset P and positive weights within n, requiring every ideal rank a+w(D) to have the chosen colour. The referee DFS builds P in a linear extension. When adding a maximal element its predecessor set is any ideal D0 of the old poset. Exactly the old ideals I containing D0 give new ideals I∪{new}; the old ideals remain. It tries all positive weights within the remaining coordinate budget and prunes if any new ideal has a forbidden rank. That pruning is permanent, since future additions retain all current ideals. Every weighted poset has such a linear extension and appears in this enumeration. Positive weights bound the depth by n−a, and each step strictly increases the ideal count, so the search terminates and is complete up to any requested threshold t.
+
+For t=9, the [original output](referee/n13n14/logs/poset_search.log) finds no family at either dimension, exhausting 204 nodes in colour zero for both words, 186 in n=13 colour one, and 403 in n=14 colour one. At t=8 it constructs and directly checks eight-member families in n=13 colour zero and both n=14 colours; n=13 colour one has none of eight. The upper bounds eight thus hold without SAT or lex symmetry. The referee's `validate_small.py` compares the search with brute-force enumeration of all sublattices for every rank word and both colours at n=3,4,5 (73, 731 and 12,084 sublattices); its original output records zero mismatches. This finite control does not formalize the representation or DFS proof.
+
 ## Scope
 
-Combining the lower and upper bounds gives f(11)=7 and f(12)=7. These are conventional computational candidate proofs supported by two supplied clean-room AI referee verdicts HOLDS. The mathematical encoding and symmetry arguments are not kernel formalizations, drat-trim is not a formally verified checker, and there has been no human review. Priority searches have the limits recorded in PRIOR_ART.md and the original referee reports.
+Combining the lower and upper bounds gives f(11)=7, f(12)=7, f(13)=8 and f(14)=8. These are conventional computational candidate proofs supported by the supplied clean-room AI agents’ referee verdicts HOLDS. The mathematical encoding and symmetry arguments are not kernel formalizations, drat-trim is not a formally verified checker, and there has been no human review. Priority searches have the limits recorded in PRIOR_ART.md and the original referee reports.

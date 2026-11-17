@@ -5,6 +5,24 @@
       "statement": "The DFS stops growing a branch once it has at least eight ideals; such a branch already disproves the desired upper bound.",
       "producer": "referee/n12/ref.py",
       "arithmetic": "exact"
+    },
+    {
+      "document": "PROOF.md",
+      "statement": "Thus each base CNF is satisfiable **exactly when its colour class contains a union-and-intersection-closed family of at least nine sets**.",
+      "producer": "producer/n13n14/check_statement.py",
+      "arithmetic": "exact"
+    },
+    {
+      "document": "PROOF.md",
+      "statement": "Every weighted poset has such a linear extension and appears in this enumeration.",
+      "producer": "referee/n13n14/src/poset_search.py",
+      "arithmetic": "exact"
+    },
+    {
+      "document": "PROOF.md",
+      "statement": "Together with the lemma this proves f(13)\u22658 for arbitrary colourings, independently of the published lower-bound proof.",
+      "producer": "referee/n13n14/src/balanced.py",
+      "arithmetic": "exact"
     }
   ],
   "scope": "Integer/set computations, exact Boolean clauses and conventional DRAT checks; unformalized mathematical translation, candidate, no human review."

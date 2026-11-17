@@ -1,23 +1,25 @@
 {
   "model": "clean-room referee AI agents; exact identifiers not retained",
-  "author": "two original independent clean-room referee sessions",
+  "author": "original clean-room referee sessions (three reports, four finite values)",
   "status": "PASS",
-  "value": "7",
   "arithmetic": "exact",
   "inputs": {
     "producer/n11/historical/REPORT.md": "30e4bd358840e1233042264f463f427ebef56a7e218a381a035ff89c4239b99c",
     "producer/n12/historical/REPORT.md": "a67ebfb40eaaac5baefd2374d37f335e8e6d45f266decd20ee20b9703c83b98b",
     "certificates/n11_coloring.json": "5d336808917c00b40f437300ac0ebd5aedb73c1133456a8a38d968102ec069eb",
     "certificates/n12_coloring.json": "b42dbee6c1b5c6ea6e4da85f9d78218a906d590853184a6895dd8be57c5a4168",
-    "referee/n11/certificates/1183_lower7_families.json": "0d43cae3dae79c4c783796466ed52f32395730002bcd7e6cd2ef9fe87bcec618"
+    "referee/n11/certificates/1183_lower7_families.json": "0d43cae3dae79c4c783796466ed52f32395730002bcd7e6cd2ef9fe87bcec618",
+    "certificates/n13_coloring.json": "37d1752560c968b3e4df210c6eb2465989194c0386ac8d80d928a78db874510e",
+    "certificates/n14_coloring.json": "b2fc8bb8161d17f5d79cbe2ffbde3e97e961ced7384e1105d877e16291562934",
+    "producer/n13n14/REPORT.md": "8456d1eb08f2c4cf3918f919d75d767790bbf93784d7cd32f76d89b8b3823624"
   },
-  "inputs_hash": "c8767c2e1f3e7389f07b6d612988c52620cf7a40a34833053b223db0afa751d1",
+  "inputs_hash": "078ab584526beadebb938ae5578e00282ddfcfcc3417331d1fc016a8e0f98eea",
   "read_producer_code": false,
   "ran_producer_code": false,
-  "checker": "referee/n12/ref.py",
-  "checker_sha256": "65bd234f7e9b479991cbb091959ce3f10d74176e0d49b797c0dd6d00b97a6784",
-  "report": "REPLAY_NOTES.md",
-  "report_sha256": "5461de42d371a2bbfd6378b2ce023f33ef05faab14d60f361b8680dadfc6d835",
+  "checker": "referee/n13n14/src/poset_search.py",
+  "checker_sha256": "82e2449b1b80a97da7562feff60ab869855eef01dbf696d5038a25c2b115b24a",
+  "report": "REPLAY_N13N14_NOTES.md",
+  "report_sha256": "6a94c36f6bf01a4f5d3d2851e83ab638e6455f1ebaf44a7627ebba26a480d4d1",
   "records": [
     {
       "n": 11,
@@ -44,7 +46,39 @@
       "read_producer_code": false,
       "ran_producer_code": false,
       "provenance": "Transcribed from the supplied clean-room referee report; packaging is not a new independent review."
+    },
+    {
+      "n": 13,
+      "value": 8,
+      "status": "HOLDS",
+      "report": "referee/n13n14/REFEREE.md",
+      "report_sha256": "e1c9824e79cbed916177bd9ce7926f53fe58b1ad077762477633d0bf45adf629",
+      "checker": "referee/n13n14/src/poset_search.py",
+      "checker_sha256": "82e2449b1b80a97da7562feff60ab869855eef01dbf696d5038a25c2b115b24a",
+      "prior_art": "referee/n13n14/PRIOR_ART.md",
+      "read_producer_code": false,
+      "ran_producer_code": false,
+      "provenance": "Transcribed from the supplied original clean-room referee report; packaging read producer code and is not an additional independent review.",
+      "lower_bound_checker": "referee/n13n14/src/balanced.py"
+    },
+    {
+      "n": 14,
+      "value": 8,
+      "status": "HOLDS",
+      "report": "referee/n13n14/REFEREE.md",
+      "report_sha256": "e1c9824e79cbed916177bd9ce7926f53fe58b1ad077762477633d0bf45adf629",
+      "checker": "referee/n13n14/src/poset_search.py",
+      "checker_sha256": "82e2449b1b80a97da7562feff60ab869855eef01dbf696d5038a25c2b115b24a",
+      "prior_art": "referee/n13n14/PRIOR_ART.md",
+      "read_producer_code": false,
+      "ran_producer_code": false,
+      "provenance": "Transcribed from the supplied original clean-room referee report; packaging read producer code and is not an additional independent review.",
+      "lower_bound_checker": "15-set maximal-chain argument in PROOF.md"
     }
   ],
-  "note": "The clean-room attestations describe the original referee sessions only. This metadata aggregates both supplied HOLDS reports; it is not a new model-identity or historical-isolation attestation. The original generic cmd_dfs function also rechecked both words during packaging; lower bounds follow PROOF.md and the archived reports."
+  "note": "The clean-room attestations describe the original referee sessions only. This metadata aggregates both supplied HOLDS reports; it is not a new model-identity or historical-isolation attestation. The original generic cmd_dfs function also rechecked both words during packaging; lower bounds follow PROOF.md and the archived reports. New records at n=13/n=14 use the original separate clean-room report and its exact weighted-poset code, not the n=12 checker named by the historical top-level record. All four finite values are candidate; no human review.",
+  "values": [
+    "7",
+    "8"
+  ]
 }

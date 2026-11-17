@@ -17,7 +17,14 @@ git clone https://github.com/marijnheule/drat-trim.git tools/drat-trim
 (cd tools/drat-trim && git checkout 2e3b2dc0ecf938addbd779d42877b6ed69d9a985 && nice -n 10 make -j1)
 ```
 
-The clone URLs identify upstreams; each checkout is explicitly pinned before building. Kissat was present in the original producer tool inventory but is unnecessary for these four proofs.
+The clone URLs identify upstreams; each checkout is explicitly pinned before building. Kissat is unnecessary for the original n=11/n=12 proofs. The n=14 producer proofs use the following pinned build:
+
+```sh
+git clone https://github.com/arminbiere/kissat.git tools/kissat
+(cd tools/kissat && git checkout 8af8e56f174b778aef3aa45af9f739b2a5f492c2 && nice -n 10 ./configure && nice -n 10 make -j4)
+```
+
+These pins also match the new referee’s tool inventory in referee/n13n14/tools/COMMITS.txt.
 
 ## Lightweight checks
 
@@ -98,3 +105,77 @@ Use sh or bash for the loop above; zsh has different unquoted variable splitting
 ## What was checked in packaging
 
 The top-level verification results summarize fresh checks. Original referee reports are historical independent reviews, not reviews commissioned by this packaging job. REPLAY.json records both reports and identifies the original generic exact DFS, which was also run on both supplied rank words during packaging. This rerun does not make the packaging session a clean-room referee: the packager read the producer code. No predictive metric was used; trivial/simple/SBS does not apply.
+
+## n=13 and n=14: exact producer CNFs and checks
+
+Run from the packet root, in a writable copy. The producer metadata and colourings are retained byte-for-byte in producer/n13n14; its checkers are separately written by the same producer, not a clean-room review. These commands use the supplied standard n=13 encoder and the supplied streaming n=14 encoder (the original list encoder exceeded the producer’s memory limit at n=14). Run one heavy process at a time.
+
+```sh
+(cd producer/n13n14 && nice -n 10 python3 -B check_coloring.py certificates/n13_coloring.json)
+(cd producer/n13n14 && nice -n 10 python3 -B check_coloring.py certificates/n14_coloring.json)
+(cd producer/n13n14 && nice -n 10 python3 -B check_rank_screen.py)
+nice -n 10 python3 -B referee/n13n14/src/check_coloring.py certificates/n13_coloring.json 3,7,31,255,511,767,1023,8191
+nice -n 10 python3 -B referee/n13n14/src/check_coloring.py certificates/n14_coloring.json 0,1,15,113,127,2047,4095,16383
+mkdir -p work
+for c in 0 1; do
+  nice -n 10 python3 producer/n13n14/encode_family.py 11001011000110 "$c" 9 "work/n13_11001011000110_c${c}.cnf"
+  nice -n 10 python3 producer/n13n14/add_lex.py "work/n13_11001011000110_c${c}.cnf" "work/n13_11001011000110_c${c}_lex.cnf"
+  nice -n 10 python3 producer/n13n14/encode_family_stream.py 110010110001101 "$c" 9 "work/n14_110010110001101_c${c}.cnf"
+  nice -n 10 python3 producer/n13n14/add_lex.py "work/n14_110010110001101_c${c}.cnf" "work/n14_110010110001101_c${c}_lex.cnf"
+done
+shasum -a 256 -c N13N14_CNF_SHA256SUMS
+```
+
+The eight CNF hashes (four base and four lex) must all match; SHA-256 of the final theorem queries also appears in ASSETS.json and VERIFY.md. Generated metadata JSON records the output/base path supplied, so its bytes can differ from the archived original metadata; the CNF bytes are path-independent. All eight CNFs were freshly regenerated in this packaging job and matched the supplied SHA-256 values. No large CNF is bundled in the packet.
+
+To independently reconstruct every clause using the separately written streaming producer checker:
+
+```sh
+for c in 0 1; do
+  nice -n 10 python3 producer/n13n14/check_statement.py "work/n13_11001011000110_c${c}_lex.cnf"
+  nice -n 10 python3 producer/n13n14/check_statement.py "work/n14_110010110001101_c${c}_lex.cnf"
+done
+```
+
+Require `EVERY CLAUSE REBUILT FROM STATEMENT`. The original outputs for all four queries are in producer/n13n14/logs; the packet also includes the older check_family.py and check_lex.py implementations, which can use substantially more memory. The streaming check_statement.py is the appropriate round-3 full checker.
+
+The four new release streams are listed in ASSETS.json. Use VERIFY.md to download, hash, decompress and check each proof with the matching CNF. To generate fresh proofs, expected solver exit 20 means UNSAT; the resulting proof still needs default backward drat-trim:
+
+```sh
+nice -n 10 tools/cadical/build/cadical -q work/n13_11001011000110_c0_lex.cnf work/new13_c0.drat
+nice -n 10 tools/cadical/build/cadical -q work/n13_11001011000110_c1_lex.cnf work/new13_c1.drat
+nice -n 10 tools/kissat/build/kissat -q work/n14_110010110001101_c0_lex.cnf work/new14_c0.drat
+nice -n 10 tools/kissat/build/kissat --plain -q work/n14_110010110001101_c1_lex.cnf work/new14_c1.drat
+```
+
+Fresh proof bytes need not match the archived proofs. The retained n=14 colour-1 proof is `_kissat_plain`; the unfinished non-plain colour-1 trace and the zero-byte colour-0 CaDiCaL proof are excluded. The resource stops that led the producer to streaming and these solver choices are recorded in its byte-preserved REPORT.md and CHECKS.md. A full regeneration/solve is more expensive than checking the supplied proof and is optional.
+
+## n=13 and n=14: independent referee
+
+The original report and scripts are in referee/n13n14. The scripts below write only fresh output under work and do not alter the archived output. Run the exact non-SAT searches at thresholds eight (witnesses) and nine (upper bounds), then check all balanced words for the n=13 lower bound:
+
+```sh
+for t in 8 9; do
+  nice -n 10 python3 -B referee/n13n14/src/poset_search.py 13 11001011000110 "$t"
+  nice -n 10 python3 -B referee/n13n14/src/poset_search.py 14 110010110001101 "$t"
+done
+nice -n 10 python3 -B referee/n13n14/src/balanced.py work/n13_balanced_words.txt
+cmp work/n13_balanced_words.txt referee/n13n14/logs/n13_balanced_words.txt
+nice -n 10 python3 -B referee/n13n14/src/validate_small.py
+```
+
+Threshold nine must return NONE for both colours of each word. Threshold eight constructs a family in n=13 colour zero and both n=14 colours; n=13 colour one returns NONE. The balanced check must print 3,432 rejected and zero not rejected; the small-dimension comparison must print zero mismatches. PROOF.md explains why these exact searches imply the unrestricted finite claims.
+
+Regenerate the referee's independent CNFs as follows. They differ from the producer CNFs and **cannot** be used with the producer release proofs. Their four original hashes appear in referee/n13n14/logs/n13_hashes.txt and n14_hashes.txt. The original referee proofs were discarded after checking, so only hashes and check logs are preserved. Fresh proofs are possible but were not regenerated by packaging.
+
+```sh
+nice -n 10 cc -O3 -o work/referee_enc referee/n13n14/src/enc.c
+for c in 0 1; do
+  nice -n 10 work/referee_enc 13 11001011000110 "$c" 9 1 0 "work/referee_n13_c${c}_k9_lex.cnf"
+  nice -n 10 work/referee_enc 14 110010110001101 "$c" 9 1 0 "work/referee_n14_c${c}_k9_lex.cnf"
+done
+```
+
+The referee used CaDiCaL for both n=13 colours and n=14 colour zero; default kissat for n=14 colour one after CaDiCaL exceeded its resource limit. The original command pattern is `nice -n 10 tools/cadical/build/cadical -q CNF PROOF`, or `nice -n 10 tools/kissat/build/kissat -q CNF PROOF`; then `nice -n 10 tools/drat-trim/drat-trim CNF PROOF -t 20000` must exit zero and print `s VERIFIED`. The report documents positive, deletion and corrupted-proof controls as historical referee evidence, and the no-symmetry SAT run that timed out. The weighted-poset argument does not need those SAT runs or symmetry clauses.
+
+The supplied directory has no standalone VERDICT_for_ledger.txt. The original report ends `VERDICT: HOLDS`; no replacement ledger file is fabricated. This packaging session read producer code and is not another clean-room referee.

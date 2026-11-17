@@ -3,7 +3,7 @@
   "new_bound": true,
   "producer_author": "original fixed-colouring producer AI sessions",
   "producer_model": "producer AI agents; exact model identifiers not retained",
-  "referee_model": "clean-room referee AI agents from a different model family per supplied job specification",
+  "referee_model": "clean-room AI referees per launcher records: n=11 GPT-6 Astra (same provider as the GPT-6.1 Sol producer), n=12 and n=13/n=14 Claude Opus 5.5 (different model family)",
   "submitter": "rpinho",
   "destination": "erdos/1183",
   "certificate_repository": "rpinho/math-certificates",
@@ -12,7 +12,10 @@
     "producer/n12/historical/REPORT.md": "proof",
     "certificates/n11_coloring.json": "certificate",
     "certificates/n12_coloring.json": "certificate",
-    "referee/n11/certificates/1183_lower7_families.json": "certificate"
+    "referee/n11/certificates/1183_lower7_families.json": "certificate",
+    "certificates/n13_coloring.json": "certificate",
+    "certificates/n14_coloring.json": "certificate",
+    "producer/n13n14/REPORT.md": "proof"
   },
   "publication_status": "Local sealed candidate packet. No upload, post, push or public release performed.",
   "linked_trees": {
@@ -21,7 +24,9 @@
     "the-omega-institute/trureturing@c0bb36be76f99139a5068f434597476d4682e29b": "sources/publish-trees/the-omega-institute__trureturing@c0bb36be76f99139a5068f434597476d4682e29b.json",
     "anaxia-research/Erdos-1183@59e72f9511286e9e981b86eb3f7f9bc15e8d59ef": "sources/publish-trees/anaxia-research__Erdos-1183@59e72f9511286e9e981b86eb3f7f9bc15e8d59ef.json",
     "ipezygj/erdos609-f4@58472a0a0b0cb45a7804b4668011359ccf732689": "sources/publish-trees/ipezygj__erdos609-f4@58472a0a0b0cb45a7804b4668011359ccf732689.json",
-    "arminbiere/cadical@c60730422e758ef1cebe7aeddf2dda31c996bf04": "sources/publish-trees/arminbiere__cadical@c60730422e758ef1cebe7aeddf2dda31c996bf04.json"
+    "arminbiere/cadical@c60730422e758ef1cebe7aeddf2dda31c996bf04": "sources/publish-trees/arminbiere__cadical@c60730422e758ef1cebe7aeddf2dda31c996bf04.json",
+    "arminbiere/kissat@8af8e56f174b778aef3aa45af9f739b2a5f492c2": "sources/n13n14/arminbiere__kissat@8af8e56f174b778aef3aa45af9f739b2a5f492c2.json",
+    "anaxia-research/Erdos-1183@2842ef3a58604a8f4b35271d5753c2bf9bdecd0b": "sources/n13n14/anaxia-research__Erdos-1183@2842ef3a58604a8f4b35271d5753c2bf9bdecd0b.json"
   },
-  "scope": "new_bound describes the supplied finite candidate results, not a discovery by the packaging session."
+  "scope": "new_bound describes the supplied finite candidate results seven at n=11/12 and eight at n=13/14, not a discovery by the packaging session. Large new proofs are local release assets awaiting publication."
 }

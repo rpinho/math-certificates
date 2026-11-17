@@ -1,0 +1,27 @@
+c turning on binary mode checking
+c parsing input formula with 113152 variables and 14751865 clauses
+c finished parsing, read 97861273 bytes from proof file
+c detected empty clause; start verification via backward checking
+c 291285 of 14751865 clauses in core                            
+c 13854 of 144328 lemmas in core using 38898146 resolution steps
+c 0 RAT lemmas in core; 2599 redundant literals in core lemmas
+s VERIFIED
+c verification time: 23.638 seconds
+       23.65 real        23.45 user         0.17 sys
+          1419968512  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               88720  page reclaims
+                   6  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                2052  involuntary context switches
+        474979670429  instructions retired
+        103459803276  cycles elapsed
+          1195509128  peak memory footprint

@@ -1,0 +1,19 @@
+{"result": "EVERY CLAUSE REBUILT FROM STATEMENT", "n": 14, "rank_word": "110010110001101", "color": 0, "target": 9, "variables": 274105, "clauses": 69563843, "closure_clauses": 68851692, "base_clauses": 68995730, "lex_clauses": 568113, "transpositions": 91, "soundness": "All coordinate permutations preserve rank colours, size, union and intersection. Choose a global lex-minimum member vector in a counterexample orbit. It satisfies each swap comparison; prefix-count auxiliaries can be recomputed. Equal pairs force equality prefixes until the first difference; 1>0 is forbidden, 0<1 permits subsequent prefixes false. Fixed positions and later endpoints do not affect the first differing position."}
+       49.88 real        49.34 user         0.32 sys
+            45613056  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                3285  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+               26991  involuntary context switches
+       1234242962574  instructions retired
+        208064077785  cycles elapsed
+            35947024  peak memory footprint

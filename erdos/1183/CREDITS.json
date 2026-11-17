@@ -2,7 +2,7 @@
   "credits": [],
   "contributors": [
     {
-      "name": "Erdős and Ulam",
+      "name": "Erd\u0151s and Ulam",
       "role": "original question"
     },
     {
@@ -28,6 +28,18 @@
     {
       "name": "AI agents",
       "role": "producer constructions, separate producer checkers, independent clean-room referees, and packaging"
+    },
+    {
+      "name": "Crawford, Ginsberg, Luks and Roy",
+      "role": "lex-leader symmetry-breaking method, KR 1996"
+    },
+    {
+      "name": "Garrett Birkhoff",
+      "role": "finite distributive-lattice representation used in weighted-poset searches"
+    },
+    {
+      "name": "A. Biere et al.",
+      "role": "kissat"
     }
   ],
   "note": "No credit to another PR is claimed. See CREDITS.md and pinned references in README.md."

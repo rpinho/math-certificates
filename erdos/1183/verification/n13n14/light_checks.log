@@ -1,0 +1,39 @@
+producer_n11
+VALID SEVEN-MEMBER LATTICE: masks 1,3,5,7,31,63,1023, all colour 0
+VALID COMPLETE COLOURING: all 2048 subsets; matches both no-eight-set lattice CNFs
+producer_n12
+VALID COMPLETE COLOURING: all 4096 subsets, matching both no-at-least-eight CNF memberships
+VALID SEVEN-MEMBER WITNESS: [0, 1, 15, 63, 127, 2047, 4095]
+VALID LOWER BOUND 7: every colouring of a 13-set maximal chain has a closed majority family of at least seven
+producer_n13
+{"result": "FULL COLOURING AND OPTIMAL WITNESS VALID", "n": 13, "rank_word": "11001011000110", "subsets": 8192, "chain_size": 7, "optimal_family_size": 8, "optimal_family": [3, 227, 1795, 2019, 4067, 6115, 8163, 8191], "colour_classes_match_theorem_queries": true}
+producer_n14
+{"result": "FULL COLOURING AND OPTIMAL WITNESS VALID", "n": 14, "rank_word": "110010110001101", "subsets": 16384, "chain_size": 8, "optimal_family_size": 8, "optimal_family": [0, 1, 15, 63, 127, 2047, 4095, 16383], "colour_classes_match_theorem_queries": true}
+producer_screen
+{"result": "ALL RANK WORDS REJECTED FOR UPPER SEVEN", "colour_swap_representatives": 8192, "balanced_representatives": 1716, "balanced_words": 3432, "total_words": 16384, "witness_check": "actual frozenset union/intersection for every pair", "unrestricted_lower_argument": "If no monochromatic sublattice has eight members, every maximal chain of 14 sets has seven of each colour. Adjacent maximal chains differing at one rank force their two rank-r sets to have equal colours. Single-element exchanges connect all rank-r sets. Thus the colouring depends only on rank, contradicting this exhaustive witness list."}
+referee_n13
+certificates/n13_coloring.json: sha256=37d1752560c968b3e4df210c6eb2465989194c0386ac8d80d928a78db874510e n=13 entries=8192 values=[0, 1] size-only=True derived_word=11001011000110 matches_claimed=True
+keys: ['colors', 'explicit_optimal_family', 'mask_convention', 'monochromatic_chain', 'n', 'rank_word']
+family [3, 7, 31, 255, 511, 767, 1023, 8191]: distinct=8 closed=True colours=[0] sizes=[2, 3, 5, 8, 9, 9, 10, 13]
+referee_n14
+certificates/n14_coloring.json: sha256=b2fc8bb8161d17f5d79cbe2ffbde3e97e961ced7384e1105d877e16291562934 n=14 entries=16384 values=[0, 1] size-only=True derived_word=110010110001101 matches_claimed=True
+keys: ['colors', 'explicit_optimal_family', 'mask_convention', 'monochromatic_chain', 'n', 'rank_word']
+family [0, 1, 15, 113, 127, 2047, 4095, 16383]: distinct=8 closed=True colours=[1] sizes=[0, 1, 4, 4, 7, 11, 12, 14]
+poset_n13_t8
+n=13 word=11001011000110 colour=0 t=8: FOUND 8 sets, independent closure check OK; masks=[3, 7, 31, 255, 511, 767, 1023, 8191]; sizes=[2, 3, 5, 8, 9, 9, 10, 13]; nodes=20
+n=13 word=11001011000110 colour=1 t=8: NONE (exhaustive, 186 DFS nodes)
+poset_n14_t8
+n=14 word=110010110001101 colour=0 t=8: FOUND 8 sets, independent closure check OK; masks=[3, 7, 31, 255, 511, 767, 1023, 8191]; sizes=[2, 3, 5, 8, 9, 9, 10, 13]; nodes=20
+n=14 word=110010110001101 colour=1 t=8: FOUND 8 sets, independent closure check OK; masks=[0, 1, 15, 113, 127, 2047, 4095, 16383]; sizes=[0, 1, 4, 4, 7, 11, 12, 14]; nodes=23
+poset_n13_t9
+n=13 word=11001011000110 colour=0 t=9: NONE (exhaustive, 204 DFS nodes)
+n=13 word=11001011000110 colour=1 t=9: NONE (exhaustive, 186 DFS nodes)
+poset_n14_t9
+n=14 word=110010110001101 colour=0 t=9: NONE (exhaustive, 204 DFS nodes)
+n=14 word=110010110001101 colour=1 t=9: NONE (exhaustive, 403 DFS nodes)
+balanced
+balanced words: 3432; rejected: 3432; not rejected: 0; by (colour,|P|): {('0', 3): 1101, ('0', 4): 1148, ('0', 5): 860, ('0', 6): 209, ('1', 3): 38, ('1', 4): 31, ('1', 5): 31, ('1', 6): 14}
+validate_small
+n=3: 73 sublattices, 16 words x 2 colours, mismatches=0
+n=4: 731 sublattices, 32 words x 2 colours, mismatches=0
+n=5: 12084 sublattices, 64 words x 2 colours, mismatches=0

@@ -1,0 +1,16 @@
+n=13 word=11001011000110 colour=0 t=8: FOUND 8 sets, independent closure check OK; masks=[3, 7, 31, 255, 511, 767, 1023, 8191]; sizes=[2, 3, 5, 8, 9, 9, 10, 13]; nodes=20
+n=13 word=11001011000110 colour=1 t=8: NONE (exhaustive, 186 DFS nodes)
+        0.02 real         0.01 user         0.00 sys
+            13352960  maximum resident set size
+n=14 word=110010110001101 colour=0 t=8: FOUND 8 sets, independent closure check OK; masks=[3, 7, 31, 255, 511, 767, 1023, 8191]; sizes=[2, 3, 5, 8, 9, 9, 10, 13]; nodes=20
+n=14 word=110010110001101 colour=1 t=8: FOUND 8 sets, independent closure check OK; masks=[0, 1, 15, 113, 127, 2047, 4095, 16383]; sizes=[0, 1, 4, 4, 7, 11, 12, 14]; nodes=23
+        0.02 real         0.01 user         0.00 sys
+            13271040  maximum resident set size
+n=13 word=11001011000110 colour=0 t=9: NONE (exhaustive, 204 DFS nodes)
+n=13 word=11001011000110 colour=1 t=9: NONE (exhaustive, 186 DFS nodes)
+        0.02 real         0.01 user         0.00 sys
+            13369344  maximum resident set size
+n=14 word=110010110001101 colour=0 t=9: NONE (exhaustive, 204 DFS nodes)
+n=14 word=110010110001101 colour=1 t=9: NONE (exhaustive, 403 DFS nodes)
+        0.02 real         0.02 user         0.00 sys
+            13434880  maximum resident set size

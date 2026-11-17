@@ -1,0 +1,14 @@
+{
+  "n": 13,
+  "target": 8,
+  "representatives": 8192,
+  "total_words": 16384,
+  "seeds": 19688,
+  "patterns": 8303,
+  "rejected_representatives": 8192,
+  "counts": {
+    "chain": 6476,
+    "checked seed + comparable prefixes": 1716
+  },
+  "remaining": []
+}

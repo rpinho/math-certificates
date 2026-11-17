@@ -235,7 +235,101 @@
       "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
       "bytes": 2,
       "role": "historical referee proof or rejection control; see original report"
+    },
+    {
+      "n": 13,
+      "colour": 0,
+      "origin": "producer",
+      "original_path": "n13_11001011000110_c0_lex.drat",
+      "sha256": "5c2aa6b9a1373055ca8bf6feb2b974d0da6944646eba2f140ab1b7bd1691d08f",
+      "bytes": 97861273,
+      "compressed_sha256": "547d375af2065d39572307554b5463d871fab2c582ed150264800793d6505dac",
+      "compressed_bytes": 12887576,
+      "release_asset": "n13_11001011000110_c0_lex.drat.xz",
+      "cnf": "n13_11001011000110_c0_lex.cnf",
+      "cnf_sha256": "6dfa65c62cdc04fef32a4d08209f5c87fc594e710bb066ba124f88d370846e86"
+    },
+    {
+      "n": 13,
+      "colour": 1,
+      "origin": "producer",
+      "original_path": "n13_11001011000110_c1_lex.drat",
+      "sha256": "e576ec4902f00921344f445fac63e9c89484f47f6ce04022e080bfea77a64a14",
+      "bytes": 201701771,
+      "compressed_sha256": "20790502a710a4105dd6cc0b0bd58a1c2fcea2e75d09bd79ca58f53776004719",
+      "compressed_bytes": 22163952,
+      "release_asset": "n13_11001011000110_c1_lex.drat.xz",
+      "cnf": "n13_11001011000110_c1_lex.cnf",
+      "cnf_sha256": "dcd199ef02063665c693662669db382875cb34d09fd783e8459fcce22c4782f0"
+    },
+    {
+      "n": 14,
+      "colour": 0,
+      "origin": "producer",
+      "original_path": "n14_110010110001101_c0_lex_kissat.drat",
+      "sha256": "cc3794efafe7eebb09aba3f705c2c3d88182ff4988eeaeb9eefabdf284c55286",
+      "bytes": 530031562,
+      "compressed_sha256": "cf83c2ae9cc27d9e1f35c8fcda06942316845f571b02f0b01cee511f6a421e64",
+      "compressed_bytes": 68698972,
+      "release_asset": "n14_110010110001101_c0_lex_kissat.drat.xz",
+      "cnf": "n14_110010110001101_c0_lex.cnf",
+      "cnf_sha256": "e17cc779134fc56128b956a223695b28b8f20e1d43befa927c59dfc0bb8c4813"
+    },
+    {
+      "n": 14,
+      "colour": 1,
+      "origin": "producer",
+      "original_path": "n14_110010110001101_c1_lex_kissat_plain.drat",
+      "sha256": "356842ddd0573ea909a280f54e24e2f33e72ab9a2e957e94d0e1a83fae47a8f8",
+      "bytes": 1406556327,
+      "compressed_sha256": "9abcb772cf46e854888fbd2db7531170ea40285fda144183bd6d4bba8f907a84",
+      "compressed_bytes": 36520456,
+      "release_asset": "n14_110010110001101_c1_lex_kissat_plain.drat.xz",
+      "cnf": "n14_110010110001101_c1_lex.cnf",
+      "cnf_sha256": "4ef13fb01b49058199649ddc58887421f382c0108019078d6c3e3ce9c793cd99"
+    },
+    {
+      "n": 13,
+      "colour": 0,
+      "origin": "referee",
+      "original_path": "data/n13_c0.drat",
+      "sha256": "457ea952645c894e686a69bec0f5f318ffd8ca40495fdea98825b994eb749d2c",
+      "cnf_sha256": "a916f0ac530f59ecd40ee490bdf6175140ca785e3d12c0b7c725ea73084fe048",
+      "in_packet": false,
+      "note": "Original referee proof discarded after checking; regenerate CNF with referee/n13n14/src/enc.c; original check log retained."
+    },
+    {
+      "n": 13,
+      "colour": 1,
+      "origin": "referee",
+      "original_path": "data/n13_c1.drat",
+      "sha256": "6a79853b982ef62d105529c2f033a11192da674fd6146dbe7176d735de2419fe",
+      "cnf_sha256": "5f80f8069d96d2f9c67ff294223b261c18b6c45d6ecf2f66cd9c53b9c372a61b",
+      "in_packet": false,
+      "note": "Original referee proof discarded after checking; regenerate CNF with referee/n13n14/src/enc.c; original check log retained."
+    },
+    {
+      "n": 14,
+      "colour": 0,
+      "origin": "referee",
+      "original_path": "data/n14_c0.drat",
+      "sha256": "7da8b7eb0b10ca56136d5f9f85de6477d7392f3e8179ebd21e192cbf2335ae40",
+      "cnf_sha256": "ef023db065da0b3c775dfad2427afdd16adf4ff1f33ca914d5ce389a70992811",
+      "in_packet": false,
+      "note": "Original referee proof discarded after checking; regenerate CNF with referee/n13n14/src/enc.c; original check log retained.",
+      "bytes": 437628780
+    },
+    {
+      "n": 14,
+      "colour": 1,
+      "origin": "referee",
+      "original_path": "data/n14_c1.drat",
+      "sha256": "d23150ca8f35dbfdf8067961a7a517046b5acc9f8555f0abce7546fff3cbef15",
+      "cnf_sha256": "9596129faa0b272f4419600ab57931674c4ce7df3fa0a7c1c61a04e1c475b342",
+      "in_packet": false,
+      "note": "Original referee proof discarded after checking; regenerate CNF with referee/n13n14/src/enc.c; original check log retained.",
+      "bytes": 543046390
     }
   ],
-  "note": "Rejection controls and SAT/unfinished traces are not UNSAT certificates. Only the four complete producer theorem proofs are release assets."
+  "note": "Rejection controls and SAT/unfinished traces are not UNSAT certificates. The eight complete producer theorem proofs have release asset identities; four old assets remain in the previous release and four new streams are prepared for a new release. The unfinished n14 colour-1 non-plain trace and empty colour-0 file are excluded."
 }
