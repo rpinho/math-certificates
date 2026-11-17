@@ -36,18 +36,20 @@
     {
       "value": "11",
       "kind": "rigorous",
-      "producer": "referee/n12/ref.py",
+      "producer": "referee/n15n20/src/wps.c",
       "arithmetic": "exact",
-      "new_bound": false,
-      "label": "first ground-set size"
+      "new_bound": true,
+      "label": "f(19)=11: trees plus chain-exchange and all balanced words; also unconditional lower bound at n=20",
+      "source": "referee/n15n20/REFEREE.md"
     },
     {
       "value": "12",
       "kind": "rigorous",
-      "producer": "referee/n12/ref.py",
+      "producer": "referee/n15n20/src/wps.c",
       "arithmetic": "exact",
-      "new_bound": false,
-      "label": "second ground-set size"
+      "new_bound": true,
+      "label": "f(20) upper bound twelve, equality given BMB lem:window20 via thm:f20; unconditional interval eleven to twelve",
+      "source": "referee/n15n20/REFEREE.md"
     },
     {
       "value": "13",
@@ -93,11 +95,11 @@
     {
       "value": "9",
       "kind": "rigorous",
-      "producer": "producer/n13n14/check_statement.py",
-      "source": "referee/n13n14/REFEREE.md",
+      "producer": "referee/n15n20/src/wps.c",
+      "source": "referee/n15n20/REFEREE.md",
       "arithmetic": "exact",
-      "new_bound": false,
-      "label": "New SAT query threshold: at least nine members, excluding every larger family too"
+      "new_bound": true,
+      "label": "f(15)=9 and f(16)=9: trees and chain-exchange/balanced or chain lower bound"
     },
     {
       "value": "14",
@@ -161,7 +163,104 @@
       "arithmetic": "exact",
       "new_bound": false,
       "label": "n=14 rank word as a bit string"
+    },
+    {
+      "value": "10",
+      "kind": "rigorous",
+      "producer": "referee/n15n20/src/wps.c",
+      "source": "referee/n15n20/REFEREE.md",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "f(17)=10 and f(18)=10: trees and chain-exchange/balanced or chain lower bound"
+    },
+    {
+      "value": "16",
+      "kind": "rigorous",
+      "producer": "referee/n15n20/src/wps.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "dimension or maximal-chain length in the n=15..20 extension"
+    },
+    {
+      "value": "17",
+      "kind": "rigorous",
+      "producer": "referee/n15n20/src/wps.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "dimension or maximal-chain length in the n=15..20 extension"
+    },
+    {
+      "value": "18",
+      "kind": "rigorous",
+      "producer": "referee/n15n20/src/wps.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "dimension or maximal-chain length in the n=15..20 extension"
+    },
+    {
+      "value": "19",
+      "kind": "rigorous",
+      "producer": "referee/n15n20/src/wps.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "dimension or maximal-chain length in the n=15..20 extension"
+    },
+    {
+      "value": "20",
+      "kind": "rigorous",
+      "producer": "referee/n15n20/src/wps.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "dimension or maximal-chain length in the n=15..20 extension"
+    },
+    {
+      "value": "1100101100011010",
+      "kind": "rigorous",
+      "producer": "producer/n15n20/src/check.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "n=15 rank word, from rank zero"
+    },
+    {
+      "value": "00100111010011001",
+      "kind": "rigorous",
+      "producer": "producer/n15n20/src/check.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "n=16 rank word, from rank zero"
+    },
+    {
+      "value": "110010110001101001",
+      "kind": "rigorous",
+      "producer": "producer/n15n20/src/check.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "n=17 rank word, from rank zero"
+    },
+    {
+      "value": "0010110011101001100",
+      "kind": "rigorous",
+      "producer": "producer/n15n20/src/check.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "n=18 rank word, from rank zero"
+    },
+    {
+      "value": "00110010111000101101",
+      "kind": "rigorous",
+      "producer": "producer/n15n20/src/check.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "n=19 rank word, from rank zero"
+    },
+    {
+      "value": "110010110001101100110",
+      "kind": "rigorous",
+      "producer": "producer/n15n20/src/check.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "n=20 rank word, from rank zero"
     }
   ],
-  "scope": "Finite equalities seven at n=11/n=12 and eight at n=13/n=14. Other entries describe construction parameters or exact enumeration, not additional new results. This packaging job originates no new value."
+  "scope": "Supplied finite candidates through n=20; twelve is an upper bound and equality is explicitly conditional on BMB window20. No new discovery by packaging."
 }

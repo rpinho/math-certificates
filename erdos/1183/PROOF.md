@@ -6,7 +6,7 @@ Write M(χ) for the largest cardinality of a nonempty monochromatic family of su
 
 At n=12, restrict any colouring to the thirteen prefixes ∅,{1},...,{1,...,12}. At least seven have one colour. Their union and intersection are their maximum and minimum in the chain, and thus still belong to that colour's selected subchain. This proves f(12)≥7 without prescribing ambient endpoints.
 
-At n=11 the published Bhattacharjee–Mandal–Bhattacharya bound gives f(11)≥7. The first referee independently reproduced the needed finite argument in [published_lower.py](referee/n11/published_lower.py) and explains the arbitrary-colouring reduction in section (c) of [REFEREE.md](referee/n11/REFEREE.md). Here are its steps.
+At n=11 the published Bhattacharjee–Mandal–Bhattacharya bound gives f(11)≥7. The first referee also reproduced the needed finite argument in [published_lower.py](referee/n11/published_lower.py) and explains the arbitrary-colouring reduction in section (c) of [REFEREE.md](referee/n11/REFEREE.md). Here are its steps.
 
 If a colouring had no monochromatic closed family of seven members, each twelve-member maximal chain would have six members of each colour. Two chains can differ only in one r-subset, obtained by exchanging one element. Their colour counts force those two r-subsets to have the same colour. The exchange graph on each rank is connected, so every rank is monochromatic. It suffices to rule out balanced twelve-bit rank words.
 
@@ -42,11 +42,11 @@ The membership bit vector is ordered by increasing mask, with false before true.
 
 While prefixes agree, equal bits force p_i=true and the difference 1>0 is forbidden. At the first difference 0<1, remaining prefix variables can be false. Thus the clauses admit an extension exactly for a lexicographically nonlarger vector.
 
-If a counterexample family exists, choose the lexicographically least membership vector in its finite coordinate-permutation orbit. It satisfies every transposition comparison. Extend its counter variables by actual prefix counts. This proves that the augmented CNF is satisfiable if and only if a counterexample family exists, although individual labelled counterexamples may be removed by symmetry. check_lex.py independently reconstructs the comparisons and checks that the base clauses are preserved.
+If a counterexample family exists, choose the lexicographically least membership vector in its finite coordinate-permutation orbit. It satisfies every transposition comparison. Extend its counter variables by actual prefix counts. This proves that the augmented CNF is satisfiable if and only if a counterexample family exists, although individual labelled counterexamples may be removed by symmetry. check_lex.py separately reconstructs the comparisons and checks that the base clauses are preserved.
 
 The n=11 queries and the n=12 colour-one query need no such symmetry argument. DRAT checking of the four retained producer proofs establishes UNSAT of their exact CNFs, hence both upper bounds. ASSETS.json binds the exact CNF and proof hashes. The unfinished n=12 base colour-zero proof is excluded.
 
-## Independent referee encodings and non-SAT argument
+## Clean-room referee encodings and non-SAT argument
 
 The first referee's encode.py uses an exact prefix-count equivalence, with all implications, rather than the producer's one-direction counter. The second referee's ref.py uses a truncated tree totalizer: a node output o_j means count at least j. For child outputs a,b it adds ¬o_(i+j+1)∨a_(i+1)∨b_(j+1), omitting nonexistent child outputs, and asserts root o_8. If the child counts are u,v and a true output had index greater than u+v, the clause for i=u,j=v would fail. Induction proves soundness. Assigning every output its actual subtree threshold count proves completeness. Closure clauses have the same direct set interpretation as above. The referee's plain queries cover both colours without any symmetry clauses. Its interval queries additionally fix least and greatest family members and use the rank-invariant coordinate permutation described in its report. Original referee proof hashes remain historical records; release assets are the producer proofs, not those deleted referee proofs.
 
@@ -89,7 +89,7 @@ At n=14 every maximal chain has fifteen sets, so at least eight share a colour. 
 
 ## The new referee's exact weighted-poset argument
 
-The byte-preserved [REFEREE.md](referee/n13n14/REFEREE.md) supplies a clean-room [encoder](referee/n13n14/src/enc.c), its own solver/proof checks and an independent upper-bound argument in [poset_search.py](referee/n13n14/src/poset_search.py). Its counter uses all nine thresholds even on short prefixes, with impossible nodes at the first prefix set false. Closure binaries are deduplicated when both results have the other colour. Hence its CNFs differ from the producer's. Its own large proofs were discarded after verification and are not the release assets; the original hashes and check logs are preserved.
+The byte-preserved [REFEREE.md](referee/n13n14/REFEREE.md) supplies a clean-room [encoder](referee/n13n14/src/enc.c), its own solver/proof checks and a separate upper-bound argument in [poset_search.py](referee/n13n14/src/poset_search.py). Its counter uses all nine thresholds even on short prefixes, with impossible nodes at the first prefix set false. Closure binaries are deduplicated when both results have the other colour. Hence its CNFs differ from the producer's. Its own large proofs were discarded after verification and are not the release assets; the original hashes and check logs are preserved.
 
 The weighted-poset reduction above is Birkhoff's representation theorem in this concrete setting. For a finite closed family L with minimum A and maximum B, each coordinate x∈B\A has a least member m(x) containing it. This member is join-irreducible: in a union decomposition one part contains x, so minimality forces that part to be m(x). Every join-irreducible arises this way: it is the union of the m(x) it contains, so join-irreducibility forces equality with one. Assign to each join-irreducible J the positive integer weight w(J)=#{x:m(x)=J}. Under the isomorphism with ideals D of the poset P of join-irreducibles, the corresponding set has rank |A|+sum(J∈D)w(J), and |A|+sum w≤n. Conversely use disjoint coordinate blocks with these weights and a common base of size |A| to realize every such weighted poset as a closed family in 2^[n].
 
@@ -100,3 +100,84 @@ For t=9, the [original output](referee/n13n14/logs/poset_search.log) finds no fa
 ## Scope
 
 Combining the lower and upper bounds gives f(11)=7, f(12)=7, f(13)=8 and f(14)=8. These are conventional computational candidate proofs supported by the supplied clean-room AI agents’ referee verdicts HOLDS. The mathematical encoding and symmetry arguments are not kernel formalizations, drat-trim is not a formally verified checker, and there has been no human review. Priority searches have the limits recorded in PRIOR_ART.md and the original referee reports.
+
+## Extension: weighted-poset certificates for n=15..20
+
+The following reduction, completeness, symmetry/prune proofs and chain-exchange lemma are from the producer’s PROOF.md. In this extension, search code is `producer/n15n20/src/poset.cpp`, tree and witness checks are `producer/n15n20/src/check.py`, and proof data are `producer/n15n20/certificates/`. The clean-room referee’s separate implementation is `referee/n15n20/src/wps.c`; its original report is `referee/n15n20/REFEREE.md`. The original producer document is retained alongside its code; historical statements that the external computation was not rerun refer to the producer session.
+
+We study the Erdős–Ulam function. The problem page says “a monochromatic family of at least f(n) sets which is closed under taking unions and intersections”. BMB call a family a “sublattice if it is closed under both union and intersection”. Here families are nonempty; neither ∅ nor [n] is required. Equivalently f(n)=min over all two-colourings of the largest such family. A rank word W of length n+1 assigns W[|S|] to S.
+
+## 1. Reduction in both directions
+
+Let L be any nonempty finite sublattice of 2^[n]. Its bottom A=∩L and top B=∪L belong to L by finite binary closure. For x∈B\A put m(x)=∩{S∈L:x∈S}. This is a nonempty intersection, belongs to L, contains x, and is not A. If m(x)=U∪V with U,V∈L, then x belongs to one of U,V, say U; minimality gives m(x)⊆U, so U=m(x). Thus m(x) is join-irreducible.
+
+Conversely every join-irreducible J equals some m(x). Indeed J=A∪⋃_{x∈J\A}m(x), since each m(x)⊆J contains x. The index set is nonempty because J≠A. Finite join-irreducibility implies one of those m(x) equals J. This proves the positivity assertion needed below (review lemma 1c).
+
+Let P be the join-irreducibles ordered by inclusion. Since L is distributive, Birkhoff's representation theorem identifies L with the down-sets D of P, by S↦{J:J⊆S}. In concrete coordinates S=A∪{x∈B\A:m(x)⊆S}. Define a=|A| and w(J)=#{x∈B\A:m(x)=J}. Every w(J) is a positive integer and a+Σw=|B|≤n. The size of the member associated with D is a+Σ_{J∈D}w(J).
+
+Conversely, take a≥0, a finite poset P, and positive integer weights with a+Σw≤n. Choose disjoint coordinate blocks A, X_J of sizes a, w(J). To every down-set D associate A∪⋃_{J∈D}X_J. Nonempty blocks make this map injective. Disjointness makes it preserve union and intersection. Thus it realises the down-set lattice as a nonempty sublattice of the cube with exactly the stated sizes. P=∅ gives the singleton family {A}.
+
+Therefore a colour class R contains a closed family of **at least m** members if and only if there is such a weighted poset with at least m down-sets and all its down-set sizes in R. “Exactly m” is not interchangeable: the Boolean cube on three coordinates has no seven-member sublattice.
+
+## 2. Exhaustive search
+
+A state contains a and a naturally labelled weighted poset: element i is added after all its strict predecessors. Its strict predecessor mask I must be a down-set of the existing poset. Every such I is permitted. When a new element of weight w is added, old down-sets persist; new down-sets are D∪{new} for exactly the old down-sets D containing I. Their sizes are a+w(D)+w. Branch over every w=1,…,n−a−Σw. Reject a branch if any new size has the wrong colour. Accept a witness when the number of down-sets is at least the threshold, including jumps past it. We count down-sets, not distinct sizes.
+
+Completeness has four parts:
+
+1. Every finite poset has a linear extension, hence a natural labelling generated by this scheme.
+2. Each prefix in that extension is a down-set of the final poset. Every down-set of a prefix is also a down-set of the final poset. All its sizes must therefore be allowed; pruning an invalid size cannot remove a valid final witness.
+3. At every state the scheme considers every down-set I and every positive weight within the full remaining coordinate budget, for every start a∈R. These include the predecessor masks and weights of every possible next element in the linear extension.
+4. The positive weights bound the depth by n−a. Finite branching and finite depth prove termination. A target witness has a first prefix with at least the target number of down-sets, and is found there.
+
+No poset isomorphism pruning or sum-only memoisation is assumed. Caching identical (n,R,threshold) decision problems is allowed because they are literally the same problem. A no-tree has at least 2^|R|−1 valid nodes: each nonempty subset of R supplies the distinct chain state with a its least rank and successive weights the rank differences (unless R empty, when zero nodes are required).
+
+## 3. Certificates
+
+A no-certificate binds n, the full word, colour, and threshold. It lists every root a∈R and a preorder traversal of the search tree. Each node lists all (I,w) branches. An invalid branch records a down-set D containing I for which a+w(D)+w∉R. Each valid branch has its complete child subtree. Exhaustion at the coordinate budget is a valid leaf. The separately written checker reconstructs the poset from the path, enumerates its down-sets from the predecessor relation, verifies all branch labels and invalidity witnesses, rejects nodes at or above the threshold, checks all roots and end of file. Thus deletion of a subtree or alteration of a label cannot be accepted. The expected word is an external checker argument, so a changed word in the header is rejected as well.
+
+Positive certificates are actual distinct coordinate masks, all within [n], all of the stated colour, with at least the threshold members. Checking every pair's bitwise union and intersection directly proves the claim, without trusting the weighted-poset search or reduction for positive witnesses.
+
+## 4. Word symmetries and pruning
+
+Colour swap only exchanges the two maxima. Set complementation is a bijection on 2^[n], exchanges unions with intersections, and sends rank k to n−k. It therefore proves reversal symmetry. A canonical word is the least of W, complement(W), reverse(W), complement(reverse(W)); one may keep one representative and transport witnesses by complementation and/or relabelling colours. The witness transformation for reversal is S↦((1<<n)−1) xor S.
+
+A colour appearing in r ranks contains an r-member chain, using the prefix sets [k] at those ranks. Therefore a word with a class larger than T is rejected with that chain as an explicit witness.
+
+Factor monotonicity: if V=W[s:s+l], a family in 2^[l−1] with rank word V embeds via S↦[s]∪{s+i:i∈S}, using fresh coordinates after the first s. This preserves both operations and increases every rank by s. Its family size is unchanged. In weighted-poset terms replace a by a+s. Therefore a witnessed failure of a prefix or any contiguous factor is a witnessed failure of every extension. Prefix branch-and-bound is permitted only on such explicit failures. Class-size prefix pruning is the same argument using a chain witness. Symmetry elimination must still cover every full word by its orbit; symmetry is not used to remove arbitrary intermediate prefixes.
+
+A screening catalogue may reuse an explicit family whenever its member-rank set is a subset of the current allowed rank set, on the same n coordinates. Its operations and cardinality are unchanged, so direct closure and membership checking certify every such rejection. This does not infer a no-result or remove any unexamined search branch.
+
+## 5. Chain-exchange lemma and odd lower bounds
+
+Let n be odd and m=(n+1)/2. Suppose a colouring has no monochromatic closed family larger than m. Any maximal chain has 2m members. Each colour's subchain is closed, so each colour occurs exactly m times in every maximal chain.
+
+For k-sets S,T differing by one exchanged element, extend S∩T⊂S⊂S∪T and S∩T⊂T⊂S∪T to maximal chains identical at all ranks except k. Equality of colour counts forces χ(S)=χ(T). Any two k-sets can be joined by repeatedly replacing an element of S\T by one of T\S, reducing |S\T| each time. Thus all k-sets have one colour, for every k. The colouring is size-only, and its rank word is balanced.
+
+Consequently, if every balanced rank word of length n+1 has an explicitly checked monochromatic closed family of at least m+1=(n+3)/2, the assumption is impossible and f(n)≥m+1. This proves only that lower bound; it cannot upgrade it when the rank minimum is larger, because the rigidity hypothesis was ≤m.
+
+## Credits and scope
+
+Erdős and Ulam posed the problem. The published lower bounds belong to Bhattacharjee–Mandal–Bhattacharya; the omega-institute note gives the general odd lower bound with the same rank-rigidity route. Birkhoff's representation theorem supplies the reduction. The n=13/14 referee job identified this weighted-poset search; the pre-launch review supplied the missing positivity argument, the four-part completeness argument, and certificate requirements. This job's implementations and the referee's are separately written within the same lane, not an additional clean-room review. All conclusions remain candidate and unrefereed.
+
+## 6. Published-source lower bounds and dependency review
+
+Source distinction: arXiv:2610.02833v1 (2 October 2026) contains the chain lower bound and asks whether its ceiling is always sharp. The public GitHub manuscript at commit 2842ef3a (14 October 2026), fetched in this job, is substantially revised: `prop:flower` and `thm:f20` are in that manuscript, not the arXiv v1 text. We cite the actual revised source, not the older arXiv version for these improvements. No journal refereeing was established.
+
+The dependency chain for `prop:flower` was read lemma by lemma:
+
+- L1–L3: chains are closed, separated sublattices can be concatenated because cross-pairs are comparable, and products on disjoint blocks preserve both operations and multiply cardinalities.
+- `lem:adjacent`: connect equal-size sets by exchanges and choose oppositely coloured adjacent sets S,T. Outside their shared missing rank a common chain has m members; adding S to its red part and T to its blue part gives m+2. The two colour families need not be closed jointly: each is separately a subchain, which is sufficient.
+- `lem:gadgets`: each of the eight displayed products of weighted chains has all ranks of one colour and strictly more members than that colour's occurrence count in the block. Their rank multisets and counts are direct sums/products; disjoint blocks establish closure. We also compute these eight families directly in producer/n15n20/src/lower_review.py.
+- `lem:words`: the hand run-length proof forbids 111 and 212 internally, the listed five-entry patterns, four consecutive length-two runs, and the endpoint exception. If inner 1-runs separate 2-runs, their total length is six, too short. Otherwise the possible inner totals ≥8 force either three consecutive 2-runs with forbidden endpoints or the forbidden two-2-run endpoint pattern. We additionally enumerate all 4,096 words of length twelve to check coverage by the eight patterns and their reversals/swaps. This is a finite confirmation of that lemma, not a new result.
+- `lem:window`: a mixed rank uses `lem:adjacent`; pure ranks use a forbidden block and its gadget. Embed that gadget into the interval and append same-coloured chain members outside; these are comparable to every gadget member. The gadget gains at least one member over that colour's chain count. The other colour's chain gives total at least thirteen.
+- `prop:flower`: put q eleven-coordinate windows at rank intervals [12j,12j+11]. They are disjoint intervals of ranks with a separating coordinate, so each colour's window families concatenate. The remaining n+1−12q chain members give a red–blue total 13q+n+1−12q=n+1+q. One colour has at least its half-ceiling. This supplies 9,9,10,10,11,11 in our six dimensions.
+
+Our exhaustive balanced-word witnesses and the chain-exchange lemma give the odd lower bounds at 15,17,19 without relying on these manuscript lemmas. The even lower bounds at 16 and 18 are the chain argument alone.
+
+At n=20, `thm:f20` gives twelve. Its stacking argument is the same separated-window construction, now using a nineteen-coordinate window with red–blue total twenty-two, plus the remaining rank (twenty-three in total at n=20). We read `lem:window20`: mixed ranks outside 8..11 are disposed of by a pivot and `prop:flower`; mixed ranks inside that band reduce to pure lower/upper pivot subcubes unless another gain already exists. The residual mixed-level cases are asserted to be covered by a public computational check over 5,308,416 pure/mixed assignments and further pivot-colour choices, using 63,272 listed sublattices. **That external computational check was not rerun here.** The candidate equality f(20)=12 therefore uses the stated revised-manuscript theorem as a lower-bound dependency. Our complete rank-word rejection at threshold twelve proves the rank-colouring minimum is twelve; it does not itself prove the unrestricted lower bound twelve. If that manuscript theorem is withheld, this job gives 11≤f(20)≤12.
+
+
+### Packaged dependency status
+
+The clean-room referee subsequently replayed BMB’s authors’ checker at [2842ef3a58604a8f4b35271d5753c2bf9bdecd0b](https://github.com/anaxia-research/Erdos-1183/blob/2842ef3a58604a8f4b35271d5753c2bf9bdecd0b/checks/window20/check_window.c), including corruption controls, and read the reduction without finding a gap. This is a replay of the authors’ mixed-level case analysis, not a reimplementation. The exact recorded outcome and source hashes are in [WINDOW20.md](referee/n15n20/WINDOW20.md). No third-party checker or list is bundled. The lower bound f(20)≥12 uses [BMB `thm:f20` and `lem:window20`](https://github.com/anaxia-research/Erdos-1183/blob/2842ef3a58604a8f4b35271d5753c2bf9bdecd0b/paper/Erdos.tex); without that dependency, the packet establishes 11≤f(20)≤12. A rank minimum does not prove an unrestricted lower bound at even n. All conclusions are candidate, no human review.

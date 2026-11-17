@@ -179,3 +179,58 @@ done
 The referee used CaDiCaL for both n=13 colours and n=14 colour zero; default kissat for n=14 colour one after CaDiCaL exceeded its resource limit. The original command pattern is `nice -n 10 tools/cadical/build/cadical -q CNF PROOF`, or `nice -n 10 tools/kissat/build/kissat -q CNF PROOF`; then `nice -n 10 tools/drat-trim/drat-trim CNF PROOF -t 20000` must exit zero and print `s VERIFIED`. The report documents positive, deletion and corrupted-proof controls as historical referee evidence, and the no-symmetry SAT run that timed out. The weighted-poset argument does not need those SAT runs or symmetry clauses.
 
 The supplied directory has no standalone VERDICT_for_ledger.txt. The original report ends `VERDICT: HOLDS`; no replacement ledger file is fabricated. This packaging session read producer code and is not another clean-room referee.
+
+## n=15..20: replay from the delivered packet
+
+Use Python 3.10+ (standard library only), and a C/C++ compiler only if rebuilding searches. Disable bytecode creation to keep the packet seal unchanged. From the packet root:
+
+```sh
+nice -n 10 python3 -B producer/n15n20/replay_packet.py
+```
+
+This replays all twelve headline trees with their expected rank words and thresholds supplied from the original results table, checks both maximum witnesses per colouring, checks the complete mask-indexed colourings, and checks every producer screen/prefix rejection witness and all balanced-word witnesses. It also checks the referee’s complete balanced-word lists using the packaged direct witness checker. It needs no release download and writes no output files except stdout.
+
+The tree for n=15 colour one uses threshold nine because its exact maximum is eight. All other thresholds are maximum plus one, as recorded in results.json. Single-tree example (run from `producer/n15n20/`):
+
+```sh
+nice -n 10 python3 -B src/check.py certificates/search_1100101100011010_c0_t10.tree.gz 1100101100011010 0 10
+```
+
+To repeat the producer’s additional rank-minimum proof replay, run the command below from `producer/n15n20/`. All trees directly referenced by these screens are included, so this replay also needs no download. The v3 archive retains the additional search/control trees for optional inspection as described in VERIFY.md:
+
+```sh
+nice -n 10 python3 -B src/replay.py
+```
+
+That original replay additionally checks all surviving words’ proof trees and prefix/full-screen correspondence. The original complete screen and prefix files and direct trees are included. These extra rank-minimum claims are unnecessary for the six unrestricted upper bounds and were outside the clean-room referee’s exhaustive review.
+
+To rebuild the producer’s searches (run in a writable copy of `producer/n15n20/`):
+
+```sh
+clang++ -O3 -std=c++17 src/poset.cpp -o src/poset
+clang++ -O3 -std=c++17 src/brute.cpp -o src/brute
+nice -n 10 src/brute
+```
+
+The original producer validation script retains a historical neighbouring-directory import for the earlier referee. To run it in this packet, use a working copy and point its `spec_from_file_location` to `../../referee/n13n14/src/poset_search.py` relative to `producer/n15n20/`. It is not needed for replay and is not imported by the checker. Other producer search scripts write new certificates/logs and should likewise run only in a working copy.
+
+The clean-room referee’s own search can be rebuilt from the packet root:
+
+```sh
+mkdir -p work
+cc -O3 -std=c11 referee/n15n20/src/wps.c -o work/wps
+nice -n 10 work/wps max 15 1100101100011010
+nice -n 10 work/wps max 16 00100111010011001
+nice -n 10 work/wps max 17 110010110001101001
+nice -n 10 work/wps max 18 0010110011101001100
+nice -n 10 work/wps max 19 00110010111000101101
+nice -n 10 work/wps max 20 110010110001101100110
+nice -n 10 python3 -B referee/n15n20/src/check_witnesses.py producer/n15n20/certificates/results.json
+nice -n 10 python3 -B referee/n15n20/src/check_balanced.py 15 referee/n15n20/out/bal_n15.tsv
+nice -n 10 python3 -B referee/n15n20/src/check_balanced.py 17 referee/n15n20/out/bal_n17.tsv
+nice -n 10 python3 -B referee/n15n20/src/check_balanced.py 19 referee/n15n20/out/bal_n19.tsv
+```
+
+The last three historical scripts print their results; require `all_covered=True` and `bad=0`. The packaged replay driver asserts coverage and closure itself and fails nonzero on an error. Original referee brute-force outputs through n=6 and all rank-word comparisons are retained. The conventional representation and completeness arguments in PROOF.md remain part of the proof; they are not kernel formalizations. Candidate, no human review.
+
+The referee balanced-word stdout tables use `.tsv` in this packet. Every original space delimiter is replaced by a tab to disambiguate numeric fields for the publication scan. No value changes; `referee/n15n20/out/FORMATS.json` records original and packaged hashes. Replacing tabs with spaces reconstructs the original stdout byte-for-byte. The unchanged referee report retains the historical `.txt` filenames. Its scripts use whitespace splitting and accept these TSV tables. Other referee outputs are byte-preserved.

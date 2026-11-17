@@ -1,0 +1,48 @@
+{
+  "gadgets": 8,
+  "twelve_words": 4096,
+  "bounds": [
+    {
+      "n": 15,
+      "chain": 8,
+      "flower": 9,
+      "omega": 9,
+      "twenty": 9
+    },
+    {
+      "n": 16,
+      "chain": 9,
+      "flower": 9,
+      "omega": null,
+      "twenty": 9
+    },
+    {
+      "n": 17,
+      "chain": 9,
+      "flower": 10,
+      "omega": 10,
+      "twenty": 10
+    },
+    {
+      "n": 18,
+      "chain": 10,
+      "flower": 10,
+      "omega": null,
+      "twenty": 10
+    },
+    {
+      "n": 19,
+      "chain": 10,
+      "flower": 11,
+      "omega": 11,
+      "twenty": 11
+    },
+    {
+      "n": 20,
+      "chain": 11,
+      "flower": 11,
+      "omega": null,
+      "twenty": 12
+    }
+  ]
+}

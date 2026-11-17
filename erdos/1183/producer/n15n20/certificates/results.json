@@ -1,0 +1,273 @@
+[
+  {
+    "n": 15,
+    "word": "1100101100011010",
+    "upper": 9,
+    "lower": 9,
+    "colours": [
+      {
+        "colour": 0,
+        "maximum": 9,
+        "witness": [
+          3,
+          7,
+          31,
+          999,
+          1023,
+          31751,
+          31775,
+          32743,
+          32767
+        ],
+        "proof": "certificates/search_1100101100011010_c0_t10.tree.gz",
+        "nodes": 498
+      },
+      {
+        "colour": 1,
+        "maximum": 8,
+        "witness": [
+          0,
+          1,
+          15,
+          113,
+          127,
+          2047,
+          4095,
+          16383
+        ],
+        "proof": "certificates/search_1100101100011010_c1_t9.tree.gz",
+        "nodes": 403
+      }
+    ],
+    "rank_minimum": 9
+  },
+  {
+    "n": 16,
+    "word": "00100111010011001",
+    "upper": 9,
+    "lower": 9,
+    "colours": [
+      {
+        "colour": 0,
+        "maximum": 9,
+        "witness": [
+          0,
+          1,
+          14,
+          15,
+          2033,
+          2047,
+          16369,
+          16383,
+          32767
+        ],
+        "proof": "certificates/search_00100111010011001_c0_t10.tree.gz",
+        "nodes": 1114
+      },
+      {
+        "colour": 1,
+        "maximum": 9,
+        "witness": [
+          3,
+          31,
+          483,
+          511,
+          7711,
+          8191,
+          57827,
+          57855,
+          65535
+        ],
+        "proof": "certificates/search_00100111010011001_c1_t10.tree.gz",
+        "nodes": 552
+      }
+    ],
+    "rank_minimum": 9
+  },
+  {
+    "n": 17,
+    "word": "110010110001101001",
+    "upper": 10,
+    "lower": 10,
+    "colours": [
+      {
+        "colour": 0,
+        "maximum": 10,
+        "witness": [
+          3,
+          7,
+          31,
+          999,
+          1023,
+          31751,
+          31775,
+          32743,
+          32767,
+          65535
+        ],
+        "proof": "certificates/search_110010110001101001_c0_t11.tree.gz",
+        "nodes": 1255
+      },
+      {
+        "colour": 1,
+        "maximum": 10,
+        "witness": [
+          0,
+          1,
+          126,
+          127,
+          3969,
+          4095,
+          126977,
+          127103,
+          130945,
+          131071
+        ],
+        "proof": "certificates/search_110010110001101001_c1_t11.tree.gz",
+        "nodes": 1043
+      }
+    ],
+    "rank_minimum": 10
+  },
+  {
+    "n": 18,
+    "word": "0010110011101001100",
+    "upper": 10,
+    "lower": 10,
+    "colours": [
+      {
+        "colour": 0,
+        "maximum": 10,
+        "witness": [
+          0,
+          1,
+          126,
+          127,
+          8065,
+          8191,
+          123007,
+          131071,
+          139263,
+          262143
+        ],
+        "proof": "certificates/search_0010110011101001100_c0_t11.tree.gz",
+        "nodes": 2369
+      },
+      {
+        "colour": 1,
+        "maximum": 10,
+        "witness": [
+          3,
+          15,
+          31,
+          495,
+          511,
+          3615,
+          4095,
+          29183,
+          32767,
+          65535
+        ],
+        "proof": "certificates/search_0010110011101001100_c1_t11.tree.gz",
+        "nodes": 1330
+      }
+    ],
+    "rank_minimum": 10
+  },
+  {
+    "n": 19,
+    "word": "00110010111000101101",
+    "upper": 11,
+    "lower": 11,
+    "colours": [
+      {
+        "colour": 0,
+        "maximum": 11,
+        "witness": [
+          0,
+          1,
+          30,
+          31,
+          2017,
+          2047,
+          6175,
+          8191,
+          26623,
+          32767,
+          262143
+        ],
+        "proof": "certificates/search_00110010111000101101_c0_t12.tree.gz",
+        "nodes": 2709
+      },
+      {
+        "colour": 1,
+        "maximum": 11,
+        "witness": [
+          3,
+          7,
+          63,
+          255,
+          511,
+          767,
+          1023,
+          16383,
+          65535,
+          475135,
+          524287
+        ],
+        "proof": "certificates/search_00110010111000101101_c1_t12.tree.gz",
+        "nodes": 2606
+      }
+    ],
+    "rank_minimum": 11
+  },
+  {
+    "n": 20,
+    "word": "110010110001101100110",
+    "upper": 12,
+    "lower": 12,
+    "colours": [
+      {
+        "colour": 0,
+        "maximum": 12,
+        "witness": [
+          3,
+          7,
+          31,
+          255,
+          511,
+          767,
+          1023,
+          8191,
+          58367,
+          65535,
+          991231,
+          1048575
+        ],
+        "proof": "certificates/search_110010110001101100110_c0_t13.tree.gz",
+        "nodes": 3577
+      },
+      {
+        "colour": 1,
+        "maximum": 12,
+        "witness": [
+          0,
+          1,
+          15,
+          113,
+          127,
+          16271,
+          16383,
+          245887,
+          262143,
+          278415,
+          278527,
+          524287
+        ],
+        "proof": "certificates/search_110010110001101100110_c1_t13.tree.gz",
+        "nodes": 7471
+      }
+    ],
+    "rank_minimum": 12
+  }
+]

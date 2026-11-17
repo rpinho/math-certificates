@@ -1,0 +1,22 @@
+[
+  {
+    "test": "delete_subtree",
+    "rejected": true,
+    "reason": "missing branches"
+  },
+  {
+    "test": "change_weight",
+    "rejected": true,
+    "reason": "branch label"
+  },
+  {
+    "test": "flip_word",
+    "rejected": true,
+    "reason": "binding"
+  },
+  {
+    "test": "self_consistent_flipped_header",
+    "rejected": true,
+    "reason": "missing root"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "brute_mismatches": 0,
+  "referee_words": 6000,
+  "planted": 600,
+  "corruptions_rejected": [
+    "delete_subtree",
+    "change_weight",
+    "flip_word"
+  ],
+  "no_trees_checked": 3040,
+  "positive_queries_checked": 9954,
+  "wall_seconds": 7.733879089355469
+}

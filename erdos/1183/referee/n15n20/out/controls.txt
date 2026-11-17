@@ -1,0 +1,45 @@
+dec n=15 word=1100101100011010 colour=0 NONE_at_least=10 nodes=498 witness_ok=1 members=9  best=9
+dec n=15 word=1100101100011010 colour=0 FOUND_at_least=9 nodes=23 witness_ok=1 members=9
+dec n=15 word=1100101100011010 colour=1 NONE_at_least=9 nodes=403 witness_ok=1 members=8  best=8
+dec n=15 word=1100101100011010 colour=1 FOUND_at_least=8 nodes=23 witness_ok=1 members=8
+flip rank 0 (15): 1->0 maxima c0 c1 = 12 7 
+flip rank 1 (15): 1->0 maxima c0 c1 = 11 7 
+flip rank 2 (15): 0->1 maxima c0 c1 = 8 12 
+flip rank 3 (15): 0->1 maxima c0 c1 = 9 11 
+flip rank 4 (15): 1->0 maxima c0 c1 = 16 8 
+flip rank 5 (15): 0->1 maxima c0 c1 = 8 13 
+flip rank 6 (15): 1->0 maxima c0 c1 = 12 8 
+flip rank 7 (15): 1->0 maxima c0 c1 = 14 7 
+flip rank 8 (15): 0->1 maxima c0 c1 = 7 10 
+flip rank 9 (15): 0->1 maxima c0 c1 = 9 13 
+flip rank 10 (15): 0->1 maxima c0 c1 = 7 13 
+flip rank 11 (15): 1->0 maxima c0 c1 = 14 7 
+flip rank 12 (15): 1->0 maxima c0 c1 = 11 7 
+flip rank 13 (15): 0->1 maxima c0 c1 = 8 14 
+flip rank 14 (15): 1->0 maxima c0 c1 = 13 7 
+flip rank 15 (15): 0->1 maxima c0 c1 = 8 9 
+dec n=20 word=110010110001101100110 colour=0 NONE_at_least=13 nodes=3577 witness_ok=1 members=12  best=12
+dec n=20 word=110010110001101100110 colour=0 FOUND_at_least=12 nodes=287 witness_ok=1 members=12
+dec n=20 word=110010110001101100110 colour=1 NONE_at_least=13 nodes=7471 witness_ok=1 members=12  best=12
+dec n=20 word=110010110001101100110 colour=1 FOUND_at_least=12 nodes=282 witness_ok=1 members=12
+flip rank 0 (20): 1->0 maxima c0 c1 = 14 11 
+flip rank 1 (20): 1->0 maxima c0 c1 = 18 11 
+flip rank 2 (20): 0->1 maxima c0 c1 = 11 16 
+flip rank 3 (20): 0->1 maxima c0 c1 = 12 18 
+flip rank 4 (20): 1->0 maxima c0 c1 = 20 12 
+flip rank 5 (20): 0->1 maxima c0 c1 = 11 17 
+flip rank 6 (20): 1->0 maxima c0 c1 = 17 12 
+flip rank 7 (20): 1->0 maxima c0 c1 = 17 11 
+flip rank 8 (20): 0->1 maxima c0 c1 = 12 20 
+flip rank 9 (20): 0->1 maxima c0 c1 = 11 22 
+flip rank 10 (20): 0->1 maxima c0 c1 = 12 19 
+flip rank 11 (20): 1->0 maxima c0 c1 = 15 10 
+flip rank 12 (20): 1->0 maxima c0 c1 = 18 12 
+flip rank 13 (20): 0->1 maxima c0 c1 = 10 24 
+flip rank 14 (20): 1->0 maxima c0 c1 = 15 12 
+flip rank 15 (20): 1->0 maxima c0 c1 = 14 11 
+flip rank 16 (20): 0->1 maxima c0 c1 = 11 15 
+flip rank 17 (20): 0->1 maxima c0 c1 = 11 15 
+flip rank 18 (20): 1->0 maxima c0 c1 = 15 12 
+flip rank 19 (20): 1->0 maxima c0 c1 = 16 11 
+flip rank 20 (20): 0->1 maxima c0 c1 = 11 15 

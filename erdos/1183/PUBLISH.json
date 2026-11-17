@@ -2,8 +2,8 @@
   "target": "teorth/erdosproblems",
   "new_bound": true,
   "producer_author": "original fixed-colouring producer AI sessions",
-  "producer_model": "producer AI agents; exact model identifiers not retained",
-  "referee_model": "clean-room AI referees per launcher records: n=11 GPT-6 Astra (same provider as the GPT-6.1 Sol producer), n=12 and n=13/n=14 Claude Opus 5.5 (different model family)",
+  "producer_model": "GPT-6.1 Sol via Codex (launcher records)",
+  "referee_model": "Clean-room referees from launcher records: GPT-6 Astra via Codex (n=11); Claude Opus 5.5 via Claude Code (n=12, n=13/14, n=15..20)",
   "submitter": "rpinho",
   "destination": "erdos/1183",
   "certificate_repository": "rpinho/math-certificates",
@@ -15,7 +15,15 @@
     "referee/n11/certificates/1183_lower7_families.json": "certificate",
     "certificates/n13_coloring.json": "certificate",
     "certificates/n14_coloring.json": "certificate",
-    "producer/n13n14/REPORT.md": "proof"
+    "producer/n13n14/REPORT.md": "proof",
+    "producer/n15n20/PROOF.md": "proof",
+    "producer/n15n20/certificates/results.json": "certificate",
+    "certificates/n15_coloring.json": "certificate",
+    "certificates/n16_coloring.json": "certificate",
+    "certificates/n17_coloring.json": "certificate",
+    "certificates/n18_coloring.json": "certificate",
+    "certificates/n19_coloring.json": "certificate",
+    "certificates/n20_coloring.json": "certificate"
   },
   "publication_status": "Local sealed candidate packet. No upload, post, push or public release performed.",
   "linked_trees": {
@@ -28,5 +36,5 @@
     "arminbiere/kissat@8af8e56f174b778aef3aa45af9f739b2a5f492c2": "sources/n13n14/arminbiere__kissat@8af8e56f174b778aef3aa45af9f739b2a5f492c2.json",
     "anaxia-research/Erdos-1183@2842ef3a58604a8f4b35271d5753c2bf9bdecd0b": "sources/n13n14/anaxia-research__Erdos-1183@2842ef3a58604a8f4b35271d5753c2bf9bdecd0b.json"
   },
-  "scope": "new_bound describes the supplied finite candidate results seven at n=11/12 and eight at n=13/14, not a discovery by the packaging session. Large new proofs are local release assets awaiting publication."
+  "scope": "Finite candidate results through n=20. f(20) upper bound twelve; equality given BMB lem:window20, otherwise eleven to twelve. Local packet and erdos1183-v3 release assets await publication."
 }

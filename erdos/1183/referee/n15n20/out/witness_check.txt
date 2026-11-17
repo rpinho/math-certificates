@@ -1,0 +1,18 @@
+n=15 word=1100101100011010 colour=0 claimed_max=9 witness_size=9 direct_check=ok size_matches=True
+n=15 word=1100101100011010 colour=1 claimed_max=8 witness_size=8 direct_check=ok size_matches=True
+  controls rejected: ['wrong colour 17407', 'not closed 999,31751', 'duplicate'] | wrong colour label: wrong colour 3
+n=16 word=00100111010011001 colour=0 claimed_max=9 witness_size=9 direct_check=ok size_matches=True
+n=16 word=00100111010011001 colour=1 claimed_max=9 witness_size=9 direct_check=ok size_matches=True
+  controls rejected: ['wrong colour 34801', 'not closed 14,16369', 'duplicate'] | wrong colour label: wrong colour 0
+n=17 word=110010110001101001 colour=0 claimed_max=10 witness_size=10 direct_check=ok size_matches=True
+n=17 word=110010110001101001 colour=1 claimed_max=10 witness_size=10 direct_check=ok size_matches=True
+  controls rejected: ['not closed 31,97287', 'not closed 31,32743', 'duplicate'] | wrong colour label: wrong colour 3
+n=18 word=0010110011101001100 colour=0 claimed_max=10 witness_size=10 direct_check=ok size_matches=True
+n=18 word=0010110011101001100 colour=1 claimed_max=10 witness_size=10 direct_check=ok size_matches=True
+  controls rejected: ['duplicate', 'ok', 'duplicate'] | wrong colour label: wrong colour 0
+n=19 word=00110010111000101101 colour=0 claimed_max=11 witness_size=11 direct_check=ok size_matches=True
+n=19 word=00110010111000101101 colour=1 claimed_max=11 witness_size=11 direct_check=ok size_matches=True
+  controls rejected: ['not closed 30,2017', 'not closed 6175,26623', 'duplicate'] | wrong colour label: wrong colour 0
+n=20 word=110010110001101100110 colour=0 claimed_max=12 witness_size=12 direct_check=ok size_matches=True
+n=20 word=110010110001101100110 colour=1 claimed_max=12 witness_size=12 direct_check=ok size_matches=True
+  controls rejected: ['wrong colour 525311', 'ok', 'duplicate'] | wrong colour label: wrong colour 3

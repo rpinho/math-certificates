@@ -1,6 +1,6 @@
-# Erdős #1183: candidate exact values f(11)=7, f(12)=7, f(13)=8 and f(14)=8
+# Erdős #1183: candidate values f(11)..f(20), with a dependency at f(20)
 
-This packet gives the four finite equalities **f(11)=7**, **f(12)=7**, **f(13)=8** and **f(14)=8**, with explicit colourings, regenerable SAT queries and checkable DRAT certificates. The supplied clean-room AI agents acting as referees conclude **HOLDS** for all four values. These are candidate results with **no human review**. They do not settle the asymptotic problem.
+The original packet gives the four finite equalities **f(11)=7**, **f(12)=7**, **f(13)=8** and **f(14)=8**, with explicit colourings, regenerable SAT queries and checkable DRAT certificates. The supplied clean-room AI agents acting as referees conclude **HOLDS** for all four values. These are candidate results with **no human review**. The extension gives **f(15)=9, f(16)=9, f(17)=10, f(18)=10, f(19)=11** and **f(20)≤12**. The equality **f(20)=12** uses BMB `lem:window20` via `thm:f20`; without that dependency, **11≤f(20)≤12**. The extension’s clean-room referee concludes **HOLDS WITH CAVEATS**. These finite results do not settle the asymptotic problem.
 
 ## Definition
 
@@ -28,14 +28,30 @@ For each construction, colour a set S by the bit at position |S| of the rank wor
 | 12 | `1100101100011` | The thirteen-member maximal chain gives f(12)≥7 | Neither colour admits a closed family of at least eight sets |
 | 13 | `11001011000110` | Published Bhattacharjee–Mandal–Bhattacharya Proposition `prop:flower` and the omega institute note give f(13)≥8; the referee also re-derived it by chain exchange and all 3,432 balanced rank words | Neither colour admits a closed family of at least nine sets |
 | 14 | `110010110001101` | The fifteen-set maximal chain gives f(14)≥8 | Neither colour admits a closed family of at least nine sets |
+| 15 | `1100101100011010` | 9: chain-exchange lemma plus all 12,870 balanced words; also BMB `prop:flower` | Both colour maxima are at most 9; f(15)≤9 |
+| 16 | `00100111010011001` | 9: the seventeen-set maximal chain | Both colour maxima are at most 9; f(16)≤9 |
+| 17 | `110010110001101001` | 10: chain-exchange lemma plus all 48,620 balanced words; also BMB `prop:flower` | Both colour maxima are at most 10; f(17)≤10 |
+| 18 | `0010110011101001100` | 10: the nineteen-set maximal chain | Both colour maxima are at most 10; f(18)≤10 |
+| 19 | `00110010111000101101` | 11: chain-exchange lemma plus all 184,756 balanced words; also BMB `prop:flower` | Both colour maxima are at most 11; f(19)≤11 |
+| 20 | `110010110001101100110` | 11: chain (also `prop:flower`); 12 given BMB `thm:f20` through computer-assisted `lem:window20` | Both colour maxima are at most 12; f(20)≤12 |
 
-The producer supplies one UNSAT proof for each colour at each dimension. The second construction uses ordinary lexicographic symmetry clauses in colour zero; its colour-one query and both first-construction queries use no symmetry clauses. The CNFs are SAT encodings whose correspondence to the statement is argued in [PROOF.md](PROOF.md). An UNSAT log alone is insufficient: check the DRAT proof against the exact regenerated CNF.
+For n=11..14 the producer supplies one UNSAT proof for each colour at each dimension. The second construction uses ordinary lexicographic symmetry clauses in colour zero; its colour-one query and both first-construction queries use no symmetry clauses. The CNFs are SAT encodings whose correspondence to the statement is argued in [PROOF.md](PROOF.md). An UNSAT log alone is insufficient: check the DRAT proof against the exact regenerated CNF.
 
 The [first referee](referee/n11/REFEREE.md) and [second referee](referee/n12/REFEREE.md) each concluded that the finite equalities hold. These were clean-room AI agents running on a different model from the producer: the first on another OpenAI model (same provider as the producer), the second on an Anthropic model (a different model family). They wrote their own encoders and checked their own proofs. Both also supplied exact weighted-poset arguments; the second referee's argument proves the upper bound without SAT. Their original reports and scripts are preserved. The second referee's separate prior-art file and ledger verdict were absent from the supplied directory; its prior-art account and verdict remain in its original report.
 
 The [new referee report](referee/n13n14/REFEREE.md), preserved byte-for-byte, concludes **HOLDS** for f(13)=8 and f(14)=8. This clean-room referee was an AI agent on an Anthropic model, a different model family from the producer's. It wrote its own encoder, generated and checked its own proofs, and also gave an exact argument without SAT using weighted posets and Birkhoff's representation theorem. Its [poset search](referee/n13n14/src/poset_search.py), [balanced-word check](referee/n13n14/src/balanced.py) and original [outputs](referee/n13n14/logs/n13_balanced_summary.log) are included. The balanced-word check rejects all 3,432 words with explicit closed families, completing the chain-exchange lower-bound argument. These are computational candidate proofs with **no human review**; the hand reductions are not formalized.
 
 The four new producer queries use the standard transposition lex-leaders in both colours. Their soundness depends on the colouring being size-only. The lower bound at n=13 was already published; the new supplied contribution is the matching upper bound, and likewise at n=14. Eight-member witnesses are included in the colouring files. [PROOF.md](PROOF.md) explains the exact correspondence, symmetry argument and unrestricted lower bounds.
+
+## Extension to n=15..20
+
+The six full mask-indexed colourings are [n15](certificates/n15_coloring.json), [n16](certificates/n16_coloring.json), [n17](certificates/n17_coloring.json), [n18](certificates/n18_coloring.json), [n19](certificates/n19_coloring.json) and [n20](certificates/n20_coloring.json). Each includes the rank word and explicit maximum witnesses for both colours. Original results and proof filenames are in [results.json](producer/n15n20/certificates/results.json).
+
+The upper-bound method is exact weighted-poset search using Birkhoff’s representation theorem, with replayable exhaustive proof trees, a separately written producer tree checker and brute-force validation. No SAT is used at these sizes. The [search](producer/n15n20/src/poset.cpp) and [tree checker](producer/n15n20/src/check.py) are separate implementations by the same producer; packaging replay is not another clean-room review. All twelve headline proof trees are included. The larger optional archive for exhaustive rank-minimum screens is a release asset; it is unnecessary for the six unrestricted upper bounds.
+
+The byte-preserved [clean-room referee report](referee/n15n20/REFEREE.md) concludes **HOLDS WITH CAVEATS**. Its two caveats are: (1) the f(20) lower bound of twelve depends on BMB’s computer-assisted `lem:window20` in an unrefereed manuscript; the referee replayed the authors’ checker and corruption controls but did not reimplement the mixed-level case analysis; (2) all six upper bounds use the same weighted-poset enumeration algorithm, written separately by producer and referee and validated against brute force through n=6, with no second exact method at these sizes. Thus, withholding the lemma gives **11≤f(20)≤12**. No value fails the referee’s checks.
+
+The referee’s own scripts and outputs are in [referee/n15n20](referee/n15n20). The authors’ third-party window checker and lists are not bundled: see the pinned references and recorded replay in [WINDOW20.md](referee/n15n20/WINDOW20.md). The ordinary maximal-chain argument proves the even lower bounds; the chain-exchange lemma and complete balanced-word witness lists prove the odd lower bounds. Those lower bounds were already published; the matching finite upper bounds are the supplied contribution. These remain **candidate** results with **no human review**.
 
 ## Checking
 
@@ -57,4 +73,4 @@ Credit Erdős and Ulam for the question; Bhattacharjee–Mandal–Bhattacharya f
 - Garrett Birkhoff, “Rings of sets,” Duke Mathematical Journal 3 (1937), pp. 443–454 (finite distributive-lattice representation).
 - M. Heule et al., [drat-trim source](https://github.com/marijnheule/drat-trim/tree/2e3b2dc0ecf938addbd779d42877b6ed69d9a985).
 
-Models (from the launcher records): GPT-6.1 Sol via Codex (producer: search, encodings, proofs, checkers and packaging); GPT-6 Astra via Codex (n=11 referee); Claude Opus 5.5 via Claude Code (n=12 referee and n=13/n=14 referee).
+Models (from the launcher records): GPT-6.1 Sol via Codex (producer: search, encodings, proofs, checkers and packaging); GPT-6 Astra via Codex (n=11 referee); Claude Opus 5.5 via Claude Code (n=12, n=13/n=14 and n=15..20 referees).

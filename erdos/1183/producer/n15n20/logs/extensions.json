@@ -1,0 +1,146 @@
+[
+  {
+    "n": 15,
+    "lower": 9,
+    "tested": 2,
+    "words": [
+      {
+        "word": "1100101100011010",
+        "proofs": [
+          {
+            "word": "1100101100011010",
+            "colour": 0,
+            "threshold": 10,
+            "nodes": 498,
+            "found": false,
+            "proof": "certificates/search_1100101100011010_c0_t10.tree.gz"
+          },
+          {
+            "word": "1100101100011010",
+            "colour": 1,
+            "threshold": 10,
+            "nodes": 403,
+            "found": false,
+            "proof": "certificates/search_1100101100011010_c1_t10.tree.gz"
+          }
+        ]
+      },
+      {
+        "word": "1100101100011011",
+        "proofs": [
+          {
+            "word": "1100101100011011",
+            "colour": 0,
+            "threshold": 10,
+            "nodes": 204,
+            "found": false,
+            "proof": "certificates/search_1100101100011011_c0_t10.tree.gz"
+          },
+          {
+            "word": "1100101100011011",
+            "colour": 1,
+            "threshold": 10,
+            "nodes": 1038,
+            "found": false,
+            "proof": "certificates/search_1100101100011011_c1_t10.tree.gz"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "n": 16,
+    "lower": 9,
+    "tested": 4,
+    "words": []
+  },
+  {
+    "n": 17,
+    "lower": 10,
+    "tested": 8,
+    "words": [
+      {
+        "word": "110010110001101001",
+        "proofs": [
+          {
+            "word": "110010110001101001",
+            "colour": 0,
+            "threshold": 11,
+            "nodes": 1255,
+            "found": false,
+            "proof": "certificates/search_110010110001101001_c0_t11.tree.gz"
+          },
+          {
+            "word": "110010110001101001",
+            "colour": 1,
+            "threshold": 11,
+            "nodes": 1043,
+            "found": false,
+            "proof": "certificates/search_110010110001101001_c1_t11.tree.gz"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "n": 18,
+    "lower": 10,
+    "tested": 16,
+    "words": []
+  },
+  {
+    "n": 19,
+    "lower": 11,
+    "tested": 32,
+    "words": []
+  },
+  {
+    "n": 20,
+    "lower": 12,
+    "tested": 64,
+    "words": [
+      {
+        "word": "110010110001101100110",
+        "proofs": [
+          {
+            "word": "110010110001101100110",
+            "colour": 0,
+            "threshold": 13,
+            "nodes": 3577,
+            "found": false,
+            "proof": "certificates/search_110010110001101100110_c0_t13.tree.gz"
+          },
+          {
+            "word": "110010110001101100110",
+            "colour": 1,
+            "threshold": 13,
+            "nodes": 7471,
+            "found": false,
+            "proof": "certificates/search_110010110001101100110_c1_t13.tree.gz"
+          }
+        ]
+      },
+      {
+        "word": "110010110001101110010",
+        "proofs": [
+          {
+            "word": "110010110001101110010",
+            "colour": 0,
+            "threshold": 13,
+            "nodes": 2437,
+            "found": false,
+            "proof": "certificates/search_110010110001101110010_c0_t13.tree.gz"
+          },
+          {
+            "word": "110010110001101110010",
+            "colour": 1,
+            "threshold": 13,
+            "nodes": 7809,
+            "found": false,
+            "proof": "certificates/search_110010110001101110010_c1_t13.tree.gz"
+          }
+        ]
+      }
+    ]
+  }
+]

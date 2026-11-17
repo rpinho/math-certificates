@@ -329,7 +329,103 @@
       "in_packet": false,
       "note": "Original referee proof discarded after checking; regenerate CNF with referee/n13n14/src/enc.c; original check log retained.",
       "bytes": 543046390
+    },
+    {
+      "n": 15,
+      "colour": 0,
+      "packet_path": "producer/n15n20/certificates/search_1100101100011010_c0_t10.tree.gz",
+      "sha256": "85b82303a329a99d03e5afc89a6370944d1c0b73a0165a678e48d878ab5b78f8",
+      "bytes": 1957,
+      "role": "exhaustive weighted-poset no-tree at exact colour maximum plus one; expected word in results.json"
+    },
+    {
+      "n": 15,
+      "colour": 1,
+      "packet_path": "producer/n15n20/certificates/search_1100101100011010_c1_t9.tree.gz",
+      "sha256": "2c377a3eb49ec16c7c6c546b9088a9ff896303404ea937388a6654cb9d4a51ac",
+      "bytes": 2478,
+      "role": "exhaustive weighted-poset no-tree at exact colour maximum plus one; expected word in results.json"
+    },
+    {
+      "n": 16,
+      "colour": 0,
+      "packet_path": "producer/n15n20/certificates/search_00100111010011001_c0_t10.tree.gz",
+      "sha256": "10b9391590384e6d29ff1b689392de51e4a199c54ad88f0311755776b8bad123",
+      "bytes": 5503,
+      "role": "exhaustive weighted-poset no-tree at exact colour maximum plus one; expected word in results.json"
+    },
+    {
+      "n": 16,
+      "colour": 1,
+      "packet_path": "producer/n15n20/certificates/search_00100111010011001_c1_t10.tree.gz",
+      "sha256": "62793d253b8a71b9ea1898c395f0245e7c32de85e17e56a1413076acb73d10d2",
+      "bytes": 2088,
+      "role": "exhaustive weighted-poset no-tree at exact colour maximum plus one; expected word in results.json"
+    },
+    {
+      "n": 17,
+      "colour": 0,
+      "packet_path": "producer/n15n20/certificates/search_110010110001101001_c0_t11.tree.gz",
+      "sha256": "7b3ee83b59bf4c7f10919304092e9ec15d4b92081adc3ff5838c3ce51b57f514",
+      "bytes": 6545,
+      "role": "exhaustive weighted-poset no-tree at exact colour maximum plus one; expected word in results.json"
+    },
+    {
+      "n": 17,
+      "colour": 1,
+      "packet_path": "producer/n15n20/certificates/search_110010110001101001_c1_t11.tree.gz",
+      "sha256": "2805bd1cdfd26d2d95add4fc4a5f84099dc58025c675bf3a9358226ab4a2bf44",
+      "bytes": 3747,
+      "role": "exhaustive weighted-poset no-tree at exact colour maximum plus one; expected word in results.json"
+    },
+    {
+      "n": 18,
+      "colour": 0,
+      "packet_path": "producer/n15n20/certificates/search_0010110011101001100_c0_t11.tree.gz",
+      "sha256": "edcf219731dd7c9e2d314f9ab97e59b8ab41c462a39e0278445d0d0c03801322",
+      "bytes": 5499,
+      "role": "exhaustive weighted-poset no-tree at exact colour maximum plus one; expected word in results.json"
+    },
+    {
+      "n": 18,
+      "colour": 1,
+      "packet_path": "producer/n15n20/certificates/search_0010110011101001100_c1_t11.tree.gz",
+      "sha256": "70fb51193e1f187796a8aeac29886e8796965047847761b4d900b7bcd508a148",
+      "bytes": 10088,
+      "role": "exhaustive weighted-poset no-tree at exact colour maximum plus one; expected word in results.json"
+    },
+    {
+      "n": 19,
+      "colour": 0,
+      "packet_path": "producer/n15n20/certificates/search_00110010111000101101_c0_t12.tree.gz",
+      "sha256": "9c8e0097f2f5a458860306de019d5aa1125b1794c80dc4004b974d5fcf04eccd",
+      "bytes": 18176,
+      "role": "exhaustive weighted-poset no-tree at exact colour maximum plus one; expected word in results.json"
+    },
+    {
+      "n": 19,
+      "colour": 1,
+      "packet_path": "producer/n15n20/certificates/search_00110010111000101101_c1_t12.tree.gz",
+      "sha256": "fb5d6f6e327216c32cfe4aaef65f671d2d4dbbab516d312389e24060172fe3d1",
+      "bytes": 8539,
+      "role": "exhaustive weighted-poset no-tree at exact colour maximum plus one; expected word in results.json"
+    },
+    {
+      "n": 20,
+      "colour": 0,
+      "packet_path": "producer/n15n20/certificates/search_110010110001101100110_c0_t13.tree.gz",
+      "sha256": "c3fd7f8bd602f9fb9ada598d1012537e45bbe76cd9e9616ef71697df8bcd3e3b",
+      "bytes": 10818,
+      "role": "exhaustive weighted-poset no-tree at exact colour maximum plus one; expected word in results.json"
+    },
+    {
+      "n": 20,
+      "colour": 1,
+      "packet_path": "producer/n15n20/certificates/search_110010110001101100110_c1_t13.tree.gz",
+      "sha256": "0ac1a6b4c1434708e50556e8f56fcf9e44f935cfe8c9ee9c24bc2ca410acf5fa",
+      "bytes": 44281,
+      "role": "exhaustive weighted-poset no-tree at exact colour maximum plus one; expected word in results.json"
     }
   ],
-  "note": "Rejection controls and SAT/unfinished traces are not UNSAT certificates. The eight complete producer theorem proofs have release asset identities; four old assets remain in the previous release and four new streams are prepared for a new release. The unfinished n14 colour-1 non-plain trace and empty colour-0 file are excluded."
+  "note": "Rejection controls and SAT/unfinished traces are not UNSAT certificates. The eight complete producer theorem proofs have release asset identities; four old assets remain in the previous release and four new streams are prepared for a new release. The unfinished n14 colour-1 non-plain trace and empty colour-0 file are excluded. The twelve n=15..20 headline certificates are weighted-poset trees, not DRAT proofs. The optional no_trees archive holds additional rank-screen trees."
 }
