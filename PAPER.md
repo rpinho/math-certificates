@@ -6,7 +6,7 @@
 
 Part of my AI-for-science work: [biology](https://github.com/rpinho/ai-biology) · [physics](https://github.com/rpinho/ai-physics).
 
-Explicit, machine-checkable bounds on open optimization constants. Each result comes with an exact certificate and at least one separately written exact checker (written by the same AI agent unless a row says otherwise).
+Explicit, machine-checkable bounds on open optimization constants.
 
 Start with the [short retro](RETRO.md): what we did, what broke, what I would do differently and where I think this is going.
 
@@ -106,7 +106,7 @@ explicit estimates and constant in this note are derived here.
 
 **(1) First false or unjustified step: none found.** I checked the entire proof, certificate, manifest and checker; ran the checker successfully; and compared the relevant passages with Biró’s paper and the live table. I found no counterexample or missing hypothesis.
 
-Here is the lemma-by-lemma audit of [LOWER_PROOF.md](c42/biro-explicit-lower/reviews/LOWER_PROOF.md). All statements in §§1–7 are conditional on an arbitrary fixed \(n\ge2\), an arbitrary complex tuple with \(z_1=1\), and \(|S_\ell|\le q\) for **every** \(1\le\ell\le n\). No assumption \(|z_i|\le1\) enters those sections.
+Here is the lemma-by-lemma audit of [LOWER_PROOF.md](c42/biro-explicit-lower/LOWER_PROOF.md). All statements in §§1–7 are conditional on an arbitrary fixed \(n\ge2\), an arbitrary complex tuple with \(z_1=1\), and \(|S_\ell|\le q\) for **every** \(1\le\ell\le n\). No assumption \(|z_i|\le1\) enters those sections.
 
 | Location | Quantifiers and audit |
 |---|---|
@@ -154,7 +154,7 @@ Bound: C<sub>44</sub> < **1.9916994577**; R<sub>4</sub> = 22, R<sub>6</sub> ≤ 
 
 Previous best: 4.3576549226 on the table (mine)
 
-Status: Candidate and unrefereed; the first upper bound below 2, so read it with suspicion. [Tao-table PR #294](https://github.com/teorth/optimizationproblems/pull/294) open, not merged. Earlier steps 2.0417086280 (preprint [hexagon:2610.00694](https://hexagonmath.org/2610.00694)), 2.1974348818, 3.9819073803 and 4.1225323803. The earlier 4.3576549226 was [merged 2026-10-26 (UTC)](https://github.com/teorth/optimizationproblems/pull/258) and [independently replayed](https://github.com/teorth/optimizationproblems/pull/258#issuecomment-6625127605) by GitHub user arhancanli on 2026-11-04 (see [c44](c44/README.md#independent-external-replay)). Separately written (same agent) exact checkers; two AI reviews (Claude Opus 5.5 via Claude Science, GPT-6 Astra) found no false step. Rests on published classification premises and our own case searches; no human referee, formalization or optimality claimed
+Status: Candidate and unrefereed. [Tao-table PR #294](https://github.com/teorth/optimizationproblems/pull/294) open, not merged. Earlier steps 2.0417086280 (preprint [hexagon:2610.00694](https://hexagonmath.org/2610.00694)), 2.1974348818, 3.9819073803 and 4.1225323803. The earlier 4.3576549226 was [merged 2026-10-26 (UTC)](https://github.com/teorth/optimizationproblems/pull/258) and [independently replayed](https://github.com/teorth/optimizationproblems/pull/258#issuecomment-6625127605) by GitHub user arhancanli on 2026-11-04 (see [c44](c44/README.md#independent-external-replay)). Separately written (same agent) exact checkers; two AI reviews (Claude Opus 5.5 via Claude Science, GPT-6 Astra) found no false step. Rests on published classification premises and our own case searches; no human referee, formalization or optimality claimed
 
 **Claim** (opening of [c44/small-degree-classification/README.md](c44/small-degree-classification/README.md))
 
@@ -1134,15 +1134,15 @@ These are nine candidate improvements to lower bounds in Markus Grassl’s codet
 
 | parameters | field | table lower–upper before (fetch time, UTC) | ours | construction | how d was checked |
 |---|---|---|---:|---|---|
-| [[74,12,43]](q5_n74_k12_d43/) | GF(5) | [42–50](https://www.codetables.de/BKLC/BKLC.php?q=5&n=74&k=12), 2026-11-06 17:21:02.261807 UTC | 43 | Construction XX: cyclic [62,12,35], subcodes [62,9,39] and [62,9,39], intersection [62,6,43], two [6,3,4] tails. | exhaustive enumeration of all projective messages |
-| [[128,14,79]](q5_n128_k14_d79/) | GF(5) | [78–90](https://www.codetables.de/BKLC/BKLC.php?q=5&n=128&k=14), 2026-11-06 17:21:02.252889 UTC | 79 | Construction X: cyclic [124,14,76] containing [124,12,79], with a [4,2,3] tail. | exhaustive enumeration of all projective messages |
-| [[129,14,80]](q5_n129_k14_d80/) | GF(5) | [79–91](https://www.codetables.de/BKLC/BKLC.php?q=5&n=129&k=14), 2026-11-06 18:41:07.276405 UTC | 80 | Construction XX: cyclic [124,14,75], subcodes [124,13,76] and [124,13,82], intersection [124,12,83], tails [1,1,1] and [4,1,4]; also last-coordinate puncturing of [130,14,81]. | provably complete Brouwer–Zimmermann information-set search |
-| [[130,14,81]](q5_n130_k14_d81/) | GF(5) | [80–92](https://www.codetables.de/BKLC/BKLC.php?q=5&n=130&k=14), 2026-11-06 18:41:07.985385 UTC | 81 | Construction XX: cyclic [124,14,75], subcodes [124,13,76] and [124,13,82], intersection [124,12,83], tails [1,1,1] and [5,1,5]. | provably complete Brouwer–Zimmermann information-set search |
-| [[130,16,77]](q5_n130_k16_d77/) | GF(5) | [76–90](https://www.codetables.de/BKLC/BKLC.php?q=5&n=130&k=16), 2026-11-06 18:41:08.432788 UTC | 77 | Construction XX: cyclic [124,16,73], subcodes [124,15,74] and [124,13,76], intersection [124,12,79], tails [1,1,1] and [5,3,3]. | provably complete Brouwer–Zimmermann information-set search |
-| [[99,12,67]](q9_n99_k12_d67/) | GF(9) | [66–78](https://www.codetables.de/BKLC/BKLC.php?q=9&n=99&k=12), 2026-11-06 18:41:08.887505 UTC | 67 | Construction X: cyclic [91,12,61] containing [91,9,67], with an [8,3,6] Reed–Solomon tail. | provably complete Brouwer–Zimmermann information-set search |
-| [[92,13,61]](q9_n92_k13_d61/) | GF(9) | [60–71](https://www.codetables.de/BKLC/BKLC.php?q=9&n=92&k=13), 2026-11-06 20:17:14.279255 UTC | 61 | Construction X: cyclic [91,13,60] containing [91,12,61], with a [1,1,1] tail. | provably complete Brouwer–Zimmermann information-set search |
-| [[106,12,72]](q9_n106_k12_d72/) | GF(9) | [71–84](https://www.codetables.de/BKLC/BKLC.php?q=9&n=106&k=12), 2026-11-07 12:28:23 UTC | 72 | Construction XX: cyclic [91,12,61], subcodes [91,9,66] and [91,9,67], intersection [91,6,72], tails [7,3,5] and [8,3,6]. | exhaustive enumeration of all projective messages |
-| [[85,15,54]](q9_n85_k15_d54/) | GF(9) | [53–63](https://www.codetables.de/BKLC/BKLC.php?q=9&n=85&k=15), 2026-11-08 01:00:38.935 UTC | 54 | Construction XX: cyclic [80,15,51], subcodes [80,14,52] and [80,12,53], intersection [80,11,54], tails [1,1,1] and [4,3,2]. | BCH bound plus a complete Brouwer–Zimmermann search on a shortened subcode |
+| [[74,12,43]](codetables/q5_n74_k12_d43/) | GF(5) | [42–50](https://www.codetables.de/BKLC/BKLC.php?q=5&n=74&k=12), 2026-11-06 17:21:02.261807 UTC | 43 | Construction XX: cyclic [62,12,35], subcodes [62,9,39] and [62,9,39], intersection [62,6,43], two [6,3,4] tails. | exhaustive enumeration of all projective messages |
+| [[128,14,79]](codetables/q5_n128_k14_d79/) | GF(5) | [78–90](https://www.codetables.de/BKLC/BKLC.php?q=5&n=128&k=14), 2026-11-06 17:21:02.252889 UTC | 79 | Construction X: cyclic [124,14,76] containing [124,12,79], with a [4,2,3] tail. | exhaustive enumeration of all projective messages |
+| [[129,14,80]](codetables/q5_n129_k14_d80/) | GF(5) | [79–91](https://www.codetables.de/BKLC/BKLC.php?q=5&n=129&k=14), 2026-11-06 18:41:07.276405 UTC | 80 | Construction XX: cyclic [124,14,75], subcodes [124,13,76] and [124,13,82], intersection [124,12,83], tails [1,1,1] and [4,1,4]; also last-coordinate puncturing of [130,14,81]. | provably complete Brouwer–Zimmermann information-set search |
+| [[130,14,81]](codetables/q5_n130_k14_d81/) | GF(5) | [80–92](https://www.codetables.de/BKLC/BKLC.php?q=5&n=130&k=14), 2026-11-06 18:41:07.985385 UTC | 81 | Construction XX: cyclic [124,14,75], subcodes [124,13,76] and [124,13,82], intersection [124,12,83], tails [1,1,1] and [5,1,5]. | provably complete Brouwer–Zimmermann information-set search |
+| [[130,16,77]](codetables/q5_n130_k16_d77/) | GF(5) | [76–90](https://www.codetables.de/BKLC/BKLC.php?q=5&n=130&k=16), 2026-11-06 18:41:08.432788 UTC | 77 | Construction XX: cyclic [124,16,73], subcodes [124,15,74] and [124,13,76], intersection [124,12,79], tails [1,1,1] and [5,3,3]. | provably complete Brouwer–Zimmermann information-set search |
+| [[99,12,67]](codetables/q9_n99_k12_d67/) | GF(9) | [66–78](https://www.codetables.de/BKLC/BKLC.php?q=9&n=99&k=12), 2026-11-06 18:41:08.887505 UTC | 67 | Construction X: cyclic [91,12,61] containing [91,9,67], with an [8,3,6] Reed–Solomon tail. | provably complete Brouwer–Zimmermann information-set search |
+| [[92,13,61]](codetables/q9_n92_k13_d61/) | GF(9) | [60–71](https://www.codetables.de/BKLC/BKLC.php?q=9&n=92&k=13), 2026-11-06 20:17:14.279255 UTC | 61 | Construction X: cyclic [91,13,60] containing [91,12,61], with a [1,1,1] tail. | provably complete Brouwer–Zimmermann information-set search |
+| [[106,12,72]](codetables/q9_n106_k12_d72/) | GF(9) | [71–84](https://www.codetables.de/BKLC/BKLC.php?q=9&n=106&k=12), 2026-11-07 12:28:23 UTC | 72 | Construction XX: cyclic [91,12,61], subcodes [91,9,66] and [91,9,67], intersection [91,6,72], tails [7,3,5] and [8,3,6]. | exhaustive enumeration of all projective messages |
+| [[85,15,54]](codetables/q9_n85_k15_d54/) | GF(9) | [53–63](https://www.codetables.de/BKLC/BKLC.php?q=9&n=85&k=15), 2026-11-08 01:00:38.935 UTC | 54 | Construction XX: cyclic [80,15,51], subcodes [80,14,52] and [80,12,53], intersection [80,11,54], tails [1,1,1] and [4,3,2]. | BCH bound plus a complete Brouwer–Zimmermann search on a shortened subcode |
 
 Full record: [Result](codetables/README.md)
 
