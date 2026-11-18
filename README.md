@@ -11,6 +11,8 @@ already in pull requests, issues and emails keep working.
 
 Start with the [short retro](RETRO.md): what we did, what broke, what I would do differently and where I think this is going.
 
+Every result in one file, with its claim, derivation, checks and verdict copied from the result folders: [PAPER.md](PAPER.md).
+
 On Tao's optimization-constants table, 6 of my pull requests are merged (#227, #229, #239, #251, #258, #259) and 17 are open, as of 14 November 2026. The merged values are the older ones; most rows below are newer candidates in open PRs.
 
 Verification levels are defined in [VERIFICATION_LEVELS.md](VERIFICATION_LEVELS.md). Every bound below is L0 as a whole: AI-written proofs, checkers by the same AI agent unless a row says otherwise, AI reviews, no human referee. The C91 finite certificate is L1 (checked by code from a different model), and the C30 finite parts have exact checks written by the same agent, which is L0 under these definitions. External replays by a different party are linked in the C44, C70, C82 and C86 rows.
