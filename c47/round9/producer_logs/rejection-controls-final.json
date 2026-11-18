@@ -1,0 +1,65 @@
+[
+  {
+    "control": "raised-claim",
+    "returncode": 1,
+    "output": {
+      "result": "FAIL",
+      "error": "ratio 22878843460258009274861600625288681562329176839147945011303/13414024367090776613897918866165655414442557440000000000000 is below claim 17455172317701728267564087391130138844830526440247988075385410808879427/10234088414833661357038817494328045207552000000000000000000000000000000",
+      "seconds": 49.20983028411865
+    }
+  },
+  {
+    "control": "changed-heavy-mass",
+    "returncode": 1,
+    "output": {
+      "result": "FAIL",
+      "error": "witness lacks strict mass margin",
+      "seconds": 0.02021002769470215
+    }
+  },
+  {
+    "control": "oversized-radius",
+    "returncode": 1,
+    "output": {
+      "result": "FAIL",
+      "error": "witness lacks strict mass margin",
+      "seconds": 0.02006387710571289
+    }
+  },
+  {
+    "control": "expanded-rectangle",
+    "returncode": 1,
+    "output": {
+      "result": "FAIL",
+      "error": "rectangle not inside witness",
+      "seconds": 0.01968836784362793
+    }
+  },
+  {
+    "control": "atom-outside-cell",
+    "returncode": 1,
+    "output": {
+      "result": "FAIL",
+      "error": "invalid atom",
+      "seconds": 0.013898611068725586
+    }
+  },
+  {
+    "control": "zero-mass",
+    "returncode": 1,
+    "output": {
+      "result": "FAIL",
+      "error": "invalid atom",
+      "seconds": 0.013965845108032227
+    }
+  },
+  {
+    "control": "duplicate-atom",
+    "returncode": 1,
+    "output": {
+      "result": "FAIL",
+      "error": "duplicate atom",
+      "seconds": 0.01593613624572754
+    }
+  }
+]

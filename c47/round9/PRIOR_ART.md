@@ -1,0 +1,25 @@
+# Prior art and release comparison scope
+
+Did this packaging job find something new? **No.** It packages the supplied 452-atom construction and supplied clean-room AI referee verdict HOLDS. The construction improves the named printed values under the same C47 definition; this release discovers no new construction and makes no exhaustive priority or optimality claim. The standard frozen-certificate replays reproduce the supplied candidate. No producer or search runs here.
+
+The [live raw table](https://api.github.com/repos/teorth/optimizationproblems/contents/constants/47a.md) and [served page](https://teorth.github.io/optimizationproblems/constants/47a.html) were refreshed at 2026-11-18T09:53:32.855720+00:00. Main is `87b4ebbd426ff8db597a2004cc45da17903bdcf2`, table blob `3023e21af6852f5bf1b7a20ab5c3da98b0706b8a`. The merged table still lists Lin's lower 1.6855099933 and upper 3.879. The strongest applicable public proposal found is this PR (#350), at 1.7055022252 (440 atoms), head `5eb35e9967af2463afe968baa5e0629717819f34`.
+
+All 100 open PRs were fetched after complete API pagination, including the empty second page. Each fetched head matched its API SHA. Complete changed-file lists against the merge base with main found four touching constants/47a.md: #321, #341, this PR (#350), and #363. Their diffs were read. #363 (head `237e30367c2073ee2cf4b3d2e2c26b74c872f980`) only repairs two malformed approx commands in the merged reading note, with no numerical bound change. No other open head contains #350's head, so the existing stack #321 → #341 → #350 remains the requested publication route. #341 stays at `b2925204970588f719a01e3520d9ff112f07b53b`, proposing 1.7032090736. Our #321 prints 1.70311. Earlier round-8 artifacts are at certificate commit `85c4680cc57130d4e9f3f0f48643e51775cdb286`; earlier intermediate steps are cited history, not additional table rows.
+
+The standard method is a positive periodic atomic measure, exact rectangle coverage, finite truncation and smearing, following [Tomar v5, Section 6, Lemma 6.2](https://doi.org/10.5281/zenodo.23716077), following Yongxi Lin. The supplied referee read the mathematical sources. This release reproduces the supplied certificate, rather than rerunning the competing SCiEL certificate; the latter is a cited comparison. Third-party sources consulted by the referee are omitted and inventoried in referee/sources/SOURCES.md. The producer's original prior-art note was read: its November construction was a continuation from a supplied 444-atom predecessor and already documented the same public #350 comparison and method credits. Its source SHA-256 is recorded in the release report.
+
+Updated-sorted repository searches covered “centered maximal”, “square maximal 2026”, and “awesome mathematics”. The first returns Lin's relevant repository and an endpoint-gradient question for balls among unrelated results; the second returns no repositories. The awesome-list search returned general resource lists without an applicable claim in their metadata. Named lab/agent repositories were screened through current public metadata, latest commits and root READMEs:
+
+- BakeLab/Epi-results: head `97fa6a420f417458e11723c8bceb70f1529e447a`; 0 root-README keyword hits.
+- google-deepmind/alphaevolve_results: head `4226acbf237ff9ad10ba7673a2af127a2d8a5971`; 0 root-README keyword hits.
+- google-deepmind/repository_of_problems: HTTP 404; no absence claim.
+- openai/math: head `4eaee87548250b2682affda7d05d947c05554bae`; 0 root-README keyword hits.
+- plasma-ai/erdos: head `6ca84eeb1eb98dcb7012e2a628982cfc0b3b809d`; 0 root-README keyword hits.
+- kisonecat/openai-math: head `77bce8d6471b3ede2fb7364539bb7bee37f6452b`; 0 root-README keyword hits.
+- togethercomputer/EinsteinArena-new-SOTA: head <code>c388c6f7408c886311940&#56;96713339a1a70c2394</code>; 0 root-README keyword hits.
+
+These screens are bounded, not full repository reviews. Public EinsteinArena and Tomar pages were refreshed. Indexed recent-paper and arXiv-targeted searches located Tomar's current Hexagon manuscript (2611.00479v1), whose lower bound 1.702723735 is below this PR's current value. It is a newer publication state than the v5 source used by the supplied proof; this release keeps the specified v5 DOI citation. No new reduction or formal verification is claimed for our certificate. Public X/Reddit/blog searches returned no additional applicable claim in the results inspected; private or unindexed channels were not accessed. No exhaustive priority inference follows.
+
+Predictive baselines and SBS do not apply to an exact mathematical certificate; BASELINES.json records that scope. Exact displayed margins are reproduced by comparison.py. Source captures remain outside the publication packet; compact API attribution and complete Git-tree evidence are metadata only.
+
+Final recheck at 2026-11-18T09:59:40.391490+00:00: main, table bytes and all 100 open PR heads are unchanged. All six accessible lab/agent result heads are unchanged; the updated-sorted square/maximal/2026 repository query still has no matches. Compact evidence is in sources/final-refresh.json.

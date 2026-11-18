@@ -1,0 +1,195 @@
+{
+  "sha": "464ceda9058798f0070ab92d35cd1c51865eb0ec",
+  "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/trees/464ceda9058798f0070ab92d35cd1c51865eb0ec",
+  "tree": [
+    {
+      "path": "HOW_WE_FOUND_IT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bef65f44329888c7422b312fd9b80d14cb8c8ad2",
+      "size": 2346,
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/blobs/bef65f44329888c7422b312fd9b80d14cb8c8ad2"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c3c9ccae7419e8582efcceb54e28532fa43e103",
+      "size": 16450,
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/blobs/4c3c9ccae7419e8582efcceb54e28532fa43e103"
+    },
+    {
+      "path": "RUN_IT_YOURSELF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e159721be832e32e0b58c9b7d3de0a94757f716",
+      "size": 1500,
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/blobs/8e159721be832e32e0b58c9b7d3de0a94757f716"
+    },
+    {
+      "path": "how-we-built-it",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2e731b3f5f80f4569c896b8f27c08b7888c91f73",
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/trees/2e731b3f5f80f4569c896b8f27c08b7888c91f73"
+    },
+    {
+      "path": "how-we-built-it/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ffa852ba1d973976daf7da9d6d8bea3bb7436da",
+      "size": 662,
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/blobs/7ffa852ba1d973976daf7da9d6d8bea3bb7436da"
+    },
+    {
+      "path": "how-we-built-it/author_checker_c3a_check.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee2bf5ba9c955347d9c30484f5ac11d7713affe1",
+      "size": 14634,
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/blobs/ee2bf5ba9c955347d9c30484f5ac11d7713affe1"
+    },
+    {
+      "path": "object",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7143ce9871458c1b235f2ae7538eef9ecf72b59b",
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/trees/7143ce9871458c1b235f2ae7538eef9ecf72b59b"
+    },
+    {
+      "path": "object/finite_certificate_17032_27995.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0adb17338aa2e15df621cba350acfdf69a3e6c1",
+      "size": 1204,
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/blobs/b0adb17338aa2e15df621cba350acfdf69a3e6c1"
+    },
+    {
+      "path": "object/finite_certificate_17086_27995.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82062b108b050a5a2ca5776e9a02a234fe31ff20",
+      "size": 1204,
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/blobs/82062b108b050a5a2ca5776e9a02a234fe31ff20"
+    },
+    {
+      "path": "object/kleinwaks_finite_certificate_17032_34065.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2eb094028561cd9dbb900fc158959236a9d35ed9",
+      "size": 1204,
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/blobs/2eb094028561cd9dbb900fc158959236a9d35ed9"
+    },
+    {
+      "path": "object/mask_17086.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "431bd9cd6914c9848dc1715f2895f9c387cfcd0f",
+      "size": 18450,
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/blobs/431bd9cd6914c9848dc1715f2895f9c387cfcd0f"
+    },
+    {
+      "path": "object/pruned_differences_17086_27995.tsv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d301539275d7fd5f39e37ffbff33279763df0488",
+      "size": 662028,
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/blobs/d301539275d7fd5f39e37ffbff33279763df0488"
+    },
+    {
+      "path": "object/sum_support_17086.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "276189ea96138e02fac4ce0cfb48a91ffcbd1476",
+      "size": 112542,
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/blobs/276189ea96138e02fac4ce0cfb48a91ffcbd1476"
+    },
+    {
+      "path": "proof",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "16734265069d248a5b331f67dc49095f37890883",
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/trees/16734265069d248a5b331f67dc49095f37890883"
+    },
+    {
+      "path": "proof/CLSS_Preprint_2026.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a4ecc175462d53c09054e033bf37f287b912851",
+      "size": 1101963,
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/blobs/8a4ecc175462d53c09054e033bf37f287b912851"
+    },
+    {
+      "path": "proof/CLSS_Preprint_2026.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "866868470d44f817c972eb6c6a5867ec8454da37",
+      "size": 16517,
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/blobs/866868470d44f817c972eb6c6a5867ec8454da37"
+    },
+    {
+      "path": "the-record-we-beat",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f01de4d69f27e64eb9cb318d79d782e0d2112587",
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/trees/f01de4d69f27e64eb9cb318d79d782e0d2112587"
+    },
+    {
+      "path": "the-record-we-beat/3a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "add086af7c7116dc0ccaf821092398e790b89d1d",
+      "size": 9559,
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/blobs/add086af7c7116dc0ccaf821092398e790b89d1d"
+    },
+    {
+      "path": "the-record-we-beat/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01884826543fe6ed9be7e004a8b4bf0c28cdedc6",
+      "size": 1057,
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/blobs/01884826543fe6ed9be7e004a8b4bf0c28cdedc6"
+    },
+    {
+      "path": "verify-it-yourself",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "20b334c7ef2d283f89030977e4f05c8849d58f88",
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/trees/20b334c7ef2d283f89030977e4f05c8849d58f88"
+    },
+    {
+      "path": "verify-it-yourself/3a.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "add086af7c7116dc0ccaf821092398e790b89d1d",
+      "size": 9559,
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/blobs/add086af7c7116dc0ccaf821092398e790b89d1d"
+    },
+    {
+      "path": "verify-it-yourself/RECEIPTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51a4b6025e56670bad8fbe363deed240f36affbb",
+      "size": 1304,
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/blobs/51a4b6025e56670bad8fbe363deed240f36affbb"
+    },
+    {
+      "path": "verify-it-yourself/check_c3a.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a0e135c595243a2ec40e07571bd2b20f9b79682b",
+      "size": 12588,
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/blobs/a0e135c595243a2ec40e07571bd2b20f9b79682b"
+    },
+    {
+      "path": "verify-it-yourself/run_checks.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "965467d7fc91d8f9753181659439937529fb15f8",
+      "size": 1370,
+      "url": "https://api.github.com/repos/mizopl/ghr-c3a-odd-base-finite-bound/git/blobs/965467d7fc91d8f9753181659439937529fb15f8"
+    }
+  ],
+  "truncated": false,
+  "commit": "464ceda9058798f0070ab92d35cd1c51865eb0ec"
+}

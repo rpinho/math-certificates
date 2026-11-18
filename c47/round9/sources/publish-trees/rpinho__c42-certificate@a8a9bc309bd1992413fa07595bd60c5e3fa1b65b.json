@@ -1,0 +1,272 @@
+{
+  "sha": "a8a9bc309bd1992413fa07595bd60c5e3fa1b65b",
+  "url": "https://api.github.com/repos/rpinho/c42-certificate/git/trees/a8a9bc309bd1992413fa07595bd60c5e3fa1b65b",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7836c776616d4a6bface46369c9e9b4c3b151640",
+      "size": 54,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/7836c776616d4a6bface46369c9e9b4c3b151640"
+    },
+    {
+      "path": "FINAL_LIVE_CHECK.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60d7fca50abdede5c0bd0544a41027eb79909c7a",
+      "size": 4077,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/60d7fca50abdede5c0bd0544a41027eb79909c7a"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d307bb5e2b8f9b3595f86a59c2e5b1bc2072fae5",
+      "size": 1070,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/d307bb5e2b8f9b3595f86a59c2e5b1bc2072fae5"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "770219779923c973ba7c4024b69bae84c816e47d",
+      "size": 5073,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/770219779923c973ba7c4024b69bae84c816e47d"
+    },
+    {
+      "path": "SHA256SUMS",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "982ed2d59239d84eb6bf451eb1081b2dfc98ebc6",
+      "size": 2355,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/982ed2d59239d84eb6bf451eb1081b2dfc98ebc6"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f882bb886737d825092f1da169607ed06b7ea419",
+      "size": 906,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/f882bb886737d825092f1da169607ed06b7ea419"
+    },
+    {
+      "path": "certificates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f055c026a9ee17cf19a39f75743e31de09766f7b",
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/trees/f055c026a9ee17cf19a39f75743e31de09766f7b"
+    },
+    {
+      "path": "certificates/c42_256.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e08142cfaaae1fa44812392a6cc32482eedfe1e",
+      "size": 20838,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/2e08142cfaaae1fa44812392a6cc32482eedfe1e"
+    },
+    {
+      "path": "independent",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "80ca9231d23b36859f8d3db60714444666f69c6f",
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/trees/80ca9231d23b36859f8d3db60714444666f69c6f"
+    },
+    {
+      "path": "independent/check_bounds.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e17125b7e1b532c219ef8f3c24bf4e43f5fdb97c",
+      "size": 4795,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/e17125b7e1b532c219ef8f3c24bf4e43f5fdb97c"
+    },
+    {
+      "path": "notes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8a0249f4734d4a74f2bea2b9312ea9fb96f0a7c3",
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/trees/8a0249f4734d4a74f2bea2b9312ea9fb96f0a7c3"
+    },
+    {
+      "path": "notes/turan.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64acd8eabf8639e10bad0942eb61051d66253b7b",
+      "size": 9988,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/64acd8eabf8639e10bad0942eb61051d66253b7b"
+    },
+    {
+      "path": "paper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fc433630bfbe25c54a6648f63a37773719447e64",
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/trees/fc433630bfbe25c54a6648f63a37773719447e64"
+    },
+    {
+      "path": "paper/c42.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3df92ec0ed6f8ca803e7f33444adae911baa1df2",
+      "size": 355095,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/3df92ec0ed6f8ca803e7f33444adae911baa1df2"
+    },
+    {
+      "path": "paper/c42.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d07814409428cacdaf80fe341e48431d29e343d",
+      "size": 10671,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/1d07814409428cacdaf80fe341e48431d29e343d"
+    },
+    {
+      "path": "rejection_controls.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fce69c867f8b2eda41ceafb5dc103c9b358e2e1",
+      "size": 1331,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/8fce69c867f8b2eda41ceafb5dc103c9b358e2e1"
+    },
+    {
+      "path": "reproduce.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1f73e5bfaadd8f0132ada63029730b167c359b70",
+      "size": 533,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/1f73e5bfaadd8f0132ada63029730b167c359b70"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fa417f45da84e4158927323012a5d063b9ce1e9",
+      "size": 34,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/3fa417f45da84e4158927323012a5d063b9ce1e9"
+    },
+    {
+      "path": "sources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "be8d38889451ab1ace6d4fe08cb51c07d8ba26b0",
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/trees/be8d38889451ab1ace6d4fe08cb51c07d8ba26b0"
+    },
+    {
+      "path": "sources/roehrig",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "de39503316648220f98c79191c378b03f1d17edf",
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/trees/de39503316648220f98c79191c378b03f1d17edf"
+    },
+    {
+      "path": "sources/roehrig/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "20c1155397ac9e6687956be11de78d901923f587",
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/trees/20c1155397ac9e6687956be11de78d901923f587"
+    },
+    {
+      "path": "sources/roehrig/scripts/certify_turan.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25348b79c8e0fdc90afcb8260aa41108aa27acbb",
+      "size": 4899,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/25348b79c8e0fdc90afcb8260aa41108aa27acbb"
+    },
+    {
+      "path": "verification",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cce0b461179ac5fca6bee7541084ea7aeefc2250",
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/trees/cce0b461179ac5fca6bee7541084ea7aeefc2250"
+    },
+    {
+      "path": "verification/clean_original_arb.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ae7e4cc739062b275aa3b469946f40a23c1aa26",
+      "size": 1243,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/9ae7e4cc739062b275aa3b469946f40a23c1aa26"
+    },
+    {
+      "path": "verification/clean_original_existing_rejection_controls.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14af039cb2989f3db6fe1a8e5336c03006cc090d",
+      "size": 1353,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/14af039cb2989f3db6fe1a8e5336c03006cc090d"
+    },
+    {
+      "path": "verification/clean_original_interval.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f05f4d7e02ac8056292065fa5fb9237cb5f53799",
+      "size": 15141,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/f05f4d7e02ac8056292065fa5fb9237cb5f53799"
+    },
+    {
+      "path": "verification/clean_original_rejection_controls.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a07a021fa4dc9f13424911349242c62e708965d9",
+      "size": 1645,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/a07a021fa4dc9f13424911349242c62e708965d9"
+    },
+    {
+      "path": "verification/clean_public_arb.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8cea4c16ab13ba4000183e0eb6b351fd5306086",
+      "size": 1243,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/f8cea4c16ab13ba4000183e0eb6b351fd5306086"
+    },
+    {
+      "path": "verification/clean_public_interval.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f47e6f4246601757175482d1792c1968a113315",
+      "size": 15254,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/6f47e6f4246601757175482d1792c1968a113315"
+    },
+    {
+      "path": "verification/clean_public_rejection_controls.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60821e83e7c178b8270530a1676b1810cfb4b284",
+      "size": 1645,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/60821e83e7c178b8270530a1676b1810cfb4b284"
+    },
+    {
+      "path": "verification/live_source_receipts.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "726265ae4d379d476258c5c0b53a63115fb79a02",
+      "size": 4034,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/726265ae4d379d476258c5c0b53a63115fb79a02"
+    },
+    {
+      "path": "verification/paper_change.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7baabe0272a32e8564d85f2033f5a5d1461f400",
+      "size": 464,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/e7baabe0272a32e8564d85f2033f5a5d1461f400"
+    },
+    {
+      "path": "verification/public_reproduction.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a94863a42a18c264cd67cdd3cbf8fc858c4e75a3",
+      "size": 510,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/a94863a42a18c264cd67cdd3cbf8fc858c4e75a3"
+    },
+    {
+      "path": "verify_primary.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0510293d0c4b70a9862958793c024e5d52a917d6",
+      "size": 1161,
+      "url": "https://api.github.com/repos/rpinho/c42-certificate/git/blobs/0510293d0c4b70a9862958793c024e5d52a917d6"
+    }
+  ],
+  "truncated": false,
+  "commit": "a8a9bc309bd1992413fa07595bd60c5e3fa1b65b"
+}

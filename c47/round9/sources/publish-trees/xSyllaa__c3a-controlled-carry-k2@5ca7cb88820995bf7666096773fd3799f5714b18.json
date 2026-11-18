@@ -1,0 +1,349 @@
+{
+  "sha": "5ca7cb88820995bf7666096773fd3799f5714b18",
+  "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/trees/5ca7cb88820995bf7666096773fd3799f5714b18",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e3eb09814b9ddd5e61a852b05f6ff40c2343b13",
+      "size": 43,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/1e3eb09814b9ddd5e61a852b05f6ff40c2343b13"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7e2f5348c48813225d1434a3a5aa40ce3ec0c3e",
+      "size": 1072,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/f7e2f5348c48813225d1434a3a5aa40ce3ec0c3e"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0aefe98ba5e733b7d88a9404fd4b941eefdf1e4b",
+      "size": 7184,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/0aefe98ba5e733b7d88a9404fd4b941eefdf1e4b"
+    },
+    {
+      "path": "SHA256SUMS",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87ea2104d4af8044362f29d31c6b7625402a90b6",
+      "size": 2975,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/87ea2104d4af8044362f29d31c6b7625402a90b6"
+    },
+    {
+      "path": "certificates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b03de8f84e4fcbe81856cd7701f6ce84d1b46d02",
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/trees/b03de8f84e4fcbe81856cd7701f6ce84d1b46d02"
+    },
+    {
+      "path": "certificates/cert_indep_ell_1e18.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9f4adde9fd6ec41864996917c37461318057653",
+      "size": 550,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/b9f4adde9fd6ec41864996917c37461318057653"
+    },
+    {
+      "path": "certificates/cert_primary_ell_1e18.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "620fdede0d31bf81367c4eda481eddee829ebb75",
+      "size": 1554,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/620fdede0d31bf81367c4eda481eddee829ebb75"
+    },
+    {
+      "path": "certificates/cert_primary_ell_1e20.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccdb39311967a964e51e9ea55cc52505c1c1b250",
+      "size": 1564,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/ccdb39311967a964e51e9ea55cc52505c1c1b250"
+    },
+    {
+      "path": "certificates/cert_secondary_ell_1e18.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff56c3d59660e0b594197722048add40bbf6627f",
+      "size": 1641,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/ff56c3d59660e0b594197722048add40bbf6627f"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b15f61a49ddb903ab61be5fa2ef4b41df001d837",
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/trees/b15f61a49ddb903ab61be5fa2ef4b41df001d837"
+    },
+    {
+      "path": "data/k2_cost_hist.tsv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f4eb0c1a6b6b1dad2a4aca03901fc9b433971bc",
+      "size": 295591,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/4f4eb0c1a6b6b1dad2a4aca03901fc9b433971bc"
+    },
+    {
+      "path": "data/k2_meta.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c4a8c4215af06bba96eedf14edc8f0d1ad9940b",
+      "size": 383,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/9c4a8c4215af06bba96eedf14edc8f0d1ad9940b"
+    },
+    {
+      "path": "data/sumset.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06fb6ca99c7e11fa47e3bc157ea429a8e364b6e2",
+      "size": 187471,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/06fb6ca99c7e11fa47e3bc157ea429a8e364b6e2"
+    },
+    {
+      "path": "k3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "89c20185a243965d7bcb23ef003f5c89cae22e44",
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/trees/89c20185a243965d7bcb23ef003f5c89cae22e44"
+    },
+    {
+      "path": "k3/certificates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ba405226deb3444966aae406a3e3f8f07c930cca",
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/trees/ba405226deb3444966aae406a3e3f8f07c930cca"
+    },
+    {
+      "path": "k3/certificates/cert_k3_primary_ell_1e24.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89fce4e0ca68a14d99b2d2a8d237a9a527f0d60e",
+      "size": 1533,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/89fce4e0ca68a14d99b2d2a8d237a9a527f0d60e"
+    },
+    {
+      "path": "k3/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4badf3eb322209f96ab9c1bd60742362055bffa5",
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/trees/4badf3eb322209f96ab9c1bd60742362055bffa5"
+    },
+    {
+      "path": "k3/data/k3_cost_hist.tsv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30ce678fce00ea7606a8b4cfde6cd3b7dc8cbe47",
+      "size": 780080,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/30ce678fce00ea7606a8b4cfde6cd3b7dc8cbe47"
+    },
+    {
+      "path": "k3/proof",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ab05d5954cf3eeb917aee1b4223fd56d3a335116",
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/trees/ab05d5954cf3eeb917aee1b4223fd56d3a335116"
+    },
+    {
+      "path": "k3/proof/THEOREM_k.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d8f54eaa13de1d2cce8a6efba61e725359a4fcf",
+      "size": 9071,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/8d8f54eaa13de1d2cce8a6efba61e725359a4fcf"
+    },
+    {
+      "path": "k3/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e84ca976f37a26472e48ca5decca11501eae47de",
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/trees/e84ca976f37a26472e48ca5decca11501eae47de"
+    },
+    {
+      "path": "k3/src/k3_auto_A.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a74998b943f6f1fe291f07f6a382b187f247c1a5",
+      "size": 4896,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/a74998b943f6f1fe291f07f6a382b187f247c1a5"
+    },
+    {
+      "path": "k3/src/k3_pairs_B.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a9f8318b368b72c5e781151776f4e5c747b8345",
+      "size": 3881,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/8a9f8318b368b72c5e781151776f4e5c747b8345"
+    },
+    {
+      "path": "k3/verify",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "84195b6bbf590ac4e56ebef82b6d512526a24348",
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/trees/84195b6bbf590ac4e56ebef82b6d512526a24348"
+    },
+    {
+      "path": "k3/verify/cert_k3_primary.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7d9fe0b3458fb42f40a93b2e7f47807d2b44eae",
+      "size": 11513,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/f7d9fe0b3458fb42f40a93b2e7f47807d2b44eae"
+    },
+    {
+      "path": "k3/verify/cert_k3_secondary_mpmath_iv.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b94a1a8894ac02fc3085dff390f6d6285bedaa80",
+      "size": 4788,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/b94a1a8894ac02fc3085dff390f6d6285bedaa80"
+    },
+    {
+      "path": "k3/verify/mpfr_ctypes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "146d381970f3844fc386b720c9b231c71dadb955",
+      "size": 5999,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/146d381970f3844fc386b720c9b231c71dadb955"
+    },
+    {
+      "path": "k3/verify/run_k3.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1d85540b7c9f999ce8654967ffc3d45a60d7d57b",
+      "size": 2918,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/1d85540b7c9f999ce8654967ffc3d45a60d7d57b"
+    },
+    {
+      "path": "k3/verify/run_k3_full_output.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01c60d0b2518642c2cf6bc942f085d9106de6625",
+      "size": 901,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/01c60d0b2518642c2cf6bc942f085d9106de6625"
+    },
+    {
+      "path": "k3/verify/run_k3_output.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed5969aacd8e6459ab0dd20e4641f86fbc1a735e",
+      "size": 632,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/ed5969aacd8e6459ab0dd20e4641f86fbc1a735e"
+    },
+    {
+      "path": "proof",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6d8991d47e26597e8f0038a1a2834ad1adfaabc6",
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/trees/6d8991d47e26597e8f0038a1a2834ad1adfaabc6"
+    },
+    {
+      "path": "proof/THEOREM.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6c04f8f9637dc3b62072ec048701a57d7d7f85d",
+      "size": 7553,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/f6c04f8f9637dc3b62072ec048701a57d7d7f85d"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ae41c3ec6e82642de590112164411e324cac7952",
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/trees/ae41c3ec6e82642de590112164411e324cac7952"
+    },
+    {
+      "path": "src/finite_k2.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "929550bfbb72e25c34a3c38d88b9705b08d14c41",
+      "size": 5000,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/929550bfbb72e25c34a3c38d88b9705b08d14c41"
+    },
+    {
+      "path": "src/hist_indep.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38af2400934c52eaf8ab72ce8344f38da8071cde",
+      "size": 2722,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/38af2400934c52eaf8ab72ce8344f38da8071cde"
+    },
+    {
+      "path": "verify",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5b6e0e53bfc3b41a93555f22554f4ea9d3b53f00",
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/trees/5b6e0e53bfc3b41a93555f22554f4ea9d3b53f00"
+    },
+    {
+      "path": "verify/cert_indep_robbins.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bd6c463574a75105927118c87028adb143af0ed",
+      "size": 2351,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/6bd6c463574a75105927118c87028adb143af0ed"
+    },
+    {
+      "path": "verify/cert_primary.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db6fdb5fe08d9e381c34502bc17a72e96e00e715",
+      "size": 10321,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/db6fdb5fe08d9e381c34502bc17a72e96e00e715"
+    },
+    {
+      "path": "verify/cert_secondary_mpmath.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "022027776b328499b0c872cd4479428dbf695448",
+      "size": 7780,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/022027776b328499b0c872cd4479428dbf695448"
+    },
+    {
+      "path": "verify/mpfr_ctypes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "146d381970f3844fc386b720c9b231c71dadb955",
+      "size": 5999,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/146d381970f3844fc386b720c9b231c71dadb955"
+    },
+    {
+      "path": "verify/run_all.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "77a4a0bc1178bd84334fa5504dd8a25acb7f34a0",
+      "size": 2858,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/77a4a0bc1178bd84334fa5504dd8a25acb7f34a0"
+    },
+    {
+      "path": "verify/run_all_output.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "043deb209b151dae0ee4fff2227f871ad2fdd6ae",
+      "size": 958,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/043deb209b151dae0ee4fff2227f871ad2fdd6ae"
+    },
+    {
+      "path": "verify/toy_bruteforce.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d1a6addc6425d9ea3cc4fbe65c3608d0105b219",
+      "size": 3305,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/9d1a6addc6425d9ea3cc4fbe65c3608d0105b219"
+    },
+    {
+      "path": "verify/xopt_solve.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c89e06f52e679da219f2a71192cccba7fa4dab1c",
+      "size": 1760,
+      "url": "https://api.github.com/repos/xSyllaa/c3a-controlled-carry-k2/git/blobs/c89e06f52e679da219f2a71192cccba7fa4dab1c"
+    }
+  ],
+  "truncated": false,
+  "commit": "5ca7cb88820995bf7666096773fd3799f5714b18"
+}

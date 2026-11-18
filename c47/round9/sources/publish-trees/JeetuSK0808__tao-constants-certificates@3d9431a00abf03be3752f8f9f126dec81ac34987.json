@@ -1,0 +1,433 @@
+{
+  "sha": "3d9431a00abf03be3752f8f9f126dec81ac34987",
+  "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/trees/3d9431a00abf03be3752f8f9f126dec81ac34987",
+  "tree": [
+    {
+      "path": "LICENSE-CODE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2029c164bcbe75b840bf5d0c90ebf409a289ed3b",
+      "size": 1081,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/2029c164bcbe75b840bf5d0c90ebf409a289ed3b"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bad4ce3088713479df076b408dc47370bf5fa55",
+      "size": 1449,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/9bad4ce3088713479df076b408dc47370bf5fa55"
+    },
+    {
+      "path": "c31-chvatal-sankoff-replay",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d1ec0cb5bc8c4fca9b8b85ca2175823fff6d155d",
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/trees/d1ec0cb5bc8c4fca9b8b85ca2175823fff6d155d"
+    },
+    {
+      "path": "c31-chvatal-sankoff-replay/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5ff5e17269afcc6853d9e054030074136a87eab",
+      "size": 4284,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/b5ff5e17269afcc6853d9e054030074136a87eab"
+    },
+    {
+      "path": "c31-chvatal-sankoff-replay/SHA256SUMS.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ccacfd3ad17b258f3846f6a11db8508ecf4a1ca",
+      "size": 1153,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/5ccacfd3ad17b258f3846f6a11db8508ecf4a1ca"
+    },
+    {
+      "path": "c31-chvatal-sankoff-replay/certify.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ac4938f1ae5fb04aa3c9f28af112d4ea4d4aad6",
+      "size": 1901,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/3ac4938f1ae5fb04aa3c9f28af112d4ea4d4aad6"
+    },
+    {
+      "path": "c31-chvatal-sankoff-replay/lcsauto.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f1835ae6871a3037797dfda303f8c426d642230",
+      "size": 12380,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/8f1835ae6871a3037797dfda303f8c426d642230"
+    },
+    {
+      "path": "c31-chvatal-sankoff-replay/results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9e017779b2133952ba93a06119ce11e7d4d250f0",
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/trees/9e017779b2133952ba93a06119ce11e7d4d250f0"
+    },
+    {
+      "path": "c31-chvatal-sankoff-replay/results/bound10.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe7518fb16b678605eed527d86cb4211827d7974",
+      "size": 139,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/fe7518fb16b678605eed527d86cb4211827d7974"
+    },
+    {
+      "path": "c31-chvatal-sankoff-replay/results/bound9.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4ce122c94bb06c49016cc43e9b7b75c65ab4448",
+      "size": 137,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/f4ce122c94bb06c49016cc43e9b7b75c65ab4448"
+    },
+    {
+      "path": "c31-chvatal-sankoff-replay/results/build10.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a8dd48c820c931a3a15290f22c289420b06f202",
+      "size": 45,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/4a8dd48c820c931a3a15290f22c289420b06f202"
+    },
+    {
+      "path": "c31-chvatal-sankoff-replay/results/build9.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2a47ea993887337ca51b8a8d71f0945f971ff5f",
+      "size": 42,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/f2a47ea993887337ca51b8a8d71f0945f971ff5f"
+    },
+    {
+      "path": "c31-chvatal-sankoff-replay/results/cert10.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db34047c8b19399351fc0721a213b62035a03039",
+      "size": 79,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/db34047c8b19399351fc0721a213b62035a03039"
+    },
+    {
+      "path": "c31-chvatal-sankoff-replay/results/cert9.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58a25a7872b21342efe54d268f0dbe7f25027811",
+      "size": 78,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/58a25a7872b21342efe54d268f0dbe7f25027811"
+    },
+    {
+      "path": "c31-chvatal-sankoff-replay/results/eig10_tail.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e951792004b9fb9d7ae30ec621cf8e1e03069fbd",
+      "size": 165,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/e951792004b9fb9d7ae30ec621cf8e1e03069fbd"
+    },
+    {
+      "path": "c31-chvatal-sankoff-replay/results/eig9_tail.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dde655ee9937734e9d96ed5af045a1115708fb0f",
+      "size": 110,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/dde655ee9937734e9d96ed5af045a1115708fb0f"
+    },
+    {
+      "path": "c31-chvatal-sankoff-replay/results/w10.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0bf8d2965c7fd9c0514c78f6570ae2cf2f6139",
+      "size": 411,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/2c0bf8d2965c7fd9c0514c78f6570ae2cf2f6139"
+    },
+    {
+      "path": "c31-chvatal-sankoff-replay/results/w9.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d05463ce251bb8363dbab132ce4ca8b1543a16ef",
+      "size": 367,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/d05463ce251bb8363dbab132ce4ca8b1543a16ef"
+    },
+    {
+      "path": "c31-chvatal-sankoff-replay/run.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "657a69b704038bfd4159b130119dc99605c87bc4",
+      "size": 707,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/657a69b704038bfd4159b130119dc99605c87bc4"
+    },
+    {
+      "path": "c5b-erdos757-small-n",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3a15efe1a7baed2e30f4b8728bef39b007ea1634",
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/trees/3a15efe1a7baed2e30f4b8728bef39b007ea1634"
+    },
+    {
+      "path": "c5b-erdos757-small-n/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4552e49ed3265b59d39bd65539644726dc58fde8",
+      "size": 1671,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/4552e49ed3265b59d39bd65539644726dc58fde8"
+    },
+    {
+      "path": "c5b-erdos757-small-n/SHA256SUMS.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89a949b4969d8e1713df2515528779cc7de669c3",
+      "size": 1358,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/89a949b4969d8e1713df2515528779cc7de669c3"
+    },
+    {
+      "path": "c5b-erdos757-small-n/certificates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8a399b2bd4f446401e9440f3b4b9276a00dfb264",
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/trees/8a399b2bd4f446401e9440f3b4b9276a00dfb264"
+    },
+    {
+      "path": "c5b-erdos757-small-n/certificates/n10.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3a3f9ea897cc339442c063dc25fc88245915206",
+      "size": 31,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/e3a3f9ea897cc339442c063dc25fc88245915206"
+    },
+    {
+      "path": "c5b-erdos757-small-n/certificates/n11.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "956483c91890e3cb99b5a4e75335f40611fde8b2",
+      "size": 42,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/956483c91890e3cb99b5a4e75335f40611fde8b2"
+    },
+    {
+      "path": "c5b-erdos757-small-n/certificates/n12.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8145cb2b3fad98e1a2afc490154e6d2c69ee064",
+      "size": 44,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/c8145cb2b3fad98e1a2afc490154e6d2c69ee064"
+    },
+    {
+      "path": "c5b-erdos757-small-n/certificates/n13.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87858cffbdea8b8652438135809921a8b282692b",
+      "size": 49,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/87858cffbdea8b8652438135809921a8b282692b"
+    },
+    {
+      "path": "c5b-erdos757-small-n/certificates/n14.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2854c8b298bd2d92ac9b72db4514da7a897a2963",
+      "size": 59,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/2854c8b298bd2d92ac9b72db4514da7a897a2963"
+    },
+    {
+      "path": "c5b-erdos757-small-n/certificates/n15.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b1dd16f666d19bffa4165b9e242f86de3bdf616",
+      "size": 69,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/6b1dd16f666d19bffa4165b9e242f86de3bdf616"
+    },
+    {
+      "path": "c5b-erdos757-small-n/certificates/n17.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb86914a8ba82be665b01408af337190ef51e892",
+      "size": 83,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/cb86914a8ba82be665b01408af337190ef51e892"
+    },
+    {
+      "path": "c5b-erdos757-small-n/certificates/n19.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12fda16640aa8f848728606ee836a54f47c8f127",
+      "size": 92,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/12fda16640aa8f848728606ee836a54f47c8f127"
+    },
+    {
+      "path": "c5b-erdos757-small-n/certificates/n21.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba12a215ca5c5fe4e474d772d5c1150eaa5a68d8",
+      "size": 126,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/ba12a215ca5c5fe4e474d772d5c1150eaa5a68d8"
+    },
+    {
+      "path": "c5b-erdos757-small-n/certificates/n6.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c6b303b30e1fca01788d63a953d475276e497bc",
+      "size": 13,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/9c6b303b30e1fca01788d63a953d475276e497bc"
+    },
+    {
+      "path": "c5b-erdos757-small-n/certificates/n7.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d06c44a0c38d8cc2b4cb7dd9417f986358e2b564",
+      "size": 19,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/d06c44a0c38d8cc2b4cb7dd9417f986358e2b564"
+    },
+    {
+      "path": "c5b-erdos757-small-n/certificates/n8.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2fd687abdbd0808c66d7e5d8953433b71006121",
+      "size": 23,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/a2fd687abdbd0808c66d7e5d8953433b71006121"
+    },
+    {
+      "path": "c5b-erdos757-small-n/certificates/n9.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bae328720c1a27a8f5d0cdc32c3f1424be073d76",
+      "size": 26,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/bae328720c1a27a8f5d0cdc32c3f1424be073d76"
+    },
+    {
+      "path": "c5b-erdos757-small-n/check_all.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a04f49a7e80acf5a99ca7bd5e199ec8a01f0c1f0",
+      "size": 673,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/a04f49a7e80acf5a99ca7bd5e199ec8a01f0c1f0"
+    },
+    {
+      "path": "c5b-erdos757-small-n/verify.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "baaf16984de3bde287600cfb18bfc11596a86458",
+      "size": 2315,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/baaf16984de3bde287600cfb18bfc11596a86458"
+    },
+    {
+      "path": "c5b-erdos757-small-n/zenodo_metadata.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bceae64f7db65ebb39b458bb9497962bca46b961",
+      "size": 749,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/bceae64f7db65ebb39b458bb9497962bca46b961"
+    },
+    {
+      "path": "c84b-sum-product-check",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "29074e3efc75e69b99c95596dcb072700f828102",
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/trees/29074e3efc75e69b99c95596dcb072700f828102"
+    },
+    {
+      "path": "c84b-sum-product-check/REPORT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e9151e2b9690f2c336ba7dcd669b4264fc934f1",
+      "size": 2506,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/7e9151e2b9690f2c336ba7dcd669b4264fc934f1"
+    },
+    {
+      "path": "c84b-sum-product-check/check_84b.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efc0d49502471e61b26252d658b4d946a158d79c",
+      "size": 2466,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/efc0d49502471e61b26252d658b4d946a158d79c"
+    },
+    {
+      "path": "c89-k4-ramsey-multiplicity",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3e82eb5c8997b7c5d212af6608c876a4f4d44c51",
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/trees/3e82eb5c8997b7c5d212af6608c876a4f4d44c51"
+    },
+    {
+      "path": "c89-k4-ramsey-multiplicity/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f558f47406eb65fe9fafe7ab47a509419c89066",
+      "size": 2042,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/5f558f47406eb65fe9fafe7ab47a509419c89066"
+    },
+    {
+      "path": "c89-k4-ramsey-multiplicity/SHA256SUMS.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89c5d2924d25083fa0d09d7173b1a2416acc9dbb",
+      "size": 699,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/89c5d2924d25083fa0d09d7173b1a2416acc9dbb"
+    },
+    {
+      "path": "c89-k4-ramsey-multiplicity/c89_stepgraphon_D20.json.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfa12c17b268d70315bf4f1c1f6a8f7aa63036ef",
+      "size": 1558490,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/cfa12c17b268d70315bf4f1c1f6a8f7aa63036ef"
+    },
+    {
+      "path": "c89-k4-ramsey-multiplicity/exact_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef4985d70061bc89b4e8f2d29dc00b880b7c6d82",
+      "size": 3331,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/ef4985d70061bc89b4e8f2d29dc00b880b7c6d82"
+    },
+    {
+      "path": "c89-k4-ramsey-multiplicity/float_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd7aa17086d746986df89be068ff00528db60f67",
+      "size": 1368,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/dd7aa17086d746986df89be068ff00528db60f67"
+    },
+    {
+      "path": "c89-k4-ramsey-multiplicity/refine.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7c9ff26d09c73b2e4ae8e92fd59b939686632a6",
+      "size": 3430,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/b7c9ff26d09c73b2e4ae8e92fd59b939686632a6"
+    },
+    {
+      "path": "c89-k4-ramsey-multiplicity/results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b02c6cfec8dd13288e41e3cbecd83b56bbb0275",
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/trees/8b02c6cfec8dd13288e41e3cbecd83b56bbb0275"
+    },
+    {
+      "path": "c89-k4-ramsey-multiplicity/results/candidate_exact.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52683c252b4774f59389e67e03e656fe9ab0d194",
+      "size": 608,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/52683c252b4774f59389e67e03e656fe9ab0d194"
+    },
+    {
+      "path": "c89-k4-ramsey-multiplicity/results/candidate_float.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5a470aac8ba31a1f9687ca888c8fe934a572097",
+      "size": 69,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/c5a470aac8ba31a1f9687ca888c8fe934a572097"
+    },
+    {
+      "path": "c89-k4-ramsey-multiplicity/results/input_sha256.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e5e210b02a251086dd287496513f2dcc1976106",
+      "size": 112,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/0e5e210b02a251086dd287496513f2dcc1976106"
+    },
+    {
+      "path": "c89-k4-ramsey-multiplicity/results/refine_tail.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5153ca17fbea7aa846ca5ab349a271479b7af1f",
+      "size": 359,
+      "url": "https://api.github.com/repos/JeetuSK0808/tao-constants-certificates/git/blobs/b5153ca17fbea7aa846ca5ab349a271479b7af1f"
+    }
+  ],
+  "truncated": false,
+  "commit": "3d9431a00abf03be3752f8f9f126dec81ac34987"
+}

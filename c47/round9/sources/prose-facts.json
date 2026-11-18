@@ -1,0 +1,29 @@
+{
+  "source": "Supplied round-7 PR text and credits; official page-47a definition; supplied producer and referee proof. Cited context, no new computation.",
+  "verification_level": "L0",
+  "definition": {
+    "weak_type": [
+      1,
+      1
+    ],
+    "dimension": 2,
+    "constant": "C47",
+    "cell_origin": 0
+  },
+  "finite_boundary_loss": 4,
+  "model_versions": {
+    "producer": "GPT-6.1 Sol via Codex",
+    "referee": "GPT-6 Astra via Codex",
+    "coordination": "Claude Code with Claude Opus 5.5"
+  },
+  "tomar": {
+    "atoms": 50,
+    "version": 5,
+    "section": 6,
+    "lemma": "6.2",
+    "url": "https://doi.org/10.5281/zenodo.23716077"
+  },
+  "sha_digest_bits": 256,
+  "producer": "CREDITS.md, PROOF.md, and supplied historical PR text",
+  "verification_definition": "https://github.com/rpinho/math-certificates/blob/59eeb7097f806da05187b5f234445be3589204d4/VERIFICATION_LEVELS.md"
+}

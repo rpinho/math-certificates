@@ -1,0 +1,39 @@
+{
+  "target": "teorth/optimizationproblems#350",
+  "new_bound": true,
+  "producer_author": "producer search-and-checker session",
+  "producer_model": "GPT-6.1 Sol via Codex",
+  "replay_inputs": {
+    "referee/sources/producer-proof.md": "proof",
+    "certificates/final.json": "certificate",
+    "producer_logs/final-finite.json": "certificate"
+  },
+  "publication_commit": "5eb35e9967af2463afe968baa5e0629717819f34",
+  "publication_tree": "sources/publish-trees/rpinho__optimizationproblems@5eb35e9967af2463afe968baa5e0629717819f34.json",
+  "linked_trees": {
+    "463464q435q43/optimizationproblems@6baae4c15dccec1e94ac011de399ec382fcea7b6": "sources/publish-trees/463464q435q43__optimizationproblems@6baae4c15dccec1e94ac011de399ec382fcea7b6.json",
+    "463464q435q43/optimizationproblems@cc8107854fedd5a96d7eb695178f405568712f35": "sources/publish-trees/463464q435q43__optimizationproblems@cc8107854fedd5a96d7eb695178f405568712f35.json",
+    "JeetuSK0808/tao-constants-certificates@3d9431a00abf03be3752f8f9f126dec81ac34987": "sources/publish-trees/JeetuSK0808__tao-constants-certificates@3d9431a00abf03be3752f8f9f126dec81ac34987.json",
+    "YouhuaLi/tight-alternating-knot-constant@debf7c92f93bae64486e6302e565a2d3b1290f9c": "sources/publish-trees/YouhuaLi__tight-alternating-knot-constant@debf7c92f93bae64486e6302e565a2d3b1290f9c.json",
+    "mizopl/ghr-c3a-odd-base-finite-bound@464ceda9058798f0070ab92d35cd1c51865eb0ec": "sources/publish-trees/mizopl__ghr-c3a-odd-base-finite-bound@464ceda9058798f0070ab92d35cd1c51865eb0ec.json",
+    "rpinho/c42-certificate@a8a9bc309bd1992413fa07595bd60c5e3fa1b65b": "sources/publish-trees/rpinho__c42-certificate@a8a9bc309bd1992413fa07595bd60c5e3fa1b65b.json",
+    "rpinho/c44-certificate@f3fb25dfb88de3da8b1a0b30f03fdb51b78ccef9": "sources/publish-trees/rpinho__c44-certificate@f3fb25dfb88de3da8b1a0b30f03fdb51b78ccef9.json",
+    "rpinho/c70-certificate@680e074bb50929734bfd76484d716cd3e85827f0": "sources/publish-trees/rpinho__c70-certificate@680e074bb50929734bfd76484d716cd3e85827f0.json",
+    "rpinho/math-certificates@2f2f12bfcfb3dd3fc11ed2ee01c75eb86604a138": "sources/publish-trees/rpinho__math-certificates@2f2f12bfcfb3dd3fc11ed2ee01c75eb86604a138.json",
+    "rpinho/math-certificates@3d4cd5574f894d7df2159dfd29d9dd99461cbe1f": "sources/publish-trees/rpinho__math-certificates@3d4cd5574f894d7df2159dfd29d9dd99461cbe1f.json",
+    "rpinho/math-certificates@59eeb7097f806da05187b5f234445be3589204d4": "sources/publish-trees/rpinho__math-certificates@59eeb7097f806da05187b5f234445be3589204d4.json",
+    "rpinho/math-certificates@85c4680cc57130d4e9f3f0f48643e51775cdb286": "sources/publish-trees/rpinho__math-certificates@85c4680cc57130d4e9f3f0f48643e51775cdb286.json",
+    "rpinho/optimizationproblems@5eb35e9967af2463afe968baa5e0629717819f34": "sources/publish-trees/rpinho__optimizationproblems@5eb35e9967af2463afe968baa5e0629717819f34.json",
+    "steps-re/c1d-certificate@9a091494facc801eaf6b92b175b63c58b7c3b30b": "sources/publish-trees/steps-re__c1d-certificate@9a091494facc801eaf6b92b175b63c58b7c3b30b.json",
+    "xSyllaa/c3a-controlled-carry-k2@5ca7cb88820995bf7666096773fd3799f5714b18": "sources/publish-trees/xSyllaa__c3a-controlled-carry-k2@5ca7cb88820995bf7666096773fd3799f5714b18.json"
+  },
+  "submitter": "rpinho",
+  "destination": "c47/round9",
+  "stacked_on": 341,
+  "stack_history": [
+    321,
+    341
+  ],
+  "pr_number": 350,
+  "publication_links": "COMMIT_SHA denotes the pending certificate commit. The publication tree identifies the current public PR head, not the proposed files."
+}

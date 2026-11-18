@@ -1,0 +1,196 @@
+{
+  "sha": "680e074bb50929734bfd76484d716cd3e85827f0",
+  "url": "https://api.github.com/repos/rpinho/c70-certificate/git/trees/680e074bb50929734bfd76484d716cd3e85827f0",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47a56461cd99fae5b9021fb26e4202625a928920",
+      "size": 60,
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/blobs/47a56461cd99fae5b9021fb26e4202625a928920"
+    },
+    {
+      "path": "FINAL_LIVE_CHECK.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43606ea90aa09bd51c1ad5baebce348f51c70205",
+      "size": 5626,
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/blobs/43606ea90aa09bd51c1ad5baebce348f51c70205"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d307bb5e2b8f9b3595f86a59c2e5b1bc2072fae5",
+      "size": 1070,
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/blobs/d307bb5e2b8f9b3595f86a59c2e5b1bc2072fae5"
+    },
+    {
+      "path": "PAPER_CHANGES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bcb19f59ccf3e6d037343c7883739e37a3609bf",
+      "size": 1266,
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/blobs/8bcb19f59ccf3e6d037343c7883739e37a3609bf"
+    },
+    {
+      "path": "PRIOR_ART.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dd96be772a64c75a54e25573d3cf374b1a5f29b",
+      "size": 2305,
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/blobs/6dd96be772a64c75a54e25573d3cf374b1a5f29b"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1ee745d43426f8b7dc829e8d6178288a2041846",
+      "size": 4722,
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/blobs/d1ee745d43426f8b7dc829e8d6178288a2041846"
+    },
+    {
+      "path": "SHA256SUMS",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc72876ff25a6a596f4a2b445b78578360150996",
+      "size": 1686,
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/blobs/bc72876ff25a6a596f4a2b445b78578360150996"
+    },
+    {
+      "path": "certificates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ab8173b71b8b672ed37fc06dbe05e97d8fd6343c",
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/trees/ab8173b71b8b672ed37fc06dbe05e97d8fd6343c"
+    },
+    {
+      "path": "certificates/c70_candidate.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "548a53f3546d70b69d70f40b7398bdf53dd3acbf",
+      "size": 320,
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/blobs/548a53f3546d70b69d70f40b7398bdf53dd3acbf"
+    },
+    {
+      "path": "independent",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bf53b5745b37bb5c5ee6d7dcf1ccfbae3ecd344e",
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/trees/bf53b5745b37bb5c5ee6d7dcf1ccfbae3ecd344e"
+    },
+    {
+      "path": "independent/verify_c70_rational.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c001f09b10b4c914bfce4f3d7d111a7210191f46",
+      "size": 2892,
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/blobs/c001f09b10b4c914bfce4f3d7d111a7210191f46"
+    },
+    {
+      "path": "paper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9a6f538cd7454418cd91e1c9fa5dd756c28589ce",
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/trees/9a6f538cd7454418cd91e1c9fa5dd756c28589ce"
+    },
+    {
+      "path": "paper/c70.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acfe7acc24f8b146a2c60a40fe0df8be87feefb0",
+      "size": 342916,
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/blobs/acfe7acc24f8b146a2c60a40fe0df8be87feefb0"
+    },
+    {
+      "path": "paper/c70.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "193fc234bbe8de0b71948a5505a209df9fa81c12",
+      "size": 9301,
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/blobs/193fc234bbe8de0b71948a5505a209df9fa81c12"
+    },
+    {
+      "path": "reproduce.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "801535fda6fc9e8756dd5393ecbfffb5abe8e6af",
+      "size": 720,
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/blobs/801535fda6fc9e8756dd5393ecbfffb5abe8e6af"
+    },
+    {
+      "path": "verification",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7fd23edc4affe864ddea6db229c749fd3ac9f443",
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/trees/7fd23edc4affe864ddea6db229c749fd3ac9f443"
+    },
+    {
+      "path": "verification/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e24715db611bc883bb86df949ade1574b849ee0",
+      "size": 1378,
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/blobs/2e24715db611bc883bb86df949ade1574b849ee0"
+    },
+    {
+      "path": "verification/c70_arb.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8e3fe9092dabf8241817e9d94ad74bb45978773",
+      "size": 601,
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/blobs/a8e3fe9092dabf8241817e9d94ad74bb45978773"
+    },
+    {
+      "path": "verification/c70_arb_baseline.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6514700e963fec7138a108b3d326cd38a34a41eb",
+      "size": 260,
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/blobs/6514700e963fec7138a108b3d326cd38a34a41eb"
+    },
+    {
+      "path": "verification/c70_original_baseline.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67fbefbe6b0991928250817a584cdd87aa63906a",
+      "size": 84,
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/blobs/67fbefbe6b0991928250817a584cdd87aa63906a"
+    },
+    {
+      "path": "verification/c70_rational.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ab920fdc6eb028408bba9b01d73fa23bc436456",
+      "size": 426,
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/blobs/5ab920fdc6eb028408bba9b01d73fa23bc436456"
+    },
+    {
+      "path": "verification/live_source_receipts.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "700c2cfeaa7787dcd0c0ac03543f84e9e2184653",
+      "size": 17936,
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/blobs/700c2cfeaa7787dcd0c0ac03543f84e9e2184653"
+    },
+    {
+      "path": "verification/rejection_controls.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8e1e51689f72651075a075bbd852edc6a93a25d",
+      "size": 3012,
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/blobs/d8e1e51689f72651075a075bbd852edc6a93a25d"
+    },
+    {
+      "path": "verify_c70_arb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "119822c2a13d5d8bf4af26ff05ca451f3f7a0e04",
+      "size": 2594,
+      "url": "https://api.github.com/repos/rpinho/c70-certificate/git/blobs/119822c2a13d5d8bf4af26ff05ca451f3f7a0e04"
+    }
+  ],
+  "truncated": false,
+  "commit": "680e074bb50929734bfd76484d716cd3e85827f0"
+}

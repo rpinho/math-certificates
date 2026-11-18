@@ -1,0 +1,20 @@
+{
+  "model": "GPT-6 Astra via Codex",
+  "author": "separate commissioned clean-room referee session",
+  "status": "PASS",
+  "value": "1.7055913150",
+  "arithmetic": "exact",
+  "inputs": {
+    "referee/sources/producer-proof.md": "b40a6f48a407345c0b44134f499e6a31c842c103589faf923c2faa5b949cd4c8",
+    "certificates/final.json": "ead3bb2464b4ea93a2f0643ddfc0d68ed77a41309e0347034b53b019a1d32a41",
+    "producer_logs/final-finite.json": "b993f60f965e222f127e057d09319d7f9484320c6146755899b33aa135b6f8ad"
+  },
+  "inputs_hash": "9b5e1163f5508d17c55ddf22e05c21dd12b77aaebaa0d4eec04e418ef16abb63",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/referee_check.py",
+  "checker_sha256": "5a0b08c92d957ab43a67f80e50ee659a63382ace6f1bd783173c42b148eefda2",
+  "report": "referee/REFEREE.md",
+  "report_sha256": "e2ecb3b223d505bbedf3afdc6df45796ea25ca70753b567ea8bb7c1b625e68ef",
+  "note": "Transcribed from the supplied actual clean-room AI referee report and run, not a new review or authenticated model-identity attestation. Original certificate, producer proof and finite receipt are byte-for-byte inputs. Publication wording and portable paths are listed in referee/README.md. Hashes do not establish historical isolation. The normal portable checker passed before the equivalent exact-type publication spellings; both are measured in the release outputs."
+}
