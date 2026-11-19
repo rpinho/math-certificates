@@ -1198,7 +1198,6 @@ Everything below has been sent to the author it concerns. Results that were not 
 | Hugo L. Fernandes | Gama and Fernandes, *C&OR* 133 (2021) 105357, [arXiv:2011.03647](https://arxiv.org/abs/2011.03647), Table B.7 | Exact optima for 15 single-day OPTW instances; t204 is 179 against a published best-known 171 | HOLDS WITH CAVEATS |
 | Hugo L. Fernandes | The same benchmark family (TOPTW, Solomon/Righini instances) | pr11 with three vehicles closed at 654 with an exact certificate; c104 with four vehicles closed at 1260, moving its status from best-found to proven | HOLDS WITH CAVEATS / HOLDS |
 | Hugo L. Fernandes | [arXiv:2411.14411](https://arxiv.org/abs/2411.14411), Table 4.1 | Exact CVRPTW50 optima for all 2,048 instances, mean 14.4717 against the quoted 14.478; TOPTW50 mean profit 34.09 with 2,006 of 2,048 certified optimal | candidate: exact-solver result with its own verification file, not refereed |
-| Luís Diogo | Abouzaid and Diogo, *Monotone Lagrangians in cotangent bundles of spheres*, [arXiv:2011.13478](https://arxiv.org/abs/2011.13478), Remarks 4.2 and 4.10 | Remark 4.2: the cotangent fibre generates, not only split-generates, over the integral Novikov ring, for all spheres, odd and even. Remark 4.10: the predicted sign is proved, w = ±u(e₁ + e₂), with only the global sign left open | HOLDS WITH CAVEATS (4.2), HOLDS (4.10) |
 | Kris Sankaran | Sankaran, Raskutti and Ye, [arXiv:2609.19511](https://arxiv.org/abs/2609.19511) | A zero causal Shapley value implies a causal null if and only if h₋ ≥ h₊ | candidate: no clean-room referee; two model reviews found no false step |
 | Marco Sampaio | Alves et al., FiFAR, *Sci Data* 2025, Table 7 | All five team deferral costs drop (138.1 → 102.0 among them) and reproduce exactly | HOLDS WITH CAVEATS |
 
@@ -1350,93 +1349,6 @@ Fresh Peng 2025 Table 6 reports 1260 in regular font at 7200 seconds, hence unpr
 The convention is §5.5, printed 27; CLAIM.md's §5.4 citation is a harmless typo.
 
 Full record: [Claim](friends/fernandes-orienteering/hb17-toptw-c104/CLAIM.md) · [Referee report](friends/fernandes-orienteering/hb17-toptw-c104/REPORT.md) · [Verdict](friends/fernandes-orienteering/hb17-toptw-c104/VERDICT.md) · [Prior art](friends/fernandes-orienteering/hb17-toptw-c104/PRIOR_ART.md)
-
----
-
-# Luís Diogo: Remark 4.2, even spheres
-
-Folder: [friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres](friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres)
-
-**Verdict** (opening of [friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres/VERDICT.md](friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres/VERDICT.md))
-
-HOLDS WITH CAVEATS
-Referee: gpt-6.1-sol
-
-No mathematical gap found in the stated even-sphere result, jointly reviewed with L063.
-The proof upgrades split-generation to ordinary generation over the actual K_Z,
-for the paper's zero-potential category and finite unfiltered twisted complexes.
-It assumes the paper's geometric split-generation theorem; I did not recompute its Floer counts.
-
-Source: [Abouzaid–Diogo, journal p.21](https://www.diva-portal.org/smash/get/diva2:1783421/FULLTEXT01.pdf), Proposition 4.1/Remark 4.2.
-Both authors, including Luís Diogo, are confirmed. There is no published numerical cone benchmark.
-What changes relative to the paper is ordinary generation in its monotone category.
-The PID theorem and one-variable projective freeness are established prior algebra,
-not new results: [Farber–Schütz, Lemma 1](https://arxiv.org/pdf/0807.3240) and [Seshadri 1958](https://pmc.ncbi.nlm.nih.gov/articles/PMC335443/).
-I read Seshadri's original pp.456–458; its theorem applies to arbitrary PIDs.
-
-The decisive parity step works: the graded splitting makes coker(U0) R-projective;
-constant PID bases then force the (t,1)/(1,t) blocks without inverting 2.
-Noetherianity gives finite generators, two genuine cohomological syzygies give
-a graded free module, and split-generation detects the last cone as zero.
-This uses actual closed maps, without importing field-only module formality.
-
-Full record: [Claim](friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres/CLAIM.md) · [Referee report](friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres/REPORT.md) · [Verdict](friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres/VERDICT.md) · [Prior art](friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres/PRIOR_ART.md)
-
----
-
-# Luís Diogo: Remark 4.2, odd spheres
-
-Folder: [friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres](friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres)
-
-**Verdict** (opening of [friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres/VERDICT.md](friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres/VERDICT.md))
-
-HOLDS WITH CAVEATS
-Referee: gpt-6.1-sol
-
-The odd-sphere argument survives: two genuine kernel steps turn the paper's split-generation into generation by finite unfiltered fibre cones. No field formality or integer inversion is needed. This conclusion takes the paper's printed integral split-generation theorem as input.
-
-The baseline is correctly identified: [Abouzaid–Diogo, journal p21, Proposition 4.1/Remark 4.2](https://www.diva-portal.org/smash/get/diva2:1783421/FULLTEXT01.pdf) includes integer Novikov coefficients, proves split-generation and asks about ordinary generation. It reports no numerical cone bound. Luís Diogo is indeed a coauthor.
-
-I checked the full-real-exponent ring against [Farber–Schuetz, Lemma 1](https://arxiv.org/pdf/0807.3240) and read [Seshadri's original pp456–458](https://pmc.ncbi.nlm.nih.gov/articles/PMC335443/). The PID, Noetherianity, projective-freeness, parity, two-syzygy and detection steps have the required hypotheses. Finite upper triangular cones introduce no infinite sequence of new arrows; this says nothing about filtered generation.
-
-Full record: [Claim](friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres/CLAIM.md) · [Referee report](friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres/REPORT.md) · [Verdict](friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres/VERDICT.md) · [Prior art](friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres/PRIOR_ART.md)
-
----
-
-# Luís Diogo: Remark 4.10, the sign
-
-Folder: [friends/luis-abouzaid-lagrangians/remark-4-10-sign](friends/luis-abouzaid-lagrangians/remark-4-10-sign)
-
-**Verdict** (opening of [friends/luis-abouzaid-lagrangians/remark-4-10-sign/VERDICT.md](friends/luis-abouzaid-lagrangians/remark-4-10-sign/VERDICT.md))
-
-HOLDS
-Referee: gpt-6.1-sol
-NEW confirmed: yes
-
-The target is real: I opened Abouzaid–Diogo arXiv:2011.13478v2,
-Remark 4.10 on printed p21, and the journal PDF on printed p26.
-Luís Diogo is a coauthor. Both predict equality of Lemma 4.9(2)'s signs.
-Sources: https://arxiv.org/pdf/2011.13478v2 and
-https://www.diva-portal.org/smash/get/diva2%3A1783421/FULLTEXT01.pdf.
-
-The proof addresses that original integral identity, w=±u(e1+e2).
-Its step beyond the paper is the signed comparison of the two small
-triangle correspondences. Endpoint equivariance excludes circle inversion;
-the combined coefficient lines are trivial; Ono's sign formula gives
-equal degree dependence after normalization. Independent overall signs
-for the two families are allowed. Thus ordinary trace is ±4*alpha≠0.
-Opposite integral signs would give trace(U⊕(-U))=0 for every U.
-
-I wrote and ran independent_audit/recompute.py, importing no supplied code:
-exact torus local-coefficient complexes, Ono (3.1)/(3.4) parity checks,
-symbolic correspondence normalization with arbitrary corner terms, and
-the formal two-by-two U trace identity. All pass; RSS ≈70 MiB, nice 10.
-Unsigned, inversion, odd-shift and supertrace controls correctly give zero.
-Geometry and source comparison are documented in independent_audit/AUDIT.md.
-Ono source: https://arxiv.org/pdf/2504.20489, Proposition 3.1 and (3.4).
-No ML score is involved; SBS and predictive baselines are inapplicable.
-
-Full record: [Claim](friends/luis-abouzaid-lagrangians/remark-4-10-sign/CLAIM.md) · [Proof](friends/luis-abouzaid-lagrangians/remark-4-10-sign/PROOF.md) · [Referee report](friends/luis-abouzaid-lagrangians/remark-4-10-sign/REPORT.md) · [Verdict](friends/luis-abouzaid-lagrangians/remark-4-10-sign/VERDICT.md) · [Prior art](friends/luis-abouzaid-lagrangians/remark-4-10-sign/PRIOR_ART.md)
 
 ---
 

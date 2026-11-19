@@ -17,7 +17,6 @@ Everything below has been sent to the author it concerns. Results that were not 
 | Hugo L. Fernandes | Gama and Fernandes, *C&OR* 133 (2021) 105357, [arXiv:2011.03647](https://arxiv.org/abs/2011.03647), Table B.7 | Exact optima for 15 single-day OPTW instances; t204 is 179 against a published best-known 171 | HOLDS WITH CAVEATS |
 | Hugo L. Fernandes | The same benchmark family (TOPTW, Solomon/Righini instances) | pr11 with three vehicles closed at 654 with an exact certificate; c104 with four vehicles closed at 1260, moving its status from best-found to proven | HOLDS WITH CAVEATS / HOLDS |
 | Hugo L. Fernandes | [arXiv:2411.14411](https://arxiv.org/abs/2411.14411), Table 4.1 | Exact CVRPTW50 optima for all 2,048 instances, mean 14.4717 against the quoted 14.478; TOPTW50 mean profit 34.09 with 2,006 of 2,048 certified optimal | candidate: exact-solver result with its own verification file, not refereed |
-| Luís Diogo | Abouzaid and Diogo, *Monotone Lagrangians in cotangent bundles of spheres*, [arXiv:2011.13478](https://arxiv.org/abs/2011.13478), Remarks 4.2 and 4.10 | Remark 4.2: the cotangent fibre generates, not only split-generates, over the integral Novikov ring, for all spheres, odd and even. Remark 4.10: the predicted sign is proved, w = ±u(e₁ + e₂), with only the global sign left open | HOLDS WITH CAVEATS (4.2), HOLDS (4.10) |
 | Kris Sankaran | Sankaran, Raskutti and Ye, [arXiv:2609.19511](https://arxiv.org/abs/2609.19511) | A zero causal Shapley value implies a causal null if and only if h₋ ≥ h₊ | candidate: no clean-room referee; two model reviews found no false step |
 | Marco Sampaio | Alves et al., FiFAR, *Sci Data* 2025, Table 7 | All five team deferral costs drop (138.1 → 102.0 among them) and reproduce exactly | HOLDS WITH CAVEATS |
 
@@ -28,7 +27,6 @@ Two caveats worth repeating rather than burying: prior art already improves the 
 - [`oliveira-e-silva/`](oliveira-e-silva/) — the d = 5 endpoint note with its exact checker; the biharmonic attainment and odd-ℓ sign-uncertainty notes, each with its exact checker and the referee's claim, report and verdict.
 - [`bento/`](bento/) — three claims with certificates and the referee's own checkers.
 - [`fernandes-orienteering/`](fernandes-orienteering/) — the OPTW/TOPTW notes, the exact closures with their C++ checkers, and the CVRPTW/TOPTW report.
-- [`luis-abouzaid-lagrangians/`](luis-abouzaid-lagrangians/) — both Remark 4.2 cases and the Remark 4.10 sign, with claims, proofs, referee verdicts and the validation report.
 - [`sankaran-causal-shapley/`](sankaran-causal-shapley/) — the note and its checker.
 - [`sampaio-fifar-deferral/`](sampaio-fifar-deferral/) — claim, referee scripts and verdict.
 
