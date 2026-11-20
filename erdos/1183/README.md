@@ -122,6 +122,75 @@ The separately written referee checkers also run from the packet root. Use a fre
 )
 ```
 
+## Three-block colourings at n=23 and n=22
+
+Partition [23] into nonempty blocks A, B and C. If the colour of S depends only on `(|S∩A|, |S∩B|, |S∩C|)`, some monochromatic family of **at least 14 sets** is closed under union and intersection. This holds for all 44 splits a ≥ b ≥ c ≥ 1 with a+b+c=23. The rank word `001001110010110001101101` attains 14 on every split. Together with the two-block result, this rules out a value-13 colouring of either form for any split. The unrestricted value **13 ≤ f(23) ≤ 14** stays open. [Three-block proof](producer/three-block/PROOF.md)
+
+At n=22, **the two- and three-block minimum is 13 on every split**. The certificates cover 11 two-block splits, 40 three-block splits and one rank control. On a 21-dimensional facet, each surviving rank word admits a closed 12-set family in either colour. Choosing the colour of the full 22-set and adjoining that set gives 13. The rank word `00100111010011100110100` attains 13 in each colour and gives the unrestricted upper bound **f(22) ≤ 13**. The restricted lower bound uses only the face classification. [Rank replay](producer/three-block/logs/final-rank.log)
+
+The earlier two-block face classification covers ten of the eleven singleton splits (a,b,1). The eleventh, (11,11,1), needs the additional face shape (11,10). Across all 48 shapes of dimension 21, the witness induction leaves the same four rank words, each with one exterior set of each colour. Two displaced windows of a putative value-13 colouring must agree on their overlapping ranks. Each of the 16 ordered word pairs disagrees at 10 or 11 positions. The LRAT proofs check the final propositional exclusions after the witness induction. [Induction replay](producer/three-block/logs/final-check.log) · [Producer LRAT replay](producer/three-block/logs/final-lrat.log)
+
+The clean-room AI referee concluded that both restricted claims hold. The referee checked the producer's rejection witnesses for closure and colour without searching for replacements. Regenerating the split formulas confirmed clause-multiset equality for all 44 and 52 roots. For the 48 face formulas the referee confirmed structural equality up to variable renaming. The referee's exact rank search was compared with brute force through n=6. The producer's checkers were separately written (same agent). This is a **candidate** result with **no human review**. The producer was GPT-6.2 Astra via Codex (`math_e1183b3_1120`), and the clean-room referee was Claude Opus 5.5 (`math_e1183b3ref_1120`). [Original referee report](referee/three-block/REFEREE.md) · [Referee scripts and outputs](referee/three-block/) · [Prior art](PRIOR_ART.md)
+
+### Replay the three-block certificates
+
+From the packet root, use Python 3.10 or later with assertions enabled. The producer replay uses the standard library. It checks the physical witnesses and rebuilds the face and split DIMACS files in memory, checks all 144 LRATs (48 faces, 44 roots at n=23, 52 at n=22), then verifies both rank constructions. The last command verifies the packet's delivered bytes.
+
+```sh
+(
+  set -e
+  cd producer/three-block
+  nice -n 10 python3 -B src/check_roots.py
+  nice -n 10 python3 -B src/lrat.py
+  nice -n 10 python3 -B src/upper.py
+  cd ../..
+  shasum -a 256 -c SHA256SUMS
+)
+```
+
+For the clean-room replay, use Python with NumPy. The temporary directory reproduces the referee's original layout and receives its new outputs. The first root comparison matches the 33 largest-block formulas. The second matches the other 11 using the singleton-absent windows. [Root comparison](referee/three-block/roots.py) · [Singleton comparison](referee/three-block/roots_singleton.py)
+
+```sh
+(
+  set -e
+  w=$(mktemp -d)
+  mkdir "$w/ref"
+  ln -s "$PWD/producer/three-block/data" "$w/data"
+  cp referee/three-block/*.py referee/three-block/run_lrat.sh "$w/ref/"
+  cd "$w/ref"
+  nice -n 10 python3 -IB induct.py ../data out
+  nice -n 10 python3 -IB final_check.py
+  nice -n 10 python3 -IB roots.py
+  nice -n 10 python3 -IB roots_singleton.py
+  nice -n 10 python3 -IB face_check.py
+  nice -n 10 python3 -IB rank_exact.py 0010011100101100011011 0011001011100010110011 \
+    1100110100011101001100 1101100011010011100100 00100111010011100110100 001001110010110001101101
+  # With the pinned drat-trim lrat-check built and LRAT_CHECK set to its absolute path:
+  # nice -n 10 sh run_lrat.sh
+)
+```
+
+CaDiCaL produced the proofs. Lean 4.36.0 and drat-trim’s `lrat-check` also verified all 144. The delivered proofs are the producer’s original bytes, so its data checksum list verifies them directly. The commands below verify all 715 original entries, then replay Lean. The packet includes the checker entry points and producer logs. [CaDiCaL revision](https://github.com/arminbiere/cadical/commit/c60730422e758ef1cebe7aeddf2dda31c996bf04) · [Lean revision](https://github.com/leanprover/lean4/commit/611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9) · [drat-trim revision](https://github.com/marijnheule/drat-trim/commit/2e3b2dc0ecf938addbd779d42877b6ed69d9a985) · [Lean replay](producer/three-block/logs/final-lean.log)
+
+```sh
+# From the packet root, with the pinned Lean installation on PATH
+(
+  set -e
+  src="$PWD/producer/three-block"
+  cd "$src"
+  shasum -a 256 -c data/SHA256SUMS
+  nice -n 10 src/external.sh
+)
+# To build the optional referee checker, from the pinned drat-trim source directory
+cc -O2 -o lrat-check lrat-check.c
+```
+
+The producer's corruption checker damages temporary copies. Run it from the packet root with the command below. [Producer controls](producer/three-block/logs/final-controls.log) · [Referee controls](referee/three-block/corrupt/controls.log)
+
+```sh
+(cd producer/three-block && nice -n 10 python3 -B src/corrupt.py)
+```
+
 ## Checking
 
 Start with [REPRODUCE.md](REPRODUCE.md). It gives the source-build pins, byte-for-byte CNF regeneration commands, lightweight colouring checks, referee computations and proof checks. [ASSETS.json](ASSETS.json) identifies the eight producer proofs, including the four new round-3 assets, their compressed release assets and all hashes. [VERIFY.md](VERIFY.md) explains downloading and checking those assets. Large CNFs and DRAT proofs are deliberately separate from the source packet.

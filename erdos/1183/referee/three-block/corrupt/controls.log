@@ -1,0 +1,20 @@
+flip literal split23/9-7-7 clause 2: own=VERIFIED | drat-trim verified=True
+flip literal split23/11-11-1 clause 2: own=VERIFIED | drat-trim verified=True
+flip literal face/7-7-7 clause 4: own=REJECT: satisfied hint 3 at 1097 | drat-trim verified=False
+flip literal face/11-10-0 clause 4: own=REJECT: satisfied hint 3 at 1097 | drat-trim verified=False
+flip literal split23/9-7-7: regenerated clause multiset equal = False
+alter hint split23/9-7-7: own=REJECT: satisfied hint 3588 at 4099 | drat-trim verified=False
+alter hint face/7-7-7: own=REJECT: non-unit hint 20 at 1096 | drat-trim verified=False
+alter hint split22/10-7-5: own=REJECT: satisfied hint 1443 at 1938 | drat-trim verified=False
+drop set 2017 from family t-10-6-4[z=1][0]: DONE {'fam_checked': 108524, 'fam_bad': 0, 'fam_used': 16948, 'cand_pairs': 409412, 'surv_pairs': 211490}
+drop set from split22/10-7-5 family 0: closed=False size=12 (need closed and 13)
+flip first literal of used clause -648 in split23/9-7-7: own=VERIFIED | drat-trim verified=True
+flip first literal of used clause -296 in split23/11-11-1: own=VERIFIED | drat-trim verified=True
+flip first literal of used clause -532 in split22/10-7-5: own=VERIFIED | drat-trim verified=True
+flip first literal of used clause -35 in face/7-7-7: own=REJECT: satisfied hint 838 at 1141 | drat-trim verified=False
+drop set 31 (=1|30) from family t-10-6-4[z=1][0]: DONE {'fam_checked': 108524, 'fam_bad': 1, 'fam_used': 16948, 'cand_pairs': 409412, 'surv_pairs': 211490}
+flip first literal of used clause 3587 in split23/9-7-7: own=REJECT: satisfied hint 3587 at 4099 | drat-trim verified=False
+flip first literal of used clause 927 in split23/11-11-1: own=REJECT: satisfied hint 927 at 1059 | drat-trim verified=False
+flip first literal of used clause 1442 in split22/10-7-5: own=REJECT: satisfied hint 1442 at 1938 | drat-trim verified=False
+flip first literal of used clause 19 in face/7-7-7: own=REJECT: satisfied hint 2 at 1096 | drat-trim verified=False
+drop set 31 (=1|30) from family t-10-6-4[z=1][0]: DONE {'fam_checked': 108524, 'fam_bad': 1, 'fam_used': 16948, 'cand_pairs': 409412, 'surv_pairs': 211490}
