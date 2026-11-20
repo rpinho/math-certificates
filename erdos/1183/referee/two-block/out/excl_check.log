@@ -1,0 +1,14 @@
+sets.jsonl.gz: 146641 families, 0 rejected
+window-families.jsonl: 42432 families, 0 rejected
+  triple [347, 885, 433]: family size 14 closed, colours {'0'} MONO
+  triple [523, 1126, 841]: family size 14 closed, colours {'0'} MONO
+  triple [674, 71, 356]: family size 14 closed, colours {'1'} MONO
+  triple [850, 312, 764]: family size 14 closed, colours {'1'} MONO
+  length-2 paths through V: 4; triples.json paths: [(347, 885, 433), (523, 1126, 841), (674, 71, 356), (850, 312, 764)]
+  row 0: 20591 row footprints, surviving words 1198
+  row 1: 20591 row footprints, surviving words 1198
+  row 2: 20591 row footprints, surviving words 1198
+  rows.json words == survivors of row 0: True ; rows identical across rows: True
+  window 0: 83614 footprints, 1198x1198 pairs -> 28 survivors; subset of V: True; equal to V: True
+  window 1: 83614 footprints, 1198x1198 pairs -> 28 survivors; subset of V: True; equal to V: True
+wrote out/exclusion.regen.cnf

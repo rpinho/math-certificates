@@ -2,7 +2,7 @@
 
 The original packet gives the four finite equalities **f(11)=7**, **f(12)=7**, **f(13)=8** and **f(14)=8**, with explicit colourings, regenerable SAT queries and checkable DRAT certificates. The supplied clean-room AI agents acting as referees conclude **HOLDS** for all four values. These are candidate results with **no human review**. The extension gives **f(15)=9, f(16)=9, f(17)=10, f(18)=10, f(19)=11** and **f(20)≤12**. The equality **f(20)=12** uses BMB `lem:window20` via `thm:f20`; without that dependency, **11≤f(20)≤12**. The extension’s clean-room referee concludes **HOLDS WITH CAVEATS**. Round 5 adds **f(21)=12**, **f(24)=14**, **f(22)≤13** (equality given BMB `lem:window20`) and **13≤f(23)≤14**. Unconditionally **12≤f(22)≤13**; the rank-colouring minimum at n=23 is exactly **14**. These finite results do not settle the asymptotic problem.
 
-**Priority.** The exact values of f(n) for every n up to twenty were already stated by Deep Bhattacharjee and Ushashi Bhattacharya in their BLLM manuscript (Theorem `fvalues`, using the same weighted-poset reduction as its Lemma `levelposet`), [public in creelie/eBLLM](https://github.com/creelie/eBLLM/blob/241326bbba4726afde74ae1858265878b2176c59/paper/bllm/paper/sections/sec10d_crossing.tex) and present in that file since its commit of 19 October 2026. We missed it in our earlier searches. Our values from eleven to twenty are therefore reproductions, found separately and published with certificates (SAT/DRAT proofs from eleven to fourteen, replayable proof trees from fifteen to twenty); earlier versions of this packet wrongly said that exact values were known only up to ten. The values from twenty-one to twenty-four go beyond that manuscript. The odd-n lower bound used here is also proved in Lean 4 by the OpenRefute project, as BLLM cites.
+**Priority.** The exact values of f(n) for every n up to twenty were already stated by Deep Bhattacharjee and Ushashi Bhattacharya in their BLLM manuscript (Theorem `fvalues`, using the same weighted-poset reduction as its Lemma `levelposet`), [public in creelie/eBLLM](https://github.com/creelie/eBLLM/blob/241326bbba4726afde74ae1858265878b2176c59/paper/bllm/paper/sections/sec10d_crossing.tex) and present in that file since its commit of 19 October 2026. Earlier searches for this packet missed it. The packet’s values from eleven to twenty are therefore reproductions, found separately and published with certificates (SAT/DRAT proofs from eleven to fourteen, replayable proof trees from fifteen to twenty); earlier versions of this packet wrongly said that exact values were known only up to ten. The values from twenty-one to twenty-four go beyond that manuscript. The odd-n lower bound used here is also proved in Lean 4 by the OpenRefute project, as BLLM cites.
 
 ## Definition
 
@@ -61,15 +61,66 @@ The referee’s own scripts and outputs are in [referee/n15n20](referee/n15n20).
 
 ## Extension to n=21..24
 
-The four colourings are encoded exactly by their rank words in [n21](certificates/n21_coloring.json), [n22](certificates/n22_coloring.json), [n23](certificates/n23_coloring.json) and [n24](certificates/n24_coloring.json). A set's colour is the bit at its cardinality; these compact encodings specify every set without a redundant mask-indexed array. Both maximum families and links to both exhaustive no-trees are included in each file. Exact maxima are **12/12, 13/13, 14/14, 14/14**, respectively. All eight headline trees are in [producer/n21n24/certificates](producer/n21n24/certificates), each below 20 MB. The [search](producer/n21n24/src/poset.cpp), [separately written tree checker](producer/n21n24/src/check.py), [coverage checker](producer/n21n24/src/coverage.py), complete segmented rank screens, and saved G_L(T) word lists are included. These lists are inputs for later work; no non-rank search is claimed here.
+The four colourings are encoded exactly by their rank words in [n21](certificates/n21_coloring.json), [n22](certificates/n22_coloring.json), [n23](certificates/n23_coloring.json) and [n24](certificates/n24_coloring.json). A set's colour is the bit at its cardinality; these compact encodings specify every set without a redundant mask-indexed array. Both maximum families and links to both exhaustive no-trees are included in each file. Exact maxima are **12/12, 13/13, 14/14, 14/14**, respectively. All eight headline trees are in [producer/n21n24/certificates](producer/n21n24/certificates), each below 20 MB. The [search](producer/n21n24/src/poset.cpp), [separately written tree checker](producer/n21n24/src/check.py), [coverage checker](producer/n21n24/src/coverage.py), complete segmented rank screens, and saved G_L(T) word lists are included. These lists are inputs for later work.
 
-The lower bounds at n=21 and n=23 follow from our chain-exchange lemma plus concrete closed families for **705,432** and **2,704,156** balanced words, respectively; BMB `prop:flower` and the omega note also supply them. At n=22, BMB `thm:f20` gives 13 using its computer-assisted `lem:window20`. The referee replayed the authors' checker and its three corruption controls but did not reimplement its mixed-level logic. Thus **f(22)=13 given that lemma; without it, 12≤f(22)≤13**. At n=24, BMB `prop:flower` gives 14 using the twelve-level window and separated stacking; it does **not** use `lem:window20`. The dependency trace is in [PROOF.md](PROOF.md).
+The lower bounds at n=21 and n=23 follow from the chain-exchange lemma plus concrete closed families for **705,432** and **2,704,156** balanced words, respectively; BMB `prop:flower` and the omega note also supply them. At n=22, BMB `thm:f20` gives 13 using its computer-assisted `lem:window20`. The referee replayed the authors' checker and its three corruption controls but did not reimplement its mixed-level logic. Thus **f(22)=13 given that lemma; without it, 12≤f(22)≤13**. At n=24, BMB `prop:flower` gives 14 using the twelve-level window and separated stacking; it does **not** use `lem:window20`. The dependency trace is in [PROOF.md](PROOF.md).
 
-At n=23, **13≤f(23)≤14**, while the rank-colouring minimum is **exactly 14**. This is the first n where size-only colourings miss the stated best lower bound. Every optimal n=22 rank word has a 13-member family in both colours; appending the full 23-set in its colour forces a 14-member family. The complete rank screen confirms this directly. This proves no unrestricted lower bound of 14. The unrestricted gap remains open; no non-rank construction was searched.
+At n=23, **13≤f(23)≤14**, while the rank-colouring minimum is **exactly 14**. This is the first n where size-only colourings miss the stated best lower bound. Every optimal n=22 rank word has a 13-member family in both colours; appending the full 23-set in its colour forces a 14-member family. The complete rank screen confirms this directly. This proves no unrestricted lower bound of 14. The unrestricted gap remains open.
 
-The byte-preserved [clean-room referee report](referee/n21n24/REFEREE.md) concludes **HOLDS WITH CAVEATS**: all four upper bounds, the odd lower bounds and the n=24 flower argument hold as stated; n=22 equality retains the external computational dependency, and n=23 remains open. The n=24 lower bound is in the revised GitHub manuscript, not arXiv v1; its cited Lean formalisation was not rerun. The referee used its own exact weighted-poset search, checked against brute force through n=6 and known n=11..20 values; it did not replay the producer's trees. Both implementations use the same enumeration method. Packaging replays the producer's trees and every delivered new witness with its packaged checker. All are **candidate** results with **no human review**. The original report's historical terminology is retained verbatim; our description of that review is clean-room.
+The byte-preserved [clean-room referee report](referee/n21n24/REFEREE.md) concludes **HOLDS WITH CAVEATS**: all four upper bounds, the odd lower bounds and the n=24 flower argument hold as stated; n=22 equality retains the external computational dependency, and n=23 remains open. The n=24 lower bound is in the revised GitHub manuscript, not arXiv v1; its cited Lean formalisation was not rerun. The referee used its own exact weighted-poset search, checked against brute force through n=6 and known n=11..20 values; it did not replay the producer's trees. Both implementations use the same enumeration method. Packaging replays the producer's trees and every delivered new witness with its packaged checker. All are **candidate** results with **no human review**. The original report’s historical terminology is retained verbatim. The review was clean-room.
 
 The referee's [scripts and outputs](referee/n21n24/) include the raw [window20 replay output](referee/n21n24/out/window20_replay.txt). Authors' code and lists are cited by pinned URLs in [WINDOW20.md](referee/n21n24/WINDOW20.md), not bundled. The oversized n=23 balanced-witness list is a release asset at **erdos1183-v4**; [VERIFY.md](VERIFY.md) gives the exact download, hash and replay commands. Headline upper-bound checks need no release download.
+
+## Two-block colourings at n=23
+
+For any partition `[23] = A ⊔ B` into two nonempty blocks, every two-colouring determined by `(|S∩A|, |S∩B|)` has a monochromatic sublattice of at least **14 sets**. This covers all eleven splits up to exchanging the blocks and extends the earlier one-pivot exclusion, which is the (22,1) split. The rank word `001001110010110001101101` attains 14 in both colours for every split. The unrestricted interval **13 ≤ f(23) ≤ 14** stays open. A value-13 colouring, if one exists, is not of two-block form for any split. [Two-block proof](producer/two-block/PROOF.md)
+
+The clean-room AI referee concluded that the restricted claim holds. The all-splits LRAT certifies only the final incompatibility of overlapping windows. The witness induction does the elimination by checking explicit closed families and deriving the possible window tables. A separate certificate checks the (21,2) split posed in Bhattacharjee–Bhattacharya’s eBLLM experiment. This is a **candidate** result with **no human review**. Producer GPT-6.2 Astra via Codex and clean-room referee Claude Opus 5.5 are identified in the launcher records. [Original referee report](referee/two-block/REFEREE.md) · [Referee scripts and outputs](referee/two-block/) · [Prior art](PRIOR_ART.md)
+
+From the packet root, with Python 3.10+ and NumPy installed, run:
+
+```sh
+(
+  cd producer/two-block &&
+  nice -n 10 python3 -B src/check_faces.py &&
+  nice -n 10 python3 -B src/replay.py &&
+  nice -n 10 python3 -B src/upper.py
+)
+```
+
+The first command checks 86,466 face witnesses, redoes the induction and overlap calculation, regenerates the all-splits CNF and checks its LRAT. The second checks 146,641 physical witnesses, exhausts the row and window tables, regenerates the direct CNF and checks its LRAT. The third checks both size-14 witnesses and both exhaustive no-at-15 trees. The replay requires only the files in this packet. [Producer checkers](producer/two-block/src/)
+
+Two lines of the all-splits LRAT use tabs between tokens. The Python checkers accept them directly. For Lean 4.36.0, restore single spaces into a temporary file before using the included checker:
+
+```sh
+(
+  set -e
+  cd producer/two-block
+  w=$(mktemp -d ../../../two-block-lean.XXXXXX)
+  awk '{$1=$1; print}' data/all-splits.lrat > "$w/all-splits.lrat"
+  nice -n 10 lean --run src/CheckLRAT.lean data/all-splits.cnf "$w/all-splits.lrat"
+  nice -n 10 lean --run src/CheckLRAT.lean data/exclusion.cnf data/exclusion.lrat
+)
+```
+
+The separately written referee checkers also run from the packet root. Use a fresh working directory for their regenerated CNFs:
+
+```sh
+(
+  set -e
+  d=producer/two-block/data
+  r=referee/two-block
+  w=$(mktemp -d ../two-block-replay.XXXXXX)
+  nice -n 10 python3 -B "$r/regen_all.py" "$w/all-splits.cnf"
+  cmp "$w/all-splits.cnf" "$d/all-splits.cnf"
+  nice -n 10 python3 -B "$r/faces_check.py" "$d/faces.jsonl.gz"
+  nice -n 10 python3 -B "$r/excl_check.py" "$d" "$w/exclusion.cnf"
+  cmp "$w/exclusion.cnf" "$d/exclusion.cnf"
+  nice -n 10 python3 -B "$r/lrat_check.py" "$d/all-splits.cnf" "$d/all-splits.lrat"
+  nice -n 10 python3 -B "$r/lrat_check.py" "$d/exclusion.cnf" "$d/exclusion.lrat"
+  nice -n 10 python3 -B "$r/upper_check.py" "$d"
+)
+```
 
 ## Checking
 

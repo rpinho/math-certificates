@@ -1,0 +1,20 @@
+== 1. flip one literal in a clause used by the proof ==
+  all-splits flip: differs from regenerated DIMACS (rejected)
+  all-splits flip LRAT: REJECTED: line 1: hint 2 satisfied (not unit)
+  exclusion flip: differs from regenerated DIMACS (rejected)
+  exclusion flip LRAT: VERIFIED UNSAT
+  exclusion flip (-122 -62 -> -122 62) LRAT: VERIFIED UNSAT
+  exclusion flip in used clause 293306 LRAT: REJECTED: line 1: hint 293283 satisfied (not unit)
+== 2. alter one LRAT hint (replace by another in-range id) ==
+  all-splits hint: REJECTED: line 1: hint 159 satisfied (not unit)
+  exclusion hint: REJECTED: line 1: hint 295709 satisfied (not unit)
+  all-splits truncated: REJECTED: no empty clause
+== 3. drop one set from a witness family ==
+  faces families: 20013 single-member drops, 19999 rejected; the 14 accepted remainders are themselves closed families of size >= 14 (still valid witnesses)
+  sets.jsonl.gz families (every 997th): 2102 single-member drops, 2054 rejected; the 48 accepted remainders are closed families of size >= 14 (still valid)
+  upper families: 28 single-member drops, 28 fall below 14
+  upper coordinate flip: rejected (not closed)
+== 4. induction sensitivity: remove every witness for shape (20,0), context 1 ==
+    removed 2 checked witnesses of case (20,0,1)
+  shape (21,0): survivors by context {1: ['0010011100101100011011', '0011001011100010110011', '1100110100011101001100', '1101100011010011100100']}
+  FACE CLAIM NOT CONFIRMED

@@ -1,0 +1,9 @@
+colour 0: shipped family size 14, colours {'0'}, closed: yes
+colour 1: shipped family size 14, colours {'1'}, closed: yes
+brute-force control n<=5: 240 (word,colour) cases, 0 mismatches
+0010011100101100011011 exact maxima [12, 12]
+0011001011100010110011 exact maxima [12, 12]
+1100110100011101001100 exact maxima [12, 12]
+1101100011010011100100 exact maxima [12, 12]
+n=23 word 001001110010110001101101 colour 0: exact max 14, component reaching 15: False
+n=23 word 001001110010110001101101 colour 1: exact max 14, component reaching 15: False
