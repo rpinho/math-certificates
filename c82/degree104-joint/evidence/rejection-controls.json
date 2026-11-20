@@ -1,20 +1,26 @@
-[
-  {
-    "case": "changed_bytes",
-    "exit_code": 1,
-    "rejected": true,
-    "repinned": false
-  },
-  {
-    "case": "zero_multiplicity",
-    "exit_code": 1,
-    "rejected": true,
-    "repinned": true
-  },
-  {
-    "case": "shared_factor",
-    "exit_code": 1,
-    "rejected": true,
-    "repinned": true
-  }
-]
+{
+  "certificate_sha256": "dc129b7586da99042ff04e6cbf435d0b2e7e761ccfb87fc218da079b3f26aa33",
+  "cases": [
+    {
+      "case": "changed_bytes",
+      "rejected": true,
+      "exit_code": 1,
+      "pin": "dc129b7586da99042ff04e6cbf435d0b2e7e761ccfb87fc218da079b3f26aa33",
+      "reason": "SHA256 differs"
+    },
+    {
+      "case": "zero_multiplicity",
+      "rejected": true,
+      "exit_code": 1,
+      "pin": "1e09aaad29f8f83560b8b073b934c16c50a10ff221e5381dee1a9cc0b45b3c84",
+      "reason": "q>0"
+    },
+    {
+      "case": "shared_factor",
+      "rejected": true,
+      "exit_code": 1,
+      "pin": "91b303bceb597a9e7eb45e23b31d7a146ea2d5520ceda7926e47076263d10a0c",
+      "reason": "p.gcd(r).degree() == 0"
+    }
+  ]
+}

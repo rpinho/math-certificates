@@ -147,15 +147,15 @@ class Search:
         if c not in self.known and math.isfinite(rc) and (self.best is None or rc<self.best['rc']):
             self.best={'coeffs':list(c),'rc':float(rc),'trial':self.trials}
             self.emit('best',rc=float(rc),priced=self.priced)
-        if rc< -2e-8 and c not in self.known:
+        if rc< (-2e-8 if self.a.degree==104 else -1e-10) and c not in self.known:
             fs=p.factor()[1]
             record={'coeffs':list(c),'rc':float(rc),'trial':self.trials,
-                'name':'C82r9_'+hashlib.sha256(str(c).encode()).hexdigest()[:12],
+                'name':'C82r12_'+hashlib.sha256(str(c).encode()).hexdigest()[:12],
                 'factors':[{'coeffs':list(descending(f)),'multiplicity':int(m)} for f,m in fs]}
             self.found.append(record);self.emit('negative',rc=float(rc),factor_degrees=[f.degree() for f,m in fs]);self.save()
         return float(rc)
 
-    def start_polynomial(self):
+    def base_polynomial(self):
         mode=self.trials%4
         if mode==0:return self.warm[(self.trials//4)%len(self.warm)]
         if mode==1:
@@ -163,6 +163,14 @@ class Search:
             return choices[int(self.rng.integers(len(choices)))]
         left=[p for p in self.archive if p.degree()==44];right=[p for p in self.archive if p.degree()==60]
         return left[int(self.rng.integers(len(left)))]*right[int(self.rng.integers(len(right)))]
+
+    def start_polynomial(self):
+        p=self.base_polynomial()
+        if self.a.degree==104:return p
+        # Warm monic product at the requested degree from a primitive monic seed.
+        extras=[polynomial(r['coeffs']) for r in self.bank['denominator']
+                if len(r['coeffs'])-1==self.a.degree-104]
+        return p*extras[self.trials%len(extras)]
 
     def samples(self):
         quantiles=(np.arange(self.a.points)+self.rng.uniform(.15,.85,self.a.points))/self.a.points
@@ -172,7 +180,7 @@ class Search:
         for t in ts:
             z=mp.expjpi(2*mp.mpf(float(t)));pts.append(z*(1-z))
         powers=[[mp.mpc(1) for _ in pts]]
-        for j in range(104):powers.append([v*z for v,z in zip(powers[-1],pts)])
+        for j in range(self.a.degree):powers.append([v*z for v,z in zip(powers[-1],pts)])
         return pts,powers
 
     @staticmethod
@@ -208,7 +216,7 @@ class Search:
             if np.max(np.abs(v))>1e12:continue
             u=[sum(int(v[i])*transform[i][j] for i in range(n)) for j in range(n)]
             q=p+self.H*fmpz_poly(u)
-            assert q.degree()==104 and int(q.leading_coefficient())==1
+            assert q.degree()==self.a.degree and int(q.leading_coefficient())==1
             result.append(q)
         stat={'seconds':time.monotonic()-begun,'nodes':int(nodes),'completed':bool(finished),
               'nearest_projected':float(min(costs)),'current_projected':float(y@y),
@@ -239,6 +247,7 @@ if __name__=='__main__':
     ap.add_argument('--bank',default='prior_sources/factor-bank.json');ap.add_argument('--points',type=int,default=1024)
     ap.add_argument('--seconds',type=int,default=600);ap.add_argument('--seed',type=int,default=5104)
     ap.add_argument('--iterations',type=int,default=8);ap.add_argument('--keep',type=int,default=16);ap.add_argument('--nodes',type=int,default=4000000)
+    ap.add_argument('--degree',type=int,choices=[104,116,120,132],default=104)
     ap.add_argument('--out',default='runs/search-0.json');a=ap.parse_args();register('cvp')
     experiment=Search(a)
     while time.monotonic()-experiment.wall<a.seconds:experiment.trial()

@@ -1,390 +1,451 @@
 #!/usr/bin/env python3
-"""Independent C82 checker: exact polynomials, certified roots, Arb intervals.
+"""Clean-room interval checker for a C82 (Zhang-Zagier essential minimum) certificate
+in Doche's limit-point construction.
 
-No producer implementation is used. See report.md for the mathematical bounds.
-All certificate decimals outside the exact fields are parsed as inert strings.
+Written by the referee from the live 82a definition and Doche (2001) only.
+Dependencies: Python standard library + python-flint (FLINT/Arb).  No floating point:
+all real numbers are exact integers/Fractions or Arb balls; numbers are printed as strings.
+
+Quantities (natural logs, T(z) = z(1-z), e(t) = exp(2 pi i t)):
+  Q = prod R_j^m_j (R_j monic integer), D = sum m_j deg R_j,
+  A^(1/b) = prod S_i^q_i (S_i nonzero integer, q_i >= 0 rational), a = sum q_i deg S_i < D,
+  H = (1/D) sum_j m_j log M(R_j o T)
+  g(t) = (1/D) [ sum_i q_i log|S_i(T(e(t)))| - sum_j m_j log|R_j(T(e(t)))| ]
+  J = int_0^1 max(0, g(t)) dt = 2 int_0^(1/2) max(0, g(t)) dt   (g(t) = g(1-t): real coefficients)
+  B = H + J.
+
+H: every root of R_j o T is enclosed by FLINT's rigorous complex root isolation;
+   log M = log|lc| + sum log max(1, |rho|) evaluated in ball arithmetic.
+J: Arb's rigorous integrator (acb_calc_integrate) applied to f = max(0, g).  g is written in
+   root form g(t) = c + sum_k w_k log|T(e(t)) - s_k| over the (isolated) roots s_k of the S_i
+   and R_j.  For analytic=True (ellipse bounds) the integrand returns the analytic
+   continuation G(t) = c + sum_k (w_k/2) log((T(z)-s_k)(T(1/z)-conj(s_k))), z = e(t), if
+   Re G > 0 on the whole ball (then f = G on the real points), 0 if Re G < 0 on the whole ball
+   (then f = 0 there), and a non-finite ball otherwise.  For analytic=False it returns a
+   ball containing max(0, g) on the real points of the input ball, with log|.| -> -inf
+   handled by one-sided bounds (numerator zeros on the circle, e.g. from S = X, X - 1).
 """
-import argparse
-import copy
-import hashlib
+import sys
 import json
-import os
-from pathlib import Path
-import resource
-import time
+import re
+import hashlib
 from fractions import Fraction
-from flint import arb, acb, fmpz_poly, acb_poly, ctx
+from flint import fmpz_poly, arb, acb, ctx
+
+PREC = 192          # working precision of the integrator and of all ball arithmetic (bits)
+ROOT_PREC = 256     # precision for root isolation
+T_POLY = fmpz_poly([0, 1, -1])   # T(X) = X - X^2
+DEFAULT_TARGET = "0.2519694759"
 
 
-def require(ok, message):
-    if not ok:
-        raise ValueError(message)
+class Reject(Exception):
+    pass
 
 
-def gcd(a, b):
-    while b:
-        a, b = b, a % b
-    return abs(a)
+# ---------------------------------------------------------------- parsing / hypotheses
+_RAT = re.compile(r"^(0|[1-9][0-9]*)(/[1-9][0-9]*)?$")
 
 
-def lcm(a, b):
-    return a // gcd(a, b) * b
+def parse_rational(v):
+    if isinstance(v, bool):
+        raise Reject("exponent is a bool")
+    if isinstance(v, int):
+        if v < 0:
+            raise Reject("negative exponent")
+        return Fraction(v)
+    if not isinstance(v, str) or not _RAT.match(v):
+        raise Reject("exponent %r is not a nonnegative integer or p/q string" % (v,))
+    return Fraction(v)
 
 
-def ball(q):
-    if isinstance(q, Fraction):
-        return arb(q.numerator) / q.denominator
-    return arb(q)
+def parse_coeffs(lst, what):
+    if not isinstance(lst, list) or len(lst) == 0:
+        raise Reject("%s: coefficient list missing" % what)
+    for x in lst:
+        if isinstance(x, bool) or not isinstance(x, int):
+            raise Reject("%s: non-integer coefficient %r" % (what, x))
+    return fmpz_poly(lst[::-1])      # JSON lists are highest degree first
 
 
-def log(message):
-    print(message, flush=True)
+def compose_T(P):
+    r = fmpz_poly([0])
+    for co in reversed(P.coeffs()):
+        r = r * T_POLY + co
+    return r
 
 
-def enclosure(x):
-    # Exact rational endpoints, not rounded decimal strings.
-    return {'ball': x.str(45), 'lower': str(x.lower().fmpq()),
-            'upper': str(x.upper().fmpq())}
+def load_certificate(cert):
+    dens, nums = [], []
+    for d in cert["denominator"]:
+        R = parse_coeffs(d["coeffs"], d.get("name", "?"))
+        m = d["multiplicity"]
+        if isinstance(m, bool) or not isinstance(m, int) or m <= 0:
+            raise Reject("denominator %s: multiplicity must be a positive integer" % d.get("name"))
+        if R.degree() < 1:
+            raise Reject("denominator %s is constant" % d.get("name"))
+        if R.leading_coefficient() != 1:
+            raise Reject("denominator %s is not monic" % d.get("name"))
+        dens.append((d.get("name", "?"), R, m))
+    for n in cert["numerator"]:
+        S = parse_coeffs(n["coeffs"], n.get("name", "?"))
+        q = parse_rational(n["q_rational"])
+        if S.is_zero():
+            raise Reject("numerator %s is zero" % n.get("name"))
+        if q == 0:
+            continue                      # inactive factor
+        nums.append((n.get("name", "?"), S, q))
+    if not dens:
+        raise Reject("no denominator")
+    D = sum(m * R.degree() for _, R, m in dens)
+    a = sum(q * S.degree() for _, S, q in nums)
+    if not a < D:
+        raise Reject("degree condition fails: a = %s >= D = %s" % (a, D))
+    pairs = 0
+    for nn, S, q in nums:
+        for dn, R, m in dens:
+            if S.gcd(R).degree() != 0:
+                raise Reject("gcd(%s, %s) is nonconstant" % (nn, dn))
+            pairs += 1
+    return dens, nums, D, a, pairs
 
 
-def parse(cert):
-    den, num = [], []
-    for category, dest in [('denominator', den), ('numerator', num)]:
-        require(type(cert[category]) is list, 'factor list required')
-        for item in cert[category]:
-            c = item['coeffs']
-            require(type(c) is list and len(c) > 0, 'empty coefficients')
-            require(all(type(v) is int for v in c), 'noninteger coefficient')
-            require(c[0] != 0, 'leading zero')
-            p = fmpz_poly(list(reversed(c)))
-            if category == 'denominator':
-                w = item['multiplicity']
-                require(len(c) > 1 and c[0] == 1, 'denominator not monic/nonconstant')
-                require(type(w) is int and w > 0, 'nonpositive integer multiplicity')
-            else:
-                require(type(item['q_rational']) is str, 'rational string required')
-                w = Fraction(item['q_rational'])
-                require(w >= 0, 'negative exponent')
-                if not w:
-                    continue
-            dest.append((p, w, item.get('name', category)))
-    require(len(den) > 0, 'no denominators')
-    D = sum(p.degree() * w for p, w, _ in den)
-    a = sum((p.degree() * w for p, w, _ in num), Fraction(0))
-    require(a < D, 'degree condition fails')
-    b = 1
-    for p, q, _ in num:
-        b = lcm(b, q.denominator)
-        for r, _, _ in den:
-            require(p.gcd(r).degree() == 0, 'nontrivial numerator/denominator gcd')
-    return den, num, D, a, b
+# ---------------------------------------------------------------- ball helpers
+def exact_fraction(x):
+    """exact value of an exact (radius 0) arb as a Fraction"""
+    man, exp = x.man_exp()
+    man, exp = int(man), int(exp)
+    return Fraction(man) * (Fraction(2) ** exp)
 
 
-class Integrand:
-    def __init__(self, den, num, D):
-        T = fmpz_poly([0, 1, -1])
-        self.factors = []
-        self.roots = []
-        self.H = arb(0)
-        self.constant = arb(0)
-        self.unit_candidates = []
-        for kind, factors in [('den', den), ('num', num)]:
-            for p, q, name in factors:
-                f = p(T)
-                rr = f.complex_roots()
-                require(sum(m for r, m in rr) == f.degree(), 'incomplete root isolation')
-                require(all(r.is_finite() for r, m in rr), 'nonfinite roots')
-                w = ball(Fraction(q, D))
-                if kind == 'den':
-                    w = -w
-                lc = arb(abs(int(f.leading_coefficient()))).log()
-                self.constant += w * lc
-                mh = lc
-                stored = []
-                for r, m in rr:
-                    mod = abs(r)
-                    mh += m * mod.max(1).log()
-                    stored.append((r, mod, m))
-                    self.roots.append((r, mod, w * m))
-                    if mod.contains(1):
-                        self.unit_candidates.append({'factor': name, 'kind': kind,
-                                                     'root': str(r), 'multiplicity': m})
-                        require(kind != 'den', 'denominator root possibly on circle: unsupported')
-                if kind == 'den':
-                    self.H += -w * mh
-                self.factors.append((acb_poly(f), acb_poly(f.derivative()), w, lc, stored))
-                log('ROOTS '+kind+' '+name+' degree='+str(f.degree()))
-        self.twopi = 2 * arb.pi()
-        self.calls = 0
+def upper_fraction(x):
+    return exact_fraction(x.upper())
 
-    def point(self, t):
-        if not self.factors:
-            return self.constant, arb(0)
-        z = acb(0, self.twopi * ball(t)).exp()
-        g, gp = arb(0), arb(0)
-        for f, df, w, lc, rr in self.factors:
-            v = f(z)
-            g += w * abs(v).log()
-            gp += w * (acb(0, 1) * z * df(z) / v).real * self.twopi
-        return g, gp
 
-    def range(self, left, right):
-        """Second-order Taylor enclosure, or rootwise upper bound near zeros."""
-        self.calls += 1
-        mid = (left + right) / 2
-        h = ball((right - left) / 2)
-        z = acb(0, self.twopi * ball(mid)).exp()
-        chord = (self.twopi * h).upper()  # arc length bounds chord
-        M2 = arb(0)
-        upper = self.constant
-        regular = True
-        for r, mod, w in self.roots:
-            d = abs(z - r)
-            low = (d - chord).lower()
-            high = (d + chord).upper()
-            if w > 0:
-                upper += w * high.log()
-            else:
-                if not low > 0:
+def lower_fraction(x):
+    return exact_fraction(x.lower())
+
+
+def dec_up(F, digits):
+    s = 10 ** digits
+    n = -((-F.numerator * s) // F.denominator)
+    return _dec(n, digits)
+
+
+def dec_down(F, digits):
+    s = 10 ** digits
+    n = (F.numerator * s) // F.denominator
+    return _dec(n, digits)
+
+
+def _dec(n, digits):
+    sign = "-" if n < 0 else ""
+    n = abs(n)
+    ip, fp = divmod(n, 10 ** digits)
+    return "%s%d.%s" % (sign, ip, str(fp).rjust(digits, "0"))
+
+
+def rat_arb(F):
+    return arb(F.numerator) / arb(F.denominator)
+
+
+NAN = arb(0).log()      # Arb returns nan for log(0); used as the non-finite marker
+
+
+# ---------------------------------------------------------------- H
+def log_mahler_composed(R):
+    """rigorous enclosure of log M(R o T)"""
+    P = compose_T(R)
+    roots = P.complex_roots()
+    if sum(e for _, e in roots) != P.degree():
+        raise Reject("root isolation incomplete")
+    s = abs(arb(P.leading_coefficient())).log()
+    undecided = 0
+    for r, e in roots:
+        m = abs(r)
+        if m > 1:
+            s += e * m.log()
+        elif m < 1:
+            pass
+        else:                             # cannot decide: enclose log max(1,|r|) in [0, log upper]
+            undecided += 1
+            hi = m.upper()
+            s += e * (arb(0).union(hi.log()) if hi > 1 else arb(0))
+    rec = fmpz_poly(P.coeffs()[::-1])
+    circle = P.gcd(rec).degree()          # >0 iff P has a root on |z|=1 (or a reciprocal pair)
+    return s, undecided, circle
+
+
+# ---------------------------------------------------------------- g in root form
+class RootForm:
+    def __init__(self, dens, nums, D):
+        self.groups = []                  # (weight arb, [(root acb, mult)], is_numerator)
+        c = arb(0)
+        for _, S, q in nums:
+            w = rat_arb(q / D)
+            c += w * abs(arb(S.leading_coefficient())).log()
+            rts = S.complex_roots() if S.degree() > 0 else []
+            if sum(e for _, e in rts) != S.degree():
+                raise Reject("root isolation incomplete")
+            self.groups.append((w, rts, True))
+        for _, R, m in dens:
+            w = rat_arb(Fraction(m, D))
+            rts = R.complex_roots()
+            if sum(e for _, e in rts) != R.degree():
+                raise Reject("root isolation incomplete")
+            self.groups.append((-w, rts, False))
+        self.c = c
+        self.nroots = sum(len(r) for _, r, _ in self.groups)
+
+    def analytic(self, t):
+        """analytic continuation G(t); non-finite if a log touches its branch cut"""
+        z = acb(2 * t).exp_pi_i()
+        zi = acb(-2 * t).exp_pi_i()
+        Tz = z - z * z
+        Tzi = zi - zi * zi
+        G = acb(self.c)
+        for w, rts, _ in self.groups:
+            s = acb(0)
+            for r, e in rts:
+                p = (Tz - r) * (Tzi - r.conjugate())
+                L = p.log(analytic=True)
+                s += e * L if e != 1 else L
+            G += (w / 2) * s
+        return G
+
+    def real_bounds(self, t):
+        """ball [lo, hi] for g on the real points of the ball t; lo may be None (= -inf)"""
+        tr = acb(t.real)
+        z = acb(2 * tr).exp_pi_i()
+        Tz = z - z * z
+        tot = arb(self.c)
+        lo_unbounded = False
+        for w, rts, is_num in self.groups:
+            s = arb(0)
+            for r, e in rts:
+                d = abs(Tz - r)
+                if d > 0:
+                    L = d.log()
+                elif is_num:                    # positive weight: only the upper side is needed
+                    lo_unbounded = True
+                    up = d.upper()
+                    if not up > 0:
+                        return None, None
+                    L = up.log()
+                else:                           # denominator root touched: g unbounded above
                     return None, None
-                upper += w * low.log()
-            if low > 0:
-                # |(d/dtheta)^2 log|e^(i theta)-r|| <= |r|/distance^2.
-                M2 += abs(w) * mod / (low * low)
-            else:
-                regular = False
-        if upper < 0:
-            return None, upper
-        if not regular:
-            return None, upper
-        g, gp = self.point(mid)
-        error = (abs(gp) * h + M2 * (self.twopi * h)**2 / 2).upper()
-        return g - error, (g + error).min(upper)
-
-    def primitive_integral(self, left, right):
-        """Integral of g on [left,right], by Li_2 entirely inside unit disc.
-
-        Inside root: log|z-r|=Re log(1-r/z).
-        Outside root: log|z-r|=log|r|+Re log(1-z/r).
-        The derivative of Li_2 gives the integral, with no cut crossing.
-        An interval root that straddles |r|=1 is allowed only if exact
-        polynomial algebra has separately established it as a unit root;
-        otherwise this method refuses it.
-        """
-        L, R = ball(left), ball(right)
-        zl = acb(0, self.twopi * L).exp()
-        zr = acb(0, self.twopi * R).exp()
-        ans = self.constant * (R - L)
-        for r, mod, w in self.roots:
-            if mod < 1:
-                v = ((r / zr).polylog(2) - (r / zl).polylog(2)).imag / self.twopi
-            elif mod > 1:
-                v = mod.log() * (R - L)
-                v -= ((zr / r).polylog(2) - (zl / r).polylog(2)).imag / self.twopi
-            else:
-                # Use interval analytic primitive where the endpoint discs
-                # avoid [1,infinity). Unit modulus is not required: if r
-                # is slightly outside, real(log z)=0 still gives the identity
-                # locally, and no branch discontinuity on the path is allowed.
-                # Conservatively integrate such roots only by a separate
-                # exact unit-root certificate set in certify_unit_roots().
-                require(self.unit_proven(r), 'unproved unit root for primitive')
-                v = ((r / zr).polylog(2) - (r / zl).polylog(2)).imag / self.twopi
-            require(v.is_finite(), 'nonfinite dilogarithm primitive')
-            ans += w * v
-        return ans
-
-    def certify_unit_roots(self):
-        # Cyclotomic factors are proved exactly, not inferred from a modulus
-        # numerically close to one. Every ambiguous root must match a root
-        # of such a factor, which divides the exact composed polynomial.
-        self.proven_units = []
-        for f, df, w, lc, rr in self.factors:
-            exact_f = fmpz_poly([int(c.real.fmpz()) for c in f.coeffs()])
-            reverse = fmpz_poly(exact_f.coeffs()[::-1])
-            common = exact_f.gcd(reverse)
-            known = []
-            for factor, multiplicity in common.factor()[1]:
-                if factor.is_cyclotomic():
-                    known.extend(s for s, k in factor.complex_roots())
-            for s in known:
-                require(sum(r.overlaps(s) for r, mod, m in rr) == 1,
-                        'cyclotomic enclosure must match one isolated root')
-            for r, mod, m in rr:
-                if mod.contains(1):
-                    require(sum(r.overlaps(s) for s in known) == 1,
-                            'unknown root on circle')
-                    self.proven_units.append(r)
-        require(len(self.proven_units) == len(self.unit_candidates), 'unit root count')
-
-    def unit_proven(self, r):
-        return any(r is s for s in self.proven_units)
-
-    def integrate_positive(self, eps):
-        # Symmetry about 1/2 holds for real polynomial coefficients.
-        stack = [(Fraction(0), Fraction(1, 2), 0)]
-        positive = []
-        uncertain = arb(0)
-        neg_count = 0
-        uncertain_count = 0
-        while stack:
-            l, r, depth = stack.pop()
-            low, high = self.range(l, r)
-            if high is not None and high <= 0:
-                neg_count += 1
-            elif low is not None and low > 0:
-                if positive and positive[-1][1] == l:
-                    positive[-1] = (positive[-1][0], r)
-                else:
-                    positive.append((l, r))
-            elif high is not None and high.is_finite() and high < eps:
-                # This covers sign changes, without assuming root counts or
-                # dropping a neighborhood. Total uncertainty <= eps/2.
-                cap = high.max(0) * ball(r - l)
-                uncertain += arb(0).union(cap)
-                uncertain_count += 1
-            else:
-                require(depth < 160, 'subdivision depth exhausted')
-                m = (l + r) / 2
-                stack.append((m, r, depth + 1))
-                stack.append((l, m, depth + 1))
-            if self.calls % 1000 == 0:
-                log('PANELS '+str(self.calls)+' positive_intervals='+str(len(positive))+
-                    ' negative='+str(neg_count)+' uncertain='+str(uncertain_count))
-        total = uncertain
-        log('SIGN PARTITION COMPLETE intervals='+str(len(positive)))
-        for n, (l, r) in enumerate(positive):
-            v = self.primitive_integral(l, r)
-            require(v.upper() >= 0, 'negative integral on positive interval')
-            total += v
-            log('INTEGRAL '+str(n+1)+'/'+str(len(positive)))
-        return 2 * total, {'range_calls': self.calls, 'negative_panels': neg_count,
-                          'uncertain_panels': uncertain_count,
-                          'positive_intervals': [[str(l),str(r)] for l,r in positive],
-                          'unresolved_contribution': enclosure(2 * uncertain)}
+                s += e * L if e != 1 else L
+            tot += w * s
+        if lo_unbounded:
+            return None, tot.upper()
+        return tot.lower(), tot.upper()
 
 
-def controls(cert):
-    out = {}
-    bad = copy.deepcopy(cert)
-    bad['denominator'][0]['coeffs'][0] += 1
-    try:
-        parse(bad)
-    except ValueError as e:
-        out['perturbed_coefficient'] = str(e)
-    require('perturbed_coefficient' in out, 'coefficient control not rejected')
-    bad = copy.deepcopy(cert)
-    bad['numerator'][0]['q_rational'] = '-1'
-    try:
-        parse(bad)
-    except ValueError as e:
-        out['perturbed_exponent'] = str(e)
-    require('perturbed_exponent' in out, 'exponent control not rejected')
-    # Nontrivial exact gcd and degree attacks.
-    bad = copy.deepcopy(cert)
-    bad['numerator'].append({'coeffs': cert['denominator'][0]['coeffs'],
-                             'q_rational':'1'})
-    try:
-        parse(bad)
-    except ValueError as e:
-        out['shared_factor'] = str(e)
-    require('shared_factor' in out, 'gcd control not rejected')
-    bad = copy.deepcopy(cert)
-    bad['numerator'][0]['q_rational'] = str(10**30)
-    try:
-        parse(bad)
-    except ValueError as e:
-        out['degree_violation'] = str(e)
-    require('degree_violation' in out, 'degree control not rejected')
-    # R=X-5, S=X-1, q=1/2: |R(T)|>=3, |S(T)|<=3,
-    # so J=0; both roots of R(T) have modulus sqrt(5), hence B=log(5).
-    analytic = {'denominator':[{'coeffs':[1,-5],'multiplicity':1}],
-                'numerator':[{'coeffs':[1,-1],'q_rational':'1/2'}]}
-    d,n,D,a,b = parse(analytic)
-    f = Integrand(d,n,D)
-    f.certify_unit_roots()
-    J, stats = f.integrate_positive(arb('1e-20'))
-    require(J.contains(0) and J.rad() == 0, 'analytic J is not exactly zero')
-    require(f.H.overlaps(arb(5).log()), 'analytic Mahler answer mismatch')
-    out['analytic_log5'] = enclosure(f.H + J)
-    # Test the dilogarithm primitive against Jensen over the full circle,
-    # including unit roots, outside roots, and an inside root.
-    full = f.primitive_integral(Fraction(0), Fraction(1))
-    require(full.overlaps(-arb(5).log()), 'full-circle Jensen mismatch')
-    out['analytic_full_circle'] = enclosure(full)
-    f.constant = arb(2).log()
-    f.roots = []
-    f.factors = []
-    J, stats = f.integrate_positive(arb('1e-20'))
-    require(J.overlaps(arb(2).log()), 'constant-positive integral mismatch')
-    out['analytic_constant_positive'] = enclosure(J)
-    # Exercise the inside-root primitive separately: the half-circle
-    # mean for a real root 1/2 is zero by Jensen and conjugation symmetry.
-    f.constant = arb(0)
-    f.roots = [(acb(arb(1)/2), arb(1)/2, arb(1))]
-    inside = f.primitive_integral(Fraction(0), Fraction(1,2))
-    require(inside.contains(0), 'inside-root Jensen mismatch')
-    out['analytic_inside_root'] = enclosure(inside)
-    # A nonconstant everywhere-positive g: R=X-5 and S=100, q=1.
-    # |R(T)|<=7<100; H+J=log(100) by Jensen.
-    positive = {'denominator':[{'coeffs':[1,-5],'multiplicity':1}],
-                'numerator':[{'coeffs':[100],'q_rational':'1'}]}
-    d,n,D,a,b = parse(positive)
-    f = Integrand(d,n,D)
-    f.certify_unit_roots()
-    J, stats = f.integrate_positive(arb('1e-22'))
-    require((f.H+J).overlaps(arb(100).log()), 'positive analytic answer mismatch')
-    out['analytic_log100'] = enclosure(f.H+J)
+def integrand_factory(rf, stats):
+    zero = acb(0)
+    nan = acb(NAN)
+
+    def f(t, analytic):
+        stats[0] += 1
+        if stats[0] % 50000 == 0:
+            sys.stderr.write("evals %d\n" % stats[0])
+            sys.stderr.flush()
+        if analytic:
+            G = rf.analytic(t)
+            if not G.is_finite():
+                return nan
+            gr = G.real
+            if gr < 0:
+                return zero
+            if gr > 0:
+                return G
+            return nan
+        lo, hi = rf.real_bounds(t)
+        if hi is None:
+            return nan
+        if hi <= 0:
+            return zero
+        if lo is None or not lo > 0:
+            return acb(arb(0).union(hi))
+        return acb(lo.union(hi))
+    return f
+
+
+TOL_BITS = [60]
+
+
+def compute_B(dens, nums, D, verbose=True):
+    ctx.prec = ROOT_PREC
+    H = arb(0)
+    undecided_total = 0
+    circle_den = 0
+    for name, R, m in dens:
+        lm, und, circ = log_mahler_composed(R)
+        undecided_total += und
+        circle_den += circ
+        H += rat_arb(Fraction(m, D)) * lm
+    rf = RootForm(dens, nums, D)
+    ctx.prec = PREC
+    stats = [0]
+    f = integrand_factory(rf, stats)
+    I = acb.integral(f, acb(0), acb(1) / 2, abs_tol=arb(2) ** -TOL_BITS[0], rel_tol=arb(2) ** -(TOL_BITS[0] - 10),
+                     eval_limit=4000000, depth_limit=400)
+    if not I.imag.contains(0):
+        raise Reject("imaginary part of the integral does not contain 0")
+    J = 2 * I.real
+    B = H + J
+    info = {"H": H, "J": J, "B": B, "evals": stats[0], "undecided_roots": undecided_total,
+            "denominator_circle_gcd_degree": circle_den, "w_roots": rf.nroots}
+    return info
+
+
+def circle_zeros_of_numerators(nums):
+    out = []
+    for name, S, q in nums:
+        P = compose_T(S)
+        g = P.gcd(fmpz_poly(P.coeffs()[::-1]))
+        if g.degree() > 0:
+            out.append((name, str(g)))
     return out
 
 
+def run(cert, target_str, label):
+    target = Fraction(target_str)
+    dens, nums, D, a, pairs = load_certificate(cert)
+    print("[%s] hypotheses: %d monic integer denominators, %d active integer numerators" % (label, len(dens), len(nums)))
+    print("[%s] D = %d ; a = %s ; a/D < 1 exactly: %s ; active gcd pairs checked coprime: %d"
+          % (label, D, a, a < D, pairs))
+    print("[%s] numerators with zeros of S o T on |z|=1 (gcd with reciprocal): %s" % (label, circle_zeros_of_numerators(nums)))
+    info = compute_B(dens, nums, D)
+    B = info["B"]
+    lo, hi = lower_fraction(B), upper_fraction(B)
+    print("[%s] denominator R o T: undecided |root|=1 cases %d ; gcd(P,P*) degree sum %d"
+          % (label, info["undecided_roots"], info["denominator_circle_gcd_degree"]))
+    print("[%s] H in [%s, %s]" % (label, dec_down(lower_fraction(info["H"]), 25), dec_up(upper_fraction(info["H"]), 25)))
+    print("[%s] J in [%s, %s]" % (label, dec_down(lower_fraction(info["J"]), 25), dec_up(upper_fraction(info["J"]), 25)))
+    print("[%s] B in [%s, %s]   (integrand evaluations %d, roots in w-plane %d, prec %d)"
+          % (label, dec_down(lo, 25), dec_up(hi, 25), info["evals"], info["w_roots"], PREC))
+    ok = hi < target
+    print("[%s] upper endpoint < %s : %s" % (label, target_str, ok))
+    print("[%s] %s" % (label, "PASS" if ok else "FAIL"))
+    return ok, lo, hi
+
+
+# ---------------------------------------------------------------- controls
+def analytic_controls():
+    results = []
+    ctx.prec = PREC
+    cases = [
+        ("A: R=X-3, no numerator, B = log 3", {"denominator": [{"name": "R", "coeffs": [1, -3], "multiplicity": 1}], "numerator": []},
+         arb(3).log()),
+        ("B: R=X-3, S=7 (q=1), g>0 everywhere, B = log 7", {"denominator": [{"name": "R", "coeffs": [1, -3], "multiplicity": 1}],
+                                                             "numerator": [{"name": "S", "coeffs": [7], "q_rational": "1"}]},
+         arb(7).log()),
+    ]
+    # C: R=X-3, S=2: g = log 2 - log|T(e)-3|, |T(e^{i th})-3|^2 = 12 cos^2 th - 8 cos th + 5,
+    # g > 0 exactly for 1/6 < cos th < 1/2.  B = log 3 + (1/pi) int_{pi/3}^{acos(1/6)} (log 2 - log(12c^2-8c+5)/2) dth
+    def hC(x, analytic):
+        cth = x.cos()
+        v = 12 * cth * cth - 8 * cth + 5
+        return arb(2).log() - v.log(analytic=analytic) / 2
+    ctx.prec = PREC
+    IC = acb.integral(hC, acb(arb.pi() / 3), acb(arb(1) / 6).acos())
+    BC = arb(3).log() + IC.real / arb.pi()
+    cases.append(("C: R=X-3, S=2 (q=1), two sign changes, B = log3 + independent 1-D integral",
+                  {"denominator": [{"name": "R", "coeffs": [1, -3], "multiplicity": 1}],
+                   "numerator": [{"name": "S", "coeffs": [2], "q_rational": "1"}]}, BC))
+    for name, cert, exact in cases:
+        dens, nums, D, a, pairs = load_certificate(cert)
+        info = compute_B(dens, nums, D)
+        B = info["B"]
+        ok = B.overlaps(exact) and upper_fraction(B) - lower_fraction(B) < Fraction(1, 10 ** 15)
+        print("[control analytic %s] computed B in [%s, %s]; known %s; consistent and tight: %s"
+              % (name, dec_down(lower_fraction(B), 20), dec_up(upper_fraction(B), 20), exact.str(20), ok))
+        results.append(ok)
+    return all(results)
+
+
+def rejection_controls(cert):
+    out = []
+    def mutate(fn):
+        c = json.loads(json.dumps(cert))
+        fn(c)
+        return c
+    cases = [
+        ("non-monic denominator", lambda c: c["denominator"][0]["coeffs"].__setitem__(0, 2)),
+        ("numerator equal to a denominator (gcd)", lambda c: c["numerator"].append(
+            {"name": "dup", "coeffs": list(c["denominator"][0]["coeffs"]), "q_rational": "1/1048576"})),
+        ("P1 exponent doubled (a >= D)", lambda c: c["numerator"][0].__setitem__(
+            "q_rational", str(2 * Fraction(c["numerator"][0]["q_rational"])))),
+        ("decimal exponent string", lambda c: c["numerator"][1].__setitem__("q_rational", ".".join(["0", "5"]))),
+        ("zero multiplicity", lambda c: c["denominator"][1].__setitem__("multiplicity", 0)),
+        ("non-integer coefficient", lambda c: c["numerator"][5]["coeffs"].__setitem__(3, "3")),
+    ]
+    for name, fn in cases:
+        c = mutate(fn)
+        try:
+            load_certificate(c)
+            print("[control reject] %s: NOT rejected" % name)
+            out.append(False)
+        except Reject as e:
+            print("[control reject] %s: rejected (%s)" % (name, e))
+            out.append(True)
+    return all(out)
+
+
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument('--certificate', default='inputs/certificates/certificate.json')
-    ap.add_argument('--target', default='0.2519696460')
-    ap.add_argument('--prec', type=int, default=384)
-    ap.add_argument('--eps', default='1e-22')
-    ap.add_argument('--output', default='replay/result.json')
-    ap.add_argument('--controls-only', action='store_true')
-    args = ap.parse_args()
-    require(args.prec >= 192, 'precision less than 192')
-    ctx.prec = args.prec
-    ctx.threads = 1
-    # Peak RSS is checked below and monitored externally with ps.
-    started = time.monotonic_ns()
-    log('PID '+str(os.getpid())+' precision='+str(ctx.prec))
-    cert = json.loads(Path(args.certificate).read_text(), parse_float=str)
-    d,n,D,a,b = parse(cert)
-    log('EXACT D='+str(D)+' a='+str(a)+' b='+str(b)+' gcd_pairs='+str(len(d)*len(n)))
-    red = controls(cert)
-    log('CONTROLS '+json.dumps(red, sort_keys=True))
-    if args.controls_only:
-        return
-    f = Integrand(d,n,D)
-    f.certify_unit_roots()
-    log('H '+f.H.str(60)+' unit_roots='+str(len(f.proven_units)))
-    J, stats = f.integrate_positive(arb(args.eps))
-    B = f.H + J
-    false = Fraction('0.2519696459')
-    require(B.lower() > ball(false), 'false target not rejected by lower endpoint')
-    red['false_target'] = 'rejected: B lower endpoint exceeds '+str(false)
-    target = ball(Fraction(args.target))
-    status = 'PASS' if B < target else 'FAIL'
-    usage = resource.getrusage(resource.RUSAGE_SELF)
-    require(usage.ru_maxrss < 1000**3, 'RSS exceeded 1 GiB')
-    result = {'status':status, 'precision_bits':ctx.prec, 'D':D, 'a':str(a),
-              'b':b, 'degree_slack':str(D-a), 'gcd_pairs':len(d)*len(n),
-              'composed_root_count':sum(len(rr) for f,df,w,lc,rr in f.factors),
-              'unit_roots':f.unit_candidates, 'H':enclosure(f.H), 'J':enclosure(J),
-              'B':enclosure(B), 'target':args.target, 'controls':red,
-              'integration':stats, 'pid':os.getpid(), 'peak_rss_bytes':usage.ru_maxrss,
-              'elapsed_ns':time.monotonic_ns()-started,
-              'certificate_sha256':hashlib.sha256(Path(args.certificate).read_bytes()).hexdigest()}
-    Path(args.output).write_text(json.dumps(result,indent=2)+'\n')
-    log('B '+B.str(60))
-    log(status)
-    require(status == 'PASS', 'target not proved')
+    args = sys.argv[1:]
+    if not args:
+        print("usage: check.py CERT.json [--target X] [--control analytic|reject|coeff|exponent]")
+        sys.exit(2)
+    path = args[0]
+    target = DEFAULT_TARGET
+    control = None
+    if "--target" in args:
+        target = args[args.index("--target") + 1]
+    if "--tol" in args:
+        TOL_BITS[0] = int(args[args.index("--tol") + 1])
+    print("integrator abs_tol 2^-%d, rel_tol 2^-%d" % (TOL_BITS[0], TOL_BITS[0] - 10))
+    if "--control" in args:
+        control = args[args.index("--control") + 1]
+    raw = open(path, "rb").read()
+    print("certificate sha256 %s" % hashlib.sha256(raw).hexdigest())
+    cert = json.loads(raw)
+    if control is None:
+        try:
+            ok, lo, hi = run(cert, target, "main")
+        except Reject as e:
+            print("[main] REJECTED: %s" % e)
+            print("[main] FAIL")
+            sys.exit(1)
+        sys.exit(0 if ok else 1)
+    if control == "analytic":
+        ok = analytic_controls()
+    elif control == "reject":
+        ok = rejection_controls(cert)
+    elif control in ("coeff", "exponent"):
+        c = json.loads(json.dumps(cert))
+        if control == "coeff":
+            c["denominator"][0]["coeffs"][-1] += 1          # constant term of the first denominator + 1
+            desc = "constant coefficient of denominator 0 increased by 1"
+        else:
+            last = c["numerator"][-1]
+            last["q_rational"] = str(2 * Fraction(last["q_rational"]))
+            desc = "exponent of the last numerator (%s) doubled" % last["name"]
+        print("[control %s] %s" % (control, desc))
+        try:
+            okp, lo, hi = run(c, target, "control " + control)
+            ref_lo, ref_hi = Fraction(args[args.index("--ref-lo") + 1]), Fraction(args[args.index("--ref-hi") + 1])
+            changed = hi < ref_lo or lo > ref_hi
+            print("[control %s] enclosure disjoint from the unperturbed one: %s" % (control, changed))
+            ok = changed
+        except Reject as e:
+            print("[control %s] rejected: %s" % (control, e))
+            ok = True
+    else:
+        raise SystemExit("unknown control")
+    print("[control %s] %s" % (control, "OK" if ok else "CONTROL FAILED"))
+    sys.exit(0 if ok else 1)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

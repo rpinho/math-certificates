@@ -49,47 +49,89 @@
       "new_bound": false
     },
     {
+      "value": "0.2519744488",
+      "kind": "cited",
+      "source": "https://github.com/rpinho/math-certificates/blob/dadec7353c435a081befca73888e3ab6cef3134a/c82/degree104-joint/README.md",
+      "new_bound": false
+    },
+    {
+      "value": "0.2519694883",
+      "kind": "cited",
+      "source": "https://github.com/vidigoat/optimization-records/blob/e3bae2ea40c8b1f764a1ba08bcd21fe513b2c45d/tao/certificates/c82/v6/README.md",
+      "new_bound": false
+    },
+    {
       "value": "0.2519696460",
+      "kind": "cited",
+      "source": "https://github.com/rpinho/math-certificates/blob/977121e04d22dd9cde69e3765b3eed2a78376e3d/c82/degree104-joint/README.md",
+      "new_bound": false
+    },
+    {
+      "value": "0.2519694759",
       "kind": "rigorous",
-      "producer": "verify_best.py",
+      "producer": "verify.py",
       "arithmetic": "interval",
       "new_bound": true,
       "note": "strict upper bound"
     },
     {
-      "value": "0.2519696459872490977703",
+      "value": "0.2519694758381300638735",
       "kind": "rigorous",
-      "producer": "verify_best.py",
+      "producer": "verify.py",
       "arithmetic": "interval",
       "new_bound": false,
       "note": "lower enclosure endpoint"
     },
     {
-      "value": "0.2519696459872491000812",
+      "value": "0.2519694758381300658953",
       "kind": "rigorous",
-      "producer": "verify_best.py",
+      "producer": "verify.py",
       "arithmetic": "interval",
       "new_bound": false,
       "note": "upper enclosure endpoint"
     },
     {
-      "value": "0.0000894926127508999188",
+      "value": "0.0000000124618699341047",
       "kind": "rigorous",
       "producer": "certificate_facts.py",
       "arithmetic": "exact",
       "new_bound": false,
-      "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_280_v3_at_least"
+      "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_280_v6_at_least"
     },
     {
-      "value": "0.0000383264127508999188",
+      "value": "0.0000000820618699341047",
       "kind": "rigorous",
       "producer": "certificate_facts.py",
       "arithmetic": "exact",
       "new_bound": false,
-      "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_280_v4_at_least"
+      "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_round11_printed_at_least"
     },
     {
-      "value": "0.0000193154127508999188",
+      "value": "0.0000001701618699341047",
+      "kind": "rigorous",
+      "producer": "certificate_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_330_round10_at_least"
+    },
+    {
+      "value": "0.0000049729618699341047",
+      "kind": "rigorous",
+      "producer": "certificate_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_round9_printed_at_least"
+    },
+    {
+      "value": "0.0000228651618699341047",
+      "kind": "rigorous",
+      "producer": "certificate_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_330_a12_at_least"
+    },
+    {
+      "value": "0.0000194855618699341047",
       "kind": "rigorous",
       "producer": "certificate_facts.py",
       "arithmetic": "exact",
@@ -97,28 +139,92 @@
       "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_280_v5_at_least"
     },
     {
-      "value": "0.0000226950127508999188",
+      "value": "0.0000384965618699341047",
       "kind": "rigorous",
       "producer": "certificate_facts.py",
       "arithmetic": "exact",
       "new_bound": false,
-      "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_previous_330_at_least"
+      "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_280_v4_at_least"
     },
     {
-      "value": "0.0000061757127508999188",
+      "value": "0.0000896627618699341047",
       "kind": "rigorous",
       "producer": "certificate_facts.py",
       "arithmetic": "exact",
       "new_bound": false,
-      "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_round8_printed_at_least"
+      "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_280_v3_at_least"
     },
     {
-      "value": "0.0000061756504077673938",
+      "value": "0.0000000104915943220795",
       "kind": "rigorous",
       "producer": "certificate_facts.py",
       "arithmetic": "exact",
       "new_bound": false,
-      "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_round8_endpoint_at_least"
+      "note": "exact replay upper endpoint of #280 v6 minus replay upper endpoint of the full-bank union certificate (rounds/union-0-replay.json), rounded downward; receipts/certificate-facts.json gain_union_over_pr280_v6_replay_at_least"
+    },
+    {
+      "value": "0.0000000019429764918191",
+      "kind": "rigorous",
+      "producer": "certificate_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "replay upper endpoint of the full-bank union certificate minus the certified upper endpoint of this certificate, rounded downward; receipts/certificate-facts.json gain_after_union_at_least"
+    },
+    {
+      "value": "0.0000000124345708138987",
+      "kind": "rigorous",
+      "producer": "certificate_facts.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "note": "exact replay upper endpoint of #280 v6 minus the certified upper endpoint of this certificate, rounded downward; receipts/certificate-facts.json gain_total_over_pr280_v6_replay_at_least"
+    },
+    {
+      "value": "0.2519694882727008775243",
+      "kind": "rigorous",
+      "producer": "verify.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "lower endpoint of our interval replay of the public #280 v6 certificate (evidence/v6.json)"
+    },
+    {
+      "value": "0.2519694882727008797941",
+      "kind": "rigorous",
+      "producer": "verify.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "upper endpoint of our interval replay of the public #280 v6 certificate (evidence/v6.json)"
+    },
+    {
+      "value": "0.2519695579",
+      "kind": "rigorous",
+      "producer": "verify.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "stated value of our unpublished round-11 certificate; its replay (evidence/round11.json) has upper endpoint 0.2519695578633784958618"
+    },
+    {
+      "value": "0.2519695578633784932671",
+      "kind": "rigorous",
+      "producer": "verify.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "lower endpoint of our interval replay of the unpublished round-11 certificate (evidence/round11.json)"
+    },
+    {
+      "value": "0.2519695578633784958618",
+      "kind": "rigorous",
+      "producer": "verify.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "upper endpoint of our interval replay of the unpublished round-11 certificate (evidence/round11.json)"
+    },
+    {
+      "value": "0.2519694777811065577145",
+      "kind": "rigorous",
+      "producer": "verify.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "upper endpoint of the producer replay of the full-bank union certificate (rounds/union-0-replay.json); the union certificate itself is not shipped"
     },
     {
       "value": "0.25200797232842968",
@@ -137,36 +243,6 @@
       "note": "radius of our interval replay of the public #280 v4 certificate (evidence/pr280-v4-replay.json)"
     },
     {
-      "value": "0.2519696459872490990419691935079545",
-      "kind": "rigorous",
-      "producer": "review/replay/check.py",
-      "arithmetic": "interval",
-      "new_bound": false,
-      "note": "referee outward lower enclosure endpoint"
-    },
-    {
-      "value": "0.2519696459872490990419691935079546",
-      "kind": "rigorous",
-      "producer": "review/replay/check.py",
-      "arithmetic": "interval",
-      "new_bound": false,
-      "note": "referee outward upper enclosure endpoint"
-    },
-    {
-      "value": "0.2519744488",
-      "kind": "cited",
-      "source": "https://github.com/rpinho/math-certificates/blob/dadec7353c435a081befca73888e3ab6cef3134a/c82/degree104-joint/README.md",
-      "new_bound": false
-    },
-    {
-      "value": "0.0000048028127508999188",
-      "kind": "rigorous",
-      "producer": "certificate_facts.py",
-      "arithmetic": "exact",
-      "new_bound": false,
-      "note": "Exact comparator minus certified upper endpoint, rounded downward; receipts/certificate-facts.json gap_to_round9_printed_at_least"
-    },
-    {
       "value": "0.2519889613870203560855",
       "kind": "rigorous",
       "producer": "verify_v5.py",
@@ -181,6 +257,22 @@
       "arithmetic": "interval",
       "new_bound": false,
       "note": "Outward upper endpoint of our earlier #280 v5 replay; evidence/pr280-v5-replay.json, preserved from the template; not a new replay in this packaging job"
+    },
+    {
+      "value": "0.2519694758380326654679408",
+      "kind": "rigorous",
+      "producer": "review/replay/check.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "referee outward lower enclosure endpoint"
+    },
+    {
+      "value": "0.2519694758382429035635232",
+      "kind": "rigorous",
+      "producer": "review/replay/check.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "note": "referee outward upper enclosure endpoint"
     }
   ]
 }

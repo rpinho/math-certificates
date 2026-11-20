@@ -1,0 +1,9 @@
+integrator abs_tol 2^-60, rel_tol 2^-50
+certificate sha256 dc129b7586da99042ff04e6cbf435d0b2e7e761ccfb87fc218da079b3f26aa33
+[control reject] non-monic denominator: rejected (denominator C82r8_b4ce16615ae6 is not monic)
+[control reject] numerator equal to a denominator (gcd): rejected (gcd(dup, C82r8_b4ce16615ae6) is nonconstant)
+[control reject] P1 exponent doubled (a >= D): rejected (degree condition fails: a = 414005467489920812299932101411/524288 >= D = 740384615402384615382720)
+[control reject] decimal exponent string: rejected (exponent '0.5' is not a nonnegative integer or p/q string)
+[control reject] zero multiplicity: rejected (denominator C82r8_fcd3a4b2d94d: multiplicity must be a positive integer)
+[control reject] non-integer coefficient: rejected (N82r8_3cc45c82e976: non-integer coefficient '3')
+[control reject] OK

@@ -23,7 +23,7 @@ verification; it does not turn that mathematical reduction into a formal proof.
 
 ## Separately written implementation (same agent)
 
-`verify_best.py` imports only standard Python and python-flint. It uses no
+`verify.py` imports only standard Python and python-flint. It uses no
 functions from the baseline or any submitted/search/review code. It composes
 each polynomial with T exactly in Z[z], then calls FLINT's certified complex
 root isolation and checks all root multiplicities against the exact degree.

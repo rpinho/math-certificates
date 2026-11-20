@@ -1,0 +1,14 @@
+integrator abs_tol 2^-50, rel_tol 2^-40
+certificate sha256 dc129b7586da99042ff04e6cbf435d0b2e7e761ccfb87fc218da079b3f26aa33
+[control coeff] constant coefficient of denominator 0 increased by 1
+[control coeff] hypotheses: 6 monic integer denominators, 38 active integer numerators
+[control coeff] D = 740384615402384615382720 ; a = 696806913114226553812602710857/1048576 ; a/D < 1 exactly: True ; active gcd pairs checked coprime: 228
+[control coeff] numerators with zeros of S o T on |z|=1 (gcd with reciprocal): [('P1', 'x + (-1)'), ('P2', 'x^2 + (-1)*x + 1'), ('P4', 'x^4 + (-1)*x^3 + x^2 + (-1)*x + 1')]
+[control coeff] denominator R o T: undecided |root|=1 cases 0 ; gcd(P,P*) degree sum 0
+[control coeff] H in [0.2568326498484044493261419, 0.2568326498484044493261420]
+[control coeff] J in [0.0000000583010555984069730, 0.0000000583250586602064291]
+[control coeff] B in [0.2568327081494600477060098, 0.2568327081734631095596761]   (integrand evaluations 109312, roots in w-plane 1863, prec 192)
+[control coeff] upper endpoint < 0.2519694759 : False
+[control coeff] FAIL
+[control coeff] enclosure disjoint from the unperturbed one: True
+[control coeff] OK

@@ -1,0 +1,6 @@
+integrator abs_tol 2^-60, rel_tol 2^-50
+certificate sha256 dc129b7586da99042ff04e6cbf435d0b2e7e761ccfb87fc218da079b3f26aa33
+[control analytic A: R=X-3, no numerator, B = log 3] computed B in [1.09861228866810969139, 1.09861228866810969140]; known [1.0986122886681096914 +/- 4.76e-21]; consistent and tight: True
+[control analytic B: R=X-3, S=7 (q=1), g>0 everywhere, B = log 7] computed B in [1.94591014905531330297, 1.94591014905531330724]; known [1.9459101490553133051 +/- 5.36e-21]; consistent and tight: True
+[control analytic C: R=X-3, S=2 (q=1), two sign changes, B = log3 + independent 1-D integral] computed B in [1.10186186078805759302, 1.10186186078805778462]; known [1.1018618607880576834 +/- 2.94e-20]; consistent and tight: True
+[control analytic] OK

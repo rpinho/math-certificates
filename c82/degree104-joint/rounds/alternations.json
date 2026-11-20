@@ -1,0 +1,114 @@
+[
+  {
+    "round": 1,
+    "state": "rounds/new-num-1",
+    "exact_gain": "3267737575638328034876246285049563167897920009082913254656690114711/231584178474632390847141970017375815706539969331281128078915168015826259279872",
+    "gain": 1.4110366248514141e-11,
+    "upper": "0.2519694777669961914660",
+    "archive": "certificates/best_0.2519694777669961914660.json",
+    "small_gain_streak": 1,
+    "counts": {
+      "numerator": 1,
+      "denominator": 0
+    },
+    "den_arm": true,
+    "probe_next": false,
+    "above_seconds": 248.15969258290716
+  },
+  {
+    "round": 2,
+    "state": "rounds/new-num-2",
+    "exact_gain": "446694877077833488885333400487506682925660172552630273651619576156477/231584178474632390847141970017375815706539969331281128078915168015826259279872",
+    "gain": 1.928866125570682e-09,
+    "upper": "0.2519694758381300658953",
+    "archive": "certificates/best_0.2519694758381300658953.json",
+    "small_gain_streak": 0,
+    "counts": {
+      "numerator": 1,
+      "denominator": 0
+    },
+    "den_arm": true,
+    "probe_next": false,
+    "above_seconds": 0
+  },
+  {
+    "round": 3,
+    "state": "rounds/new-num-2",
+    "exact_gain": "0",
+    "gain": 0.0,
+    "upper": "0.2519694758381300658953",
+    "archive": "certificates/best_0.2519694758381300658953.json",
+    "small_gain_streak": 1,
+    "counts": {
+      "numerator": 0,
+      "denominator": 0
+    },
+    "den_arm": true,
+    "probe_next": false,
+    "above_seconds": 0
+  },
+  {
+    "round": 4,
+    "state": "rounds/new-num-2",
+    "exact_gain": "0",
+    "gain": 0.0,
+    "upper": "0.2519694758381300658953",
+    "archive": "certificates/best_0.2519694758381300658953.json",
+    "small_gain_streak": 2,
+    "counts": {
+      "numerator": 0,
+      "denominator": 0
+    },
+    "den_arm": true,
+    "probe_next": false,
+    "above_seconds": 0
+  },
+  {
+    "round": 5,
+    "state": "rounds/new-num-2",
+    "exact_gain": "0",
+    "gain": 0.0,
+    "upper": "0.2519694758381300658953",
+    "archive": "certificates/best_0.2519694758381300658953.json",
+    "small_gain_streak": 3,
+    "counts": {
+      "numerator": 0,
+      "denominator": 0
+    },
+    "den_arm": true,
+    "probe_next": false,
+    "above_seconds": 0
+  },
+  {
+    "round": 6,
+    "state": "rounds/new-num-2",
+    "exact_gain": "0",
+    "gain": 0.0,
+    "upper": "0.2519694758381300658953",
+    "archive": "certificates/best_0.2519694758381300658953.json",
+    "small_gain_streak": 4,
+    "counts": {
+      "numerator": 0,
+      "denominator": 0
+    },
+    "den_arm": true,
+    "probe_next": false,
+    "above_seconds": 0
+  },
+  {
+    "round": 7,
+    "state": "rounds/new-num-2",
+    "exact_gain": "0",
+    "gain": 0.0,
+    "upper": "0.2519694758381300658953",
+    "archive": "certificates/best_0.2519694758381300658953.json",
+    "small_gain_streak": 5,
+    "counts": {
+      "numerator": 0,
+      "denominator": 0
+    },
+    "den_arm": true,
+    "probe_next": false,
+    "above_seconds": 0
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "url": "https://api.github.com/repos/teorth/optimizationproblems/issues/comments/7020721846",
+    "html_url": "https://github.com/teorth/optimizationproblems/pull/87#issuecomment-7020721846",
+    "issue_url": "https://api.github.com/repos/teorth/optimizationproblems/issues/87",
+    "id": 7020721846,
+    "node_id": "IC_kwDOQ_aBz88AAAABone2tg",
+    "user": {
+      "login": "arhancanli",
+      "id": 315329124,
+      "node_id": "U_kgDOEsuKZA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/315329124?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arhancanli",
+      "html_url": "https://github.com/arhancanli",
+      "followers_url": "https://api.github.com/users/arhancanli/followers",
+      "following_url": "https://api.github.com/users/arhancanli/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arhancanli/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arhancanli/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arhancanli/subscriptions",
+      "organizations_url": "https://api.github.com/users/arhancanli/orgs",
+      "repos_url": "https://api.github.com/users/arhancanli/repos",
+      "events_url": "https://api.github.com/users/arhancanli/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arhancanli/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2026-11-19T20:03:12Z",
+    "updated_at": "2026-11-19T20:03:12Z",
+    "body": "**Independent exact replay of this pull request's certificate** ($C_{82} \\le 0.2536331090204145$, the 82a row [Gri26]), with our own code. Only data were downloaded (maaxgrin/zhang-zagier-c82-bound @ `cb88f92`): the record `qstar_lp_grid32768_maxden1e7` of `runs/qstar_targeted_refined.jsonl`, which is the candidate the certified run `runs/qstar_cert_roots_262144_target253635.jsonl` names; `zzopt/` and the tests were neither read nor run.\n\n| check | result |\n|---|---|\n| the data | denominator $Q = Q_1Q_2R_0R_2P_7P_9$ (degree $D = 140$, all monic), numerators $P_1,\\dots,P_6,P_8$ with exponents such as $q_1 = 56823994/2143341$; $\\deg A = 0.8946\\,D < D$; all 42 numerator-denominator pairs coprime |\n| $\\log M(Q\\circ T)$ | $35.4992299049\\ldots$, every root of every $F\\circ T$ (354 of them) in a certified disc |\n| $\\int_0^1 \\max(0, g)$ | $[0.00853891, 0.00853894]$, by adaptive panels, with Jensen's formula as a self-test |\n| the bound | $B \\in [0.2536269201610, 0.2536269202552]$ (first program) and $[0.2536269162788, 0.2536269293400]$ (second), both below 0.2536331090204145 by $6.2\\cdot10^{-6}$ |\n\n**How.** The two separately written programs we used for the C82 certificates of #280 and #330: one encloses the roots by Gershgorin discs and integrates with per-root series on dyadic panels in fixed-point integers; the other certifies roots by a Newton inclusion with exact Gaussian-integer evaluation and integrates with Taylor polynomials in the panel variable. Both check the hypotheses (monic denominators, $\\deg A < D$, coprimality) before anything else.\n\n**Red controls**, refused: a bound just below our enclosure; $P_7$ added as a numerator (coprimality fails); $P_7$ doubled (not monic); the exponents scaled so that $\\deg A = D + 1$.\n\nThe row prints the repository's certified interval bound, which is $6\\cdot10^{-6}$ above $B$; the README's numerical value for this $Q$, 0.253626920959, is $7\\cdot10^{-10}$ above our enclosure (information only). We have no connection with the author.\n\n**Re-derive** from https://github.com/arhancanli/quantavane-replays/tree/cc8d0318623caaf746d3b90c04abe26bbe965733 (folder `c82gri`, with `c82` and `c82v6`): `./fetch.sh && ./run_all.sh` (Python 3.9+; about a minute). Prepared with AI assistance (Claude, Anthropic).\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/teorth/optimizationproblems/issues/comments/7020721846/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null,
+    "minimized": null
+  }
+]

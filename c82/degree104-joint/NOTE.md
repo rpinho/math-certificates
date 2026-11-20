@@ -1,63 +1,15 @@
 # Packet scope
 
-Rounds 9 and 10 of this search continued round 8 warm, without a cold restart. Round 8 had added #280 v5 data. The round-8 (C82 < 0.2519758217*) and round-9 (C82 < 0.2519744488*, previous packet at math-certificates commit dadec7353c435a081befca73888e3ab6cef3134a) certificates are superseded and their standalone certificates are not in this packet. Historical replay, factor provenance, source account, coefficient banks and floating masters remain as producer evidence. Paths to omitted certificates in producer records refer to the external producer archive.
+This packet replaces the previous packet for PR #330 (math-certificates commit 977121e04d22dd9cde69e3765b3eed2a78376e3d, C82 < 0.2519696460*, round 10 of this search) with the round-12 certificate, C82 < 0.2519694759*. Rounds 11 and 12 of this search continued the search after round 10. Round 11 (certified 0.2519695579*) was never published. Round 12 merged round 11's factor bank with the columns of V. Patankar's #280 v6 (0.2519694883*), then searched higher-degree numerators. The round-10 certificate (0.2519696460*, the previous packet at commit 977121e) is superseded and is not in this packet; the round-11 certificate is retained only as input data (inputs/round11.json), because round 12 started from it and evidence/round11.json replays it.
 
-Only round 10's final certificate-producing solve, archive-num-77-0, its restricted master and dual, and finished.json are retained in rounds/. The duplicate certificate is omitted; use certificate.json. Earlier rounds named in historical records are outside this release. REPORT.md, STATUS.md, COMPUTE.json and the improvement curve describe the full completed producer run. Reproduction here is of the bound, rather than every timed search event.
+Retained from the previous packet byte-for-byte: the public #280 v3, v4 and v5 certificate data (prior_sources/pr280-v3-certificate.json, pr280-v4-certificate.json, pr280-v5-certificate.json), the four #280 tree captures used by seal.py, prior_sources/pr280-final.json, my earlier replays of #280 v4 and v5 with their verifiers (evidence/pr280-v4-replay.json, evidence/pr280-v5-replay.json, evidence/verify_public_v4.py, verify_v5.py), the LICENSE copy, and all of sources/ (publication captures and linked tree evidence). Added: the pinned #280 v6 certificate data inputs/v6.json byte-for-byte with its MIT licence (inputs/LICENSE-v6) and inputs/SOURCE.md, the e3bae2ea tree capture, and the previous packet's tree at 977121e.
 
-CERTIFICATE_ENCODING.md describes the final exact release encoding and points to certificate.json for its authoritative q_rational strings. Historical encoding notes for omitted certificates are omitted whole. No rational data or verifier hash pin is changed. Third-party coefficient files and retained raw source captures keep their original bytes, including historical URLs and prose; authored citations are pinned to commits. The referee's REFEREE.md and PRIOR_ART.md are explicitly preserved byte-for-byte, including historical live links and initial-status prose. The final verdict is HOLDS WITH CAVEATS; its single unresolved task caveat is model provenance. Historical snapshots do not describe unfinished release work.
+Round 12's producer records, scripts, evidence/, inputs/ and rounds/ replace the round-10 payload. Only round 12's final alternation files are retained in rounds/ (new-num-2, the final restricted master and its dual, LP summary, replay and added-column list), with alternations.json, stopped.json and union-final.json, plus rounds/union-0-replay.json, the producer's replay of the full-bank union certificate, which supports the credit split stated in README.md. The producer's other round files (the lll-*, cvp-*, orbit-*, new-den-* and earlier new-num-* and union-* files), logs/ and certificates/ are omitted. The final round certificate rounds/new-num-2-certificate.json is byte-identical to certificate.json and is omitted as a duplicate. Paths to omitted files in producer records (certificates/best_*.json, logs/) refer to the external producer archive. The coefficient banks inputs/bank.json and inputs/full-bank.json are stored gzip-compressed (inputs/bank.json.gz, inputs/full-bank.json.gz); decompress with `gzip -dc` before any search reconstruction. Producer scripts that read prior_sources/factor-bank.json.gz or the round-11 archives (finish.py) need the external producer archive.
 
-The template's public #280 v3/v4/v5 coefficient data and evidence/pr280-v5-replay.json are retained byte-for-byte. The earlier v4 replay and its named verifier are retained as well. sources/ and every linked_trees entry with retained evidence are retained. The coefficient banks are stored as the producer's gzip files; decompress before attempting historical search reconstruction outside this sealed packet.
+The verifier is verify.py, the producer's bytes, with the certificate digest passed on the command line; earlier packets called it verify_best.py. verify_v5.py is the verifier that produced the retained v5 replay. My v6 and round-11 replays (evidence/v6.json, evidence/round11.json) were made by verify.py.
 
-Whole-file archival omissions (regenerable cache, historical encoding notes, superseded standalone certificates and source metadata containing branch URLs or obsolete initial status) are listed below. These files are omitted rather than edited or reserialized. They remain in the producer archive. The old template's sources/82a.md omission remains in force.
+CERTIFICATE_ENCODING.md is the producer's note and describes equal-fraction encodings in the v6 incumbent replay, not certificate.json (whose rational strings are all in lowest terms). Third-party coefficient files and retained raw source captures keep their original bytes, including historical URLs and prose; authored citations are pinned to commits. The referee's REFEREE.md and PRIOR_ART.md are preserved byte-for-byte, including live links. The referee's final verdict is HOLDS. inputs/pr87-comments.json and inputs/pr87-reviews.json are raw public captures of the #87 discussion read by the producer. review/replay/ preserves the referee's complete run outputs, including the unfinished and coarse-tolerance runs described in review/replay/report.md.
 
-- evidence/matplotlib-cache/fontlist-v3.11.0.json
-- evidence/round9-CERTIFICATE_ENCODING.md
-- prior_sources/BakeLab_Epi-results-readme-final.json
-- prior_sources/current-close-82a.md
-- prior_sources/current-close-BakeLab_Epi-results.json.gz
-- prior_sources/current-close-google-deepmind_alphaevolve_repository_of_problems.json.gz
-- prior_sources/current-close-google-deepmind_alphaevolve_results.json.gz
-- prior_sources/current-close-kisonecat_openai-math.json.gz
-- prior_sources/current-close-official.json.gz
-- prior_sources/current-close-open-prs.json.gz
-- prior_sources/current-close-openai_math.json.gz
-- prior_sources/current-close-plasma-ai_erdos.json.gz
-- prior_sources/current-close-togethercomputer_EinsteinArena-new-SOTA.json.gz
-- prior_sources/current-final-82a.md
-- prior_sources/current-final-BakeLab_Epi-results.json.gz
-- prior_sources/current-final-Epi-C82-C82-readme.json.gz
-- prior_sources/current-final-Neehan-C82-readme.json.gz
-- prior_sources/current-final-google-deepmind_alphaevolve_repository_of_problems.json.gz
-- prior_sources/current-final-google-deepmind_alphaevolve_results.json.gz
-- prior_sources/current-final-kisonecat_openai-math.json.gz
-- prior_sources/current-final-maaxgrin-C82-readme.json.gz
-- prior_sources/current-final-official.json.gz
-- prior_sources/current-final-open-prs.json.gz
-- prior_sources/current-final-openai_math.json.gz
-- prior_sources/current-final-plasma-ai_erdos.json.gz
-- prior_sources/current-final-togethercomputer_EinsteinArena-new-SOTA.json.gz
-- prior_sources/current-initial-82a.md
-- prior_sources/current-initial-BakeLab_Epi-results.json.gz
-- prior_sources/current-initial-google-deepmind_alphaevolve_repository_of_problems.json.gz
-- prior_sources/current-initial-google-deepmind_alphaevolve_results.json.gz
-- prior_sources/current-initial-kisonecat_openai-math.json.gz
-- prior_sources/current-initial-official.json.gz
-- prior_sources/current-initial-open-prs.json.gz
-- prior_sources/current-initial-openai_math.json.gz
-- prior_sources/current-initial-plasma-ai_erdos.json.gz
-- prior_sources/current-initial-togethercomputer_EinsteinArena-new-SOTA.json.gz
-- prior_sources/google-deepmind_alphaevolve_repository_of_problems-readme-final.json
-- prior_sources/google-deepmind_alphaevolve_results-readme-final.json
-- prior_sources/kisonecat_openai-math-readme-final.json
-- prior_sources/official-82a-final.md
-- prior_sources/official-82a.md
-- prior_sources/official-main-final.json
-- prior_sources/official-main.json
-- prior_sources/open-prs-final.json.gz
-- prior_sources/open-prs.json.gz
-- prior_sources/openai_math-readme-final.json
-- prior_sources/plasma-ai_erdos-readme-final.json
-- prior_sources/round8-certificate.json
-- prior_sources/round9-certificate.json
-- prior_sources/togethercomputer_EinsteinArena-new-SOTA-readme-final.json
-- sources/82a.md
+Whole-file archival omissions beyond those above are the template's: the old packet's sources/82a.md and the round-10 producer's regenerable caches, historical encoding notes, superseded standalone certificates and source metadata. Its round-10 prior_sources captures and evidence files are not in this packet. Prior-art captures of round 12 are in PRIOR_ART.md.
+
+The one machine-specific path in the producer records (an X-capture path in PRIOR_ART.md) was shortened to start at x_capture/; producer run_local.sh is replaced by the packet's relative-path run_local.sh. No other producer file was edited, and no .publish-lint.json or other lint receipt is included.

@@ -1,6 +1,6 @@
 # Essential-minimum proof for the degree-104 certificate
 
-The claim is C82 <= B, with the strict numerical upper bound recorded in RESULT.json and REPORT.md and certified by verify_best.py. This is a candidate, unrefereed construction, conditional on the mathematical argument below and the trusted exact/ball arithmetic backend. This proof text is adapted from our earlier release proof retained in the round-6 review inputs; the construction and extraction argument are unchanged.
+The claim is C82 <= B, with the strict numerical upper bound recorded in RESULT.json and REPORT.md and certified by verify.py. This is a candidate, unrefereed construction, conditional on the mathematical argument below and the trusted exact/ball arithmetic backend. This proof text is adapted from our earlier release proof retained in the round-6 review inputs; the construction and extraction argument are unchanged.
 
 The cited construction is C. Doche, [*Zhang-Zagier heights of perturbed polynomials*](https://www.numdam.org/item/JTNB_2001__13_1_103_0/), J. Théor. Nombres Bordeaux 13 (2001), 103–110, equations (5)–(9), especially the roots-of-unity averaging lemma on page 108. Doche uses multiplicative heights: take natural logarithms to obtain the live 82a normalization. The extraction argument in the last part below is credited to the clean-room referee, for the earlier construction. The earlier review is method credit; it is not a review of this job's new certificate.
 
@@ -18,7 +18,7 @@ Choose a positive common denominator b of the q_i and set
 
     A(X) = product_i S_i(X)^(b*q_i).
 
-Then A and Q are nonzero integer polynomials, Q is monic, deg(A)=ba<bD, and gcd(A,Q)=1. The exact values of D, a and the active gcd-pair count for this certificate are recorded in evidence/best-replay.json. Its exact finite hypotheses are checked by verify_best.py, separately written by the same agent lineage as the search.
+Then A and Q are nonzero integer polynomials, Q is monic, deg(A)=ba<bD, and gcd(A,Q)=1. The exact values of D, a and the active gcd-pair count for this certificate are recorded in the replay linked in RESULT.json. Its exact finite hypotheses are checked by verify.py, separately written by the same agent lineage as the search.
 
 For Mahler measure M and natural logarithms define
 
@@ -80,6 +80,6 @@ There are therefore infinitely many distinct algebraic numbers with h_Z<=B+epsil
 
 ## Computational conclusion and limits
 
-verify_best.py checks the exact finite hypotheses, composes in integer arithmetic, isolates all composed roots with FLINT, and encloses H+J with Arb using the error bounds in NUMERICS.md. evidence/best-replay.json records the enclosure; RESULT.json gives its exact dyadic endpoints and comparisons with the stated rational and frozen bar. The actual verifier command and final numerical claim are in REPORT.md.
+verify.py checks the exact finite hypotheses, composes in integer arithmetic, isolates all composed roots with FLINT, and encloses H+J with Arb using the error bounds in NUMERICS.md. the replay linked in RESULT.json records the enclosure; RESULT.json gives its exact dyadic endpoints and comparisons with the stated rational and frozen bar. The actual verifier command and final numerical claim are in REPORT.md.
 
 This job's interval verifier was separately written by the same agent lineage as the search; it is not an independent checker. No earlier review is claimed to certify this new packet. These computations are not proof-assistant formalization or line-by-line human verification. Trust includes the cited averaging theorem, the height/extraction argument, Python exact arithmetic and FLINT/Arb's certified roots and ball arithmetic.

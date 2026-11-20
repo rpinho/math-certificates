@@ -1,0 +1,14 @@
+integrator abs_tol 2^-50, rel_tol 2^-40
+certificate sha256 dc129b7586da99042ff04e6cbf435d0b2e7e761ccfb87fc218da079b3f26aa33
+[control exponent] exponent of the last numerator (N82r12_59d304ca3db3) doubled
+[control exponent] hypotheses: 6 monic integer denominators, 38 active integer numerators
+[control exponent] D = 740384615402384615382720 ; a = 700066914108705437906831787601/1048576 ; a/D < 1 exactly: True ; active gcd pairs checked coprime: 228
+[control exponent] numerators with zeros of S o T on |z|=1 (gcd with reciprocal): [('P1', 'x + (-1)'), ('P2', 'x^2 + (-1)*x + 1'), ('P4', 'x^4 + (-1)*x^3 + x^2 + (-1)*x + 1')]
+[control exponent] denominator R o T: undecided |root|=1 cases 0 ; gcd(P,P*) degree sum 0
+[control exponent] H in [0.2519693873279416368328252, 0.2519693873279416368328253]
+[control exponent] J in [0.0000255672330124315860446, 0.0000255672397619578304863]
+[control exponent] B in [0.2519949545609540684120936, 0.2519949545677035946700878]   (integrand evaluations 83553, roots in w-plane 1863, prec 192)
+[control exponent] upper endpoint < 0.2519694759 : False
+[control exponent] FAIL
+[control exponent] enclosure disjoint from the unperturbed one: True
+[control exponent] OK

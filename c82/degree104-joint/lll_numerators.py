@@ -30,6 +30,11 @@ class Search:
         self.den=[poly(r['coeffs']) for r in self.state['denominator']]
         self.active=[poly(r['coeffs']) for r,w in zip(self.state['numerator'],self.state['w']) if w>1e-12]
         self.small=[p for p in self.active if p.degree()<=20]
+        # Include all v6 additions even when the merged LP gives one zero weight.
+        rival=json.loads(Path('inputs/v6.json').read_text())['numerator'][-16:]
+        self.high=[poly(r['coeffs']) for r in sorted(rival,key=lambda r:-len(r['coeffs']))]
+        self.high += sorted((p for p in self.active if a.low<=p.degree()<=a.high),key=lambda p:-p.degree())
+        self.low=a.low;self.high_degree=a.high
         self.cache={};self.found={};self.stats=[];self.trials=0;self.priced=0;self.best=None;self.save()
     def save(self):
         write_json(self.a.out,{'candidate_unrefereed':True,'settings':vars(self.a),'elapsed':time.monotonic()-self.start,'cpu_seconds':time.process_time()-self.cpu,'trials':self.trials,'priced':self.priced,'negative_candidates':list(self.found.values()),'best':self.best,'iterations':self.stats})
@@ -40,16 +45,22 @@ class Search:
         rc=float(self.mass@root_logs(c,self.points)+self.eta*p.degree());self.priced+=1;self.cache[c]=rc
         if c not in self.known and (self.best is None or rc<self.best['rc']):self.best={'coeffs':list(c),'rc':rc}
         if c not in self.known and rc< -1e-9 and c not in self.found:
-            row={'name':'N82r10_'+hashlib.sha256(str(c).encode()).hexdigest()[:12],'coeffs':list(c),'rc':rc,'trial':self.trials}
+            row={'name':'N82r12_'+hashlib.sha256(str(c).encode()).hexdigest()[:12],'coeffs':list(c),'rc':rc,'trial':self.trials}
             self.found[c]=row;self.save();print(json.dumps({'event':'negative','name':row['name'],'degree':p.degree(),'rc':rc}),flush=True)
         return rc
     def initial(self):
-        # Direct warm starts and products of successful factors, with varied degree.
-        if self.trials%3==0:return self.active[(self.trials//3)%len(self.active)]
-        cap=int(self.rng.choice([24,32,40,48,56,64]));p=fmpz_poly([1])
-        pool=self.active if self.trials%3==1 else self.small
+        if self.trials%3!=2:
+            index=(self.trials//3+self.a.seed%len(self.high))%len(self.high)
+            if self.trials==0 and self.a.seed%2==0:index=0
+            p=self.high[index]
+            if self.trials%3==1:
+                axis=int(self.rng.integers(0,p.degree()))
+                p+=fmpz_poly([0]*axis+[int(self.rng.choice([-1,1]))])
+            return p
+        cap=int(self.rng.integers(self.low,self.high_degree+1))
+        p=fmpz_poly([1])
         for _ in range(18):
-            q=pool[int(self.rng.integers(len(pool)))]
+            q=self.active[int(self.rng.integers(len(self.active)))]
             if p.degree()+q.degree()<=cap:p*=q
         return p
     def lattice(self,p,degree,pts,profile):
@@ -84,7 +95,8 @@ class Search:
         for t in ts:
             z=mp.expjpi(2*mp.mpf(float(t)));pts.append(z*(1-z))
         profile=np.exp(self.rng.normal(0,.3 if self.trials%2 else 0,len(pts)))
-        extra=int(self.rng.integers(0,7));d=min(80,p.degree()+extra)
+        extra=int(self.rng.integers(0,7));d=int(np.clip(p.degree()+extra,self.low,self.high_degree))
+        if self.trials%4==3:d=int(self.rng.integers(self.low,self.high_degree+1))
         for it in range(self.a.iterations):
             if time.monotonic()-self.start>self.a.seconds:break
             candidates=self.lattice(p,d,pts,profile);best=None;seen=set()
@@ -113,6 +125,7 @@ class Search:
 if __name__=='__main__':
     ap=argparse.ArgumentParser();ap.add_argument('--state',required=True);ap.add_argument('--dual',required=True);ap.add_argument('--out',required=True)
     ap.add_argument('--seconds',type=int,default=240);ap.add_argument('--seed',type=int,default=8111);ap.add_argument('--points',type=int,default=256);ap.add_argument('--iterations',type=int,default=8)
+    ap.add_argument('--low',type=int,default=24);ap.add_argument('--high',type=int,default=48)
     a=ap.parse_args();register('lll_numerator_search');s=Search(a)
     while time.monotonic()-s.start<a.seconds:s.trial()
     s.save()

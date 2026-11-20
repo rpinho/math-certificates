@@ -1,4 +1,4 @@
 {
   "applicable": false,
-  "reason": "Deterministic mathematical upper-bound construction, no predictive score. Baseline: exact local replay of round 9 certificate."
+  "reason": "Deterministic mathematical upper-bound construction, no predictive score. Baseline: exact local replays of the public #280 v6 certificate and of our unpublished round-11 certificate (evidence/v6.json, evidence/round11.json)."
 }

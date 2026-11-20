@@ -1,20 +1,20 @@
 {
-  "model": "GPT-6 (Codex; exact serving model ID unavailable)",
-  "author": "codex math_c82r10ref_1113 (clean-room)",
+  "model": "claude-opus-5-5",
+  "author": "math_c82r12ref_1120 (clean-room)",
   "status": "PASS",
-  "value": "0.2519696460",
+  "value": "0.2519694759",
   "arithmetic": "interval",
   "inputs": {
-    "review/inputs/CLAIM.md": "bf9dee05c56415a3484ee9fbadc121401a7aa2418e86829513b3db60058f3506",
-    "review/inputs/PROOF.md": "0d8d1422f0df61e6579136144d9f0ce3b0c14d3bd057174ffdac3b7f75a55b2a",
-    "review/inputs/certificates/certificate.json": "0c4df95ec7a422943176ab560b961531a41f5f7f83adeb8daae24878de643077"
+    "review/inputs/CLAIM.md": "3dce9f3ed37638b2e4859eb859c34abff1bb36620a2c81b81b2b7b44ca0ac048",
+    "review/inputs/PROOF.md": "b413472518479f40c8ce9ea938ab5d8c56110f52046bbc03e1bf6758b1414959",
+    "review/inputs/certificates/certificate.json": "dc129b7586da99042ff04e6cbf435d0b2e7e761ccfb87fc218da079b3f26aa33"
   },
-  "inputs_hash": "703b42d388b0e35395a97d1ae6274c5f03e2019c20f9b568c2d139d6bfdfc0ba",
+  "inputs_hash": "70d7c183d6180ed5b3110e9bfafe30421e3c8a6bf39f36e163230d7e3a71ba30",
   "read_producer_code": false,
   "ran_producer_code": false,
   "checker": "review/replay/check.py",
-  "checker_sha256": "e96914eaa01cf070d6e500e376fcd2b4948dba087228faac582f0f8da20b9ef6",
+  "checker_sha256": "0f372c796f0fbf6f57c78040b29524da7905b0461b6daf3056fb75ea9c17b1c8",
   "report": "review/replay/report.md",
-  "report_sha256": "7d0ef6c0f449414998442ddad638062b979e3547a75874eaead3f433a615bec9",
+  "report_sha256": "4143f783f93a15c8d7d26c4ccffacc99150265c60e0768b9ae81b170c3b028ef",
   "note": "Path-only re-keying for release layout. Original referee receipt is review/replay/REPLAY.original.json; input bytes, checker, report and model attestation are unchanged."
 }

@@ -1,118 +1,91 @@
-Shipped: candidate, unrefereed C82 < 0.2519696460; the exact certified upper endpoint is below the frozen 0.2519744487 bar.
+Shipped: candidate, unrefereed C82 < 0.2519694759.
 
-Certified enclosure: [0.2519696459872490977703, 0.2519696459872491000812]. Exact upper endpoint: 58352183466501036819371423722277498629607977181834942231787642647286264793441/231584178474632390847141970017375815706539969331281128078915168015826259279872. The endpoint is strictly below the stated rational 125984823/500000000, using exact Fraction arithmetic.
+Certified interval [0.2519694758381300638735, 0.2519694758381300658953]. The exact upper endpoint is 58352144062657087104997634519224032333644914972161368938513667753697345955249/231584178474632390847141970017375815706539969331281128078915168015826259279872, strictly below 2519694759/10000000000.
 
-| Comparator | Certified improvement (at least) |
-| --- | ---: |
-| Round 9 printed 0.2519744488 | 0.0000048028127508999188 |
-| Round 8 printed 0.2519758217 | 0.0000061757127508999188 |
-| [#330](https://github.com/teorth/optimizationproblems/pull/330) earlier printed 0.2519923410 (requested comparator) | 0.0000226950127508999188 |
-| [#280 v5](https://github.com/teorth/optimizationproblems/pull/280) printed 0.2519889614 | 0.0000193154127508999188 |
+| Printed comparator | Improvement, rounded down |
+|---|---:|
+| #280 v6 (0.2519694883) | 0.0000000124618699341047 |
+| Round 11 (0.2519695579) | 0.0000000820618699341047 |
+| #330 (0.2519696460) | 0.0000001701618699341047 |
 
-At the final public refresh, [#330](https://github.com/teorth/optimizationproblems/pull/330) had advanced to 0.2519744488, matching the round-9 baseline. The 0.2519923410 row preserves the requested historical comparator; #280 v5 still states 0.2519889614. This job made no external writes.
+The full-bank union certified an upper endpoint of 0.2519694777811065577145. Subsequent pricing gained 1.94297649182e-09. The final packet has 6 denominators and 38 numerators, with D = 740384615402384615382720.
 
-The packet contains 6 denominator and 40 numerator factors. D=999999999960; deg A=469303044808512511/524288; 240 exact gcd pairs; 4198 composed roots. SHA256: 0c4df95ec7a422943176ab560b961531a41f5f7f83adeb8daae24878de643077.
+## Replay and search
 
-Verification uses the inherited separately written (same agent) stdlib + python-flint verifier. It checks pinned bytes, integer coefficients, monic denominators, positive multiplicities, nonnegative rational powers, strict degree inequality, all numerator/denominator gcds, exact composition, root isolation and interval integration. Changed bytes, repinned zero multiplicity and repinned shared factor are rejected (evidence/rejection-controls.json). The Doche reduction and arithmetic backend are not formally verified; PROOF.md and NUMERICS.md give the argument and interval formulas. This result is candidate and unrefereed.
+Both exact inputs replayed with the separately written verifier (same agent, stdlib and python-flint). The rounded-up v6 endpoint was 0.2519694882727008797941, and the round-11 endpoint was 0.2519695578633784958618.
 
-The controller was interrupted once after a certified replay because a running original reader could not see an immutable bank compressed during execution. The storage change was reverted first, original bytes restored, and round 53 resumed after the certified pass without repeating generation. Numerical search and certificate arithmetic were unchanged. STATUS.md records the exact failure and recovery.
+We copied and reused our round-11 joint LP, numerical helpers, LLL and CVP search, run wrapper, proof note and interval verifier. The pinned MIT v6 certificate supplied polynomial coefficients and exact initial weights. The common D represents both sets of normalized weights exactly. Exact modular coprimality checks covered 2,622,668 imported numerator–denominator pairs. All denominators are coprime to X(1−X). The inherited numerator exceptions are P1=X and P2=X−1, present in both required exact packets. Doche’s reduction permits these zeros, and the interval verifier accounts for them.
 
-Our own round-9 scripts and separately written verifier were copied and reused: joint LP, numerical helpers, dual-weighted evaluation-lattice LLL numerator pricing, degree-104 monic CVP denominator search, full-bank pricing, mergers, controller, checkpoint code and rejection controls. Search starts from its final LP and dual, retaining 116 denominator columns, 48 active numerator columns and the complete rounds 8–9 bank of 15103 numerator and 109 archive denominator factors. Round-9 certificate replay reproduced the supplied endpoint before search. BAR.json was written first.
+The master used the inherited 524,288-point half-circle grid, HiGHS primal and dual tolerances of 1e-10, and full-bank reduced-cost pricing. Roots and logarithmic terms were recomputed from raw descending integer coefficients. The inherited round-11 dual was copied as reference. All search prices used freshly solved merged duals.
 
-The inherited standard alternation was retained. Numerator search uses the current dual, followed by joint LP, certification and full-bank repricing after moved solves; CVP then uses the updated dual. Numerator generation and full-bank pricing receive four workers and CVP two, sequentially, following the paying moves in round 9. First generation batches were measured solo under /usr/bin/time -l. BLAS, HiGHS and FLINT use one thread, via nice -n 10. Search settings/seeds/outcomes are retained in SEARCH_SUMMARY.json. Neither pricing nor CVP is claimed optimal.
+Our 22,212-factor bank contained 200 degrees below 24, 2,071 at 24–48, 15,019 at 49–64 and 4,922 above 64. The 16 v6 additions had degree counts 24×2, 26×2, 28×3, 30×1, 31×2, 33×2, 34×3, 42×1. Two already occurred in our bank by complete coefficient equality. [Degree histogram](evidence/degrees.json).
 
-Stopping reason: wall time budget: no new round started after 9.5 hours; final packet time reserved. Completed 26 alternating rounds starting at 52. A no-gain round is a complete alternation without a smaller certified endpoint. The 9.5-hour search cutoff reserves time for the final packet inside ten hours.
+The LLL searches used degree bands 24–48 and 48–64 with active-factor and v6 seeds. Direct coefficient perturbations surrounded the v6 degree-42 factor. In the raw X variable, the six substitutions generated by X ↦ 1−X and X ↦ 1/X were priced as prospective columns. The certificate already enforces z ↦ 1−z through X=z(1−z). Each proposal still faced ordinary LP pricing and interval replay.
 
-Another warm round is worth trying: the latest completed rounds still improved the certified endpoint when the time budget ended.
-Resume state: rounds/restricted-archive-num-77-0.json; dual: rounds/archive-num-77-0-dual.npz. Use the full union bank.
+New LLL factors retained in the final packet include N82r12_59d304ca3db3 (factor degree 36, lattice degree [48], run lll-2-2, trial 107).
 
-The improvement curve contains actual certified checkpoints, without fitting or extrapolation. Every checkpoint is in IMPROVEMENT_CURVE.csv and certificates/.
+## Alternations
 
-![Certified improvement curve](IMPROVEMENT_CURVE.png)
+| Round | Negative numerator proposals | Negative denominator proposals | Certified gain | Small-gain streak |
+|---:|---:|---:|---:|---:|
+| 1 | 1 | 0 | 1.411e-11 | 1 |
+| 2 | 1 | 0 | 1.9289e-09 | 0 |
+| 3 | 0 | 0 | 0 | 1 |
+| 4 | 0 | 0 | 0 | 2 |
+| 5 | 0 | 0 | 0 | 3 |
+| 6 | 0 | 0 | 0 | 4 |
+| 7 | 0 | 0 | 0 | 5 |
 
-| Elapsed hours | Certified upper endpoint |
-| ---: | ---: |
-| 0.050 | 0.2519744487408958502183 |
-| 1.121 | 0.2519704432678604366337 |
-| 2.053 | 0.2519702402431479415521 |
-| 3.108 | 0.2519701198684158519709 |
-| 4.123 | 0.2519700771508652344623 |
-| 5.094 | 0.2519699039526871287723 |
-| 6.054 | 0.2519698362382866261034 |
-| 7.026 | 0.2519697444787321183747 |
-| 8.025 | 0.2519696918668373583289 |
-| 9.149 | 0.2519696622782126203691 |
-| 9.481 | 0.2519696459872491000812 |
+Stopped after 7 alternations under the five consecutive alternations gaining less than 1e-9 rule. The degree-116 CVP probe used 4.14 minutes. Degree-104 CVP used the current merged dual in each denominator arm.
 
-Compute: 27.7740 recorded core-hours; 27.8808 estimated total with controller/setup allowance; 9.682 wall hours. Largest sampled aggregate RSS 1,649,688,576 bytes (3 GB limit). COMPUTE.json gives measured peaks and accounting. evidence/process-cleanup.json records the final ps check.
+Another round with the same settings is low priority. Five consecutive alternations fell below the specified marginal gain.
 
-Factor provenance below uses full coefficient equality, not names. FACTOR_PROVENANCE.json includes exact weights and every match to the inherited sources. “Generated in this continuation” means absent from those compared coefficient banks; no novelty judgment is made.
+The above-104 probe priced 354 polynomial evaluations. Its best previously absent degree-116 denominator had reduced cost 0.0210055321. It produced no negative-reduced-cost denominator and was dropped after its first pass.
 
-| Denominator | Degree | Multiplicity | Full coefficient matches |
-| --- | ---: | ---: | --- |
-| C82r8_b4ce16615ae6 | 104 | 685870801 | ours from round 9; round-9 final LP master; ours from round 8; round-8 final LP master |
-| C82r8_fcd3a4b2d94d | 104 | 2467771076 | ours from round 9; round-9 final LP master; ours from round 8; round-8 final LP master |
-| C82r8_1f8710f82b1d | 104 | 304682093 | ours from round 9; round-9 final LP master; ours from round 8; round-8 final LP master |
-| C82r9_923bd2177a3d | 104 | 1220232283 | ours from round 9; round-9 final LP master |
-| C82r10_a6af275a730c | 104 | 3914420241 | generated in this continuation |
-| C82r10_76a523b0f880 | 104 | 1022408121 | generated in this continuation |
+## Column credit
 
-| Numerator | Degree | Full coefficient matches |
-| --- | ---: | --- |
-| P1 | 1 | ours from round 7; ours from round 6; ours from round 5 or earlier; #280 v5; #280 v4; #280 v3; earlier bank; initial coefficient union (including v5); ours from round 9; full rounds 8–9 union bank; round-9 final LP master; ours from round 8; full round-8 union bank; round-8 final LP master |
-| P2 | 1 | ours from round 7; ours from round 6; ours from round 5 or earlier; #280 v5; #280 v4; #280 v3; earlier bank; initial coefficient union (including v5); ours from round 9; full rounds 8–9 union bank; round-9 final LP master; ours from round 8; full round-8 union bank; round-8 final LP master |
-| P3 | 3 | ours from round 7; ours from round 6; ours from round 5 or earlier; #280 v5; #280 v4; #280 v3; earlier bank; initial coefficient union (including v5); ours from round 9; full rounds 8–9 union bank; round-9 final LP master; ours from round 8; full round-8 union bank; round-8 final LP master |
-| P4 | 4 | ours from round 7; ours from round 6; ours from round 5 or earlier; #280 v5; #280 v4; #280 v3; earlier bank; initial coefficient union (including v5); ours from round 9; full rounds 8–9 union bank; round-9 final LP master; ours from round 8; full round-8 union bank; round-8 final LP master |
-| P6 | 8 | ours from round 7; ours from round 6; ours from round 5 or earlier; #280 v5; #280 v4; #280 v3; earlier bank; initial coefficient union (including v5); ours from round 9; full rounds 8–9 union bank; round-9 final LP master; ours from round 8; full round-8 union bank; round-8 final LP master |
-| N82r8_3cc45c82e976 | 32 | ours from round 9; full rounds 8–9 union bank; round-9 final LP master; ours from round 8; full round-8 union bank; round-8 final LP master |
-| N82r9_3f20ba401cbd | 27 | full rounds 8–9 union bank |
-| N82r9_4336f6c43520 | 33 | ours from round 9; full rounds 8–9 union bank; round-9 final LP master |
-| N82r10_606dbc0a25c8 | 26 | generated in this continuation |
-| N82r10_b0bf5b3c7238 | 28 | generated in this continuation |
-| N82r10_170f661d6c60 | 33 | generated in this continuation |
-| N82r10_41ddd69ffcd5 | 60 | generated in this continuation |
-| N82r10_456efce38800 | 50 | generated in this continuation |
-| N82r10_7de87861282b | 52 | generated in this continuation |
-| N82r9_1aa3601f1b5c | 36 | ours from round 9; full rounds 8–9 union bank; round-9 final LP master |
-| N82r10_1bbacf8ab38a | 42 | generated in this continuation |
-| N82r10_27154344b965 | 65 | generated in this continuation |
-| N82r10_1f26d88dc0d3 | 36 | generated in this continuation |
-| N82r10_ee8bca9e620b | 34 | generated in this continuation |
-| N82r10_562e07bebc11 | 63 | generated in this continuation |
-| N82r10_54dfa8f276cc | 55 | generated in this continuation |
-| N82r10_94a396a37f48 | 36 | generated in this continuation |
-| N82r10_1d4bc4f945b2 | 59 | generated in this continuation |
-| N82r8_4d6f8374e36e | 34 | full rounds 8–9 union bank; ours from round 8; full round-8 union bank; round-8 final LP master |
-| N82r10_124431dd6625 | 29 | generated in this continuation |
-| N82r10_e1ea62d3db1d | 42 | generated in this continuation |
-| N82r10_15818c8051b0 | 27 | generated in this continuation |
-| N82r10_c1eacfe02031 | 36 | generated in this continuation |
-| N82r10_33402b0b35d5 | 20 | generated in this continuation |
-| N82r9_a49c3746e570 | 28 | ours from round 9; full rounds 8–9 union bank; round-9 final LP master |
-| N82r10_586046c46951 | 50 | generated in this continuation |
-| N82r10_45fe7b99ca93 | 28 | generated in this continuation |
-| N82r10_d6fbcfac6e8c | 53 | generated in this continuation |
-| N82r10_cdce61d0a006 | 35 | generated in this continuation |
-| N82r10_e867b4951b24 | 60 | generated in this continuation |
-| N82r10_c1f59e8c85f8 | 64 | generated in this continuation |
-| N82r10_862f4cf24c9b | 32 | generated in this continuation |
-| N82r10_2596dac40d1c | 60 | generated in this continuation |
-| N82r10_de57f20345c4 | 65 | generated in this continuation |
-| N82r10_ab5efea58089 | 28 | generated in this continuation |
+| Factor kind | Earliest matching bank or source | Also in v6 | Count |
+|---|---|---|---:|
+| denominator | round 10 archive | yes | 2 |
+| denominator | round 8 archive | yes | 3 |
+| denominator | round 9 archive | yes | 1 |
+| numerator | #280 v6 | yes | 11 |
+| numerator | Doche | yes | 5 |
+| numerator | round 10 archive | no | 1 |
+| numerator | round 10 archive | yes | 11 |
+| numerator | round 11 bank | no | 4 |
+| numerator | round 12 | no | 1 |
+| numerator | round 8 archive | yes | 1 |
+| numerator | round 9 archive | no | 2 |
+| numerator | round 9 archive | yes | 2 |
 
-CERTIFICATE_ENCODING.md records equal fractions with both numerator and denominator doubled for each 15- or 16-digit q_rational numerator; exact rational checks remain unchanged.
+[Every column and its full coefficient matches](FACTOR_PROVENANCE.json). An earliest bank match establishes local presence. Shared factors retain both credits. Doche supplied the base factors, Patankar the v6 numerator work, and the six starting degree-104 denominators trace to our rounds 8–10.
 
-No vidigoat/optimization-records Python was downloaded, copied, imported or executed. PYTHON_BLOBS.json records the git blob hash of every .py in this directory and compares against every blob in complete metadata-only trees at 197962c, 3a7a84f, 79ce0df and 191064e; none matches and none imports their modules. Their supplied certificate JSON is data only. Credits: Doche, Grinsztajn, Epi, Pinho PR301/#330, Patankar #280 v3/v4/v5, and our rounds 5–9 lineage; THIRD_PARTY_NOTICE.md supplies inherited credits.
+## Certified improvement curve
 
-PRIOR_ART.md records inherited and refreshed read-only public sources. No novelty judgment is made. Nothing was committed, pushed, posted, uploaded or sent. All outputs are in this job directory. Historical files are compressed as needed; all certified best packets and exact replays remain retained.
+![Certified gain over time](IMPROVEMENT_CURVE.png)
 
-Reproduce the best bound:
+| Elapsed hours | Checkpoint | Certified upper endpoint (outward) |
+|---:|---|---:|
+| 0.0444 | #280 v6 exact incumbent | 0.2519694882727008797941 |
+| 0.0721 | union-master | 0.2519694780462110150323 |
+| 0.1264 | union-0 | 0.2519694777811065577145 |
+| 0.2251 | new-num-1 | 0.2519694777669961914660 |
+| 0.3854 | new-num-2 | 0.2519694758381300658953 |
 
-```sh
-./run_local.sh verify_best.py --certificate certificate.json --target 0.2519696460 --precision 256 --tol 1e-13 --out evidence/reproduced-best.json
-```
+Recorded compute was 2.2096 core-hours from user plus system CPU of timed workers over 1.132 wall hours. Peak sampled aggregate worker RSS was 993,918,976 bytes. Small controller and file-preparation costs are excluded from core-hours.
 
-REPRODUCE.md gives the warm replay, search, controls and source-inventory commands.
+## Reproduction
 
+From this directory, replay the final bytes and the three rejection controls with the shared python-flint environment.
 
-Retained packet: approximately 38.5 MB, below 50 MB, including scripts, data, certificates, replays and figures. The full coefficient banks are gzip-compressed after search stopped. 189 redundant floating LP state archives were moved to macOS Trash; the initial warm state, final state/dual, all coefficient banks, every certified best/replay and every Python source remain retained. REPRODUCE.md gives restoration and warm/resume commands. Worker niceness was [20]: run_local.sh applies nice -n 10 on top of inherited launcher priority.
+~~~sh
+./run_local.sh verify.py --certificate certificate.json --sha dc129b7586da99042ff04e6cbf435d0b2e7e761ccfb87fc218da079b3f26aa33 --precision 256 --tol 1e-13 --target 0.2519694759 --out evidence/final-replay.json
+./run_local.sh controls.py
+~~~
+
+The source commit, URL, MIT license and SHA256 are retained in inputs. Only data and tree metadata were read. None of the rival code was executed. [Full search reproduction](REPRODUCE.md). Search entry points in order are worker.py (both replays), prepare.py, joint_lp.py --input inputs/union-master.json --prefix rounds/union-master, search.py and alternate.py. [Mathematical argument](PROOF.md) and [numerical enclosures](NUMERICS.md).
+
+Changed bytes failed the pinned digest. After re-pinning, zero denominator multiplicity and a shared numerator–denominator factor failed their structural checks. Every local Python git blob was compared with the complete pinned tree. No match occurred. [Rejection results](evidence/rejection-controls.json) and [blob inventory](PYTHON_BLOBS.json).
+
+The supplied [prior-art review](PRIOR_ART.md) records the official 82a table, #280 v6, #330, repository and paper searches on 20 November. This comparison uses the requested frozen numbers. [Pinned v6 source](https://github.com/vidigoat/optimization-records/tree/e3bae2ea40c8b1f764a1ba08bcd21fe513b2c45d/tao/certificates/c82/v6).

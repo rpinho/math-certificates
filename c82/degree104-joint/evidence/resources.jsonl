@@ -1,0 +1,46 @@
+{"labels": ["v6", "round11"], "peak_group_bytes": 80494592, "time": 1795167316.408028}
+{"labels": ["prepare"], "peak_group_bytes": 166445056, "time": 1795167332.256623}
+{"labels": ["union-master"], "peak_group_bytes": 301924352, "time": 1795167354.69729}
+{"labels": ["union-master-verify"], "peak_group_bytes": 39698432, "time": 1795167429.061394}
+{"labels": ["union-0-screen-0", "union-0-screen-1", "union-0-screen-2", "union-0-screen-3"], "peak_group_bytes": 574636032, "time": 1795167547.673394}
+{"labels": ["union-0"], "peak_group_bytes": 251428864, "time": 1795167571.17579}
+{"labels": ["union-0-verify"], "peak_group_bytes": 39682048, "time": 1795167624.2482939}
+{"labels": ["union-1-screen-0", "union-1-screen-1", "union-1-screen-2", "union-1-screen-3"], "peak_group_bytes": 580665344, "time": 1795167626.3129501}
+{"labels": ["union-1"], "peak_group_bytes": 3080192, "time": 1795167627.352055}
+{"labels": ["union-controls"], "peak_group_bytes": 3670016, "time": 1795167728.6356769}
+{"labels": ["lll-1-0", "lll-1-1", "lll-1-2", "orbit-1"], "peak_group_bytes": 347750400, "time": 1795167894.776932}
+{"labels": ["new-num-1"], "peak_group_bytes": 237191168, "time": 1795167922.40289}
+{"labels": ["new-num-1-verify"], "peak_group_bytes": 39419904, "time": 1795167979.590258}
+{"labels": ["cvp-1-104", "cvp-1-116"], "peak_group_bytes": 993918976, "time": 1795168228.360012}
+{"labels": ["new-den-1"], "peak_group_bytes": 2736128, "time": 1795168229.386888}
+{"labels": ["controls-2bf9a271"], "peak_group_bytes": 3588096, "time": 1795168265.648812}
+{"labels": ["controls-25c85d74"], "peak_group_bytes": 3686400, "time": 1795168266.6739352}
+{"labels": ["controls-9bc7c626"], "peak_group_bytes": 3670016, "time": 1795168267.69558}
+{"labels": ["controls-29dcbf21"], "peak_group_bytes": 3096576, "time": 1795168268.722805}
+{"labels": ["lll-2-0", "lll-2-1", "lll-2-2", "orbit-2"], "peak_group_bytes": 302678016, "time": 1795168470.793843}
+{"labels": ["new-num-2"], "peak_group_bytes": 238567424, "time": 1795168494.317205}
+{"labels": ["new-num-2-verify"], "peak_group_bytes": 39665664, "time": 1795168556.649753}
+{"labels": ["controls-dc129b75"], "peak_group_bytes": 3653632, "time": 1795168582.072564}
+{"labels": ["cvp-2-104"], "peak_group_bytes": 423280640, "time": 1795168804.5407948}
+{"labels": ["new-den-2"], "peak_group_bytes": 2523136, "time": 1795168805.578491}
+{"labels": ["lll-3-0", "lll-3-1", "lll-3-2", "orbit-3"], "peak_group_bytes": 315637760, "time": 1795169046.773584}
+{"labels": ["new-num-3"], "peak_group_bytes": 1359872, "time": 1795169047.819129}
+{"labels": ["cvp-3-104"], "peak_group_bytes": 462880768, "time": 1795169288.92911}
+{"labels": ["new-den-3"], "peak_group_bytes": 3424256, "time": 1795169289.971736}
+{"labels": ["lll-4-0", "lll-4-1", "lll-4-2", "orbit-4"], "peak_group_bytes": 298057728, "time": 1795169531.305172}
+{"labels": ["new-num-4"], "peak_group_bytes": 2637824, "time": 1795169532.343394}
+{"labels": ["cvp-4-104"], "peak_group_bytes": 433455104, "time": 1795169778.2911339}
+{"labels": ["new-den-4"], "peak_group_bytes": 2228224, "time": 1795169779.338828}
+{"labels": ["stated-dc129b75"], "peak_group_bytes": 40337408, "time": 1795169859.8566499}
+{"labels": ["lll-5-0", "lll-5-1", "lll-5-2", "orbit-5"], "peak_group_bytes": 319569920, "time": 1795170019.582585}
+{"labels": ["new-num-5"], "peak_group_bytes": 3620864, "time": 1795170020.613193}
+{"labels": ["cvp-5-104"], "peak_group_bytes": 471613440, "time": 1795170263.684462}
+{"labels": ["new-den-5"], "peak_group_bytes": 2277376, "time": 1795170264.716715}
+{"labels": ["lll-6-0", "lll-6-1", "lll-6-2", "orbit-6"], "peak_group_bytes": 312246272, "time": 1795170505.4506612}
+{"labels": ["new-num-6"], "peak_group_bytes": 3145728, "time": 1795170506.479645}
+{"labels": ["cvp-6-104"], "peak_group_bytes": 434634752, "time": 1795170751.6366148}
+{"labels": ["new-den-6"], "peak_group_bytes": 3031040, "time": 1795170752.673223}
+{"labels": ["lll-7-0", "lll-7-1", "lll-7-2", "orbit-7"], "peak_group_bytes": 300597248, "time": 1795170993.9228349}
+{"labels": ["new-num-7"], "peak_group_bytes": 1540096, "time": 1795170994.959559}
+{"labels": ["cvp-7-104"], "peak_group_bytes": 436912128, "time": 1795171237.0287879}
+{"labels": ["new-den-7"], "peak_group_bytes": 1376256, "time": 1795171238.0675972}

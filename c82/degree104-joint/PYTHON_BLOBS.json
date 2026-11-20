@@ -4,7 +4,8 @@
     "197962c9610f583e9bc56efe37bfb994c1eeb834",
     "3a7a84fec9c64ae426f06a5f52597c84b3453ba0",
     "79ce0dfb211a67ff7e387b58b0d19ff1d6accfba",
-    "191064e7ccd88718853fe239dfd3890a8dc0fa37"
+    "191064e7ccd88718853fe239dfd3890a8dc0fa37",
+    "e3bae2ea40c8b1f764a1ba08bcd21fe513b2c45d"
   ],
   "tree_sources": [
     {
@@ -34,43 +35,35 @@
       "root_tree_sha": "191064e7ccd88718853fe239dfd3890a8dc0fa37",
       "truncated": false,
       "blob_count": 244
+    },
+    {
+      "file": "prior_sources/vidigoat-tree-e3bae2e.json",
+      "sha256": "50df1859716381796d8c2f04d03cdb3f48e9749de058af91a1aa92ea0271ee31",
+      "root_tree_sha": "e3bae2ea40c8b1f764a1ba08bcd21fe513b2c45d",
+      "truncated": false,
+      "blob_count": 309
     }
   ],
   "files": [
     {
-      "file": "add_columns.py",
-      "git_blob_sha1": "fe277eec66ccf0dc04f66e0c21197ec6047d0ef5",
+      "file": "alternate.py",
+      "git_blob_sha1": "310faa09a9ec9767c223daf274554ad9b5f685ed",
       "foreign_blob_matches": [],
       "imports": [
-        "argparse",
-        "flint",
-        "hashlib",
-        "joint_lp",
-        "json",
-        "numerics",
+        "fractions",
         "pathlib",
-        "time"
-      ],
-      "prohibited_imports": [],
-      "grep_import_matches": []
-    },
-    {
-      "file": "bootstrap.py",
-      "git_blob_sha1": "e89d0954cda3074625e453e232b8104221c4daa8",
-      "foreign_blob_matches": [],
-      "imports": [
-        "json",
-        "os",
-        "pathlib",
-        "shutil",
-        "time"
+        "result",
+        "search",
+        "sys",
+        "time",
+        "worker"
       ],
       "prohibited_imports": [],
       "grep_import_matches": []
     },
     {
       "file": "certificate_facts.py",
-      "git_blob_sha1": "2a16e71a365a41b3d92cca023ae354d940d78192",
+      "git_blob_sha1": "bbc3f73ce2b3c1f954b22727931ff29522c91d59",
       "foreign_blob_matches": [],
       "imports": [
         "decimal",
@@ -78,61 +71,30 @@
         "fractions",
         "hashlib",
         "json",
+        "math",
         "pathlib"
       ],
       "prohibited_imports": [],
       "grep_import_matches": []
     },
     {
-      "file": "checkpoint.py",
-      "git_blob_sha1": "d8345311d5cfe5dab41f29209c09c78658bba5c2",
+      "file": "controls.py",
+      "git_blob_sha1": "e8bc4c8a9e774e489a9fc87e36b535f7d2342c0e",
       "foreign_blob_matches": [],
       "imports": [
-        "decimal",
-        "fractions",
-        "hashlib",
         "json",
         "numerics",
         "pathlib",
-        "shutil",
-        "sys",
-        "time"
-      ],
-      "prohibited_imports": [],
-      "grep_import_matches": []
-    },
-    {
-      "file": "cleanup.py",
-      "git_blob_sha1": "7296c99f33b2ad901ad191ca43fae8289702d5b9",
-      "foreign_blob_matches": [],
-      "imports": [
-        "json",
-        "os",
-        "pathlib",
+        "result",
         "subprocess",
-        "time"
-      ],
-      "prohibited_imports": [],
-      "grep_import_matches": []
-    },
-    {
-      "file": "compact_history.py",
-      "git_blob_sha1": "36c42c3810991a76b0dcebc55518eec7a95c8657",
-      "foreign_blob_matches": [],
-      "imports": [
-        "gzip",
-        "json",
-        "numerics",
-        "pathlib",
-        "re",
-        "subprocess"
+        "sys"
       ],
       "prohibited_imports": [],
       "grep_import_matches": []
     },
     {
       "file": "cvp_search.py",
-      "git_blob_sha1": "bfd81a9458ca44bcb039da392675205dadcadcc9",
+      "git_blob_sha1": "65e27af5370046044bbd52c2b796ff04c5520482",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
@@ -145,60 +107,6 @@
         "numba",
         "numerics",
         "numpy",
-        "os",
-        "pathlib",
-        "time"
-      ],
-      "prohibited_imports": [],
-      "grep_import_matches": []
-    },
-    {
-      "file": "evidence/control-shared_factor-verifier.py",
-      "git_blob_sha1": "a79d9536796d868a38b448dfd0dd52b4f15ae548",
-      "foreign_blob_matches": [],
-      "imports": [
-        "argparse",
-        "collections",
-        "flint",
-        "fractions",
-        "hashlib",
-        "json",
-        "os",
-        "pathlib",
-        "time"
-      ],
-      "prohibited_imports": [],
-      "grep_import_matches": []
-    },
-    {
-      "file": "evidence/control-zero_multiplicity-verifier.py",
-      "git_blob_sha1": "c27d624d23010d189c2e1e374ce0e7b43e7d81a9",
-      "foreign_blob_matches": [],
-      "imports": [
-        "argparse",
-        "collections",
-        "flint",
-        "fractions",
-        "hashlib",
-        "json",
-        "os",
-        "pathlib",
-        "time"
-      ],
-      "prohibited_imports": [],
-      "grep_import_matches": []
-    },
-    {
-      "file": "evidence/round9-verifier.py",
-      "git_blob_sha1": "a6ac8f4c8421ef1b6784f011857997e404163999",
-      "foreign_blob_matches": [],
-      "imports": [
-        "argparse",
-        "collections",
-        "flint",
-        "fractions",
-        "hashlib",
-        "json",
         "os",
         "pathlib",
         "time"
@@ -225,43 +133,32 @@
       "grep_import_matches": []
     },
     {
-      "file": "finalize.py",
-      "git_blob_sha1": "de3ab02effad61ba8b33eab305a6623ffb5645ae",
+      "file": "finish.py",
+      "git_blob_sha1": "04bf486ecef1332ecad20594ecc780ba587a1be0",
       "foreign_blob_matches": [],
       "imports": [
-        "fractions",
-        "json",
-        "numerics",
-        "pathlib",
-        "subprocess",
-        "supervise",
-        "sys"
-      ],
-      "prohibited_imports": [],
-      "grep_import_matches": []
-    },
-    {
-      "file": "finish_report.py",
-      "git_blob_sha1": "64cfeeea771c2dbfb213b686bdfca8937398dca9",
-      "foreign_blob_matches": [],
-      "imports": [
-        "checkpoint",
+        "collections",
         "csv",
         "fractions",
         "gzip",
-        "hashlib",
         "json",
-        "numerics",
+        "matplotlib",
+        "matplotlib.pyplot",
+        "os",
         "pathlib",
         "re",
-        "time"
+        "result",
+        "subprocess",
+        "tarfile",
+        "time",
+        "worker"
       ],
       "prohibited_imports": [],
       "grep_import_matches": []
     },
     {
       "file": "joint_lp.py",
-      "git_blob_sha1": "4b0544ed6b599c09f1169f22333dd947eb9d222f",
+      "git_blob_sha1": "3ebd7199ae6f3c1c853a1e797320cdd4601a2179",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
@@ -269,6 +166,7 @@
         "hashlib",
         "highspy",
         "json",
+        "math",
         "numerics",
         "numpy",
         "pathlib",
@@ -280,7 +178,7 @@
     },
     {
       "file": "lll_numerators.py",
-      "git_blob_sha1": "5f18d0067e95afcb0c9c72a365bf9e440dbfa77c",
+      "git_blob_sha1": "1b8d0839768ab3432d10328af78b1e3ce30c5d58",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
@@ -289,40 +187,6 @@
         "json",
         "math",
         "mpmath",
-        "numerics",
-        "numpy",
-        "pathlib",
-        "time"
-      ],
-      "prohibited_imports": [],
-      "grep_import_matches": []
-    },
-    {
-      "file": "merge_numerators.py",
-      "git_blob_sha1": "c66a535e6f25e7851363c8d5a11e361a47fb1dec",
-      "foreign_blob_matches": [],
-      "imports": [
-        "argparse",
-        "flint",
-        "joint_lp",
-        "json",
-        "numerics",
-        "pathlib"
-      ],
-      "prohibited_imports": [],
-      "grep_import_matches": []
-    },
-    {
-      "file": "numerator_search.py",
-      "git_blob_sha1": "939c565869070dda1023cff73523145c974d27f3",
-      "foreign_blob_matches": [],
-      "imports": [
-        "argparse",
-        "concurrent.futures",
-        "flint",
-        "hashlib",
-        "joint_lp",
-        "json",
         "numerics",
         "numpy",
         "pathlib",
@@ -349,148 +213,99 @@
       "grep_import_matches": []
     },
     {
-      "file": "plot_curve.py",
-      "git_blob_sha1": "9514132ef7c1b93cf9f534e2d1aec21e535eecba",
+      "file": "orbit.py",
+      "git_blob_sha1": "f8a244c46fde4744c8222aefa31c2e2b8bd19ad0",
       "foreign_blob_matches": [],
       "imports": [
-        "json",
-        "matplotlib",
-        "matplotlib.pyplot",
-        "matplotlib.ticker",
-        "numerics",
-        "os",
-        "pathlib",
-        "time"
-      ],
-      "prohibited_imports": [],
-      "grep_import_matches": []
-    },
-    {
-      "file": "progress.py",
-      "git_blob_sha1": "7fb217f8c0389ab5f9c4eb6554ea9ac97ebccef9",
-      "foreign_blob_matches": [],
-      "imports": [
-        "json",
-        "numerics",
-        "pathlib",
-        "time"
-      ],
-      "prohibited_imports": [],
-      "grep_import_matches": []
-    },
-    {
-      "file": "public_reads.py",
-      "git_blob_sha1": "5f54c5602baec50565a3ef133e99284b64b649e2",
-      "foreign_blob_matches": [],
-      "imports": [
-        "base64",
-        "concurrent.futures",
-        "gzip",
-        "json",
-        "os",
-        "pathlib",
-        "subprocess",
-        "sys",
-        "time"
-      ],
-      "prohibited_imports": [],
-      "grep_import_matches": []
-    },
-    {
-      "file": "rejection_controls.py",
-      "git_blob_sha1": "b08b16dd7c0d3c3d97cb2782d981324539b7868d",
-      "foreign_blob_matches": [],
-      "imports": [
-        "argparse",
+        "flint",
         "hashlib",
         "json",
         "numerics",
+        "numpy",
         "pathlib",
-        "subprocess",
         "sys"
       ],
       "prohibited_imports": [],
       "grep_import_matches": []
     },
     {
-      "file": "resume53.py",
-      "git_blob_sha1": "324ebc1ddbbb117c556796a5cbecf62e4e2ef9f0",
+      "file": "prepare.py",
+      "git_blob_sha1": "51c891861e296a73f826f7fa84096d3925243ad8",
       "foreign_blob_matches": [],
       "imports": [
+        "collections",
+        "flint",
         "fractions",
         "json",
+        "math",
         "numerics",
+        "pathlib"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "price_bank.py",
+      "git_blob_sha1": "78bfc4902301a8c4dfe714c28147187b820846f4",
+      "foreign_blob_matches": [],
+      "imports": [
+        "json",
+        "numerics",
+        "numpy",
         "pathlib",
-        "run_cg",
-        "supervise",
-        "time"
+        "sys"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "result.py",
+      "git_blob_sha1": "060b70a1699da974dfca8d0aab2389f807a070c3",
+      "foreign_blob_matches": [],
+      "imports": [
+        "decimal",
+        "fractions",
+        "hashlib",
+        "json",
+        "pathlib",
+        "shutil",
+        "time",
+        "worker"
       ],
       "prohibited_imports": [],
       "grep_import_matches": []
     },
     {
       "file": "review/replay/check.py",
-      "git_blob_sha1": "8b0dbcc07075e86426d0a9b310d4a8a857ce29e9",
+      "git_blob_sha1": "889e0dc6f952ace7ecedd300e9d92343ff08d338",
       "foreign_blob_matches": [],
       "imports": [
-        "argparse",
-        "copy",
         "flint",
         "fractions",
         "hashlib",
         "json",
-        "os",
-        "pathlib",
-        "resource",
-        "time"
-      ],
-      "prohibited_imports": [],
-      "grep_import_matches": []
-    },
-    {
-      "file": "rounds/archive-num-77-0-verifier.py",
-      "git_blob_sha1": "6d0e880c32f94d800da1bdb6ff4c272470eedb3a",
-      "foreign_blob_matches": [],
-      "imports": [
-        "argparse",
-        "collections",
-        "flint",
-        "fractions",
-        "hashlib",
-        "json",
-        "os",
-        "pathlib",
-        "time"
-      ],
-      "prohibited_imports": [],
-      "grep_import_matches": []
-    },
-    {
-      "file": "run_cg.py",
-      "git_blob_sha1": "82d7e6c165cf22c2cf67f71bf3da00244b57ff19",
-      "foreign_blob_matches": [],
-      "imports": [
-        "argparse",
-        "checkpoint",
-        "fractions",
-        "hashlib",
-        "json",
-        "numerics",
-        "os",
-        "pathlib",
         "re",
-        "resource",
-        "subprocess",
-        "supervise",
-        "sys",
-        "time"
+        "sys"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "review/replay/make_replay_json.py",
+      "git_blob_sha1": "340588a29cde3b47f075098486ba47821cb4f3b4",
+      "foreign_blob_matches": [],
+      "imports": [
+        "hashlib",
+        "json",
+        "os",
+        "sys"
       ],
       "prohibited_imports": [],
       "grep_import_matches": []
     },
     {
       "file": "seal.py",
-      "git_blob_sha1": "2182216ac0e34a4effb05c562bd0cce22736ec73",
+      "git_blob_sha1": "c9b940253031778c15b7d7e1c247dfc1594f877f",
       "foreign_blob_matches": [],
       "imports": [
         "ast",
@@ -505,57 +320,37 @@
       "grep_import_matches": []
     },
     {
-      "file": "source_inventory.py",
-      "git_blob_sha1": "2d6b14b81e999263f07ca3358293d748d3841796",
+      "file": "search.py",
+      "git_blob_sha1": "74afd26e8089c92d11bbc2b8271303b49e24e09a",
       "foreign_blob_matches": [],
       "imports": [
-        "ast",
-        "hashlib",
-        "json",
-        "os",
-        "pathlib",
-        "subprocess"
-      ],
-      "prohibited_imports": [],
-      "grep_import_matches": []
-    },
-    {
-      "file": "supervise.py",
-      "git_blob_sha1": "638766176bd0657262fe6e2350feaf271570800d",
-      "foreign_blob_matches": [],
-      "imports": [
-        "json",
-        "os",
-        "pathlib",
-        "resource",
-        "subprocess",
-        "sys",
-        "time"
-      ],
-      "prohibited_imports": [],
-      "grep_import_matches": []
-    },
-    {
-      "file": "verify_best.py",
-      "git_blob_sha1": "6d0e880c32f94d800da1bdb6ff4c272470eedb3a",
-      "foreign_blob_matches": [],
-      "imports": [
-        "argparse",
-        "collections",
-        "flint",
         "fractions",
-        "hashlib",
-        "json",
-        "os",
         "pathlib",
-        "time"
+        "result",
+        "time",
+        "worker"
       ],
       "prohibited_imports": [],
       "grep_import_matches": []
     },
     {
-      "file": "verify_public.py",
-      "git_blob_sha1": "b394c507c0849244c98e55d4125232f8cdafd23a",
+      "file": "solve_added.py",
+      "git_blob_sha1": "0d8cbd351e3c1adcca659b8e1fa17353adc680f3",
+      "foreign_blob_matches": [],
+      "imports": [
+        "flint",
+        "joint_lp",
+        "json",
+        "numerics",
+        "pathlib",
+        "sys"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "verify.py",
+      "git_blob_sha1": "8c68175ff71e0bdb246f05741d868c0ccd36738e",
       "foreign_blob_matches": [],
       "imports": [
         "argparse",
@@ -584,6 +379,23 @@
         "json",
         "os",
         "pathlib",
+        "time"
+      ],
+      "prohibited_imports": [],
+      "grep_import_matches": []
+    },
+    {
+      "file": "worker.py",
+      "git_blob_sha1": "9078aa82b27d008e000be89f067e066cfb60d44f",
+      "foreign_blob_matches": [],
+      "imports": [
+        "json",
+        "os",
+        "pathlib",
+        "resource",
+        "signal",
+        "subprocess",
+        "sys",
         "time"
       ],
       "prohibited_imports": [],

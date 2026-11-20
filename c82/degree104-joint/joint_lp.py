@@ -118,15 +118,23 @@ class JointLP:
 
 
 def freeze(state,path):
-    # Multiplicities at scale 10^12; numerator powers at dyadic scale 2^20.
-    den=[]
-    for r,mu in zip(state['denominator'],state['mu']):
-        m=int(round(mu*10**12))
-        if m>0:den.append({'name':r['name'],'coeffs':r['coeffs'],'multiplicity':m})
-    D=sum((len(r['coeffs'])-1)*r['multiplicity'] for r in den)
+    # Allocate equal-degree blocks so the frozen point has exactly the common D.
+    import math
+    D = json.loads(Path('evidence/structure.json').read_text())['common_D']
+    deg = [len(r['coeffs'])-1 for r in state['denominator']]
+    block = math.lcm(*(d for d,w in zip(deg,state['mu']) if w>0))
+    D = math.lcm(int(D),block)
+    mass = [max(Fraction(w),0)*d for w,d in zip(state['mu'],deg)]
+    quotas = [q*(D//block)/sum(mass) for q in mass]
+    counts = [math.floor(q) for q in quotas]
+    for i in sorted(range(len(deg)),key=lambda i:quotas[i]-counts[i],reverse=True)[:D//block-sum(counts)]:
+        counts[i]+=1
+    den=[{'name':r['name'],'coeffs':r['coeffs'],'multiplicity':n*block//d}
+         for r,n,d in zip(state['denominator'],counts,deg) if n]
+    assert sum((len(r['coeffs'])-1)*r['multiplicity'] for r in den)==D
     num=[]
     for r,w in zip(state['numerator'],state['w']):
-        q=Fraction(int(round(w*D*2**20)),2**20)
+        q=Fraction(int(round(Fraction(w)*D*2**20)),2**20)
         if q>0:
             text=str(q)
             if len(str(abs(q.numerator))) in [15,16]:
@@ -135,7 +143,7 @@ def freeze(state,path):
                     f.write(f'\n{path}: {r["name"]}: {q} encoded as {text} (equal rational).\n')
             num.append({'name':r['name'],'coeffs':r['coeffs'],'q_rational':text})
     assert sum((len(r['coeffs'])-1)*Fraction(r['q_rational']) for r in num)<D
-    cert={'description':'Candidate, unrefereed. Doche construction; Patankar PR280 weighted CVP method, Pinho PR301 residue/pricing method; our own c82r5/c82r6 search and helpers reused through c82r9 in c82r10. Separately written (same agent) interval verification required.',
+    cert={'description':'Candidate, unrefereed. Doche construction; Patankar PR280 weighted CVP method, Pinho PR301 residue/pricing method; our round-11 search scripts reused in round 12 with vidiGoat #280 v6 certificate columns. Separately written (same agent) interval verification required.',
           'numeric_unverified':state['lp'],'N':state['N'],'denominator':den,'numerator':num}
     write_json(path,cert)
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()

@@ -1,8 +1,9 @@
 {
   "target": "teorth/optimizationproblems#330",
   "new_bound": true,
-  "producer_author": "codex math_c82r10_1113",
-  "producer_model": "gpt-6.1-sol",
+  "producer_author": "codex math_c82r12_1120",
+  "producer_model": "gpt-6.2-astra",
+  "referee_model": "claude-opus-5-5",
   "replay_inputs": {
     "review/inputs/CLAIM.md": "proof",
     "review/inputs/PROOF.md": "proof",
@@ -29,7 +30,9 @@
     "vidigoat/optimization-records@79ce0dfb211a67ff7e387b58b0d19ff1d6accfba": "sources/publish-trees/vidigoat__optimization-records@79ce0dfb211a67ff7e387b58b0d19ff1d6accfba.json",
     "vidigoat/optimization-records@191064e7ccd88718853fe239dfd3890a8dc0fa37": "sources/publish-trees/vidigoat__optimization-records@191064e7ccd88718853fe239dfd3890a8dc0fa37.json",
     "rpinho/math-certificates@dadec7353c435a081befca73888e3ab6cef3134a": "sources/publish-trees/rpinho__math-certificates@dadec7353c435a081befca73888e3ab6cef3134a.json",
-    "teorth/optimizationproblems@d27a71ff70b57af6e529e6016f741b5cd7dc6f4d": "sources/publish-trees/teorth__optimizationproblems@d27a71ff70b57af6e529e6016f741b5cd7dc6f4d.json"
+    "teorth/optimizationproblems@d27a71ff70b57af6e529e6016f741b5cd7dc6f4d": "sources/publish-trees/teorth__optimizationproblems@d27a71ff70b57af6e529e6016f741b5cd7dc6f4d.json",
+    "rpinho/math-certificates@977121e04d22dd9cde69e3765b3eed2a78376e3d": "sources/publish-trees/rpinho__math-certificates@977121e04d22dd9cde69e3765b3eed2a78376e3d.json",
+    "vidigoat/optimization-records@e3bae2ea40c8b1f764a1ba08bcd21fe513b2c45d": "sources/publish-trees/vidigoat__optimization-records@e3bae2ea40c8b1f764a1ba08bcd21fe513b2c45d.json"
   },
   "submitter": "rpinho",
   "destination": "c82/degree104-joint"

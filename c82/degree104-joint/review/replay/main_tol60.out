@@ -1,0 +1,11 @@
+integrator abs_tol 2^-60, rel_tol 2^-50
+certificate sha256 dc129b7586da99042ff04e6cbf435d0b2e7e761ccfb87fc218da079b3f26aa33
+[main] hypotheses: 6 monic integer denominators, 38 active integer numerators
+[main] D = 740384615402384615382720 ; a = 696806913114226553812602710857/1048576 ; a/D < 1 exactly: True ; active gcd pairs checked coprime: 228
+[main] numerators with zeros of S o T on |z|=1 (gcd with reciprocal): [('P1', 'x + (-1)'), ('P2', 'x^2 + (-1)*x + 1'), ('P4', 'x^4 + (-1)*x^3 + x^2 + (-1)*x + 1')]
+[main] denominator R o T: undecided |root|=1 cases 0 ; gcd(P,P*) degree sum 0
+[main] H in [0.2519693873279416368328252, 0.2519693873279416368328253]
+[main] J in [0.0000000885100910286353274, 0.0000000885103012667304862]
+[main] B in [0.2519694758380326654679408, 0.2519694758382429035635232]   (integrand evaluations 1457424, roots in w-plane 1863, prec 192)
+[main] upper endpoint < 0.2519694759 : True
+[main] PASS
