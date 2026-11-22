@@ -1,8 +1,8 @@
 # Statement correspondence
 
-Source: the unchanged `../c30r2/FIRST_MOMENT_PROOF.md` (SHA-256
+Source: the unchanged `../round1/FIRST_MOMENT_PROOF.md` (SHA-256
 `a1575a482c7bc92090013b2419e4f41fafe5cc344b5736511f2bac987dc08ee9`).
-A byte-identical copy is retained in `sources/FIRST_MOMENT_PROOF.md`.
+(The `sources/` copy is not in this release; the hash above matches `../round1/FIRST_MOMENT_PROOF.md`.)
 Line numbers below refer to that copy. Namespace throughout: `C30Lean`.
 
 ## Integer envelope: inputs and exact counts
