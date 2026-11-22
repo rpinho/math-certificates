@@ -109,3 +109,7 @@ These are false positives of the same kind the owner has already allowed for oth
 ```
 
 and the same two for the job's working tree if the packet is scanned there. Until then this packet must not be copied to the repository or pushed.
+
+## Metadata added at publish time
+
+CLAIMS.json, CREDITS.json and CREDITS.md were written at publish time for rh publish-lint; README.md wording changed from "we" to "I" in three sentences and the issue 67 credit now links the issue. PUBLISH.json and sources/publish-trees/ (GitHub tree listings of the two pinned upstream commits) were added by the packaging step.

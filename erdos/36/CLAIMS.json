@@ -1,0 +1,106 @@
+{
+  "claims": [
+    {
+      "value": "1/160",
+      "kind": "rigorous",
+      "producer": "producer/verify_K.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "upper end of the certified mean range 0 <= |m| <= 1/160 (bin endpoint, exact rational)"
+    },
+    {
+      "value": "-1/160",
+      "kind": "rigorous",
+      "producer": "producer/verify_K.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "lower end of the mean range, by the reflection h(x) -> h(2-x)"
+    },
+    {
+      "value": "0",
+      "kind": "rigorous",
+      "producer": "producer/verify_K.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "lower end of the mean range and first bin endpoint"
+    },
+    {
+      "value": "1",
+      "kind": "rigorous",
+      "producer": "producer/verify_K.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "mean range [-1, 1] of p, and the normalisation of h; definitions, not bounds"
+    },
+    {
+      "value": "7e-5",
+      "kind": "rigorous",
+      "producer": "producer/verify_K.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "right endpoint of the first certificate bin [0, 7e-5]"
+    },
+    {
+      "value": "+3.05e-10",
+      "kind": "rigorous",
+      "producer": "producer/verify_K.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "smallest margin over L across all 94 bins (bin 1), exact rationals checked by verify_K.py; slack below the claimant's N0/D_up, not a better bound"
+    },
+    {
+      "value": "3e-10",
+      "kind": "rigorous",
+      "producer": "producer/verify_K.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "the same smallest margin, rounded"
+    },
+    {
+      "value": "1.9e-9",
+      "kind": "rigorous",
+      "producer": "producer/verify_K.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "smallest margin on the 77 bins meeting [1.46e-4, 1/160], rounded"
+    },
+    {
+      "value": "3.1e-28",
+      "kind": "rigorous",
+      "producer": "producer/ledger/n0_ledger.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "shortfall of the N0 sum when the claimant's stored paid-row constants are used"
+    },
+    {
+      "value": "+2.283e-27",
+      "kind": "rigorous",
+      "producer": "producer/ledger/ledger_arb.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "rigorous N0 ledger comparison with recomputed constants (Arb interval arithmetic)"
+    },
+    {
+      "value": "36",
+      "kind": "cited",
+      "source": "https://www.erdosproblems.com/36",
+      "new_bound": false,
+      "label": "Erdős problem number, not a value"
+    },
+    {
+      "value": "6.2",
+      "kind": "cited",
+      "source": "https://openai.com/",
+      "new_bound": false,
+      "label": "model version in the name GPT-6.2 Astra, not a value"
+    },
+    {
+      "value": "0.379005",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2201.05704",
+      "new_bound": false,
+      "label": "E. P. White's refereed lower bound on the minimum-overlap constant"
+    }
+  ],
+  "scope": "Exact certificates for the small-mean step (0 <= |m| <= 1/160) of Unktok's claimed bound; conditional on S12 and the two-scale L0 convention; no new bound."
+}

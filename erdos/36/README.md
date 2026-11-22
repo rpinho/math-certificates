@@ -56,7 +56,7 @@ What the verifier checks for each bin (`producer/verify_K.py`): (1) |λ − s_k|
 ## 3. What this rests on (not proved here)
 
 - **S12 and the data behind it.** The core inequality ∫pΦ ≥ N0 + C m² is the claimant's. A round-1 job (not in this packet) checked its analytic rules and exact PSD witnesses (17 original plus one two-scale witness). This packet's ledger scripts rebuild N0 and C from primitive data: C closes exactly; N0 is matched to 3.1e-28 using the claimant's stored paid-row constants (their own book-keeping falls 3.1e-28 short of N0), and is supported by +2.283e-27 when each paid row is charged its exact κ plus its actual coefficient errors (`producer/ledger/ledger_arb.py`, Arb 256 bits). The periodic scatter is rebuilt exactly on all 131 072 cells.
-- **The two-scale L0 convention.** The claimant's prose defers the exact scalar to their code, which we did not read. We use our reading of the prose; two exact cross-checks (C, and the assembled constant c0) corroborate it, but it is an interpretation.
+- **The two-scale L0 convention.** The claimant's prose defers the exact scalar to their code, which I did not read. I use my reading of the prose; two exact cross-checks (C, and the assembled constant c0) corroborate it, but it is an interpretation.
 - **The kernel identity.** The Φ certified against is rebuilt from the data files (round 1's construction), not taken from the claimant's code. Its N0/D agrees with L to 2e-9.
 - **Round 1's outer cover** of |m| ∈ [1/160, 1] (87 bins, smallest margin +5.0e-5) and PSD witnesses are carried forward, not replayed here. Without them, this packet shows only the inner range.
 - Pinned third-party data: the claimant's [proof/data/*.json](https://github.com/unktok/erdos-36-lower-bound/tree/cb2f01237c2867a704739f6864075e0ce4e67f07/proof/data) and Wetch's [central-certificate.json](https://github.com/justinwetch/erdos-36-minimum-overlap/blob/27b1cba5f929da7182e97d2e8c42c78c5ee5d4a8/outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/central-certificate.json) (fetched; not redistributed here).
@@ -98,7 +98,7 @@ Pins (sha256):
 | [unktok/proof/data/selected-paid-rows.json](https://github.com/unktok/erdos-36-lower-bound/blob/cb2f01237c2867a704739f6864075e0ce4e67f07/proof/data/selected-paid-rows.json) | 63c27d0073a6dff137b273487d4dde10251af7b000ce68ef736453df5bf4e64e |
 | [unktok/proof/data/target.json](https://github.com/unktok/erdos-36-lower-bound/blob/cb2f01237c2867a704739f6864075e0ce4e67f07/proof/data/target.json) | d091159238f9040242cb6ca699027623aab7f6e0aa1147694f8b0bd43b777beb |
 
-The claimant's [proof/MANIFEST.json](https://github.com/unktok/erdos-36-lower-bound/blob/cb2f01237c2867a704739f6864075e0ce4e67f07/proof/MANIFEST.json) also lists [data/central-sparse.json](https://github.com/unktok/erdos-36-lower-bound/blob/cb2f01237c2867a704739f6864075e0ce4e67f07/proof/MANIFEST.json) and [data/outer-certificate.json](https://github.com/unktok/erdos-36-lower-bound/blob/cb2f01237c2867a704739f6864075e0ce4e67f07/proof/MANIFEST.json); these are derived from Wetch's files by the claimant's own fetch script, which we neither need nor run. The scripts here read Wetch's files directly.
+The claimant's [proof/MANIFEST.json](https://github.com/unktok/erdos-36-lower-bound/blob/cb2f01237c2867a704739f6864075e0ce4e67f07/proof/MANIFEST.json) also lists [data/central-sparse.json](https://github.com/unktok/erdos-36-lower-bound/blob/cb2f01237c2867a704739f6864075e0ce4e67f07/proof/MANIFEST.json) and [data/outer-certificate.json](https://github.com/unktok/erdos-36-lower-bound/blob/cb2f01237c2867a704739f6864075e0ce4e67f07/proof/MANIFEST.json); these are derived from Wetch's files by the claimant's own fetch script, which I neither need nor run. The scripts here read Wetch's files directly.
 
 **Run everything** from the packet directory (`E36_INPUTS` is set by the script from its first argument):
 
@@ -145,14 +145,14 @@ The packet's `make_K.py` search is not needed to check the certificate; re-runni
 
 - Conditional on S12 and on the two-scale L0 reading (section 3). The claimant has not confirmed either.
 - Round 1's outer cover and PSD checks are cited, not included.
-- The kernel is our rebuild from data files, not the claimant's code.
+- The kernel is my rebuild from data files, not the claimant's code.
 - The smallest margins are about 3e-10 and 1.9e-9; the bound is not improved, it is checked.
 - `producer/ledger/n0_ledger.py` prints the sum with the claimant's stored paid-row constants, which falls 3.1e-28 short of N0; `ledger_arb.py` gives the rigorous comparison (+2.283e-27).
 - Next: a human reading of lemma steps 2 and 5 and of the two-scale reading; ask the claimant on #67 whether their capacity step reduces to inequality 4 and for the two-scale L0 convention in prose.
 
 ## 7. Credits
 
-- **Unktok** (plasma-ai/erdos#67, [unktok/erdos-36-lower-bound](https://github.com/unktok/erdos-36-lower-bound/tree/cb2f01237c2867a704739f6864075e0ce4e67f07)): the claimed bound, the kernel data, N0, C, L, and the analytic documents this packet builds on, including the quartet inequality.
+- **Unktok** ([plasma-ai/erdos issue 67](https://github.com/plasma-ai/erdos/issues/67), [unktok/erdos-36-lower-bound](https://github.com/unktok/erdos-36-lower-bound/tree/cb2f01237c2867a704739f6864075e0ce4e67f07)): the claimed bound, the kernel data, N0, C, L, and the analytic documents this packet builds on, including the quartet inequality.
 - **Justin Wetch** ([justinwetch/erdos-36-minimum-overlap](https://github.com/justinwetch/erdos-36-minimum-overlap/tree/27b1cba5f929da7182e97d2e8c42c78c5ee5d4a8)): the phase-Gram method, the periodic families, the central and outer certificates, and EVEN_ODD_CAPACITY_RETURN (the odd-part capacity idea).
 - **E. P. White**, the density formulation and the refereed lower bound 0.379005; **J. Haugland**, background on the upper side. Price (mean conditioning) and Kim–Pilanci are credited in the claim.
 - Libraries: python-flint / Arb, mpmath, numpy, scipy.

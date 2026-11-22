@@ -1,0 +1,29 @@
+{
+  "credits": [],
+  "contributors": [
+    {
+      "name": "Unktok",
+      "role": "the claimed bound, kernel data, N0, C, L and the analytic documents, including the quartet inequality (plasma-ai/erdos issue 67)"
+    },
+    {
+      "name": "Justin Wetch",
+      "role": "phase-Gram method, periodic families, central and outer certificates, EVEN_ODD_CAPACITY_RETURN"
+    },
+    {
+      "name": "E. P. White",
+      "role": "density formulation and the refereed lower bound 0.379005"
+    },
+    {
+      "name": "J. Haugland",
+      "role": "background on the upper side"
+    },
+    {
+      "name": "python-flint / Arb, mpmath, numpy, scipy",
+      "role": "libraries"
+    },
+    {
+      "name": "AI agents",
+      "role": "Claude Opus 5.5 producer (certificates and verifier); GPT-6.2 Astra clean-room referee (separately written checker); packaging"
+    }
+  ]
+}
