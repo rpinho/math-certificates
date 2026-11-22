@@ -1,0 +1,19 @@
+{
+  "target": "teorth/erdosproblems",
+  "new_bound": false,
+  "producer_model": "Claude Opus 5.5 via Claude Code (launcher records)",
+  "referee_model": "GPT-6.2 Astra via Codex, clean-room, producer code withheld",
+  "submitter": "rpinho",
+  "destination": "erdos/36",
+  "certificate_repository": "rpinho/math-certificates",
+  "replay_inputs": {
+    "certificates/certK_r105.json": "certificate",
+    "README.md": "proof",
+    "referee/REFEREE.md": "proof"
+  },
+  "linked_trees": {
+    "justinwetch/erdos-36-minimum-overlap@27b1cba5f929da7182e97d2e8c42c78c5ee5d4a8": "sources/publish-trees/justinwetch__erdos-36-minimum-overlap@27b1cba5f929da7182e97d2e8c42c78c5ee5d4a8.json",
+    "unktok/erdos-36-lower-bound@cb2f01237c2867a704739f6864075e0ce4e67f07": "sources/publish-trees/unktok__erdos-36-lower-bound@cb2f01237c2867a704739f6864075e0ce4e67f07.json"
+  },
+  "scope": "Small-mean step only, conditional on the claim's S12 and two-scale convention, no new bound."
+}

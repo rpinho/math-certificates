@@ -1,0 +1,2506 @@
+{
+  "sha": "27b1cba5f929da7182e97d2e8c42c78c5ee5d4a8",
+  "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/27b1cba5f929da7182e97d2e8c42c78c5ee5d4a8",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "625449502ba4b4d7c229c6ccee42e3ec41cc780c",
+      "size": 9,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/625449502ba4b4d7c229c6ccee42e3ec41cc780c"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea998b91d85287539659c5e8a7053d22cd870d50",
+      "size": 46,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/ea998b91d85287539659c5e8a7053d22cd870d50"
+    },
+    {
+      "path": "CONTINUATION_PROMPT.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "884382f2b9d1c77e3675d0322f569abae1d5d1d9",
+      "size": 1891,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/884382f2b9d1c77e3675d0322f569abae1d5d1d9"
+    },
+    {
+      "path": "FINDINGS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23e229c0e159d52e8ccc559918e7f88958bdd092",
+      "size": 6186,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/23e229c0e159d52e8ccc559918e7f88958bdd092"
+    },
+    {
+      "path": "MANIFEST.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3f3f218e915937b2e2d958194fcdd6716010fe8",
+      "size": 44005,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/c3f3f218e915937b2e2d958194fcdd6716010fe8"
+    },
+    {
+      "path": "PUBLIC_COMPARISON.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ece18f8fe7da1d5e9891e37f8c7ce56caca82d18",
+      "size": 2841,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/ece18f8fe7da1d5e9891e37f8c7ce56caca82d18"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59367d2132ace226376f1d9a924505e24879b75b",
+      "size": 3265,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/59367d2132ace226376f1d9a924505e24879b75b"
+    },
+    {
+      "path": "TECHNICAL_NOTE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a571b7970062be75f07e155ff9ae08807b44a033",
+      "size": 11563,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/a571b7970062be75f07e155ff9ae08807b44a033"
+    },
+    {
+      "path": "TIMING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4ed0ddc2b35ac480aeee8c9dbaed46cfc02eed1",
+      "size": 1487,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/d4ed0ddc2b35ac480aeee8c9dbaed46cfc02eed1"
+    },
+    {
+      "path": "evidence",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c03aec5238f29b2e9e64ef5b2211730166c8abe7",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/c03aec5238f29b2e9e64ef5b2211730166c8abe7"
+    },
+    {
+      "path": "evidence/PUBLICATION_PROVENANCE.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fd4022f38706c17c8755c1010b40c05a117991c",
+      "size": 1363,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/1fd4022f38706c17c8755c1010b40c05a117991c"
+    },
+    {
+      "path": "evidence/final-global-verification-freeze.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef3889be6790048e103cf02909694009abf061d4",
+      "size": 893,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/ef3889be6790048e103cf02909694009abf061d4"
+    },
+    {
+      "path": "evidence/final-research-cutoff.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f424079cb2d6fde86b7c8fcfc90edd2ccf3aadc",
+      "size": 574,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/6f424079cb2d6fde86b7c8fcfc90edd2ccf3aadc"
+    },
+    {
+      "path": "evidence/fresh-replays",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1fb2fe605af71c29dce40139699f0199d6594bc8",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/1fb2fe605af71c29dce40139699f0199d6594bc8"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "597a665b0c72c000796d3ba0c228d04ae2f183a6",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/597a665b0c72c000796d3ba0c228d04ae2f183a6"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/replay-global-audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d30d0741212a0c8218140570e6a87053b2e7b254",
+      "size": 25642,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/d30d0741212a0c8218140570e6a87053b2e7b254"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/replay-result.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93c9a2678293b296cff30edf7885e426c5a57d8f",
+      "size": 3987,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/93c9a2678293b296cff30edf7885e426c5a57d8f"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/runs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "db775ec090fbadf61003925d4c502bc279f21388",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/db775ec090fbadf61003925d4c502bc279f21388"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/runs/replay-adapter.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c24fb945f59c21aa693a1366330cf6006753925",
+      "size": 6114,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/6c24fb945f59c21aa693a1366330cf6006753925"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/runs/replay-algebra-controls.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c8f504cd9dc96f419210b2de63dde652a611abf",
+      "size": 1129,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/6c8f504cd9dc96f419210b2de63dde652a611abf"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/runs/replay-baselines-outer-fourth-attestation.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a544de62afb0fb9936fa445647965fe6322fe845",
+      "size": 3314,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/a544de62afb0fb9936fa445647965fe6322fe845"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/runs/replay-baselines-outer-fourth.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9d9eef48b6ab6a5d9cc03c0aac47931444ec2a5",
+      "size": 2710,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/c9d9eef48b6ab6a5d9cc03c0aac47931444ec2a5"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/runs/replay-baselines-outer-original-attestation.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cd7d2a167cad1b416553240ce941520d84c3be0",
+      "size": 2912,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/9cd7d2a167cad1b416553240ce941520d84c3be0"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/runs/replay-baselines-outer-original.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaa7afd5bf3b072b076e7e70f7116ab1ac9506bf",
+      "size": 2506,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/eaa7afd5bf3b072b076e7e70f7116ab1ac9506bf"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/runs/replay-baselines",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9e6677d7fbd59b5536e54aa66757dfe3b2cfdcfc",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/9e6677d7fbd59b5536e54aa66757dfe3b2cfdcfc"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/runs/replay-baselines/central2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5579c27e9a1cffa0eda668fd902ee4769279a5a",
+      "size": 10879,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/f5579c27e9a1cffa0eda668fd902ee4769279a5a"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/runs/replay-baselines/central4.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5225dcbe0490ab5e3f3d9c78737dcb3fb272f446",
+      "size": 10880,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/5225dcbe0490ab5e3f3d9c78737dcb3fb272f446"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/runs/replay-baselines/execution.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cef79b5b552d3383a695e9bee09852670617582",
+      "size": 5680,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/0cef79b5b552d3383a695e9bee09852670617582"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/runs/replay-baselines/integer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad5ef0467a5f36b8c55923ddbe33074d156b0247",
+      "size": 11135,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/ad5ef0467a5f36b8c55923ddbe33074d156b0247"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/runs/replay-baselines/mapping.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "630687a6459e8f08fb5887f6a885942ed883297a",
+      "size": 1050,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/630687a6459e8f08fb5887f6a885942ed883297a"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/runs/replay-capacity-arb.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "487284556f72d8289e091ff62883d2494f6bd06e",
+      "size": 18010,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/487284556f72d8289e091ff62883d2494f6bd06e"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/runs/replay-capacity-integer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19d4bf1caa1d3a4072149a85cec76bc2f7214c90",
+      "size": 17282,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/19d4bf1caa1d3a4072149a85cec76bc2f7214c90"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/runs/replay-energy-arb.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bac405480397981fd1fd143c32c0d63920e98ae4",
+      "size": 2170,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/bac405480397981fd1fd143c32c0d63920e98ae4"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/runs/replay-energy-integer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c90282eb514d7748e861b8f47d7e64089667ac22",
+      "size": 2153,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/c90282eb514d7748e861b8f47d7e64089667ac22"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/runs/replay-quartet-controls.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91ac06e8f436ac4cf9517caf4c6f6a1c09e67986",
+      "size": 1788,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/91ac06e8f436ac4cf9517caf4c6f6a1c09e67986"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/runs/replay-rejection-controls.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e22a88d50923c6c7d8f7b257ace84f0931a11f58",
+      "size": 9955,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/e22a88d50923c6c7d8f7b257ace84f0931a11f58"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-refined14336-upper-checkpoint-v2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "68de1f86a7ec2820e73d205061f1976e4c503d8d",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/68de1f86a7ec2820e73d205061f1976e4c503d8d"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-refined14336-upper-checkpoint-v2/replay-baseline.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a247ca1492f351fdd9dba2a1f22869927211e1a5",
+      "size": 622,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/a247ca1492f351fdd9dba2a1f22869927211e1a5"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-refined14336-upper-checkpoint-v2/replay-direct.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae20303d7634ee856d85852768c1a231e8649893",
+      "size": 534,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/ae20303d7634ee856d85852768c1a231e8649893"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-refined14336-upper-checkpoint-v2/replay-fractional-controls.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91f501bf4b90c7eb3df02cb9eae37c8edd0e6beb",
+      "size": 629,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/91f501bf4b90c7eb3df02cb9eae37c8edd0e6beb"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-refined14336-upper-checkpoint-v2/replay-packed-controls.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a549b5aab8c086b361da424f9d7927f1c5acc249",
+      "size": 496,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/a549b5aab8c086b361da424f9d7927f1c5acc249"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-refined14336-upper-checkpoint-v2/runs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "84ca353827a4906c2a668f8260bc551289e9718f",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/84ca353827a4906c2a668f8260bc551289e9718f"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-refined14336-upper-checkpoint-v2/runs/replay-specialized",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c00202e6e9ba97f479cdb5ae395a0561b147456f",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/c00202e6e9ba97f479cdb5ae395a0561b147456f"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-refined14336-upper-checkpoint-v2/runs/replay-specialized/best.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb707812a20cd586d01bf6a221847e7b29b920f7",
+      "size": 656129,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/cb707812a20cd586d01bf6a221847e7b29b920f7"
+    },
+    {
+      "path": "evidence/fresh-replays/minimum-overlap-refined14336-upper-checkpoint-v2/runs/replay-specialized/verification.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "876090925f167db71f24300b40ef2d350b4cc6e8",
+      "size": 2056,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/876090925f167db71f24300b40ef2d350b4cc6e8"
+    },
+    {
+      "path": "evidence/hybrid106-integer-runtime-comparison.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69c53d3b7f0357315e411f74b568b52b0f444b2e",
+      "size": 1559,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/69c53d3b7f0357315e411f74b568b52b0f444b2e"
+    },
+    {
+      "path": "evidence/hybrid106-radius-pypy627425-v1-global-fresh-replay.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6b84336065993e57b4a4b4d08fa4fe212669261",
+      "size": 4403,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/f6b84336065993e57b4a4b4d08fa4fe212669261"
+    },
+    {
+      "path": "evidence/hybrid106-radius-pypy627425-v1-global-frozen-confirmation-review.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5e6c8fa5a146e1842155fa7265fd947034bdb43",
+      "size": 710,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/a5e6c8fa5a146e1842155fa7265fd947034bdb43"
+    },
+    {
+      "path": "evidence/hybrid106-radius-pypy627425-v1-global-promotion.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb6a6672291af3595e0fdece0c0997d81c1535bb",
+      "size": 850,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/cb6a6672291af3595e0fdece0c0997d81c1535bb"
+    },
+    {
+      "path": "evidence/minimum-overlap-refined14336-upper-checkpoint-v2-fresh-replay.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14abaaa43748027f3cb09090fd0b820051428e7e",
+      "size": 1534,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/14abaaa43748027f3cb09090fd0b820051428e7e"
+    },
+    {
+      "path": "evidence/packet-delivery-audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7266dac38764317ae12d2b1ec3425348a18eb91",
+      "size": 839,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/d7266dac38764317ae12d2b1ec3425348a18eb91"
+    },
+    {
+      "path": "outputs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d2bf220a921d4ad5fda7d168a2f09506218370d0",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/d2bf220a921d4ad5fda7d168a2f09506218370d0"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9c958491c0ab24706f1056aa1ddada472f456d37",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/9c958491c0ab24706f1056aa1ddada472f456d37"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/CENTRAL_RADIUS_RETURN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa990eb2e634d8e2e15532635165e3ec6fdb6601",
+      "size": 2855,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/aa990eb2e634d8e2e15532635165e3ec6fdb6601"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/CIRCLE_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1cf6ef6cc0a99240df8c44864258a1138388c25",
+      "size": 11258,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/a1cf6ef6cc0a99240df8c44864258a1138388c25"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/EVEN_ODD_CAPACITY_RETURN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "325f29495656d73c0f74bde7fc53f0010495122e",
+      "size": 10981,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/325f29495656d73c0f74bde7fc53f0010495122e"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/HYBRID_OUTER_BLEND_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44eef7842b56b439154eea3641f9ed26e45b9f11",
+      "size": 2923,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/44eef7842b56b439154eea3641f9ed26e45b9f11"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/HYBRID_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d3f5223a2e6d3a456a033d43fc1d08772a9c4af",
+      "size": 4735,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/0d3f5223a2e6d3a456a033d43fc1d08772a9c4af"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/LOWER_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66490c55d3cc5b8d92671fd01e1a4332409751a2",
+      "size": 6605,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/66490c55d3cc5b8d92671fd01e1a4332409751a2"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/ODD_LIPSCHITZ_ROUTE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5a4d85cb3324e781ac789c46d9164ecef90e970",
+      "size": 1813,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/a5a4d85cb3324e781ac789c46d9164ecef90e970"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/ODD_REFLECTION_FOLD.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82360123f5d8885ba67566499865164f38055954",
+      "size": 2280,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/82360123f5d8885ba67566499865164f38055954"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/OPTIONAL_INTEGER_RUNTIME.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "849621b2be805d6db708706f46ae7f860bb297d1",
+      "size": 709,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/849621b2be805d6db708706f46ae7f860bb297d1"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/ORCHESTRATION_FORK.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed4bdba4b87b9b2ecac6812b464fcb2681a3ef95",
+      "size": 13701,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/ed4bdba4b87b9b2ecac6812b464fcb2681a3ef95"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/PHASE_GRAM_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37e0be49dd86df3ba60423f5c4d7743535d8bba4",
+      "size": 8006,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/37e0be49dd86df3ba60423f5c4d7743535d8bba4"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcf33923c01ecd1639f9f89c2ae458df1f67cf97",
+      "size": 5701,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/bcf33923c01ecd1639f9f89c2ae458df1f67cf97"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b47eb3d5dcb04092141d49dd54f579ced2ba6654",
+      "size": 3110,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/b47eb3d5dcb04092141d49dd54f579ced2ba6654"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/REPLAY.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad07e42b810f70de77f21c3b21799eedbd31b95a",
+      "size": 3869,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/ad07e42b810f70de77f21c3b21799eedbd31b95a"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/SHARED_MEAN_RETURN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f04590cfc32832f1356ca734ad2d7781cfcc9991",
+      "size": 3526,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/f04590cfc32832f1356ca734ad2d7781cfcc9991"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/adapt_even_central_reports.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "502150cd3b6a67e170aa93bdf01b172010a240bd",
+      "size": 3361,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/502150cd3b6a67e170aa93bdf01b172010a240bd"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/audit_radius_retargeted_capacity_v1.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b00a817bfd250e1dde494591e5fd906c26e40cc1",
+      "size": 13095,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/b00a817bfd250e1dde494591e5fd906c26e40cc1"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/baseline-cover-config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93c611bfe27488beea2b425b9b4fe8c77031a025",
+      "size": 1967,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/93c611bfe27488beea2b425b9b4fe8c77031a025"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/capacity",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e2f76b08387075fb0d3a4aca48f84ab2ccc4445b",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/e2f76b08387075fb0d3a4aca48f84ab2ccc4445b"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/capacity/bundle.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "858e117e6b24895280e412211f8f508d30ebf6c2",
+      "size": 25431043,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/858e117e6b24895280e412211f8f508d30ebf6c2"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/capacity/cover-config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3120eb9ddfb4c118c1d7be85a20bd0a1e47233c1",
+      "size": 1505,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/3120eb9ddfb4c118c1d7be85a20bd0a1e47233c1"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/capacity/even-kernel.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8acaaef44231582a880bbbc8b424c85dda7b281a",
+      "size": 25027513,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/8acaaef44231582a880bbbc8b424c85dda7b281a"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/central-certificate.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cf6b3ae7d165eb8d5bc342b8d958bf0b6f19bcd",
+      "size": 22375413,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/7cf6b3ae7d165eb8d5bc342b8d958bf0b6f19bcd"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/check_even_odd_capacity_controls_v2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bb6129be4045747e63411cddc8500ce8755acda",
+      "size": 3247,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/2bb6129be4045747e63411cddc8500ce8755acda"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/check_hybrid_mapping.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "007c2e6d0450e996eb1c27397ed2e60f99224d47",
+      "size": 4662,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/007c2e6d0450e996eb1c27397ed2e60f99224d47"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/check_odd_lipschitz_probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdd00d169e17a05ff25ffb54ab0845f6a263e309",
+      "size": 2201,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/bdd00d169e17a05ff25ffb54ab0845f6a263e309"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/check_radius_retargeted_rejections_v1.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa4d0af7e70c0da22465f018a704ff8b15cf2fae",
+      "size": 5183,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/fa4d0af7e70c0da22465f018a704ff8b15cf2fae"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/circle_certificate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e317c1532c15368f01cb754f60657e7fb5d6377",
+      "size": 8341,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/9e317c1532c15368f01cb754f60657e7fb5d6377"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/circle_intervals.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "072302e8f88985bc34ee96941acd865d73c88b18",
+      "size": 2245,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/072302e8f88985bc34ee96941acd865d73c88b18"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/dual_diagnostic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "603646c830e829df8af4719b98acb07c7b50fa19",
+      "size": 2391,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/603646c830e829df8af4719b98acb07c7b50fa19"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d080ff0c685717f1c824f5bf59b1140c02511bcd",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/d080ff0c685717f1c824f5bf59b1140c02511bcd"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/controls",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9d27de3396d5eb1b258f43f578f6e8750b26055",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/c9d27de3396d5eb1b258f43f578f6e8750b26055"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/controls/enlarged-central-return.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "175451bea2c5f37378d5a9f4972c6a3b2fe05f23",
+      "size": 1185,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/175451bea2c5f37378d5a9f4972c6a3b2fe05f23"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/controls/gap-after-central.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38342d79ac6f236be6f288340e12d7aed7f988be",
+      "size": 1182,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/38342d79ac6f236be6f288340e12d7aed7f988be"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/controls/gap-between-capacity-cases.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38342d79ac6f236be6f288340e12d7aed7f988be",
+      "size": 1182,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/38342d79ac6f236be6f288340e12d7aed7f988be"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/controls/invalid-dual.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f706a843bf7d4853dc1161f43021d5d604f1e6eb",
+      "size": 686,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/f706a843bf7d4853dc1161f43021d5d604f1e6eb"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/controls/overlap-between-capacity-cases.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "850dd0a6dd5c20f891cc6365035ec5596effde9c",
+      "size": 24482,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/850dd0a6dd5c20f891cc6365035ec5596effde9c"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/controls/overlap-between-capacity-cases.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce8b4e971ac742de62d31e28c0e387d960f85c3a",
+      "size": 24484,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/ce8b4e971ac742de62d31e28c0e387d960f85c3a"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/controls/unaligned-mesh.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "237ee92e6f6598bfaaab47890577d9bb1ff8123e",
+      "size": 617,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/237ee92e6f6598bfaaab47890577d9bb1ff8123e"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/controls/unproved-central-target.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a2b0066a4a3da05a2cfc1e50349e0d92a8c0649",
+      "size": 771,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/2a2b0066a4a3da05a2cfc1e50349e0d92a8c0649"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/controls/wrong-executed-central-radius.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a2b0066a4a3da05a2cfc1e50349e0d92a8c0649",
+      "size": 771,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/2a2b0066a4a3da05a2cfc1e50349e0d92a8c0649"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/controls/wrong-kernel-hash.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66d8e7ecc00a47ba3b6f71a11f94f4855441de75",
+      "size": 1522,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/66d8e7ecc00a47ba3b6f71a11f94f4855441de75"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original-audit-config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dade7d5f21d86e236af1bdc930db163a9c6811af",
+      "size": 2887,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/dade7d5f21d86e236af1bdc930db163a9c6811af"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original-global-audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbad152e71bce01b2c6da717dcf5ff2ba83b599b",
+      "size": 24367,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/fbad152e71bce01b2c6da717dcf5ff2ba83b599b"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original-rejection-controls.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0219672679cb9bd978f4f34cdc9f562ef93fe9b",
+      "size": 9861,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/e0219672679cb9bd978f4f34cdc9f562ef93fe9b"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "55a58c14c30845813d6ec1c74e6cdb9281f28735",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/55a58c14c30845813d6ec1c74e6cdb9281f28735"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/adapt_even_central_reports.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "502150cd3b6a67e170aa93bdf01b172010a240bd",
+      "size": 3361,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/502150cd3b6a67e170aa93bdf01b172010a240bd"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/audit_radius_retargeted_capacity_v1.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b00a817bfd250e1dde494591e5fd906c26e40cc1",
+      "size": 13095,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/b00a817bfd250e1dde494591e5fd906c26e40cc1"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/certificates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c7708280dc7a26ad59bb9f402ea8d31aafa238e7",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/c7708280dc7a26ad59bb9f402ea8d31aafa238e7"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/certificates/hybrid79-radius-alternate-continuous-join-outer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62255d1581da8c9501a738c211e4c0dc0fb665fe",
+      "size": 1591282,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/62255d1581da8c9501a738c211e4c0dc0fb665fe"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/check_hybrid_mapping.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "007c2e6d0450e996eb1c27397ed2e60f99224d47",
+      "size": 4662,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/007c2e6d0450e996eb1c27397ed2e60f99224d47"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/circle_certificate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e317c1532c15368f01cb754f60657e7fb5d6377",
+      "size": 8341,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/9e317c1532c15368f01cb754f60657e7fb5d6377"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/hybrid_certificate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba129962678f7551f34d7ccc0ea28dd369b33cd4",
+      "size": 4882,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/ba129962678f7551f34d7ccc0ea28dd369b33cd4"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/hybrid_functionals.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6205dd487b9672b7e6e9d506072e45e27602271",
+      "size": 1844,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/d6205dd487b9672b7e6e9d506072e45e27602271"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/integer_block_primitive.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f0a46a191a6700aee15f4877753254f6b37e7c4",
+      "size": 3490,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/8f0a46a191a6700aee15f4877753254f6b37e7c4"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/phase_functional_cut.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a107e11bf0728e0519b9f45ec91059fae78effd",
+      "size": 2877,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/4a107e11bf0728e0519b9f45ec91059fae78effd"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/retarget_central_mean_radius.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ec8c24e8ae858174c0ee6f39f4760a056bfcf2f",
+      "size": 2087,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/9ec8c24e8ae858174c0ee6f39f4760a056bfcf2f"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0b9291be761f75031cbba6ff35800b9e4179f442",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/0b9291be761f75031cbba6ff35800b9e4179f442"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid101-radius-capacity627425-v1-outer-fourth-attestation.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e962cf0928c708a7f9e519fdf54d9980e0e4e6b",
+      "size": 2785,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/2e962cf0928c708a7f9e519fdf54d9980e0e4e6b"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid101-radius-capacity627425-v1-outer-fourth.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14c5fb0fc6014548a46281d8eae302644c768120",
+      "size": 33803,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/14c5fb0fc6014548a46281d8eae302644c768120"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid101-radius-capacity627425-v1-outer-fourth.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9f1ef23afb76b9dc9b6de78dbe2cad39bd2e2e6",
+      "size": 2710,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/c9f1ef23afb76b9dc9b6de78dbe2cad39bd2e2e6"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid101-radius-capacity627425-v1-outer-fourth.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7873fb5cf5741ea5d1350d4e1995634f5f3ef12",
+      "size": 16635,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/c7873fb5cf5741ea5d1350d4e1995634f5f3ef12"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid101-radius-capacity627425-v1-outer-original-attestation.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd5a0f7fae61d297c3f3e88d11c65fa38ce6d4ae",
+      "size": 2486,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/cd5a0f7fae61d297c3f3e88d11c65fa38ce6d4ae"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid101-radius-capacity627425-v1-outer-original.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21c5a846ef543e6a15853d3c5ca5d3c762be8c5c",
+      "size": 33975,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/21c5a846ef543e6a15853d3c5ca5d3c762be8c5c"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid101-radius-capacity627425-v1-outer-original.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e42555bff0a5dbba9cf5e5999bc50dded8dbe2c",
+      "size": 2507,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/5e42555bff0a5dbba9cf5e5999bc50dded8dbe2c"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid101-radius-capacity627425-v1-outer-original.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c3fe82a04d60739d3fe4c36516e5fa65c40c1e7",
+      "size": 16415,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/4c3fe82a04d60739d3fe4c36516e5fa65c40c1e7"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid101-radius-capacity627425-v1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "27bec37f632e267d0593cccb62dd607afb0a011e",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/27bec37f632e267d0593cccb62dd607afb0a011e"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid101-radius-capacity627425-v1/audit-config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dade7d5f21d86e236af1bdc930db163a9c6811af",
+      "size": 2887,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/dade7d5f21d86e236af1bdc930db163a9c6811af"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid101-radius-capacity627425-v1/cover-config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53fe8d5b5cd2931bb48e53fde99781a9804801d3",
+      "size": 1683,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/53fe8d5b5cd2931bb48e53fde99781a9804801d3"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid97-dense-capacity627425-probe-v1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "57b704ee795d00edb82cf019574b2856e2aa9eb1",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/57b704ee795d00edb82cf019574b2856e2aa9eb1"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid97-dense-capacity627425-probe-v1/bundle.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35be26f879a39527ff6326b30164b8501f33fbad",
+      "size": 25431073,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/35be26f879a39527ff6326b30164b8501f33fbad"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid97-dense-capacity627425-probe-v1/support-arb.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d677dd2451228a5e40580dfca4850421de9e2c94",
+      "size": 17002,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/d677dd2451228a5e40580dfca4850421de9e2c94"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid97-dense-capacity627425-probe-v1/support-integer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86b36499acaa9f0dcb3c2341c9c20696df61aab2",
+      "size": 16222,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/86b36499acaa9f0dcb3c2341c9c20696df61aab2"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid97-newrow-capacity627424-v1-baselines",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d65ee2a532e00edc0031fd2819088d20793e82ea",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/d65ee2a532e00edc0031fd2819088d20793e82ea"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid97-newrow-capacity627424-v1-baselines/central2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "591f49034dc0c9d4c22855426acd88e5be570572",
+      "size": 10880,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/591f49034dc0c9d4c22855426acd88e5be570572"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid97-newrow-capacity627424-v1-baselines/central4.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14463662a5528a1650434556b36862f50081e3fe",
+      "size": 10879,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/14463662a5528a1650434556b36862f50081e3fe"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid97-newrow-capacity627424-v1-baselines/integer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b515a0c3f57f19bf31e54b17f39546efc239c1c",
+      "size": 11135,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/2b515a0c3f57f19bf31e54b17f39546efc239c1c"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid97-newrow-capacity627424-v1-baselines/mapping.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "547da20d5ae8a63a7ab75c3ee0d5b2f3dc5b7bae",
+      "size": 1050,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/547da20d5ae8a63a7ab75c3ee0d5b2f3dc5b7bae"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid97-newrow-capacity627424-v1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b50826bed2e7a961320e653fabc6c07a498a846d",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/b50826bed2e7a961320e653fabc6c07a498a846d"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid97-newrow-capacity627424-v1/adapter.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "168a81128222135ed04ee126d7b97ca67d73eb7e",
+      "size": 6379,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/168a81128222135ed04ee126d7b97ca67d73eb7e"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid97-newrow-capacity627424-v1/central-frozen.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cf6b3ae7d165eb8d5bc342b8d958bf0b6f19bcd",
+      "size": 22375413,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/7cf6b3ae7d165eb8d5bc342b8d958bf0b6f19bcd"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid97-newrow-capacity627424-v1/energy-arb.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "272a858a7040856dd4300437f869d4f0e0cb987b",
+      "size": 2169,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/272a858a7040856dd4300437f869d4f0e0cb987b"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid97-newrow-capacity627424-v1/energy-integer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4256fd0e7ab17be6fba3415a28c15302296d5cb6",
+      "size": 2153,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/4256fd0e7ab17be6fba3415a28c15302296d5cb6"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/runs/hybrid97-newrow-capacity627424-v1/even-kernel.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8acaaef44231582a880bbbc8b424c85dda7b281a",
+      "size": 25027513,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/8acaaef44231582a880bbbc8b424c85dda7b281a"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/shared_mean_numerator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90f6030e1aee3b9fd34cd1dd071a6923192a314d",
+      "size": 2984,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/90f6030e1aee3b9fd34cd1dd071a6923192a314d"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/sources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3797174ef9cbc6fd9634ca9ecbc2d948433caeb3",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/3797174ef9cbc6fd9634ca9ecbc2d948433caeb3"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/sources/lower-bound",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5433d5dc63ffc1782bb1f76dbc98318cc2aa5f21",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/5433d5dc63ffc1782bb1f76dbc98318cc2aa5f21"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/sources/lower-bound/certificate",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "85785da0b003016208b80c08bbc47ea52fb9e2f9",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/85785da0b003016208b80c08bbc47ea52fb9e2f9"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/sources/lower-bound/certificate/prove_erdos_0380554275_arb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b64cf8ddb33ba57fa5e523f5201092eb3858860",
+      "size": 16533,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/5b64cf8ddb33ba57fa5e523f5201092eb3858860"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/verify_even_kernel_energy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fb56539f3e45d59cf94303d4bea28716f0089e7",
+      "size": 4708,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/7fb56539f3e45d59cf94303d4bea28716f0089e7"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/verify_even_odd_capacity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "752b9a81c184a9aaec801a587f63498c4830d6b8",
+      "size": 6516,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/752b9a81c184a9aaec801a587f63498c4830d6b8"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/verify_even_odd_capacity_v2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e3cde0386561b3052c4b26e773abb6df175ed6e",
+      "size": 6987,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/3e3cde0386561b3052c4b26e773abb6df175ed6e"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/verify_fourth_order.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a31af7703f9dc965aab7c00c8682f606e92be44",
+      "size": 5148,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/8a31af7703f9dc965aab7c00c8682f606e92be44"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/verify_hybrid_outer_blend.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4687105ad8e771f765391308ccc1bb504aaca0d1",
+      "size": 7300,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/4687105ad8e771f765391308ccc1bb504aaca0d1"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/verify_integer_circle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e721e2d45128b3e871f1075f9171e7615b2af74b",
+      "size": 7727,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/e721e2d45128b3e871f1075f9171e7615b2af74b"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/verify_integer_hybrid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5abc7a92736bf7c5b66b9bec00490943669c8c47",
+      "size": 4563,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/5abc7a92736bf7c5b66b9bec00490943669c8c47"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/verify_integer_hybrid_outer_blend.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d85f8e7b4071d373a03a5d4c9ba33ea670c6f0d",
+      "size": 8031,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/1d85f8e7b4071d373a03a5d4c9ba33ea670c6f0d"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/verify_integer_hypermetric.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "508c444685428260105205ef8376775c39e9fb9c",
+      "size": 3729,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/508c444685428260105205ef8376775c39e9fb9c"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/verify_phase_gram.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cf9f15f2ed6810a377a658d933b2fff45255a50",
+      "size": 6149,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/2cf9f15f2ed6810a377a658d933b2fff45255a50"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/evidence/original/verify_shared_mean_return.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1c16797010d17384741eb39da4ea2e38753446e",
+      "size": 6308,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/c1c16797010d17384741eb39da4ea2e38753446e"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/hybrid_certificate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba129962678f7551f34d7ccc0ea28dd369b33cd4",
+      "size": 4882,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/ba129962678f7551f34d7ccc0ea28dd369b33cd4"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/hybrid_functionals.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6205dd487b9672b7e6e9d506072e45e27602271",
+      "size": 1844,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/d6205dd487b9672b7e6e9d506072e45e27602271"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/integer_block_primitive.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f0a46a191a6700aee15f4877753254f6b37e7c4",
+      "size": 3490,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/8f0a46a191a6700aee15f4877753254f6b37e7c4"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cf7d0e7e110ca4c84840901b69e73b8c46119e5",
+      "size": 13408,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/2cf7d0e7e110ca4c84840901b69e73b8c46119e5"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/outer-certificate.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62255d1581da8c9501a738c211e4c0dc0fb665fe",
+      "size": 1591282,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/62255d1581da8c9501a738c211e4c0dc0fb665fe"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/phase_functional_cut.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a107e11bf0728e0519b9f45ec91059fae78effd",
+      "size": 2877,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/4a107e11bf0728e0519b9f45ec91059fae78effd"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/probe_odd_lipschitz_capacity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b194355f90ff35903e8077af171853dd49accb9a",
+      "size": 3977,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/b194355f90ff35903e8077af171853dd49accb9a"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/replay-config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21a8cca03c071de9df7c7cba2b1163a58856bc41",
+      "size": 2635,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/21a8cca03c071de9df7c7cba2b1163a58856bc41"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/replay_radius_retargeted_capacity_v1.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb81e50184dec0ac869d8ed15b25676a7cc0fce1",
+      "size": 3864,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/bb81e50184dec0ac869d8ed15b25676a7cc0fce1"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c805de6218de252f4e92aafb76add4b6c7c73b63",
+      "size": 50,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/c805de6218de252f4e92aafb76add4b6c7c73b63"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/retarget_central_mean_radius.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ec8c24e8ae858174c0ee6f39f4760a056bfcf2f",
+      "size": 2087,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/9ec8c24e8ae858174c0ee6f39f4760a056bfcf2f"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/run_hybrid_outer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aaeb83cf1e2cd97ddbe8bf3194a413bcf6368257",
+      "size": 2157,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/aaeb83cf1e2cd97ddbe8bf3194a413bcf6368257"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/run_radius_retargeted_baselines_pypy_v1.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f5fda9036ef4fd032b3e22895676c28297837f3",
+      "size": 3205,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/5f5fda9036ef4fd032b3e22895676c28297837f3"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/run_radius_retargeted_baselines_v1.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62611794119804e7d43cdd2494602393bd0d289a",
+      "size": 2930,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/62611794119804e7d43cdd2494602393bd0d289a"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/shared_mean_numerator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90f6030e1aee3b9fd34cd1dd071a6923192a314d",
+      "size": 2984,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/90f6030e1aee3b9fd34cd1dd071a6923192a314d"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/sources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6f70f8c8554f13139a7e884ebf57551fb0be9100",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/6f70f8c8554f13139a7e884ebf57551fb0be9100"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/sources/lower-bound",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9bc6b0a6a2e31ce98000a13e86d3a9e8d75e8185",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/9bc6b0a6a2e31ce98000a13e86d3a9e8d75e8185"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/sources/lower-bound/certificate",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "85785da0b003016208b80c08bbc47ea52fb9e2f9",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/85785da0b003016208b80c08bbc47ea52fb9e2f9"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/sources/lower-bound/certificate/prove_erdos_0380554275_arb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b64cf8ddb33ba57fa5e523f5201092eb3858860",
+      "size": 16533,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/5b64cf8ddb33ba57fa5e523f5201092eb3858860"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/sources/lower-bound/commit.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8ffb687a258817d988e76bdad928c8004a5a504",
+      "size": 40,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/b8ffb687a258817d988e76bdad928c8004a5a504"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/verify_even_kernel_energy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fb56539f3e45d59cf94303d4bea28716f0089e7",
+      "size": 4708,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/7fb56539f3e45d59cf94303d4bea28716f0089e7"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/verify_even_odd_capacity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "752b9a81c184a9aaec801a587f63498c4830d6b8",
+      "size": 6516,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/752b9a81c184a9aaec801a587f63498c4830d6b8"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/verify_even_odd_capacity_v2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e3cde0386561b3052c4b26e773abb6df175ed6e",
+      "size": 6987,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/3e3cde0386561b3052c4b26e773abb6df175ed6e"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/verify_fourth_order.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a31af7703f9dc965aab7c00c8682f606e92be44",
+      "size": 5148,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/8a31af7703f9dc965aab7c00c8682f606e92be44"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/verify_hybrid_outer_blend.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4687105ad8e771f765391308ccc1bb504aaca0d1",
+      "size": 7300,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/4687105ad8e771f765391308ccc1bb504aaca0d1"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/verify_integer_circle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e721e2d45128b3e871f1075f9171e7615b2af74b",
+      "size": 7727,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/e721e2d45128b3e871f1075f9171e7615b2af74b"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/verify_integer_hybrid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5abc7a92736bf7c5b66b9bec00490943669c8c47",
+      "size": 4563,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/5abc7a92736bf7c5b66b9bec00490943669c8c47"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/verify_integer_hybrid_outer_blend.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d85f8e7b4071d373a03a5d4c9ba33ea670c6f0d",
+      "size": 8031,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/1d85f8e7b4071d373a03a5d4c9ba33ea670c6f0d"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/verify_integer_hypermetric.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "508c444685428260105205ef8376775c39e9fb9c",
+      "size": 3729,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/508c444685428260105205ef8376775c39e9fb9c"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/verify_interval_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b3dd8a5cfb00232cc20191512ecb24f849544e4",
+      "size": 2442,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/3b3dd8a5cfb00232cc20191512ecb24f849544e4"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/verify_phase_gram.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cf9f15f2ed6810a377a658d933b2fff45255a50",
+      "size": 6149,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/2cf9f15f2ed6810a377a658d933b2fff45255a50"
+    },
+    {
+      "path": "outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/verify_shared_mean_return.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1c16797010d17384741eb39da4ea2e38753446e",
+      "size": 6308,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/c1c16797010d17384741eb39da4ea2e38753446e"
+    },
+    {
+      "path": "outputs/minimum-overlap-refined14336-upper-checkpoint-v2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b6e02c077ce8210cfdaea25121b25c413f77f85d",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/b6e02c077ce8210cfdaea25121b25c413f77f85d"
+    },
+    {
+      "path": "outputs/minimum-overlap-refined14336-upper-checkpoint-v2/FRACTIONAL_ROTATION_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba89b09388560ad73900aebcdfee44b14e2810cd",
+      "size": 2058,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/ba89b09388560ad73900aebcdfee44b14e2810cd"
+    },
+    {
+      "path": "outputs/minimum-overlap-refined14336-upper-checkpoint-v2/MANIFEST.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4783bd3c78eec167042296c4f21c9dfd9bc6d7b",
+      "size": 1847,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/c4783bd3c78eec167042296c4f21c9dfd9bc6d7b"
+    },
+    {
+      "path": "outputs/minimum-overlap-refined14336-upper-checkpoint-v2/PACKED_ARITHMETIC_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfab4fc2365c2dcfaf200212d5dd9f6d1b919b00",
+      "size": 1215,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/dfab4fc2365c2dcfaf200212d5dd9f6d1b919b00"
+    },
+    {
+      "path": "outputs/minimum-overlap-refined14336-upper-checkpoint-v2/PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcf33923c01ecd1639f9f89c2ae458df1f67cf97",
+      "size": 5701,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/bcf33923c01ecd1639f9f89c2ae458df1f67cf97"
+    },
+    {
+      "path": "outputs/minimum-overlap-refined14336-upper-checkpoint-v2/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "532232d2bcc5c20d3ebad6ac2a2719bec4d0bf04",
+      "size": 1791,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/532232d2bcc5c20d3ebad6ac2a2719bec4d0bf04"
+    },
+    {
+      "path": "outputs/minimum-overlap-refined14336-upper-checkpoint-v2/baseline-verification.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa488837554e982c397e208a6b6881dcf109a649",
+      "size": 476,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/aa488837554e982c397e208a6b6881dcf109a649"
+    },
+    {
+      "path": "outputs/minimum-overlap-refined14336-upper-checkpoint-v2/baseline.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b20a060ddee75ee2e999db5da6f49a64193f8764",
+      "size": 257274,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/b20a060ddee75ee2e999db5da6f49a64193f8764"
+    },
+    {
+      "path": "outputs/minimum-overlap-refined14336-upper-checkpoint-v2/best.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb707812a20cd586d01bf6a221847e7b29b920f7",
+      "size": 656129,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/cb707812a20cd586d01bf6a221847e7b29b920f7"
+    },
+    {
+      "path": "outputs/minimum-overlap-refined14336-upper-checkpoint-v2/check_exact_fractional_rotation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4eb0dfbbabe25b5b9642362e9a78395af2d1d141",
+      "size": 1583,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/4eb0dfbbabe25b5b9642362e9a78395af2d1d141"
+    },
+    {
+      "path": "outputs/minimum-overlap-refined14336-upper-checkpoint-v2/check_packed_correlations.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "222095e9adb2d017ac5aa332f0b1a6981b04a8f6",
+      "size": 1891,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/222095e9adb2d017ac5aa332f0b1a6981b04a8f6"
+    },
+    {
+      "path": "outputs/minimum-overlap-refined14336-upper-checkpoint-v2/comparison.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bff6b4ba2731d11db5ec5ca7166caea0ccde16a",
+      "size": 686,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/4bff6b4ba2731d11db5ec5ca7166caea0ccde16a"
+    },
+    {
+      "path": "outputs/minimum-overlap-refined14336-upper-checkpoint-v2/discovery.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3db5e717dfd03bb0c30dbfc16dce2d085511a2a7",
+      "size": 1409,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/3db5e717dfd03bb0c30dbfc16dce2d085511a2a7"
+    },
+    {
+      "path": "outputs/minimum-overlap-refined14336-upper-checkpoint-v2/exact-fractional-rotation-checks.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91f501bf4b90c7eb3df02cb9eae37c8edd0e6beb",
+      "size": 629,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/91f501bf4b90c7eb3df02cb9eae37c8edd0e6beb"
+    },
+    {
+      "path": "outputs/minimum-overlap-refined14336-upper-checkpoint-v2/exact_fractional_rotation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "105b04e6f525ddcc15f10c3c80591bf0bfbbc2ec",
+      "size": 4087,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/105b04e6f525ddcc15f10c3c80591bf0bfbbc2ec"
+    },
+    {
+      "path": "outputs/minimum-overlap-refined14336-upper-checkpoint-v2/exact_packed_correlations.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f957d92ec9e61349d0290351e0651a1fbcfb413",
+      "size": 1987,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/0f957d92ec9e61349d0290351e0651a1fbcfb413"
+    },
+    {
+      "path": "outputs/minimum-overlap-refined14336-upper-checkpoint-v2/exact_verify.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec09cc59fff0e3ac7053ffdb631dafd22faec071",
+      "size": 3119,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/ec09cc59fff0e3ac7053ffdb631dafd22faec071"
+    },
+    {
+      "path": "outputs/minimum-overlap-refined14336-upper-checkpoint-v2/nonuniform-verification.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae20303d7634ee856d85852768c1a231e8649893",
+      "size": 534,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/ae20303d7634ee856d85852768c1a231e8649893"
+    },
+    {
+      "path": "outputs/minimum-overlap-refined14336-upper-checkpoint-v2/nonuniform.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dba0ec542d637563d194b70b397601327c816db",
+      "size": 6592,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/1dba0ec542d637563d194b70b397601327c816db"
+    },
+    {
+      "path": "outputs/minimum-overlap-refined14336-upper-checkpoint-v2/packed-correlations-checks.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a549b5aab8c086b361da424f9d7927f1c5acc249",
+      "size": 496,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/a549b5aab8c086b361da424f9d7927f1c5acc249"
+    },
+    {
+      "path": "outputs/minimum-overlap-refined14336-upper-checkpoint-v2/specialized-verification.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcfa6e091df2e5c930e68ceb06d80bae8666e02b",
+      "size": 2056,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/bcfa6e091df2e5c930e68ceb06d80bae8666e02b"
+    },
+    {
+      "path": "reproduce.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "349453e4d6c90f272e67bf06e0295b038449d01a",
+      "size": 1355,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/349453e4d6c90f272e67bf06e0295b038449d01a"
+    },
+    {
+      "path": "requirements-replay.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c805de6218de252f4e92aafb76add4b6c7c73b63",
+      "size": 50,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/c805de6218de252f4e92aafb76add4b6c7c73b63"
+    },
+    {
+      "path": "verify_repository.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25ccb05b8ccdd105b75165ceafc8f74639a0c667",
+      "size": 890,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/25ccb05b8ccdd105b75165ceafc8f74639a0c667"
+    },
+    {
+      "path": "work",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aa7d3378325f12e212508015512b0e63313334c5",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/aa7d3378325f12e212508015512b0e63313334c5"
+    },
+    {
+      "path": "work/minimum-overlap",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "556c79215450b38617e50bf87561d5e6a760abab",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/556c79215450b38617e50bf87561d5e6a760abab"
+    },
+    {
+      "path": "work/minimum-overlap/ANALYTIC_INTERFACE_AUDIT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd1fc21ab34ec49690ecffbce3f79c1ebc4cbe33",
+      "size": 6993,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/bd1fc21ab34ec49690ecffbce3f79c1ebc4cbe33"
+    },
+    {
+      "path": "work/minimum-overlap/CIRCULAR_ALIAS_RESULTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da2d4600a4eccf416fcd4d6f0a9f8786b4e6d49a",
+      "size": 4358,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/da2d4600a4eccf416fcd4d6f0a9f8786b4e6d49a"
+    },
+    {
+      "path": "work/minimum-overlap/CIRCULAR_ALIAS_TRACE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a36de6b97fe24df2b3b91d2a477d9225f67b3e1a",
+      "size": 2697,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/a36de6b97fe24df2b3b91d2a477d9225f67b3e1a"
+    },
+    {
+      "path": "work/minimum-overlap/CURRENT_RETARGETING_RESULTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "641f9b49c90bf3ebc79fd32539084d8e551de133",
+      "size": 5375,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/641f9b49c90bf3ebc79fd32539084d8e551de133"
+    },
+    {
+      "path": "work/minimum-overlap/DIRECTED_SUBADDITIVITY_RETURN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "910c2688cd0fd9fe837e891938a0c453717934af",
+      "size": 2458,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/910c2688cd0fd9fe837e891938a0c453717934af"
+    },
+    {
+      "path": "work/minimum-overlap/FIXED_KERNEL_EFFICIENCY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f4b9f9dcea129091a2f4b1d9dd4cc8593da1e2a",
+      "size": 3767,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/8f4b9f9dcea129091a2f4b1d9dd4cc8593da1e2a"
+    },
+    {
+      "path": "work/minimum-overlap/FIXED_LINE_DIRECTION.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85d25826418b52f3c9bc315a054273f0b136c3b4",
+      "size": 2276,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/85d25826418b52f3c9bc315a054273f0b136c3b4"
+    },
+    {
+      "path": "work/minimum-overlap/FRONTIER_COSTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4000b2daae2888fbaacddc4fd977c96af3a1f8a9",
+      "size": 1684,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/4000b2daae2888fbaacddc4fd977c96af3a1f8a9"
+    },
+    {
+      "path": "work/minimum-overlap/JOINT_ALIAS_RESULTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d608aaf309dbb9549741609744b830c1a6bab209",
+      "size": 8065,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/d608aaf309dbb9549741609744b830c1a6bab209"
+    },
+    {
+      "path": "work/minimum-overlap/JOINT_ALIAS_TRACE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3129fa6e8c6cad4ef3d41d9651f002cab1246be",
+      "size": 5687,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/a3129fa6e8c6cad4ef3d41d9651f002cab1246be"
+    },
+    {
+      "path": "work/minimum-overlap/LOCAL_ENERGY_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e70294d05330d66a36b1896ce1c5ff2d47bcdaa",
+      "size": 2483,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/5e70294d05330d66a36b1896ce1c5ff2d47bcdaa"
+    },
+    {
+      "path": "work/minimum-overlap/PHASE_GRAM_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37e0be49dd86df3ba60423f5c4d7743535d8bba4",
+      "size": 8006,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/37e0be49dd86df3ba60423f5c4d7743535d8bba4"
+    },
+    {
+      "path": "work/minimum-overlap/SOFTPLUS_SEARCH.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6c0c1874a5de2d42c2a6cdfd0be88add7c58144",
+      "size": 1584,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/f6c0c1874a5de2d42c2a6cdfd0be88add7c58144"
+    },
+    {
+      "path": "work/minimum-overlap/START_HERE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "502e028f44245029477f9bf6e24ebd2027d77f60",
+      "size": 15164,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/502e028f44245029477f9bf6e24ebd2027d77f60"
+    },
+    {
+      "path": "work/minimum-overlap/SUBADDITIVITY_OBSTRUCTION.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c72d0ef481734ee24216a48fa253577feb495e4f",
+      "size": 2385,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/c72d0ef481734ee24216a48fa253577feb495e4f"
+    },
+    {
+      "path": "work/minimum-overlap/SUBADDITIVITY_RESULTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad2adb0f3d66bd4c91f120ce0cb269d69a7a2438",
+      "size": 5094,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/ad2adb0f3d66bd4c91f120ce0cb269d69a7a2438"
+    },
+    {
+      "path": "work/minimum-overlap/SUBADDITIVITY_RETURN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "161d49fb79e3ee0f0b76f42e7fa279e21592b649",
+      "size": 2529,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/161d49fb79e3ee0f0b76f42e7fa279e21592b649"
+    },
+    {
+      "path": "work/minimum-overlap/history",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4690ddb312c227952317f638308a85d449a28fcf",
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/trees/4690ddb312c227952317f638308a85d449a28fcf"
+    },
+    {
+      "path": "work/minimum-overlap/history/ACTIVE_PERIODIC_SET.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df17ecd841725684c2edeb202d514ed990c10380",
+      "size": 3619,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/df17ecd841725684c2edeb202d514ed990c10380"
+    },
+    {
+      "path": "work/minimum-overlap/history/AGGREGATE_CONTINUATION.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "870a8ddf1efa4c57d60d7a20d743b2d5fb38bd89",
+      "size": 2551,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/870a8ddf1efa4c57d60d7a20d743b2d5fb38bd89"
+    },
+    {
+      "path": "work/minimum-overlap/history/ALIAS_JOINT_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c88496ee89a63c0ede3bd9ba405739bcf2b6cfaa",
+      "size": 1368,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/c88496ee89a63c0ede3bd9ba405739bcf2b6cfaa"
+    },
+    {
+      "path": "work/minimum-overlap/history/ALIAS_SHARPNESS_AT_ZERO_MEAN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "857748cf888a8593a4cf927142b325b7434db708",
+      "size": 2078,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/857748cf888a8593a4cf927142b325b7434db708"
+    },
+    {
+      "path": "work/minimum-overlap/history/ALIAS_TRACE_OBSERVATION.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58e731d6641306b7b549a81fdbf23500f1931176",
+      "size": 1909,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/58e731d6641306b7b549a81fdbf23500f1931176"
+    },
+    {
+      "path": "work/minimum-overlap/history/ANALYTIC_INTERFACE_AUDIT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd1fc21ab34ec49690ecffbce3f79c1ebc4cbe33",
+      "size": 6993,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/bd1fc21ab34ec49690ecffbce3f79c1ebc4cbe33"
+    },
+    {
+      "path": "work/minimum-overlap/history/ANCHOR_ROUTE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d63f10b3075cf529f0a78e5f618ab0d025e8e376",
+      "size": 6852,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/d63f10b3075cf529f0a78e5f618ab0d025e8e376"
+    },
+    {
+      "path": "work/minimum-overlap/history/APERIODIC_FACTOR_PLAN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e82192bc6ee071e47126695b35b5ccdb25d87871",
+      "size": 2631,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/e82192bc6ee071e47126695b35b5ccdb25d87871"
+    },
+    {
+      "path": "work/minimum-overlap/history/ARB_DECIMAL_RETURN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e8d4b177305edbb60caf1e5410b95a2044f8c3f",
+      "size": 1337,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/3e8d4b177305edbb60caf1e5410b95a2044f8c3f"
+    },
+    {
+      "path": "work/minimum-overlap/history/ASYMMETRIC_BIN_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffd3fefa37161051ad557310805889259da66821",
+      "size": 5217,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/ffd3fefa37161051ad557310805889259da66821"
+    },
+    {
+      "path": "work/minimum-overlap/history/AUDIT_CHAIN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79b0e4f4b785b3528addbe5654197b785f0e8631",
+      "size": 4806,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/79b0e4f4b785b3528addbe5654197b785f0e8631"
+    },
+    {
+      "path": "work/minimum-overlap/history/BERNOULLI_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f9f298d34f12c214db86e8aff756bdb6b77c55d",
+      "size": 2891,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/8f9f298d34f12c214db86e8aff756bdb6b77c55d"
+    },
+    {
+      "path": "work/minimum-overlap/history/BESSEL_ENERGY_ROUTE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c063af4795fcf5d694f3a90e63adbf778201f63",
+      "size": 2939,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/0c063af4795fcf5d694f3a90e63adbf778201f63"
+    },
+    {
+      "path": "work/minimum-overlap/history/BLEND_FREQUENCY_SEARCH.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dc19ad233902f85bb4ef51aa30589100ef42d0c",
+      "size": 1651,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/8dc19ad233902f85bb4ef51aa30589100ef42d0c"
+    },
+    {
+      "path": "work/minimum-overlap/history/BOUNDARY_BOX_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba3f1350692d03f0fc14c4b20085c93d86061e0e",
+      "size": 1585,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/ba3f1350692d03f0fc14c4b20085c93d86061e0e"
+    },
+    {
+      "path": "work/minimum-overlap/history/BUNDLE_MODEL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "306d90d7117b67e3194f8c95ac905b690be5d042",
+      "size": 4385,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/306d90d7117b67e3194f8c95ac905b690be5d042"
+    },
+    {
+      "path": "work/minimum-overlap/history/CENTRAL_RADIUS_RETURN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa990eb2e634d8e2e15532635165e3ec6fdb6601",
+      "size": 2855,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/aa990eb2e634d8e2e15532635165e3ec6fdb6601"
+    },
+    {
+      "path": "work/minimum-overlap/history/CIRCLE_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1cf6ef6cc0a99240df8c44864258a1138388c25",
+      "size": 11258,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/a1cf6ef6cc0a99240df8c44864258a1138388c25"
+    },
+    {
+      "path": "work/minimum-overlap/history/CIRCLE_RATIO_RESEARCH.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9c3e747b66862a7c11e12a782b483f7e7ed2e15",
+      "size": 1915,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/a9c3e747b66862a7c11e12a782b483f7e7ed2e15"
+    },
+    {
+      "path": "work/minimum-overlap/history/CIRCLE_REFINEMENT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98ee798d305c649c8c8a758bc1805de6391c1dc8",
+      "size": 2030,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/98ee798d305c649c8c8a758bc1805de6391c1dc8"
+    },
+    {
+      "path": "work/minimum-overlap/history/CIRCULAR_ALIAS_RESULTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da2d4600a4eccf416fcd4d6f0a9f8786b4e6d49a",
+      "size": 4358,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/da2d4600a4eccf416fcd4d6f0a9f8786b4e6d49a"
+    },
+    {
+      "path": "work/minimum-overlap/history/CIRCULAR_ALIAS_TRACE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a36de6b97fe24df2b3b91d2a477d9225f67b3e1a",
+      "size": 2697,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/a36de6b97fe24df2b3b91d2a477d9225f67b3e1a"
+    },
+    {
+      "path": "work/minimum-overlap/history/CONDITIONAL_PHASE_TILT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc48c2e5d37e75af93959fdf761e971d8a4ecb4c",
+      "size": 2727,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/bc48c2e5d37e75af93959fdf761e971d8a4ecb4c"
+    },
+    {
+      "path": "work/minimum-overlap/history/CONTINUOUS_ADVERSARIAL_PROFILE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b039b5f35324477ceeec569dd67c067b97588798",
+      "size": 5697,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/b039b5f35324477ceeec569dd67c067b97588798"
+    },
+    {
+      "path": "work/minimum-overlap/history/CONTINUOUS_PHASE_BIN_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bc390f8b218c554906e4558ca7b1788fa27df38",
+      "size": 6386,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/4bc390f8b218c554906e4558ca7b1788fa27df38"
+    },
+    {
+      "path": "work/minimum-overlap/history/CONTRACT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1eb67a1b5ad5adcd4404a27531fe27628c21fc4c",
+      "size": 6633,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/1eb67a1b5ad5adcd4404a27531fe27628c21fc4c"
+    },
+    {
+      "path": "work/minimum-overlap/history/CONVEX_METHOD_CEILING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dc0ce367733650b196641758121751745a78459",
+      "size": 5077,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/4dc0ce367733650b196641758121751745a78459"
+    },
+    {
+      "path": "work/minimum-overlap/history/CONVEX_RESPONSE_PLAN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ebef0501f6c4e7d56fd1e54134a485bfa5088e5",
+      "size": 3760,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/3ebef0501f6c4e7d56fd1e54134a485bfa5088e5"
+    },
+    {
+      "path": "work/minimum-overlap/history/CURRENT_RETARGETING_RESULTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "641f9b49c90bf3ebc79fd32539084d8e551de133",
+      "size": 5375,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/641f9b49c90bf3ebc79fd32539084d8e551de133"
+    },
+    {
+      "path": "work/minimum-overlap/history/CUT_POLYTOPE_PROBE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b1ef3737fd3be4eead9b5098241f55f21a4d228",
+      "size": 2698,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/0b1ef3737fd3be4eead9b5098241f55f21a4d228"
+    },
+    {
+      "path": "work/minimum-overlap/history/DIFFERENCE_FACTOR_RESEARCH.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fad1bd5734e56838a86ef39ef6976b9aa55489df",
+      "size": 2494,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/fad1bd5734e56838a86ef39ef6976b9aa55489df"
+    },
+    {
+      "path": "work/minimum-overlap/history/DIRECTED_SUBADDITIVITY_RETURN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "910c2688cd0fd9fe837e891938a0c453717934af",
+      "size": 2458,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/910c2688cd0fd9fe837e891938a0c453717934af"
+    },
+    {
+      "path": "work/minimum-overlap/history/ENDPOINT_FIVE_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "841b542e8be0da29b668ec19e118f592ec6110d4",
+      "size": 2646,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/841b542e8be0da29b668ec19e118f592ec6110d4"
+    },
+    {
+      "path": "work/minimum-overlap/history/ENDPOINT_PROFILE_COMPARE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f78f3e10665eafa493492ddb9e8917440cdddafb",
+      "size": 2353,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/f78f3e10665eafa493492ddb9e8917440cdddafb"
+    },
+    {
+      "path": "work/minimum-overlap/history/EVEN_ODD_CAPACITY_RETURN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "325f29495656d73c0f74bde7fc53f0010495122e",
+      "size": 10981,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/325f29495656d73c0f74bde7fc53f0010495122e"
+    },
+    {
+      "path": "work/minimum-overlap/history/EXACT_PREMISE_COMPRESSION.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4786395468536fa7d4e8c9bcf9b820be5a69a99e",
+      "size": 3453,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/4786395468536fa7d4e8c9bcf9b820be5a69a99e"
+    },
+    {
+      "path": "work/minimum-overlap/history/FINAL_INTERFACE_REVIEW.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ebdeefd21d56288408f3ed310b7797f2b790bf4",
+      "size": 3130,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/7ebdeefd21d56288408f3ed310b7797f2b790bf4"
+    },
+    {
+      "path": "work/minimum-overlap/history/FIXED_KERNEL_EFFICIENCY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f4b9f9dcea129091a2f4b1d9dd4cc8593da1e2a",
+      "size": 3767,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/8f4b9f9dcea129091a2f4b1d9dd4cc8593da1e2a"
+    },
+    {
+      "path": "work/minimum-overlap/history/FIXED_LINE_DIRECTION.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85d25826418b52f3c9bc315a054273f0b136c3b4",
+      "size": 2276,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/85d25826418b52f3c9bc315a054273f0b136c3b4"
+    },
+    {
+      "path": "work/minimum-overlap/history/FOURIER_PHASE_BRIDGE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa063ec8d04ca7fedc6460a9ffc71352a37f2f4e",
+      "size": 5803,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/fa063ec8d04ca7fedc6460a9ffc71352a37f2f4e"
+    },
+    {
+      "path": "work/minimum-overlap/history/FRACTIONAL_ROTATION_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba89b09388560ad73900aebcdfee44b14e2810cd",
+      "size": 2058,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/ba89b09388560ad73900aebcdfee44b14e2810cd"
+    },
+    {
+      "path": "work/minimum-overlap/history/FRONTIER_COSTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4000b2daae2888fbaacddc4fd977c96af3a1f8a9",
+      "size": 1684,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/4000b2daae2888fbaacddc4fd977c96af3a1f8a9"
+    },
+    {
+      "path": "work/minimum-overlap/history/GRID_REFINEMENT_NOTES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8749be9dc780f5cfc08d390b5113df3c4c81d54",
+      "size": 4017,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/e8749be9dc780f5cfc08d390b5113df3c4c81d54"
+    },
+    {
+      "path": "work/minimum-overlap/history/HYBRID_BRIDGE_PLAN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3363d2d37861564f234183c9eaa1f2431faff2bb",
+      "size": 7977,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/3363d2d37861564f234183c9eaa1f2431faff2bb"
+    },
+    {
+      "path": "work/minimum-overlap/history/HYBRID_OUTER_BLEND_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44eef7842b56b439154eea3641f9ed26e45b9f11",
+      "size": 2923,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/44eef7842b56b439154eea3641f9ed26e45b9f11"
+    },
+    {
+      "path": "work/minimum-overlap/history/HYBRID_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d3f5223a2e6d3a456a033d43fc1d08772a9c4af",
+      "size": 4735,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/0d3f5223a2e6d3a456a033d43fc1d08772a9c4af"
+    },
+    {
+      "path": "work/minimum-overlap/history/JOINT_ALIAS_RESULTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d608aaf309dbb9549741609744b830c1a6bab209",
+      "size": 8065,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/d608aaf309dbb9549741609744b830c1a6bab209"
+    },
+    {
+      "path": "work/minimum-overlap/history/JOINT_ALIAS_TRACE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3129fa6e8c6cad4ef3d41d9651f002cab1246be",
+      "size": 5687,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/a3129fa6e8c6cad4ef3d41d9651f002cab1246be"
+    },
+    {
+      "path": "work/minimum-overlap/history/JOINT_ODD_GRAM_ROUTE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea871e05fcc433a0156cb7ab1b8fbf3558120935",
+      "size": 3676,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/ea871e05fcc433a0156cb7ab1b8fbf3558120935"
+    },
+    {
+      "path": "work/minimum-overlap/history/JOINT_PHASE_PLAN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69acabf22701cde8408cdce7eb043320b15fa24c",
+      "size": 3285,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/69acabf22701cde8408cdce7eb043320b15fa24c"
+    },
+    {
+      "path": "work/minimum-overlap/history/JOINT_RETURN_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c509cbd0e4ca74c80e7516a4c44fc04a13ccf90c",
+      "size": 4049,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/c509cbd0e4ca74c80e7516a4c44fc04a13ccf90c"
+    },
+    {
+      "path": "work/minimum-overlap/history/LEDGER.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0c4090056b966f68787d1963bbfeacb4bccc940",
+      "size": 276786,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/e0c4090056b966f68787d1963bbfeacb4bccc940"
+    },
+    {
+      "path": "work/minimum-overlap/history/LOCAL_ENERGY_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e70294d05330d66a36b1896ce1c5ff2d47bcdaa",
+      "size": 2483,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/5e70294d05330d66a36b1896ce1c5ff2d47bcdaa"
+    },
+    {
+      "path": "work/minimum-overlap/history/LOWER_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66490c55d3cc5b8d92671fd01e1a4332409751a2",
+      "size": 6605,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/66490c55d3cc5b8d92671fd01e1a4332409751a2"
+    },
+    {
+      "path": "work/minimum-overlap/history/LOW_RANK_ROOT_PLAN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48fb3a665be311fb1821997c0594d2df5073b736",
+      "size": 6625,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/48fb3a665be311fb1821997c0594d2df5073b736"
+    },
+    {
+      "path": "work/minimum-overlap/history/MEAN_LIFT_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "423974dd8b3ae79a3454b8d416eb81ee48d447b4",
+      "size": 1799,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/423974dd8b3ae79a3454b8d416eb81ee48d447b4"
+    },
+    {
+      "path": "work/minimum-overlap/history/MEAN_RADIUS_POLISH.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d628d01f3c7113f844c830efa55c1e7d02e03210",
+      "size": 2276,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/d628d01f3c7113f844c830efa55c1e7d02e03210"
+    },
+    {
+      "path": "work/minimum-overlap/history/MEAN_ZERO_DISCOVERY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf40578458a5b7e9537ba96f7ed228566e1cf547",
+      "size": 2004,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/cf40578458a5b7e9537ba96f7ed228566e1cf547"
+    },
+    {
+      "path": "work/minimum-overlap/history/MOMENT_ROUTE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c647aff76037882b9f732a854de7fec7e0399faa",
+      "size": 2793,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/c647aff76037882b9f732a854de7fec7e0399faa"
+    },
+    {
+      "path": "work/minimum-overlap/history/MULTISCALE_GRAM_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bda933503d168bcde680fd9ec52ccb4f80e248ee",
+      "size": 2099,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/bda933503d168bcde680fd9ec52ccb4f80e248ee"
+    },
+    {
+      "path": "work/minimum-overlap/history/NEXT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f415c73014c1f1a856d0dc5dccd62c969cbcae39",
+      "size": 285686,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/f415c73014c1f1a856d0dc5dccd62c969cbcae39"
+    },
+    {
+      "path": "work/minimum-overlap/history/NORMALIZATION_AUDIT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6fc21450a028802dc0c990fb298a2cb43507133",
+      "size": 3017,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/d6fc21450a028802dc0c990fb298a2cb43507133"
+    },
+    {
+      "path": "work/minimum-overlap/history/ODD_GRID_ENERGY_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79a49e0d11a8702a3f02213cc07a04396b649779",
+      "size": 1812,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/79a49e0d11a8702a3f02213cc07a04396b649779"
+    },
+    {
+      "path": "work/minimum-overlap/history/ODD_JOINT_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b85d1cc67af5de025998fdce7d7f8f7a021f29e",
+      "size": 6516,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/2b85d1cc67af5de025998fdce7d7f8f7a021f29e"
+    },
+    {
+      "path": "work/minimum-overlap/history/ODD_LIPSCHITZ_ROUTE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5a4d85cb3324e781ac789c46d9164ecef90e970",
+      "size": 1813,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/a5a4d85cb3324e781ac789c46d9164ecef90e970"
+    },
+    {
+      "path": "work/minimum-overlap/history/ODD_MOMENT_ROUTE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b08bb11480106317688a07e02884c55e22f4cfb8",
+      "size": 4280,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/b08bb11480106317688a07e02884c55e22f4cfb8"
+    },
+    {
+      "path": "work/minimum-overlap/history/ODD_REFLECTION_FOLD.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82360123f5d8885ba67566499865164f38055954",
+      "size": 2280,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/82360123f5d8885ba67566499865164f38055954"
+    },
+    {
+      "path": "work/minimum-overlap/history/ODD_SUBSET_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "936e7fa67be1a74b7849c20dc58f6d8031b78eb0",
+      "size": 4307,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/936e7fa67be1a74b7849c20dc58f6d8031b78eb0"
+    },
+    {
+      "path": "work/minimum-overlap/history/ODD_TILT_PLAN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "654bcd6a75899bb9750841737a9230143b2e4a8e",
+      "size": 3290,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/654bcd6a75899bb9750841737a9230143b2e4a8e"
+    },
+    {
+      "path": "work/minimum-overlap/history/PACKED_ARITHMETIC_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfab4fc2365c2dcfaf200212d5dd9f6d1b919b00",
+      "size": 1215,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/dfab4fc2365c2dcfaf200212d5dd9f6d1b919b00"
+    },
+    {
+      "path": "work/minimum-overlap/history/PHASE_CONTAINMENT_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7eb2b8851604fd57b06001abd4783af673e7288",
+      "size": 9700,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/e7eb2b8851604fd57b06001abd4783af673e7288"
+    },
+    {
+      "path": "work/minimum-overlap/history/PHASE_GRAM_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37e0be49dd86df3ba60423f5c4d7743535d8bba4",
+      "size": 8006,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/37e0be49dd86df3ba60423f5c4d7743535d8bba4"
+    },
+    {
+      "path": "work/minimum-overlap/history/PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcf33923c01ecd1639f9f89c2ae458df1f67cf97",
+      "size": 5701,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/bcf33923c01ecd1639f9f89c2ae458df1f67cf97"
+    },
+    {
+      "path": "work/minimum-overlap/history/PUBLIC_COMPARISON.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ece18f8fe7da1d5e9891e37f8c7ce56caca82d18",
+      "size": 2841,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/ece18f8fe7da1d5e9891e37f8c7ce56caca82d18"
+    },
+    {
+      "path": "work/minimum-overlap/history/RADIAL_PROFILE_CALIBRATION.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4794bec2a30885a7db2735ed412edb09d7ccc888",
+      "size": 3801,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/4794bec2a30885a7db2735ed412edb09d7ccc888"
+    },
+    {
+      "path": "work/minimum-overlap/history/RADIUS_MENU_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bf6e52dd165d6d020f256d50a651befe75b26a7",
+      "size": 4843,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/6bf6e52dd165d6d020f256d50a651befe75b26a7"
+    },
+    {
+      "path": "work/minimum-overlap/history/RADIUS_PHASE_PROOF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f617898be0956aec4fd6f00a202eadca617dd657",
+      "size": 3459,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/f617898be0956aec4fd6f00a202eadca617dd657"
+    },
+    {
+      "path": "work/minimum-overlap/history/RADIUS_RETURN_CAMPAIGN_RECORD.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75e949aec7bb1940f9900928d288bcbbcac76d3c",
+      "size": 1422,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/75e949aec7bb1940f9900928d288bcbbcac76d3c"
+    },
+    {
+      "path": "work/minimum-overlap/history/SHARED_MEAN_RETURN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f04590cfc32832f1356ca734ad2d7781cfcc9991",
+      "size": 3526,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/f04590cfc32832f1356ca734ad2d7781cfcc9991"
+    },
+    {
+      "path": "work/minimum-overlap/history/SKILL_PROCESS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78089e2fcd6880ba35d19de7ec62552d6c5d2d81",
+      "size": 163846,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/78089e2fcd6880ba35d19de7ec62552d6c5d2d81"
+    },
+    {
+      "path": "work/minimum-overlap/history/SOFTPLUS_SEARCH.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6c0c1874a5de2d42c2a6cdfd0be88add7c58144",
+      "size": 1584,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/f6c0c1874a5de2d42c2a6cdfd0be88add7c58144"
+    },
+    {
+      "path": "work/minimum-overlap/history/STRUCTURAL_DIAGNOSTICS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e930c30bd29f5cb391336cf988ef5faf85cd2b74",
+      "size": 3344,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/e930c30bd29f5cb391336cf988ef5faf85cd2b74"
+    },
+    {
+      "path": "work/minimum-overlap/history/SUBADDITIVITY_OBSTRUCTION.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c72d0ef481734ee24216a48fa253577feb495e4f",
+      "size": 2385,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/c72d0ef481734ee24216a48fa253577feb495e4f"
+    },
+    {
+      "path": "work/minimum-overlap/history/SUBADDITIVITY_RESULTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad2adb0f3d66bd4c91f120ce0cb269d69a7a2438",
+      "size": 5094,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/ad2adb0f3d66bd4c91f120ce0cb269d69a7a2438"
+    },
+    {
+      "path": "work/minimum-overlap/history/SUBADDITIVITY_RETURN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "161d49fb79e3ee0f0b76f42e7fa279e21592b649",
+      "size": 2529,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/161d49fb79e3ee0f0b76f42e7fa279e21592b649"
+    },
+    {
+      "path": "work/minimum-overlap/history/TIMING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4ed0ddc2b35ac480aeee8c9dbaed46cfc02eed1",
+      "size": 1487,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/d4ed0ddc2b35ac480aeee8c9dbaed46cfc02eed1"
+    },
+    {
+      "path": "work/minimum-overlap/history/UPPER_REFINEMENT_14336.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c66e30f67d1270892462550a47edeeb52cc8fcca",
+      "size": 2727,
+      "url": "https://api.github.com/repos/justinwetch/erdos-36-minimum-overlap/git/blobs/c66e30f67d1270892462550a47edeeb52cc8fcca"
+    }
+  ],
+  "truncated": false,
+  "commit": "27b1cba5f929da7182e97d2e8c42c78c5ee5d4a8"
+}

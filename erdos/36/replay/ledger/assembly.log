@@ -1,0 +1,10 @@
+cos freqs: legacy 314 merged 314 paid 46 same freq sets: True True
+(i) max |merged - legacy - sum w*cos_coef| = 0.0  bound sum w*err_cos = 3.3985315686114965e-30
+(ii) max |H - (2^-20*twoscale + paid)| = 0.0
+(ii) max |H - (delta + paid)| = 0.023386694633015254
+(ii) max |H - (paid only)| = 3.879615865205862e-06
+(ii) max |H - (2^-20*twoscale)| = 0.02494891502957233
+    max|H| = 0.024952794645437537 ; H - delta = 0.0015622203965570778
+(iii) c0 - legacy_y0 = 0.014890251690690456  delta_constant = 0.014104862648733804  c0 - y0 - delta_constant = 0.0007853890419566526
+     sum w*paid_constant = 0.014890216822598171
+     wetch y0 = -1.808845514617294  legacy y0 = -1.8088454989663252310455341013

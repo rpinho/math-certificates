@@ -1,0 +1,317 @@
+{
+  "sha": "cb2f01237c2867a704739f6864075e0ce4e67f07",
+  "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/trees/cb2f01237c2867a704739f6864075e0ce4e67f07",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e106238b2a2f26698a91d58b87f050557fa01d1",
+      "size": 99,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/6e106238b2a2f26698a91d58b87f050557fa01d1"
+    },
+    {
+      "path": "ATTRIBUTION.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5bb510bb210a98b541bb7de0ea86d5fee469789",
+      "size": 3090,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/a5bb510bb210a98b541bb7de0ea86d5fee469789"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61007685c09caeb50b740d001a73ababf259e3ae",
+      "size": 1258,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/61007685c09caeb50b740d001a73ababf259e3ae"
+    },
+    {
+      "path": "MATHEMATICAL-BYTES.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "241816b2736d910c362071daa1d438a23553672f",
+      "size": 2678,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/241816b2736d910c362071daa1d438a23553672f"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b928d676f23848eec10afda95e43a2759d0aa18",
+      "size": 3187,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/4b928d676f23848eec10afda95e43a2759d0aa18"
+    },
+    {
+      "path": "REPLAY.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d10fbf892f2fa12a011cc9d90ca4f55c41853c35",
+      "size": 3610,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/d10fbf892f2fa12a011cc9d90ca4f55c41853c35"
+    },
+    {
+      "path": "RESULT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f51e541003bbc1a67e37e063bc6c42c026f32eec",
+      "size": 3512,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/f51e541003bbc1a67e37e063bc6c42c026f32eec"
+    },
+    {
+      "path": "UPSTREAM.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3079edf29cada4896720214fd26695dd8f58de69",
+      "size": 1328,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/3079edf29cada4896720214fd26695dd8f58de69"
+    },
+    {
+      "path": "VERIFICATION.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc9d1271a2f6046790fa73ba65498eeda4182657",
+      "size": 1740,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/fc9d1271a2f6046790fa73ba65498eeda4182657"
+    },
+    {
+      "path": "fetch_inputs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "366b0d8a43835577fb88d4ded1aec258b78a18b4",
+      "size": 3255,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/366b0d8a43835577fb88d4ded1aec258b78a18b4"
+    },
+    {
+      "path": "proof",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1379ebe9bd28b93d571e5567cab026678dfb347a",
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/trees/1379ebe9bd28b93d571e5567cab026678dfb347a"
+    },
+    {
+      "path": "proof/ANALYTIC-REVIEW.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cec0fb509f4b61bd41b631395866bb70e18f1524",
+      "size": 9718,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/cec0fb509f4b61bd41b631395866bb70e18f1524"
+    },
+    {
+      "path": "proof/COUPLING-LEMMAS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "268f22ac49e87a75d1defded9868f75a40166e98",
+      "size": 2121,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/268f22ac49e87a75d1defded9868f75a40166e98"
+    },
+    {
+      "path": "proof/MANIFEST.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9cb619afb4ef7b01815d028782c57287c240474",
+      "size": 4016,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/c9cb619afb4ef7b01815d028782c57287c240474"
+    },
+    {
+      "path": "proof/code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "647f5905acc85f15c330b2e0cc6e20c9858c91fc",
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/trees/647f5905acc85f15c330b2e0cc6e20c9858c91fc"
+    },
+    {
+      "path": "proof/code/absolute_paid_capacity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d85031c9edd57334e0b723f60391f8219474c9f3",
+      "size": 10604,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/d85031c9edd57334e0b723f60391f8219474c9f3"
+    },
+    {
+      "path": "proof/code/absolute_paid_integral.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae47da38c6e1a75367c9d44b5415b5583cd5254c",
+      "size": 6267,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/ae47da38c6e1a75367c9d44b5415b5583cd5254c"
+    },
+    {
+      "path": "proof/code/enclose_direction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27d2353a2f3268cfd1a995a02a4a278e4593ce2b",
+      "size": 18212,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/27d2353a2f3268cfd1a995a02a4a278e4593ce2b"
+    },
+    {
+      "path": "proof/code/flat_kernel_portfolio.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b704b57e990b88e6d19a53e161bf1fafacae6f65",
+      "size": 2967,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/b704b57e990b88e6d19a53e161bf1fafacae6f65"
+    },
+    {
+      "path": "proof/code/flat_mean_flow_exact.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "852f8c178ec6bc00a9add732342cbc4df2a529e1",
+      "size": 4863,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/852f8c178ec6bc00a9add732342cbc4df2a529e1"
+    },
+    {
+      "path": "proof/code/flat_outer_integer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73575783e9c56ffab733c54d2495d9d59fe57a1e",
+      "size": 7879,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/73575783e9c56ffab733c54d2495d9d59fe57a1e"
+    },
+    {
+      "path": "proof/code/flat_paid_reconstruct.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb17fc1c3f37c8f9ac7be2c6c440257762398afe",
+      "size": 6854,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/fb17fc1c3f37c8f9ac7be2c6c440257762398afe"
+    },
+    {
+      "path": "proof/code/kernel_portfolio.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d85af27a4e1e0418d485c99668757b93974ebb8",
+      "size": 6969,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/5d85af27a4e1e0418d485c99668757b93974ebb8"
+    },
+    {
+      "path": "proof/code/projection_exact.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec5b9069ac7ff00e569d050b93ef207f28ddd777",
+      "size": 4862,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/ec5b9069ac7ff00e569d050b93ef207f28ddd777"
+    },
+    {
+      "path": "proof/code/supplied_psd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d92abb60623514cd338ade1b287caf06d2a330c9",
+      "size": 5856,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/d92abb60623514cd338ade1b287caf06d2a330c9"
+    },
+    {
+      "path": "proof/code/verify_joint_gram.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69f587905a3c21cc6f4310a26051e467d734c09c",
+      "size": 4868,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/69f587905a3c21cc6f4310a26051e467d734c09c"
+    },
+    {
+      "path": "proof/code/verify_two_scale.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa5c2f9bad01fd09d76658817c8ec7a0209e26fd",
+      "size": 3874,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/aa5c2f9bad01fd09d76658817c8ec7a0209e26fd"
+    },
+    {
+      "path": "proof/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "04bccb3407da1e1282113ee2c4d75fdc00f1a7ab",
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/trees/04bccb3407da1e1282113ee2c4d75fdc00f1a7ab"
+    },
+    {
+      "path": "proof/data/barrier-functional.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "597e951ddaac5bc9e902f71a7f5cbb20271aab4b",
+      "size": 431064,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/597e951ddaac5bc9e902f71a7f5cbb20271aab4b"
+    },
+    {
+      "path": "proof/data/capacity-duals.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2e261574ba20ea1c044e5d9baa95f6b843687d3",
+      "size": 18942416,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/b2e261574ba20ea1c044e5d9baa95f6b843687d3"
+    },
+    {
+      "path": "proof/data/exact-periodic-offsets.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca27270398a948e2cfd938f5065c424e4356d75f",
+      "size": 443328,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/ca27270398a948e2cfd938f5065c424e4356d75f"
+    },
+    {
+      "path": "proof/data/fine-boundary-reference.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7761a014f5626808b4daf536bbf905cd8615f90d",
+      "size": 884475,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/7761a014f5626808b4daf536bbf905cd8615f90d"
+    },
+    {
+      "path": "proof/data/original-preconditioners.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "050c75c1a61ba8de5822925aec16102b35c8329b",
+      "size": 1071456,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/050c75c1a61ba8de5822925aec16102b35c8329b"
+    },
+    {
+      "path": "proof/data/rational-preconditioner.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b8be2f4f50f25e4ba1984059ea8f788d5968e1b",
+      "size": 629312,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/5b8be2f4f50f25e4ba1984059ea8f788d5968e1b"
+    },
+    {
+      "path": "proof/data/selected-exact-kernel.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be376ff5679fbbe00125a703338b3a8b657635d0",
+      "size": 140302,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/be376ff5679fbbe00125a703338b3a8b657635d0"
+    },
+    {
+      "path": "proof/data/selected-flow-duals.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7a65c8fcfe9044434cead62ebc48eac57123ff6",
+      "size": 13070147,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/e7a65c8fcfe9044434cead62ebc48eac57123ff6"
+    },
+    {
+      "path": "proof/data/selected-paid-rows.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "241430df8cebb9b0c56d8164af40e695fb9ce368",
+      "size": 1876780,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/241430df8cebb9b0c56d8164af40e695fb9ce368"
+    },
+    {
+      "path": "proof/data/target.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10795b560b7b006043b8505a626d4cde0dbc0355",
+      "size": 608,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/10795b560b7b006043b8505a626d4cde0dbc0355"
+    },
+    {
+      "path": "proof/verify.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5cab4494b5b92a4b5d62593f1774278514d891a",
+      "size": 5296,
+      "url": "https://api.github.com/repos/unktok/erdos-36-lower-bound/git/blobs/d5cab4494b5b92a4b5d62593f1774278514d891a"
+    }
+  ],
+  "truncated": false,
+  "commit": "cb2f01237c2867a704739f6864075e0ce4e67f07"
+}

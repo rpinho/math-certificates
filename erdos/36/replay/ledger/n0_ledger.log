@@ -1,0 +1,19 @@
+merged cos naive (z>0 via 2s^2-1, 11 positive): -0.00930032057347877  (not used: paid rows carry E>=0 instead)
+paid rows: sum w*paid_constant = 0.014890216822598171 ; sum w*rationalization = 1.2562596366510952e-27
+stored coupling_core_canonical_fourier_rhs_lower_exact -1.8089265445901375
+stored coupling_new_canonical_fourier_rhs_lower_exact -1.8089265445901375
+stored coupling_old_canonical_fourier_rhs_lower_exact -1.8089265445901375
+stored coupling_nonnegative_scalar_surplus_lower_exact 7.082648711123259e-28
+stored delta_constant_exact 0.014104862648733804
+constant c0 (E 1 = 1)                                                  -1.793955247275635
+y2 * 2/3 (exact moment)                                                -0.959846756670292
+legacy cos: sum z sigma^2 (z<=0)                                       -0.000081045623812
+periodic families: floor((sum b)^2/4) sum z                            -0.000000113890757
+17 Wetch rows: sum mu (gamma.B - d.bnd - z.B - sum w - eta/12)         +3.768773415151186
+two-scale functional x 2^-20 (our reading of the prose)                -0.000000034868092
+SUM of specified terms                                                 +1.014890216822599
+N0 (target.json)                                                       +1.000000000000000
+N0 - SUM (unexplained: paid rows / payments / conventions)             -1.489e-02
+paid rows: - sum w*(paid_constant + rationalization_payment)           -0.014890216822598
+N0 - [SUM - paid payments] = 3.1379e-28   (negative => N0 is below our recomputed lower expectation, i.e. conservative)
+if two-scale term omitted, residual would be -3.48681e-8 ; if families omitted: -1.13891e-7

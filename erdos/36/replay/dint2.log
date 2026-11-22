@@ -1,0 +1,55 @@
+pieces 131948 macro 893 t 1.0
+Sz0..3 0.0506835988418549 5.378175432026595 2390.070408684915 1592222.5364851044
+level 0 n 131948 pos 85855 neg 44274 split 1819 bracket 0 t 1.3
+level 1 n 3638 pos 701 neg 1123 split 1814 bracket 0 t 1.3
+level 2 n 3628 pos 920 neg 894 split 1814 bracket 0 t 1.3
+level 3 n 3628 pos 960 neg 854 split 1814 bracket 0 t 1.3
+level 4 n 3628 pos 933 neg 881 split 1814 bracket 0 t 1.3
+level 5 n 3628 pos 893 neg 920 split 1811 bracket 4 t 1.3
+level 6 n 3622 pos 903 neg 908 split 1800 bracket 11 t 1.3
+level 7 n 3600 pos 864 neg 933 split 1764 bracket 39 t 1.3
+level 8 n 3528 pos 910 neg 853 split 1685 bracket 80 t 1.4
+level 9 n 3370 pos 890 neg 793 split 1537 bracket 150 t 1.4
+level 10 n 3074 pos 811 neg 725 split 1407 bracket 131 t 1.4
+level 11 n 2814 pos 740 neg 667 split 1316 bracket 91 t 1.4
+level 12 n 2632 pos 712 neg 604 split 1213 bracket 103 t 1.4
+level 13 n 2426 pos 624 neg 589 split 979 bracket 234 t 1.4
+level 14 n 1958 pos 560 neg 419 split 609 bracket 370 t 1.4
+level 15 n 1218 pos 450 neg 159 split 14 bracket 595 t 1.4
+level 16 n 28 pos 14 neg 0 split 0 bracket 14 t 1.4
+final pieces 155158 pos 97740 neg 55596 bracket 1822
+arb re-verify ALL 153336 decided pieces
+arb failures (demoted to bracket): 0 t 14.2
+brackets 1822
+runs 1615
+{
+ "control": null,
+ "tau": 1e-09,
+ "maxdepth": 36,
+ "smooth_pieces": 131948,
+ "final_pieces": 155158,
+ "n_pos": 97740,
+ "n_neg": 55596,
+ "n_bracket": 1822,
+ "n_arb_checked": 153336,
+ "n_arb_fail": 0,
+ "runs": 1615,
+ "bracket_total_width": 4.4906815923853594e-05,
+ "bracket_contribution_upper": "1.8354517591800103636e-15",
+ "measure_certified_positive": 2.6275485843397677,
+ "D_up": "2.627239663352680427900351",
+ "D_lo": "2.627239663352678592448592",
+ "Dup_minus_Dlo": "1.8355e-15",
+ "N0_over_Dup_lower": "0.3806276275244252643364832",
+ "margin_vs_Ltarget": "1.7537942e-9",
+ "N0_over_Dup_ge_Ltarget": true,
+ "margin_vs_L": "1.6478342e-9",
+ "N0_over_Dup_ge_L": true,
+ "Ltarget_float": "0.3806276257706310510498291",
+ "L_float": "0.3806276258765910437270741",
+ "N0_over_L": "2.627239674726672037270668",
+ "N0_over_Ltarget": "2.627239675458049052093972",
+ "margin_vs_038062762": "7.5244253e-9",
+ "runtime_s": 15.0,
+ "maxrss_MB": 258.328125
+}

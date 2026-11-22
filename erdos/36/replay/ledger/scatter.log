@@ -1,0 +1,6 @@
+rebuilt: min -5.7085e-03 max 5.0734e-02 nnz(|K|>1e-15) 8442 ; stored: nnz 8442 min -5.7085e-03 max 5.0734e-02
+K            max|Zstored - cand| = 2.082e-17
+-K           max|Zstored - cand| = 1.015e-01
+K - mean     max|Zstored - cand| = 2.658e-04
+-(K - mean)  max|Zstored - cand| = 1.012e-01
+first cells stored [0.05065098 0.0506528  0.05066645 0.05067286] rebuilt [0.05065098 0.0506528  0.05066645 0.05067286]

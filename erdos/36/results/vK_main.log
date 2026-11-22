@@ -1,0 +1,44 @@
+cell bounds done 9.0 s; min g_lb on [0,0.9]: 0.09051173450328329
+{
+ "cert": "certK_r105.json",
+ "L_raised_by": null,
+ "flip": null,
+ "drop": null,
+ "nocap": null,
+ "D_up_used": "2627239663352680427900451/1000000000000000000000000",
+ "n_bins": 94,
+ "all_pass": true,
+ "cover": {
+  "from": "0",
+  "to": "1/160",
+  "gaps": [],
+  "covers_target": true
+ },
+ "n_fail": 0,
+ "min_margin": 3.051832729194407e-10,
+ "min_margin_bin": [
+  "0",
+  "7/100000"
+ ],
+ "runtime_s": 18.5,
+ "maxrss_MB": 179.703125
+}
+       19.55 real        48.58 user         0.77 sys
+           188432384  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               65515  page reclaims
+                 427  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 501  voluntary context switches
+              136730  involuntary context switches
+        238905598152  instructions retired
+         43540821977  cycles elapsed
+           190104248  peak memory footprint
+done

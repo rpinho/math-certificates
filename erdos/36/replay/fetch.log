@@ -1,0 +1,32 @@
+Cloning into 'dl/unktok'...
+Note: switching to 'cb2f01237c2867a704739f6864075e0ce4e67f07'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at cb2f012 Publish reviewable minimum-overlap lower-bound certificate
+fetch exit 0
+inputs/unktok:
+RESULT.md
+UPSTREAM.json
+proof
+
+inputs/unktok/proof:
+MANIFEST.json
+data
+
+inputs/wetch:
+central-certificate.json
+outer-certificate.json

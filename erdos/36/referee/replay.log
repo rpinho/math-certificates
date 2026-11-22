@@ -1,0 +1,21 @@
+Ledger completed 0.4
+Quadrature completed 5.5 {'smooth': 131948, 'positive': 103992, 'negative': 61543, 'brackets': 1814, 'splits': 35401}
+{'smooth': 131948, 'positive': 103992, 'negative': 61543, 'brackets': 1814, 'splits': 35401, 'lower': '1106722518840797321274717454590985832695183449471554233557078410859/421249166674228746791672110734681729275580381602196445017243910144', 'upper': '553361259420398660672118244396661651755823337948931724356876542767/210624583337114373395836055367340864637790190801098222508621955072', 'display_lower': '2.627239663352679054398569730', 'display_upper': '2.627239663352679054563600405', 'width': '1.650306747220219916505431320E-19', 'producer_minus_upper': '1.373436399595383053304159753E-15'} {'bins': 94, 'cell_checks': 6160384, 'gaps': [], 'violations': 0, 'nonzero_prefixes': 0, 'nonpositive': 0, 'min_slope_slack': 1.3177020289628197e-07, 'crossings': 0, 'target_bins': 77, 'target_bin': 17, 'target_margin': 1.866491512302812e-09, 'minimum_bin': 0, 'minimum_margin': 3.0518347188489964e-10} {'raise_1e-9': {'failed': [0], 'minimum': -6.948165281151004e-10}, 'raise_1e-6': {'failed': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78], 'minimum': -9.99694816528115e-07}, 'flip': {'bin': 17, 'violations': 549, 'margin': -2.324498271529365e-08}, 'slope': {'bin': 17, 'cell': 65535, 'old': '501057257977176669/1180591620717411303424', 'new': '6685132598223552086424249159/14757395258967641292800000000000', 'upper': '2147244575854964339/302231454903657293676544', 'violations': 1, 'margin': 1.7004432830177812e-09}, 'drop': {'bin': 17, 'gaps': [(Fraction(1459, 10000000), Fraction(383, 2500000))]}}
+        6.75 real         6.68 user         0.04 sys
+           207044608  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               16560  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  10  voluntary context switches
+                1226  involuntary context switches
+        149942199723  instructions retired
+         25735100563  cycles elapsed
+           190890632  peak memory footprint

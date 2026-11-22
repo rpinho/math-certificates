@@ -1,0 +1,21 @@
+PASS producer: 94 bins, all pass, 0 slope violations, cover [0,1/160] exact
+PASS producer: min margin overall = +3.05e-10  3.051833e-10
+PASS producer: min margin on bins meeting [1.46e-4,1/160] (77 bins) = +1.866e-9  1.866491e-09
+PASS producer: every bin identical to shipped vK_main.json
+PASS D_up identical to shipped
+PASS producer control raiseL rejects  n_fail=79 covers_target=True
+PASS producer control flip rejects  n_fail=1 covers_target=True
+PASS producer control nocap rejects  n_fail=1 covers_target=True
+PASS producer control drop rejects  n_fail=0 covers_target=False
+PASS producer: N0 lowered by 1e-27, all 94 bins still pass
+PASS referee: 94 bins, 6160384 cell checks, 0 violations, 0 gaps
+PASS referee: margins +3.0518e-10 (all) and +1.8665e-9 (target bin 17)
+PASS referee: every bin and ledger identical to shipped
+PASS referee controls reject (raise 1e-9, raise 1e-6, flip, slope, drop)
+PASS referee fixtures: all 7 pass, identical to shipped
+PASS producer fixtures_K (16 step functions) identical to shipped
+PASS make_K.py search output byte-identical to shipped certificate
+PASS ledger_arb: provable lower expectation exceeds N0 (+2.283e-27)
+PASS scatter_exact: periodic offsets match on all 131072 cells
+PASS c_check: C ledger residual = 2^-20 x two-scale C
+compare_replay: PASS

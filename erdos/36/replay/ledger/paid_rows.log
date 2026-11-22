@@ -1,0 +1,3 @@
+52 paid rows vs J formula: max |cos coef diff| 9.08e-29, max |hat diff| 2.95e-26, max |paid_constant - kappa| 4.16e-24
+rows with a coefficient difference above its stored error bound: 0
+rows where paid_constant+payment < kappa+actual errors: 0  weighted shortfall 0.0  total weighted slack 2.597e-27

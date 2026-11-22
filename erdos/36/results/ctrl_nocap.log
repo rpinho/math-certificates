@@ -1,0 +1,25 @@
+cell bounds done 36.9 s; min g_lb on [0,0.9]: 0.09051173450328329
+{
+ "cert": "certK_r105.json",
+ "L_raised_by": null,
+ "flip": null,
+ "drop": null,
+ "nocap": 17,
+ "D_up_used": "2627239663352680427900451/1000000000000000000000000",
+ "n_bins": 94,
+ "all_pass": false,
+ "cover": {
+  "from": "0",
+  "to": "1/160",
+  "gaps": [],
+  "covers_target": true
+ },
+ "n_fail": 1,
+ "min_margin": -4.783255570923394e-09,
+ "min_margin_bin": [
+  "1459/10000000",
+  "383/2500000"
+ ],
+ "runtime_s": 46.6,
+ "maxrss_MB": 178.21875
+}
