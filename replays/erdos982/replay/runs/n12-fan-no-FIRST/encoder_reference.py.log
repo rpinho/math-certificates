@@ -1,0 +1,2 @@
+command: /opt/homebrew/opt/python@3.15/bin/python3.15 encoder_reference.py 12 5 runs/n12-fan-no-FIRST/reference.cnf --omit FIRST --fan
+worker exit=0 elapsed=0.576s sampled_peak_rss=67141632 cumulative_child_peak_rss=153485312 

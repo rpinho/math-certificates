@@ -1,0 +1,39 @@
+{
+  "cnf_sha256": "3e77f18517389f36b4c812e902c70f6f28245dbc2b1a4d59d73a8b4b5b6426f2",
+  "core_clauses": 31512,
+  "core_families": {
+    "ASYM": 860,
+    "BISECTOR": 547,
+    "BOUND": 1539,
+    "CAP": 187,
+    "CROSS": 547,
+    "FAN": 1879,
+    "FIRST": 3661,
+    "TRANS": 22839
+  },
+  "fan": true,
+  "k": 5,
+  "n": 12,
+  "negative_controls": {
+    "altered_cnf_sha256": "540fcef384af8bf3d7a8087547da18f32aa25825c4a6efbf48fa4933d7d4105a",
+    "altered_core_id": 317373,
+    "original_clause": [
+      4412
+    ],
+    "removed_empty_ids": [
+      853335
+    ],
+    "replacement": [
+      -1,
+      1
+    ]
+  },
+  "omitted": [
+    "SYM"
+  ],
+  "proof_sha256": {
+    "proof.drat": "b407d4d19cee467d1c7cdcabebd6593dd78c608bbd6e78b01d61b88dd4f23a9a",
+    "proof.lrat": "5af59d4ca4600e248d3209bdd0b0d8ef43f292bc6d26aebb03765d8f14ad8a9b"
+  },
+  "verification": "UNSAT via cake_lpr LRAT and drat-trim DRAT"
+}

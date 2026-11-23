@@ -1,0 +1,2 @@
+command: /opt/homebrew/opt/python@3.15/bin/python3.15 encoder_reference.py 8 3 runs/n8/reference.cnf
+worker exit=0 elapsed=0.053s sampled_peak_rss=229376 cumulative_child_peak_rss=28459008 

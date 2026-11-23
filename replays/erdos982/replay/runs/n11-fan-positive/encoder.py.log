@@ -1,0 +1,2 @@
+command: /opt/homebrew/opt/python@3.15/bin/python3.15 encoder.py 11 5 runs/n11-fan-positive/formula.cnf --families runs/n11-fan-positive/families.tsv --fan
+worker exit=0 elapsed=0.335s sampled_peak_rss=107560960 cumulative_child_peak_rss=107560960 

@@ -1,0 +1,2 @@
+command: /opt/homebrew/opt/python@3.15/bin/python3.15 encoder_reference.py 7 2 runs/n7-sanity/reference.cnf
+worker exit=0 elapsed=0.040s sampled_peak_rss=1638400 cumulative_child_peak_rss=22003712 

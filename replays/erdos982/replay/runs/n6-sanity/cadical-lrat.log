@@ -1,0 +1,119 @@
+command: upstream/cadical/build/cadical --lrat --no-binary runs/n6-sanity/formula.cnf runs/n6-sanity/proof.lrat
+c --- [ banner ] -------------------------------------------------------------
+c 
+c CaDiCaL SAT Solver
+c Copyright (c) 2016-2024
+c A. Biere, M. Fleury, N. Froleyks, K. Fazekas, F. Pollitt, T. Faller
+c JKU Linz, University of Freiburg, TU Wien
+c 
+c Version 2.2.0 14593f819cb242082b127396218bd60889409737
+c Apple clang version 21.0.0 (clang-2100.4.1.1) -Wall -Wextra -O3 -DNDEBUG -DNCLOSEFROM
+c Mon Nov 23 09:26:24 EST 2026 Darwin mac.lan 27.2.0 arm64
+c 
+c --- [ proof tracing ] ------------------------------------------------------
+c 
+c opening file to write 'runs/n6-sanity/proof.lrat'
+c writing non-binary proof trace to 'runs/n6-sanity/proof.lrat'
+c 
+c --- [ parsing input ] ------------------------------------------------------
+c 
+c reading DIMACS file from 'runs/n6-sanity/formula.cnf'
+c opening file to read 'runs/n6-sanity/formula.cnf'
+c found 'p cnf 240 3326' header
+c parsed 3326 clauses in 0.00 seconds process time
+c 
+c --- [ options ] ------------------------------------------------------------
+c 
+c   --binary=false                 (different from default 'true')
+c   --lrat=true                    (different from default 'false')
+c 
+c --- [ solving ] ------------------------------------------------------------
+c 
+c time measured in process time since initialization
+c 
+c  seconds  reduction conflicts       size tier2     variables
+c         MB    restarts   redundant    glue  trail      remaining
+c          level     rate       size/glu tier1 irredundant
+c 
+c *  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 3243 229 95%
+c (  0.00  0  0 0   0  0    0    0 0.0 1 0 2 6 24% 3243 223 93%
+c .  0.00  0  0 0   0  0    0    0 0.0 1 0 2 6 24% 3162 223 93%
+c c  0.00  0  0 0   0  0    0    0 0.0 1 0 2 6 24% 3031 215 90%
+c d  0.00  0  0 0   0  0    0    0 0.0 1 0 2 6 24% 2994 213 89%
+c k  0.00  0  0 0   0  0    0    0 0.0 1 0 2 6 24% 2994 207 86%
+c =  0.00  0  0 0   0  0    0    0 0.0 1 0 2 6 24% 2003 137 57%
+c P  0.00  0  0 0   0  0    0    0 0.0 1 0 2 6 24% 2003 137 57%
+c )  0.00  0  0 0   0  0    0    0 0.0 1 0 2 6 24% 2003 137 57%
+c 0  0.00  0  0 0   0  0    0    0 0.0 1 0 2 6 24% 2003 137 57%
+c 
+c --- [ closing proof ] ------------------------------------------------------
+c 
+c LRAT proof file 'runs/n6-sanity/proof.lrat' closed
+c LRAT 509 added clauses 22.73%
+c LRAT 1730 deleted clauses 77.27%
+c LRAT 25670 bytes (0.02 MB)
+c 
+c --- [ result ] -------------------------------------------------------------
+c 
+s UNSATISFIABLE
+c 
+c --- [ run-time profiling ] -------------------------------------------------
+c 
+c process time taken by individual solving procedures
+c (percentage relative to process time for solving)
+c 
+c         0.00   92.69% preprocess
+c         0.00   85.24% simplify
+c         0.00   38.89% sweep
+c         0.00   36.98% parse
+c         0.00   34.19% congruence
+c         0.00    4.75% search
+c         0.00    4.75% lucky
+c         0.00    1.86% backbone
+c   =================================
+c         0.00   65.06% solve
+c 
+c last line shows process time for solving
+c (percentage relative to total process time)
+c 
+c --- [ statistics ] ---------------------------------------------------------
+c 
+c backbone:                    859       357.92 %  of vars
+c fixed:                       101        42.08 %  of all variables
+c learned_lits:                  1       100.00 %  learned literals
+c minimized:                     0         0.00 %  learned literals
+c shrunken:                      0         0.00 %  learned literals
+c minishrunken:                  0         0.00 %  learned literals
+c propagations:                 44         0.02 M  per second
+c substituted:                   2         0.83 %  of all variables
+c ticks:                     43325       984.66    propagation
+c weakened:                      4         2.00    average size
+c congruence:                    1         0.00    interval
+c 
+c seconds are measured in process time for solving
+c 
+c --- [ glue usage ] ---------------------------------------------------------
+c 
+c focused glue 2 used 0 clauses 0.000% accumulated 0.000% tier1
+c focused glue 3 used 0 clauses 0.000% accumulated 0.000%
+c focused glue 4 used 0 clauses 0.000% accumulated 0.000%
+c focused glue 5 used 0 clauses 0.000% accumulated 0.000%
+c focused glue 6 used 0 clauses 0.000% accumulated 0.000% tier2
+c 
+c stable glue 2 used 0 clauses 0.000% accumulated 0.000% tier1
+c stable glue 3 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 4 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 5 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 6 used 0 clauses 0.000% accumulated 0.000% tier2
+c 
+c 
+c --- [ resources ] ----------------------------------------------------------
+c 
+c total process time since initialization:         0.00    seconds
+c total real time since initialization:            0.00    seconds
+c maximum resident set size of process:         4416.00    MB
+c 
+c --- [ shutting down ] ------------------------------------------------------
+c 
+c exit 20
+worker exit=20 elapsed=0.015s sampled_peak_rss=2801664 cumulative_child_peak_rss=19693568 

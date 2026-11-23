@@ -1,0 +1,102 @@
+command: upstream/cadical/build/cadical runs/n5-sanity/formula.cnf runs/n5-sanity/proof.drat
+c --- [ banner ] -------------------------------------------------------------
+c 
+c CaDiCaL SAT Solver
+c Copyright (c) 2016-2024
+c A. Biere, M. Fleury, N. Froleyks, K. Fazekas, F. Pollitt, T. Faller
+c JKU Linz, University of Freiburg, TU Wien
+c 
+c Version 2.2.0 14593f819cb242082b127396218bd60889409737
+c Apple clang version 21.0.0 (clang-2100.4.1.1) -Wall -Wextra -O3 -DNDEBUG -DNCLOSEFROM
+c Mon Nov 23 09:26:24 EST 2026 Darwin mac.lan 27.2.0 arm64
+c 
+c --- [ proof tracing ] ------------------------------------------------------
+c 
+c opening file to write 'runs/n5-sanity/proof.drat'
+c writing binary proof trace to 'runs/n5-sanity/proof.drat'
+c 
+c --- [ parsing input ] ------------------------------------------------------
+c 
+c reading DIMACS file from 'runs/n5-sanity/formula.cnf'
+c opening file to read 'runs/n5-sanity/formula.cnf'
+c found 'p cnf 110 964' header
+c parsed 964 clauses in 0.00 seconds process time
+c 
+c --- [ options ] ------------------------------------------------------------
+c 
+c all options are set to their default value
+c 
+c --- [ solving ] ------------------------------------------------------------
+c 
+c time measured in process time since initialization
+c 
+c  seconds  reduction conflicts       size tier2     variables
+c         MB    restarts   redundant    glue  trail      remaining
+c          level     rate       size/glu tier1 irredundant
+c 
+c 0  0.00  0  0 0   0  0    1    0 0.0 0 0 2 6  0%  917  66 60%
+c 
+c --- [ closing proof ] ------------------------------------------------------
+c 
+c DRAT proof file 'runs/n5-sanity/proof.drat' closed
+c DRAT 61 added clauses 49.19%
+c DRAT 63 deleted clauses 50.81%
+c DRAT 610 bytes (0.00 MB)
+c 
+c --- [ result ] -------------------------------------------------------------
+c 
+s UNSATISFIABLE
+c 
+c --- [ run-time profiling ] -------------------------------------------------
+c 
+c process time taken by individual solving procedures
+c (percentage relative to process time for solving)
+c 
+c         0.00  840.91% parse
+c         0.00    0.00% search
+c         0.00    0.00% simplify
+c   =================================
+c         0.00    4.05% solve
+c 
+c last line shows process time for solving
+c (percentage relative to total process time)
+c 
+c --- [ statistics ] ---------------------------------------------------------
+c 
+c conflicts:                     1     45454.55    per second
+c fixed:                        44        40.00 %  of all variables
+c learned:                       0         0.00 %  per conflict
+c minimized:                     0         0.00 %  learned literals
+c shrunken:                      0         0.00 %  learned literals
+c minishrunken:                  0         0.00 %  learned literals
+c otfs:                          0         0.00 %  of conflict
+c propagations:                 41         1.86 M  per second
+c ticks:                       401         9.78    propagation
+c 
+c seconds are measured in process time for solving
+c 
+c --- [ glue usage ] ---------------------------------------------------------
+c 
+c focused glue 2 used 0 clauses 0.000% accumulated 0.000% tier1
+c focused glue 3 used 0 clauses 0.000% accumulated 0.000%
+c focused glue 4 used 0 clauses 0.000% accumulated 0.000%
+c focused glue 5 used 0 clauses 0.000% accumulated 0.000%
+c focused glue 6 used 0 clauses 0.000% accumulated 0.000% tier2
+c 
+c stable glue 2 used 0 clauses 0.000% accumulated 0.000% tier1
+c stable glue 3 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 4 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 5 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 6 used 0 clauses 0.000% accumulated 0.000% tier2
+c 
+c 
+c --- [ resources ] ----------------------------------------------------------
+c 
+c total process time since initialization:         0.00    seconds
+c total real time since initialization:            0.00    seconds
+c maximum resident set size of process:         2864.00    MB
+c 
+c --- [ shutting down ] ------------------------------------------------------
+c 
+c exit 20
+worker exit=20 elapsed=0.012s sampled_peak_rss=2605056 cumulative_child_peak_rss=18513920 

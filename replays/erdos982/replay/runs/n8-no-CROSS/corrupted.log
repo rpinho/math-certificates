@@ -1,0 +1,3 @@
+command: upstream/cake_lpr/cake_lpr --CML_HEAP_SIZE=1400 --CML_STACK_SIZE=256 runs/n8-no-CROSS/formula.cnf runs/n8-no-CROSS/corrupted.lrat
+c empty clause not derived at end of proof
+worker exit=0 elapsed=0.021s sampled_peak_rss=3440640 cumulative_child_peak_rss=52559872 

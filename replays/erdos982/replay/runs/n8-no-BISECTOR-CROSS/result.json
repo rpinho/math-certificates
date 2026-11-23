@@ -1,0 +1,11 @@
+{
+  "cnf_sha256": "7c3bff9e913cb12453a0175fdf1c6d4bbfd30795c2d3936e824e65ebdaba23b0",
+  "fan": false,
+  "k": 3,
+  "n": 8,
+  "omitted": [
+    "BISECTOR",
+    "CROSS"
+  ],
+  "verification": "SAT model checked against every canonical clause"
+}

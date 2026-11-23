@@ -1,0 +1,3 @@
+command: upstream/cake_lpr/cake_lpr --CML_HEAP_SIZE=1400 --CML_STACK_SIZE=256 runs/n7-sanity/formula.cnf runs/n7-sanity/proof.lrat
+s VERIFIED UNSAT
+worker exit=0 elapsed=0.013s sampled_peak_rss=5357568 cumulative_child_peak_rss=22003712 

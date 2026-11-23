@@ -1,0 +1,3 @@
+command: upstream/cake_lpr/cake_lpr --CML_HEAP_SIZE=1400 --CML_STACK_SIZE=256 runs/n12-fan-no-CAP/formula.cnf runs/n12-fan-no-CAP/proof.lrat
+s VERIFIED UNSAT
+worker exit=0 elapsed=6.479s sampled_peak_rss=1471414272 cumulative_child_peak_rss=1471430656 

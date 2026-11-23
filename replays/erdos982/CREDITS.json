@@ -1,0 +1,15 @@
+{
+  "credits": [],
+  "contributors": [
+    {"name": "Paulee314", "role": "reported the small-order result", "source": "https://github.com/plasma-ai/erdos/issues/66"},
+    {"name": "E. Altman", "role": "bound for distances over all vertex pairs"},
+    {"name": "P. Erdős and P. Fishburn", "role": "lower bound for distances from a single vertex"},
+    {"name": "A. Dumitrescu", "role": "lower bound for distances from a single vertex"},
+    {"name": "G. Nivasch, J. Pach, R. Pinchasi and S. Zerbib", "role": "lower bound for distances from a single vertex", "source": "https://arxiv.org/abs/1207.1266"},
+    {"name": "CaDiCaL", "role": "SAT solver and proof producer"},
+    {"name": "drat-trim", "role": "DRAT checker"},
+    {"name": "cake_lpr", "role": "LRAT checker"},
+    {"name": "GPT-6.2 Sol", "role": "clean-room proofs, encoders, checks and packaging"},
+    {"name": "Claude Opus 5.5", "role": "second-model re-derivation of the clause-family proofs"}
+  ]
+}

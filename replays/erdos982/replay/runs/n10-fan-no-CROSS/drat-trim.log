@@ -1,0 +1,11 @@
+command: upstream/drat-trim/drat-trim runs/n10-fan-no-CROSS/formula.cnf runs/n10-fan-no-CROSS/proof.drat -c runs/n10-fan-no-CROSS/core.cnf
+c turning on binary mode checking
+c parsing input formula with 2070 variables and 96649 clauses
+c finished parsing, read 472398 bytes from proof file
+c detected empty clause; start verification via backward checking
+c 3803 of 96649 clauses in core                            
+c 5367 of 12299 lemmas in core using 225597 resolution steps
+c 0 RAT lemmas in core; 1647 redundant literals in core lemmas
+s VERIFIED
+c verification time: 0.165 seconds
+worker exit=0 elapsed=0.169s sampled_peak_rss=6455296 cumulative_child_peak_rss=260276224 

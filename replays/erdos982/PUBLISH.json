@@ -1,0 +1,16 @@
+{
+  "target": "teorth/erdosproblems",
+  "new_bound": false,
+  "submitter": "rpinho",
+  "certificate_repository": "rpinho/math-certificates",
+  "producer_model": "GPT-6.2 Sol via Codex, clean room (claimant's code and write-up never read)",
+  "referee_model": "Claude Opus 5.5, re-derived all clause-family proofs",
+  "destination": "replays/erdos982",
+  "replay_inputs": {
+    "replay/PROOFS.md": "proof",
+    "replay/runs/n8/proof.lrat.xz": "certificate",
+    "replay/runs/n10-fan/proof.lrat.xz": "certificate",
+    "replay/runs/n12-fan/trimmed.lrat.xz": "certificate"
+  },
+  "scope": "Clean-room replay of the reported distinct-distance bound floor(n/2) for strictly convex polygons of orders 8 through 13."
+}

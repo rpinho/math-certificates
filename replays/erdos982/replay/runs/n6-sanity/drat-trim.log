@@ -1,0 +1,11 @@
+command: upstream/drat-trim/drat-trim runs/n6-sanity/formula.cnf runs/n6-sanity/proof.drat -c runs/n6-sanity/core.cnf
+c turning on binary mode checking
+c parsing input formula with 240 variables and 3326 clauses
+c finished parsing, read 14452 bytes from proof file
+c detected empty clause; start verification via backward checking
+c 57 of 3326 clauses in core                            
+c 21 of 510 lemmas in core using 119 resolution steps
+c 0 RAT lemmas in core; 1 redundant literals in core lemmas
+s VERIFIED
+c verification time: 0.018 seconds
+worker exit=0 elapsed=0.022s sampled_peak_rss=7110656 cumulative_child_peak_rss=50855936 

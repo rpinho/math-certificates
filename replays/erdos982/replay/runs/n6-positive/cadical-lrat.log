@@ -1,0 +1,140 @@
+command: upstream/cadical/build/cadical --lrat --no-binary runs/n6-positive/formula.cnf runs/n6-positive/proof.lrat
+c --- [ banner ] -------------------------------------------------------------
+c 
+c CaDiCaL SAT Solver
+c Copyright (c) 2016-2024
+c A. Biere, M. Fleury, N. Froleyks, K. Fazekas, F. Pollitt, T. Faller
+c JKU Linz, University of Freiburg, TU Wien
+c 
+c Version 2.2.0 14593f819cb242082b127396218bd60889409737
+c Apple clang version 21.0.0 (clang-2100.4.1.1) -Wall -Wextra -O3 -DNDEBUG -DNCLOSEFROM
+c Mon Nov 23 09:26:24 EST 2026 Darwin mac.lan 27.2.0 arm64
+c 
+c --- [ proof tracing ] ------------------------------------------------------
+c 
+c opening file to write 'runs/n6-positive/proof.lrat'
+c writing non-binary proof trace to 'runs/n6-positive/proof.lrat'
+c 
+c --- [ parsing input ] ------------------------------------------------------
+c 
+c reading DIMACS file from 'runs/n6-positive/formula.cnf'
+c opening file to read 'runs/n6-positive/formula.cnf'
+c found 'p cnf 240 3296' header
+c parsed 3296 clauses in 0.00 seconds process time
+c 
+c --- [ options ] ------------------------------------------------------------
+c 
+c   --binary=false                 (different from default 'true')
+c   --lrat=true                    (different from default 'false')
+c 
+c --- [ solving ] ------------------------------------------------------------
+c 
+c time measured in process time since initialization
+c 
+c  seconds  reduction conflicts       size tier2     variables
+c         MB    restarts   redundant    glue  trail      remaining
+c          level     rate       size/glu tier1 irredundant
+c 
+c *  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 3213 229 95%
+c (  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 3213 229 95%
+c .  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 3206 229 95%
+c c  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 3207 229 95%
+c P  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 3205 228 95%
+c )  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 3205 228 95%
+c {  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 3205 228 95%
+c }  0.01  0  6 0   2  1   59   54 2.5 8 3 2 6 66% 3205 228 95%
+c 1  0.01  0  6 0   2  1   59   54 2.5 8 3 2 6 66% 3205 228 95%
+c 
+c --- [ closing proof ] ------------------------------------------------------
+c 
+c LRAT proof file 'runs/n6-positive/proof.lrat' closed
+c LRAT 212 added clauses 47.11%
+c LRAT 238 deleted clauses 52.89%
+c LRAT 13074 bytes (0.01 MB)
+c 
+c --- [ result ] -------------------------------------------------------------
+c 
+s SATISFIABLE
+v 1 2 3 4 -5 6 7 8 9 10 11 12 13 14 -15 16 -17 -18 -19 -20 -21 -22 -23 -24 -25
+v -26 27 -28 -29 -30 -31 -32 -33 -34 -35 -36 -37 -38 -39 -40 -41 -42 -43 -44
+v 45 -46 -47 -48 -49 -50 -51 -52 -53 -54 55 -56 -57 -58 59 -60 -61 -62 -63 -64
+v -65 -66 -67 -68 69 -70 -71 72 73 74 75 76 77 78 79 80 81 82 83 84 -85 86 87
+v 88 89 -90 -91 -92 -93 -94 95 -96 97 -98 -99 100 101 102 103 -104 105 106 107
+v 108 109 110 111 112 -113 114 115 116 117 -118 -119 -120 -121 -122 123 -124
+v 125 -126 -127 128 129 130 131 -132 -133 -134 -135 -136 137 -138 139 -140
+v -141 142 143 144 145 -146 -147 -148 -149 -150 151 -152 153 -154 -155 -156
+v 157 -158 -159 -160 -161 -162 -163 -164 -165 -166 167 -168 -169 170 171 172
+v 173 -174 -175 -176 -177 -178 -179 180 181 -182 -183 -184 185 -186 -187 -188
+v -189 -190 -191 -192 -193 -194 -195 -196 -197 198 199 200 201 -202 -203 -204
+v -205 -206 -207 208 -209 210 211 212 213 -214 -215 216 -217 218 219 -220 221
+v 222 223 -224 -225 226 227 -228 -229 230 231 232 233 -234 -235 236 237 -238
+v 239 -240 0
+c 
+c --- [ run-time profiling ] -------------------------------------------------
+c 
+c process time taken by individual solving procedures
+c (percentage relative to process time for solving)
+c 
+c         0.00   80.36% preprocess
+c         0.00   76.56% simplify
+c         0.00   53.37% sweep
+c         0.00   17.55% search
+c         0.00   13.72% congruence
+c         0.00   12.49% unstable
+c         0.00   10.99% parse
+c         0.00    4.71% fastelim
+c         0.00    4.62% lucky
+c         0.00    1.91% subsume
+c         0.00    0.43% backbone
+c   =================================
+c         0.00   83.05% solve
+c 
+c last line shows process time for solving
+c (percentage relative to total process time)
+c 
+c --- [ statistics ] ---------------------------------------------------------
+c 
+c chronological:                18        30.51 %  of conflicts
+c conflicts:                    59     13427.40    per second
+c backbone:                    796       331.67 %  of vars
+c decisions:                    89     20254.89    per second
+c fixed:                        11         4.58 %  of all variables
+c learned:                      55        93.22 %  per conflict
+c learned_lits:                503       100.00 %  learned literals
+c minimized:                     0         0.00 %  learned literals
+c shrunken:                     29         5.77 %  learned literals
+c minishrunken:                 60        11.93 %  learned literals
+c otfs:                          1         1.69 %  of conflict
+c propagations:               3190         0.73 M  per second
+c restarts:                      2        29.50    interval
+c substituted:                   1         0.42 %  of all variables
+c subsumed:                      2         0.06 %  of all clauses
+c strengthened:                  2         0.06 %  of all clauses
+c ticks:                    237215        74.36    propagation
+c weakened:                      2         2.00    average size
+c congruence:                    1        59.00    interval
+c 
+c seconds are measured in process time for solving
+c 
+c --- [ glue usage ] ---------------------------------------------------------
+c 
+c focused glue 2 used 29 clauses 40.27% accumulated 62.50% tier1
+c focused glue 3 used 18 clauses 25.00% accumulated 87.50% tier2
+c 
+c stable glue 2 used 0 clauses 0.000% accumulated 0.000% tier1
+c stable glue 3 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 4 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 5 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 6 used 0 clauses 0.000% accumulated 0.000% tier2
+c 
+c 
+c --- [ resources ] ----------------------------------------------------------
+c 
+c total process time since initialization:         0.01    seconds
+c total real time since initialization:            0.01    seconds
+c maximum resident set size of process:         4736.00    MB
+c 
+c --- [ shutting down ] ------------------------------------------------------
+c 
+c exit 10
+worker exit=10 elapsed=0.012s sampled_peak_rss=2850816 cumulative_child_peak_rss=19742720 

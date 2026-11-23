@@ -1,0 +1,9 @@
+{
+  "cnf_sha256": "d39c860325657c1bfaf51411e14ea043cb7004fee88d903e18db4ba7d900944d",
+  "k": 3,
+  "n": 8,
+  "omitted": [
+    "TRANS"
+  ],
+  "verification": "SAT model checked against every canonical clause"
+}

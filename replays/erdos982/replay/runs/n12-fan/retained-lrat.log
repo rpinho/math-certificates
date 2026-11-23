@@ -1,0 +1,3 @@
+command: upstream/cake_lpr/cake_lpr --CML_HEAP_SIZE=1400 --CML_STACK_SIZE=256 runs/recheck_f3clnz3y/formula.cnf runs/recheck_f3clnz3y/trimmed.lrat
+s VERIFIED UNSAT
+worker exit=0 elapsed=2.188s sampled_peak_rss=1470365696 cumulative_child_peak_rss=1470365696 

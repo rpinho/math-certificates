@@ -1,0 +1,10 @@
+{
+  "cnf_sha256": "2270fa4286beef6603e1facd331540a4ff1335e60c05c9c9af249031cca80ec4",
+  "fan": true,
+  "k": 4,
+  "n": 10,
+  "omitted": [
+    "TRANS"
+  ],
+  "verification": "SAT model checked against every canonical clause"
+}

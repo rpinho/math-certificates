@@ -1,0 +1,45 @@
+case	n	k	verdict	clauses	drat_core	cnf_sha256	evidence
+n10	10	4	SAT	95389		304391caadcef94a52c33341f82113803f1f2d3c2bbe4c351f854081b543b356	model.txt
+n10-fan	10	4	UNSAT	96649	3803	bd5cce899c503904eeb999baf630299b575c99abbf765cce19106c62a54d1cd0	both proofs retained
+n10-fan-no-ASYM	10	4	SAT	95659		385b7fbef243c2548e35d48ee1fd4b79636f42d9b2f7528d40634e0e1645120b	model.txt
+n10-fan-no-BISECTOR	10	4	UNSAT	96649	3803	bd5cce899c503904eeb999baf630299b575c99abbf765cce19106c62a54d1cd0	both proofs retained
+n10-fan-no-BOUND	10	4	SAT	95389		bb5d47750eb00963ef34cf4cfafc530d3c4d00cb925873e770eb95503d59630c	model.txt
+n10-fan-no-CAP	10	4	UNSAT	94969	4443	c2cada3ce056df788396fdde6a69a9babb9005fb94f9d7c1182be9cb1d2c4bdb	both proofs retained
+n10-fan-no-CROSS	10	4	UNSAT	96649	3803	bd5cce899c503904eeb999baf630299b575c99abbf765cce19106c62a54d1cd0	both proofs retained
+n10-fan-no-FAN	10	4	SAT	95389		304391caadcef94a52c33341f82113803f1f2d3c2bbe4c351f854081b543b356	model.txt
+n10-fan-no-FIRST	10	4	SAT	91179		e54382b3c4260bc3aaa4894430b1c10d1aedda574b034fd8ea2b5330034b8920	model.txt
+n10-fan-no-SYM	10	4	UNSAT	96640	4355	39a29b719a58d385fa5490d6b0e9e4d58e723fc6454ae2fdf44a6d62bced7c40	both proofs retained
+n10-fan-no-TRANS	10	4	SAT	11509		2270fa4286beef6603e1facd331540a4ff1335e60c05c9c9af249031cca80ec4	model.txt
+n10-fan-positive	10	5	SAT	96229		a38f3a711a6d7092b823aefa80808d06996ece386dbd640eb224edadae2b97cb	model.txt
+n10-positive	10	5	SAT	94969		885d5d2e5fb0605ecc6eba1dfac7360e5f146c548c1f21c409fae2d937c9e14e	model.txt
+n11-fan-positive	11	5	SAT	179233		f029f7396eca37381f62417c122a1ba1e23eecf5dfd690dfa975af85d7e6947f	model.txt
+n12-fan	12	5	UNSAT	317384	29256	407d8923067323c1c5436ba6485df49c0a1963761a99216300e401f4fe010572	both proofs retained
+n12-fan-no-ASYM	12	5	SAT	315239		648822415568e9728d8e5d381407a13403a6e7d13f41199104c652b815b4d6ac	restricted_model.txt
+n12-fan-no-BISECTOR	12	5	UNSAT	317384	29256	407d8923067323c1c5436ba6485df49c0a1963761a99216300e401f4fe010572	both proofs retained
+n12-fan-no-BOUND	12	5	SAT	311840		4fbe77a5049f442b4fb144d2146da9cdb59ab6a9f66a4522727ecf6497ed4aa6	model.txt
+n12-fan-no-CAP	12	5	UNSAT	313424	29096	077be2724ce8b6d050d84bc5e9c526adc3868ae960a09f63977f4c3c262b26ae	verified full proof hashes, core and logs retained; rerun for large ablation proofs
+n12-fan-no-CROSS	12	5	UNSAT	317384	29256	407d8923067323c1c5436ba6485df49c0a1963761a99216300e401f4fe010572	both proofs retained
+n12-fan-no-FAN	12	5	SAT	313424		110471688d581b700c173c0e9953538dc3be53b9e734eb4a7063c54ec8070ec9	model.txt
+n12-fan-no-FIRST	12	5	SAT	292160		ebef69659e83876cd90f83407c1948315adf564255705285624574e7b7c7f775	model.txt
+n12-fan-no-SYM	12	5	UNSAT	317373	31512	3e77f18517389f36b4c812e902c70f6f28245dbc2b1a4d59d73a8b4b5b6426f2	verified full proof hashes, core and logs retained; rerun for large ablation proofs
+n12-fan-no-TRANS	12	5	SAT	42824		d05fa4d78d96b79fefd6347a6c4d22a079ae88367391f6839dc981f2a644a2f8	model.txt
+n12-fan-positive	12	6	SAT	315800		2d5186e09cc9d5414738e1fb6c2ad848c62b58eebe7f79a0069836166c367298	model.txt
+n13-fan-positive	13	6	SAT	538875		950ffbf8f190ae2d617c94c1830d6324418738bdb9409bd89820ac3bd7db1951	regular_model.txt
+n5-positive	5	2	SAT	954		1659b185cf75a626fb5345a023154e8db8f311924a9e9d5fce8fd7565769bc21	model.txt
+n5-sanity	5	1	UNSAT	964	7	a439edfb0577519ea40554420acf18d8ec8a83bf0b22fd66eb99b2e395aa9122	both proofs retained
+n6-positive	6	3	SAT	3296		800b932c3ca2a84e53ebcbb34a20b2349c8bf13cb4feb4b6db37f3e6ca2362b2	model.txt
+n6-sanity	6	2	UNSAT	3326	57	3ecb33d7733b87de9365450b2379611c524208d7ed706a0f06717be8fa7a21f8	both proofs retained
+n7-positive	7	3	SAT	9267		0b0b660ae2db7b779a5b66d8e27a496fa5c41aeb0b2a365918ef25a18d96dd72	model.txt
+n7-sanity	7	2	UNSAT	9302	47	de30910bddc503f81e1f5084f4941653da0b11ca618ef419408f30dc13f9f988	both proofs retained
+n8	8	3	UNSAT	22345	478	78d033e6f847d25554b15b24901f9be0d3a788d61f1d1406347482b1c7b43560	both proofs retained
+n8-no-ASYM	8	3	SAT	21967		9c8cf40fb125704e5aae365e3ac212db80f64cffaf4bc7a6961de8539739cea9	model.txt
+n8-no-BISECTOR	8	3	UNSAT	22345	478	78d033e6f847d25554b15b24901f9be0d3a788d61f1d1406347482b1c7b43560	both proofs retained
+n8-no-BISECTOR-CROSS	8	3	SAT	22065		7c3bff9e913cb12453a0175fdf1c6d4bbfd30795c2d3936e824e65ebdaba23b0	model.txt
+n8-no-BOUND	8	3	SAT	22065		35ae0fdfca51cefabc34dd0fd70b375b0c501a9ce79eee613c2f1cab4c5f1951	model.txt
+n8-no-CAP	8	3	UNSAT	21785	422	e7a2537ef2ad803fb531279ac91a3e4051e26378585598da7aa66eac630bd1ba	both proofs retained
+n8-no-CROSS	8	3	UNSAT	22345	478	78d033e6f847d25554b15b24901f9be0d3a788d61f1d1406347482b1c7b43560	both proofs retained
+n8-no-FIRST	8	3	SAT	21161		7b5d6fce579bc79614028c5edb28807a42d949c80ad4d8aecaae63caa65a9b49	model.txt
+n8-no-SYM	8	3	UNSAT	22338	712	8b88760bc89a70d543d6d19e3a92737434a27afabe1de6e6e99e05ce8dcf8bee	both proofs retained
+n8-no-TRANS	8	3	SAT	2689		d39c860325657c1bfaf51411e14ea043cb7004fee88d903e18db4ba7d900944d	model.txt
+n8-positive	8	4	SAT	22233		463c8fd37e15ac3d09c09520e5ba3cd08d9174ff64ec1fc39d61785bba5306de	model.txt
+n9-fan-positive	9	4	SAT	48671		7527f9bdcecd68d84d3d7daaee473cf0eba8155fc07bb176dd743f474adec1e4	model.txt

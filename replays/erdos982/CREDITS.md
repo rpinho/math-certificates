@@ -1,0 +1,6 @@
+# Credits
+
+- Paulee314 reported the small-order result. [Claim](https://github.com/plasma-ai/erdos/issues/66) · [Pinned repository](https://github.com/Paulee314/erdos982/tree/19ca23475006947de24591b76d1b451ee6630db1) · [Zenodo record](https://doi.org/10.5281/zenodo.23880465)
+- E. Altman established the bound for distinct distances over all vertex pairs. P. Erdős and P. Fishburn, A. Dumitrescu, and G. Nivasch, J. Pach, R. Pinchasi and S. Zerbib established lower bounds for distances from a single vertex. [Problem and references](https://www.erdosproblems.com/982) · [Nivasch et al.](https://arxiv.org/abs/1207.1266)
+- CaDiCaL generated the LRAT and DRAT proof traces. drat-trim checked the DRAT traces, and cake_lpr checked the LRAT traces. [CaDiCaL](https://github.com/arminbiere/cadical/tree/14593f819cb242082b127396218bd60889409737) · [drat-trim](https://github.com/marijnheule/drat-trim/tree/2e3b2dc0ecf938addbd779d42877b6ed69d9a985) · [cake_lpr](https://github.com/tanyongkiam/cake_lpr/tree/033aad53d1733bd4b8ca41cf6f1b5fb5d84f8de2)
+- GPT-6.2 Sol carried out the clean-room replay and packaging. Claude Opus 5.5 re-derived the clause-family proofs. No human has checked the replay. [Referee note](replay/REFEREE_NOTE.md)

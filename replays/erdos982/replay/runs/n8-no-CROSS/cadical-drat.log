@@ -1,0 +1,130 @@
+command: upstream/cadical/build/cadical runs/n8-no-CROSS/formula.cnf runs/n8-no-CROSS/proof.drat
+c --- [ banner ] -------------------------------------------------------------
+c 
+c CaDiCaL SAT Solver
+c Copyright (c) 2016-2024
+c A. Biere, M. Fleury, N. Froleyks, K. Fazekas, F. Pollitt, T. Faller
+c JKU Linz, University of Freiburg, TU Wien
+c 
+c Version 2.2.0 14593f819cb242082b127396218bd60889409737
+c Apple clang version 21.0.0 (clang-2100.4.1.1) -Wall -Wextra -O3 -DNDEBUG -DNCLOSEFROM
+c Mon Nov 23 09:26:24 EST 2026 Darwin mac.lan 27.2.0 arm64
+c 
+c --- [ proof tracing ] ------------------------------------------------------
+c 
+c opening file to write 'runs/n8-no-CROSS/proof.drat'
+c writing binary proof trace to 'runs/n8-no-CROSS/proof.drat'
+c 
+c --- [ parsing input ] ------------------------------------------------------
+c 
+c reading DIMACS file from 'runs/n8-no-CROSS/formula.cnf'
+c opening file to read 'runs/n8-no-CROSS/formula.cnf'
+c found 'p cnf 812 22345' header
+c parsed 22345 clauses in 0.00 seconds process time
+c 
+c --- [ options ] ------------------------------------------------------------
+c 
+c all options are set to their default value
+c 
+c --- [ solving ] ------------------------------------------------------------
+c 
+c time measured in process time since initialization
+c 
+c  seconds  reduction conflicts       size tier2      variables
+c         MB    restarts   redundant    glue  trail       remaining
+c          level     rate       size/glu tier1  irredundant
+c 
+c *  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 22139 797 98%
+c (  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 22139 797 98%
+c .  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 22108 797 98%
+c c  0.01  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 22100 797 98%
+c P  0.01  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 22098 796 98%
+c )  0.01  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 22098 796 98%
+c {  0.01  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 22098 796 98%
+c i  0.01  0  5 0   0  1   62   45 1.9 4 2 2 6 15% 22098 795 98%
+c i  0.02  0  5 0  10  2  143  108 1.9 5 3 2 6 18% 22098 794 98%
+c i  0.02  0  5 0  12  1  222  164 1.8 5 3 2 6 20% 22098 782 96%
+c i  0.02  0  5 0  12  1  223  164 1.8 5 3 2 6 20% 22098 776 96%
+c i  0.02  0  5 0  17  1  283  208 1.8 5 3 2 6 21% 22098 768 95%
+c }  0.02  0  5 0  17  1  289  211 1.8 5 3 2 6 21% 22098 686 84%
+c 0  0.02  0  5 0  17  1  289  211 1.8 5 3 2 6 21% 22098 686 84%
+c 
+c --- [ closing proof ] ------------------------------------------------------
+c 
+c DRAT proof file 'runs/n8-no-CROSS/proof.drat' closed
+c DRAT 901 added clauses 52.63%
+c DRAT 811 deleted clauses 47.37%
+c DRAT 13758 bytes (0.01 MB)
+c 
+c --- [ result ] -------------------------------------------------------------
+c 
+s UNSATISFIABLE
+c 
+c --- [ run-time profiling ] -------------------------------------------------
+c 
+c process time taken by individual solving procedures
+c (percentage relative to process time for solving)
+c 
+c         0.01   74.00% preprocess
+c         0.01   68.19% simplify
+c         0.00   28.70% congruence
+c         0.00   25.44% search
+c         0.00   24.08% sweep
+c         0.00   23.54% parse
+c         0.00   19.89% unstable
+c         0.00    8.58% fastelim
+c         0.00    5.43% lucky
+c         0.00    2.56% subsume
+c         0.00    0.47% backbone
+c   =================================
+c         0.01   78.90% solve
+c 
+c last line shows process time for solving
+c (percentage relative to total process time)
+c 
+c --- [ statistics ] ---------------------------------------------------------
+c 
+c chronological:                65        22.49 %  of conflicts
+c conflicts:                   289     21704.84    per second
+c backbone:                   2692       331.53 %  of vars
+c decisions:                   411     30867.44    per second
+c fixed:                       125        15.39 %  of all variables
+c learned:                     273        94.46 %  per conflict
+c learned_lits:               2166       100.00 %  learned literals
+c minimized:                     0         0.00 %  learned literals
+c shrunken:                    647        29.87 %  learned literals
+c minishrunken:                104         4.80 %  learned literals
+c otfs:                          4         1.38 %  of conflict
+c propagations:              19245         1.45 M  per second
+c restarts:                     17        17.00    interval
+c substituted:                   1         0.12 %  of all variables
+c subsumed:                     66         0.29 %  of all clauses
+c strengthened:                  5         0.02 %  of all clauses
+c ticks:                    404167        21.00    propagation
+c weakened:                      2         2.00    average size
+c congruence:                    1       289.00    interval
+c 
+c seconds are measured in process time for solving
+c 
+c --- [ glue usage ] ---------------------------------------------------------
+c 
+c focused glue 2 used 172 clauses 28.01% accumulated 75.57% tier1
+c focused glue 3 used 87 clauses 14.16% accumulated 89.73% tier2
+c 
+c stable glue 2 used 0 clauses 0.000% accumulated 0.000% tier1
+c stable glue 3 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 4 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 5 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 6 used 0 clauses 0.000% accumulated 0.000% tier2
+c 
+c 
+c --- [ resources ] ----------------------------------------------------------
+c 
+c total process time since initialization:         0.02    seconds
+c total real time since initialization:            0.02    seconds
+c maximum resident set size of process:        10976.00    MB
+c 
+c --- [ shutting down ] ------------------------------------------------------
+c 
+c exit 20
+worker exit=20 elapsed=0.021s sampled_peak_rss=2392064 cumulative_child_peak_rss=40960000 

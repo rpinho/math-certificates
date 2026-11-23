@@ -1,0 +1,10 @@
+{
+  "cnf_sha256": "bb5d47750eb00963ef34cf4cfafc530d3c4d00cb925873e770eb95503d59630c",
+  "fan": true,
+  "k": 4,
+  "n": 10,
+  "omitted": [
+    "BOUND"
+  ],
+  "verification": "SAT model checked against every canonical clause"
+}

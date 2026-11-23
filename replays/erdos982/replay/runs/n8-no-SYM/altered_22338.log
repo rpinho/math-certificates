@@ -1,0 +1,3 @@
+command: upstream/cake_lpr/cake_lpr --CML_HEAP_SIZE=1400 --CML_STACK_SIZE=256 runs/n8-no-SYM/altered.cnf runs/n8-no-SYM/proof.lrat
+c Checking failed at line: 0. Reason: clause not empty or singleton after reduction
+worker exit=0 elapsed=0.017s sampled_peak_rss=6766592 cumulative_child_peak_rss=52625408 

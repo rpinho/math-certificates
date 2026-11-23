@@ -1,0 +1,9 @@
+{
+  "cnf_sha256": "9c8cf40fb125704e5aae365e3ac212db80f64cffaf4bc7a6961de8539739cea9",
+  "k": 3,
+  "n": 8,
+  "omitted": [
+    "ASYM"
+  ],
+  "verification": "SAT model checked against every canonical clause"
+}

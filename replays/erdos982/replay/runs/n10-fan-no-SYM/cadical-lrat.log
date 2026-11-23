@@ -1,0 +1,159 @@
+command: upstream/cadical/build/cadical --lrat --no-binary runs/n10-fan-no-SYM/formula.cnf runs/n10-fan-no-SYM/proof.lrat
+c --- [ banner ] -------------------------------------------------------------
+c 
+c CaDiCaL SAT Solver
+c Copyright (c) 2016-2024
+c A. Biere, M. Fleury, N. Froleyks, K. Fazekas, F. Pollitt, T. Faller
+c JKU Linz, University of Freiburg, TU Wien
+c 
+c Version 2.2.0 14593f819cb242082b127396218bd60889409737
+c Apple clang version 21.0.0 (clang-2100.4.1.1) -Wall -Wextra -O3 -DNDEBUG -DNCLOSEFROM
+c Mon Nov 23 09:26:24 EST 2026 Darwin mac.lan 27.2.0 arm64
+c 
+c --- [ proof tracing ] ------------------------------------------------------
+c 
+c opening file to write 'runs/n10-fan-no-SYM/proof.lrat'
+c writing non-binary proof trace to 'runs/n10-fan-no-SYM/proof.lrat'
+c 
+c --- [ parsing input ] ------------------------------------------------------
+c 
+c reading DIMACS file from 'runs/n10-fan-no-SYM/formula.cnf'
+c opening file to read 'runs/n10-fan-no-SYM/formula.cnf'
+c found 'p cnf 2070 96640' header
+c parsed 96640 clauses in 0.01 seconds process time
+c 
+c --- [ options ] ------------------------------------------------------------
+c 
+c   --binary=false                 (different from default 'true')
+c   --lrat=true                    (different from default 'false')
+c 
+c --- [ solving ] ------------------------------------------------------------
+c 
+c time measured in process time since initialization
+c 
+c  seconds  reduction conflicts       size tier2      variables
+c         MB    restarts   redundant    glue  trail        remaining
+c          level     rate       size/glu tier1  irredundant
+c 
+c *  0.01  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 96630 2060 100%
+c (  0.01  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 96630 2060 100%
+c .  0.01  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 96630 2060 100%
+c P  0.04  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 96630 2060 100%
+c )  0.04  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 96630 2060 100%
+c {  0.04  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 96630 2060 100%
+c -  0.04  0 14 1  30  3  300  240 2.3 9 4 2 6 12% 96630 2060 100%
+c -  0.06  0 16 2 108  4  733  545 2.0 11 5 2 6 17% 96630 2060 100%
+c }  0.07  0 16 2 135  4 1003  793 2.1 11 5 2 6 17% 96630 2060 100%
+c [  0.07  0  0 2 135  0 1003  793 0.0 0 0 2 6  0% 96630 2060 100%
+c O  0.07  0 81 2 135 82 1004  794 1.4 7 5 2 6 13% 96630 2060 100%
+c -  0.09  0 54 3 135  2 1411  924 2.1 16 7 2 6 32% 96630 2060 100%
+c ]  0.09  0 53 3 135  1 1571 1073 2.2 17 8 2 6 31% 96630 2060 100%
+c {  0.09  0 16 3 135  4 1571 1073 2.1 11 5 2 6 17% 96630 2060 100%
+c -  0.11  0 14 4 203  3 2350 1355 2.1 11 5 2 6 17% 96630 2060 100%
+c t  0.13  0 14 4 211  3 2485 1469 2.1 11 5 2 6 17% 96070 2060 100%
+c O  0.14  0 14 4 268  3 3008 1911 2.1 11 5 2 6 18% 96070 2060 100%
+c -  0.16  0 14 5 371  3 3564 1934 2.0 12 6 2 6 18% 96070 2060 100%
+c }  0.19  0 14 5 548  3 4696 2918 2.0 12 6 2 6 18% 96070 2060 100%
+c [  0.19  0 53 5 548  1 4696 2918 2.2 17 8 2 6 31% 96070 2060 100%
+c 
+c  seconds  reduction conflicts       size  tier2      variables
+c         MB    restarts   redundant     glue  trail        remaining
+c          level     rate       size/glue tier1  irredundant
+c 
+c -  0.23  0 42 6 548  1 5058 2400 1.9 18 9 3 5 30% 96070 2060 100%
+c I  0.26  0 27 6 549  1 6011 3235 1.9 16 8 3 5 23% 96070 2060 100%
+c -  0.30  0 22 7 550  1 6835 2886 2.0 16 8 3 5 22% 96070 2060 100%
+c ]  0.32  0 20 7 550  1 7286 3229 2.0 16 8 2 4 22% 96070 2060 100%
+c {  0.32  0 14 7 550  3 7286 3229 2.0 12 6 2 6 18% 96070 2060 100%
+c -  0.39  0 13 8 743  3 8901 3618 1.9 12 6 2 6 18% 96070 2060 100%
+c i  0.40  0 13 8 743  3 8955 3646 1.9 12 6 2 6 18% 96070 2054 99%
+c i  0.43  0 13 8 841  3 9878 4376 1.9 12 6 2 3 18% 96070 2046 99%
+c #  0.44  0 13 8 855  3 10012 4497 1.9 12 6 2 3 18% 96070 2046 99%
+c i  0.46  0 12 8 860  3 10559 4869 1.9 12 6 2 3 18% 96070 2042 99%
+c i  0.46  0 12 8 876  3 10818 5046 1.9 12 6 2 3 18% 96070 2020 98%
+c i  0.46  0 12 8 876  3 10826 5050 1.9 12 6 2 3 18% 96070 2019 98%
+c i  0.47  0 12 8 876  3 10899 5099 1.9 11 6 2 3 18% 96070 2018 97%
+c i  0.47  0 12 8 876  3 10946 5127 1.9 11 6 2 3 18% 96070 2002 97%
+c }  0.47  0 12 8 876  3 10961 5135 1.9 11 6 2 3 18% 96070 1485 72%
+c 0  0.47  0 12 8 876  3 10961 5135 1.9 11 6 2 3 18% 96070 1485 72%
+c 
+c --- [ closing proof ] ------------------------------------------------------
+c 
+c LRAT proof file 'runs/n10-fan-no-SYM/proof.lrat' closed
+c LRAT 11916 added clauses 63.79%
+c LRAT 6765 deleted clauses 36.21%
+c LRAT 3424177 bytes (3.27 MB)
+c 
+c --- [ result ] -------------------------------------------------------------
+c 
+s UNSATISFIABLE
+c 
+c --- [ run-time profiling ] -------------------------------------------------
+c 
+c process time taken by individual solving procedures
+c (percentage relative to process time for solving)
+c 
+c         0.39   84.51% search
+c         0.26   56.13% unstable
+c         0.13   27.62% stable
+c         0.07   14.97% simplify
+c         0.03    7.45% congruence
+c         0.02    4.90% preprocess
+c         0.02    4.38% sweep
+c         0.01    2.55% parse
+c         0.00    0.92% fastelim
+c         0.00    0.75% lucky
+c         0.00    0.24% subsume
+c         0.00    0.21% probe
+c         0.00    0.18% backbone
+c   =================================
+c         0.46   97.42% solve
+c 
+c last line shows process time for solving
+c (percentage relative to total process time)
+c 
+c --- [ statistics ] ---------------------------------------------------------
+c 
+c chronological:              2840        25.91 %  of conflicts
+c conflicts:                 10961     23926.67    per second
+c backbone:                  43480      2100.48 %  of vars
+c decisions:                 25158     54917.18    per second
+c fixed:                       585        28.26 %  of all variables
+c learned:                   10602        96.72 %  per conflict
+c learned_lits:             237098       100.00 %  learned literals
+c minimized:                     0         0.00 %  learned literals
+c shrunken:                  62892        26.53 %  learned literals
+c minishrunken:              40182        16.95 %  learned literals
+c otfs:                         47         0.43 %  of conflict
+c propagations:            1498784         3.27 M  per second
+c reduced:                    4066        37.10 %  per conflict
+c rephased:                      4      2740.25    interval
+c restarts:                    876        12.51    interval
+c stabilizing:                   2        28.72 %  of conflicts
+c subsumed:                   1394         1.30 %  of all clauses
+c strengthened:                 46         0.04 %  of all clauses
+c ticks:                  31299763        20.98    propagation
+c congruence:                    2      5480.50    interval
+c 
+c seconds are measured in process time for solving
+c 
+c --- [ glue usage ] ---------------------------------------------------------
+c 
+c focused glue 2 used 9545 clauses 28.82% accumulated 62.58% tier1
+c focused glue 3 used 5222 clauses 15.76% accumulated 78.35% tier2
+c 
+c stable glue 2 used 3924 clauses 23.55% accumulated 51.08% tier1
+c stable glue 3 used 2469 clauses 14.81% accumulated 65.90%
+c stable glue 4 used 1576 clauses 9.458% accumulated 75.36% tier2
+c 
+c 
+c --- [ resources ] ----------------------------------------------------------
+c 
+c total process time since initialization:         0.47    seconds
+c total real time since initialization:            0.47    seconds
+c maximum resident set size of process:        72320.00    MB
+c 
+c --- [ shutting down ] ------------------------------------------------------
+c 
+c exit 20
+worker exit=20 elapsed=0.475s sampled_peak_rss=64126976 cumulative_child_peak_rss=74072064 

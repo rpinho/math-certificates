@@ -1,0 +1,129 @@
+command: upstream/cadical/build/cadical --lrat --no-binary runs/n5-positive/formula.cnf runs/n5-positive/proof.lrat
+c --- [ banner ] -------------------------------------------------------------
+c 
+c CaDiCaL SAT Solver
+c Copyright (c) 2016-2024
+c A. Biere, M. Fleury, N. Froleyks, K. Fazekas, F. Pollitt, T. Faller
+c JKU Linz, University of Freiburg, TU Wien
+c 
+c Version 2.2.0 14593f819cb242082b127396218bd60889409737
+c Apple clang version 21.0.0 (clang-2100.4.1.1) -Wall -Wextra -O3 -DNDEBUG -DNCLOSEFROM
+c Mon Nov 23 09:26:24 EST 2026 Darwin mac.lan 27.2.0 arm64
+c 
+c --- [ proof tracing ] ------------------------------------------------------
+c 
+c opening file to write 'runs/n5-positive/proof.lrat'
+c writing non-binary proof trace to 'runs/n5-positive/proof.lrat'
+c 
+c --- [ parsing input ] ------------------------------------------------------
+c 
+c reading DIMACS file from 'runs/n5-positive/formula.cnf'
+c opening file to read 'runs/n5-positive/formula.cnf'
+c found 'p cnf 110 954' header
+c parsed 954 clauses in 0.00 seconds process time
+c 
+c --- [ options ] ------------------------------------------------------------
+c 
+c   --binary=false                 (different from default 'true')
+c   --lrat=true                    (different from default 'false')
+c 
+c --- [ solving ] ------------------------------------------------------------
+c 
+c time measured in process time since initialization
+c 
+c  seconds  reduction conflicts       size tier2     variables
+c         MB    restarts   redundant    glue  trail      remaining
+c          level     rate       size/glu tier1 irredundant
+c 
+c *  0.00  0  0 0   0  0    0    0 0.0 0 0 2 6  0%  907 101 92%
+c (  0.00  0  0 0   0  0    0    0 0.0 1 0 2 6 38%  907  96 87%
+c .  0.00  0  0 0   0  0    0    0 0.0 1 0 2 6 38%  859  96 87%
+c c  0.00  0  0 0   0  0    0    0 0.0 1 0 2 6 38%  810  90 82%
+c d  0.00  0  0 0   0  0    0    0 0.0 1 0 2 6 38%  780  88 80%
+c k  0.00  0  0 0   0  0    0    0 0.0 1 0 2 6 38%  780  87 79%
+c =  0.00  0  0 0   0  0    0    0 0.0 1 0 2 6 38%    1   0  0%
+c P  0.00  0  0 0   0  0    0    0 0.0 1 0 2 6 38%    0   0  0%
+c )  0.00  0  0 0   0  0    0    0 0.0 1 0 2 6 38%    0   0  0%
+c l  0.00  0  0 0   0  0    0    0 0.0 1 0 2 6 38%    0   0  0%
+c 1  0.00  0  0 0   0  0    0    0 0.0 1 0 2 6 38%    0   0  0%
+c 
+c --- [ closing proof ] ------------------------------------------------------
+c 
+c LRAT proof file 'runs/n5-positive/proof.lrat' closed
+c LRAT 1468 added clauses 38.50%
+c LRAT 2345 deleted clauses 61.50%
+c LRAT 63428 bytes (0.06 MB)
+c 
+c --- [ result ] -------------------------------------------------------------
+c 
+s SATISFIABLE
+v 1 2 -3 -4 5 6 -7 8 -9 -10 -11 -12 -13 -14 -15 -16 -17 -18 -19 -20 -21 -22
+v -23 -24 -25 -26 -27 -28 29 30 -31 32 33 -34 35 -36 -37 38 39 -40 41 42 -43
+v 44 -45 -46 -47 -48 -49 -50 -51 -52 -53 -54 -55 -56 -57 -58 -59 -60 -61 -62
+v -63 -64 65 66 -67 -68 69 70 71 -72 -73 -74 -75 -76 -77 -78 -79 -80 -81 -82
+v 83 84 -85 -86 87 88 -89 90 91 92 -93 -94 95 -96 97 -98 99 100 -101 -102 103
+v -104 105 -106 107 108 -109 -110 0
+c 
+c --- [ run-time profiling ] -------------------------------------------------
+c 
+c process time taken by individual solving procedures
+c (percentage relative to process time for solving)
+c 
+c         0.00   94.42% preprocess
+c         0.00   91.20% simplify
+c         0.00   72.75% sweep
+c         0.00   12.29% congruence
+c         0.00    9.87% parse
+c         0.00    2.84% search
+c         0.00    2.79% lucky
+c         0.00    1.29% backbone
+c         0.00    0.16% fastelim
+c   =================================
+c         0.00   77.22% solve
+c 
+c last line shows process time for solving
+c (percentage relative to total process time)
+c 
+c --- [ statistics ] ---------------------------------------------------------
+c 
+c backbone:                    352       320.00 %  of vars
+c fixed:                        77        70.00 %  of all variables
+c lucky:                         1        50.00 %  of tried
+c learned_lits:                  1       100.00 %  learned literals
+c minimized:                     0         0.00 %  learned literals
+c shrunken:                      0         0.00 %  learned literals
+c minishrunken:                  0         0.00 %  learned literals
+c propagations:                112         0.06 M  per second
+c substituted:                  33        30.00 %  of all variables
+c sweep equivs:                 34       340.00 %  of swept variables
+c ticks:                     70088       625.79    propagation
+c weakened:                     72         2.00    average size
+c congruence:                    1         0.00    interval
+c 
+c seconds are measured in process time for solving
+c 
+c --- [ glue usage ] ---------------------------------------------------------
+c 
+c focused glue 2 used 0 clauses 0.000% accumulated 0.000% tier1
+c focused glue 3 used 0 clauses 0.000% accumulated 0.000%
+c focused glue 4 used 0 clauses 0.000% accumulated 0.000%
+c focused glue 5 used 0 clauses 0.000% accumulated 0.000%
+c focused glue 6 used 0 clauses 0.000% accumulated 0.000% tier2
+c 
+c stable glue 2 used 0 clauses 0.000% accumulated 0.000% tier1
+c stable glue 3 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 4 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 5 used 0 clauses 0.000% accumulated 0.000%
+c stable glue 6 used 0 clauses 0.000% accumulated 0.000% tier2
+c 
+c 
+c --- [ resources ] ----------------------------------------------------------
+c 
+c total process time since initialization:         0.00    seconds
+c total real time since initialization:            0.00    seconds
+c maximum resident set size of process:         3696.00    MB
+c 
+c --- [ shutting down ] ------------------------------------------------------
+c 
+c exit 10
+worker exit=10 elapsed=0.013s sampled_peak_rss=2752512 cumulative_child_peak_rss=18612224 

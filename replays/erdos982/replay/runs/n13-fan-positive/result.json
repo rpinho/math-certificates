@@ -1,0 +1,11 @@
+{
+  "cnf_sha256": "950ffbf8f190ae2d617c94c1830d6324418738bdb9409bd89820ac3bd7db1951",
+  "fan": true,
+  "k": 6,
+  "n": 13,
+  "omitted": [],
+  "partial_lrat_sha256": "874b6d7a0912429012b3ecb2c918cceb9949fad262b13da39a17788418f93b16",
+  "solver_probe": "UNRESOLVED",
+  "stop_reason": "solver exit -15",
+  "verification": "Exact regular polygon SAT witness checked against every canonical clause"
+}

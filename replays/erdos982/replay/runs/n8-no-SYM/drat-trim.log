@@ -1,0 +1,11 @@
+command: upstream/drat-trim/drat-trim runs/n8-no-SYM/formula.cnf runs/n8-no-SYM/proof.drat -c runs/n8-no-SYM/core.cnf
+c turning on binary mode checking
+c parsing input formula with 812 variables and 22338 clauses
+c finished parsing, read 15794 bytes from proof file
+c detected empty clause; start verification via backward checking
+c 712 of 22338 clauses in core                            
+c 346 of 899 lemmas in core using 8145 resolution steps
+c 0 RAT lemmas in core; 61 redundant literals in core lemmas
+s VERIFIED
+c verification time: 0.025 seconds
+worker exit=0 elapsed=0.029s sampled_peak_rss=7127040 cumulative_child_peak_rss=52625408 

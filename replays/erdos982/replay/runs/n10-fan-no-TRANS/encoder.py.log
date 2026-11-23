@@ -1,0 +1,2 @@
+command: /opt/homebrew/opt/python@3.15/bin/python3.15 encoder.py 10 4 runs/n10-fan-no-TRANS/formula.cnf --families runs/n10-fan-no-TRANS/families.tsv --omit TRANS --fan
+worker exit=0 elapsed=0.069s sampled_peak_rss=393216 cumulative_child_peak_rss=23773184 

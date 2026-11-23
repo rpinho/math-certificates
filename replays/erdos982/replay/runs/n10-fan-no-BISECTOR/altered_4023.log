@@ -1,0 +1,3 @@
+command: upstream/cake_lpr/cake_lpr --CML_HEAP_SIZE=1400 --CML_STACK_SIZE=256 runs/n10-fan-no-BISECTOR/altered.cnf runs/n10-fan-no-BISECTOR/proof.lrat
+c Checking failed at line: 1. Reason: clause not empty or singleton after reduction
+worker exit=0 elapsed=0.080s sampled_peak_rss=3686400 cumulative_child_peak_rss=290963456 

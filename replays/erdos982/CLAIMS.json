@@ -1,0 +1,178 @@
+{
+  "claims": [
+    {
+      "value": "982",
+      "kind": "cited",
+      "source": "https://www.erdosproblems.com/982",
+      "label": "Erd\u0151s problem number",
+      "new_bound": false
+    },
+    {
+      "value": "2",
+      "kind": "cited",
+      "source": "https://www.erdosproblems.com/982",
+      "label": "denominator in the problem's threshold floor(n/2)",
+      "new_bound": false
+    },
+    {
+      "value": "66",
+      "kind": "cited",
+      "source": "https://github.com/plasma-ai/erdos/issues/66",
+      "label": "issue number of the original claimed result",
+      "new_bound": false
+    },
+    {
+      "value": "1",
+      "kind": "rigorous",
+      "producer": "replay/encoder_reference.py",
+      "arithmetic": "exact",
+      "label": "one below the conjectured count in the counterexample CNF",
+      "new_bound": false
+    },
+    {
+      "value": "3",
+      "kind": "rigorous",
+      "producer": "replay/encoder_reference.py",
+      "arithmetic": "exact",
+      "label": "n = 8 counterexample threshold",
+      "new_bound": false
+    },
+    {
+      "value": "4",
+      "kind": "rigorous",
+      "producer": "replay/encoder_reference.py",
+      "arithmetic": "exact",
+      "label": "n = 10 counterexample threshold",
+      "new_bound": false
+    },
+    {
+      "value": "5",
+      "kind": "rigorous",
+      "producer": "replay/encoder_reference.py",
+      "arithmetic": "exact",
+      "label": "n = 12 counterexample threshold, also the first positive-control order",
+      "new_bound": false
+    },
+    {
+      "value": "8",
+      "kind": "rigorous",
+      "producer": "replay/encoder_reference.py",
+      "arithmetic": "exact",
+      "label": "first main order",
+      "new_bound": false
+    },
+    {
+      "value": "9",
+      "kind": "rigorous",
+      "producer": "replay/encoder_reference.py",
+      "arithmetic": "exact",
+      "label": "odd successor of order 8",
+      "new_bound": false
+    },
+    {
+      "value": "10",
+      "kind": "rigorous",
+      "producer": "replay/encoder_reference.py",
+      "arithmetic": "exact",
+      "label": "second main order",
+      "new_bound": false
+    },
+    {
+      "value": "11",
+      "kind": "rigorous",
+      "producer": "replay/encoder_reference.py",
+      "arithmetic": "exact",
+      "label": "odd successor of order 10, also the number of rejected mutants",
+      "new_bound": false
+    },
+    {
+      "value": "12",
+      "kind": "rigorous",
+      "producer": "replay/encoder_reference.py",
+      "arithmetic": "exact",
+      "label": "third main order",
+      "new_bound": false
+    },
+    {
+      "value": "13",
+      "kind": "rigorous",
+      "producer": "replay/encoder_reference.py",
+      "arithmetic": "exact",
+      "label": "odd successor of order 12 and last order checked",
+      "new_bound": false
+    },
+    {
+      "value": "22345",
+      "kind": "rigorous",
+      "producer": "replay/encoder_reference.py",
+      "arithmetic": "exact",
+      "label": "canonical n = 8 clause count",
+      "new_bound": false
+    },
+    {
+      "value": "96649",
+      "kind": "rigorous",
+      "producer": "replay/encoder_reference.py",
+      "arithmetic": "exact",
+      "label": "canonical n = 10 FAN clause count",
+      "new_bound": false
+    },
+    {
+      "value": "317384",
+      "kind": "rigorous",
+      "producer": "replay/encoder_reference.py",
+      "arithmetic": "exact",
+      "label": "canonical n = 12 FAN clause count",
+      "new_bound": false
+    },
+    {
+      "value": "0",
+      "kind": "rigorous",
+      "producer": "replay/validate.cpp",
+      "arithmetic": "exact",
+      "label": "generator clause violations observed",
+      "new_bound": false
+    },
+    {
+      "value": "10000",
+      "kind": "rigorous",
+      "producer": "replay/validate.cpp",
+      "arithmetic": "exact",
+      "label": "G1 parabolic samples",
+      "new_bound": false
+    },
+    {
+      "value": "12723834",
+      "kind": "rigorous",
+      "producer": "replay/validate.cpp",
+      "arithmetic": "exact",
+      "label": "G2 rotation classes of regular subsets",
+      "new_bound": false
+    },
+    {
+      "value": "5000",
+      "kind": "rigorous",
+      "producer": "replay/validate.cpp",
+      "arithmetic": "exact",
+      "label": "G3 samples in each construction panel",
+      "new_bound": false
+    },
+    {
+      "value": "909",
+      "kind": "rigorous",
+      "producer": "replay/validate.cpp",
+      "arithmetic": "exact",
+      "label": "CAP full-premise count in G3",
+      "new_bound": false
+    },
+    {
+      "value": "818",
+      "kind": "rigorous",
+      "producer": "replay/validate.cpp",
+      "arithmetic": "exact",
+      "label": "FAN full-premise count in the targeted G3 panel",
+      "new_bound": false
+    }
+  ],
+  "scope": "Replay of the reported floor(n/2) bound for strictly convex polygons of orders 8 through 13."
+}
