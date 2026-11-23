@@ -1,0 +1,11 @@
+--- LeanShadow/ComparatorDefinitions.lean	2026-11-22 19:11:40
++++ $JOB/tmp/corrupt/LeanShadow/ComparatorDefinitions.lean	2026-11-22 20:57:41
+@@ -86,7 +86,7 @@
+ def normalizer (m : ℕ) : ℝ := (sinPrimitive m (Real.pi / 2))⁻¹
+ def capMass (m : ℕ) (r : ℝ) : ℝ := normalizer m * sinPrimitive m r
+ def beltMass (m : ℕ) (r : ℝ) : ℝ := normalizer m * cosPrimitive m r
+-def delta (m : ℕ) : ℝ := capMass m (Real.pi / 4)
++def delta (m : ℕ) : ℝ := capMass m (Real.pi / 3)
+ 
+ def independentMasses (mu : Measure E) : Set ℝ :=
+   {p | ∃ A : Set (Sphere E), NullMeasurableSet A (probability mu) ∧ Avoids A A ∧ area mu A = p}

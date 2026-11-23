@@ -1,0 +1,442 @@
+{
+  "sha": "6d4f78cfb15296297450618dde6fea8b15478ccc",
+  "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/trees/6d4f78cfb15296297450618dde6fea8b15478ccc",
+  "tree": [
+    {
+      "path": "BOUNDS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e577e88ea7540e5be8d57a2d75c76801b8608062",
+      "size": 10365,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/e577e88ea7540e5be8d57a2d75c76801b8608062"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd4e13ecedb9f69472464c59999d3e5b5469c547",
+      "size": 3749,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/fd4e13ecedb9f69472464c59999d3e5b5469c547"
+    },
+    {
+      "path": "checks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c587650358c17d690cadfe5c4b15a35f5c0272bb",
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/trees/c587650358c17d690cadfe5c4b15a35f5c0272bb"
+    },
+    {
+      "path": "checks/check_exponent_numeric.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f5d5fea4a43ce0d2b14c92249a104bb7963fe6b",
+      "size": 1193,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/6f5d5fea4a43ce0d2b14c92249a104bb7963fe6b"
+    },
+    {
+      "path": "checks/check_matching_count.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdc8d679e845bb0af1d54e2b474f0bd1373913de",
+      "size": 2019,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/bdc8d679e845bb0af1d54e2b474f0bd1373913de"
+    },
+    {
+      "path": "checks/check_small_n_certificates.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a5efd9777b45615e549515f3590830db4a937a4",
+      "size": 2407,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/0a5efd9777b45615e549515f3590830db4a937a4"
+    },
+    {
+      "path": "code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c8fa1a6f90dcbab9467ba7e20d6ee8647a976eb",
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/trees/4c8fa1a6f90dcbab9467ba7e20d6ee8647a976eb"
+    },
+    {
+      "path": "code/blowtop.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3822538af0cd9e137a2b7101580547d4679da8bb",
+      "size": 11956,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/3822538af0cd9e137a2b7101580547d4679da8bb"
+    },
+    {
+      "path": "code/c5bound.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "399b9b69811fd8e27a38028cc089af94db936ac2",
+      "size": 10243,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/399b9b69811fd8e27a38028cc089af94db936ac2"
+    },
+    {
+      "path": "code/c5circ.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2848ad47f85f0e8fde9a89b70486fc7cbf19dcd7",
+      "size": 3867,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/2848ad47f85f0e8fde9a89b70486fc7cbf19dcd7"
+    },
+    {
+      "path": "code/c5top.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b5f55d79d7352fd1950f010257e9717ca8c1f93",
+      "size": 7273,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/9b5f55d79d7352fd1950f010257e9717ca8c1f93"
+    },
+    {
+      "path": "code/c5verify.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee9856b540f3181c4506efd3acc10fe5f0025fd5",
+      "size": 4879,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/ee9856b540f3181c4506efd3acc10fe5f0025fd5"
+    },
+    {
+      "path": "code/certify.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45efbaf6c438339433ef6df8961d02ec36c7af6b",
+      "size": 5816,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/45efbaf6c438339433ef6df8961d02ec36c7af6b"
+    },
+    {
+      "path": "code/certify_exact.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33dd62ee68b8498fef3be3fe9af14f6681fbca89",
+      "size": 4843,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/33dd62ee68b8498fef3be3fe9af14f6681fbca89"
+    },
+    {
+      "path": "code/fastemb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1152f41ecb61288e255e3a451e89ba860e9354a3",
+      "size": 4773,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/1152f41ecb61288e255e3a451e89ba860e9354a3"
+    },
+    {
+      "path": "code/fm2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfa78a123db85366695d7ef7831d99e1e175a06b",
+      "size": 6162,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/bfa78a123db85366695d7ef7831d99e1e175a06b"
+    },
+    {
+      "path": "code/goodfast.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4560ab697deed1266b19421e6384f871d508f7c8",
+      "size": 10290,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/4560ab697deed1266b19421e6384f871d508f7c8"
+    },
+    {
+      "path": "code/goodpar.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "734ba0f797e5621b49a8fcb4c6fd57aa881f0316",
+      "size": 13234,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/734ba0f797e5621b49a8fcb4c6fd57aa881f0316"
+    },
+    {
+      "path": "code/k4bottom.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "118744a66863f5fadad26422ccc3e2cfd3fd3af9",
+      "size": 7915,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/118744a66863f5fadad26422ccc3e2cfd3fd3af9"
+    },
+    {
+      "path": "code/r3good.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9924cec4d438f7c4e162bf6174fb8560fb55730c",
+      "size": 10065,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/9924cec4d438f7c4e162bf6174fb8560fb55730c"
+    },
+    {
+      "path": "code/r3good2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cc720e179f8a28ae60a9c199075ed5d5f0fdf8d",
+      "size": 7599,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/7cc720e179f8a28ae60a9c199075ed5d5f0fdf8d"
+    },
+    {
+      "path": "code/rmgood.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48b97b4a0385394960d676cdbb9c18234a0996f8",
+      "size": 7751,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/48b97b4a0385394960d676cdbb9c18234a0996f8"
+    },
+    {
+      "path": "logs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c4d766f08db0e99061b7252bfbc76b2f8a76a7dc",
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/trees/c4d766f08db0e99061b7252bfbc76b2f8a76a7dc"
+    },
+    {
+      "path": "logs/run_K4_n6_max.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05f00884b94199e217531ad4fbc0919b0080322e",
+      "size": 1207,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/05f00884b94199e217531ad4fbc0919b0080322e"
+    },
+    {
+      "path": "logs/run_K5_n345_max.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af9fd093514fecb41431a23f71d51d9c59b71acc",
+      "size": 1383,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/af9fd093514fecb41431a23f71d51d9c59b71acc"
+    },
+    {
+      "path": "logs/run_bottom_K4_n7.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f6e766351864dfb5e2013b42dc2ebd480547790",
+      "size": 28660,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/4f6e766351864dfb5e2013b42dc2ebd480547790"
+    },
+    {
+      "path": "logs/run_certify_exact_10_003.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "364478c05616ce989d7fb4c3a2bad4595e6ced98",
+      "size": 1029,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/364478c05616ce989d7fb4c3a2bad4595e6ced98"
+    },
+    {
+      "path": "logs/run_n7.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c26af713f66f52e27fdb864729472bf2bf886b4",
+      "size": 698,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/3c26af713f66f52e27fdb864729472bf2bf886b4"
+    },
+    {
+      "path": "logs/run_n8.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d73da3be91519706fa8316eb4268aa719e804cc7",
+      "size": 2515,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/d73da3be91519706fa8316eb4268aa719e804cc7"
+    },
+    {
+      "path": "logs/run_n8_plain.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28541b0c4e9b55580f913c447c6fe3daa65fb1e7",
+      "size": 2269,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/28541b0c4e9b55580f913c447c6fe3daa65fb1e7"
+    },
+    {
+      "path": "logs/run_par_K3_n9.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95c13389a2c6a8f71b869b1f44234ae2a3f4b78c",
+      "size": 8370,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/95c13389a2c6a8f71b869b1f44234ae2a3f4b78c"
+    },
+    {
+      "path": "note",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d4afdb5841d7c82c4f365e834ebf011084f0cf41",
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/trees/d4afdb5841d7c82c4f365e834ebf011084f0cf41"
+    },
+    {
+      "path": "note/note.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b456012c4bfd5990858024279902e735229a10a",
+      "size": 339055,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/2b456012c4bfd5990858024279902e735229a10a"
+    },
+    {
+      "path": "note/note.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c3900039c49cea6eca0f6131a1ef374bcbd0fdb",
+      "size": 19709,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/1c3900039c49cea6eca0f6131a1ef374bcbd0fdb"
+    },
+    {
+      "path": "preprint",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e0d3311dd387b8c11f0094bc52c44128df74a33e",
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/trees/e0d3311dd387b8c11f0094bc52c44128df74a33e"
+    },
+    {
+      "path": "preprint/Kataria_Erdos1182_preprint.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bba3a8b3ee0be112cf8dd6075a1a84edbc50e798",
+      "size": 314869,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/bba3a8b3ee0be112cf8dd6075a1a84edbc50e798"
+    },
+    {
+      "path": "preprint/main.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d34e796e765471c894b78dcda723faf0571ab782",
+      "size": 23765,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/d34e796e765471c894b78dcda723faf0571ab782"
+    },
+    {
+      "path": "results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f3a367d61967f6871ecc13eec8303c8a6dffe57a",
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/trees/f3a367d61967f6871ecc13eec8303c8a6dffe57a"
+    },
+    {
+      "path": "results/blowtop_6_8.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c92d632b965d97fcf3439e3c65aff9d1d036290c",
+      "size": 1682,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/c92d632b965d97fcf3439e3c65aff9d1d036290c"
+    },
+    {
+      "path": "results/bottom_K4_n7.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9df45ad9af8d460d0b8f5f3ee64a30029ecd8428",
+      "size": 6002,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/9df45ad9af8d460d0b8f5f3ee64a30029ecd8428"
+    },
+    {
+      "path": "results/c5best_14_20.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ff3131a7c413708cf7f0c8b79b5fa001b4a14c9",
+      "size": 8822,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/1ff3131a7c413708cf7f0c8b79b5fa001b4a14c9"
+    },
+    {
+      "path": "results/c5bound_11_14_slack0.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0889b09d228bd556b30516ca4f56a49cdfb3d225",
+      "size": 1400,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/0889b09d228bd556b30516ca4f56a49cdfb3d225"
+    },
+    {
+      "path": "results/c5bound_4_10_slack0.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01652ec4753e82d296777d09b26ce045c19d6ee8",
+      "size": 2877,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/01652ec4753e82d296777d09b26ce045c19d6ee8"
+    },
+    {
+      "path": "results/c5top_13_13_slack1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb874322f3a301bec03235a967203f9246d99afd",
+      "size": 761,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/fb874322f3a301bec03235a967203f9246d99afd"
+    },
+    {
+      "path": "results/c5top_13_proven.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43fa1227791a9c999d60253fa2125206537fe40c",
+      "size": 760,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/43fa1227791a9c999d60253fa2125206537fe40c"
+    },
+    {
+      "path": "results/par_K3_n8.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4914b656b105e2fb7fcfe09fd8871020e52c8012",
+      "size": 54937,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/4914b656b105e2fb7fcfe09fd8871020e52c8012"
+    },
+    {
+      "path": "results/par_K3_n9.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5884872653ee5f16a572a7661aaf1dbc19cf27c8",
+      "size": 306792,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/5884872653ee5f16a572a7661aaf1dbc19cf27c8"
+    },
+    {
+      "path": "results/results_3_4_5_6.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d981f387eeb8a6db6141cbd32282d2be588f22c",
+      "size": 2360,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/5d981f387eeb8a6db6141cbd32282d2be588f22c"
+    },
+    {
+      "path": "results/results_7.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f07ab8992b2457d2af90175671380b90756b1e50",
+      "size": 2961,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/f07ab8992b2457d2af90175671380b90756b1e50"
+    },
+    {
+      "path": "results/results_K4_3_4_5_max.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30e13c48e7d53f35317a5a070096431dad19e60b",
+      "size": 1645,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/30e13c48e7d53f35317a5a070096431dad19e60b"
+    },
+    {
+      "path": "results/results_K4_4_5_max.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d6a93d2be1d6143795d44973863f9a48d0a871b",
+      "size": 11639,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/8d6a93d2be1d6143795d44973863f9a48d0a871b"
+    },
+    {
+      "path": "results/results_K4_6_max.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7b58840318b82c2511171d0f969c201750002fa",
+      "size": 35224,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/f7b58840318b82c2511171d0f969c201750002fa"
+    },
+    {
+      "path": "results/results_K5_3_4_5_max.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53045a092a91661fd8516b3bc95c521421f1f498",
+      "size": 2097,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/53045a092a91661fd8516b3bc95c521421f1f498"
+    },
+    {
+      "path": "results/results_n8.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdbad894f70bef08f1270eabf46c93e4d8875612",
+      "size": 25654,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/bdbad894f70bef08f1270eabf46c93e4d8875612"
+    },
+    {
+      "path": "results/results_n8_plain.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6f5c5d5b0f97a0d9debbfa115d6418261418ea0",
+      "size": 9331,
+      "url": "https://api.github.com/repos/Sovi11/erdos-1182/git/blobs/d6f5c5d5b0f97a0d9debbfa115d6418261418ea0"
+    }
+  ],
+  "truncated": false,
+  "commit": "6d4f78cfb15296297450618dde6fea8b15478ccc"
+}

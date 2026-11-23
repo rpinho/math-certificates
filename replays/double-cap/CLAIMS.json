@@ -1,0 +1,57 @@
+{
+  "claims": [
+    {
+      "value": "3",
+      "kind": "rigorous",
+      "producer": "audit/Bridge.lean",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "dimension threshold n >= 3 for which the Lean bridge derives the frozen statement from the authors' theorem; a replay, not new"
+    },
+    {
+      "value": "1",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2610.27523",
+      "new_bound": false,
+      "label": "the 1 in the S^2 value 1 - sqrt(2)/2 (authors' s2_double_cap_bound)"
+    },
+    {
+      "value": "2/2",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2610.27523",
+      "new_bound": false,
+      "label": "sqrt(2)/2 in the S^2 value 1 - sqrt(2)/2 (authors' s2_double_cap_bound)"
+    },
+    {
+      "value": "0.292893",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2610.27523",
+      "new_bound": false,
+      "label": "decimal value of 1 - sqrt(2)/2, the authors' S^2 bound; replayed, not new"
+    },
+    {
+      "value": "4",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2610.27523",
+      "new_bound": false,
+      "label": "cap radius pi/4 in the definition of the double cap D(a)"
+    },
+    {
+      "value": "99/100",
+      "kind": "rigorous",
+      "producer": "audit/Mutants.lean",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "control factor: the bound multiplied by 99/100 is refuted in Lean (a mutated statement, not a bound)"
+    },
+    {
+      "value": "5",
+      "kind": "rigorous",
+      "producer": "audit/Mutants.lean",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "control radius pi/5: the mutated statement is refuted in Lean (not a bound)"
+    }
+  ],
+  "scope": "Clean-room audit of the authors' Lean proof: statement matches via a Lean bridge; kernel checks complete except the authors' stock comparator driver and its nanoda stage (landrun is Linux-only). No new result."
+}

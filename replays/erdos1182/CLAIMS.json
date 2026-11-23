@@ -1,0 +1,153 @@
+{
+  "claims": [
+    {
+      "value": "11",
+      "kind": "rigorous",
+      "producer": "replay/verify.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "the author's constant 11n/2 (and degree 11), replayed: HOLDS for n >= 10^6; not new"
+    },
+    {
+      "value": "5.03",
+      "kind": "rigorous",
+      "producer": "replay/verify.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "the author's constant 5.03n, replayed: HOLDS for n >= 10^9; not new"
+    },
+    {
+      "value": "-0.0001800948",
+      "kind": "rigorous",
+      "producer": "replay/verify.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "worst certified upper exponent over the 11n/2 certificate (exact rational endpoint, Arb 160-bit)"
+    },
+    {
+      "value": "-0.0000003225",
+      "kind": "rigorous",
+      "producer": "replay/verify.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "worst certified upper exponent over the 5.03n certificate (exact rational endpoint, Arb 160-bit)"
+    },
+    {
+      "value": "4001/10000",
+      "kind": "rigorous",
+      "producer": "replay/verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "uniform cap on the profile simplex used by both certificates (a parameter, not a bound)"
+    },
+    {
+      "value": "1000000",
+      "kind": "rigorous",
+      "producer": "replay/finite.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "my explicit sufficient order n0 for 11n/2; conservative, not the smallest"
+    },
+    {
+      "value": "1000000000",
+      "kind": "rigorous",
+      "producer": "replay/finite.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "my explicit sufficient order n0 for 5.03n; conservative, not the smallest"
+    },
+    {
+      "value": "1305",
+      "kind": "rigorous",
+      "producer": "replay/verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "accepted numeric regions in the 11n/2 tree (a count)"
+    },
+    {
+      "value": "25124",
+      "kind": "rigorous",
+      "producer": "replay/verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "vertices checked in the 11n/2 tree (a count)"
+    },
+    {
+      "value": "15004",
+      "kind": "rigorous",
+      "producer": "replay/verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "accepted numeric regions in the 5.03n tree (a count)"
+    },
+    {
+      "value": "286537",
+      "kind": "rigorous",
+      "producer": "replay/verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "vertices checked in the 5.03n tree (a count)"
+    },
+    {
+      "value": "160",
+      "kind": "rigorous",
+      "producer": "replay/verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Arb working precision in bits (a setting)"
+    },
+    {
+      "value": "10",
+      "kind": "rigorous",
+      "producer": "replay/verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "base degree 10 of the 5.03n construction; also the 10 in 10^6 and 10^9"
+    },
+    {
+      "value": "1",
+      "kind": "rigorous",
+      "producer": "replay/controls.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "exit status 1 of the checker on the corrupted certificate, and run times of about 1 s; not a bound"
+    },
+    {
+      "value": "0",
+      "kind": "rigorous",
+      "producer": "replay/controls.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "zero extra edges in the d=10 control; strict-zero pass line"
+    },
+    {
+      "value": "1182",
+      "kind": "cited",
+      "source": "https://www.erdosproblems.com/1182",
+      "new_bound": false,
+      "label": "Erdős problem number, not a value"
+    },
+    {
+      "value": "2",
+      "kind": "cited",
+      "source": "https://github.com/Sovi11/erdos-1182/blob/6d4f78cfb15296297450618dde6fea8b15478ccc/README.md",
+      "new_bound": false,
+      "label": "the 2 in 11n/2 and in 2n - 1 (definitions)"
+    },
+    {
+      "value": "5",
+      "kind": "cited",
+      "source": "https://github.com/Sovi11/erdos-1182/blob/6d4f78cfb15296297450618dde6fea8b15478ccc/README.md",
+      "new_bound": false,
+      "label": "the 5 in C5 (the five-cycle), not a value"
+    },
+    {
+      "value": "100",
+      "kind": "cited",
+      "source": "https://github.com/Sovi11/erdos-1182/blob/6d4f78cfb15296297450618dde6fea8b15478ccc/preprint/main.tex",
+      "new_bound": false,
+      "label": "the 100 in floor(3n/100) and the author's 100-digit evaluations"
+    }
+  ],
+  "scope": "Clean-room replay of the author's two upper bounds F(n) <= 11n/2 (n >= 10^6) and F(n) <= 5.03n (n >= 10^9) with my own Arb certificates. No new bound."
+}

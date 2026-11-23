@@ -1,0 +1,1456 @@
+[1/141] LeanShadow.CapFunctions
+'ShadowVerification.CapFunctions.sinPrimitive_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapFunctions.cosPrimitive_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapFunctions.sinPrimitive_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapFunctions.normalizer_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapFunctions.sinPrimitive_reflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapFunctions.sinPrimitive_pi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapFunctions.capMass_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapFunctions.capMass_half_pi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapFunctions.beltMass_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapFunctions.beltMass_complement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapFunctions.beltMass_half_pi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapFunctions.capMass_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapFunctions.beltMass_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapFunctions.capMass_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapFunctions.beltMass_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapFunctions.capMass_strictMono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapFunctions.moment_boundary_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapFunctions.moment_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapFunctions.momentBound_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+[2/141] LeanShadow.SphericalProjective
+'ShadowVerification.Spherical.unit_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Spherical.action_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Spherical.action_symm_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Spherical.action_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Spherical.avoids_iff_disjoint_shadow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Spherical.action_orthogonal_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Spherical.shadow_covariance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Spherical.probability_univ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Spherical.area_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Spherical.area_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Spherical.measurable_action_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+[3/141] LeanShadow.ThresholdTrimming
+'ShadowVerification.Trimming.cutMass_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Trimming.cutMass_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Trimming.cutMass_tendsto_atBot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Trimming.cutMass_tendsto_atTop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Trimming.exists_cutMass_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+[4/141] LeanShadow.MonotoneIntegral
+'ShadowVerification.MonotoneIntegral.stieltjes_deriv_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.MonotoneIntegral.stieltjes_density_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.MonotoneIntegral.monotone_deriv_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.MonotoneIntegral.monotone_integral_deriv_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.MonotoneIntegral.stieltjes_increment_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[5/141] LeanShadow.CompactParametricIntegral
+'ShadowVerification.Parametric.hasDerivAt_integral_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Parametric.second_deriv_integral_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+[6/141] LeanShadow.CompactInnerMeasure
+'ShadowVerification.CompactInner.innerMeasure_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompactInner.innerMeasure_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompactInner.compact_le_innerMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompactInner.innerMeasure_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompactInner.measurable_le_innerMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompactInner.sigmaCompact_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompactInner.exists_sigmaCompact_subset_ae_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[7/141] LeanShadow.HilbertWeakCompactness
+'ShadowVerification.HilbertWeak.subsequence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.HilbertWeak.test_clm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.HilbertWeak.exists_weak_subsequence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.HilbertWeak.exists_pair_weak_subsequence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.HilbertWeak.exists_strong_image_subsequence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.HilbertWeak.inner_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.HilbertWeak.inner_image_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+[8/141] LeanShadow.ComparatorDefinitions
+[9/141] LeanShadow.EllipticMaximum
+'ShadowVerification.Elliptic.second_deriv_nonpos_at_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Elliptic.firstLine_zero_at_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Elliptic.secondLine_nonpos_at_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Elliptic.frameOp_nonpos_at_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Elliptic.strict_weak_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Elliptic.exp_quadratic_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Elliptic.exp_quadratic_second_deriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Elliptic.second_deriv_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Elliptic.frameOp_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Elliptic.frameOp_const_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Elliptic.frameOp_sub_const' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Elliptic.gaussian_on_line' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Elliptic.gaussian_line_smooth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Elliptic.gaussian_firstLine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Elliptic.gaussian_secondLine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Elliptic.gaussian_frameOp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Elliptic.gaussian_frameOp_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Elliptic.no_tangent_ball_contact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Elliptic.local_strong_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+[10/141] LeanShadow.ProjectiveJacobian
+'ShadowVerification.Projective.rpow_second_deriv_at_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.flow_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.flow_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.flowNormSq_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.flowNormSqD_hasDeriv_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.flowDensity_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.flowDensity_hasDeriv_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.flowDensity_second_deriv_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.flowDensity_eq_inverse_norm_power' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.Projective.flowEquiv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.flow_operator_isUnit' depends on axioms: [propext, Classical.choice, Quot.sound]
+[11/141] LeanShadow.ShadowVerification
+'ShadowVerification.contraction_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.weighted_trace_algebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.weighted_coercivity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.negative_eigenvalue_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.moment_bound_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.equality_forces_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.concave_endpoint_chord' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.gramContraction_posSemidef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.gramContraction_eq_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.manuscriptContraction_eq_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.manuscriptContraction_posSemidef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.manuscriptContraction_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.manuscriptContraction_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.manuscriptContraction_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.rankOne_isSymm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.manuscriptContraction_rankOne' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.contracted_variation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.matrix_negative_eigenvalue_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.variation_to_scalar_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+[12/141] LeanShadow.MomentComparison
+'ShadowVerification.threshold_indicator_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.superlevel_integral_maximal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.superlevel_equality_off_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.superlevel_equality_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+[13/141] LeanShadow.PlanarLatitude
+'ShadowVerification.PlanarLatitude.kernel_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.PlanarLatitude.kernel_iterated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.PlanarLatitude.polar_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.PlanarLatitude.kernel_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+[14/141] LeanShadow.RatioSupport
+'ShadowVerification.RatioSupport.right_deriv_nonpos_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.RatioSupport.support_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.RatioSupport.support_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.RatioSupport.endpoint_chord' depends on axioms: [propext, Classical.choice, Quot.sound]
+[15/141] LeanShadow.CapRadius
+'ShadowVerification.CapRadius.capMass_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapRadius.capMass_surj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapRadius.massMap_strictMono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapRadius.massMap_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapRadius.radius_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapRadius.mass_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapRadius.radius_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapRadius.radius_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapRadius.radius_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapRadius.radius_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapRadius.radius_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapRadius.radius_sin_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapRadius.radius_cos_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapRadius.radius_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+[16/141] LeanShadow.AntipodalGeometry
+'ShadowVerification.Antipodal.antipode_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Antipodal.antipode_twice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Antipodal.antipode_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Antipodal.subset_symmetrize' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Antipodal.symmetrize_antipodal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Antipodal.action_antipode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Antipodal.antipodal_action_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Antipodal.shadow_antipodal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Antipodal.avoids_symmetrize_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Antipodal.shadow_symmetrize' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Antipodal.symmetrize_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+[17/141] LeanShadow.RadialChange
+'ShadowVerification.Radial.measurable_graph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Radial.graph_measure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Radial.cone_measure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Radial.cone_as_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Radial.cutoff_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Radial.action_cone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Radial.dimension_cancel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Radial.scaled_cone_measure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Radial.cone_one_measure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Radial.toSphere_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Radial.probability_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Radial.transformedArea_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+[18/141] LeanShadow.SphericalDensityPoint
+'ShadowVerification.SphericalDensity.ae_density_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalDensity.exists_density_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalDensity.exists_axis_of_area_lt_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[19/141] LeanShadow.BVLogComparison
+'ShadowVerification.BVLogComparison.smooth_increment_le_monotone' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.BVLogComparison.ratio_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+[20/141] LeanShadow.CompactFrechetIntegral
+'ShadowVerification.Parametric.local_uniform_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Parametric.continuous_fibre' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Parametric.continuousAt_integral_compact_on' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.Parametric.hasFDerivAt_integral_compact_on' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.Parametric.contDiffOn_two_integral_compact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[21/141] LeanShadow.CompactSelfAdjointSquare
+'ShadowVerification.CompactSquare.weak_limit_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompactSquare.image_tendsto_of_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompactSquare.compact_of_comp_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+[22/141] LeanShadow.WeakIndicatorLimits
+'ShadowVerification.WeakIndicators.indicator_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeakIndicators.indicator_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeakIndicators.integral_eq_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeakIndicators.integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeakIndicators.setIntegral_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeakIndicators.nonneg_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeakIndicators.le_one_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeakIndicators.integral_eq_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeakIndicators.positiveSupport_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.WeakIndicators.integral_le_positiveSupport' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.WeakIndicators.indicator_norm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeakIndicators.exists_pair_weak_limits' depends on axioms: [propext, Classical.choice, Quot.sound]
+[23/141] LeanShadow.NonisotropyMechanism
+'ShadowVerification.Nonisotropy.source_zero_near_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Nonisotropy.locally_constant_of_derivative_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.Nonisotropy.elliptic_analytic_contradiction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.Nonisotropy.analytic_compression_contradiction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.Nonisotropy.elliptic_compression_contradiction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[24/141] LeanShadow.CurveCalculus
+'ShadowVerification.Curves.second_deriv_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Curves.firstLine_eq_fderiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Curves.secondLine_eq_fderiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Curves.flow_first_deriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Curves.flow_second_deriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Curves.polarized_flow_second_deriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Curves.sum_flow_second_eq_frameOp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Curves.local_strong_maximum_of_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+[25/141] LeanShadow.ExponentialDeterminant
+'ShadowVerification.Projective.power_apply_eigenvector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.exponential_apply_eigenvector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.flow_apply_eigenvector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.flow_matrix_in_eigenbasis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.trace_eq_sum_eigenvalues' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.flow_determinant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.flow_determinant_trace_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+[26/141] LeanShadow.FrameProjection
+'ShadowVerification.Frame.pairing_comm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.pairing_add_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.pairing_sub_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.pairing_smul_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.pairing_sum_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.pairing_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.pairing_transpose_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.projection_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.projection_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.pairing_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.basis_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.frame_reconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+[27/141] LeanShadow.ShadowGeometry
+'ShadowVerification.avoids_iff_disjoint_shadow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.orthogonal_scaling_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.dual_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.avoids_dual_images' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.vectorShadow_covariance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.vectorShadow_inverse_transpose' depends on axioms: [propext, Classical.choice, Quot.sound]
+[28/141] LeanShadow.SpectralStep
+'ShadowVerification.exists_unit_negative_eigenvector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.rayleigh_bound_for_negative_eigenvalue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.algebraic_curvature_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+[29/141] LeanShadow.WeightedMatrix
+'ShadowVerification.Weighted.frobenius_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Weighted.abs_trace_mul_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Weighted.trace_sq_of_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Weighted.abs_trace_cube_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Weighted.weighted_quadratic_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Weighted.weighted_trace_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Weighted.weighted_source_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Weighted.weightCoefficients_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Weighted.weightCoefficients_contract' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Weighted.weightCoefficients_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Weighted.weightCoefficients_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Weighted.contracted_source_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Weighted.weightCoefficients_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+[30/141] LeanShadow.CapModel
+'ShadowVerification.CapModel.model_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapModel.model_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapModel.model_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapModel.model_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapModel.bound_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapModel.slope_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapModel.bound_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapModel.bound_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapModel.model_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapModel.angularSlope_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapModel.slope_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapModel.model_deriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapModel.slope_deriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapModel.slope_continuousOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapModel.second_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapModel.model_ode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapModel.slope_contDiffOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapModel.model_contDiffOn_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+[31/141] LeanShadow.ProjectiveArea
+'ShadowVerification.Projective.exponential_area_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+[32/141] LeanShadow.SphericalNullSets
+'ShadowVerification.SphericalNull.subspace_section_null' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalNull.singleton_null' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalNull.nullSingletonClass' depends on axioms: [propext, Classical.choice, Quot.sound]
+[33/141] LeanShadow.CompressionAnalytic
+'ShadowVerification.CompressionAnalytic.hasDerivAt_integral_complex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.CompressionAnalytic.isOpen_rightHalfPlane' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.CompressionAnalytic.positive_combination_slitPlane' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.CompressionAnalytic.analyticOnNhd_complex_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.CompressionAnalytic.analyticOnNhd_real_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[34/141] LeanShadow.JointDifferentiation
+'ShadowVerification.Joint.contDiffAt_partialDerivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Joint.hasFDerivAt_fibre' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Joint.continuousOn_fibre_pullback' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Joint.contDiffOn_integral_joint' depends on axioms: [propext, Classical.choice, Quot.sound]
+[35/141] LeanShadow.CompactFeatureOperator
+'ShadowVerification.CompactFeature.coe_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompactFeature.norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompactFeature.weak_to_strong' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompactFeature.compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+[36/141] LeanShadow.IncidenceRounding
+'ShadowVerification.IncidenceRounding.product_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.IncidenceRounding.product_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.IncidenceRounding.positiveSupports_incidence_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.IncidenceRounding.indicator_product_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.IncidenceRounding.incidence_zero_of_avoids' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[37/141] LeanShadow.ContactCalculus
+'ShadowVerification.Contact.support_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Contact.contact_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Contact.contact_second_deriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Contact.flow_contDiff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Contact.along_flow_contDiffAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+[38/141] LeanShadow.WeightedFrame
+'ShadowVerification.WeightedFrame.factor_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeightedFrame.contract_bilinear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeightedFrame.op_eq_frameOp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeightedFrame.directions_symbol' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeightedFrame.directions_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeightedFrame.local_strong_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+[39/141] LeanShadow.FrobeniusBasis
+'ShadowVerification.Frame.flatten_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.flatten_frobeniusBasis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.frobeniusBasis_orthonormal' depends on axioms: [propext, Classical.choice, Quot.sound]
+[40/141] LeanShadow.ProjectionSquares
+'ShadowVerification.Frame.projection_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.projection_row_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.coordinate_outer_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.weighted_row_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.projection_row_square_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.projection_outer_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.projection_outer_self_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.projected_pointwise_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+[41/141] LeanShadow.IntegratedDensity
+'ShadowVerification.Projective.flow_joint_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.flowNormSq_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.flowNormSqD_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.density_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.densityD_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.density_joint_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.densityD_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.densityDD_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.densityIntegral_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.densityIntegralD_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.densityIntegral_second_deriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.densityIntegral_hasDeriv_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.densityIntegral_second_deriv_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[42/141] LeanShadow.AntipodalTrimming
+'ShadowVerification.AntipodalTrimming.orbitCode_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AntipodalTrimming.orbitCode_antipode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AntipodalTrimming.orbitCode_fiber_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AntipodalTrimming.exists_subset_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AntipodalTrimming.exists_set_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+[43/141] LeanShadow.LatitudeCoordinate
+'ShadowVerification.LatitudeCoordinate.null_preimage_iff_of_inverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.LatitudeCoordinate.squeeze_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.LatitudeCoordinate.normalized_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.LatitudeCoordinate.squeeze_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.LatitudeCoordinate.unsqueeze_squeeze' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.LatitudeCoordinate.squeeze_unsqueeze' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.LatitudeCoordinate.normalized_null_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+[44/141] LeanShadow.ContinuousKernelOperator
+'ShadowVerification.ContinuousKernel.section_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ContinuousKernel.coe_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ContinuousKernel.product_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ContinuousKernel.pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ContinuousKernel.compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+[45/141] LeanShadow.CouplingOperator
+'ShadowVerification.CouplingOperator.pullback_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CouplingOperator.pullback_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CouplingOperator.pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CouplingOperator.norm_apply_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CouplingOperator.symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+[46/141] LeanShadow.QuadraticSupport
+'ShadowVerification.ProfileSupport.support_at_center' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileSupport.slope_at_center' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileSupport.lower_support_of_expansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ProfileSupport.positive_lower_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+[47/141] LeanShadow.WeightedEllipticity
+'ShadowVerification.WeightedEllipticity.symbol_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeightedEllipticity.symbol_continuousAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeightedEllipticity.symbol_pos_of_spanning' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.WeightedEllipticity.symbol_lower_of_unit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeightedEllipticity.eventually_uniform_ellipticity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.WeightedEllipticity.eventually_uniform_of_spanning' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[48/141] LeanShadow.WeightedFlow
+'ShadowVerification.WeightedFlow.symmetric_contract' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeightedFlow.flowHessian_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeightedFlow.weighted_flow_eq_op' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeightedFlow.weighted_flow_eq_frameOp' depends on axioms: [propext, Classical.choice, Quot.sound]
+[49/141] LeanShadow.PointwiseContraction
+'ShadowVerification.Frame.pairing_outer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.quadratic_reconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.row_reconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.first_variation_reconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.contraction_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.pointwiseKernel_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.pointwiseKernel_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.pointwise_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.trace_mul_eq_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.contraction_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Frame.pointwise_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+[50/141] LeanShadow.AreaVariations
+'ShadowVerification.Projective.quotient_second_deriv_at_unit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.transformedArea_univ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.densityIntegral_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.whole_densityIntegral_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.exponential_area_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.exponential_area_hasDeriv_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.Projective.exponential_area_second_deriv_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[51/141] LeanShadow.SphericalDirectionNull
+'ShadowVerification.DirectionNull.radial_mass_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DirectionNull.null_iff_rays' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DirectionNull.ratio_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DirectionNull.rays_latitude' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DirectionNull.latitude_null_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+[52/141] LeanShadow.ConstantMarginalBound
+'ShadowVerification.ConstantMarginal.normalized_marginal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ConstantMarginal.measure_zero_of_first_marginal_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ConstantMarginal.norm_le_of_positive_marginals' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ConstantMarginal.norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ConstantMarginal.product_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+[53/141] LeanShadow.RightSlopeTaylor
+'ShadowVerification.RightSlopeTaylor.expansion_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.RightSlopeTaylor.expansion_of_right_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.RightSlopeTaylor.rightSlope_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.RightSlopeTaylor.rightSlope_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.RightSlopeTaylor.rightSlope_ae_differentiable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.RightSlopeTaylor.ae_quadratic_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+[54/141] LeanShadow.FullProjectiveFrame
+'ShadowVerification.FullFrame.leftField_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.FullFrame.continuous_field' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.FullFrame.field_at_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.FullFrame.pairing_skew' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.FullFrame.matrix_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.FullFrame.fields_separate_at_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+[55/141] LeanShadow.WeightedLocalMaximum
+'ShadowVerification.WeightedLocal.local_coefficient_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeightedLocal.source_zero_near_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+[56/141] LeanShadow.FlowMaximum
+'ShadowVerification.FlowMaximum.flow_first_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.FlowMaximum.flowHessian_neg_posSemidef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.FlowMaximum.isClosed_posSemidef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.FlowMaximum.posSemidef_of_pos_perturbation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[57/141] LeanShadow.MatrixBochner
+'ShadowVerification.MatrixIntegral.contraction_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.MatrixIntegral.synthesis_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.MatrixIntegral.integral_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.MatrixIntegral.integral_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.MatrixIntegral.integral_isSymm' depends on axioms: [propext, Classical.choice, Quot.sound]
+[58/141] LeanShadow.JointAreaRegularity
+'ShadowVerification.Regularity.unit_operator_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Regularity.equiv_mem_invertibleDomain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Regularity.contDiffAt_operatorDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Regularity.isOpen_invertibleDomain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Regularity.contDiffOn_operatorDensityIntegral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.Regularity.contDiffAt_operatorDensityIntegral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.Regularity.whole_operator_integral_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.Regularity.whole_operator_integral_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.Regularity.transformedArea_eq_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Regularity.contDiffAt_areaExtension' depends on axioms: [propext, Classical.choice, Quot.sound]
+[59/141] LeanShadow.NormalizedVariations
+'ShadowVerification.Projective.exp_mul_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.exp_mul_second_deriv_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.whole_densityIntegral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.whole_densityIntegral_trace_free' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.Projective.firstMomentVariation_univ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.secondMomentVariation_univ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.exponential_area_integral_trace_free' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.Projective.area_hasDeriv_trace_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Projective.area_second_deriv_trace_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+[60/141] LeanShadow.AxisCoordinates
+'ShadowVerification.AxisCoordinates.equivalence_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AxisCoordinates.inner_perpendicular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AxisCoordinates.inner_equivalence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AxisCoordinates.norm_equivalence_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AxisCoordinates.ratio_equivalence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AxisCoordinates.perpendicular_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AxisCoordinates.perpendicular_nontrivial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AxisCoordinates.ambient_null_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+[61/141] LeanShadow.KernelMeasureBound
+'ShadowVerification.KernelMeasure.first_marginal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.KernelMeasure.second_marginal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.KernelMeasure.pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.KernelMeasure.norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.KernelMeasure.product_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+[62/141] LeanShadow.WeightedOpenMaximum
+'ShadowVerification.WeightedOpen.continuous_extension_near' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeightedOpen.source_zero_near_local_maximum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[63/141] LeanShadow.DualAreaRegularity
+'ShadowVerification.Dual.dualEquiv_to_operator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Dual.dualMap_equiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Dual.dual_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Dual.contDiffAt_dualMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Dual.avoids_dual_images' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Dual.shadow_covariance_dual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Dual.transformedDualArea_eq_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Dual.contDiffAt_dualAreaExtension' depends on axioms: [propext, Classical.choice, Quot.sound]
+[64/141] LeanShadow.EuclideanMatrix
+'ShadowVerification.Coordinates.operator_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Coordinates.operator_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Coordinates.operator_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Coordinates.inner_operator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Coordinates.inner_operator_twice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Coordinates.sphere_dot_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Coordinates.area_first_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Coordinates.area_second_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+[65/141] LeanShadow.SphericalLatitudeClass
+'ShadowVerification.LatitudeClass.product_event_null_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.LatitudeClass.coordinate_null_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+[66/141] LeanShadow.SignedKernelBound
+'ShadowVerification.SignedKernel.absolute_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SignedKernel.absolute_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SignedKernel.normalized_product_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SignedKernel.product_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SignedKernel.norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+[67/141] LeanShadow.ShadowProfile
+'ShadowVerification.Profile.shadowValues_bddBelow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Profile.shadow_mem_values' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Profile.profile_le_shadow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Profile.profile_nonneg_at_competitor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Profile.profile_le_one_at_competitor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Profile.avoiding_shadow_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Profile.feasible_profile_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Profile.transformed_feasible_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Profile.avoidanceCore_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Profile.avoids_avoidanceCore' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Profile.avoidanceCore_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Profile.avoidingPartner_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Profile.avoidingPartner_antipodal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Profile.avoids_avoidingPartner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Profile.avoidingPartner_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Profile.optimalPair_of_optimizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Profile.optimizer_of_optimalPair' depends on axioms: [propext, Classical.choice, Quot.sound]
+[68/141] LeanShadow.IntegratedContraction
+'ShadowVerification.Integrated.continuous_firstDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Integrated.continuous_pointwiseKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Integrated.continuous_momentDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Integrated.sphere_integrable_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Integrated.integratedKernel_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Integrated.firstCoefficients_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Integrated.gradientMatrix_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Integrated.integrated_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Integrated.integrated_first_reconstruction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.Integrated.integrated_trace_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Integrated.gradient_trace_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Integrated.gradient_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+[69/141] LeanShadow.ProfileMinimizingSequence
+'ShadowVerification.ProfileSequence.shadowValues_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileSequence.profile_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileSequence.exists_minimizing_sequence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ProfileSequence.exists_minimizing_pairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileSequence.optimizer_of_large_avoiding_pair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[70/141] LeanShadow.AreaContraction
+'ShadowVerification.AreaContraction.quadraticDensity_symmetric' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.AreaContraction.density_polarization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AreaContraction.continuous_quadraticDensity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.AreaContraction.secondArea_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AreaContraction.firstArea_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AreaContraction.secondArea_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AreaContraction.polarizedAreaMatrix_eq_integrated' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.AreaContraction.firstArea_eq_coefficients' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.AreaContraction.area_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AreaContraction.area_trace_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AreaContraction.firstArea_reconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+[71/141] LeanShadow.AttainmentReduction
+'ShadowVerification.Attainment.pairing_zero_of_avoids' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Attainment.exists_fractional_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Attainment.symmetrized_avoids' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Attainment.exists_optimalPair_of_compact_incidence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.Attainment.empty_optimizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Attainment.pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Attainment.exists_optimalPair_of_compact_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[72/141] LeanShadow.AreaHarmonicity
+'ShadowVerification.Harmonicity.polarizedAreaMatrix_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Harmonicity.sum_secondArea_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Harmonicity.canonical_sum_second_deriv_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[73/141] LeanShadow.PairedAreaVariation
+'ShadowVerification.Paired.actual_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Paired.actual_trace_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Paired.actual_first_reconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Paired.paired_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Paired.stationary_moments' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Paired.paired_contraction_stationary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Paired.actual_variation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+[74/141] LeanShadow.ProjectiveComposition
+'ShadowVerification.Composition.action_trans' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Composition.action_trans_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Composition.transformedArea_trans' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Composition.sum_second_deriv_at_transformation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[75/141] LeanShadow.WeightedAreaSource
+'ShadowVerification.WeightedSource.contact_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeightedSource.actual_source_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeightedSource.frame_sum_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeightedSource.actual_weight_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.WeightedSource.actual_weight_posSemidef' depends on axioms: [propext, Classical.choice, Quot.sound]
+[76/141] LeanShadow.AreaCoordinateVariations
+'ShadowVerification.AreaCoordinates.operatorPath_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AreaCoordinates.operatorPath_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AreaCoordinates.trans_flow_to_operator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AreaCoordinates.area_path_eq_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AreaCoordinates.first_area_in_coordinates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.AreaCoordinates.second_area_in_coordinates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.AreaCoordinates.sum_area_second_in_coordinates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.AreaCoordinates.coordinate_harmonicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+[77/141] LeanShadow.DualFlow
+'ShadowVerification.DualFlow.dual_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DualFlow.dual_trans' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DualFlow.dual_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DualFlow.dual_flow_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DualFlow.dual_trans_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DualFlow.dual_area_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DualFlow.dual_area_flow_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DualFlow.exp_mul_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DualFlow.skew_flow_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DualFlow.skew_flow_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+[78/141] LeanShadow.WeightedFullOperator
+'ShadowVerification.FullWeight.completeWeight_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.FullWeight.completeWeight_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.FullWeight.completeWeight_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.FullWeight.completeWeight_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.FullWeight.geometricWeight_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.FullWeight.geometricWeight_continuousAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.FullWeight.geometric_uniform_ellipticity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.FullWeight.matrix_entry_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+[79/141] LeanShadow.AmbientArea
+'ShadowVerification.AmbientArea.matrixOperator_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AmbientArea.coordinateEquiv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AmbientArea.operator_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AmbientArea.operator_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AmbientArea.coordinate_leftField' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AmbientArea.coordinate_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AmbientArea.coordinate_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AmbientArea.coordinate_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AmbientArea.coordinate_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AmbientArea.flow_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AmbientArea.primal_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AmbientArea.dual_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AmbientArea.primal_contDiffAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AmbientArea.dual_contDiffAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+[80/141] LeanShadow.InvariantArea
+'ShadowVerification.Invariance.scalar_flow_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Invariance.area_of_constant_unit_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Invariance.skew_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Invariance.scalar_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Invariance.skew_area_at_transformation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Invariance.scalar_area_at_transformation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Invariance.dual_skew_area_at_transformation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.Invariance.dual_scalar_area_at_transformation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[81/141] LeanShadow.ActualContact
+'ShadowVerification.ActualContact.operator_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ActualContact.leftField_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ActualContact.primal_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ActualContact.dual_flow_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ActualContact.first_primal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ActualContact.second_primal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ActualContact.first_dual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ActualContact.second_dual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ActualContact.contact_contDiffAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ActualContact.contact_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ActualContact.contact_second' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ActualContact.first_primal_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ActualContact.contact_hessian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ActualContact.contact_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+[82/141] LeanShadow.OrthogonalHaar
+'ShadowVerification.OrthogonalHaar.haar_map_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OrthogonalHaar.rotate_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OrthogonalHaar.rotate_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OrthogonalHaar.rotate_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OrthogonalHaar.exists_exchange' depends on axioms: [propext, Classical.choice, Quot.sound]
+[83/141] LeanShadow.ContactInvariantFields
+'ShadowVerification.ContactInvariance.operator_star' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ContactInvariance.skewGenerator_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ContactInvariance.contact_skew_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ContactInvariance.contact_scalar_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ContactInvariance.extra_contact_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ContactInvariance.extra_contact_first_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ContactInvariance.extra_contact_second_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[84/141] LeanShadow.SphericalRotation
+'ShadowVerification.SphericalRotation.rotate_eq_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalRotation.measurePreserving_rotate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.SphericalRotation.orbit_map_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalRotation.orbit_map_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+[85/141] LeanShadow.ActualContactOperator
+'ShadowVerification.ContactOperator.flowHessian_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ContactOperator.traceDrift_contact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ContactOperator.complete_contact_contraction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ContactOperator.actual_full_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+[86/141] LeanShadow.OrthogonalIncidence
+'ShadowVerification.OrthogonalIncidence.frame_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OrthogonalIncidence.orthogonal_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OrthogonalIncidence.measurePreserving_swap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.OrthogonalIncidence.measurePreserving_diagonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.OrthogonalIncidence.firstMarginal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OrthogonalIncidence.secondMarginal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OrthogonalIncidence.exists_orthogonal_pair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.OrthogonalIncidence.realization_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+[87/141] LeanShadow.SphericalPolarIntegration
+'ShadowVerification.SphericalPolarIntegration.lintegral_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalPolarIntegration.probability_haar_independent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.SphericalPolarIntegration.lintegral_ratio_ball' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[88/141] LeanShadow.ActualMomentField
+'ShadowVerification.MomentField.moment_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.MomentField.moment_continuousAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.MomentField.coefficients_continuousAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.MomentField.drift_continuousAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.MomentField.variable_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.MomentField.eventually_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.MomentField.local_source_at_isotropic' depends on axioms: [propext, Classical.choice, Quot.sound]
+[89/141] LeanShadow.OrthogonalFrame
+'ShadowVerification.OrthogonalFrame.dist_mul_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OrthogonalFrame.exists_exchange_fix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OrthogonalFrame.exists_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OrthogonalFrame.exists_exchange_latitude' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OrthogonalFrame.exists_pair_of_inner_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+[90/141] LeanShadow.SphericalIncidenceOperator
+'ShadowVerification.SphericalIncidenceOperator.pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalIncidenceOperator.pairing_haar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalIncidenceOperator.norm_apply_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalIncidenceOperator.symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalIncidenceOperator.nonneg_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalIncidenceOperator.integral_operator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.SphericalIncidenceOperator.indicator_pairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.SphericalIncidenceOperator.avoiding_pairing_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.SphericalIncidenceOperator.exists_optimizer_of_compact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.SphericalIncidenceOperator.exists_optimizer_of_compact_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.SphericalIncidenceOperator.operator_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+[91/141] LeanShadow.SphericalAngularMeasure
+'ShadowVerification.SphericalAngularMeasure.ball_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalAngularMeasure.lintegral_coordinate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[92/141] LeanShadow.ActualLocalNonisotropy
+'ShadowVerification.ActualLocal.point_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ActualLocal.action_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ActualLocal.moment_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ActualLocal.isotropic_contact_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+[93/141] LeanShadow.OrthogonalStabilizer
+'ShadowVerification.AxisStabilizer.rotate_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AxisStabilizer.subgroup_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AxisStabilizer.haar_map_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AxisStabilizer.fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AxisStabilizer.exists_latitude' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AxisStabilizer.same_axis' depends on axioms: [propext, Classical.choice, Quot.sound]
+[94/141] LeanShadow.SphericalKernelTruncation
+'ShadowVerification.SphericalKernel.row_integral_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalKernel.cutoff_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalKernel.cutoff_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalKernel.cutoff_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalKernel.cutoff_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalKernel.compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalKernel.pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalKernel.cutoff_row_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalKernel.cutoff_row_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalKernel.norm_le_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalKernel.row_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+[95/141] LeanShadow.AngularNormalization
+'ShadowVerification.AngularNormalization.lintegral_Ioo_eq_ofReal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.AngularNormalization.angularIntegral_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AngularNormalization.angularIntegral_slice' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.AngularNormalization.slice_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AngularNormalization.lintegral_slice' depends on axioms: [propext, Classical.choice, Quot.sound]
+[96/141] LeanShadow.ProfileContactMaximum
+'ShadowVerification.ProfileContact.dual_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileContact.primal_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileContact.dual_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileContact.optimal_contact_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileContact.contact_le_one_at_transformation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ProfileContact.contact_maximum_of_lower_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ProfileContact.contact_maximum_of_expansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ProfileContact.optimizer_contact_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileContact.isotropic_optimizer_moment_zero_near' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[97/141] LeanShadow.HaarConditionalAverage
+'ShadowVerification.ConditionalAverage.average_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ConditionalAverage.average_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ConditionalAverage.pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ConditionalAverage.orbit_quotient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ConditionalAverage.average_factors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ConditionalAverage.descend_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ConditionalAverage.spherical_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ConditionalAverage.spherical_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+[98/141] LeanShadow.SphericalSingularKernel
+'ShadowVerification.SingularKernel.nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SingularKernel.symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SingularKernel.cutoff_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SingularKernel.scale_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SingularKernel.scale_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SingularKernel.cutoff_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SingularKernel.measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SingularKernel.invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SingularKernel.rows_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SingularKernel.product_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SingularKernel.row_error_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SingularKernel.kernel_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+[99/141] LeanShadow.LocalAreaConstancy
+'ShadowVerification.LocalArea.symmetric_derivative_eq_pairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.LocalArea.symmetric_derivative_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.LocalArea.primal_skew_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.LocalArea.primal_scalar_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.LocalArea.extra_primal_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.LocalArea.extra_derivative_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.LocalArea.full_field_derivatives_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.LocalArea.eventually_covector_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.LocalArea.eventually_fderiv_zero_of_moment_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.LocalArea.locally_constant_of_moment_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.LocalArea.isotropic_optimizer_area_constant_near' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[100/141] LeanShadow.OptimizerVariation
+'ShadowVerification.OptimizerVariation.stationarity_at_maximum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.OptimizerVariation.variation_at_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OptimizerVariation.pair_stationarity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OptimizerVariation.pair_second_variation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OptimizerVariation.pair_moment_stationarity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.OptimizerVariation.pair_matrix_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OptimizerVariation.optimizer_matrix_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[101/141] LeanShadow.OrthogonalPairLaw
+'ShadowVerification.PairLaw.measure_eq_of_inner_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.PairLaw.continuous_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.PairLaw.continuous_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.PairLaw.continuous_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+[102/141] LeanShadow.HaarDensityRepresentatives
+'ShadowVerification.HaarDensity.lift_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.HaarDensity.average_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.HaarDensity.representative_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.HaarDensity.average_rotate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.HaarDensity.ae_group_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.HaarDensity.representative_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.HaarDensity.representative_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+[103/141] LeanShadow.IncidenceKernelCompactness
+'ShadowVerification.IncidenceCompactness.norm_error_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.IncidenceCompactness.operator_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.IncidenceCompactness.compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.IncidenceCompactness.incidence_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.IncidenceCompactness.exists_optimizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+[104/141] LeanShadow.ProjectiveCompression
+'ShadowVerification.Compression.axisProjection_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Compression.inner_axis_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Compression.axisProjection_idempotent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Compression.axisProjection_orthogonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Compression.dilation_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Compression.projection_dilation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Compression.dilation_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Compression.dilation_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Compression.dilationEquiv_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Compression.compressionEquiv_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Compression.compressionOperator_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Compression.compressionOperator_continuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.Compression.compression_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Compression.projection_sq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Compression.compression_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Compression.analytic_compression_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.Compression.compressionArea_eq_transformedArea' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.Compression.analytic_compressionArea' depends on axioms: [propext, Classical.choice, Quot.sound]
+[105/141] LeanShadow.IncidenceTwoStep
+'ShadowVerification.TwoStep.sample_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.TwoStep.gram_sample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.TwoStep.firstMarginal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.TwoStep.secondMarginal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.TwoStep.continuous_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+[106/141] LeanShadow.IncidenceDensityRecovery
+'ShadowVerification.IncidenceRecovery.ratio_sum_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.IncidenceRecovery.incompatible_density_limits' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.IncidenceRecovery.representatives_avoid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.IncidenceRecovery.pointwiseRecovery' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.IncidenceRecovery.exists_optimizer_of_compact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[107/141] LeanShadow.AntipodalDensity
+'ShadowVerification.AntipodalDensity.antipode_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AntipodalDensity.antipode_image_closedBall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.AntipodalDensity.opposite_balls_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AntipodalDensity.measurableSet_doubleBall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.AntipodalDensity.measure_antipode_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AntipodalDensity.antipode_image_inter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AntipodalDensity.measure_doubleBall' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AntipodalDensity.measure_inter_doubleBall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.AntipodalDensity.doubleBall_density_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.AntipodalDensity.exists_doubleBall_density_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[108/141] LeanShadow.CompressionJacobian
+'ShadowVerification.CompressionJacobian.axisProjection_symmetric' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.CompressionJacobian.complementProjection_symmetric' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.CompressionJacobian.axisProjection_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompressionJacobian.complementProjection_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.CompressionJacobian.flow_complementProjection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.CompressionJacobian.dilation_determinant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompressionJacobian.dilation_determinant_pow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.CompressionJacobian.transformedArea_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.CompressionJacobian.kernel_integral_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompressionJacobian.kernel_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+[109/141] LeanShadow.EquatorialMeasure
+'ShadowVerification.Equatorial.embed_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Equatorial.embed_perpendicular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Equatorial.maps_perpendicular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Equatorial.embed_rotate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Equatorial.orbit_map_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.Equatorial.orbit_map_spherical' depends on axioms: [propext, Classical.choice, Quot.sound]
+[110/141] LeanShadow.SphericalCaps
+'ShadowVerification.SphericalCaps.cap_antipodal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalCaps.cap_slice_union' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalCaps.cap_slices_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalCaps.cap_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalCaps.measurePreserving_antipode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalCaps.lintegral_cap_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalCaps.cap_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalCaps.cap_axial_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+[111/141] LeanShadow.CompressionTail
+'ShadowVerification.CompressionTail.dilation_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompressionTail.dilation_norm_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompressionTail.kernel_le_away_axis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompressionTail.kernel_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompressionTail.kernel_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompressionTail.tail_integral_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[112/141] LeanShadow.InvariantPairMeasure
+'ShadowVerification.InvariantPair.diagonal_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.InvariantPair.gram_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.InvariantPair.quotientMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.InvariantPair.average_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.InvariantPair.average_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.InvariantPair.average_factors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.InvariantPair.descend_quotient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.InvariantPair.integral_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.InvariantPair.ext_of_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+[113/141] LeanShadow.CompressionLayercake
+'ShadowVerification.CompressionLayercake.lintegral_le_of_superlevel_domination' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.CompressionLayercake.integral_le_of_superlevel_domination' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.CompressionLayercake.positive_part_superlevel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.CompressionLayercake.integral_le_of_high_level_density' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[114/141] LeanShadow.CompressionLevelSets
+'ShadowVerification.CompressionLevels.height_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompressionLevels.height_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompressionLevels.projection_norm_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompressionLevels.perpendicular_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompressionLevels.height_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompressionLevels.distance_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompressionLevels.distance_antipode_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompressionLevels.mem_doubleBall_iff_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.CompressionLevels.dilation_norm_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompressionLevels.perpendicular_lower_outside_doubleBall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.CompressionLevels.kernel_mono_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CompressionLevels.superlevel_doubleBall_data' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.CompressionLevels.superlevel_eq_doubleBall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[115/141] LeanShadow.TwoStepGramClass
+'ShadowVerification.TwoStepGram.product_null_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.TwoStepGram.twoStep_null_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.TwoStepGram.absolutelyContinuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+[116/141] LeanShadow.CompressionConcentration
+'ShadowVerification.CompressionConcentration.small_doubleBall_mass_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.CompressionConcentration.high_superlevel_mass_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.CompressionConcentration.kernel_integral_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.CompressionConcentration.compressionArea_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.CompressionConcentration.exists_zero_compression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[117/141] LeanShadow.SphericalPairDensity
+'ShadowVerification.PairDensity.map_weighted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.PairDensity.invariant_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.PairDensity.invariant_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.PairDensity.invariant_twoStep' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.PairDensity.density_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.PairDensity.twoStep_absolutelyContinuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+[118/141] LeanShadow.OptimizerCompression
+'ShadowVerification.OptimizerCompression.path_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OptimizerCompression.path_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OptimizerCompression.path_eq_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OptimizerCompression.primal_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OptimizerCompression.compressionArea_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OptimizerCompression.constant_compression_of_locally_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.OptimizerCompression.isotropic_optimizer_compression_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.OptimizerCompression.nonisotropic_of_zero_compression_limit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.OptimizerCompression.optimizer_nonisotropic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.OptimizerCompression.optimizer_area_fderiv_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[119/141] LeanShadow.ZonalKernelCompactness
+'ShadowVerification.ZonalCompactness.global_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ZonalCompactness.row_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ZonalCompactness.row_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ZonalCompactness.product_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ZonalCompactness.norm_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ZonalCompactness.compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+[120/141] LeanShadow.AffineContact
+'ShadowVerification.AffineContact.dilation_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AffineContact.dual_compression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AffineContact.affine_local_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AffineContact.dual_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AffineContact.contact_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AffineContact.analytic_affine_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.AffineContact.affine_compression_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[121/141] LeanShadow.IncidenceAttainment
+'ShadowVerification.IncidenceAttainment.scalarDensity_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.IncidenceAttainment.scalarDensity_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.IncidenceAttainment.joint_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.IncidenceAttainment.twoStep_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.IncidenceAttainment.twoStep_continuous_pairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.IncidenceAttainment.square_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.IncidenceAttainment.compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.IncidenceAttainment.exists_optimizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+[122/141] LeanShadow.ProfileClosedness
+'ShadowVerification.ProfileClosedness.region_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileClosedness.region_profile_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileClosedness.optimal_mem_region' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileClosedness.region_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileClosedness.region_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileClosedness.profile_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+[123/141] LeanShadow.ProfileConcavity
+'ShadowVerification.ProfileConcavity.profile_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileConcavity.transformed_mem_region' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileConcavity.chord_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileConcavity.concave' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileConcavity.locallyLipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileConcavity.continuous_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+[124/141] LeanShadow.SmallShadowCaps
+'ShadowVerification.SmallShadowCaps.open_area_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SmallShadowCaps.latitude_null' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SmallShadowCaps.abs_latitude_null' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SmallShadowCaps.thin_belt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SmallShadowCaps.shadow_ball_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SmallShadowCaps.exists_small_shadow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SmallShadowCaps.profile_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SmallShadowCaps.profile_small_near_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+[125/141] LeanShadow.CapShadow
+'ShadowVerification.CapShadow.shadow_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapShadow.shadow_cap_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapShadow.shadow_cap_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapShadow.profile_le_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+[126/141] LeanShadow.ProfileEndpoints
+'ShadowVerification.ProfileEndpoints.avoiding_mass_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileEndpoints.mass_le_shadow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileEndpoints.mass_le_profile' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileEndpoints.profile_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileEndpoints.continuous_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileEndpoints.continuous_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+[127/141] LeanShadow.SphericalMomentBound
+'ShadowVerification.SphericalMomentBound.cap_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalMomentBound.equal_cap_measure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalMomentBound.moment_maximal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SphericalMomentBound.moment_equality' depends on axioms: [propext, Classical.choice, Quot.sound]
+[128/141] LeanShadow.ProfileRegularity
+'ShadowVerification.ProfileRegularity.continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileRegularity.rightSlope_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileRegularity.rightSlope_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileRegularity.rightSlope_eq_right_deriv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ProfileRegularity.rightSlope_locallyBV' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileRegularity.curvature_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileRegularity.ae_positive_quadratic_expansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ProfileRegularity.ae_deriv_eq_rightSlope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileRegularity.ae_optimizer_nonisotropic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[129/141] LeanShadow.CapRayleigh
+'ShadowVerification.CapRayleigh.unit_rep' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapRayleigh.rayleigh_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapRayleigh.sharp_rayleigh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapRayleigh.sharp_rayleigh_equality' depends on axioms: [propext, Classical.choice, Quot.sound]
+[130/141] LeanShadow.ProfileVariations
+'ShadowVerification.ProfileVariations.optimizer_spectral_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ProfileVariations.optimizer_curvature_bound_of_rayleigh' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ProfileVariations.ae_optimizer_variations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ProfileVariations.ae_optimizer_spectral_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ProfileVariations.ae_rightSlope_deriv_neg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[131/141] LeanShadow.ProfileCapInequality
+'ShadowVerification.ProfileCapInequality.profile_le_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProfileCapInequality.moment_bound_at_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ProfileCapInequality.optimizer_curvature_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ProfileCapInequality.ae_profile_inequality' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ProfileCapInequality.ae_profile_model_inequality' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+[132/141] LeanShadow.SharpProfile
+'ShadowVerification.SharpProfile.model_strictMono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SharpProfile.model_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SharpProfile.rightSlope_ratio_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SharpProfile.model_le_profile' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SharpProfile.profile_eq_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SharpProfile.profile_eventuallyEq_model' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SharpProfile.profile_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SharpProfile.rightSlope_eq_modelSlope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SharpProfile.rightSlope_ratio_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SharpProfile.profile_contDiffOn_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SharpProfile.profile_quadratic_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SharpProfile.curvature_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+[133/141] LeanShadow.OptimizerRigidity
+'ShadowVerification.OptimizerRigidity.optimizer_eq_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OptimizerRigidity.borel_shadow_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.OptimizerRigidity.borel_shadow_equality' depends on axioms: [propext, Classical.choice, Quot.sound]
+[134/141] LeanShadow.ShadowRegularity
+'ShadowVerification.ShadowRegularity.shadow_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ShadowRegularity.shadow_iUnion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ShadowRegularity.shadow_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ShadowRegularity.shadow_sigmaCompact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ShadowRegularity.symmetrize_sigmaCompact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ShadowRegularity.antipode_image_eq_preimage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ShadowRegularity.innerMeasure_ne_top' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ShadowRegularity.innerArea_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ShadowRegularity.innerArea_le_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ShadowRegularity.innerArea_eq_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ShadowRegularity.measurable_area_le_innerArea' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ShadowRegularity.symmetrize_nullMeasurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ShadowRegularity.exists_antipodal_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+[135/141] LeanShadow.SharpShadow
+'ShadowVerification.SharpShadow.shadow_inequality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SharpShadow.shadow_equality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SharpShadow.cap_attains' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SharpShadow.arbitrary_shadow_inequality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.SharpShadow.arbitrary_shadow_equality' depends on axioms: [propext, Classical.choice, Quot.sound]
+[136/141] LeanShadow.DoubleCap
+'ShadowVerification.DoubleCap.quarter_pi_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DoubleCap.delta_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DoubleCap.model_delta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DoubleCap.budget_implies_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DoubleCap.orthogonal_axis_sq_sum_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DoubleCap.open_caps_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DoubleCap.avoiding_inner_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DoubleCap.open_caps_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DoubleCap.double_cap_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DoubleCap.double_cap_equality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.DoubleCap.double_cap_attainment' depends on axioms: [propext, Classical.choice, Quot.sound]
+[137/141] LeanShadow.CapExtremizers
+'ShadowVerification.CapExtremizers.closedCap_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapExtremizers.closedCap_antipodal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapExtremizers.shadow_closedCap_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapExtremizers.closedCap_ae_eq_open' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapExtremizers.closedCap_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapExtremizers.closed_belt_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapExtremizers.closedCap_attains' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapExtremizers.double_cap_conjecture' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapExtremizers.alpha_eq_delta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapExtremizers.capMass_dimension_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapExtremizers.delta_dimension_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapExtremizers.beltMass_dimension_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapExtremizers.model_dimension_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.CapExtremizers.s2_double_cap_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+[138/141] LeanShadow.ProjectiveQuotient
+'ShadowVerification.ProjectiveQuotient.project_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProjectiveQuotient.project_antipode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProjectiveQuotient.project_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProjectiveQuotient.project_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProjectiveQuotient.project_preimage_image' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ProjectiveQuotient.project_isOpenMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProjectiveQuotient.project_openQuotient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProjectiveQuotient.lift_antipodal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProjectiveQuotient.orthogonal_project' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProjectiveQuotient.lift_shadow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProjectiveQuotient.project_measurePreserving' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ShadowVerification.ProjectiveQuotient.lift_nullMeasurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProjectiveQuotient.volume_eq_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProjectiveQuotient.area_eq_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProjectiveQuotient.innerMeasure_eq_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProjectiveQuotient.innerArea_eq_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+[139/141] LeanShadow.ProjectiveShadow
+'ShadowVerification.ProjectiveShadow.cap_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProjectiveShadow.cap_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProjectiveShadow.cap_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProjectiveShadow.cap_ae_of_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProjectiveShadow.sharp_shadow_inequality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProjectiveShadow.sharp_shadow_equality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ShadowVerification.ProjectiveShadow.caps_attain' depends on axioms: [propext, Classical.choice, Quot.sound]
+[140/141] LeanShadow.ComparatorSolution
+'LeanShadow.Comparator.sharp_shadow_inequality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanShadow.Comparator.sharp_shadow_equality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanShadow.Comparator.caps_attain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanShadow.Comparator.double_cap_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanShadow.Comparator.double_cap_equality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanShadow.Comparator.double_cap_attainment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanShadow.Comparator.double_cap_conjecture' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanShadow.Comparator.alpha_eq_delta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanShadow.Comparator.projective_shadow_inequality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanShadow.Comparator.projective_shadow_equality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanShadow.Comparator.projective_caps_attain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanShadow.Comparator.s2_double_cap_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+[141/141] LeanShadow
+Built 141 proof modules.
+peak sampled group RSS 6352158720 bytes

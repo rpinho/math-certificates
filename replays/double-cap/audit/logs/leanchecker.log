@@ -1,0 +1,67 @@
+checking LeanShadow.ActualContact
+replaying LeanShadow.ActualContact
+checking LeanShadow.ActualContactOperator
+replaying LeanShadow.ActualContactOperator
+checking LeanShadow.ActualLocalNonisotropy
+replaying LeanShadow.ActualLocalNonisotropy
+checking LeanShadow.ActualMomentField
+replaying LeanShadow.ActualMomentField
+checking LeanShadow.AffineContact
+replaying LeanShadow.AffineContact
+checking LeanShadow.AmbientArea
+replaying LeanShadow.AmbientArea
+checking LeanShadow.AngularNormalization
+replaying LeanShadow.AngularNormalization
+checking LeanShadow.AntipodalDensity
+replaying LeanShadow.AntipodalDensity
+checking LeanShadow.AntipodalGeometry
+replaying LeanShadow.AntipodalGeometry
+checking LeanShadow.AntipodalTrimming
+replaying LeanShadow.AntipodalTrimming
+checking LeanShadow.AreaContraction
+replaying LeanShadow.AreaContraction
+checking LeanShadow.AreaCoordinateVariations
+replaying LeanShadow.AreaCoordinateVariations
+checking LeanShadow.AreaHarmonicity
+replaying LeanShadow.AreaHarmonicity
+checking LeanShadow.AreaVariations
+replaying LeanShadow.AreaVariations
+checking LeanShadow.AttainmentReduction
+replaying LeanShadow.AttainmentReduction
+checking LeanShadow.AxisCoordinates
+replaying LeanShadow.AxisCoordinates
+checking LeanShadow.BVLogComparison
+replaying LeanShadow.BVLogComparison
+checking LeanShadow.CapExtremizers
+replaying LeanShadow.CapExtremizers
+checking LeanShadow.CapFunctions
+replaying LeanShadow.CapFunctions
+checking LeanShadow.CapModel
+replaying LeanShadow.CapModel
+checking LeanShadow.CapRadius
+replaying LeanShadow.CapRadius
+checking LeanShadow.CapRayleigh
+replaying LeanShadow.CapRayleigh
+checking LeanShadow.CapShadow
+replaying LeanShadow.CapShadow
+checking LeanShadow.CompactFeatureOperator
+replaying LeanShadow.CompactFeatureOperator
+checking LeanShadow.CompactFrechetIntegral
+replaying LeanShadow.CompactFrechetIntegral
+checking LeanShadow.CompactInnerMeasure
+replaying LeanShadow.CompactInnerMeasure
+checking LeanShadow.CompactParametricIntegral
+replaying LeanShadow.CompactParametricIntegral
+checking LeanShadow.CompactSelfAdjointSquare
+replaying LeanShadow.CompactSelfAdjointSquare
+checking LeanShadow.ComparatorDefinitions
+uncaught exception: Could not find any oleans for: LeanShadow.ComparatorDefinitions
+Traceback (most recent call last):
+  File "$JOB/replay-kernel.py", line 8, in <module>
+    subprocess.run(['leanchecker', '--verbose', module], check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/subprocess.py", line 692, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command ['leanchecker', '--verbose', 'LeanShadow.ComparatorDefinitions'] returned non-zero exit status 1.
+peak sampled group RSS 3460349952 bytes

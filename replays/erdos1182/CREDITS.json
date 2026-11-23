@@ -1,0 +1,25 @@
+{
+  "credits": [],
+  "contributors": [
+    {
+      "name": "P. Kataria with Claude",
+      "role": "the claimed bounds, the C5 blow-up construction and the entropy-certificate strategy (Sovi11/erdos-1182)"
+    },
+    {
+      "name": "S. Brandt",
+      "role": "the bound F(n) <= 84n and the random-regular counting approach"
+    },
+    {
+      "name": "S. A. Burr, P. Erdős, R. J. Faudree, C. C. Rousseau, R. H. Schelp",
+      "role": "the problem"
+    },
+    {
+      "name": "python-flint / Arb, NumPy, SciPy",
+      "role": "libraries"
+    },
+    {
+      "name": "AI agents",
+      "role": "GPT-6.2 Astra clean-room replay (derivation, producer, exact checker); Claude Opus 5.5 packaging"
+    }
+  ]
+}

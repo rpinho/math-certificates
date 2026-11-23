@@ -1,0 +1,24 @@
+BridgeChallenge.lean:12:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+BridgeChallenge.lean:13:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+BridgeChallenge.lean:14:52: error: Type mismatch: After simplification, term
+  hn
+ has type
+  3 ≤ n
+but is expected to have type
+  2 < n
+'DoubleCapAudit.fromChallenge' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+peak sampled group RSS 6377488384 bytes

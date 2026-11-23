@@ -1,0 +1,4 @@
+From the pinned repository root:
+rg -n '\b(sorry|admit|native_decide|implemented_by|extern|unsafe|axiom|opaque)\b|set_option\s+(debug\S*|trace\S*|pp\.\S*|\S*([Rr]ec[Dd]epth|[Hh]eartbeats|[Dd]ebug)\S*)' -g '*.lean' -g '!ComparatorChallenges/Shadow.lean' --sort path
+The repository-wide scan omits -g '*.lean'. Git-ignored dependency/build artifacts are outside this upstream source tree.
+Across LeanShadow.lean and LeanShadow/*.lean: 141 files, 328 lines matching ^\s*(?:(?:public|private|meta)\s+)*import\s, none naming ComparatorChallenges. The 87 common lines from set_option autoImplicit through def alpha agree byte for byte.

@@ -1,0 +1,40 @@
+elaborating Spec.lean
+elaborating NonVacuity.lean
+elaborating BridgeChallenge.lean
+'DoubleCapAudit.fromChallenge' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+elaborating Bridge.lean
+'DoubleCapAudit.fromSolution' depends on axioms: [propext, Classical.choice, Quot.sound]
+elaborating Axioms.lean
+'LeanShadow.Comparator.sharp_shadow_inequality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanShadow.Comparator.sharp_shadow_equality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanShadow.Comparator.caps_attain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanShadow.Comparator.double_cap_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanShadow.Comparator.double_cap_equality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanShadow.Comparator.double_cap_attainment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanShadow.Comparator.double_cap_conjecture' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanShadow.Comparator.alpha_eq_delta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanShadow.Comparator.projective_shadow_inequality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanShadow.Comparator.projective_shadow_equality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanShadow.Comparator.projective_caps_attain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanShadow.Comparator.s2_double_cap_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.fromSolution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.D_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.D_avoids' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.D_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+elaborating Mutants.lean
+Mutants.lean:81:83: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'DoubleCapAudit.Controls.scaled_99' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.strict_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.minus_thousandth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.radius_fifth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.next_sphere' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.raw_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.closed_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.radius_third' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.borel_only' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.n_ge_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.raw_both' depends on axioms: [propext, Classical.choice, Quot.sound]
+peak sampled group RSS 6518161408 bytes

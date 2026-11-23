@@ -1,0 +1,1301 @@
+{
+  "sha": "19deb3ed555cc8404958c1804f9b29898a918d10",
+  "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/trees/19deb3ed555cc8404958c1804f9b29898a918d10",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7acd92dc038f2e22510bc898990e4f24e19b948e",
+      "size": 53,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/7acd92dc038f2e22510bc898990e4f24e19b948e"
+    },
+    {
+      "path": "ComparatorChallenges",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9848070c54df94b63b3ebaa4e973e4c9daf20dd0",
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/trees/9848070c54df94b63b3ebaa4e973e4c9daf20dd0"
+    },
+    {
+      "path": "ComparatorChallenges/LeanShadow.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63f15be1399af71e51670b90b1ee4e7f1d756aee",
+      "size": 846,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/63f15be1399af71e51670b90b1ee4e7f1d756aee"
+    },
+    {
+      "path": "ComparatorChallenges/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41323c9aa87c9b1101795c139a260f82af813e39",
+      "size": 2959,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/41323c9aa87c9b1101795c139a260f82af813e39"
+    },
+    {
+      "path": "ComparatorChallenges/Shadow.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8c48eaea90c973ee5379f09c796457db3ab0c46",
+      "size": 7428,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/d8c48eaea90c973ee5379f09c796457db3ab0c46"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dada3edaf50dbc082c9a125058f25def75e625a",
+      "size": 11357,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/8dada3edaf50dbc082c9a125058f25def75e625a"
+    },
+    {
+      "path": "LeanShadow.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ce92442cae20f6e709fcaddf1b99abfe89637a3",
+      "size": 72,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/0ce92442cae20f6e709fcaddf1b99abfe89637a3"
+    },
+    {
+      "path": "LeanShadow",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "32181d5668d296b2a5e8ebca684ed4bd30847ea6",
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/trees/32181d5668d296b2a5e8ebca684ed4bd30847ea6"
+    },
+    {
+      "path": "LeanShadow/ActualContact.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c0cae62792ed876339ce1aca864249288a9b204",
+      "size": 11305,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/8c0cae62792ed876339ce1aca864249288a9b204"
+    },
+    {
+      "path": "LeanShadow/ActualContactOperator.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54fc0104bc75eb7a7d50c399821dc684a36c819a",
+      "size": 7137,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/54fc0104bc75eb7a7d50c399821dc684a36c819a"
+    },
+    {
+      "path": "LeanShadow/ActualLocalNonisotropy.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "655f5cc3111d4b7988cda9996f8e7657e0ae6a9f",
+      "size": 3747,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/655f5cc3111d4b7988cda9996f8e7657e0ae6a9f"
+    },
+    {
+      "path": "LeanShadow/ActualMomentField.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4b052629d538b0a87eea7d1b25856901a529d43",
+      "size": 8175,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/a4b052629d538b0a87eea7d1b25856901a529d43"
+    },
+    {
+      "path": "LeanShadow/AffineContact.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b65139ac28cfdcdfe21365277357d9854bbe6bf2",
+      "size": 6131,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/b65139ac28cfdcdfe21365277357d9854bbe6bf2"
+    },
+    {
+      "path": "LeanShadow/AmbientArea.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d00bb1bdb4e9ea1494bb8c6d0156ff225d1bc428",
+      "size": 7243,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/d00bb1bdb4e9ea1494bb8c6d0156ff225d1bc428"
+    },
+    {
+      "path": "LeanShadow/AngularNormalization.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "047e2c82376cb1f0d40047856eb23b5b15064e53",
+      "size": 4225,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/047e2c82376cb1f0d40047856eb23b5b15064e53"
+    },
+    {
+      "path": "LeanShadow/AntipodalDensity.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61b0806af469e0b520860eac5d6ce736b30e3445",
+      "size": 6592,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/61b0806af469e0b520860eac5d6ce736b30e3445"
+    },
+    {
+      "path": "LeanShadow/AntipodalGeometry.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "285a3797f03559ca5d1a3578367a0153b9e9ee3b",
+      "size": 4162,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/285a3797f03559ca5d1a3578367a0153b9e9ee3b"
+    },
+    {
+      "path": "LeanShadow/AntipodalTrimming.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86975d1122c5991011ac180ad203260553b94aed",
+      "size": 4603,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/86975d1122c5991011ac180ad203260553b94aed"
+    },
+    {
+      "path": "LeanShadow/AreaContraction.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f03c3e2ab602f29bd1bb0287a5181a61850600b8",
+      "size": 8007,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/f03c3e2ab602f29bd1bb0287a5181a61850600b8"
+    },
+    {
+      "path": "LeanShadow/AreaCoordinateVariations.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33bbd1c493c3600702316e745b0b07dd40ecab6e",
+      "size": 6698,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/33bbd1c493c3600702316e745b0b07dd40ecab6e"
+    },
+    {
+      "path": "LeanShadow/AreaHarmonicity.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a55b43524cfc0ad727e32467ddbf6a1484bddf5",
+      "size": 3047,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/7a55b43524cfc0ad727e32467ddbf6a1484bddf5"
+    },
+    {
+      "path": "LeanShadow/AreaVariations.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5db17a79702a6c5d93d04831e3dd63d40f1ff402",
+      "size": 7328,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/5db17a79702a6c5d93d04831e3dd63d40f1ff402"
+    },
+    {
+      "path": "LeanShadow/AttainmentReduction.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a86e3e627782eef16b019731a6cefaf7c6c1c260",
+      "size": 10001,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/a86e3e627782eef16b019731a6cefaf7c6c1c260"
+    },
+    {
+      "path": "LeanShadow/AxisCoordinates.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe9aeb6a53be29bdac7e429b5e27c311a7790db3",
+      "size": 4082,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/fe9aeb6a53be29bdac7e429b5e27c311a7790db3"
+    },
+    {
+      "path": "LeanShadow/BVLogComparison.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb826f1fc5d09239b88a833edc4a4e8ca2f601f4",
+      "size": 4832,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/bb826f1fc5d09239b88a833edc4a4e8ca2f601f4"
+    },
+    {
+      "path": "LeanShadow/CapExtremizers.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9803a68d68ac8f25cdb9042625ac8a67f4a23747",
+      "size": 8394,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/9803a68d68ac8f25cdb9042625ac8a67f4a23747"
+    },
+    {
+      "path": "LeanShadow/CapFunctions.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c785fad8d2f76dbc04a33468827192e329baa43e",
+      "size": 8046,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/c785fad8d2f76dbc04a33468827192e329baa43e"
+    },
+    {
+      "path": "LeanShadow/CapModel.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce8327f0b506effe0fd0dea4447cdf14701017da",
+      "size": 6361,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/ce8327f0b506effe0fd0dea4447cdf14701017da"
+    },
+    {
+      "path": "LeanShadow/CapRadius.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a7e4048eb89d8f7147c3d51481e4a62eb80ba44",
+      "size": 5241,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/5a7e4048eb89d8f7147c3d51481e4a62eb80ba44"
+    },
+    {
+      "path": "LeanShadow/CapRayleigh.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce3f3b879dd089d903abbc9fea164d953baddf58",
+      "size": 5054,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/ce3f3b879dd089d903abbc9fea164d953baddf58"
+    },
+    {
+      "path": "LeanShadow/CapShadow.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c669bbf9e3146ccc14283018bedc6bc56f80aae3",
+      "size": 5532,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/c669bbf9e3146ccc14283018bedc6bc56f80aae3"
+    },
+    {
+      "path": "LeanShadow/CompactFeatureOperator.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81331e36fd72c9f3c0f3eacb4f0238f3bdeb8463",
+      "size": 5562,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/81331e36fd72c9f3c0f3eacb4f0238f3bdeb8463"
+    },
+    {
+      "path": "LeanShadow/CompactFrechetIntegral.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95c684e2e04c140bea03e8e8cb24aea3d2e94292",
+      "size": 6913,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/95c684e2e04c140bea03e8e8cb24aea3d2e94292"
+    },
+    {
+      "path": "LeanShadow/CompactInnerMeasure.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab69548463dd33ce95d90a9a80955877b263208b",
+      "size": 3902,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/ab69548463dd33ce95d90a9a80955877b263208b"
+    },
+    {
+      "path": "LeanShadow/CompactParametricIntegral.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "492dadf65116e9e38985771619bdfe2648369301",
+      "size": 3118,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/492dadf65116e9e38985771619bdfe2648369301"
+    },
+    {
+      "path": "LeanShadow/CompactSelfAdjointSquare.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ca29ee62d20eafd2bb7088fd235ff10e6cd50bc",
+      "size": 4334,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/0ca29ee62d20eafd2bb7088fd235ff10e6cd50bc"
+    },
+    {
+      "path": "LeanShadow/ComparatorDefinitions.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dd3aef38872e141cbdc6c1272c2cfab9302cea7",
+      "size": 3599,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/6dd3aef38872e141cbdc6c1272c2cfab9302cea7"
+    },
+    {
+      "path": "LeanShadow/ComparatorSolution.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ae82c40115fb62cafd75df4b7844c3e72d1729c",
+      "size": 8902,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/8ae82c40115fb62cafd75df4b7844c3e72d1729c"
+    },
+    {
+      "path": "LeanShadow/CompressionAnalytic.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a1ce37a2f5bd25d2d1fa0c0d8fb4dcb8add59ac",
+      "size": 6239,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/4a1ce37a2f5bd25d2d1fa0c0d8fb4dcb8add59ac"
+    },
+    {
+      "path": "LeanShadow/CompressionConcentration.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14c293eb2b67a29bb8bf2247d583a79fd9bc8aef",
+      "size": 7210,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/14c293eb2b67a29bb8bf2247d583a79fd9bc8aef"
+    },
+    {
+      "path": "LeanShadow/CompressionJacobian.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b909ef08f5e2f230d1c7006868c8973155df75b1",
+      "size": 5961,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/b909ef08f5e2f230d1c7006868c8973155df75b1"
+    },
+    {
+      "path": "LeanShadow/CompressionLayercake.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2688b019ec7d75dabf39252b7cbcbe1ecb8953f",
+      "size": 4959,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/e2688b019ec7d75dabf39252b7cbcbe1ecb8953f"
+    },
+    {
+      "path": "LeanShadow/CompressionLevelSets.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38fe50068bce45d94a28c1c84c95a2004d775b79",
+      "size": 7591,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/38fe50068bce45d94a28c1c84c95a2004d775b79"
+    },
+    {
+      "path": "LeanShadow/CompressionTail.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c04115e5fe0b78f0b04220406f083d269f02f778",
+      "size": 5148,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/c04115e5fe0b78f0b04220406f083d269f02f778"
+    },
+    {
+      "path": "LeanShadow/ConstantMarginalBound.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27bae751282531c48e1594af4df6df00f42dfb05",
+      "size": 4921,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/27bae751282531c48e1594af4df6df00f42dfb05"
+    },
+    {
+      "path": "LeanShadow/ContactCalculus.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f514568bc6f271d8ebb6e4822cf7f3ea69f54a01",
+      "size": 4103,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/f514568bc6f271d8ebb6e4822cf7f3ea69f54a01"
+    },
+    {
+      "path": "LeanShadow/ContactInvariantFields.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7104b02a6e5c248c63bfcf29da5dc51cfacfc8c3",
+      "size": 4602,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/7104b02a6e5c248c63bfcf29da5dc51cfacfc8c3"
+    },
+    {
+      "path": "LeanShadow/ContinuousKernelOperator.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7be8d900a48d29ff3814061a5777cffc688151cb",
+      "size": 3626,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/7be8d900a48d29ff3814061a5777cffc688151cb"
+    },
+    {
+      "path": "LeanShadow/CouplingOperator.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7840236ef74c1e5e1b0faae8de22bd26321335e8",
+      "size": 3679,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/7840236ef74c1e5e1b0faae8de22bd26321335e8"
+    },
+    {
+      "path": "LeanShadow/CurveCalculus.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8115a26cf5193fd979543a8929c5c40f3a62a5f",
+      "size": 8025,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/e8115a26cf5193fd979543a8929c5c40f3a62a5f"
+    },
+    {
+      "path": "LeanShadow/DoubleCap.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e955cfff4688ec7f7e1f5cc703bd3e424e30a53",
+      "size": 6585,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/3e955cfff4688ec7f7e1f5cc703bd3e424e30a53"
+    },
+    {
+      "path": "LeanShadow/DualAreaRegularity.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c7f1bbb3b79d750e6002944c4e105df32d9d171",
+      "size": 4154,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/7c7f1bbb3b79d750e6002944c4e105df32d9d171"
+    },
+    {
+      "path": "LeanShadow/DualFlow.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84cc7beff81cb72ae67d8ce7b9127613b258e9c1",
+      "size": 4897,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/84cc7beff81cb72ae67d8ce7b9127613b258e9c1"
+    },
+    {
+      "path": "LeanShadow/EllipticMaximum.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c50e94214a78348a1e6e4fb93167a1dc26dc73e0",
+      "size": 21180,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/c50e94214a78348a1e6e4fb93167a1dc26dc73e0"
+    },
+    {
+      "path": "LeanShadow/EquatorialMeasure.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dea12582374c15d171e6ae335d033ab8ef5fba83",
+      "size": 6936,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/dea12582374c15d171e6ae335d033ab8ef5fba83"
+    },
+    {
+      "path": "LeanShadow/EuclideanMatrix.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22ea5640e3cf4596e3e6b574c7b43f646353e4d2",
+      "size": 4682,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/22ea5640e3cf4596e3e6b574c7b43f646353e4d2"
+    },
+    {
+      "path": "LeanShadow/ExponentialDeterminant.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dc80a276e2341c0bf3bcb5fe7d3ee5021558cdc",
+      "size": 4049,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/1dc80a276e2341c0bf3bcb5fe7d3ee5021558cdc"
+    },
+    {
+      "path": "LeanShadow/FlowMaximum.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67dbecb73261f824cefcc23a718eab483e15ff2e",
+      "size": 3749,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/67dbecb73261f824cefcc23a718eab483e15ff2e"
+    },
+    {
+      "path": "LeanShadow/FrameProjection.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d3e4912cf7e3551daa8abbec44646f27f3950ee",
+      "size": 6177,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/4d3e4912cf7e3551daa8abbec44646f27f3950ee"
+    },
+    {
+      "path": "LeanShadow/FrobeniusBasis.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87a53e2d012cb684b7514ade59da5cce2bc25fc6",
+      "size": 3167,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/87a53e2d012cb684b7514ade59da5cce2bc25fc6"
+    },
+    {
+      "path": "LeanShadow/FullProjectiveFrame.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a140fc4b360553ec1b81de44e3d93338d664072",
+      "size": 4481,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/9a140fc4b360553ec1b81de44e3d93338d664072"
+    },
+    {
+      "path": "LeanShadow/HaarConditionalAverage.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6db99a7e4515b83f746ef43b48a8250af9304dbd",
+      "size": 6226,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/6db99a7e4515b83f746ef43b48a8250af9304dbd"
+    },
+    {
+      "path": "LeanShadow/HaarDensityRepresentatives.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef274e54460588aeb65f64185d83d1a0528959b0",
+      "size": 8463,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/ef274e54460588aeb65f64185d83d1a0528959b0"
+    },
+    {
+      "path": "LeanShadow/HilbertWeakCompactness.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd31627c8d0aa4f20adc5e96d17696530ae63f92",
+      "size": 6475,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/dd31627c8d0aa4f20adc5e96d17696530ae63f92"
+    },
+    {
+      "path": "LeanShadow/IncidenceAttainment.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a972b02c25a5afb3670a4e04e93617742026e260",
+      "size": 7459,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/a972b02c25a5afb3670a4e04e93617742026e260"
+    },
+    {
+      "path": "LeanShadow/IncidenceDensityRecovery.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e5787f8d4579c50fc7309466ba3f60f7f30c6be",
+      "size": 5079,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/7e5787f8d4579c50fc7309466ba3f60f7f30c6be"
+    },
+    {
+      "path": "LeanShadow/IncidenceKernelCompactness.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9a59b546504170537e7f65003f69fdfbed1df32",
+      "size": 5916,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/d9a59b546504170537e7f65003f69fdfbed1df32"
+    },
+    {
+      "path": "LeanShadow/IncidenceRounding.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "328702b471e482c5ebaa9234d2276ea369fa7538",
+      "size": 3806,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/328702b471e482c5ebaa9234d2276ea369fa7538"
+    },
+    {
+      "path": "LeanShadow/IncidenceTwoStep.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd6c86e34df5aaebd47aaebfe19663085d6faa55",
+      "size": 5910,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/bd6c86e34df5aaebd47aaebfe19663085d6faa55"
+    },
+    {
+      "path": "LeanShadow/IntegratedContraction.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a823de436145add33fa22028d6ac1c1e88487cff",
+      "size": 8195,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/a823de436145add33fa22028d6ac1c1e88487cff"
+    },
+    {
+      "path": "LeanShadow/IntegratedDensity.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "186bcecee4195d7a7698ba54db4c1aaf78b217e2",
+      "size": 8703,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/186bcecee4195d7a7698ba54db4c1aaf78b217e2"
+    },
+    {
+      "path": "LeanShadow/InvariantArea.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79960dd67dddf4189d4846342760590dec47d73b",
+      "size": 4965,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/79960dd67dddf4189d4846342760590dec47d73b"
+    },
+    {
+      "path": "LeanShadow/InvariantPairMeasure.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "500d1536e9f224bd65e93237c47ad68c86cff9f5",
+      "size": 6736,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/500d1536e9f224bd65e93237c47ad68c86cff9f5"
+    },
+    {
+      "path": "LeanShadow/JointAreaRegularity.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82737c53b92ccb64fa9f7e43315c8ff6d75085ed",
+      "size": 6320,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/82737c53b92ccb64fa9f7e43315c8ff6d75085ed"
+    },
+    {
+      "path": "LeanShadow/JointDifferentiation.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b541dc928dcce6dc16cbc7d5ea72fdb3ff9e3ea4",
+      "size": 4443,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/b541dc928dcce6dc16cbc7d5ea72fdb3ff9e3ea4"
+    },
+    {
+      "path": "LeanShadow/KernelMeasureBound.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e25dc8d4dd1ed655e313bc8ee93ea4babc4a67c4",
+      "size": 4954,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/e25dc8d4dd1ed655e313bc8ee93ea4babc4a67c4"
+    },
+    {
+      "path": "LeanShadow/LatitudeCoordinate.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db4ca21844d634cf98d6057da17010e0b7b85f48",
+      "size": 4398,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/db4ca21844d634cf98d6057da17010e0b7b85f48"
+    },
+    {
+      "path": "LeanShadow/LocalAreaConstancy.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "658e7d802149787fa89a15a71f9a797b97675cec",
+      "size": 8450,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/658e7d802149787fa89a15a71f9a797b97675cec"
+    },
+    {
+      "path": "LeanShadow/MatrixBochner.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1537a1bf709ac94329ea2ff6deef1f8fc6b16a0",
+      "size": 3267,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/f1537a1bf709ac94329ea2ff6deef1f8fc6b16a0"
+    },
+    {
+      "path": "LeanShadow/MomentComparison.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4fd59ed525b718135dcda9331933e1bfb830e3b",
+      "size": 4164,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/a4fd59ed525b718135dcda9331933e1bfb830e3b"
+    },
+    {
+      "path": "LeanShadow/MonotoneIntegral.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4336eac08c7beee4f8632a395a30d037d0e01c25",
+      "size": 4419,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/4336eac08c7beee4f8632a395a30d037d0e01c25"
+    },
+    {
+      "path": "LeanShadow/NonisotropyMechanism.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc9c9e161cedf36f30a298862b14ff503943a25f",
+      "size": 9024,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/cc9c9e161cedf36f30a298862b14ff503943a25f"
+    },
+    {
+      "path": "LeanShadow/NormalizedVariations.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31d0f745f5580f762f29cc07e8becedcc7a4a5b9",
+      "size": 7017,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/31d0f745f5580f762f29cc07e8becedcc7a4a5b9"
+    },
+    {
+      "path": "LeanShadow/OptimizerCompression.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f2bd212b47804cd54a6cead4805981020619a9a",
+      "size": 6768,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/9f2bd212b47804cd54a6cead4805981020619a9a"
+    },
+    {
+      "path": "LeanShadow/OptimizerRigidity.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ac90328b59ea7ff607cf892a39930de46b4b8f9",
+      "size": 3312,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/8ac90328b59ea7ff607cf892a39930de46b4b8f9"
+    },
+    {
+      "path": "LeanShadow/OptimizerVariation.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bfd2a1dad0a87f6159c17c51a0f24bb8709e403",
+      "size": 6196,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/4bfd2a1dad0a87f6159c17c51a0f24bb8709e403"
+    },
+    {
+      "path": "LeanShadow/OrthogonalFrame.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "551ea1e174454860f8571d2e354db64ef904e309",
+      "size": 3910,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/551ea1e174454860f8571d2e354db64ef904e309"
+    },
+    {
+      "path": "LeanShadow/OrthogonalHaar.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7664b3d81584ebfe2c25e81cdd8171902004b3de",
+      "size": 4000,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/7664b3d81584ebfe2c25e81cdd8171902004b3de"
+    },
+    {
+      "path": "LeanShadow/OrthogonalIncidence.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6976c8b51f9c577f38b9ba5befcec75eab4c5db",
+      "size": 5979,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/a6976c8b51f9c577f38b9ba5befcec75eab4c5db"
+    },
+    {
+      "path": "LeanShadow/OrthogonalPairLaw.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c17c0096380f07cfba34d602b82ffc118084c974",
+      "size": 5000,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/c17c0096380f07cfba34d602b82ffc118084c974"
+    },
+    {
+      "path": "LeanShadow/OrthogonalStabilizer.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64f489b9cfef663e15a756a8f85bfb11ec797af8",
+      "size": 3699,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/64f489b9cfef663e15a756a8f85bfb11ec797af8"
+    },
+    {
+      "path": "LeanShadow/PairedAreaVariation.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5879fa4b5a9e9398b11299a0fdc8df20d611ab3",
+      "size": 5731,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/e5879fa4b5a9e9398b11299a0fdc8df20d611ab3"
+    },
+    {
+      "path": "LeanShadow/PlanarLatitude.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2118fd2d671923b62d38be8a898a222c6a0a263f",
+      "size": 5217,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/2118fd2d671923b62d38be8a898a222c6a0a263f"
+    },
+    {
+      "path": "LeanShadow/PointwiseContraction.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7f54c9c204d897a0fc81a89994a3b1428e4a52b",
+      "size": 7461,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/b7f54c9c204d897a0fc81a89994a3b1428e4a52b"
+    },
+    {
+      "path": "LeanShadow/ProfileCapInequality.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b09e8a9bcc7df6e5131281c44eb39564a28cd64f",
+      "size": 3914,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/b09e8a9bcc7df6e5131281c44eb39564a28cd64f"
+    },
+    {
+      "path": "LeanShadow/ProfileClosedness.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fcab684c22b8c38b6765251c401596dcd2d9954",
+      "size": 6373,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/1fcab684c22b8c38b6765251c401596dcd2d9954"
+    },
+    {
+      "path": "LeanShadow/ProfileConcavity.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e126e8ace0fcb098b6d159b43890f0c164a16b93",
+      "size": 8287,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/e126e8ace0fcb098b6d159b43890f0c164a16b93"
+    },
+    {
+      "path": "LeanShadow/ProfileContactMaximum.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5311bfbfc33ef96b44ba31c645025e2f16fac258",
+      "size": 7409,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/5311bfbfc33ef96b44ba31c645025e2f16fac258"
+    },
+    {
+      "path": "LeanShadow/ProfileEndpoints.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6fa46355415a64b4dc323d9aaba018bfe5e1e05",
+      "size": 4244,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/c6fa46355415a64b4dc323d9aaba018bfe5e1e05"
+    },
+    {
+      "path": "LeanShadow/ProfileMinimizingSequence.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27674fb37959593e816c46dcc68cb8671df702b2",
+      "size": 4705,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/27674fb37959593e816c46dcc68cb8671df702b2"
+    },
+    {
+      "path": "LeanShadow/ProfileRegularity.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4078c40cba349766ad31620aee67ec0fa56b5425",
+      "size": 5506,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/4078c40cba349766ad31620aee67ec0fa56b5425"
+    },
+    {
+      "path": "LeanShadow/ProfileVariations.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5a51aae2645149ffdd9fddd5695412e2ea7934b",
+      "size": 6185,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/f5a51aae2645149ffdd9fddd5695412e2ea7934b"
+    },
+    {
+      "path": "LeanShadow/ProjectionSquares.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "939154170f810a190ab68a20505b84b25915e033",
+      "size": 5776,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/939154170f810a190ab68a20505b84b25915e033"
+    },
+    {
+      "path": "LeanShadow/ProjectiveArea.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14c2c327bde38d4cd6b38a57fede1ba7e43bb343",
+      "size": 1271,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/14c2c327bde38d4cd6b38a57fede1ba7e43bb343"
+    },
+    {
+      "path": "LeanShadow/ProjectiveComposition.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cca0b2dc9989c0de5cdaf5abefe3308bf3a03ac",
+      "size": 3204,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/2cca0b2dc9989c0de5cdaf5abefe3308bf3a03ac"
+    },
+    {
+      "path": "LeanShadow/ProjectiveCompression.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77beb54f23e1965e35fefb2b1acd3f6b6cacbb13",
+      "size": 8482,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/77beb54f23e1965e35fefb2b1acd3f6b6cacbb13"
+    },
+    {
+      "path": "LeanShadow/ProjectiveJacobian.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ed1976539c552b1a4a43d2637d3407b31187cc8",
+      "size": 6910,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/9ed1976539c552b1a4a43d2637d3407b31187cc8"
+    },
+    {
+      "path": "LeanShadow/ProjectiveQuotient.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "058db24d3dae8657daa5277138fdda170833d284",
+      "size": 7301,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/058db24d3dae8657daa5277138fdda170833d284"
+    },
+    {
+      "path": "LeanShadow/ProjectiveShadow.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07206937fe6f41025902569af29bc285c7d88200",
+      "size": 5120,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/07206937fe6f41025902569af29bc285c7d88200"
+    },
+    {
+      "path": "LeanShadow/QuadraticSupport.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2127b9f5edeebd1f68e1157f8f6224fc9bc45bd6",
+      "size": 2342,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/2127b9f5edeebd1f68e1157f8f6224fc9bc45bd6"
+    },
+    {
+      "path": "LeanShadow/RadialChange.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b17ff978419a1f1eb51a28424e4b4dfad8e4747",
+      "size": 10305,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/1b17ff978419a1f1eb51a28424e4b4dfad8e4747"
+    },
+    {
+      "path": "LeanShadow/RatioSupport.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbdac7d8f1a26bdb5421e800f0286ea6cbc85b3a",
+      "size": 4741,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/dbdac7d8f1a26bdb5421e800f0286ea6cbc85b3a"
+    },
+    {
+      "path": "LeanShadow/RightSlopeTaylor.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fd2bf75950c44af631e6128a785896552c34bf4",
+      "size": 6981,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/0fd2bf75950c44af631e6128a785896552c34bf4"
+    },
+    {
+      "path": "LeanShadow/ShadowGeometry.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6962da85da54a8df5e3695b1cc019e0831f35c7d",
+      "size": 3071,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/6962da85da54a8df5e3695b1cc019e0831f35c7d"
+    },
+    {
+      "path": "LeanShadow/ShadowProfile.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8391b18a2cb6e57f8703b85e41ee7b4169ecc0d9",
+      "size": 9010,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/8391b18a2cb6e57f8703b85e41ee7b4169ecc0d9"
+    },
+    {
+      "path": "LeanShadow/ShadowRegularity.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d3502e3a7a9394b670e62677a1cd0b5bdceaf55",
+      "size": 5489,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/7d3502e3a7a9394b670e62677a1cd0b5bdceaf55"
+    },
+    {
+      "path": "LeanShadow/ShadowVerification.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6fdcdb88e1e22e21dd06a7676365d44c6d5109e",
+      "size": 11581,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/a6fdcdb88e1e22e21dd06a7676365d44c6d5109e"
+    },
+    {
+      "path": "LeanShadow/SharpProfile.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c24f72c4d61abaa3464dd2f91b9647875a40ad25",
+      "size": 7187,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/c24f72c4d61abaa3464dd2f91b9647875a40ad25"
+    },
+    {
+      "path": "LeanShadow/SharpShadow.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c07f0950dc0a98ffd581600a565dd9b21dee43f",
+      "size": 5211,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/8c07f0950dc0a98ffd581600a565dd9b21dee43f"
+    },
+    {
+      "path": "LeanShadow/SignedKernelBound.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81ba63fe54c9d4abf3df6dde7e40991a43d0676e",
+      "size": 5603,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/81ba63fe54c9d4abf3df6dde7e40991a43d0676e"
+    },
+    {
+      "path": "LeanShadow/SmallShadowCaps.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de82e6a222c8aaa88e594d021dad4335a9a5dcb5",
+      "size": 6255,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/de82e6a222c8aaa88e594d021dad4335a9a5dcb5"
+    },
+    {
+      "path": "LeanShadow/SpectralStep.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1710e84db0c694509353f6da25ab5af4e7642c9",
+      "size": 3023,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/b1710e84db0c694509353f6da25ab5af4e7642c9"
+    },
+    {
+      "path": "LeanShadow/SphericalAngularMeasure.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e52232d4da225ca4f73445b9050fcf8c0592cf9",
+      "size": 6089,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/5e52232d4da225ca4f73445b9050fcf8c0592cf9"
+    },
+    {
+      "path": "LeanShadow/SphericalCaps.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1ea1569a33db3ba1a3eb1b878b46eeab3d4b199",
+      "size": 7503,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/c1ea1569a33db3ba1a3eb1b878b46eeab3d4b199"
+    },
+    {
+      "path": "LeanShadow/SphericalDensityPoint.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf2cf818a12fb7645950d56237ecf4ebc34979b0",
+      "size": 4031,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/bf2cf818a12fb7645950d56237ecf4ebc34979b0"
+    },
+    {
+      "path": "LeanShadow/SphericalDirectionNull.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9e9bb71b1f9fb210e6d60e6011ebddb1e641362",
+      "size": 3966,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/a9e9bb71b1f9fb210e6d60e6011ebddb1e641362"
+    },
+    {
+      "path": "LeanShadow/SphericalIncidenceOperator.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93e2880195121872bd4626c88224f780df5cc141",
+      "size": 7222,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/93e2880195121872bd4626c88224f780df5cc141"
+    },
+    {
+      "path": "LeanShadow/SphericalKernelTruncation.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c358b679d010a2fbaa201282397d600d2716e15",
+      "size": 7048,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/2c358b679d010a2fbaa201282397d600d2716e15"
+    },
+    {
+      "path": "LeanShadow/SphericalLatitudeClass.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b68d78074b5d1140a84e4c4b80865178593660cc",
+      "size": 3031,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/b68d78074b5d1140a84e4c4b80865178593660cc"
+    },
+    {
+      "path": "LeanShadow/SphericalMomentBound.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "927681e6330896fe2728c85bbea5097d3a059531",
+      "size": 4061,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/927681e6330896fe2728c85bbea5097d3a059531"
+    },
+    {
+      "path": "LeanShadow/SphericalNullSets.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20ca7e7042c8200c7ed0eea86cd49ae9cf9f2e33",
+      "size": 2634,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/20ca7e7042c8200c7ed0eea86cd49ae9cf9f2e33"
+    },
+    {
+      "path": "LeanShadow/SphericalPairDensity.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65a9c4b349424d70abe2eb239a93194b258f98a9",
+      "size": 5406,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/65a9c4b349424d70abe2eb239a93194b258f98a9"
+    },
+    {
+      "path": "LeanShadow/SphericalPolarIntegration.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3de8387823f8b354465785a0d4dbc9f6506c22d5",
+      "size": 5265,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/3de8387823f8b354465785a0d4dbc9f6506c22d5"
+    },
+    {
+      "path": "LeanShadow/SphericalProjective.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1f33ea0fdab1170d983d96337b110e6a1f6aca6",
+      "size": 6378,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/b1f33ea0fdab1170d983d96337b110e6a1f6aca6"
+    },
+    {
+      "path": "LeanShadow/SphericalRotation.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f68e4fd5832e00de0a127273061a0cd896c32473",
+      "size": 4602,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/f68e4fd5832e00de0a127273061a0cd896c32473"
+    },
+    {
+      "path": "LeanShadow/SphericalSingularKernel.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62f5e43d90a6d69e2792b31e1df99b78be170e84",
+      "size": 7195,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/62f5e43d90a6d69e2792b31e1df99b78be170e84"
+    },
+    {
+      "path": "LeanShadow/ThresholdTrimming.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "087ae96fda6a56bd754c01b529a5cfd14cdf5c2b",
+      "size": 4875,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/087ae96fda6a56bd754c01b529a5cfd14cdf5c2b"
+    },
+    {
+      "path": "LeanShadow/TwoStepGramClass.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35eff6f58a154858f12a629cd4fa016c08997d0a",
+      "size": 4180,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/35eff6f58a154858f12a629cd4fa016c08997d0a"
+    },
+    {
+      "path": "LeanShadow/WeakIndicatorLimits.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9eb3cf9bbe72a7512f8e6e72e2a6c7cd6346dd99",
+      "size": 6787,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/9eb3cf9bbe72a7512f8e6e72e2a6c7cd6346dd99"
+    },
+    {
+      "path": "LeanShadow/WeightedAreaSource.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad34b79dc7708be3e104f82efecc5611d6c7e7d3",
+      "size": 6041,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/ad34b79dc7708be3e104f82efecc5611d6c7e7d3"
+    },
+    {
+      "path": "LeanShadow/WeightedEllipticity.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bb73866d675ab073c869408787399ab034415d8",
+      "size": 5848,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/6bb73866d675ab073c869408787399ab034415d8"
+    },
+    {
+      "path": "LeanShadow/WeightedFlow.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9a9c9b0b85f158754a1546f399381b848868c5b",
+      "size": 4085,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/b9a9c9b0b85f158754a1546f399381b848868c5b"
+    },
+    {
+      "path": "LeanShadow/WeightedFrame.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a28345fdc11eb2f1eadd759eff84ae2b78e1c4bd",
+      "size": 7099,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/a28345fdc11eb2f1eadd759eff84ae2b78e1c4bd"
+    },
+    {
+      "path": "LeanShadow/WeightedFullOperator.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98cb3adb23b2592272abd956a1ca7b562907b2cb",
+      "size": 6723,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/98cb3adb23b2592272abd956a1ca7b562907b2cb"
+    },
+    {
+      "path": "LeanShadow/WeightedLocalMaximum.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da6cc9d8c39086c35cad909145dbb1ab971ec928",
+      "size": 4450,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/da6cc9d8c39086c35cad909145dbb1ab971ec928"
+    },
+    {
+      "path": "LeanShadow/WeightedMatrix.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c70e521fe69ba61af76981e14bb32a350d66da94",
+      "size": 10042,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/c70e521fe69ba61af76981e14bb32a350d66da94"
+    },
+    {
+      "path": "LeanShadow/WeightedOpenMaximum.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5cfe2c34d069b66298996bad1b27d2b61eaa6cf",
+      "size": 3496,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/e5cfe2c34d069b66298996bad1b27d2b61eaa6cf"
+    },
+    {
+      "path": "LeanShadow/ZonalKernelCompactness.lean",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f389956963722009f21f107d8873e216532a22ce",
+      "size": 6820,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/f389956963722009f21f107d8873e216532a22ce"
+    },
+    {
+      "path": "MAIN_STATEMENT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3bcd52d34b34e2b01bf9569b2f54be2d16b8a14",
+      "size": 3130,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/e3bcd52d34b34e2b01bf9569b2f54be2d16b8a14"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3190a5e1b85aaf25e19a5141770c31fedd13bc73",
+      "size": 3971,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/3190a5e1b85aaf25e19a5141770c31fedd13bc73"
+    },
+    {
+      "path": "VERIFICATION.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f0cf0d53e87bec8bf7a778adea801fe53c11194",
+      "size": 3044,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/7f0cf0d53e87bec8bf7a778adea801fe53c11194"
+    },
+    {
+      "path": "comparator-status.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ec3fbbbe9657774f06ffd4da2730121ac654b6d",
+      "size": 18343,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/0ec3fbbbe9657774f06ffd4da2730121ac654b6d"
+    },
+    {
+      "path": "formalization.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1d98dae25e116b0eb05f4c159143a5b48d00b40",
+      "size": 8252,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/c1d98dae25e116b0eb05f4c159143a5b48d00b40"
+    },
+    {
+      "path": "lake-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e00d93f90187ed951e56e794a4423e58d8b214d",
+      "size": 4325,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/4e00d93f90187ed951e56e794a4423e58d8b214d"
+    },
+    {
+      "path": "lakefile.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d991f4be237361816690e34bcc9da0109d14ee56",
+      "size": 549,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/d991f4be237361816690e34bcc9da0109d14ee56"
+    },
+    {
+      "path": "lean-toolchain",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "025e59548e48cf71f2744154e2890beefe30a258",
+      "size": 25,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/025e59548e48cf71f2744154e2890beefe30a258"
+    },
+    {
+      "path": "provenance.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c46a1f767e77a30c20742dea087e503923b9aae9",
+      "size": 39685,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/c46a1f767e77a30c20742dea087e503923b9aae9"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "17751f72dc79e27f01d42df79fe02e236cbc128d",
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/trees/17751f72dc79e27f01d42df79fe02e236cbc128d"
+    },
+    {
+      "path": "scripts/replay.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "667724176c3e98be83a70cd485edb5b9eabf5f2c",
+      "size": 2906,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/667724176c3e98be83a70cd485edb5b9eabf5f2c"
+    },
+    {
+      "path": "scripts/verify.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8323e8c9beeffe4ced6620408166523043505d22",
+      "size": 4328,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/8323e8c9beeffe4ced6620408166523043505d22"
+    },
+    {
+      "path": "verification-tools.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e02cb3de03a2c8f0773d594293c0666a4edfa2d",
+      "size": 911,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/6e02cb3de03a2c8f0773d594293c0666a4edfa2d"
+    },
+    {
+      "path": "verification.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4210fab594aa8dde16e99f58acffbcc2639dff5e",
+      "size": 149350,
+      "url": "https://api.github.com/repos/allenibiapina/LeanShadow/git/blobs/4210fab594aa8dde16e99f58acffbcc2639dff5e"
+    }
+  ],
+  "truncated": false,
+  "commit": "19deb3ed555cc8404958c1804f9b29898a918d10"
+}

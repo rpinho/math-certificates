@@ -1,0 +1,15 @@
+Mutants.lean:81:83: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'DoubleCapAudit.Controls.scaled_99' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.strict_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.minus_thousandth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.radius_fifth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.next_sphere' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.raw_area' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.closed_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.radius_third' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.borel_only' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.n_ge_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.raw_both' depends on axioms: [propext, Classical.choice, Quot.sound]
+peak sampled group RSS 6536265728 bytes

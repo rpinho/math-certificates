@@ -1,0 +1,18 @@
+ComparatorChallenges/README.md:5:intentional `sorry` theorem placeholders specify what must be proved; they are
+LeanShadow/AttainmentReduction.lean:64:set_option maxHeartbeats 800000 in
+LeanShadow/AttainmentReduction.lean:139:set_option maxHeartbeats 800000 in
+LeanShadow/CouplingOperator.lean:46:set_option maxHeartbeats 800000 in
+LeanShadow/EllipticMaximum.lean:13:postulated as an axiom. This module develops the calculus and barrier proof
+LeanShadow/IncidenceKernelCompactness.lean:8:pairing identity; neither is hidden in a definition or assumed as an axiom.
+LeanShadow/ProfileClosedness.lean:44:set_option maxHeartbeats 800000 in
+LeanShadow/ProfileConcavity.lean:46:set_option maxHeartbeats 800000 in
+LeanShadow/ShadowProfile.lean:149:/-- The partner is constructed from a given optimizer, without an attainment axiom. -/
+LeanShadow/ShadowVerification.lean:11:claim is introduced as an axiom or as an unfinished proof.
+LeanShadow/WeakIndicatorLimits.lean:106:set_option maxHeartbeats 800000 in
+README.md:55:This builds the proof library, rejects proof shortcuts, and requires a standard-axiom
+VERIFICATION.md:18:Source hashes and theorem axiom reports are included in
+VERIFICATION.md:40:The twelve `sorry` placeholders in `ComparatorChallenges/Shadow.lean` are deliberate
+formalization.yaml:149:  notes: Proof build and axiom audit passed for 1,019 theorems. Comparator matched all 12 main
+scripts/verify.py:29:        if re.search(r'\b(?:sorry|admit|native_decide)\b|^\s*axiom\s', source, re.MULTILINE):
+scripts/verify.py:44:                raise SystemExit('Missing axiom report: ' + full)
+scripts/verify.py:70:        raise SystemExit('Missing axiom reports: ' + str(sorted(expected - reports.keys())))

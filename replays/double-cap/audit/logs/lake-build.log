@@ -1,0 +1,98 @@
+All targets up-to-date (8705 jobs).
+lake build LeanShadow.CapFunctions
+ℹ [3381/3381] Built LeanShadow.CapFunctions (14s)
+info: LeanShadow/CapFunctions.lean:137:0: 'ShadowVerification.CapFunctions.sinPrimitive_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CapFunctions.lean:138:0: 'ShadowVerification.CapFunctions.cosPrimitive_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CapFunctions.lean:139:0: 'ShadowVerification.CapFunctions.sinPrimitive_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CapFunctions.lean:140:0: 'ShadowVerification.CapFunctions.normalizer_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CapFunctions.lean:141:0: 'ShadowVerification.CapFunctions.sinPrimitive_reflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CapFunctions.lean:142:0: 'ShadowVerification.CapFunctions.sinPrimitive_pi' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CapFunctions.lean:143:0: 'ShadowVerification.CapFunctions.capMass_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CapFunctions.lean:144:0: 'ShadowVerification.CapFunctions.capMass_half_pi' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CapFunctions.lean:145:0: 'ShadowVerification.CapFunctions.beltMass_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CapFunctions.lean:146:0: 'ShadowVerification.CapFunctions.beltMass_complement' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CapFunctions.lean:147:0: 'ShadowVerification.CapFunctions.beltMass_half_pi' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CapFunctions.lean:148:0: 'ShadowVerification.CapFunctions.capMass_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CapFunctions.lean:149:0: 'ShadowVerification.CapFunctions.beltMass_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CapFunctions.lean:150:0: 'ShadowVerification.CapFunctions.capMass_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CapFunctions.lean:151:0: 'ShadowVerification.CapFunctions.beltMass_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CapFunctions.lean:152:0: 'ShadowVerification.CapFunctions.capMass_strictMono' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CapFunctions.lean:153:0: 'ShadowVerification.CapFunctions.moment_boundary_hasDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CapFunctions.lean:154:0: 'ShadowVerification.CapFunctions.moment_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CapFunctions.lean:155:0: 'ShadowVerification.CapFunctions.momentBound_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3381 jobs).
+lake build LeanShadow.SphericalProjective
+ℹ [3387/3387] Built LeanShadow.SphericalProjective (4.1s)
+info: LeanShadow/SphericalProjective.lean:138:0: 'ShadowVerification.Spherical.unit_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/SphericalProjective.lean:139:0: 'ShadowVerification.Spherical.action_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/SphericalProjective.lean:140:0: 'ShadowVerification.Spherical.action_symm_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/SphericalProjective.lean:141:0: 'ShadowVerification.Spherical.action_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/SphericalProjective.lean:142:0: 'ShadowVerification.Spherical.avoids_iff_disjoint_shadow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/SphericalProjective.lean:143:0: 'ShadowVerification.Spherical.action_orthogonal_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/SphericalProjective.lean:144:0: 'ShadowVerification.Spherical.shadow_covariance' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/SphericalProjective.lean:145:0: 'ShadowVerification.Spherical.probability_univ' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/SphericalProjective.lean:146:0: 'ShadowVerification.Spherical.area_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/SphericalProjective.lean:147:0: 'ShadowVerification.Spherical.area_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/SphericalProjective.lean:148:0: 'ShadowVerification.Spherical.measurable_action_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3387 jobs).
+lake build LeanShadow.ThresholdTrimming
+ℹ [2576/2576] Built LeanShadow.ThresholdTrimming (2.6s)
+info: LeanShadow/ThresholdTrimming.lean:104:0: 'ShadowVerification.Trimming.cutMass_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/ThresholdTrimming.lean:105:0: 'ShadowVerification.Trimming.cutMass_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/ThresholdTrimming.lean:106:0: 'ShadowVerification.Trimming.cutMass_tendsto_atBot' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/ThresholdTrimming.lean:107:0: 'ShadowVerification.Trimming.cutMass_tendsto_atTop' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/ThresholdTrimming.lean:108:0: 'ShadowVerification.Trimming.exists_cutMass_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (2576 jobs).
+lake build LeanShadow.MonotoneIntegral
+ℹ [3278/3278] Built LeanShadow.MonotoneIntegral (3.1s)
+info: LeanShadow/MonotoneIntegral.lean:83:0: 'ShadowVerification.MonotoneIntegral.stieltjes_deriv_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: LeanShadow/MonotoneIntegral.lean:84:0: 'ShadowVerification.MonotoneIntegral.stieltjes_density_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: LeanShadow/MonotoneIntegral.lean:85:0: 'ShadowVerification.MonotoneIntegral.monotone_deriv_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: LeanShadow/MonotoneIntegral.lean:86:0: 'ShadowVerification.MonotoneIntegral.monotone_integral_deriv_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: LeanShadow/MonotoneIntegral.lean:88:0: 'ShadowVerification.MonotoneIntegral.stieltjes_increment_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Build completed successfully (3278 jobs).
+lake build LeanShadow.CompactParametricIntegral
+ℹ [3301/3301] Built LeanShadow.CompactParametricIntegral (3.3s)
+info: LeanShadow/CompactParametricIntegral.lean:58:0: 'ShadowVerification.Parametric.hasDerivAt_integral_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CompactParametricIntegral.lean:59:0: 'ShadowVerification.Parametric.second_deriv_integral_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3301 jobs).
+lake build LeanShadow.CompactInnerMeasure
+ℹ [3051/3051] Built LeanShadow.CompactInnerMeasure (2.9s)
+info: LeanShadow/CompactInnerMeasure.lean:83:0: 'ShadowVerification.CompactInner.innerMeasure_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CompactInnerMeasure.lean:84:0: 'ShadowVerification.CompactInner.innerMeasure_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CompactInnerMeasure.lean:85:0: 'ShadowVerification.CompactInner.compact_le_innerMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CompactInnerMeasure.lean:86:0: 'ShadowVerification.CompactInner.innerMeasure_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CompactInnerMeasure.lean:87:0: 'ShadowVerification.CompactInner.measurable_le_innerMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CompactInnerMeasure.lean:88:0: 'ShadowVerification.CompactInner.sigmaCompact_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/CompactInnerMeasure.lean:89:0: 'ShadowVerification.CompactInner.exists_sigmaCompact_subset_ae_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Build completed successfully (3051 jobs).
+lake build LeanShadow.HilbertWeakCompactness
+ℹ [3104/3104] Built LeanShadow.HilbertWeakCompactness (2.6s)
+info: LeanShadow/HilbertWeakCompactness.lean:117:0: 'ShadowVerification.HilbertWeak.subsequence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/HilbertWeakCompactness.lean:118:0: 'ShadowVerification.HilbertWeak.test_clm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/HilbertWeakCompactness.lean:119:0: 'ShadowVerification.HilbertWeak.exists_weak_subsequence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/HilbertWeakCompactness.lean:120:0: 'ShadowVerification.HilbertWeak.exists_pair_weak_subsequence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/HilbertWeakCompactness.lean:121:0: 'ShadowVerification.HilbertWeak.exists_strong_image_subsequence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: LeanShadow/HilbertWeakCompactness.lean:122:0: 'ShadowVerification.HilbertWeak.inner_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanShadow/HilbertWeakCompactness.lean:123:0: 'ShadowVerification.HilbertWeak.inner_image_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3104 jobs).
+lake build LeanShadow.ComparatorDefinitions
+peak sampled group RSS 6979338240 bytes
+Traceback (most recent call last):
+  File "$JOB/bounded.py", line 23, in <module>
+    raise RuntimeError(f'RSS guard at {rss} bytes')
+RuntimeError: RSS guard at 6979338240 bytes

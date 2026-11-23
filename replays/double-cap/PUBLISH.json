@@ -1,0 +1,24 @@
+{
+  "target": "teorth/erdosproblems",
+  "new_bound": false,
+  "submitter": "rpinho",
+  "certificate_repository": "rpinho/math-certificates",
+  "producer_model": "GPT-6.2 Astra via Codex, clean room (authors' code built and run in a sandbox, never read)",
+  "referee_model": "none: no second model checked this audit; Claude Opus 5.5 via Claude Code packaged it",
+  "destination": "replays/double-cap",
+  "replay_inputs": {
+    "audit/Spec.lean": "proof",
+    "audit/Bridge.lean": "proof",
+    "audit/BridgeChallenge.lean": "proof",
+    "audit/NonVacuity.lean": "proof",
+    "audit/Mutants.lean": "proof",
+    "audit/Axioms.lean": "proof",
+    "audit/compare-exports.lean": "proof",
+    "README.md": "proof",
+    "audit/REPORT.md": "proof"
+  },
+  "linked_trees": {
+    "allenibiapina/LeanShadow@19deb3ed555cc8404958c1804f9b29898a918d10": "sources/publish-trees/allenibiapina__LeanShadow@19deb3ed555cc8404958c1804f9b29898a918d10.json"
+  },
+  "scope": "Clean-room audit of the authors' Lean proof: statement matches via a Lean bridge; kernel checks complete except the authors' stock comparator driver and its nanoda stage (landrun is Linux-only). No new result."
+}

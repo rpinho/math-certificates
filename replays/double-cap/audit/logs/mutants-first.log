@@ -1,0 +1,95 @@
+Mutants.lean:19:2: error: Type mismatch: After simplification, term
+  h
+ has type
+  @Eq ℝ (LeanShadow.Comparator.area volume (LeanShadow.Comparator.cap a r)) (1 - cos r)
+but is expected to have type
+  @Eq ℝ ((μ 3).real (cap a r)) (1 - cos r)
+Mutants.lean:18:14: warning: This simp argument is unused:
+  Ambient
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Mutants.lean:27:45: warning: This simp argument is unused:
+  mem_sphere_zero_iff_norm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Mutants.lean:32:2: warning: Unused tactic linter: `change ¬(μ 3).real (D a) ≤ (μ 3).real (D a) * (99 / 100 : ℝ)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Mutants.lean:42:2: error: `dsimp` made no progress
+Mutants.lean:72:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+Mutants.lean:62:14: warning: This simp argument is unused:
+  Ambient
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Mutants.lean:73:26: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Mutants.lean:59:2: warning: Unused tactic linter: `change ¬(μ 3).real (D a) ≤ _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Mutants.lean:85:44: error: unsolved goals
+a : ↑(Sphere 3)
+ht : ((surface 3) univ).toReal = 4 * π
+hz : volume.toSphere (D a) = 0
+hm : ¬(surface 3) univ = ∞ ∧ 0 < (surface 3) (D a)
+⊢ False
+Mutants.lean:88:10: warning: This simp argument is unused:
+  hz
+
+Hint: Omit it from the simp argument list.
+  [apply] simp at hm
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Mutants.lean:121:78: error: unsolved goals
+x : ↑(Sphere 3) := ⋯
+y : ↑(Sphere 3) := ⋯
+mem : ∀ (s : ℝ) (hs : s * s = 1), ⟨diagonal s, ⋯⟩ ∈ LeanShadow.Comparator.closedCap (axis 3) (π / 4)
+h : AvoidsOrthogonality (LeanShadow.Comparator.closedCap (axis 3) (π / 4))
+⊢ 1 * 1 = 1
+
+x : ↑(Sphere 3) := ⋯
+y : ↑(Sphere 3) := ⋯
+mem : ∀ (s : ℝ) (hs : s * s = 1), ⟨diagonal s, ⋯⟩ ∈ LeanShadow.Comparator.closedCap (axis 3) (π / 4)
+h : AvoidsOrthogonality (LeanShadow.Comparator.closedCap (axis 3) (π / 4))
+⊢ -1 * -1 = 1
+Mutants.lean:137:2: error: Tactic `apply` failed: could not unify the type of `lt_trans ?m.44 ?m.45`
+  ?m.41 < ?m.43
+with the goal
+  x ∈ cap a (π / 3)
+
+n : ℕ
+hn : 3 ≤ n
+a : ↑(Sphere n)
+A : Set ↑(Sphere n)
+hA : MeasurableSet A
+hind : AvoidsOrthogonality A
+x : ↑(Sphere n)
+hx : x ∈ D a
+⊢ x ∈ cap a (π / 3)
+'DoubleCapAudit.Controls.scaled_99' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.strict_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.minus_thousandth' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.radius_fifth' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.next_sphere' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.raw_area' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.closed_boundary' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.radius_third' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.borel_only' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.n_ge_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DoubleCapAudit.Controls.raw_both' depends on axioms: [propext, Classical.choice, Quot.sound]
+peak sampled group RSS 6489260032 bytes

@@ -1,0 +1,21 @@
+{
+  "credits": [],
+  "contributors": [
+    {
+      "name": "A. Ibiapina, C. A. Gomes, A. Pio, S. Belo, E. Ferreira",
+      "role": "the proof, the Lean formalization LeanShadow and its comparator configuration (arXiv:2610.27523)"
+    },
+    {
+      "name": "H. S. Witsenhausen and G. Kalai",
+      "role": "the problem and the double-cap conjecture"
+    },
+    {
+      "name": "The Lean and Mathlib community",
+      "role": "Lean, Mathlib, lean4export, the comparator, leanchecker and the checklist for auditing a formal proof"
+    },
+    {
+      "name": "AI agents",
+      "role": "GPT-6.2 Astra clean-room audit; Claude Opus 5.5 packaging"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+ComparatorChallenges/Shadow.lean:107:8: warning: declaration uses `sorry`
+ComparatorChallenges/Shadow.lean:114:8: warning: declaration uses `sorry`
+ComparatorChallenges/Shadow.lean:123:8: warning: declaration uses `sorry`
+ComparatorChallenges/Shadow.lean:129:8: warning: declaration uses `sorry`
+ComparatorChallenges/Shadow.lean:134:8: warning: declaration uses `sorry`
+ComparatorChallenges/Shadow.lean:141:8: warning: declaration uses `sorry`
+ComparatorChallenges/Shadow.lean:146:8: warning: declaration uses `sorry`
+ComparatorChallenges/Shadow.lean:149:8: warning: declaration uses `sorry`
+ComparatorChallenges/Shadow.lean:152:8: warning: declaration uses `sorry`
+ComparatorChallenges/Shadow.lean:159:8: warning: declaration uses `sorry`
+ComparatorChallenges/Shadow.lean:169:8: warning: declaration uses `sorry`
+ComparatorChallenges/Shadow.lean:177:8: warning: declaration uses `sorry`
+       33.36 real         3.78 user         7.76 sys
+          5851807744  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              282208  page reclaims
+              229959  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+               50864  voluntary context switches
+              232103  involuntary context switches
+          4190885169  instructions retired
+          2183863505  cycles elapsed
+           141696792  peak memory footprint
+peak sampled group RSS 6463242240 bytes

@@ -1,0 +1,13 @@
+candidate d=11 r=0 primal=[-0.10524721637577008147139 +/- 2.87e-24] gap=[2.0251e-28 +/- 3.24e-33]
+candidate d=10 r=3/100 primal=[-0.0013683343796161003940776 +/- 4.27e-27] gap=[6.5949e-28 +/- 3.82e-34]
+candidate d=10 r=0 primal=[0.0040313214705198077685735 +/- 5.07e-27] gap=[2.1724e-28 +/- 1.27e-34]
+candidate d=10 r=3/200 primal=[0.0013310910813730044006604 +/- 2.69e-26] gap=[2.0956e-28 +/- 1.31e-33]
+control d=10 r=0 primal=[0.0033634715952044036867360 +/- 2.12e-26] gap=[5.8817e-28 +/- 1.97e-33]
+control d=10 r=3/200 primal=[0.00066102771845473086786118 +/- 6.07e-28] gap=[5.8817e-28 +/- 1.97e-33]
+n=5 d=2 defect_class=None stubs=(2, 2, 2, 2, 2) enumeration=formula=63 coefficient_upper_floor=6328
+n=6 d=3 defect_class=None stubs=(6, 3, 3, 3, 3) enumeration=formula=299295 coefficient_upper_floor=94738969
+n=4 d=3 defect_class=None stubs=(6, 6, 0, 0, 0) enumeration=formula=225 coefficient_upper_floor=19715
+n=2 d=3 defect_class=None stubs=(3, 3, 0, 0, 0) enumeration=formula=0 coefficient_upper_floor=106
+n=5 d=3 defect_class=1 stubs=(6, 2, 0, 3, 3) enumeration=formula=1890 coefficient_upper_floor=535024
+n=4 d=4 defect_class=None stubs=(0, 4, 0, 8, 4) enumeration=formula=101745 coefficient_upper_floor=11229596
+mutated node 5 ticks -9600138483 -> -1009600138483. exit=1 REJECT: claimed leaf bound fails: ticks=-1009600138483, vertex=(Fraction(4001, 20000), Fraction(4001, 20000), Fraction(999, 5000), Fraction(4001, 20000), Fraction(4001, 20000)), value=[-0.96001384857743035450610354186876541341199077 +/- 5.44e-45]
