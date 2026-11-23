@@ -1,0 +1,40 @@
+{
+  "credits": [],
+  "contributors": [
+    {
+      "name": "EconLearn",
+      "role": "First exhaustive v(9) search and certificate release.",
+      "sources": [
+        "https://github.com/teorth/erdosproblems/issues/403#issuecomment-5802603641",
+        "https://github.com/EconLearn/erdos293-check/releases/tag/v9-certificates"
+      ]
+    },
+    {
+      "name": "ntysdd",
+      "role": "Certificates for hard denominators and a bounded absence search.",
+      "sources": [
+        "https://github.com/teorth/erdosproblems/issues/403#issuecomment-5805837317",
+        "https://github.com/teorth/erdosproblems/issues/403#issuecomment-5806617441"
+      ]
+    },
+    {
+      "name": "jonathanwxh-cell",
+      "role": "Fixed-denominator search setup and one- and two-term closed forms described in issue #403.",
+      "sources": ["https://github.com/teorth/erdosproblems/issues/403"]
+    },
+    {
+      "name": "van Doorn and Tang",
+      "role": "Definition of v(k) with denominators greater than one and the nesting lemma.",
+      "sources": ["https://arxiv.org/abs/2512.22083"]
+    },
+    {
+      "name": "OEIS A400352 and A006585",
+      "role": "Published v(k) values and full enumeration control counts.",
+      "sources": ["https://oeis.org/A400352", "https://oeis.org/A006585"]
+    },
+    {
+      "name": "GPT-6.2 Sol",
+      "role": "Separately written search, enumeration and exact certificate check. No human has checked this replay."
+    }
+  ]
+}

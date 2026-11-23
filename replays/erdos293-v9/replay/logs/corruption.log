@@ -1,0 +1,17 @@
+control exit=0
+first=2 last=2 input_lines=1 comments=0 blanks=0 valid=1 covered=1 missing=0 bad=0 duplicate_labels=0 outside=0 outside_min=0 outside_max=0 target_found=0 input_error=0
+shift_denominator exit=1
+bad line=1 label=2 reason=sum
+missing m=2
+first=2 last=2 input_lines=1 comments=0 blanks=0 valid=0 covered=0 missing=1 bad=1 duplicate_labels=0 outside=0 outside_min=0 outside_max=0 target_found=0 input_error=0
+duplicate_term exit=1
+bad line=1 label=2 reason=duplicate_term
+missing m=2
+first=2 last=2 input_lines=1 comments=0 blanks=0 valid=0 covered=0 missing=1 bad=1 duplicate_labels=0 outside=0 outside_min=0 outside_max=0 target_found=0 input_error=0
+remove_m exit=1
+bad line=1 label=2 reason=label_not_a_denominator
+missing m=2
+first=2 last=2 input_lines=1 comments=0 blanks=0 valid=0 covered=0 missing=1 bad=1 duplicate_labels=0 outside=0 outside_min=0 outside_max=0 target_found=0 input_error=0
+delete_line exit=1
+missing m=2
+first=2 last=2 input_lines=0 comments=0 blanks=0 valid=0 covered=0 missing=1 bad=0 duplicate_labels=0 outside=0 outside_min=0 outside_max=0 target_found=0 input_error=0

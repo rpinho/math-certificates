@@ -1,0 +1,13 @@
+{
+  "target": "teorth/erdosproblems",
+  "new_bound": false,
+  "submitter": "rpinho",
+  "certificate_repository": "rpinho/math-certificates",
+  "producer_model": "GPT-6.2 Sol via Codex",
+  "referee_model": "Claude Opus 5.5 re-read the soundness argument, as recorded in replay/VERDICT_for_ledger.txt",
+  "destination": "replays/erdos293-v9",
+  "replay_inputs": {
+    "replay/SOUNDNESS.md": "proof"
+  },
+  "scope": "A second separately written exhaustive search for the published value v(9) = 13,856,993, plus exact verification of the released coverage certificates. No new result is claimed."
+}

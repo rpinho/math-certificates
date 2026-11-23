@@ -1,0 +1,101 @@
+{
+  "claims": [
+    {
+      "value": "13856993",
+      "kind": "rigorous",
+      "producer": "replay/solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Published v(9), reproduced by exact exhaustion at the target together with certificate coverage from check_certificates.c below it."
+    },
+    {
+      "value": "13856992",
+      "kind": "rigorous",
+      "producer": "replay/check_certificates.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Inclusive upper endpoint of required certificate coverage."
+    },
+    {
+      "value": "2",
+      "kind": "rigorous",
+      "producer": "replay/check_certificates.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Inclusive lower endpoint of required certificate coverage; occurrences elsewhere are method or control parameters."
+    },
+    {
+      "value": "1/13856993",
+      "kind": "rigorous",
+      "producer": "replay/solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Unit fraction excluded by the exhaustive absence search."
+    },
+    {
+      "value": "1412",
+      "kind": "rigorous",
+      "producer": "replay/run_main.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Completed shards and total tasks in the validated manifest."
+    },
+    {
+      "value": "0",
+      "kind": "rigorous",
+      "producer": "replay/solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Observed representations and skipped branches in the absence search; the separately written checker recorded zero certificate errors, missing labels, duplicate required labels or target occurrences."
+    },
+    {
+      "value": "76531788",
+      "kind": "rigorous",
+      "producer": "replay/solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Recorded DFS states."
+    },
+    {
+      "value": "76472707",
+      "kind": "rigorous",
+      "producer": "replay/run_main.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exactly predicted and observed two-term states."
+    },
+    {
+      "value": "487525854050",
+      "kind": "rigorous",
+      "producer": "replay/solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Recorded divisor probes."
+    },
+    {
+      "value": "19999375",
+      "kind": "rigorous",
+      "producer": "replay/check_certificates.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Valid certificate data rows checked."
+    },
+    {
+      "value": "13856991",
+      "kind": "rigorous",
+      "producer": "replay/check_certificates.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Number of required distinct labels verified."
+    },
+    {
+      "value": "6142384",
+      "kind": "rigorous",
+      "producer": "replay/check_certificates.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Valid data rows above the required interval."
+    }
+  ],
+  "scope": "Exact reproduction of the published v(9). Counts describe the captured run."
+}
