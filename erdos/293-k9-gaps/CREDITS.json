@@ -1,0 +1,45 @@
+{
+  "credits": [],
+  "contributors": [
+    {
+      "name": "EconLearn",
+      "role": "Exhaustive first omission result, certificate release and release-gap list.",
+      "source": "https://github.com/teorth/erdosproblems/issues/403#issuecomment-5802603641"
+    },
+    {
+      "name": "ntysdd",
+      "role": "Additional checked certificates in the release.",
+      "source": "https://github.com/teorth/erdosproblems/issues/403#issuecomment-5805837317"
+    },
+    {
+      "name": "jonathanwxh-cell",
+      "role": "Issue author and fixed-denominator DFS method notes.",
+      "source": "https://github.com/teorth/erdosproblems/issues/403"
+    },
+    {
+      "name": "van Doorn and Tang",
+      "role": "Definition and missing-denominator convention.",
+      "source": "https://arxiv.org/abs/2512.22083"
+    },
+    {
+      "name": "OEIS A400352",
+      "role": "Published v(k) sequence.",
+      "source": "https://oeis.org/A400352"
+    },
+    {
+      "name": "OEIS A006585",
+      "role": "Enumeration counts used as controls.",
+      "source": "https://oeis.org/A006585"
+    },
+    {
+      "name": "GPT-6.2 Sol",
+      "role": "C/GMP solver, exact controls and gap run.",
+      "source": "VERDICT_for_ledger.txt"
+    },
+    {
+      "name": "Claude Opus 5.5",
+      "role": "Separate review of the soundness argument.",
+      "source": "VERDICT_for_ledger.txt"
+    }
+  ]
+}

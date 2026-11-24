@@ -1,0 +1,39 @@
+fixed_control k m expected obtained skipped
+fixed_control 6 79 2 2 0
+fixed_control 6 102 11 11 0
+fixed_control 6 103 0 0 0
+fixed_control 7 732 116 116 0
+fixed_control 7 733 0 0 0
+fixed_control 8 27538 474 474 0
+fixed_control 8 27539 0 0 0
+fixed_control 8 27551 4 4 0
+fixed_control 8 32411 0 0 0
+fixed_control 8 53294 0 0 0
+sharded k=8 m=27538 shards=90 solutions=474 sha256=3e28fd5f96130fee05e60ee65674a639d5e256e421fe474d2797142e23862683
+mutant=missing-shard omitted_index=0 k=8 m=27538 expected=474 observed=107 sha256=9a469b5a2693c5ada0524672f7ab65fb6db213f3c206ad783b5d2b8edbd0a181
+deep m=13813799 observed=1 max_b_bits=73 certificate=2 3 7 47 395 826378 13813799 258915405010 5623917655365016250010
+deep m=13336331 observed=2 max_b_bits=86 certificate=2 3 7 44 925 913227 13336331 31781064967036 55354798808706711571214075
+sylvester k=9 m=2 q_bits=87 last_bits=174 count=88573 certificate=2 3 7 43 1807 3263443 10650056950807 113423713055421844361000443 12864938683278671740537145998360961546653259485195806
+one-term k=4 m=42 prefix=2,3 observed=1
+mutant=M1 k=4 m=42 expected=1 observed=0
+mutant=M2 k=4 m=5 expected=1 observed=2 duplicate=2 5 5 10
+mutant=M5 k=9 m=2 expected=88573 observed=0
+mutant=M6 k=4 m=42 expected=1 observed=0
+mutant=floor(q/p)+2 k=6 m=79 expected=2 observed=0
+enumerator k=3 count=1 distinct_m=3 max_m=6 incidences=3
+enumerator k=4 count=6 distinct_m=15 max_m=42 incidences=24
+enumerator k=5 count=72 distinct_m=77 max_m=1806 incidences=360
+enumerator k=6 count=2320 distinct_m=1152 max_m=3263442 incidences=13920
+enumerator k=7 count=245765 distinct_m=83231 max_m=10650056950806 incidences=1720355
+per-m k=7 matched=288 positive=256 incidence_sum_from_full_enumerator=1720355
+all-positive per-m k=7 matched=83263 positive=83231 composite=82771 gaps=32 incidence_sum=1720355
+per-m k=6 first=2 last=407931 matched=407930 incidences=13911
+per-m k=6 first=407932 last=815861 matched=407930 incidences=4
+per-m k=6 first=815862 last=1223791 matched=407930 incidences=3
+per-m k=6 first=1223792 last=1631721 matched=407930 incidences=0
+per-m k=6 first=1631722 last=2039651 matched=407930 incidences=1
+per-m k=6 first=2039652 last=2447581 matched=407930 incidences=0
+per-m k=6 first=2447582 last=2855511 matched=407930 incidences=0
+per-m k=6 first=2855512 last=3263442 matched=407931 incidences=1
+per-m k=6 matched=3263441 positive=1152 composite=1115 incidence_sum=13920
+controls=PASS

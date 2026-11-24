@@ -1,0 +1,17 @@
+{
+  "target": "teorth/erdosproblems",
+  "issue": 403,
+  "new_bound": false,
+  "result_type": "new exact value",
+  "producer_model": "GPT-6.2 Sol via Codex",
+  "referee_model": "Claude Opus 5.5, separate reading of the soundness argument",
+  "submitter": "rpinho",
+  "destination": "erdos/293-k9-gaps",
+  "certificate_repository": "rpinho/math-certificates",
+  "replay_inputs": {
+    "gaps.tsv": "certificate",
+    "SOUNDNESS_COMPOSITE.md": "proof",
+    "SOUNDNESS.md": "proof"
+  },
+  "scope": "Candidate exact second missing denominator of D_9 among integers greater than one, with the next seven exhaustive zeros and 52 witnesses. No change to a table bound."
+}

@@ -1,0 +1,164 @@
+{
+  "claims": [
+    {
+      "value": "13878989",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Candidate second missing denominator of D_9 among integers greater than one, by exhaustion and checked coverage after the first omission."
+    },
+    {
+      "value": "1/13878989",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Fixed unit fraction excluded by the exhaustive search."
+    },
+    {
+      "value": "13856993",
+      "kind": "cited",
+      "source": "https://github.com/teorth/erdosproblems/issues/403#issuecomment-5802603641",
+      "new_bound": false,
+      "label": "EconLearn’s published first missing denominator."
+    },
+    {
+      "value": "14462659",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Subsequent exhaustive zero, with finished shards and zero skips."
+    },
+    {
+      "value": "14757749",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Subsequent exhaustive zero, with finished shards and zero skips."
+    },
+    {
+      "value": "14789963",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Subsequent exhaustive zero, with finished shards and zero skips."
+    },
+    {
+      "value": "15519389",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Subsequent exhaustive zero, with finished shards and zero skips."
+    },
+    {
+      "value": "15865651",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Subsequent exhaustive zero, with finished shards and zero skips."
+    },
+    {
+      "value": "16210177",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Subsequent exhaustive zero, with finished shards and zero skips."
+    },
+    {
+      "value": "16648571",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Subsequent exhaustive zero, with finished shards and zero skips."
+    },
+    {
+      "value": "52",
+      "kind": "rigorous",
+      "producer": "run_gaps.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "New exact witnesses for gaps in the release."
+    },
+    {
+      "value": "16759021",
+      "kind": "rigorous",
+      "producer": "run_gaps.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Last settled candidate, with an exact witness."
+    },
+    {
+      "value": "16762189",
+      "kind": "rigorous",
+      "producer": "run_gaps.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "First unsettled candidate, with only a pilot recorded."
+    },
+    {
+      "value": "1412",
+      "kind": "rigorous",
+      "producer": "run_gaps.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Completed shards for the second omission."
+    },
+    {
+      "value": "76452736",
+      "kind": "rigorous",
+      "producer": "run_gaps.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Observed and separately predicted two-term states for the second omission."
+    },
+    {
+      "value": "487462597822",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Recorded divisor probes for the second omission."
+    },
+    {
+      "value": "0",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Representations and skips in each exhaustive zero."
+    },
+    {
+      "value": "9999376",
+      "kind": "rigorous",
+      "producer": "check_certificates.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Validated rows of the pinned release asset."
+    },
+    {
+      "value": "623",
+      "kind": "rigorous",
+      "producer": "check_certificates.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Omitted labels strictly above the first omission in the pinned asset."
+    },
+    {
+      "value": "21995",
+      "kind": "rigorous",
+      "producer": "check_certificates.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Verified consecutive integers strictly between the first and second omissions."
+    }
+  ],
+  "scope": "Candidate exact values and replay records for the second and subsequent missing denominators of D_9. These values do not change a table bound."
+}
