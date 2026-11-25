@@ -1,0 +1,16 @@
+{
+  "target": "teorth/optimizationproblems",
+  "new_bound": false,
+  "submitter": "rpinho",
+  "certificate_repository": "rpinho/math-certificates",
+  "producer_model": "Gemini 4 Neon High, clean-room audit and replay",
+  "referee_model": "No separate reviewer of the replay. GPT-6.2 Sol packaged it.",
+  "destination": "replays/c42-pr393",
+  "replay_inputs": {
+    "replay/LEMMAS.md": "proof"
+  },
+  "linked_trees": {
+    "NikosVat/turan-c42@72703467aaac1082a123966b75f654a292c1e5f7": "sources/publish-trees/NikosVat__turan-c42@72703467aaac1082a123966b75f654a292c1e5f7.json"
+  },
+  "scope": "Clean-room replay of Jinhao Huang’s Theorem 1 and one-box hand proof (HOLDS), plus Theorem 2 data and hypotheses checks. The Volterra integral inequality F < T was not replayed. No new bound is claimed."
+}

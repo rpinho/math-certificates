@@ -1,0 +1,416 @@
+{
+  "all_ok": true,
+  "count": 41,
+  "checks": [
+    {
+      "name": "r_lo^2 < 1/2",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 0.49999041,
+      "rhs_float": 0.5,
+      "lhs_exact": "49999041/100000000",
+      "rhs_exact": "1/2",
+      "note": "0.7071 < r"
+    },
+    {
+      "name": "r_hi^2 > 1/2",
+      "ok": true,
+      "op": ">",
+      "lhs_float": 0.50013184,
+      "rhs_float": 0.5,
+      "lhs_exact": "195364/390625",
+      "rhs_exact": "1/2",
+      "note": "r < 0.7072"
+    },
+    {
+      "name": "c-precondition (q^2 < 4 c^2 (1-c^2))",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 0.25010001,
+      "rhs_float": 0.2515103211971196,
+      "lhs_exact": "25010001/100000000",
+      "rhs_exact": "628775802992799/2500000000000000",
+      "note": "q < 2c sqrt(1-c^2)"
+    },
+    {
+      "name": "c > r_hi",
+      "ok": true,
+      "op": ">",
+      "lhs_float": 0.9657,
+      "rhs_float": 0.7072,
+      "lhs_exact": "9657/10000",
+      "rhs_exact": "442/625",
+      "note": "c > r"
+    },
+    {
+      "name": "xi == 0.00010001",
+      "ok": true,
+      "op": "==",
+      "lhs_float": 0.00010001,
+      "rhs_float": 0.00010001,
+      "lhs_exact": "10001/100000000",
+      "rhs_exact": "10001/100000000",
+      "note": "exact xi"
+    },
+    {
+      "name": "xi < 0.01001^2",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 0.00010001,
+      "rhs_float": 0.0001002001,
+      "lhs_exact": "10001/100000000",
+      "rhs_exact": "1002001/10000000000",
+      "note": "sqrt(xi) < 0.01001"
+    },
+    {
+      "name": "index precondition (r_hi + 0.01001 + 1/4 <= 1)",
+      "ok": true,
+      "op": "<=",
+      "lhs_float": 0.96721,
+      "rhs_float": 1.0,
+      "lhs_exact": "96721/100000",
+      "rhs_exact": "1",
+      "note": "r+sqrt(xi)+1/4 <= 1"
+    },
+    {
+      "name": "t < 0.000142",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 0.0001414227124876255,
+      "rhs_float": 0.000142,
+      "lhs_exact": "1/7071",
+      "rhs_exact": "71/500000",
+      "note": "(q-1/2)/r_lo < 0.000142"
+    },
+    {
+      "name": "s < 0.708",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 0.707342,
+      "rhs_float": 0.708,
+      "lhs_exact": "353671/500000",
+      "rhs_exact": "177/250",
+      "note": "r_hi + 0.000142 < 0.708"
+    },
+    {
+      "name": "I < 0.00049",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 0.00048497267759562844,
+      "rhs_float": 0.00049,
+      "lhs_exact": "71/146400",
+      "rhs_exact": "49/100000",
+      "note": "t_claim/(1-r_hi) < 0.00049"
+    },
+    {
+      "name": "rem_b > 0",
+      "ok": true,
+      "op": ">",
+      "lhs_float": 0.017653472,
+      "rhs_float": 0.0,
+      "lhs_exact": "551671/31250000",
+      "rhs_exact": "0",
+      "note": ""
+    },
+    {
+      "name": "b_* < 0.018",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 0.00030133482528,
+      "rhs_float": 0.000311645073654784,
+      "lhs_exact": "941671329/3125000000000",
+      "rhs_exact": "304340892241/976562500000000",
+      "note": "b = 0.018 suffices"
+    },
+    {
+      "name": "r_hi + 1/r_hi < 3*r_lo (decreasing f)",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 2.121227149321267,
+      "rhs_float": 2.1213,
+      "lhs_exact": "585989/276250",
+      "rhs_exact": "21213/10000",
+      "note": "3*r_lo is tighter lower bound than r_hi+1/r_hi"
+    },
+    {
+      "name": "r_lo + 1/r_lo < 3*r_hi (decreasing f)",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 2.121327124876255,
+      "rhs_float": 2.1216,
+      "lhs_exact": "149999041/70710000",
+      "rhs_exact": "1326/625",
+      "note": "r_lo+1/r_lo is tighter upper bound than 3*r_hi"
+    },
+    {
+      "name": "v > 0.462 (naive r_hi+1/r_lo)",
+      "ok": true,
+      "op": ">",
+      "lhs_float": 0.4628959385334912,
+      "rhs_float": 0.462,
+      "lhs_exact": "17359305/37501528",
+      "rhs_exact": "231/500",
+      "note": "holds even with naive interval arithmetic"
+    },
+    {
+      "name": "v < 0.481 (naive r_lo+1/r_hi)",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 0.48002818717281676,
+      "rhs_float": 0.481,
+      "lhs_exact": "15911332580/33146663061",
+      "rhs_exact": "481/1000",
+      "note": "holds even with naive interval arithmetic"
+    },
+    {
+      "name": "v > 0.462",
+      "ok": true,
+      "op": ">",
+      "lhs_float": 0.4628582202111614,
+      "rhs_float": 0.462,
+      "lhs_exact": "2455/5304",
+      "rhs_exact": "231/500",
+      "note": "(1-b)/(3 r_hi) > 0.462"
+    },
+    {
+      "name": "v < 0.481",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 0.4799890728570841,
+      "rhs_float": 0.481,
+      "lhs_exact": "71996980/149997123",
+      "rhs_exact": "481/1000",
+      "note": "(1+b+t/r_lo)/(3 r_lo) < 0.481"
+    },
+    {
+      "name": "R > 1.47",
+      "ok": true,
+      "op": ">",
+      "lhs_float": 1.47006237006237,
+      "rhs_float": 1.47,
+      "lhs_exact": "7071/4810",
+      "rhs_exact": "147/100",
+      "note": "r_lo / 0.481 > 1.47"
+    },
+    {
+      "name": "R < 1.533",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 1.5324675324675325,
+      "rhs_float": 1.533,
+      "lhs_exact": "118/77",
+      "rhs_exact": "1533/1000",
+      "note": "0.708 / 0.462 < 1.533"
+    },
+    {
+      "name": "m1 < 0.359",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 0.3581632,
+      "rhs_float": 0.359,
+      "lhs_exact": "55963/156250",
+      "rhs_exact": "359/1000",
+      "note": "r_hi*0.481 + 0.018 < 0.359"
+    },
+    {
+      "name": "L < 0.00055 (using r_hi*s_claim)",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 0.0005416595757575757,
+      "rhs_float": 0.00055,
+      "lhs_exact": "8937383/16500000000",
+      "rhs_exact": "11/20000",
+      "note": ""
+    },
+    {
+      "name": "L < 0.00055 (using r*s <= q)",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 0.0005410257575757575,
+      "rhs_float": 0.00055,
+      "lhs_exact": "357077/660000000",
+      "rhs_exact": "11/20000",
+      "note": ""
+    },
+    {
+      "name": "|mu|^2 <= 2 q^2 < 0.50021",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 0.50020002,
+      "rhs_float": 0.50021,
+      "lhs_exact": "25010001/50000000",
+      "rhs_exact": "50021/100000",
+      "note": "2*(0.5001)^2 = 0.50020002 < 0.50021"
+    },
+    {
+      "name": "Re(mu) > 0.489",
+      "ok": true,
+      "op": ">",
+      "lhs_float": 0.48999,
+      "rhs_float": 0.489,
+      "lhs_exact": "48999/100000",
+      "rhs_exact": "489/1000",
+      "note": "0.5 - 0.01001 = 0.48999 > 0.489"
+    },
+    {
+      "name": "Re(mu) < 0.511",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 0.51011,
+      "rhs_float": 0.511,
+      "lhs_exact": "51011/100000",
+      "rhs_exact": "511/1000",
+      "note": "0.5001 + 0.01001 = 0.51011 < 0.511"
+    },
+    {
+      "name": "Re(mu) upper even with s_claim/(2*r_lo)",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 0.5106478178475463,
+      "rhs_float": 0.511,
+      "lhs_exact": "11283721/22096875",
+      "rhs_exact": "511/1000",
+      "note": ""
+    },
+    {
+      "name": "sigma^2 <= P < xi < 0.000101",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 0.00010001,
+      "rhs_float": 0.000101,
+      "lhs_exact": "10001/100000000",
+      "rhs_exact": "101/1000000",
+      "note": "sigma^2 < 0.000101"
+    },
+    {
+      "name": "rhs_E > 0",
+      "ok": true,
+      "op": ">",
+      "lhs_float": 0.00605815722,
+      "rhs_float": 0.0,
+      "lhs_exact": "302907861/50000000000",
+      "rhs_exact": "0",
+      "note": ""
+    },
+    {
+      "name": "E < 0.0461",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 3.6259e-05,
+      "rhs_float": 3.670126890223813e-05,
+      "lhs_exact": "36259/1000000000",
+      "rhs_exact": "91753172255595321/2500000000000000000000",
+      "note": "exact squared test for E < 0.0461"
+    },
+    {
+      "name": "q*sqrt(1-c^2) < 0.130",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 0.0168626205252351,
+      "rhs_float": 0.0169,
+      "lhs_exact": "168626205252351/10000000000000000",
+      "rhs_exact": "169/10000",
+      "note": ""
+    },
+    {
+      "name": "U_* < 0.177",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 0.17665,
+      "rhs_float": 0.177,
+      "lhs_exact": "3533/20000",
+      "rhs_exact": "177/1000",
+      "note": "0.00055 + 0.0461 + 0.130 = 0.17665 < 0.177"
+    },
+    {
+      "name": "mono1: R_+ a_+ < 2 x_-",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 0.76682193,
+      "rhs_float": 0.978,
+      "lhs_exact": "76682193/100000000",
+      "rhs_exact": "489/500",
+      "note": ""
+    },
+    {
+      "name": "mono2: R_- > h_+^2 x_+",
+      "ok": true,
+      "op": ">",
+      "lhs_float": 1.47,
+      "rhs_float": 0.511,
+      "lhs_exact": "147/100",
+      "rhs_exact": "511/1000",
+      "note": ""
+    },
+    {
+      "name": "mono3: h_+^2 a_+ < R_- x_-",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 0.50021,
+      "rhs_float": 0.71883,
+      "lhs_exact": "50021/100000",
+      "rhs_exact": "71883/100000",
+      "note": ""
+    },
+    {
+      "name": "A1_rad > 0",
+      "ok": true,
+      "op": ">",
+      "lhs_float": 2.0415925,
+      "rhs_float": 0.0,
+      "lhs_exact": "816637/400000",
+      "rhs_exact": "0",
+      "note": ""
+    },
+    {
+      "name": "A1 > 1.379",
+      "ok": true,
+      "op": ">",
+      "lhs_float": 1.903941167660325,
+      "rhs_float": 1.901641,
+      "lhs_exact": "76157646706413/40000000000000",
+      "rhs_exact": "1901641/1000000",
+      "note": "c^2*(4 - 4*R0*0.511 + 0.5*R0^2) > 1.379^2"
+    },
+    {
+      "name": "A2_rad > 0",
+      "ok": true,
+      "op": ">",
+      "lhs_float": 1.3869334071531372,
+      "rhs_float": 0.0,
+      "lhs_exact": "1386933407153137201221/1000000000000000000000",
+      "rhs_exact": "0",
+      "note": ""
+    },
+    {
+      "name": "A2 < 1.178",
+      "ok": true,
+      "op": "<",
+      "lhs_float": 1.3869334071531372,
+      "rhs_float": 1.387684,
+      "lhs_exact": "1386933407153137201221/1000000000000000000000",
+      "rhs_exact": "346921/250000",
+      "note": "R0^2 - 2*R0*c^2*0.489 + 0.50021*c^4 < 1.178^2"
+    },
+    {
+      "name": "A1 - A2 > 0.201",
+      "ok": true,
+      "op": "==",
+      "lhs_float": 0.201,
+      "rhs_float": 0.201,
+      "lhs_exact": "201/1000",
+      "rhs_exact": "201/1000",
+      "note": ""
+    },
+    {
+      "name": "0.201 > 0.177",
+      "ok": true,
+      "op": ">",
+      "lhs_float": 0.201,
+      "rhs_float": 0.177,
+      "lhs_exact": "201/1000",
+      "rhs_exact": "177/1000",
+      "note": ""
+    }
+  ]
+}

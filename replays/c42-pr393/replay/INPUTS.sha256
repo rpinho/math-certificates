@@ -1,0 +1,26 @@
+# SHA-256 of external read-only inputs, relative to the replay working directory.
+# Each checksum is preceded by its public source. The TeX checksums are for
+# extracted members. Keep exact bytes when placing the data under these names.
+# For the executables, the two JSON files suffice. The PDF and TeX support manual review.
+# https://doi.org/10.5281/zenodo.24502737
+8aeddb5a0231b0f4e3ac18c01943eaa8ecd1aaf462f66827fb08ba8a3a1d9f56  inputs/C42-manuscript.pdf
+# https://doi.org/10.5281/zenodo.24502737 (C42-TeX-source.zip member abstract.tex)
+3779c477260216cd28a51c6c8fc09bd555361040c2ad58fd4d69fd0a9c3e4a02  inputs/tex/abstract.tex
+# https://doi.org/10.5281/zenodo.24502737 (C42-TeX-source.zip member argument.tex)
+9e16ea251de1db47ccf8a4342b1a687bef1588fa0fb9383db0e0f62baffe6911  inputs/tex/argument.tex
+# https://doi.org/10.5281/zenodo.24502737 (C42-TeX-source.zip member crosscheck.tex)
+63e38a08f1b4f1cda24d6b9fafebf264ed2f151a9efc70218df07812285937f8  inputs/tex/crosscheck.tex
+# https://doi.org/10.5281/zenodo.24502737 (C42-TeX-source.zip member main.tex)
+09695fb87b5cb874c53f3ff857077ebeb24b9320125a5657dc5f287df2c20eee  inputs/tex/main.tex
+# https://doi.org/10.5281/zenodo.24502737 (C42-TeX-source.zip member references.tex)
+22bc8e7cc27957b1d9a7358948c5cf511515ed09192da1bd96a08538032ef712  inputs/tex/references.tex
+# https://doi.org/10.5281/zenodo.24502737 (C42-TeX-source.zip member release-info.tex)
+73b1da62d458ae1f74c3a897ed51fc1324ef4e04c76ac8cdaea7a6fa167ec2f1  inputs/tex/release-info.tex
+# https://doi.org/10.5281/zenodo.24502737 (C42-TeX-source.zip member upper.tex)
+85268148e50317433c23453a02b2dec974348c2a6a0d8014f54e92210da003c1  inputs/tex/upper.tex
+# https://doi.org/10.5281/zenodo.24502737 (C42-TeX-source.zip member verification.tex)
+01085b4fd1f4bdbeb34edfaa1fb2dd379f5e8e048e121a9fe0b3788ae4b27aeb  inputs/tex/verification.tex
+# https://doi.org/10.5281/zenodo.24502737 (data file upper99-tight.json)
+0d28149baf0accae7dc073a36417fdb7151c502704de2db5b3293aa815ce0eb0  inputs/upper99-tight.json
+# https://github.com/NikosVat/turan-c42/blob/72703467aaac1082a123966b75f654a292c1e5f7/results/A_D96_4.json
+eb194ed5ab259400b59ef5ad6da2298bb8d2964525577a808072101042ceac0a  vatopoulos_A_D96_4.json

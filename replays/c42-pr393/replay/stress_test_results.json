@@ -1,0 +1,169 @@
+{
+  "total_tuples": 143,
+  "tuples_with_q_lt_r": 74,
+  "root_tuples_with_q_lt_r": 8,
+  "tuples_with_q_lt_r_and_gt1": 0,
+  "tuples_with_q_lt_r_and_zero": 0,
+  "min_q_eff": 0.6900000000000001,
+  "elapsed_sec": 0.449,
+  "lemma_summary": {
+    "n1_base": {
+      "exercised_count": 1,
+      "max_violation": 0.0
+    },
+    "n2_k1_excluded": {
+      "exercised_count": 57,
+      "max_violation": 0.0
+    },
+    "eq1_newton1": {
+      "exercised_count": 142,
+      "max_violation": 1.2299746237122512e-14
+    },
+    "eq2_newton2": {
+      "exercised_count": 142,
+      "max_violation": 1.9657626898308606e-14
+    },
+    "sector_escape": {
+      "exercised_count": 74,
+      "max_violation": 0.0
+    },
+    "eq3_trange": {
+      "exercised_count": 74,
+      "max_violation": 0.0
+    },
+    "eq4_budget": {
+      "exercised_count": 74,
+      "max_violation": 3.1086244689504383e-15
+    },
+    "eq5_radial": {
+      "exercised_count": 74,
+      "max_violation": 0.0
+    },
+    "eq6_index_amgm": {
+      "exercised_count": 74,
+      "max_violation": 0.0
+    },
+    "eq7_var": {
+      "exercised_count": 74,
+      "max_violation": 0.0
+    },
+    "eq8_mu": {
+      "exercised_count": 74,
+      "max_violation": 5.551115123125783e-16
+    },
+    "eq9_bstar": {
+      "exercised_count": 74,
+      "max_violation": 0.0
+    },
+    "eq10_v": {
+      "exercised_count": 74,
+      "max_violation": 6.620102843931108e-16
+    },
+    "eq11_R": {
+      "exercised_count": 74,
+      "max_violation": 4.440892098500626e-16
+    },
+    "sector_U_induction": {
+      "exercised_count": 74,
+      "max_violation": 0.0
+    },
+    "lemma2_transfer": {
+      "exercised_count": 74,
+      "max_violation": 3.1031254617958474e-15
+    },
+    "eq14_15_necessary": {
+      "exercised_count": 74,
+      "max_violation": 1.4602703977091186e-15
+    }
+  },
+  "root_tuple_details": [
+    {
+      "label": "BH_roots_unscaled_n150_T0.6863607438",
+      "n": 150,
+      "q_eff": 0.7048620580318443,
+      "k": 38,
+      "theta_k": 0.7867019984190846,
+      "has_zero": false,
+      "has_gt1": false,
+      "max_mod": 1.0,
+      "max_violation": 3.882344921837488e-15
+    },
+    {
+      "label": "BH_roots_rescaled_n150_T0.6863607438",
+      "n": 150,
+      "q_eff": 0.7048620580318443,
+      "k": 38,
+      "theta_k": 0.7867019984190846,
+      "has_zero": false,
+      "has_gt1": false,
+      "max_mod": 1.0,
+      "max_violation": 3.882344921837488e-15
+    },
+    {
+      "label": "BH_roots_unscaled_n180_T0.6863607438",
+      "n": 180,
+      "q_eff": 0.7025529489099235,
+      "k": 45,
+      "theta_k": 0.7858906912680378,
+      "has_zero": false,
+      "has_gt1": false,
+      "max_mod": 1.0,
+      "max_violation": 2.519205592498037e-15
+    },
+    {
+      "label": "BH_roots_rescaled_n180_T0.6863607438",
+      "n": 180,
+      "q_eff": 0.7025529489099235,
+      "k": 45,
+      "theta_k": 0.7858906912680378,
+      "has_zero": false,
+      "has_gt1": false,
+      "max_mod": 1.0,
+      "max_violation": 2.519205592498037e-15
+    },
+    {
+      "label": "BH_roots_unscaled_n180_T0.692",
+      "n": 180,
+      "q_eff": 0.6958118710064702,
+      "k": 41,
+      "theta_k": 0.786315225943625,
+      "has_zero": false,
+      "has_gt1": false,
+      "max_mod": 1.0,
+      "max_violation": 3.9092069427736366e-15
+    },
+    {
+      "label": "BH_roots_rescaled_n180_T0.692",
+      "n": 180,
+      "q_eff": 0.6958118710064702,
+      "k": 41,
+      "theta_k": 0.786315225943625,
+      "has_zero": false,
+      "has_gt1": false,
+      "max_mod": 1.0,
+      "max_violation": 3.9092069427736366e-15
+    },
+    {
+      "label": "BH_roots_unscaled_n210_T0.6863607438",
+      "n": 210,
+      "q_eff": 0.7008193598713145,
+      "k": 53,
+      "theta_k": 0.7866907198075983,
+      "has_zero": false,
+      "has_gt1": false,
+      "max_mod": 1.0,
+      "max_violation": 1.2299746237122512e-14
+    },
+    {
+      "label": "BH_roots_rescaled_n210_T0.6863607438",
+      "n": 210,
+      "q_eff": 0.7008193598713145,
+      "k": 53,
+      "theta_k": 0.7866907198075983,
+      "has_zero": false,
+      "has_gt1": false,
+      "max_mod": 1.0,
+      "max_violation": 1.2299746237122512e-14
+    }
+  ]
+}

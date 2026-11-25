@@ -1,0 +1,303 @@
+{
+  "claims": [
+    {
+      "value": "501/1000",
+      "kind": "rigorous",
+      "producer": "replay/verifier_b.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Huang’s strict Theorem 1 lower bound for every positive integer n. The lemma audit and Verifier A also support it."
+    },
+    {
+      "value": "5001/10000",
+      "kind": "rigorous",
+      "producer": "replay/check_hand_proof.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Huang’s strict one-box hand-proof bound, also replayed numerically with directed integer intervals by Verifier A."
+    },
+    {
+      "value": "41",
+      "kind": "rigorous",
+      "producer": "replay/check_hand_proof.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Number of exact hand-proof checks attempted and passed."
+    },
+    {
+      "value": "6922",
+      "kind": "rigorous",
+      "producer": "replay/verifier_a.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Verifier A boxes visited in the base certification."
+    },
+    {
+      "value": "4229",
+      "kind": "rigorous",
+      "producer": "replay/verifier_a.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Verifier A terminal leaves in the base certification."
+    },
+    {
+      "value": "10^24",
+      "kind": "rigorous",
+      "producer": "replay/verifier_a.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Verifier A integer scale."
+    },
+    {
+      "value": "12000",
+      "kind": "rigorous",
+      "producer": "replay/verifier_a.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Verifier A primitive test trials."
+    },
+    {
+      "value": "160",
+      "kind": "rigorous",
+      "producer": "replay/verifier_b.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Verifier B working precision in bits."
+    },
+    {
+      "value": "92146",
+      "kind": "rigorous",
+      "producer": "replay/verifier_b.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Verifier B boxes visited in the base certification."
+    },
+    {
+      "value": "47609",
+      "kind": "rigorous",
+      "producer": "replay/verifier_b.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Verifier B terminal leaves in the base certification."
+    },
+    {
+      "value": "256",
+      "kind": "rigorous",
+      "producer": "replay/t2_lite.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "T2-lite working precision in bits, also the Arb root-run precision in the stress test."
+    },
+    {
+      "value": "100",
+      "kind": "rigorous",
+      "producer": "replay/t2_lite.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Number of knots and phase strings compared in T2-lite. Also the decimal precision used for Verifier A primitive comparisons."
+    },
+    {
+      "value": "99",
+      "kind": "rigorous",
+      "producer": "replay/t2_lite.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Number of checked segments in T2-lite."
+    },
+    {
+      "value": "0.09318",
+      "kind": "rigorous",
+      "producer": "replay/t2_lite.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Conservative lower endpoint for Re(gamma) in the hypotheses check."
+    },
+    {
+      "value": "0.587",
+      "kind": "rigorous",
+      "producer": "replay/t2_lite.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Conservative upper endpoint for the first-half sup |d0| in the hypotheses check."
+    },
+    {
+      "value": "1",
+      "kind": "rigorous",
+      "producer": "replay/t2_lite.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Strict upper threshold for |d0| in the hypotheses check. Also an index or theorem number in other contexts."
+    },
+    {
+      "value": "3431803719/5000000000",
+      "kind": "rigorous",
+      "producer": "replay/t2_lite.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Exact T and C data values checked using Fraction. This rational is the certificate height and does not establish the C42 upper bound."
+    },
+    {
+      "value": "143",
+      "kind": "estimate",
+      "producer": "replay/stress_test.py",
+      "arithmetic": "float",
+      "new_bound": false,
+      "label": "Number of attempted stress tuples in the numerical diagnostic."
+    },
+    {
+      "value": "57",
+      "kind": "estimate",
+      "producer": "replay/stress_test.py",
+      "arithmetic": "float",
+      "new_bound": false,
+      "label": "Number of stress tuples with n = 2."
+    },
+    {
+      "value": "74",
+      "kind": "estimate",
+      "producer": "replay/stress_test.py",
+      "arithmetic": "float",
+      "new_bound": false,
+      "label": "Number of Biró–Harcos stress cases below the sector threshold."
+    },
+    {
+      "value": "0.6900",
+      "kind": "estimate",
+      "producer": "replay/stress_test.py",
+      "arithmetic": "float",
+      "new_bound": false,
+      "label": "Approximate smallest observed q_eff."
+    },
+    {
+      "value": "1.97",
+      "kind": "estimate",
+      "producer": "replay/stress_test.py",
+      "arithmetic": "float",
+      "new_bound": false,
+      "label": "Coefficient in the rounded largest observed lemma residual, times 10^-14."
+    },
+    {
+      "value": "10^-14",
+      "kind": "estimate",
+      "producer": "replay/stress_test.py",
+      "arithmetic": "float",
+      "new_bound": false,
+      "label": "Scale of the rounded largest observed lemma residual."
+    },
+    {
+      "value": "1.857e-7",
+      "kind": "estimate",
+      "producer": "replay/verifier_a.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Rounded display of the Verifier A minimum leaf margin."
+    },
+    {
+      "value": "0.501034",
+      "kind": "estimate",
+      "producer": "replay/verifier_a.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Rounded diagnostic Verifier A bisection q_max."
+    },
+    {
+      "value": "2.397e-7",
+      "kind": "estimate",
+      "producer": "replay/verifier_b.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Rounded display of the Verifier B minimum squared leaf margin."
+    },
+    {
+      "value": "0.501014",
+      "kind": "estimate",
+      "producer": "replay/verifier_b.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Rounded diagnostic Verifier B bisection q_max."
+    },
+    {
+      "value": "-0.244238",
+      "kind": "estimate",
+      "producer": "replay/t2_lite.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Approximate real part in T2-lite red control 1."
+    },
+    {
+      "value": "1.155105",
+      "kind": "estimate",
+      "producer": "replay/t2_lite.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Approximate failed upper enclosure in T2-lite red control 2."
+    },
+    {
+      "value": "0.686360743545359",
+      "kind": "estimate",
+      "producer": "replay/t2_lite.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Rounded ratio of the two printed summary endpoints."
+    },
+    {
+      "value": "3.2e-12",
+      "kind": "estimate",
+      "producer": "replay/t2_lite.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Approximate excess of ratio of printed endpoints over the printed ratio."
+    },
+    {
+      "value": "2.546e-10",
+      "kind": "estimate",
+      "producer": "replay/t2_lite.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Approximate shortfall of ratio of printed endpoints from T."
+    },
+    {
+      "value": "0.6863607438",
+      "kind": "cited",
+      "source": "https://doi.org/10.5281/zenodo.24502737",
+      "new_bound": false,
+      "label": "Huang’s stated Theorem 2 bound and trial height. The hypotheses check leaves F < T unreplayed."
+    },
+    {
+      "value": "0.68636074",
+      "kind": "cited",
+      "source": "https://github.com/NikosVat/turan-c42/blob/72703467aaac1082a123966b75f654a292c1e5f7/results/A_D96_4.json",
+      "new_bound": false,
+      "label": "Vatopoulos’s trial height."
+    },
+    {
+      "value": "1/2 + 2^-4096",
+      "kind": "cited",
+      "source": "https://github.com/teorth/optimizationproblems/pull/310",
+      "new_bound": false,
+      "label": "Earlier lower bound, disclosed as a conflict of interest."
+    },
+    {
+      "value": "0.197467474154",
+      "kind": "cited",
+      "source": "https://doi.org/10.5281/zenodo.24502737",
+      "new_bound": false,
+      "label": "Rounded numerator printed in Huang’s manuscript."
+    },
+    {
+      "value": "0.287702168300",
+      "kind": "cited",
+      "source": "https://doi.org/10.5281/zenodo.24502737",
+      "new_bound": false,
+      "label": "Rounded denominator printed in Huang’s manuscript."
+    },
+    {
+      "value": "0.686360743542159",
+      "kind": "cited",
+      "source": "https://doi.org/10.5281/zenodo.24502737",
+      "new_bound": false,
+      "label": "Ratio reported in Huang’s manuscript from the unrounded endpoints."
+    }
+  ],
+  "scope": "Clean-room replay of Jinhao Huang’s Theorem 1 and one-box hand proof (HOLDS), plus Theorem 2 data and hypotheses checks. The Volterra integral inequality F < T was not replayed. No new bound is claimed."
+}

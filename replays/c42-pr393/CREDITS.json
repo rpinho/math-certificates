@@ -1,0 +1,67 @@
+{
+  "credits": [],
+  "contributors": [
+    {
+      "name": "Jinhao Huang with OpenAI Codex",
+      "role": "Claimed lower and upper bounds, manuscript and released trial data.",
+      "sources": [
+        "https://github.com/teorth/optimizationproblems/pull/393",
+        "https://doi.org/10.5281/zenodo.24502737"
+      ]
+    },
+    {
+      "name": "A. Biró",
+      "role": "Newton-identity approach to the lower bound and Biró–Harcos upper-bound construction.",
+      "sources": [
+        "https://doi.org/10.1016/S0019-3577(00)80003-8",
+        "https://doi.org/10.1016/S0019-3577(00)80018-X"
+      ]
+    },
+    {
+      "name": "G. Harcos",
+      "role": "Biró–Harcos construction used by the stress test.",
+      "sources": [
+        "https://teorth.github.io/optimizationproblems/constants/42a.html"
+      ]
+    },
+    {
+      "name": "V. Bakeas",
+      "role": "Theorem A, which underlies the upper-bound claim.",
+      "sources": [
+        "https://hexagonmath.org/2611.00069v1"
+      ]
+    },
+    {
+      "name": "R. Pinho",
+      "role": "Arbitrary-knot form of Bakeas’s Theorem A and the earlier explicit lower bound.",
+      "sources": [
+        "https://hexagonmath.org/2611.00069v1",
+        "https://github.com/teorth/optimizationproblems/pull/310"
+      ]
+    },
+    {
+      "name": "N. Vatopoulos",
+      "role": "Pinned 99-piece phase profile used by the claimant and checked in T2-lite.",
+      "sources": [
+        "https://github.com/NikosVat/turan-c42/blob/72703467aaac1082a123966b75f654a292c1e5f7/results/A_D96_4.json"
+      ]
+    },
+    {
+      "name": "A. Canli",
+      "role": "Earlier replays of Bakeas’s and Vatopoulos’s Theorem A certificates.",
+      "sources": [
+        "https://github.com/arhancanli/quantavane-replays"
+      ]
+    },
+    {
+      "name": "Gemini 4 Neon High",
+      "role": "Clean-room lemma audit, hand-proof checks, stress tests, lower-bound verifiers and T2-lite.",
+      "sources": []
+    },
+    {
+      "name": "GPT-6.2 Sol",
+      "role": "Packet preparation and artifact checks.",
+      "sources": []
+    }
+  ]
+}
