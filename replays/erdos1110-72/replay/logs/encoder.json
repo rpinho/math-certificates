@@ -1,0 +1,144 @@
+{
+  "large_samples": {
+    "H": 10,
+    "V_hat_sha256_i64le": "fee060dab2620df43b8db22b2c0c031c28f6d477a4d9906ccf694cfb3ff2b911",
+    "c_star": 20,
+    "lambda": "43/11",
+    "runs": {
+      "10": {
+        "congruence_checks": 257,
+        "distinct_admitted_n": 257,
+        "empirical_admissible_random": {
+          "denominator": 256,
+          "numerator": 256
+        },
+        "padded_steps": 273,
+        "random_inputs": 256,
+        "strict_K_checks": 257,
+        "strict_antichain_checks": 257,
+        "strict_upper_surrogate_checks": 257,
+        "zero_admitted": true,
+        "zero_checks": 1
+      },
+      "20": {
+        "congruence_checks": 257,
+        "distinct_admitted_n": 257,
+        "empirical_admissible_random": {
+          "denominator": 256,
+          "numerator": 256
+        },
+        "padded_steps": 411,
+        "random_inputs": 256,
+        "strict_K_checks": 257,
+        "strict_antichain_checks": 257,
+        "strict_upper_surrogate_checks": 257,
+        "zero_admitted": true,
+        "zero_checks": 1
+      }
+    },
+    "s": 11,
+    "upper_exponent": "286/73"
+  },
+  "small_exhaustive": {
+    "H": 4,
+    "N": 4,
+    "c_star": 0,
+    "chain_count": 35,
+    "lambda": "1",
+    "policies": {
+      "first": {
+        "admissible": 531,
+        "conditioned_uniformity": {
+          "0": {
+            "classes": 64,
+            "count_per_value": 8,
+            "values_per_class": 8
+          },
+          "1": {
+            "classes": 512,
+            "count_per_value": 1,
+            "values_per_class": 8
+          }
+        },
+        "congruence_checks": 4096,
+        "distinct_admitted_n": 531,
+        "inadmissible": 3565,
+        "inputs": 4096,
+        "padded_steps": 1018,
+        "strict_K_checks": 4096,
+        "strict_antichain_checks": 4096,
+        "zero_admitted": true
+      },
+      "random_1110": {
+        "admissible": 125,
+        "conditioned_uniformity": {
+          "0": {
+            "classes": 64,
+            "count_per_value": 8,
+            "values_per_class": 8
+          },
+          "1": {
+            "classes": 512,
+            "count_per_value": 1,
+            "values_per_class": 8
+          }
+        },
+        "congruence_checks": 4096,
+        "distinct_admitted_n": 125,
+        "inadmissible": 3971,
+        "inputs": 4096,
+        "padded_steps": 683,
+        "strict_K_checks": 4096,
+        "strict_antichain_checks": 4096,
+        "zero_admitted": true
+      },
+      "random_1111": {
+        "admissible": 142,
+        "conditioned_uniformity": {
+          "0": {
+            "classes": 64,
+            "count_per_value": 8,
+            "values_per_class": 8
+          },
+          "1": {
+            "classes": 512,
+            "count_per_value": 1,
+            "values_per_class": 8
+          }
+        },
+        "congruence_checks": 4096,
+        "distinct_admitted_n": 142,
+        "inadmissible": 3954,
+        "inputs": 4096,
+        "padded_steps": 685,
+        "strict_K_checks": 4096,
+        "strict_antichain_checks": 4096,
+        "zero_admitted": true
+      },
+      "tallest": {
+        "admissible": 33,
+        "conditioned_uniformity": {
+          "0": {
+            "classes": 64,
+            "count_per_value": 8,
+            "values_per_class": 8
+          },
+          "1": {
+            "classes": 512,
+            "count_per_value": 1,
+            "values_per_class": 8
+          }
+        },
+        "congruence_checks": 4096,
+        "distinct_admitted_n": 33,
+        "inadmissible": 4063,
+        "inputs": 4096,
+        "padded_steps": 589,
+        "strict_K_checks": 4096,
+        "strict_antichain_checks": 4096,
+        "zero_admitted": true
+      }
+    },
+    "s": 3
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "input_sha256": {
+    "inputs/README.md": "64550a366613eb3da43081a0a97457c7d6300433947606a855130427f3253caa",
+    "inputs/V_s11_it8.bin.xz": "90db9ac0f2da9ac6ad76497de73288e341a8ca8d63e715b037caa29eac7c7d97",
+    "replay_table.f32": "f7f832116362b96db8ba42884e61803aa5e7cd02071a45f3353072ee4bdd9258"
+  },
+  "readme_expectation": {
+    "maximum": 8385274094,
+    "argmax": [
+      1835,
+      623
+    ],
+    "chains": 70701
+  },
+  "claim_matches_raw_replay": true,
+  "coverage_complete": true,
+  "passes": true
+}

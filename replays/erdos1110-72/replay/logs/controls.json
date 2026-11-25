@@ -1,0 +1,303 @@
+{
+  "corruption": {
+    "-20000": {
+      "c_drift": 8426234094,
+      "edited_entry": 10390409,
+      "lhs_73_times_drift": 615115088862,
+      "lookaheads_that_can_reach_target": 0,
+      "observed_delta": 40960000,
+      "original_entry": 10410409,
+      "passes_threshold_at_witness": false,
+      "predicted_delta": 40960000,
+      "python_drift": 8426234094,
+      "rhs_286_times_2pow31": 614180323328,
+      "state": [
+        1835,
+        623
+      ]
+    },
+    "-13748": {
+      "c_drift": 8413429998,
+      "edited_entry": 10396661,
+      "lhs_73_times_drift": 614180389854,
+      "lookaheads_that_can_reach_target": 0,
+      "observed_delta": 28155904,
+      "original_entry": 10410409,
+      "passes_threshold_at_witness": false,
+      "predicted_delta": 28155904,
+      "python_drift": 8413429998,
+      "rhs_286_times_2pow31": 614180323328,
+      "state": [
+        1835,
+        623
+      ]
+    },
+    "-1000": {
+      "c_drift": 8387322094,
+      "edited_entry": 10409409,
+      "lhs_73_times_drift": 612274512862,
+      "lookaheads_that_can_reach_target": 0,
+      "observed_delta": 2048000,
+      "original_entry": 10410409,
+      "passes_threshold_at_witness": true,
+      "predicted_delta": 2048000,
+      "python_drift": 8387322094,
+      "rhs_286_times_2pow31": 614180323328,
+      "state": [
+        1835,
+        623
+      ]
+    }
+  },
+  "height_windows": {
+    "2": {
+      "difference_from_baseline": 4126080494,
+      "python_at_winner": 12511354588,
+      "sweep": {
+        "H": 10,
+        "argmax": [
+          74,
+          601
+        ],
+        "argmax_count": 1,
+        "chains": 29515,
+        "finite": 4194304,
+        "layout": "cb",
+        "lookaheads": 8589934592,
+        "maximum": 12511354588,
+        "maximum_table_value": 10784369,
+        "minimum": 0,
+        "negative_ties": 0,
+        "passes_threshold": false,
+        "positive_ties": 6659,
+        "residues": 2048,
+        "rounding": "away",
+        "rule": "standard",
+        "s": 11,
+        "states": 4194304,
+        "threads": 6,
+        "ties": 6659,
+        "window": 2
+      }
+    },
+    "4": {
+      "difference_from_baseline": -28248,
+      "python_at_winner": 8385245846,
+      "sweep": {
+        "H": 10,
+        "argmax": [
+          821,
+          1699
+        ],
+        "argmax_count": 1,
+        "chains": 159125,
+        "finite": 4194304,
+        "layout": "cb",
+        "lookaheads": 8589934592,
+        "maximum": 8385245846,
+        "maximum_table_value": 10784369,
+        "minimum": 0,
+        "negative_ties": 0,
+        "passes_threshold": true,
+        "positive_ties": 6659,
+        "residues": 2048,
+        "rounding": "away",
+        "rule": "standard",
+        "s": 11,
+        "states": 4194304,
+        "threads": 6,
+        "ties": 6659,
+        "window": 4
+      }
+    }
+  },
+  "mutations": {
+    "last-gamma": {
+      "comparisons": [
+        {
+          "c_mutant": 10525832334,
+          "python_mutant": 10525832334,
+          "python_standard": 8378412114,
+          "state": [
+            1453,
+            284
+          ]
+        },
+        {
+          "c_mutant": 7665868205,
+          "python_mutant": 7665868205,
+          "python_standard": 8385274094,
+          "state": [
+            1835,
+            623
+          ]
+        }
+      ],
+      "disagrees_with_standard_python": true,
+      "maximum_changed": true,
+      "sweep": {
+        "H": 10,
+        "argmax": [
+          1453,
+          284
+        ],
+        "argmax_count": 1,
+        "chains": 70701,
+        "finite": 4194304,
+        "layout": "cb",
+        "lookaheads": 8589934592,
+        "maximum": 10525832334,
+        "maximum_table_value": 10784369,
+        "minimum": 0,
+        "negative_ties": 0,
+        "passes_threshold": false,
+        "positive_ties": 6659,
+        "residues": 2048,
+        "rounding": "away",
+        "rule": "last-gamma",
+        "s": 11,
+        "states": 4194304,
+        "threads": 6,
+        "ties": 6659,
+        "window": 3
+      }
+    },
+    "low-value": {
+      "comparisons": [
+        {
+          "c_mutant": 19796008763,
+          "python_mutant": 19796008763,
+          "python_standard": 8377097471,
+          "state": [
+            1574,
+            1819
+          ]
+        },
+        {
+          "c_mutant": 9097215476,
+          "python_mutant": 9097215476,
+          "python_standard": 8385274094,
+          "state": [
+            1835,
+            623
+          ]
+        }
+      ],
+      "disagrees_with_standard_python": true,
+      "maximum_changed": true,
+      "sweep": {
+        "H": 10,
+        "argmax": [
+          1574,
+          1819
+        ],
+        "argmax_count": 1,
+        "chains": 70701,
+        "finite": 4194304,
+        "layout": "cb",
+        "lookaheads": 8589934592,
+        "maximum": 19796008763,
+        "maximum_table_value": 10784369,
+        "minimum": 0,
+        "negative_ties": 0,
+        "passes_threshold": false,
+        "positive_ties": 6659,
+        "residues": 2048,
+        "rounding": "away",
+        "rule": "low-value",
+        "s": 11,
+        "states": 4194304,
+        "threads": 6,
+        "ties": 6659,
+        "window": 3
+      }
+    },
+    "positive-gamma": {
+      "comparisons": [
+        {
+          "c_mutant": 21167844332,
+          "python_mutant": 21167844332,
+          "python_standard": 8377088383,
+          "state": [
+            1087,
+            710
+          ]
+        },
+        {
+          "c_mutant": 5273330784,
+          "python_mutant": 5273330784,
+          "python_standard": 8385274094,
+          "state": [
+            1835,
+            623
+          ]
+        }
+      ],
+      "disagrees_with_standard_python": true,
+      "maximum_changed": true,
+      "sweep": {
+        "H": 10,
+        "argmax": [
+          1087,
+          710
+        ],
+        "argmax_count": 1,
+        "chains": 73052,
+        "finite": 4194304,
+        "layout": "cb",
+        "lookaheads": 8589934592,
+        "maximum": 21167844332,
+        "maximum_table_value": 10784369,
+        "minimum": 0,
+        "negative_ties": 0,
+        "passes_threshold": false,
+        "positive_ties": 6659,
+        "residues": 2048,
+        "rounding": "away",
+        "rule": "positive-gamma",
+        "s": 11,
+        "states": 4194304,
+        "threads": 6,
+        "ties": 6659,
+        "window": 3
+      }
+    }
+  },
+  "rational": {
+    "286_times_2pow31": 614180323328,
+    "2pow72": 4722366482869645213696,
+    "2pow73": 9444732965739290427392,
+    "73_g_num_lt_286_2pow31": true,
+    "73_times_g_num": 612125008862,
+    "7pow26": 9387480337647754305649,
+    "7pow26_lt_2pow72": false,
+    "7pow26_lt_2pow73": true
+  },
+  "structural": {
+    "drop_empty": {
+      "diagnostic": "uncovered residue 0",
+      "exit": 1,
+      "refused": true
+    },
+    "duplicate_alpha": {
+      "diagnostic": "duplicate alpha",
+      "exit": 1,
+      "refused": true
+    },
+    "height_11": {
+      "diagnostic": "height exceeds H",
+      "exit": 1,
+      "refused": true
+    },
+    "non_chain": {
+      "diagnostic": "pairs do not form a chain",
+      "exit": 1,
+      "refused": true
+    },
+    "wrong_residue": {
+      "diagnostic": "chain residue mismatch",
+      "exit": 1,
+      "refused": true
+    }
+  }
+}

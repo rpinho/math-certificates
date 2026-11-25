@@ -1,0 +1,6 @@
+# Credits
+
+- Jean-Roch Bécart with Claude Opus 5.5 developed the two-block proof, finite certificate and potential table that this replay checks. [Pinned argument](https://github.com/Jrbecart-uo/erdos-1110-72/blob/f26cb9a2506fef170b110b6226fe294d1b9d04e8/README.md), [dated claim](https://erdosproblems.ai/wiki/problems/diophantine_problems/E1110/claims/2026_09_29_becart).
+- P. Erdős and M. Lewin posed the density question and gave the finite-exception classification. W.-X. Yu and Y.-G. Chen proved zero density in several ranges of the bases. [Erdős and Lewin (1996)](https://doi.org/10.1090/S0025-5718-96-00707-7), [problem statement and literature](https://www.erdosproblems.com/1110).
+- Ding, Li, Liu and Zhang reported the earlier (5,2) single-block certificate. [Problem statement and literature](https://www.erdosproblems.com/1110), [Bécart’s account of the relation](https://github.com/Jrbecart-uo/erdos-1110-72/blob/f26cb9a2506fef170b110b6226fe294d1b9d04e8/README.md#6-remarks).
+- GPT-6.2 Sol via Codex carried out the clean-room lemma audit and wrote the C verifier and Python reference. The original replay job supplied the model attribution. Both implementations came from one agent. No human has checked this replay.

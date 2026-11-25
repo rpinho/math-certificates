@@ -1,0 +1,39 @@
+{
+  "credits": [],
+  "contributors": [
+    {
+      "name": "Jean-Roch Bécart with Claude Opus 5.5",
+      "role": "The proof, two-block construction, potential table and finite certificate replayed here.",
+      "sources": [
+        "https://github.com/Jrbecart-uo/erdos-1110-72/blob/f26cb9a2506fef170b110b6226fe294d1b9d04e8/README.md",
+        "https://erdosproblems.ai/wiki/problems/diophantine_problems/E1110/claims/2026_09_29_becart"
+      ]
+    },
+    {
+      "name": "P. Erdős and M. Lewin",
+      "role": "Finite-exception classification and the density question.",
+      "sources": [
+        "https://doi.org/10.1090/S0025-5718-96-00707-7",
+        "https://www.erdosproblems.com/1110"
+      ]
+    },
+    {
+      "name": "W.-X. Yu and Y.-G. Chen",
+      "role": "Zero-density results for ranges of the bases.",
+      "sources": ["https://www.erdosproblems.com/1110"]
+    },
+    {
+      "name": "Ding, Li, Liu and Zhang",
+      "role": "Earlier single-block certificate establishing positive lower density for (5,2) as reported in the claim record.",
+      "sources": [
+        "https://www.erdosproblems.com/1110",
+        "https://github.com/Jrbecart-uo/erdos-1110-72/blob/f26cb9a2506fef170b110b6226fe294d1b9d04e8/README.md#6-remarks"
+      ]
+    },
+    {
+      "name": "GPT-6.2 Sol via Codex",
+      "role": "Clean-room proof audit and separate C and Python implementations by one agent.",
+      "sources": ["replay/VERDICT_for_ledger.txt"]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# SHA-256 of external inputs and deterministic derivatives, relative to the replay working directory.
+# https://raw.githubusercontent.com/Jrbecart-uo/erdos-1110-72/f26cb9a2506fef170b110b6226fe294d1b9d04e8/README.md
+64550a366613eb3da43081a0a97457c7d6300433947606a855130427f3253caa  inputs/README.md
+# https://raw.githubusercontent.com/Jrbecart-uo/erdos-1110-72/f26cb9a2506fef170b110b6226fe294d1b9d04e8/certificate/V_s11_it8.bin.xz
+90db9ac0f2da9ac6ad76497de73288e341a8ca8d63e715b037caa29eac7c7d97  inputs/V_s11_it8.bin.xz
+# Uncompressed float32 bytes from https://raw.githubusercontent.com/Jrbecart-uo/erdos-1110-72/f26cb9a2506fef170b110b6226fe294d1b9d04e8/certificate/V_s11_it8.bin.xz
+f7f832116362b96db8ba42884e61803aa5e7cd02071a45f3353072ee4bdd9258  replay_table.f32
+# Derived from https://raw.githubusercontent.com/Jrbecart-uo/erdos-1110-72/f26cb9a2506fef170b110b6226fe294d1b9d04e8/certificate/V_s11_it8.bin.xz
+# Scale the uncompressed float32 by 2^20, round half away from zero, and write signed int64 in little-endian source order.
+# Neither derivative has a separate upstream download in the pinned tree.
+fee060dab2620df43b8db22b2c0c031c28f6d477a4d9906ccf694cfb3ff2b911  V_hat.i64le

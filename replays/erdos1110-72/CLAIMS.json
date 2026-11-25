@@ -1,0 +1,355 @@
+{
+  "claims": [
+    {
+      "value": "8385274094",
+      "kind": "rigorous",
+      "producer": "replay/e1110_verify.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/full_cb_away.json",
+      "label": "Theorem B reproduced maximum drift numerator in units of 2^-31, using the pinned table and the canonical family and layout."
+    },
+    {
+      "value": "(1835, 623)",
+      "kind": "rigorous",
+      "producer": "replay/e1110_verify.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/full_cb_away.json",
+      "label": "Unique attaining (c,b) state of the canonical maximum."
+    },
+    {
+      "value": "4194304",
+      "kind": "rigorous",
+      "producer": "replay/e1110_verify.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/full_cb_away.json",
+      "label": "Count of all c,b states in each of the full sweeps."
+    },
+    {
+      "value": "2048",
+      "kind": "rigorous",
+      "producer": "replay/e1110_verify.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/full_cb_away.json",
+      "label": "Number of look-aheads per state and number of residues, P=2^11."
+    },
+    {
+      "value": "8589934592",
+      "kind": "rigorous",
+      "producer": "replay/e1110_verify.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/full_cb_away.json",
+      "label": "Count of state and look-ahead pairs in each full sweep."
+    },
+    {
+      "value": "6",
+      "kind": "rigorous",
+      "producer": "replay/e1110_verify.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/full_cb_away.json",
+      "label": "Number of threads in the recorded full sweep, a run parameter."
+    },
+    {
+      "value": "23.21",
+      "kind": "estimate",
+      "producer": "replay/e1110_verify.c",
+      "arithmetic": "float",
+      "new_bound": false,
+      "evidence": "replay/logs/full_cb_away.time",
+      "label": "Recorded wall time in seconds from /usr/bin/time -l for the canonical verifier run, a performance measurement."
+    },
+    {
+      "value": "70701",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/reference.json",
+      "label": "Exact chain count for the canonical family. C and Python chain lists agree byte for byte."
+    },
+    {
+      "value": "32256",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/reference.json",
+      "label": "Number of exact C/Python synthetic state comparisons, summed over all layout and rounding cases."
+    },
+    {
+      "value": "675",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/reference.json",
+      "label": "Number of exact real-table C/Python state comparisons, summed over six layout and rounding cases."
+    },
+    {
+      "value": "6659",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/reference.json",
+      "label": "Number of exact positive half-integer ties in the scaled binary32 entries. There were no negative ties."
+    },
+    {
+      "value": "3963",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/reference.json",
+      "label": "Number of entries changed by half-even rounding compared with half-away."
+    },
+    {
+      "value": "8385274062",
+      "kind": "rigorous",
+      "producer": "replay/e1110_verify.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/full_cb_even.json",
+      "label": "Half-even maximum in the canonical layout, which passes the original threshold."
+    },
+    {
+      "value": "22313851226",
+      "kind": "rigorous",
+      "producer": "replay/e1110_verify.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/full_bc_away.json",
+      "label": "Transposed-layout maximum, shared by half-away and floor after adding one half. Both fail."
+    },
+    {
+      "value": "22313851088",
+      "kind": "rigorous",
+      "producer": "replay/e1110_verify.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/full_bc_even.json",
+      "label": "Transposed-layout half-even maximum, which fails."
+    },
+    {
+      "value": "7^26 < 2^73",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/controls.json",
+      "label": "True integer comparison used for the analytic drift threshold."
+    },
+    {
+      "value": "7^26 < 2^72",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/controls.json",
+      "label": "False integer comparison used as a negative control."
+    },
+    {
+      "value": "73 * 8385274094 < 286 * 2^31",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/controls.json",
+      "label": "Exact cross-multiplied drift inequality for the replayed maximum."
+    },
+    {
+      "value": "5",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/controls.json",
+      "label": "Number of structural refusals on invalid chain lists."
+    },
+    {
+      "value": "11",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/controls.json",
+      "label": "Out-of-range height in the structural height control. Also the canonical block size in bits in other contexts."
+    },
+    {
+      "value": "-1000",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/controls.json",
+      "label": "Potential decrement in a passing pointwise control."
+    },
+    {
+      "value": "-13748",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/controls.json",
+      "label": "Potential decrement in the tight threshold-crossing control."
+    },
+    {
+      "value": "-20000",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/controls.json",
+      "label": "Potential decrement in the larger threshold-crossing control."
+    },
+    {
+      "value": "8387322094",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/controls.json",
+      "label": "Drift at the passing pointwise control."
+    },
+    {
+      "value": "8413429998",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/controls.json",
+      "label": "Drift at the tight threshold-crossing witness."
+    },
+    {
+      "value": "8426234094",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/controls.json",
+      "label": "Drift at the larger threshold-crossing witness."
+    },
+    {
+      "value": "28155904",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/controls.json",
+      "label": "Drift change at the tight threshold-crossing witness."
+    },
+    {
+      "value": "40960000",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/controls.json",
+      "label": "Drift change at the larger threshold-crossing witness."
+    },
+    {
+      "value": "19796008763",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/controls.json",
+      "label": "Maximum after reducing chain values modulo P in the transition, failing the threshold."
+    },
+    {
+      "value": "10525832334",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/controls.json",
+      "label": "Maximum using the last gamma in the transition multiplier, failing the threshold."
+    },
+    {
+      "value": "21167844332",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/controls.json",
+      "label": "Maximum after using positive gamma in chain values, failing the threshold."
+    },
+    {
+      "value": "12511354588",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/controls.json",
+      "label": "Maximum for the +2 height family, failing the threshold."
+    },
+    {
+      "value": "8385245846",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/controls.json",
+      "label": "Maximum for the altered +4 height family, a passing sensitivity check."
+    },
+    {
+      "value": "4096",
+      "kind": "rigorous",
+      "producer": "replay/encoder.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/encoder.json",
+      "label": "Number of inputs enumerated per policy in the exhaustive s=3 encoder tests."
+    },
+    {
+      "value": "15553",
+      "kind": "rigorous",
+      "producer": "replay/encoder.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/encoder.json",
+      "label": "Number of inadmissible policy/input pairs retained across all small encoder policies."
+    },
+    {
+      "value": "256",
+      "kind": "rigorous",
+      "producer": "replay/encoder.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/encoder.json",
+      "label": "Number of seeded random inputs per large encoder run."
+    },
+    {
+      "value": "257",
+      "kind": "rigorous",
+      "producer": "replay/encoder.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/encoder.json",
+      "label": "Number of inputs including explicit zero passing each exact encoder check per large run."
+    },
+    {
+      "value": "614180323328",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/controls.json",
+      "label": "Exact integer right-hand side of the drift numerator comparison, equal to 286 times 2^31."
+    },
+    {
+      "value": "9444732965739290427392",
+      "kind": "rigorous",
+      "producer": "replay/replay_checks.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "evidence": "replay/logs/controls.json",
+      "label": "Exact integer right-hand side of the base comparison, equal to 2^73."
+    }
+  ]
+}
