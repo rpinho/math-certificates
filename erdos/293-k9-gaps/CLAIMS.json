@@ -80,28 +80,148 @@
       "label": "Subsequent exhaustive zero, with finished shards and zero skips."
     },
     {
-      "value": "52",
+      "value": "16767637",
       "kind": "rigorous",
-      "producer": "run_gaps.py",
+      "producer": "solver.c",
       "arithmetic": "exact",
       "new_bound": false,
-      "label": "New exact witnesses for gaps in the release."
+      "label": "Round-2 exhaustive zero, with finished shards and zero skips."
     },
     {
-      "value": "16759021",
+      "value": "16796999",
       "kind": "rigorous",
-      "producer": "run_gaps.py",
+      "producer": "solver.c",
       "arithmetic": "exact",
       "new_bound": false,
-      "label": "Last settled candidate, with an exact witness."
+      "label": "Round-2 exhaustive zero, with finished shards and zero skips."
     },
     {
-      "value": "16762189",
+      "value": "16932329",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Round-2 exhaustive zero, with finished shards and zero skips."
+    },
+    {
+      "value": "17012789",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Round-2 exhaustive zero, with finished shards and zero skips."
+    },
+    {
+      "value": "17222137",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Round-2 exhaustive zero, with finished shards and zero skips."
+    },
+    {
+      "value": "17256539",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Round-2 exhaustive zero, with finished shards and zero skips."
+    },
+    {
+      "value": "17284343",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Round-2 exhaustive zero, with finished shards and zero skips."
+    },
+    {
+      "value": "17434961",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Round-2 exhaustive zero, with finished shards and zero skips."
+    },
+    {
+      "value": "17850913",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Round-2 exhaustive zero, with finished shards and zero skips."
+    },
+    {
+      "value": "17854283",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Round-2 exhaustive zero, with finished shards and zero skips."
+    },
+    {
+      "value": "17859497",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Round-2 exhaustive zero, with finished shards and zero skips."
+    },
+    {
+      "value": "17867767",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Round-2 exhaustive zero, with finished shards and zero skips."
+    },
+    {
+      "value": "20",
       "kind": "rigorous",
       "producer": "run_gaps.py",
       "arithmetic": "exact",
       "new_bound": false,
-      "label": "First unsettled candidate, with only a pilot recorded."
+      "label": "Exhaustive zeros in the combined gap table, including the candidate second omission."
+    },
+    {
+      "value": "165",
+      "kind": "rigorous",
+      "producer": "run_gaps.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact witnesses for gaps in the release after both rounds."
+    },
+    {
+      "value": "113",
+      "kind": "rigorous",
+      "producer": "run_gaps.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact witnesses added in round 2."
+    },
+    {
+      "value": "17938507",
+      "kind": "rigorous",
+      "producer": "run_gaps.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Last settled gap in round 2, with an exact witness."
+    },
+    {
+      "value": "17945717",
+      "kind": "rigorous",
+      "producer": "run_gaps.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "First unsettled gap after round 2. The pilot completed 14 of 1,398 shards."
+    },
+    {
+      "value": "438",
+      "kind": "rigorous",
+      "producer": "run_gaps.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Unsettled gaps below 20,000,000 after round 2, including the cutoff pilot."
     },
     {
       "value": "1412",
@@ -160,5 +280,5 @@
       "label": "Verified consecutive integers strictly between the first and second omissions."
     }
   ],
-  "scope": "Candidate exact values and replay records for the second and subsequent missing denominators of D_9. These values do not change a table bound."
+  "scope": "Candidate exact second missing denominator and follow-on gap search for D_9, with 20 exhaustive zeros, 165 exact witnesses and a first unsettled gap of 17945717. These values do not change a table bound."
 }

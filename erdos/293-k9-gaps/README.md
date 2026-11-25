@@ -4,13 +4,13 @@
 
 I found no representation of 1 as nine distinct unit fractions that contains 1/13,878,989. I checked an exact representation for every integer strictly between 13,856,993 and 13,878,989. With the earlier result that 13,856,993 is the least missing denominator greater than one, this gives **13,878,989 as the second smallest integer missing from D₉ among integers greater than one**, where D₉ is the set of denominators occurring in such representations. [First omission replay](../../replays/erdos293-v9/), [Erdős #293](https://www.erdosproblems.com/293).
 
-I continued through the release gaps in increasing order. The next seven exhaustive zeros are **14,462,659, 14,757,749, 14,789,963, 15,519,389, 15,865,651, 16,210,177 and 16,648,571**. The table contains **52 exact witnesses** for other gaps through **16,759,021**. **16,762,189** is the first unsettled gap. Its pilot completed 15 of 1,403 shards before the work cap. [Gap table](gaps.tsv), [partial search](logs/k9-16762189/summary.json), [public baseline](PRIOR_ART.md).
+I continued through the release gaps in increasing order. Round 1 found seven later exhaustive zeros and 52 exact witnesses. Round 2 added twelve exhaustive zeros and 113 exact witnesses. The table now contains **20 exhaustive zeros** including 13,878,989 and **165 exact witnesses** through **17,938,507**. **17,945,717** is the first of **438 unsettled gaps** below 20,000,000. Its pilot completed 14 of 1,398 shards. [Gap table](gaps.tsv), [round-2 note](ROUND2.md), [partial search](logs/k9-17945717/summary.json), [public baseline](PRIOR_ART.md).
 
 ## Exhaustive search
 
 For a fixed m, I remove 1/m and search for eight increasing denominators with reciprocal sum (m−1)/m, excluding m. I use exact rational bounds on the next denominator and tighten them using prime powers of m that still divide the reduced residual denominator. Each such power must divide at least one remaining denominator by the least-common-multiple rule. For the last two terms with residual p/q, the solver traverses divisors in (pa−q)(pb−q) = q² and uses GMP to compute the last denominator. [Solver](solver.c), [composite soundness](SOUNDNESS_COMPOSITE.md), [earlier soundness](SOUNDNESS.md).
 
-I checked the shard partitions in a separate rational traversal and matched each completed zero shard’s predicted two-term state count against the raw output. At 13,878,989 all 1,412 shards finished, with zero representations, zero skips, 76,452,736 two-term states and 487,462,597,822 divisor probes. The manifests, raw shard rows and summaries are retained for the eight zeros, the reproduced first omission and the partial run. [Partition and harvest code](run_gaps.py), [first new zero summary](logs/k9-13878989/summary.json), [source run report](REPORT.md).
+I checked the shard partitions in a separate rational traversal and matched each completed zero shard’s predicted two-term state count against the raw output. At 13,878,989 all 1,412 shards finished, with zero representations, zero skips, 76,452,736 two-term states and 487,462,597,822 divisor probes. The manifests, raw shard rows and summaries are retained for all 20 zeros, the reproduced first omission and both cutoff pilots. [Partition and harvest code](run_gaps.py), [first new zero summary](logs/k9-13878989/summary.json), [source run report](REPORT.md).
 
 ## Controls
 
@@ -33,7 +33,7 @@ The release asset is external. Its SHA-256 is `81101aa7b75cfef850c8b98c4b3ac2711
 
 ## Replay
 
-From this packet, check `shasum -a 256 -c SHA256SUMS`. For a fresh run, use a separate writable directory and follow the commands in the source report. The replay uses macOS, Clang, Make, pkg-config, GMP, Python 3 and xz. Copy the source files, build with Make, verify the asset digest, and stream it through the checker for both intervals. Then run the separately written enumerator and controls, regenerate the target list, and run the sharded driver. A four-hour run on the original machine reached the stated cutoff, and the number of later gaps reached depends on throughput. [Exact commands and retained-record replay](REPORT.md#reproduction).
+From this packet, check `shasum -a 256 -c SHA256SUMS`. For a fresh run, use a separate writable directory and follow the commands in the source report. The replay uses macOS, Clang, Make, pkg-config, GMP, Python 3 and xz. Copy the source files, build with Make, verify the asset digest, and stream it through the checker for both intervals. Then run the separately written enumerator and controls, regenerate the target list, and run the sharded driver. The round-1 report gives the original commands and cutoff. Round 2 resumed with the same driver and binary under a fresh deadline. The number of gaps reached depends on throughput. [Round-1 commands and record replay](REPORT.md#reproduction), [round-2 run](ROUND2.md).
 
 ## Credits
 
