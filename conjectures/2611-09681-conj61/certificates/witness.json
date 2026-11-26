@@ -1,0 +1,40 @@
+{
+  "paper": "Koustav Banerjee and Nicolas Allen Smoot, On a problem of Gordon and Hughes: The 11-adic properties of meromorphic modular functions on X_0(22), arXiv:2611.09681v1",
+  "conjecture": "Conjecture 6.1 (label conj:families), Section 6, paper18I.tex lines 783-803",
+  "generating_functions": {
+    "P_1_a(q)": "prod_{m>=1} (1 + q^m)^a / (1 - q^m)",
+    "P_2_a(q)": "prod_{m>=1} (1 + q^m)^a / (1 - q^m)^5"
+  },
+  "counterexamples": [
+    {
+      "part": 1,
+      "a": 36,
+      "b": 1,
+      "a_mod_11": 3,
+      "alpha": 3,
+      "n": 0,
+      "modulus_progress": 1331,
+      "delta": 54,
+      "check_24_delta_plus_a_minus_b": 1331,
+      "claimed_modulus": 121,
+      "exact_coefficient": "62043410886974649205238011198",
+      "residue_mod_121": 33,
+      "minimality_scope": "Strictly minimal in both positive a and |a| across a in [-50, 100], alpha in {1, 2, 3}, n in {0..5}"
+    },
+    {
+      "part": 2,
+      "a": 40,
+      "b": 5,
+      "a_mod_11": 7,
+      "alpha": 3,
+      "n": 0,
+      "modulus_progress": 1331,
+      "delta": 54,
+      "check_24_delta_plus_a_minus_b": 1331,
+      "claimed_modulus": 121,
+      "exact_coefficient": "66134580699742235651549220246110",
+      "residue_mod_121": 55,
+      "minimality_scope": "Strictly minimal in both positive a and |a| across a in [-50, 100], alpha in {1, 2, 3}, n in {0..5}"
+    }
+  ]
+}

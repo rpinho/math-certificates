@@ -1,0 +1,215 @@
+{
+  "scope": "Exact disproofs of both parts of Conjecture 6.1 of Banerjee and Smoot (arXiv:2611.09681v1).",
+  "claims": [
+    {
+      "value": "62043410886974649205238011198",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Exact coefficient p^[1]_36(54) refuting Part 1 of Conjecture 6.1"
+    },
+    {
+      "value": "66134580699742235651549220246110",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Exact coefficient p^[2]_40(54) refuting Part 2 of Conjecture 6.1"
+    },
+    {
+      "value": "33",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Nonzero residue of p^[1]_36(54) modulo 121"
+    },
+    {
+      "value": "55",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Nonzero residue of p^[2]_40(54) modulo 121"
+    },
+    {
+      "value": "121",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Claimed modulus 11^2 at alpha=3"
+    },
+    {
+      "value": "1331",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Progression modulus 11^3 at alpha=3"
+    },
+    {
+      "value": "1296",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Product 24 * 54 congruent to -35 mod 1331"
+    },
+    {
+      "value": "-35",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Right-hand congruence value 1-36 = 5-40 = -35"
+    },
+    {
+      "value": "54",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Shift delta=54 in both counterexamples"
+    },
+    {
+      "value": "36",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Minimal positive counterexample parameter a=36 for Part 1"
+    },
+    {
+      "value": "40",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Minimal positive counterexample parameter a=40 for Part 2"
+    },
+    {
+      "value": "24",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Multiplier 24 in delta congruence"
+    },
+    {
+      "value": "11",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Prime base 11 of congruence families"
+    },
+    {
+      "value": "151",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Count of integers a in [-50, 100] scanned"
+    },
+    {
+      "value": "-50",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Lower endpoint of minimality scan"
+    },
+    {
+      "value": "100",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Upper endpoint of minimality scan"
+    },
+    {
+      "value": "5436",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Total progression evaluations in minimality scan"
+    },
+    {
+      "value": "38",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Theorem 1.2 positive control progression checks"
+    },
+    {
+      "value": "6",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Mutated negative controls rejected and Section 6"
+    },
+    {
+      "value": "2611.09681",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.09681v1",
+      "new_bound": false,
+      "label": "arXiv identifier of Banerjee and Smoot"
+    },
+    {
+      "value": "6.1",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.09681v1",
+      "new_bound": false,
+      "label": "Conjecture 6.1 number"
+    },
+    {
+      "value": "1.2",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.09681v1",
+      "new_bound": false,
+      "label": "Theorem 1.2 number"
+    },
+    {
+      "value": "6.1",
+      "kind": "cited",
+      "source": "https://openai.com/",
+      "new_bound": false,
+      "label": "Model version in GPT-6.1 Sol"
+    },
+    {
+      "value": "22",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.09681v1",
+      "new_bound": false,
+      "label": "Modular curve level X_0(22)"
+    },
+    {
+      "value": "2026-11-26",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.09681v1",
+      "new_bound": false,
+      "label": "Date of prior-art check"
+    },
+    {
+      "value": "0",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Progression index n=0 and non-vanishing comparison 0 mod 121"
+    },
+    {
+      "value": "1",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Denominator exponent b=1 and product index m>=1"
+    }
+  ]
+}

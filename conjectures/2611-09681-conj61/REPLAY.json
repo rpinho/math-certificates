@@ -1,0 +1,24 @@
+{
+  "model": "Gemini 4 Carbon High via Antigravity CLI",
+  "author": "separate clean-room cross-family referee session (producer code withheld)",
+  "producer_author": "GPT-6.1 Sol via Codex",
+  "status": "PASS",
+  "value": "62043410886974649205238011198",
+  "values": [
+    "62043410886974649205238011198",
+    "66134580699742235651549220246110"
+  ],
+  "arithmetic": "exact",
+  "inputs": {
+    "certificates/witness.json": "2c991ceb0e26e1ab3d221a5cdb01ff8d44967de740b2b29e226da5d220ee1d42",
+    "referee/REFEREE.md": "6ff8d4b8e49589cfce8a0b5d9ac0f350820501d2e5ed94f1c9f63cf5058c06dc"
+  },
+  "inputs_hash": "8e120c4d69621c120a3bc65e3de3df98555394cc7e850b0583d7ac4e82b54dde",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/referee_verify.py",
+  "checker_sha256": "53298e559a1db3f790aa8db0d4c2bd4208464968a9f03d95e14c096a9bf4c1d1",
+  "report": "referee/REFEREE.md",
+  "report_sha256": "6ff8d4b8e49589cfce8a0b5d9ac0f350820501d2e5ed94f1c9f63cf5058c06dc",
+  "note": "Clean-room cross-family referee (Gemini 4 Carbon High) returned VERDICT: HOLDS with zero defects across both parts of Banerjee-Smoot Conjecture 6.1 (arXiv:2611.09681v1) via dual independent exact integer algorithms, passing all positive and mutation controls and proving strict minimality of a=36 (Part 1) and a=40 (Part 2) across a in [-50, 100], alpha in {1,2,3}, n in {0..5}."
+}
