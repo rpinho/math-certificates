@@ -1,0 +1,29 @@
+{
+  "model": "Gemini 4 Carbon High via Antigravity CLI",
+  "author": "separate clean-room cross-family referee session (producer code withheld)",
+  "producer_author": "GPT-6.2 Astra via Codex",
+  "status": "PASS",
+  "value": "4800",
+  "values": [
+    "4800",
+    "1030",
+    "9120",
+    "4933",
+    "27",
+    "996"
+  ],
+  "arithmetic": "exact",
+  "inputs": {
+    "certificates/witness.json": "ee773f3ace54ca402598270e8dee46bdca068a86aecb186f96c3bd7a04cab971",
+    "PROOF.md": "ba3df2e73822744db3bb14bd0497cd32a781faf2ee085512c5bafa15fce5cda8",
+    "referee/REFEREE.md": "75c65e10360b27eb350fc026d8a6d7cdb094156a0d31169415a88c6c419cd3c4"
+  },
+  "inputs_hash": "3bcfcf1fba64148db39068f90b2edbca5266767300840ef2a78b9d1763501a05",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/referee_verify.py",
+  "checker_sha256": "602e40a484f2046ca56c874fd72e181ecacdc587e78795937f8962f1b2790206",
+  "report": "referee/REFEREE.md",
+  "report_sha256": "75c65e10360b27eb350fc026d8a6d7cdb094156a0d31169415a88c6c419cd3c4",
+  "note": "Clean-room cross-family referee (Gemini 4 Carbon High) returned VERDICT: HOLDS on Coste-Csikos-Viennot (arXiv:2611.18391v1) Sec 5 unrooted outerplanar equitable coloring conjecture, auditing minor closure of outerplanar emulators and the leaf-block triangle-free ear lemma with zero gaps and verifying 4800 outerplanar graphs (n<=9), 1030 exhaustive equitable partitions (n<=7), 9120 CR pairs (n=8,9), 4933 contractions, 27 triangle-free delta>=2 outerplanar graphs, and 4 mutation controls."
+}

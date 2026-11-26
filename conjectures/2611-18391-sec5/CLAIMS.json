@@ -1,0 +1,162 @@
+{
+  "scope": "Unconditional proof of Section 5 outerplanar equitable coloring conjecture of Coste, Csikos, and Viennot (arXiv:2611.18391v1).",
+  "claims": [
+    {
+      "value": "4800",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "All non-isomorphic connected outerplanar graphs on n<=9 verified"
+    },
+    {
+      "value": "1030",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "All exhaustive equitable partitions of outerplanar graphs n<=7 verified"
+    },
+    {
+      "value": "9120",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Color-refinement pairs on n=8, 9 verified"
+    },
+    {
+      "value": "4933",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Emulator edge contractions verified"
+    },
+    {
+      "value": "27",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "All triangle-free delta>=2 outerplanar graphs on n<=9 verified"
+    },
+    {
+      "value": "996",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "All connected simple graphs n<=7 with 100% dual-oracle agreement"
+    },
+    {
+      "value": "243",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Multi-component S contractions verified"
+    },
+    {
+      "value": "39",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Unrooted equitable partitions with no singleton class (n<=7)"
+    },
+    {
+      "value": "9",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Maximum vertex order n=9"
+    },
+    {
+      "value": "8",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Vertex order n=8"
+    },
+    {
+      "value": "7",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive vertex order n=7"
+    },
+    {
+      "value": "5",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Section 5"
+    },
+    {
+      "value": "4",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "K_4 minor and 4 mutation controls M1-M4"
+    },
+    {
+      "value": "3",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Minimum degree 3 and 3-vertex side of K_{2,3}"
+    },
+    {
+      "value": "2",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Degree-2 ear vertices and 2-vertex side of K_{2,3}"
+    },
+    {
+      "value": "1",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Step 1 and singleton color class"
+    },
+    {
+      "value": "0",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Nonzero adjacency condition K_{ij} > 0"
+    },
+    {
+      "value": "2611.18391",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.18391v1",
+      "new_bound": false,
+      "label": "arXiv identifier of Coste, Csikos, and Viennot"
+    },
+    {
+      "value": "6.2",
+      "kind": "cited",
+      "source": "https://openai.com/",
+      "new_bound": false,
+      "label": "Model version GPT-6.2 Astra"
+    },
+    {
+      "value": "2026-11-26",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.18391v1",
+      "new_bound": false,
+      "label": "Date of prior-art check"
+    }
+  ]
+}

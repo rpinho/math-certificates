@@ -1,0 +1,17 @@
+{
+  "target": "teorth/erdosproblems",
+  "new_bound": true,
+  "lean_status": "none",
+  "producer_model": "GPT-6.2 Astra via Codex",
+  "producer_author": "GPT-6.2 Astra via Codex",
+  "referee_model": "Gemini 4 Carbon High via Antigravity CLI (clean-room, producer code withheld)",
+  "submitter": "rpinho",
+  "destination": "conjectures/2611-18391-sec5",
+  "certificate_repository": "rpinho/math-certificates",
+  "replay_inputs": {
+    "certificates/witness.json": "certificate",
+    "PROOF.md": "proof",
+    "referee/REFEREE.md": "proof"
+  },
+  "scope": "Unconditional proof of the Section 5 unrooted equitable coloring conjecture of Coste, Csikos, and Viennot (arXiv:2611.18391v1): every finite simple graph admitting a finite outerplanar emulator (in particular the simple color graph of any equitable coloring of a connected outerplanar graph) is outerplanar. Clean-room referee VERDICT: HOLDS via pure-integer referee_verify.py (4800 outerplanar graphs n<=9, 1030 exhaustive equitable partitions n<=7, 9120 CR pairs, 4933 contractions, 4 mutation controls). Lean status: none. No human review."
+}

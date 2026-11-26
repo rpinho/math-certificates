@@ -1,0 +1,30 @@
+{
+  "source": "arXiv:2611.18391v1",
+  "authors": [
+    "Louann Coste",
+    "Monika Csikos",
+    "Laurent Viennot"
+  ],
+  "conjecture_settled": "Section 5 unrooted equitable coloring conjecture (after cor:K-outerplanar)",
+  "verdict": "PROVED_UNCONDITIONALLY",
+  "outerplanar_graphs_n1_to_9": 4800,
+  "outerplanar_counts_by_order": [
+    1,
+    1,
+    2,
+    5,
+    13,
+    46,
+    172,
+    777,
+    3783
+  ],
+  "exhaustive_equitable_partitions_n1_to_7": 1030,
+  "unrooted_no_singleton_partitions": 39,
+  "cr_pairs_n8_n9": 9120,
+  "edge_contractions_verified": 4933,
+  "multi_component_contractions": 243,
+  "triangle_free_delta_ge_2_outerplanar_n1_to_9": 27,
+  "connected_graphs_oracle_agreement_n1_to_7": 996,
+  "mutation_controls_caught": 4
+}
