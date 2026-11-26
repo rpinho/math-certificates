@@ -1,35 +1,261 @@
 {
   "claims": [
-    {"value": "n + 2", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": true, "label": "Sharp Nordhaus-Gaddum upper bound psi_sq(G) + psi_sq(bar G) <= n + 2 for every finite simple graph G of order n >= 2"},
-    {"value": "m + 5/2", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": true, "label": "Sharp Lemma 3 handshaking degree-weight upper bound Sigma(H) <= m + 5/2 on every m-vertex simple graph H"},
-    {"value": "11/2", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Exact sharpness value Sigma(P_3) = 11/2 = 3 + 5/2 realized inside S_{2,2}"},
-    {"value": "5/2", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Exact exterior weight contribution on S_{2,2} and additive excess in Lemma 3"},
-    {"value": "2", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Minimum order n >= 2 and psi_sq(K_n) = 2"},
-    {"value": "5", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "psi_sq(S_{2,2}) = 5"},
-    {"value": "3", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "psi_sq(bar S_{2,2}) = 3 and order m=3 attaining 5/2 excess"},
-    {"value": "8", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Optimal sum 5 + 3 = 8 = n + 2 on S_{2,2} and exhaustive labeled order 8"},
-    {"value": "6", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Order of S_{2,2} and exhaustive coloring order 6"},
-    {"value": "9", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Upper census order n=9 and Omega(bar K_6) + Omega(K_6) = 9"},
-    {"value": "15", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Upper order of exhaustive Havel-Hakimi degree-sequence verification"},
-    {"value": "30", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Upper order of even degree-sum layer verification"},
-    {"value": "33868", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Labeled graphs through order 6 verified directly from Definition 2.2"},
-    {"value": "249299", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Optimal sub-quorum partitions checked for Lemma 1"},
-    {"value": "13047409", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Subset-vertex Lemma 1 checks passed"},
-    {"value": "268435456", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "All labeled graphs of order 8 checked for Lemma 3"},
-    {"value": "16348842", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "All graphical degree sequences of orders 8-15 checked for Lemma 3"},
-    {"value": "288265", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "All unlabeled graphs of orders 2-9 independently reconstructed"},
-    {"value": "9.2", "kind": "cited", "source": "https://arxiv.org/abs/2609.25128v4", "new_bound": false, "label": "Conjecture 9.2 number in arXiv:2609.25128v4"},
-    {"value": "2.2", "kind": "cited", "source": "https://arxiv.org/abs/2609.25128v4", "new_bound": false, "label": "Definition 2.2 number in arXiv:2609.25128v4"},
-    {"value": "2609.25128", "kind": "cited", "source": "https://arxiv.org/abs/2609.25128v4", "new_bound": false, "label": "arXiv identifier of Ma, Sahbi, and Zhang"},
-    {"value": "6.2", "kind": "cited", "source": "https://openai.com/", "new_bound": false, "label": "Model version in GPT-6.2 Astra"},
-    {"value": "256", "kind": "cited", "source": "https://csrc.nist.gov/projects/hash-functions", "new_bound": false, "label": "SHA-256 algorithm identifier"},
-    {"value": "1", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "One-sided dissociation gap count at n=6 and Lemma 1 weight cap"},
-    {"value": "13", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "One-sided dissociation gap count at n=7"},
-    {"value": "133", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "One-sided dissociation gap count at n=8"},
-    {"value": "1236", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "One-sided dissociation gap count at n=9"},
-    {"value": "26", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Either-side dissociation gap count at n=7"},
-    {"value": "264", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Either-side dissociation gap count at n=8"},
-    {"value": "2450", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Either-side dissociation gap count at n=9"}
+    {
+      "value": "n + 2",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Sharp Nordhaus-Gaddum upper bound psi_sq(G) + psi_sq(bar G) <= n + 2 for every finite simple graph G of order n >= 2"
+    },
+    {
+      "value": "m + 5/2",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Sharp Lemma 3 handshaking degree-weight upper bound Sigma(H) <= m + 5/2 on every m-vertex simple graph H"
+    },
+    {
+      "value": "11/2",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact sharpness value Sigma(P_3) = 11/2 = 3 + 5/2 realized inside S_{2,2}"
+    },
+    {
+      "value": "5/2",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact exterior weight contribution on S_{2,2} and additive excess in Lemma 3"
+    },
+    {
+      "value": "2",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Minimum order n >= 2 and psi_sq(K_n) = 2"
+    },
+    {
+      "value": "5",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "psi_sq(S_{2,2}) = 5"
+    },
+    {
+      "value": "3",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "psi_sq(bar S_{2,2}) = 3 and order m=3 attaining 5/2 excess"
+    },
+    {
+      "value": "8",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Optimal sum 5 + 3 = 8 = n + 2 on S_{2,2} and exhaustive labeled order 8"
+    },
+    {
+      "value": "6",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Order of S_{2,2} and exhaustive coloring order 6"
+    },
+    {
+      "value": "9",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Upper census order n=9 and Omega(bar K_6) + Omega(K_6) = 9"
+    },
+    {
+      "value": "15",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Upper order of exhaustive Havel-Hakimi degree-sequence verification"
+    },
+    {
+      "value": "30",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Upper order of even degree-sum layer verification"
+    },
+    {
+      "value": "33868",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Labeled graphs through order 6 verified directly from Definition 2.2"
+    },
+    {
+      "value": "249299",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Optimal sub-quorum partitions checked for Lemma 1"
+    },
+    {
+      "value": "13047409",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Subset-vertex Lemma 1 checks passed"
+    },
+    {
+      "value": "268435456",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "All labeled graphs of order 8 checked for Lemma 3"
+    },
+    {
+      "value": "16348842",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "All graphical degree sequences of orders 8-15 checked for Lemma 3"
+    },
+    {
+      "value": "288265",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "All unlabeled graphs of orders 2-9 independently reconstructed"
+    },
+    {
+      "value": "9.2",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2609.25128v4",
+      "new_bound": false,
+      "label": "Conjecture 9.2 number in arXiv:2609.25128v4"
+    },
+    {
+      "value": "2.2",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2609.25128v4",
+      "new_bound": false,
+      "label": "Definition 2.2 number in arXiv:2609.25128v4"
+    },
+    {
+      "value": "2609.25128",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2609.25128v4",
+      "new_bound": false,
+      "label": "arXiv identifier of Ma, Sahbi, and Zhang"
+    },
+    {
+      "value": "6.2",
+      "kind": "cited",
+      "source": "https://openai.com/",
+      "new_bound": false,
+      "label": "Model version in GPT-6.2 Astra"
+    },
+    {
+      "value": "256",
+      "kind": "cited",
+      "source": "https://csrc.nist.gov/projects/hash-functions",
+      "new_bound": false,
+      "label": "SHA-256 algorithm identifier"
+    },
+    {
+      "value": "1",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "One-sided dissociation gap count at n=6 and Lemma 1 weight cap"
+    },
+    {
+      "value": "13",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "One-sided dissociation gap count at n=7"
+    },
+    {
+      "value": "133",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "One-sided dissociation gap count at n=8"
+    },
+    {
+      "value": "1236",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "One-sided dissociation gap count at n=9"
+    },
+    {
+      "value": "26",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Either-side dissociation gap count at n=7"
+    },
+    {
+      "value": "264",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Either-side dissociation gap count at n=8"
+    },
+    {
+      "value": "2450",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Either-side dissociation gap count at n=9"
+    },
+    {
+      "value": "4.36.0",
+      "kind": "cited",
+      "source": "https://github.com/leanprover/lean4",
+      "new_bound": false,
+      "label": "Lean 4.36.0 toolchain version"
+    },
+    {
+      "value": "4.36",
+      "kind": "cited",
+      "source": "https://github.com/leanprover/lean4",
+      "new_bound": false,
+      "label": "Lean 4.36 toolchain version"
+    },
+    {
+      "value": "4",
+      "kind": "cited",
+      "source": "https://github.com/leanprover/lean4",
+      "new_bound": false,
+      "label": "Lean 4 major version"
+    }
   ],
   "scope": "Unconditional elementary proof of Ma, Sahbi, and Zhang (arXiv:2609.25128v4) Conjecture 9.2 for all finite simple graphs of order n >= 2."
 }

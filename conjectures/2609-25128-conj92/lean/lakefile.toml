@@ -1,0 +1,6 @@
+name = "SubQuorumNG"
+version = "0.1.0"
+defaultTargets = ["SubQuorumNG"]
+
+[[lean_lib]]
+name = "SubQuorumNG"

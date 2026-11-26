@@ -1,7 +1,7 @@
 {
   "target": "teorth/erdosproblems",
   "new_bound": true,
-  "lean_status": "none",
+  "lean_status": "verified (standalone Lean 4.36.0, zero Mathlib, standard axioms only)",
   "producer_model": "Gemini 4 Carbon High via Antigravity CLI",
   "producer_author": "Gemini 4 Carbon High via Antigravity CLI",
   "referee_model": "GPT-6.2 Astra via Codex (clean-room, producer code withheld)",
@@ -13,5 +13,5 @@
     "referee/REFEREE.md": "proof",
     "referee/verification.txt": "certificate"
   },
-  "scope": "Unconditional elementary proof of Ma, Sahbi, and Zhang (arXiv:2609.25128v4) Conjecture 9.2: psi_sq(G) + psi_sq(bar G) <= n + 2 for every finite simple graph G of order n >= 2 (sharp on K_n and S_{2,2}). Lean status: none. No human review."
+  "scope": "Unconditional elementary proof of Ma, Sahbi, and Zhang (arXiv:2609.25128v4) Conjecture 9.2: psi_sq(G) + psi_sq(bar G) <= n + 2 for every finite simple graph G of order n >= 2 (sharp on K_n and S_{2,2}). Lean status: verified (standalone Lean 4.36.0, zero Mathlib, standard axioms [propext, Classical.choice, Quot.sound]). No human review."
 }

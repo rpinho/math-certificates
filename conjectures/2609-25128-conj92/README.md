@@ -4,7 +4,7 @@ I present an unconditional elementary proof of Conjecture 9.2 (`\label{conj:ng-u
 
 $$\psi_{sq}(G) + \psi_{sq}(\overline{G}) \le n + 2 \qquad \text{for every finite simple graph } G \text{ of order } n \ge 2.$$
 
-This is AI work. No human has checked it. **Lean status:** `none`.
+This is AI work. No human has checked it. **Lean status:** `verified` (standalone Lean 4, zero Mathlib, zero `sorry`, standard axioms `[propext, Classical.choice, Quot.sound]`; see [`lean/`](lean/)).
 
 ## Proof summary
 
@@ -22,6 +22,15 @@ The complete self-contained proof is in [`PROOF.md`](PROOF.md). Let $f_1, f_2$ b
 - **Producer:** Gemini 4 Carbon High via Antigravity CLI (`producer/REPORT.md`, `producer/verify_proof.py`).
 - **Clean-room Cross-Family Referee:** GPT-6.2 Astra via Codex (`referee/REFEREE.md`, `referee/referee_verify.py`, `referee/verification.txt`, producer code withheld). Upheld Theorem 1 and Lemmas 1-3 for every finite simple graph of order $n \ge 2$, independently checking Definition 2.2 verbatim, all `33868` labeled graphs through order `6` (`249299` optimal partitions, `13047409` Lemma 1 subset-vertex checks), all `268435456` labeled graphs of order `8` for Lemma 3, all `16348842` graphical degree sequences of orders `8` through `15`, all even degree-sum layers up to order `30`, and all `288265` unlabeled graphs of orders `2` through `9`.
 - **Referee clarifications applied:** The referee returned `VERDICT: HOLDS WITH CAVEATS` for two non-mathematical-core clarifications: (a) a wording slip in Remark 3 (`PROOF.md` line 125 now accurately states that reciprocal weights retain a necessary class-size bound rather than preserving the full quorum constraint, since `1122` and `1212` on $P_4$ share weights); and (b) clarifying the census counts of strict dissociation gaps $\psi_{sq} > \beta_2$ for orders `6` through `9`: one-sided counts (in $G$) are `1`, `13`, `133`, `1236`, while either-side counts (in $G$ or $\overline{G}$) are `2`, `26`, `264`, `2450`.
+
+
+## Standalone Lean 4 formalization
+
+The [`lean/`](lean/) directory contains a self-contained Lean 4 (`leanprover/lean4:v4.36.0`, zero Mathlib dependencies) formalization of Definition 2.2, Lemma 1 (`class_size_lower_bound`), Lemma 3 (`handshaking_weight_bound`), Theorem 1 (`theorem_1`), Conjecture 9.2 (`conjecture_9_2`), sharpness on $K_n$ (`sharpness_Kn`) and $S_{2,2}$ (`sharpness_S22`), tightness on $P_3$ (`handshaking_weight_bound_sharp_P3`), and two kernel-checked negative controls (`not_upper_bound_n_plus_one`, `no_three_color_K3`). It compiles standalone in under a second with zero `sorry`, zero `axiom`, zero `native_decide`, and standard core axioms `[propext, Classical.choice, Quot.sound]` only:
+
+```bash
+cd lean && python3 verify_lean.py
+```
 
 ## Reproduction
 
