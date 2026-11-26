@@ -1,0 +1,7 @@
+name = "banerjee_smoot_conj61"
+version = "1.0.0"
+defaultTargets = ["BanerjeeSmootConj61"]
+moreLeanArgs = ["-j1", "-M1000", "-DwarningAsError=true"]
+
+[[lean_lib]]
+name = "BanerjeeSmootConj61"

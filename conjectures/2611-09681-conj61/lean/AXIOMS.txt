@@ -1,0 +1,23 @@
+Shipped: Lean kernel dependency output for all 20 public theorems.
+RESULT: yes
+
+'BanerjeeSmoot.binom_is_pascal' depends on axioms: [propext, Quot.sound]
+'BanerjeeSmoot.geometric_power_step' depends on axioms: [propext, Quot.sound]
+'BanerjeeSmoot.stride_is_cauchy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanerjeeSmoot.truncation_invariance' depends on axioms: [propext, Quot.sound]
+'BanerjeeSmoot.product_stabilizes' depends on axioms: [propext]
+'BanerjeeSmoot.finite_product_exact' depends on axioms: [propext, Quot.sound]
+'BanerjeeSmoot.agrees_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanerjeeSmoot.packed_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanerjeeSmoot.part1_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanerjeeSmoot.part2_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanerjeeSmoot.part1_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanerjeeSmoot.part2_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanerjeeSmoot.witness_arithmetic' does not depend on any axioms
+'BanerjeeSmoot.negative_controls' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanerjeeSmoot.ordinary_partitions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanerjeeSmoot.ramanujan_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanerjeeSmoot.overpartitions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BanerjeeSmoot.theorem12_control' depends on axioms: [propext, Classical.choice, Quot.sound]
+'banerjee_smoot_conj61_part1_false' depends on axioms: [propext, Classical.choice, Quot.sound]
+'banerjee_smoot_conj61_part2_false' depends on axioms: [propext, Classical.choice, Quot.sound]

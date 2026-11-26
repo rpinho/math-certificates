@@ -210,6 +210,35 @@
       "arithmetic": "exact",
       "new_bound": false,
       "label": "Denominator exponent b=1 and product index m>=1"
+    },
+    {
+      "value": "4.36.0",
+      "kind": "cited",
+      "new_bound": false,
+      "label": "Lean 4.36.0 toolchain version",
+      "source": "https://github.com/leanprover/lean4"
+    },
+    {
+      "value": "36.0",
+      "kind": "cited",
+      "new_bound": false,
+      "label": "Lean 4.36.0 minor version token",
+      "source": "https://github.com/leanprover/lean4"
+    },
+    {
+      "value": "4.36",
+      "kind": "cited",
+      "new_bound": false,
+      "label": "Lean 4.36 toolchain version",
+      "source": "https://github.com/leanprover/lean4"
+    },
+    {
+      "value": "20",
+      "kind": "rigorous",
+      "new_bound": false,
+      "label": "Count of public Lean 4 theorems verified in AXIOMS.txt",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact"
     }
   ]
 }

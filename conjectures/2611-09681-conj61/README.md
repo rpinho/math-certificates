@@ -30,7 +30,7 @@ Across all `151` integers `a in [-50, 100]`, all `alpha in {1, 2, 3}`, and all `
 
 - **Producer:** GPT-6.1 Sol via Codex (initial discovery and exact finite truncation check).
 - **Clean-room cross-family referee:** Gemini 4 Carbon High via Antigravity CLI (producer code withheld), returning `VERDICT: HOLDS` via two independent exact integer algorithms (direct truncated product expansion and Euler logarithmic-derivative divisor recurrence).
-- **Lean status:** none (standalone Lean 4 formalization pending as an upgrade; no human referee review).
+- **Lean status:** verified (standalone Lean `4.36.0` proof in `lean/BanerjeeSmootConj61.lean`, zero Mathlib, zero `sorry`/`admit`/`axiom`/`native_decide`, standard axioms `[propext, Classical.choice, Quot.sound]` only, `20` public theorems including `truncation_invariance`, `banerjee_smoot_conj61_part1_false`, `banerjee_smoot_conj61_part2_false`, `lake build` and `leanchecker` pass; no human referee review).
 - **Prior-art check (2026-11-26):** Live arXiv check (`v1` only), GitHub repositories and issues (`trureturing`, `solved-conjectures`, global search), OpenAlex, and X search (`grok-x-search`) found zero prior counterexamples or corrections.
 
 Reproduce with zero external dependencies (Python 3 standard library):
@@ -45,4 +45,5 @@ python3 referee/referee_verify.py
 - `referee/REFEREE.md` - complete clean-room cross-family referee report (`VERDICT: HOLDS`)
 - `referee/referee_verify.py` - standalone zero-dependency exact integer verifier (dual algorithms, positive and mutation controls, full `[-50, 100]` minimality scan)
 - `referee/verification_results.json` - exact output log of `referee/referee_verify.py`
+- `lean/` - standalone Lean `4.36.0` proof (`BanerjeeSmootConj61.lean`, `lakefile.toml`, `lean-toolchain`, `AXIOMS.txt`)
 - `CLAIMS.json`, `REPLAY.json`, `CREDITS.md` - verification metadata and credits
