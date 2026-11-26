@@ -1,0 +1,169 @@
+{
+  "scope": "Unconditional proof of Conjectures 1 and 2 of Crew et al. (arXiv:2611.13273v1).",
+  "claims": [
+    {
+      "value": "4478",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Total digraphs verified in exact Z[x] arithmetic"
+    },
+    {
+      "value": "18241",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Total (D, v) marked pairs verified in exact Z[x] arithmetic"
+    },
+    {
+      "value": "4164",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Exhaustive labeled loopless digraphs on n=2, 3, 4"
+    },
+    {
+      "value": "-1",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Threshold sharpness witness H_{bi-K_3}(1) = -1"
+    },
+    {
+      "value": "-4",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Threshold sharpness witness H_{bi-K_4}(2) = -4"
+    },
+    {
+      "value": "543",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "OEIS A003024 labeled DAG count for n=4"
+    },
+    {
+      "value": "25",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "OEIS A003024 labeled DAG count for n=3"
+    },
+    {
+      "value": "312",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Structured and sampled digraphs on n=5, 6"
+    },
+    {
+      "value": "10",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Verifier runtime upper bound in seconds"
+    },
+    {
+      "value": "8",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Mutant verification runs caught"
+    },
+    {
+      "value": "6",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Order n=6 sample bound"
+    },
+    {
+      "value": "5",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Order n=5 sample bound"
+    },
+    {
+      "value": "4",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Order n=4 exhaustive bound and 4 mutants"
+    },
+    {
+      "value": "3",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Order n=3, bi-K_3, and DAG count for n=2"
+    },
+    {
+      "value": "2",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Minimum order n=2 and Conjecture 2"
+    },
+    {
+      "value": "1",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Conjecture 1, constant DAG value 1, and threshold shift"
+    },
+    {
+      "value": "0",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Nonnegativity lower bound 0"
+    },
+    {
+      "value": "2611.13273",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.13273v1",
+      "new_bound": false,
+      "label": "arXiv identifier of Crew et al."
+    },
+    {
+      "value": "2000",
+      "kind": "cited",
+      "source": "https://doi.org/10.1006/jctb.1999.1930",
+      "new_bound": false,
+      "label": "Publication year of Dong (2000)"
+    },
+    {
+      "value": "6.2",
+      "kind": "cited",
+      "source": "https://openai.com/",
+      "new_bound": false,
+      "label": "Model version GPT-6.2 Astra"
+    },
+    {
+      "value": "2026-11-26",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.13273v1",
+      "new_bound": false,
+      "label": "Date of prior-art check"
+    }
+  ]
+}

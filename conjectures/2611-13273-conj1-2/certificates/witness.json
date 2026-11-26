@@ -1,0 +1,29 @@
+{
+  "source": "arXiv:2611.13273v1",
+  "authors": [
+    "Lila Crew",
+    "Benjamin Keller",
+    "Katharina Kuehr",
+    "Shao Yuan Lin",
+    "Megan Ixchel Monroy Rodriguez",
+    "Tabitha Williams"
+  ],
+  "conjectures_settled": [
+    "Conjecture 1 (conj:shameful_conj)",
+    "Conjecture 2 (conj:monotonicity_conj)"
+  ],
+  "verdict": "PROVED_UNCONDITIONALLY",
+  "digraphs_verified_exact": 4478,
+  "marked_pairs_verified_exact": 18241,
+  "exhaustive_labeled_n2_n3_n4": 4164,
+  "dag_counts_n2_n3_n4": [
+    3,
+    25,
+    543
+  ],
+  "mutant_runs_caught": 8,
+  "sharpness_witnesses": {
+    "bi_K3_H_at_1": -1,
+    "bi_K4_H_at_2": -4
+  }
+}

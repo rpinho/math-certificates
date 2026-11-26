@@ -1,0 +1,17 @@
+{
+  "target": "teorth/erdosproblems",
+  "new_bound": true,
+  "lean_status": "none",
+  "producer_model": "GPT-6.2 Astra via Codex",
+  "producer_author": "GPT-6.2 Astra via Codex",
+  "referee_model": "Gemini 4 Carbon High via Antigravity CLI (clean-room, producer code withheld)",
+  "submitter": "rpinho",
+  "destination": "conjectures/2611-13273-conj1-2",
+  "certificate_repository": "rpinho/math-certificates",
+  "replay_inputs": {
+    "certificates/witness.json": "certificate",
+    "PROOF.md": "proof",
+    "referee/REFEREE.md": "proof"
+  },
+  "scope": "Unconditional proof of Conjecture 1 (Dichromatic Shameful Conjecture) and Conjecture 2 (Dichromatic Monotonicity Conjecture) of Crew, Keller, Kuehr, Lin, Monroy Rodriguez, and Williams (arXiv:2611.13273v1) for all finite loopless digraphs of order n >= 2 via a marked-vertex deletion identity in Z[x]. Clean-room referee VERDICT: HOLDS via pure-integer referee_verify.py (4478 digraphs, 18241 marked pairs, 8/8 mutant catches). Lean status: none. No human review."
+}

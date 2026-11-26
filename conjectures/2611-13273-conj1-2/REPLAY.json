@@ -1,0 +1,28 @@
+{
+  "model": "Gemini 4 Carbon High via Antigravity CLI",
+  "author": "separate clean-room cross-family referee session (producer code withheld)",
+  "producer_author": "GPT-6.2 Astra via Codex",
+  "status": "PASS",
+  "value": "4478",
+  "values": [
+    "4478",
+    "18241",
+    "4164",
+    "-1",
+    "-4"
+  ],
+  "arithmetic": "exact",
+  "inputs": {
+    "certificates/witness.json": "1faed711a78b3bb3e9ca8a40b95bc08ba31fa0af60f5c46d727c328c1c707a1f",
+    "PROOF.md": "33641770307944053f7f10d7e2dd4cf32121cd2b1eaeb287cb082af4e6758fd7",
+    "referee/REFEREE.md": "b31e943a25701d24f596cb0f99e8baddaa8d402c3f9db12f0f05a095094b1232"
+  },
+  "inputs_hash": "edef06500391b2ec016db6294da982faa9f9fea67aced8e08137117512821e63",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/referee_verify.py",
+  "checker_sha256": "98f4ba726247fe640df02bd7179fc57da937e9ffe1676bb7b04e4b7034250105",
+  "report": "referee/REFEREE.md",
+  "report_sha256": "b31e943a25701d24f596cb0f99e8baddaa8d402c3f9db12f0f05a095094b1232",
+  "note": "Clean-room cross-family referee (Gemini 4 Carbon High) returned VERDICT: HOLDS on both Conjecture 1 (Dichromatic Shameful) and Conjecture 2 (Dichromatic Monotonicity) of Crew et al. (arXiv:2611.13273v1), auditing Identities (1)-(3), induction, strictness, and boundary cases with zero gaps and verifying 4478 digraphs / 18241 marked pairs in exact Z[x] integer arithmetic."
+}
