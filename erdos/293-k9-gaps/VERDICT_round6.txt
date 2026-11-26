@@ -1,0 +1,10 @@
+VERDICT: HOLDS (COMPLETE BELOW 20,000,000)
+Problem: Erdos #293 D_9 (k=9 Egyptian fraction distinct-denominator gaps below 20,000,000)
+Round: e293gaps6 (complete exhaustive settlement of all 623 previously open candidates in [13,878,989, 19,997,711])
+Summary:
+- Total candidates audited: 623 (0 unsettled remaining below 20,000,000)
+- Exact 9-term witnesses verified by fractions.Fraction: 560 (0 bad)
+- Exhaustive prime zeros verified from logs/k9-<m>/summary.json: 63 (0 bad; all 63 prime, witness_shards=0, skipped=0, solver_skips=0, work_cap_skips=0, completed_shards==shards, observed_two_term==expected_two_term)
+- +11 new exhaustive prime zeros above Round 5 (52 -> 63): [19729421, 19738493, 19756459, 19790357, 19819829, 19822129, 19838257, 19845871, 19860691, 19941919, 19944241]
+- All 63 exhaustive missing primes in [13,878,989, 20,000,000): [13878989, 14462659, 14757749, 14789963, 15519389, 15865651, 16210177, 16648571, 16767637, 16796999, 16932329, 17012789, 17222137, 17256539, 17284343, 17434961, 17850913, 17854283, 17859497, 17867767, 18530107, 18602593, 18627929, 18650851, 18654263, 18686567, 18711139, 18711977, 18857831, 18868867, 18881539, 18891659, 18953159, 18953941, 18965783, 18971789, 19012373, 19033151, 19041383, 19041527, 19047271, 19127209, 19152667, 19155467, 19160591, 19309561, 19329097, 19353071, 19360547, 19433641, 19434433, 19602703, 19729421, 19738493, 19756459, 19790357, 19819829, 19822129, 19838257, 19845871, 19860691, 19941919, 19944241]
+Publication blocker: awaiting harness-m5 scoped egress-gate [card] allow rules for erdos/293-k9-gaps/{gaps.tsv,logs/...}.

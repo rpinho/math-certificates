@@ -21,7 +21,7 @@
       "kind": "cited",
       "source": "https://github.com/teorth/erdosproblems/issues/403#issuecomment-5802603641",
       "new_bound": false,
-      "label": "EconLearn’s published first missing denominator."
+      "label": "EconLearn\u2019s published first missing denominator."
     },
     {
       "value": "14462659",
@@ -278,6 +278,414 @@
       "arithmetic": "exact",
       "new_bound": false,
       "label": "Verified consecutive integers strictly between the first and second omissions."
+    },
+    {
+      "value": "63",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Total exhaustive prime zeros found across all 623 release gaps above 13,856,993 through 20,000,000"
+    },
+    {
+      "value": "64",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Total missing denominators of D_9 in [2, 20,000,000] including 13,856,993"
+    },
+    {
+      "value": "560",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Total exact 9-term witnesses verified across the 623 release gaps"
+    },
+    {
+      "value": "19997711",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Largest release gap below 20,000,000, settled as found"
+    },
+    {
+      "value": "19944241",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Largest exhaustive prime zero of D_9 below 20,000,000"
+    },
+    {
+      "value": "43",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Additional exhaustive prime zeros added in Rounds 3 through 6"
+    },
+    {
+      "value": "395",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Additional exact witnesses added in Rounds 3 through 6"
+    },
+    {
+      "value": "2",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Lower endpoint of interval [2, 20,000,000]"
+    },
+    {
+      "value": "6",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Final search round number completing all gaps below 20,000,000"
+    },
+    {
+      "value": "18530107",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "18602593",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "18627929",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "18650851",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "18654263",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "18686567",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "18711139",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "18711977",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "18857831",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "18868867",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "18881539",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "18891659",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "18953159",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "18953941",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "18965783",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "18971789",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19012373",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19033151",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19041383",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19041527",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19047271",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19127209",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19152667",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19155467",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19160591",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19309561",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19329097",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19353071",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19360547",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19433641",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19434433",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19602703",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19729421",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19738493",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19756459",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19790357",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19819829",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19822129",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19838257",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19845871",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19860691",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
+    },
+    {
+      "value": "19941919",
+      "kind": "rigorous",
+      "producer": "solver.c",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exhaustive prime zero of D_9 below 20,000,000 with finished shards and zero skips"
     }
   ],
   "scope": "Candidate exact second missing denominator and follow-on gap search for D_9, with 20 exhaustive zeros, 165 exact witnesses and a first unsettled gap of 17945717. These values do not change a table bound."

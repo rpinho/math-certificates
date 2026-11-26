@@ -1,0 +1,435 @@
+length=1 bound=1/2 nodes=[1, 1] equality=[(2,)]
+length=2 bound=5/6 nodes=[1, 1, 1] equality=[(2, 3)]
+length=3 bound=41/42 nodes=[1, 2, 2, 1] equality=[(2, 3, 7)]
+length=4 bound=1805/1806 nodes=[1, 3, 5, 11, 1] equality=[(2, 3, 7, 43)]
+length=5 bound=3263441/3263442 nodes=[1, 4, 10, 33, 234, 1] equality=[(2, 3, 7, 43, 1807)]
+Regression m=13856993 reproduced zero with zero skips over 1,412 shards.
+All six nearby composite k=9 controls produced verified witnesses.
+m=19719523 exact manifest covers 73,418,831 two-term states in 1,395 shards. Starting the pilot.
+m=19719523 pilot estimates 437.6s for the remaining shards.
+m=19719523 found. 2 3 7 47 395 811831 19719523 1681798817790 130012092152927821395
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11731781]; sieve_limit=13000000; m=19720249; q_cap_bits=81
+manifest m=19720249 shards=1395 estimated_two_term_calls=73419377
+m=19720249 exact manifest covers 73,418,609 two-term states in 1,395 shards. Starting the pilot.
+m=19720249 pilot estimates 445.5s for the remaining shards.
+m=19720249 found. 2 3 7 61 135 115968 19720249 697326492240 103055378445110016
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11731057]; sieve_limit=13000000; m=19726391; q_cap_bits=81
+manifest m=19726391 shards=1395 estimated_two_term_calls=73417534
+m=19726391 exact manifest covers 73,416,766 two-term states in 1,395 shards. Starting the pilot.
+m=19726391 pilot estimates 442.9s for the remaining shards.
+m=19726391 found. 2 3 7 43 1836 111150 19726391 486593813160 430888485172629738600
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11730700]; sieve_limit=13000000; m=19729421; q_cap_bits=81
+manifest m=19729421 shards=1395 estimated_two_term_calls=73416632
+m=19729421 exact manifest covers 73,415,864 two-term states in 1,395 shards. Starting the pilot.
+m=19729421 pilot estimates 446.2s for the remaining shards.
+m=19729421 missing. 1395/1395 shards; 0 witnesses; 0 skips; 73415864/73415864 tail states; logs/k9-19729421/summary.json
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11730056]; sieve_limit=13000000; m=19734889; q_cap_bits=81
+manifest m=19734889 shards=1395 estimated_two_term_calls=73415004
+m=19734889 exact manifest covers 73,414,236 two-term states in 1,395 shards. Starting the pilot.
+m=19734889 exact witness found during the pilot.
+m=19734889 found. 2 3 7 45 632 203735 15601160 19734889 63713106859989399822
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11729922]; sieve_limit=13000000; m=19736023; q_cap_bits=81
+manifest m=19736023 shards=1395 estimated_two_term_calls=73414658
+m=19736023 exact manifest covers 73,413,890 two-term states in 1,395 shards. Starting the pilot.
+m=19736023 pilot estimates 451.9s for the remaining shards.
+m=19736023 found. 2 3 8 25 610 36668 19736023 34668463329742 1881666793297687958651106600
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11729631]; sieve_limit=13000000; m=19738493; q_cap_bits=81
+manifest m=19738493 shards=1395 estimated_two_term_calls=73413918
+m=19738493 exact manifest covers 73,413,150 two-term states in 1,395 shards. Starting the pilot.
+m=19738493 pilot estimates 454.0s for the remaining shards.
+m=19738493 missing. 1395/1395 shards; 0 witnesses; 0 skips; 73413150/73413150 tail states; logs/k9-19738493/summary.json
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11729557]; sieve_limit=13000000; m=19739123; q_cap_bits=81
+manifest m=19739123 shards=1395 estimated_two_term_calls=73413724
+m=19739123 exact manifest covers 73,412,956 two-term states in 1,395 shards. Starting the pilot.
+m=19739123 pilot estimates 444.8s for the remaining shards.
+m=19739123 found. 2 3 7 43 1974 21744 922608 19739123 1168898910688264
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11729461]; sieve_limit=13000000; m=19739939; q_cap_bits=81
+manifest m=19739939 shards=1395 estimated_two_term_calls=73413478
+m=19739939 exact manifest covers 73,412,710 two-term states in 1,395 shards. Starting the pilot.
+m=19739939 pilot estimates 442.6s for the remaining shards.
+m=19739939 found. 2 3 7 44 925 897600 19739939 190097600 22990246291959600
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11728915]; sieve_limit=13000000; m=19744579; q_cap_bits=81
+manifest m=19744579 shards=1395 estimated_two_term_calls=73412104
+m=19744579 exact manifest covers 73,411,336 two-term states in 1,395 shards. Starting the pilot.
+m=19744579 pilot estimates 443.4s for the remaining shards.
+m=19744579 found. 2 3 7 43 1840 107960 1089018 19744579 35476204369994352
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11728774]; sieve_limit=13000000; m=19745779; q_cap_bits=81
+manifest m=19745779 shards=1395 estimated_two_term_calls=73411737
+m=19745779 exact manifest covers 73,410,969 two-term states in 1,395 shards. Starting the pilot.
+m=19745779 pilot estimates 449.3s for the remaining shards.
+m=19745779 found. 2 3 8 25 601 369014 19745779 79441800 48237517034751505900
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11728744]; sieve_limit=13000000; m=19746031; q_cap_bits=81
+manifest m=19746031 shards=1395 estimated_two_term_calls=73411666
+m=19746031 exact manifest covers 73,410,898 two-term states in 1,395 shards. Starting the pilot.
+m=19746031 pilot estimates 446.5s for the remaining shards.
+m=19746031 found. 2 3 7 43 1808 1779960 19746031 17410692432 4288963123036540
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11728733]; sieve_limit=13000000; m=19746131; q_cap_bits=81
+manifest m=19746131 shards=1395 estimated_two_term_calls=73411637
+m=19746131 exact manifest covers 73,410,869 two-term states in 1,395 shards. Starting the pilot.
+m=19746131 pilot estimates 472.0s for the remaining shards.
+m=19746131 found. 2 3 7 44 954 29427 19746131 77217539684 238010440496297291049843
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11727710]; sieve_limit=13000000; m=19754831; q_cap_bits=81
+manifest m=19754831 shards=1395 estimated_two_term_calls=73409040
+m=19754831 exact manifest covers 73,408,272 two-term states in 1,395 shards. Starting the pilot.
+m=19754831 pilot estimates 446.5s for the remaining shards.
+m=19754831 found. 2 3 7 54 190 35982 19754831 195996780 2579964882540971940
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11727519]; sieve_limit=13000000; m=19756459; q_cap_bits=81
+manifest m=19756459 shards=1395 estimated_two_term_calls=73408545
+m=19756459 exact manifest covers 73,407,777 two-term states in 1,395 shards. Starting the pilot.
+m=19756459 pilot estimates 441.2s for the remaining shards.
+m=19756459 missing. 1395/1395 shards; 0 witnesses; 0 skips; 73407777/73407777 tail states; logs/k9-19756459/summary.json
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11727506]; sieve_limit=13000000; m=19756571; q_cap_bits=81
+manifest m=19756571 shards=1395 estimated_two_term_calls=73408514
+m=19756571 exact manifest covers 73,407,746 two-term states in 1,395 shards. Starting the pilot.
+m=19756571 pilot estimates 439.0s for the remaining shards.
+m=19756571 found. 2 3 7 44 925 893412 19756571 12394712880 987905229203365200
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11727422]; sieve_limit=13000000; m=19757279; q_cap_bits=81
+manifest m=19757279 shards=1395 estimated_two_term_calls=73408305
+m=19757279 exact manifest covers 73,407,537 two-term states in 1,395 shards. Starting the pilot.
+m=19757279 pilot estimates 448.4s for the remaining shards.
+m=19757279 found. 2 3 7 61 135 119685 3732750 19757279 75727914236107875
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11726120]; sieve_limit=13000000; m=19768373; q_cap_bits=81
+manifest m=19768373 shards=1395 estimated_two_term_calls=73404992
+m=19768373 exact manifest covers 73,404,224 two-term states in 1,395 shards. Starting the pilot.
+m=19768373 pilot estimates 444.8s for the remaining shards.
+m=19768373 found. 2 3 7 61 135 116067 19768373 133690284 24344955611749166940
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11723717]; sieve_limit=13000000; m=19788893; q_cap_bits=81
+manifest m=19788893 shards=1395 estimated_two_term_calls=73398912
+m=19788893 exact manifest covers 73,398,144 two-term states in 1,395 shards. Starting the pilot.
+m=19788893 pilot estimates 449.2s for the remaining shards.
+m=19788893 found. 2 3 7 43 1810 853290 19788893 833139018 3916002841865597
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11723545]; sieve_limit=13000000; m=19790357; q_cap_bits=81
+manifest m=19790357 shards=1395 estimated_two_term_calls=73398471
+m=19790357 exact manifest covers 73,397,703 two-term states in 1,395 shards. Starting the pilot.
+m=19790357 pilot estimates 473.8s for the remaining shards.
+m=19790357 missing. 1395/1395 shards; 0 witnesses; 0 skips; 73397703/73397703 tail states; logs/k9-19790357/summary.json
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11722080]; sieve_limit=13000000; m=19802891; q_cap_bits=81
+manifest m=19802891 shards=1395 estimated_two_term_calls=73394758
+m=19802891 exact manifest covers 73,393,990 two-term states in 1,395 shards. Starting the pilot.
+m=19802891 pilot estimates 481.9s for the remaining shards.
+m=19802891 found. 2 3 7 47 395 811690 19802891 9265617950114 19794994673979868258346970
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11721883]; sieve_limit=13000000; m=19804579; q_cap_bits=81
+manifest m=19804579 shards=1395 estimated_two_term_calls=73394265
+m=19804579 exact manifest covers 73,393,497 two-term states in 1,395 shards. Starting the pilot.
+m=19804579 pilot estimates 480.2s for the remaining shards.
+m=19804579 found. 2 3 8 25 606 60786 19804579 3630584235267 1419449063340240600
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11721882]; sieve_limit=13000000; m=19804591; q_cap_bits=81
+manifest m=19804591 shards=1395 estimated_two_term_calls=73394262
+m=19804591 exact manifest covers 73,393,494 two-term states in 1,395 shards. Starting the pilot.
+m=19804591 pilot estimates 477.4s for the remaining shards.
+m=19804591 found. 2 3 7 43 1809 1152400 19804591 91972520604 4313511216327600
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11721197]; sieve_limit=13000000; m=19810459; q_cap_bits=81
+manifest m=19810459 shards=1395 estimated_two_term_calls=73392534
+m=19810459 exact manifest covers 73,391,766 two-term states in 1,395 shards. Starting the pilot.
+m=19810459 pilot estimates 464.3s for the remaining shards.
+m=19810459 found. 2 3 7 43 1815 371070 19810459 3558654286 42777517131373770
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11720658]; sieve_limit=13000000; m=19815077; q_cap_bits=81
+manifest m=19815077 shards=1395 estimated_two_term_calls=73391174
+m=19815077 exact manifest covers 73,390,406 two-term states in 1,395 shards. Starting the pilot.
+m=19815077 pilot estimates 498.9s for the remaining shards.
+m=19815077 found. 2 3 7 44 970 19811 1256640 19815077 1450009462153510720
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11720595]; sieve_limit=13000000; m=19815617; q_cap_bits=81
+manifest m=19815617 shards=1395 estimated_two_term_calls=73391004
+m=19815617 exact manifest covers 73,390,236 two-term states in 1,395 shards. Starting the pilot.
+m=19815617 pilot estimates 441.0s for the remaining shards.
+m=19815617 found. 2 3 7 44 928 216825 19815617 417395264 452735454665748800
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11720505]; sieve_limit=13000000; m=19816393; q_cap_bits=81
+manifest m=19816393 shards=1395 estimated_two_term_calls=73390785
+m=19816393 exact manifest covers 73,390,017 two-term states in 1,395 shards. Starting the pilot.
+m=19816393 pilot estimates 438.7s for the remaining shards.
+m=19816393 found. 2 3 7 43 2110 12543 19816393 30034445837200 107002235963542823807346800
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11720434]; sieve_limit=13000000; m=19816999; q_cap_bits=81
+manifest m=19816999 shards=1395 estimated_two_term_calls=73390606
+m=19816999 exact manifest covers 73,389,838 two-term states in 1,395 shards. Starting the pilot.
+m=19816999 pilot estimates 449.4s for the remaining shards.
+m=19816999 found. 2 4 5 21 422 89019 19816999 8628258420 5105274821941014
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11720358]; sieve_limit=13000000; m=19817653; q_cap_bits=81
+manifest m=19817653 shards=1395 estimated_two_term_calls=73390416
+m=19817653 exact manifest covers 73,389,648 two-term states in 1,395 shards. Starting the pilot.
+m=19817653 pilot estimates 437.4s for the remaining shards.
+m=19817653 found. 2 3 7 43 1810 852390 19817653 27606610944 60084803542452046848
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11720104]; sieve_limit=13000000; m=19819829; q_cap_bits=81
+manifest m=19819829 shards=1395 estimated_two_term_calls=73389767
+m=19819829 exact manifest covers 73,388,999 two-term states in 1,395 shards. Starting the pilot.
+m=19819829 pilot estimates 438.6s for the remaining shards.
+m=19819829 missing. 1395/1395 shards; 0 witnesses; 0 skips; 73388999/73388999 tail states; logs/k9-19819829/summary.json
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11720095]; sieve_limit=13000000; m=19819903; q_cap_bits=81
+manifest m=19819903 shards=1395 estimated_two_term_calls=73389752
+m=19819903 exact manifest covers 73,388,984 two-term states in 1,395 shards. Starting the pilot.
+m=19819903 pilot estimates 450.5s for the remaining shards.
+m=19819903 found. 2 3 7 61 135 120448 3115392 19819903 20427084836509365
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11719836]; sieve_limit=13000000; m=19822129; q_cap_bits=81
+manifest m=19822129 shards=1395 estimated_two_term_calls=73389099
+m=19822129 exact manifest covers 73,388,331 two-term states in 1,395 shards. Starting the pilot.
+m=19822129 pilot estimates 448.0s for the remaining shards.
+m=19822129 missing. 1395/1395 shards; 0 witnesses; 0 skips; 73388331/73388331 tail states; logs/k9-19822129/summary.json
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11718296]; sieve_limit=13000000; m=19835357; q_cap_bits=81
+manifest m=19835357 shards=1395 estimated_two_term_calls=73385197
+m=19835357 exact manifest covers 73,384,429 two-term states in 1,395 shards. Starting the pilot.
+m=19835357 pilot estimates 459.2s for the remaining shards.
+m=19835357 found. 2 3 7 43 1808 1779750 19835357 4561823560 40718429497624914000
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11718068]; sieve_limit=13000000; m=19837313; q_cap_bits=81
+manifest m=19837313 shards=1395 estimated_two_term_calls=73384619
+m=19837313 exact manifest covers 73,383,851 two-term states in 1,395 shards. Starting the pilot.
+m=19837313 pilot estimates 447.5s for the remaining shards.
+m=19837313 found. 2 3 7 44 925 893437 19837313 3144478986 52210918646135669700
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11717959]; sieve_limit=13000000; m=19838257; q_cap_bits=81
+manifest m=19838257 shards=1395 estimated_two_term_calls=73384344
+m=19838257 exact manifest covers 73,383,576 two-term states in 1,395 shards. Starting the pilot.
+m=19838257 pilot estimates 439.9s for the remaining shards.
+m=19838257 missing. 1395/1395 shards; 0 witnesses; 0 skips; 73383576/73383576 tail states; logs/k9-19838257/summary.json
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11717946]; sieve_limit=13000000; m=19838369; q_cap_bits=81
+manifest m=19838369 shards=1395 estimated_two_term_calls=73384305
+m=19838369 exact manifest covers 73,383,537 two-term states in 1,395 shards. Starting the pilot.
+m=19838369 pilot estimates 475.1s for the remaining shards.
+m=19838369 found. 2 3 7 47 396 131147 19838369 9923834646 1229877764293164756
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11717643]; sieve_limit=13000000; m=19840967; q_cap_bits=81
+manifest m=19840967 shards=1395 estimated_two_term_calls=73383542
+m=19840967 exact manifest covers 73,382,774 two-term states in 1,395 shards. Starting the pilot.
+m=19840967 exact witness found during the pilot.
+m=19840967 found. 2 3 7 43 1807 3906784 19840967 16904362272 15709554446463180667
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11717288]; sieve_limit=13000000; m=19844021; q_cap_bits=81
+manifest m=19844021 shards=1395 estimated_two_term_calls=73382643
+m=19844021 exact manifest covers 73,381,875 two-term states in 1,395 shards. Starting the pilot.
+m=19844021 pilot estimates 449.4s for the remaining shards.
+m=19844021 found. 2 4 5 21 422 99330 857420 19844021 138218594456558770
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11717073]; sieve_limit=13000000; m=19845871; q_cap_bits=81
+manifest m=19845871 shards=1395 estimated_two_term_calls=73382102
+m=19845871 exact manifest covers 73,381,334 two-term states in 1,395 shards. Starting the pilot.
+m=19845871 pilot estimates 436.3s for the remaining shards.
+m=19845871 missing. 1395/1395 shards; 0 witnesses; 0 skips; 73381334/73381334 tail states; logs/k9-19845871/summary.json
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11717045]; sieve_limit=13000000; m=19846117; q_cap_bits=81
+manifest m=19846117 shards=1395 estimated_two_term_calls=73382028
+m=19846117 exact manifest covers 73,381,260 two-term states in 1,395 shards. Starting the pilot.
+m=19846117 exact witness found during the pilot.
+m=19846117 found. 2 3 7 43 1807 3913013 19846117 2084646438 121468089230260839470781
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11716960]; sieve_limit=13000000; m=19846847; q_cap_bits=81
+manifest m=19846847 shards=1395 estimated_two_term_calls=73381803
+m=19846847 exact manifest covers 73,381,035 two-term states in 1,395 shards. Starting the pilot.
+m=19846847 pilot estimates 440.6s for the remaining shards.
+m=19846847 found. 2 3 8 25 763 2809 19846847 582985410 30953634342405596600
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11716941]; sieve_limit=13000000; m=19847011; q_cap_bits=81
+manifest m=19847011 shards=1395 estimated_two_term_calls=73381758
+m=19847011 exact manifest covers 73,380,990 two-term states in 1,395 shards. Starting the pilot.
+m=19847011 pilot estimates 438.3s for the remaining shards.
+m=19847011 found. 2 3 7 47 395 811616 19847011 27969184195680 626475311500318312656
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11716913]; sieve_limit=13000000; m=19847251; q_cap_bits=81
+manifest m=19847251 shards=1395 estimated_two_term_calls=73381689
+m=19847251 exact manifest covers 73,380,921 two-term states in 1,395 shards. Starting the pilot.
+m=19847251 pilot estimates 442.7s for the remaining shards.
+m=19847251 found. 2 3 7 46 484 236900 19847251 164013080 1123047024284862600
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11716835]; sieve_limit=13000000; m=19847923; q_cap_bits=81
+manifest m=19847923 shards=1395 estimated_two_term_calls=73381492
+m=19847923 exact manifest covers 73,380,724 two-term states in 1,395 shards. Starting the pilot.
+m=19847923 pilot estimates 449.7s for the remaining shards.
+m=19847923 found. 2 3 8 27 218 23572 19847923 14442808995 62241860550900490370280
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11716545]; sieve_limit=13000000; m=19850419; q_cap_bits=81
+manifest m=19850419 shards=1395 estimated_two_term_calls=73380758
+m=19850419 exact manifest covers 73,379,990 two-term states in 1,395 shards. Starting the pilot.
+m=19850419 pilot estimates 454.5s for the remaining shards.
+m=19850419 found. 2 3 7 57 160 64046 19850419 165747704619 307752050768948326240
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11716490]; sieve_limit=13000000; m=19850891; q_cap_bits=81
+manifest m=19850891 shards=1395 estimated_two_term_calls=73380618
+m=19850891 exact manifest covers 73,379,850 two-term states in 1,395 shards. Starting the pilot.
+m=19850891 pilot estimates 452.3s for the remaining shards.
+m=19850891 found. 2 3 7 43 1821 221697 19850891 5385379264965 1944171605672084210310
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11716464]; sieve_limit=13000000; m=19851119; q_cap_bits=81
+manifest m=19851119 shards=1395 estimated_two_term_calls=73380550
+m=19851119 exact manifest covers 73,379,782 two-term states in 1,395 shards. Starting the pilot.
+m=19851119 pilot estimates 504.0s for the remaining shards.
+m=19851119 found. 2 3 8 25 608 45705 19851119 188490345120 425198212650930600
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11715952]; sieve_limit=13000000; m=19855529; q_cap_bits=81
+manifest m=19855529 shards=1395 estimated_two_term_calls=73379266
+m=19855529 exact manifest covers 73,378,498 two-term states in 1,395 shards. Starting the pilot.
+m=19855529 exact witness found during the pilot.
+m=19855529 found. 2 3 7 43 1807 4014140 19855529 144055569 273221161104704182860
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11715353]; sieve_limit=13000000; m=19860691; q_cap_bits=81
+manifest m=19860691 shards=1395 estimated_two_term_calls=73377743
+m=19860691 exact manifest covers 73,376,975 two-term states in 1,395 shards. Starting the pilot.
+m=19860691 pilot estimates 440.4s for the remaining shards.
+m=19860691 missing. 1395/1395 shards; 0 witnesses; 0 skips; 73376975/73376975 tail states; logs/k9-19860691/summary.json
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11714352]; sieve_limit=13000000; m=19869323; q_cap_bits=81
+manifest m=19869323 shards=1395 estimated_two_term_calls=73375216
+m=19869323 exact manifest covers 73,374,448 two-term states in 1,395 shards. Starting the pilot.
+m=19869323 pilot estimates 440.4s for the remaining shards.
+m=19869323 found. 2 3 7 44 925 898450 19869323 150504123 4386511650850844196
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11714303]; sieve_limit=13000000; m=19869749; q_cap_bits=81
+manifest m=19869749 shards=1395 estimated_two_term_calls=73375094
+m=19869749 exact manifest covers 73,374,326 two-term states in 1,395 shards. Starting the pilot.
+m=19869749 pilot estimates 443.2s for the remaining shards.
+m=19869749 found. 2 3 7 47 395 811578 19869749 241887767308830 54668738783685222
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11714258]; sieve_limit=13000000; m=19870139; q_cap_bits=81
+manifest m=19870139 shards=1395 estimated_two_term_calls=73374980
+m=19870139 exact manifest covers 73,374,212 two-term states in 1,395 shards. Starting the pilot.
+m=19870139 pilot estimates 446.1s for the remaining shards.
+m=19870139 found. 2 3 7 43 2245 9240 19870139 8156975816 1579289675647145
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11713037]; sieve_limit=13000000; m=19880683; q_cap_bits=81
+manifest m=19880683 shards=1395 estimated_two_term_calls=73371899
+m=19880683 exact manifest covers 73,371,131 two-term states in 1,395 shards. Starting the pilot.
+m=19880683 pilot estimates 445.7s for the remaining shards.
+m=19880683 found. 2 3 7 50 265 27864 19880683 499847833600 242281709393902982092800
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11712375]; sieve_limit=13000000; m=19886411; q_cap_bits=81
+manifest m=19886411 shards=1395 estimated_two_term_calls=73370219
+m=19886411 exact manifest covers 73,369,451 two-term states in 1,395 shards. Starting the pilot.
+m=19886411 pilot estimates 446.9s for the remaining shards.
+m=19886411 found. 2 3 7 43 1816 348384 7789278 19886411 1186408007496352
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11712231]; sieve_limit=13000000; m=19887653; q_cap_bits=81
+manifest m=19887653 shards=1395 estimated_two_term_calls=73369862
+m=19887653 exact manifest covers 73,369,094 two-term states in 1,395 shards. Starting the pilot.
+m=19887653 pilot estimates 445.1s for the remaining shards.
+m=19887653 found. 2 3 7 43 1809 1152400 19887653 4509347364 8098134307542211287600
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11711306]; sieve_limit=13000000; m=19895657; q_cap_bits=81
+manifest m=19895657 shards=1395 estimated_two_term_calls=73367526
+m=19895657 exact manifest covers 73,366,758 two-term states in 1,395 shards. Starting the pilot.
+m=19895657 pilot estimates 443.0s for the remaining shards.
+m=19895657 found. 2 3 7 43 1814 418127 19895657 16737842013 13970475971986036406739269
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11711164]; sieve_limit=13000000; m=19896883; q_cap_bits=81
+manifest m=19896883 shards=1395 estimated_two_term_calls=73367160
+m=19896883 exact manifest covers 73,366,392 two-term states in 1,395 shards. Starting the pilot.
+m=19896883 pilot estimates 447.2s for the remaining shards.
+m=19896883 found. 2 3 7 43 1820 237636 19896883 1074297294 452101758438219955
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11711163]; sieve_limit=13000000; m=19896893; q_cap_bits=81
+manifest m=19896893 shards=1395 estimated_two_term_calls=73367155
+m=19896893 exact manifest covers 73,366,387 two-term states in 1,395 shards. Starting the pilot.
+m=19896893 pilot estimates 446.1s for the remaining shards.
+m=19896893 found. 2 3 7 47 395 811972 19896893 1500244755 47902248457570436
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11709522]; sieve_limit=13000000; m=19911121; q_cap_bits=81
+manifest m=19911121 shards=1395 estimated_two_term_calls=73363003
+m=19911121 exact manifest covers 73,362,235 two-term states in 1,395 shards. Starting the pilot.
+m=19911121 pilot estimates 447.1s for the remaining shards.
+m=19911121 found. 2 3 7 43 1812 586929 12583434 19911121 271570126521587964
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11708759]; sieve_limit=13000000; m=19917743; q_cap_bits=81
+manifest m=19917743 shards=1395 estimated_two_term_calls=73361084
+m=19917743 exact manifest covers 73,360,316 two-term states in 1,395 shards. Starting the pilot.
+m=19917743 pilot estimates 440.9s for the remaining shards.
+m=19917743 found. 2 3 7 47 395 811500 19917743 352037178780 300108880924156297875
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11708023]; sieve_limit=13000000; m=19924133; q_cap_bits=81
+manifest m=19924133 shards=1395 estimated_two_term_calls=73359231
+m=19924133 exact manifest covers 73,358,463 two-term states in 1,395 shards. Starting the pilot.
+m=19924133 pilot estimates 442.6s for the remaining shards.
+m=19924133 found. 2 3 7 43 1814 418104 19924133 57973606800624 1203881875480412453808
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11707920]; sieve_limit=13000000; m=19925029; q_cap_bits=81
+manifest m=19925029 shards=1395 estimated_two_term_calls=73358971
+m=19925029 exact manifest covers 73,358,203 two-term states in 1,395 shards. Starting the pilot.
+m=19925029 pilot estimates 444.1s for the remaining shards.
+m=19925029 found. 2 3 7 61 135 115961 19925029 483653037825 245747197202945550
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11706428]; sieve_limit=13000000; m=19937999; q_cap_bits=81
+manifest m=19937999 shards=1395 estimated_two_term_calls=73355198
+m=19937999 exact manifest covers 73,354,430 two-term states in 1,395 shards. Starting the pilot.
+m=19937999 pilot estimates 441.9s for the remaining shards.
+m=19937999 found. 2 3 7 43 1809 1151955 19937999 73975930469 104576189627076881070
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11706364]; sieve_limit=13000000; m=19938559; q_cap_bits=81
+manifest m=19938559 shards=1395 estimated_two_term_calls=73355034
+m=19938559 exact manifest covers 73,354,266 two-term states in 1,395 shards. Starting the pilot.
+m=19938559 pilot estimates 445.1s for the remaining shards.
+m=19938559 found. 2 3 7 44 925 893024 19938559 17742870915 87078107863474263200
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11705978]; sieve_limit=13000000; m=19941919; q_cap_bits=81
+manifest m=19941919 shards=1395 estimated_two_term_calls=73354048
+m=19941919 exact manifest covers 73,353,280 two-term states in 1,395 shards. Starting the pilot.
+m=19941919 pilot estimates 449.0s for the remaining shards.
+m=19941919 missing. 1395/1395 shards; 0 witnesses; 0 skips; 73353280/73353280 tail states; logs/k9-19941919/summary.json
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11705818]; sieve_limit=13000000; m=19943311; q_cap_bits=81
+manifest m=19943311 shards=1395 estimated_two_term_calls=73353659
+m=19943311 exact manifest covers 73,352,891 two-term states in 1,395 shards. Starting the pilot.
+m=19943311 pilot estimates 509.1s for the remaining shards.
+m=19943311 found. 2 3 7 44 925 894600 19943311 489949800 148238464526544029715
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11705748]; sieve_limit=13000000; m=19943923; q_cap_bits=81
+manifest m=19943923 shards=1395 estimated_two_term_calls=73353481
+m=19943923 exact manifest covers 73,352,713 two-term states in 1,395 shards. Starting the pilot.
+m=19943923 pilot estimates 507.6s for the remaining shards.
+m=19943923 found. 2 3 7 47 395 811455 19943923 3626961948934 7552344817717
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11705711]; sieve_limit=13000000; m=19944241; q_cap_bits=81
+manifest m=19944241 shards=1394 estimated_two_term_calls=73353383
+m=19944241 exact manifest covers 73,352,615 two-term states in 1,394 shards. Starting the pilot.
+m=19944241 pilot estimates 583.5s for the remaining shards.
+m=19944241 missing. 1394/1394 shards; 0 witnesses; 0 skips; 73352615/73352615 tail states; logs/k9-19944241/summary.json
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11705679]; sieve_limit=13000000; m=19944521; q_cap_bits=81
+manifest m=19944521 shards=1394 estimated_two_term_calls=73353304
+m=19944521 exact manifest covers 73,352,536 two-term states in 1,394 shards. Starting the pilot.
+m=19944521 pilot estimates 609.8s for the remaining shards.
+m=19944521 found. 2 3 7 43 1810 852510 19944521 1914467070 253178325806002507631
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11705527]; sieve_limit=13000000; m=19945843; q_cap_bits=81
+manifest m=19945843 shards=1394 estimated_two_term_calls=73352914
+m=19945843 exact manifest covers 73,352,146 two-term states in 1,394 shards. Starting the pilot.
+m=19945843 pilot estimates 609.7s for the remaining shards.
+m=19945843 found. 2 3 7 57 160 64045 19945843 307724465804 67571017414001760
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11705465]; sieve_limit=13000000; m=19946387; q_cap_bits=81
+manifest m=19946387 shards=1394 estimated_two_term_calls=73352757
+m=19946387 exact manifest covers 73,351,989 two-term states in 1,394 shards. Starting the pilot.
+m=19946387 pilot estimates 532.6s for the remaining shards.
+m=19946387 found. 2 3 7 43 1808 1778394 19946387 14001888760 11730057861392225040
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11705438]; sieve_limit=13000000; m=19946617; q_cap_bits=81
+manifest m=19946617 shards=1394 estimated_two_term_calls=73352695
+m=19946617 exact manifest covers 73,351,927 two-term states in 1,394 shards. Starting the pilot.
+m=19946617 pilot estimates 540.2s for the remaining shards.
+m=19946617 found. 2 3 7 43 1808 1778394 19946617 13889462832 336543809517590393124
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11705361]; sieve_limit=13000000; m=19947287; q_cap_bits=81
+manifest m=19947287 shards=1394 estimated_two_term_calls=73352498
+m=19947287 exact manifest covers 73,351,730 two-term states in 1,394 shards. Starting the pilot.
+m=19947287 pilot estimates 536.3s for the remaining shards.
+m=19947287 found. 2 3 7 57 162 10801 5249286 19947287 1989471273354558
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11705339]; sieve_limit=13000000; m=19947479; q_cap_bits=81
+manifest m=19947479 shards=1394 estimated_two_term_calls=73352440
+m=19947479 exact manifest covers 73,351,672 two-term states in 1,394 shards. Starting the pilot.
+m=19947479 pilot estimates 559.5s for the remaining shards.
+m=19947479 found. 2 3 7 71 105 4986 1679150 19947479 584517918191095350
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11704910]; sieve_limit=13000000; m=19951223; q_cap_bits=81
+manifest m=19951223 shards=1394 estimated_two_term_calls=73351360
+m=19951223 exact manifest covers 73,350,592 two-term states in 1,394 shards. Starting the pilot.
+m=19951223 pilot estimates 539.5s for the remaining shards.
+m=19951223 found. 2 3 7 43 1819 255944 19951223 56209013588 56921335765038024
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11703703]; sieve_limit=13000000; m=19961743; q_cap_bits=81
+manifest m=19961743 shards=1394 estimated_two_term_calls=73348309
+m=19961743 exact manifest covers 73,347,541 two-term states in 1,394 shards. Starting the pilot.
+m=19961743 pilot estimates 524.4s for the remaining shards.
+m=19961743 found. 2 3 8 25 630 12814 784105 19961743 2789298265224600
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11702927]; sieve_limit=13000000; m=19968521; q_cap_bits=81
+manifest m=19968521 shards=1394 estimated_two_term_calls=73346358
+m=19968521 exact manifest covers 73,345,590 two-term states in 1,394 shards. Starting the pilot.
+m=19968521 pilot estimates 522.6s for the remaining shards.
+m=19968521 found. 2 3 7 43 1808 1903146 19968521 27037024 61007500111929952
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11702920]; sieve_limit=13000000; m=19968587; q_cap_bits=81
+manifest m=19968587 shards=1394 estimated_two_term_calls=73346341
+m=19968587 exact manifest covers 73,345,573 two-term states in 1,394 shards. Starting the pilot.
+m=19968587 pilot estimates 532.0s for the remaining shards.
+m=19968587 found. 2 3 7 44 925 895664 19968587 291341200 64551944237505233685
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11702903]; sieve_limit=13000000; m=19968731; q_cap_bits=81
+manifest m=19968731 shards=1394 estimated_two_term_calls=73346302
+m=19968731 exact manifest covers 73,345,534 two-term states in 1,394 shards. Starting the pilot.
+m=19968731 pilot estimates 522.2s for the remaining shards.
+m=19968731 found. 2 3 7 44 925 914232 19968731 38301536 7349911949905419367200
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11702622]; sieve_limit=13000000; m=19971187; q_cap_bits=81
+manifest m=19971187 shards=1394 estimated_two_term_calls=73345581
+m=19971187 exact manifest covers 73,344,813 two-term states in 1,394 shards. Starting the pilot.
+m=19971187 pilot estimates 528.2s for the remaining shards.
+m=19971187 found. 2 3 7 46 705 1534 19971187 76313195 1402749506914632786
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11702586]; sieve_limit=13000000; m=19971503; q_cap_bits=81
+manifest m=19971503 shards=1394 estimated_two_term_calls=73345491
+m=19971503 exact manifest covers 73,344,723 two-term states in 1,394 shards. Starting the pilot.
+m=19971503 pilot estimates 529.4s for the remaining shards.
+m=19971503 found. 2 3 7 44 925 901075 19971503 98577605 9615340489608698460
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11702434]; sieve_limit=13000000; m=19972829; q_cap_bits=81
+manifest m=19972829 shards=1394 estimated_two_term_calls=73345115
+m=19972829 exact manifest covers 73,344,347 two-term states in 1,394 shards. Starting the pilot.
+m=19972829 pilot estimates 528.8s for the remaining shards.
+m=19972829 found. 2 3 7 56 169 28457 19972829 32913804 222195041312652408
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11700646]; sieve_limit=13000000; m=19988467; q_cap_bits=81
+manifest m=19988467 shards=1394 estimated_two_term_calls=73340606
+m=19988467 exact manifest covers 73,339,838 two-term states in 1,394 shards. Starting the pilot.
+m=19988467 pilot estimates 528.7s for the remaining shards.
+m=19988467 found. 2 3 7 55 178 103330 19988467 2947879627 1660520463979519833810
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11699861]; sieve_limit=13000000; m=19995343; q_cap_bits=81
+manifest m=19995343 shards=1394 estimated_two_term_calls=73338632
+m=19995343 exact manifest covers 73,337,864 two-term states in 1,394 shards. Starting the pilot.
+m=19995343 pilot estimates 528.3s for the remaining shards.
+m=19995343 found. 2 3 9 19 348 19856 19995343 1303180560 3425204325018093640
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11699735]; sieve_limit=13000000; m=19996447; q_cap_bits=81
+manifest m=19996447 shards=1394 estimated_two_term_calls=73338316
+m=19996447 exact manifest covers 73,337,548 two-term states in 1,394 shards. Starting the pilot.
+m=19996447 pilot estimates 535.7s for the remaining shards.
+m=19996447 found. 2 3 7 43 1908 33840 19996447 197896795824 2856274095321902799960
+main DFS denominator caps=[8, 14, 36, 210, 7224, 11699591]; sieve_limit=13000000; m=19997711; q_cap_bits=81
+manifest m=19997711 shards=1394 estimated_two_term_calls=73337951
+m=19997711 exact manifest covers 73,337,183 two-term states in 1,394 shards. Starting the pilot.
+m=19997711 pilot estimates 530.8s for the remaining shards.
+m=19997711 found. 2 3 7 43 1815 370986 19997711 6969758994 1392081697787197842810
