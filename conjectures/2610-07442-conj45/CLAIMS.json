@@ -1,0 +1,241 @@
+{
+  "claims": [
+    {
+      "value": "S^{312}_{r,k,d} = F(r,k,d)",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_standalone.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Unconditional closed-form formula for extendably 312-avoiding alternating sign rectangles for all 0 <= d <= min(r, k)"
+    },
+    {
+      "value": "7575",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_standalone.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Total legal ASRs across positive dimensions through 5 x 5"
+    },
+    {
+      "value": "1282",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_standalone.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Extendably 312-avoiding ASRs through 5 x 5"
+    },
+    {
+      "value": "6293",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_standalone.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Rejected ASRs through 5 x 5"
+    },
+    {
+      "value": "3914",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_standalone.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Rejected ASRs through 5 x 5 that avoid 312 internally"
+    },
+    {
+      "value": "429",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_standalone.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Total order-5 alternating sign matrices"
+    },
+    {
+      "value": "90",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_standalone.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "312-avoiding order-5 alternating sign matrices"
+    },
+    {
+      "value": "1869",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_standalone.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Rectangle candidates cross-checked against order-5 ASM corners"
+    },
+    {
+      "value": "51",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Populated entries of published Table 2 independently verified"
+    },
+    {
+      "value": "45526",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_standalone.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact grid triples 0 <= d <= min(r, k) <= 50 checked with zero mismatches"
+    },
+    {
+      "value": "50",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_standalone.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Maximum r, k in exhaustive referee grid check"
+    },
+    {
+      "value": "3456049809902016631568547840146318881",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_standalone.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact value S^{312}_{51,52,50}"
+    },
+    {
+      "value": "36",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_standalone.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Formal power series and Laurent residue verification degree"
+    },
+    {
+      "value": "180441",
+      "kind": "rigorous",
+      "producer": "producer/verify_proof.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact grid triples 0 <= d <= min(r, k) <= 80 checked by producer"
+    },
+    {
+      "value": "80",
+      "kind": "rigorous",
+      "producer": "producer/verify_proof.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Maximum r, k in producer grid check"
+    },
+    {
+      "value": "43",
+      "kind": "rigorous",
+      "producer": "producer/verify_proof.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Modulus exponent z^{43} in producer formal-series check"
+    },
+    {
+      "value": "7",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_standalone.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Number of mutated negative controls caught"
+    },
+    {
+      "value": "4.5",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2610.07442v1",
+      "new_bound": false,
+      "label": "Conjecture 4.5 number in arXiv:2610.07442v1"
+    },
+    {
+      "value": "4.4",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2610.07442v1",
+      "new_bound": false,
+      "label": "Theorem 4.4 number in arXiv:2610.07442v1"
+    },
+    {
+      "value": "4.3",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2610.07442v1",
+      "new_bound": false,
+      "label": "Proposition 4.3 number in arXiv:2610.07442v1"
+    },
+    {
+      "value": "4.2",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2610.07442v1",
+      "new_bound": false,
+      "label": "Proposition 4.2 number in arXiv:2610.07442v1"
+    },
+    {
+      "value": "312",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2610.07442v1",
+      "new_bound": false,
+      "label": "Avoided pattern 312"
+    },
+    {
+      "value": "2610.07442",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2610.07442v1",
+      "new_bound": false,
+      "label": "arXiv identifier of Hongesberg, Konvalinka, and Linusson"
+    },
+    {
+      "value": "578",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2610.07442v1",
+      "new_bound": false,
+      "label": "Source line confirming polynomial binomial convention"
+    },
+    {
+      "value": "507",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2610.07442v1",
+      "new_bound": false,
+      "label": "Source line with row-limit slip in proof of Proposition 4.2"
+    },
+    {
+      "value": "589",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2610.07442v1",
+      "new_bound": false,
+      "label": "Source line with diagonal endpoint slip"
+    },
+    {
+      "value": "6.2",
+      "kind": "cited",
+      "source": "https://openai.com/",
+      "new_bound": false,
+      "label": "Model version in GPT-6.2 Astra"
+    },
+    {
+      "value": "256",
+      "kind": "cited",
+      "source": "https://csrc.nist.gov/projects/hash-functions",
+      "new_bound": false,
+      "label": "SHA-256 algorithm identifier"
+    },
+    {
+      "value": "3.10",
+      "kind": "cited",
+      "source": "https://www.python.org/",
+      "new_bound": false,
+      "label": "Minimum Python 3.10 version"
+    },
+    {
+      "value": "0",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_standalone.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Zero boundary index and F(r, r-1, r) = 0"
+    },
+    {
+      "value": "1",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_standalone.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Unit base case C(-1, 0) = 1 and minimum positive row index"
+    }
+  ],
+  "scope": "Unconditional algebraic proof of Hongesberg, Konvalinka, and Linusson (arXiv:2610.07442v1) Conjecture 4.5 for all integers 0 <= d <= min(r, k)."
+}

@@ -1,0 +1,24 @@
+{
+  "model": "GPT-6.2 Astra via Codex",
+  "author": "separate clean-room cross-family referee session (producer code withheld)",
+  "producer_author": "Gemini 4 Carbon High via Antigravity CLI",
+  "status": "PASS",
+  "value": "S^{312}_{r,k,d} = F(r,k,d)",
+  "values": [
+    "S^{312}_{r,k,d} = F(r,k,d)"
+  ],
+  "arithmetic": "exact",
+  "inputs": {
+    "PROOF.md": "074a4e37e7b0357adeabf20cbb1596d994ddcf0ba64e2207a8829a14c964a262",
+    "referee/REFEREE.md": "ecd7cb90cc2199c740088f306aa847e2bcaf6f24a8be79717550af48b527282e",
+    "referee/verification.txt": "a948e5c168dc6f125f335b3d7804a198270fcc298bd40f61a12214551740eed4"
+  },
+  "inputs_hash": "0c773d15189a38eeb67f51819cabe356f0573de66cfbe6902290c4f2bc5e6156",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/referee_verify_standalone.py",
+  "checker_sha256": "3d896a2dd9f2e0d6663bfcc8fcfae40571c1eca56c73a1b22d492ad23fd41439",
+  "report": "referee/REFEREE.md",
+  "report_sha256": "ecd7cb90cc2199c740088f306aa847e2bcaf6f24a8be79717550af48b527282e",
+  "note": "Clean-room cross-family referee (GPT-6.2 Astra, producer code withheld) returned VERDICT: HOLDS with zero mathematical gaps on the unconditional generating-function proof of arXiv:2610.07442v1 Conjecture 4.5 across all 0 <= d <= min(r, k). Independently verified all 7,575 ASRs through 5 x 5, all 429 order-5 ASMs, all 51 Table 2 cells, all 45,526 grid triples through 50, larger cases including S^{312}_{51,52,50}, exact formal-series and Laurent-residue identities through degree 36, and 7 mutated negative controls."
+}

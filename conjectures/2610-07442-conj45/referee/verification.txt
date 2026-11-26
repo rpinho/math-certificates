@@ -1,0 +1,21 @@
+Raw source lines 1605 Table 2 populated cells 51
+Order-five ASMs 429 avoiding 90
+Positive dimensions: ASRs 7575 extendably avoiding 1282 rejected 6293 of which avoid internally 3914
+Candidates cross-checked against actual order-five corners 1869
+Small triples 91 5x5 by d [1, 9, 41, 111, 168, 90]
+Grid through 50 45526 mismatches 0
+Larger (51, 52, 50) 3456049809902016631568547840146318881
+Larger (67, 58, 19) 6157279478915593846845024
+Larger (60, 91, 60) 722447395647387245308466846017860752162171413963889312
+Larger (77, 53, 53) 21887492121047064042575858474158827111961536
+Larger (64, 64, 64) 2699569581623203904920541044702174725512879998
+Larger (99, 1, 1) 99
+Mutation negative top zero (1, 1, 1) observed 0 expected 1
+Mutation power base 3 (2, 2, 2) observed 3 expected 2
+Mutation single subtraction (3, 3, 3) observed 9 expected 6
+Mutation reversed parity (1, 1, 1) observed 5 expected 1
+Mutation double free binomial (0, 0, 0) observed 2 expected 1
+Mutation ordinary Catalan index (3, 3, 3) observed 5 expected 6
+Mutation single alternating sum (1, 1, 1) observed 2 expected 1
+Formal series and Laurent checks through degree 36 mismatches 0
+All exact comparisons passed.

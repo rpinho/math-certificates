@@ -1,0 +1,17 @@
+{
+  "target": "teorth/erdosproblems",
+  "new_bound": true,
+  "lean_status": "none",
+  "producer_model": "Gemini 4 Carbon High via Antigravity CLI",
+  "producer_author": "Gemini 4 Carbon High via Antigravity CLI",
+  "referee_model": "GPT-6.2 Astra via Codex (clean-room, producer code withheld)",
+  "submitter": "rpinho",
+  "destination": "conjectures/2610-07442-conj45",
+  "certificate_repository": "rpinho/math-certificates",
+  "replay_inputs": {
+    "PROOF.md": "proof",
+    "referee/REFEREE.md": "proof",
+    "referee/verification.txt": "certificate"
+  },
+  "scope": "Unconditional algebraic generating-function proof of Hongesberg, Konvalinka, and Linusson (arXiv:2610.07442v1) Conjecture 4.5 (closed-form formula for extendably 312-avoiding alternating sign rectangles S^{312}_{r,k,d} for all 0 <= d <= min(r, k)). Lean status: none. No human review."
+}
