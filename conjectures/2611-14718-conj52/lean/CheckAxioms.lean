@@ -1,0 +1,30 @@
+import SubcubicConj52
+
+#print axioms SubcubicConj52.F3_numEdges
+#print axioms SubcubicConj52.F3_maxDegreeLe3
+#print axioms SubcubicConj52.F3_isTree
+#print axioms SubcubicConj52.F3_connected
+#print axioms SubcubicConj52.F3_chain_iso
+#print axioms SubcubicConj52.F3_static_counts
+#print axioms SubcubicConj52.F3_Nstat
+#print axioms SubcubicConj52.F3_Nseq
+#print axioms SubcubicConj52.F3_cross_product
+#print axioms SubcubicConj52.F3_strict_violation
+#print axioms SubcubicConj52.conj52_disproof_F3
+#print axioms SubcubicConj52.Fm_isTree
+#print axioms SubcubicConj52.Fm_maxDegreeLe3
+#print axioms SubcubicConj52.Fm_static_min
+#print axioms SubcubicConj52.Fm_static_total
+#print axioms SubcubicConj52.Fm_Nstat
+#print axioms SubcubicConj52.Fm_Nseq
+#print axioms SubcubicConj52.Fm_cross_product
+#print axioms SubcubicConj52.infinite_family_Fm_disproof
+#print axioms SubcubicConj52.small_control_CDFs
+#print axioms SubcubicConj52.P3_control
+#print axioms SubcubicConj52.P4_control
+#print axioms SubcubicConj52.P5_control
+#print axioms SubcubicConj52.Claw_control
+#print axioms SubcubicConj52.F1_control
+#print axioms SubcubicConj52.F2_control_CDFs
+#print axioms SubcubicConj52.F2_control
+#print axioms SubcubicConj52.degree4_control

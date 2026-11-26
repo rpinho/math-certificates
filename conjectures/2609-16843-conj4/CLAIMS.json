@@ -170,6 +170,107 @@
       "source": "https://csrc.nist.gov/projects/hash-functions",
       "new_bound": false,
       "label": "SHA-256"
+    },
+    {
+      "value": "4.36.0",
+      "kind": "cited",
+      "source": "https://github.com/leanprover/lean4",
+      "new_bound": false,
+      "label": "Lean 4.36.0 toolchain version"
+    },
+    {
+      "value": "4.36",
+      "kind": "cited",
+      "source": "https://github.com/leanprover/lean4",
+      "new_bound": false,
+      "label": "Lean 4.36 toolchain version"
+    },
+    {
+      "value": "153",
+      "kind": "rigorous",
+      "producer": "lean/verify_lean.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Permutations n<=5 checked in Lean small controls"
+    },
+    {
+      "value": "2949333362474113",
+      "kind": "rigorous",
+      "producer": "lean/verify_lean.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact n=18 2-shell (5,3,1,1,3,5) rook placement count"
+    },
+    {
+      "value": "2445624351454501",
+      "kind": "rigorous",
+      "producer": "lean/verify_lean.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact n=18 single-shell (m,1*,m) maximum rook count"
+    },
+    {
+      "value": "503709011019612",
+      "kind": "rigorous",
+      "producer": "lean/verify_lean.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact n=18 rook placement excess"
+    },
+    {
+      "value": "104476798194769",
+      "kind": "rigorous",
+      "producer": "lean/verify_lean.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact n=17 2-shell (5,3,1,3,5) rook placement count"
+    },
+    {
+      "value": "103460138813701",
+      "kind": "rigorous",
+      "producer": "lean/verify_lean.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact n=17 single-shell (m,1*,m) maximum rook count"
+    },
+    {
+      "value": "1016659381068",
+      "kind": "rigorous",
+      "producer": "lean/verify_lean.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact n=17 rook placement excess"
+    },
+    {
+      "value": "145",
+      "kind": "rigorous",
+      "producer": "lean/verify_lean.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact cross-product excess on F_3"
+    },
+    {
+      "value": "64/3375",
+      "kind": "rigorous",
+      "producer": "lean/verify_lean.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact P(N^seq <= 6) on F_3"
+    },
+    {
+      "value": "1/55",
+      "kind": "rigorous",
+      "producer": "lean/verify_lean.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact P(N^stat <= 6) on F_3"
+    },
+    {
+      "value": "36.0",
+      "kind": "cited",
+      "source": "https://github.com/leanprover/lean4",
+      "new_bound": false,
+      "label": "Minor.patch part of Lean 4.36.0 toolchain version"
     }
   ],
   "scope": "Exact disproof of van Berkel and Bosma (arXiv:2609.16843v2) Conjecture 4 and complete resolution of S_{1,d-1,2d-1} for all d >= 3."

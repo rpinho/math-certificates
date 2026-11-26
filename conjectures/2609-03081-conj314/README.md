@@ -2,7 +2,7 @@
 
 This packet refutes Conjecture 3.14 (`\label{conj:maxlayered}`, TeX line `754`) of Joel Brewster Lewis and Robert Won, *Non-attacking rook placements on crossword grids* ([arXiv:2609.03081v1](https://arxiv.org/abs/2609.03081v1)).
 
-This is AI work. No human has checked it. **Lean status:** `none`.
+This is AI work. No human has checked it. **Lean status:** `verified` (standalone Lean 4, zero Mathlib, zero `sorry`, standard axioms `[propext, Classical.choice, Quot.sound]`; see [`lean/`](lean/)).
 
 ## Conjecture 3.14 (as stated in v1)
 
@@ -33,6 +33,15 @@ At $n = 15$ and $n = 16$, exhaustive restricted-family layered and bounded-middl
 
 - **Producer:** Gemini 4 Carbon High via Antigravity CLI (`producer/REPORT.md`, `producer/verify_counterexample.py`, `certificates/witness.json`).
 - **Clean-room Cross-Family Referee:** GPT-6.2 Astra via Codex (`referee/REFEREE.md`, `referee/REPORT.md`, `referee/referee_verify.py`, `referee/verification.txt`, producer code withheld). Independently verified the `n = 17` and `n = 18` counterexamples by matching recurrence, Ryser inclusion-exclusion, and a closed-form 7-square derivation; checked all `46233` permutations for $n \le 8$, all `136` endpoint pairs at $n = 17$, all five global maxima through $n = 14$, and rejected `5` adversarial mutations (`VERDICT: HOLDS WITH CAVEATS` solely for prose/unit clarifications in `producer/REPORT.md` and `minimality_note`, all resolved above).
+
+
+## Standalone Lean 4 formalization
+
+The [`lean/`](lean/) directory contains a self-contained Lean 4 (`leanprover/lean4:v4.36.0`, zero Mathlib dependencies) formalization defining permutation grids and rook placements from first principles and proving both the `n = 17` counterexample (`104476798194769` vs single-shell maximum `103460138813701`, excess `1016659381068`) and the `n = 18` counterexample (`2949333362474113` vs `2445624351454501`, excess `503709011019612`), plus small-order controls across `31` layered compositions and `153` permutations for `n <= 5`. Direct Lean verification passes with zero `sorry`, zero `axiom`, zero `native_decide`, zero warnings, and standard core axioms `[propext, Classical.choice, Quot.sound]` only:
+
+```bash
+cd lean && python3 -B verify_lean.py
+```
 
 ## Reproduction
 

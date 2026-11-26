@@ -1,0 +1,10 @@
+name = "SumfreeConj4"
+version = "0.1.0"
+defaultTargets = ["SumfreeConj4", "CheckAxioms"]
+moreLeanArgs = ["-M", "1800"]
+
+[[lean_lib]]
+name = "SumfreeConj4"
+
+[[lean_lib]]
+name = "CheckAxioms"

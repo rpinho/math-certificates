@@ -265,6 +265,75 @@
       "source": "https://csrc.nist.gov/projects/hash-functions",
       "new_bound": false,
       "label": "SHA-256 algorithm identifier"
+    },
+    {
+      "value": "4.36.0",
+      "kind": "cited",
+      "source": "https://github.com/leanprover/lean4",
+      "new_bound": false,
+      "label": "Lean 4.36.0 toolchain version"
+    },
+    {
+      "value": "4.36",
+      "kind": "cited",
+      "source": "https://github.com/leanprover/lean4",
+      "new_bound": false,
+      "label": "Lean 4.36 toolchain version"
+    },
+    {
+      "value": "31",
+      "kind": "rigorous",
+      "producer": "lean/verify_lean.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Layered compositions checked in Lean small controls"
+    },
+    {
+      "value": "153",
+      "kind": "rigorous",
+      "producer": "lean/verify_lean.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Permutations n<=5 checked in Lean small controls"
+    },
+    {
+      "value": "6",
+      "kind": "rigorous",
+      "producer": "lean/verify_lean.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Threshold d>=6 or t=6"
+    },
+    {
+      "value": "145",
+      "kind": "rigorous",
+      "producer": "lean/verify_lean.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact cross-product excess on F_3"
+    },
+    {
+      "value": "64/3375",
+      "kind": "rigorous",
+      "producer": "lean/verify_lean.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact P(N^seq <= 6) on F_3"
+    },
+    {
+      "value": "1/55",
+      "kind": "rigorous",
+      "producer": "lean/verify_lean.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact P(N^stat <= 6) on F_3"
+    },
+    {
+      "value": "36.0",
+      "kind": "cited",
+      "source": "https://github.com/leanprover/lean4",
+      "new_bound": false,
+      "label": "Minor.patch part of Lean 4.36.0 toolchain version"
     }
   ],
   "scope": "Exact disproof of Lewis and Won (arXiv:2609.03081v1) Conjecture 3.14 at n = 17 and n = 18, plus independent global maxima r(10..14)."

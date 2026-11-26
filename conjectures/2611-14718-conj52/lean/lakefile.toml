@@ -1,0 +1,10 @@
+name = "lean_subcubic"
+version = "0.1.0"
+defaultTargets = ["SubcubicConj52", "CheckAxioms"]
+moreLeanArgs = ["-j", "1", "-M", "1200", "-D", "Elab.async=false"]
+
+[[lean_lib]]
+name = "SubcubicConj52"
+
+[[lean_lib]]
+name = "CheckAxioms"
