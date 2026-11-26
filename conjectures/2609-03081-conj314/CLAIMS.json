@@ -1,0 +1,271 @@
+{
+  "claims": [
+    {
+      "value": "104476798194769",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Exact complete rook placement count |RP(Grid(w))| for the n=17 shape (5,3,1,3,5) witness"
+    },
+    {
+      "value": "103460138813701",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Exact maximum |RP(Grid(u))| across all single-shell (m,1*,m) and all 136 ordered (m1,1*,m2) shapes at n=17 (unique optimum m=5)"
+    },
+    {
+      "value": "1016659381068",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact strict excess 104476798194769 - 103460138813701 at n=17"
+    },
+    {
+      "value": "2949333362474113",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact rook placement count of n=18 shape (5,3,1,1,3,5)"
+    },
+    {
+      "value": "2445624351454501",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact single-shell (m,1*,m) maximum at n=18"
+    },
+    {
+      "value": "503709011019612",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact strict excess at n=18"
+    },
+    {
+      "value": "255569",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Global maximum r(10) over all S_10"
+    },
+    {
+      "value": "3316625",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Global maximum r(11) over all S_11"
+    },
+    {
+      "value": "46301969",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Global maximum r(12) over all S_12"
+    },
+    {
+      "value": "680707985",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Global maximum r(13) over all S_13"
+    },
+    {
+      "value": "10353226769",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Global maximum r(14) over all S_14"
+    },
+    {
+      "value": "202352501701",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Best restricted-family layered count at n=15"
+    },
+    {
+      "value": "4493953750501",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Best restricted-family layered count at n=16"
+    },
+    {
+      "value": "17",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Order n=17 of the primary counterexample"
+    },
+    {
+      "value": "18",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Order n=18 of the second verified counterexample"
+    },
+    {
+      "value": "5",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Optimal single-shell endpoint m=5 at n=17 and 5 rejected mutation controls"
+    },
+    {
+      "value": "3",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Inner shell block size 3 in shape (5,3,1,3,5)"
+    },
+    {
+      "value": "1",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Center singleton block size 1"
+    },
+    {
+      "value": "32",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Number of across words and down words on the n=17 witness grid"
+    },
+    {
+      "value": "136",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Total ordered positive endpoint pairs (m1,m2) checked at n=17"
+    },
+    {
+      "value": "128",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Strictly unequal endpoint pairs among the 136 checked at n=17"
+    },
+    {
+      "value": "8",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Symmetric endpoint pairs at n=17 and upper control order n=8"
+    },
+    {
+      "value": "14",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Maximum order n=14 where Conjecture 3.14 is proved unconditionally"
+    },
+    {
+      "value": "15",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Order n=15 where unconditional minimality remains open"
+    },
+    {
+      "value": "16",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Order n=16 where unconditional minimality remains open"
+    },
+    {
+      "value": "4",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Four diagonal black squares moved off the diagonal when forming (5,3,1,3,5) from (5,1^7,5)"
+    },
+    {
+      "value": "46233",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "All permutations of orders 1 through 8 checked by both permanent solvers"
+    },
+    {
+      "value": "87178291200",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_strict.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Order 14! covered by independent branch-and-bound proof"
+    },
+    {
+      "value": "3.14",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2609.03081v1",
+      "new_bound": false,
+      "label": "Conjecture 3.14 number in arXiv:2609.03081v1"
+    },
+    {
+      "value": "3.15",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2609.03081v1",
+      "new_bound": false,
+      "label": "Proposition 3.15 number in arXiv:2609.03081v1"
+    },
+    {
+      "value": "754",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2609.03081v1",
+      "new_bound": false,
+      "label": "TeX line of Conjecture 3.14 in arXiv:2609.03081v1"
+    },
+    {
+      "value": "2609.03081",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2609.03081v1",
+      "new_bound": false,
+      "label": "arXiv identifier of Lewis and Won"
+    },
+    {
+      "value": "6.2",
+      "kind": "cited",
+      "source": "https://openai.com/",
+      "new_bound": false,
+      "label": "Model version in GPT-6.2 Astra"
+    },
+    {
+      "value": "256",
+      "kind": "cited",
+      "source": "https://csrc.nist.gov/projects/hash-functions",
+      "new_bound": false,
+      "label": "SHA-256 algorithm identifier"
+    }
+  ],
+  "scope": "Exact disproof of Lewis and Won (arXiv:2609.03081v1) Conjecture 3.14 at n = 17 and n = 18, plus independent global maxima r(10..14)."
+}

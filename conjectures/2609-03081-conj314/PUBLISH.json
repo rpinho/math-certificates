@@ -1,0 +1,16 @@
+{
+  "target": "teorth/erdosproblems",
+  "new_bound": true,
+  "lean_status": "none",
+  "producer_model": "Gemini 4 Carbon High via Antigravity CLI",
+  "producer_author": "Gemini 4 Carbon High via Antigravity CLI",
+  "referee_model": "GPT-6.2 Astra via Codex (clean-room, producer code withheld)",
+  "submitter": "rpinho",
+  "destination": "conjectures/2609-03081-conj314",
+  "certificate_repository": "rpinho/math-certificates",
+  "replay_inputs": {
+    "certificates/witness.json": "certificate",
+    "referee/REFEREE.md": "proof"
+  },
+  "scope": "Exact disproof of Lewis and Won (arXiv:2609.03081v1) Conjecture 3.14 (conj:maxlayered) at n = 17 via 2-shell layered shape (5, 3, 1, 3, 5) achieving 104,476,798,194,769 > 103,460,138,813,701 = max (m, 1*, m), plus independent n <= 14 global maxima r(10..14). Lean status: none. No human review."
+}

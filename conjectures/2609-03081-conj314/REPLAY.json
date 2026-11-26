@@ -1,0 +1,26 @@
+{
+  "model": "GPT-6.2 Astra via Codex",
+  "author": "separate clean-room cross-family referee session (producer code withheld)",
+  "producer_author": "Gemini 4 Carbon High via Antigravity CLI",
+  "status": "PASS",
+  "value": "104476798194769",
+  "values": [
+    "104476798194769",
+    "103460138813701"
+  ],
+  "arithmetic": "exact",
+  "inputs": {
+    "certificates/witness.json": "42f660ec1c3efe682fefc1d5e1148c49313597a18df901ad95c44e87082bef8a",
+    "referee/REFEREE.md": "dc94c1a30e26ae6d4d8c7ae5d142a39f7aff0491ba6841262563b3a7748c11e3"
+  },
+  "inputs_hash": "4d41d6cfcbde5adc329540e8f534b3b24c5cd387d8651b97a5c6dc4094fff3db",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/referee_verify_strict.py",
+  "checker_sha256": "8186d201a53952dae2ee82d2c9f6bd3827d90a62419387e212f276387f240d18",
+  "report": "referee/REFEREE.md",
+  "report_sha256": "dc94c1a30e26ae6d4d8c7ae5d142a39f7aff0491ba6841262563b3a7748c11e3",
+  "note": "Clean-room cross-family referee (GPT-6.2 Astra) confirmed the n=17 and n=18 disproofs of Lewis & Won Conjecture 3.14 via matching recurrence, Ryser inclusion-exclusion, and a closed-form 7-square derivation, independently re-proved all five global maxima r(10..14) through S_14 (87.1B perms), verified all 136 endpoint pairs at n=17 and 46,233 perms n<=8, and rejected 5/5 mutations. Minor prose/unit clarifications flagged in producer REPORT.md and minimality_note are resolved in README.md.",
+  "original_checker": "referee/referee_verify.py",
+  "original_checker_sha256": "2555a2d7b31a7ca2aa69f331a978709b761bfc6e144dbd4e7453a13574b18ca3"
+}

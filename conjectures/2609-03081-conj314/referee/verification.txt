@@ -1,0 +1,32 @@
+control 1 permutations 1 maximum 1 attained at [0]
+control 2 permutations 2 maximum 1 attained at [1]
+control 3 permutations 6 maximum 1 attained at [1]
+control 4 permutations 24 maximum 5 attained at [2]
+control 5 permutations 120 maximum 17 attained at [2]
+control 6 permutations 720 maximum 73 attained at [3]
+control 7 permutations 5040 maximum 469 attained at [3]
+control 8 permutations 40320 maximum 3493 attained at [3]
+paired counts 46233 separate order-eight example 155
+TeX member Nonattacking_rook_placements_arxivsubmission.tex label counters and lines {'conj:maxlayered': ('3.14', 753), 'prop:countlayered': ('3.15', 760)}
+n 17 matching/horizontal-cut/formula pairs 136 maximum 103460138813701 at [(5, 5)]
+symmetric counts [1, 268435457, 1129869140869, 40084566933905, 103460138813701, 65555327816657, 18356098793509, 2824217777825]
+unequal endpoint pairs 128 maximum 59058819009961 at [(5, 6), (6, 5)]
+no singletons between endpoints 16 pairs, maximum 864806272861
+n 18 matching/horizontal-cut/formula pairs 9 maximum 2445624351454501 at [(5, 5)]
+symmetric counts [1, 1073741825, 10168067293093, 637837775703569, 2445624351454501, 1960443604780625, 645315196970053, 112363477776209, 12020754177001]
+n 17 32 across and down words, intersections 272 matching = Ryser = 104476798194769 excess 1016659381068
+verified certificate fields 13 ['paper', 'authors', 'title', 'conjecture', 'conjecture_label', 'n', 'permutation', 'layered_shape', 'rook_placements', 'best_m_1_m_shape', 'best_m_1_m_m', 'best_m_1_m_rook_placements', 'excess_over_best_m_1_m']
+minimality_note: attained family values 10..14 [255569, 3316625, 46301969, 680707985, 10353226769] search history: note >300000, report SA by order {15: 264000, 16: 290000} (historical evaluations unavailable)
+n 18 matching = Ryser = 2949333362474113 excess 503709011019612
+half-grid coefficients for blocks (5,3), by open-word count 1..7 [1081, 11763, 34786, 34315, 12250, 1435, 25]
+n 17 square roots of summands [1081, 47052, 626148, 3294240, 7350000, 6199200, 882000]
+n 19 palindromic count 88247151321075649 symmetric maximum 61054032594828497
+n 20 palindromic count 2955493257611103149 symmetric maximum 1967312926737499985
+diagonal black squares baseline, witness [[3, 6, 7, 8, 9, 10, 11, 12, 15], [3, 7, 9, 11, 15]]
+non-layered order-10 column reflection (7, 8, 9, 10, 6, 5, 1, 2, 3, 4) count 255569 producer table's non-family entry 226409
+REJECT duplicate entry invalid permutation
+REJECT swap first two entries strict inequality fails: 3697126675213 <= 103460138813701
+REJECT witness count +1 field mismatch: rook_placements
+REJECT family maximum +1 field mismatch: best_m_1_m_rook_placements
+REJECT best symmetric grid presented as strict win strict inequality fails: 103460138813701 <= 103460138813701
+PASS: requested checks complete. Peak RSS (macOS bytes) 37076992
