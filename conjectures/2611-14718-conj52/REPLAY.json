@@ -1,0 +1,27 @@
+{
+  "model": "GPT-6.2 Astra via Codex",
+  "author": "separate clean-room cross-family referee session (producer code withheld)",
+  "producer_author": "Gemini 4 Carbon High via Antigravity CLI",
+  "status": "PASS",
+  "value": "64/3375",
+  "values": [
+    "64/3375",
+    "1/55",
+    "15"
+  ],
+  "arithmetic": "exact",
+  "inputs": {
+    "certificates/witness.json": "716b2577a500e1bf0bff8622f4902c6070885ab6f443ccb6658b670ef92b7805",
+    "referee/REFEREE.md": "3a63d1b1bb7ad3ccb33d3f2c56e978ec2d6fee354331689da0a41456e6a3a8ef"
+  },
+  "inputs_hash": "392d7760189309b4dd3ef466dd6b16f5b1c172bd9f3afc7484d39ac4418f98c2",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/referee_verify_repaired.py",
+  "checker_sha256": "a423ee6db8c55ee49f98ef1d00a8fee02a0d408507a3155c1def70b6e67f243d",
+  "original_checker": "referee/referee_verify.py",
+  "original_checker_sha256": "6c4d3776d82eae852fe1eb2a6610d12e2f6e54b5d2478aa3cd1e945dce1f987a",
+  "report": "referee/REFEREE.md",
+  "report_sha256": "3a63d1b1bb7ad3ccb33d3f2c56e978ec2d6fee354331689da0a41456e6a3a8ef",
+  "note": "Clean-room cross-family referee (GPT-6.2 Astra) independently re-enumerated all 1,375,631 connected subcubic graphs through order 15, confirmed 0 counterexamples for n <= 14 and exactly 3 at n = 15 (all violating at k=6 with 64/3375 > 1/55), verified all 89 single deletions, exact arrival-time integral, infinite tree family at n=20, and 7 mutation controls. Caught a transcription typo in producer/witness_v1.json rsa_pmf['7'] (7993211 -> 7993019/10135125) and CE#3 proper-subgraph minimality; after applying both fixes in certificates/witness.json, referee/referee_verify_repaired.py --strict-certificate exited 0."
+}

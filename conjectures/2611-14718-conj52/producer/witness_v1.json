@@ -1,0 +1,64 @@
+{
+  "conjecture": "Higuita-Diaz, Lopez & Roldan-Correa (arXiv:2611.14718v2), Conjecture 5.2 (conj:grado3)",
+  "status": "counterexample_found",
+  "n": 15,
+  "num_edges": 14,
+  "max_degree": 3,
+  "connected": true,
+  "is_tree": true,
+  "description": "Unique vertex- and edge-minimal counterexample to Conjecture 5.2 across all finite simple graphs with Delta(G) <= 3: a 15-vertex, 14-edge subcubic tree F_3 formed by chaining three 5-vertex units V_i = {h_i, l1_i, l2_i, a_i, b_i} via edges (l2_0, l1_1) and (l2_1, l1_2) (shown here in canonical vertex numbering). Exhaustive enumeration of all 1,375,631 non-isomorphic connected graphs with Delta(G) <= 3 and n <= 15 proves zero counterexamples exist for n <= 14 (358,891 graphs) and exactly three exist at n = 15 (this unique tree CE#1 plus two 15-edge unicyclic graphs CE#2 and CE#3 on which the static model globally strictly dominates the sequential model).",
+  "edges": [
+    [0, 1], [0, 2], [0, 3],
+    [1, 4], [2, 8], [3, 12],
+    [4, 5], [5, 6], [5, 7], [6, 13],
+    [8, 9], [9, 10], [9, 11], [10, 14]
+  ],
+  "violating_k": 6,
+  "P_seq_le_k": "64/3375",
+  "P_stat_le_k": "1/55",
+  "J_exact": "29/37125",
+  "cross_product_diff": 145,
+  "total_mis": 55,
+  "mis_size_counts": {
+    "6": 1,
+    "7": 50,
+    "8": 4
+  },
+  "rsa_pmf": {
+    "6": "64/3375",
+    "7": "7993211/10135125",
+    "8": "1949914/10135125"
+  },
+  "all_minimal_n15_counterexamples": [
+    {
+      "id": "CE#1",
+      "type": "subcubic_tree_F3",
+      "n": 15,
+      "num_edges": 14,
+      "girth": null,
+      "global_static_dominance": false,
+      "vertex_and_edge_minimal": true,
+      "edges": [[0,1],[0,2],[0,3],[1,4],[2,8],[3,12],[4,5],[5,6],[5,7],[6,13],[8,9],[9,10],[9,11],[10,14]]
+    },
+    {
+      "id": "CE#2",
+      "type": "unicyclic_girth5_triangle_free",
+      "n": 15,
+      "num_edges": 15,
+      "girth": 5,
+      "global_static_dominance": true,
+      "vertex_and_edge_minimal": false,
+      "edges": [[0,1],[0,2],[0,5],[1,3],[1,6],[2,4],[3,4],[4,7],[5,8],[5,9],[6,10],[6,11],[7,12],[8,13],[10,14]]
+    },
+    {
+      "id": "CE#3",
+      "type": "unicyclic_girth3_C3_of_T5",
+      "n": 15,
+      "num_edges": 15,
+      "girth": 3,
+      "global_static_dominance": true,
+      "vertex_and_edge_minimal": true,
+      "edges": [[0,1],[0,2],[0,3],[1,2],[1,4],[2,5],[3,6],[3,7],[4,8],[4,9],[5,10],[5,11],[6,12],[8,13],[10,14]]
+    }
+  ]
+}

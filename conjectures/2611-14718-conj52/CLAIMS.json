@@ -1,0 +1,247 @@
+{
+  "claims": [
+    {
+      "value": "64/3375",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Exact sequential CDF P(N_G^seq <= 6) = 64/3375 on all three minimal n=15 counterexamples"
+    },
+    {
+      "value": "1/55",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Exact static CDF P(N_G^stat <= 6) = 1/55 on all three minimal n=15 counterexamples"
+    },
+    {
+      "value": "15",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Sharp minimum vertex order n = 15 of a counterexample to Conjecture 5.2"
+    },
+    {
+      "value": "145",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact positive integer cross-difference 64*55 - 1*3375 = 145 > 0"
+    },
+    {
+      "value": "29/37125",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact rational violation gap 64/3375 - 1/55 = 29/37125"
+    },
+    {
+      "value": "7993019/10135125",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact RSA probability P(N_{F_3}^seq = 7) confirmed by finite DP and arrival-time integral"
+    },
+    {
+      "value": "1949914/10135125",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact RSA probability P(N_{F_3}^seq = 8)"
+    },
+    {
+      "value": "23561/3375",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact sequential mean on CE#2 and CE#3"
+    },
+    {
+      "value": "384/55",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact static mean on CE#2 and CE#3 (strictly exceeding sequential mean)"
+    },
+    {
+      "value": "256/50625",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact sequential CDF at k=8 for 20-vertex tree F_4"
+    },
+    {
+      "value": "1/229",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact static CDF at k=8 for 20-vertex tree F_4"
+    },
+    {
+      "value": "1375631",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Total connected simple graphs with Delta <= 3 and n <= 15 independently enumerated"
+    },
+    {
+      "value": "358891",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Connected subcubic graphs with n <= 14 (0 counterexamples)"
+    },
+    {
+      "value": "1016740",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Connected subcubic graphs with n = 15 (exactly 3 counterexamples)"
+    },
+    {
+      "value": "4604216",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Supported size bins replayed across all n <= 15 connected subcubic graphs"
+    },
+    {
+      "value": "5.2",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.14718v2",
+      "new_bound": false,
+      "label": "Conjecture 5.2 number in arXiv:2611.14718v2"
+    },
+    {
+      "value": "2611.14718",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.14718v2",
+      "new_bound": false,
+      "label": "arXiv identifier of Higuita-Diaz, Lopez, and Roldan-Correa"
+    },
+    {
+      "value": "12",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.14718v2",
+      "new_bound": false,
+      "label": "Upper order n <= 12 checked by the paper's authors"
+    },
+    {
+      "value": "27525",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.14718v2",
+      "new_bound": false,
+      "label": "Connected subcubic graphs up to order 12 checked by the paper's authors"
+    },
+    {
+      "value": "6.2",
+      "kind": "cited",
+      "source": "https://openai.com/",
+      "new_bound": false,
+      "label": "Model version in GPT-6.2 Astra"
+    },
+    {
+      "value": "256",
+      "kind": "cited",
+      "source": "https://csrc.nist.gov/projects/hash-functions",
+      "new_bound": false,
+      "label": "SHA-256 algorithm identifier"
+    },
+    {
+      "value": "3",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Maximum degree bound Delta <= 3 and exact count of n=15 counterexamples"
+    },
+    {
+      "value": "6",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Violating CDF threshold k = 6"
+    },
+    {
+      "value": "14",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Edge count of CE#1 tree F_3 and maximum counterexample-free order n <= 14"
+    },
+    {
+      "value": "20",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Order of second infinite-family tree F_4"
+    },
+    {
+      "value": "0",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Zero counterexamples for n <= 14 and exit code 0"
+    },
+    {
+      "value": "7",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Seven mutation controls rejected"
+    },
+    {
+      "value": "89",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Total single vertex and edge deletions verified across CE#1, CE#2, CE#3"
+    },
+    {
+      "value": "55",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Total maximal independent sets |M(G)| = 55 on CE#1, CE#2, CE#3"
+    },
+    {
+      "value": "1",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Numerator 1 in static CDF 1/55 and minimal unit count"
+    },
+    {
+      "value": "8",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Maximum MIS size 8 on CE#1 and threshold k=8 on 20-vertex tree F_4"
+    }
+  ],
+  "scope": "Exact disproof and sharp n=15 classification for arXiv:2611.14718v2 Conjecture 5.2."
+}

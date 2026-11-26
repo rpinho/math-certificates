@@ -1,0 +1,16 @@
+{
+  "target": "teorth/erdosproblems",
+  "new_bound": true,
+  "lean_status": "none",
+  "producer_model": "Gemini 4 Carbon High via Antigravity CLI",
+  "producer_author": "Gemini 4 Carbon High via Antigravity CLI",
+  "referee_model": "GPT-6.2 Astra via Codex (clean-room, producer code withheld)",
+  "submitter": "rpinho",
+  "destination": "conjectures/2611-14718-conj52",
+  "certificate_repository": "rpinho/math-certificates",
+  "replay_inputs": {
+    "certificates/witness.json": "certificate",
+    "referee/REFEREE.md": "proof"
+  },
+  "scope": "Disproof and sharp order-15 classification for Higuita-Diaz, Lopez, and Roldan-Correa (arXiv:2611.14718v2) Conjecture 5.2: 0 counterexamples for n <= 14 (358,891 connected subcubic graphs) and exactly 3 at n = 15 (1,016,740 graphs), led by a 15-vertex 14-edge subcubic tree F_3 and an infinite subcubic tree family F_m (m >= 3). Lean status: none. No human review."
+}
