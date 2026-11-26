@@ -2,7 +2,7 @@
 
 This packet refutes both Conjecture 5 (`\label{conj:per}`, period formula $\mathcal{L}_f(d)$) and Conjecture 9 (`\label{conj:pre}`, preperiod formula $\mathcal{K}_r(d, f)$) as stated in Daan van Berkel and Wieb Bosma, *Periodicity conjectures for all 2-sumfree sequences* ([arXiv:2609.18522v1](https://arxiv.org/abs/2609.18522v1)).
 
-This is AI work. No human has checked it. **Lean status:** `none`.
+This is AI work. No human has checked it. **Lean status:** `verified` (standalone Lean 4, zero Mathlib, zero `sorry`, standard axioms `[propext, Classical.choice, Quot.sound]`; see [`lean/`](lean/)).
 
 ## Exact counterexamples
 
@@ -20,6 +20,15 @@ Both witness sequences are certified ultimately periodic by two independent exac
 
 - **Producer:** GPT-6.2 Astra via Codex (`producer/REPORT.md`, `producer/definitions.tex`, `producer/verify_counterexample.py`, `certificates/witness.json`).
 - **Clean-room Cross-Family Referee:** Gemini 4 Carbon High via Antigravity CLI (`referee/REFEREE.md`, `referee/REPORT.md`, `referee/referee_verify.py`, producer code withheld). Returned **`VERDICT: HOLDS`** with zero defects in `certificates/witness.json`, `producer/definitions.tex`, or `producer/REPORT.md`. `referee/referee_verify.py` uses pure Python `int` and `fractions.Fraction` only (AST-verified zero `float`, zero `/` operators, zero `math` imports), independently reproducing both dual proofs, `15` positive controls, `16` adversarial negative controls (`8` per witness), all `1845` displayed table entries, and all `4800` primary grid comparisons.
+
+
+## Standalone Lean 4 formalization
+
+The [`lean/`](lean/) directory contains a self-contained Lean 4 (`leanprover/lean4:v4.36.0`, zero Mathlib dependencies) formalization defining strict greedy 2-sumfree sequences from first principles and proving `S4_11_minimal` (`(11, 10, 33)`), `conj5_disproof_S4_11` (`p = 9` fails), `S5_10_minimal` (`(6, 6, 24)`), `conj9_disproof_S5_10` (`k = 7` is not minimal), four positive controls, and five formal negative controls. It compiles standalone in about three seconds with zero `sorry`, zero `axiom`, zero `native_decide`, and standard core axioms `[propext, Classical.choice, Quot.sound]` only:
+
+```bash
+cd lean && python3 -B verify_lean.py
+```
 
 ## Reproduction
 

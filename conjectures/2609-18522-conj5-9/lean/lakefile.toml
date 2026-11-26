@@ -1,0 +1,9 @@
+name = "Sumfree2Conj59"
+version = "0.1.0"
+defaultTargets = ["Sumfree2Conj59", "CheckAxioms"]
+
+[[lean_lib]]
+name = "Sumfree2Conj59"
+
+[[lean_lib]]
+name = "CheckAxioms"

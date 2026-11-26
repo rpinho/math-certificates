@@ -1,7 +1,7 @@
 {
   "target": "teorth/erdosproblems",
   "new_bound": true,
-  "lean_status": "none",
+  "lean_status": "verified (standalone Lean 4.36.0, zero Mathlib, standard axioms only)",
   "producer_model": "GPT-6.2 Astra via Codex",
   "producer_author": "GPT-6.2 Astra via Codex",
   "referee_model": "Gemini 4 Carbon High via Antigravity CLI (clean-room, producer code withheld)",
@@ -12,5 +12,5 @@
     "certificates/witness.json": "certificate",
     "referee/REFEREE.md": "proof"
   },
-  "scope": "Exact disproofs of both Conjecture 5 (period formula L_f(d) fails at S_{4,11}, predicting 9 vs certified minimal 10) and Conjecture 9 (preperiod formula K_r(d,f) fails at S_{5,10}, predicting 7 vs certified minimal 6, and gives -23 at S_{12,30}) of van Berkel and Bosma (arXiv:2609.18522v1). Lean status: none. No human review."
+  "scope": "Exact disproofs of both Conjecture 5 (period formula L_f(d) fails at S_{4,11}, predicting 9 vs certified minimal 10) and Conjecture 9 (preperiod formula K_r(d,f) fails at S_{5,10}, predicting 7 vs certified minimal 6, and gives -23 at S_{12,30}) of van Berkel and Bosma (arXiv:2609.18522v1). Lean status: verified (standalone Lean 4.36.0, zero Mathlib, standard axioms [propext, Classical.choice, Quot.sound]). No human review."
 }
