@@ -1,0 +1,20 @@
+{
+  "target": "teorth/erdosproblems",
+  "new_bound": true,
+  "lean_status": "none",
+  "producer_model": "Gemini 4 Carbon High via Antigravity CLI",
+  "producer_author": "Gemini 4 Carbon High via Antigravity CLI",
+  "referee_model": "GPT-6.2 Astra via Codex (clean-room, producer code withheld)",
+  "submitter": "rpinho",
+  "destination": "erdos/1182-495",
+  "certificate_repository": "rpinho/math-certificates",
+  "replay_inputs": {
+    "PROOF.md": "proof",
+    "certificates/cert_naive_ab.json.gz": "certificate",
+    "certificates/cert_case1.json.gz": "certificate",
+    "certificates/cert_case2.json.gz": "certificate",
+    "referee/REFEREE.md": "proof",
+    "referee/verification.txt": "certificate"
+  },
+  "scope": "Unconditional sub-5n upper bound for Erdos Problem #1182: F(n) <= floor(99n/20) - 1 < 4.95n for every integer n >= 450,000 (both even and odd n), via (9, 10)-bidegree configuration model, Kempe-swap dichotomy, and three 180/192-bit Arb certificates (11,011 leaves). Lean status: none. No human review."
+}

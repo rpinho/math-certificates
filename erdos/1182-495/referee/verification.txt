@@ -1,0 +1,29 @@
+naive_ab sha256 47f08e107625a0c6a0fdc7f4a91c170bad08145a6fccacf498576899fd3514d3
+case1 sha256 f463e313d6bda97a799e90dc2075471b18d4814aec7d07e4cd212b0478ac1de2
+case2 sha256 ce8ff7c984358add6bfc987ed125f77fbc9aba0a458f237548d81f54dcec134a
+40 residues; 16 matching profiles in 105 pairings; 30 maps lift; 21 permitted swap role pairs; 16 exact hot moments
+unrestricted rates [0.003363526951527782123782 +/- 4.71e-25] [0.01436464953849772883635 +/- 3.30e-24]
+logB [-41.06869706440836569445015256 +/- 4.68e-27]
+B [1.459121598044932642440384936e-18 +/- 1.61e-46]
+rho [0.2631310849713668830304592830 +/- 1.77e-29]
+disconnected [0.3570934797285378548725070614 +/- 4.27e-29]
+total [0.3570934797285378563316286595 +/- 1.25e-29]
+derivative_upper [-0.001415555555555555555555555556 +/- 4.45e-31]
+naive_ab leaves {'N': 1054, 'X': 39}, max upper [-0.00156261056077656357882616175600 +/- 3.03e-33], record 1727, {'slice vertices': 30931}
+case1 leaves {'N': 682, 'C1': 1914}, max upper [-0.00150233734065303354363476686135 +/- 4.97e-34], record 4739, {'slice vertices': 48930}
+case2 leaves {'N': 1593, 'C2': 5729}, max upper [-0.00150154465578548671292582757729 +/- 4.02e-33], record 8332, {'slice vertices': 133908, 'KL tail 2-0': 5729, 'KL tail 2-4': 2335, 'KL cells': 366656, 'empty tail 2-4': 3394}
+rejected changed n0
+rejected changed root
+rejected changed c_num
+rejected dropped last leaf
+rejected appended duplicate leaf
+rejected split at parent boundary
+rejected raised leaf rate claim
+rejected nonempty box relabelled empty
+rejected removed Case I occupancy at positive witness
+rejected three interior Case I tangents changed
+rejected Case II tail starts below its reference mass
+rejected interior Case II tangent changed
+rejected reversed Case I cutoff
+rejected finite sum started at 400000
+VERDICT: HOLDS; 11011 leaves; 14 rejected mutations; peak RSS 47267840 bytes

@@ -1,0 +1,26 @@
+{
+  "credits": [
+    {
+      "name": "P. Erdos, R. J. Faudree, C. C. Rousseau, and R. H. Schelp",
+      "role": "Original problem formulation (Ars Combinatoria 10, 1980, 193-203)"
+    },
+    {
+      "name": "S. Brandt",
+      "role": "First linear upper bound 84n (1996)"
+    },
+    {
+      "name": "V. Nikiforov and C. C. Rousseau",
+      "role": "Improved linear upper bound 50n - 1 (J. Graph Theory 61, 2009, 227-262)"
+    },
+    {
+      "name": "S. Kataria",
+      "role": "Community unrefereed 5.025n bound (Sovi11/erdos-1182, 2026)"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ricardo Pinho",
+      "role": "Problem direction, verification oversight, and repository publication"
+    }
+  ]
+}

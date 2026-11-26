@@ -1,0 +1,314 @@
+{
+  "claims": [
+    {
+      "value": "4.95",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "interval",
+      "new_bound": true,
+      "label": "Strict asymptotic upper bound F(n) <= floor(99n/20) - 1 < 4.95n for every integer n >= 450,000"
+    },
+    {
+      "value": "99/20",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "interval",
+      "new_bound": true,
+      "label": "Exact rational bidegree edge-count slope 99/20 = 4.95"
+    },
+    {
+      "value": "450000",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "interval",
+      "new_bound": true,
+      "label": "Explicit finite threshold n_0 = 450,000 for all even and odd integers n >= n_0"
+    },
+    {
+      "value": "11011",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Total 180/192-bit Arb certificate leaves across all three regions"
+    },
+    {
+      "value": "1093",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Naive A/B certificate leaf count"
+    },
+    {
+      "value": "2596",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Case I certificate leaf count"
+    },
+    {
+      "value": "7322",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Case II certificate leaf count"
+    },
+    {
+      "value": "-0.0015",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Uniform negative exponential rate ceiling -3/2000 certified on every leaf"
+    },
+    {
+      "value": "-0.00150154465578",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Tightest 192-bit Arb upper bound across all 11,011 leaves"
+    },
+    {
+      "value": "0.35709348",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Upper bound on disconnection probability and total failure probability at n_0 = 450,000"
+    },
+    {
+      "value": "0.357093479729",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Certified upper bound on total failure probability B(450000) + P(disconnected) < 1"
+    },
+    {
+      "value": "1.46",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Mantissa of B(450000) < 1.46e-18"
+    },
+    {
+      "value": "14",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Number of corruption mutations rejected by clean-room referee verifier"
+    },
+    {
+      "value": "13572",
+      "kind": "rigorous",
+      "producer": "producer/verify_arb.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact rational primal feasibility checks passed by producer"
+    },
+    {
+      "value": "30931",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Naive A/B slice vertices evaluated by referee"
+    },
+    {
+      "value": "48930",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Case I slice vertices evaluated by referee"
+    },
+    {
+      "value": "133908",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Case II slice vertices evaluated by referee"
+    },
+    {
+      "value": "366656",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Case II KL cells evaluated by referee"
+    },
+    {
+      "value": "11458",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Case II tail decisions evaluated by referee"
+    },
+    {
+      "value": "100000",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Reduction in finite threshold n_0 from 550,000 to 450,000"
+    },
+    {
+      "value": "10",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Maximum degree 10 in the (9, 10)-bidegree configuration model"
+    },
+    {
+      "value": "9",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Minimum degree 9 in the (9, 10)-bidegree configuration model"
+    },
+    {
+      "value": "1",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Unit probability ceiling (< 1) and -1 offset in F(n) <= floor(99n/20) - 1"
+    },
+    {
+      "value": "5",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Cycle length C_5 and Round 1 5n slope barrier broken"
+    },
+    {
+      "value": "180",
+      "kind": "rigorous",
+      "producer": "producer/verify_arb.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Producer Arb bit precision"
+    },
+    {
+      "value": "192",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Referee Arb bit precision"
+    },
+    {
+      "value": "47.7",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Referee peak RSS in MB"
+    },
+    {
+      "value": "1182",
+      "kind": "cited",
+      "source": "https://www.erdosproblems.com/1182",
+      "new_bound": false,
+      "label": "Erdos Problem #1182 number"
+    },
+    {
+      "value": "84",
+      "kind": "cited",
+      "source": "https://www.erdosproblems.com/1182",
+      "new_bound": false,
+      "label": "Brandt (1996) upper bound coefficient 84n"
+    },
+    {
+      "value": "50",
+      "kind": "cited",
+      "source": "https://arxiv.org/pdf/math/0703653",
+      "new_bound": false,
+      "label": "Nikiforov and Rousseau (2009) upper bound coefficient 50n - 1"
+    },
+    {
+      "value": "5.025",
+      "kind": "cited",
+      "source": "https://github.com/Sovi11/erdos-1182",
+      "new_bound": false,
+      "label": "Kataria (2026) unrefereed community upper bound 5.025n"
+    },
+    {
+      "value": "550000",
+      "kind": "cited",
+      "source": "https://github.com/rpinho/math-certificates/tree/2c87d8edf415552dfb735014102d916ec803d241/erdos/1182",
+      "new_bound": false,
+      "label": "Round 1 refereed threshold n_0 = 550,000 for 5n - 1"
+    },
+    {
+      "value": "6.2",
+      "kind": "cited",
+      "source": "https://openai.com/",
+      "new_bound": false,
+      "label": "GPT-6.2 Astra model version"
+    },
+    {
+      "value": "0.9.0",
+      "kind": "cited",
+      "source": "https://github.com/flintlib/python-flint",
+      "new_bound": false,
+      "label": "python-flint version"
+    },
+    {
+      "value": "3.11",
+      "kind": "cited",
+      "source": "https://www.python.org/",
+      "new_bound": false,
+      "label": "Minimum Python version"
+    },
+    {
+      "value": "256",
+      "kind": "cited",
+      "source": "https://csrc.nist.gov/projects/hash-functions",
+      "new_bound": false,
+      "label": "SHA-256 algorithm identifier"
+    },
+    {
+      "value": "227",
+      "kind": "cited",
+      "source": "https://digitalcommons.memphis.edu/facpubs/5557/",
+      "new_bound": false,
+      "label": "Nikiforov-Rousseau start page"
+    },
+    {
+      "value": "262",
+      "kind": "cited",
+      "source": "https://digitalcommons.memphis.edu/facpubs/5557/",
+      "new_bound": false,
+      "label": "Nikiforov-Rousseau end page"
+    },
+    {
+      "value": "-3/2000",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Exact rational negative exponential rate ceiling -3/2000 = -0.0015"
+    },
+    {
+      "value": "1.46e-18",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_packet.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Certified upper bound on expected Phi-minimal bad map count B(450000)"
+    }
+  ],
+  "scope": "Unconditional sub-5n upper bound F(n) <= floor(99n/20) - 1 < 4.95n for every integer n >= 450,000 for Erdos Problem #1182."
+}

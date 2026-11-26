@@ -1,0 +1,29 @@
+{
+  "model": "GPT-6.2 Astra via Codex",
+  "author": "separate clean-room cross-family referee session (producer code withheld)",
+  "producer_author": "Gemini 4 Carbon High via Antigravity CLI",
+  "status": "PASS",
+  "value": "4.95",
+  "values": [
+    "4.95",
+    "99/20",
+    "450000"
+  ],
+  "arithmetic": "interval",
+  "inputs": {
+    "PROOF.md": "ca283216f9e7fab5865fd8257844ca198b0076f0dc99bd662d21268417cb210b",
+    "certificates/cert_naive_ab.json.gz": "47f08e107625a0c6a0fdc7f4a91c170bad08145a6fccacf498576899fd3514d3",
+    "certificates/cert_case1.json.gz": "f463e313d6bda97a799e90dc2075471b18d4814aec7d07e4cd212b0478ac1de2",
+    "certificates/cert_case2.json.gz": "ce8ff7c984358add6bfc987ed125f77fbc9aba0a458f237548d81f54dcec134a",
+    "referee/REFEREE.md": "89a3ba59bc83cca41a68152acb8f54b3f2487fde7288e17c60c1d4f790211778",
+    "referee/verification.txt": "682c9007b0f6dc3f2d7d0c050631d102e4acfc02a567db76fd67c59f051ac2c3"
+  },
+  "inputs_hash": "b11f159fa3e707a115b0b178c3072ebd5a27f4016c6ffa9790ec70619676508f",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/referee_verify_packet.py",
+  "checker_sha256": "8805923d95b385685a9e80d0fc62f9187cfad56cdf1491792d78b618bef21b9a",
+  "report": "referee/REFEREE.md",
+  "report_sha256": "89a3ba59bc83cca41a68152acb8f54b3f2487fde7288e17c60c1d4f790211778",
+  "note": "Clean-room cross-family referee (GPT-6.2 Astra, producer code withheld) returned VERDICT: HOLDS with zero mathematical gaps for F(n) <= floor(99n/20) - 1 < 4.95n for every integer n >= 450,000 (even and odd). Replayed all 11,011 leaves in 192-bit Arb (max upper <= -0.00150154465578 < -0.0015), verified B(450000) < 1.46e-18 and total_fail <= 0.357093479729 < 1, and rejected 14/14 mutations."
+}
