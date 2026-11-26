@@ -1,0 +1,32 @@
+{
+  "job": "math_e1182kempefix_1125",
+  "degree": 10,
+  "extra_edges": 0,
+  "cap": "4001/10000",
+  "gap": "3/20",
+  "precision_bits": 160,
+  "rate_pass_line": -0.001,
+  "required_rates": [
+    "naive_A",
+    "naive_B",
+    "case_I_C",
+    "case_II_C"
+  ],
+  "max_workers": 4,
+  "nice": 10,
+  "deadline_utc": "2026-11-26T02:35:00Z",
+  "statistical_holdout": false,
+  "result": "yes",
+  "n0": 550000,
+  "certified_margin": "1/1000",
+  "method": "Kempe swap, convex profile vertices, occupancy and binary KL upper tails",
+  "leaves": {
+    "naive_ab": 805,
+    "case1": 1525,
+    "case2": 1978
+  },
+  "controls_passed": 7,
+  "independent_program_replay": true,
+  "cross_family_review": "Case I repair pending",
+  "peak_rss_limit_bytes": 1000000000
+}

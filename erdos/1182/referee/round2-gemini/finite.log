@@ -1,0 +1,15 @@
+=== Finite-n Arb Verification (prec=160 bits) ===
+n0 = 550000 (even and odd n supported since D = 10n is always even)
+Cap check at n0: 2/5 + 3/(5*n0) = 1100003/2750000 <= 4001/10000 : PASS (holds for all n >= 6000)
+Gap check at n0: (3/20)*n0 = 82500 >= 2 : PASS (holds for all n >= 14)
+Case I exemption check at n0: v0 >= (3/20)*n0 = 82500 >= 38 : PASS (holds for all n >= 254)
+Case I term alone upper bound at n0: [2.5819173275022767361722597839398665467420624199e-18 +/- 4.34e-65]
+  upper float: 2.581917327502e-18
+Combined E[X_rigid] upper bound at n0: [4.2601643649539548653672494951787149840843670154e-11 +/- 2.87e-58]
+  upper float: 4.260164364954e-11 (< 4.261e-11: PASS)
+Disconnection bound (coarse 3/13): [0.23076923076923076923076923076923076923076923077 +/- 1.08e-48] (~0.230769230769)
+Disconnection bound (tight e/(16-e)): [0.20466341728915545625834625380393230960569887112 +/- 4.36e-48] (~0.204663417289)
+Total Pr(X_rigid > 0) + Pr(disconnected) [with 3/13]: [0.23076923081183241288030877942290326418255638061 +/- 4.49e-49] (< 1: PASS)
+Total Pr(X_rigid > 0) + Pr(disconnected) [with e/(16-e)]: [0.20466341733175709990788580245760480455748602096 +/- 3.74e-48] (< 1: PASS)
+Logarithmic derivative upper bound 33/n0 - 1/1000: [-0.00094000000000000000000000000000000000000000000000 +/- 3.37e-51] (< 0 for all n >= n0: PASS)
+FINITE_CHECK: PASS

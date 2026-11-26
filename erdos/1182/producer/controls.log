@@ -1,0 +1,36 @@
+1 coverage: 15000 integer profiles; n parity {0: 7576, 1: 7424} regions {'A': 5101, 'C': 5545, 'B': 4354} ; zero uncovered or integer-gap failures
+reference labels and raw primal-dual values checked
+Case II mirror: unnormalized=-0.000384384348; normalized=-0.175403859570
+2 all fixed-point reference cells recorded in reference_table.json
+3 d=2: Case I 330 inequalities (33 positive), Case II 738 exact cells (12 positive), 717 moment inequalities; zero mismatches
+3 d=3: Case I 840 inequalities (198 positive), Case II 860 exact cells (71 positive), 711 moment inequalities; zero mismatches
+3 d=4: Case I 1710 inequalities (591 positive), Case II 495 exact cells (47 positive), 396 moment inequalities; zero mismatches
+4 swap mutation: configurations {2: 2000, 3: 2000, 4: 2000} valid decreasing swaps {2: 25792, 3: 23511, 4: 20756} edge-creating mutant failures {3: 2690, 4: 4880} unqualified draws 1
+4 concrete negative mutant (0-indexed vertices and stubs): {"d": 3, "sizes": [14, 2, 12, 6, 4], "capacities": [15, 15, 15, 15, 15], "stub_pairs": [[36, 74], [3, 52], [21, 79], [4, 71], [22, 51], [33, 65], [24, 48], [27, 77], [20, 49], [13, 72], [28, 76], [19, 75], [6, 78], [1, 66], [39, 50], [12, 64], [25, 69], [37, 67], [30, 54], [41, 58], [34, 83], [2, 62], [73, 103], [57, 102], [68, 110], [55, 109], [0, 40], [38, 7], [11, 14], [18, 29], [16, 17], [5, 9], [35, 8], [26, 31], [23, 32], [10, 15], [43, 47], [45, 44], [46, 42], [61, 53], [63, 81], [82, 70], [59, 60], [56, 80], [92, 97], [91, 95], [93, 87], [99, 94], [100, 86], [84, 88], [90, 98], [101, 96], [85, 89], [112, 111], [107, 108], [104, 106], [113, 105]], "u": 1, "blockers": [17, 23], "donors": [3], "red_edge": [1, 3]}
+bare degree-10 primal witness > [0.0033635265162324701274932028331656 +/- 2.81e-35]
+5 certificate mutation 'tilt' rejected: verification failed: profile vertex exceeds bound
+5 certificate mutation 'missing leaf' rejected: verification failed: missing child or malformed node
+5 certificate mutation 'split boundary' rejected: verification failed: altered split coordinate or boundary
+5 certificate mutation 'inflated claim' rejected: verification failed: inflated or altered leaf claim
+5 certificate mutation 'trailing child' rejected: verification failed: trailing children
+5 certificate mutation 'occupancy tilt' rejected: verification failed: occupancy upper bound does not close
+n0 550000 (all integers, including odd n)
+counts: profiles <= (n+1)^4; all K <= (10n+1)^5; all R <= (10n+1)
+factors: pairing <= 3^6*(10n+1)^3; Case I <= (10n+1)*n^19*20^19; Case II <= (10n+1) per R
+log first-moment upper bound [-23.87912828007501609690 +/- 1.24e-21]
+first-moment upper bound [4.260164364953954865367e-11 +/- 2.50e-33]
+disconnection probability <= 3/13 < 1/2
+sum upper bound [0.2307692308118324128803 +/- 8.79e-24]
+monotone for n >= n0: 33/n - 1/1000 < 0
+6 all supported K and R counted, finite bound verified
+7 Case I raw-rate checks: 1518 randomized pairs {'near': 759, 'tail': 759}; 15523 max-entropy vertex checks {'positive 03': 15523}; max random true_rate minus leaf_bound [-0.0553118416844 +/- 3.37e-14]
+7 old cutoff regression: true [-0.0493225162024 +/- 4.39e-14], false [-0.0860062574530 +/- 8.7e-16], excess +0.0366837412506
+7 Case I mutation 'tilt' rejected: verification failed: profile vertex exceeds bound
+7 Case I mutation 'upper cutoff' rejected: verification failed: upper cutoff on wrong side of reference mass
+7 Case I mutation 'grid' rejected: verification failed: unexpected root or metadata
+7 Case I mutation 'deleted leaf' rejected: verification failed: missing child or malformed node
+7 Case I mutation 'inflated claim' rejected: verification failed: inflated or altered leaf claim
+7 Case I mutation 'inflated profile bound' rejected: verification failed: edge-divergence tail does not close
+7 Case I mutation 'legacy format' rejected: verification failed: unexpected root or metadata
+7 Case I mutation 'trailing null' rejected: verification failed: trailing children
+all controls passed

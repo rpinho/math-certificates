@@ -1,0 +1,20 @@
+{
+  "target": "teorth/erdosproblems",
+  "new_bound": true,
+  "producer_model": "GPT-6.2 Sol via Codex",
+  "referee_model": "Round 1: Claude Opus 5.5 (clean-room, producer code withheld); Round 2 (repaired Case I): Gemini 4 Carbon High (clean-room, producer code withheld)",
+  "submitter": "rpinho",
+  "destination": "erdos/1182",
+  "certificate_repository": "rpinho/math-certificates",
+  "replay_inputs": {
+    "certificates/cert_naive_ab.json.gz": "certificate",
+    "certificates/cert_case1.json.gz": "certificate",
+    "certificates/cert_case2.json.gz": "certificate",
+    "producer/PROOF.md": "proof",
+    "producer/LEMMAS.md": "proof",
+    "referee/round1-opus/REFEREE.md": "proof",
+    "referee/round2-gemini/REFEREE2.md": "proof"
+  },
+  "scope": "Unconditional candidate upper bound F(n) <= 5n - 1 for all integers n >= 550,000 (including odd n) in Erdos #1182; three-family AI-produced and AI-refereed (HOLDS), no human review.",
+  "producer_author": "GPT-6.2 Sol via Codex"
+}

@@ -1,0 +1,8 @@
+n0 550000 (all integers, including odd n)
+counts: profiles <= (n+1)^4; all K <= (10n+1)^5; all R <= (10n+1)
+factors: pairing <= 3^6*(10n+1)^3; Case I <= (10n+1)*n^19*20^19; Case II <= (10n+1) per R
+log first-moment upper bound [-23.87912828007501609690 +/- 1.24e-21]
+first-moment upper bound [4.260164364953954865367e-11 +/- 2.50e-33]
+disconnection probability <= 3/13 < 1/2
+sum upper bound [0.2307692308118324128803 +/- 8.79e-24]
+monotone for n >= n0: 33/n - 1/1000 < 0

@@ -1,0 +1,14 @@
+bare degree-10 primal witness > [0.0033635265162324701274932028331656 +/- 2.81e-35]
+reference labels and raw primal-dual values checked
+Case II mirror: unnormalized=-0.000384384348; normalized=-0.175403859570
+naive_ab coverage=100% leaves=805 uncovered=0 trailing=0 upper=[-0.0011788362183364863848170160784151 +/- 1.35e-36] counts={'split': 804, 'empty': 34, 'naive': 771, 'occupancy': 0}
+case1 coverage=100% leaves=1525 uncovered=0 trailing=0 upper=[-0.0010000010000072350379426550952821 +/- 1.10e-35] counts={'split': 1524, 'empty': 0, 'naive': 766, 'occupancy': 759}
+case2 coverage=100% leaves=1978 uncovered=0 trailing=0 upper=[-0.0010000010000092547364619584184708 +/- 4.11e-35] counts={'split': 1977, 'empty': 0, 'naive': 1504, 'occupancy': 474}
+n0 550000 (all integers, including odd n)
+counts: profiles <= (n+1)^4; all K <= (10n+1)^5; all R <= (10n+1)
+factors: pairing <= 3^6*(10n+1)^3; Case I <= (10n+1)*n^19*20^19; Case II <= (10n+1) per R
+log first-moment upper bound [-23.87912828007501609690 +/- 1.24e-21]
+first-moment upper bound [4.260164364953954865367e-11 +/- 2.50e-33]
+disconnection probability <= 3/13 < 1/2
+sum upper bound [0.2307692308118324128803 +/- 8.79e-24]
+monotone for n >= n0: 33/n - 1/1000 < 0

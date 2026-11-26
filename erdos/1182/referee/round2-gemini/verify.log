@@ -1,0 +1,18 @@
+=== Erdos #1182 Clean-Room Case I Arb Verifier (flint 0.9.0, prec=160 bits) ===
+SHA-256 hash locks:
+  cert_naive_ab.json.gz: b4cbc312f5f1a042990c031df8b35542eb6f192639ea93edf024b61002ec5989 (LOCKED MATCH)
+  cert_case2.json.gz: c68d3339047880b19de426b6bde3114630ce10ad853ecc409926f621d5c3bab8 (LOCKED MATCH)
+  cert_case1.json.gz: 09fba47458edf71cf255b63bb3842e4360b7d275748543c61c9b6fe494bf0611 (RECORDED CASE I)
+Certificate: inputs/cert_case1.json.gz (sha256=09fba47458edf71cf255b63bb3842e4360b7d275748543c61c9b6fe494bf0611)
+Root domain: [0, 4001/10000]^5 (exact rational grid=10485760000, tilt_scale=1000000000000)
+Tree summary: records=3049, splits=1524, leaves=1525 (N=766, C=759, X=0)
+Occupancy leaves: 759 total, 759 with active tail q_* < min(a0_max, a3_max), outer sliced-box vertices checked=15523
+Cutoff check q_* >= B_03: PASS on all 759/759 C leaves (min (q_* - B_03) lower bound = 7.814076246073e-04)
+Max recomputed leaf bound [outer H(B')]: -0.0010000010201557 (exact arf: [-0.0010000010201556696913411288442854504866151937318 +/- 4.56e-50])
+  Max N leaf [outer H(B')]:      -0.0010064115340035
+  Max C near [outer H(B')]:      -0.0010152779776830
+  Max C KL-tail [outer H(B')]:   -0.0010000010201557
+Max recomputed leaf bound [exact P_C(B), 15446 C vertices]: -0.0010000010201557 (exact arf: [-0.0010000010201556696913411288442854504866151937318 +/- 4.56e-50])
+Max leaf bound using stored U_t: -0.0010000010000072 (<= -0.001: PASS)
+Elapsed: 20.51s
+CASE1_VERIFICATION: PASS

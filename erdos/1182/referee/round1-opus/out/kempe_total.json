@@ -1,0 +1,86 @@
+{
+ "total": {
+  "instances": 5996,
+  "failed_gen": 4,
+  "move03": 100673,
+  "move03_invalid": 0,
+  "move24": 102090,
+  "move24_invalid": 0,
+  "Z0big_u": 107819,
+  "Z0big_but_short": 0,
+  "hyp_u": 84019,
+  "swaps": 83966,
+  "swap_invalid": 0,
+  "swap_wrong_profile": 0,
+  "swap_phi_not_decreasing": 0,
+  "mutA_swaps": 70104,
+  "mutA_invalid": 70104,
+  "mutB_swaps": 57224,
+  "mutB_invalid": 57224,
+  "mutC_swaps": 65349,
+  "mutC_invalid": 65349,
+  "loops": 88827
+ },
+ "examples": [
+  {
+   "kind": "MUT_A",
+   "u": 0,
+   "donor_adjacent": 27,
+   "bad": [
+    [
+     27,
+     0
+    ]
+   ],
+   "parts": [
+    2,
+    3
+   ]
+  },
+  {
+   "kind": "MUT_A",
+   "u": 3,
+   "donor_adjacent": 19,
+   "bad": [
+    [
+     19,
+     3
+    ]
+   ],
+   "parts": [
+    2,
+    3
+   ]
+  },
+  {
+   "kind": "MUT_A",
+   "u": 8,
+   "donor_adjacent": 74,
+   "bad": [
+    [
+     8,
+     74
+    ]
+   ],
+   "parts": [
+    3,
+    2
+   ]
+  },
+  {
+   "kind": "MUT_A",
+   "u": 15,
+   "donor_adjacent": 113,
+   "bad": [
+    [
+     15,
+     113
+    ]
+   ],
+   "parts": [
+    3,
+    2
+   ]
+  }
+ ]
+}

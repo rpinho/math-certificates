@@ -1,0 +1,32 @@
+=== Erdos #1182 Clean-Room Case I Referee Controls (flint 0.9.0, prec=160 bits) ===
+Loaded and verified 759 accepted occupancy leaves (15446 exact Region C vertices, 15523 outer sliced-box vertices).
+
+[Control 1] Direct 160-bit Arb numeric check on feasible (a, Q) pairs inside accepted C leaves:
+  Total verified feasible (a, Q) pairs: 1518 (near Q_03 <= q_*: 759, tail Q_03 > q_*: 759)
+  Max true Case I rate (near): -0.088898994636 <= recomputed_leaf_bound <= -0.001 : PASS
+  Max true Case I rate (tail): -0.118960367157 <= recomputed_leaf_bound <= -0.001 : PASS
+  Min certified slack (recomputed_leaf_bound - true_rate): near=8.789899353204e-02, tail_L=9.855513723897e-02 (> 0: PASS)
+
+[Control 2] Bare first-moment positive witness at d=10 in Region C & old lower-cutoff regression:
+  Exact rational witness profile a_wit: ['2/5', '138841/1000000000', '2/5', '187117283/1000000000', '3185969/250000000']
+  Bare pairing rate L(a_wit, Q_wit) in 160-bit Arb: [0.003363526951021806392888508738796384400825307 +/- 5.74e-46] (> +0.0033635269 > +0.00336: PASS)
+  True Case I occupancy term g(a_0, Q_03): [-0.02052895828281745291667446948320454289908087014 +/- 1.20e-48]
+  True Case I combined rate L + g: [-0.017165431331795646523785960744408158498255564 +/- 6.00e-46] (< -0.001: PASS)
+  Covering leaf in cert_case1.json.gz: record[716] (kind='C')
+  Naive leaf check on covering leaf (mutated C -> N): REJECTED (exit=1, CASE1_VERIFICATION: REJECTED — N leaf 716 recomputed U [0.010952253979008065729507890469981012301143975753 +/- 3.03e-49] exceeds -1/1000)
+  Old reversed lower-cutoff formula g(a0_max, 1/20) = -0.122189512282 underestimates true g by +0.101660554000 (confirming old direction was invalid)
+
+[Control 3] Certificate corruption suite (10/10 corrupted archives REJECTED, clean copy ACCEPTED):
+  mutant_1a_perturbed_tilt_raw: exit=1 -> CASE1_VERIFICATION: REJECTED — C leaf 2699 stored U [-0.00016877974400000000000000000000000000000000000000 +/- 2.96e-52] understates recomputed U [0.00079524459228261541255441313597141611519496769708 +/- 2.19e-51]
+  mutant_1b_perturbed_tilt_adjusted_U: exit=1 -> CASE1_VERIFICATION: REJECTED — C leaf 2699 recomputed tail bound [0.0003589001881451465094399789309338131809318856 +/- 7.12e-47] exceeds -1/1000
+  mutant_2_cutoff_below_B03: exit=1 -> CASE1_VERIFICATION: REJECTED — C leaf 22 violates cutoff condition q_* >= B_03: q_*=[0.017999767303466796875000000000000000000000000000 +/- 2.50e-50], B_03=[0.07199906939907797169149090269921017682983935074 +/- 2.15e-48]
+  mutant_3_altered_root_boundary: exit=1 -> CASE1_VERIFICATION: REJECTED — Root box mismatch: got [(Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)), (Fraction(2, 5), Fraction(4001, 10000), Fraction(4001, 10000), Fraction(4001, 10000), Fraction(4001, 10000))], expected [0, 4001/10000]^5
+  mutant_4_non_interior_split: exit=1 -> CASE1_VERIFICATION: REJECTED — Non-interior split at index 0 on dim 1: 4001/10000 not in (0, 4001/10000)
+  mutant_5_deleted_leaf: exit=1 -> CASE1_VERIFICATION: REJECTED — Truncated record stream at index 3048: uncovered box [(Fraction(6749, 20000), Fraction(4001, 20000), Fraction(0, 1), Fraction(2501, 20000), Fraction(0, 1)), (Fraction(4001, 10000), Fraction(4001, 10000), Fraction(4001, 10000), Fraction(4001, 10000), Fraction(4001, 10000))]
+  mutant_6_trailing_record: exit=1 -> CASE1_VERIFICATION: REJECTED — Trailing records after tree completion: consumed 3049 of 3050
+  mutant_7_inflated_global_claim: exit=1 -> CASE1_VERIFICATION: REJECTED — Top-level claim -999/1000000 exceeds required target -1/1000
+  mutant_8_inflated_stored_U: exit=1 -> CASE1_VERIFICATION: REJECTED — C leaf 2699 tail bound ([-0.0010000010201556696913411288442854504866151938 +/- 6.83e-47] / [-0.0009999960001030245261247152064658844389539458 +/- 8.40e-47]) exceeds leaf claim [-0.0010000000000000000000000000000000000000000000000 +/- 2.29e-51]
+  mutant_9_legacy_format_1: exit=1 -> CASE1_VERIFICATION: REJECTED — Invalid Case I format 1: expected exact int 2
+
+All controls passed in 76.73s.
+ALL_REFEREE_CONTROLS: PASS

@@ -1,0 +1,31 @@
+{
+  "model": "Round 1: Claude Opus 5.5 via Claude Code; Round 2 (repaired Case I): Gemini 4 Carbon High via Antigravity CLI",
+  "author": "separate clean-room cross-family referee sessions (producer code withheld)",
+  "status": "PASS",
+  "value": "5n - 1",
+  "arithmetic": "interval",
+  "inputs": {
+    "certificates/cert_naive_ab.json.gz": "b4cbc312f5f1a042990c031df8b35542eb6f192639ea93edf024b61002ec5989",
+    "certificates/cert_case1.json.gz": "09fba47458edf71cf255b63bb3842e4360b7d275748543c61c9b6fe494bf0611",
+    "certificates/cert_case2.json.gz": "c68d3339047880b19de426b6bde3114630ce10ad853ecc409926f621d5c3bab8",
+    "producer/PROOF.md": "cbdb6aff67968ba36e5ca29023b05738db35c1ee59d0e6ebd873c1b4389d5633",
+    "producer/LEMMAS.md": "e5df483b48964ae14c323e8290d0de895b3b598cddf8893e536524bb3da9328a",
+    "referee/round1-opus/REFEREE.md": "c3a8c361ccb591c6025b3b7583bdcbea79b3d81bf01afe5175962e3afafc41f8",
+    "referee/round2-gemini/REFEREE2.md": "f54f37c339161d2115866b3fb898c028ab4e8f37f9d6888ff93b737fb426c49f"
+  },
+  "inputs_hash": "2f8df55b870cc78e72b447760752590c89bb6eca58156f259af27c40d356c70e",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/round2-gemini/arb_case1_referee_strict.py",
+  "checker_sha256": "1bd6ef080367a384fe8a03e428d3c49ec20b5ffc3400fc1840f77bbb95cfb9b0",
+  "report": "referee/round2-gemini/REFEREE2.md",
+  "report_sha256": "f54f37c339161d2115866b3fb898c028ab4e8f37f9d6888ff93b737fb426c49f",
+  "note": "Clean-room cross-family verification of Erdos #1182 F(n) <= 5n - 1 for all n >= 550,000. Round 1 (Claude Opus 5.5) accepted reduction, disconnection bound, odd n, Kempe-swap dichotomy, cert_naive_ab.json.gz, cert_case2.json.gz, and finite-n bound, and caught a reversed cutoff in Case I. After surgical producer repair (GPT-6.2 Sol), Round 2 (Gemini 4 Carbon High) confirmed byte-identity of cert_naive_ab and cert_case2, independently verified all 1,525 leaves of repaired cert_case1.json.gz in 160-bit Arb, verified the n_0 = 550,000 bound, and rejected 10/10 corruption controls (VERDICT: HOLDS). Publication checker arb_case1_referee_strict.py removes only float() display formatting from original arb_case1_referee.py (all arithmetic is 160-bit Arb + exact Fractions in both; both files retained and re-run live).",
+  "producer_author": "GPT-6.2 Sol via Codex",
+  "values": [
+    "5n - 1",
+    "550000"
+  ],
+  "original_checker": "referee/round2-gemini/arb_case1_referee.py",
+  "original_checker_sha256": "676516674ed391826f5a5e40ee816e86773abcb0abac668df4fe593633054f9a"
+}

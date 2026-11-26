@@ -1,0 +1,26 @@
+{
+  "naive_ab": {
+    "split": 804,
+    "empty": 34,
+    "naive": 771,
+    "occupancy": 0,
+    "elapsed_seconds": 0.301,
+    "peak_rss_bytes": 85458944
+  },
+  "case1": {
+    "split": 1524,
+    "empty": 0,
+    "naive": 766,
+    "occupancy": 759,
+    "elapsed_seconds": 0.562,
+    "peak_rss_bytes": 86327296
+  },
+  "case2": {
+    "split": 1977,
+    "empty": 0,
+    "naive": 1504,
+    "occupancy": 474,
+    "elapsed_seconds": 0.869,
+    "peak_rss_bytes": 87605248
+  }
+}

@@ -1,0 +1,9 @@
+log bound at n0: [-23.8791282801 +/- 2.50e-11]  bound: [4.260164365e-11 +/- 4.61e-22]
+d/dn log bound at n0 (exact): -0.0009400000165289009  <= 33/n0 - 1/1000 = -0.00094
+disconnection bound e/(16-e) = [0.2046634173 +/- 1.09e-11]  < 3/13 = 0.23076923076923078 True
+exact-ish sum_{k<40} C(n,k) P(closed) at n0 (float): 1.032721038350402e-25
+P(X_rigid>0) + P(disconnected) <= [0.2046634173 +/- 3.18e-11]  < 1: True
+max part fraction (h+1)/n0 = 0.4 <= 4001/10000: True  and (2n+3)/(5n) form: True
+gap delta*n0 = 82500.0 >= 2;  v0 >= 0.15 n0 = 82500.0 >= 2b = 38
+n^19 bound on C(v0,19): True
+smallest n with this bound < 1 (monotone region): 524803

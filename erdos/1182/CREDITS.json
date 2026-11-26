@@ -1,0 +1,22 @@
+{
+  "credits": [
+    {
+      "name": "Stephan Brandt",
+      "role": "Published F(n) <= 84n bound (and announced 11.75n without proof) using balanced C_5 embeddings in random regular graphs"
+    },
+    {
+      "name": "Kataria (Sovi11/erdos-1182)",
+      "role": "Random-regular configuration-model framework and unrefereed F(n) <= 5.025n bound (pinned commit 6d4f78c)"
+    },
+    {
+      "name": "Thomas Bloom / erdosproblems.com",
+      "role": "Problem #1182 statement and literature archive"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ricardo Pinho",
+      "role": "Problem selection, Kempe-swap direction, verification oversight, and repository publication"
+    }
+  ]
+}

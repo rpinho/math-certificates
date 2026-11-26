@@ -1,0 +1,230 @@
+{
+  "claims": [
+    {
+      "value": "5n - 1",
+      "kind": "rigorous",
+      "producer": "producer/verify.py",
+      "arithmetic": "interval",
+      "new_bound": true,
+      "label": "Upper bound F(n) <= 5n - 1 for every integer n >= 550,000 in Erdos #1182"
+    },
+    {
+      "value": "550000",
+      "kind": "rigorous",
+      "producer": "producer/finite.py",
+      "arithmetic": "interval",
+      "new_bound": true,
+      "label": "Explicit finite threshold n_0 = 550,000 from which F(n) <= 5n - 1 holds"
+    },
+    {
+      "value": "10",
+      "kind": "rigorous",
+      "producer": "producer/PROOF.md",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Regular degree d = 10 of the bare random multigraph model (10n/2 = 5n edges, minus 1 for simplification / strictly fewer than 5n simple edges)"
+    },
+    {
+      "value": "4308",
+      "kind": "rigorous",
+      "producer": "producer/verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Total certified leaves across all three 160-bit Arb certificates (805 + 1,525 + 1,978)"
+    },
+    {
+      "value": "805",
+      "kind": "rigorous",
+      "producer": "producer/verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Leaf count of cert_naive_ab.json.gz (Regions A and B)"
+    },
+    {
+      "value": "1525",
+      "kind": "rigorous",
+      "producer": "producer/verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Leaf count of repaired cert_case1.json.gz (Region C, Case I: 766 naive + 759 occupancy)"
+    },
+    {
+      "value": "1978",
+      "kind": "rigorous",
+      "producer": "producer/verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Leaf count of cert_case2.json.gz (Region C, Case II)"
+    },
+    {
+      "value": "-0.0011788362183",
+      "kind": "rigorous",
+      "producer": "producer/verify.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Certified upper bound across Regions A and B in 160-bit Arb"
+    },
+    {
+      "value": "-0.001000001000007",
+      "kind": "rigorous",
+      "producer": "producer/verify.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Certified upper bound across Region C, Case I in 160-bit Arb"
+    },
+    {
+      "value": "-0.001000001000009",
+      "kind": "rigorous",
+      "producer": "producer/verify.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Certified upper bound across Region C, Case II in 160-bit Arb"
+    },
+    {
+      "value": "4.261e-11",
+      "kind": "rigorous",
+      "producer": "producer/finite.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Certified upper bound on combined E[X_rigid] at n_0 = 550,000 (exact Arb upper endpoint 4.2602e-11)"
+    },
+    {
+      "value": "3/13",
+      "kind": "rigorous",
+      "producer": "producer/finite.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Coarse upper bound on disconnection probability (tight bound e/(16-e) < 0.2047)"
+    },
+    {
+      "value": "0.231",
+      "kind": "rigorous",
+      "producer": "producer/finite.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Upper bound on combined failure probability Pr(X_rigid > 0) + Pr(disconnected) at n_0 = 550,000"
+    },
+    {
+      "value": "+0.0033635",
+      "kind": "rigorous",
+      "producer": "referee/round2-gemini/controls_referee.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Bare d=10 naive first-moment positive barrier witness in Region C (Arb value +0.00336352695)"
+    },
+    {
+      "value": "1182",
+      "kind": "cited",
+      "source": "https://www.erdosproblems.com/1182",
+      "new_bound": false,
+      "label": "Erdos problem number"
+    },
+    {
+      "value": "84n",
+      "kind": "cited",
+      "source": "https://www.erdosproblems.com/1182",
+      "new_bound": false,
+      "label": "Stephan Brandt's published linear upper bound on F(n)"
+    },
+    {
+      "value": "11.75n",
+      "kind": "cited",
+      "source": "https://www.erdosproblems.com/1182",
+      "new_bound": false,
+      "label": "Brandt's announced upper bound without proof"
+    },
+    {
+      "value": "5.025n",
+      "kind": "cited",
+      "source": "https://raw.githubusercontent.com/Sovi11/erdos-1182/6d4f78c/BOUNDS.md",
+      "new_bound": false,
+      "label": "Kataria's unrefereed upper bound in Sovi11/erdos-1182"
+    },
+    {
+      "value": "6.2",
+      "kind": "cited",
+      "source": "https://openai.com/",
+      "new_bound": false,
+      "label": "Model version in GPT-6.2 Sol"
+    },
+    {
+      "value": "5.5",
+      "kind": "cited",
+      "source": "https://www.anthropic.com/",
+      "new_bound": false,
+      "label": "Model version in Claude Opus 5.5"
+    },
+    {
+      "value": "1",
+      "kind": "rigorous",
+      "producer": "producer/finite.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Probability threshold 1 in Pr(X_rigid > 0) + Pr(disconnected) < 1 and Round 1 label"
+    },
+    {
+      "value": "3/20",
+      "kind": "rigorous",
+      "producer": "producer/PROOF.md",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Region C threshold min(a_0, a_2) - a_3 >= 3/20"
+    },
+    {
+      "value": "759",
+      "kind": "rigorous",
+      "producer": "producer/verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Occupancy leaf count inside cert_case1.json.gz"
+    },
+    {
+      "value": "766",
+      "kind": "rigorous",
+      "producer": "producer/verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Naive leaf count inside cert_case1.json.gz"
+    },
+    {
+      "value": "16",
+      "kind": "rigorous",
+      "producer": "producer/finite.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Denominator constant in tight disconnection bound e/(16 - e)"
+    },
+    {
+      "value": "0.2047",
+      "kind": "rigorous",
+      "producer": "referee/round2-gemini/arb_case1_referee.py",
+      "arithmetic": "interval",
+      "new_bound": false,
+      "label": "Tight disconnection bound upper rounding e/(16 - e) < 0.2047"
+    },
+    {
+      "value": "256",
+      "kind": "cited",
+      "source": "https://csrc.nist.gov/projects/hash-functions",
+      "new_bound": false,
+      "label": "SHA-256 hash algorithm identifier"
+    },
+    {
+      "value": "550",
+      "kind": "rigorous",
+      "producer": "producer/finite.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Leading digits of n_0 = 550,000"
+    },
+    {
+      "value": "000",
+      "kind": "rigorous",
+      "producer": "producer/finite.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Trailing digits of n_0 = 550,000"
+    }
+  ],
+  "scope": "Computer-assisted proof of F(n) <= 5n - 1 for every integer n >= 550,000 in Erdos #1182 via Kempe-swap dichotomy and three 160-bit Arb certificates."
+}
