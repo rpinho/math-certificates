@@ -1,0 +1,416 @@
+{
+  "scope": "Unconditional proofs of Section 6 Conjectures 6.1-6.4 of Yaqubi and Mirzavaziri (arXiv:2611.05623v1).",
+  "claims": [
+    {
+      "value": "6635911068",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Sharpness witness A_6(22) with v_3 = 5"
+    },
+    {
+      "value": "384183",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "First term A_6(10) with v_3 = 6"
+    },
+    {
+      "value": "1296",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Sharpness witness A_3(7) and Sturm bound for A_6(12n+10)"
+    },
+    {
+      "value": "24624",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Sharpness witness A_3(11) with v_3 = 4"
+    },
+    {
+      "value": "540",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Sharpness witness A_4(5) with v_3 = 3"
+    },
+    {
+      "value": "2427516",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Sharpness witness A_7(11) with v_3 = 3"
+    },
+    {
+      "value": "277575984",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Sharpness witness A_8(15) with v_3 = 5"
+    },
+    {
+      "value": "243",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Modulus 3^5 = 243"
+    },
+    {
+      "value": "81",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Modulus 3^4 = 81"
+    },
+    {
+      "value": "27",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Modulus 3^3 = 27"
+    },
+    {
+      "value": "1315",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Total Sturm progression coefficients verified modulo 3^e"
+    },
+    {
+      "value": "1584",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Sturm bound for A_3(12n+7) and A_3(12n+11)"
+    },
+    {
+      "value": "240",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Sturm bound for A_4(6n+5)"
+    },
+    {
+      "value": "3120",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Sturm bound for A_7(12n+11)"
+    },
+    {
+      "value": "12096",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Sturm bound for A_8(18n+15)"
+    },
+    {
+      "value": "102",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Progression cutoff J for A_6(12n+10)"
+    },
+    {
+      "value": "128",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Progression cutoff J for A_3(12n+7) and A_3(12n+11)"
+    },
+    {
+      "value": "37",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Progression cutoff J for A_4(6n+5)"
+    },
+    {
+      "value": "253",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Progression cutoff J for A_7(12n+11)"
+    },
+    {
+      "value": "661",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Progression cutoff J for A_8(18n+15)"
+    },
+    {
+      "value": "72",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Modular form level N=72"
+    },
+    {
+      "value": "24",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Modular form level 24 for Hirschhorn dissection"
+    },
+    {
+      "value": "48",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Sturm bound 48 for M_12(Gamma_0(24))"
+    },
+    {
+      "value": "64",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Frobenius periodicity modulus 64"
+    },
+    {
+      "value": "16",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Modulus 16 for A_k residue classes and sharpness"
+    },
+    {
+      "value": "18",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Progression step 18 for A_8(18n+15)"
+    },
+    {
+      "value": "15",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Progression offset 15 for A_8(18n+15)"
+    },
+    {
+      "value": "12",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Progression step 12 and divisor count 12 of 72"
+    },
+    {
+      "value": "11",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Progression offset 11"
+    },
+    {
+      "value": "10",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Progression offset 10 and clearing exponent H=10"
+    },
+    {
+      "value": "9",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Residue class k=9 mod 16"
+    },
+    {
+      "value": "8",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact 2-adic power 2^3=8 and modulus 8"
+    },
+    {
+      "value": "7",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Progression offset 7 and degree-7 witness"
+    },
+    {
+      "value": "6",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Parameter k=6, step 6, row count 6, v_3=6"
+    },
+    {
+      "value": "5",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Valuation v_3=5, offset 5, clearing H=5, 5 congruences"
+    },
+    {
+      "value": "4",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Step 4, valuation v_3=4, exact power 2^2=4, 4 controls"
+    },
+    {
+      "value": "3",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Base 3, offset 3, valuation v_3=3, clearing H=3"
+    },
+    {
+      "value": "2",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Base 2, clearing H=2, k=2 mod 16"
+    },
+    {
+      "value": "1",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Index 1 and parameter lower bound k>=1"
+    },
+    {
+      "value": "0",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Congruence residue 0 and lower bound n>=0"
+    },
+    {
+      "value": "2611.05623",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.05623v1",
+      "new_bound": false,
+      "label": "arXiv identifier of Yaqubi and Mirzavaziri"
+    },
+    {
+      "value": "6.1",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.05623v1",
+      "new_bound": false,
+      "label": "Conjecture 6.1 number"
+    },
+    {
+      "value": "6.2",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.05623v1",
+      "new_bound": false,
+      "label": "Conjecture 6.2 number"
+    },
+    {
+      "value": "6.3",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.05623v1",
+      "new_bound": false,
+      "label": "Conjecture 6.3 number"
+    },
+    {
+      "value": "6.4",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.05623v1",
+      "new_bound": false,
+      "label": "Conjecture 6.4 number"
+    },
+    {
+      "value": "2.1",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.05623v1",
+      "new_bound": false,
+      "label": "Definition 2.1 number"
+    },
+    {
+      "value": "4.5",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.05623v1",
+      "new_bound": false,
+      "label": "Theorem 4.5 number"
+    },
+    {
+      "value": "6.2",
+      "kind": "cited",
+      "source": "https://openai.com/",
+      "new_bound": false,
+      "label": "Model version GPT-6.2 Astra"
+    },
+    {
+      "value": "33580",
+      "kind": "cited",
+      "source": "https://github.com/the-omega-institute/trureturing/pull/33580",
+      "new_bound": false,
+      "label": "Prior proof PR for Conjecture 6.1"
+    },
+    {
+      "value": "26878",
+      "kind": "cited",
+      "source": "https://github.com/the-omega-institute/trureturing/issues/26878",
+      "new_bound": false,
+      "label": "Open preregistration issue for Conjecture 6.3"
+    },
+    {
+      "value": "2026-11-23",
+      "kind": "cited",
+      "source": "https://github.com/the-omega-institute/trureturing/pull/33580",
+      "new_bound": false,
+      "label": "Merge date of prior PR #33580"
+    },
+    {
+      "value": "2026-11-26",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.05623v1",
+      "new_bound": false,
+      "label": "Date of prior-art check"
+    },
+    {
+      "value": "4.6",
+      "kind": "cited",
+      "source": "referee/REFEREE.md",
+      "new_bound": false,
+      "label": "Verifier wall-clock seconds"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "model": "Gemini 4 Carbon High via Antigravity CLI",
+  "author": "separate clean-room cross-family referee session (producer code withheld)",
+  "producer_author": "GPT-6.2 Astra via Codex",
+  "status": "PASS",
+  "value": "6635911068",
+  "values": [
+    "6635911068",
+    "1296",
+    "24624",
+    "540",
+    "2427516",
+    "277575984",
+    "1315"
+  ],
+  "arithmetic": "exact",
+  "inputs": {
+    "certificates/witness.json": "88f6f40e9610a334b460a4c658fc3137482ea64b3cc798edbc19d88a83e6b5dc",
+    "PROOF.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "referee/REFEREE.md": "fce029dc2ef1d81a079bf3ab82985566182e97777c77a40a4b6e3db72af8d25e"
+  },
+  "inputs_hash": "f76f1adb9fe14f7474662de8c7d355d7bf1922d6c09289fcaf2f1ec7c2e087d7",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/referee_verify.py",
+  "checker_sha256": "619d5e26c3a3ac8174a6d8b0b5940ceb61d4e55c05a75449bb716ae24a13c564",
+  "report": "referee/REFEREE.md",
+  "report_sha256": "fce029dc2ef1d81a079bf3ab82985566182e97777c77a40a4b6e3db72af8d25e",
+  "note": "Clean-room cross-family referee (Gemini 4 Carbon High) returned VERDICT: HOLDS across all four Section 6 conjectures (6.1-6.4) of Yaqubi and Mirzavaziri (arXiv:2611.05623v1) via exact-integer verification of Hirschhorn dissection, double Frobenius mod 2^(s-1), 12-cusp Ligozat orders at level 72, 1315 Sturm progression checks up to B=12096, 4 positive controls, and 8 mutation controls."
+}
