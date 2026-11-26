@@ -1,0 +1,27 @@
+{
+  "model": "GPT-6.2 Astra via Codex",
+  "author": "separate clean-room cross-family referee session (producer code withheld)",
+  "producer_author": "Gemini 4 Carbon High via Antigravity CLI",
+  "status": "PASS",
+  "value": "(7, 3, 27)",
+  "values": [
+    "(7, 3, 27)",
+    "(d + 3, d, 8d - 3)"
+  ],
+  "arithmetic": "exact",
+  "inputs": {
+    "certificates/witnesses.json": "a8921373a9f3540ccb6cecf7adbebbc6e4fbc96a659ff4e187c7bb727499e8b6",
+    "PROOF.md": "c2d2cea0addfa3d5aaf384013de12efb8e736b83c2d77323216acba4d2c2e689",
+    "referee/REFEREE.md": "9776335c41467ecba8c0f5de44e8e8ba29b83a551439dcb05c127e75c0ae65f8"
+  },
+  "inputs_hash": "32a9d846d0a8f7220d48d1527d1888dbcd7c6793584dd03c9316f476a69e3430",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/referee_verify_repaired.py",
+  "checker_sha256": "5223dc79ff19c0b4fbbb0594f171e88244f5c39f328e8bb70c65fe6b467e62f6",
+  "original_checker": "referee/referee_verify.py",
+  "original_checker_sha256": "180c9174cd51a842608cbb4d9103950317298fdace5129c31012691db900e19c",
+  "report": "referee/REFEREE.md",
+  "report_sha256": "9776335c41467ecba8c0f5de44e8e8ba29b83a551439dcb05c127e75c0ae65f8",
+  "note": "Clean-room cross-family referee (GPT-6.2 Astra) confirmed disproof and full d >= 3 theorem across 40 exact cases and 1,174 mutants, catching one symbolic schema slip (blocks.U1) and six small-case prose slips. After applying all seven referee corrections to certificates/witnesses.json and PROOF.md, referee/referee_verify_repaired.py (differing from referee/referee_verify.py only in the updated SHA-256 pin) exited 0 with 0 scientific witness disagreements (referee/referee_verify_repaired.log)."
+}

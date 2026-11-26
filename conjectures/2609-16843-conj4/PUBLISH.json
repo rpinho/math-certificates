@@ -1,0 +1,17 @@
+{
+  "target": "teorth/erdosproblems",
+  "new_bound": true,
+  "lean_status": "none",
+  "producer_model": "Gemini 4 Carbon High via Antigravity CLI",
+  "producer_author": "Gemini 4 Carbon High via Antigravity CLI",
+  "referee_model": "GPT-6.2 Astra via Codex (clean-room, producer code withheld)",
+  "submitter": "rpinho",
+  "destination": "conjectures/2609-16843-conj4",
+  "certificate_repository": "rpinho/math-certificates",
+  "replay_inputs": {
+    "certificates/witnesses.json": "certificate",
+    "PROOF.md": "proof",
+    "referee/REFEREE.md": "proof"
+  },
+  "scope": "Disproof of van Berkel and Bosma (arXiv:2609.16843v2) Conjecture 4 at d=4 and d=6 and complete resolution of S_{1,d-1,2d-1} for all integers d >= 3 (modulus 8d - 3 for all d >= 6). Lean status: none. No human review."
+}

@@ -1,0 +1,176 @@
+{
+  "claims": [
+    {
+      "value": "(7, 3, 27)",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Minimal (preperiod k, period p, modulus m) of S_{1,3,7} at d=4"
+    },
+    {
+      "value": "(d + 3, d, 8d - 3)",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Minimal (k, p, m) of S_{1,d-1,2d-1} for every integer d >= 6"
+    },
+    {
+      "value": "(5, 1, 5)",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Minimal (k, p, m) of S_{1,2,5} at d=3"
+    },
+    {
+      "value": "(13, 10, 104)",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Minimal (k, p, m) of S_{1,4,9} at d=5"
+    },
+    {
+      "value": "45",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact minimal modulus at d=6"
+    },
+    {
+      "value": "27",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Exact minimal modulus at d=4"
+    },
+    {
+      "value": "3",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Minimal period at d=4 and lower bound d >= 3"
+    },
+    {
+      "value": "4",
+      "kind": "rigorous",
+      "new_bound": false,
+      "label": "Conjecture 4 number and d=4 printed period",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact"
+    },
+    {
+      "value": "5",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "d=5 exception and d=3 modulus"
+    },
+    {
+      "value": "6",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Threshold d >= 6"
+    },
+    {
+      "value": "7",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "d=4 preperiod and number of referee fixes"
+    },
+    {
+      "value": "0",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Zero disagreements and exit status 0"
+    },
+    {
+      "value": "1",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "First seed 1"
+    },
+    {
+      "value": "31",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2609.16843v2",
+      "new_bound": false,
+      "label": "Printed modulus 8d - 1 at d=4"
+    },
+    {
+      "value": "47",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2609.16843v2",
+      "new_bound": false,
+      "label": "Printed modulus 8d - 1 at d=6"
+    },
+    {
+      "value": "50",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Spot-checked parameter d=50"
+    },
+    {
+      "value": "100",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Spot-checked parameter d=100"
+    },
+    {
+      "value": "6.2",
+      "kind": "cited",
+      "source": "https://openai.com/",
+      "new_bound": false,
+      "label": "Model version in GPT-6.2 Astra"
+    },
+    {
+      "value": "2609.16843",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2609.16843v2",
+      "new_bound": false,
+      "label": "arXiv paper ID"
+    },
+    {
+      "value": "40",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "40 exact cases verified"
+    },
+    {
+      "value": "1174",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify_repaired.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "1,174 negative controls and mutants rejected"
+    },
+    {
+      "value": "256",
+      "kind": "cited",
+      "source": "https://csrc.nist.gov/projects/hash-functions",
+      "new_bound": false,
+      "label": "SHA-256"
+    }
+  ],
+  "scope": "Exact disproof of van Berkel and Bosma (arXiv:2609.16843v2) Conjecture 4 and complete resolution of S_{1,d-1,2d-1} for all d >= 3."
+}

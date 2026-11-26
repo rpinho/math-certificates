@@ -43,6 +43,14 @@ Verification levels are defined in [VERIFICATION_LEVELS.md](VERIFICATION_LEVELS.
 | **C<sub>10a</sub>**: real Grothendieck constant ([Tao table 10a](https://teorth.github.io/optimizationproblems/constants/10a.html)) | Recording only: 1.773 ≤ C<sub>10a</sub> ≤ 1.77987164. **Not my bounds** | [SLXCKKM26] and earlier on the table | Replay receipts for Heilman-Jones-Malavolta and Peng; [Tao-table PR #300](https://github.com/teorth/optimizationproblems/pull/300) open, not merged. No new bound | [c10a](c10a/) |
 | **Tetrahedron cylinder cover**: [openai/math problem 100](https://github.com/openai/math/blob/main/lean/docs/100.md) | C < **0.499613830783714149** (saving 3.86 × 10⁻⁴ below 1/2) | ≈ 5.4 × 10⁻¹⁰ saving (the problem's explicit example) | Hexagon [2610.00304](https://hexagonmath.org/2610.00304); an arXiv submission (17 Oct 2026) is on hold in moderation and not listed as of 7 Nov 2026; reported at [plasma-ai/erdos#55](https://github.com/plasma-ai/erdos/issues/55) and [kisonecat/openai-math#1](https://github.com/kisonecat/openai-math/issues/1) | [tetrahedron-cover](tetrahedron-cover/) |
 
+## Conjectures
+
+Recent arXiv conjectures settled by explicit counterexamples or exact finite-plus-algebraic certificates. Lean status is listed explicitly for every entry.
+
+| Conjecture | Result | Lean | Verification | Files |
+|---|---|---|---|---|
+| **van Berkel & Bosma** ([arXiv:2609.16843v2](https://arxiv.org/abs/2609.16843v2), Conjecture 4): 3-sumfree sequences $S_{1,d-1,2d-1}$ | **Disproved at $d=4$ and every $d\ge 6$; full family resolved for all $d\ge 3$**: $(k,p,m)=(5,1,5)$ at $d=3$, **$(7,3,27)$** at $d=4$ (vs printed period $4$, mod $31$), $(13,10,104)$ at $d=5$, and **$(d+3,d,8d-3)$** for all $d\ge 6$ (vs printed mod $8d-1$) | none | Candidate; no human review. Producer Gemini 4 Carbon High; clean-room cross-family referee GPT-6.2 Astra confirmed theorem and caught `blocks.U1` schema typo + 6 small-case prose slips; all 7 fixes applied and `referee_verify_repaired.py` exited 0 with 0 disagreements (40 exact cases, 1,174 mutants rejected) | [conjectures/2609-16843-conj4](conjectures/2609-16843-conj4/) |
+
 ## References
 
 Every result here builds on earlier work. The rows above credit it in context; this list collects it.
