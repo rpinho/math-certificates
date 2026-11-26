@@ -1,0 +1,142 @@
+{
+  "source": "2609.18522v1 / main.tex",
+  "tex_sha256": "627fc91a31108750b06dc1f465a80d1768cc23448ec5f10ab239a086917d9bf3",
+  "cases": [
+    {
+      "f": 4,
+      "d": 7,
+      "g": 11,
+      "k": 11,
+      "p": 10,
+      "m": 33,
+      "M": 99,
+      "cutoff": 495,
+      "preperiod_terms": [
+        4,
+        11,
+        12,
+        13,
+        14,
+        19,
+        20,
+        21,
+        22,
+        28,
+        29
+      ],
+      "period_terms": [
+        37,
+        38,
+        44,
+        45,
+        46,
+        53,
+        54,
+        61,
+        62,
+        69
+      ],
+      "preperiod_differences": [
+        7,
+        1,
+        1,
+        1,
+        5,
+        1,
+        1,
+        1,
+        6,
+        1,
+        8
+      ],
+      "period_differences": [
+        1,
+        6,
+        1,
+        1,
+        7,
+        1,
+        7,
+        1,
+        7,
+        1
+      ],
+      "conjecture": 5,
+      "formula_value": 9,
+      "tex_lines": {
+        "286": "For $f\\ge 1$, define $q_{-}=\\lfloor\\frac{f}{2}\\rfloor$ and $q^{+}=\\lceil\\frac{f}{2}\\rceil$;",
+        "294": "and for $d\\geq f$, blocks of length $2f$ will be defined,",
+        "295": "for every $k\\geq 1$ by:",
+        "300": "$\\LL_f(d)=k(f+1+q_{-})+q^{+}+1-j\\cdot (k-1)$, if $d=(2k-1)f+q^{+}+1+j$ for $0\\leq j\\leq q_{-}+1$;",
+        "301": "\\item[] with the correction that, if $f\\leq 4$ or $k>1$ then $k$ ",
+        "302": "is to be subtracted from $\\LL_f(2kf-1)$;",
+        "338": "\\item[] $\\LL_4(5)=2$;",
+        "339": "\\item[] $\\LL_4(36)=5$;",
+        "340": "\\item[] add $\\frac{d+44}{8}$ to $\\LL_4(d)$ for $d\\equiv 4\\bmod 8$ ",
+        "341": "with $d\\geq 44$.",
+        "403": "\\begin{conjecture}\\label{conj:per}",
+        "404": "For all $f, d=g-f\\geq 1$ the strict, greedy 2-sum sequence",
+        "405": "$S_{f,g}$ is ultimately periodic with length of the period $\\PP(d,f)=\\LL_f(d)$."
+      }
+    },
+    {
+      "f": 5,
+      "d": 5,
+      "g": 10,
+      "k": 6,
+      "p": 6,
+      "m": 24,
+      "M": 48,
+      "cutoff": 240,
+      "preperiod_terms": [
+        5,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "period_terms": [
+        20,
+        28,
+        29,
+        35,
+        36,
+        37
+      ],
+      "preperiod_differences": [
+        5,
+        1,
+        1,
+        1,
+        1,
+        6
+      ],
+      "period_differences": [
+        8,
+        1,
+        6,
+        1,
+        1,
+        7
+      ],
+      "conjecture": 9,
+      "formula_value": 7,
+      "tex_lines": {
+        "511": "Define, for the residue classes $r\\equiv d\\bmod 2f$, ",
+        "512": "fixing the additional notation",
+        "513": "$d=r+h\\cdot (2f)$, and choosing representatives $1\\leq r\\leq 2f$,",
+        "517": "\\item[] For $f\\geq 5$",
+        "526": "\\item[(d)] $\\KK_{f}(h,f)=(4f+1)\\cdot h+(5f-3)$;",
+        "561": "\\item[(k)] Finally, for small values of $d$ (that is, of $h$ and $r$),",
+        "562": "the following corrections are to be made to $\\KK_{r}$ for",
+        "563": "$f\\geq 5$:",
+        "565": "\\item[(k$_0$)] if $h=0$, subtract $2f+r$ from $\\KK_{r}$;",
+        "708": "\\begin{conjecture}\\label{conj:pre}",
+        "709": "For all $f, d=g-f\\geq 1$ the strict, greedy 2-sum sequence",
+        "710": "$S_{f,g}$ is ultimately periodic with preperiod length",
+        "711": "\t$\\QQ(d,f)=\\KK_{r}(d,f)$, where $r\\equiv d\\bmod 2f$."
+      }
+    }
+  ]
+}

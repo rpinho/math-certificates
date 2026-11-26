@@ -1,0 +1,33 @@
+{
+  "claims": [
+    {"value": "(11, 10, 33)", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": true, "label": "Certified minimal (preperiod k, period p, modulus m) of S_{4,11} (d=7), refuting Conjecture 5's formula value p=9"},
+    {"value": "(6, 6, 24)", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": true, "label": "Certified minimal (k, p, m) of S_{5,10} (d=5), refuting Conjecture 9's formula value k=7"},
+    {"value": "10", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "True minimal period p=10 of S_{4,11} and second seed 10 of S_{5,10}"},
+    {"value": "11", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "True minimal preperiod k=11 and second seed 11 of S_{4,11}"},
+    {"value": "33", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Minimal modulus m=33 of S_{4,11}"},
+    {"value": "495", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Theorem 15 five-block cutoff 5M=495 for S_{4,11}"},
+    {"value": "6", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "True minimal preperiod k=6 and period p=6 of S_{5,10}"},
+    {"value": "24", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Minimal modulus m=24 of S_{5,10}"},
+    {"value": "240", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Theorem 15 five-block cutoff 5M=240 for S_{5,10}"},
+    {"value": "36", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "True minimal preperiod k=36 of S_{12,30}"},
+    {"value": "19", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "True minimal period p=19 of S_{12,30}"},
+    {"value": "-23", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Negative value produced by Definition 8 at S_{12,30}"},
+    {"value": "71", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Minimal modulus m=71 of S_{12,30}"},
+    {"value": "4800", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Total strict greedy 2-sumfree sequences certified in primary grid"},
+    {"value": "4799", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Primary grid pairs matching Definition 3 (only (4,7) fails)"},
+    {"value": "1645", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Primary grid pairs with unambiguous Definition 8 preperiod mismatches"},
+    {"value": "1845", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Displayed paper table entries independently verified"},
+    {"value": "15", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Positive controls verified and Theorem 15 number"},
+    {"value": "16", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Adversarial negative controls rejected (8 per witness)"},
+    {"value": "9", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Formula value L_4(7)=9 and Conjecture 9 number"},
+    {"value": "7", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Formula value K_5(5,5)=7 and d=7 for S_{4,11}"},
+    {"value": "5", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Conjecture 5 number and f=d=5 for S_{5,10}"},
+    {"value": "4", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "First seed f=4 of S_{4,11}"},
+    {"value": "12", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "First seed f=12 of S_{12,30}"},
+    {"value": "30", "kind": "rigorous", "producer": "referee/referee_verify.py", "arithmetic": "exact", "new_bound": false, "label": "Second seed g=30 of S_{12,30}"},
+    {"value": "2609.18522", "kind": "cited", "source": "https://arxiv.org/abs/2609.18522v1", "new_bound": false, "label": "arXiv identifier of van Berkel and Bosma"},
+    {"value": "6.2", "kind": "cited", "source": "https://openai.com/", "new_bound": false, "label": "Model version in GPT-6.2 Astra"},
+    {"value": "256", "kind": "cited", "source": "https://csrc.nist.gov/projects/hash-functions", "new_bound": false, "label": "SHA-256 algorithm identifier"}
+  ],
+  "scope": "Exact disproofs of Conjectures 5 and 9 of van Berkel and Bosma (arXiv:2609.18522v1)."
+}

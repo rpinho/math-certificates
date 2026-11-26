@@ -1,0 +1,24 @@
+{
+  "model": "Gemini 4 Carbon High via Antigravity CLI",
+  "author": "separate clean-room cross-family referee session (producer code withheld)",
+  "producer_author": "GPT-6.2 Astra via Codex",
+  "status": "PASS",
+  "value": "(11, 10, 33)",
+  "values": [
+    "(11, 10, 33)",
+    "(6, 6, 24)"
+  ],
+  "arithmetic": "exact",
+  "inputs": {
+    "certificates/witness.json": "9f7005f0fe456ff3f083f7fbe6e712736d3f14dd506ff4b297f9553431396182",
+    "referee/REFEREE.md": "0afc777bb0b2dd45c71db48b38a3beedd3ed3563e79da6e61bc90c7460139c16"
+  },
+  "inputs_hash": "07422526b8212e05554748c0e4e907b1158d784849ced8d09b3cdc7cb5845657",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/referee_verify.py",
+  "checker_sha256": "48bf662d150f61ae4bcdc78ded2e01752d8fee6b7f2abafc44d4f683892a6389",
+  "report": "referee/REFEREE.md",
+  "report_sha256": "0afc777bb0b2dd45c71db48b38a3beedd3ed3563e79da6e61bc90c7460139c16",
+  "note": "Clean-room cross-family referee (Gemini 4 Carbon High) returned VERDICT: HOLDS with zero defects across certificates/witness.json, definitions.tex, and REPORT.md. Pure int/Fraction referee_verify.py (AST-checked zero float/math) independently verified both dual proofs for S_{4,11} and S_{5,10}, S_{12,30} (-23 vs 36), 15 positive controls, 16/16 adversarial negative controls, all 1,845 displayed table entries, and all 4,800 primary grid comparisons."
+}

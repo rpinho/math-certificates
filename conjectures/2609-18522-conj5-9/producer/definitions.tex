@@ -1,0 +1,254 @@
+\begin{definition}\label{def:LL}
+For $f\ge 1$, define $q_{-}=\lfloor\frac{f}{2}\rfloor$ and $q^{+}=\lceil\frac{f}{2}\rceil$;
+note that $q_{-}+q^{+}=f$ for every $f$ and $q_{-}=q^{+}$ for even $f$.
+
+Then the function  $\LL_{f}$ on
+$d\geq 1$ is defined as follows: 
+\begin{itemize}
+\item[(1)] $\LL_f(d)=f$ if $1\leq d\leq f-1$;
+\end{itemize}
+and for $d\geq f$, blocks of length $2f$ will be defined,
+for every $k\geq 1$ by:
+\begin{itemize}
+\item[(2)] $\LL_f(d)=k(f+1+j)$, if $d=(2k-1)f+j$ for $0\leq j\leq q_{-}$;
+\item[(3)] if $f$ is odd then $\LL_f((2k-1)f+q^{+})=q^{+}$;
+\item[(4)] 
+$\LL_f(d)=k(f+1+q_{-})+q^{+}+1-j\cdot (k-1)$, if $d=(2k-1)f+q^{+}+1+j$ for $0\leq j\leq q_{-}+1$;
+\item[] with the correction that, if $f\leq 4$ or $k>1$ then $k$ 
+is to be subtracted from $\LL_f(2kf-1)$;
+\item[(5)] $\LL_f(d)=(k+1)(f-1)+3$ if $2kf+3\leq d\leq (2k+1)f-1$;
+\item[] with the correction for $k=1$ that 1 is to be added to $\LL_f(d)$, and
+\item[] with the correction (for $k=2$) that $\LL_f(4f+3)=3f+1$ instead of $3f$.
+\end{itemize}
+To this general definition of $\LL_f$ the following
+modifications are made for small values of the parameters:
+\begin{itemize}
+\item for $f=1$:
+\begin{itemize}
+\item[] $\LL_1(3)=4$;
+\item[] add $\frac{d+7}{2}$ to $\LL_1(d)$ for $d\equiv 1\bmod 2$ with $d\geq 7$;
+\end{itemize}
+\item for $f=2$:
+\begin{itemize}
+\item[] $\LL_2(2)=1$;
+\item[] $\LL_2(6)=2$;
+\item[] add $\frac{d+5}{4}$ to $\LL_2(d)$ for $d\equiv 3\bmod 4$;
+\item[] add 1 to $\LL_2(d)$ for $d\equiv 0\bmod 4$.
+\end{itemize}
+\item for $f=3$:
+\begin{itemize}
+\item[] $\LL_3(d)=2$ for $d\equiv 5\bmod 6$;
+\item[] $\LL_3(6)=4$;
+\item[] $\LL_3(7)=2$;
+\item[] $\LL_3(8)=4$;
+\item[] $\LL_3(9)=4$;
+\item[] $\LL_3(10)=5$;
+\item[] $\LL_3(15)=26$;
+\item[] add $\frac{d+20}{6}$ to $\LL_3(d)$ for $d\equiv 4\bmod 6$ 
+with $d\geq 16$;
+\item[] add 4 to $\LL_3(d)$ for $d\equiv 3\bmod 6$ 
+with $d\geq 21$.
+\end{itemize}
+\item for $f=4$:
+\begin{itemize}
+\item[] $\LL_4(5)=2$;
+\item[] $\LL_4(36)=5$;
+\item[] add $\frac{d+44}{8}$ to $\LL_4(d)$ for $d\equiv 4\bmod 8$ 
+with $d\geq 44$.
+\end{itemize}
+\end{itemize}
+\end{definition}
+\begin{definition}\label{def:KK}
+Define, for the residue classes $r\equiv d\bmod 2f$, 
+fixing the additional notation
+$d=r+h\cdot (2f)$, and choosing representatives $1\leq r\leq 2f$,
+a function $\KK_{r}$ of $h$ and $f$.
+
+\begin{itemize}
+\item[] For $f\geq 5$
+the function is 
+\begin{itemize}
+\item[] linear in $h$ for fixed $f$ for the following $f+3$ residue classes $r\bmod 2f$:
+\begin{itemize}
+\item[(a)] $\KK_{1}(h,f)=(2f+1)\cdot h+(2f+7)$;
+\item[(b)] $\KK_{2}(h,f)=(2f)\cdot h+(2f+7)$;
+\item[(c)] $\KK_{r}(h,f)=(f+1)\cdot h+(3f+1+r)$
+for $r=3, 4,\ldots,f-1$;
+\item[(d)] $\KK_{f}(h,f)=(4f+1)\cdot h+(5f-3)$;
+\item[(e)] $\KK_{f+1}(h,f)=(2f+3)\cdot h+(2f+7)$;
+\item[(f)] $\KK_{2f-1}(h,f)=f\cdot h+(2f+1)$;
+\item[(g)] $\KK_{2f}(h,f)=f\cdot h+(f+2)$.
+\end{itemize}
+\item[] and quadratic in $h$ for fixed $f$ for the remaining $f-3$ cases, as given below,
+using the notation $q=\lfloor\frac{f+1}{2}\rfloor$ and $s=r-(f+q)$:
+\begin{itemize}
+\item[(h)] for even $f\geq 6$, and $f+3\leq r\leq 2f-2$:
+\begin{itemize}
+\item[(h$_0$)] $\KK_{f+q}(h,f)=\frac{9f+14}{4}h^2+\frac{15f+42}{4}h+
+\frac{3f+2}{2}$;
+\item[(h$_1$)] $\KK_{r}(h,f)=\frac{9f+16-2s}{4}h^2+\frac{15f+40+10s}{4}h+\frac{3f+2s}{2}$ when $s>0$; %$r>f+q$;
+\item[(h$_2$)] $\KK_{r}(h,f)=\frac{9f+16+2s}{4}h^2+
+\frac{15f+42+6s}{4}h+\frac{3f+2+2s}{2}$
+when $s<0$; %$r<f+q$;
+\end{itemize}
+\item[(i)] while for odd $f\geq 5$, and $f+3\leq r\leq 2f-2$:
+\begin{itemize}
+\item[(i$_0$)] $\KK_{f+q}(h,f)=\frac{9f+15}{4}h^2+\frac{15f+45}{4}h+
+\frac{3f-1}{2}$;
+\item[(i$_1$)] $\KK_{r}(h,f)=\frac{9f+15-2s}{4}h^2+
+\frac{15f+45+10s}{4}h+\frac{3f+1+2s}{2}$
+when $s>0$; %$r>f+q$;
+\item[(i$_2$)] $\KK_{r}(h,f)=\frac{9f+15+2s}{4}h^2+
+\frac{15f+45+6s}{4}h+\frac{3f+3+2s}{2}$
+when $s<0$; %$r<f+q$;
+\end{itemize}
+\item[(j)] when $r=f+2$ alternatingly, depending on $d\bmod 4f$:
+\begin{itemize}
+\item[(j$_0$)] $\KK_{r}(h,f)=(4f+9)h^2+(4f+9)h$
+when $d\equiv f+2\bmod 4f$;
+\item[(j$_1$)] $\KK_{r}(h,f)=(4f+9)h^2+(4f+9)h-1$
+when $d\equiv 2f+f+2\bmod 4f$.
+\end{itemize}
+\item[(k)] Finally, for small values of $d$ (that is, of $h$ and $r$),
+the following corrections are to be made to $\KK_{r}$ for
+$f\geq 5$:
+\begin{itemize}
+\item[(k$_0$)] if $h=0$, subtract $2f+r$ from $\KK_{r}$;
+\item[(k$_1$)] if $h=1$, subtract $3f+r$ from $\KK_{r}$;
+\item[(k$_2$)] if $r=1$ and $h=0$, add $f-5$ to $\KK_{1}$;
+\item[(k$_3$)] if $r=1$ and $h=1$, subtract $5$ from $\KK_{1}$;
+\item[(k$_4$)] if $r=1$ and $h=2$ subtract $4f+7$ from $\KK_{1}$;
+\item[(k$_5$)] if $r=2$ and $h=0$ add $f-4$ to $\KK_{2}$;
+\item[(k$_6$)] if $r=2$ and $h=1$, subtract $3$ from $\KK_{2}$;
+\item[(k$_7$)] if $r=3$ and $h=2$, add $4f+1$ to $\KK_{3}$.
+\end{itemize}
+\end{itemize}
+\end{itemize}
+\item[] For $1\leq f\leq 4$ we define
+\begin{itemize}
+\item[$\bullet$] for $f=1$:
+\begin{itemize}
+\item[] $$\KK_{1}(1+2h,1)=
+\begin{cases}
+2,&\text{if\ } h=0;\\
+4,&\text{if\ } h=1;\\
+5,&\text{if\ } h=2;\\
+h+4,&\text{if\ } h\geq 3.
+\end{cases}$$
+\item[] $$\KK_{2}(2+2h,1)=
+\begin{cases}
+0,&\text{if\ } h=0;\\
+1,&\text{if\ } h\geq 1.
+\end{cases}$$
+\end{itemize}
+\item[$\bullet$] for $f=2$:
+\begin{itemize}
+\item[] $$\KK_{1}(1+4h,2)=
+\begin{cases}
+3,&\text{if\ } h=0;\\
+4,&\text{if\ } h=1;\\
+6,&\text{if\ } h=2;\\
+5h+11,&\text{if\ } h\geq 3.
+\end{cases}$$
+\item[] $$\KK_{2}(2+4h,2)=
+\begin{cases}
+2,&\text{if\ } h=0;\\
+5,&\text{if\ } h=1;\\
+7,&\text{if\ } h=2;\\
+5h+11,&\text{if\ } h\geq 0.
+\end{cases}$$
+\item[] $$\KK_{3}(3+4h,2)=2h+5.$$
+\item[] $$\KK_{4}(4+4h,2)=2h+6.$$
+\end{itemize}
+\item[$\bullet$] for $f=3$:
+\begin{itemize}
+\item[] $$\KK_{1}(1+6h,3)=
+\begin{cases}
+4,&\text{if\ } h=0;\\
+5,&\text{if\ } h=1;\\
+8,&\text{if\ } h=2;\\
+7h+13,&\text{if\ } h\geq 3.
+\end{cases}$$
+\item[] $$\KK_{2}(2+6h,3)=
+\begin{cases}
+4,&\text{if\ } h=0;\\
+5,&\text{if\ } h=1;\\
+6h+13,&\text{if\ } h\geq 2.
+\end{cases}$$
+\item[] $$\KK_{3}(3+6h,3)=
+\begin{cases}
+4,&\text{if\ } h=0;\\
+19,&\text{if\ } h=1;\\
+36,&\text{if\ } h=2;\\
+81,&\text{if\ } h=3;\\
+10h+19,&\text{if\ } h\geq 4.
+\end{cases}$$
+\item[] $$\KK_{4}(4+6h,3)=
+\begin{cases}
+4,&\text{if\ } h=0;\\
+9h+14,&\text{if\ } h\geq 1.
+\end{cases}$$
+\item[] $$\KK_{5}(5+6h,3)=
+\begin{cases}
+9,&\text{if\ } h=0;\\
+26,&\text{if\ } h=1;\\
+\frac{21}{2}h^2+\frac{27}{2}h,&\text{if\ } h\geq 2.
+\end{cases}$$
+\item[] $$\KK_{6}(6+6h,3)=3h+5.$$
+\end{itemize}
+\item[$\bullet$] for $f=4$:
+\begin{itemize}
+\item[] $$\KK_{1}(1+8h,4)=
+\begin{cases}
+5,&\text{if\ } h=0;\\
+6,&\text{if\ } h=1;\\
+10,&\text{if\ } h=2;\\
+9h+15,&\text{if\ } h\geq 3.
+\end{cases}$$
+\item[] $$\KK_{2}(2+8h,4)=
+\begin{cases}
+5,&\text{if\ } h=0;\\
+6,&\text{if\ } h=1;\\
+8h+15,&\text{if\ } h\geq 2.
+\end{cases}$$
+\item[] $$\KK_{3}(3+8h,4)=
+\begin{cases}
+5,&\text{if\ } h=0;\\
+6,&\text{if\ } h=1;\\
+43,&\text{if\ } h=2;\\
+5h+16,&\text{if\ } h\geq 3.
+\end{cases}$$
+\item[] $$\KK_{4}(4+8h,4)=
+\begin{cases}
+5,&\text{if\ } h=0;\\
+12,&\text{if\ } h=1;\\
+116,&\text{if\ } h=2;\\
+112,&\text{if\ } h=3;\\
+193,&\text{if\ } h=4;\\
+32h+40,&\text{if\ } h\geq 5.
+\end{cases}$$
+\item[] $$\KK_{5}(5+8h,4)=
+\begin{cases}
+5,&\text{if\ } h=0;\\
+13,&\text{if\ } h=1;\\
+11h+15,&\text{if\ } h\geq 2.
+\end{cases}$$
+\item[] $$\KK_{6}(6+8h,4)=
+\begin{cases}
+5,&\text{if\ } h=0;\\
+14,&\text{if\ } h=1;\\
+20,&\text{if\ } h=2;\\
+51,&\text{if\ } h=3;\\
+\frac{25}{4}h^2-7,&\text{if\ } h\geq 4,\text{\ even},\\
+\frac{25}{4}h^2-\frac{29}{4}&\text{if\ } h\geq 5\text{\ odd}.
+\end{cases}$$
+\item[] $$\KK_{7}(7+8h,4)=
+\begin{cases}
+11,&\text{if\ } h=0;\\
+4h+9,&\text{if\ } h\geq 1.
+\end{cases}$$
+\item[] $$\KK_{8}(8+8h,4)=4h+6.$$
+\end{itemize}
+\end{itemize}
+\end{itemize}
+\end{definition}
