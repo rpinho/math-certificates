@@ -1,0 +1,25 @@
+{
+  "model": "GPT-6.2 Astra via Codex",
+  "author": "separate clean-room cross-family referee session (producer code withheld)",
+  "producer_author": "Gemini 4 Carbon High via Antigravity CLI",
+  "status": "PASS",
+  "value": "n + 2",
+  "values": [
+    "n + 2",
+    "m + 5/2"
+  ],
+  "arithmetic": "exact",
+  "inputs": {
+    "PROOF.md": "7d3caafd97bb7f85a408ee8294b659867a09f05cf55d74dc3c40f2f42db154be",
+    "referee/REFEREE.md": "d9b3dfe53eeb573449803e55fba5f0e67dbe036da2a9b5d8c3d65d4e0d72b53c",
+    "referee/verification.txt": "ac651fa44a4e0d4b751018297bc23f1ed5edf85d03349e97cacaad90d36fdcc2"
+  },
+  "inputs_hash": "d1c5309e13b63068e4088af4bd2966529d960ee8a3eac5d82302a6fb56024b37",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/referee_verify.py",
+  "checker_sha256": "7626c8dda92e9bbd1e4e0224d71904a74272f2c16e882bb44c91f9e86907cf85",
+  "report": "referee/REFEREE.md",
+  "report_sha256": "d9b3dfe53eeb573449803e55fba5f0e67dbe036da2a9b5d8c3d65d4e0d72b53c",
+  "note": "Clean-room cross-family referee (GPT-6.2 Astra) upheld the unconditional proof of Conjecture 9.2 (psi_sq(G) + psi_sq(bar G) <= n + 2 for all n >= 2) with zero mathematical gaps across 33,868 graphs n<=6 (13,047,409 Lemma 1 checks), all 268,435,456 labeled graphs at order 8, 16,348,842 graphical degree sequences n=8..15, and all 288,265 unlabeled graphs n=2..9 (referee/verification.txt). Caught one Remark 3 wording slip (repaired in PROOF.md) and clarified one-sided vs either-side dissociation-gap census counts in README.md."
+}

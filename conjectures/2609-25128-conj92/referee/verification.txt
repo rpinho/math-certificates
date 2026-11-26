@@ -1,0 +1,111 @@
+EXAMPLE K and empty 1 (1, 1)
+EXAMPLE K and empty 2 (2, 2)
+EXAMPLE K and empty 3 (2, 3)
+EXAMPLE K and empty 4 (2, 4)
+EXAMPLE K and empty 5 (2, 5)
+EXAMPLE K and empty 6 (2, 6)
+EXAMPLE K and empty 7 (2, 7)
+EXAMPLE K and empty 8 (2, 8)
+EXAMPLE P4 vertices 4 edges 3 psi,beta (3, 3)
+EXAMPLE C5 vertices 5 edges 5 psi,beta (3, 3)
+EXAMPLE S22 vertices 6 edges 5 psi,beta (5, 4)
+EXAMPLE complement S22 vertices 6 edges 10 psi,beta (3, 3)
+EXAMPLE K1,4 vertices 5 edges 4 psi,beta (4, 4)
+EXAMPLE Q3 vertices 8 edges 12 psi,beta (4, 4)
+EXAMPLE G3,3 vertices 9 edges 12 psi,beta (5, 5)
+EXAMPLE G3,4 vertices 12 edges 17 psi,beta (7, 7)
+EXAMPLE Q3 figure even-weight support 0,3,5,6 accepted
+CONTROLS two disjoint P3s: size-only constraints allow 5, true optimum 4
+CONTROLS P3 Sigma 11/2 > 5; Omega(empty6),Omega(K6) (6, 3) sum 9 > 8
+CONTROLS triangle 3 private rejected, 2 private + uncolored accepted; isolated in support accepted; non-onto rejected; empty onto accepted
+CONTROLS degree sequence (1,1,1) gives 6 with odd degree sum
+CONTROLS P4 same class sizes, weights and subset bounds: 1122 accepted, 1212 rejected
+WITNESS S22 overlap [0, 2, 3] degrees (2, 1, 1) weights ('3/2', '1/2', '2', '2', '1', '1') inside 11/2 outside 5/2
+LEMMA2 triples 29791 equalities 61
+COLOR 0 labeled 1 partitions_tested 1 valid 1 optimal 1 subset_vertex_checks 0 sum_range (0, 0) unlabeled {'graphs': 1, 'equality': 0, 'gap_G': 0, 'equality_gap_G': 0, 'equality_gap_either': 0} gap_reps []
+COLOR 1 labeled 1 partitions_tested 2 valid 2 optimal 1 subset_vertex_checks 1 sum_range (2, 2) unlabeled {'graphs': 1, 'equality': 0, 'gap_G': 0, 'equality_gap_G': 0, 'equality_gap_either': 0} gap_reps []
+COLOR 2 labeled 2 partitions_tested 10 valid 10 optimal 2 subset_vertex_checks 8 sum_range (4, 4) unlabeled {'graphs': 2, 'equality': 2, 'gap_G': 0, 'equality_gap_G': 0, 'equality_gap_either': 0} gap_reps []
+COLOR 3 labeled 8 partitions_tested 120 valid 110 optimal 22 subset_vertex_checks 168 sum_range (5, 5) unlabeled {'graphs': 4, 'equality': 4, 'gap_G': 0, 'equality_gap_G': 0, 'equality_gap_either': 0} gap_reps []
+COLOR 4 labeled 64 partitions_tested 3328 valid 2481 optimal 275 subset_vertex_checks 4400 sum_range (6, 6) unlabeled {'graphs': 11, 'equality': 11, 'gap_G': 0, 'equality_gap_G': 0, 'equality_gap_either': 0} gap_reps []
+COLOR 5 labeled 1024 partitions_tested 207872 valid 110979 optimal 5866 subset_vertex_checks 184160 sum_range (6, 7) unlabeled {'graphs': 34, 'equality': 32, 'gap_G': 0, 'equality_gap_G': 0, 'equality_gap_either': 0} gap_reps []
+COLOR 6 labeled 32768 partitions_tested 28737536 valid 9704054 optimal 243132 subset_vertex_checks 12858672 sum_range (7, 8) unlabeled {'graphs': 156, 'equality': 122, 'gap_G': 1, 'equality_gap_G': 1, 'equality_gap_either': 2} gap_reps [121]
+SIGMA 0 graphs 1 max 0 maximizers 1 first_edge_mask 0 edge_counts_tested 1
+SIGMA 1 graphs 1 max 2 maximizers 1 first_edge_mask 0 edge_counts_tested 1
+SIGMA 2 graphs 2 max 4 maximizers 2 first_edge_mask 0 edge_counts_tested 2
+SIGMA 3 graphs 8 max 11/2 maximizers 6 first_edge_mask 1 edge_counts_tested 4
+SIGMA 4 graphs 64 max 6 maximizers 64 first_edge_mask 0 edge_counts_tested 7
+SIGMA 5 graphs 1024 max 22/3 maximizers 80 first_edge_mask 7 edge_counts_tested 11
+SIGMA 6 graphs 32768 max 8 maximizers 224 first_edge_mask 0 edge_counts_tested 16
+SIGMA 7 graphs 2097152 max 37/4 maximizers 308 first_edge_mask 31 edge_counts_tested 22
+MEDIUM 8 max 10 max_hits_scored_states 49 evaluations {'matching': 10, 'cut': 18, 'prefix': 58, 'random': 120, 'ascent_state': 16, 'ascent_neighbor': 448, 'ascent_move': 10}
+MEDIUM 9 max 56/5 max_hits_scored_states 14 evaluations {'matching': 10, 'cut': 20, 'prefix': 74, 'random': 120, 'ascent_state': 27, 'ascent_neighbor': 972, 'ascent_move': 21}
+MEDIUM 10 max 12 max_hits_scored_states 38 evaluations {'matching': 12, 'cut': 22, 'prefix': 92, 'random': 120, 'ascent_state': 22, 'ascent_neighbor': 990, 'ascent_move': 16}
+MEDIUM 11 max 79/6 max_hits_scored_states 14 evaluations {'matching': 12, 'cut': 24, 'prefix': 112, 'random': 120, 'ascent_state': 41, 'ascent_neighbor': 2255, 'ascent_move': 35}
+MEDIUM 12 max 14 max_hits_scored_states 38 evaluations {'matching': 14, 'cut': 26, 'prefix': 134, 'random': 120, 'ascent_state': 26, 'ascent_neighbor': 1716, 'ascent_move': 20}
+MEDIUM 13 max 106/7 max_hits_scored_states 12 evaluations {'matching': 14, 'cut': 28, 'prefix': 158, 'random': 120, 'ascent_state': 52, 'ascent_neighbor': 4056, 'ascent_move': 46}
+MEDIUM 14 max 16 max_hits_scored_states 37 evaluations {'matching': 16, 'cut': 30, 'prefix': 184, 'random': 120, 'ascent_state': 49, 'ascent_neighbor': 4459, 'ascent_move': 43}
+MEDIUM 15 max 137/8 max_hits_scored_states 12 evaluations {'matching': 16, 'cut': 32, 'prefix': 212, 'random': 120, 'ascent_state': 64, 'ascent_neighbor': 6720, 'ascent_move': 58}
+MEDIUM 16 max 18 max_hits_scored_states 39 evaluations {'matching': 18, 'cut': 34, 'prefix': 242, 'random': 120, 'ascent_state': 44, 'ascent_neighbor': 5280, 'ascent_move': 38}
+MEDIUM 17 max 172/9 max_hits_scored_states 12 evaluations {'matching': 18, 'cut': 36, 'prefix': 274, 'random': 120, 'ascent_state': 74, 'ascent_neighbor': 10064, 'ascent_move': 68}
+MEDIUM 18 max 20 max_hits_scored_states 41 evaluations {'matching': 20, 'cut': 38, 'prefix': 308, 'random': 120, 'ascent_state': 46, 'ascent_neighbor': 7038, 'ascent_move': 40}
+MEDIUM 19 max 211/10 max_hits_scored_states 12 evaluations {'matching': 20, 'cut': 40, 'prefix': 344, 'random': 120, 'ascent_state': 120, 'ascent_neighbor': 20520, 'ascent_move': 114}
+MEDIUM 20 max 22 max_hits_scored_states 43 evaluations {'matching': 22, 'cut': 42, 'prefix': 382, 'random': 120, 'ascent_state': 48, 'ascent_neighbor': 9120, 'ascent_move': 42}
+MEDIUM 21 max 254/11 max_hits_scored_states 12 evaluations {'matching': 22, 'cut': 44, 'prefix': 422, 'random': 120, 'ascent_state': 97, 'ascent_neighbor': 20370, 'ascent_move': 91}
+MEDIUM 22 max 24 max_hits_scored_states 45 evaluations {'matching': 24, 'cut': 46, 'prefix': 464, 'random': 120, 'ascent_state': 54, 'ascent_neighbor': 12474, 'ascent_move': 48}
+MEDIUM 23 max 301/12 max_hits_scored_states 12 evaluations {'matching': 24, 'cut': 48, 'prefix': 508, 'random': 120, 'ascent_state': 149, 'ascent_neighbor': 37697, 'ascent_move': 143}
+MEDIUM 24 max 26 max_hits_scored_states 47 evaluations {'matching': 26, 'cut': 50, 'prefix': 554, 'random': 120, 'ascent_state': 46, 'ascent_neighbor': 12696, 'ascent_move': 40}
+MEDIUM 25 max 352/13 max_hits_scored_states 12 evaluations {'matching': 26, 'cut': 52, 'prefix': 602, 'random': 120, 'ascent_state': 124, 'ascent_neighbor': 37200, 'ascent_move': 118}
+MEDIUM 26 max 28 max_hits_scored_states 49 evaluations {'matching': 28, 'cut': 54, 'prefix': 652, 'random': 120, 'ascent_state': 72, 'ascent_neighbor': 23400, 'ascent_move': 66}
+MEDIUM 27 max 407/14 max_hits_scored_states 12 evaluations {'matching': 28, 'cut': 56, 'prefix': 704, 'random': 120, 'ascent_state': 161, 'ascent_neighbor': 56511, 'ascent_move': 156}
+MEDIUM 28 max 30 max_hits_scored_states 51 evaluations {'matching': 30, 'cut': 58, 'prefix': 758, 'random': 120, 'ascent_state': 64, 'ascent_neighbor': 24192, 'ascent_move': 58}
+MEDIUM 29 max 466/15 max_hits_scored_states 12 evaluations {'matching': 30, 'cut': 60, 'prefix': 814, 'random': 120, 'ascent_state': 208, 'ascent_neighbor': 84448, 'ascent_move': 203}
+MEDIUM 30 max 32 max_hits_scored_states 53 evaluations {'matching': 32, 'cut': 62, 'prefix': 872, 'random': 120, 'ascent_state': 167, 'ascent_neighbor': 72645, 'ascent_move': 162}
+EDGE_LAYERS 8 even_sums 29 max 10 odd_sum_max 10
+EDGE_LAYERS 9 even_sums 37 max 56/5 odd_sum_max 45/4
+EDGE_LAYERS 10 even_sums 46 max 12 odd_sum_max 12
+EDGE_LAYERS 11 even_sums 56 max 79/6 odd_sum_max 66/5
+EDGE_LAYERS 12 even_sums 67 max 14 odd_sum_max 14
+EDGE_LAYERS 13 even_sums 79 max 106/7 odd_sum_max 91/6
+EDGE_LAYERS 14 even_sums 92 max 16 odd_sum_max 16
+EDGE_LAYERS 15 even_sums 106 max 137/8 odd_sum_max 120/7
+EDGE_LAYERS 16 even_sums 121 max 18 odd_sum_max 18
+EDGE_LAYERS 17 even_sums 137 max 172/9 odd_sum_max 153/8
+EDGE_LAYERS 18 even_sums 154 max 20 odd_sum_max 20
+EDGE_LAYERS 19 even_sums 172 max 211/10 odd_sum_max 190/9
+EDGE_LAYERS 20 even_sums 191 max 22 odd_sum_max 22
+EDGE_LAYERS 21 even_sums 211 max 254/11 odd_sum_max 231/10
+EDGE_LAYERS 22 even_sums 232 max 24 odd_sum_max 24
+EDGE_LAYERS 23 even_sums 254 max 301/12 odd_sum_max 276/11
+EDGE_LAYERS 24 even_sums 277 max 26 odd_sum_max 26
+EDGE_LAYERS 25 even_sums 301 max 352/13 odd_sum_max 325/12
+EDGE_LAYERS 26 even_sums 326 max 28 odd_sum_max 28
+EDGE_LAYERS 27 even_sums 352 max 407/14 odd_sum_max 378/13
+EDGE_LAYERS 28 even_sums 379 max 30 odd_sum_max 30
+EDGE_LAYERS 29 even_sums 407 max 466/15 odd_sum_max 435/14
+EDGE_LAYERS 30 even_sums 436 max 32 odd_sum_max 32
+SIGMA 8 graphs 268435456 max 10 maximizers 1656 first_edge_mask 0 edge_counts_tested 29
+TABLE 1 unlabeled 1 sum_range (2, 2) equality 0 gap_G 0 max_gap 0 equality_gap_G 0 equality_gap_either 0
+TABLE 2 unlabeled 2 sum_range (4, 4) equality 2 gap_G 0 max_gap 0 equality_gap_G 0 equality_gap_either 0
+TABLE 3 unlabeled 4 sum_range (5, 5) equality 4 gap_G 0 max_gap 0 equality_gap_G 0 equality_gap_either 0
+TABLE 4 unlabeled 11 sum_range (6, 6) equality 11 gap_G 0 max_gap 0 equality_gap_G 0 equality_gap_either 0
+TABLE 5 unlabeled 34 sum_range (6, 7) equality 32 gap_G 0 max_gap 0 equality_gap_G 0 equality_gap_either 0
+TABLE 6 unlabeled 156 sum_range (7, 8) equality 122 gap_G 1 max_gap 1 equality_gap_G 1 equality_gap_either 2
+TABLE 7 unlabeled 1044 sum_range (7, 9) equality 538 gap_G 13 max_gap 1 equality_gap_G 13 equality_gap_either 26
+TABLE 8 unlabeled 12346 sum_range (7, 10) equality 3036 gap_G 263 max_gap 1 equality_gap_G 133 equality_gap_either 264
+TABLE 9 unlabeled 274668 sum_range (8, 11) equality 21354 gap_G 7160 max_gap 1 equality_gap_G 1236 equality_gap_either 2450
+SUPPORT_PAIRS 0 isomorphism_classes 1 coloring_pairs 1 max_actual_inside_minus_m 0 by_overlap [1]
+SUPPORT_PAIRS 1 isomorphism_classes 1 coloring_pairs 4 max_actual_inside_minus_m 1 by_overlap [3, 1]
+SUPPORT_PAIRS 2 isomorphism_classes 2 coloring_pairs 50 max_actual_inside_minus_m 2 by_overlap [22, 20, 8]
+SUPPORT_PAIRS 3 isomorphism_classes 4 coloring_pairs 720 max_actual_inside_minus_m 2 by_overlap [176, 288, 216, 40]
+SUPPORT_PAIRS 4 isomorphism_classes 11 coloring_pairs 15983 max_actual_inside_minus_m 5/2 by_overlap [2095, 5180, 5796, 2488, 424]
+SUPPORT_PAIRS 5 isomorphism_classes 34 coloring_pairs 380667 max_actual_inside_minus_m 5/2 by_overlap [28832, 95624, 138004, 87480, 27616, 3111]
+SUPPORT_PAIRS 6 isomorphism_classes 156 coloring_pairs 13047658 max_actual_inside_minus_m 5/2 by_overlap [601122, 2479032, 4333266, 3602940, 1626972, 371004, 33322]
+GRAPHICAL 8 sorted_lists 6435 even_sum 3235 realized 1213 max 10 edge_counts_at_max [0, 1, 2, 3, 4, 6, 7, 21, 22, 24, 25, 26, 27, 28]
+GRAPHICAL 9 sorted_lists 24310 even_sum 12190 realized 4361 max 56/5 edge_counts_at_max [4, 7, 8, 28, 29, 32]
+GRAPHICAL 10 sorted_lists 92378 even_sum 46252 realized 16016 max 12 edge_counts_at_max [0, 1, 2, 3, 4, 5, 8, 9, 36, 37, 40, 41, 42, 43, 44, 45]
+GRAPHICAL 11 sorted_lists 352716 even_sum 176484 realized 59348 max 79/6 edge_counts_at_max [5, 9, 10, 45, 46, 50]
+GRAPHICAL 12 sorted_lists 1352078 even_sum 676270 realized 222117 max 14 edge_counts_at_max [0, 1, 2, 3, 4, 5, 6, 10, 11, 55, 56, 60, 61, 62, 63, 64, 65, 66]
+GRAPHICAL 13 sorted_lists 5200300 even_sum 2600612 realized 836315 max 106/7 edge_counts_at_max [6, 11, 12, 66, 67, 72]
+GRAPHICAL 14 sorted_lists 20058300 even_sum 10030008 realized 3166852 max 16 edge_counts_at_max [0, 1, 2, 3, 4, 5, 6, 7, 12, 13, 78, 79, 84, 85, 86, 87, 88, 89, 90, 91]
+GRAPHICAL 15 sorted_lists 77558760 even_sum 38781096 realized 12042620 max 137/8 edge_counts_at_max [7, 13, 14, 91, 92, 98]
+PASS all requested checks completed
