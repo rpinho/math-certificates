@@ -241,6 +241,27 @@
       "source": "https://arxiv.org/abs/2609.18522v1",
       "new_bound": false,
       "label": "2-sumfree sequence parameter"
+    },
+    {
+      "value": "34359",
+      "kind": "cited",
+      "source": "https://github.com/the-omega-institute/trureturing/pull/34359",
+      "new_bound": false,
+      "label": "Prior PR #34359 refuting Conjecture 9"
+    },
+    {
+      "value": "2026-11-26",
+      "kind": "cited",
+      "source": "https://github.com/the-omega-institute/trureturing/pull/34359",
+      "new_bound": false,
+      "label": "Merge date of PR #34359"
+    },
+    {
+      "value": "21",
+      "kind": "cited",
+      "source": "https://github.com/the-omega-institute/trureturing/pull/34359",
+      "new_bound": false,
+      "label": "Second seed 21 in PR #34359"
     }
   ],
   "scope": "Exact disproofs of Conjectures 5 and 9 of van Berkel and Bosma (arXiv:2609.18522v1)."

@@ -1,0 +1,315 @@
+'Dichrom.acyclic_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.at_vertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.cleared_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.cleared_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.cleared_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.coeffs_ext' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.count_maps' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.dag_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.defect_perm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.deriv_coeffs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.deriv_falling' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.deriv_sumPoly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.derivative1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.direct_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.eval_H' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.eval_P' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.eval_coeffs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.eval_dP' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.eval_eq_coloring_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.eval_falling' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.eval_integer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.eval_subst' depends on axioms: [propext]
+'Dichrom.eval_sumPoly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.fall_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.fall_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.formal_identity1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.formal_identity2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.formal_identity3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.formal_iff_coeffs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.identity1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.identity2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.identity3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.keep_split' depends on axioms: [propext, Quot.sound]
+'Dichrom.keep_swap' does not depend on any axioms
+'Dichrom.map_cons' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.map_nil' depends on axioms: [propext]
+'Dichrom.maps_complete' depends on axioms: [propext, Quot.sound]
+'Dichrom.maps_nodup' depends on axioms: [propext, Quot.sound]
+'Dichrom.mem_fibres' depends on axioms: [propext, Quot.sound]
+'Dichrom.monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.palette_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.palette_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.part_cons' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.part_info' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.part_nil' depends on axioms: [propext, Quot.sound]
+'Dichrom.part_one' depends on axioms: [propext, Quot.sound]
+'Dichrom.pointing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.polynomial_perm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.power_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.quotient_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.quotient_rises' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.reindex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.shameful' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.shameful_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.shifted_coefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.split_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.split_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.split_cons' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.split_empty_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.split_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.split_nil' depends on axioms: [propext]
+'Dichrom.split_size' depends on axioms: [propext, Quot.sound]
+'Dichrom.split_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.split_zero' depends on axioms: [propext]
+'Dichrom.splits_left' depends on axioms: [propext, Quot.sound]
+'Dichrom.splits_right' depends on axioms: [propext, Quot.sound]
+'Dichrom.strict_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.sum_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.term_le_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.theoremA' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.theoremA_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.theoremB' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.theoremB_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.total_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.total_append' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.total_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.total_flatMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.total_indicator' depends on axioms: [propext, Quot.sound]
+'Dichrom.total_map' depends on axioms: [propext]
+'Dichrom.total_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.total_zero' depends on axioms: [propext]
+'Dichrom.Controls.bidirected_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.Controls.bidirected_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.Controls.oriented_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.Controls.triangle_sharpness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.Digraph.acyclic_false' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.Digraph.acyclic_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.Digraph.loopless' does not depend on any axioms
+'Dichrom.H.eq_1' depends on axioms: [propext, Quot.sound]
+'Dichrom.P.eq_1' depends on axioms: [propext, Quot.sound]
+'Dichrom.PositiveForm.brecOn' does not depend on any axioms
+'Dichrom.PositiveForm.coefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.System.down' does not depend on any axioms
+'Dichrom.System.empty' does not depend on any axioms
+'Dichrom.System.ok_perm' depends on axioms: [propext]
+'Dichrom.System.single' does not depend on any axioms
+'Dichrom.around._proof_1' depends on axioms: [propext]
+'Dichrom.coeffs_ext._simp_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.correction.eq_1' depends on axioms: [propext, Quot.sound]
+'Dichrom.dHorner.eq_1' does not depend on any axioms
+'Dichrom.dHorner.eq_2' does not depend on any axioms
+'Dichrom.dP.eq_1' depends on axioms: [propext, Quot.sound]
+'Dichrom.dag_normalized._proof_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.defect.eq_1' depends on axioms: [propext, Quot.sound]
+'Dichrom.defect_perm._simp_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.defect_perm._simp_1_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.deriv_coeffs._proof_1_10' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.deriv_coeffs._proof_1_11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.deriv_falling._proof_1_13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.deriv_falling._proof_1_14' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.deriv_sumPoly._proof_1_11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.dfall.eq_1' does not depend on any axioms
+'Dichrom.dfall.eq_2' does not depend on any axioms
+'Dichrom.eval_H._proof_1_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.eval_coeffs._proof_1_8' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.eval_coeffs._proof_1_9' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.eval_dP._proof_1_11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.eval_falling._proof_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.eval_falling._proof_1_10' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.eval_sumPoly._proof_1_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.fall.eq_1' does not depend on any axioms
+'Dichrom.fall.eq_2' does not depend on any axioms
+'Dichrom.fall_pos._proof_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.fall_pos._proof_1_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.fall_right._proof_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.fall_right._proof_1_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.falling.eq_1' does not depend on any axioms
+'Dichrom.falling.eq_2' does not depend on any axioms
+'Dichrom.fibres._proof_1' depends on axioms: [propext]
+'Dichrom.fibres.congr_simp' depends on axioms: [propext, Quot.sound]
+'Dichrom.fibres.eq_1' depends on axioms: [propext]
+'Dichrom.fibres.eq_2' depends on axioms: [propext]
+'Dichrom.forbiddenP.eq_1' depends on axioms: [propext, Quot.sound]
+'Dichrom.good.eq_1' does not depend on any axioms
+'Dichrom.horner.eq_1' does not depend on any axioms
+'Dichrom.horner.eq_2' does not depend on any axioms
+'Dichrom.identity2._proof_1_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.identity2._proof_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.identity2._proof_1_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.identity2._proof_1_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.keep.eq_1' does not depend on any axioms
+'Dichrom.mapSum.congr_simp' depends on axioms: [propext, Quot.sound]
+'Dichrom.mapSum.eq_1' depends on axioms: [propext]
+'Dichrom.maps.eq_1' depends on axioms: [propext]
+'Dichrom.maps.eq_2' depends on axioms: [propext]
+'Dichrom.mark.eq_1' does not depend on any axioms
+'Dichrom.mark.eq_2' does not depend on any axioms
+'Dichrom.markedP.eq_1' depends on axioms: [propext, Quot.sound]
+'Dichrom.mass.eq_1' does not depend on any axioms
+'Dichrom.mem_fibres._proof_1' depends on axioms: [propext, Quot.sound]
+'Dichrom.mem_fibres._simp_1_6' depends on axioms: [propext]
+'Dichrom.monotone._proof_1_1' depends on axioms: [propext, Quot.sound]
+'Dichrom.monotone._proof_1_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.monotone._proof_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.monotone._proof_1_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.nonnegative._proof_1_10' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.nonnegative._proof_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.nonnegative._proof_1_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.nonnegative._proof_1_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.nonnegative._proof_1_6' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.nonnegative._proof_1_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.nonnegative._proof_1_8' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.nonnegative._proof_1_9' depends on axioms: [propext, Quot.sound]
+'Dichrom.nonnegative._unary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.normalized.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.palette_polynomial._proof_1_1' depends on axioms: [propext, Quot.sound]
+'Dichrom.palette_polynomial._proof_1_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.palette_polynomial.eraseEmptyAux' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.palette_split._proof_1_9' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.part_info._proof_1_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.part_info._unary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.parts._proof_1' depends on axioms: [propext, Quot.sound]
+'Dichrom.parts.eq_1' depends on axioms: [propext, Quot.sound]
+'Dichrom.parts.eq_2' depends on axioms: [propext, Quot.sound]
+'Dichrom.parts.eq_def' depends on axioms: [propext, Quot.sound]
+'Dichrom.pointing._unary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.polynomial.eq_1' depends on axioms: [propext, Quot.sound]
+'Dichrom.polynomialSetoid._proof_1' does not depend on any axioms
+'Dichrom.positive._proof_1_10' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.positive._proof_1_11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.positive._proof_1_12' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.positive._proof_1_13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.positive._proof_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.positive._proof_1_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.positive._proof_1_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.positive._proof_1_6' depends on axioms: [propext, Quot.sound]
+'Dichrom.positive._proof_1_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.positive._proof_1_8' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.positive._proof_1_9' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.positive._unary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.power_eval._proof_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.proper.eq_1' does not depend on any axioms
+'Dichrom.push.congr_simp' depends on axioms: [Quot.sound]
+'Dichrom.push.eq_1' does not depend on any axioms
+'Dichrom.put.congr_simp' depends on axioms: [Quot.sound]
+'Dichrom.put.eq_1' does not depend on any axioms
+'Dichrom.quotient_monotone._proof_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.quotient_monotone._proof_1_10' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.quotient_monotone._proof_1_11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.quotient_monotone._proof_1_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.quotient_monotone._proof_1_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.quotient_monotone._proof_1_6' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.quotient_monotone._proof_1_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.quotient_monotone._proof_1_8' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.quotient_monotone._proof_1_9' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.quotient_rises._proof_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.quotient_rises._proof_1_10' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.quotient_rises._proof_1_11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.quotient_rises._proof_1_12' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.quotient_rises._proof_1_13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.quotient_rises._proof_1_14' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.quotient_rises._proof_1_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.quotient_rises._proof_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.quotient_rises._proof_1_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.quotient_rises._proof_1_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.quotient_rises._proof_1_8' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.quotient_rises._proof_1_9' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.recursiveH.eq_1' depends on axioms: [propext, Quot.sound]
+'Dichrom.reindex._proof_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.reindex._proof_1_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.reindex._proof_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.reindex._proof_1_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.shameful._proof_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.shameful._proof_1_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.shameful._proof_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.shameful._simp_1_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.shameful_strict._proof_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.shameful_strict._proof_1_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.shameful_strict._proof_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.shameful_strict._simp_1_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.splitSum.eq_1' does not depend on any axioms
+'Dichrom.split_empty_left._proof_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.split_size._proof_1_3' depends on axioms: [propext, Quot.sound]
+'Dichrom.split_size._proof_1_4' depends on axioms: [propext, Quot.sound]
+'Dichrom.split_swap._proof_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.splits.eq_1' does not depend on any axioms
+'Dichrom.splits.eq_2' does not depend on any axioms
+'Dichrom.strict_mono._proof_1_1' depends on axioms: [propext, Quot.sound]
+'Dichrom.strict_mono._proof_1_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.strict_mono._proof_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.strict_mono._proof_1_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.strict_mono._proof_1_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.strict_mono._proof_1_6' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.strict_mono._proof_1_8' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.sumPoly.eq_1' does not depend on any axioms
+'Dichrom.sumPoly.eq_2' does not depend on any axioms
+'Dichrom.sum_nonneg._proof_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.term_le_sum._proof_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.term_le_sum._proof_1_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.term_le_sum._proof_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.total.eq_1' does not depend on any axioms
+'Dichrom.total.eq_2' does not depend on any axioms
+'Dichrom.total_add._proof_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.total_add._proof_1_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.total_append._proof_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.total_append._proof_1_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.total_congr._proof_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.total_indicator._proof_1_1' depends on axioms: [propext, Quot.sound]
+'Dichrom.total_mul._proof_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.total_mul._proof_1_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.weightedP.eq_1' depends on axioms: [propext, Quot.sound]
+'Dichrom.xMinusOne.eq_1' does not depend on any axioms
+'Dichrom.xPower.eq_1' does not depend on any axioms
+'Dichrom.xPower.eq_2' does not depend on any axioms
+'Dichrom.Controls.bidirected_four._proof_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.Controls.bidirected_triangle._proof_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.Controls.complete._proof_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.Controls.cycle3._proof_1' does not depend on any axioms
+'Dichrom.Controls.oriented_triangle._proof_1_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.Controls.triangle_sharpness._proof_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.Digraph.acyclic.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.Digraph.acyclic_false._proof_1_6' depends on axioms: [propext, Quot.sound]
+'Dichrom.Digraph.acyclic_false._simp_1_2' depends on axioms: [propext, Quot.sound]
+'Dichrom.Digraph.acyclic_false._simp_1_4' depends on axioms: [propext, Quot.sound]
+'Dichrom.Digraph.acyclic_false._simp_1_5' depends on axioms: [propext]
+'Dichrom.Digraph.mk.inj' does not depend on any axioms
+'Dichrom.Digraph.mk.injEq' depends on axioms: [propext]
+'Dichrom.Digraph.mk.sizeOf_spec' does not depend on any axioms
+'Dichrom.Digraph.system._proof_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.Digraph.system._proof_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.Digraph.system._proof_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.Digraph.system.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.Poly.C.inj' does not depend on any axioms
+'Dichrom.Poly.C.injEq' depends on axioms: [propext]
+'Dichrom.Poly.C.sizeOf_spec' does not depend on any axioms
+'Dichrom.Poly.X.sizeOf_spec' does not depend on any axioms
+'Dichrom.Poly.add.inj' does not depend on any axioms
+'Dichrom.Poly.add.injEq' depends on axioms: [propext]
+'Dichrom.Poly.add.sizeOf_spec' does not depend on any axioms
+'Dichrom.Poly.brecOn.eq' does not depend on any axioms
+'Dichrom.Poly.cleared.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.Poly.coeffs.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.Poly.degree.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Dichrom.Poly.deriv.eq_1' does not depend on any axioms
+'Dichrom.Poly.deriv.eq_2' does not depend on any axioms
+'Dichrom.Poly.deriv.eq_3' does not depend on any axioms
+'Dichrom.Poly.deriv.eq_4' does not depend on any axioms
+'Dichrom.Poly.eval.eq_1' does not depend on any axioms
+'Dichrom.Poly.eval.eq_2' does not depend on any axioms
+'Dichrom.Poly.eval.eq_3' does not depend on any axioms
+'Dichrom.Poly.eval.eq_4' does not depend on any axioms
+'Dichrom.Poly.mul.inj' does not depend on any axioms
+'Dichrom.Poly.mul.injEq' depends on axioms: [propext]
+'Dichrom.Poly.mul.sizeOf_spec' does not depend on any axioms
+'Dichrom.Poly.subst.eq_1' does not depend on any axioms
+'Dichrom.Poly.subst.eq_2' does not depend on any axioms
+'Dichrom.Poly.subst.eq_3' does not depend on any axioms
+'Dichrom.Poly.subst.eq_4' does not depend on any axioms
+'Dichrom.System.mk.congr_simp' does not depend on any axioms
+'Dichrom.System.mk.inj' does not depend on any axioms
+'Dichrom.System.mk.injEq' depends on axioms: [propext]
+'Dichrom.System.mk.sizeOf_spec' does not depend on any axioms
+Checked 314 public theorem declarations in Dichrom.

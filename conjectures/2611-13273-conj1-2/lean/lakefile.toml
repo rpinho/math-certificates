@@ -1,0 +1,6 @@
+name = "dichrom"
+version = "0.1.0"
+defaultTargets = ["Dichrom"]
+
+[[lean_lib]]
+name = "Dichrom"

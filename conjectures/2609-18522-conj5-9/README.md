@@ -41,3 +41,7 @@ shasum -a 256 -c SHA256SUMS
 # 2. Run producer standalone exact verifier
 python3 -c 'import shutil, subprocess, tempfile; d=tempfile.mkdtemp(); shutil.copy("certificates/witness.json", d); shutil.copy("producer/verify_counterexample.py", d); subprocess.run(["python3", "-B", "verify_counterexample.py"], cwd=d, check=True)'
 ```
+
+## Prior art note on Conjecture 9
+
+Conjecture 9 (printed preperiod formula at seeds 5 and 21) was independently refuted in https://github.com/the-omega-institute/trureturing/pull/34359 (merged 2026-11-26). No first-priority claim is made here for Conjecture 9; Conjecture 5 (period formula counterexample $S_{4,11}$ with period 10 vs printed 9) remains new.

@@ -6,7 +6,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Total digraphs verified in exact Z[x] arithmetic"
     },
     {
@@ -14,7 +14,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Total (D, v) marked pairs verified in exact Z[x] arithmetic"
     },
     {
@@ -22,7 +22,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Exhaustive labeled loopless digraphs on n=2, 3, 4"
     },
     {
@@ -30,7 +30,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Threshold sharpness witness H_{bi-K_3}(1) = -1"
     },
     {
@@ -38,7 +38,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Threshold sharpness witness H_{bi-K_4}(2) = -4"
     },
     {
@@ -164,6 +164,55 @@
       "source": "https://arxiv.org/abs/2611.13273v1",
       "new_bound": false,
       "label": "Date of prior-art check"
+    },
+    {
+      "value": "31959",
+      "kind": "cited",
+      "source": "https://github.com/the-omega-institute/trureturing/pull/31959",
+      "new_bound": false,
+      "label": "Prior merged Mathlib proof PR #31959"
+    },
+    {
+      "value": "31546",
+      "kind": "cited",
+      "source": "https://github.com/the-omega-institute/trureturing/issues/31546",
+      "new_bound": false,
+      "label": "Prior preregistration issue #31546"
+    },
+    {
+      "value": "2026-11-20",
+      "kind": "cited",
+      "source": "https://github.com/the-omega-institute/trureturing/pull/31959",
+      "new_bound": false,
+      "label": "Merge date of prior PR #31959"
+    },
+    {
+      "value": "4.36.0",
+      "kind": "cited",
+      "source": "https://github.com/leanprover/lean4",
+      "new_bound": false,
+      "label": "Lean 4.36.0 toolchain version"
+    },
+    {
+      "value": "36.0",
+      "kind": "cited",
+      "source": "https://github.com/leanprover/lean4",
+      "new_bound": false,
+      "label": "Lean 4.36.0 minor version token"
+    },
+    {
+      "value": "4.36",
+      "kind": "cited",
+      "source": "https://github.com/leanprover/lean4",
+      "new_bound": false,
+      "label": "Lean 4.36 version token"
+    },
+    {
+      "value": "314",
+      "kind": "cited",
+      "source": "lean/AXIOMS.txt",
+      "new_bound": false,
+      "label": "Count of public Lean 4 theorem declarations verified in AXIOMS.txt"
     }
   ]
 }
