@@ -5,7 +5,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Certified minimal (preperiod k, period p, modulus m) of S_{4,11} (d=7), refuting Conjecture 5's formula value p=9"
     },
     {
@@ -13,7 +13,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Certified minimal (k, p, m) of S_{5,10} (d=5), refuting Conjecture 9's formula value k=7"
     },
     {
@@ -264,5 +264,5 @@
       "label": "Second seed 21 in PR #34359"
     }
   ],
-  "scope": "Exact disproofs of Conjectures 5 and 9 of van Berkel and Bosma (arXiv:2609.18522v1)."
+  "scope": "Partial supplement to van Berkel and Bosma (arXiv:2609.18522v1). TrureTuring previously refuted Conjecture 9 with different seeds. This packet certifies S_{5,10} for Conjecture 9 and explicitly refutes Conjecture 5 at S_{4,11}, whose correct period had been tabulated."
 }

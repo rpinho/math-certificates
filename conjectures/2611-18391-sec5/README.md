@@ -1,6 +1,8 @@
-# Coste, Csikos, and Viennot (arXiv:2611.18391v1), Section 5 Outerplanar Equitable Coloring Conjecture: Unconditional Proof
+# Reproduction of the Section 5 outerplanar coloring result as a consequence of Fellows' lemma (arXiv:2611.18391v1)
 
-Unconditional proof settling the Section 5 conjecture (following Corollary `cor:K-outerplanar`) of Louann Coste, Monika Csikos, and Laurent Viennot, *Color Refinement Distinguishes Connected Rooted Outerplanar Graphs* (`arXiv:2611.18391v1`), audited in clean-room isolation (`VERDICT: HOLDS`) with an exact-integer verifier (`referee/referee_verify.py`).
+> Not first. Michael Fellows' earlier singleton-fiber lemma, published by Chimani, Derka, Hliněný and Klusáček in a [preprint](https://arxiv.org/abs/1107.0176v1) submitted on 2011-07-01 at 10:02:30 UTC, implies the full outerplanar-emulator theorem and hence the Section 5 coloring result. Adding a universal vertex to each graph gives a planar emulator of the target cone with a singleton fiber. The lemma makes the target cone planar, and deleting its universal vertex gives an outerplanar drawing of the target.
+
+This packet gives a forbidden-minor proof of the Section 5 statement (following Corollary `cor:K-outerplanar`) of Louann Coste, Monika Csikos, and Laurent Viennot, *Color Refinement Distinguishes Connected Rooted Outerplanar Graphs* (`arXiv:2611.18391v1`), audited in clean-room isolation (`VERDICT: HOLDS`) with an exact-integer verifier (`referee/referee_verify.py`).
 
 ## Main Theorem
 
@@ -21,7 +23,6 @@ By the Chartrand-Harary forbidden-minor characterization, $H$ is outerplanar.
 ## Verification and Disclosure
 
 - **Exact-integer audit:** `referee/referee_verify.py` (pure Python integer arithmetic, zero `math`, `float`, or `/` division) cross-checks two independent outerplanarity oracles across all 996 connected simple graphs on $n \le 7$, verifies all 4800 non-isomorphic connected outerplanar graphs on $n \le 9$, all 1030 exhaustive equitable partitions on $n \le 7$ (including 39 with no singleton class), 9120 color-refinement pairs on $n = 8, 9$, 4933 emulator edge contractions (243 with multi-component $S$), all 27 triangle-free outerplanar graphs with minimum degree at least 2 on $n \le 9$, and 4 proof-mutation controls (`M1` through `M4`).
-- **Prior art:** Checked on arXiv (`v1`), GitHub, X, and the graph-emulator literature as of 2026-11-26 with no prior proof of this conjecture found.
 - **Lean status:** None (elementary minor-theory and block-cut proof audited in clean room and verified in Python).
 - **AI disclosure:** Proof constructed by GPT-6.2 Astra (Codex) and audited in strict clean-room isolation (producer code withheld) by Gemini 4 Carbon High (Antigravity CLI), returning `VERDICT: HOLDS`. No human mathematician has reviewed this packet.
 

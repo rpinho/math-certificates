@@ -13,5 +13,5 @@
     "PROOF.md": "proof",
     "referee/REFEREE.md": "proof"
   },
-  "scope": "Independent marked-vertex proof and standalone zero-Mathlib Lean 4.36.0 formalization (314 declarations, standard axioms only, shifted-coefficient nonnegativity strengthening + strictness iff cyclic) of Conjectures 1 and 2 of Crew et al. (arXiv:2611.13273v1). Prior Mathlib proof trureturing#31959 (2026-11-20) explicitly credited; no first-priority claim. Clean-room referee VERDICT: HOLDS via pure-integer referee_verify.py (4478 digraphs, 18241 marked pairs). No human review."
+  "scope": "Reproduction of Crew et al. (arXiv:2611.13273v1), Conjectures 1 and 2. TrureTuring proved the weak monotonicity that implies both. This packet also proves a strict derivative statement for cyclic digraphs and formalizes its proof in Lean. Lean status: verified (standalone Lean 4.36.0, zero Mathlib, 314 declarations, standard axioms only). No human review."
 }

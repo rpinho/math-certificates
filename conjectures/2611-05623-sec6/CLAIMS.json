@@ -1,12 +1,12 @@
 {
-  "scope": "Unconditional proofs of Section 6 Conjectures 6.1-6.4 of Yaqubi and Mirzavaziri (arXiv:2611.05623v1).",
+  "scope": "Reproduction of Yaqubi and Mirzavaziri (arXiv:2611.05623v1), Conjectures 6.1–6.4. TrureTuring proved 6.1. Conjecture Desk covered 6.2–6.4 with exactness and all five final congruences. s66lem also proved 6.2.",
   "claims": [
     {
       "value": "6635911068",
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Sharpness witness A_6(22) with v_3 = 5"
     },
     {
@@ -22,7 +22,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Sharpness witness A_3(7) and Sturm bound for A_6(12n+10)"
     },
     {
@@ -30,7 +30,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Sharpness witness A_3(11) with v_3 = 4"
     },
     {
@@ -38,7 +38,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Sharpness witness A_4(5) with v_3 = 3"
     },
     {
@@ -46,7 +46,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Sharpness witness A_7(11) with v_3 = 3"
     },
     {
@@ -54,7 +54,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Sharpness witness A_8(15) with v_3 = 5"
     },
     {
@@ -86,7 +86,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Total Sturm progression coefficients verified modulo 3^e"
     },
     {

@@ -1,4 +1,6 @@
-# Proof of Ma, Sahbi, and Zhang (arXiv:2609.25128v4) Conjecture 9.2
+# Reproduction of the sharp sub-quorum bound in Conjecture 9.2 (arXiv:2609.25128v4)
+
+> Not first. Derek Blair proved the same universal inequality for the two optimum partial sub-quorum colorings and sharpness for every $n\ge 2$ using palette incidence. [PR #54, opened on 2026-11-25 at 23:35:23 UTC](https://github.com/derekblair/math-proofs/pull/54).
 
 I present an unconditional elementary proof of Conjecture 9.2 (`\label{conj:ng-upper}`) of Haobo Ma, Rafik Sahbi, and Wenlin Zhang, *Sub-quorum colorings of graphs* ([arXiv:2609.25128v4](https://arxiv.org/abs/2609.25128v4)):
 

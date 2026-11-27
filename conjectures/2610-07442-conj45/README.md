@@ -1,6 +1,8 @@
-# Proof of Hongesberg, Konvalinka, and Linusson (arXiv:2610.07442v1) Conjecture 4.5
+# Reproduction of the extendably 312-avoiding rectangle count in Conjecture 4.5 (arXiv:2610.07442v1)
 
-I present an unconditional algebraic proof of the closed-form formula conjectured by Hans Hongesberg, Matjaz Konvalinka, and Svante Linusson in *Pattern avoidance in alternating sign rectangles I: Extended avoidance* ([arXiv:2610.07442v1](https://arxiv.org/abs/2610.07442v1), Conjecture 4.5, `\label{conj:312-formula}`).
+> Not first. ElonSG and contributors on TrureTuring gave the same four-term enumeration for every admissible $r,k,d$, including $d=0$. [PR #14905](https://github.com/the-omega-institute/trureturing/pull/14905) opened on 2026-10-09 at 21:12:51 UTC. Its checked Lean revision is dated 2026-10-10 at 15:52:32 UTC, and the PR closed on 2026-10-12 without merging. [Knowledge Sense](https://raw.githubusercontent.com/KnowledgeSense/math/91f1bdd2a10abeb28acc742ce3ee884874caf124/preprints/Enumeration-of-Extendably-312-Avoiding-Alternating-Sign-Rectangles-October-12-2026/lean/README.md) also gave a full-domain proof in a commit dated 2026-10-14 at 06:28:04 UTC.
+
+I present an unconditional algebraic proof of the closed-form formula conjectured by Hans Höngesberg, Matjaž Konvalinka, and Svante Linusson in *Pattern avoidance in alternating sign rectangles I: Extended avoidance* ([arXiv:2610.07442v1](https://arxiv.org/abs/2610.07442v1), Conjecture 4.5, `\label{conj:312-formula}`).
 
 For all integers $0 \le d \le \min(r, k)$, the number $S^{312}_{r,k,d}$ of $r \times k$ alternating sign rectangles with $d$ nonempty rows that extendably avoid $312$ equals
 

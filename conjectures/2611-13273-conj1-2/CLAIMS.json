@@ -1,5 +1,5 @@
 {
-  "scope": "Unconditional proof of Conjectures 1 and 2 of Crew et al. (arXiv:2611.13273v1).",
+  "scope": "Reproduction of Crew et al. (arXiv:2611.13273v1), Conjectures 1 and 2. TrureTuring proved the weak monotonicity that implies both. This packet also proves a strict derivative statement for cyclic digraphs and formalizes its proof in Lean.",
   "claims": [
     {
       "value": "4478",

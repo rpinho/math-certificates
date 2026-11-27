@@ -1,12 +1,12 @@
 {
-  "scope": "Exact disproofs of both parts of Conjecture 6.1 of Banerjee and Smoot (arXiv:2611.09681v1).",
+  "scope": "Reproduction of AmirMakir's two exact counterexamples to Banerjee and Smoot (arXiv:2611.09681v1), Conjecture 6.1. The same coefficients give residues 33 and 55 modulo 121. This packet formalizes both parts in Lean.",
   "claims": [
     {
       "value": "62043410886974649205238011198",
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Exact coefficient p^[1]_36(54) refuting Part 1 of Conjecture 6.1"
     },
     {
@@ -14,7 +14,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Exact coefficient p^[2]_40(54) refuting Part 2 of Conjecture 6.1"
     },
     {

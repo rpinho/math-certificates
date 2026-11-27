@@ -5,7 +5,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify_repaired.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Exact sequential CDF P(N_G^seq <= 6) = 64/3375 on all three minimal n=15 counterexamples"
     },
     {
@@ -13,7 +13,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify_repaired.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Exact static CDF P(N_G^stat <= 6) = 1/55 on all three minimal n=15 counterexamples"
     },
     {
@@ -21,7 +21,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify_repaired.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Sharp minimum vertex order n = 15 of a counterexample to Conjecture 5.2"
     },
     {
@@ -335,5 +335,5 @@
       "label": "Minor.patch part of Lean 4.36.0 toolchain version"
     }
   ],
-  "scope": "Exact disproof and sharp n=15 classification for arXiv:2611.14718v2 Conjecture 5.2."
+  "scope": "Partial supplement to Higuita-Díaz, López and Roldán-Correa (arXiv:2611.14718v2), Conjecture 5.2. AmirMakir gave the same tree and sharp minimum order 15. Ojas Mor also disclosed the tree. This packet adds a complete order-15 classification, two unicyclic witnesses and the general F_m family."
 }

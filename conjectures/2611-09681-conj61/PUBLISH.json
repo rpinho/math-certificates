@@ -1,6 +1,6 @@
 {
   "target": "teorth/erdosproblems",
-  "new_bound": true,
+  "new_bound": false,
   "lean_status": "verified (standalone Lean 4.36.0, zero Mathlib, standard axioms only)",
   "producer_model": "GPT-6.1 Sol via Codex",
   "producer_author": "GPT-6.1 Sol via Codex",
@@ -12,5 +12,5 @@
     "certificates/witness.json": "certificate",
     "referee/REFEREE.md": "proof"
   },
-  "scope": "Exact disproofs of both parts of Conjecture 6.1 (conj:families) of Banerjee and Smoot (arXiv:2611.09681v1): at alpha=3, n=0, delta=54, p^[1]_36(54) = 62043410886974649205238011198 == 33 (mod 121) and p^[2]_40(54) = 66134580699742235651549220246110 == 55 (mod 121), strictly minimal across a in [-50, 100], alpha <= 3, n <= 5. Lean status: verified (standalone Lean 4.36.0, zero Mathlib, standard axioms [propext, Classical.choice, Quot.sound]). No human review."
+  "scope": "Reproduction of AmirMakir's two exact counterexamples to Banerjee and Smoot (arXiv:2611.09681v1), Conjecture 6.1. The same coefficients give residues 33 and 55 modulo 121. This packet formalizes both parts in Lean. Lean status: verified (standalone Lean 4.36.0, zero Mathlib, standard axioms only). No human review."
 }

@@ -1,6 +1,10 @@
-# Disproof of Lewis and Won (arXiv:2609.03081v1) Conjecture 3.14
+# Partial supplement to Lewis and Won, Conjecture 3.14 (arXiv:2609.03081v1)
 
-This packet refutes Conjecture 3.14 (`\label{conj:maxlayered}`, TeX line `754`) of Joel Brewster Lewis and Robert Won, *Non-attacking rook placements on crossword grids* ([arXiv:2609.03081v1](https://arxiv.org/abs/2609.03081v1)).
+> Partly not first. Xiaojian Zeng proved the order-nine case by exhaustively computing the global maximum $r(9)=28{,}549$ over all $9!$ permutations. The [dated manuscript](https://raw.githubusercontent.com/ArtificialZeng/AI-Has-Taste/f3ae144b74f238f22c2b84b5283cb14ce912fd33/reproducible_source_code/BigWIN2/BW2-B41-P04/source/manuscript/main.tex) was committed on 2026-09-16 at 20:22:55 UTC.
+>
+> The priority audit found no earlier exact refutation at $n=17$ or $n=18$ and no earlier global maxima at $n=10$ through $n=14$. Those cases are the supplement.
+
+The counterexamples below refute Conjecture 3.14 (`\label{conj:maxlayered}`, TeX line `754`) of Joel Brewster Lewis and Robert Won, *Non-attacking rook placements on crossword grids* ([arXiv:2609.03081v1](https://arxiv.org/abs/2609.03081v1)).
 
 This is AI work. No human has checked it. **Lean status:** `verified` (standalone Lean 4, zero Mathlib, zero `sorry`, standard axioms `[propext, Classical.choice, Quot.sound]`; see [`lean/`](lean/)).
 
@@ -23,7 +27,7 @@ has `32` across words and `32` down words and admits strictly more complete non-
 
 ## Global maxima through n = 14 and minimality scope
 
-Both producer and clean-room referee independently proved that the conjecture holds unconditionally over all $n!$ permutations through $n = 14$ (covering all `87178291200` permutations of $S_{14}$ by exact branch-and-bound), establishing the five global maxima:
+Both producer and clean-room referee independently proved that the conjecture holds unconditionally over all $n!$ permutations through $n = 14$ (covering all `87178291200` permutations of $S_{14}$ by exact branch-and-bound), including the following five global maxima:
 
 - $r(10) = 255569$, $r(11) = 3316625$, $r(12) = 46301969$, $r(13) = 680707985$, $r(14) = 10353226769$.
 

@@ -1,4 +1,8 @@
-# Disproof of Banerjee-Smoot Conjecture 6.1 (arXiv:2611.09681v1)
+# Reproduction of the two 11-adic counterexamples to Banerjee–Smoot Conjecture 6.1 (arXiv:2611.09681v1)
+
+> Not first. AmirMakir gave the same two exact counterexamples at $a=36$ and $a=40$, with $\alpha=3$, $n=0$ and $\delta=54$. Both exact coefficients and residues $33$ and $55$ modulo $121$ match. The [earlier write-up](https://github.com/AmirMakir/broken-conjectures/commit/234e28fc050dc60282f18f3a185e669d4f7cd335) is dated 2026-11-25 at 13:33:26 UTC and was public by 16:02:01 UTC that day. The earlier Python check covers both parts and the earlier Lean proof covers Part 1. This packet's Lean proof covers both parts.
+
+This is AI work. No human has checked it.
 
 ## Result
 
@@ -28,10 +32,9 @@ Across all `151` integers `a in [-50, 100]`, all `alpha in {1, 2, 3}`, and all `
 
 ## Verification
 
-- **Producer:** GPT-6.1 Sol via Codex (initial discovery and exact finite truncation check).
+- **Producer:** GPT-6.1 Sol via Codex (counterexample calculation by exact finite truncation).
 - **Clean-room cross-family referee:** Gemini 4 Carbon High via Antigravity CLI (producer code withheld), returning `VERDICT: HOLDS` via two independent exact integer algorithms (direct truncated product expansion and Euler logarithmic-derivative divisor recurrence).
 - **Lean status:** verified (standalone Lean `4.36.0` proof in `lean/BanerjeeSmootConj61.lean`, zero Mathlib, zero `sorry`/`admit`/`axiom`/`native_decide`, standard axioms `[propext, Classical.choice, Quot.sound]` only, `20` public theorems including `truncation_invariance`, `banerjee_smoot_conj61_part1_false`, `banerjee_smoot_conj61_part2_false`, `lake build` and `leanchecker` pass; no human referee review).
-- **Prior-art check (2026-11-26):** Live arXiv check (`v1` only), GitHub repositories and issues (`trureturing`, `solved-conjectures`, global search), OpenAlex, and X search (`grok-x-search`) found zero prior counterexamples or corrections.
 
 Reproduce with zero external dependencies (Python 3 standard library):
 

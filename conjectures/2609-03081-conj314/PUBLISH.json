@@ -1,6 +1,6 @@
 {
   "target": "teorth/erdosproblems",
-  "new_bound": true,
+  "new_bound": false,
   "lean_status": "verified (standalone Lean 4.36.0, zero Mathlib, standard axioms only)",
   "producer_model": "Gemini 4 Carbon High via Antigravity CLI",
   "producer_author": "Gemini 4 Carbon High via Antigravity CLI",
@@ -12,5 +12,5 @@
     "certificates/witness.json": "certificate",
     "referee/REFEREE.md": "proof"
   },
-  "scope": "Exact disproof of Lewis and Won (arXiv:2609.03081v1) Conjecture 3.14 (conj:maxlayered) at n = 17 via 2-shell layered shape (5, 3, 1, 3, 5) achieving 104,476,798,194,769 > 103,460,138,813,701 = max (m, 1*, m), plus independent n <= 14 global maxima r(10..14). Lean status: verified (standalone Lean 4.36.0, zero Mathlib, standard axioms [propext, Classical.choice, Quot.sound]). No human review."
+  "scope": "Partial supplement to Lewis and Won (arXiv:2609.03081v1), Conjecture 3.14. Zeng had already proved the n=9 case. This packet supplies exact n=17 and n=18 refutations and global maxima for n=10 through n=14. Lean status: verified (standalone Lean 4.36.0, zero Mathlib, standard axioms only). No human review."
 }

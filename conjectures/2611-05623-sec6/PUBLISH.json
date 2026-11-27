@@ -1,6 +1,6 @@
 {
   "target": "teorth/erdosproblems",
-  "new_bound": true,
+  "new_bound": false,
   "lean_status": "none",
   "producer_model": "GPT-6.2 Astra via Codex",
   "producer_author": "GPT-6.2 Astra via Codex",
@@ -13,5 +13,5 @@
     "PROOF.md": "proof",
     "referee/REFEREE.md": "proof"
   },
-  "scope": "Unconditional proofs of Conjectures 6.2 (conj:B2adic), 6.3 (conj:A6, universal proof for all n>=0), and 6.4 (conj:deep, all 5 congruences) of Yaqubi and Mirzavaziri (arXiv:2611.05623v1), plus independent proof of Conjecture 6.1 (prior proof trureturing#33580 credited; aftd-platform finite n=0,1 checks of Conj 6.3 credited). Clean-room referee VERDICT: HOLDS via pure-integer referee_verify.py (1315 Sturm checks). Lean status: none. No human review."
+  "scope": "Reproduction of Yaqubi and Mirzavaziri (arXiv:2611.05623v1), Conjectures 6.1–6.4. TrureTuring proved 6.1. Conjecture Desk covered 6.2–6.4 with exactness and all five final congruences. s66lem also proved 6.2. Lean status: none. No human review."
 }

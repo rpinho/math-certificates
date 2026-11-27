@@ -5,7 +5,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Sharp Nordhaus-Gaddum upper bound psi_sq(G) + psi_sq(bar G) <= n + 2 for every finite simple graph G of order n >= 2"
     },
     {
@@ -13,7 +13,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Sharp Lemma 3 handshaking degree-weight upper bound Sigma(H) <= m + 5/2 on every m-vertex simple graph H"
     },
     {
@@ -257,5 +257,5 @@
       "label": "Lean 4 major version"
     }
   ],
-  "scope": "Unconditional elementary proof of Ma, Sahbi, and Zhang (arXiv:2609.25128v4) Conjecture 9.2 for all finite simple graphs of order n >= 2."
+  "scope": "Reproduction of Derek Blair's sharp universal complementary sub-quorum bound in Ma, Sahbi, and Zhang (arXiv:2609.25128v4), Conjecture 9.2. This proof uses reciprocal class-size weights."
 }

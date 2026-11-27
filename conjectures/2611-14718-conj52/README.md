@@ -1,6 +1,10 @@
-# Disproof and Sharp n = 15 Classification for Higuita-Diaz, Lopez, and Roldan-Correa (arXiv:2611.14718v2) Conjecture 5.2
+# Partial supplement to Higuita-Díaz, López and Roldán-Correa, Conjecture 5.2 (arXiv:2611.14718v2)
 
-This packet refutes Conjecture 5.2 (`\label{conj:grado3}`) of Robinson Higuita-Diaz, Lykos Lopez, and Alejandro Roldan-Correa, *Random Sequential Adsorption versus the Uniform Ensemble of Jammed Configurations: Stochastic Dominance on Graphs* ([arXiv:2611.14718v2](https://arxiv.org/abs/2611.14718v2)), and establishes **`15`** as the sharp minimum vertex order of a counterexample.
+> Partly not first. AmirMakir previously refuted Conjecture 5.2 with the same 15-vertex tree and the same CDF gap, $64/3375 > 1/55$, in a [write-up](https://github.com/AmirMakir/broken-conjectures/commit/98ebee5037f45ab9812aa220518852e449438b28) committed on 2026-11-25 at 13:06:44 UTC. AmirMakir established the sharp minimum of 15 vertices in a later [through-order-14 census](https://github.com/AmirMakir/broken-conjectures/commit/bc5bc1d5fb0baab9ec9ea422087432865bbcfabc), committed at 14:25:06 UTC the same day. Both were public by 16:02:01 UTC. [Ojas Mor](https://github.com/lykoslopezrivera-blip/Stochastic_Dominance_DPP_Graphs/issues/1) also disclosed the same tree on 2026-11-26 at 00:04:53 UTC.
+>
+> This packet adds the complete order-15 classification, the two unicyclic witnesses and the general tree family $F_m$ for $m\ge 3$. The priority audit found no earlier account of those additions.
+
+This packet gives the complete order-15 classification of counterexamples to Conjecture 5.2 (`\label{conj:grado3}`) of Robinson Higuita-Diaz, Lykos Lopez, and Alejandro Roldan-Correa, *Random Sequential Adsorption versus the Uniform Ensemble of Jammed Configurations: Stochastic Dominance on Graphs* ([arXiv:2611.14718v2](https://arxiv.org/abs/2611.14718v2)).
 
 This is AI work. No human has checked it. **Lean status:** `verified` (standalone Lean 4, zero Mathlib, zero `sorry`, standard axioms `[propext, Classical.choice, Quot.sound]`; see [`lean/`](lean/)).
 
@@ -10,7 +14,7 @@ This is AI work. No human has checked it. **Lean status:** `verified` (standalon
 
 The paper's authors verified all `27525` connected subcubic graphs through order `12`.
 
-## Main result: sharp minimum order 15 and exact classification
+## Reproduced minimum order and complete order-15 classification
 
 Independent exhaustive enumeration of all `1375631` non-isomorphic connected simple graphs with $\Delta(G) \le 3$ through order `15` (and the paper's component corollary for disconnected graphs) establishes:
 

@@ -1,12 +1,12 @@
 {
-  "scope": "Unconditional proof of Section 5 outerplanar equitable coloring conjecture of Coste, Csikos, and Viennot (arXiv:2611.18391v1).",
+  "scope": "Reproduction of the Coste, Csikós and Viennot (arXiv:2611.18391v1) Section 5 equitable-coloring result and its outerplanar-emulator form, both implied by Fellows' singleton-fiber lemma published in 2011. This packet gives a forbidden-minor proof.",
   "claims": [
     {
       "value": "4800",
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "All non-isomorphic connected outerplanar graphs on n<=9 verified"
     },
     {
@@ -14,7 +14,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "All exhaustive equitable partitions of outerplanar graphs n<=7 verified"
     },
     {
@@ -22,7 +22,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Color-refinement pairs on n=8, 9 verified"
     },
     {
@@ -30,7 +30,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Emulator edge contractions verified"
     },
     {
@@ -38,7 +38,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "All triangle-free delta>=2 outerplanar graphs on n<=9 verified"
     },
     {
@@ -46,7 +46,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "All connected simple graphs n<=7 with 100% dual-oracle agreement"
     },
     {

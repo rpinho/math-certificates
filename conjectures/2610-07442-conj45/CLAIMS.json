@@ -5,7 +5,7 @@
       "kind": "rigorous",
       "producer": "referee/referee_verify_standalone.py",
       "arithmetic": "exact",
-      "new_bound": true,
+      "new_bound": false,
       "label": "Unconditional closed-form formula for extendably 312-avoiding alternating sign rectangles for all 0 <= d <= min(r, k)"
     },
     {
@@ -237,5 +237,5 @@
       "label": "Unit base case C(-1, 0) = 1 and minimum positive row index"
     }
   ],
-  "scope": "Unconditional algebraic proof of Hongesberg, Konvalinka, and Linusson (arXiv:2610.07442v1) Conjecture 4.5 for all integers 0 <= d <= min(r, k)."
+  "scope": "Reproduction by generating functions of the full-domain four-term count in Höngesberg, Konvalinka, and Linusson (arXiv:2610.07442v1), Conjecture 4.5, previously proved by TrureTuring and Knowledge Sense."
 }

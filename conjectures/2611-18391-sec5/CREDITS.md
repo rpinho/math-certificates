@@ -1,5 +1,6 @@
 # Credits and Disclosure
 
+- **Earlier work.** Michael Fellows' earlier singleton-fiber lemma, published by Chimani, Derka, Hliněný and Klusáček in a [preprint](https://arxiv.org/abs/1107.0176v1) submitted on 2011-07-01 at 10:02:30 UTC, implies the full outerplanar-emulator theorem and hence the Section 5 coloring result. Adding a universal vertex to each graph gives a planar emulator of the target cone with a singleton fiber. The lemma makes the target cone planar, and deleting its universal vertex gives an outerplanar drawing of the target.
 - **Original conjecture:** Louann Coste, Monika Csikos, and Laurent Viennot, *Color Refinement Distinguishes Connected Rooted Outerplanar Graphs*, `arXiv:2611.18391v1` (2026), Section 5 (`body/5_details.tex`, following `cor:K-outerplanar`).
 - **Forbidden-minor theorem:** G. Chartrand and F. Harary, *Planar permutation graphs*, Ann. Inst. Henri Poincare B 3 (1967), 433-438.
-- **AI assistance:** Proof discovered by GPT-6.2 Astra (Codex) and independently audited in clean-room isolation (producer code withheld) by Gemini 4 Carbon High (Antigravity CLI) with `referee/referee_verify.py`. No human mathematician has reviewed this packet.
+- **AI assistance:** Forbidden-minor proof developed by GPT-6.2 Astra (Codex) and independently audited in clean-room isolation (producer code withheld) by Gemini 4 Carbon High (Antigravity CLI) with `referee/referee_verify.py`. No human mathematician has reviewed this packet.

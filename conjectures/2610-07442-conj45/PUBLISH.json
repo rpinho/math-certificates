@@ -1,6 +1,6 @@
 {
   "target": "teorth/erdosproblems",
-  "new_bound": true,
+  "new_bound": false,
   "lean_status": "none",
   "producer_model": "Gemini 4 Carbon High via Antigravity CLI",
   "producer_author": "Gemini 4 Carbon High via Antigravity CLI",
@@ -13,5 +13,5 @@
     "referee/REFEREE.md": "proof",
     "referee/verification.txt": "certificate"
   },
-  "scope": "Unconditional algebraic generating-function proof of Hongesberg, Konvalinka, and Linusson (arXiv:2610.07442v1) Conjecture 4.5 (closed-form formula for extendably 312-avoiding alternating sign rectangles S^{312}_{r,k,d} for all 0 <= d <= min(r, k)). Lean status: none. No human review."
+  "scope": "Reproduction by generating functions of the full-domain four-term count in Höngesberg, Konvalinka, and Linusson (arXiv:2610.07442v1), Conjecture 4.5, previously proved by TrureTuring and Knowledge Sense. Lean status: none. No human review."
 }

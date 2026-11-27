@@ -1,6 +1,10 @@
-# Disproof of van Berkel and Bosma (arXiv:2609.18522v1) Conjectures 5 and 9
+# Partial supplement to van Berkel and Bosma, Conjectures 5 and 9 (arXiv:2609.18522v1)
 
-This packet refutes both Conjecture 5 (`\label{conj:per}`, period formula $\mathcal{L}_f(d)$) and Conjecture 9 (`\label{conj:pre}`, preperiod formula $\mathcal{K}_r(d, f)$) as stated in Daan van Berkel and Wieb Bosma, *Periodicity conjectures for all 2-sumfree sequences* ([arXiv:2609.18522v1](https://arxiv.org/abs/2609.18522v1)).
+> Partly not first. TrureTuring's macstudio-2[bot] refuted the printed preperiod formula in Conjecture 9 with seeds $(251,1005)$ on 2026-11-26 at 00:14:49 UTC. [Exact certificate in the issue comment](https://github.com/the-omega-institute/trureturing/issues/34312#issuecomment-7178554093). The same conjecture was later refuted in Lean at $(5,21)$ in [PR #34359](https://github.com/the-omega-institute/trureturing/pull/34359), opened on 2026-11-26 at 02:57:37 UTC.
+>
+> This packet gives a different Conjecture 9 witness, $S_{5,10}$. It also explicitly refutes the printed period formula in Conjecture 5 at $S_{4,11}$. The source paper already tabulated that sequence's correct period, $10$. The priority audit found no earlier explicit refutation of Conjecture 5.
+
+The witnesses below refute Conjecture 5 (`\label{conj:per}`, period formula $\mathcal{L}_f(d)$) and Conjecture 9 (`\label{conj:pre}`, preperiod formula $\mathcal{K}_r(d, f)$) as stated in Daan van Berkel and Wieb Bosma, *Periodicity conjectures for all 2-sumfree sequences* ([arXiv:2609.18522v1](https://arxiv.org/abs/2609.18522v1)).
 
 This is AI work. No human has checked it. **Lean status:** `verified` (standalone Lean 4, zero Mathlib, zero `sorry`, standard axioms `[propext, Classical.choice, Quot.sound]`; see [`lean/`](lean/)).
 
@@ -41,7 +45,3 @@ shasum -a 256 -c SHA256SUMS
 # 2. Run producer standalone exact verifier
 python3 -c 'import shutil, subprocess, tempfile; d=tempfile.mkdtemp(); shutil.copy("certificates/witness.json", d); shutil.copy("producer/verify_counterexample.py", d); subprocess.run(["python3", "-B", "verify_counterexample.py"], cwd=d, check=True)'
 ```
-
-## Prior art note on Conjecture 9
-
-Conjecture 9 (printed preperiod formula at seeds 5 and 21) was independently refuted in https://github.com/the-omega-institute/trureturing/pull/34359 (merged 2026-11-26). No first-priority claim is made here for Conjecture 9; Conjecture 5 (period formula counterexample $S_{4,11}$ with period 10 vs printed 9) remains new.
