@@ -1,0 +1,73 @@
+{
+  "scope": "For every integer n > r >= 1, the maximum close-skew length and theta(VR(I_n;r)) both equal 2^r, settling Selvaraja's Conjectures 5.9 and 3.6 and implying Shukla's collapsibility conjecture. The proof is deductive. The Python checkers test finite consequences. Clean-room verdict: HOLDS. Lean status: none. No human mathematician has reviewed the packet.",
+  "claims": [
+    {
+      "value": "2^r",
+      "kind": "rigorous",
+      "producer": "certificates/verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Sharp general close-skew length and theta equality, with Shukla's collapsibility equality as a corollary",
+      "proof": "PROOF.md",
+      "verification_scope": "The producer script checks finite instances. The universal statement is proved in PROOF.md and assessed in the referee report."
+    },
+    {
+      "value": "2^{r+1}",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.20820v1",
+      "new_bound": false,
+      "label": "Gao and Zhao's skew Hamming bound, established directly for the binary case in this proof"
+    },
+    {
+      "value": "32",
+      "kind": "rigorous",
+      "producer": "certificates/verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Rank of the far-distance kernel in dimension ten at scale four"
+    },
+    {
+      "value": "16",
+      "kind": "rigorous",
+      "producer": "certificates/verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Sharp close-skew length in the finite dimension-ten and scale-four certificate"
+    },
+    {
+      "value": "5.9",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.20820v1",
+      "new_bound": false,
+      "label": "Conjecture number for close-skew length"
+    },
+    {
+      "value": "3.6",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.20820v1",
+      "new_bound": false,
+      "label": "Conjecture number for theta"
+    },
+    {
+      "value": "2611.20820",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.20820v1",
+      "new_bound": false,
+      "label": "Selvaraja's arXiv identifier"
+    },
+    {
+      "value": "6.2",
+      "kind": "cited",
+      "source": "https://openai.com/",
+      "new_bound": false,
+      "label": "GPT-6.2 Astra model version"
+    },
+    {
+      "value": "5.5",
+      "kind": "cited",
+      "source": "https://www.anthropic.com/",
+      "new_bound": false,
+      "label": "Claude Opus 5.5 model version"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "model": "Claude Opus 5.5",
+  "author": "separate Claude Opus 5.5 clean-room referee session",
+  "producer_author": "GPT-6.2 Astra via Codex",
+  "status": "PASS",
+  "value": "2^r",
+  "values": [
+    "2^r"
+  ],
+  "arithmetic": "exact",
+  "inputs": {
+    "PROOF.md": "7a2310fac91a00c26dfe7cdbf7428ed695161c98842cbbde48c2021815281ffb",
+    "referee/REFEREE.md": "c658ee218a3237c8659efe2b5c30f25ee3786c2f209946a456f976453f8518c6",
+    "certificates/rank_kernel.json": "6dc88b7787f0653681a632e2f2b6f2fed3fef4b684cf417d1d84896046e6a53e"
+  },
+  "inputs_hash": "87a9ead6e8a944b3cf069f03ff1fae05b11a5054471729779b187ddcc538b06d",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/referee_verify.py",
+  "checker_sha256": "9e598b615e445e71b0d40942851ecc218c649c5740bbcf7fe7dfd18d03f27019",
+  "report": "referee/REFEREE.md",
+  "report_sha256": "c658ee218a3237c8659efe2b5c30f25ee3786c2f209946a456f976453f8518c6",
+  "note": "The original referee read the producer's proof and Selvaraja v1, then wrote a separate checker. The input hashes bind the staged proof, referee report and finite rank table to this packet. The producer verifier checks the rank table. The referee verifier builds its own finite examples. The value is established for all n > r >= 1 by the audited deductive proof.",
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "certificates/verify.py",
+        "controls"
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 0.34,
+      "peak_rss_bytes": 47841280
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "certificates/verify.py",
+        "five"
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 0.2,
+      "peak_rss_bytes": 50151424
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "certificates/verify.py",
+        "kernel"
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 0.04,
+      "peak_rss_bytes": 27918336
+    },
+    {
+      "command": [
+        "python3",
+        "-I",
+        "-B",
+        "referee/referee_verify.py"
+      ],
+      "exit_code": 0,
+      "runtime_seconds": 6.49,
+      "peak_rss_bytes": 233750528
+    }
+  ]
+}

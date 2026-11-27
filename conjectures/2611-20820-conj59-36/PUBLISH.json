@@ -1,0 +1,17 @@
+{
+  "target": "teorth/erdosproblems",
+  "new_bound": true,
+  "lean_status": "none",
+  "producer_model": "GPT-6.2 Astra via Codex",
+  "producer_author": "GPT-6.2 Astra via Codex",
+  "referee_model": "Claude Opus 5.5",
+  "submitter": "rpinho",
+  "destination": "conjectures/2611-20820-conj59-36",
+  "certificate_repository": "rpinho/math-certificates",
+  "replay_inputs": {
+    "PROOF.md": "proof",
+    "referee/REFEREE.md": "proof",
+    "certificates/rank_kernel.json": "certificate"
+  },
+  "scope": "For every integer n > r >= 1, the maximum close-skew length and theta(VR(I_n;r)) both equal 2^r, settling Selvaraja's Conjectures 5.9 and 3.6 and implying Shukla's collapsibility conjecture. The proof is deductive. The Python checkers test finite consequences. Clean-room verdict: HOLDS. Lean status: none. No human mathematician has reviewed the packet."
+}
