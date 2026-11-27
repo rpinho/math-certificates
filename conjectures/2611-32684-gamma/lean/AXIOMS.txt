@@ -1,0 +1,37 @@
+'Gamma.eval_shift' depends on axioms: [propext]
+'Gamma.eval_plus' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.eval_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.eval_times' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.total_const' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.total_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.palette_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.eval_over' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.compile_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.sumOut_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.mem_assignments' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.nodup_assignments' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.eliminate_correct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.adj_symmetric' does not depend on any axioms
+'Gamma.adj_irreflexive' does not depend on any axioms
+'Gamma.proper_iff_adj' does not depend on any axioms
+'Gamma.chiPoly_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.simple_G' depends on axioms: [propext]
+'Gamma.twenty_edges' depends on axioms: [propext]
+'Gamma.five_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.not_bipartite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.witness_polynomial' depends on axioms: [propext]
+'Gamma.chromatic_poly_matches_colorings' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.chi_at_two' does not depend on any axioms
+'Gamma.deriv_at_two' does not depend on any axioms
+'Gamma.signed_derivative' does not depend on any axioms
+'Gamma.gamma_eq_neg_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.twice_gamma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.gamma_negative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.palette_controls' does not depend on any axioms
+'Gamma.K3_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.K4_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.K3_gamma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.K4_gamma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.three_connected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.three_vertex_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Gamma.supkar_yaddanapudi_conjecture_false' depends on axioms: [propext, Classical.choice, Quot.sound]

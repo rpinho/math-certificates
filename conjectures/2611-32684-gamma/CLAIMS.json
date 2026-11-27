@@ -268,6 +268,34 @@
       "source": "referee/REFEREE.md",
       "new_bound": false,
       "label": "Verifier wall-clock seconds"
+    },
+    {
+      "value": "4.36.0",
+      "kind": "cited",
+      "source": "https://github.com/leanprover/lean4",
+      "new_bound": false,
+      "label": "Lean 4.36.0 toolchain version"
+    },
+    {
+      "value": "36.0",
+      "kind": "cited",
+      "source": "https://github.com/leanprover/lean4",
+      "new_bound": false,
+      "label": "Lean 4.36.0 minor token"
+    },
+    {
+      "value": "4.36",
+      "kind": "cited",
+      "source": "https://github.com/leanprover/lean4",
+      "new_bound": false,
+      "label": "Lean 4.36 version token"
+    },
+    {
+      "value": "37",
+      "kind": "cited",
+      "source": "lean/AXIOMS.txt",
+      "new_bound": false,
+      "label": "Count of public Lean 4 theorems verified in lean/AXIOMS.txt"
     }
   ]
 }

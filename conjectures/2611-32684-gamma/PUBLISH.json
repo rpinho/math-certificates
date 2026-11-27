@@ -1,7 +1,7 @@
 {
   "target": "teorth/erdosproblems",
   "new_bound": true,
-  "lean_status": "none",
+  "lean_status": "verified (standalone Lean 4.36.0, zero Mathlib, 37 theorems, standard axioms only)",
   "producer_model": "GPT-6.2 Astra via Codex",
   "producer_author": "GPT-6.2 Astra via Codex",
   "referee_model": "Gemini 4 Carbon High via Antigravity CLI (clean-room, producer code withheld)",
@@ -13,5 +13,5 @@
     "PROOF.md": "proof",
     "referee/REFEREE.md": "proof"
   },
-  "scope": "Exact 11-vertex, 20-edge 3-connected non-bipartite counterexample (two K_{3,3} sharing one vertex plus a 2-edge matching) refuting the Section 5 Discussion conjecture of Supkar and Yaddanapudi (arXiv:2611.32684v1), with chi_G(2)=0, chi'_G(2)=-2, and gamma(G)=-1 < 0. Clean-room referee VERDICT: HOLDS via 4 independent exact-integer algorithms and all 55 pair-deletion checks (0.60s). Lean status: none. No human review."
+  "scope": "Exact 11-vertex, 20-edge 3-connected non-bipartite counterexample (two K_{3,3} sharing one vertex plus a 2-edge matching) refuting the Section 5 Discussion conjecture of Supkar and Yaddanapudi (arXiv:2611.32684v1), with chi_G(2)=0, chi'_G(2)=-2, and gamma(G)=-1 < 0. Clean-room referee VERDICT: HOLDS via 4 independent exact-integer algorithms and all 55 pair-deletion checks (0.60s). Lean status: verified (standalone Lean 4.36.0, zero Mathlib, 37 theorems, standard axioms [propext, Classical.choice, Quot.sound]). No human review."
 }
