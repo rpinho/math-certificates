@@ -1,0 +1,151 @@
+{
+  "model": "Claude Opus 5.5",
+  "author": "Separate clean-room Claude Opus 5.5 referee session",
+  "producer_author": "GPT-6.2 Sol via Codex",
+  "status": "PASS",
+  "value": "45",
+  "values": [
+    "45"
+  ],
+  "arithmetic": "exact",
+  "inputs": {
+    "certificates/WITNESSES.tsv": "a76c5cd482091f4580b6c4bc36a988c869a4f5deac91827572778700ebfcc23f",
+    "PROOF.md": "4b7a7c995764f0c82c9b12b62c2bf513563d70ed4a2e2a3346c7f045d15986b9",
+    "referee/REPORT.md": "e53dc07a3b38474236c696de43bf74ff60eafa38c5ca9c1e4bd4591fa09fc9a0"
+  },
+  "inputs_hash": "a73b0063a3d276457cfcbc9ed578d2c17c72328d0657559b23ee84a23c5a1e63",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/referee_solver.py",
+  "checker_sha256": "2fa6f0fc58c779f91f826dcb61a1af378a06fd6fcd833604c50237fdd84fbcd1",
+  "report": "referee/REPORT.md",
+  "report_sha256": "e53dc07a3b38474236c696de43bf74ff60eafa38c5ca9c1e4bd4591fa09fc9a0",
+  "referee_driver": "referee/check_witnesses.py",
+  "referee_driver_sha256": "d1e07a730980542ca494b69a14e016a8147267668c387a9e461b7489f8bd8d61",
+  "referee_replay_spec": "The clean-room report verifies 49 distinct refuted tuples. The replay computes all 49 from the referee results and counts 45 after excluding the four explicit earlier settlements in PRIOR_ART.md.",
+  "referee_outcomes": {
+    "confirmed": 149,
+    "rejected": 0,
+    "unclear_offset": 24,
+    "not_a_refutation": 4,
+    "confirmed_definition_3_4_rows": 50,
+    "distinct_refuted_games": 49,
+    "earlier_settlements": [
+      "0.337",
+      "0.355",
+      "0.716",
+      "0.717"
+    ]
+  },
+  "byte_identical_referee_outputs": {
+    "referee/witness_results.json": "9513d68d5eadd6e79ca22644e28c2604505f36bac3b82401131255f37bb57251",
+    "referee/witness_results.txt": "6e4a0c0c6c3fc6e6f825e228488af892fc8f5dfb0ba694e49155e16fd4b1ea0b"
+  },
+  "runs": {
+    "compile-checker": {
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "clang++",
+        "-std=c++17",
+        "-O3",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "checker.cpp",
+        "-o",
+        "math_misere_1127_checker"
+      ],
+      "directory": ".",
+      "exit_code": 0,
+      "seconds": 0.959
+    },
+    "compile-direct": {
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "clang++",
+        "-std=c++17",
+        "-O3",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "direct.cpp",
+        "-o",
+        "math_misere_1127_direct"
+      ],
+      "directory": ".",
+      "exit_code": 0,
+      "seconds": 0.729
+    },
+    "producer-witnesses": {
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python3",
+        "-B",
+        "verify_witnesses.py",
+        "certificates/WITNESSES.tsv"
+      ],
+      "directory": ".",
+      "exit_code": 0,
+      "seconds": 15.262
+    },
+    "referee-witnesses": {
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python3",
+        "-B",
+        "check_witnesses.py"
+      ],
+      "directory": "referee",
+      "exit_code": 0,
+      "seconds": 34.479
+    },
+    "referee-controls": {
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python3",
+        "-B",
+        "controls.py"
+      ],
+      "directory": "referee",
+      "exit_code": 0,
+      "seconds": 4.092
+    },
+    "producer-controls": {
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python3",
+        "-B",
+        "run.py",
+        "control"
+      ],
+      "directory": ".",
+      "exit_code": 0,
+      "seconds": 2.75
+    },
+    "producer-quotient": {
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python3",
+        "-B",
+        "certify_512.py"
+      ],
+      "directory": ".",
+      "exit_code": 0,
+      "seconds": 16.967
+    }
+  }
+}

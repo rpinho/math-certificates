@@ -1,0 +1,3508 @@
+[
+ {
+  "game": "0.157",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.157",
+  "P": [
+   28,
+   7,
+   4,
+   4
+  ],
+  "N": [
+   25,
+   4,
+   4,
+   4
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (22, 6, 1, 3) branch 2: (28, 7, 4, 4) -> (25, 4, 4, 4)"
+ },
+ {
+  "game": "0.157",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.157",
+  "P": [
+   2
+  ],
+  "N": [
+   4
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.157",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.157",
+  "P": [
+   1
+  ],
+  "N": [
+   23
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (23,): printed(from 1) P, true N; printed if row starts at 0: P; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.175",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.175",
+  "P": [
+   24,
+   5,
+   3,
+   3,
+   3,
+   3
+  ],
+  "N": [
+   22,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (19, 4, 1, 2) branch 2: (24, 5, 3, 3, 3, 3) -> (22, 3, 3, 3, 3, 3)"
+ },
+ {
+  "game": "0.175",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.175",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.175",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.175",
+  "P": [
+   1
+  ],
+  "N": [
+   17
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (17,): printed(from 1) P, true N; printed if row starts at 0: P; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.260",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.2\u02d96\u00af0",
+  "P": [
+   24,
+   5,
+   4,
+   3,
+   3,
+   3
+  ],
+  "N": [
+   22,
+   4,
+   3,
+   3,
+   3,
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (19, 4, 1, 2) branch 2: (24, 5, 4, 3, 3, 3) -> (22, 4, 3, 3, 3, 3)"
+ },
+ {
+  "game": "0.260",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.2\u02d96\u00af0",
+  "P": [
+   2
+  ],
+  "N": [
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: P; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.260",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.2\u02d96\u00af0",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (3,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['N', 'P']"
+ },
+ {
+  "game": "0.261",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.2\u02d96\u00af0",
+  "P": [
+   24,
+   5,
+   4,
+   3,
+   3,
+   3
+  ],
+  "N": [
+   22,
+   4,
+   3,
+   3,
+   3,
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (19, 4, 1, 2) branch 2: (24, 5, 4, 3, 3, 3) -> (22, 4, 3, 3, 3, 3)"
+ },
+ {
+  "game": "0.261",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.2\u02d96\u00af0",
+  "P": [
+   2
+  ],
+  "N": [
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: P; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.261",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.2\u02d96\u00af0",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (3,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['N', 'P']"
+ },
+ {
+  "game": "0.262",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.2\u02d96\u00af0",
+  "P": [
+   24,
+   5,
+   4,
+   3,
+   3,
+   3
+  ],
+  "N": [
+   22,
+   4,
+   3,
+   3,
+   3,
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (19, 4, 1, 2) branch 2: (24, 5, 4, 3, 3, 3) -> (22, 4, 3, 3, 3, 3)"
+ },
+ {
+  "game": "0.262",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.2\u02d96\u00af0",
+  "P": [
+   2
+  ],
+  "N": [
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: P; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.262",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.2\u02d96\u00af0",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (3,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['N', 'P']"
+ },
+ {
+  "game": "0.263",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.2\u02d96\u00af0",
+  "P": [
+   24,
+   5,
+   4,
+   3,
+   3,
+   3
+  ],
+  "N": [
+   22,
+   4,
+   3,
+   3,
+   3,
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (19, 4, 1, 2) branch 2: (24, 5, 4, 3, 3, 3) -> (22, 4, 3, 3, 3, 3)"
+ },
+ {
+  "game": "0.263",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.2\u02d96\u00af0",
+  "P": [
+   2
+  ],
+  "N": [
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: P; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.263",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.2\u02d96\u00af0",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (3,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['N', 'P']"
+ },
+ {
+  "game": "0.270",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.2\u02d96\u00af0",
+  "P": [
+   24,
+   5,
+   4,
+   3,
+   3,
+   3
+  ],
+  "N": [
+   22,
+   4,
+   3,
+   3,
+   3,
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (19, 4, 1, 2) branch 2: (24, 5, 4, 3, 3, 3) -> (22, 4, 3, 3, 3, 3)"
+ },
+ {
+  "game": "0.270",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.2\u02d96\u00af0",
+  "P": [
+   2
+  ],
+  "N": [
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: P; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.270",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.2\u02d96\u00af0",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (3,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['N', 'P']"
+ },
+ {
+  "game": "0.271",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.2\u02d96\u00af0",
+  "P": [
+   24,
+   5,
+   4,
+   3,
+   3,
+   3
+  ],
+  "N": [
+   22,
+   4,
+   3,
+   3,
+   3,
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (19, 4, 1, 2) branch 2: (24, 5, 4, 3, 3, 3) -> (22, 4, 3, 3, 3, 3)"
+ },
+ {
+  "game": "0.271",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.2\u02d96\u00af0",
+  "P": [
+   2
+  ],
+  "N": [
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: P; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.271",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.2\u02d96\u00af0",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (3,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['N', 'P']"
+ },
+ {
+  "game": "0.272",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.2\u02d96\u00af0",
+  "P": [
+   24,
+   5,
+   4,
+   3,
+   3,
+   3
+  ],
+  "N": [
+   22,
+   4,
+   3,
+   3,
+   3,
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (19, 4, 1, 2) branch 2: (24, 5, 4, 3, 3, 3) -> (22, 4, 3, 3, 3, 3)"
+ },
+ {
+  "game": "0.272",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.2\u02d96\u00af0",
+  "P": [
+   2
+  ],
+  "N": [
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: P; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.272",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.2\u02d96\u00af0",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (3,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['N', 'P']"
+ },
+ {
+  "game": "0.273",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.2\u02d96\u00af0",
+  "P": [
+   24,
+   5,
+   4,
+   3,
+   3,
+   3
+  ],
+  "N": [
+   22,
+   4,
+   3,
+   3,
+   3,
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (19, 4, 1, 2) branch 2: (24, 5, 4, 3, 3, 3) -> (22, 4, 3, 3, 3, 3)"
+ },
+ {
+  "game": "0.273",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.2\u02d96\u00af0",
+  "P": [
+   2
+  ],
+  "N": [
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: P; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.273",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.2\u02d96\u00af0",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (3,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['N', 'P']"
+ },
+ {
+  "game": "0.326",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.32\u02d96",
+  "P": [
+   22,
+   5,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "N": [
+   20,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (17, 4, 1, 2) branch 2: (22, 5, 3, 3, 3, 3, 3) -> (20, 3, 3, 3, 3, 3, 3)"
+ },
+ {
+  "game": "0.326",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.32\u02d96",
+  "P": [
+   1
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (3,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.326",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.32\u02d96",
+  "P": [
+   5
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (5,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.327",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.32\u02d96",
+  "P": [
+   22,
+   5,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "N": [
+   20,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (17, 4, 1, 2) branch 2: (22, 5, 3, 3, 3, 3, 3) -> (20, 3, 3, 3, 3, 3, 3)"
+ },
+ {
+  "game": "0.327",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.32\u02d96",
+  "P": [
+   1
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (3,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.327",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.32\u02d96",
+  "P": [
+   5
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (5,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.337",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.337",
+  "P": [
+   27,
+   4,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "N": [
+   25,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (22, 4, 0, 2) branch 2: (27, 4, 2, 2, 2, 2, 2, 2, 1) -> (25, 2, 2, 2, 2, 2, 2, 2, 1)"
+ },
+ {
+  "game": "0.337",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.337",
+  "P": [
+   10
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (10,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.337",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.337",
+  "P": [
+   1
+  ],
+  "N": [
+   16
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (16,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.355",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.355",
+  "P": [
+   22,
+   3,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "N": [
+   21,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (20, 2, 1, 1) branch 2: (22, 3, 2, 2, 2, 2, 2, 2, 2, 2) -> (21, 2, 2, 2, 2, 2, 2, 2, 2, 2)"
+ },
+ {
+  "game": "0.355",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.355",
+  "P": [
+   3
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (3,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.355",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.355",
+  "P": [
+   1
+  ],
+  "N": [
+   15
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (15,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.357",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.357",
+  "P": [
+   30,
+   5,
+   2,
+   2,
+   2,
+   2
+  ],
+  "N": [
+   27,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (28, 2, 1, 3) branch 2: (30, 5, 2, 2, 2, 2) -> (27, 2, 2, 2, 2, 2)"
+ },
+ {
+  "game": "0.357",
+  "comparison": "Def. 3.4 branch 1",
+  "source": "2608.13273v2 p.27 0.357",
+  "P": [
+   32,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "N": [
+   30,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (28, 2, 1, 3) branch 1: (32, 2, 2, 2, 2, 2, 2, 1) -> (30, 2, 2, 2, 2, 2, 2, 1)"
+ },
+ {
+  "game": "0.357",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.357",
+  "P": [
+   3
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (3,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.357",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.357",
+  "P": [
+   1
+  ],
+  "N": [
+   15
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (15,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.512",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.51\u02d92",
+  "P": [
+   2
+  ],
+  "N": [
+   4
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.512",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.51\u02d92",
+  "P": [
+   1
+  ],
+  "N": [
+   22
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (22,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.513",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.51\u02d92",
+  "P": [
+   2
+  ],
+  "N": [
+   4
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.513",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.51\u02d92",
+  "P": [
+   1
+  ],
+  "N": [
+   22
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (22,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.516",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.51\u02d96",
+  "P": [
+   28,
+   7,
+   4,
+   4
+  ],
+  "N": [
+   25,
+   4,
+   4,
+   4
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (20, 6, 1, 3) branch 2: (28, 7, 4, 4) -> (25, 4, 4, 4)"
+ },
+ {
+  "game": "0.516",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.51\u02d96",
+  "P": [
+   2
+  ],
+  "N": [
+   4
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.516",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.51\u02d96",
+  "P": [
+   1
+  ],
+  "N": [
+   21
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (21,): printed(from 1) P, true N; printed if row starts at 0: P; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.517",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.51\u02d96",
+  "P": [
+   28,
+   7,
+   4,
+   4
+  ],
+  "N": [
+   25,
+   4,
+   4,
+   4
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (20, 6, 1, 3) branch 2: (28, 7, 4, 4) -> (25, 4, 4, 4)"
+ },
+ {
+  "game": "0.517",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.51\u02d96",
+  "P": [
+   2
+  ],
+  "N": [
+   4
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.517",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.51\u02d96",
+  "P": [
+   1
+  ],
+  "N": [
+   21
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (21,): printed(from 1) P, true N; printed if row starts at 0: P; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.534",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.53\u02d94",
+  "P": [
+   24,
+   5,
+   3,
+   3,
+   3,
+   3
+  ],
+  "N": [
+   22,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (19, 4, 1, 2) branch 2: (24, 5, 3, 3, 3, 3) -> (22, 3, 3, 3, 3, 3)"
+ },
+ {
+  "game": "0.534",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.53\u02d94",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.534",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.53\u02d94",
+  "P": [
+   1
+  ],
+  "N": [
+   17
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (17,): printed(from 1) P, true N; printed if row starts at 0: P; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.535",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.53\u02d94",
+  "P": [
+   24,
+   5,
+   3,
+   3,
+   3,
+   3
+  ],
+  "N": [
+   22,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (19, 4, 1, 2) branch 2: (24, 5, 3, 3, 3, 3) -> (22, 3, 3, 3, 3, 3)"
+ },
+ {
+  "game": "0.535",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.53\u02d94",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.535",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.53\u02d94",
+  "P": [
+   1
+  ],
+  "N": [
+   17
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (17,): printed(from 1) P, true N; printed if row starts at 0: P; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.552",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.55\u02d92",
+  "P": [
+   2
+  ],
+  "N": [
+   4
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.552",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.55\u02d92",
+  "P": [
+   1
+  ],
+  "N": [
+   15
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (15,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.553",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.55\u02d92",
+  "P": [
+   2
+  ],
+  "N": [
+   4
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.553",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.55\u02d92",
+  "P": [
+   1
+  ],
+  "N": [
+   15
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (15,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.556",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.55\u02d96",
+  "P": [
+   28,
+   7,
+   4,
+   4
+  ],
+  "N": [
+   25,
+   4,
+   4,
+   4
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (20, 6, 1, 3) branch 2: (28, 7, 4, 4) -> (25, 4, 4, 4)"
+ },
+ {
+  "game": "0.556",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.55\u02d96",
+  "P": [
+   2
+  ],
+  "N": [
+   4
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.556",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.55\u02d96",
+  "P": [
+   1
+  ],
+  "N": [
+   21
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (21,): printed(from 1) P, true N; printed if row starts at 0: P; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.557",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.55\u02d96",
+  "P": [
+   28,
+   7,
+   4,
+   4
+  ],
+  "N": [
+   25,
+   4,
+   4,
+   4
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (20, 6, 1, 3) branch 2: (28, 7, 4, 4) -> (25, 4, 4, 4)"
+ },
+ {
+  "game": "0.557",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.55\u02d96",
+  "P": [
+   2
+  ],
+  "N": [
+   4
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.557",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.55\u02d96",
+  "P": [
+   1
+  ],
+  "N": [
+   21
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (21,): printed(from 1) P, true N; printed if row starts at 0: P; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.570",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.57\u02d90",
+  "P": [
+   24,
+   5,
+   3,
+   3,
+   3,
+   3
+  ],
+  "N": [
+   22,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (20, 4, 1, 2) branch 2: (24, 5, 3, 3, 3, 3) -> (22, 3, 3, 3, 3, 3)"
+ },
+ {
+  "game": "0.570",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.57\u02d90",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.570",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.57\u02d90",
+  "P": [
+   1
+  ],
+  "N": [
+   16
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (16,): printed(from 1) P, true N; printed if row starts at 0: P; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.571",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.57\u02d90",
+  "P": [
+   24,
+   5,
+   3,
+   3,
+   3,
+   3
+  ],
+  "N": [
+   22,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (20, 4, 1, 2) branch 2: (24, 5, 3, 3, 3, 3) -> (22, 3, 3, 3, 3, 3)"
+ },
+ {
+  "game": "0.571",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.57\u02d90",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.571",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.57\u02d90",
+  "P": [
+   1
+  ],
+  "N": [
+   16
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (16,): printed(from 1) P, true N; printed if row starts at 0: P; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.574",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.57\u02d94",
+  "P": [
+   24,
+   5,
+   3,
+   3,
+   3,
+   3
+  ],
+  "N": [
+   22,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (19, 4, 1, 2) branch 2: (24, 5, 3, 3, 3, 3) -> (22, 3, 3, 3, 3, 3)"
+ },
+ {
+  "game": "0.574",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.57\u02d94",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.574",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.57\u02d94",
+  "P": [
+   1
+  ],
+  "N": [
+   17
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (17,): printed(from 1) P, true N; printed if row starts at 0: P; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.575",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.57\u02d94",
+  "P": [
+   24,
+   5,
+   3,
+   3,
+   3,
+   3
+  ],
+  "N": [
+   22,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (19, 4, 1, 2) branch 2: (24, 5, 3, 3, 3, 3) -> (22, 3, 3, 3, 3, 3)"
+ },
+ {
+  "game": "0.575",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.57\u02d94",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.575",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.57\u02d94",
+  "P": [
+   1
+  ],
+  "N": [
+   17
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (17,): printed(from 1) P, true N; printed if row starts at 0: P; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.716",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.71\u02d96",
+  "P": [
+   24,
+   3,
+   1
+  ],
+  "N": [
+   23,
+   2,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (22, 2, 2, 1) branch 2: (24, 3, 1) -> (23, 2, 1)"
+ },
+ {
+  "game": "0.716",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.71\u02d96",
+  "P": [
+   3
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (3,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.716",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.71\u02d96",
+  "P": [
+   1
+  ],
+  "N": [
+   5
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (5,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.717",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.71\u02d96",
+  "P": [
+   24,
+   3,
+   1
+  ],
+  "N": [
+   23,
+   2,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (22, 2, 2, 1) branch 2: (24, 3, 1) -> (23, 2, 1)"
+ },
+ {
+  "game": "0.717",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.71\u02d96",
+  "P": [
+   3
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (3,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.717",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.71\u02d96",
+  "P": [
+   1
+  ],
+  "N": [
+   5
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (5,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.724",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.72\u00af4",
+  "P": [
+   24,
+   5,
+   3,
+   3,
+   3,
+   3,
+   1
+  ],
+  "N": [
+   22,
+   3,
+   3,
+   3,
+   3,
+   3,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (19, 4, 1, 2) branch 2: (24, 5, 3, 3, 3, 3, 1) -> (22, 3, 3, 3, 3, 3, 1)"
+ },
+ {
+  "game": "0.724",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.72\u00af4",
+  "P": [
+   1
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (3,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.724",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.72\u00af4",
+  "P": [
+   5
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (5,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.725",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.72\u00af4",
+  "P": [
+   24,
+   5,
+   3,
+   3,
+   3,
+   3,
+   1
+  ],
+  "N": [
+   22,
+   3,
+   3,
+   3,
+   3,
+   3,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (19, 4, 1, 2) branch 2: (24, 5, 3, 3, 3, 3, 1) -> (22, 3, 3, 3, 3, 3, 1)"
+ },
+ {
+  "game": "0.725",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.72\u00af4",
+  "P": [
+   1
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (3,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.725",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.72\u00af4",
+  "P": [
+   5
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (5,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.726",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.72\u00af4",
+  "P": [
+   24,
+   5,
+   3,
+   3,
+   3,
+   3,
+   1
+  ],
+  "N": [
+   22,
+   3,
+   3,
+   3,
+   3,
+   3,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (19, 4, 1, 2) branch 2: (24, 5, 3, 3, 3, 3, 1) -> (22, 3, 3, 3, 3, 3, 1)"
+ },
+ {
+  "game": "0.726",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.72\u00af4",
+  "P": [
+   1
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (3,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.726",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.72\u00af4",
+  "P": [
+   5
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (5,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.727",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.72\u00af4",
+  "P": [
+   24,
+   5,
+   3,
+   3,
+   3,
+   3,
+   1
+  ],
+  "N": [
+   22,
+   3,
+   3,
+   3,
+   3,
+   3,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (19, 4, 1, 2) branch 2: (24, 5, 3, 3, 3, 3, 1) -> (22, 3, 3, 3, 3, 3, 1)"
+ },
+ {
+  "game": "0.727",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.72\u00af4",
+  "P": [
+   1
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (3,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.727",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.72\u00af4",
+  "P": [
+   5
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (5,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.732",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.73\u02d92",
+  "P": [
+   25,
+   4,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "N": [
+   23,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (20, 4, 0, 2) branch 2: (25, 4, 2, 2, 2, 2, 2, 2, 2, 1) -> (23, 2, 2, 2, 2, 2, 2, 2, 2, 1)"
+ },
+ {
+  "game": "0.732",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.73\u02d92",
+  "P": [
+   1
+  ],
+  "N": [
+   5
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (5,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.732",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.73\u02d92",
+  "P": [
+   8
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (8,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.733",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.73\u02d92",
+  "P": [
+   25,
+   4,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "N": [
+   23,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (20, 4, 0, 2) branch 2: (25, 4, 2, 2, 2, 2, 2, 2, 2, 1) -> (23, 2, 2, 2, 2, 2, 2, 2, 2, 1)"
+ },
+ {
+  "game": "0.733",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.73\u02d92",
+  "P": [
+   1
+  ],
+  "N": [
+   5
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (5,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.733",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.73\u02d92",
+  "P": [
+   8
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (8,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.734",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.73\u02d94",
+  "P": [
+   4
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (4,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.734",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.27 explicit P formula",
+  "P": [
+   2,
+   2
+  ],
+  "N": [],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "formula says P? (2, 2):False ():False"
+ },
+ {
+  "game": "0.734",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.27 explicit P formula",
+  "P": [
+   1
+  ],
+  "N": [
+   3,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "formula says P? (1,):True (3, 1):True"
+ },
+ {
+  "game": "0.735",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.73\u02d94",
+  "P": [
+   4
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (4,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.735",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.27 explicit P formula",
+  "P": [
+   2,
+   2
+  ],
+  "N": [],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "formula says P? (2, 2):False ():False"
+ },
+ {
+  "game": "0.735",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.27 explicit P formula",
+  "P": [
+   1
+  ],
+  "N": [
+   3,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "formula says P? (1,):True (3, 1):True"
+ },
+ {
+  "game": "0.736",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.73\u02d96",
+  "P": [
+   24,
+   4,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "N": [
+   22,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (19, 4, 0, 2) branch 2: (24, 4, 2, 2, 2, 2, 2, 2, 2) -> (22, 2, 2, 2, 2, 2, 2, 2, 2)"
+ },
+ {
+  "game": "0.736",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.73\u02d96",
+  "P": [
+   1
+  ],
+  "N": [
+   5
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (5,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.736",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.73\u02d96",
+  "P": [
+   10
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (10,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.737",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.73\u02d96",
+  "P": [
+   24,
+   4,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "N": [
+   22,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (19, 4, 0, 2) branch 2: (24, 4, 2, 2, 2, 2, 2, 2, 2) -> (22, 2, 2, 2, 2, 2, 2, 2, 2)"
+ },
+ {
+  "game": "0.737",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.73\u02d96",
+  "P": [
+   1
+  ],
+  "N": [
+   5
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (5,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.737",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.73\u02d96",
+  "P": [
+   10
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (10,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.754",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.75\u02d94",
+  "P": [
+   19,
+   3,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "N": [
+   18,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (17, 2, 1, 1) branch 2: (19, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1) -> (18, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1)"
+ },
+ {
+  "game": "0.754",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.75\u02d94",
+  "P": [
+   3
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (3,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.754",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.75\u02d94",
+  "P": [
+   1
+  ],
+  "N": [
+   11
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (11,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.755",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 0.75\u02d94",
+  "P": [
+   19,
+   3,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "N": [
+   18,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (17, 2, 1, 1) branch 2: (19, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1) -> (18, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1)"
+ },
+ {
+  "game": "0.755",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.75\u02d94",
+  "P": [
+   3
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (3,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.755",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.75\u02d94",
+  "P": [
+   1
+  ],
+  "N": [
+   11
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (11,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.756",
+  "comparison": "Def. 3.4 branch 1",
+  "source": "2608.13273v2 p.27 0.75\u02d96",
+  "P": [
+   28,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "N": [
+   26,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (24, 2, 1, 3) branch 1: (28, 2, 2, 2, 2, 2, 2, 1) -> (26, 2, 2, 2, 2, 2, 2, 1)"
+ },
+ {
+  "game": "0.756",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.75\u02d96",
+  "P": [
+   3
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (3,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.756",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.75\u02d96",
+  "P": [
+   1
+  ],
+  "N": [
+   11
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (11,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.757",
+  "comparison": "Def. 3.4 branch 1",
+  "source": "2608.13273v2 p.27 0.75\u02d96",
+  "P": [
+   28,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "N": [
+   26,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (24, 2, 1, 3) branch 1: (28, 2, 2, 2, 2, 2, 2, 1) -> (26, 2, 2, 2, 2, 2, 2, 1)"
+ },
+ {
+  "game": "0.757",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.75\u02d96",
+  "P": [
+   3
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (3,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "0.757",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 0.75\u02d96",
+  "P": [
+   1
+  ],
+  "N": [
+   11
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (11,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "4.06",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 4.\u00a80\u02d96",
+  "P": [
+   21,
+   5,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "N": [
+   19,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (16, 4, 1, 2) branch 2: (21, 5, 3, 3, 3, 3, 3) -> (19, 3, 3, 3, 3, 3, 3)"
+ },
+ {
+  "game": "4.06",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 4.\u00a80\u02d96",
+  "P": [
+   2
+  ],
+  "N": [
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: P; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "4.06",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 4.\u00a80\u02d96",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (3,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['N', 'P']"
+ },
+ {
+  "game": "4.07",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 4.\u00a80\u02d96",
+  "P": [
+   21,
+   5,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "N": [
+   19,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (16, 4, 1, 2) branch 2: (21, 5, 3, 3, 3, 3, 3) -> (19, 3, 3, 3, 3, 3, 3)"
+ },
+ {
+  "game": "4.07",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 4.\u00a80\u02d96",
+  "P": [
+   2
+  ],
+  "N": [
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: P; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "4.07",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 4.\u00a80\u02d96",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (3,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['N', 'P']"
+ },
+ {
+  "game": "4.26",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 4.\u00a80\u02d96",
+  "P": [
+   21,
+   5,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "N": [
+   19,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (16, 4, 1, 2) branch 2: (21, 5, 3, 3, 3, 3, 3) -> (19, 3, 3, 3, 3, 3, 3)"
+ },
+ {
+  "game": "4.26",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 4.\u00a80\u02d96",
+  "P": [
+   2
+  ],
+  "N": [
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: P; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "4.26",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 4.\u00a80\u02d96",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (3,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['N', 'P']"
+ },
+ {
+  "game": "4.27",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 4.\u00a80\u02d96",
+  "P": [
+   21,
+   5,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "N": [
+   19,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (16, 4, 1, 2) branch 2: (21, 5, 3, 3, 3, 3, 3) -> (19, 3, 3, 3, 3, 3, 3)"
+ },
+ {
+  "game": "4.27",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 4.\u00a80\u02d96",
+  "P": [
+   2
+  ],
+  "N": [
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: P; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "4.27",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 4.\u00a80\u02d96",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": "offset",
+  "status": "UNCLEAR-OFFSET",
+  "note": "mismatching (3,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['N', 'P']"
+ },
+ {
+  "game": "4.16",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 4.1\u02d96",
+  "P": [
+   21,
+   5,
+   3,
+   3,
+   3,
+   3,
+   3,
+   1
+  ],
+  "N": [
+   19,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (16, 4, 1, 2) branch 2: (21, 5, 3, 3, 3, 3, 3, 1) -> (19, 3, 3, 3, 3, 3, 3, 1)"
+ },
+ {
+  "game": "4.16",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 4.1\u02d96",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "4.16",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 4.1\u02d96",
+  "P": [
+   1
+  ],
+  "N": [
+   12
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (12,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "4.17",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 4.1\u02d96",
+  "P": [
+   21,
+   5,
+   3,
+   3,
+   3,
+   3,
+   3,
+   1
+  ],
+  "N": [
+   19,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (16, 4, 1, 2) branch 2: (21, 5, 3, 3, 3, 3, 3, 1) -> (19, 3, 3, 3, 3, 3, 3, 1)"
+ },
+ {
+  "game": "4.17",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 4.1\u02d96",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "4.17",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 4.1\u02d96",
+  "P": [
+   1
+  ],
+  "N": [
+   12
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (12,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "4.52",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 4.5\u02d92",
+  "P": [
+   22,
+   5,
+   3,
+   3,
+   3,
+   3,
+   3,
+   1
+  ],
+  "N": [
+   20,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (17, 4, 1, 2) branch 2: (22, 5, 3, 3, 3, 3, 3, 1) -> (20, 3, 3, 3, 3, 3, 3, 1)"
+ },
+ {
+  "game": "4.52",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 4.5\u02d92",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "4.52",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 4.5\u02d92",
+  "P": [
+   1
+  ],
+  "N": [
+   10
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (10,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "4.53",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 4.5\u02d92",
+  "P": [
+   22,
+   5,
+   3,
+   3,
+   3,
+   3,
+   3,
+   1
+  ],
+  "N": [
+   20,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (17, 4, 1, 2) branch 2: (22, 5, 3, 3, 3, 3, 3, 1) -> (20, 3, 3, 3, 3, 3, 3, 1)"
+ },
+ {
+  "game": "4.53",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 4.5\u02d92",
+  "P": [
+   2
+  ],
+  "N": [
+   3
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (2,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "4.53",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 4.5\u02d92",
+  "P": [
+   1
+  ],
+  "N": [
+   10
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (10,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "4.70",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 4.7\u02d90",
+  "P": [
+   18,
+   3,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "N": [
+   17,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (16, 2, 1, 1) branch 2: (18, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2) -> (17, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2)"
+ },
+ {
+  "game": "4.70",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 4.7\u02d90",
+  "P": [
+   3
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (3,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "4.70",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 4.7\u02d90",
+  "P": [
+   1
+  ],
+  "N": [
+   9
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (9,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "4.71",
+  "comparison": "Def. 3.4 branch 2",
+  "source": "2608.13273v2 p.27 4.7\u02d90",
+  "P": [
+   18,
+   3,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "N": [
+   17,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "tuple (16, 2, 1, 1) branch 2: (18, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2) -> (17, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2)"
+ },
+ {
+  "game": "4.71",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 4.7\u02d90",
+  "P": [
+   3
+  ],
+  "N": [
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (3,): printed(from 1) N, true P; printed if row starts at 0: N; printed P,N rows: ['N', 'N']"
+ },
+ {
+  "game": "4.71",
+  "comparison": "outcome template",
+  "source": "2608.13273v2 p.28 4.7\u02d90",
+  "P": [
+   1
+  ],
+  "N": [
+   9
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "mismatching (9,): printed(from 1) P, true N; printed if row starts at 0: N; printed P,N rows: ['P', 'P']"
+ },
+ {
+  "game": "0.3102",
+  "comparison": "Definition 4.2 branch 2",
+  "source": "2611.29198v1 Remark 4.5",
+  "P": [
+   52,
+   50,
+   2,
+   1
+  ],
+  "N": [
+   47,
+   45,
+   2,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "prefix (1,2) tuple (46, 5, 12, 5): (52, 50, 2, 1) -> (1, 2, 47, 45); x1>=p1+t1 True, x2>=p2+t2 True"
+ },
+ {
+  "game": "0.3102",
+  "comparison": "Definition 4.2 branch 2",
+  "source": "2611.29198v1 Remark 4.5",
+  "P": [
+   47,
+   45,
+   3,
+   2
+  ],
+  "N": [
+   52,
+   50,
+   3,
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "prefix (2,3) tuple (46, 5, 12, 5): (52, 50, 3, 2) -> (2, 3, 47, 45); x1>=p1+t1 True, x2>=p2+t2 True"
+ },
+ {
+  "game": "0.3102",
+  "comparison": "fixed heap folding",
+  "source": "2611.29198v1 Conjecture 4.4",
+  "P": [
+   1
+  ],
+  "N": [
+   5,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": null,
+  "status": "NOT-A-REFUTATION",
+  "note": "Conjecture 4.4 asserts folding FAILS; an inequality agrees with it"
+ },
+ {
+  "game": "0.3122",
+  "comparison": "published residue counterexample",
+  "source": "2611.29198v1 Conjecture 4.1",
+  "P": [
+   14,
+   2,
+   2,
+   2
+  ],
+  "N": [
+   7,
+   2,
+   2,
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "(x,y)=(14, 2) key (0, 2, False) vs (x,y)=(7, 2) key (0, 2, False)"
+ },
+ {
+  "game": "0.3122",
+  "comparison": "residue key",
+  "source": "2611.29198v1 Conjecture 4.1",
+  "P": [
+   3,
+   2,
+   2
+  ],
+  "N": [
+   10,
+   7,
+   2,
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "(x,y)=(3, 0) key (3, 0, True) vs (x,y)=(10, 7) key (3, 0, True)"
+ },
+ {
+  "game": "0.3122",
+  "comparison": "residue key",
+  "source": "2611.29198v1 Conjecture 4.1",
+  "P": [
+   14,
+   2,
+   2,
+   2
+  ],
+  "N": [
+   7,
+   2,
+   2,
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "(x,y)=(14, 2) key (0, 2, False) vs (x,y)=(7, 2) key (0, 2, False)"
+ },
+ {
+  "game": "0.3122",
+  "comparison": "residue key",
+  "source": "2611.29198v1 Conjecture 4.1",
+  "P": [
+   8,
+   2,
+   2
+  ],
+  "N": [
+   15,
+   7,
+   2,
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "(x,y)=(8, 0) key (1, 0, False) vs (x,y)=(15, 7) key (1, 0, False)"
+ },
+ {
+  "game": "0.3122",
+  "comparison": "residue key",
+  "source": "2611.29198v1 Conjecture 4.1",
+  "P": [
+   15,
+   8,
+   2,
+   2
+  ],
+  "N": [
+   8,
+   2,
+   2,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "(x,y)=(15, 8) key (1, 1, False) vs (x,y)=(8, 1) key (1, 1, False)"
+ },
+ {
+  "game": "0.3122",
+  "comparison": "residue key",
+  "source": "2611.29198v1 Conjecture 4.1",
+  "P": [
+   10,
+   2,
+   2
+  ],
+  "N": [
+   17,
+   7,
+   2,
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "(x,y)=(10, 0) key (3, 0, False) vs (x,y)=(17, 7) key (3, 0, False)"
+ },
+ {
+  "game": "0.3122",
+  "comparison": "residue key",
+  "source": "2611.29198v1 Conjecture 4.1",
+  "P": [
+   18,
+   7,
+   2,
+   2
+  ],
+  "N": [
+   11,
+   2,
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "(x,y)=(18, 7) key (4, 0, False) vs (x,y)=(11, 0) key (4, 0, False)"
+ },
+ {
+  "game": "0.3122",
+  "comparison": "residue key",
+  "source": "2611.29198v1 Conjecture 4.1",
+  "P": [
+   11,
+   2,
+   2,
+   1
+  ],
+  "N": [
+   18,
+   8,
+   2,
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "(x,y)=(11, 1) key (4, 1, False) vs (x,y)=(18, 8) key (4, 1, False)"
+ },
+ {
+  "game": "0.3122",
+  "comparison": "residue key",
+  "source": "2611.29198v1 Conjecture 4.1",
+  "P": [
+   18,
+   9,
+   2,
+   2
+  ],
+  "N": [
+   11,
+   2,
+   2,
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": true,
+  "status": "CONFIRMED",
+  "note": "(x,y)=(18, 9) key (4, 2, False) vs (x,y)=(11, 2) key (4, 2, False)"
+ },
+ {
+  "game": "0.3122",
+  "comparison": "fixed heap folding",
+  "source": "2611.29198v1 Conjecture 4.4",
+  "P": [
+   1
+  ],
+  "N": [
+   7,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": null,
+  "status": "NOT-A-REFUTATION",
+  "note": "Conjecture 4.4 asserts folding FAILS; an inequality agrees with it"
+ },
+ {
+  "game": "0.3123",
+  "comparison": "fixed heap folding",
+  "source": "2611.29198v1 Conjecture 4.4",
+  "P": [
+   2,
+   2
+  ],
+  "N": [
+   7,
+   2,
+   2
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": null,
+  "status": "NOT-A-REFUTATION",
+  "note": "Conjecture 4.4 asserts folding FAILS; an inequality agrees with it"
+ },
+ {
+  "game": "0.3312",
+  "comparison": "fixed heap folding",
+  "source": "2611.29198v1 Conjecture 4.4",
+  "P": [
+   1
+  ],
+  "N": [
+   3,
+   1
+  ],
+  "oP": "P",
+  "oN": "N",
+  "rule_ok": null,
+  "status": "NOT-A-REFUTATION",
+  "note": "Conjecture 4.4 asserts folding FAILS; an inequality agrees with it"
+ }
+]

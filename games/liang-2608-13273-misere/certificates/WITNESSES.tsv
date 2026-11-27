@@ -1,0 +1,178 @@
+game	source	comparison	p_position	n_position	original_or_mismatching_position	detail
+0.157	2608.13273v2 p.27 0.157	Def. 3.4 branch 2	(28,7,4,4)	(25,4,4,4)	(28,7,4,4)	Expected equality after one reduction. Original total 43.
+0.157	2608.13273v2 p.28 0.157	outcome template	(2)	(4)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (4) is printed N.
+0.157	2608.13273v2 p.28 0.157	outcome template	(1)	(23)	(23)	First listed heap position in the hypothesis check (23) is printed P; comparison (1) is printed P.
+0.175	2608.13273v2 p.27 0.175	Def. 3.4 branch 2	(24,5,3,3,3,3)	(22,3,3,3,3,3)	(24,5,3,3,3,3)	Expected equality after one reduction. Original total 41.
+0.175	2608.13273v2 p.28 0.175	outcome template	(2)	(3)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (3) is printed N.
+0.175	2608.13273v2 p.28 0.175	outcome template	(1)	(17)	(17)	First listed heap position in the hypothesis check (17) is printed P; comparison (1) is printed P.
+0.260	2608.13273v2 p.27 0.2˙6¯0	Def. 3.4 branch 2	(24,5,4,3,3,3)	(22,4,3,3,3,3)	(24,5,4,3,3,3)	Expected equality after one reduction. Original total 42.
+0.260	2608.13273v2 p.28 0.2˙6¯0	outcome template	(2)	(1)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (1) is printed N.
+0.260	2608.13273v2 p.28 0.2˙6¯0	outcome template	(2)	(3)	(3)	First listed heap position in the hypothesis check (3) is printed P; comparison (2) is printed N.
+0.261	2608.13273v2 p.27 0.2˙6¯0	Def. 3.4 branch 2	(24,5,4,3,3,3)	(22,4,3,3,3,3)	(24,5,4,3,3,3)	Expected equality after one reduction. Original total 42.
+0.261	2608.13273v2 p.28 0.2˙6¯0	outcome template	(2)	(1)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (1) is printed N.
+0.261	2608.13273v2 p.28 0.2˙6¯0	outcome template	(2)	(3)	(3)	First listed heap position in the hypothesis check (3) is printed P; comparison (2) is printed N.
+0.262	2608.13273v2 p.27 0.2˙6¯0	Def. 3.4 branch 2	(24,5,4,3,3,3)	(22,4,3,3,3,3)	(24,5,4,3,3,3)	Expected equality after one reduction. Original total 42.
+0.262	2608.13273v2 p.28 0.2˙6¯0	outcome template	(2)	(1)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (1) is printed N.
+0.262	2608.13273v2 p.28 0.2˙6¯0	outcome template	(2)	(3)	(3)	First listed heap position in the hypothesis check (3) is printed P; comparison (2) is printed N.
+0.263	2608.13273v2 p.27 0.2˙6¯0	Def. 3.4 branch 2	(24,5,4,3,3,3)	(22,4,3,3,3,3)	(24,5,4,3,3,3)	Expected equality after one reduction. Original total 42.
+0.263	2608.13273v2 p.28 0.2˙6¯0	outcome template	(2)	(1)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (1) is printed N.
+0.263	2608.13273v2 p.28 0.2˙6¯0	outcome template	(2)	(3)	(3)	First listed heap position in the hypothesis check (3) is printed P; comparison (2) is printed N.
+0.270	2608.13273v2 p.27 0.2˙6¯0	Def. 3.4 branch 2	(24,5,4,3,3,3)	(22,4,3,3,3,3)	(24,5,4,3,3,3)	Expected equality after one reduction. Original total 42.
+0.270	2608.13273v2 p.28 0.2˙6¯0	outcome template	(2)	(1)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (1) is printed N.
+0.270	2608.13273v2 p.28 0.2˙6¯0	outcome template	(2)	(3)	(3)	First listed heap position in the hypothesis check (3) is printed P; comparison (2) is printed N.
+0.271	2608.13273v2 p.27 0.2˙6¯0	Def. 3.4 branch 2	(24,5,4,3,3,3)	(22,4,3,3,3,3)	(24,5,4,3,3,3)	Expected equality after one reduction. Original total 42.
+0.271	2608.13273v2 p.28 0.2˙6¯0	outcome template	(2)	(1)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (1) is printed N.
+0.271	2608.13273v2 p.28 0.2˙6¯0	outcome template	(2)	(3)	(3)	First listed heap position in the hypothesis check (3) is printed P; comparison (2) is printed N.
+0.272	2608.13273v2 p.27 0.2˙6¯0	Def. 3.4 branch 2	(24,5,4,3,3,3)	(22,4,3,3,3,3)	(24,5,4,3,3,3)	Expected equality after one reduction. Original total 42.
+0.272	2608.13273v2 p.28 0.2˙6¯0	outcome template	(2)	(1)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (1) is printed N.
+0.272	2608.13273v2 p.28 0.2˙6¯0	outcome template	(2)	(3)	(3)	First listed heap position in the hypothesis check (3) is printed P; comparison (2) is printed N.
+0.273	2608.13273v2 p.27 0.2˙6¯0	Def. 3.4 branch 2	(24,5,4,3,3,3)	(22,4,3,3,3,3)	(24,5,4,3,3,3)	Expected equality after one reduction. Original total 42.
+0.273	2608.13273v2 p.28 0.2˙6¯0	outcome template	(2)	(1)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (1) is printed N.
+0.273	2608.13273v2 p.28 0.2˙6¯0	outcome template	(2)	(3)	(3)	First listed heap position in the hypothesis check (3) is printed P; comparison (2) is printed N.
+0.326	2608.13273v2 p.27 0.32˙6	Def. 3.4 branch 2	(22,5,3,3,3,3,3)	(20,3,3,3,3,3,3)	(22,5,3,3,3,3,3)	Expected equality after one reduction. Original total 42.
+0.326	2608.13273v2 p.28 0.32˙6	outcome template	(1)	(3)	(3)	First listed heap position in the hypothesis check (3) is printed P; comparison (1) is printed P.
+0.326	2608.13273v2 p.28 0.32˙6	outcome template	(5)	(2)	(5)	First listed heap position in the hypothesis check (5) is printed N; comparison (2) is printed N.
+0.327	2608.13273v2 p.27 0.32˙6	Def. 3.4 branch 2	(22,5,3,3,3,3,3)	(20,3,3,3,3,3,3)	(22,5,3,3,3,3,3)	Expected equality after one reduction. Original total 42.
+0.327	2608.13273v2 p.28 0.32˙6	outcome template	(1)	(3)	(3)	First listed heap position in the hypothesis check (3) is printed P; comparison (1) is printed P.
+0.327	2608.13273v2 p.28 0.32˙6	outcome template	(5)	(2)	(5)	First listed heap position in the hypothesis check (5) is printed N; comparison (2) is printed N.
+0.337	2608.13273v2 p.27 0.337	Def. 3.4 branch 2	(27,4,2,2,2,2,2,2,1)	(25,2,2,2,2,2,2,2,1)	(27,4,2,2,2,2,2,2,1)	Expected equality after one reduction. Original total 44.
+0.337	2608.13273v2 p.28 0.337	outcome template	(10)	(2)	(10)	First listed heap position in the hypothesis check (10) is printed N; comparison (2) is printed N.
+0.337	2608.13273v2 p.28 0.337	outcome template	(1)	(16)	(16)	First listed heap position in the hypothesis check (16) is printed P; comparison (1) is printed P.
+0.355	2608.13273v2 p.27 0.355	Def. 3.4 branch 2	(22,3,2,2,2,2,2,2,2,2)	(21,2,2,2,2,2,2,2,2,2)	(22,3,2,2,2,2,2,2,2,2)	Expected equality after one reduction. Original total 41.
+0.355	2608.13273v2 p.28 0.355	outcome template	(3)	(2)	(3)	First listed heap position in the hypothesis check (3) is printed N; comparison (2) is printed N.
+0.355	2608.13273v2 p.28 0.355	outcome template	(1)	(15)	(15)	First listed heap position in the hypothesis check (15) is printed P; comparison (1) is printed P.
+0.357	2608.13273v2 p.27 0.357	Def. 3.4 branch 2	(30,5,2,2,2,2)	(27,2,2,2,2,2)	(30,5,2,2,2,2)	Expected equality after one reduction. Original total 43.
+0.357	2608.13273v2 p.27 0.357	Def. 3.4 branch 1	(32,2,2,2,2,2,2,1)	(30,2,2,2,2,2,2,1)	(32,2,2,2,2,2,2,1)	Expected equality after one reduction. Original total 45.
+0.357	2608.13273v2 p.28 0.357	outcome template	(3)	(2)	(3)	First listed heap position in the hypothesis check (3) is printed N; comparison (2) is printed N.
+0.357	2608.13273v2 p.28 0.357	outcome template	(1)	(15)	(15)	First listed heap position in the hypothesis check (15) is printed P; comparison (1) is printed P.
+0.512	2608.13273v2 p.28 0.51˙2	outcome template	(2)	(4)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (4) is printed N.
+0.512	2608.13273v2 p.28 0.51˙2	outcome template	(1)	(22)	(22)	First listed heap position in the hypothesis check (22) is printed P; comparison (1) is printed P.
+0.513	2608.13273v2 p.28 0.51˙2	outcome template	(2)	(4)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (4) is printed N.
+0.513	2608.13273v2 p.28 0.51˙2	outcome template	(1)	(22)	(22)	First listed heap position in the hypothesis check (22) is printed P; comparison (1) is printed P.
+0.516	2608.13273v2 p.27 0.51˙6	Def. 3.4 branch 2	(28,7,4,4)	(25,4,4,4)	(28,7,4,4)	Expected equality after one reduction. Original total 43.
+0.516	2608.13273v2 p.28 0.51˙6	outcome template	(2)	(4)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (4) is printed N.
+0.516	2608.13273v2 p.28 0.51˙6	outcome template	(1)	(21)	(21)	First listed heap position in the hypothesis check (21) is printed P; comparison (1) is printed P.
+0.517	2608.13273v2 p.27 0.51˙6	Def. 3.4 branch 2	(28,7,4,4)	(25,4,4,4)	(28,7,4,4)	Expected equality after one reduction. Original total 43.
+0.517	2608.13273v2 p.28 0.51˙6	outcome template	(2)	(4)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (4) is printed N.
+0.517	2608.13273v2 p.28 0.51˙6	outcome template	(1)	(21)	(21)	First listed heap position in the hypothesis check (21) is printed P; comparison (1) is printed P.
+0.534	2608.13273v2 p.27 0.53˙4	Def. 3.4 branch 2	(24,5,3,3,3,3)	(22,3,3,3,3,3)	(24,5,3,3,3,3)	Expected equality after one reduction. Original total 41.
+0.534	2608.13273v2 p.28 0.53˙4	outcome template	(2)	(3)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (3) is printed N.
+0.534	2608.13273v2 p.28 0.53˙4	outcome template	(1)	(17)	(17)	First listed heap position in the hypothesis check (17) is printed P; comparison (1) is printed P.
+0.535	2608.13273v2 p.27 0.53˙4	Def. 3.4 branch 2	(24,5,3,3,3,3)	(22,3,3,3,3,3)	(24,5,3,3,3,3)	Expected equality after one reduction. Original total 41.
+0.535	2608.13273v2 p.28 0.53˙4	outcome template	(2)	(3)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (3) is printed N.
+0.535	2608.13273v2 p.28 0.53˙4	outcome template	(1)	(17)	(17)	First listed heap position in the hypothesis check (17) is printed P; comparison (1) is printed P.
+0.552	2608.13273v2 p.28 0.55˙2	outcome template	(2)	(4)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (4) is printed N.
+0.552	2608.13273v2 p.28 0.55˙2	outcome template	(1)	(15)	(15)	First listed heap position in the hypothesis check (15) is printed P; comparison (1) is printed P.
+0.553	2608.13273v2 p.28 0.55˙2	outcome template	(2)	(4)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (4) is printed N.
+0.553	2608.13273v2 p.28 0.55˙2	outcome template	(1)	(15)	(15)	First listed heap position in the hypothesis check (15) is printed P; comparison (1) is printed P.
+0.556	2608.13273v2 p.27 0.55˙6	Def. 3.4 branch 2	(28,7,4,4)	(25,4,4,4)	(28,7,4,4)	Expected equality after one reduction. Original total 43.
+0.556	2608.13273v2 p.28 0.55˙6	outcome template	(2)	(4)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (4) is printed N.
+0.556	2608.13273v2 p.28 0.55˙6	outcome template	(1)	(21)	(21)	First listed heap position in the hypothesis check (21) is printed P; comparison (1) is printed P.
+0.557	2608.13273v2 p.27 0.55˙6	Def. 3.4 branch 2	(28,7,4,4)	(25,4,4,4)	(28,7,4,4)	Expected equality after one reduction. Original total 43.
+0.557	2608.13273v2 p.28 0.55˙6	outcome template	(2)	(4)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (4) is printed N.
+0.557	2608.13273v2 p.28 0.55˙6	outcome template	(1)	(21)	(21)	First listed heap position in the hypothesis check (21) is printed P; comparison (1) is printed P.
+0.570	2608.13273v2 p.27 0.57˙0	Def. 3.4 branch 2	(24,5,3,3,3,3)	(22,3,3,3,3,3)	(24,5,3,3,3,3)	Expected equality after one reduction. Original total 41.
+0.570	2608.13273v2 p.28 0.57˙0	outcome template	(2)	(3)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (3) is printed N.
+0.570	2608.13273v2 p.28 0.57˙0	outcome template	(1)	(16)	(16)	First listed heap position in the hypothesis check (16) is printed P; comparison (1) is printed P.
+0.571	2608.13273v2 p.27 0.57˙0	Def. 3.4 branch 2	(24,5,3,3,3,3)	(22,3,3,3,3,3)	(24,5,3,3,3,3)	Expected equality after one reduction. Original total 41.
+0.571	2608.13273v2 p.28 0.57˙0	outcome template	(2)	(3)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (3) is printed N.
+0.571	2608.13273v2 p.28 0.57˙0	outcome template	(1)	(16)	(16)	First listed heap position in the hypothesis check (16) is printed P; comparison (1) is printed P.
+0.574	2608.13273v2 p.27 0.57˙4	Def. 3.4 branch 2	(24,5,3,3,3,3)	(22,3,3,3,3,3)	(24,5,3,3,3,3)	Expected equality after one reduction. Original total 41.
+0.574	2608.13273v2 p.28 0.57˙4	outcome template	(2)	(3)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (3) is printed N.
+0.574	2608.13273v2 p.28 0.57˙4	outcome template	(1)	(17)	(17)	First listed heap position in the hypothesis check (17) is printed P; comparison (1) is printed P.
+0.575	2608.13273v2 p.27 0.57˙4	Def. 3.4 branch 2	(24,5,3,3,3,3)	(22,3,3,3,3,3)	(24,5,3,3,3,3)	Expected equality after one reduction. Original total 41.
+0.575	2608.13273v2 p.28 0.57˙4	outcome template	(2)	(3)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (3) is printed N.
+0.575	2608.13273v2 p.28 0.57˙4	outcome template	(1)	(17)	(17)	First listed heap position in the hypothesis check (17) is printed P; comparison (1) is printed P.
+0.716	2608.13273v2 p.27 0.71˙6	Def. 3.4 branch 2	(24,3,1)	(23,2,1)	(24,3,1)	Expected equality after one reduction. Original total 28.
+0.716	2608.13273v2 p.28 0.71˙6	outcome template	(3)	(2)	(3)	First listed heap position in the hypothesis check (3) is printed N; comparison (2) is printed N.
+0.716	2608.13273v2 p.28 0.71˙6	outcome template	(1)	(5)	(5)	First listed heap position in the hypothesis check (5) is printed P; comparison (1) is printed P.
+0.717	2608.13273v2 p.27 0.71˙6	Def. 3.4 branch 2	(24,3,1)	(23,2,1)	(24,3,1)	Expected equality after one reduction. Original total 28.
+0.717	2608.13273v2 p.28 0.71˙6	outcome template	(3)	(2)	(3)	First listed heap position in the hypothesis check (3) is printed N; comparison (2) is printed N.
+0.717	2608.13273v2 p.28 0.71˙6	outcome template	(1)	(5)	(5)	First listed heap position in the hypothesis check (5) is printed P; comparison (1) is printed P.
+0.724	2608.13273v2 p.27 0.72¯4	Def. 3.4 branch 2	(24,5,3,3,3,3,1)	(22,3,3,3,3,3,1)	(24,5,3,3,3,3,1)	Expected equality after one reduction. Original total 42.
+0.724	2608.13273v2 p.28 0.72¯4	outcome template	(1)	(3)	(3)	First listed heap position in the hypothesis check (3) is printed P; comparison (1) is printed P.
+0.724	2608.13273v2 p.28 0.72¯4	outcome template	(5)	(2)	(5)	First listed heap position in the hypothesis check (5) is printed N; comparison (2) is printed N.
+0.725	2608.13273v2 p.27 0.72¯4	Def. 3.4 branch 2	(24,5,3,3,3,3,1)	(22,3,3,3,3,3,1)	(24,5,3,3,3,3,1)	Expected equality after one reduction. Original total 42.
+0.725	2608.13273v2 p.28 0.72¯4	outcome template	(1)	(3)	(3)	First listed heap position in the hypothesis check (3) is printed P; comparison (1) is printed P.
+0.725	2608.13273v2 p.28 0.72¯4	outcome template	(5)	(2)	(5)	First listed heap position in the hypothesis check (5) is printed N; comparison (2) is printed N.
+0.726	2608.13273v2 p.27 0.72¯4	Def. 3.4 branch 2	(24,5,3,3,3,3,1)	(22,3,3,3,3,3,1)	(24,5,3,3,3,3,1)	Expected equality after one reduction. Original total 42.
+0.726	2608.13273v2 p.28 0.72¯4	outcome template	(1)	(3)	(3)	First listed heap position in the hypothesis check (3) is printed P; comparison (1) is printed P.
+0.726	2608.13273v2 p.28 0.72¯4	outcome template	(5)	(2)	(5)	First listed heap position in the hypothesis check (5) is printed N; comparison (2) is printed N.
+0.727	2608.13273v2 p.27 0.72¯4	Def. 3.4 branch 2	(24,5,3,3,3,3,1)	(22,3,3,3,3,3,1)	(24,5,3,3,3,3,1)	Expected equality after one reduction. Original total 42.
+0.727	2608.13273v2 p.28 0.72¯4	outcome template	(1)	(3)	(3)	First listed heap position in the hypothesis check (3) is printed P; comparison (1) is printed P.
+0.727	2608.13273v2 p.28 0.72¯4	outcome template	(5)	(2)	(5)	First listed heap position in the hypothesis check (5) is printed N; comparison (2) is printed N.
+0.732	2608.13273v2 p.27 0.73˙2	Def. 3.4 branch 2	(25,4,2,2,2,2,2,2,2,1)	(23,2,2,2,2,2,2,2,2,1)	(25,4,2,2,2,2,2,2,2,1)	Expected equality after one reduction. Original total 44.
+0.732	2608.13273v2 p.28 0.73˙2	outcome template	(1)	(5)	(5)	First listed heap position in the hypothesis check (5) is printed P; comparison (1) is printed P.
+0.732	2608.13273v2 p.28 0.73˙2	outcome template	(8)	(2)	(8)	First listed heap position in the hypothesis check (8) is printed N; comparison (2) is printed N.
+0.733	2608.13273v2 p.27 0.73˙2	Def. 3.4 branch 2	(25,4,2,2,2,2,2,2,2,1)	(23,2,2,2,2,2,2,2,2,1)	(25,4,2,2,2,2,2,2,2,1)	Expected equality after one reduction. Original total 44.
+0.733	2608.13273v2 p.28 0.73˙2	outcome template	(1)	(5)	(5)	First listed heap position in the hypothesis check (5) is printed P; comparison (1) is printed P.
+0.733	2608.13273v2 p.28 0.73˙2	outcome template	(8)	(2)	(8)	First listed heap position in the hypothesis check (8) is printed N; comparison (2) is printed N.
+0.734	2608.13273v2 p.28 0.73˙4	outcome template	(4)	(2)	(4)	First listed heap position in the hypothesis check (4) is printed N; comparison (2) is printed N.
+0.734	2608.13273v2 p.27 explicit P formula	outcome template	(2,2)	()	(2,2)	First listed heap position in the hypothesis check (2,2) is printed N; comparison () is printed N.
+0.734	2608.13273v2 p.27 explicit P formula	outcome template	(1)	(3,1)	(3,1)	First listed heap position in the hypothesis check (3,1) is printed P; comparison (1) is printed P.
+0.735	2608.13273v2 p.28 0.73˙4	outcome template	(4)	(2)	(4)	First listed heap position in the hypothesis check (4) is printed N; comparison (2) is printed N.
+0.735	2608.13273v2 p.27 explicit P formula	outcome template	(2,2)	()	(2,2)	First listed heap position in the hypothesis check (2,2) is printed N; comparison () is printed N.
+0.735	2608.13273v2 p.27 explicit P formula	outcome template	(1)	(3,1)	(3,1)	First listed heap position in the hypothesis check (3,1) is printed P; comparison (1) is printed P.
+0.736	2608.13273v2 p.27 0.73˙6	Def. 3.4 branch 2	(24,4,2,2,2,2,2,2,2)	(22,2,2,2,2,2,2,2,2)	(24,4,2,2,2,2,2,2,2)	Expected equality after one reduction. Original total 42.
+0.736	2608.13273v2 p.28 0.73˙6	outcome template	(1)	(5)	(5)	First listed heap position in the hypothesis check (5) is printed P; comparison (1) is printed P.
+0.736	2608.13273v2 p.28 0.73˙6	outcome template	(10)	(2)	(10)	First listed heap position in the hypothesis check (10) is printed N; comparison (2) is printed N.
+0.737	2608.13273v2 p.27 0.73˙6	Def. 3.4 branch 2	(24,4,2,2,2,2,2,2,2)	(22,2,2,2,2,2,2,2,2)	(24,4,2,2,2,2,2,2,2)	Expected equality after one reduction. Original total 42.
+0.737	2608.13273v2 p.28 0.73˙6	outcome template	(1)	(5)	(5)	First listed heap position in the hypothesis check (5) is printed P; comparison (1) is printed P.
+0.737	2608.13273v2 p.28 0.73˙6	outcome template	(10)	(2)	(10)	First listed heap position in the hypothesis check (10) is printed N; comparison (2) is printed N.
+0.754	2608.13273v2 p.27 0.75˙4	Def. 3.4 branch 2	(19,3,2,2,2,2,2,2,2,2,2,1)	(18,2,2,2,2,2,2,2,2,2,2,1)	(19,3,2,2,2,2,2,2,2,2,2,1)	Expected equality after one reduction. Original total 41.
+0.754	2608.13273v2 p.28 0.75˙4	outcome template	(3)	(2)	(3)	First listed heap position in the hypothesis check (3) is printed N; comparison (2) is printed N.
+0.754	2608.13273v2 p.28 0.75˙4	outcome template	(1)	(11)	(11)	First listed heap position in the hypothesis check (11) is printed P; comparison (1) is printed P.
+0.755	2608.13273v2 p.27 0.75˙4	Def. 3.4 branch 2	(19,3,2,2,2,2,2,2,2,2,2,1)	(18,2,2,2,2,2,2,2,2,2,2,1)	(19,3,2,2,2,2,2,2,2,2,2,1)	Expected equality after one reduction. Original total 41.
+0.755	2608.13273v2 p.28 0.75˙4	outcome template	(3)	(2)	(3)	First listed heap position in the hypothesis check (3) is printed N; comparison (2) is printed N.
+0.755	2608.13273v2 p.28 0.75˙4	outcome template	(1)	(11)	(11)	First listed heap position in the hypothesis check (11) is printed P; comparison (1) is printed P.
+0.756	2608.13273v2 p.27 0.75˙6	Def. 3.4 branch 1	(28,2,2,2,2,2,2,1)	(26,2,2,2,2,2,2,1)	(28,2,2,2,2,2,2,1)	Expected equality after one reduction. Original total 41.
+0.756	2608.13273v2 p.28 0.75˙6	outcome template	(3)	(2)	(3)	First listed heap position in the hypothesis check (3) is printed N; comparison (2) is printed N.
+0.756	2608.13273v2 p.28 0.75˙6	outcome template	(1)	(11)	(11)	First listed heap position in the hypothesis check (11) is printed P; comparison (1) is printed P.
+0.757	2608.13273v2 p.27 0.75˙6	Def. 3.4 branch 1	(28,2,2,2,2,2,2,1)	(26,2,2,2,2,2,2,1)	(28,2,2,2,2,2,2,1)	Expected equality after one reduction. Original total 41.
+0.757	2608.13273v2 p.28 0.75˙6	outcome template	(3)	(2)	(3)	First listed heap position in the hypothesis check (3) is printed N; comparison (2) is printed N.
+0.757	2608.13273v2 p.28 0.75˙6	outcome template	(1)	(11)	(11)	First listed heap position in the hypothesis check (11) is printed P; comparison (1) is printed P.
+4.06	2608.13273v2 p.27 4.¨0˙6	Def. 3.4 branch 2	(21,5,3,3,3,3,3)	(19,3,3,3,3,3,3)	(21,5,3,3,3,3,3)	Expected equality after one reduction. Original total 41.
+4.06	2608.13273v2 p.28 4.¨0˙6	outcome template	(2)	(1)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (1) is printed N.
+4.06	2608.13273v2 p.28 4.¨0˙6	outcome template	(2)	(3)	(3)	First listed heap position in the hypothesis check (3) is printed P; comparison (2) is printed N.
+4.07	2608.13273v2 p.27 4.¨0˙6	Def. 3.4 branch 2	(21,5,3,3,3,3,3)	(19,3,3,3,3,3,3)	(21,5,3,3,3,3,3)	Expected equality after one reduction. Original total 41.
+4.07	2608.13273v2 p.28 4.¨0˙6	outcome template	(2)	(1)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (1) is printed N.
+4.07	2608.13273v2 p.28 4.¨0˙6	outcome template	(2)	(3)	(3)	First listed heap position in the hypothesis check (3) is printed P; comparison (2) is printed N.
+4.26	2608.13273v2 p.27 4.¨0˙6	Def. 3.4 branch 2	(21,5,3,3,3,3,3)	(19,3,3,3,3,3,3)	(21,5,3,3,3,3,3)	Expected equality after one reduction. Original total 41.
+4.26	2608.13273v2 p.28 4.¨0˙6	outcome template	(2)	(1)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (1) is printed N.
+4.26	2608.13273v2 p.28 4.¨0˙6	outcome template	(2)	(3)	(3)	First listed heap position in the hypothesis check (3) is printed P; comparison (2) is printed N.
+4.27	2608.13273v2 p.27 4.¨0˙6	Def. 3.4 branch 2	(21,5,3,3,3,3,3)	(19,3,3,3,3,3,3)	(21,5,3,3,3,3,3)	Expected equality after one reduction. Original total 41.
+4.27	2608.13273v2 p.28 4.¨0˙6	outcome template	(2)	(1)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (1) is printed N.
+4.27	2608.13273v2 p.28 4.¨0˙6	outcome template	(2)	(3)	(3)	First listed heap position in the hypothesis check (3) is printed P; comparison (2) is printed N.
+4.16	2608.13273v2 p.27 4.1˙6	Def. 3.4 branch 2	(21,5,3,3,3,3,3,1)	(19,3,3,3,3,3,3,1)	(21,5,3,3,3,3,3,1)	Expected equality after one reduction. Original total 42.
+4.16	2608.13273v2 p.28 4.1˙6	outcome template	(2)	(3)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (3) is printed N.
+4.16	2608.13273v2 p.28 4.1˙6	outcome template	(1)	(12)	(12)	First listed heap position in the hypothesis check (12) is printed P; comparison (1) is printed P.
+4.17	2608.13273v2 p.27 4.1˙6	Def. 3.4 branch 2	(21,5,3,3,3,3,3,1)	(19,3,3,3,3,3,3,1)	(21,5,3,3,3,3,3,1)	Expected equality after one reduction. Original total 42.
+4.17	2608.13273v2 p.28 4.1˙6	outcome template	(2)	(3)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (3) is printed N.
+4.17	2608.13273v2 p.28 4.1˙6	outcome template	(1)	(12)	(12)	First listed heap position in the hypothesis check (12) is printed P; comparison (1) is printed P.
+4.52	2608.13273v2 p.27 4.5˙2	Def. 3.4 branch 2	(22,5,3,3,3,3,3,1)	(20,3,3,3,3,3,3,1)	(22,5,3,3,3,3,3,1)	Expected equality after one reduction. Original total 43.
+4.52	2608.13273v2 p.28 4.5˙2	outcome template	(2)	(3)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (3) is printed N.
+4.52	2608.13273v2 p.28 4.5˙2	outcome template	(1)	(10)	(10)	First listed heap position in the hypothesis check (10) is printed P; comparison (1) is printed P.
+4.53	2608.13273v2 p.27 4.5˙2	Def. 3.4 branch 2	(22,5,3,3,3,3,3,1)	(20,3,3,3,3,3,3,1)	(22,5,3,3,3,3,3,1)	Expected equality after one reduction. Original total 43.
+4.53	2608.13273v2 p.28 4.5˙2	outcome template	(2)	(3)	(2)	First listed heap position in the hypothesis check (2) is printed N; comparison (3) is printed N.
+4.53	2608.13273v2 p.28 4.5˙2	outcome template	(1)	(10)	(10)	First listed heap position in the hypothesis check (10) is printed P; comparison (1) is printed P.
+4.70	2608.13273v2 p.27 4.7˙0	Def. 3.4 branch 2	(18,3,2,2,2,2,2,2,2,2,2,2)	(17,2,2,2,2,2,2,2,2,2,2,2)	(18,3,2,2,2,2,2,2,2,2,2,2)	Expected equality after one reduction. Original total 41.
+4.70	2608.13273v2 p.28 4.7˙0	outcome template	(3)	(2)	(3)	First listed heap position in the hypothesis check (3) is printed N; comparison (2) is printed N.
+4.70	2608.13273v2 p.28 4.7˙0	outcome template	(1)	(9)	(9)	First listed heap position in the hypothesis check (9) is printed P; comparison (1) is printed P.
+4.71	2608.13273v2 p.27 4.7˙0	Def. 3.4 branch 2	(18,3,2,2,2,2,2,2,2,2,2,2)	(17,2,2,2,2,2,2,2,2,2,2,2)	(18,3,2,2,2,2,2,2,2,2,2,2)	Expected equality after one reduction. Original total 41.
+4.71	2608.13273v2 p.28 4.7˙0	outcome template	(3)	(2)	(3)	First listed heap position in the hypothesis check (3) is printed N; comparison (2) is printed N.
+4.71	2608.13273v2 p.28 4.7˙0	outcome template	(1)	(9)	(9)	First listed heap position in the hypothesis check (9) is printed P; comparison (1) is printed P.
+0.3102	2611.29198v1 Remark 4.5	Definition 4.2 branch 2	(52,50,2,1)	(47,45,2,1)	(52,50,2,1)	Fixed prefix (1, 2), tuple (46, 5, 12, 5). Variable pair (52, 50)→(47, 45).
+0.3102	2611.29198v1 Remark 4.5	Definition 4.2 branch 2	(47,45,3,2)	(52,50,3,2)	(52,50,3,2)	Fixed prefix (2, 3), tuple (46, 5, 12, 5). Variable pair (52, 50)→(47, 45).
+0.3102	2611.29198v1 Conjecture 4.4	fixed heap folding	(1)	(5,1)	(1)	Expected inequality for some prefixes. Here (a,b,x,y)=(0, 0, 1, 0).
+0.3122	2611.29198v1 Conjecture 4.1	published residue counterexample	(14,2,2,2)	(7,2,2,2)	(14,2,2,2)	Both variable pairs have key (0,2,False). Zenodo 24568032.
+0.3122	2611.29198v1 Conjecture 4.1	residue key	(3,2,2)	(10,7,2,2)	(3,2,2)	Both have key (3, 0, True).
+0.3122	2611.29198v1 Conjecture 4.1	residue key	(14,2,2,2)	(7,2,2,2)	(14,2,2,2)	Both have key (0, 2, False).
+0.3122	2611.29198v1 Conjecture 4.1	residue key	(8,2,2)	(15,7,2,2)	(8,2,2)	Both have key (1, 0, False).
+0.3122	2611.29198v1 Conjecture 4.1	residue key	(15,8,2,2)	(8,2,2,1)	(15,8,2,2)	Both have key (1, 1, False).
+0.3122	2611.29198v1 Conjecture 4.1	residue key	(10,2,2)	(17,7,2,2)	(10,2,2)	Both have key (3, 0, False).
+0.3122	2611.29198v1 Conjecture 4.1	residue key	(18,7,2,2)	(11,2,2)	(18,7,2,2)	Both have key (4, 0, False).
+0.3122	2611.29198v1 Conjecture 4.1	residue key	(11,2,2,1)	(18,8,2,2)	(11,2,2,1)	Both have key (4, 1, False).
+0.3122	2611.29198v1 Conjecture 4.1	residue key	(18,9,2,2)	(11,2,2,2)	(18,9,2,2)	Both have key (4, 2, False).
+0.3122	2611.29198v1 Conjecture 4.4	fixed heap folding	(1)	(7,1)	(1)	Expected inequality for some prefixes. Here (a,b,x,y)=(0, 0, 1, 0).
+0.3123	2611.29198v1 Conjecture 4.4	fixed heap folding	(2,2)	(7,2,2)	(2,2)	Expected inequality for some prefixes. Here (a,b,x,y)=(0, 0, 2, 2).
+0.3312	2611.29198v1 Conjecture 4.4	fixed heap folding	(1)	(3,1)	(1)	Expected inequality for some prefixes. Here (a,b,x,y)=(0, 0, 1, 0).

@@ -1,0 +1,289 @@
+game	source	printed_rule	test_range	comparisons	disagreements	verdict	counts_or_detail
+0.157	2608.13273v2 p.27 0.157	(p1,t1,p2,t2)=(22, 6, 1, 3); a1>=28: if a2<4, a1→a1−6; otherwise (a1,a2)→(a1−3,a2−3)	all eligible partitions, total≤48	10980	90	refuted	branch 1: 0/2272; branch 2: 90/8708
+0.157	2608.13273v2 p.28 0.157	size 1 starts PNNNNNNNNNNNNNNNNNNNNNPPPNNNPPPNNNP; repeat with (preperiod,period)=(19,6)	heap sizes 1–48	48	19	refuted	incorrect printed P: 14; incorrect printed N: 5
+0.157	2608.13273v2 p.28 0.157	o(h)=o(h+6) for h>19	lower heap sizes 20–42	23	0	agrees on stated range	period equality checked independently of the printed letters
+0.175	2608.13273v2 p.27 0.175	(p1,t1,p2,t2)=(19, 4, 1, 2); a1>=23: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	41388	80	refuted	branch 1: 0/1729; branch 2: 80/39659
+0.175	2608.13273v2 p.28 0.175	size 1 starts PNNNNNNNNNNNNNNNPPNNPPNNPPNNPPNNPPN; repeat with (preperiod,period)=(14,4)	heap sizes 1–48	48	19	refuted	incorrect printed P: 16; incorrect printed N: 3
+0.175	2608.13273v2 p.28 0.175	o(h)=o(h+4) for h>14	lower heap sizes 15–44	30	0	agrees on stated range	period equality checked independently of the printed letters
+0.260	2608.13273v2 p.27 0.2˙6¯0	(p1,t1,p2,t2)=(19, 4, 1, 2); a1>=23: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	41388	87	refuted	branch 1: 0/1729; branch 2: 87/39659
+0.260	2608.13273v2 p.28 0.2˙6¯0	size 1 starts NNPNNNPNNNNPNNNPNNNPNNNPNNNPNNNPNNN; repeat with (preperiod,period)=(8,4)	heap sizes 1–48	48	24	refuted	incorrect printed P: 12; incorrect printed N: 12
+0.260	2608.13273v2 p.28 0.2˙6¯0	o(h)=o(h+4) for h>8	lower heap sizes 9–44	36	0	agrees on stated range	period equality checked independently of the printed letters
+0.26	0705.2404 Fact B.1 / Theorem B.2	t=0,g=1; or t>0,w≤t(rest),g=0; or t>0,w≥t(rest)+2,g=2	all partitions of total≤48	918220	0	agrees on stated range	incorrect printed P: 0; incorrect printed N: 0
+0.261	2608.13273v2 p.27 0.2˙6¯0	(p1,t1,p2,t2)=(19, 4, 1, 2); a1>=23: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	41388	87	refuted	branch 1: 0/1729; branch 2: 87/39659
+0.261	2608.13273v2 p.28 0.2˙6¯0	size 1 starts NNPNNNPNNNNPNNNPNNNPNNNPNNNPNNNPNNN; repeat with (preperiod,period)=(8,4)	heap sizes 1–48	48	24	refuted	incorrect printed P: 12; incorrect printed N: 12
+0.261	2608.13273v2 p.28 0.2˙6¯0	o(h)=o(h+4) for h>8	lower heap sizes 9–44	36	0	agrees on stated range	period equality checked independently of the printed letters
+0.262	2608.13273v2 p.27 0.2˙6¯0	(p1,t1,p2,t2)=(19, 4, 1, 2); a1>=23: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	41388	87	refuted	branch 1: 0/1729; branch 2: 87/39659
+0.262	2608.13273v2 p.28 0.2˙6¯0	size 1 starts NNPNNNPNNNNPNNNPNNNPNNNPNNNPNNNPNNN; repeat with (preperiod,period)=(8,4)	heap sizes 1–48	48	24	refuted	incorrect printed P: 12; incorrect printed N: 12
+0.262	2608.13273v2 p.28 0.2˙6¯0	o(h)=o(h+4) for h>8	lower heap sizes 9–44	36	0	agrees on stated range	period equality checked independently of the printed letters
+0.263	2608.13273v2 p.27 0.2˙6¯0	(p1,t1,p2,t2)=(19, 4, 1, 2); a1>=23: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	41388	87	refuted	branch 1: 0/1729; branch 2: 87/39659
+0.263	2608.13273v2 p.28 0.2˙6¯0	size 1 starts NNPNNNPNNNNPNNNPNNNPNNNPNNNPNNNPNNN; repeat with (preperiod,period)=(8,4)	heap sizes 1–48	48	24	refuted	incorrect printed P: 12; incorrect printed N: 12
+0.263	2608.13273v2 p.28 0.2˙6¯0	o(h)=o(h+4) for h>8	lower heap sizes 9–44	36	0	agrees on stated range	period equality checked independently of the printed letters
+0.270	2608.13273v2 p.27 0.2˙6¯0	(p1,t1,p2,t2)=(19, 4, 1, 2); a1>=23: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	41388	87	refuted	branch 1: 0/1729; branch 2: 87/39659
+0.270	2608.13273v2 p.28 0.2˙6¯0	size 1 starts NNPNNNPNNNNPNNNPNNNPNNNPNNNPNNNPNNN; repeat with (preperiod,period)=(8,4)	heap sizes 1–48	48	24	refuted	incorrect printed P: 12; incorrect printed N: 12
+0.270	2608.13273v2 p.28 0.2˙6¯0	o(h)=o(h+4) for h>8	lower heap sizes 9–44	36	0	agrees on stated range	period equality checked independently of the printed letters
+0.271	2608.13273v2 p.27 0.2˙6¯0	(p1,t1,p2,t2)=(19, 4, 1, 2); a1>=23: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	41388	87	refuted	branch 1: 0/1729; branch 2: 87/39659
+0.271	2608.13273v2 p.28 0.2˙6¯0	size 1 starts NNPNNNPNNNNPNNNPNNNPNNNPNNNPNNNPNNN; repeat with (preperiod,period)=(8,4)	heap sizes 1–48	48	24	refuted	incorrect printed P: 12; incorrect printed N: 12
+0.271	2608.13273v2 p.28 0.2˙6¯0	o(h)=o(h+4) for h>8	lower heap sizes 9–44	36	0	agrees on stated range	period equality checked independently of the printed letters
+0.272	2608.13273v2 p.27 0.2˙6¯0	(p1,t1,p2,t2)=(19, 4, 1, 2); a1>=23: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	41388	87	refuted	branch 1: 0/1729; branch 2: 87/39659
+0.272	2608.13273v2 p.28 0.2˙6¯0	size 1 starts NNPNNNPNNNNPNNNPNNNPNNNPNNNPNNNPNNN; repeat with (preperiod,period)=(8,4)	heap sizes 1–48	48	24	refuted	incorrect printed P: 12; incorrect printed N: 12
+0.272	2608.13273v2 p.28 0.2˙6¯0	o(h)=o(h+4) for h>8	lower heap sizes 9–44	36	0	agrees on stated range	period equality checked independently of the printed letters
+0.273	2608.13273v2 p.27 0.2˙6¯0	(p1,t1,p2,t2)=(19, 4, 1, 2); a1>=23: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	41388	87	refuted	branch 1: 0/1729; branch 2: 87/39659
+0.273	2608.13273v2 p.28 0.2˙6¯0	size 1 starts NNPNNNPNNNNPNNNPNNNPNNNPNNNPNNNPNNN; repeat with (preperiod,period)=(8,4)	heap sizes 1–48	48	24	refuted	incorrect printed P: 12; incorrect printed N: 12
+0.273	2608.13273v2 p.28 0.2˙6¯0	o(h)=o(h+4) for h>8	lower heap sizes 9–44	36	0	agrees on stated range	period equality checked independently of the printed letters
+0.326	2608.13273v2 p.27 0.32˙6	(p1,t1,p2,t2)=(17, 4, 1, 2); a1>=21: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	67803	68	refuted	branch 1: 0/2135; branch 2: 68/65668
+0.326	2608.13273v2 p.28 0.32˙6	size 1 starts PNPNNNPNNNNNNNNNNPNNNPNNNPNNNPNNNPN; repeat with (preperiod,period)=(14,4)	heap sizes 1–48	48	21	refuted	incorrect printed P: 10; incorrect printed N: 11
+0.326	2608.13273v2 p.28 0.32˙6	o(h)=o(h+4) for h>14	lower heap sizes 15–44	30	0	agrees on stated range	period equality checked independently of the printed letters
+0.327	2608.13273v2 p.27 0.32˙6	(p1,t1,p2,t2)=(17, 4, 1, 2); a1>=21: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	67803	68	refuted	branch 1: 0/2135; branch 2: 68/65668
+0.327	2608.13273v2 p.28 0.32˙6	size 1 starts PNPNNNPNNNNNNNNNNPNNNPNNNPNNNPNNNPN; repeat with (preperiod,period)=(14,4)	heap sizes 1–48	48	21	refuted	incorrect printed P: 10; incorrect printed N: 11
+0.327	2608.13273v2 p.28 0.32˙6	o(h)=o(h+4) for h>14	lower heap sizes 15–44	30	0	agrees on stated range	period equality checked independently of the printed letters
+0.337	2608.13273v2 p.27 0.337	(p1,t1,p2,t2)=(22, 4, 0, 2); a1>=26: if a2<2, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	18994	44	refuted	branch 1: 0/276; branch 2: 44/18718
+0.337	2608.13273v2 p.28 0.337	size 1 starts PNNNPNNNNNNNNNNPNNNPNNNPNNNPNNNPNNN; repeat with (preperiod,period)=(12,4)	heap sizes 1–48	48	19	refuted	incorrect printed P: 9; incorrect printed N: 10
+0.337	2608.13273v2 p.28 0.337	o(h)=o(h+4) for h>12	lower heap sizes 13–44	32	0	agrees on stated range	period equality checked independently of the printed letters
+0.355	2608.13273v2 p.27 0.355	(p1,t1,p2,t2)=(20, 2, 1, 1); a1>=22: if a2<2, a1→a1−2; otherwise (a1,a2)→(a1−1,a2−1)	all eligible partitions, total≤48	53106	31	refuted	branch 1: 0/378; branch 2: 31/52728
+0.355	2608.13273v2 p.28 0.355	size 1 starts PNNNNNNNNNNNNNPNPNPNPNPNPNPNPNPNPNP; repeat with (preperiod,period)=(13,2)	heap sizes 1–48	48	19	refuted	incorrect printed P: 17; incorrect printed N: 2
+0.355	2608.13273v2 p.28 0.355	o(h)=o(h+2) for h>13	lower heap sizes 14–46	33	0	agrees on stated range	period equality checked independently of the printed letters
+0.357	2608.13273v2 p.27 0.357	(p1,t1,p2,t2)=(28, 2, 1, 3); a1>=30: if a2<4, a1→a1−2; otherwise (a1,a2)→(a1−3,a2−3)	all eligible partitions, total≤48	6179	18	refuted	branch 1: 5/1600; branch 2: 13/4579
+0.357	2608.13273v2 p.28 0.357	size 1 starts PNNNNNNNNNNNNNPNPNPNPNPNPNPNPNPNPNP; repeat with (preperiod,period)=(13,2)	heap sizes 1–48	48	19	refuted	incorrect printed P: 17; incorrect printed N: 2
+0.357	2608.13273v2 p.28 0.357	o(h)=o(h+2) for h>13	lower heap sizes 14–46	33	0	agrees on stated range	period equality checked independently of the printed letters
+0.512	2608.13273v2 p.27 0.51˙2	(p1,t1,p2,t2)=(16, 6, 3, 6); a1>=22: if a2<9, a1→a1−6; otherwise (a1,a2)→(a1−6,a2−6)	all eligible partitions, total≤48	53106	0	agrees on stated range	branch 1: 0/37405; branch 2: 0/15701
+0.512	2608.13273v2 p.28 0.51˙2	size 1 starts PNNNNNNNNNNNNPNNNNNPNPNNNPNPNNNPNPN; repeat with (preperiod,period)=(16,6)	heap sizes 1–48	48	9	refuted	incorrect printed P: 5; incorrect printed N: 4
+0.512	2608.13273v2 p.28 0.51˙2	o(h)=o(h+6) for h>16	lower heap sizes 17–42	26	0	agrees on stated range	period equality checked independently of the printed letters
+0.513	2608.13273v2 p.27 0.51˙2	(p1,t1,p2,t2)=(16, 6, 3, 6); a1>=22: if a2<9, a1→a1−6; otherwise (a1,a2)→(a1−6,a2−6)	all eligible partitions, total≤48	53106	0	agrees on stated range	branch 1: 0/37405; branch 2: 0/15701
+0.513	2608.13273v2 p.28 0.51˙2	size 1 starts PNNNNNNNNNNNNPNNNNNPNPNNNPNPNNNPNPN; repeat with (preperiod,period)=(16,6)	heap sizes 1–48	48	9	refuted	incorrect printed P: 5; incorrect printed N: 4
+0.513	2608.13273v2 p.28 0.51˙2	o(h)=o(h+6) for h>16	lower heap sizes 17–42	26	0	agrees on stated range	period equality checked independently of the printed letters
+0.516	2608.13273v2 p.27 0.51˙6	(p1,t1,p2,t2)=(20, 6, 1, 3); a1>=26: if a2<4, a1→a1−6; otherwise (a1,a2)→(a1−3,a2−3)	all eligible partitions, total≤48	18994	39	refuted	branch 1: 0/3136; branch 2: 39/15858
+0.516	2608.13273v2 p.28 0.51˙6	size 1 starts PNNNNNNNNNNNNNNNNNNNPPPNNNPPPNNNPPP; repeat with (preperiod,period)=(17,6)	heap sizes 1–48	48	19	refuted	incorrect printed P: 15; incorrect printed N: 4
+0.516	2608.13273v2 p.28 0.51˙6	o(h)=o(h+6) for h>17	lower heap sizes 18–42	25	0	agrees on stated range	period equality checked independently of the printed letters
+0.517	2608.13273v2 p.27 0.51˙6	(p1,t1,p2,t2)=(20, 6, 1, 3); a1>=26: if a2<4, a1→a1−6; otherwise (a1,a2)→(a1−3,a2−3)	all eligible partitions, total≤48	18994	39	refuted	branch 1: 0/3136; branch 2: 39/15858
+0.517	2608.13273v2 p.28 0.51˙6	size 1 starts PNNNNNNNNNNNNNNNNNNNPPPNNNPPPNNNPPP; repeat with (preperiod,period)=(17,6)	heap sizes 1–48	48	19	refuted	incorrect printed P: 15; incorrect printed N: 4
+0.517	2608.13273v2 p.28 0.51˙6	o(h)=o(h+6) for h>17	lower heap sizes 18–42	25	0	agrees on stated range	period equality checked independently of the printed letters
+0.534	2608.13273v2 p.27 0.53˙4	(p1,t1,p2,t2)=(19, 4, 1, 2); a1>=23: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	41388	80	refuted	branch 1: 0/1729; branch 2: 80/39659
+0.534	2608.13273v2 p.28 0.53˙4	size 1 starts PNNNNNNNNNNNNNNNPPNNPPNNPPNNPPNNPPN; repeat with (preperiod,period)=(14,4)	heap sizes 1–48	48	19	refuted	incorrect printed P: 16; incorrect printed N: 3
+0.534	2608.13273v2 p.28 0.53˙4	o(h)=o(h+4) for h>14	lower heap sizes 15–44	30	0	agrees on stated range	period equality checked independently of the printed letters
+0.535	2608.13273v2 p.27 0.53˙4	(p1,t1,p2,t2)=(19, 4, 1, 2); a1>=23: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	41388	80	refuted	branch 1: 0/1729; branch 2: 80/39659
+0.535	2608.13273v2 p.28 0.53˙4	size 1 starts PNNNNNNNNNNNNNNNPPNNPPNNPPNNPPNNPPN; repeat with (preperiod,period)=(14,4)	heap sizes 1–48	48	19	refuted	incorrect printed P: 16; incorrect printed N: 3
+0.535	2608.13273v2 p.28 0.53˙4	o(h)=o(h+4) for h>14	lower heap sizes 15–44	30	0	agrees on stated range	period equality checked independently of the printed letters
+0.552	2608.13273v2 p.27 0.55˙2	(p1,t1,p2,t2)=(16, 6, 1, 3); a1>=22: if a2<4, a1→a1−6; otherwise (a1,a2)→(a1−3,a2−3)	all eligible partitions, total≤48	53106	0	agrees on stated range	branch 1: 0/5575; branch 2: 0/47531
+0.552	2608.13273v2 p.28 0.55˙2	size 1 starts PNNNNNNNNNNNNNPNNNNPPPNNNPPPNNNPPPN; repeat with (preperiod,period)=(16,6)	heap sizes 1–48	48	20	refuted	incorrect printed P: 16; incorrect printed N: 4
+0.552	2608.13273v2 p.28 0.55˙2	o(h)=o(h+6) for h>16	lower heap sizes 17–42	26	0	agrees on stated range	period equality checked independently of the printed letters
+0.553	2608.13273v2 p.27 0.55˙2	(p1,t1,p2,t2)=(16, 6, 1, 3); a1>=22: if a2<4, a1→a1−6; otherwise (a1,a2)→(a1−3,a2−3)	all eligible partitions, total≤48	53106	0	agrees on stated range	branch 1: 0/5575; branch 2: 0/47531
+0.553	2608.13273v2 p.28 0.55˙2	size 1 starts PNNNNNNNNNNNNNPNNNNPPPNNNPPPNNNPPPN; repeat with (preperiod,period)=(16,6)	heap sizes 1–48	48	20	refuted	incorrect printed P: 16; incorrect printed N: 4
+0.553	2608.13273v2 p.28 0.55˙2	o(h)=o(h+6) for h>16	lower heap sizes 17–42	26	0	agrees on stated range	period equality checked independently of the printed letters
+0.556	2608.13273v2 p.27 0.55˙6	(p1,t1,p2,t2)=(20, 6, 1, 3); a1>=26: if a2<4, a1→a1−6; otherwise (a1,a2)→(a1−3,a2−3)	all eligible partitions, total≤48	18994	39	refuted	branch 1: 0/3136; branch 2: 39/15858
+0.556	2608.13273v2 p.28 0.55˙6	size 1 starts PNNNNNNNNNNNNNNNNNNNPPPNNNPPPNNNPPP; repeat with (preperiod,period)=(17,6)	heap sizes 1–48	48	19	refuted	incorrect printed P: 15; incorrect printed N: 4
+0.556	2608.13273v2 p.28 0.55˙6	o(h)=o(h+6) for h>17	lower heap sizes 18–42	25	0	agrees on stated range	period equality checked independently of the printed letters
+0.557	2608.13273v2 p.27 0.55˙6	(p1,t1,p2,t2)=(20, 6, 1, 3); a1>=26: if a2<4, a1→a1−6; otherwise (a1,a2)→(a1−3,a2−3)	all eligible partitions, total≤48	18994	39	refuted	branch 1: 0/3136; branch 2: 39/15858
+0.557	2608.13273v2 p.28 0.55˙6	size 1 starts PNNNNNNNNNNNNNNNNNNNPPPNNNPPPNNNPPP; repeat with (preperiod,period)=(17,6)	heap sizes 1–48	48	19	refuted	incorrect printed P: 15; incorrect printed N: 4
+0.557	2608.13273v2 p.28 0.55˙6	o(h)=o(h+6) for h>17	lower heap sizes 18–42	25	0	agrees on stated range	period equality checked independently of the printed letters
+0.570	2608.13273v2 p.27 0.57˙0	(p1,t1,p2,t2)=(20, 4, 1, 2); a1>=24: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	32095	90	refuted	branch 1: 0/1547; branch 2: 90/30548
+0.570	2608.13273v2 p.28 0.57˙0	size 1 starts PNNNNNNNNNNNNNNPPNNPPNNPPNNPPNNPPNN; repeat with (preperiod,period)=(13,4)	heap sizes 1–48	48	20	refuted	incorrect printed P: 17; incorrect printed N: 3
+0.570	2608.13273v2 p.28 0.57˙0	o(h)=o(h+4) for h>13	lower heap sizes 14–44	31	0	agrees on stated range	period equality checked independently of the printed letters
+0.571	2608.13273v2 p.27 0.57˙0	(p1,t1,p2,t2)=(20, 4, 1, 2); a1>=24: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	32095	90	refuted	branch 1: 0/1547; branch 2: 90/30548
+0.571	2608.13273v2 p.28 0.57˙0	size 1 starts PNNNNNNNNNNNNNNPPNNPPNNPPNNPPNNPPNN; repeat with (preperiod,period)=(13,4)	heap sizes 1–48	48	20	refuted	incorrect printed P: 17; incorrect printed N: 3
+0.571	2608.13273v2 p.28 0.57˙0	o(h)=o(h+4) for h>13	lower heap sizes 14–44	31	0	agrees on stated range	period equality checked independently of the printed letters
+0.574	2608.13273v2 p.27 0.57˙4	(p1,t1,p2,t2)=(19, 4, 1, 2); a1>=23: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	41388	80	refuted	branch 1: 0/1729; branch 2: 80/39659
+0.574	2608.13273v2 p.28 0.57˙4	size 1 starts PNNNNNNNNNNNNNNNPPNNPPNNPPNNPPNNPPN; repeat with (preperiod,period)=(14,4)	heap sizes 1–48	48	19	refuted	incorrect printed P: 16; incorrect printed N: 3
+0.574	2608.13273v2 p.28 0.57˙4	o(h)=o(h+4) for h>14	lower heap sizes 15–44	30	0	agrees on stated range	period equality checked independently of the printed letters
+0.575	2608.13273v2 p.27 0.57˙4	(p1,t1,p2,t2)=(19, 4, 1, 2); a1>=23: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	41388	80	refuted	branch 1: 0/1729; branch 2: 80/39659
+0.575	2608.13273v2 p.28 0.57˙4	size 1 starts PNNNNNNNNNNNNNNNPPNNPPNNPPNNPPNNPPN; repeat with (preperiod,period)=(14,4)	heap sizes 1–48	48	19	refuted	incorrect printed P: 16; incorrect printed N: 3
+0.575	2608.13273v2 p.28 0.57˙4	o(h)=o(h+4) for h>14	lower heap sizes 15–44	30	0	agrees on stated range	period equality checked independently of the printed letters
+0.716	2608.13273v2 p.27 0.71˙6	(p1,t1,p2,t2)=(22, 2, 2, 1); a1>=24: if a2<3, a1→a1−2; otherwise (a1,a2)→(a1−1,a2−1)	all eligible partitions, total≤48	32095	1446	refuted	branch 1: 0/1547; branch 2: 1446/30548
+0.716	2608.13273v2 p.28 0.71˙6	size 1 starts PNNNPNPNNNNNNNNNNPNNNNNPNPNPNPNPNPN; repeat with (preperiod,period)=(22,2)	heap sizes 1–48	48	7	refuted	incorrect printed P: 3; incorrect printed N: 4
+0.716	2608.13273v2 p.28 0.71˙6	o(h)=o(h+2) for h>22	lower heap sizes 23–46	24	0	agrees on stated range	period equality checked independently of the printed letters
+0.717	2608.13273v2 p.27 0.71˙6	(p1,t1,p2,t2)=(22, 2, 2, 1); a1>=24: if a2<3, a1→a1−2; otherwise (a1,a2)→(a1−1,a2−1)	all eligible partitions, total≤48	32095	1446	refuted	branch 1: 0/1547; branch 2: 1446/30548
+0.717	2608.13273v2 p.28 0.71˙6	size 1 starts PNNNPNPNNNNNNNNNNPNNNNNPNPNPNPNPNPN; repeat with (preperiod,period)=(22,2)	heap sizes 1–48	48	7	refuted	incorrect printed P: 3; incorrect printed N: 4
+0.717	2608.13273v2 p.28 0.71˙6	o(h)=o(h+2) for h>22	lower heap sizes 23–46	24	0	agrees on stated range	period equality checked independently of the printed letters
+0.724	2608.13273v2 p.27 0.72¯4	(p1,t1,p2,t2)=(19, 4, 1, 2); a1>=23: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	41388	100	refuted	branch 1: 0/1729; branch 2: 100/39659
+0.724	2608.13273v2 p.28 0.72¯4	size 1 starts PNPNNNPNNNNNNNNNNPNNNPNNNPNNNPNNNPN; repeat with (preperiod,period)=(14,4)	heap sizes 1–48	48	20	refuted	incorrect printed P: 10; incorrect printed N: 10
+0.724	2608.13273v2 p.28 0.72¯4	o(h)=o(h+4) for h>14	lower heap sizes 15–44	30	0	agrees on stated range	period equality checked independently of the printed letters
+0.725	2608.13273v2 p.27 0.72¯4	(p1,t1,p2,t2)=(19, 4, 1, 2); a1>=23: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	41388	100	refuted	branch 1: 0/1729; branch 2: 100/39659
+0.725	2608.13273v2 p.28 0.72¯4	size 1 starts PNPNNNPNNNNNNNNNNPNNNPNNNPNNNPNNNPN; repeat with (preperiod,period)=(14,4)	heap sizes 1–48	48	20	refuted	incorrect printed P: 10; incorrect printed N: 10
+0.725	2608.13273v2 p.28 0.72¯4	o(h)=o(h+4) for h>14	lower heap sizes 15–44	30	0	agrees on stated range	period equality checked independently of the printed letters
+0.726	2608.13273v2 p.27 0.72¯4	(p1,t1,p2,t2)=(19, 4, 1, 2); a1>=23: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	41388	100	refuted	branch 1: 0/1729; branch 2: 100/39659
+0.726	2608.13273v2 p.28 0.72¯4	size 1 starts PNPNNNPNNNNNNNNNNPNNNPNNNPNNNPNNNPN; repeat with (preperiod,period)=(14,4)	heap sizes 1–48	48	20	refuted	incorrect printed P: 10; incorrect printed N: 10
+0.726	2608.13273v2 p.28 0.72¯4	o(h)=o(h+4) for h>14	lower heap sizes 15–44	30	0	agrees on stated range	period equality checked independently of the printed letters
+0.727	2608.13273v2 p.27 0.72¯4	(p1,t1,p2,t2)=(19, 4, 1, 2); a1>=23: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	41388	100	refuted	branch 1: 0/1729; branch 2: 100/39659
+0.727	2608.13273v2 p.28 0.72¯4	size 1 starts PNPNNNPNNNNNNNNNNPNNNPNNNPNNNPNNNPN; repeat with (preperiod,period)=(14,4)	heap sizes 1–48	48	20	refuted	incorrect printed P: 10; incorrect printed N: 10
+0.727	2608.13273v2 p.28 0.72¯4	o(h)=o(h+4) for h>14	lower heap sizes 15–44	30	0	agrees on stated range	period equality checked independently of the printed letters
+0.732	2608.13273v2 p.27 0.73˙2	(p1,t1,p2,t2)=(20, 4, 0, 2); a1>=24: if a2<2, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	32095	22	refuted	branch 1: 0/325; branch 2: 22/31770
+0.732	2608.13273v2 p.28 0.73˙2	size 1 starts PNNNPNNNNNNPNNNPNNNPNNNPNNNPNNNPNNN; repeat with (preperiod,period)=(8,4)	heap sizes 1–48	48	2	refuted	incorrect printed P: 1; incorrect printed N: 1
+0.732	2608.13273v2 p.28 0.73˙2	o(h)=o(h+4) for h>8	lower heap sizes 9–44	36	0	agrees on stated range	period equality checked independently of the printed letters
+0.733	2608.13273v2 p.27 0.73˙2	(p1,t1,p2,t2)=(20, 4, 0, 2); a1>=24: if a2<2, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	32095	22	refuted	branch 1: 0/325; branch 2: 22/31770
+0.733	2608.13273v2 p.28 0.73˙2	size 1 starts PNNNPNNNNNNPNNNPNNNPNNNPNNNPNNNPNNN; repeat with (preperiod,period)=(8,4)	heap sizes 1–48	48	2	refuted	incorrect printed P: 1; incorrect printed N: 1
+0.733	2608.13273v2 p.28 0.73˙2	o(h)=o(h+4) for h>8	lower heap sizes 9–44	36	0	agrees on stated range	period equality checked independently of the printed letters
+0.734	2608.13273v2 p.27 0.73˙4	(p1,t1,p2,t2)=(4, 4, 0, 2); a1>=8: if a2<2, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	780675	0	agrees on stated range	branch 1: 0/861; branch 2: 0/779814
+0.734	2608.13273v2 p.28 0.73˙4	size 1 starts PNNNNNNPNNNPNNNPNNNPNNNPNNNPNNNPNNN; repeat with (preperiod,period)=(4,4)	heap sizes 1–48	48	1	refuted	incorrect printed P: 0; incorrect printed N: 1
+0.734	2608.13273v2 p.28 0.73˙4	o(h)=o(h+4) for h>4	lower heap sizes 5–44	40	0	agrees on stated range	period equality checked independently of the printed letters
+0.734	2608.13273v2 p.27 explicit P formula	max≤2: odd number of 1s, no other heaps; max>2: 2|B and 4|(B+Ω), where B=Σ if Δ≤1, and B=Δ if Δ>1	all partitions of total≤48	918220	8187	refuted	incorrect printed P: 5392; incorrect printed N: 2795
+0.735	2608.13273v2 p.27 0.73˙4	(p1,t1,p2,t2)=(4, 4, 0, 2); a1>=8: if a2<2, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	780675	0	agrees on stated range	branch 1: 0/861; branch 2: 0/779814
+0.735	2608.13273v2 p.28 0.73˙4	size 1 starts PNNNNNNPNNNPNNNPNNNPNNNPNNNPNNNPNNN; repeat with (preperiod,period)=(4,4)	heap sizes 1–48	48	1	refuted	incorrect printed P: 0; incorrect printed N: 1
+0.735	2608.13273v2 p.28 0.73˙4	o(h)=o(h+4) for h>4	lower heap sizes 5–44	40	0	agrees on stated range	period equality checked independently of the printed letters
+0.735	2608.13273v2 p.27 explicit P formula	max≤2: odd number of 1s, no other heaps; max>2: 2|B and 4|(B+Ω), where B=Σ if Δ≤1, and B=Δ if Δ>1	all partitions of total≤48	918220	8187	refuted	incorrect printed P: 5392; incorrect printed N: 2795
+0.736	2608.13273v2 p.27 0.73˙6	(p1,t1,p2,t2)=(19, 4, 0, 2); a1>=23: if a2<2, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	41388	35	refuted	branch 1: 0/351; branch 2: 35/41037
+0.736	2608.13273v2 p.28 0.73˙6	size 1 starts PNNNPNNNNNNNNPNNNPNNNPNNNPNNNPNNNPN; repeat with (preperiod,period)=(10,4)	heap sizes 1–48	48	2	refuted	incorrect printed P: 1; incorrect printed N: 1
+0.736	2608.13273v2 p.28 0.73˙6	o(h)=o(h+4) for h>10	lower heap sizes 11–44	34	0	agrees on stated range	period equality checked independently of the printed letters
+0.737	2608.13273v2 p.27 0.73˙6	(p1,t1,p2,t2)=(19, 4, 0, 2); a1>=23: if a2<2, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	41388	35	refuted	branch 1: 0/351; branch 2: 35/41037
+0.737	2608.13273v2 p.28 0.73˙6	size 1 starts PNNNPNNNNNNNNPNNNPNNNPNNNPNNNPNNNPN; repeat with (preperiod,period)=(10,4)	heap sizes 1–48	48	2	refuted	incorrect printed P: 1; incorrect printed N: 1
+0.737	2608.13273v2 p.28 0.73˙6	o(h)=o(h+4) for h>10	lower heap sizes 11–44	34	0	agrees on stated range	period equality checked independently of the printed letters
+0.754	2608.13273v2 p.27 0.75˙4	(p1,t1,p2,t2)=(17, 2, 1, 1); a1>=19: if a2<2, a1→a1−2; otherwise (a1,a2)→(a1−1,a2−1)	all eligible partitions, total≤48	108884	24	refuted	branch 1: 0/465; branch 2: 24/108419
+0.754	2608.13273v2 p.28 0.75˙4	size 1 starts PNNNNNNNNNPNPNPNPNPNPNPNPNPNPNPNPNP; repeat with (preperiod,period)=(9,2)	heap sizes 1–48	48	20	refuted	incorrect printed P: 19; incorrect printed N: 1
+0.754	2608.13273v2 p.28 0.75˙4	o(h)=o(h+2) for h>9	lower heap sizes 10–46	37	0	agrees on stated range	period equality checked independently of the printed letters
+0.755	2608.13273v2 p.27 0.75˙4	(p1,t1,p2,t2)=(17, 2, 1, 1); a1>=19: if a2<2, a1→a1−2; otherwise (a1,a2)→(a1−1,a2−1)	all eligible partitions, total≤48	108884	24	refuted	branch 1: 0/465; branch 2: 24/108419
+0.755	2608.13273v2 p.28 0.75˙4	size 1 starts PNNNNNNNNNPNPNPNPNPNPNPNPNPNPNPNPNP; repeat with (preperiod,period)=(9,2)	heap sizes 1–48	48	20	refuted	incorrect printed P: 19; incorrect printed N: 1
+0.755	2608.13273v2 p.28 0.75˙4	o(h)=o(h+2) for h>9	lower heap sizes 10–46	37	0	agrees on stated range	period equality checked independently of the printed letters
+0.756	2608.13273v2 p.27 0.75˙6	(p1,t1,p2,t2)=(24, 2, 1, 3); a1>=26: if a2<4, a1→a1−2; otherwise (a1,a2)→(a1−3,a2−3)	all eligible partitions, total≤48	18994	18	refuted	branch 1: 18/3136; branch 2: 0/15858
+0.756	2608.13273v2 p.28 0.75˙6	size 1 starts PNNNNNNNNNPNPNPNPNPNPNPNPNPNPNPNPNP; repeat with (preperiod,period)=(9,2)	heap sizes 1–48	48	20	refuted	incorrect printed P: 19; incorrect printed N: 1
+0.756	2608.13273v2 p.28 0.75˙6	o(h)=o(h+2) for h>9	lower heap sizes 10–46	37	0	agrees on stated range	period equality checked independently of the printed letters
+0.757	2608.13273v2 p.27 0.75˙6	(p1,t1,p2,t2)=(24, 2, 1, 3); a1>=26: if a2<4, a1→a1−2; otherwise (a1,a2)→(a1−3,a2−3)	all eligible partitions, total≤48	18994	18	refuted	branch 1: 18/3136; branch 2: 0/15858
+0.757	2608.13273v2 p.28 0.75˙6	size 1 starts PNNNNNNNNNPNPNPNPNPNPNPNPNPNPNPNPNP; repeat with (preperiod,period)=(9,2)	heap sizes 1–48	48	20	refuted	incorrect printed P: 19; incorrect printed N: 1
+0.757	2608.13273v2 p.28 0.75˙6	o(h)=o(h+2) for h>9	lower heap sizes 10–46	37	0	agrees on stated range	period equality checked independently of the printed letters
+4.06	2608.13273v2 p.27 4.¨0˙6	(p1,t1,p2,t2)=(16, 4, 1, 2); a1>=20: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	86143	54	refuted	branch 1: 0/2360; branch 2: 54/83783
+4.06	2608.13273v2 p.28 4.¨0˙6	size 1 starts NNPNNNNNNNNPNNNPNNNPNNNPNNNPNNNPNNN; repeat with (preperiod,period)=(8,4)	heap sizes 1–48	48	22	refuted	incorrect printed P: 11; incorrect printed N: 11
+4.06	2608.13273v2 p.28 4.¨0˙6	o(h)=o(h+4) for h>8	lower heap sizes 9–44	36	0	agrees on stated range	period equality checked independently of the printed letters
+4.07	2608.13273v2 p.27 4.¨0˙6	(p1,t1,p2,t2)=(16, 4, 1, 2); a1>=20: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	86143	54	refuted	branch 1: 0/2360; branch 2: 54/83783
+4.07	2608.13273v2 p.28 4.¨0˙6	size 1 starts NNPNNNNNNNNPNNNPNNNPNNNPNNNPNNNPNNN; repeat with (preperiod,period)=(8,4)	heap sizes 1–48	48	22	refuted	incorrect printed P: 11; incorrect printed N: 11
+4.07	2608.13273v2 p.28 4.¨0˙6	o(h)=o(h+4) for h>8	lower heap sizes 9–44	36	0	agrees on stated range	period equality checked independently of the printed letters
+4.26	2608.13273v2 p.27 4.¨0˙6	(p1,t1,p2,t2)=(16, 4, 1, 2); a1>=20: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	86143	54	refuted	branch 1: 0/2360; branch 2: 54/83783
+4.26	2608.13273v2 p.28 4.¨0˙6	size 1 starts NNPNNNNNNNNPNNNPNNNPNNNPNNNPNNNPNNN; repeat with (preperiod,period)=(8,4)	heap sizes 1–48	48	22	refuted	incorrect printed P: 11; incorrect printed N: 11
+4.26	2608.13273v2 p.28 4.¨0˙6	o(h)=o(h+4) for h>8	lower heap sizes 9–44	36	0	agrees on stated range	period equality checked independently of the printed letters
+4.27	2608.13273v2 p.27 4.¨0˙6	(p1,t1,p2,t2)=(16, 4, 1, 2); a1>=20: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	86143	54	refuted	branch 1: 0/2360; branch 2: 54/83783
+4.27	2608.13273v2 p.28 4.¨0˙6	size 1 starts NNPNNNNNNNNPNNNPNNNPNNNPNNNPNNNPNNN; repeat with (preperiod,period)=(8,4)	heap sizes 1–48	48	22	refuted	incorrect printed P: 11; incorrect printed N: 11
+4.27	2608.13273v2 p.28 4.¨0˙6	o(h)=o(h+4) for h>8	lower heap sizes 9–44	36	0	agrees on stated range	period equality checked independently of the printed letters
+4.16	2608.13273v2 p.27 4.1˙6	(p1,t1,p2,t2)=(16, 4, 1, 2); a1>=20: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	86143	53	refuted	branch 1: 0/2360; branch 2: 53/83783
+4.16	2608.13273v2 p.28 4.1˙6	size 1 starts PNNNNNNNNNNPNNPPNNPPNNPPNNPPNNPPNNP; repeat with (preperiod,period)=(11,4)	heap sizes 1–48	48	21	refuted	incorrect printed P: 19; incorrect printed N: 2
+4.16	2608.13273v2 p.28 4.1˙6	o(h)=o(h+4) for h>11	lower heap sizes 12–44	33	0	agrees on stated range	period equality checked independently of the printed letters
+4.17	2608.13273v2 p.27 4.1˙6	(p1,t1,p2,t2)=(16, 4, 1, 2); a1>=20: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	86143	53	refuted	branch 1: 0/2360; branch 2: 53/83783
+4.17	2608.13273v2 p.28 4.1˙6	size 1 starts PNNNNNNNNNNPNNPPNNPPNNPPNNPPNNPPNNP; repeat with (preperiod,period)=(11,4)	heap sizes 1–48	48	21	refuted	incorrect printed P: 19; incorrect printed N: 2
+4.17	2608.13273v2 p.28 4.1˙6	o(h)=o(h+4) for h>11	lower heap sizes 12–44	33	0	agrees on stated range	period equality checked independently of the printed letters
+4.52	2608.13273v2 p.27 4.5˙2	(p1,t1,p2,t2)=(17, 4, 1, 2); a1>=21: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	67803	35	refuted	branch 1: 0/2135; branch 2: 35/65668
+4.52	2608.13273v2 p.28 4.5˙2	size 1 starts PNNNNNNNNPNNPPNNPPNNPPNNPPNNPPNNPPN; repeat with (preperiod,period)=(9,4)	heap sizes 1–48	48	21	refuted	incorrect printed P: 19; incorrect printed N: 2
+4.52	2608.13273v2 p.28 4.5˙2	o(h)=o(h+4) for h>9	lower heap sizes 10–44	35	0	agrees on stated range	period equality checked independently of the printed letters
+4.53	2608.13273v2 p.27 4.5˙2	(p1,t1,p2,t2)=(17, 4, 1, 2); a1>=21: if a2<3, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤48	67803	35	refuted	branch 1: 0/2135; branch 2: 35/65668
+4.53	2608.13273v2 p.28 4.5˙2	size 1 starts PNNNNNNNNPNNPPNNPPNNPPNNPPNNPPNNPPN; repeat with (preperiod,period)=(9,4)	heap sizes 1–48	48	21	refuted	incorrect printed P: 19; incorrect printed N: 2
+4.53	2608.13273v2 p.28 4.5˙2	o(h)=o(h+4) for h>9	lower heap sizes 10–44	35	0	agrees on stated range	period equality checked independently of the printed letters
+4.70	2608.13273v2 p.27 4.7˙0	(p1,t1,p2,t2)=(16, 2, 1, 1); a1>=18: if a2<2, a1→a1−2; otherwise (a1,a2)→(a1−1,a2−1)	all eligible partitions, total≤48	136895	18	refuted	branch 1: 0/496; branch 2: 18/136399
+4.70	2608.13273v2 p.28 4.7˙0	size 1 starts PNNNNNNNPNPNPNPNPNPNPNPNPNPNPNPNPNP; repeat with (preperiod,period)=(7,2)	heap sizes 1–48	48	21	refuted	incorrect printed P: 20; incorrect printed N: 1
+4.70	2608.13273v2 p.28 4.7˙0	o(h)=o(h+2) for h>7	lower heap sizes 8–46	39	0	agrees on stated range	period equality checked independently of the printed letters
+4.7	0705.2404 Fact B.4 / Theorem B.5	t=0,g=1; or t>0,w≤t(rest),g=0; or t>0,w≥t(rest)+2,g=3	all partitions of total≤48	918220	0	agrees on stated range	incorrect printed P: 0; incorrect printed N: 0
+4.71	2608.13273v2 p.27 4.7˙0	(p1,t1,p2,t2)=(16, 2, 1, 1); a1>=18: if a2<2, a1→a1−2; otherwise (a1,a2)→(a1−1,a2−1)	all eligible partitions, total≤48	136895	18	refuted	branch 1: 0/496; branch 2: 18/136399
+4.71	2608.13273v2 p.28 4.7˙0	size 1 starts PNNNNNNNPNPNPNPNPNPNPNPNPNPNPNPNPNP; repeat with (preperiod,period)=(7,2)	heap sizes 1–48	48	21	refuted	incorrect printed P: 20; incorrect printed N: 1
+4.71	2608.13273v2 p.28 4.7˙0	o(h)=o(h+2) for h>7	lower heap sizes 8–46	39	0	agrees on stated range	period equality checked independently of the printed letters
+0.512	2608.13273v2 p.27 0.51˙2	(p1,t1,p2,t2)=(16, 6, 3, 6); a1>=22: if a2<9, a1→a1−6; otherwise (a1,a2)→(a1−6,a2−6)	all eligible partitions, total≤56	336422	0	agrees on stated range	branch 1: 0/179276; branch 2: 0/157146
+0.513	2608.13273v2 p.27 0.51˙2	(p1,t1,p2,t2)=(16, 6, 3, 6); a1>=22: if a2<9, a1→a1−6; otherwise (a1,a2)→(a1−6,a2−6)	all eligible partitions, total≤56	336422	0	agrees on stated range	branch 1: 0/179276; branch 2: 0/157146
+0.552	2608.13273v2 p.27 0.55˙2	(p1,t1,p2,t2)=(16, 6, 1, 3); a1>=22: if a2<4, a1→a1−6; otherwise (a1,a2)→(a1−3,a2−3)	all eligible partitions, total≤56	336422	0	agrees on stated range	branch 1: 0/14400; branch 2: 0/322022
+0.553	2608.13273v2 p.27 0.55˙2	(p1,t1,p2,t2)=(16, 6, 1, 3); a1>=22: if a2<4, a1→a1−6; otherwise (a1,a2)→(a1−3,a2−3)	all eligible partitions, total≤56	336422	0	agrees on stated range	branch 1: 0/14400; branch 2: 0/322022
+0.734	2608.13273v2 p.27 0.73˙4	(p1,t1,p2,t2)=(4, 4, 0, 2); a1>=8: if a2<2, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤56	3187615	0	agrees on stated range	branch 1: 0/1225; branch 2: 0/3186390
+0.735	2608.13273v2 p.27 0.73˙4	(p1,t1,p2,t2)=(4, 4, 0, 2); a1>=8: if a2<2, a1→a1−4; otherwise (a1,a2)→(a1−2,a2−2)	all eligible partitions, total≤56	3187615	0	agrees on stated range	branch 1: 0/1225; branch 2: 0/3186390
+0.512	2608.13273v2 p.27 0.51˙2 via Plambeck–Siegel Fig. 4	(p1,t1,p2,t2)=(16, 6, 3, 6); a1>=22: if a2<9, a1→a1−6; otherwise (a1,a2)→(a1−6,a2−6)	all finite heap positions	632	0	proved using published quotient	624 boundary cases; 8 seam cases; eight distinguishable quotient classes
+0.513	2608.13273v2 p.27 0.51˙2 via Plambeck–Siegel Fig. 4	(p1,t1,p2,t2)=(16, 6, 3, 6); a1>=22: if a2<9, a1→a1−6; otherwise (a1,a2)→(a1−6,a2−6)	all finite heap positions	632	0	proved using published quotient	624 boundary cases; 8 seam cases; eight distinguishable quotient classes
+0.3102	2611.29198v1 Remark 4.5	fixed prefix (1, 2); (p1,t1,p2,t2)=(46, 5, 12, 5); a1>=51: if a2<17, a1→a1−5; otherwise (a1,a2)→(a1−5,a2−5) on variable heaps	0≤y≤x≤64	819	7	refuted	branch 1: 0/238; branch 2: 7/581
+0.3102	2611.29198v1 Remark 4.5	fixed prefix (2, 3); (p1,t1,p2,t2)=(46, 5, 12, 5); a1>=51: if a2<17, a1→a1−5; otherwise (a1,a2)→(a1−5,a2−5) on variable heaps	0≤y≤x≤64	819	7	refuted	branch 1: 0/238; branch 2: 7/581
+0.3102	2611.29198v1 Theorem 3.1	o(x,y)=P iff |x−y| mod 5 is 0 or 3	3≤y≤x≤64	1953	0	agrees on stated range	incorrect printed P: 0; incorrect printed N: 0
+0.3102	2611.29198v1 Conjecture 4.3	fixed prefix (0, 0); both periods=5; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤54	2079	0	finite fit	first fitting (p1,p2)=(6, 3); only fit to this range
+0.3102	2611.29198v1 Conjecture 4.3	fixed prefix (1, 0); both periods=5; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤54	2054	0	finite fit	first fitting (p1,p2)=(8, 8); only fit to this range
+0.3102	2611.29198v1 Conjecture 4.3	fixed prefix (2, 0); both periods=5; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤54	2145		no fit with stated threshold cap	existential thresholds remain open
+0.3102	2611.29198v1 Conjecture 4.3	fixed prefix (3, 0); both periods=5; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤54	2079	0	finite fit	first fitting (p1,p2)=(6, 3); only fit to this range
+0.3102	2611.29198v1 Conjecture 4.3	fixed prefix (4, 0); both periods=5; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤54	2109	0	finite fit	first fitting (p1,p2)=(3, 3); only fit to this range
+0.3102	2611.29198v1 Conjecture 4.3	fixed prefix (5, 0); both periods=5; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤54	2100	0	finite fit	first fitting (p1,p2)=(4, 3); only fit to this range
+0.3102	2611.29198v1 Conjecture 4.3	fixed prefix (6, 0); both periods=5; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤54	1869	0	finite fit	first fitting (p1,p2)=(18, 18); only fit to this range
+0.3102	2611.29198v1 Conjecture 4.3	fixed prefix (7, 0); both periods=5; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤54	2145		no fit with stated threshold cap	existential thresholds remain open
+0.3102	2611.29198v1 Conjecture 4.3	fixed prefix (8, 0); both periods=5; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤54	2054	0	finite fit	first fitting (p1,p2)=(8, 3); only fit to this range
+0.3102	2611.29198v1 Conjecture 4.3	fixed prefix (9, 0); both periods=5; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤54	2054	0	finite fit	first fitting (p1,p2)=(8, 8); only fit to this range
+0.3102	2611.29198v1 Conjecture 4.3	fixed prefix (10, 0); both periods=5; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤54	1974	0	finite fit	first fitting (p1,p2)=(13, 3); only fit to this range
+0.3102	2611.29198v1 Conjecture 4.3	fixed prefix (1, 1); both periods=5; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤54	2079	0	finite fit	first fitting (p1,p2)=(6, 3); only fit to this range
+0.3102	2611.29198v1 Conjecture 4.3	fixed prefix (2, 2); both periods=5; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤54	2079	0	finite fit	first fitting (p1,p2)=(6, 3); only fit to this range
+0.3102	2611.29198v1 Conjecture 4.3	fixed prefix (3, 3); both periods=5; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤54	2079	0	finite fit	first fitting (p1,p2)=(6, 3); only fit to this range
+0.3102	2611.29198v1 Conjecture 4.3	fixed prefix (4, 4); both periods=5; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤54	2130	0	finite fit	first fitting (p1,p2)=(0, 0); only fit to this range
+0.3102	2611.29198v1 Conjecture 4.3	fixed prefix (5, 5); both periods=5; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤54	2130	0	finite fit	first fitting (p1,p2)=(0, 0); only fit to this range
+0.3102	2611.29198v1 Conjecture 4.3	fixed prefix (6, 6); both periods=5; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤54	1794	0	finite fit	first fitting (p1,p2)=(21, 18); only fit to this range
+0.3102	2611.29198v1 Conjecture 4.3	fixed prefix (7, 7); both periods=5; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤54	1794	0	finite fit	first fitting (p1,p2)=(21, 18); only fit to this range
+0.3102	2611.29198v1 Conjecture 4.3	fixed prefix (8, 8); both periods=5; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤54	2054	0	finite fit	first fitting (p1,p2)=(8, 3); only fit to this range
+0.3102	2611.29198v1 Conjecture 4.3	fixed prefix (9, 9); both periods=5; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤54	2130	0	finite fit	first fitting (p1,p2)=(0, 0); only fit to this range
+0.3102	2611.29198v1 Conjecture 4.3	fixed prefix (10, 10); both periods=5; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤54	2130	0	finite fit	first fitting (p1,p2)=(0, 0); only fit to this range
+0.3102	2611.29198v1 Conjecture 4.4	some o(a+5,b,x,y) differs from o(a,b,x,y)	0≤a,b≤10; 0≤y≤x≤64	259545	11906	confirmed failure of fixed-heap folding	disagreements are counterexamples to folding
+0.3122	2611.29198v1 Theorem 3.7 finite checks	fixed prefix (0, 0); (p1,t1,p2,t2)=(3, 7, 3, 7); a1>=10: if a2<10, a1→a1−7; otherwise (a1,a2)→(a1−7,a2−7) on variable heaps	0≤y≤x≤64	2090	0	agrees on stated range	branch 1: 0/550; branch 2: 0/1540
+0.3122	2611.29198v1 Theorem 3.7 finite checks	fixed prefix (1, 0); (p1,t1,p2,t2)=(2, 7, 2, 7); a1>=9: if a2<9, a1→a1−7; otherwise (a1,a2)→(a1−7,a2−7) on variable heaps	0≤y≤x≤64	2100	0	agrees on stated range	branch 1: 0/504; branch 2: 0/1596
+0.3122	2611.29198v1 Theorem 3.7 finite checks	fixed prefix (2, 0); (p1,t1,p2,t2)=(8, 7, 8, 7); a1>=15: if a2<15, a1→a1−7; otherwise (a1,a2)→(a1−7,a2−7) on variable heaps	0≤y≤x≤64	2025	0	agrees on stated range	branch 1: 0/750; branch 2: 0/1275
+0.3122	2611.29198v1 Theorem 3.7 finite checks	fixed prefix (1, 1); (p1,t1,p2,t2)=(3, 7, 3, 7); a1>=10: if a2<10, a1→a1−7; otherwise (a1,a2)→(a1−7,a2−7) on variable heaps	0≤y≤x≤64	2090	0	agrees on stated range	branch 1: 0/550; branch 2: 0/1540
+0.3122	2611.29198v1 Theorem 3.7 finite checks	fixed prefix (1, 2); (p1,t1,p2,t2)=(13, 7, 13, 7); a1>=20: if a2<20, a1→a1−7; otherwise (a1,a2)→(a1−7,a2−7) on variable heaps	0≤y≤x≤64	1935	0	agrees on stated range	branch 1: 0/900; branch 2: 0/1035
+0.3122	2611.29198v1 Theorem 3.7 finite checks	fixed prefix (2, 2); (p1,t1,p2,t2)=(12, 7, 3, 7); a1>=19: if a2<10, a1→a1−7; otherwise (a1,a2)→(a1−7,a2−7) on variable heaps	0≤y≤x≤64	1955	0	agrees on stated range	branch 1: 0/460; branch 2: 0/1495
+0.3122	2611.29198v1 Theorem 3.7	o(2,2,h,h)=P and o(2,2,h+1,h)=N	max variable heap≤64	129	0	agrees on stated range	incorrect printed P: 0; incorrect printed N: 0
+0.3122	2611.29198v1 Conjecture 4.1	o(2,2,x,y) depends only on (x mod 7,y mod 7,|x−y|≤4)	0≤y≤x≤64; one check per residue key	84	8	refuted	count is of mixed keys; prior disproof is Zenodo 24568032
+0.3122	Zenodo 24568032 Thm 2	98-entry threshold-3 residue formula	3≤y≤x≤64	1953	0	agrees on stated range	98 of 98 ordered keys represented
+0.3122	2611.29198v1 Conjecture 4.3	fixed prefix (0, 0); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	2090	0	finite fit	first fitting (p1,p2)=(3, 3); only fit to this range
+0.3122	2611.29198v1 Conjecture 4.3	fixed prefix (1, 0); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	2100	0	finite fit	first fitting (p1,p2)=(2, 2); only fit to this range
+0.3122	2611.29198v1 Conjecture 4.3	fixed prefix (2, 0); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	2025	0	finite fit	first fitting (p1,p2)=(8, 8); only fit to this range
+0.3122	2611.29198v1 Conjecture 4.3	fixed prefix (3, 0); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	2109	0	finite fit	first fitting (p1,p2)=(1, 1); only fit to this range
+0.3122	2611.29198v1 Conjecture 4.3	fixed prefix (4, 0); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	2090	0	finite fit	first fitting (p1,p2)=(3, 2); only fit to this range
+0.3122	2611.29198v1 Conjecture 4.3	fixed prefix (5, 0); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1892	0	finite fit	first fitting (p1,p2)=(15, 15); only fit to this range
+0.3122	2611.29198v1 Conjecture 4.3	fixed prefix (6, 0); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1820	0	finite fit	first fitting (p1,p2)=(18, 14); only fit to this range
+0.3122	2611.29198v1 Conjecture 4.3	fixed prefix (7, 0); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1955	0	finite fit	first fitting (p1,p2)=(12, 1); only fit to this range
+0.3122	2611.29198v1 Conjecture 4.3	fixed prefix (8, 0); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1739	0	finite fit	first fitting (p1,p2)=(21, 17); only fit to this range
+0.3122	2611.29198v1 Conjecture 4.3	fixed prefix (9, 0); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	2025	0	finite fit	first fitting (p1,p2)=(8, 8); only fit to this range
+0.3122	2611.29198v1 Conjecture 4.3	fixed prefix (10, 0); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	2109	0	finite fit	first fitting (p1,p2)=(1, 1); only fit to this range
+0.3122	2611.29198v1 Conjecture 4.3	fixed prefix (1, 1); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	2090	0	finite fit	first fitting (p1,p2)=(3, 3); only fit to this range
+0.3122	2611.29198v1 Conjecture 4.3	fixed prefix (2, 2); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1955	0	finite fit	first fitting (p1,p2)=(12, 3); only fit to this range
+0.3122	2611.29198v1 Conjecture 4.3	fixed prefix (3, 3); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	2109	0	finite fit	first fitting (p1,p2)=(1, 1); only fit to this range
+0.3122	2611.29198v1 Conjecture 4.3	fixed prefix (4, 4); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	2090	0	finite fit	first fitting (p1,p2)=(3, 3); only fit to this range
+0.3122	2611.29198v1 Conjecture 4.3	fixed prefix (5, 5); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1892	0	finite fit	first fitting (p1,p2)=(15, 3); only fit to this range
+0.3122	2611.29198v1 Conjecture 4.3	fixed prefix (6, 6); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1325	0	finite fit	first fitting (p1,p2)=(33, 24); only fit to this range
+0.3122	2611.29198v1 Conjecture 4.3	fixed prefix (7, 7); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1284	0	finite fit	first fitting (p1,p2)=(34, 24); only fit to this range
+0.3122	2611.29198v1 Conjecture 4.3	fixed prefix (8, 8); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1017	0	finite fit	first fitting (p1,p2)=(40, 27); only fit to this range
+0.3122	2611.29198v1 Conjecture 4.3	fixed prefix (9, 9); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1515	0	finite fit	first fitting (p1,p2)=(28, 16); only fit to this range
+0.3122	2611.29198v1 Conjecture 4.3	fixed prefix (10, 10); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	2109	0	finite fit	first fitting (p1,p2)=(1, 1); only fit to this range
+0.3122	2611.29198v1 Conjecture 4.4	some o(a+7,b,x,y) differs from o(a,b,x,y)	0≤a,b≤10; 0≤y≤x≤64	259545	29094	confirmed failure of fixed-heap folding	disagreements are counterexamples to folding
+0.3123	2611.29198v1 Theorem 3.8 finite checks or Remark 4.5	fixed prefix (0, 0); (p1,t1,p2,t2)=(2, 7, 2, 7); a1>=9: if a2<9, a1→a1−7; otherwise (a1,a2)→(a1−7,a2−7) on variable heaps	0≤y≤x≤64	2100	0	agrees on stated range	branch 1: 0/504; branch 2: 0/1596
+0.3123	2611.29198v1 Theorem 3.8 finite checks or Remark 4.5	fixed prefix (1, 0); (p1,t1,p2,t2)=(18, 7, 12, 7); a1>=25: if a2<19, a1→a1−7; otherwise (a1,a2)→(a1−7,a2−7) on variable heaps	0≤y≤x≤64	1820	0	agrees on stated range	branch 1: 0/760; branch 2: 0/1060
+0.3123	2611.29198v1 Theorem 3.8 finite checks or Remark 4.5	fixed prefix (2, 0); (p1,t1,p2,t2)=(21, 7, 15, 7); a1>=28: if a2<22, a1→a1−7; otherwise (a1,a2)→(a1−7,a2−7) on variable heaps	0≤y≤x≤64	1739	0	agrees on stated range	branch 1: 0/814; branch 2: 0/925
+0.3123	2611.29198v1 Theorem 3.8 finite checks or Remark 4.5	fixed prefix (3, 0); (p1,t1,p2,t2)=(21, 7, 21, 7); a1>=28: if a2<28, a1→a1−7; otherwise (a1,a2)→(a1−7,a2−7) on variable heaps	0≤y≤x≤64	1739	0	agrees on stated range	branch 1: 0/1036; branch 2: 0/703
+0.3123	2611.29198v1 Theorem 3.8 finite checks or Remark 4.5	fixed prefix (1, 1); (p1,t1,p2,t2)=(2, 7, 2, 7); a1>=9: if a2<9, a1→a1−7; otherwise (a1,a2)→(a1−7,a2−7) on variable heaps	0≤y≤x≤64	2100	0	agrees on stated range	branch 1: 0/504; branch 2: 0/1596
+0.3123	2611.29198v1 Theorem 3.8 finite checks or Remark 4.5	fixed prefix (1, 2); (p1,t1,p2,t2)=(16, 7, 13, 7); a1>=23: if a2<20, a1→a1−7; otherwise (a1,a2)→(a1−7,a2−7) on variable heaps	0≤y≤x≤64	1869	0	agrees on stated range	branch 1: 0/840; branch 2: 0/1029
+0.3123	2611.29198v1 Theorem 3.8 finite checks or Remark 4.5	fixed prefix (2, 2); (p1,t1,p2,t2)=(21, 7, 14, 7); a1>=28: if a2<21, a1→a1−7; otherwise (a1,a2)→(a1−7,a2−7) on variable heaps	0≤y≤x≤64	1739	0	agrees on stated range	branch 1: 0/777; branch 2: 0/962
+0.3123	2611.29198v1 Theorem 3.8 finite checks or Remark 4.5	fixed prefix (1, 3); (p1,t1,p2,t2)=(27, 7, 21, 7); a1>=34: if a2<28, a1→a1−7; otherwise (a1,a2)→(a1−7,a2−7) on variable heaps	0≤y≤x≤64	1550	0	agrees on stated range	branch 1: 0/868; branch 2: 0/682
+0.3123	2611.29198v1 Theorem 3.8 finite checks or Remark 4.5	fixed prefix (2, 3); (p1,t1,p2,t2)=(31, 7, 21, 7); a1>=38: if a2<28, a1→a1−7; otherwise (a1,a2)→(a1−7,a2−7) on variable heaps	0≤y≤x≤64	1404	0	agrees on stated range	branch 1: 0/756; branch 2: 0/648
+0.3123	2611.29198v1 Theorem 3.8 finite checks or Remark 4.5	fixed prefix (3, 3); (p1,t1,p2,t2)=(7, 7, 7, 7); a1>=14: if a2<14, a1→a1−7; otherwise (a1,a2)→(a1−7,a2−7) on variable heaps	0≤y≤x≤64	2040	0	agrees on stated range	branch 1: 0/714; branch 2: 0/1326
+0.3123	2611.29198v1 Theorem 3.8	o(3,3,h,h)=P and o(3,3,h+1,h)=N	max variable heap≤64	129	0	agrees on stated range	incorrect printed P: 0; incorrect printed N: 0
+0.3123	2611.29198v1 Conjecture 4.3	fixed prefix (0, 0); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	2100	0	finite fit	first fitting (p1,p2)=(2, 2); only fit to this range
+0.3123	2611.29198v1 Conjecture 4.3	fixed prefix (1, 0); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1820	0	finite fit	first fitting (p1,p2)=(18, 12); only fit to this range
+0.3123	2611.29198v1 Conjecture 4.3	fixed prefix (2, 0); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1739	0	finite fit	first fitting (p1,p2)=(21, 15); only fit to this range
+0.3123	2611.29198v1 Conjecture 4.3	fixed prefix (3, 0); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1739	0	finite fit	first fitting (p1,p2)=(21, 21); only fit to this range
+0.3123	2611.29198v1 Conjecture 4.3	fixed prefix (4, 0); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1739	0	finite fit	first fitting (p1,p2)=(21, 15); only fit to this range
+0.3123	2611.29198v1 Conjecture 4.3	fixed prefix (5, 0); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	2100	0	finite fit	first fitting (p1,p2)=(2, 2); only fit to this range
+0.3123	2611.29198v1 Conjecture 4.3	fixed prefix (6, 0); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1617	0	finite fit	first fitting (p1,p2)=(25, 12); only fit to this range
+0.3123	2611.29198v1 Conjecture 4.3	fixed prefix (7, 0); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1479	0	finite fit	first fitting (p1,p2)=(29, 17); only fit to this range
+0.3123	2611.29198v1 Conjecture 4.3	fixed prefix (8, 0); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1617	0	finite fit	first fitting (p1,p2)=(25, 15); only fit to this range
+0.3123	2611.29198v1 Conjecture 4.3	fixed prefix (9, 0); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1584	0	finite fit	first fitting (p1,p2)=(26, 15); only fit to this range
+0.3123	2611.29198v1 Conjecture 4.3	fixed prefix (10, 0); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1739	0	finite fit	first fitting (p1,p2)=(21, 21); only fit to this range
+0.3123	2611.29198v1 Conjecture 4.3	fixed prefix (1, 1); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	2100	0	finite fit	first fitting (p1,p2)=(2, 2); only fit to this range
+0.3123	2611.29198v1 Conjecture 4.3	fixed prefix (2, 2); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1739	0	finite fit	first fitting (p1,p2)=(21, 14); only fit to this range
+0.3123	2611.29198v1 Conjecture 4.3	fixed prefix (3, 3); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	2040	0	finite fit	first fitting (p1,p2)=(7, 7); only fit to this range
+0.3123	2611.29198v1 Conjecture 4.3	fixed prefix (4, 4); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1739	0	finite fit	first fitting (p1,p2)=(21, 14); only fit to this range
+0.3123	2611.29198v1 Conjecture 4.3	fixed prefix (5, 5); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	2100	0	finite fit	first fitting (p1,p2)=(2, 2); only fit to this range
+0.3123	2611.29198v1 Conjecture 4.3	fixed prefix (6, 6); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1584	0	finite fit	first fitting (p1,p2)=(26, 13); only fit to this range
+0.3123	2611.29198v1 Conjecture 4.3	fixed prefix (7, 7); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1584	0	finite fit	first fitting (p1,p2)=(26, 20); only fit to this range
+0.3123	2611.29198v1 Conjecture 4.3	fixed prefix (8, 8); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	2109	0	finite fit	first fitting (p1,p2)=(1, 1); only fit to this range
+0.3123	2611.29198v1 Conjecture 4.3	fixed prefix (9, 9); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1680	0	finite fit	first fitting (p1,p2)=(23, 16); only fit to this range
+0.3123	2611.29198v1 Conjecture 4.3	fixed prefix (10, 10); both periods=7; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤50	1845	0	finite fit	first fitting (p1,p2)=(17, 14); only fit to this range
+0.3123	2611.29198v1 Conjecture 4.4	some o(a+7,b,x,y) differs from o(a,b,x,y)	0≤a,b≤10; 0≤y≤x≤64	259545	35638	confirmed failure of fixed-heap folding	disagreements are counterexamples to folding
+0.3312	2611.29198v1 Conjecture 4.3	fixed prefix (0, 0); both periods=3; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤58	2009	0	finite fit	first fitting (p1,p2)=(13, 4); only fit to this range
+0.3312	2611.29198v1 Conjecture 4.3	fixed prefix (1, 0); both periods=3; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤58	1974	0	finite fit	first fitting (p1,p2)=(15, 15); only fit to this range
+0.3312	2611.29198v1 Conjecture 4.3	fixed prefix (2, 0); both periods=3; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤58	1935	0	finite fit	first fitting (p1,p2)=(17, 17); only fit to this range
+0.3312	2611.29198v1 Conjecture 4.3	fixed prefix (3, 0); both periods=3; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤58	1935	0	finite fit	first fitting (p1,p2)=(17, 17); only fit to this range
+0.3312	2611.29198v1 Conjecture 4.3	fixed prefix (4, 0); both periods=3; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤58	2009	0	finite fit	first fitting (p1,p2)=(13, 4); only fit to this range
+0.3312	2611.29198v1 Conjecture 4.3	fixed prefix (5, 0); both periods=3; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤58	1935	0	finite fit	first fitting (p1,p2)=(17, 17); only fit to this range
+0.3312	2611.29198v1 Conjecture 4.3	fixed prefix (6, 0); both periods=3; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤58	1974	0	finite fit	first fitting (p1,p2)=(15, 15); only fit to this range
+0.3312	2611.29198v1 Conjecture 4.3	fixed prefix (7, 0); both periods=3; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤58	1955	0	finite fit	first fitting (p1,p2)=(16, 4); only fit to this range
+0.3312	2611.29198v1 Conjecture 4.3	fixed prefix (8, 0); both periods=3; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤58	1955	0	finite fit	first fitting (p1,p2)=(16, 13); only fit to this range
+0.3312	2611.29198v1 Conjecture 4.3	fixed prefix (9, 0); both periods=3; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤58	1955	0	finite fit	first fitting (p1,p2)=(16, 15); only fit to this range
+0.3312	2611.29198v1 Conjecture 4.3	fixed prefix (10, 0); both periods=3; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤58	1955	0	finite fit	first fitting (p1,p2)=(16, 4); only fit to this range
+0.3312	2611.29198v1 Conjecture 4.3	fixed prefix (1, 1); both periods=3; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤58	2009	0	finite fit	first fitting (p1,p2)=(13, 4); only fit to this range
+0.3312	2611.29198v1 Conjecture 4.3	fixed prefix (2, 2); both periods=3; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤58	2009	0	finite fit	first fitting (p1,p2)=(13, 4); only fit to this range
+0.3312	2611.29198v1 Conjecture 4.3	fixed prefix (3, 3); both periods=3; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤58	2009	0	finite fit	first fitting (p1,p2)=(13, 4); only fit to this range
+0.3312	2611.29198v1 Conjecture 4.3	fixed prefix (4, 4); both periods=3; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤58	1955	0	finite fit	first fitting (p1,p2)=(16, 4); only fit to this range
+0.3312	2611.29198v1 Conjecture 4.3	fixed prefix (5, 5); both periods=3; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤58	1955	0	finite fit	first fitting (p1,p2)=(16, 4); only fit to this range
+0.3312	2611.29198v1 Conjecture 4.3	fixed prefix (6, 6); both periods=3; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤58	1955	0	finite fit	first fitting (p1,p2)=(16, 4); only fit to this range
+0.3312	2611.29198v1 Conjecture 4.3	fixed prefix (7, 7); both periods=3; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤58	1955	0	finite fit	first fitting (p1,p2)=(16, 4); only fit to this range
+0.3312	2611.29198v1 Conjecture 4.3	fixed prefix (8, 8); both periods=3; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤58	1955	0	finite fit	first fitting (p1,p2)=(16, 4); only fit to this range
+0.3312	2611.29198v1 Conjecture 4.3	fixed prefix (9, 9); both periods=3; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤58	1955	0	finite fit	first fitting (p1,p2)=(16, 4); only fit to this range
+0.3312	2611.29198v1 Conjecture 4.3	fixed prefix (10, 10); both periods=3; thresholds unspecified	0≤y≤x≤64; 0≤p1,p2≤58	1955	0	finite fit	first fitting (p1,p2)=(16, 4); only fit to this range
+0.3312	2611.29198v1 Conjecture 4.4	some o(a+3,b,x,y) differs from o(a,b,x,y)	0≤a,b≤10; 0≤y≤x≤64	259545	42210	confirmed failure of fixed-heap folding	disagreements are counterexamples to folding

@@ -1,0 +1,17 @@
+{
+  "target": "rpinho/math-certificates",
+  "new_bound": true,
+  "lean_status": "none",
+  "producer_model": "GPT-6.2 Sol via Codex",
+  "producer_author": "GPT-6.2 Sol via Codex",
+  "referee_model": "Claude Opus 5.5 (clean-room, producer code withheld)",
+  "submitter": "rpinho",
+  "destination": "games/liang-2608-13273-misere",
+  "certificate_repository": "rpinho/math-certificates",
+  "replay_inputs": {
+    "certificates/WITNESSES.tsv": "certificate",
+    "PROOF.md": "proof",
+    "referee/REPORT.md": "proof"
+  },
+  "scope": "Exact P/N counterexamples to 49 of the 55 printed Definition 3.4 tuples in Liang arXiv:2608.13273v2. Earlier public work settled four of these codes. The two 0.512/0.513 tuples hold by a published quotient and exact boundary check. The remaining four tuples agree through 56 tokens. No human review."
+}

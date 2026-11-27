@@ -1,0 +1,36 @@
+{
+  "scope": "Liang arXiv:2608.13273v2, Definition 3.4 and the p. 27 tuple table",
+  "claims": [
+    {
+      "value": "45",
+      "kind": "rigorous",
+      "producer": "referee/referee_solver.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Exact refutations among the 49 confirmed codes after excluding the four earlier public settlements identified in PRIOR_ART.md"
+    },
+    {
+      "value": "49",
+      "kind": "rigorous",
+      "producer": "referee/referee_solver.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "All printed tuples refuted by the witness set, including four credited to earlier work"
+    },
+    {
+      "value": "55",
+      "kind": "cited",
+      "source": "https://arxiv.org/pdf/2608.13273v2#page=27",
+      "new_bound": false,
+      "label": "Total printed tuples after expanding the paper's grouped octal codes"
+    },
+    {
+      "value": "56",
+      "kind": "rigorous",
+      "producer": "run.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Total tokens covered by the producer follow-up for the four still-open tuples"
+    }
+  ]
+}
