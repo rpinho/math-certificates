@@ -1,0 +1,273 @@
+{
+  "scope": "Exact 11-vertex 20-edge counterexample to Supkar and Yaddanapudi (arXiv:2611.32684v1).",
+  "claims": [
+    {
+      "value": "-1",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Exact negative invariant gamma(G) = -1 refuting the conjecture"
+    },
+    {
+      "value": "-2",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Exact chromatic derivative chi'_G(2) = -2"
+    },
+    {
+      "value": "11",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Counterexample vertex count n = 11"
+    },
+    {
+      "value": "20",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Counterexample edge count m = 20"
+    },
+    {
+      "value": "55",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "All C(11,2) = 55 two-vertex deletions verified connected"
+    },
+    {
+      "value": "150",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Brute-force 3-coloring count chi_G(3) = 150"
+    },
+    {
+      "value": "20760",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Brute-force 4-coloring count chi_G(4) = 20760"
+    },
+    {
+      "value": "190",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Coefficient of q^9 in chi_G(q)"
+    },
+    {
+      "value": "-1122",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Coefficient of q^8 in chi_G(q)"
+    },
+    {
+      "value": "4533",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Coefficient of q^7 in chi_G(q)"
+    },
+    {
+      "value": "-13007",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Coefficient of q^6 in chi_G(q)"
+    },
+    {
+      "value": "26647",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Coefficient of q^5 in chi_G(q)"
+    },
+    {
+      "value": "-38153",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Coefficient of q^4 in chi_G(q)"
+    },
+    {
+      "value": "36166",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Coefficient of q^3 in chi_G(q)"
+    },
+    {
+      "value": "-20253",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Coefficient of q^2 in chi_G(q)"
+    },
+    {
+      "value": "5018",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Coefficient of q in chi_G(q)"
+    },
+    {
+      "value": "39",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Numerator of 39/20 bracket"
+    },
+    {
+      "value": "19",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Numerator of 19/10 bracket"
+    },
+    {
+      "value": "16",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Paper control gamma(T_3) = 16"
+    },
+    {
+      "value": "10",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Vertex 10 and denominator of 19/10"
+    },
+    {
+      "value": "9",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Vertex 9 and 9-case expansion"
+    },
+    {
+      "value": "8",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Vertex 8"
+    },
+    {
+      "value": "7",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Vertex 7"
+    },
+    {
+      "value": "6",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Vertex 6 and 6 positive controls"
+    },
+    {
+      "value": "5",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Vertex 5, 5-cycle, 5 mutation controls, Section 5"
+    },
+    {
+      "value": "4",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Vertex 4, 4 algorithms, control gamma(T_2)=4"
+    },
+    {
+      "value": "3",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Vertex 3, connectivity kappa=3, K_{3,3}"
+    },
+    {
+      "value": "2",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Vertex 2, evaluation point q=2, 2-edge matching"
+    },
+    {
+      "value": "1",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Vertex 1, unique root count, control gamma(T_1)=1"
+    },
+    {
+      "value": "0",
+      "kind": "rigorous",
+      "producer": "referee/referee_verify.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Vertex 0 and chi_G(2)=0"
+    },
+    {
+      "value": "2611.32684",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.32684v1",
+      "new_bound": false,
+      "label": "arXiv identifier of Supkar and Yaddanapudi"
+    },
+    {
+      "value": "6.2",
+      "kind": "cited",
+      "source": "https://openai.com/",
+      "new_bound": false,
+      "label": "Model version GPT-6.2 Astra"
+    },
+    {
+      "value": "2026-11-26",
+      "kind": "cited",
+      "source": "https://arxiv.org/abs/2611.32684v1",
+      "new_bound": false,
+      "label": "Date of prior-art check"
+    },
+    {
+      "value": "0.6",
+      "kind": "cited",
+      "source": "referee/REFEREE.md",
+      "new_bound": false,
+      "label": "Verifier wall-clock seconds"
+    }
+  ]
+}

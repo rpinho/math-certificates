@@ -1,0 +1,30 @@
+{
+  "model": "Gemini 4 Carbon High via Antigravity CLI",
+  "author": "separate clean-room cross-family referee session (producer code withheld)",
+  "producer_author": "GPT-6.2 Astra via Codex",
+  "status": "PASS",
+  "value": "-1",
+  "values": [
+    "-1",
+    "-2",
+    "11",
+    "20",
+    "55",
+    "150",
+    "20760"
+  ],
+  "arithmetic": "exact",
+  "inputs": {
+    "certificates/witness.json": "cadf46dbed3a3a4a767671c87fa1aaaeea07b0aa670ab293cf8fe96305fdb289",
+    "PROOF.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "referee/REFEREE.md": "3d7a31d299b815f591d2fa1c755e7253774f2c6ce870964bf4d43dfe42619e8a"
+  },
+  "inputs_hash": "f007a09f2b75cd444000480cd46e5da12e8cd4a29d9ee9b1b20ad7639841d723",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/referee_verify.py",
+  "checker_sha256": "668137c66ac727da72c976afc6991d91dfa07a74889d3175b6b46102ea3620eb",
+  "report": "referee/REFEREE.md",
+  "report_sha256": "3d7a31d299b815f591d2fa1c755e7253774f2c6ce870964bf4d43dfe42619e8a",
+  "note": "Clean-room cross-family referee (Gemini 4 Carbon High) returned VERDICT: HOLDS on the 11-vertex, 20-edge 3-connected non-bipartite counterexample (two K_{3,3} sharing vertex 0 plus 2-edge matching) to Supkar and Yaddanapudi (arXiv:2611.32684v1), verifying chi_G(2)=0, chi'_G(2)=-2, gamma(G)=-1 via 4 independent exact-integer algorithms, brute-force k=0..4 counts, all 55 pair deletions, explicit 5-cycle, unique Sturm root in (19/10, 39/20), and all controls in 0.60s."
+}
