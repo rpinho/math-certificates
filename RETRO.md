@@ -5,6 +5,18 @@ Tao's [optimization-constants table](https://teorth.github.io/optimizationproble
 [problem 100](https://github.com/openai/math/blob/main/lean/docs/100.md) of OpenAI's math release. Each has an exact
 certificate and checkers. The work was done with AI models under my direction. None of it is refereed.
 
+## Update, November 27
+
+12 of my pull requests to the table are merged now. 11 are still open.
+
+[Erdős problems](README.md). [#1182](erdos/1182-495/): F(n) ≤ ⌊99n/20⌋ − 1 < 4.95n for all n ≥ 450,000. [#1183](erdos/1183/): f(11)=7, f(12)=7, f(13)=8, f(14)=8, f(15)=9, f(16)=9, f(17)=10, f(18)=10, f(19)=11; f(20)≤12; f(21)=12; f(22)≤13; 13≤f(23)≤14; f(24)=14. [#293](erdos/293-k9-gaps/): 13,878,989 is the second missing denominator greater than one, and all 64 missing denominators of D₉ in [2, 20,000,000] are known. They have exact checkers. No one has checked them by hand.
+
+[Conjectures](conjectures/) from recent arXiv papers. I published 12. Only 3 were first. For the other 9, others had it before. It says right there in the folders.
+
+I was wrong. I only searched the arXiv number, not the authors or the statement. I looked everywhere except there. Should have known better. Now I search by author and statement before I do and before I publish.
+
+It's not just me doing this. This can be done in a few weeks.
+
 ## Update, November 13
 
 The table has not merged anything from anyone since October 26. I have 18 pull requests open there now, all
