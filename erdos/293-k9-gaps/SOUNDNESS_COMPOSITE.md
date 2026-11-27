@@ -1,6 +1,6 @@
 # Exhaustiveness for composite fixed denominators
 
-The search adapts our prior Erdős #293 solver, whose rational bounds, reduction, and two-term proof are in [the previous soundness note](SOUNDNESS.md). The release checker and the full control enumerator are separate from the fixed-denominator search.
+The search adapts my earlier Erdős #293 solver, whose rational bounds, reduction, and two-term proof are in [the previous soundness note](SOUNDNESS.md). The release checker and the full control enumerator are separate from the fixed-denominator search.
 
 ## Removing the fixed denominator
 

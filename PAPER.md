@@ -944,6 +944,96 @@ Full record: [Result](erdos/1183/README.md) · [Proof](erdos/1183/PROOF.md) · [
 
 ---
 
+# Erdős #1182: the triangle Ramsey goodness threshold F(n)
+
+Folder: [erdos/1182-495](erdos/1182-495) (Round 1: [erdos/1182](erdos/1182))
+
+**Status** (from the table in [README.md](README.md))
+
+Bound: **F(n) ≤ ⌊99n/20⌋ − 1 < 4.95n for all n ≥ 450,000** (including odd n; [erdos/1182-495](erdos/1182-495/), producer Gemini 4 Carbon High, clean-room referee GPT-6.2 Astra HOLDS). Round 1: F(n) ≤ 5n − 1 for all n ≥ 550,000 ([erdos/1182](erdos/1182/))
+
+Previous best: Stephan Brandt’s published 84n (and 11.75n announced without proof); Kataria’s unrefereed 5.025n ([Sovi11/erdos-1182](https://raw.githubusercontent.com/Sovi11/erdos-1182/6d4f78c/BOUNDS.md))
+
+Status: Candidate; no human review. Bare d=10 configuration model with Kempe-swap dichotomy on Φ-minimal balanced C<sub>5</sub> embeddings and three 160-bit Arb certificates (4,308 leaves). Produced by GPT-6.2 Sol; clean-room cross-family referees with producer code withheld: Claude Opus 5.5 (Round 1; caught reversed Case I cutoff) and Gemini 4 Carbon High (Round 2 on repaired Case I, HOLDS, 10/10 corruption controls rejected)
+
+**Claim** (opening of [erdos/1182-495/README.md](erdos/1182-495/README.md))
+
+### Erdos Problem #1182: Unconditional Sub-5n Upper Bound $F(n) \le \lfloor 99n/20 \rfloor - 1 < 4.95n$
+
+I prove an unconditional upper bound on the Erdos-Sauer-Brandt threshold $F(n)$ for Erdos Problem #1182 (Ramsey-size-linear / $C_5$-blowup-avoiding graphs):
+
+$$F(n) \le \left\lfloor \frac{99}{20} n \right\rfloor - 1 < 4.95\,n \qquad \text{for every integer } n \ge 450000 \text{ (both even and odd } n\text{)}.$$
+
+Prior bounds are Brandt (1996, $84n$), Nikiforov and Rousseau (2009, $50n - 1$), Kataria (2026 unrefereed, $5.025n$), and my Round 1 refereed bound $5n - 1$ for $n \ge 550000$ (commit `2c87d8e`). The new bound lowers both the asymptotic slope below $5$ and the explicit threshold $n_0$ by $100000$.
+
+This is AI work. No human has checked it. **Lean status:** `none`.
+
+**Method** (first paragraph of [erdos/1182-495/PROOF.md](erdos/1182-495/PROOF.md))
+
+**Theorem 1.** *Let $F(n)$ denote the largest integer $q$ such that every connected simple graph $G$ on $n$ vertices with at most $q$ edges satisfies $R(K_3, G) = 2n - 1$. For every integer $n \ge 450{,}000$ (both even and odd $n$),*
+$$F(n) \le \left\lfloor \frac{99}{20} n \right\rfloor - 1 < 4.95\,n.$$
+
+**Referee** (opening of [erdos/1182-495/referee/REFEREE.md](erdos/1182-495/referee/REFEREE.md))
+
+VERDICT: HOLDS
+
+Full record: [Result](erdos/1182-495/README.md) · [Proof](erdos/1182-495/PROOF.md) · [Referee](erdos/1182-495/referee/REFEREE.md) · [Round 1](erdos/1182/README.md)
+
+---
+
+# Erdős #293: missing denominators of nine-term unit-fraction decompositions
+
+Folder: [erdos/293-k9-gaps](erdos/293-k9-gaps) (first omission replay: [replays/erdos293-v9](replays/erdos293-v9))
+
+**Status** (from the table in [README.md](README.md))
+
+Bound: **13,878,989 is the second missing denominator greater than one**. Complete below 20,000,000: 63 exhaustive prime zeros and 560 exact witnesses over the 623 gaps above 13,856,993, so all 64 missing denominators of D₉ in [2, 20,000,000] are known and every one is prime
+
+Previous best: EconLearn’s first omission 13,856,993 and certificate release, including ntysdd’s certificates
+
+Status: Candidate. GPT-6.2 Sol C/GMP search, exact certificate and shard checks, and a separate Claude Opus 5.5 reading of the soundness argument. No human review
+
+**Claim** (opening of [erdos/293-k9-gaps/README.md](erdos/293-k9-gaps/README.md))
+
+### Erdős #293. The second missing denominator of D₉
+
+**Candidate. AI work.** GPT-6.2 Sol wrote my C/GMP solver and read nobody else’s code for the search. Claude Opus 5.5 separately read the soundness argument. No human has checked it. [Review record](erdos/293-k9-gaps/VERDICT_for_ledger.txt).
+
+I found no representation of 1 as nine distinct unit fractions that contains 1/13,878,989. I checked an exact representation for every integer strictly between 13,856,993 and 13,878,989. With the earlier result that 13,856,993 is the least missing denominator greater than one, this gives **13,878,989 as the second smallest integer missing from D₉ among integers greater than one**, where D₉ is the set of denominators occurring in such representations. [First omission replay](replays/erdos293-v9/), [Erdős #293](https://www.erdosproblems.com/293).
+
+I continued through all release gaps below 20,000,000 in increasing order across Rounds 1 through 6. The table is now **complete below 20,000,000**: across all 623 previously omitted labels above 13,856,993 through 19,997,711, there are **63 exhaustive prime zeros** (starting with 13,878,989 and ending with 19,944,241) and **560 exact 9-term witnesses**, with **0 unsettled gaps** remaining. Together with EconLearn's first omission 13,856,993, all **64 missing denominators** of D_9 in `[2, 20,000,000]` are now classified and every one is prime. [Gap table](erdos/293-k9-gaps/gaps.tsv), [round-6 completion note](erdos/293-k9-gaps/ROUND6.md), [round-6 audit](erdos/293-k9-gaps/VERDICT_round6.txt), [round-2 note](erdos/293-k9-gaps/ROUND2.md), [public baseline](erdos/293-k9-gaps/PRIOR_ART.md).
+
+**Method** (first paragraph of [erdos/293-k9-gaps/SOUNDNESS_COMPOSITE.md](erdos/293-k9-gaps/SOUNDNESS_COMPOSITE.md))
+
+The search adapts my earlier Erdős #293 solver, whose rational bounds, reduction, and two-term proof are in [the previous soundness note](erdos/293-k9-gaps/SOUNDNESS.md). The release checker and the full control enumerator are separate from the fixed-denominator search.
+
+Full record: [Result](erdos/293-k9-gaps/README.md) · [Gap table](erdos/293-k9-gaps/gaps.tsv) · [Soundness](erdos/293-k9-gaps/SOUNDNESS_COMPOSITE.md) · [Rounds 3 to 6](erdos/293-k9-gaps/ROUND6.md) · [Prior art](erdos/293-k9-gaps/PRIOR_ART.md)
+
+---
+
+# Conjectures from recent arXiv papers
+
+Folder: [conjectures](conjectures)
+
+Between 24 and 27 November 2026 my agents took conjectures stated in recent arXiv papers and tried to prove or refute them, each result with an exact checker and a clean-room AI referee. A priority audit on 27 November found that only 3 of the 12 published packets were first: van Berkel and Bosma Conjecture 4, the Supkar and Yaddanapudi counterexample, and Selvaraja Conjectures 5.9 and 3.6. The other 9 had already been settled, in whole or in part, by others before I published them. Their folders now say so in the first line and credit who had it first; they are reproductions or partial supplements, not new results. The table below is the Conjectures table from [README.md](README.md), copied as is.
+
+| Conjecture | Result | Lean | Verification | Files |
+|---|---|---|---|---|
+| **van Berkel & Bosma** ([arXiv:2609.16843v2](https://arxiv.org/abs/2609.16843v2), Conjecture 4): 3-sumfree sequences $S_{1,d-1,2d-1}$ | **Disproved at $d=4$ and every $d\ge 6$; full family resolved for all $d\ge 3$**: $(k,p,m)=(5,1,5)$ at $d=3$, **$(7,3,27)$** at $d=4$ (vs printed period $4$, mod $31$), $(13,10,104)$ at $d=5$, and **$(d+3,d,8d-3)$** for all $d\ge 6$ (vs printed mod $8d-1$) | none | Candidate; no human review. Producer Gemini 4 Carbon High; clean-room cross-family referee GPT-6.2 Astra confirmed theorem and caught `blocks.U1` schema typo + 6 small-case prose slips; all 7 fixes applied and `referee_verify_repaired.py` exited 0 with 0 disagreements (40 exact cases, 1,174 mutants rejected) | [conjectures/2609-16843-conj4](conjectures/2609-16843-conj4/) |
+| **Selvaraja** ([arXiv:2611.20820v1](https://arxiv.org/abs/2611.20820v1), Conjectures 5.9 and 3.6): close-skew length and the Vietoris–Rips theta-number | **Proved for every $n>r\ge1$**: maximum close-skew length and $\theta(\mathrm{VR}(I_n;r))$ both equal $2^r$. Shukla’s collapsibility equality follows. | none | Candidate. Proof by GPT-6.2 Astra (Codex). Clean-room audit by Claude Opus 5.5 returned **VERDICT: HOLDS**. Both exact checkers exited zero. No human mathematician has reviewed it. | [conjectures/2611-20820-conj59-36](conjectures/2611-20820-conj59-36/) |
+| **Supkar & Yaddanapudi** ([arXiv:2611.32684v1](https://arxiv.org/abs/2611.32684v1), Section 5): non-negativity of γ(G) for 3-connected non-bipartite graphs | **Disproved**: an 11-vertex, 20-edge 3-connected non-bipartite graph has γ(G) = −1 | complete (standalone, zero Mathlib) | Candidate. Counterexample by GPT-6.2 Astra (Codex). Clean-room audit by Gemini 4 Carbon High returned **VERDICT: HOLDS** with an exact integer checker. No human mathematician has reviewed it. | [conjectures/2611-32684-gamma](conjectures/2611-32684-gamma/) |
+| **Higuita-Diaz, López & Roldán-Correa** ([arXiv:2611.14718v2](https://arxiv.org/abs/2611.14718v2), Conjecture 5.2): subcubic RSA vs static MIS stochastic dominance | **Partial supplement.** [AmirMakir](https://github.com/AmirMakir/broken-conjectures/commit/98ebee5037f45ab9812aa220518852e449438b28) gave the same tree on 2026-11-25 UTC and established the sharp minimum of 15 in a later [through-order-14 census](https://github.com/AmirMakir/broken-conjectures/commit/bc5bc1d5fb0baab9ec9ea422087432865bbcfabc). [Ojas Mor](https://github.com/lykoslopezrivera-blip/Stochastic_Dominance_DPP_Graphs/issues/1) also disclosed the tree. This packet adds the order-15 classification, two unicyclic witnesses and the general tree family. The packet's census gives 0 counterexamples for $n\le 14$ (358,891 connected subcubic graphs) and **exactly 3** at $n=15$ (1,016,740 graphs), led by a 15-vertex 14-edge subcubic tree $F_3$ (`P(seq <= 6) = 64/3375 > 1/55 = P(stat <= 6)`, plus two 15-edge unicyclic witnesses with strict global static dominance and infinite tree family $F_m$, $m\ge 3$) | none | Candidate; no human review. Producer Gemini 4 Carbon High; clean-room cross-family referee GPT-6.2 Astra independently re-enumerated all 1,375,631 connected subcubic graphs $n\le 15$ and replayed 4,604,216 size bins, catching a transcription typo in `rsa_pmf["7"]` (`7993019/10135125`) and `CE#3` minimality; repaired `certificates/witness.json` passed `referee_verify_repaired.py --strict-certificate` (exit 0) | [conjectures/2611-14718-conj52](conjectures/2611-14718-conj52/) |
+| **Ma, Sahbi & Zhang** ([arXiv:2609.25128v4](https://arxiv.org/abs/2609.25128v4), Conjecture 9.2): Nordhaus-Gaddum upper bound for sub-quorum colorings | **Reproduction.** [Derek Blair](https://github.com/derekblair/math-proofs/pull/54) proved the same sharp $n+2$ bound on 2026-11-25 UTC. **Proved unconditionally for all $n\ge 2$**: $\psi_{sq}(G) + \psi_{sq}(\overline{G}) \le n + 2$ via reciprocal class-size vertex weights and sharp handshaking bound $\Sigma(H) \le m + 5/2$ (attained on $P_3$ inside $S_{2,2}$) | none | Candidate; no human review. Producer Gemini 4 Carbon High; clean-room cross-family referee GPT-6.2 Astra upheld Theorem 1 and Lemmas 1-3 with zero mathematical gaps, independently checking 33,868 graphs $n\le 6$, all 268,435,456 labeled graphs at $n=8$, 16,348,842 degree sequences $n=8..15$, and 288,265 classes $n=2..9$ (Remark 3 wording precision applied) | [conjectures/2609-25128-conj92](conjectures/2609-25128-conj92/) |
+| **van Berkel & Bosma** ([arXiv:2609.18522v1](https://arxiv.org/abs/2609.18522v1), Conjectures 5 & 9): 2-sumfree period & preperiod formulas | **Partial supplement.** [TrureTuring](https://github.com/the-omega-institute/trureturing/issues/34312#issuecomment-7178554093) refuted Conjecture 9 on 2026-11-26 UTC. This packet adds a different witness and an explicit Conjecture 5 refutation using a previously tabulated period. **Both formulas disproved as stated**: Conjecture 5 fails at $S_{4,11}$ ($d=7$: formula $p=9$ vs certified minimal **$(11,10,33)$**); Conjecture 9 fails at $S_{5,10}$ ($d=5$: formula $k=7$ vs certified minimal **$(6,6,24)$**, plus `1,645` mismatches in 4,800-pair grid including negative `-23` at $S_{12,30}$) | none | Candidate; no human review. Producer GPT-6.2 Astra; clean-room cross-family referee Gemini 4 Carbon High returned **VERDICT: HOLDS** with zero defects via pure-`int`/`Fraction` dual proofs, 15 positive controls, 16/16 negative controls, and all 1,845 printed table entries | [conjectures/2609-18522-conj5-9](conjectures/2609-18522-conj5-9/) |
+| **Lewis & Won** ([arXiv:2609.03081v1](https://arxiv.org/abs/2609.03081v1), Conjecture 3.14): layered maxima for permutation-grid rook counts | **Partial supplement.** [Xiaojian Zeng](https://raw.githubusercontent.com/ArtificialZeng/AI-Has-Taste/f3ae144b74f238f22c2b84b5283cb14ce912fd33/reproducible_source_code/BigWIN2/BW2-B41-P04/source/manuscript/main.tex) proved the $n=9$ case on 2026-09-16 UTC. This packet adds the $n=17,18$ refutations and $n=10$–$14$ maxima. **Disproved at $n=17$ (and $n=18$)**: 2-shell layered shape `(5,3,1,3,5)` gives **`104,476,798,194,769`** rook placements vs single-shell `(m,1*,m)` max `103,460,138,813,701` (`+1,016,659,381,068`); also proved Conjecture 3.14 holds unconditionally through $n=14$ (`r(10..14) = 255569..10353226769`) | none | Candidate; no human review. Producer Gemini 4 Carbon High; clean-room cross-family referee GPT-6.2 Astra confirmed $n=17, 18$ via matching DP, Ryser, and 7-square formula, independently re-proved $r(10..14)$ through $S_{14}$, verified all 136 endpoint pairs at $n=17$, and rejected 5/5 mutations (prose/scope clarifications applied in README) | [conjectures/2609-03081-conj314](conjectures/2609-03081-conj314/) |
+| **Höngesberg, Konvalinka & Linusson** ([arXiv:2610.07442v1](https://arxiv.org/abs/2610.07442v1), Conjecture 4.5) | **Reproduction.** [TrureTuring](https://github.com/the-omega-institute/trureturing/pull/14905) posted the same four-term count for all admissible dimensions in a PR opened on 2026-10-09 UTC. [Knowledge Sense](https://raw.githubusercontent.com/KnowledgeSense/math/91f1bdd2a10abeb28acc742ce3ee884874caf124/preprints/Enumeration-of-Extendably-312-Avoiding-Alternating-Sign-Rectangles-October-12-2026/lean/README.md) also proved the full formula. | none | Algebraic generating-function proof. Exact standalone referee check. No human review. | [conjectures/2610-07442-conj45](conjectures/2610-07442-conj45/) |
+| **Yaqubi & Mirzavaziri** ([arXiv:2611.05623v1](https://arxiv.org/abs/2611.05623v1), Conjectures 6.1–6.4) | **Reproduction.** [TrureTuring](https://github.com/the-omega-institute/trureturing/pull/33580) proved 6.1 in a PR opened on 2026-11-23 UTC. [Conjecture Desk](https://github.com/jmadeiros/conjecture-desk/commit/95760bfed3805073e9cdff9440688287fbe0240f) proved 6.2–6.4, including exactness and all five final congruences, in a commit dated 2026-11-25 UTC. | none | Exact-integer referee report and Sturm checks. No human review. | [conjectures/2611-05623-sec6](conjectures/2611-05623-sec6/) |
+| **Banerjee & Smoot** ([arXiv:2611.09681v1](https://arxiv.org/abs/2611.09681v1), Conjecture 6.1) | **Reproduction.** [AmirMakir](https://github.com/AmirMakir/broken-conjectures/commit/234e28fc050dc60282f18f3a185e669d4f7cd335) gave the same two exact coefficient counterexamples on 2026-11-25 UTC. This packet formalizes both parts in Lean. | verified | Exact-integer replay by two algorithms. No human review. | [conjectures/2611-09681-conj61](conjectures/2611-09681-conj61/) |
+| **Crew et al.** ([arXiv:2611.13273v1](https://arxiv.org/abs/2611.13273v1), Conjectures 1 and 2) | **Reproduction.** [TrureTuring](https://github.com/the-omega-institute/trureturing/pull/31959) proved weak real monotonicity in a PR opened on 2026-11-19 UTC. The endpoint inequality follows. This packet also gives a strict derivative statement. | verified | Marked-vertex proof and exact-integer referee checks. No human review. | [conjectures/2611-13273-conj1-2](conjectures/2611-13273-conj1-2/) |
+| **Coste, Csikós & Viennot** ([arXiv:2611.18391v1](https://arxiv.org/abs/2611.18391v1), Section 5) | **Reproduction.** [Fellows’ lemma, published by Chimani, Derka, Hliněný and Klusáček](https://arxiv.org/abs/1107.0176v1) in a preprint dated 2011-07-01 UTC implies both the coloring result and the full outerplanar-emulator theorem. | none | Forbidden-minor proof with exact-integer referee checks. No human review. | [conjectures/2611-18391-sec5](conjectures/2611-18391-sec5/) |
+
+---
+
 # C30: growth rate of 1324-avoiding permutations
 
 Folder: [c30/round1](c30/round1)
