@@ -1,0 +1,64 @@
+== 0. Ranges at n ==
+x values with 4pen(x)^2 <= n: 42  min -21 max 20  negatives: 21
+z values with hep(z) <= n:    1689  min -844 max 844  negatives: 844
+
+== 1. Direct check of n = 1,782,381 ==
+(x, z) pairs tested: 62229; representations found: 0 []
+wide-box brute force (x in [-40,40], z in [-1000,1000]) hits: 0
+y,z loop with generalized-pentagonal test on the remainder: hits 0 (y in [0,1887])
+
+== 2. Sieve over 0..2000000 (all integers x, y, z) ==
+distinct 4pen^2 values: 43, distinct hep values: 1789
+unrepresented m in [0, 2000000]: 1 -> [1782381]
+smallest unrepresented: 1782381; equals claim: True
+unrepresented below n: 0
+sieve vs direct on 0..20000 and n+-200: mismatches 0
+witness m=0: (x,y,z)=(0, 0, 0) ok=True
+witness m=1: (x,y,z)=(0, 1, 0) ok=True
+witness m=2: (x,y,z)=(0, 1, -1) ok=True
+witness m=3: (x,y,z)=(0, 2, 0) ok=True
+witness m=1782380: (x,y,z)=(0, 1879, 80) ok=True
+witness m=1782382: (x,y,z)=(0, 1886, 34) ok=True
+
+== 3. Controls ==
+  m=   71603 (x,y,z)=(2, 370, 33) 4pen^2=196 T=68635 hep=2772 ok=True
+  m=   77366 (x,y,z)=(0, 331, -95) 4pen^2=0 T=54946 hep=22420 ok=True
+  m=   85609 (x,y,z)=(0, 118, 177) 4pen^2=0 T=7021 hep=78588 ok=True
+  m=  181490 (x,y,z)=(0, 307, -232) 4pen^2=0 T=47278 hep=134212 ok=True
+  m=  308603 (x,y,z)=(1, 479, 278) 4pen^2=16 T=114960 hep=193627 ok=True
+  m=  339145 (x,y,z)=(3, 782, 113) 4pen^2=900 T=306153 hep=32092 ok=True
+  m=  343426 (x,y,z)=(1, 336, -339) 4pen^2=16 T=56616 hep=286794 ok=True
+  m=  350090 (x,y,z)=(3, 436, -319) 4pen^2=900 T=95266 hep=253924 ok=True
+  m=  427845 (x,y,z)=(0, 488, 351) 4pen^2=0 T=119316 hep=308529 ok=True
+  m=  497519 (x,y,z)=(0, 973, 97) 4pen^2=0 T=473851 hep=23668 ok=True
+  m=  548637 (x,y,z)=(1, 613, -380) 4pen^2=16 T=188191 hep=360430 ok=True
+  m=  562127 (x,y,z)=(1, 1050, 64) 4pen^2=16 T=551775 hep=10336 ok=True
+  m=  595193 (x,y,z)=(0, 55, 487) 4pen^2=0 T=1540 hep=593653 ok=True
+  m=  633995 (x,y,z)=(1, 1124, 26) 4pen^2=16 T=632250 hep=1729 ok=True
+  m=  825392 (x,y,z)=(0, 1246, 139) 4pen^2=0 T=776881 hep=48511 ok=True
+  m=  974137 (x,y,z)=(3, 1385, 73) 4pen^2=900 T=959805 hep=13432 ok=True
+  m= 1134691 (x,y,z)=(1, 305, -660) 4pen^2=16 T=46665 hep=1088010 ok=True
+  m= 1225390 (x,y,z)=(0, 1562, 43) 4pen^2=0 T=1220703 hep=4687 ok=True
+  m= 1242658 (x,y,z)=(2, 429, 678) 4pen^2=196 T=92235 hep=1150227 ok=True
+  m= 1361822 (x,y,z)=(1, 1646, 50) 4pen^2=16 T=1355481 hep=6325 ok=True
+  m= 1554872 (x,y,z)=(0, 1567, 361) 4pen^2=0 T=1228528 hep=326344 ok=True
+  m= 1563261 (x,y,z)=(6, 1760, 15) 4pen^2=12996 T=1549680 hep=585 ok=True
+  m= 1669165 (x,y,z)=(0, 1805, 125) 4pen^2=0 T=1629915 hep=39250 ok=True
+  m= 1714058 (x,y,z)=(0, 1705, 322) 4pen^2=0 T=1454365 hep=259693 ok=True
+  m= 1757129 (x,y,z)=(2, 696, 778) 4pen^2=196 T=242556 hep=1514377 ok=True
+all 25 random controls represented with checked witness: True
+m <= n represented only with some x < 0: 372 (first [9, 12, 69, 119, 145])
+   m=9 all reps [(-1, 1, 1)]
+   m=12 all reps [(-1, 1, -2)]
+   m=69 all reps [(-1, 4, -5)]
+m <= n represented only with some z < 0: 156 (first [2, 12, 24, 54, 69])
+   m=2 all reps [(0, 1, -1)]
+   m=12 all reps [(-1, 1, -2)]
+   m=24 all reps [(0, 3, -3), (1, 1, -2)]
+
+== 4. Other readings ==
+natural numbers from 1: 0 = 4pen(0)^2+T(0)+hep(0) is represented, so the smallest exception is unchanged.
+x, y, z >= 0 only: 3593 unrepresented in [0, n], first 10: [2, 8, 9, 11, 12, 18, 24, 38, 51, 54]
+x >= 0 only (z all): first 10 unrepresented: [9, 12, 69, 119, 145, 168, 246, 392, 416, 501] (count 373)
+z >= 0 only (x all): first 10 unrepresented: [2, 12, 24, 54, 69, 81, 126, 162, 183, 213] (count 157)
+y sign: T(y) = T(-1-y), so restricting y >= 0 changes nothing.

@@ -1,0 +1,63 @@
+{
+  "model": "Claude Opus 5.5",
+  "author": "separate clean-room cross-family referee session (producer code withheld)",
+  "producer_author": "GPT-6.2 Sol via Codex",
+  "status": "PASS",
+  "value": "1782381",
+  "values": [
+    "1782381"
+  ],
+  "arithmetic": "exact",
+  "inputs": {
+    "certificates/witness.json": "6e94870fb24e232c648b6b93a48ae4004c6b59facb6fe88ad0be96c73aa22e2e",
+    "certificates/a270594-replay.txt": "81f5f07efd84b275310a0b9e65c0d6767c72d1047c0cb6d065c5dc86d67a355d",
+    "PROOF.md": "cc6914a6adc71e98385abaf303d12055303a50b2d9a324d6ce807ab6fe731b69",
+    "referee/REPORT.md": "70aa2487db3fab0cf30b095e5b89ba5702a880a03be351434fdb7bf2499c1a16"
+  },
+  "inputs_hash": "442f00eec5d663620f0e803355616a3e8cd318052e797da3ecbd95c711914502",
+  "read_producer_code": false,
+  "ran_producer_code": false,
+  "checker": "referee/referee_check.py",
+  "checker_sha256": "d121440ccc44b033e68e53b4bb3d2025675c3fec3f13f4aa9bedf43508bbe3d3",
+  "report": "referee/REPORT.md",
+  "report_sha256": "70aa2487db3fab0cf30b095e5b89ba5702a880a03be351434fdb7bf2499c1a16",
+  "runs": {
+    "producer": {
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python3",
+        "-I",
+        "check_a270594.py",
+        "--minimality",
+        "--literal"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.26,
+      "peak_rss_bytes": 20561920,
+      "checker_sha256": "30cb7ed4ff00b357778b8e33e2f3135a1b22a5da4d112b5c55d7d989b4c5fb5d",
+      "stdout_sha256": "81f5f07efd84b275310a0b9e65c0d6767c72d1047c0cb6d065c5dc86d67a355d",
+      "expected_stdout": "certificates/a270594-replay.txt",
+      "stdout_matches_expected": true
+    },
+    "referee": {
+      "command": [
+        "nice",
+        "-n",
+        "10",
+        "python3",
+        "-I",
+        "referee/referee_check.py"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 4.097,
+      "peak_rss_bytes": 28180480,
+      "checker_sha256": "d121440ccc44b033e68e53b4bb3d2025675c3fec3f13f4aa9bedf43508bbe3d3",
+      "stdout_sha256": "badbc80d77653dca0b7946ce2baa986721938c4f17e96fa994e953876206655e",
+      "expected_stdout": "referee/run.log",
+      "stdout_matches_expected": true
+    }
+  },
+  "note": "The independence attestations describe the original referee session. The packaging session ran both standalone checkers against their frozen outputs. The hashed proof and certificate files bind this packet."
+}

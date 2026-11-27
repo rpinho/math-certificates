@@ -1,0 +1,28 @@
+{
+  "scope": "The all-integer formula 4*pen(x)^2+T(y)+hep(z) in OEIS A270594(ii).",
+  "claims": [
+    {
+      "value": "1782381",
+      "kind": "rigorous",
+      "producer": "check_a270594.py",
+      "arithmetic": "exact",
+      "new_bound": true,
+      "label": "Exact smallest natural number with no representation in this clause"
+    },
+    {
+      "value": "62229",
+      "kind": "rigorous",
+      "producer": "check_a270594.py",
+      "arithmetic": "exact",
+      "new_bound": false,
+      "label": "Number of admissible (x,z) pairs at the counterexample"
+    },
+    {
+      "value": "4375339279",
+      "kind": "cited",
+      "source": "https://zenodo.org/records/24599782",
+      "new_bound": false,
+      "label": "Earlier A302984 result that inspired the sweep"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "target": "rpinho/math-certificates",
+  "new_bound": true,
+  "lean_status": "none",
+  "producer_model": "GPT-6.2 Sol via Codex",
+  "producer_author": "GPT-6.2 Sol via Codex",
+  "referee_model": "Claude Opus 5.5 (clean-room, producer code withheld)",
+  "submitter": "rpinho",
+  "destination": "oeis/A270594-ii",
+  "certificate_repository": "rpinho/math-certificates",
+  "replay_inputs": {
+    "certificates/witness.json": "certificate",
+    "certificates/a270594-replay.txt": "certificate",
+    "PROOF.md": "proof",
+    "referee/REPORT.md": "proof"
+  },
+  "scope": "Exact smallest counterexample 1782381 to the individual OEIS A270594(ii) formula 4*pen(x)^2+T(y)+hep(z) for integer variables. Clean-room referee VERDICT: HOLDS. No Lean formalization or human review. Local packaging only."
+}

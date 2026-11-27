@@ -1,0 +1,20 @@
+{
+  "oeis_entry": "A270594",
+  "clause": "(ii), 4*pen(x)^2+T(y)+hep(z)",
+  "variables": "x, y, z in Z",
+  "minimum_unrepresented": 1782381,
+  "producer": {
+    "coverage": [0, 1782381],
+    "unrepresented": [1782381],
+    "admissible_x_z_pairs_at_counterexample": 62229,
+    "representations_at_counterexample": 0
+  },
+  "referee": {
+    "coverage": [0, 2000000],
+    "unrepresented": [1782381],
+    "adjacent_witnesses_xyz": {
+      "1782380": [0, 1879, 80],
+      "1782382": [0, 1886, 34]
+    }
+  }
+}
